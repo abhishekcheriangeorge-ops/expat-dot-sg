@@ -59,12 +59,6 @@ export function SiteFooter() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/sponsored" className="no-underline hover:text-paper">
-              Sponsored
-            </Link>
-            <Link href="/advertise" className="no-underline hover:text-paper">
-              Advertise
-            </Link>
             <Link href="/about" className="no-underline hover:text-paper">
               About
             </Link>
@@ -73,6 +67,12 @@ export function SiteFooter() {
               className="no-underline hover:text-paper"
             >
               Editorial policy
+            </Link>
+            <Link
+              href="/advertise"
+              className="opacity-70 no-underline hover:text-paper hover:opacity-100"
+            >
+              Advertise
             </Link>
           </nav>
         </div>

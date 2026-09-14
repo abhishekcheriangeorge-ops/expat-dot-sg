@@ -72,17 +72,6 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link
-            href="/advertise"
-            className={`hidden text-sm font-medium no-underline transition-colors sm:inline ${
-              overHero
-                ? "text-tungsten-soft hover:text-paper"
-                : "text-canopy hover:text-canopy-mist"
-            }`}
-          >
-            Advertise
-          </Link>
-
           <button
             type="button"
             className={`inline-flex h-10 w-10 items-center justify-center rounded-sm lg:hidden ${
@@ -155,18 +144,6 @@ export function SiteHeader() {
               ))}
             </div>
             <div className="mt-4 flex flex-col gap-1 border-t border-fog-soft pt-4">
-              <Link
-                href="/sponsored"
-                className="py-2.5 text-base font-medium text-ink no-underline"
-              >
-                Sponsored
-              </Link>
-              <Link
-                href="/advertise"
-                className="py-2.5 text-base font-medium text-canopy no-underline"
-              >
-                Advertise
-              </Link>
               <Link
                 href="/about"
                 className="py-2.5 text-base font-medium text-ink-muted no-underline"
