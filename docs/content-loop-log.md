@@ -4,6 +4,66 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 12 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — divorce / custody / Hague ([foreign spouse kids](https://www.reddit.com/r/askSingapore/comments/x6dksp/anybody_divorced_a_foreign_spouse_and_share_kids/); [PR spouse young kid](https://www.reddit.com/r/askSingapore/comments/1m62us2/divorce_question_with_young_kid_and_pr_spouse/); [separated parents](https://www.reddit.com/r/askSingapore/comments/1axx4ew/divorcedseparated_parents_of_young_kids_in_sg/); [LTVP take baby](https://www.reddit.com/r/askSingapore/comments/1k7hpf3/ltvp_wife_threatens_to_take_baby_away/); [kid retained overseas](https://www.reddit.com/r/askSingapore/comments/1ef6yyu/wife_and_i_brought_kid_overseas/)).
+- r/askSingapore — IVF / fertility costs & subsidies ([IVF options cost](https://www.reddit.com/r/askSingapore/comments/1rzjjfj/couples_who_gone_through_ivf_in_singapore_what/); [public IVF](https://www.reddit.com/r/askSingapore/comments/1p02anc/public_ivf_options_in_singapore/); [trying after 38](https://www.reddit.com/r/askSingapore/comments/1ewu432/women_who_have_are_trying_for_kids_after_38_in/); [KKH fertility](https://www.reddit.com/r/askSingapore/comments/1rqlga7/fertility_treatments_kkh_advice_needed/); [pregnant on EP](https://www.reddit.com/r/askSingapore/comments/1js0d2p/pregnant_on_epass_need_help/)).
+- r/askSingapore — TADM / unpaid salary / levy kickbacks / false declared pay ([partial salary TADM](https://www.reddit.com/r/askSingapore/comments/yvt2e9/my_employer_has_only_paid_a_partial_salary_and_is/); [paid less than WP](https://www.reddit.com/r/askSingapore/comments/1of0q9q/need_legal_advice_getting_paid_less_than_whats/); [levy payback](https://www.reddit.com/r/askSingapore/comments/1gv1j23/paying_employer_back_for_foreign_worker_levy/)).
+- r/askSingapore — HDB for PR / SC + foreign spouse ([PR buy](https://www.reddit.com/r/askSingapore/comments/161qs6l/buying_a_property_as_a_pr/); [HDB PR spouse](https://www.reddit.com/r/askSingapore/comments/1m4nbg2/hdb_with_pr_spouse_on_hdb_matters/); [6-month pass wording](https://www.reddit.com/r/askSingapore/comments/19ejcns/how_would_you_interpret_this_eligibility/); [foreign spouse scheme](https://www.reddit.com/r/askSingapore/comments/1s25vcl/foreign_spouse_scheme_for_resale/); [SC-NONSG resale](https://www.reddit.com/r/askSingapore/comments/168crqk/advice_needed_buying_a_resale_flat_in_sg_as/)).
+- r/askSingapore — visit pass extension / no overstay / no JB visa run ([extend while waiting Student’s Pass](https://www.reddit.com/r/askSingapore/comments/1i794be/suggestion_on_visit_pass_extension/); [helper visit extend](https://www.reddit.com/r/askSingapore/comments/1pc64g3/how_to_extend_visa_for_former_helper_who_is/); [beyond 30 days waiting EP](https://www.reddit.com/r/askSingapore/comments/1g69073/staying_in_singapore_beyond_30_days_while_waiting/)).
+- r/askSingapore — maternity leave 12 vs 16 / post-leave retrenchment ([maternity leave length](https://www.reddit.com/r/askSingapore/comments/11j20np/singapore_maternity_leave/); [laid off after maternity](https://www.reddit.com/r/askSingapore/comments/1r8sgrf/hr_said_wife_will_be_potentially_laid_off_when/)).
+
+**Official**
+
+- [Judiciary — Divorce requirements](https://www.judiciary.gov.sg/family/understand-requirements-getting-divorce) + [Divorce guide PDF](https://www.judiciary.gov.sg/docs/default-source/family-docs/divorce_guide_english.pdf) + [International child abduction](https://www.judiciary.gov.sg/family/international-child-abduction) + [ICAA application](https://www.judiciary.gov.sg/family/file-international-child-abduction-application).
+- [MOH — Marriage & Parenthood / ACP co-funding](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/marriage-and-parenthood-schemes/) + [IVF co-funding response](https://www.moh.gov.sg/newsroom/response-to-adjournment-motion-on-providing-more-help-for-those-undergoing-ivf/).
+- [MOM — TADM disputes](https://www.mom.gov.sg/employment-practices/managing-employment-disputes) + [unpaid salary FAQ](https://www.mom.gov.sg/faq/salary/my-employer-hasn-t-paid-my-salary-or-has-made-an-unauthorised-deduction-what-can-i-do) + [levy must not be passed on](https://www.mom.gov.sg/faq/levy/can-employers-pass-on-the-foreign-worker-levy-costs--to-their-foreign-workers) + [salary deductions](https://www.mom.gov.sg/employment-practices/salary/salary-deductions) + [EFMA](https://www.mom.gov.sg/legislation/employment-of-foreign-manpower-act).
+- [HDB — Couples & families](https://www.hdb.gov.sg/buying-a-flat/flat-grant-and-loan-eligibility/couples-and-families) + [HFE letter](https://www.hdb.gov.sg/residential/buying-a-flat/understanding-your-eligibility-and-housing-loan-options/application-for-an-hdb-flat-eligibility-hfe-letter) + [resale T&Cs](https://www.hdb.gov.sg/cs/infoweb/e-resale/resale-purchase-of-an-hdb-resale-flat) + [EIP/SPR quota](https://www.hdb.gov.sg/residential/buying-a-flat/buying-procedure-for-resale-flats/plan-source-and-contract/planning-considerations/eip-spr-quota).
+- [ICA — Extend short stay](https://www.ica.gov.sg/enter-depart/extend_short_stay) + [MOM — Maternity leave eligibility](https://www.mom.gov.sg/employment-practices/leave/maternity-leave/eligibility-and-entitlement).
+
+### Gaps vs Tick 1–11
+
+Tick 1–11 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR (thin on **HDB after PR / non-resident spouse**), MDW, diplomatic clause/SCT, insurance/maternity (thin on **12 vs 16 leave** + **IVF co-funding gate**), preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES (thin on **ICA visit-pass extension vs MOM cancel STVP**), MOE P1, LTVP, EP renewal, healthcare/HSA/dental, remittance, apps/PayNow, S Pass, COMPASS, Customs GST, Student’s Pass, career pivots (thin on **TADM / levy kickbacks**), SimplyGo, aircon/mould/cockroach, SRS, haze, ABSD (thin on **HDB SPR path**), STVP-between-jobs, PEP/ONE/Tech.Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty, ROM marriage (thin on **divorce/Hague**), newborn, LOG, REP, probate, cycling. Remaining high-intent gaps matched forum heat: **divorce jurisdiction + Hague/ICAA**, **IVF SC co-funding gate**, **TADM salary / levy / false declaration**, **HDB 3-year SPR + SC/foreign spouse**, **ICA visit-pass extension / no overstay**, maternity leave depth.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/family/divorce-custody-foreigners-singapore.mdx`
+- `content/guides/family/ivf-fertility-foreigners-singapore.mdx`
+- `content/guides/next/salary-dispute-tadm-mom.mdx`
+- `content/guides/home/hdb-for-pr-and-mixed-status.mdx`
+- `content/guides/move/short-term-visit-pass-extension.mdx`
+
+**Upgraded guides (depth + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/family/maternity-care-singapore.mdx` (12 vs 16 leave + TADM/IVF cross-links)
+- `content/guides/family/getting-married-foreigners-singapore.mdx` (divorce cross-link)
+- `content/guides/home/buying-property-foreigner-absd.mdx` (HDB deep-link)
+- `content/guides/home/short-term-vs-long-term-rental.mdx` (visit-pass extension)
+- `content/guides/next/career-pivots-singapore.mdx` (TADM adjacency)
+- `content/guides/next/between-jobs-stvp-singapore.mdx` (disambiguate ICA vs MOM STVP)
+- `content/guides/next/pr-application-strategy.mdx` (HDB after PR)
+
+**Entity depth**
+
+- `content/entities/services/family-law-expat.json`
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/era-realty.json`
+- `content/entities/services/raffles-medical.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–11 topics beyond the divorce, IVF, TADM, HDB, visit-pass, and maternity-leave adjacency gaps above.
+
+---
+
 ## Tick 11 — 2026-09-15
 
 ### Sources mined
