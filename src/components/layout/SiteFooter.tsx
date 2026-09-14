@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { modes, pillars } from "@/lib/site";
+import { modes, pillars, primaryNav } from "@/lib/site";
 
 export function SiteFooter() {
   return (
@@ -8,11 +8,11 @@ export function SiteFooter() {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-sm">
             <p className="font-display text-2xl tracking-tight">expat.sg</p>
-            <p className="mt-3 text-sm leading-relaxed text-fog">
+            <p className="mt-3 text-sm leading-relaxed text-[#d6d1c8]">
               The operating system for Singapore expat life — from the offer
               letter to year three.
             </p>
-            <div className="mt-5 flex gap-5 text-sm">
+            <nav aria-label="Modes" className="mt-5 flex gap-5 text-sm">
               {modes.map((mode) => (
                 <Link
                   key={mode.slug}
@@ -22,10 +22,10 @@ export function SiteFooter() {
                   {mode.label}
                 </Link>
               ))}
-            </div>
+            </nav>
           </div>
 
-          <div>
+          <nav aria-label="Pillars">
             <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten-soft">
               Pillars
             </p>
@@ -34,27 +34,36 @@ export function SiteFooter() {
                 <li key={pillar.href}>
                   <Link
                     href={pillar.href}
-                    className="text-fog no-underline transition-colors hover:text-paper"
+                    className="text-[#d6d1c8] no-underline transition-colors hover:text-paper"
                   >
                     {pillar.label}
                   </Link>
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
         </div>
 
-        <div className="flex flex-col gap-3 border-t border-canopy-mist/40 pt-6 text-xs text-fog sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-4 border-t border-canopy-mist/40 pt-6 text-xs text-[#d6d1c8] sm:flex-row sm:items-start sm:justify-between">
           <p>© {new Date().getFullYear()} expat.sg</p>
-          <div className="flex flex-wrap gap-5">
-            <Link href="/journeys" className="no-underline hover:text-paper">
-              Journeys
+          <nav
+            aria-label="Site"
+            className="flex flex-wrap gap-x-5 gap-y-2 sm:justify-end"
+          >
+            {primaryNav.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="no-underline hover:text-paper"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <Link href="/sponsored" className="no-underline hover:text-paper">
+              Sponsored
             </Link>
-            <Link href="/calendar" className="no-underline hover:text-paper">
-              Calendar
-            </Link>
-            <Link href="/tools" className="no-underline hover:text-paper">
-              Tools
+            <Link href="/advertise" className="no-underline hover:text-paper">
+              Advertise
             </Link>
             <Link href="/about" className="no-underline hover:text-paper">
               About
@@ -65,13 +74,7 @@ export function SiteFooter() {
             >
               Editorial policy
             </Link>
-            <Link href="/advertise" className="no-underline hover:text-paper">
-              Advertise
-            </Link>
-            <Link href="/sponsored" className="no-underline hover:text-paper">
-              Sponsored
-            </Link>
-          </div>
+          </nav>
         </div>
       </div>
     </footer>

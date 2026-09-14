@@ -6,12 +6,17 @@ type SiteShellProps = {
   children: ReactNode;
 };
 
-/** Base layout chrome — fixed header + main + footer */
+/** Base layout chrome — skip link + fixed header + main + footer */
 export function SiteShell({ children }: SiteShellProps) {
   return (
     <>
+      <a href="#main-content" className="skip-link">
+        Skip to content
+      </a>
       <SiteHeader />
-      <main className="flex-1">{children}</main>
+      <main id="main-content" tabIndex={-1} className="flex-1 outline-none">
+        {children}
+      </main>
       <SiteFooter />
     </>
   );

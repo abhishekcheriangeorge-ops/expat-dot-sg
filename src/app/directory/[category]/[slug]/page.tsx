@@ -8,12 +8,14 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
+import { JsonLd } from "@/components/seo";
 import {
   SERVICE_CATEGORY_LABELS,
   ServiceCategorySchema,
   getEntityBySlug,
   getServices,
 } from "@/lib/content";
+import { buildPageMetadata, localBusinessJsonLd } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ category: string; slug: string }>;
@@ -25,10 +27,14 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { category, slug } = await params;
   const entity = await getEntityBySlug("services", slug);
   if (!entity || entity.type !== "service") return { title: "Service" };
-  return { title: entity.name, description: entity.summary };
+  return buildPageMetadata({
+    title: entity.name,
+    description: entity.summary,
+    path: `/directory/${category}/${slug}`,
+  });
 }
 
 export default async function ServiceDetailPage({ params }: Props) {
@@ -51,6 +57,16 @@ export default async function ServiceDetailPage({ params }: Props) {
 
   return (
     <article>
+      <JsonLd
+        data={localBusinessJsonLd({
+          name: s.name,
+          description: s.summary,
+          path: `/directory/${s.category}/${slug}`,
+          url: s.website,
+          telephone: s.phone,
+          areaServed: s.areasServed.join(", ") || "Singapore",
+        })}
+      />
       <DetailHero
         eyebrow="Service directory"
         title={s.name}

@@ -73,22 +73,35 @@ import { getAllFeaturedListings, getAllSponsoredPosts } from "@/lib/content";
 
 ## Deploy to Vercel
 
-If the Vercel CLI is installed and authenticated:
+### CLI (preferred once authenticated)
 
 ```bash
-npm i -g vercel
+npm i -g vercel   # or: npx vercel
 vercel login
-vercel link          # create / link project
-vercel --prod        # production deploy
+vercel link       # create / link project (region sin1 via vercel.json)
+vercel --prod     # production deploy
 ```
 
-Or connect the GitHub repo in the [Vercel dashboard](https://vercel.com/new):
+If `vercel login` / `vercel link` is blocked in this environment, connect the GitHub repo in the [Vercel dashboard](https://vercel.com/new):
 
 1. Import **`abhishekcheriangeorge-ops/expat-dot-sg`**
 2. Framework preset: Next.js (auto-detected)
-3. Region: Singapore (`sin1`) preferred
+3. Region: Singapore (`sin1`) preferred — already set in `vercel.json`
 4. Env vars: copy from `.env.example` (add `DATABASE_URL` when Neon is provisioned)
-5. Point `expat.sg` DNS to Vercel after first production deploy (Phase 6)
+5. Set `NEXT_PUBLIC_SITE_URL=https://expat.sg` for Production after DNS is live
+
+### Custom domain (expat.sg)
+
+Do **not** change DNS until a production deployment exists. Then follow **[docs/domain-dns.md](docs/domain-dns.md)** for A/CNAME records and Vercel domain attach steps.
+
+Summary:
+
+| Type | Name | Value |
+| ---- | ---- | ----- |
+| A | `@` | `76.76.21.21` |
+| CNAME | `www` | `cname.vercel-dns.com` (or Vercel’s project CNAME) |
+
+Confirm exact values in **Project → Settings → Domains**.
 
 ## Scripts
 
@@ -102,3 +115,10 @@ Or connect the GitHub repo in the [Vercel dashboard](https://vercel.com/new):
 ## Design system note
 
 Humidity Editorial tokens live in CSS variables — canopy green, night ink, warm paper, tungsten amber, fog grey. Typography: **Fraunces** (display serif) + **Manrope** (refined grotesque). Do not introduce Inter / Roboto / system UI stacks.
+
+## Trust & SEO (Phase 6)
+
+- `/about`, `/editorial-policy` — linked from the site footer
+- `src/app/sitemap.ts`, `src/app/robots.ts`, default `opengraph-image`
+- Skip-to-content link + landmark labels on header/footer nav
+

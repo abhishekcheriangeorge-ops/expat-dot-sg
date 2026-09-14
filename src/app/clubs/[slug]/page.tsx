@@ -8,11 +8,13 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
+import { JsonLd } from "@/components/seo";
 import {
   CLUB_CATEGORY_LABELS,
   getClubs,
   getEntityBySlug,
 } from "@/lib/content";
+import { buildPageMetadata, localBusinessJsonLd } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -27,7 +29,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const entity = await getEntityBySlug("clubs", slug);
   if (!entity || entity.type !== "club") return { title: "Club" };
-  return { title: entity.name, description: entity.summary };
+  return buildPageMetadata({
+    title: entity.name,
+    description: entity.summary,
+    path: `/clubs/${slug}`,
+  });
 }
 
 export default async function ClubDetailPage({ params }: Props) {
@@ -48,6 +54,14 @@ export default async function ClubDetailPage({ params }: Props) {
 
   return (
     <article>
+      <JsonLd
+        data={localBusinessJsonLd({
+          name: c.name,
+          description: c.summary,
+          path: `/clubs/${slug}`,
+          url: c.website,
+        })}
+      />
       <DetailHero
         eyebrow="Clubs & communities"
         title={c.name}

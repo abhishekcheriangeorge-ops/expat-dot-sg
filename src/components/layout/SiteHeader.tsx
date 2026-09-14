@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { pillars, primaryNav } from "@/lib/site";
+import { pillars, primaryNav, primaryNavDesktop } from "@/lib/site";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -43,21 +43,32 @@ export function SiteHeader() {
 
         <nav
           aria-label="Primary"
-          className={`hidden items-center gap-6 text-sm font-medium md:flex ${
+          className={`hidden items-center gap-5 text-sm font-medium lg:flex ${
             overHero ? "text-fog" : "text-ink-muted"
           }`}
         >
-          {primaryNav.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`no-underline transition-colors ${
-                overHero ? "hover:text-paper" : "hover:text-ink"
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
+          {primaryNavDesktop.map((item) => {
+            const active =
+              pathname === item.href || pathname.startsWith(`${item.href}/`);
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                aria-current={active ? "page" : undefined}
+                className={`no-underline transition-colors ${
+                  active
+                    ? overHero
+                      ? "text-paper"
+                      : "text-ink"
+                    : overHero
+                      ? "hover:text-paper"
+                      : "hover:text-ink"
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="flex items-center gap-4">
@@ -74,7 +85,7 @@ export function SiteHeader() {
 
           <button
             type="button"
-            className={`inline-flex h-10 w-10 items-center justify-center md:hidden ${
+            className={`inline-flex h-10 w-10 items-center justify-center rounded-sm lg:hidden ${
               overHero ? "text-paper" : "text-ink"
             }`}
             aria-expanded={open}
@@ -107,21 +118,28 @@ export function SiteHeader() {
       {open ? (
         <div
           id="mobile-nav"
-          className="border-t border-fog-soft/40 bg-paper text-ink md:hidden"
+          className="border-t border-fog-soft/40 bg-paper text-ink lg:hidden"
         >
           <nav
-            aria-label="Mobile"
+            aria-label="Mobile primary"
             className="mx-auto flex max-w-[var(--max-page)] flex-col gap-1 px-5 py-5 sm:px-8"
           >
-            {primaryNav.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="py-2.5 text-base font-medium text-ink no-underline"
-              >
-                {item.label}
-              </Link>
-            ))}
+            {primaryNav.map((item) => {
+              const active =
+                pathname === item.href || pathname.startsWith(`${item.href}/`);
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  aria-current={active ? "page" : undefined}
+                  className={`py-2.5 text-base font-medium no-underline ${
+                    active ? "text-canopy" : "text-ink"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
             <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
               Pillars
             </p>
@@ -136,12 +154,32 @@ export function SiteHeader() {
                 </Link>
               ))}
             </div>
-            <Link
-              href="/advertise"
-              className="mt-4 py-2.5 text-base font-medium text-canopy no-underline"
-            >
-              Advertise
-            </Link>
+            <div className="mt-4 flex flex-col gap-1 border-t border-fog-soft pt-4">
+              <Link
+                href="/sponsored"
+                className="py-2.5 text-base font-medium text-ink no-underline"
+              >
+                Sponsored
+              </Link>
+              <Link
+                href="/advertise"
+                className="py-2.5 text-base font-medium text-canopy no-underline"
+              >
+                Advertise
+              </Link>
+              <Link
+                href="/about"
+                className="py-2.5 text-base font-medium text-ink-muted no-underline"
+              >
+                About
+              </Link>
+              <Link
+                href="/editorial-policy"
+                className="py-2.5 text-base font-medium text-ink-muted no-underline"
+              >
+                Editorial policy
+              </Link>
+            </div>
           </nav>
         </div>
       ) : null}

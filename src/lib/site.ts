@@ -395,11 +395,24 @@ export function pillarsForMode(mode: ModeSlug): Pillar[] {
 export const primaryNav = [
   { href: "/arriving", label: "Arriving" },
   { href: "/living", label: "Living" },
-  { href: "/journeys", label: "Journeys" },
   { href: "/guides", label: "Guides" },
   { href: "/neighbourhoods", label: "Neighbourhoods" },
   { href: "/schools", label: "Schools" },
   { href: "/clubs", label: "Clubs" },
   { href: "/directory", label: "Directory" },
+  { href: "/journeys", label: "Journeys" },
   { href: "/calendar", label: "Calendar" },
+  { href: "/tools", label: "Tools" },
+] as const;
+
+/** Compact desktop strip — full set lives in mobile + footer */
+export const primaryNavDesktop = [
+  { href: "/arriving", label: "Arriving" },
+  { href: "/living", label: "Living" },
+  { href: "/guides", label: "Guides" },
+  { href: "/neighbourhoods", label: "Areas" },
+  { href: "/schools", label: "Schools" },
+  { href: "/clubs", label: "Clubs" },
+  { href: "/directory", label: "Directory" },
+  { href: "/journeys", label: "Journeys" },
 ] as const;

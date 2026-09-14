@@ -7,12 +7,14 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
+import { JsonLd } from "@/components/seo";
 import {
   NEIGHBOURHOOD_REGION_LABELS,
   getNeighbourhoods,
   getEntityBySlug,
   type Neighbourhood,
 } from "@/lib/content";
+import { buildPageMetadata } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -29,10 +31,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!entity || entity.type !== "neighbourhood") {
     return { title: "Neighbourhood" };
   }
-  return {
+  return buildPageMetadata({
     title: entity.name,
     description: entity.summary,
-  };
+    path: `/neighbourhoods/${slug}`,
+  });
 }
 
 function formatRent(n: Neighbourhood): string | undefined {
@@ -70,6 +73,19 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
 
   return (
     <article>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Place",
+          name: n.name,
+          description: n.summary,
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: n.name,
+            addressCountry: "SG",
+          },
+        }}
+      />
       <DetailHero
         eyebrow="Neighbourhood"
         title={n.name}

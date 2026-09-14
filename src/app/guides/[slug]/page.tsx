@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guides";
+import { JsonLd } from "@/components/seo";
 import {
   getAllGuides,
   getGuideBySlug,
   getRelatedGuides,
 } from "@/lib/content/guides";
 import { getActivePlacementByCategory } from "@/lib/content/sponsored";
+import { articleJsonLd, buildPageMetadata } from "@/lib/seo";
 
 type GuidePageProps = {
   params: Promise<{ slug: string }>;
@@ -24,16 +26,13 @@ export async function generateMetadata({
   const guide = await getGuideBySlug(slug);
   if (!guide) return { title: "Guide not found" };
 
-  return {
+  return buildPageMetadata({
     title: guide.meta.title,
     description: guide.meta.description,
-    openGraph: {
-      title: guide.meta.title,
-      description: guide.meta.description,
-      type: "article",
-      images: guide.meta.ogImage ? [guide.meta.ogImage] : undefined,
-    },
-  };
+    path: `/guides/${slug}`,
+    type: "article",
+    images: guide.meta.ogImage ? [guide.meta.ogImage] : undefined,
+  });
 }
 
 export default async function GuidePage({ params }: GuidePageProps) {
@@ -46,28 +45,16 @@ export default async function GuidePage({ params }: GuidePageProps) {
     ? await getActivePlacementByCategory(guide.meta.sponsorSlot.category)
     : null;
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    headline: guide.meta.title,
-    description: guide.meta.description,
-    dateModified: guide.meta.lastReviewed,
-    author: {
-      "@type": "Organization",
-      name: "expat.sg",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "expat.sg",
-      url: "https://expat.sg",
-    },
-  };
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      <JsonLd
+        data={articleJsonLd({
+          headline: guide.meta.title,
+          description: guide.meta.description,
+          path: `/guides/${slug}`,
+          dateModified: guide.meta.lastReviewed,
+          image: guide.meta.ogImage,
+        })}
       />
       <GuideArticle
         meta={guide.meta}

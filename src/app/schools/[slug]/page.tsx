@@ -8,7 +8,9 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
+import { JsonLd } from "@/components/seo";
 import { getEntityBySlug, getSchools } from "@/lib/content";
+import { buildPageMetadata, localBusinessJsonLd } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -29,7 +31,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const entity = await getEntityBySlug("schools", slug);
   if (!entity || entity.type !== "school") return { title: "School" };
-  return { title: entity.name, description: entity.summary };
+  return buildPageMetadata({
+    title: entity.name,
+    description: entity.summary,
+    path: `/schools/${slug}`,
+  });
 }
 
 export default async function SchoolDetailPage({ params }: Props) {
@@ -48,6 +54,17 @@ export default async function SchoolDetailPage({ params }: Props) {
 
   return (
     <article>
+      <JsonLd
+        data={{
+          ...localBusinessJsonLd({
+            name: s.name,
+            description: s.summary,
+            path: `/schools/${slug}`,
+            url: s.website,
+          }),
+          "@type": "EducationalOrganization",
+        }}
+      />
       <DetailHero
         eyebrow="School"
         title={s.name}
