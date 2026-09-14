@@ -6,7 +6,7 @@ type SiteShellProps = {
   children: ReactNode;
 };
 
-/** Base layout chrome — header + main + footer */
+/** Base layout chrome — fixed header + main + footer */
 export function SiteShell({ children }: SiteShellProps) {
   return (
     <>

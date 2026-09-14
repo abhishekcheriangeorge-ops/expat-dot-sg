@@ -9,19 +9,26 @@ type KenBurnsProps = {
 };
 
 /**
- * Soft ken-burns / rain-light shift for hero media.
+ * Soft ken-burns + rain-light shift for hero media.
  * Wrap an image or full-bleed visual plane — not for UI chrome.
  */
 export function KenBurns({ children, className }: KenBurnsProps) {
   return (
     <motion.div
-      className={className}
-      initial={{ scale: 1.08 }}
-      animate={{ scale: 1 }}
-      transition={{ duration: 18, ease: "linear" }}
+      className={`relative h-full w-full overflow-hidden ${className ?? ""}`}
+      initial={{ scale: 1.1, x: "0%" }}
+      animate={{ scale: 1, x: "-1.5%" }}
+      transition={{ duration: 22, ease: "linear" }}
       style={{ willChange: "transform" }}
     >
       {children}
+      <motion.div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_30%_20%,rgba(242,238,230,0.14),transparent_45%)] mix-blend-soft-light"
+        initial={{ opacity: 0.35 }}
+        animate={{ opacity: [0.35, 0.55, 0.4, 0.6, 0.35] }}
+        transition={{ duration: 14, ease: "easeInOut", repeat: Infinity }}
+      />
     </motion.div>
   );
 }
