@@ -73,42 +73,41 @@ import { getAllFeaturedListings, getAllSponsoredPosts } from "@/lib/content";
 
 ## Deploy to Vercel
 
-### CLI (George — run locally once authenticated)
+**Live production:** [https://expat-sg.vercel.app](https://expat-sg.vercel.app)  
+**Dashboard:** [abhishekcheriangeorge/expat-sg](https://vercel.com/abhishekcheriangeorge/expat-sg)  
+**GitHub:** [abhishekcheriangeorge-ops/expat-dot-sg](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg)
 
-Global install needs write access to your Node prefix (or use `npx`):
+### Redeploy (CLI)
 
 ```bash
-# Option A — global (may need sudo / fixed npm prefix)
-npm i -g vercel
-
-# Option B — one-shot (no global install)
-npx vercel@latest login
-npx vercel@latest link          # create / link project (region sin1 via vercel.json)
-npx vercel@latest --prod        # production deploy → note the *.vercel.app URL
+npx vercel whoami                 # must print your username
+npx vercel link --yes             # already linked → expat-sg
+npx vercel --prod --yes
 ```
 
-**Auth block in agent environment:** `vercel whoami` returned `Logged out` and started a device OAuth flow (`vercel.com/oauth/device`). Complete `vercel login` in your own terminal, then re-run `link` + `--prod`.
+If `whoami` says logged out:
 
-If CLI remains blocked, connect the GitHub repo in the [Vercel dashboard](https://vercel.com/new):
+```bash
+npx vercel login
+```
 
-1. Import **`abhishekcheriangeorge-ops/expat-dot-sg`** (main branch auto-deploys)
-2. Framework preset: Next.js (auto-detected)
-3. Region: Singapore (`sin1`) — already set in `vercel.json`
-4. Env vars: copy from `.env.example` (add `DATABASE_URL` when Neon is provisioned)
-5. Set `NEXT_PUBLIC_SITE_URL=https://expat.sg` for Production after DNS is live
+Then re-run `link` + `--prod`.
+
+Env vars: none required for launch (leads fall back to ephemeral storage without `DATABASE_URL`). After custom domain is live, set Production:
+
+- `NEXT_PUBLIC_SITE_URL=https://expat.sg`
+- `DATABASE_URL` when Neon is provisioned (see [docs/neon-setup.md](docs/neon-setup.md))
 
 ### Custom domain (expat.sg)
 
-Do **not** change DNS until a production deployment exists. Then follow **[docs/domain-dns.md](docs/domain-dns.md)** for A/CNAME records and Vercel domain attach steps.
-
-Summary:
+Production is live on `*.vercel.app`. Attach `expat.sg` / `www` and publish registrar DNS — follow **[docs/domain-dns.md](docs/domain-dns.md)**.
 
 | Type | Name | Value |
 | ---- | ---- | ----- |
 | A | `@` | `76.76.21.21` |
 | CNAME | `www` | `cname.vercel-dns.com` (or Vercel’s project CNAME) |
 
-Confirm exact values in **Project → Settings → Domains**.
+Confirm exact values in **Project → Settings → Domains** after adding the domain.
 
 ## Scripts
 
