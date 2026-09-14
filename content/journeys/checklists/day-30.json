@@ -1,0 +1,71 @@
+{
+  "type": "checklist",
+  "slug": "arriving-first-30-days",
+  "title": "First 30 days",
+  "summary": "Pass in hand, bank open, longer housing underway. This is when Singapore starts to feel operational.",
+  "phase": "day-30",
+  "journey": "arriving",
+  "lastReviewed": "2026-03-01",
+  "items": [
+    {
+      "id": "pass-card",
+      "title": "Collect your Employment Pass / Dependant Pass card",
+      "detail": "Attend the MOM appointment with the documents HR listed. Photograph both sides of the card once issued.",
+      "pillar": "move"
+    },
+    {
+      "id": "bank-account",
+      "title": "Open a local bank account",
+      "detail": "DBS, OCBC, UOB, or Standard Chartered are common. Bring passport, pass, IPA, and proof of address. Ask HR if payroll has a preferred bank.",
+      "pillar": "money"
+    },
+    {
+      "id": "cpf-check",
+      "title": "Confirm CPF / foreign-worker levy status with HR",
+      "detail": "Most EP holders do not contribute to CPF. Know what is deducted and what is not so salary slips make sense.",
+      "pillar": "money"
+    },
+    {
+      "id": "housing-search",
+      "title": "Start the longer-term housing search",
+      "detail": "Decide condo vs HDB eligibility, budget, and agent engagement. Walk neighbourhoods at night before signing.",
+      "pillar": "home",
+      "href": "/neighbourhoods"
+    },
+    {
+      "id": "telco-contract",
+      "title": "Set a proper telco plan",
+      "detail": "Move off tourist SIMs onto a postpaid or longer prepaid plan once your address is stable enough for billing.",
+      "pillar": "life"
+    },
+    {
+      "id": "school-enquiry",
+      "title": "Enquire at shortlisted schools (if with kids)",
+      "detail": "International school waitlists move slowly. Tour, ask about mid-year entry, and get fee schedules in writing.",
+      "pillar": "family",
+      "optional": true,
+      "href": "/schools"
+    },
+    {
+      "id": "gp-register",
+      "title": "Register with a GP and review insurance",
+      "detail": "Confirm inpatient vs outpatient cover, panel clinics, and maternity/mental-health riders if relevant.",
+      "pillar": "family"
+    },
+    {
+      "id": "driving",
+      "title": "Decide on driving licence conversion",
+      "detail": "Foreign licence conversion windows are time-bound. If you will drive, start the conversion process before the grace period closes.",
+      "pillar": "move",
+      "optional": true
+    },
+    {
+      "id": "social-anchor",
+      "title": "Book one social or club intro",
+      "detail": "A chamber mixer, nationality association coffee, or hash run. Belonging is a 30-day problem, not a year-three problem.",
+      "pillar": "belong",
+      "optional": true,
+      "href": "/clubs"
+    }
+  ]
+}

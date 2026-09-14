@@ -1,0 +1,11 @@
+{
+  "type": "event",
+  "slug": "kids-museum-mornings",
+  "title": "Weekend museum mornings (kids)",
+  "summary": "Recurring tip: National Museum, ArtScience, and Science Centre fill up after 11am on Saturdays — go early with water bottles.",
+  "date": "2026-01-01",
+  "recurring": true,
+  "venue": "Museums island-wide",
+  "audience": ["kids", "families"],
+  "featured": false
+}

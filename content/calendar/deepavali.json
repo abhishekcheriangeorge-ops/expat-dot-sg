@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "deepavali-lights",
+  "title": "Deepavali light-up — Little India",
+  "summary": "Street lights, sweets, and denser crowds along Serangoon Road in the weeks around Deepavali.",
+  "date": "2026-11-08",
+  "recurring": true,
+  "venue": "Little India",
+  "neighbourhood": "little-india",
+  "audience": ["everyone", "culture", "families"],
+  "featured": false
+}

@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "national-day-parade",
+  "title": "National Day period",
+  "summary": "Rehearsals, fireworks, and public holiday around 9 August. Expect road closures in the Padang / Marina Bay corridor.",
+  "date": "2026-08-09",
+  "recurring": true,
+  "venue": "Padang / Marina Bay",
+  "neighbourhood": "marina-bay",
+  "audience": ["everyone", "culture"],
+  "featured": true
+}

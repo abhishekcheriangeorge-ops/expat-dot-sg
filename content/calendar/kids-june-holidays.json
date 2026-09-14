@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "kids-school-holiday-jun",
+  "title": "June school holidays — camps & staycations",
+  "summary": "International and local schools break mid-year. Book camps early; museums and wildlife parks run holiday programmes.",
+  "date": "2026-05-30",
+  "endDate": "2026-06-29",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["kids", "families"],
+  "featured": true
+}

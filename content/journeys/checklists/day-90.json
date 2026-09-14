@@ -1,0 +1,71 @@
+{
+  "type": "checklist",
+  "slug": "arriving-first-90-days",
+  "title": "First 90 days",
+  "summary": "Systems on autopilot: home lease signed, routines set, and the “where is everything?” fog lifting.",
+  "phase": "day-90",
+  "journey": "arriving",
+  "lastReviewed": "2026-03-01",
+  "items": [
+    {
+      "id": "lease-signed",
+      "title": "Sign a longer-term lease (or renew serviced)",
+      "detail": "Understand LOI vs Tenancy Agreement, diplomatic clause, inventory list, and deposit return conditions before you stamp.",
+      "pillar": "home"
+    },
+    {
+      "id": "utilities",
+      "title": "Transfer utilities and fibre",
+      "detail": "SP Group account, water, and fibre/broadband in your name. Photograph meter readings on move-in day.",
+      "pillar": "home"
+    },
+    {
+      "id": "tax-residency",
+      "title": "Sketch your tax residency timeline",
+      "detail": "IRAS tax residency often hinges on days present and employment. Note your arrival date; filing season arrives faster than you think.",
+      "pillar": "money"
+    },
+    {
+      "id": "emergency-pack",
+      "title": "Save emergency and embassy contacts",
+      "detail": "995 (ambulance/fire), 999 (police), your embassy/high commission, and building security. Share with household members.",
+      "pillar": "life"
+    },
+    {
+      "id": "kids-routine",
+      "title": "Lock school / childcare and holiday care",
+      "detail": "Confirm term dates, bus routes, and a backup carer for public holidays when schools close and offices do not.",
+      "pillar": "family",
+      "optional": true,
+      "href": "/calendar"
+    },
+    {
+      "id": "healthcare-baseline",
+      "title": "Complete baseline health checks",
+      "detail": "Dental, optometry, and any chronic-condition specialists. Panel networks differ — call your insurer first.",
+      "pillar": "family",
+      "optional": true
+    },
+    {
+      "id": "community",
+      "title": "Join one recurring community",
+      "detail": "Club, faith group, sports team, or parents’ WhatsApp. Recurring is the point — one-off mixers fade.",
+      "pillar": "belong",
+      "href": "/clubs"
+    },
+    {
+      "id": "pass-renewal-note",
+      "title": "Calendar your pass expiry minus 6 months",
+      "detail": "EP renewals and COMPASS evidence take lead time. Put a reminder now while the issue date is fresh.",
+      "pillar": "next"
+    },
+    {
+      "id": "leaving-awareness",
+      "title": "Skim the leaving playbook once",
+      "detail": "Even if you are staying — tax clearance, deposit timelines, and shipping lead times are easier when you know they exist.",
+      "pillar": "next",
+      "optional": true,
+      "href": "/journeys/leaving"
+    }
+  ]
+}

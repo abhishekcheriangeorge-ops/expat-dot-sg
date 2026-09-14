@@ -1,0 +1,90 @@
+{
+  "type": "playbook",
+  "slug": "leaving-singapore",
+  "title": "Leaving Singapore",
+  "summary": "A practical exit sequence — tax clearance, housing deposits, shipping, and pass cancellation — so the last month is orderly rather than chaotic.",
+  "lastReviewed": "2026-03-01",
+  "sections": [
+    {
+      "id": "timeline",
+      "title": "Work backwards from your flight",
+      "body": "Most exits need 6–10 weeks of lead time. Start with IRAS tax clearance and shipping slots; everything else fits around those two constraints.",
+      "bullets": [
+        "Confirm last working day and any garden leave with HR",
+        "Book international movers early for peak June/July and December windows",
+        "Align lease break / diplomatic clause notice with your departure date"
+      ]
+    },
+    {
+      "id": "tax-clearance",
+      "title": "IRAS tax clearance (Form IR21)",
+      "body": "Employers generally must file Form IR21 and withhold monies until IRAS issues tax clearance for a leaving employee. Do not assume your final salary is free to spend until clearance is done.",
+      "bullets": [
+        "Ask HR when IR21 will be filed and what documents they need from you",
+        "Keep payslips, stock awards, and director fees documentation handy",
+        "Expect processing time — clearance is not same-day"
+      ],
+      "href": "https://www.iras.gov.sg"
+    },
+    {
+      "id": "pass-cancel",
+      "title": "Cancel passes and dependants",
+      "body": "Employment Pass / S Pass cancellation is usually employer-led. Dependant and LTVP statuses are tied to the main pass — sequence cancellations carefully if family members leave on different dates.",
+      "bullets": [
+        "Confirm who submits the cancellation (HR vs you)",
+        "Check short-term visit privileges after cancellation if you need a buffer week",
+        "Update Singpass and bank KYC after your FIN status changes"
+      ]
+    },
+    {
+      "id": "housing",
+      "title": "Lease exit and deposit recovery",
+      "body": "Inventory check-out, utility final readings, and aircon servicing clauses decide how much of your deposit returns. Photograph everything on move-out day.",
+      "bullets": [
+        "Serve notice per tenancy agreement (diplomatic clause if applicable)",
+        "Schedule landlord / agent check-out with daylight photos",
+        "Close SP Group and broadband accounts; keep final bills"
+      ]
+    },
+    {
+      "id": "shipping-pets",
+      "title": "Shipping out, storage, and pets",
+      "body": "Sea freight is cheaper but slow; air freight suits essentials. Pet export needs NParks / AVS paperwork and airline pet policies — start weeks ahead.",
+      "bullets": [
+        "Get two mover quotes with door-to-door vs port-to-port clarity",
+        "Separate “first week abroad” suitcase from deep storage",
+        "For pets: microchip, rabies titres, and crate training timelines"
+      ]
+    },
+    {
+      "id": "money-admin",
+      "title": "Banks, insurance, and subscriptions",
+      "body": "Close or dormant local accounts deliberately. Keep one account briefly if deposits or tax refunds are still inbound — then close it.",
+      "bullets": [
+        "Update address on insurance and investment platforms",
+        "Cancel telco, gym, club, and streaming local billing",
+        "Export CPF statements if you ever contributed; EP holders often have none"
+      ]
+    },
+    {
+      "id": "schools",
+      "title": "Schools and records (families)",
+      "body": "Request transcripts and recommendation letters before the last week of term. International schools often need written withdrawal notice.",
+      "bullets": [
+        "Confirm notice periods and fee refund policies",
+        "Collect vaccination and learning-support records",
+        "Ask for digital copies as well as sealed transcripts"
+      ]
+    },
+    {
+      "id": "soft-landing",
+      "title": "Say goodbye on purpose",
+      "body": "The logistics will consume you. Put one dinner, one hawker farewell, and one photo walk on the calendar so Singapore does not end as only admin.",
+      "bullets": [
+        "Share a forwarding email with close contacts",
+        "Leave apartment Wi-Fi and spare keys labelled for the agent",
+        "Keep this playbook’s last-reviewed date in mind — rules change"
+      ]
+    }
+  ]
+}

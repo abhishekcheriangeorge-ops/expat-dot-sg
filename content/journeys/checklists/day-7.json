@@ -1,0 +1,55 @@
+{
+  "type": "checklist",
+  "slug": "arriving-first-7-days",
+  "title": "First 7 days",
+  "summary": "Land, sleep, register the essentials. Keep the list short so the jet lag does not win.",
+  "phase": "day-7",
+  "journey": "arriving",
+  "lastReviewed": "2026-03-01",
+  "items": [
+    {
+      "id": "arrival-card",
+      "title": "Complete ICA arrival formalities",
+      "detail": "Confirm SG Arrival Card submission before landing and keep your In-Principle Approval (IPA) or pass letter ready at immigration.",
+      "pillar": "move"
+    },
+    {
+      "id": "sim-data",
+      "title": "Get a local SIM or eSIM",
+      "detail": "Singtel, StarHub, M1, or MVNOs at Changi or nearby malls. You will need SMS for banking and OTP-heavy apps.",
+      "pillar": "life"
+    },
+    {
+      "id": "housing-keys",
+      "title": "Confirm temporary housing keys and Wi-Fi",
+      "detail": "Serviced apartment, hotel, or host address — note gate access codes and the building’s visitor policy.",
+      "pillar": "home"
+    },
+    {
+      "id": "employer-hr",
+      "title": "Message HR / relocation contact",
+      "detail": "Confirm first-day logistics, pass collection appointment, and any medical checks still pending.",
+      "pillar": "move"
+    },
+    {
+      "id": "cash-transit",
+      "title": "Load SimplyGo / contactless transit",
+      "detail": "Link a contactless card or get an EZ-Link. Grab and Gojek work for the first week if you prefer doors-to-doors.",
+      "pillar": "life"
+    },
+    {
+      "id": "gp-locate",
+      "title": "Locate a nearby GP clinic",
+      "detail": "Save one polyclinic or private GP within a short walk or bus of where you are sleeping. Jet lag plus humidity is a classic first-week combo.",
+      "pillar": "family",
+      "optional": true
+    },
+    {
+      "id": "grocery-run",
+      "title": "Do a small grocery and hawker recon",
+      "detail": "Cold drinks, fruit, and one neighbourhood hawker centre. You do not need to master Singapore cuisine on day two.",
+      "pillar": "life",
+      "optional": true
+    }
+  ]
+}

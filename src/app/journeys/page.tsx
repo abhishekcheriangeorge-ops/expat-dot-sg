@@ -1,0 +1,99 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
+import { JourneyHero } from "@/components/journeys";
+import { getChecklists, getLeavingPlaybook } from "@/lib/content";
+
+export const metadata: Metadata = {
+  title: "Journeys",
+  description:
+    "Arriving 7/30/90 checklists and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+};
+
+export default async function JourneysIndexPage() {
+  const [checklists, playbook] = await Promise.all([
+    getChecklists(),
+    getLeavingPlaybook(),
+  ]);
+
+  const arriving = ["day-7", "day-30", "day-90"]
+    .map((phase) => checklists.find((c) => c.phase === phase))
+    .filter(Boolean);
+
+  return (
+    <>
+      <JourneyHero
+        eyebrow="Journeys"
+        title="Checklists for arriving — and a playbook for leaving."
+        summary="Interior utilities for the weeks that matter. Not a dashboard; a calm sequence you can tick through."
+      />
+
+      <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
+        <FadeIn>
+          <h2 className="font-display text-2xl text-ink sm:text-3xl">
+            Arriving · first 90 days
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            Three horizons so the first week stays humane and the third month
+            still has a list.
+          </p>
+        </FadeIn>
+
+        <Stagger className="mt-10 grid gap-6 sm:grid-cols-3">
+          {arriving.map((c) =>
+            c ? (
+              <StaggerItem key={c.slug}>
+                <Link
+                  href={`/journeys/arriving/${c.phase}`}
+                  className="group block border-b border-fog-soft pb-6 no-underline"
+                >
+                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+                    {c.phase.replace("day-", "")} days
+                  </p>
+                  <h3 className="mt-2 font-display text-xl text-ink group-hover:text-canopy">
+                    {c.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+                    {c.summary}
+                  </p>
+                </Link>
+              </StaggerItem>
+            ) : null,
+          )}
+        </Stagger>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Next
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {playbook?.title ?? "Leaving Singapore"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {playbook?.summary ??
+              "Tax clearance, deposits, shipping, and pass cancellation."}
+          </p>
+          <Link
+            href="/journeys/leaving"
+            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
+          >
+            Open leaving playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-14">
+          <p className="text-sm text-ink-faint">
+            Prefer numbers?{" "}
+            <Link
+              href="/tools"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Light COL and EP threshold tools
+            </Link>{" "}
+            live one level down — never on the homepage.
+          </p>
+        </FadeIn>
+      </div>
+    </>
+  );
+}

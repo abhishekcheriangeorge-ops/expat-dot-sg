@@ -1,0 +1,11 @@
+{
+  "type": "event",
+  "slug": "hash-house-harriers",
+  "title": "Hash runs — weekly social trail",
+  "summary": "Many nationality hashes run weekday evenings. Soft intro to sweaty belonging — check club noticeboards for guest rules.",
+  "date": "2026-01-01",
+  "recurring": true,
+  "venue": "Rotating trails",
+  "audience": ["everyone", "sports"],
+  "featured": false
+}

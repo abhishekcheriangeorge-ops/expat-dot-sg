@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "chinese-new-year",
+  "title": "Chinese New Year",
+  "summary": "Two public holidays, reunion dinners, and many SMEs closed longer. Stock groceries early; hawker centres thin out.",
+  "date": "2026-02-17",
+  "endDate": "2026-02-18",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["everyone", "families", "culture"],
+  "featured": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "event",
+  "slug": "hari-raya-puasa",
+  "title": "Hari Raya Puasa",
+  "summary": "End of Ramadan. Geylang Serai and Malay-Muslim households host open houses; check workplace leave calendars.",
+  "date": "2026-03-21",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["everyone", "culture", "families"],
+  "featured": false
+}

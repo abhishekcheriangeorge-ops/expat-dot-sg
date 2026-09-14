@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "formula-1-weekend",
+  "title": "Singapore Grand Prix weekend",
+  "summary": "Marina Bay street circuit, road closures, and hotel spike. If you live nearby, plan groceries and school runs ahead.",
+  "date": "2026-09-18",
+  "endDate": "2026-09-20",
+  "recurring": true,
+  "venue": "Marina Bay",
+  "neighbourhood": "marina-bay",
+  "audience": ["everyone", "sports"],
+  "featured": true
+}

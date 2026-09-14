@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "singapore-art-week",
+  "title": "Singapore Art Week",
+  "summary": "Galleries, public installations, and late-night openings across the civic district and beyond.",
+  "date": "2026-01-16",
+  "endDate": "2026-01-25",
+  "recurring": true,
+  "venue": "Civic District & island-wide",
+  "audience": ["everyone", "culture"],
+  "featured": false,
+  "href": "https://www.singaporeartweek.sg"
+}

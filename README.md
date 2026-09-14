@@ -30,14 +30,20 @@ Open [http://localhost:3000](http://localhost:3000).
 content/
   guides/           # MDX cornerstone articles
   entities/         # JSON: neighbourhoods, schools, clubs, services
+  journeys/         # Arriving checklists + leaving playbook
+  calendar/         # Events / kids calendar
 src/
-  app/              # App Router pages
+  app/              # App Router pages (/journeys, /calendar, /tools, …)
   components/
     layout/         # SiteHeader, SiteFooter, SiteShell
     motion/         # FadeIn, Stagger, KenBurns
+    journeys/       # Checklists + leaving playbook UI
+    calendar/       # Events board
+    tools/          # COL + EP threshold calculators
   lib/
     fonts.ts        # Fraunces (display) + Manrope (sans)
     content/        # Zod schemas + typed loaders
+    tools/          # Calculator pure functions
 ```
 
 ## Content loaders
