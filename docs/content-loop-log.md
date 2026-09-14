@@ -4,6 +4,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 13 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — day-one after PR / MediShield / CareShield / DPS / CPF graded ([just got PR](https://www.reddit.com/r/askSingapore/comments/14186hk/i_just_got_my_pr_what_do_i_need_to_know/); [what happens right after](https://www.reddit.com/r/askSingapore/comments/159r6lg/what_happens_right_after_you_get_pr/); [what should I do](https://www.reddit.com/r/askSingapore/comments/1cgqumy/what_should_i_do_after_getting_pr/); [DPS / CareShield / MediShield](https://www.reddit.com/r/askSingapore/comments/14m164d/dps_careshield_life_medishield_life/); [SPR medical spending](https://www.reddit.com/r/askSingapore/comments/102150c/whats_the_proper_way_to_plan_for_medical_spending/)).
+- r/askSingapore — AEIS / local vs international placement ([12k family / AEIS lottery](https://www.reddit.com/r/askSingapore/comments/1qisb1f/frenchchinese_family_considering_move_to_sg_is/); [academic global range AEIS](https://www.reddit.com/r/askSingapore/comments/1i1ssai/academic_for_our_kids_with_global_range/); [int’l → public transfer](https://www.reddit.com/r/askSingapore/comments/kg0mdd/whats_the_admission_process_for_a_transfer_from/); [EP kids subsidies / AEIS](https://www.reddit.com/r/askSingapore/comments/13hduoz/do_any_educational_subsidies_or_grants_exists_for/); [DP government education](https://www.reddit.com/r/askSingapore/comments/1jfc9e5/dependent_pass_and_government_education/)).
+- r/askSingapore — paternity / shared parental leave citizenship gate ([parental leave corporates](https://www.reddit.com/r/askSingapore/comments/196mitu/parental_leave_in_corporates/); [maternity leave length](https://www.reddit.com/r/askSingapore/comments/11j20np/singapore_maternity_leave/); [SPL work pressure](https://www.reddit.com/r/askSingapore/comments/1n2y6pp/company_expecting_parent_to_work_on_shared/); [SPL split](https://www.reddit.com/r/askSingapore/comments/1rawm1s/maternitypaternityshared_parental_leave/); [3-month service](https://www.reddit.com/r/askSingapore/comments/1j8gf7d/has_anyone_able_to_claim_parental_leave_despite/)).
+- r/askSingapore — Fair Consideration Framework / MyCareersFuture ([EP regulations / MCF theatre](https://www.reddit.com/r/askSingapore/comments/1dho3o0/question_for_hr_violating_mom_ep_regulations/); [MCF success rate](https://www.reddit.com/r/askSingapore/comments/1khjmr6/mycareersfuture_jobstreet_jobsdb_whats_the/); [LinkedIn → MCF](https://www.reddit.com/r/askSingapore/comments/15po633/linkedin_job_posting_directs_you_to/); [unfair hiring / ICT](https://www.reddit.com/r/askSingapore/comments/1g5w561/is_this_considered_an_unfair_hiring_practice/); [MCF salary numbers](https://www.reddit.com/r/askSingapore/comments/z8gbdq/how_true_are_the_salary_numbers_on/)).
+- r/askSingapore — EP sponsorship outlook / fresh-grad COMPASS friction (adjacency) ([companies sponsoring EPs](https://www.reddit.com/r/askSingapore/comments/1t1kj56/outlook_on_companies_sponsoring_eps_in_singapore/); [securing employment as foreigner](https://www.reddit.com/r/askSingapore/comments/1sor9me/securing_employment_as_a_foreigner/)).
+
+**Official**
+
+- [MOH — MediShield Life](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life/) + [ISP comparison](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/comparison-of-integrated-shield-plans/) + [CPF CareShield Life](https://www.cpf.gov.sg/member/healthcare-financing/careshield-life) + [DPS](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/insuring-to-protect-your-dependants) + [CPF contribution rates](https://www.cpf.gov.sg/employer/employer-obligations/how-much-cpf-contributions-to-pay).
+- [MOE — AEIS](https://www.moe.gov.sg/international-students/aeis) + [apply / fees](https://www.moe.gov.sg/international-students/aeis/apply) + [eligibility](https://www.moe.gov.sg/international-students/aeis/eligibility-criteria) + [S-AEIS](https://www.moe.gov.sg/international-students/s-aeis) + [SEAB AEIS](https://www.seab.gov.sg/aeis/about-aeis/).
+- [MOM — Paternity leave](https://www.mom.gov.sg/employment-practices/leave/paternity-leave) + [non-citizen child FAQ](https://www.mom.gov.sg/faq/paternity-leave/my-child-is-not-a-singapore-citizen-am-i-eligible-for-paternity-leave) + [Shared parental leave](https://www.mom.gov.sg/employment-practices/leave/shared-parental-leave) + [MSF GPL portal](https://www.profamilyleave.msf.gov.sg/schemes/paternity-leave).
+- [MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) + [EP advertise fairly](https://www.mom.gov.sg/passes-and-permits/employment-pass/consider-all-candidates-fairly) + [S$22,500 exemption](https://www.mom.gov.sg/faq/fair-consideration-framework/why-are-jobs-with-fixed-monthly-salary-of-22500-and-above-exempted-from-advertising).
+
+### Gaps vs Tick 1–12
+
+Tick 1–12 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR (thin on **day-one MediShield/CareShield/DPS/CPF graded**), MDW, diplomatic clause/SCT, insurance/maternity (thin on **paternity/SPL citizenship gate**), preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1 (thin on **AEIS/S-AEIS depth**), LTVP, EP renewal, healthcare/HSA/dental, remittance, apps/PayNow, S Pass, COMPASS (thin on **FCF/MCF 14-day theatre**), Customs GST, Student’s Pass, career pivots, SimplyGo, aircon/mould/cockroach, SRS, haze, ABSD, STVP, PEP/ONE/Tech.Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty, ROM marriage, divorce/Hague, newborn, LOG, REP, probate, cycling, IVF, TADM, HDB for PR, visit-pass extension. Remaining high-intent gaps matched forum heat: **after-PR admin stack**, **AEIS/S-AEIS**, **GPPL/SPL for non-SC children**, **FCF MyCareersFuture for EP seekers**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/next/after-getting-pr-checklist.mdx`
+- `content/guides/family/aeis-saeis-international-students.mdx`
+- `content/guides/family/paternity-shared-parental-leave-foreigners.mdx`
+- `content/guides/move/fair-consideration-framework-ep.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/next/pr-application-strategy.mdx` (day-one deep-link)
+- `content/guides/family/local-schools-for-expats.mdx` (AEIS dedicated guide)
+- `content/guides/family/maternity-care-singapore.mdx` (paternity/SPL adjacency)
+- `content/guides/money/health-insurance-expat.mdx` (PR MediShield flip)
+- `content/guides/money/cpf-and-foreigners.mdx` (graded rates + DPS)
+- `content/guides/move/employment-pass-singapore.mdx` (FCF)
+- `content/guides/move/compass-framework-explained.mdx` (FCF deep-link)
+- `content/guides/next/career-pivots-singapore.mdx` (FCF related)
+
+**Entity depth**
+
+- `content/entities/services/aia-singapore.json`
+- `content/entities/services/prudential-singapore.json`
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/the-tutors.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing insurance `sponsorSlot` / AIA featured flags left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–12 topics beyond the after-PR, AEIS, paternity/SPL, and FCF adjacency gaps above.
+
+---
+
 ## Tick 12 — 2026-09-15
 
 ### Sources mined
