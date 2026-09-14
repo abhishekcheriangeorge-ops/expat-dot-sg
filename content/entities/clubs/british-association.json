@@ -1,0 +1,17 @@
+{
+  "type": "club",
+  "slug": "british-association",
+  "name": "British Association of Singapore",
+  "summary": "Community and events association for Brits and friends of Britain in Singapore.",
+  "body": "BAS offers social programming and community touchpoints without full club capital costs. Useful alongside or instead of British Club membership depending on your budget and facilities needs.",
+  "category": "association",
+  "focus": [
+    "British",
+    "social",
+    "families"
+  ],
+  "membershipNotes": "Association-level dues.",
+  "website": "https://www.britishassociation.org.sg",
+  "featured": false,
+  "sponsored": false
+}

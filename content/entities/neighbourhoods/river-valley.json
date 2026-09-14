@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "river-valley",
+  "name": "River Valley",
+  "summary": "High-rise living between Orchard and the river — city access without CBD sterility.",
+  "body": "River Valley and the adjacent Mohamed Sultan / Robertson Quay stretch give you towers, river walks, and Orchard retail within a short hop. Singles and dual-income couples often land here for lifestyle density: gyms, restaurants, and late MRT options. Family floorplans exist in newer developments, but outdoor play space is tower-courtyard rather than landed garden. Noise and construction cycles are part of the deal.",
+  "region": "central",
+  "vibe": [
+    "urban",
+    "high-rise",
+    "nightlife-adjacent",
+    "river"
+  ],
+  "bestFor": [
+    "singles",
+    "couples",
+    "corporate packages near Orchard"
+  ],
+  "watchOuts": [
+    "Construction noise",
+    "Premium PSF",
+    "Limited ground-level green"
+  ],
+  "housingMix": "Mostly high-rise condominiums; serviced apartments common.",
+  "commuteNotes": "Fort Canning / Great World / Somerset nearby; walkable to parts of Orchard.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3500,
+    "oneBedTo": 5500,
+    "familyFrom": 6500,
+    "familyTo": 12000
+  },
+  "mrt": [
+    "Great World",
+    "Fort Canning",
+    "Somerset"
+  ],
+  "schoolsNearby": [
+    "chatsworth-international",
+    "iss-international"
+  ],
+  "featured": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "service",
+  "slug": "alliance-movers",
+  "name": "Alliance Movers",
+  "summary": "Local and regional moving support for apartment and condo shifts.",
+  "body": "For intra-island condo moves, local movers can be more proportionate than full international freight agents. Still insist on written inventories and lift booking coordination with condo management.",
+  "category": "movers",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "featured": false,
+  "sponsored": false
+}

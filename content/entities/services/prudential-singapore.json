@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "prudential-singapore",
+  "name": "Prudential Singapore",
+  "summary": "Established insurer with health and protection plans commonly sold to residents.",
+  "body": "Work with an adviser who will put exclusions in writing. If you may leave Singapore in 2–3 years, ask about portability and surrender paths before you buy.",
+  "category": "insurance",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.prudential.com.sg",
+  "featured": false,
+  "sponsored": false
+}

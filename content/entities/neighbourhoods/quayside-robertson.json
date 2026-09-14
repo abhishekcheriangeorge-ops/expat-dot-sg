@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "quayside-robertson",
+  "name": "Robertson Quay",
+  "summary": "Riverfront dining and apartment living — social evenings with CBD adjacency.",
+  "body": "Robertson Quay is River Valley’s more restaurant-forward face: riverside tables, apartment towers, and a weekend crowd that spills from lunch into evening. Ideal for people who want walkable dinners and a short Grab to the CBD. Less ideal if you need quiet bedrooms facing the promenade or large outdoor play space for toddlers.",
+  "region": "central",
+  "vibe": [
+    "riverfront",
+    "dining",
+    "social",
+    "apartment"
+  ],
+  "bestFor": [
+    "couples",
+    "social calendars",
+    "short-to-medium stays"
+  ],
+  "watchOuts": [
+    "Promenade noise",
+    "Premium for view units",
+    "Limited family outdoor space"
+  ],
+  "housingMix": "High-rise apartments and serviced options.",
+  "commuteNotes": "Fort Canning / Great World; riverwalk toward Clarke Quay.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3600,
+    "oneBedTo": 5800,
+    "familyFrom": 6500,
+    "familyTo": 11000
+  },
+  "mrt": [
+    "Fort Canning",
+    "Great World"
+  ],
+  "schoolsNearby": [
+    "chatsworth-international"
+  ],
+  "featured": false
+}

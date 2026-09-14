@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "hwa-chong-international",
+  "name": "Hwa Chong International School",
+  "summary": "International arm of the Hwa Chong family with bilingual and IP-adjacent strengths.",
+  "body": "HCIS attracts families seeking bilingual strength and the Hwa Chong academic culture in an international-school frame. Useful when you want Singaporean academic intensity without full local-school eligibility constraints — still verify admissions eligibility carefully.",
+  "curriculum": [
+    "IB",
+    "Bilingual"
+  ],
+  "sector": "international",
+  "ages": "Secondary",
+  "neighbourhood": "bukit-timah",
+  "campus": "Bukit Timah",
+  "languages": [
+    "English",
+    "Mandarin"
+  ],
+  "feesBand": "Upper-mid",
+  "waitlistNotes": "Academic selection elements may apply.",
+  "website": "https://www.hcis.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

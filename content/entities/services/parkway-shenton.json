@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "parkway-shenton",
+  "name": "Parkway Shenton",
+  "summary": "GP clinic network linked to Parkway hospitals — practical for insured families.",
+  "body": "Parkway Shenton clinics pair naturally with Mount Elizabeth / Gleneagles pathways for many corporate plans. Verify your insurer’s panel list rather than assuming all Parkway sites are covered identically.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.parkwayshenton.com",
+  "featured": false,
+  "sponsored": false
+}

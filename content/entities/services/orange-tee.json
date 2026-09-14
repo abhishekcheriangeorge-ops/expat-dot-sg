@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "orange-tee",
+  "name": "OrangeTee & Tie",
+  "summary": "Property agency network active across condo and landed rentals.",
+  "body": "Agents are not interchangeable — interview for neighbourhood fluency, landlord relationships, and LOI discipline. OrangeTee is one of several large brands; chemistry with your individual agent matters more than logo.",
+  "category": "agents",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.orangetee.com",
+  "featured": false,
+  "sponsored": false
+}

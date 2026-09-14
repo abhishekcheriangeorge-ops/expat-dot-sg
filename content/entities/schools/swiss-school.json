@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "swiss-school",
+  "name": "Swiss School Singapore",
+  "summary": "Swiss curriculum education with multilingual pathways for Swiss and European families.",
+  "body": "Swiss School Singapore supports Swiss educational continuity with multilingual exposure. It is a niche but critical option for Swiss postings and families seeking Swiss pedagogy. Capacity is limited relative to mega-campuses — contact admissions as soon as relocation is firm.",
+  "curriculum": [
+    "Swiss"
+  ],
+  "sector": "international",
+  "ages": "Kindergarten–Secondary",
+  "neighbourhood": "bukit-timah",
+  "campus": "Bukit Timah area",
+  "languages": [
+    "German",
+    "French",
+    "English"
+  ],
+  "feesBand": "Premium niche",
+  "waitlistNotes": "Small cohorts — early contact essential.",
+  "website": "https://www.swiss-school.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

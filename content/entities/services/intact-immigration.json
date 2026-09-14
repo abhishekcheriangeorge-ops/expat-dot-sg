@@ -1,0 +1,13 @@
+{
+  "type": "service",
+  "slug": "intact-immigration",
+  "name": "Immigration counsel (category guide)",
+  "summary": "Category entry for EP/Dependant Pass counsel — use regulated advisers for edge cases.",
+  "body": "Most straightforward EP issues are employer-led via MOM. Engage immigration counsel for refusals, complex dependants, EntrePass, or PR strategy — not for routine first-pass filing your HR already owns.",
+  "category": "legal",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "featured": false,
+  "sponsored": false
+}

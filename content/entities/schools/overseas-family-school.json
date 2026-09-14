@@ -1,0 +1,25 @@
+{
+  "type": "school",
+  "slug": "overseas-family-school",
+  "name": "Overseas Family School",
+  "summary": "Central OFS campus with IB and mother-tongue pathways for a highly international student body.",
+  "body": "OFS emphasises mother-tongue maintenance alongside IB programmes, attracting globally mobile families who want language continuity. The central location helps dual-career households. Admissions and language placement deserve an early conversation with the school.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Pre-K–Grade 12",
+  "neighbourhood": "river-valley",
+  "campus": "Pasir Panjang / central campuses — verify current map",
+  "languages": [
+    "English",
+    "Mother tongue options"
+  ],
+  "feesBand": "Upper-mid to premium",
+  "waitlistNotes": "Language programme capacity can gate offers.",
+  "website": "https://www.ofs.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

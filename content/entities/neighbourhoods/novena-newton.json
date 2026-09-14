@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "novena-newton",
+  "name": "Novena & Newton",
+  "summary": "Medical hub convenience, food streets, and mid-town access without full CBD intensity.",
+  "body": "Novena’s hospital cluster and Newton’s food reputation make this a practical mid-town choice. Condos along the CTE/Thomson corridor offer family layouts with relatively fast CBD access. It is less ‘expat village’ than Holland V, which some people prefer. Expect medical traffic, food queues, and a mix of older and newer towers.",
+  "region": "central",
+  "vibe": [
+    "practical",
+    "food",
+    "mid-town",
+    "medical-hub"
+  ],
+  "bestFor": [
+    "families",
+    "healthcare-adjacent professionals",
+    "value vs Orchard"
+  ],
+  "watchOuts": [
+    "Traffic around hospitals",
+    "Variable building age",
+    "Less café-strip cohesion"
+  ],
+  "housingMix": "Mid-to-large condos; some landed pockets toward Newton.",
+  "commuteNotes": "North-South Line (Novena, Newton); Downtown Line nearby.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3000,
+    "oneBedTo": 4500,
+    "familyFrom": 5200,
+    "familyTo": 10000
+  },
+  "mrt": [
+    "Novena",
+    "Newton"
+  ],
+  "schoolsNearby": [
+    "stamford-american",
+    "acs-independent"
+  ],
+  "featured": false
+}

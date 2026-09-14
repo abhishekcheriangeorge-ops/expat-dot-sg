@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "nation-employment",
+  "name": "Nation Employment",
+  "summary": "MDW / helper agency — interview process, contracts, and MOM compliance support.",
+  "body": "Helper agencies should be transparent on fees, replacement policies, and training. You remain the employer under MOM rules — understand your obligations before the helper arrives.",
+  "category": "fdw",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nation.com.sg",
+  "featured": false,
+  "sponsored": false
+}

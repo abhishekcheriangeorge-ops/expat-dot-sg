@@ -1,0 +1,18 @@
+{
+  "type": "club",
+  "slug": "british-club",
+  "name": "The British Club",
+  "summary": "Hilltop club with sport facilities and a strong UK/Commonwealth social base.",
+  "body": "The British Club offers family sport and social facilities with a Commonwealth lean. Location and traffic access should be part of your comparison versus American or Hollandse Club.",
+  "category": "membership",
+  "focus": [
+    "UK community",
+    "families",
+    "sport"
+  ],
+  "membershipNotes": "Family and individual categories — check joining fees.",
+  "website": "https://www.britishclub.org.sg",
+  "neighbourhood": "bukit-timah",
+  "featured": false,
+  "sponsored": false
+}

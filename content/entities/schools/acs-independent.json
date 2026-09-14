@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "acs-independent",
+  "name": "ACS (Independent)",
+  "summary": "Leading Methodist independent school with IB Diploma and IP options.",
+  "body": "ACS (Independent) offers IP and IB Diploma routes within the local independent sector. Popular among families eligible for local schools who still want IB. Distinct from ACS International — confirm which ACS entity you mean in conversations.",
+  "curriculum": [
+    "MOE",
+    "IP",
+    "IB DP"
+  ],
+  "sector": "local",
+  "ages": "Secondary–JC equivalent",
+  "neighbourhood": "clementi-west-coast",
+  "campus": "Dover",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Local independent (eligibility-based)",
+  "waitlistNotes": "Eligibility and posting rules apply.",
+  "website": "https://www.acsindep.moe.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

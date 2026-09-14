@@ -1,0 +1,23 @@
+{
+  "type": "school",
+  "slug": "invictus-international",
+  "name": "Invictus International School",
+  "summary": "Newer international network campuses offering Cambridge pathways at accessible price points.",
+  "body": "Invictus operates multiple Singapore campuses with Cambridge-oriented programmes and a value positioning versus legacy schools. Tour the specific campus your child would attend — culture and facilities vary by site.",
+  "curriculum": [
+    "Cambridge",
+    "British"
+  ],
+  "sector": "international",
+  "ages": "Nursery–Secondary",
+  "neighbourhood": "east-coast",
+  "campus": "Multiple",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Mid",
+  "waitlistNotes": "Campus-level availability changes term to term.",
+  "website": "https://www.invictus.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

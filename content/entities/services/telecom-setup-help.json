@@ -1,0 +1,13 @@
+{
+  "type": "service",
+  "slug": "telecom-setup-help",
+  "name": "Telco & utilities setup (category guide)",
+  "summary": "Representative ‘other’ services entry covering Singtel/StarHub/M1 and SP utilities onboarding.",
+  "body": "Arrive with passport, proof of address, and a plan for number portability. Utilities deposits and appointment windows catch jet-lagged arrivals — schedule in week one.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "featured": false,
+  "sponsored": false
+}

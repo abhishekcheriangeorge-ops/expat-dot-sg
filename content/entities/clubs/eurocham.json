@@ -1,0 +1,17 @@
+{
+  "type": "club",
+  "slug": "eurocham",
+  "name": "EuroCham Singapore",
+  "summary": "European Chamber umbrella for EU business advocacy and cross-national networking.",
+  "body": "EuroCham aggregates European business interests — useful if your work spans multiple EU markets. Committee work is where deeper relationships form.",
+  "category": "chamber",
+  "focus": [
+    "business",
+    "European",
+    "advocacy"
+  ],
+  "membershipNotes": "Company membership typical.",
+  "website": "https://www.eurocham.org.sg",
+  "featured": false,
+  "sponsored": false
+}

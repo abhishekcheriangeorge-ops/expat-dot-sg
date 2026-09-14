@@ -1,0 +1,15 @@
+{
+  "type": "service",
+  "slug": "santa-fe-relocation",
+  "name": "Santa Fe Relocation",
+  "summary": "Global relocation firm handling household goods and assignment support.",
+  "body": "Santa Fe and peers often appear on corporate approved-vendor lists. If you are self-moving, compare destination agent quality in Singapore as carefully as origin pricing.",
+  "category": "movers",
+  "areasServed": [
+    "Islandwide",
+    "International"
+  ],
+  "website": "https://www.santaferelo.com",
+  "featured": false,
+  "sponsored": false
+}

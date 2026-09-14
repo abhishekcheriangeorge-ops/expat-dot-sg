@@ -1,0 +1,17 @@
+{
+  "type": "club",
+  "slug": "oogachaga",
+  "name": "Oogachaga",
+  "summary": "LGBTQ+ counselling and community support organisation serving Singapore.",
+  "body": "Oogachaga provides counselling, support, and community resources for LGBTQ+ people in Singapore. Listed here as a belonging and wellbeing resource — not a membership sports club. Essential landscape knowledge for LGBTQ+ arrivals.",
+  "category": "lgbtq",
+  "focus": [
+    "lgbtq",
+    "counselling",
+    "support"
+  ],
+  "membershipNotes": "Service organisation — see website for programmes.",
+  "website": "https://www.oogachaga.com",
+  "featured": false,
+  "sponsored": false
+}

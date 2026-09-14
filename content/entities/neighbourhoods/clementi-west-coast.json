@@ -1,0 +1,44 @@
+{
+  "type": "neighbourhood",
+  "slug": "clementi-west-coast",
+  "name": "Clementi & West Coast",
+  "summary": "University-west practicality, park connectors, and better family value than core central.",
+  "body": "Clementi and West Coast attract households trading central prestige for space and rent relief while staying west of town near NUS and parks. Hawker centres, malls, and MRT coverage make daily life straightforward. International-school runs may still mean driving toward Bukit Timah or Dover. A strong living-mode neighbourhood once the first-month chaos settles.",
+  "region": "west",
+  "vibe": [
+    "practical",
+    "value",
+    "parks",
+    "family"
+  ],
+  "bestFor": [
+    "families stretching packages",
+    "longer-term living",
+    "drivers"
+  ],
+  "watchOuts": [
+    "Longer Orchard trips",
+    "Less expat-dense social scene",
+    "School commute planning"
+  ],
+  "housingMix": "Condos, HDB (eligible), some landed toward West Coast.",
+  "commuteNotes": "East-West Line (Clementi); Circle Line connections via Buona Vista.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3600,
+    "familyFrom": 4000,
+    "familyTo": 7500
+  },
+  "mrt": [
+    "Clementi",
+    "Kent Ridge",
+    "Haw Par Villa"
+  ],
+  "schoolsNearby": [
+    "uwcsea-dover",
+    "iss-international",
+    "japanese-school"
+  ],
+  "featured": false
+}

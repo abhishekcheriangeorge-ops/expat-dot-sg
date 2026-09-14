@@ -399,5 +399,7 @@ export const primaryNav = [
   { href: "/guides", label: "Guides" },
   { href: "/neighbourhoods", label: "Neighbourhoods" },
   { href: "/schools", label: "Schools" },
+  { href: "/clubs", label: "Clubs" },
+  { href: "/directory", label: "Directory" },
   { href: "/calendar", label: "Calendar" },
 ] as const;

@@ -1,0 +1,22 @@
+{
+  "type": "school",
+  "slug": "lycee-francais",
+  "name": "Lycée Français de Singapour",
+  "summary": "French national curriculum school for Francophone families and AEFE continuity.",
+  "body": "The French School provides AEFE-aligned French curriculum continuity — essential for many French and Francophone postings. Admissions follow French-system logics more than typical international-school marketing cycles; engage the school early on grade placement.",
+  "curriculum": [
+    "French"
+  ],
+  "sector": "international",
+  "ages": "Maternelle–Terminale",
+  "neighbourhood": "bukit-timah",
+  "campus": "Ang Mo Kio / verify current campus",
+  "languages": [
+    "French"
+  ],
+  "feesBand": "Mid to upper-mid (system-dependent)",
+  "waitlistNotes": "Priority rules often favour French nationals and AEFE continuity.",
+  "website": "https://www.lfs.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

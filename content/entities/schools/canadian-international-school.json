@@ -1,0 +1,26 @@
+{
+  "type": "school",
+  "slug": "canadian-international-school",
+  "name": "Canadian International School (Lakeside)",
+  "summary": "IB World School on Jurong West with bilingual Mandarin options and a lakeside campus.",
+  "body": "CIS Lakeside offers IB programmes with a Canadian-influenced pastoral approach and popular bilingual tracks. The west campus suits families living toward Jurong, Clementi, and Bukit Timah west. A second campus presence historically served Tanjong Katong — confirm current campus map when applying.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP",
+    "Bilingual"
+  ],
+  "sector": "international",
+  "ages": "Nursery–Grade 12",
+  "neighbourhood": "clementi-west-coast",
+  "campus": "Lakeside",
+  "languages": [
+    "English",
+    "Mandarin"
+  ],
+  "feesBand": "Upper-mid to premium",
+  "waitlistNotes": "Bilingual tracks fill faster — ask admissions for current openings.",
+  "website": "https://www.cis.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

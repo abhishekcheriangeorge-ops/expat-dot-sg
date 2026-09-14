@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "uwcsea-dover",
+  "name": "UWCSEA Dover",
+  "summary": "IB continuum campus on Dover Road with a strong service and outdoor education culture.",
+  "body": "United World College of South East Asia’s Dover campus runs the IB continuum in a west-central location popular with families near Holland V, Clementi, and Bukit Timah. Admissions are selective and mission-aware; the community is intentionally international. Boarding options exist for eligible students.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "K1–Grade 12",
+  "neighbourhood": "clementi-west-coast",
+  "campus": "Dover",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Premium international",
+  "waitlistNotes": "High demand; applications open on published cycles.",
+  "website": "https://www.uwcsea.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

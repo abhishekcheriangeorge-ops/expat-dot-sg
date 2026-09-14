@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "xcl-world-academy",
+  "name": "XCL World Academy",
+  "summary": "IB programmes with modern facilities on a Yio Chu Kang campus.",
+  "body": "XCL World Academy offers IB education with contemporary campus facilities in the north-east. Families comparing mid-to-premium IB options often include XCL alongside longer-established names. Transport and bus routes should be part of the decision, not an afterthought.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Nursery–Grade 12",
+  "neighbourhood": "upper-thomson",
+  "campus": "Yio Chu Kang",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Upper-mid",
+  "waitlistNotes": "Newer relative to legacy schools — ask about cohort sizes by grade.",
+  "website": "https://xwa.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

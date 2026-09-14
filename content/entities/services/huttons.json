@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "huttons",
+  "name": "Huttons Asia",
+  "summary": "Large agency presence for rentals and purchases across Singapore districts.",
+  "body": "Use agency scale for inventory breadth, then judge the agent on response time and contract hygiene. Never skip reading the tenancy agreement because someone is ‘in a hurry’.",
+  "category": "agents",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.huttonsgroup.com",
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "katong-joo-chiat",
+  "name": "Katong & Joo Chiat",
+  "summary": "Peranakan shophouses, food streets, and character housing with east-side energy.",
+  "body": "Katong and Joo Chiat sit just inland from East Coast with denser street life — kaya toast, heritage façades, and a younger evening crowd on Joo Chiat Road. Conservation shophouses and boutique apartments attract people who want texture over tower amenities. Parking and unit quirks (stairs, noise, humidity) are real; the trade is neighbourhood personality you cannot get in a new CBD condo.",
+  "region": "east",
+  "vibe": [
+    "heritage",
+    "food",
+    "character-homes",
+    "walkable-strips"
+  ],
+  "bestFor": [
+    "couples",
+    "food-led lifestyles",
+    "creative professionals"
+  ],
+  "watchOuts": [
+    "Older building maintenance",
+    "Weekend crowd noise",
+    "Variable parking"
+  ],
+  "housingMix": "Shophouses, walk-ups, boutique condos.",
+  "commuteNotes": "Dakota / Paya Lebar / Marine Parade MRT options depending on pocket.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2600,
+    "oneBedTo": 4000,
+    "familyFrom": 4200,
+    "familyTo": 8000
+  },
+  "mrt": [
+    "Dakota",
+    "Paya Lebar",
+    "Marine Parade"
+  ],
+  "schoolsNearby": [
+    "uwcsea-east",
+    "chatsworth-east"
+  ],
+  "featured": false
+}

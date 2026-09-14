@@ -1,0 +1,19 @@
+{
+  "type": "club",
+  "slug": "hollandse-club",
+  "name": "Hollandse Club",
+  "summary": "Dutch-heritage club open to internationals with sport, dining, and a relaxed family feel.",
+  "body": "Hollandse Club is popular beyond the Dutch community for its facilities-to-fee balance and family atmosphere. Often shortlisted against American Club by cost-conscious packages.",
+  "category": "membership",
+  "focus": [
+    "Dutch community",
+    "families",
+    "sport",
+    "value"
+  ],
+  "membershipNotes": "Generally more approachable waitlists than top-tier clubs — still verify.",
+  "website": "https://www.hollandseclub.org.sg",
+  "neighbourhood": "bukit-timah",
+  "featured": false,
+  "sponsored": false
+}

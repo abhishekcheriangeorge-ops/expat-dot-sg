@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "kumon-centres",
+  "name": "Kumon (centres islandwide)",
+  "summary": "Structured maths and reading centres — one of several method-based enrichment options.",
+  "body": "Method franchises like Kumon suit some children and frustrate others. Trial the centre culture near you; commute friction kills consistency.",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.kumon.sg",
+  "featured": false,
+  "sponsored": false
+}

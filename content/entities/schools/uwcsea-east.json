@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "uwcsea-east",
+  "name": "UWCSEA East",
+  "summary": "Tampines IB campus serving east-side families with the same UWC mission as Dover.",
+  "body": "UWCSEA East mirrors Dover’s IB pathway with an east-coast catchment — convenient for Marine Parade, Katong, and Pasir Ris households. Expect the same emphasis on service, outdoor education, and international diversity. Campus choice is often geography-led within the UWCSEA system.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "K1–Grade 12",
+  "neighbourhood": "east-coast",
+  "campus": "Tampines",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Premium international",
+  "waitlistNotes": "Apply early; campus preference is not guaranteed.",
+  "website": "https://www.uwcsea.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

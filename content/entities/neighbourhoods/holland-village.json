@@ -2,9 +2,41 @@
   "type": "neighbourhood",
   "slug": "holland-village",
   "name": "Holland Village",
-  "summary": "Scaffold entity for the neighbourhoods loader. Expand in Phase 3.",
+  "summary": "Walkable café strip, expat-familiar conveniences, and a soft landing for first housing searches.",
+  "body": "Holland Village sits between Dempsey and Bukit Timah — close enough to international schools and clubs that many arriving families treat it as a default shortlist. Lorong Mambong and Holland Avenue deliver groceries, takeaway, and evening tables without a car; the MRT station makes CBD days workable. Expect a mix of walk-up apartments, older condos, and a few newer towers. Weekends feel social; weekdays feel practical. It is not quiet, and it is not cheap — but it is legible if you are new to Singapore.",
   "region": "central",
-  "vibe": ["expat-friendly", "cafes", "walkable"],
-  "mrt": ["Holland Village"],
+  "vibe": [
+    "cafes",
+    "walkable",
+    "expat-familiar",
+    "evening-energy"
+  ],
+  "bestFor": [
+    "couples",
+    "families with school-age kids",
+    "first 90 days"
+  ],
+  "watchOuts": [
+    "Weekend noise on the strip",
+    "Premium rents for older stock",
+    "Limited large family floorplans in the core"
+  ],
+  "housingMix": "Condos and older walk-ups; limited landed nearby.",
+  "commuteNotes": "Circle Line at Holland Village; bus spines to Orchard and Buona Vista.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3200,
+    "oneBedTo": 4800,
+    "familyFrom": 5500,
+    "familyTo": 9000
+  },
+  "mrt": [
+    "Holland Village"
+  ],
+  "schoolsNearby": [
+    "tanglin-trust-school",
+    "chatsworth-international",
+    "iss-international"
+  ],
   "featured": false
 }

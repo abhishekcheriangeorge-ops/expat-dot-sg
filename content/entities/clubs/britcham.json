@@ -1,0 +1,17 @@
+{
+  "type": "club",
+  "slug": "britcham",
+  "name": "BritCham Singapore",
+  "summary": "British Chamber of Commerce for UK-linked business networking and events.",
+  "body": "BritCham connects UK and Commonwealth business communities through events and advocacy. Strong for entrepreneurs and corporate professionals building a Singapore network.",
+  "category": "chamber",
+  "focus": [
+    "business",
+    "UK companies",
+    "networking"
+  ],
+  "membershipNotes": "Corporate and SME tiers — check current schedule of fees.",
+  "website": "https://www.britcham.org.sg",
+  "featured": false,
+  "sponsored": false
+}

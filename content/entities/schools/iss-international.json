@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "iss-international",
+  "name": "ISS International School",
+  "summary": "IB continuum school near Preston / Alexandra with a long Singapore history.",
+  "body": "ISS is an established IB school serving a diverse international community near the Alexandra / River Valley west edge. It is a frequent comparison school against larger UK/US campuses for families who want IB with a slightly different scale and culture.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Preschool–Grade 12",
+  "neighbourhood": "tiong-bahru",
+  "campus": "Preston",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Upper-mid",
+  "waitlistNotes": "Check grade-level openings; touring recommended.",
+  "website": "https://www.iss.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

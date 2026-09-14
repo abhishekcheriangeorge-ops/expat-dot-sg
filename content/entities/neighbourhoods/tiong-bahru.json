@@ -1,0 +1,40 @@
+{
+  "type": "neighbourhood",
+  "slug": "tiong-bahru",
+  "name": "Tiong Bahru",
+  "summary": "Art-deco grids, café culture, and central living with more texture than Orchard towers.",
+  "body": "Tiong Bahru’s low-rise heritage estate and surrounding condos attract people who want central access without Marina Bay gloss. Independent cafés, the wet market, and park connectors set the rhythm. Units can be compact; demand keeps rents firm. It works well for couples and small families who prioritise walkability and character over school-corridor adjacency.",
+  "region": "central",
+  "vibe": [
+    "heritage",
+    "cafes",
+    "compact",
+    "central"
+  ],
+  "bestFor": [
+    "couples",
+    "walkers",
+    "design-conscious renters"
+  ],
+  "watchOuts": [
+    "Smaller floorplans",
+    "Tourist footfall on weekends",
+    "Limited large family stock"
+  ],
+  "housingMix": "Heritage walk-ups, boutique apartments, nearby towers.",
+  "commuteNotes": "East-West Line at Tiong Bahru; short hop to Outram and Chinatown.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3000,
+    "oneBedTo": 4500,
+    "familyFrom": 5000,
+    "familyTo": 8500
+  },
+  "mrt": [
+    "Tiong Bahru"
+  ],
+  "schoolsNearby": [
+    "iss-international"
+  ],
+  "featured": false
+}

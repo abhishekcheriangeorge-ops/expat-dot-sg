@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "nexus-international",
+  "name": "Nexus International School (Singapore)",
+  "summary": "IB World School in Aljunied with a learner-centred approach.",
+  "body": "Nexus Singapore delivers IB programmes with an emphasis on personalised learning. The Aljunied location works for east and central-east households. Compare fees, class sizes, and secondary pathways carefully against larger IB campuses.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Nursery–Year 13",
+  "neighbourhood": "katong-joo-chiat",
+  "campus": "Aljunied",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Upper-mid",
+  "waitlistNotes": "Rolling interest — confirm seat availability by term.",
+  "website": "https://www.nexus.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

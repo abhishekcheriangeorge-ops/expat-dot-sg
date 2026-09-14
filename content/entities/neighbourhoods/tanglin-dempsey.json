@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "tanglin-dempsey",
+  "name": "Tanglin & Dempsey",
+  "summary": "Embassy belt calm, dining enclaves, and club-adjacent living near Orchard’s edge.",
+  "body": "Tanglin and Dempsey sit in the soft zone between Orchard retail and Botanic Gardens green. Dining clusters at Dempsey, membership clubs nearby, and embassy-adjacent streets give the area a polished, quieter profile. Housing is condo- and landed-heavy; walkability depends on which pocket you land. Strong for families who want central without River Valley density.",
+  "region": "central",
+  "vibe": [
+    "polished",
+    "dining",
+    "green-edge",
+    "clubs"
+  ],
+  "bestFor": [
+    "families",
+    "club members",
+    "Orchard-adjacent professionals"
+  ],
+  "watchOuts": [
+    "Premium rents",
+    "Patchy last-mile walkability",
+    "Limited budget stock"
+  ],
+  "housingMix": "Upscale condos and landed; limited HDB adjacency.",
+  "commuteNotes": "Orchard / Napier / Botanic Gardens MRT depending on exact pocket.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3800,
+    "oneBedTo": 6000,
+    "familyFrom": 7000,
+    "familyTo": 15000
+  },
+  "mrt": [
+    "Orchard",
+    "Napier",
+    "Botanic Gardens"
+  ],
+  "schoolsNearby": [
+    "tanglin-trust-school",
+    "chatsworth-international"
+  ],
+  "featured": false
+}

@@ -1,0 +1,44 @@
+{
+  "type": "neighbourhood",
+  "slug": "east-coast",
+  "name": "East Coast",
+  "summary": "Park connector living, sea breeze, and a slower weekend tempo east of town.",
+  "body": "East Coast (Marine Parade, Siglap, Frankel) rewards people who want outdoor space and a neighbourhood feel. East Coast Park is the weekend engine — cycling, hawker breakfasts, beach sports. Commutes into CBD are longer than Holland V or River Valley, but the lifestyle trade is deliberate. Housing spans HDB-adjacent pockets (for eligible tenants), older condos, and landed streets inland from the park.",
+  "region": "east",
+  "vibe": [
+    "seaside",
+    "outdoors",
+    "family",
+    "weekend-park"
+  ],
+  "bestFor": [
+    "families",
+    "runners and cyclists",
+    "longer-stay living"
+  ],
+  "watchOuts": [
+    "Longer CBD commute",
+    "Humidity + haze on park days",
+    "Car helps a lot"
+  ],
+  "housingMix": "Condos facing the park, landed inland, some HDB for eligible renters.",
+  "commuteNotes": "East Coast Line (Marine Parade, Marine Terrace); expressways to CBD.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2800,
+    "oneBedTo": 4200,
+    "familyFrom": 4500,
+    "familyTo": 9000
+  },
+  "mrt": [
+    "Marine Parade",
+    "Marine Terrace",
+    "Siglap"
+  ],
+  "schoolsNearby": [
+    "uwcsea-east",
+    "canadian-international-school-lakeside",
+    "chatsworth-east"
+  ],
+  "featured": false
+}

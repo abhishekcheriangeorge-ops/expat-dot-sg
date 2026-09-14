@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "raffles-medical",
+  "name": "Raffles Medical",
+  "summary": "Islandwide clinic network used by many expats for GP and health screening.",
+  "body": "Raffles Medical clinics are a common first GP relationship for newcomers. Confirm insurance panels, clinic hours near home, and A&E alternatives before you need them at 11pm.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.rafflesmedicalgroup.com",
+  "featured": false,
+  "sponsored": false
+}

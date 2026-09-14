@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "woodlands",
+  "name": "Woodlands",
+  "summary": "Northern gateway living — Malaysian border access, space, and a different cost curve.",
+  "body": "Woodlands works for households with Johor Bahru ties, certain school choices, or a deliberate bet on space and rent. Causeway traffic and distance to central lifestyle hubs are the trade. Causeway Point and waterfront parks cover daily needs. Shortlist only if your work and school geography actually fit the north — do not pick it for ‘savings’ alone.",
+  "region": "north",
+  "vibe": [
+    "space",
+    "value",
+    "border",
+    "suburban"
+  ],
+  "bestFor": [
+    "JB-linked households",
+    "space seekers",
+    "certain school corridors"
+  ],
+  "watchOuts": [
+    "Causeway congestion",
+    "Long CBD days",
+    "Fewer expat social defaults"
+  ],
+  "housingMix": "Condos, HDB, landed — more space per dollar than central.",
+  "commuteNotes": "North-South Line terminus; plan expressway timing carefully.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3200,
+    "familyFrom": 3200,
+    "familyTo": 6000
+  },
+  "mrt": [
+    "Woodlands",
+    "Woodlands South"
+  ],
+  "schoolsNearby": [
+    "singapore-american-school",
+    "woodlands-ring"
+  ],
+  "featured": false
+}

@@ -50,7 +50,7 @@ export async function getEntities(
   const dir = path.join(ENTITIES_DIR, parsed);
   const items = await readJsonFiles(dir);
 
-  return items.map((item, index) => {
+  const entities = items.map((item, index) => {
     const result = schema.safeParse(item);
     if (!result.success) {
       throw new Error(
@@ -58,6 +58,14 @@ export async function getEntities(
       );
     }
     return result.data;
+  });
+
+  // Featured listings float to the top (Phase 5 monetization-ready)
+  return entities.sort((a, b) => {
+    const af = "featured" in a && a.featured ? 1 : 0;
+    const bf = "featured" in b && b.featured ? 1 : 0;
+    if (af !== bf) return bf - af;
+    return a.name.localeCompare(b.name);
   });
 }
 

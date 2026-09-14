@@ -1,0 +1,19 @@
+{
+  "type": "club",
+  "slug": "swiss-club",
+  "name": "Swiss Club Singapore",
+  "summary": "Swiss community club with dining, events, and hillside facilities.",
+  "body": "Swiss Club anchors Swiss and European social life with events and F&B. Membership interest often tracks Swiss corporate postings. Visit for culture fit — it is community-first as much as facilities-first.",
+  "category": "membership",
+  "focus": [
+    "Swiss community",
+    "European",
+    "dining",
+    "events"
+  ],
+  "membershipNotes": "Categories may favour Swiss links — ask membership office.",
+  "website": "https://www.swissclub.org.sg",
+  "neighbourhood": "bukit-timah",
+  "featured": false,
+  "sponsored": false
+}

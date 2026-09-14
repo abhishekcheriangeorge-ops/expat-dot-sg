@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "dulwich-college-singapore",
+  "name": "Dulwich College (Singapore)",
+  "summary": "British independent school model in Bukit Batok with IGCSEs and IB Diploma.",
+  "body": "Dulwich Singapore brings a UK independent-school culture to the west, with strong performing arts and academic pathways through IGCSE and IB. Families often pair it with west-side housing. Tour early — facilities and pastoral model are a big part of the sell.",
+  "curriculum": [
+    "British",
+    "IGCSE",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Toddler–Year 13",
+  "neighbourhood": "clementi-west-coast",
+  "campus": "Bukit Batok",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Premium international",
+  "waitlistNotes": "Year-group dependent; early registration recommended.",
+  "website": "https://singapore.dulwich.org",
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,19 @@
+{
+  "type": "club",
+  "slug": "singapore-cricket-club",
+  "name": "Singapore Cricket Club",
+  "summary": "Padang-side historic club with sport sections and a central business-district presence.",
+  "body": "SCC sits on the Padang with cricket, rugby, hockey and a CBD-adjacent social life. Different proposition from family suburban clubs — stronger for sport sections and central networking.",
+  "category": "membership",
+  "focus": [
+    "sport",
+    "CBD",
+    "heritage",
+    "networking"
+  ],
+  "membershipNotes": "Sport-section culture is strong; understand category rules.",
+  "website": "https://www.scc.org.sg",
+  "neighbourhood": "marina-bay-cbd",
+  "featured": false,
+  "sponsored": false
+}

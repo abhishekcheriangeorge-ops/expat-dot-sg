@@ -1,0 +1,13 @@
+{
+  "type": "service",
+  "slug": "comfort-employment",
+  "name": "Comfort Employment",
+  "summary": "Domestic helper agency option for families navigating first-time MDW employment.",
+  "body": "Compare at least two FDW agencies on total cost, not headline placement fees. Budget for settling-in friction — the first month is management, not magic.",
+  "category": "fdw",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "featured": false,
+  "sponsored": false
+}

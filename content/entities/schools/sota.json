@@ -1,0 +1,23 @@
+{
+  "type": "school",
+  "slug": "sota",
+  "name": "School of the Arts (SOTA)",
+  "summary": "Specialised arts secondary school combining creative practice with academic pathways.",
+  "body": "SOTA is Singapore’s leading pre-tertiary arts school. Entry is talent-based and highly selective. Expat families with artistically driven teens should understand audition timelines years ahead — this is not a casual transfer option.",
+  "curriculum": [
+    "Specialised arts",
+    "IB DP"
+  ],
+  "sector": "local",
+  "ages": "Secondary–JC equivalent",
+  "neighbourhood": "marina-bay-cbd",
+  "campus": "Dhoby Ghaut",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Specialised independent / MOE framework",
+  "waitlistNotes": "Audition-driven — follow SOTA admissions calendar strictly.",
+  "website": "https://www.sota.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

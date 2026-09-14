@@ -1,0 +1,23 @@
+{
+  "type": "school",
+  "slug": "nus-high",
+  "name": "NUS High School of Math and Science",
+  "summary": "Specialised independent school for mathematically and scientifically gifted students.",
+  "body": "NUS High is a specialised pathway for students with exceptional STEM aptitude. Admissions are selective and aptitude-based. Relevant as landscape knowledge for families whose children may qualify — not a general international alternative.",
+  "curriculum": [
+    "Specialised STEM",
+    "NUS High diploma"
+  ],
+  "sector": "local",
+  "ages": "Secondary–JC equivalent",
+  "neighbourhood": "clementi-west-coast",
+  "campus": "Clementi",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Specialised independent",
+  "waitlistNotes": "Selection tests and interviews — prepare early.",
+  "website": "https://www.nushigh.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

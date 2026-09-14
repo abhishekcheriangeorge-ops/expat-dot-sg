@@ -1,0 +1,25 @@
+{
+  "type": "school",
+  "slug": "stamford-american",
+  "name": "Stamford American International School",
+  "summary": "American and IB programmes across Woodleigh and Mont Kiara-adjacent pathways in Singapore.",
+  "body": "Stamford American offers American curriculum elements alongside IB, with modern campuses oriented toward families wanting US-style facilities. Check current campus configuration and bus routes — geography matters as much as curriculum fit.",
+  "curriculum": [
+    "American",
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Infant–Grade 12",
+  "neighbourhood": "novena-newton",
+  "campus": "Woodleigh",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Premium international",
+  "waitlistNotes": "Inquire by grade; mid-year seats depend on attrition.",
+  "website": "https://www.sais.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

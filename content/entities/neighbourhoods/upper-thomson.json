@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "upper-thomson",
+  "name": "Upper Thomson",
+  "summary": "Café spine, reservoir weekends, and a north-central lifestyle with growing MRT access.",
+  "body": "Upper Thomson has matured into a genuine living neighbourhood — brunch strips, condo clusters, and MacRitchie / Lower Peirce weekends. The Thomson-East Coast Line improved connectivity; it still feels less transient than River Valley. Good for families and couples who want green access without full east-coast commitment.",
+  "region": "northeast",
+  "vibe": [
+    "cafes",
+    "reservoir",
+    "family",
+    "emerging"
+  ],
+  "bestFor": [
+    "families",
+    "nature weekends",
+    "couples leaving CBD"
+  ],
+  "watchOuts": [
+    "Still some commute friction to CBD",
+    "Popular brunch queues",
+    "Heat on trail days"
+  ],
+  "housingMix": "Newer and mid-age condos; landed toward the north.",
+  "commuteNotes": "Thomson-East Coast Line (Upper Thomson, Bright Hill).",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2600,
+    "oneBedTo": 4000,
+    "familyFrom": 4500,
+    "familyTo": 8500
+  },
+  "mrt": [
+    "Upper Thomson",
+    "Bright Hill"
+  ],
+  "schoolsNearby": [
+    "ai-tong",
+    "catholic-high"
+  ],
+  "featured": false
+}

@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "era-realty",
+  "name": "ERA Realty",
+  "summary": "Established agency brand with islandwide residential coverage.",
+  "body": "ERA agents frequently appear in expat rental searches. Ask specifically about HDB eligibility if that is on your shortlist — rules trip up newcomers weekly.",
+  "category": "agents",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.era.com.sg",
+  "featured": false,
+  "sponsored": false
+}

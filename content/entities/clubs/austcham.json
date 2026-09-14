@@ -1,0 +1,17 @@
+{
+  "type": "club",
+  "slug": "austcham",
+  "name": "AustCham Singapore",
+  "summary": "Australian Chamber of Commerce — trade, events, and Aussie business community.",
+  "body": "AustCham complements ANZA: chamber for commercial networks, association for social/family life. Many Australian households join both at different intensities.",
+  "category": "chamber",
+  "focus": [
+    "business",
+    "Australian",
+    "trade"
+  ],
+  "membershipNotes": "Corporate memberships with event access.",
+  "website": "https://www.austcham.org.sg",
+  "featured": false,
+  "sponsored": false
+}

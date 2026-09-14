@@ -1,0 +1,17 @@
+{
+  "type": "club",
+  "slug": "japanese-association",
+  "name": "The Japanese Association, Singapore",
+  "summary": "Cultural and community hub for Japanese residents and Japanese-language programming.",
+  "body": "The Japanese Association supports cultural continuity, language, and community events for Japanese families — often alongside Japanese School life. A belonging anchor if you are on a Japanese corporate package.",
+  "category": "nationality",
+  "focus": [
+    "Japanese",
+    "culture",
+    "families"
+  ],
+  "membershipNotes": "Association membership — confirm eligibility.",
+  "website": "https://www.jas.org.sg",
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,44 @@
+{
+  "type": "neighbourhood",
+  "slug": "bukit-timah",
+  "name": "Bukit Timah",
+  "summary": "Tree canopy, school corridors, and family housing — the classic west-central expat belt.",
+  "body": "Bukit Timah is less a single village and more a corridor of green, schools, and landed/condo pockets stretching toward Upper Bukit Timah and Sixth Avenue. Families shortlist it for proximity to international campuses and a calmer evening rhythm than Holland V or River Valley. You will drive or Grab more; walkability varies block by block. Nature Reserve trails and Botanic Gardens adjacency matter if weekends outdoors are non-negotiable.",
+  "region": "central",
+  "vibe": [
+    "green",
+    "family",
+    "schools",
+    "quiet-evenings"
+  ],
+  "bestFor": [
+    "families",
+    "pet owners",
+    "drivers"
+  ],
+  "watchOuts": [
+    "Car dependency for daily errands",
+    "School-run traffic",
+    "Wide rent spread by street"
+  ],
+  "housingMix": "Landed, townhouses, and mid-to-large family condos.",
+  "commuteNotes": "Downtown Line (Sixth Avenue, Tan Kah Kee); buses along Bukit Timah Road.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2800,
+    "oneBedTo": 4200,
+    "familyFrom": 6000,
+    "familyTo": 14000
+  },
+  "mrt": [
+    "Sixth Avenue",
+    "Tan Kah Kee",
+    "Botanic Gardens"
+  ],
+  "schoolsNearby": [
+    "singapore-american-school",
+    "canadian-international-school",
+    "hwa-chong-institution"
+  ],
+  "featured": false
+}

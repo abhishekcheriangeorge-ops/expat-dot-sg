@@ -1,0 +1,17 @@
+{
+  "type": "club",
+  "slug": "lion-city-hash",
+  "name": "Lion City Hash House Harriers",
+  "summary": "Singapore’s iconic hash — social running with a beer-and-banter after-trail culture.",
+  "body": "Hashing is one of Singapore’s most reliable instant-community sports: show up, run or walk the trail, stay for the circle. Lion City Hash is a long-running kennel among several. Fitness optional; consistency optional; friendliness required.",
+  "category": "hash",
+  "focus": [
+    "running",
+    "social",
+    "outdoors"
+  ],
+  "membershipNotes": "Pay-per-run culture; no country-club fees.",
+  "website": "https://www.lionscityhash.com",
+  "featured": false,
+  "sponsored": false
+}

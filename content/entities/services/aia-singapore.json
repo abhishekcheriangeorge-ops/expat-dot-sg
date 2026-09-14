@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "aia-singapore",
+  "name": "AIA Singapore",
+  "summary": "Major insurer for life, health, and wealth products used by residents and expats.",
+  "body": "Corporate cover rarely equals complete family cover. Map inpatient, outpatient, maternity, and dental gaps explicitly. AIA is one of several large brands — compare riders and exclusions, not ads.",
+  "category": "insurance",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.aia.com.sg",
+  "featured": false,
+  "sponsored": false
+}

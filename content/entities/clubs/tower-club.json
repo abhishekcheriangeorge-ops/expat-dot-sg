@@ -1,0 +1,18 @@
+{
+  "type": "club",
+  "slug": "tower-club",
+  "name": "Tower Club Singapore",
+  "summary": "City dining and networking club with skyline rooms rather than family sport campuses.",
+  "body": "Tower Club is a business-social membership focused on dining and events in the CBD skyline — not a swim-team family club. Compare if your belonging need is professional entertaining rather than weekend facilities.",
+  "category": "membership",
+  "focus": [
+    "networking",
+    "dining",
+    "professionals"
+  ],
+  "membershipNotes": "Corporate and individual memberships available.",
+  "website": "https://www.tower-club.com.sg",
+  "neighbourhood": "marina-bay-cbd",
+  "featured": false,
+  "sponsored": false
+}

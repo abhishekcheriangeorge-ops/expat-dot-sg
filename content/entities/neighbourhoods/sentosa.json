@@ -1,0 +1,40 @@
+{
+  "type": "neighbourhood",
+  "slug": "sentosa",
+  "name": "Sentosa & Sentosa Cove",
+  "summary": "Island living with resort infrastructure — privacy, beaches, and a toll-gate mindset.",
+  "body": "Sentosa Cove and island residences trade mainland convenience for gated calm, marina views, and resort access. Families who want beach mornings and international-school drives off-island shortlist it carefully: entry/exit friction, school logistics, and grocery runs all matter. It is not a casual first-landing neighbourhood for most new arrivals unless housing is package-driven.",
+  "region": "sentosa",
+  "vibe": [
+    "resort",
+    "marina",
+    "private",
+    "beach"
+  ],
+  "bestFor": [
+    "families on premium packages",
+    "boat lifestyle",
+    "privacy seekers"
+  ],
+  "watchOuts": [
+    "Island access friction",
+    "School commute complexity",
+    "Premium everything"
+  ],
+  "housingMix": "Landed Cove homes, condo clusters, resort residences.",
+  "commuteNotes": "Sentosa Gateway / Express; plan school and CBD trips deliberately.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 5000,
+    "oneBedTo": 9000,
+    "familyFrom": 10000,
+    "familyTo": 25000
+  },
+  "mrt": [
+    "HarbourFront (mainland link)"
+  ],
+  "schoolsNearby": [
+    "uwcsea-dover"
+  ],
+  "featured": false
+}

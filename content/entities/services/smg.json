@@ -1,0 +1,14 @@
+{
+  "type": "service",
+  "slug": "smg",
+  "name": "Singapore Medical Group clinics",
+  "summary": "Multi-specialty and GP options across town for routine and specialist referrals.",
+  "body": "SMG and similar groups help when you need faster specialist access than public pathways. Bring vaccination records and prior scripts to your first visit.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.smg.sg",
+  "featured": false,
+  "sponsored": false
+}

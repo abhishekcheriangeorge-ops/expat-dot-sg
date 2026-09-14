@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "owis",
+  "name": "One World International School",
+  "summary": "IB programmes with campuses serving west and other corridors at relatively accessible fees.",
+  "body": "OWIS positions as a more accessible IB option versus legacy mega-campuses. Campus locations have expanded over time — match the site to your commute. Useful comparison school when packages are mid-range.",
+  "curriculum": [
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Nursery–Grade 12",
+  "neighbourhood": "clementi-west-coast",
+  "campus": "Nanyang / multiple — verify",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Mid",
+  "waitlistNotes": "Generally more mid-year flexibility — still confirm by grade.",
+  "website": "https://www.owis.org",
+  "featured": false,
+  "sponsored": false
+}

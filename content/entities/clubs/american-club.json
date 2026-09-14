@@ -1,0 +1,19 @@
+{
+  "type": "club",
+  "slug": "american-club",
+  "name": "The American Club",
+  "summary": "Full-facility membership club in Claymore with dining, sport, and a large US-linked community.",
+  "body": "The American Club is a default comparison point for family memberships: pool, fitness, F&B, and kids’ programming in a central location. Waitlists and entrance fees are real — treat joining as a housing-adjacent decision, not an impulse add-on.",
+  "category": "membership",
+  "focus": [
+    "families",
+    "US community",
+    "sport",
+    "dining"
+  ],
+  "membershipNotes": "Entrance fees + monthly dues; ask about current waitlist by category.",
+  "website": "https://www.amclub.org.sg",
+  "neighbourhood": "tanglin-dempsey",
+  "featured": false,
+  "sponsored": false
+}

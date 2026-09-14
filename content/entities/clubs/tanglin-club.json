@@ -1,0 +1,19 @@
+{
+  "type": "club",
+  "slug": "tanglin-club",
+  "name": "Tanglin Club",
+  "summary": "Historic membership club with dining rooms, sport, and a formal social calendar.",
+  "body": "Tanglin Club leans heritage and social tradition — different energy from newer lifestyle clubs. Tours and proposer requirements matter. Compare culture fit as carefully as facilities.",
+  "category": "membership",
+  "focus": [
+    "dining",
+    "sport",
+    "heritage",
+    "networking"
+  ],
+  "membershipNotes": "Typically requires proposers; confirm current categories.",
+  "website": "https://www.tanglinclub.org.sg",
+  "neighbourhood": "tanglin-dempsey",
+  "featured": false,
+  "sponsored": false
+}

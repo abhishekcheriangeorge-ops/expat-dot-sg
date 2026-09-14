@@ -1,0 +1,25 @@
+{
+  "type": "school",
+  "slug": "raffles-institution",
+  "name": "Raffles Institution",
+  "summary": "Premier local boys’ independent school — IP and high-stakes academic culture.",
+  "body": "RI is a landmark local independent school. Expat families rarely enter via typical international admissions; eligibility, citizenship, and MOE pathways dominate. Included here so relocating parents understand the local top-tier landscape when comparing options for PR/citizen children.",
+  "curriculum": [
+    "MOE",
+    "IP",
+    "A-Level"
+  ],
+  "sector": "local",
+  "ages": "Secondary–JC",
+  "neighbourhood": "novena-newton",
+  "campus": "Bishan",
+  "languages": [
+    "English",
+    "Mother tongue"
+  ],
+  "feesBand": "Local independent (eligibility-based)",
+  "waitlistNotes": "Not an international open-enrolment school — MOE rules apply.",
+  "website": "https://www.ri.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

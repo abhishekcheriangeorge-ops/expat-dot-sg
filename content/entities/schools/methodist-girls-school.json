@@ -1,0 +1,23 @@
+{
+  "type": "school",
+  "slug": "methodist-girls-school",
+  "name": "Methodist Girls' School",
+  "summary": "Established girls’ school with strong academics and co-curricular reputation.",
+  "body": "MGS is a well-known local girls’ school frequently referenced in secondary-school conversations among PR/citizen families. Included for landscape completeness — admissions follow MOE frameworks rather than international open enrolment.",
+  "curriculum": [
+    "MOE",
+    "IP"
+  ],
+  "sector": "local",
+  "ages": "Primary–Secondary",
+  "neighbourhood": "bukit-timah",
+  "campus": "Bukit Timah",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Local (eligibility-based)",
+  "waitlistNotes": "MOE posting / affiliation pathways.",
+  "website": "https://www.mgs.moe.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

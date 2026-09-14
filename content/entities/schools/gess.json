@@ -1,0 +1,25 @@
+{
+  "type": "school",
+  "slug": "gess",
+  "name": "German European School Singapore",
+  "summary": "German and European / IB pathways for German-speaking and international families.",
+  "body": "GESS serves German-curriculum and European/IB tracks, making it a default shortlist for German and Swiss-German households — and others seeking European schooling. Confirm language of instruction by section when you apply.",
+  "curriculum": [
+    "German",
+    "IB",
+    "European"
+  ],
+  "sector": "international",
+  "ages": "Preschool–Grade 12",
+  "neighbourhood": "bukit-timah",
+  "campus": "Dairy Farm / multi-campus — verify",
+  "languages": [
+    "German",
+    "English"
+  ],
+  "feesBand": "Premium international",
+  "waitlistNotes": "German-section demand tracks corporate relocation cycles.",
+  "website": "https://www.gess.sg",
+  "featured": false,
+  "sponsored": false
+}

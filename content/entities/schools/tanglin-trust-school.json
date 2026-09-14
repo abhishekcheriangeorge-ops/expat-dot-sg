@@ -1,0 +1,25 @@
+{
+  "type": "school",
+  "slug": "tanglin-trust-school",
+  "name": "Tanglin Trust School",
+  "summary": "British curriculum staple in Portsdown with a long expat family reputation.",
+  "body": "Tanglin Trust delivers an English National Curriculum pathway toward IGCSEs and A-Levels / IB options depending on pathway year. Location near Portsdown / one-north makes it a Holland V and west-central favourite. Admissions are structured and competitive in infant and junior years.",
+  "curriculum": [
+    "British",
+    "IGCSE",
+    "A-Level",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Nursery–Year 13",
+  "neighbourhood": "holland-village",
+  "campus": "Portsdown",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Premium international",
+  "waitlistNotes": "Register as early as policy allows; year-group demand varies.",
+  "website": "https://www.tts.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

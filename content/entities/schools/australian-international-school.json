@@ -1,0 +1,25 @@
+{
+  "type": "school",
+  "slug": "australian-international-school",
+  "name": "Australian International School",
+  "summary": "Dual Australian / IB pathways on Lorong Chuan for families wanting Aussie continuity.",
+  "body": "AIS combines Australian curriculum familiarity with IB Diploma options, serving a large Australian and wider international community. Lorong Chuan sits north-east central with reasonable access from Thomson and east corridors. Sport and outdoor culture are campus signatures.",
+  "curriculum": [
+    "Australian",
+    "IB PYP",
+    "IB MYP",
+    "IB DP"
+  ],
+  "sector": "international",
+  "ages": "Preschool–Year 12",
+  "neighbourhood": "upper-thomson",
+  "campus": "Lorong Chuan",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Premium international",
+  "waitlistNotes": "Popular entry years fill on rolling demand — contact admissions early.",
+  "website": "https://www.ais.com.sg",
+  "featured": false,
+  "sponsored": false
+}

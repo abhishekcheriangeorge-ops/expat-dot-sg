@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "hillside-world-academy",
+  "name": "Hillside World Academy",
+  "summary": "IB World School with Mandarin bilingual emphasis in Serangoon Gardens.",
+  "body": "Hillside focuses on bilingual IB education with Mandarin strength — a fit for families prioritising Chinese language alongside international curriculum. Smaller than mega-campuses; visit to assess community fit.",
+  "curriculum": [
+    "IB",
+    "Bilingual Mandarin"
+  ],
+  "sector": "international",
+  "ages": "Preschool–Grade 12",
+  "neighbourhood": "upper-thomson",
+  "campus": "Serangoon Gardens",
+  "languages": [
+    "English",
+    "Mandarin"
+  ],
+  "feesBand": "Mid to upper-mid",
+  "waitlistNotes": "Bilingual readiness may be assessed.",
+  "website": "https://www.hwa.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

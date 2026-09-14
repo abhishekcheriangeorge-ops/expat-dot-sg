@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "marina-bay-cbd",
+  "name": "Marina Bay & CBD",
+  "summary": "Skyline living for people who want the office, the waterfront, and zero suburb.",
+  "body": "Marina Bay and the historic CBD skew toward serviced apartments, luxury towers, and short-to-medium stays. If your package includes a downtown office and you value walk-to-work over school runs, this pocket is efficient. Weekend life leans hotel bars, galleries, and Gardens by the Bay rather than neighbourhood kopitiams. Family amenities exist in specific developments, but the area is emotionally corporate.",
+  "region": "central",
+  "vibe": [
+    "skyline",
+    "corporate",
+    "waterfront",
+    "high-amenity"
+  ],
+  "bestFor": [
+    "singles",
+    "dual-career couples",
+    "short assignments"
+  ],
+  "watchOuts": [
+    "Highest rents",
+    "Weekend quiet in office blocks",
+    "Little everyday neighbourhood grit"
+  ],
+  "housingMix": "Luxury towers and serviced apartments.",
+  "commuteNotes": "Downtown, Circle, and East-West Line interchanges; walkable within core.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 4500,
+    "oneBedTo": 7500,
+    "familyFrom": 8000,
+    "familyTo": 16000
+  },
+  "mrt": [
+    "Downtown",
+    "Bayfront",
+    "Raffles Place",
+    "Marina Bay"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

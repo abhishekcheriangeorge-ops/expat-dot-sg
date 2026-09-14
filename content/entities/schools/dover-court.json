@@ -1,0 +1,24 @@
+{
+  "type": "school",
+  "slug": "dover-court",
+  "name": "Dover Court International School",
+  "summary": "Inclusive international school with strong learning-support provision.",
+  "body": "Dover Court (Nord Anglia) is widely known among expat families seeking robust inclusion and learning support alongside mainstream international education. If your child needs specialised support, this is often an early shortlist — engage admissions with documentation ready.",
+  "curriculum": [
+    "English National Curriculum",
+    "IGCSE",
+    "IB DP"
+  ],
+  "sector": "special",
+  "ages": "Nursery–Year 13",
+  "neighbourhood": "holland-village",
+  "campus": "Dover Road",
+  "languages": [
+    "English"
+  ],
+  "feesBand": "Premium (support-dependent)",
+  "waitlistNotes": "Support places are capacity-constrained — early clinical reports help.",
+  "website": "https://www.dovercourt.edu.sg",
+  "featured": false,
+  "sponsored": false
+}

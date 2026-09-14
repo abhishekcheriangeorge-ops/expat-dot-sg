@@ -1,0 +1,18 @@
+{
+  "type": "club",
+  "slug": "awa",
+  "name": "AWA — American Women's Association",
+  "summary": "Long-running association offering friendship, volunteering, and orientation for newcomers.",
+  "body": "AWA helps arriving partners and professionals plug into interest groups, volunteering, and social circles. Not limited to Americans in practice — check current membership openness. Excellent first-90-days belonging infrastructure.",
+  "category": "association",
+  "focus": [
+    "women",
+    "newcomers",
+    "volunteering",
+    "US-linked"
+  ],
+  "membershipNotes": "Annual dues; interest groups drive the value.",
+  "website": "https://www.awasingapore.org",
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,15 @@
+{
+  "type": "service",
+  "slug": "the-tutors",
+  "name": "The Tutors Network (editorial placeholder)",
+  "summary": "Representative enrichment / tutoring category entry — compare subject specialists carefully.",
+  "body": "Singapore’s tuition culture is intense. Start from your child’s actual gaps, not neighbour panic. Ask for trial lessons, curriculum alignment (IB vs IGCSE vs MOE), and clear cancellation terms.",
+  "category": "tutors",
+  "areasServed": [
+    "Central",
+    "East",
+    "West"
+  ],
+  "featured": false,
+  "sponsored": false
+}

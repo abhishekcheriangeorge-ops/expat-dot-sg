@@ -1,0 +1,22 @@
+{
+  "type": "school",
+  "slug": "japanese-school",
+  "name": "The Japanese School Singapore",
+  "summary": "Japanese national curriculum campuses for Japanese expatriate children.",
+  "body": "The Japanese School provides Ministry-aligned Japanese education for expatriate families who need seamless return-to-Japan pathways. Campuses and grade structures should be confirmed directly — this is a nationality-continuum school more than a typical international marketing campus.",
+  "curriculum": [
+    "Japanese"
+  ],
+  "sector": "international",
+  "ages": "Elementary–Junior high (confirm senior pathways)",
+  "neighbourhood": "clementi-west-coast",
+  "campus": "Clementi / Changi — verify",
+  "languages": [
+    "Japanese"
+  ],
+  "feesBand": "System / association-linked",
+  "waitlistNotes": "Typically serves Japanese nationals and eligible residents.",
+  "website": "https://www.sjs.edu.sg",
+  "featured": false,
+  "sponsored": false
+}
