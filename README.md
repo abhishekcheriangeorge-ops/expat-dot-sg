@@ -73,20 +73,27 @@ import { getAllFeaturedListings, getAllSponsoredPosts } from "@/lib/content";
 
 ## Deploy to Vercel
 
-### CLI (preferred once authenticated)
+### CLI (George — run locally once authenticated)
+
+Global install needs write access to your Node prefix (or use `npx`):
 
 ```bash
-npm i -g vercel   # or: npx vercel
-vercel login
-vercel link       # create / link project (region sin1 via vercel.json)
-vercel --prod     # production deploy
+# Option A — global (may need sudo / fixed npm prefix)
+npm i -g vercel
+
+# Option B — one-shot (no global install)
+npx vercel@latest login
+npx vercel@latest link          # create / link project (region sin1 via vercel.json)
+npx vercel@latest --prod        # production deploy → note the *.vercel.app URL
 ```
 
-If `vercel login` / `vercel link` is blocked in this environment, connect the GitHub repo in the [Vercel dashboard](https://vercel.com/new):
+**Auth block in agent environment:** `vercel whoami` returned `Logged out` and started a device OAuth flow (`vercel.com/oauth/device`). Complete `vercel login` in your own terminal, then re-run `link` + `--prod`.
 
-1. Import **`abhishekcheriangeorge-ops/expat-dot-sg`**
+If CLI remains blocked, connect the GitHub repo in the [Vercel dashboard](https://vercel.com/new):
+
+1. Import **`abhishekcheriangeorge-ops/expat-dot-sg`** (main branch auto-deploys)
 2. Framework preset: Next.js (auto-detected)
-3. Region: Singapore (`sin1`) preferred — already set in `vercel.json`
+3. Region: Singapore (`sin1`) — already set in `vercel.json`
 4. Env vars: copy from `.env.example` (add `DATABASE_URL` when Neon is provisioned)
 5. Set `NEXT_PUBLIC_SITE_URL=https://expat.sg` for Production after DNS is live
 
