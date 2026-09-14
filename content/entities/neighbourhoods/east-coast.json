@@ -2,8 +2,8 @@
   "type": "neighbourhood",
   "slug": "east-coast",
   "name": "East Coast",
-  "summary": "Park connector living, sea breeze, and a slower weekend tempo east of town.",
-  "body": "East Coast (Marine Parade, Siglap, Frankel) rewards people who want outdoor space and a neighbourhood feel. East Coast Park is the weekend engine — cycling, hawker breakfasts, beach sports. Commutes into CBD are longer than Holland V or River Valley, but the lifestyle trade is deliberate. Housing spans HDB-adjacent pockets (for eligible tenants), older condos, and landed streets inland from the park.",
+  "summary": "Park connector living, sea breeze, and a slower weekend tempo east of town — still the default family shortlist for many Western packages.",
+  "body": "East Coast (Marine Parade, Siglap, Frankel, parts of Katong adjacency) rewards people who want outdoor space and a neighbourhood feel without going full heartland. East Coast Park is the weekend engine — cycling, hawker breakfasts, beach sports, kite season drama. Commutes into CBD are longer than Holland V or River Valley, but the East Coast Line (Marine Parade, Marine Terrace, Siglap) changed the calculus for non-drivers. Housing spans park-facing condos, older walk-ups, landed streets inland, and HDB-adjacent pockets for eligible tenants. School gravity is real: UWCSEA East and several other campuses pull families into this belt, which supports rents even when CBD workers complain about the ride. Compare honestly with Tampines if you want more internal space per dollar, or Katong/Joo Chiat if you want denser F&B walkability.",
   "region": "east",
   "vibe": [
     "seaside",
@@ -17,12 +17,13 @@
     "longer-stay living"
   ],
   "watchOuts": [
-    "Longer CBD commute",
+    "Longer CBD commute than central belts",
     "Humidity + haze on park days",
-    "Car helps a lot"
+    "Car still helps for off-corridor errands",
+    "School-driven rent premiums"
   ],
   "housingMix": "Condos facing the park, landed inland, some HDB for eligible renters.",
-  "commuteNotes": "East Coast Line (Marine Parade, Marine Terrace); expressways to CBD.",
+  "commuteNotes": "East Coast Line (Marine Parade, Marine Terrace, Siglap); expressways to CBD; buses along East Coast Road.",
   "rentBand": {
     "currency": "SGD",
     "oneBedFrom": 2800,
@@ -37,8 +38,7 @@
   ],
   "schoolsNearby": [
     "uwcsea-east",
-    "canadian-international-school-lakeside",
-    "chatsworth-east"
+    "chatsworth-international"
   ],
   "featured": false
 }

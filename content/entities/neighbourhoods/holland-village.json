@@ -2,8 +2,8 @@
   "type": "neighbourhood",
   "slug": "holland-village",
   "name": "Holland Village",
-  "summary": "Walkable caf\u00e9 strip, expat-familiar conveniences, and a soft landing for first housing searches.",
-  "body": "Holland Village sits between Dempsey and Bukit Timah \u2014 close enough to international schools and clubs that many arriving families treat it as a default shortlist. Lorong Mambong and Holland Avenue deliver groceries, takeaway, and evening tables without a car; the MRT station makes CBD days workable. Expect a mix of walk-up apartments, older condos, and a few newer towers. Weekends feel social; weekdays feel practical. It is not quiet, and it is not cheap \u2014 but it is legible if you are new to Singapore.",
+  "summary": "Walkable café strip, expat-familiar conveniences, and a soft landing for first housing searches between Dempsey and Bukit Timah.",
+  "body": "Holland Village sits between Dempsey and Bukit Timah — close enough to Tanglin Trust, Chatsworth, ISS, and several clubs that arriving families treat it as a default shortlist. Lorong Mambong and Holland Avenue deliver groceries, takeaway, and evening tables without a car; Holland Village MRT (Circle Line) makes CBD days workable via one transfer. Housing mixes older walk-ups, 1990s–2000s condos, and a few newer towers; large family floorplans in the core are scarce, so many households spill toward Holland Road / Buona Vista / Fourth Avenue once they outgrow a two-bed. Weekends feel social and louder on the strip; weekdays feel practical. Rents price the convenience — you pay for legibility if you are new to Singapore, not for silence. Use a serviced stay nearby to test night noise before locking a 24-month lease.",
   "region": "central",
   "vibe": [
     "cafes",
@@ -21,8 +21,8 @@
     "Premium rents for older stock",
     "Limited large family floorplans in the core"
   ],
-  "housingMix": "Condos and older walk-ups; limited landed nearby.",
-  "commuteNotes": "Circle Line at Holland Village; bus spines to Orchard and Buona Vista.",
+  "housingMix": "Condos and older walk-ups; limited landed nearby toward Bin Tong Park / Ridout.",
+  "commuteNotes": "Circle Line at Holland Village; bus spines to Orchard, Buona Vista, and Dempsey.",
   "rentBand": {
     "currency": "SGD",
     "oneBedFrom": 3200,

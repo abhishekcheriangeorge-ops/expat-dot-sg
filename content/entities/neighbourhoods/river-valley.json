@@ -2,8 +2,8 @@
   "type": "neighbourhood",
   "slug": "river-valley",
   "name": "River Valley",
-  "summary": "High-rise living between Orchard and the river — city access without CBD sterility.",
-  "body": "River Valley and the adjacent Mohamed Sultan / Robertson Quay stretch give you towers, river walks, and Orchard retail within a short hop. Singles and dual-income couples often land here for lifestyle density: gyms, restaurants, and late MRT options. Family floorplans exist in newer developments, but outdoor play space is tower-courtyard rather than landed garden. Noise and construction cycles are part of the deal.",
+  "summary": "High-rise living between Orchard and the Singapore River — city access, serviced-apartment density, and a common first-lease shortlist.",
+  "body": "River Valley and the adjacent Mohamed Sultan / Robertson Quay stretch give you towers, river walks, and Orchard retail within a short hop. Singles and dual-income couples often land here for lifestyle density: gyms, restaurants, and late MRT options via Great World, Fort Canning, or Somerset. Family floorplans exist in newer developments, but outdoor play space is tower-courtyard rather than landed garden — many parents eventually migrate toward Bukit Timah or East Coast once school runs dominate. Serviced apartments are common, which makes the area useful for lawful short landing stays before a 12–24 month lease. Noise and construction cycles are part of the deal; walk the block at 10pm before you LOI.",
   "region": "central",
   "vibe": [
     "urban",
@@ -14,15 +14,16 @@
   "bestFor": [
     "singles",
     "couples",
-    "corporate packages near Orchard"
+    "corporate packages near Orchard",
+    "serviced-to-lease transitions"
   ],
   "watchOuts": [
     "Construction noise",
     "Premium PSF",
     "Limited ground-level green"
   ],
-  "housingMix": "Mostly high-rise condominiums; serviced apartments common.",
-  "commuteNotes": "Fort Canning / Great World / Somerset nearby; walkable to parts of Orchard.",
+  "housingMix": "Mostly high-rise condominiums; serviced apartments common for arrivals.",
+  "commuteNotes": "Great World / Fort Canning / Somerset nearby; walkable to parts of Orchard and the river.",
   "rentBand": {
     "currency": "SGD",
     "oneBedFrom": 3500,

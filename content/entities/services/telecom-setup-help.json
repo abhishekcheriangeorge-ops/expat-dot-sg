@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "telecom-setup-help",
   "name": "Telco & utilities setup (category guide)",
-  "summary": "Representative ‘other’ services entry covering Singtel/StarHub/M1 and SP utilities onboarding.",
-  "body": "Arrive with passport, proof of address, and a plan for number portability. Utilities deposits and appointment windows catch jet-lagged arrivals — schedule in week one.",
+  "summary": "Singtel / StarHub / M1 / Circles-style onboarding plus SP Group power-water — the week-one stack that unblocks Singpass SMS, banks, and MOM.",
+  "body": "New arrivals hit the same sequence: travel or prepaid SIM on passport → stable Singapore number → Singpass → postpaid/eSIM once FIN and MyInfo clear. IPA alone often fails for long-term contracts; keep topping up prepaid and port later. Photograph meters on key collection, confirm whether the landlord keeps utility accounts, and book fibre with an access window. Basement carparks and older walk-ups vary by network — ask neighbours, not just the mall kiosk. Pair this entity with the utilities-telecom guide for the full chicken-and-egg playbook.",
   "category": "other",
   "areasServed": [
     "Islandwide"

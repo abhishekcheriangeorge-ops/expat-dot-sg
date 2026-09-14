@@ -2,8 +2,8 @@
   "type": "neighbourhood",
   "slug": "bukit-timah",
   "name": "Bukit Timah",
-  "summary": "Tree canopy, school corridors, and family housing — the classic west-central expat belt.",
-  "body": "Bukit Timah is less a single village and more a corridor of green, schools, and landed/condo pockets stretching toward Upper Bukit Timah and Sixth Avenue. Families shortlist it for proximity to international campuses and a calmer evening rhythm than Holland V or River Valley. You will drive or Grab more; walkability varies block by block. Nature Reserve trails and Botanic Gardens adjacency matter if weekends outdoors are non-negotiable.",
+  "summary": "Tree canopy, school corridors, and family housing — the classic west-central expat belt for drivers and school-run households.",
+  "body": "Bukit Timah is less a single village and more a corridor of green, schools, and landed/condo pockets stretching toward Upper Bukit Timah, Sixth Avenue, and the Botanic Gardens fringe. Families shortlist it for proximity to international campuses (and the social network that forms at school gates) plus a calmer evening rhythm than Holland V nightlife or River Valley density. Walkability varies block by block — many households become de facto car or Grab households even with Downtown Line access at Sixth Avenue / Tan Kah Kee. Nature Reserve trails matter if weekends outdoors are non-negotiable. Compare rents street-by-street: a two-block shift can mean a four-figure monthly swing. Club shortlists often include Hollandse Club and Tanglin-side options; American Club is a drive, not a stroll, from many Bukit Timah addresses.",
   "region": "central",
   "vibe": [
     "green",
@@ -19,10 +19,11 @@
   "watchOuts": [
     "Car dependency for daily errands",
     "School-run traffic",
-    "Wide rent spread by street"
+    "Wide rent spread by street",
+    "Premium pricing near top campuses"
   ],
   "housingMix": "Landed, townhouses, and mid-to-large family condos.",
-  "commuteNotes": "Downtown Line (Sixth Avenue, Tan Kah Kee); buses along Bukit Timah Road.",
+  "commuteNotes": "Downtown Line (Sixth Avenue, Tan Kah Kee); buses along Bukit Timah Road; Botanic Gardens interchange nearby.",
   "rentBand": {
     "currency": "SGD",
     "oneBedFrom": 2800,
