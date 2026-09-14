@@ -4,6 +4,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 14 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — Baby Bonus / CDA citizenship gate for mixed-status & EP–EP households ([foreign spouse pregnant / SC baby benefits](https://www.reddit.com/r/askSingapore/comments/x14pk6/foreign_spouse_pregnant_whats_your_experience_as/); [pregnant on EP](https://www.reddit.com/r/askSingapore/comments/1js0d2p/pregnant_on_epass_need_help/); [PR parents / child citizenship](https://www.reddit.com/r/askSingapore/comments/13wmlw2/can_parents_who_are_permanent_residents_prs_in/); [CDA deposit tactics](https://www.reddit.com/r/askSingapore/comments/1ebx3r6/how_to_maximise_kidss_cda_how_much_to_deposit/); [CDC voucher adjacency](https://www.reddit.com/r/askSingapore/comments/rkkom0/who_gets_to_claim_cdc_vouchers/)).
+- r/askSingapore — Employment Act annual leave / MC during notice ([MC during notice](https://www.reddit.com/r/askSingapore/comments/1r9ka54/taking_mc_during_notice_period/); [employer extend notice for MC](https://www.reddit.com/r/askSingapore/comments/1qceed0/can_my_employer_extend_my_notice_when_i_take_mc/); [annual leave first year](https://www.reddit.com/r/askSingapore/comments/1fhpup5/is_it_allowed_to_take_annual_leave_during_the/); [leave accrual](https://www.reddit.com/r/askSingapore/comments/1mdy0n7/annual_leave_entitlement_accrual/); [employer take leave away](https://www.reddit.com/r/askSingapore/comments/15qhqcq/can_an_employer_just_take_your_leave_away/)).
+- r/askSingapore — MOE Tuition Grant bond / liquidated damages ([TG + work visa](https://www.reddit.com/r/askSingapore/comments/11mjkrf/moe_tuition_grant_and_work_visa/); [resign mid-bond](https://www.reddit.com/r/askSingapore/comments/14xpywp/im_a_foreigner_whos_currently_serving_moe_3_years/); [buyout](https://www.reddit.com/r/askSingapore/comments/1hb6hos/moe_tuition_grant_buyout/); [intl student TG doubts](https://www.reddit.com/r/askSingapore/comments/1okkmil/questions_about_tuition_grant_and_bond_for/); [3-year bond regrets](https://www.reddit.com/r/askSingapore/comments/1ea3k0x/questions_regarding_moe_tuition_grant_and_3year/)).
+- r/askSingapore — Singpass phishing / bank WhatsApp / NRIC mule traps ([Singpass compromised](https://www.reddit.com/r/askSingapore/comments/1qn4wm0/singpass_got_compromised_what_should_i_be_worried/); [phished ID photos](https://www.reddit.com/r/askSingapore/comments/1j8liyc/did_i_just_get_scammedphished/); [NRIC to Telegram recruiters](https://www.reddit.com/r/askSingapore/comments/1ae04xt/nric_scam/); [telco identity call](https://www.reddit.com/r/askSingapore/comments/1s5y06p/identity_theftscam_advise_needed/); [report scam from overseas](https://www.reddit.com/r/askSingapore/comments/1rvt56b/reporting_scam_to_spf_from_overseas/)).
+- r/askSingapore — Childhood vaccines / polyclinic fees for foreigners ([cash-pay PD + vaccines](https://www.reddit.com/r/askSingapore/comments/1e73vx8/pediatrician_recommendation_for_nonlocal_pay_via/); [foreigner medical diagnosis](https://www.reddit.com/r/askSingapore/comments/v0bgxx/where_can_foreigners_go_to_for_medical_diagnosis/); [HPV foreigner pricing](https://www.reddit.com/r/askSingapore/comments/1bayjxb/cheapest_hpv_vaccine_in_singapore/); [SC baby BCG overseas](https://www.reddit.com/r/askSingapore/comments/1jk39q9/singapore_citizen_baby_born_overseas/)).
+- r/askSingapore — Ex-PR NS / EP after renunciation (adjacency on citizenship guide) ([EP for ex-PR who skipped NS](https://www.reddit.com/r/askSingapore/comments/1n6c4uw/issuing_employment_pass_to_expr_who_didnt_do_ns/); [return on WP after renounce](https://www.reddit.com/r/askSingapore/comments/1tkmy4k/returning_to_singapore_back_on_work_permit_after/); [NS after leaving at 12](https://www.reddit.com/r/askSingapore/comments/18av6o9/ns_obligations_for_former_pr_who_left_at_12/)).
+
+**Official**
+
+- [LifeSG — Baby Bonus Scheme](https://www.life.gov.sg/family-parenting/benefits-support/baby-bonus-scheme) + [eligibility](https://www.life.gov.sg/family-parenting/benefits-support/baby-bonus-scheme/eligibility-criteria) + [apply](https://www.life.gov.sg/services-tools/baby-bonus) + [Made For Families](https://www.madeforfamilies.gov.sg/support-measures/child-raising/financial-support/baby-bonus-scheme).
+- [MOM — Annual leave](https://www.mom.gov.sg/employment-practices/leave/annual-leave/eligibility-and-entitlement) + [sick leave](https://www.mom.gov.sg/employment-practices/leave/sick-leave/eligibility-and-entitlement) + [termination with notice / MC](https://www.mom.gov.sg/employment-practices/termination-of-employment/termination-with-notice) + [Employment Act coverage](https://www.mom.gov.sg/employment-practices/employment-act/who-is-covered).
+- [MOE — Tuition Grant](https://www.moe.gov.sg/financial-matters/tuition-grant-scheme) + [bond matters](https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters) + [employment types](https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters/employment/types-of-employment) + [liquidated damages](https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/liquidated-damages).
+- [ScamShield](https://www.scamshield.gov.sg/) + [phishing](https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/phishing-scams/) + [app setup](https://www.scamshield.gov.sg/about-scamshield/scamshield-app/set-up-scamshield-app/) + [sms.gov.sg](https://sms.gov.sg/) + [Singpass security](https://www.singpass.gov.sg/main/security/).
+- [MOH — Childhood vaccinations subsidies](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/childhood-developmental-screening-and-childhood-vaccinations/) + [NIR FAQ](https://www.nir.hpb.gov.sg/nirp/eservices/parentalfaq) + [diphtheria/measles pass docs](https://www.moh.gov.sg/newsroom/documentation-of-diphtheria-and-measles-vaccination-required-for-foreign-born-children-applying-for-long-term-immigration-passes-in-singapore/).
+
+### Gaps vs Tick 1–13
+
+Tick 1–13 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR/day-one MediShield, MDW, diplomatic clause/SCT, insurance/maternity (thin on **Baby Bonus/CDA citizenship gate**), preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass (thin on **ScamShield / phishing**), pets, IRAS/foreign income, short-stay/FWTES, MOE P1/AEIS, LTVP, EP renewal, healthcare/HSA/dental (thin on **NIR / NCIS foreigner fees**), remittance, apps/PayNow, S Pass, COMPASS/FCF, Customs GST, Student’s Pass (thin on **Tuition Grant bond**), career pivots/TADM (thin on **Employment Act leave/notice/MC**), SimplyGo, aircon/mould/cockroach, SRS, haze, ABSD/HDB, STVP, PEP/ONE/Tech.Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty, ROM/divorce, newborn/LOG, REP, probate, cycling, IVF, visit-pass extension, paternity/SPL. Remaining high-intent gaps matched forum heat: **Baby Bonus/CDA**, **EA leave/notice**, **MOE TG bond**, **scams/Singpass**, **childhood vaccination/NIR**, ex-PR NS adjacency.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/family/baby-bonus-cda-mixed-status.mdx`
+- `content/guides/next/employment-act-leave-notice-ep.mdx`
+- `content/guides/move/moe-tuition-grant-bond.mdx`
+- `content/guides/life/scams-singpass-phishing-expats.mdx`
+- `content/guides/family/childhood-vaccination-foreigners.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/family/maternity-care-singapore.mdx`
+- `content/guides/family/newborn-pass-birth-registration-singapore.mdx`
+- `content/guides/family/finding-pediatrician-singapore.mdx`
+- `content/guides/move/student-pass-singapore.mdx`
+- `content/guides/life/apps-that-matter-singapore.mdx`
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/next/career-pivots-singapore.mdx`
+- `content/guides/next/citizenship-ns-implications.mdx` (ex-PR NS / EP risk)
+- `content/guides/next/between-jobs-stvp-singapore.mdx`
+- `content/guides/next/salary-dispute-tadm-mom.mdx`
+- `content/guides/next/after-getting-pr-checklist.mdx`
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/raffles-medical.json`
+- `content/entities/services/telecom-setup-help.json`
+
+**Also included prior unpushed Tick 13 editorial** already sitting in the working tree (after-PR checklist, AEIS/S-AEIS, paternity/SPL, FCF, related upgrades/entities).
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–13 topics beyond the Baby Bonus, leave/notice, Tuition Grant, scam, vaccination, and ex-PR NS adjacency gaps above.
+
+---
+
 ## Tick 13 — 2026-09-15
 
 ### Sources mined
