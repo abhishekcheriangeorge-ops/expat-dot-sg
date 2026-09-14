@@ -2,16 +2,17 @@
   "type": "club",
   "slug": "anza",
   "name": "ANZA — Australian & New Zealand Association",
-  "summary": "Community association for Aussies, Kiwis, and friends — events, sports, and family programming.",
-  "body": "ANZA is less a facilities club and more a community operating system: sports, socials, and family events that help new arrivals find people quickly. Often one of the highest-ROI belonging moves for ANZ families.",
+  "summary": "Community association for Aussies, Kiwis, and friends — sports, socials, and family programming that accelerates belonging.",
+  "body": "ANZA functions as a community operating system rather than a facilities club: sports teams, social events, and family programming help new arrivals find people in weeks instead of months. Forum advice for ANZ families often ranks association membership above expensive country-club entrance fees for year-one ROI. Check current membership categories, event calendars, and whether friends-of-ANZ can attend before budgeting. Complements hashes, Meetup hobbies, and school-parent networks.",
   "category": "association",
   "focus": [
     "Australian",
     "New Zealand",
     "families",
-    "sport"
+    "sport",
+    "newcomers"
   ],
-  "membershipNotes": "Annual membership — much lighter than club entrance fees.",
+  "membershipNotes": "Annual membership — typically far lighter than country-club entrance fees. Verify live dues.",
   "website": "https://www.anza.org.sg",
   "featured": false,
   "sponsored": false

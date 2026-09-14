@@ -2,18 +2,20 @@
   "type": "neighbourhood",
   "slug": "tiong-bahru",
   "name": "Tiong Bahru",
-  "summary": "Art-deco grids, café culture, and central living with more texture than Orchard towers.",
-  "body": "Tiong Bahru’s low-rise heritage estate and surrounding condos attract people who want central access without Marina Bay gloss. Independent cafés, the wet market, and park connectors set the rhythm. Units can be compact; demand keeps rents firm. It works well for couples and small families who prioritise walkability and character over school-corridor adjacency.",
+  "summary": "Art-deco grids, café culture, wet-market groceries, and central living with more texture than Orchard towers.",
+  "body": "Tiong Bahru’s low-rise heritage estate and surrounding condos attract people who want central access without Marina Bay gloss. Independent cafés, the wet market (produce and seafood for home cooks), and park connectors set the rhythm — a practical grocery alternative to FairPrice-only living. Units can be compact; demand keeps rents firm. It works well for couples and small families who prioritise walkability and character over school-corridor adjacency. Weekend tourist footfall is real; weekday mornings at the market are calmer.",
   "region": "central",
   "vibe": [
     "heritage",
     "cafes",
+    "wet-market",
     "compact",
     "central"
   ],
   "bestFor": [
     "couples",
     "walkers",
+    "home cooks",
     "design-conscious renters"
   ],
   "watchOuts": [

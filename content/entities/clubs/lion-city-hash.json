@@ -2,15 +2,16 @@
   "type": "club",
   "slug": "lion-city-hash",
   "name": "Lion City Hash House Harriers",
-  "summary": "Singapore’s iconic hash — social running with a beer-and-banter after-trail culture.",
-  "body": "Hashing is one of Singapore’s most reliable instant-community sports: show up, run or walk the trail, stay for the circle. Lion City Hash is a long-running kennel among several. Fitness optional; consistency optional; friendliness required.",
+  "summary": "Singapore’s iconic social hash — show-up running/walking with after-trail community, no country-club fees.",
+  "body": "Hashing remains one of Singapore’s most reliable instant-community sports: show up, run or walk the trail, stay for the circle. Lion City Hash is a long-running kennel among several islandwide. Fitness is optional; consistency is optional; friendliness is required. Reddit ‘make friends as a foreigner’ threads often cite hashes alongside Meetup soccer and climbing. Check the kennel site for run fees, start locations, and newcomer norms. Heat strategy still applies — hydrate and prefer cooler start times.",
   "category": "hash",
   "focus": [
     "running",
     "social",
-    "outdoors"
+    "outdoors",
+    "newcomers"
   ],
-  "membershipNotes": "Pay-per-run culture; no country-club fees.",
+  "membershipNotes": "Pay-per-run culture; no country-club entrance fees. Confirm live run fees with the kennel.",
   "website": "https://www.lionscityhash.com",
   "featured": false,
   "sponsored": false

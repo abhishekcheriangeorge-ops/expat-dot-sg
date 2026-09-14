@@ -4,6 +4,66 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 7 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — ActiveSG / gym worth it / Singpass booking friction ([gym recommendations](https://www.reddit.com/r/askSingapore/comments/1jn7ooo/gym_membership_recommendations_and_is_it_worth_it/); [tourist ActiveSG](https://www.reddit.com/r/askSingapore/comments/1mr0lvx/being_a_tourist_can_i_go_to_activesg_gyms/); [tourist pool](https://www.reddit.com/r/askSingapore/comments/1f8nwoh/using_activesg_public_pool_in_singapore_as_a/); [cheap gym 3 weeks](https://www.reddit.com/r/askSingapore/comments/13cnnuz/im_staying_in_sg_for_3_weeks_and_would_love_to/)).
+- r/askSingapore — FairPrice vs Sheng Siong vs RedMart / cooking costs ([cheapest supermarket](https://www.reddit.com/r/askSingapore/comments/1q1kwb4/which_is_the_cheapest_local_supermarket_to_do/); [cheap groceries](https://www.reddit.com/r/askSingapore/comments/1fy684k/cheap_groceries/); [reduce cooking costs](https://www.reddit.com/r/askSingapore/comments/1ucps1z/tips_on_reducing_monthly_food_costs_when_cooking/)).
+- r/askSingapore — e-waste / bulky appliance disposal ([discard electronics](https://www.reddit.com/r/askSingapore/comments/1l9auoo/where_to_discard_electronic_appliances/)).
+- r/askSingapore — hawker / cashless for foreigners ([cashless tourists](https://www.reddit.com/r/askSingapore/comments/1etknwp/singapore_is_slowly_going_cashless_what_are_some/); [credit cards / hawkers](https://www.reddit.com/r/askSingapore/comments/1jmgiee/credit_cardscashwechat_pay_for_a_tourist/)).
+- r/askSingapore — friends / dating / Bumble BFF ([Bumble BFF](https://www.reddit.com/r/askSingapore/comments/16vu8g1/looking_for_girl_friends_as_a_girl_in_singapore/); [finding friends](https://www.reddit.com/r/askSingapore/comments/18j1x9t/finding_new_friends_in_sg/); [32F friends/dates](https://www.reddit.com/r/askSingapore/comments/1ntsmtd/32f_advice_on_how_to_find_new_friends_dates_in_sg/); [young professional foreigner](https://www.reddit.com/r/askSingapore/comments/1r69mda/how_to_make_friends_as_a_young_professional/); [dating culture](https://www.reddit.com/r/askSingapore/comments/15w6gwq/is_this_the_dating_culture_in_sg/)).
+- r/askSingapore — volunteering with kids / families ([kids volunteer](https://www.reddit.com/r/askSingapore/comments/1kr66sa/volunteer_opportunities_for_kids/); [family volunteer](https://www.reddit.com/r/askSingapore/comments/1arydmn/suggestions_for_volunteer_work_as_families/)).
+- r/askSingapore — EP/S Pass parents LTVP / S$12k + healthcare ([bring parent](https://www.reddit.com/r/askSingapore/comments/1dwrds5/bringing_parent_to_singapore_as_dependent_visa/); [new citizen parents cost](https://www.reddit.com/r/askSingapore/comments/1qbhxf4/how_much_would_a_new_citizen_need_to_earn_to/); [salary support parents](https://www.reddit.com/r/askSingapore/comments/1j9z8zi/how_much_salary_do_you_need_to_support_2_retired/); [parental LTVP rejection](https://www.reddit.com/r/askSingapore/comments/1d3u4sl/any_parental_ltvp_application_rejection/)).
+- r/askSingapore — passport / embassy renewal timing ([helper passport](https://www.reddit.com/r/askSingapore/comments/1pdv7k5/how_to_renew_myanmar_helper_passport/); [embassy London](https://www.reddit.com/r/askSingapore/comments/1kk4ml8/passport_renewal_at_the_embassy_in_london/)).
+
+**Official**
+
+- [ActiveSG — Individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [Membership / MyActiveGYM](https://www.activesgcircle.gov.sg/membership).
+- [NEA — Where to recycle e-waste](https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/e-waste-management/where-to-recycle-e-waste) + [ALBA E-Waste](https://alba-ewaste.sg/) + [EPR overview](https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/e-waste-management/extended-producer-responsibility-(epr)-system-for-e-waste-management-system).
+- [MOM — LTVP eligibility](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/eligibility) + [Apply LTVP](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/apply-for-a-pass) (parents ≥ S$12k fixed monthly salary).
+- [giving.sg](https://www.giving.sg/) + [NVPC](https://nvpc.org.sg/) + [Oogachaga](https://www.oogachaga.com/) + [Pink Dot SG](https://pinkdot.sg/) + [MFA overseas missions](https://www.mfa.gov.sg/Overseas-Missions) + [NEA hawker centres](https://www.nea.gov.sg/our-services/hawker-management/about-hawker-centres).
+
+### Gaps vs Tick 1–6
+
+Tick 1–6 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR, MDW, diplomatic clause, insurance/maternity, preschool, banks/CPF, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1, LTVP (SC spouse thin on **EP parents S$12k**), EP renewal, healthcare, remittance, apps/PayNow, S Pass, COMPASS, Customs GST, Student’s Pass, career pivots, SimplyGo, aircon, SRS, haze, ABSD, STVP, PEP/ONE Pass, EntrePass, COE/car, JB weekends, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit. Remaining high-intent stubs mismatched forum heat: **ActiveSG Standard Rate + Singpass gym friction**, **FairPrice/Sheng Siong/RedMart + e-waste**, **hawker cash vs PayNow**, **Bumble BFF / friend-finding**, **giving.sg volunteering**, **holiday camps**, **passport embassy admin**, **MOM parent LTVP S$12k + unsubsidised healthcare**.
+
+### Shipped this tick
+
+**Upgraded guides (depth + tables + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/life/sports-fitness-singapore.mdx`
+- `content/guides/life/shopping-essentials-singapore.mdx`
+- `content/guides/life/hawker-food-guide.mdx`
+- `content/guides/life/dating-social-singapore.mdx`
+- `content/guides/family/kids-activities-holiday-camps.mdx`
+- `content/guides/belong/volunteering-networks-singapore.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/lgbtq-resources-singapore.mdx`
+- `content/guides/belong/anza-awa-associations.mdx`
+- `content/guides/next/renewing-life-admin-annually.mdx`
+- `content/guides/next/passports-and-documents-overseas.mdx`
+- `content/guides/move/ltvp-singapore.mdx` (MOM parent S$12k path)
+
+**Entity depth**
+
+- `content/entities/clubs/oogachaga.json`
+- `content/entities/clubs/anza.json`
+- `content/entities/clubs/awa.json`
+- `content/entities/clubs/lion-city-hash.json`
+- `content/entities/services/kumon-centres.json`
+- `content/entities/neighbourhoods/tiong-bahru.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–6 topics beyond light cross-links and the parent-LTVP gap on the existing LTVP guide.
+
+---
+
 ## Tick 6 — 2026-09-15
 
 ### Sources mined
