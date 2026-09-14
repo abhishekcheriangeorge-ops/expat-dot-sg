@@ -1,8 +1,11 @@
 import Link from "next/link";
 import type { GuideSponsorSlot } from "@/lib/content/schemas";
+import type { SponsorPlacement } from "@/lib/content/schemas";
 
 type GuideSponsorSlotProps = {
   slot?: GuideSponsorSlot;
+  /** Active inventory for this category, when Phase 5 placements exist */
+  placement?: SponsorPlacement | null;
 };
 
 /**
@@ -10,9 +13,12 @@ type GuideSponsorSlotProps = {
  * - Never render as unmarked editorial prose
  * - Always show #sponsored / Featured disclosure
  * - Only appear when frontmatter enables the slot
- * - Empty slots invite advertisers; filled inventory comes from Phase 5
+ * - Empty slots invite advertisers; filled inventory shows partner CTA
  */
-export function GuideSponsorSlotBanner({ slot }: GuideSponsorSlotProps) {
+export function GuideSponsorSlotBanner({
+  slot,
+  placement,
+}: GuideSponsorSlotProps) {
   if (!slot?.enabled) return null;
 
   const disclosure =
@@ -20,6 +26,8 @@ export function GuideSponsorSlotBanner({ slot }: GuideSponsorSlotProps) {
     (slot.category
       ? `Featured ${slot.category} partner`
       : "Featured partner");
+
+  const hasPlacement = Boolean(placement);
 
   return (
     <aside
@@ -29,19 +37,34 @@ export function GuideSponsorSlotBanner({ slot }: GuideSponsorSlotProps) {
       <p className="text-xs font-semibold tracking-[0.16em] text-sponsored uppercase">
         #sponsored
       </p>
-      <p className="mt-2 font-display text-xl text-ink">{disclosure}</p>
+      <p className="mt-2 font-display text-xl text-ink">
+        {hasPlacement ? placement!.headline : disclosure}
+      </p>
       <p className="mt-2 max-w-prose text-sm text-ink-muted">
-        This placement is paid and separate from editorial recommendations. We
-        do not mark advertising as independent advice.
+        {hasPlacement
+          ? placement!.body
+          : "This placement is paid and separate from editorial recommendations. We do not mark advertising as independent advice."}
       </p>
-      <p className="mt-4 text-sm">
-        <Link
-          href="/advertise"
-          className="font-medium text-canopy underline decoration-canopy-mist/40 hover:decoration-canopy-mist"
-        >
-          Advertise on expat.sg
-        </Link>
-      </p>
+      {hasPlacement ? (
+        <p className="mt-4 text-sm">
+          <span className="text-ink-faint">Sponsored by {placement!.partnerName} · </span>
+          <Link
+            href={placement!.ctaHref}
+            className="font-medium text-canopy underline decoration-canopy-mist/40 hover:decoration-canopy-mist"
+          >
+            {placement!.ctaLabel}
+          </Link>
+        </p>
+      ) : (
+        <p className="mt-4 text-sm">
+          <Link
+            href="/advertise"
+            className="font-medium text-canopy underline decoration-canopy-mist/40 hover:decoration-canopy-mist"
+          >
+            Advertise on expat.sg
+          </Link>
+        </p>
+      )}
     </aside>
   );
 }

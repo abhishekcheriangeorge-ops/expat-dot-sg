@@ -3,13 +3,13 @@
   "slug": "asian-tigers-mobility",
   "name": "Asian Tigers Mobility",
   "summary": "Regional moving and relocation brand frequently used on corporate packages.",
-  "body": "International movers differ wildly on inventory care, storage, and customs paperwork. Get two to three quotes, confirm insurance, and align shipment timing with housing keys — not with your flight alone.",
+  "body": "International movers differ wildly on inventory care, storage, and customs paperwork. Get two to three quotes, confirm insurance, and align shipment timing with housing keys \u2014 not with your flight alone.",
   "category": "movers",
   "areasServed": [
     "Islandwide",
     "International"
   ],
   "website": "https://www.asiantigers-singapore.com",
-  "featured": false,
-  "sponsored": false
+  "featured": true,
+  "sponsored": true
 }

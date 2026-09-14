@@ -5,3 +5,5 @@ export * from "./toc";
 export * from "./slugify";
 export * from "./journeys";
 export * from "./calendar";
+export * from "./sponsored";
+export * from "./featured";

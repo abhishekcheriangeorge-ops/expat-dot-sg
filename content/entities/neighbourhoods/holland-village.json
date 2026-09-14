@@ -2,8 +2,8 @@
   "type": "neighbourhood",
   "slug": "holland-village",
   "name": "Holland Village",
-  "summary": "Walkable café strip, expat-familiar conveniences, and a soft landing for first housing searches.",
-  "body": "Holland Village sits between Dempsey and Bukit Timah — close enough to international schools and clubs that many arriving families treat it as a default shortlist. Lorong Mambong and Holland Avenue deliver groceries, takeaway, and evening tables without a car; the MRT station makes CBD days workable. Expect a mix of walk-up apartments, older condos, and a few newer towers. Weekends feel social; weekdays feel practical. It is not quiet, and it is not cheap — but it is legible if you are new to Singapore.",
+  "summary": "Walkable caf\u00e9 strip, expat-familiar conveniences, and a soft landing for first housing searches.",
+  "body": "Holland Village sits between Dempsey and Bukit Timah \u2014 close enough to international schools and clubs that many arriving families treat it as a default shortlist. Lorong Mambong and Holland Avenue deliver groceries, takeaway, and evening tables without a car; the MRT station makes CBD days workable. Expect a mix of walk-up apartments, older condos, and a few newer towers. Weekends feel social; weekdays feel practical. It is not quiet, and it is not cheap \u2014 but it is legible if you are new to Singapore.",
   "region": "central",
   "vibe": [
     "cafes",
@@ -38,5 +38,5 @@
     "chatsworth-international",
     "iss-international"
   ],
-  "featured": false
+  "featured": true
 }

@@ -30,7 +30,7 @@ export default async function DirectoryPage() {
       <DirectoryHero
         eyebrow="Directory"
         title="Services"
-        description="Practical operators for the messy middle of expat life — moves, clinics, agents, helpers, tutors, cover, and counsel. Featured badges light up when Phase 5 placements go live."
+        description="Practical operators for the messy middle of expat life — moves, clinics, agents, helpers, tutors, cover, and counsel. Featured and Sponsored badges mark paid placements — never unmarked editorial."
         meta={`${services.length} listings across ${byCategory.length} categories`}
       />
 

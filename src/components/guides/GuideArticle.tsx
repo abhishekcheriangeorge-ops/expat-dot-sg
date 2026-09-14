@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { GuideMeta } from "@/lib/content/guides";
+import type { SponsorPlacement } from "@/lib/content/schemas";
 import type { TocItem } from "@/lib/content/toc";
 import { GuideCitations } from "./GuideCitations";
 import { GuideMetaBar } from "./GuideMetaBar";
@@ -12,6 +13,8 @@ type GuideArticleProps = {
   toc: TocItem[];
   related: GuideMeta[];
   children: ReactNode;
+  /** Optional filled inventory for the guide's sponsor slot category */
+  placement?: SponsorPlacement | null;
 };
 
 export function GuideArticle({
@@ -19,6 +22,7 @@ export function GuideArticle({
   toc,
   related,
   children,
+  placement = null,
 }: GuideArticleProps) {
   return (
     <article className="mx-auto w-full max-w-[var(--max-page)] px-5 py-12 sm:px-8 sm:py-16">
@@ -36,7 +40,10 @@ export function GuideArticle({
         <div className="min-w-0">
           <div className="max-w-[var(--max-prose)]">{children}</div>
 
-          <GuideSponsorSlotBanner slot={meta.sponsorSlot} />
+          <GuideSponsorSlotBanner
+            slot={meta.sponsorSlot}
+            placement={placement}
+          />
 
           <div className="mt-14 max-w-[var(--max-prose)] space-y-14">
             <GuideCitations citations={meta.citations} />

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "movers-asian-tigers",
+    "category": "movers",
+    "partnerName": "Asian Tigers Mobility",
+    "headline": "Corporate-ready moves without the customs surprise",
+    "body": "Sample featured mover placement for guide sponsor slots. Inventory is clearly labeled #sponsored and never presented as independent advice.",
+    "ctaLabel": "View listing",
+    "ctaHref": "/directory/movers/asian-tigers-mobility",
+    "active": true,
+    "entityRef": {
+      "collection": "services",
+      "slug": "asian-tigers-mobility"
+    }
+  },
+  {
+    "id": "insurance-aia",
+    "category": "insurance",
+    "partnerName": "AIA Singapore",
+    "headline": "Health cover questions for the first ninety days",
+    "body": "Sample category sponsorship on money / insurance guides. Always disclosed; never unmarked editorial.",
+    "ctaLabel": "View listing",
+    "ctaHref": "/directory/insurance/aia-singapore",
+    "active": true,
+    "entityRef": {
+      "collection": "services",
+      "slug": "aia-singapore"
+    }
+  },
+  {
+    "id": "schools-sas",
+    "category": "schools",
+    "partnerName": "Singapore American School",
+    "headline": "Plan admissions before the shipping container leaves",
+    "body": "Sample featured school placement. Directory badges and this slot stay visually distinct from editorial school landscape guides.",
+    "ctaLabel": "View school profile",
+    "ctaHref": "/schools/singapore-american-school",
+    "active": true,
+    "entityRef": {
+      "collection": "schools",
+      "slug": "singapore-american-school"
+    }
+  }
+]

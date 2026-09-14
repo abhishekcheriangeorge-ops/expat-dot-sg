@@ -6,6 +6,7 @@ import {
   getGuideBySlug,
   getRelatedGuides,
 } from "@/lib/content/guides";
+import { getActivePlacementByCategory } from "@/lib/content/sponsored";
 
 type GuidePageProps = {
   params: Promise<{ slug: string }>;
@@ -41,6 +42,9 @@ export default async function GuidePage({ params }: GuidePageProps) {
   if (!guide) notFound();
 
   const related = await getRelatedGuides(guide.meta);
+  const placement = guide.meta.sponsorSlot?.category
+    ? await getActivePlacementByCategory(guide.meta.sponsorSlot.category)
+    : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -65,7 +69,12 @@ export default async function GuidePage({ params }: GuidePageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <GuideArticle meta={guide.meta} toc={guide.toc} related={related}>
+      <GuideArticle
+        meta={guide.meta}
+        toc={guide.toc}
+        related={related}
+        placement={placement}
+      >
         {guide.content}
       </GuideArticle>
     </>

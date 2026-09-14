@@ -297,3 +297,66 @@ export const CalendarEventSchema = z.object({
   featured: z.boolean().default(false),
 });
 export type CalendarEvent = z.infer<typeof CalendarEventSchema>;
+
+/** Paid advertorial posts — always labeled #sponsored, never unmarked editorial */
+export const SponsoredPostFrontmatterSchema = z.object({
+  title: z.string().min(1),
+  description: z.string().min(1),
+  slug: z.string().min(1).regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/),
+  partnerName: z.string().min(1),
+  partnerUrl: z.string().url().optional(),
+  pillar: PillarSchema.optional(),
+  category: z.string().optional(),
+  publishedAt: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  disclosure: z
+    .string()
+    .default(
+      "This is a paid sponsored post. It is not independent editorial advice.",
+    ),
+  ctaLabel: z.string().optional(),
+  ctaHref: z.string().optional(),
+  draft: z.boolean().default(false),
+  ogImage: z.string().optional(),
+});
+export type SponsoredPostFrontmatter = z.infer<
+  typeof SponsoredPostFrontmatterSchema
+>;
+
+/** Inventory that fills guide sponsor slots / category placements */
+export const SponsorPlacementSchema = z.object({
+  id: z.string().min(1),
+  category: z.string().min(1),
+  partnerName: z.string().min(1),
+  headline: z.string().min(1),
+  body: z.string().min(1),
+  ctaLabel: z.string().min(1),
+  ctaHref: z.string().min(1),
+  active: z.boolean().default(true),
+  entityRef: z
+    .object({
+      collection: EntityCollectionSchema,
+      slug: z.string().min(1),
+    })
+    .optional(),
+});
+export type SponsorPlacement = z.infer<typeof SponsorPlacementSchema>;
+
+export const AdvertiseInterestSchema = z.enum([
+  "featured_listing",
+  "sponsored_post",
+  "newsletter",
+  "category_sponsorship",
+  "other",
+]);
+export type AdvertiseInterest = z.infer<typeof AdvertiseInterestSchema>;
+
+export const LeadInquirySchema = z.object({
+  name: z.string().min(1).max(120),
+  email: z.string().email().max(200),
+  company: z.string().max(160).optional().or(z.literal("")),
+  interest: AdvertiseInterestSchema,
+  message: z.string().min(10).max(4000),
+  budgetBand: z.string().max(80).optional().or(z.literal("")),
+  source: z.string().max(80).default("advertise"),
+});
+export type LeadInquiry = z.infer<typeof LeadInquirySchema>;

@@ -3,21 +3,21 @@
   "slug": "singapore-american-school",
   "name": "Singapore American School",
   "summary": "Large US-curriculum campus in Woodlands with extensive co-curriculars and strong college counselling.",
-  "body": "SAS is one of Singapore’s largest international schools, offering an American pathway from early childhood through high school. The Woodlands campus is a full-day commitment geographically — families often live north/west or accept longer drives. Waitlists and admissions cycles are competitive for popular grades; start early if your move is package-timed.",
+  "body": "SAS is one of Singapore\u2019s largest international schools, offering an American pathway from early childhood through high school. The Woodlands campus is a full-day commitment geographically \u2014 families often live north/west or accept longer drives. Waitlists and admissions cycles are competitive for popular grades; start early if your move is package-timed.",
   "curriculum": [
     "American",
     "AP"
   ],
   "sector": "international",
-  "ages": "Preschool–Grade 12",
+  "ages": "Preschool\u2013Grade 12",
   "neighbourhood": "woodlands",
   "campus": "Woodlands",
   "languages": [
     "English"
   ],
   "feesBand": "Premium international",
-  "waitlistNotes": "Plan 6–12 months ahead for peak grades; sibling priority applies.",
+  "waitlistNotes": "Plan 6\u201312 months ahead for peak grades; sibling priority applies.",
   "website": "https://www.sas.edu.sg",
-  "featured": false,
+  "featured": true,
   "sponsored": false
 }

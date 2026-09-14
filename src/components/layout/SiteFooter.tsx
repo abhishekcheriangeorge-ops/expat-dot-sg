@@ -68,6 +68,9 @@ export function SiteFooter() {
             <Link href="/advertise" className="no-underline hover:text-paper">
               Advertise
             </Link>
+            <Link href="/sponsored" className="no-underline hover:text-paper">
+              Sponsored
+            </Link>
           </div>
         </div>
       </div>
