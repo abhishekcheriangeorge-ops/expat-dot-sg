@@ -4,6 +4,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 6 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — furnishing / bare vs semi / Carousell–IKEA humidity ([moving in a month](https://www.reddit.com/r/askSingapore/comments/1n1elqn/moving_to_singapore_in_a_month/); [affordable furniture](https://www.reddit.com/r/askSingapore/comments/1hvm3yl/where_to_get_relatively_affordable_furniture_in_sg/); [where to buy](https://www.reddit.com/r/askSingapore/comments/1jgb22o/where_to_buy_affordable_furnitures/); [partially furnished condo](https://www.reddit.com/r/askSingapore/comments/197u0n0/moving_to_sg_soon_but_condo_partially_furnished/); [semi vs fully furnished](https://www.reddit.com/r/askSingapore/comments/1acslvx/renting_semibare_vs_fully_furnished_condo/)).
+- r/askSingapore — condo lift padding / MCST move deposits / mover trolley surcharges ([lift padding responsibility](https://www.reddit.com/r/askSingapore/comments/1l3vp58/condo_lift_padding_whose_responsible_to_install/); [move-in deposit](https://www.reddit.com/r/askSingapore/comments/1uf6vp6/deposit_for_moving_into_condo/); [padding fee](https://www.reddit.com/r/askSingapore/comments/18lse0i/condo_manager_charging_for_lift_padding/); [movers shifting house](https://www.reddit.com/r/askSingapore/comments/1nl8h1a/questions_about_movers_shifting_house_in/); [agent fee / overseas landlord](https://www.reddit.com/r/askSingapore/comments/1h10b2z/who_should_pay_the_agent_fees_if_landlord_is/)).
+- r/askSingapore — mental health access / outpatient exclusions ([foreigners mental health](https://www.reddit.com/r/askSingapore/comments/1m8tl7z/mental_health_services_in_sg_for_foreigners/); [outpatient insurance](https://www.reddit.com/r/askSingapore/comments/1pjqhk9/outpatient_insurance_recommendation/); [top-up insurance](https://www.reddit.com/r/askSingapore/comments/1larsa4/foreigners_in_sg_top_up_insurance/); [pre-existing mental health](https://www.reddit.com/r/askSingapore/comments/1hdz9wf/insurance_for_preexisting_mental_health_conditions/)).
+- r/askSingapore — SEN / EIPIC / international school support ([moving with special needs](https://www.reddit.com/r/askSingapore/comments/1svtc96/moving_to_singapore_with_a_child_with_special/); [SEN primary support](https://www.reddit.com/r/askSingapore/comments/1gcsmj7/sen_teacher_support_for_primary_school_kids/); [ASD schooling](https://www.reddit.com/r/askSingapore/comments/wzj1id/iso_asd_schooling_options/); [MOE waiver / FSS](https://www.reddit.com/r/askSingapore/comments/1u4ilik/can_i_move_my_kid_to_an_international_school_in/); therapy cost notes in [moving to SG](https://www.reddit.com/r/askSingapore/comments/114zacw/moving_to_singapore/)).
+- r/askSingapore — paediatrician private vs polyclinic for foreigners ([recommend PD](https://www.reddit.com/r/askSingapore/comments/1g54za3/anyone_can_recommend_a_pediatrician_in_sgp/); [cash-pay PD](https://www.reddit.com/r/askSingapore/comments/1e73vx8/pediatrician_recommendation_for_nonlocal_pay_via/); [public vs private](https://www.reddit.com/r/askSingapore/comments/1lksvrf/pediatrician_public_vs_private/)).
+- r/askSingapore — PayNow without local bank / FIN proxy ([P2P PayNow](https://www.reddit.com/r/askSingapore/comments/1n84kwi/how_can_foreigners_use_peertopeer_paynow/); [PayNow or cash only](https://www.reddit.com/r/askSingapore/comments/15cnlmb/how_can_i_pay_at_a_place_that_only_accepts_paynow/)).
+
+**Official**
+
+- [MOH — Mental health services](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/) + [mindline 1771 announcement](https://www.moh.gov.sg/newsroom/national-mindline-1771-to-provide--round-the-clock-support-for-mental-health/) + [IMH Emergency](https://www.imh.com.sg/Clinical-Services/Pages/Emergency-Services.aspx) + [CHAT](https://www.imh.com.sg/CHAT/Get-Help/Pages/default.aspx).
+- [ECDA — EIPIC](https://www.ecda.gov.sg/parents/other-services/early-intervention-services/early-intervention-programme-for-infants-and-children-%28eipic%29) + [SG Enable Enabling Guide](https://www.enablingguide.sg/im-looking-for-disability-support/therapy-intervention/early-intervention-programme-for-infants-children).
+- [CEA — Engaging a property agent](https://www.cea.gov.sg/consumers/engaging-a-property-agent/what-to-take-note-of-when-engaging-a-property-agent/) + [renting guidance](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/) (no dual representation).
+- [ABS — PayNow](https://www.abs.org.sg/e-payments/pay-now) + [DBS PayNow / FIN registration](https://www.dbs.com.sg/personal/support/bank-ssb-paynow-register-profile.html).
+- [ICA — PR](https://www.ica.gov.sg/reside/PR) + [IRAS IR21](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + [CMPB](https://www.cmpb.gov.sg/) + [Dover Court admissions FAQs](https://www.nordangliaeducation.com/dcis-singapore/faqs).
+
+### Gaps vs Tick 1–5
+
+Tick 1–5 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR, MDW, diplomatic clause, insurance/maternity, preschool, banks/CPF, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1, LTVP, EP renewal, healthcare, remittance, apps (thin PayNow), S Pass, COMPASS, Customs GST, Student’s Pass, career pivots, SimplyGo, aircon, SRS, haze, ABSD, STVP, PEP/ONE Pass, EntrePass, COE/car, JB weekends, dengue/emergencies, year-one finance. Remaining high-intent stubs mismatched forum heat: **bare/semi furnishing + Carousell exit**, **condo MCST lift/move deposits + dual-rep fee myth**, **mental-health outpatient exclusions + mindline 1771**, **EIPIC SC/PR-only + SEN school waitlists**, **foreigner paediatrician / polyclinic fee reality**, **stay-vs-exit year-three framework**, PayNow FIN depth.
+
+### Shipped this tick
+
+**Upgraded guides (depth + tables + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/home/furnishing-rental-flat.mdx`
+- `content/guides/home/moving-within-singapore.mdx`
+- `content/guides/family/mental-health-resources.mdx`
+- `content/guides/family/special-needs-support.mdx`
+- `content/guides/family/finding-pediatrician-singapore.mdx`
+- `content/guides/next/long-term-stay-vs-exit.mdx`
+- `content/guides/life/apps-that-matter-singapore.mdx` (PayNow FIN + Carousell)
+
+**Entity depth**
+
+- `content/entities/schools/dover-court.json`
+- `content/entities/schools/singapore-american-school.json`
+- `content/entities/services/alliance-movers.json`
+- `content/entities/services/asian-tigers-mobility.json`
+- `content/entities/services/raffles-medical.json`
+- `content/entities/services/smg.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing movers `sponsorSlot` on moving-within left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–5 topics beyond light cross-links.
+
+---
+
 ## Tick 5 — 2026-09-15
 
 ### Sources mined

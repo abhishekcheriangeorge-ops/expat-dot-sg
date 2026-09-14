@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "raffles-medical",
   "name": "Raffles Medical",
-  "summary": "Islandwide clinic network many expats use for GP, health screening, and insurance-panel primary care.",
-  "body": "Raffles Medical clinics are a common first GP relationship for newcomers who want English-first private care and islandwide coverage. Before you attach, confirm your employer insurer’s panel list, nearest clinic hours to home and office, and what to do after 10pm — clinic networks are not a substitute for knowing your closest appropriate A&E. Health screening packages are popular in year one; keep vaccination and chronic-medication records in the patient app. Pair with the healthcare GP/hospital guide for public vs private triage.",
+  "summary": "Islandwide clinic network many expats use for GP, health screening, paediatric panels, and first-stop private care — confirm mental-health outpatient cover separately.",
+  "body": "Raffles Medical clinics are a common first GP relationship for newcomers who want English-first private care and islandwide coverage. Before you attach, confirm your employer insurer’s panel list, nearest clinic hours to home and office, and what to do after 10pm — clinic networks are not a substitute for knowing your closest appropriate A&E. Families often use the network for paediatric acute visits when panel rates apply; still keep a named paediatrician relationship if you want continuity. Mental-health outpatient (psychology / counselling) is frequently excluded from basic corporate outpatient riders — ask HR for the benefits schedule before you assume sessions are reimbursable. Pair with the healthcare, paediatrician, and mental-health guides for triage.",
   "category": "clinics",
   "areasServed": [
     "Islandwide"
