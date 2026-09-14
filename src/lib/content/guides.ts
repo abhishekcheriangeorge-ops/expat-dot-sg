@@ -3,11 +3,13 @@ import path from "node:path";
 import matter from "gray-matter";
 import { compileMDX } from "next-mdx-remote/rsc";
 import type { ReactElement } from "react";
+import { guideMdxComponents } from "@/components/guides/mdx-components";
 import {
   GuideFrontmatterSchema,
   type GuideFrontmatter,
   type Pillar,
 } from "./schemas";
+import { extractToc, type TocItem } from "./toc";
 
 const GUIDES_DIR = path.join(process.cwd(), "content", "guides");
 
@@ -17,6 +19,7 @@ export type GuideMeta = GuideFrontmatter & {
 
 export type GuideDocument = {
   meta: GuideMeta;
+  toc: TocItem[];
   /** Compiled MDX content for RSC rendering */
   content: ReactElement;
 };
@@ -26,12 +29,21 @@ function estimateReadingTime(source: string): number {
   return Math.max(1, Math.round(words / 200));
 }
 
-async function listGuideFiles(): Promise<string[]> {
+async function listGuideFiles(dir = GUIDES_DIR): Promise<string[]> {
   try {
-    const entries = await fs.readdir(GUIDES_DIR, { withFileTypes: true });
-    return entries
-      .filter((e) => e.isFile() && /\.mdx?$/.test(e.name))
-      .map((e) => path.join(GUIDES_DIR, e.name));
+    const entries = await fs.readdir(dir, { withFileTypes: true });
+    const files: string[] = [];
+
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        files.push(...(await listGuideFiles(full)));
+      } else if (entry.isFile() && /\.mdx?$/.test(entry.name)) {
+        files.push(full);
+      }
+    }
+
+    return files;
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return [];
     throw err;
@@ -41,14 +53,13 @@ async function listGuideFiles(): Promise<string[]> {
 async function parseGuideFile(filePath: string): Promise<{
   meta: GuideMeta;
   body: string;
+  toc: TocItem[];
 }> {
   const raw = await fs.readFile(filePath, "utf8");
   const { data, content } = matter(raw);
   const meta = GuideFrontmatterSchema.parse({
     ...data,
-    slug:
-      data.slug ??
-      path.basename(filePath).replace(/\.mdx?$/, ""),
+    slug: data.slug ?? path.basename(filePath).replace(/\.mdx?$/, ""),
   });
 
   return {
@@ -57,6 +68,7 @@ async function parseGuideFile(filePath: string): Promise<{
       readingTimeMinutes: estimateReadingTime(content),
     },
     body: content,
+    toc: extractToc(content),
   };
 }
 
@@ -64,6 +76,7 @@ async function parseGuideFile(filePath: string): Promise<{
 export async function getAllGuides(options?: {
   includeDrafts?: boolean;
   pillar?: Pillar;
+  journey?: GuideFrontmatter["journey"];
 }): Promise<GuideMeta[]> {
   const files = await listGuideFiles();
   const guides = await Promise.all(files.map(parseGuideFile));
@@ -72,6 +85,10 @@ export async function getAllGuides(options?: {
     .map((g) => g.meta)
     .filter((g) => options?.includeDrafts || !g.draft)
     .filter((g) => !options?.pillar || g.pillar === options.pillar)
+    .filter((g) => {
+      if (!options?.journey) return true;
+      return g.journey === options.journey || g.journey === "both";
+    })
     .sort((a, b) => b.lastReviewed.localeCompare(a.lastReviewed));
 }
 
@@ -82,16 +99,17 @@ export async function getGuideBySlug(
   const files = await listGuideFiles();
 
   for (const file of files) {
-    const { meta, body } = await parseGuideFile(file);
+    const { meta, body, toc } = await parseGuideFile(file);
     if (meta.slug !== slug) continue;
     if (meta.draft && !options?.includeDrafts) return null;
 
     const { content } = await compileMDX({
       source: body,
+      components: guideMdxComponents,
       options: { parseFrontmatter: false },
     });
 
-    return { meta, content };
+    return { meta, toc, content };
   }
 
   return null;
@@ -103,3 +121,49 @@ export async function getGuideSlugs(options?: {
   const guides = await getAllGuides(options);
   return guides.map((g) => g.slug);
 }
+
+/** Related guides: explicit frontmatter first, then same-pillar fill */
+export async function getRelatedGuides(
+  guide: GuideMeta,
+  limit = 4,
+): Promise<GuideMeta[]> {
+  const all = await getAllGuides();
+  const bySlug = new Map(all.map((g) => [g.slug, g]));
+  const picked: GuideMeta[] = [];
+  const seen = new Set<string>([guide.slug]);
+
+  for (const slug of guide.relatedGuides) {
+    const hit = bySlug.get(slug);
+    if (hit && !seen.has(hit.slug)) {
+      picked.push(hit);
+      seen.add(hit.slug);
+    }
+    if (picked.length >= limit) return picked;
+  }
+
+  for (const candidate of all) {
+    if (seen.has(candidate.slug)) continue;
+    if (candidate.pillar !== guide.pillar) continue;
+    picked.push(candidate);
+    seen.add(candidate.slug);
+    if (picked.length >= limit) break;
+  }
+
+  return picked;
+}
+
+export const PILLAR_LABELS: Record<Pillar, string> = {
+  move: "Move",
+  home: "Home",
+  money: "Money",
+  family: "Family",
+  life: "Life",
+  belong: "Belong",
+  next: "Next",
+};
+
+export const JOURNEY_LABELS: Record<GuideFrontmatter["journey"], string> = {
+  arriving: "Arriving",
+  living: "Living",
+  both: "Arriving & Living",
+};
