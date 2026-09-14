@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+/* ── Humidity Editorial design tokens ─────────────────────────────── */
+:root {
+  /* Surfaces */
+  --paper: #f2eee6;
+  --paper-elevated: #faf7f1;
+  --fog: #c9c4bb;
+  --fog-soft: #e4dfd6;
+
+  /* Ink */
+  --ink: #0c1210;
+  --ink-muted: #3d4541;
+  --ink-faint: #6b726e;
+
+  /* Brand atmosphere */
+  --canopy: #1a3d2e;
+  --canopy-deep: #0f2a1f;
+  --canopy-mist: #2d5a45;
+  --tungsten: #c9923a;
+  --tungsten-soft: #e0b56a;
+  --rain: #4a6b7c;
+  --dusk: #1e2830;
+
+  /* Semantic */
+  --sponsored: #8b4513;
+  --focus-ring: var(--tungsten);
+
+  /* Typography (set by next/font on <html>) */
+  --font-display: var(--font-fraunces), "Iowan Old Style", "Palatino Linotype",
+    Palatino, serif;
+  --font-sans: var(--font-manrope), "Avenir Next", "Segoe UI", sans-serif;
+
+  /* Rhythm */
+  --space-section: clamp(4rem, 8vw, 7rem);
+  --max-prose: 42rem;
+  --max-page: 72rem;
+
+  /* Motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-reveal: 0.7s;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-elevated: var(--paper-elevated);
+  --color-fog: var(--fog);
+  --color-fog-soft: var(--fog-soft);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-canopy: var(--canopy);
+  --color-canopy-deep: var(--canopy-deep);
+  --color-canopy-mist: var(--canopy-mist);
+  --color-tungsten: var(--tungsten);
+  --color-tungsten-soft: var(--tungsten-soft);
+  --color-rain: var(--rain);
+  --color-dusk: var(--dusk);
+  --color-sponsored: var(--sponsored);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01" on, "kern" on;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--tungsten) 35%, transparent);
+    color: var(--ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 3px;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+
+  a {
+    color: inherit;
+    text-underline-offset: 0.18em;
+  }
+}

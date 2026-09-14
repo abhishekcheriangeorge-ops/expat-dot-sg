@@ -1,0 +1,10 @@
+{
+  "type": "neighbourhood",
+  "slug": "holland-village",
+  "name": "Holland Village",
+  "summary": "Scaffold entity for the neighbourhoods loader. Expand in Phase 3.",
+  "region": "central",
+  "vibe": ["expat-friendly", "cafes", "walkable"],
+  "mrt": ["Holland Village"],
+  "featured": false
+}
