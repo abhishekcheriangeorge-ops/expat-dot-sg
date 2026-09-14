@@ -4,6 +4,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 5 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP resignation / STVP after cancellation ([thread](https://www.reddit.com/r/askSingapore/comments/1ttedbd/ep_question_on_resignation_stvp/); [laid off stay longer](https://www.reddit.com/r/askSingapore/comments/vn8l3i/if_im_laid_off_as_an_ep_holder_is_there_anyway_to/); [LTVP after losing job](https://www.reddit.com/r/askSingapore/comments/1q66ra7/getting_an_ltvp_after_losing_job/)).
+- r/askSingapore — rent vs buy / 60% ABSD for foreigners ([thread](https://www.reddit.com/r/askSingapore/comments/1s2f47a/longterm_renting_vs_buying_as_a_foreigner/); [options to buy](https://www.reddit.com/r/askSingapore/comments/1ajao3j/various_options_available_for_foreigners_to_buy_a/); [FTA ABSD](https://www.reddit.com/r/askSingapore/comments/10hkn38/why_do_foreigners_not_have_to_pay_absd_when/)).
+- r/askSingapore — PEP pros/cons / job-hunt timing ([thread](https://www.reddit.com/r/askSingapore/comments/1hff5n2/pros_and_cons_of_personalized_employment_pass/); [PEP from overseas](https://www.reddit.com/r/askSingapore/comments/1dxd5ox/job_hunt_and_pep_when_to_apply_from_overseas/); [PEP + Tech.Pass](https://www.reddit.com/r/askSingapore/comments/n5ew8q/requirements_for_job_hunting_in_singapore_and/)).
+- r/askSingapore — ONE Pass / spouse LOC myths ([thread](https://www.reddit.com/r/askSingapore/comments/1d9jml1/expats_how_does_my_wife_get_onepass_to_allow_her/)).
+- r/askSingapore — Grab vs own car / GetGo / COE realism ([GetGo](https://www.reddit.com/r/askSingapore/comments/1jvrlzs/which_car_sharing_service_do_you_recommend_and_why/); [S$1.2k Grab](https://www.reddit.com/r/askSingapore/comments/1br6cwy/i_spend_12k_per_month_on_grab_should_i_get_a_car/); [when buy makes sense](https://www.reddit.com/r/askSingapore/comments/1oh0qdo/when_will_it_make_sense_to_buy_a_car_eg_if_you/); [moving considerations / COE](https://www.reddit.com/r/askSingapore/comments/1coj3s5/what_should_i_consider_before_moving_to_singapore/)).
+- r/askSingapore — JB / RTS commute politics ([thread](https://www.reddit.com/r/askSingapore/comments/1roo6vb/with_the_upcoming_rts_would_govt_consider_making/)).
+- r/askSingapore — NEA dengue home checks / fines ([officers](https://www.reddit.com/r/askSingapore/comments/1r1q6uu/nea_officers_checking_for_mosquitoes/); [is it serious](https://www.reddit.com/r/askSingapore/comments/14q419q/nea_check_is_it_serious/); [clusters](https://www.reddit.com/r/askSingapore/comments/1i4rzk5/something_about_reporting_to_nea_for_dengue/)).
+
+**Official**
+
+- [IRAS — ABSD](https://www.iras.gov.sg/taxes/stamp-duty/for-property/buying-or-acquiring-property/additional-buyers-stamp-duty-(absd)) + [FTA remission](https://www.iras.gov.sg/taxes/stamp-duty/for-property/appeals-refunds-reliefs-and-remissions/common-stamp-duty-remissions-and-reliefs-for-property/foreigners-eligible-for-absd-remission-under-free-trade-agreements-(ftas)).
+- [MOM — Cancel EP / STVP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [PEP eligibility](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/eligibility) + [ONE Pass eligibility](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/eligibility) + [ONE Pass family / spouse LOC](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/passes-for-families) + [EntrePass eligibility](https://www.mom.gov.sg/passes-and-permits/entrepass/eligibility).
+- [LTA OneMotoring — COE](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/certificate-of-entitlement--coe-.html) + [vehicle tax structure](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/tax-structure.html).
+- [NEA — Dengue clusters](https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters) + [home inspection](https://www.nea.gov.sg/dengue-zika/inspecting-your-homes-and-premises-for-mosquito-habitats).
+- [ICA — LTVP graduate seeking employment](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore).
+
+### Gaps vs Tick 1–4
+
+Tick 1–4 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR, MDW, diplomatic clause, insurance/maternity, preschool, banks/CPF, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1, LTVP, EP renewal, healthcare, remittance, apps, S Pass, COMPASS, Customs GST, Student’s Pass, career pivots, SimplyGo, aircon, SRS, haze. Remaining high-intent gaps matched forum heat: **60% ABSD / rent-vs-buy**, **STVP between jobs**, **PEP one-shot rules**, **ONE Pass + spouse LOC**, **EntrePass eligibility depth**, **COE vs GetGo/Grab**, **JB Causeway timing**, **NEA dengue inspections**, year-one FOMO finance.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/buying-property-foreigner-absd.mdx`
+- `content/guides/next/between-jobs-stvp-singapore.mdx`
+- `content/guides/move/personalised-employment-pass-pep.mdx`
+- `content/guides/move/one-pass-singapore.mdx`
+- `content/guides/life/car-ownership-vs-sharing-singapore.mdx`
+
+**Upgraded guides (depth + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/move/entrepass-singapore.mdx`
+- `content/guides/life/weekend-getaways-from-singapore.mdx`
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/money/financial-planning-year-one.mdx`
+- `content/guides/move/employment-pass-singapore.mdx` (cross-links)
+- `content/guides/next/career-pivots-singapore.mdx` / `leaving-singapore-playbook.mdx` / `converting-foreign-driving-licence.mdx` / `condo-vs-hdb-expat.mdx` (cross-links)
+
+**Entity depth**
+
+- `content/entities/services/era-realty.json`
+- `content/entities/services/huttons.json`
+- `content/entities/services/orange-tee.json`
+- `content/entities/neighbourhoods/woodlands.json`
+- `content/entities/neighbourhoods/marina-bay-cbd.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–4 topics beyond light cross-links.
+- Included prior unpushed Tick 4 commit in the same push to origin/main.
+
+---
+
 ## Tick 4 — 2026-09-15
 
 ### Sources mined
