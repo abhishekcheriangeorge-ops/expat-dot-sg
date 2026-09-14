@@ -2,13 +2,14 @@
   "type": "club",
   "slug": "britcham",
   "name": "BritCham Singapore",
-  "summary": "British Chamber of Commerce for UK-linked business networking and events.",
-  "body": "BritCham connects UK and Commonwealth business communities through events and advocacy. Strong for entrepreneurs and corporate professionals building a Singapore network.",
+  "summary": "British Chamber of Commerce for UK-linked business networking, advocacy, and SME-friendly event calendars.",
+  "body": "BritCham connects UK and Commonwealth business communities through events, advocacy, and sector programming. Strong for entrepreneurs and corporate professionals building a Singapore network without defaulting to a country-club fee. Compare corporate vs SME tiers against how many introductions you actually convert in six months. Pair with BritCham’s social calendar only as a secondary belonging channel — primary friendships usually come from hobbies and nationality associations.",
   "category": "chamber",
   "focus": [
     "business",
     "UK companies",
-    "networking"
+    "networking",
+    "SME"
   ],
   "membershipNotes": "Corporate and SME tiers — check current schedule of fees.",
   "website": "https://www.britcham.org.sg",

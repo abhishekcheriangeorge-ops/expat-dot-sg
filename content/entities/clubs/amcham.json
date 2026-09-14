@@ -2,8 +2,8 @@
   "type": "club",
   "slug": "amcham",
   "name": "AmCham Singapore",
-  "summary": "American Chamber of Commerce — business advocacy, briefings, and professional networks.",
-  "body": "AmCham is the US business community’s institutional hub: policy briefings, sector committees, and networking. Belonging here is professional rather than family-sport. Pair with a social club if you need both.",
+  "summary": "American Chamber of Commerce — policy briefings, sector committees, and professional networks for US-linked business in Singapore.",
+  "body": "AmCham is the US business community’s institutional hub: policy briefings, sector committees, and large networking calendars. Belonging here is professional rather than family-sport — useful when you have BD targets or want committee visibility, expensive if you only show up for the holiday party. Corporate memberships dominate; verify individual/SME options and fee schedules live. Pair with a nationality association or social club if you need friendship infrastructure, and with the chambers guide for a six-month ROI test.",
   "category": "chamber",
   "focus": [
     "business",
@@ -11,7 +11,7 @@
     "policy",
     "networking"
   ],
-  "membershipNotes": "Corporate memberships dominate; individual options vary.",
+  "membershipNotes": "Corporate memberships dominate; individual options vary — check current fees before joining.",
   "website": "https://www.amcham.com.sg",
   "neighbourhood": "marina-bay-cbd",
   "featured": false,

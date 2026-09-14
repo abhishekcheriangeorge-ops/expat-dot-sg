@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "intact-immigration",
   "name": "Immigration counsel (category guide)",
-  "summary": "Category entry for EP/Dependant Pass counsel — use regulated advisers for edge cases.",
-  "body": "Most straightforward EP issues are employer-led via MOM. Engage immigration counsel for refusals, complex dependants, EntrePass, or PR strategy — not for routine first-pass filing your HR already owns.",
+  "summary": "Category entry for EP, Tech.Pass, ONE Pass, LTVP common-law, lost-card edge cases, and side-income questions — use regulated advisers when HR scripts run out.",
+  "body": "Most straightforward EP issues are employer-led via MOM. Engage immigration counsel for refusals, complex dependants, common-law LTVP evidence packs, EntrePass / Tech.Pass / ONE Pass conversions, PEP one-shot timing, or PR strategy — not for routine first-pass filing your HR already owns. Lost or stolen pass cards are usually an HR EP eService replacement within one week; counsel helps when repeated losses trigger interviews or when you are stuck overseas without a re-entry letter. Side-income questions (content creation, overseas remote on DP) start from MOM FAQs; counsel helps when your employer’s risk team will not accept a link alone.",
   "category": "legal",
   "areasServed": [
     "Islandwide"

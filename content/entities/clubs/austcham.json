@@ -2,15 +2,16 @@
   "type": "club",
   "slug": "austcham",
   "name": "AustCham Singapore",
-  "summary": "Australian Chamber of Commerce — trade, events, and Aussie business community.",
-  "body": "AustCham complements ANZA: chamber for commercial networks, association for social/family life. Many Australian households join both at different intensities.",
+  "summary": "Australian Chamber of Commerce — trade advocacy, events, and commercial networks that complement ANZA’s social calendar.",
+  "body": "AustCham complements ANZA: chamber for commercial networks, association for social/family life. Many Australian households join both at different intensities — AustCham for BD and policy rooms, ANZA for sport and soft landing. Measure chamber ROI by introductions converted, not by free drinks attended. Check live membership tiers and event calendars before stacking both fees in year one.",
   "category": "chamber",
   "focus": [
     "business",
     "Australian",
-    "trade"
+    "trade",
+    "networking"
   ],
-  "membershipNotes": "Corporate memberships with event access.",
+  "membershipNotes": "Corporate memberships with event access — verify current fees.",
   "website": "https://www.austcham.org.sg",
   "featured": false,
   "sponsored": false

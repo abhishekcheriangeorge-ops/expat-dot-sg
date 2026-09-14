@@ -2,16 +2,17 @@
   "type": "club",
   "slug": "eurocham",
   "name": "EuroCham Singapore",
-  "summary": "European Chamber umbrella for EU business advocacy and cross-national networking.",
-  "body": "EuroCham aggregates European business interests — useful if your work spans multiple EU markets. Committee work is where deeper relationships form.",
+  "summary": "European Chamber umbrella for EU business advocacy, sector committees, and cross-national networking.",
+  "body": "EuroCham aggregates European business interests — useful if your work spans multiple EU markets rather than a single national chamber. Committee work and sector briefings are where deeper relationships form; the open mixer calendar alone rarely justifies the fee. Compare against your national chamber (German, French, Nordic, etc.) and run a six-month introductions-vs-dues test. Pair with nationality associations when you need cultural belonging rather than BD cards.",
   "category": "chamber",
   "focus": [
     "business",
     "European",
-    "advocacy"
+    "advocacy",
+    "committees"
   ],
-  "membershipNotes": "Company membership typical.",
-  "website": "https://www.eurocham.org.sg",
+  "membershipNotes": "Company membership typical — verify SME options and current fees.",
+  "website": "https://eurocham.org.sg",
   "featured": false,
   "sponsored": false
 }

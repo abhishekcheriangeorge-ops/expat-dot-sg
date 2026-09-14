@@ -4,6 +4,251 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 11 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — ROM marriage for foreigners / two-foreigner fees / witnesses ([getting married as foreigner](https://www.reddit.com/r/askSingapore/comments/150w2rz/getting_married_as_a_foreigner_in_singapore/); [two foreigners](https://www.reddit.com/r/askSingapore/comments/1oc1hpo/two_foreigners_getting_married_in_singapore/); [foreigner marrying SC](https://www.reddit.com/r/askSingapore/comments/1fvqv3c/foreigner_marrying_to_singaporean/); [EU couple docs later](https://www.reddit.com/r/askSingapore/comments/1q3xyp9/getting_married_in_singapore_as_two/); [ROM witnesses](https://www.reddit.com/r/askSingapore/comments/1bsosop/soleminisation_at_rom/)).
+- r/askSingapore — newborn LifeSG / DP salary gate / Special Pass clock ([Malaysian newborn](https://www.reddit.com/r/askSingapore/comments/1b0icqt/questions_regarding_malaysian_newborn_baby/); [NC birth cost](https://www.reddit.com/r/askSingapore/comments/1k5uahv/whats_the_procedure_cost_of_giving_birth_in/); [pregnant move](https://www.reddit.com/r/askSingapore/comments/1p476gs/moving_to_singapore_potentially_pregnant_advise_me/); [DP for baby](https://www.reddit.com/r/askSingapore/comments/17hkidm/dependent_pass/); [DP salary dilemma](https://www.reddit.com/r/askSingapore/comments/13dh57p/dependants_pass_dilemma/)).
+- r/askSingapore — hospital LOG / admission deposits ([AIA LOG](https://www.reddit.com/r/askSingapore/comments/1t0u1tk/aia_corporate_insurance_log_procedure/); [confused LOG](https://www.reddit.com/r/askSingapore/comments/1q67qw4/confused_about_letter_of_guarantee_from_my_insurer/); [dispute hospital charges](https://www.reddit.com/r/askSingapore/comments/15laxa9/anybody_have_any_experience_disputing_hospital/)).
+- r/askSingapore — REP / maintain PR overseas / CPF after renounce ([REP expires](https://www.reddit.com/r/askSingapore/comments/175ttbi/immigration_permanent_resident_pr_if_reentry/); [maintain PR abroad](https://www.reddit.com/r/askSingapore/comments/1qodrxz/how_difficult_is_it_to_maintain_singapore/); [UK relocate keep PR](https://www.reddit.com/r/askSingapore/comments/1qz9gyi/will_be_relocating_to_uk_but_i_dont_want_to_lose/); [give up PR](https://www.reddit.com/r/askSingapore/comments/1k4yszc/giving_up_singapore_permanent_residency_and/); [CPF to Aussie super](https://www.reddit.com/r/askSingapore/comments/1jfnm56/transferring_singapore_cpf_to_australian/)).
+- r/askSingapore — probate / foreigner death / CPF nomination ([grant of probate foreigner](https://www.reddit.com/r/askSingapore/comments/lr8iou/process_for_grant_of_probate_when_a_foreigner/); [what happens when foreigner dies](https://www.reddit.com/r/askSingapore/comments/1qp1dg4/what_happens_when_a_foreigner_dies_in_sg/); [late mother’s bank](https://www.reddit.com/r/askSingapore/comments/1g17ky0/need_help_accessing_late_mothers_bank_account/); [CPF nomination](https://www.reddit.com/r/askSingapore/comments/12ffjw4/cpf_nomination_before_death/)).
+- r/askSingapore — cycling / PAB rules ([cycling as foreigner](https://www.reddit.com/r/askSingapore/comments/1dugti9/cycling_as_a_foreigner/); [tourist cycling](https://www.reddit.com/r/askSingapore/comments/1d76vnc/cycling_in_singapore_as_a_tourist_what_are/); [why e-bikes unpopular](https://www.reddit.com/r/askSingapore/comments/17l6pse/why_arent_ebikes_popular_in_sg/)).
+
+**Official**
+
+- [Marriage.gov.sg — Overview of marriage process PDF](https://www.marriage.gov.sg/Overview_of_Marriage_Process_Oct_2024.pdf) + [Women’s Charter notice/licence](https://sso.agc.gov.sg/Act/WC1961?ProvIds=P13-) + [MOM WP marriage regulations](https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/what-are-the-marriage-and-pregnancy-regulations-for-wp-holders-in-singapore).
+- [ICA — Birth registration](https://www.ica.gov.sg/documents/birth/birth_registration) + [LifeSG birth](https://www.life.gov.sg/services-tools/birth-registration) + [MOM DP for newborn](https://www.mom.gov.sg/passes-and-permits/dependants-pass/getting-a-pass-for-a-newborn).
+- [ICA — Apply/renew REP](https://www.ica.gov.sg/reside/PR/apply-REP) + [REP conditions](https://www.ica.gov.sg/PR/see-more/entry-permit-and-re-entry-permit-conditions-for-singapore-permanent-residents) + [1 Dec 2025 REP FAQ PDF](https://www.ica.gov.sg/docs/default-source/ica/files/faqs_revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025.pdf) + [CPF closing account](https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore).
+- [Judiciary — Apply for probate](https://www.judiciary.gov.sg/family/apply-for-probate) + [FJC probate practice directions](https://epd2024-familyjusticecourts.judiciary.gov.sg/part-24-non-contentious-probate-proceedings) + [CPF nomination](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination).
+- [LTA — Active Mobility rules](https://www.lta.gov.sg/content/ltagov/en/getting_around/active_mobility/rules_and_public_education/rules_and_code_of_conduct.html) + [OneMotoring PAB](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/vehicle-types-and-registrations/active-mobility-devices/PAB.html).
+
+### Gaps vs Tick 1–10
+
+Tick 1–10 covered packages, DP LOC (thin on **newborn Special Pass / LifeSG**), waitlists, heartland, leaving/IR21, PR (thin on **REP + 1 Dec 2025 180-day rule**), MDW, diplomatic clause/SCT, insurance/maternity (thin on **LOG deposits** + **birth-registration clock**), preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1, LTVP, EP renewal, healthcare/HSA/dental, remittance, apps/PayNow, S Pass, COMPASS, Customs GST, Student’s Pass, career pivots, SimplyGo, aircon/mould/cockroach, SRS, haze, ABSD, STVP, PEP/ONE/Tech.Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty. Remaining high-intent gaps matched forum heat: **ROM 31-day / both-foreigner fee / WP approval**, **newborn 42-day + DP**, **hospital LOG**, **REP overseas + CPF renounce cash-out**, **Singapore probate vs foreign grant + CPF nomination**, **bicycle/PAB Active Mobility**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/family/getting-married-foreigners-singapore.mdx`
+- `content/guides/family/newborn-pass-birth-registration-singapore.mdx`
+- `content/guides/next/re-entry-permit-pr-overseas.mdx`
+- `content/guides/next/wills-probate-cpf-nomination-singapore.mdx`
+- `content/guides/life/cycling-active-mobility-singapore.mdx`
+
+**Upgraded guides (depth + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/family/maternity-care-singapore.mdx` (newborn clock cross-link)
+- `content/guides/family/healthcare-gp-hospital.mdx` (LOG / deposits)
+- `content/guides/money/health-insurance-expat.mdx` (LOG audit question)
+- `content/guides/move/dependant-pass-singapore.mdx` (newborn section)
+- `content/guides/next/pr-application-strategy.mdx` (REP + nomination)
+- `content/guides/money/cpf-and-foreigners.mdx` (nomination / renounce cash-out)
+- `content/guides/life/mrt-bus-transport-literacy.mdx` (Active Mobility cross-link)
+
+**Entity depth**
+
+- `content/entities/services/family-law-expat.json`
+- `content/entities/services/raffles-medical.json`
+- `content/entities/services/parkway-shenton.json`
+
+**Also included prior unpushed Tick 8–10 editorial** already sitting in the working tree (HSA meds, credit cards, lost EP card, RSU/ESOP, Tech.Pass, side income, apostille, dental, SCT, arts/culture, shipping-out, wardrobe, nightlife, nationality/religious/chambers/hash, utilities SP/OEM, related entities).
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing insurance `sponsorSlot` left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–10 topics beyond the marriage, newborn, LOG, REP, probate, and cycling adjacency gaps above.
+
+---
+
+## Tick 10 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — HSA personal medication / ADHD & anxiety controlled drugs ([doctor’s note vs approval](https://www.reddit.com/r/askSingapore/comments/1qfdg7w/doctors_note_vs_prior_approval_on_medication_and/); [bring personal meds](https://www.reddit.com/r/askSingapore/comments/1j4n1cs/bringing_in_personal_medication_to_singapore/); [late HSA form](https://www.reddit.com/r/askSingapore/comments/1q326zx/i_didnt_know_i_was_supposed_to_get_approval_to/); [ADHD/anxiety declare](https://www.reddit.com/r/askSingapore/comments/1gdx6wr/do_i_need_to_declare_my_adhd_anxiety_medication/); [OTC packing](https://www.reddit.com/r/askSingapore/comments/x187ux/how_to_carry_otc_medicine_into_singapore/)).
+- r/askSingapore — foreigner credit cards / payslip timing ([credit card for expat](https://www.reddit.com/r/askSingapore/comments/1d7x88f/credit_card_for_expat/); [without payslip](https://www.reddit.com/r/askSingapore/comments/1h9ny13/anybody_tried_applying_credit_card_without_payslip/); [best CC foreign workers](https://www.reddit.com/r/askSingapore/comments/zhtg3o/best_credit_card_for_foreign_workers/); [freelancer CC](https://www.reddit.com/r/askSingapore/comments/1nng3vm/freelancer_credit_card_recommendation/)).
+- r/askSingapore — lost EP card / travel without plastic ([lost EP in Malaysia](https://www.reddit.com/r/askSingapore/comments/12g8yk6/lost_my_employment_pass_ep_in_malaysia_on_a/); [forgot EP overseas](https://www.reddit.com/r/askSingapore/comments/yfm0ut/forgot_ep_card_at_home_how_do_i_travel_back/)).
+- r/askSingapore — rental stamp duty myths / illegal sublets ([stamp duty necessary?](https://www.reddit.com/r/askSingapore/comments/lsz072/is_rental_stamp_duty_necessary_and_why_would_a/); [landed studio no stamp](https://www.reddit.com/r/askSingapore/comments/1jqaiaa/landed_property_rent_studio_apartments/); [room stamp duty](https://www.reddit.com/r/askSingapore/comments/1rc57xu/first_time_renting_as_a_singaporean/); [scam landlord](https://www.reddit.com/r/askSingapore/comments/15xtoq2/got_scammed_by_landlord_during_trip_to_sg_what_now/)).
+- r/askSingapore — RSU / ESOP tax + exit ([tax on RSUs](https://www.reddit.com/r/askSingapore/comments/oh9u7v/do_i_have_to_pay_income_tax_on_rsus_as_part_of_my/); [ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [ESOP scheme](https://www.reddit.com/r/askSingapore/comments/xmqg1o/employee_share_option_scheme/)).
+- r/askSingapore — mould / dehumidifier / deposit fights ([how to use dehumidifier](https://www.reddit.com/r/askSingapore/comments/1fnlcbc/how_to_use_a_dehumidifier/); [humidity mould health](https://www.reddit.com/r/askSingapore/comments/1olgjew/humidity_causing_mould_worried_about_health_issues/); [70% RH enough?](https://www.reddit.com/r/askSingapore/comments/1q648l0/aircon_at_2628c_drops_my_room_humidity_to_70_good/); [apartment mould liability](https://www.reddit.com/r/askSingapore/comments/11iytkz/apartment_mold_owner_or_tenant/); [aircon mould tenant vs LL](https://www.reddit.com/r/askSingapore/comments/1coj9oi/mold_in_aircon_tenant_or_landlord_responsible/)).
+
+**Official**
+
+- [HSA — Travelling with personal medications](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-medications/) + [Check requirements](https://www.hsa.gov.sg/personal-medication/check-requirements) + [Apply approval](https://www.hsa.gov.sg/personal-medication/apply-approval).
+- [DBS — Card eligibility](https://www.dbs.com.sg/personal/support/card-application-eligibility.html) + [checklist](https://www.dbs.com.sg/personal/cards/cards-application-checklist.page) + [documents](https://www.dbs.com.sg/personal/support/card-application-documents.html).
+- [MOM — Replace EP card](https://www.mom.gov.sg/passes-and-permits/employment-pass/replace-a-pass-card) + [SGWorkPass](https://www.mom.gov.sg/eservices/sgworkpass).
+- [IRAS — Stamp duty renting](https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property) + [Who should pay](https://www.iras.gov.sg/taxes/stamp-duty/for-property/basics-of-stamp-duty-for-property/who-should-pay-stamp-duty).
+- [IRAS — Stock options / share plans](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/employment-income/gains-from-the-exercise-of-stock-options) + [ESOP/ESOW e-Tax Guide PDF](https://www.iras.gov.sg/docs/default-source/e-tax/etaxguides_iit_esop_2026-01-30.pdf).
+
+### Gaps vs Tick 1–9
+
+Tick 1–9 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR, MDW, diplomatic clause/SCT, insurance/maternity, preschool, banks/CPF (thin on **credit cards**), licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income (thin on **RSU/ESOP**), short-stay/FWTES, MOE P1, LTVP, EP renewal, healthcare (thin on **HSA med import**), remittance, apps/PayNow, S Pass, COMPASS, Customs GST, Student’s Pass, career pivots, SimplyGo, aircon/cockroach (thin on **mould RH tactics**), SRS, haze, ABSD, STVP, PEP/ONE/Tech.Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, dental. Remaining high-intent gaps matched forum heat: **HSA controlled meds**, **foreigner CC S$45k + payslips**, **lost EP card / SGWorkPass**, **lease stamp duty 0.4%**, **RSU vest tax + deemed exercise**, mould/dehumidifier deposit fights.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/move/bringing-medication-singapore-hsa.mdx`
+- `content/guides/money/credit-cards-foreigners-singapore.mdx`
+- `content/guides/next/lost-replace-work-pass-card.mdx`
+- `content/guides/money/rsu-esop-tax-singapore.mdx`
+
+**Upgraded guides (depth + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/home/renting-process-loi-ta-deposits.mdx` (IRAS lease duty)
+- `content/guides/home/furnishing-rental-flat.mdx` (mould / dehumidifier)
+- `content/guides/money/opening-bank-account-expat.mdx` / `salary-package-decoding.mdx`
+- `content/guides/family/healthcare-gp-hospital.mdx`
+- `content/guides/next/tax-clearance-when-leaving.mdx` / `renewing-life-admin-annually.mdx`
+- `content/guides/move/relocation-checklist-7-30-90.mdx`
+
+**Entity depth**
+
+- `content/entities/services/raffles-medical.json`
+- `content/entities/services/parkway-shenton.json`
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/era-realty.json`
+
+**Also included prior unpushed Tick 8–9 editorial** already sitting in the working tree (Tech.Pass, side income, apostille, dental, SCT, arts/culture, shipping-out, wardrobe, nightlife, nationality/religious/chambers/hash, utilities SP/OEM, related entities).
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing renting `sponsorSlot` left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–9 topics beyond the stamp-duty, mould, equity-tax, medication, and pass-card adjacency gaps above.
+
+---
+
+## Tick 9 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP/S Pass side income / content creation / moonlighting ([content creation](https://www.reddit.com/r/askSingapore/comments/1p4cjd6/if_an_work_pass_holder_made_income_from_content/); [freelance passes](https://www.reddit.com/r/askSingapore/comments/1niib2q/how_does_the_foreigner_work_pass_work_for/)).
+- r/askSingapore — DP/LTVP remote work for overseas employer ([EP required?](https://www.reddit.com/r/askSingapore/comments/1f08mi2/is_ep_required_if_i_work_remote_for_nonsg_company/); [LTVP remote US job](https://www.reddit.com/r/askSingapore/comments/1hdenuw/working_remotely_for_foreign_employer_on_longterm/)).
+- r/askSingapore — Tech.Pass vs PEP ([job hunt + Tech.Pass](https://www.reddit.com/r/askSingapore/comments/n5ew8q/requirements_for_job_hunting_in_singapore_and/)).
+- r/askSingapore — notary / apostille / LTVP translations ([apostille where?](https://www.reddit.com/r/askSingapore/comments/1je8k4t/anyone_knows_a_place_around_to_have_documents/); [US form notarised](https://www.reddit.com/r/askSingapore/comments/1qgzuba/need_to_get_a_usa_institutions_form_notarized/); [LTVP translation cost](https://www.reddit.com/r/askSingapore/comments/1rff1fu/translation_of_documents_for_ltvp/); [common-law LTVP](https://www.reddit.com/r/askSingapore/comments/1q1xg98/long_term_visit_pass_for_partner_to_someone_with/); [common-law affidavit](https://www.reddit.com/r/askSingapore/comments/w7m73e/long_term_visit_pass_common_law_spouse_affidavit/)).
+- r/askSingapore — SCT deposit fights / overseas landlords ([foreign landlord SCT](https://www.reddit.com/r/askSingapore/comments/1cgvud1/small_claim_deposit_return_against_foreign/); [deposit from overseas](https://www.reddit.com/r/askSingapore/comments/1n36t6r/landlord_refusing_to_return_deposit_what_can_i_do/); [SCT free advice](https://www.reddit.com/r/askSingapore/comments/1rdzwbb/small_claims_tribunal_free_legal_advice/); [serving overseas landlord](https://www.reddit.com/r/askSingapore/comments/1oj0esy/followup_serving_a_landlord_who_lives_overseas/)).
+- r/askSingapore — dental / Medisave myths ([private pay dentist](https://www.reddit.com/r/askSingapore/comments/1q4udi9/how_do_you_see_a_dentist_doctor_hospital_if_it_is/); [wisdom tooth foreigner](https://www.reddit.com/r/askSingapore/comments/1on4gnd/wisdom_tooth_extraction_as_a_foreigner/); [cheaper implants](https://www.reddit.com/r/askSingapore/comments/1taupd2/where_can_foreign_workers_get_cheaper_dental/)).
+- r/askSingapore — cockroach / chute fogging ([cockroach problems](https://www.reddit.com/r/askSingapore/comments/1rbjoc0/do_all_singaporeans_face_cockroach_problems_at/)).
+
+**Official**
+
+- [MOM — Work pass multiple jobs FAQ](https://www.mom.gov.sg/faq/work-pass-general/can-a-work-pass-holder-work-in-multiple-jobs) + [DP overseas employer FAQ](https://www.mom.gov.sg/faq/dependants-pass/do-i-need-a-work-pass-if-i-am-self-employed-or-working-for-an-overseas-based-employer) + [LTVP documents required](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/documents-required).
+- [EDB — Tech.Pass](https://www.edb.gov.sg/en/incentives-and-programmes/incentives-and-facilitation-programmes/tech-pass.html) + [apply](https://www.edb.gov.sg/en/incentives-and-programmes/incentives-and-facilitation-programmes/tech-pass/apply-for-a-tech-pass.html) + [application/renewal sunset](https://www.edb.gov.sg/en/how-we-help/incentives-and-facilitation/tech-pass/application-and-renewal) + [MOM foreign workforce factsheet 3 Mar 2026](https://www.mom.gov.sg/-/media/mom/documents/press-releases/2026/factsheet-on-foreign-workforce-policies-03032026.pdf) + [5-year tech EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/experienced-tech-professionals-with-skills-in-shortage).
+- [SAL — Legalisation](https://legalisation.sal.sg/LegalisationInfo) + [FAQ](https://legalisation.sal.sg/Faq) + [Authentication](https://legalisation.sal.sg/AuthenticationInfo) + [Notary directory](https://legalisation.sal.sg/Directory).
+- [Judiciary — SCT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-small-claim) + [Guide to small claims PDF](https://www.judiciary.gov.sg/docs/default-source/civil-docs/sct_guide_to_small_claims.pdf).
+- [MOH — Dental treatment costs / fee benchmarks](https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/).
+
+### Gaps vs Tick 1–8
+
+Tick 1–8 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR, MDW, diplomatic clause (thin on **SCT jurisdiction**), insurance/maternity, preschool, banks/CPF, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1, LTVP/parent S$12k (thin on **common-law affidavit docs**), EP renewal, healthcare (thin on **dental/Medisave myths**), remittance, apps/PayNow, S Pass, COMPASS, Customs GST inbound, Student’s Pass, career pivots, SimplyGo, aircon (thin on **cockroach chute tactics**), SRS, haze, ABSD, STVP, PEP/ONE Pass (no **Tech.Pass**), EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker cashless, dating/Bumble BFF, volunteering, holiday camps, passport embassy admin, NLB/museums, shipping out, wardrobe, nightlife, nationality groups, religious communities, chambers, hash, SP/OEM. Remaining high-intent gaps matched forum heat: **EP moonlighting ban**, **DP/LTVP overseas remote**, **Tech.Pass + 2027 sunset**, **SAL apostille / notary**, **common-law LTVP evidence**, **SCT 2-year / overseas landlord limits**, **dental fee benchmarks**, cockroach ops.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/move/tech-pass-singapore.mdx`
+- `content/guides/move/side-income-freelance-work-pass.mdx`
+- `content/guides/next/document-apostille-notary-singapore.mdx`
+- `content/guides/family/dental-care-foreigners-singapore.mdx`
+
+**Upgraded guides (depth + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/home/security-deposit-diplomatic-clause.mdx` (SCT jurisdiction)
+- `content/guides/move/ltvp-singapore.mdx` (common-law paperwork)
+- `content/guides/move/trailing-partner-career-singapore.mdx` (overseas remote FAQ)
+- `content/guides/home/aircon-pest-renewals.mdx` (cockroach chute tactics)
+- `content/guides/family/healthcare-gp-hospital.mdx` (dental cross-link)
+- `content/guides/move/personalised-employment-pass-pep.mdx` / `one-pass-singapore.mdx` (Tech.Pass cross-links)
+- `content/guides/move/relocation-checklist-7-30-90.mdx`
+
+**Entity depth**
+
+- `content/entities/services/family-law-expat.json`
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/raffles-medical.json`
+- `content/entities/services/smg.json`
+- `content/entities/services/the-tutors.json`
+- `content/entities/neighbourhoods/holland-village.json`
+
+**Also included prior unpushed Tick 8 editorial** already sitting in the working tree (arts/culture, shipping-out, wardrobe, nightlife, nationality/religious/chambers/hash, utilities SP/OEM, related club/neighbourhood/service entities).
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–8 topics beyond the SCT, common-law LTVP, overseas-remote, cockroach, and Tech.Pass adjacency gaps above.
+
+---
+
+## Tick 8 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — NLB / library for foreigners ([membership worth it?](https://www.reddit.com/r/askSingapore/comments/1hpibo6/is_it_worth_getting_a_library_membership_in/); [foreigners using library](https://www.reddit.com/r/askSingapore/comments/1ttfh63/questions_for_foreigners_using_the_public_library/); [visitor work spots](https://www.reddit.com/r/askSingapore/comments/1hhpm5s/international_visitor_places_to_get_some_work/); [libraries free entry](https://www.reddit.com/r/askSingapore/comments/1923opt/any_public_libraries_open_and_free_for/)).
+- r/askSingapore — shipping out / SingPost vs movers ([SingPost vs international](https://www.reddit.com/r/askSingapore/comments/1kvo2ga/relocating_abroad_use_international_movers_or/); [overseas movers cost](https://www.reddit.com/r/askSingapore/comments/1aii8jl/oversea_mover_service_in_singapore/); [packers recommendations](https://www.reddit.com/r/askSingapore/comments/ohel71/any_recommendations_for_a_good_international/)).
+- r/askSingapore — climate wardrobe / office sweat ([expat weather](https://www.reddit.com/r/askSingapore/comments/khue33/as_an_expat_how_are_you_experiencing_the_weather/); [office wear + MRT](https://www.reddit.com/r/askSingapore/comments/1fb0quq/singapore_men_wearing_office_wear_and_taking/)).
+- r/askSingapore — nightlife dress codes / ID ([clubbing clothes](https://www.reddit.com/r/askSingapore/comments/vvf74m/what_should_i_be_wearing_to_clubbing/); [Marquee](https://www.reddit.com/r/askSingapore/comments/1ixwp2z/marquee_nightclub_clothes_and_drinks/); [ID in clubs](https://www.reddit.com/r/askSingapore/comments/182qw0w/id_in_clubs/); [where expats hang out](https://www.reddit.com/r/askSingapore/comments/1i6z5x9/where_does_all_the_expatriates_hang_out_in/)).
+- r/askSingapore — nationality clusters / Japanese Association ([Japanese community area](https://www.reddit.com/r/askSingapore/comments/1e9vd0j/japanese_community_area/); [make friends](https://www.reddit.com/r/askSingapore/comments/1gymfj0/how_do_you_make_friends_as_a_foreigner/); [Sweden move / chamber](https://www.reddit.com/r/askSingapore/comments/1aunb5u/moving_to_sg_from_sweden_insights_needed/)).
+- r/askSingapore — churches / mosques / temples ([churches open?](https://www.reddit.com/r/askSingapore/comments/1e7rhh5/are_sg_churches_open_for_everyone/); [peace at worship](https://www.reddit.com/r/askSingapore/comments/129jx0h/seeking_peace_at_places_of_worship/); [temple dress](https://www.reddit.com/r/askSingapore/comments/x78mep/visiting_hindu_and_buddhist_temple_what_is_the/); [Buddhist intro](https://www.reddit.com/r/askSingapore/comments/15p0hwv/best_buddhist_temple_for_an_introduction_to/)).
+- r/askSingapore — SP utilities / IPA / OEM ([SP for foreigners](https://www.reddit.com/r/askSingapore/comments/1rdhgez/sp_utility_account_for_foreigners/); [turn-on timing](https://www.reddit.com/r/askSingapore/comments/1eew2ow/sp_utilities_services_turnon/); [previous-tenant cut-off](https://www.reddit.com/r/askSingapore/comments/1cbtcet/sp_services_cut_off_supplies_due_to_previous/); [utilities retailer](https://www.reddit.com/r/askSingapore/comments/1f025o6/utilities_service_provider/)).
+
+**Official**
+
+- [NLB — Membership types and fees](https://www.nlb.gov.sg/main/services/library-membership/types-of-membership) + [Sign up](https://www.nlb.gov.sg/main/services/library-membership/Sign-up-for-Membership).
+- [NHB — Free admission (SC/PR)](https://www.nhb.gov.sg/free-admission) + [ACM admissions](https://www.acm.nhb.gov.sg/visit/admissions).
+- [SP open account](https://openaccount.spgroup.com.sg/#/open-account/) + [OEM making the switch](https://www.openelectricitymarket.sg/residential/making-the-switch) + [price comparison](https://compare.openelectricitymarket.sg/#/home) + [EMA OEM FAQ](https://www.ema.gov.sg/resources/faqs/electricity/open-electricity-market/what-is-the-open-electricity-market).
+- [MUIS](https://www.muis.gov.sg/) + [Sultan Mosque visitors](https://www.sultanmosque.sg/visitors-info/) + [MusollahSG](https://www.musollahsg.com/).
+- [AmCham](https://www.amcham.com.sg/) + [BritCham](https://www.britcham.org.sg/) + [EuroCham](https://eurocham.org.sg/) + [AustCham](https://www.austcham.org.sg/) + [JAS](https://www.jas.org.sg/) + [Singapore Customs personal shipment](https://www.customs.gov.sg/personal-shipment/).
+
+### Gaps vs Tick 1–7
+
+Tick 1–7 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR, MDW, diplomatic clause, insurance/maternity, preschool, banks/CPF, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1, LTVP/parent S$12k, EP renewal, healthcare, remittance, apps/PayNow, S Pass, COMPASS, Customs GST inbound, Student’s Pass, career pivots, SimplyGo, aircon, SRS, haze, ABSD, STVP, PEP/ONE Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker cashless, dating/Bumble BFF, volunteering, holiday camps, passport embassy admin. Remaining high-intent stubs mismatched forum heat: **NLB foreigner fees + Libby**, **NHB museum ticket vs SC/PR free**, **SingPost vs outbound movers**, **humidity/office wardrobe**, **club dress + ID**, **JAS / West Coast nationality clusters**, **church/mosque/temple walk-in etiquette**, **chamber ROI**, **hash kennel guest norms**, **SP IPA open-account + OEM plan types**.
+
+### Shipped this tick
+
+**Upgraded guides (depth + tables + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/life/arts-culture-singapore.mdx`
+- `content/guides/next/shipping-out-household.mdx`
+- `content/guides/life/what-to-wear-singapore-climate.mdx`
+- `content/guides/life/nightlife-social-scene.mdx`
+- `content/guides/belong/nationality-groups-singapore.mdx`
+- `content/guides/belong/religious-communities-singapore.mdx`
+- `content/guides/belong/chambers-of-commerce-singapore.mdx`
+- `content/guides/belong/hash-house-harriers.mdx`
+- `content/guides/home/utilities-telecom-setup.mdx` (SP IPA + OEM depth)
+
+**Entity depth**
+
+- `content/entities/clubs/amcham.json`
+- `content/entities/clubs/britcham.json`
+- `content/entities/clubs/eurocham.json`
+- `content/entities/clubs/austcham.json`
+- `content/entities/clubs/japanese-association.json`
+- `content/entities/clubs/st-georges-church.json`
+- `content/entities/clubs/seletar-hash.json`
+- `content/entities/services/santa-fe-relocation.json`
+- `content/entities/neighbourhoods/clementi-west-coast.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing shipping-out `sponsorSlot` left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–7 topics beyond SP/OEM depth on the existing utilities guide and light cross-links.
+
+---
+
 ## Tick 7 — 2026-09-15
 
 ### Sources mined
