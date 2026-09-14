@@ -4,6 +4,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 15 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — workplace harassment / TAFEP / PoHA vs MOM notice myths ([wife harassed at work](https://www.reddit.com/r/askSingapore/comments/1s63ud9/wife_is_being_blatantly_harassed_at_work/); [MOM can’t help sexual harassment](https://www.reddit.com/r/askSingapore/comments/1fo0fu0/mom_cant_help_with_sexual_harassment/); [MOM and TAFEP](https://www.reddit.com/r/askSingapore/comments/1fgdzok/can_mom_and_tafep_do_something/); [should I report employer](https://www.reddit.com/r/askSingapore/comments/1hxtc95/should_i_report_my_employer/)).
+- r/askSingapore — Flexible Work Arrangement requests post-1 Dec 2024 ([FWA from Dec 2024](https://www.reddit.com/r/askSingapore/comments/1h3d3u2/flexible_working_arrangements_fwas_from_1st/); [updates since Dec 2024](https://www.reddit.com/r/askSingapore/comments/1llhhz3/flexible_work_arrangement_updates_since_dec_2024/); [tried requesting FWA/WFH 2025](https://www.reddit.com/r/askSingapore/comments/1i2aqkv/anyone_tried_requesting_for_fwawfh_2025/); [FWA question](https://www.reddit.com/r/askSingapore/comments/1noyb6u/question_on_flexible_work_arrangements/); [EP WFH overseas adjacency](https://www.reddit.com/r/askSingapore/comments/1jh3phu/as_epass_holder_can_i_work_from_cheaper_countries/)).
+- r/askSingapore — Work Holiday Pass / Training Employment Pass internships ([WHP job market](https://www.reddit.com/r/askSingapore/comments/1pylys7/whats_the_job_market_like_for_someone_on_a/); [apply WHP when?](https://www.reddit.com/r/askSingapore/comments/159toan/do_i_apply_for_whp_working_holiday_pass_while/); [WHP after ends](https://www.reddit.com/r/askSingapore/comments/11tk3rr/after_a_work_holiday_pass_ends_can_you_extend/); [TEP acceptable institution](https://www.reddit.com/r/askSingapore/comments/1jdqcl9/training_employment_pass_how_to_know_if_an/); [WHP eligibility cook](https://www.reddit.com/r/askSingapore/comments/1jjgsc3/am_i_cooked_if_i_dont_qualify_for_the_work/)).
+- r/askSingapore — condo noise / MCST / renovation ([neighbour from hell](https://www.reddit.com/r/askSingapore/comments/1arhz6p/neighbour_from_hell_in_condo/); [can MCST help](https://www.reddit.com/r/askSingapore/comments/1fn9grf/can_condo_mcst_help_with_neighbours_issue/); [renovation noise 3 months](https://www.reddit.com/r/askSingapore/comments/1q75mhu/condo_renovation_noise_for_3_months_struggling_to/); [upstairs fights](https://www.reddit.com/r/askSingapore/comments/1gbva0t/my_upstairs_neighbour_is_a_couple_that_fight_all/); [suspected domestic abuse](https://www.reddit.com/r/askSingapore/comments/qf5jiq/not_sure_if_there_is_domestic_abuse_happening/)).
+- r/askSingapore — SkillsFuture Credit vs PR subsidy myth (adjacency on after-PR checklist) ([new PR courses](https://www.reddit.com/r/askSingapore/comments/1lacle2/what_courses_should_a_new_pr_take_to_have_higher/); [SkillsFuture credits](https://www.reddit.com/r/askSingapore/comments/1mc7s1c/skillsfuture_credits_question/)).
+
+**Official**
+
+- [TAFEP — Seek help / report workplace harassment](https://www.tal.sg/tafep/employment-practices/workplace-harassment/seek-help-on-workplace-harassment) + [contact](https://www.tal.sg/tafep/contact-us) + [Tripartite Advisory PDF](https://www.mom.gov.sg/-/media/mom/documents/employment-practices/guidelines/tripartite-advisory-on-managing-workplace-harassment.pdf).
+- [MOM — TG-FWAR](https://www.mom.gov.sg/employment-practices/good-work-practices/flexible-work-arrangements) + [PDF](https://www.mom.gov.sg/-/media/mom/documents/press-releases/2024/tripartite-guidelines-on-flexible-work-arrangement-requests.pdf) + [approve-all FAQ](https://www.mom.gov.sg/faq/flexible-work-arrangements/do-the-tripartite-guidelines-require-employers-to-approve-all-flexible-work-arrangement-requests).
+- [MOM — Work Holiday Programme](https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/eligibility) + [AU/NZ Work & Holiday](https://www.mom.gov.sg/passes-and-permits/work-and-holiday-visa-programme/eligibility) + [Training Employment Pass](https://www.mom.gov.sg/passes-and-permits/training-employment-pass/eligibility).
+- [BCA — Prescribed strata by-laws](https://www.bca.gov.sg/publications/BMSM/BM_strata_mgt_reg.html) + [private-estate disputes](https://www1.bca.gov.sg/guidelines-and-requirements/common-issues-or-disputes-encountered-by-residents-in-private-estates/) + [NEA renovation noise routing](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/information-on-noise-from-renovation-work-in-residential-areas).
+- [MSF — Abuse / NAVH](https://www.msf.gov.sg/what-we-do/break-the-silence/get-help/i-am-experiencing-abuse) + [PPO](https://familyassist.msf.gov.sg/content/making-decisions/seeking-safety/getting-help/personal-protection-order-ppo/) + [Judiciary PPO](https://www.judiciary.gov.sg/family/apply-personal-protection-order).
+- [MySkillsFuture — Credit](https://www.myskillsfuture.gov.sg/content/portal/en/career-resources/career-resources/education-career-personal-development/SkillsFuture_Credit.html) + [funding for individuals](https://www.myskillsfuture.gov.sg/content/portal/en/career-resources/career-resources/education-career-personal-development/SkillsFuture_Funding.html).
+
+### Gaps vs Tick 1–14
+
+Tick 1–14 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR/MediShield/CareShield/DPS, MDW, diplomatic clause/SCT, insurance/maternity/Baby Bonus, preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass/scams, pets, IRAS/foreign income, short-stay/FWTES, MOE P1/AEIS, LTVP, EP renewal, healthcare/HSA/dental/vaccination, remittance, apps/PayNow, S Pass, COMPASS/FCF, Customs GST, Student’s Pass/Tuition Grant, career pivots/TADM/leave-notice (thin on **harassment/TAFEP** and **FWA TG-FWAR**), SimplyGo, aircon/mould/cockroach, SRS, haze, ABSD/HDB, STVP, PEP/ONE/Tech.Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo move (thin on **noise/MCST/reno**), mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty, ROM/divorce (thin on **PPO / pass-dependency safety**), newborn/LOG, REP, probate, cycling, IVF, visit-pass extension, paternity/SPL. Remaining high-intent gaps matched forum heat: **workplace harassment**, **FWA formal requests**, **WHP/TEP**, **condo noise/MCST**, **family violence/PPO**, SkillsFuture Credit vs PR subsidy.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/next/workplace-harassment-tafep-ep.mdx`
+- `content/guides/next/flexible-work-arrangement-request.mdx`
+- `content/guides/move/work-holiday-training-employment-pass.mdx`
+- `content/guides/home/condo-noise-mcst-neighbours.mdx`
+- `content/guides/family/family-violence-ppo-foreigners.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/next/employment-act-leave-notice-ep.mdx` (FWA + harassment adjacency)
+- `content/guides/next/career-pivots-singapore.mdx`
+- `content/guides/next/salary-dispute-tadm-mom.mdx`
+- `content/guides/next/after-getting-pr-checklist.mdx` (SkillsFuture Credit vs PR subsidies)
+- `content/guides/family/divorce-custody-foreigners-singapore.mdx`
+- `content/guides/move/ltvp-singapore.mdx`
+- `content/guides/move/dependant-pass-singapore.mdx`
+- `content/guides/move/student-pass-singapore.mdx` (WHP/TEP)
+- `content/guides/life/emergencies-995-999-embassies.mdx` (NAVH)
+- `content/guides/home/moving-within-singapore.mdx`
+- `content/guides/home/security-deposit-diplomatic-clause.mdx`
+
+**Entity depth**
+
+- `content/entities/services/family-law-expat.json`
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/era-realty.json`
+- `content/entities/neighbourhoods/holland-village.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–14 topics beyond the harassment, FWA, WHP/TEP, condo-noise, family-violence, and SkillsFuture adjacency gaps above.
+
+---
+
 ## Tick 14 — 2026-09-15
 
 ### Sources mined
