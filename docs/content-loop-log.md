@@ -4,6 +4,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 4 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — S Pass vs EP / “company has no EP quota” myth ([thread](https://www.reddit.com/r/askSingapore/comments/194p4v0/s_pass_vs_e_pass/); [EP vs S Pass](https://www.reddit.com/r/askSingapore/comments/1bg072z/difference_between_ep_and_spass_visa_types/); [EP salary 2025](https://www.reddit.com/r/askSingapore/comments/1jk9yhn/has_the_ep_qualifying_salary_been_updated/); [EP realism](https://www.reddit.com/r/askSingapore/comments/1j3siis/is_it_realistic_to_get_an_employment_pass_in/)).
+- r/askSingapore — COMPASS university points / pending EP ([thread](https://www.reddit.com/r/askSingapore/comments/1q00yh8/question_about_employment_pass_compass_framework/); [internal transfer](https://www.reddit.com/r/askSingapore/comments/1tvux52/how_difficult_is_employment_pass_through_internal/)).
+- r/askSingapore — job hop / career change on EP/S Pass ([thread](https://www.reddit.com/r/askSingapore/comments/1b3nt5g/how_hard_is_it_to_switch_jobsjob_hop_as_a/); [company change](https://www.reddit.com/r/askSingapore/comments/120shl1/ep_process_on_company_change/)).
+- r/askSingapore — GST on used personal effects / unaccompanied shipping ([thread](https://www.reddit.com/r/askSingapore/comments/16hp6iq/do_i_need_to_pay_gst_for_bringing_used_personal/); [DHL tax](https://www.reddit.com/r/askSingapore/comments/1swzsgt/taxed_for_shipping_personal_items_from_uk_to/); [student customs](https://www.reddit.com/r/askSingapore/comments/1hwlik5/moving_to_singapore_as_a_student/); [land entry bulky](https://www.reddit.com/r/askSingapore/comments/xz9xtn/can_you_handcarry_items_through_land_entry_into/)).
+- r/askSingapore — Student’s Pass process / address chicken-and-egg ([process](https://www.reddit.com/r/askSingapore/comments/1d74yq4/how_does_the_student_pass_application_process_work/); [accommodation dilemma](https://www.reddit.com/r/askSingapore/comments/1d5q09h/student_pass_and_accommodation_in_singapore/); [student visa](https://www.reddit.com/r/askSingapore/comments/1aywrfe/student_visa/)).
+- r/askSingapore — SimplyGo / foreign card admin fee ([thread](https://www.reddit.com/r/askSingapore/comments/1ir6xyb/simplygo_or_just_use_contactless_pay_tourist/); [MTA analogy](https://www.reddit.com/r/askSingapore/comments/1dc8jei/using_mta_business_trip/)).
+- r/askSingapore — aircon servicing scams / gas top-ups ([recommend](https://www.reddit.com/r/askSingapore/comments/1slcphx/aircon_servicing_which_companies_do_you_guys/); [scam](https://www.reddit.com/r/askSingapore/comments/1np90u9/am_i_getting_scammed_by_aircon_servicing/); [frequency](https://www.reddit.com/r/askSingapore/comments/1mh5imt/how_often_do_you_service_your_aircon/)).
+- r/askSingapore — SRS for foreigners / exit tax trap ([SRS investment](https://www.reddit.com/r/askSingapore/comments/13ogmnh/srs_investment/); [dividend withdrawal](https://www.reddit.com/r/askSingapore/comments/1mwrvxb/srs_dividend_cash_withdrawal_any_penalties/); [tax timing](https://www.reddit.com/r/askSingapore/comments/19b12g0/moving_to_sg_timing_for_income_tax_foreigner/); [CPF vs SRS](https://www.reddit.com/r/askSingapore/comments/14avcvv/cpf_for_foreigners/)).
+
+**Official**
+
+- [MOM — S Pass eligibility](https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility) + [levy/quota](https://www.mom.gov.sg/passes-and-permits/s-pass/quota-and-levy/levy-and-quota-requirements) + [DP eligibility](https://www.mom.gov.sg/passes-and-permits/dependants-pass/eligibility) + [COS 2025 foreign workforce factsheet](https://www.mom.gov.sg/-/media/mom/documents/budget2025/cos-2025-factsheet-on-foreign-workforce-policies).
+- [MOM — EP COMPASS eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) + [scoring rubric PDF](https://www.mom.gov.sg/-/media/mom/documents/press-releases/2023/annex-a---compass-scoring-rubric.pdf).
+- [MOM — Change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) + cancellation FAQs.
+- [Singapore Customs — GST relief](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/) + [unaccompanied items](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/sending-unaccompanied-items/) + [excluded goods](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/what-goods-are-not-eligible-for-relief/).
+- [ICA — Student's Pass](https://www.ica.gov.sg/reside/STP/) + [apply](https://www.ica.gov.sg/reside/STP/apply) + [formalities](https://www.ica.gov.sg/reside/STP/collect); [MOM student work exemption](https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students).
+- [SimplyGo — foreign bank card FAQ](https://simplygo.com.sg/faqs/cards-and-charms/simplygo/contactless-bank-cards/); [haze.gov.sg](https://www.haze.gov.sg/) + [MOH haze](https://www.moh.gov.sg/others/haze/); [IRAS SRS](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/supplementary-retirement-scheme-(srs)) + [SRS withdrawals](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/tax-on-srs-withdrawals).
+
+### Gaps vs Tick 1–3
+
+Tick 1–3 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR, MDW, diplomatic clause, insurance/maternity, preschool, banks/CPF, licence conversion, clubs, SIM/Singpass, pets, IRAS residency/foreign income, short-stay/FWTES, MOE P1, LTVP, EP renewal, healthcare, remittance, apps. Remaining high-intent stubs still mismatched forum heat: **S Pass quota/levy vs EP myth**, **COMPASS C1–C6 depth**, **job-hop IPA sequencing**, **Customs GST relief / DOF**, **Student’s Pass address chicken-egg**, **SimplyGo foreign-card fee**, **aircon servicing scam patterns**, **SRS exit taxation**, **PSI vs PM2.5**. Mover/neighbourhood entities still thin on Customs and west/east living detail.
+
+### Shipped this tick
+
+**Upgraded guides (depth + tables + citations + lastReviewed 2026-09-15)**
+
+- `content/guides/move/s-pass-singapore.mdx`
+- `content/guides/move/compass-framework-explained.mdx`
+- `content/guides/move/shipping-household-singapore.mdx`
+- `content/guides/move/student-pass-singapore.mdx`
+- `content/guides/next/career-pivots-singapore.mdx`
+- `content/guides/life/mrt-bus-transport-literacy.mdx`
+- `content/guides/home/aircon-pest-renewals.mdx`
+- `content/guides/money/srs-investing-as-foreigner.mdx`
+- `content/guides/life/haze-climate-preparedness.mdx`
+
+**Entity depth**
+
+- `content/entities/services/asian-tigers-mobility.json`
+- `content/entities/services/alliance-movers.json`
+- `content/entities/services/santa-fe-relocation.json`
+- `content/entities/neighbourhoods/clementi-west-coast.json`
+- `content/entities/neighbourhoods/katong-joo-chiat.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing shipping `sponsorSlot` left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–3 topics beyond light cross-links.
+
+---
+
 ## Tick 3 — 2026-09-15
 
 ### Sources mined
