@@ -4,6 +4,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 16 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — death of a foreigner / FIN overseas death reporting / repatriation vs probate freeze ([what happens when a foreigner dies](https://www.reddit.com/r/askSingapore/comments/1qp1dg4/what_happens_when_a_foreigner_dies_in_sg/); [reporting death of a foreign spouse](https://www.reddit.com/r/askSingapore/comments/1mjknll/reporting_death_of_a_foreign_spouse/); [repatriation of ashes](https://www.reddit.com/r/askSingapore/comments/1ic0dcz/repatriation_of_foreign_ashes_usa/); [probate when foreigner passes](https://www.reddit.com/r/askSingapore/comments/lr8iou/process_for_grant_of_probate_when_a_foreigner/); [DP survivor after spouse death](https://www.reddit.com/r/askSingapore/comments/x09kp0/my_friend_is_on_a_dependent_visa_in_singapore/)).
+- r/askSingapore — LPA vs will / hospital capacity / bank access ([will vs LPA for parents](https://www.reddit.com/r/askSingapore/comments/1m4m9a6/assume_i_am_an_only_child_what_would_the/); [final days outstanding bills](https://www.reddit.com/r/askSingapore/comments/1lozngb/my_father_is_in_his_final_days_of_cancer_and_have/); [cancer treatment costs / LPA nudge](https://www.reddit.com/r/askSingapore/comments/1j4y19f/unable_to_afford_cancer_treatment_cost/); [paying for parents wellbeing](https://www.reddit.com/r/askSingapore/comments/1tn3dhr/paying_for_your_parents_wellbeing_in_singapore/)).
+- r/askSingapore — retrenchment on EP / STVP ask / notice hunting window ([retrenched today](https://www.reddit.com/r/askSingapore/comments/186nx8g/and_so_it_happened_i_got_retrenched_today/); [LTVP after losing job](https://www.reddit.com/r/askSingapore/comments/1q66ra7/getting_an_ltvp_after_losing_job/); [laid off stay more than a month](https://www.reddit.com/r/askSingapore/comments/vn8l3i/if_im_laid_off_as_an_ep_holder_is_there_anyway_to/); [managing EP after job loss](https://www.reddit.com/r/askSingapore/comments/16p9wv0/managing_my_ep_after_job_loss_in_singapore/); [working after EP expired](https://www.reddit.com/r/askSingapore/comments/1hdcxx0/working_after_ep_expired/)).
+- r/askSingapore — wrong PayNow / erroneous transfer recovery ([accidentally PayNow wrong number](https://www.reddit.com/r/askSingapore/comments/1bo98q5/accidentally_paynow_to_a_wrong_number/); [wrong phone number](https://www.reddit.com/r/askSingapore/comments/1u939vv/wrong_paynow_transaction_wrong_phone_number/); [received wrong PayNow — which bank](https://www.reddit.com/r/askSingapore/comments/1s08l28/wrong_paynow_transfer_received_which_bank_ask/)).
+- r/askSingapore — vaping / K-pod pass cancellation myths ([caught with K-Pod hypothetical](https://www.reddit.com/r/askSingapore/comments/1q4isu7/caught_with_kpod_hypothetical/)).
+- r/askSingapore — Certificate of Residence / dual-tax adjacency (tax residency threads pointing at foreign withholding needs) ([moving timing for income tax](https://www.reddit.com/r/askSingapore/comments/19b12g0/moving_to_sg_timing_for_income_tax_foreigner/); [income tax question for expats](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/)).
+
+**Official**
+
+- [NEA — When death occurs](https://www.nea.gov.sg/our-services/after-death/post-death-matters/when-death-occurs) + [overseas](https://www.nea.gov.sg/our-services/after-death/post-death-matters/when-death-occurs/overseas) + [ICA overseas death report](https://www.ica.gov.sg/documents/death/death_overseas) + [death extract](https://www.ica.gov.sg/documents/death/apply_extract).
+- [MSF/OPG — LPA](https://www.msf.gov.sg/what-we-do/opg/lasting-power-of-attorney/what-is-a-lasting-power-of-attorney) + [MyLegacy LPA](https://mylegacy.life.gov.sg/find-a-service/lpa) + [LPA fees PDF](https://www.msf.gov.sg/docs/default-source/opg/lpa_fees_table.pdf) + [Public Guardian Fees Regs 2026](https://sso.agc.gov.sg/SL-Supp/S272-2026/Published/20260430?DocDate=20260430) + [MOH AMD](https://www.moh.gov.sg/seeking-healthcare/advance-medical-directive/).
+- [MOM — Responsible retrenchment](https://www.mom.gov.sg/employment-practices/retrenchment/responsible-retrenchment) + [unpaid benefit FAQ](https://www.mom.gov.sg/faq/retrenchment/what-should-i-do-if-i-did-not-receive-retrenchment-benefit-from-my-company) + [TAMEM PDF](https://www.mom.gov.sg/-/media/mom/documents/employment-practices/guidelines/tripartite-advisory-on-managing-excess-manpower-and-responsible-retrenchment.pdf) + [cancel EP / STVP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass).
+- [MAS — E-Payments User Protection Guidelines](https://www.mas.gov.sg/regulation/guidelines/e-payments-user-protection-guidelines) + [EUPG PDF (16 Dec 2024)](https://www.mas.gov.sg/-/media/mas-media-library/regulation/guidelines/pso/e-payments-user-protection-guidelines-with-effect-from-16-dec-2024/e-payments-user-protection-guidelines-with-effect-from-16-december-2024.pdf).
+- [gov.sg — Stop vaping / higher penalties](https://www.gov.sg/stopvaping-penalties/) (foreigner pass revocation / etomidate).
+- [IRAS — Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence) + [DTA claims](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/claiming-exemptions-under-Avoidance-of-Double-Taxation-Agreements-(DTAs)).
+
+### Gaps vs Tick 1–15
+
+Tick 1–15 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR/MediShield/CareShield/DPS, MDW, diplomatic clause/SCT, insurance/maternity/Baby Bonus, preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass/scams, pets, IRAS/foreign income (thin on **Certificate of Residence / DTA**), short-stay/FWTES, MOE P1/AEIS, LTVP (parent S$12k already deep), EP renewal, healthcare/HSA/dental/vaccination, remittance, apps/PayNow (thin on **erroneous transfer recovery**), S Pass, COMPASS/FCF, Customs GST, Student’s Pass/Tuition Grant, career pivots/TADM/leave-notice/harassment/FWA, SimplyGo, aircon/mould/cockroach, SRS, haze, ABSD/HDB, STVP-between-jobs (thin on **retrenchment benefit vs advisory norms**), PEP/ONE/Tech.Pass, EntrePass, COE/car, JB, dengue, year-one finance, furnishing, condo noise/MCST, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries/e-waste, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife (thin on **vaping/TVCA pass risk**), nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty, ROM/divorce/PPO, newborn/LOG, REP, probate (thin on **death registration / NEA / repatriation** and **LPA/AMD**), cycling, IVF, visit-pass extension, paternity/SPL, WHP/TEP, SkillsFuture adjacency. Remaining high-intent gaps matched forum heat: **death/repatriation**, **LPA/AMD**, **retrenchment benefits**, **wrong PayNow**, **vaping pass risk**, **COR/DTA**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/next/death-repatriation-foreigners-singapore.mdx`
+- `content/guides/next/lasting-power-attorney-amd-foreigners.mdx`
+- `content/guides/next/retrenchment-ep-benefits.mdx`
+- `content/guides/life/vaping-tobacco-laws-foreigners.mdx`
+- `content/guides/money/wrong-paynow-epayment-recovery.mdx`
+- `content/guides/money/certificate-of-residence-dta.mdx`
+
+**Upgraded guides (cross-links + adjacency + lastReviewed 2026-09-15)**
+
+- `content/guides/next/wills-probate-cpf-nomination-singapore.mdx`
+- `content/guides/next/between-jobs-stvp-singapore.mdx`
+- `content/guides/next/employment-act-leave-notice-ep.mdx`
+- `content/guides/life/apps-that-matter-singapore.mdx`
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/life/nightlife-social-scene.mdx`
+- `content/guides/money/iras-tax-residency-filing.mdx`
+
+**Entity depth**
+
+- `content/entities/services/family-law-expat.json`
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/raffles-medical.json`
+- `content/entities/neighbourhoods/holland-village.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–15 topics beyond the death-admin, LPA/AMD, retrenchment-benefit, PayNow-recovery, vaping, and COR adjacency gaps above.
+
+---
+
 ## Tick 15 — 2026-09-15
 
 ### Sources mined
