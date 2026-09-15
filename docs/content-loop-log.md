@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 18)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick18-49cb` → PR to `main` (fresh worktree off `origin/main` @ `16d8de4`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143) A17 stays open — **did not** edit those paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — 5-day MOM address clock; FWTES landlord blockers; passport update before Changi gates.
+- r/askSingapore — ONE Pass as COMPASS escape; spouse dual-LOC myths; family cascade on cancel.
+- r/askSingapore / r/singaporefi — EP card as “tax residency proof”; COR timing; broker rejects IRAS PDF.
+
+**Official**
+
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) + FWTES/OFWAS
+- [MOM — Overseas Networks & Expertise Pass](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass)
+- [IRAS — Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/certificate-of-residence)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17 (#143) claims Student’s Pass / LTVP / CPF-withdrawal. Tick 18 deepens the next free Move/Money FAQPages: **EP notify address/passport**, **ONE Pass**, **Certificate of Residence / DTA**. Left #143 bodies untouched.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/ep-notify-mom-address-passport.mdx` (+3)
+- `content/guides/move/one-pass-singapore.mdx` (+3)
+- `content/guides/money/certificate-of-residence-dta.mdx` (+3)
+- `src/lib/site.ts` (notify / ONE Pass / COR hub blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17 (#143) guide paths or `intact-immigration`.
+- Did not re-own Loop H STVP/leaving AEO or Loop D tax-clearance trees.
+- Left #143 for the merge controller.
+
+### Questions mined (sample)
+
+1. Who submits the EP address update — me or HR?
+2. Does changing email trigger MOM’s five-day clock?
+3. What if OFWAS and EP eService disagree?
+4. Can ONE Pass launder COMPASS for a later EP?
+5. What happens to DP family if ONE Pass cancels?
+6. Is outstanding-achievements a soft S$30k waiver?
+7. Do I need a COR per country or broker?
+8. What if the broker rejects the IRAS COR PDF?
+9. Does COR replace Singapore filing?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 7)
 
 Branch: `cursor/e-journeys-tools-tick7-fa4f` → PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open **#72** (E5) and **#90** (E6) exclusive path sets; **#78** already on main. Merge controller order remains **#72 → #90 → this tick**.

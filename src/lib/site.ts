@@ -172,6 +172,11 @@ export const pillars: Pillar[] = [
         blurb: "Country schedules, AQC booking, owner vs recognised agent.",
       },
       {
+        label: "Notify MOM address / passport",
+        href: "/guides/ep-notify-mom-address-passport",
+        blurb: "5-day address/mobile clock; FWTES/OFWAS traps; passport before gates.",
+      },
+      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
@@ -219,7 +224,7 @@ export const pillars: Pillar[] = [
       {
         label: "ONE Pass",
         href: "/guides/one-pass-singapore",
-        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
+        blurb: "Not a COMPASS cheat code; spouse one-LOC rule; family cancel cascade.",
       },
       {
         label: "S Pass vs EP",
@@ -359,6 +364,11 @@ export const pillars: Pillar[] = [
         label: "Tax residency & filing",
         href: "/guides/iras-tax-residency-filing",
         blurb: "IRAS rules, YA calendars, and clearance when you leave.",
+      },
+      {
+        label: "Certificate of Residence (DTA)",
+        href: "/guides/certificate-of-residence-dta",
+        blurb: "COR ≠ EP card; 2–3 week IRAS letter; per-broker/country asks.",
       },
       {
         label: "Relocation allowance tax",
