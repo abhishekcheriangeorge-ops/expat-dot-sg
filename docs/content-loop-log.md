@@ -4,6 +4,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 19 — 2026-09-15
+
+Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — HDB ceiling leaks / upstairs shower drip / tenant leverage ([how to deal with leaking HDB](https://www.reddit.com/r/askSingapore/comments/1iibua6/how_to_deal_with_leaking_hdb_as_a_renter/); [leaking ceiling jet-wash](https://www.reddit.com/r/askSingapore/comments/1g44v9n/leaking_ceiling_in_hdb_flat/); [tenant fire/water whose fault](https://www.reddit.com/r/askSingapore/comments/1ba7q1r/tenant_fire_water_leaking_happens_whose_fault/); [S$200 minor-repair water heater](https://www.reddit.com/r/askSingapore/comments/1ca7p2k/qn_to_tenantsproperty_agentslandlord/); [tenancy condition dispute](https://www.reddit.com/r/askSingapore/comments/mh3v6m/hdb_tenancy_dispute_due_to_condition_of_the_house/)).
+- r/askSingapore — pets daily life / renting with dogs & cats / GrabPet ([renting with dogs and cats](https://www.reddit.com/r/askSingapore/comments/xqronf/renting_with_dogs_and_cats/); [condo landlords + cats](https://www.reddit.com/r/askSingapore/comments/1b9b7bl/odds_of_finding_condo_landlord_willing_to_accept/); [relocating with dog](https://www.reddit.com/r/askSingapore/comments/1hr5g5y/experience_relocating_with_your_dog/); [feasible with pets](https://www.reddit.com/r/askSingapore/comments/1u81hf1/is_it_feasible_to_move_to_singapore_with_pets/); [HDB vs condo budget adjacency](https://www.reddit.com/r/askSingapore/comments/1jh5euh/housing_questions_for_expat_hdb_vs_condo/)).
+- r/askSingapore — PUB/SP high water bills / silent leaks / landlord bill opacity ([insane water bill](https://www.reddit.com/r/askSingapore/comments/1rgvtuw/insane_water_bill_how_to_resolve_it/); [7.6→79.9 Cu M spike](https://www.reddit.com/r/askSingapore/comments/1jijxzx/water_consumption_big_jump_from_76cu_m_to_799/); [500% jump](https://www.reddit.com/r/askSingapore/comments/1s1a3oj/water_reading_jumped_500_went_from_like_2_cu_m_in/); [landlord fraud utilities](https://www.reddit.com/r/askSingapore/comments/1f8l5sg/help_i_suspect_my_landlord_is_committing_fraud/)).
+- r/askSingapore — RedMart / FairPrice Online / platform fees ([which online supermarket](https://www.reddit.com/r/askSingapore/comments/1bqrik9/which_online_supermarket_do_you_use_for_your/); [RedMart on Lazada safe?](https://www.reddit.com/r/askSingapore/comments/1rtuul6/redmart_in_lazada_for_food_is_it_safe/); [platform fee](https://www.reddit.com/r/askSingapore/comments/1nm39cb/anyone_else_notice_redmart_has_a_new_platform_fee/); [FairPrice no-show](https://www.reddit.com/r/askSingapore/comments/1l9doeb/online_grocery_delivery_services/)).
+- r/askSingapore — condo visitor parking / CashCard vs SimplyGo myth ([do condos charge visitors](https://www.reddit.com/r/askSingapore/comments/119y05w/do_condos_charge_visitors_for_parking/); [car label / clamp](https://www.reddit.com/r/askSingapore/comments/1al3clm/condo_council_enforcing_car_label_dedicated/); [card payment parking](https://www.reddit.com/r/askSingapore/comments/1fmoe3e/card_payment_to_park_in_millenia_walk/)).
+
+**Official**
+
+- [HDB — Ceiling leaks](https://www.hdb.gov.sg/managing-my-home/renovation-and-maintenance/home-maintenance/home-care-guide/ceiling-leaks) + [GRA media letter](https://www.hdb.gov.sg/cs/infoweb/about-us/news-and-publications/letters-to-the-media/goodwill-repair-assistance-scheme-helps-fix-leaks-quickly).
+- [HDB — Keeping pets](https://www.hdb.gov.sg/community/caring-for-your-neighbours/being-a-good-neighbour/tips-on-neighbourliness/keeping-pets) + [AVS ownership limits](https://avs.nparks.gov.sg/pets/licensing-a-pet/information-on-dog-and-cat-licences/limits-of-ownership/) + [PALS licensing](https://avs.nparks.gov.sg/pets/licensing-a-pet/information-on-dog-and-cat-licences/licensing-requirements/) + [Cat Management Framework](https://www.nparks.gov.sg/news/news-detail/avs-announces-finalised-cat-management-framework-with-licensing-and-microchipping-for-pet-cats-starting-1-september-2024).
+- [PUB — Tips on finding leaks (PDF)](https://www.pub.gov.sg/-/media/Images/Feature/Content-Pages/Resources/Publications/Pdfs/Tips_on_Finding_Leaks.pdf) + [water-saving / leak tablets](https://www.pub.gov.sg/Public/WaterLoop/Water-Conservation/Water-Saving-Items) + [SP residential utilities / leakage appeals](https://www.spgroup.com.sg/our-services/utilities/quick-guide-to-your-utilities-residential).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) (adjacency for tenantable premises / repair clauses).
+
+### Gaps vs Tick 1–18 (Home + Life slice)
+
+Tick 1–18 already covered renting LOI/TA, tenant-agent commission, fair-wear inventory, diplomatic clause/SCT, aircon/pest, condo noise/MCST, utilities SP/OEM (thin on **PUB silent-leak / SP water-leakage appeal**), condo vs HDB (thin on **pets + slab-leak ops**), heartland, furnishing, shopping/e-waste (thin on **RedMart platform-fee / fresh-vs-pantry split**), apps/PayNow, SimplyGo, car/COE (thin on **visitor parking + CashCard ≠ SimplyGo**), hawker, haze, cycling, CASE/Lemon Law, traffic claims, importing pets under Move (no **daily pet living** Life guide). Remaining high-intent Home+Life gaps matched forum heat: **HDB ceiling leaks for tenants**, **pets daily life (HDB cats + PALS + GrabPet)**, PUB water spikes, grocery delivery depth, visitor parking.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/hdb-ceiling-leak-tenants.mdx`
+- `content/guides/life/pets-daily-life-singapore.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/utilities-telecom-setup.mdx` (PUB meter test + SP water leakage appeals)
+- `content/guides/home/condo-vs-hdb-expat.mdx` (pets + slab-leak rows)
+- `content/guides/life/shopping-essentials-singapore.mdx` (RedMart/FairPrice delivery ops)
+- `content/guides/life/car-ownership-vs-sharing-singapore.mdx` (visitor parking + CashCard)
+- `content/guides/life/apps-that-matter-singapore.mdx` (grocery + GrabPet rows)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/tiong-bahru.json`
+- `content/entities/neighbourhoods/east-coast.json`
+- `content/entities/neighbourhoods/holland-village.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong guides (importing-pets left owned by Move; Life guide cross-links only).
+- Did not re-litigate Tick 1–18 Home/Life topics beyond the leak, pets, water-bill, grocery-delivery, and visitor-parking gaps above.
+
+---
 ## Tick 18 — 2026-09-15
 
 ### Sources mined
