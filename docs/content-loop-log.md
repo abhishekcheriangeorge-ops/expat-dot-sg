@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 34)
+
+Branch: `loop/story-aeo-tick34` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#189 H20–H33). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Mum’s LTVP expires next month / sponsoring child emigrating.
+- r/askSingapore — waiting months for foreign renunciation certificate before ORAL at 21–22.
+- r/askSingapore — passport stolen in Bangkok / am I still PR at Changi on an ETD.
+
+**Official**
+
+- [ICA — Becoming an LTVP holder](https://www.ica.gov.sg/reside/LTVP) + [Parent of SC/PR](https://www.ica.gov.sg/reside/LTVP/apply/parent-of-a-singapore-citizen-(sc)-or-singapore-permanent-resident-(pr)) + [LTVP T&Cs PDF](https://www.ica.gov.sg/docs/default-source/ica/files/docs/terms_and_conditions_ltp.pdf).
+- [ICA — Oath-taking for Minors (ORAL)](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking) + mission examples (Washington / New Delhi).
+- [ICA — Transfer of Re-Entry Permit / Update Travel Document](https://www.ica.gov.sg/reside/PR/transfer-REP) + [Apply / renew REP](https://www.ica.gov.sg/reside/PR/apply-REP).
+
+### Gaps vs open H + ticks 1–33
+
+Open: #117–#189 H20–H33. Remaining free Next FAQ-free companions included **aged-parent LTVP renewal / sponsor change**, **ORAL foreign renunciation proof before 22**, **REP transfer after lost passport / ETD**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/aged-parent-ltvp-renewal-sponsor-change-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/oral-foreign-renunciation-proof-before-22-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/rep-transfer-lost-passport-etd-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (aged-parent LTVP renewal + ORAL foreign proof + REP/ETD transfer topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#189 guide bodies.
+
+### Questions mined (sample)
+
+1. How early should I renew an aged-parent LTVP?
+2. Do leftover days on Mum’s LTVP roll into the renewed pass?
+3. What if the sponsoring child emigrates or wants to stop sponsoring?
+4. Can the sponsor unilaterally cancel Mum’s LTVP?
+5. Is aged-parent LTVP renewal the same as aged-parent PR?
+6. What documents does ICA ask for when a minor takes ORAL in Singapore?
+7. When should I start foreign renunciation for ORAL before 22?
+8. Is there a fee to take ORAL at ICA?
+9. Can I skip ORAL and keep both passports past 22?
+10. Is ORAL the same as adult renunciation of Singapore citizenship?
+11. I lost my foreign passport overseas — am I still a Singapore PR at Changi?
+12. What is the sequence after a PR passport is stolen abroad?
+13. Does an emergency travel document need a REP transfer?
+14. Is REP transfer the same as renewing an expiring REP?
+15. Is a lost blue NRIC the same as a lost passport REP transfer?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 21)
 
 Branch: `cursor/loop-d-next-polish-tick21-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162) / [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169). (#99 merged to main before this tick.)
