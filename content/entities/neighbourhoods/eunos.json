@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "eunos",
+  "name": "Eunos",
+  "summary": "EWL heartland stop between Paya Lebar and Kembangan — mature HDB density, Malay-food gravity, and shorter east-central hops than Tampines without PLQ condo premiums.",
+  "body": "Eunos is the east shortlist when someone wants East-West Line access and heartland errands without paying full Paya Lebar Quarter rents. Mature HDB blocks, neighbourhood centres, and food strips toward Geylang Serai / Joo Chiat edges define daily life. Expats land here for EWL CBD hops and value; walk evening corridor life and check MCST rules carefully on any condo inserts. Compare with Guillemard for quieter residential texture beside the same broad catchment, Dakota when Circle Line / stadium adjacency matters more, and Paya Lebar when office-mall gravity is the job.",
+  "region": "east",
+  "vibe": [
+    "ewl",
+    "heartland",
+    "mature-hdb",
+    "food-belt",
+    "value-vs-plq"
+  ],
+  "bestFor": [
+    "EWL CBD hoppers wanting heartland rents",
+    "hawker-first households",
+    "car-light couples okay with estate variance",
+    "renters skipping PLQ condo premiums"
+  ],
+  "watchOuts": [
+    "Block-level variance beside busier food corridors",
+    "Peak EWL crowding toward town",
+    "Geylang-edge texture if you stretch too far",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB dominant with selective condo inserts.",
+  "commuteNotes": "East-West Line at Eunos; time Tuesday 08:15 door-to-desk and a rainy walk to the neighbourhood centre.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3100,
+    "familyFrom": 2600,
+    "familyTo": 4200
+  },
+  "mrt": [
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

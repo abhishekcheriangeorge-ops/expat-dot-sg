@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "guillemard",
+  "name": "Guillemard",
+  "summary": "Residential belt along Guillemard Road between Dakota / Old Airport Road and Paya Lebar — condo and walk-up mix with food density and event spillover risk on stadium nights.",
+  "body": "Guillemard suits renters who want east-central living with Old Airport Road / Guillemard food access without committing to a stadium-front stack. Housing mixes condos, walk-ups, and HDB-edge pockets; commute math leans on Dakota, Mountbatten, Paya Lebar, or Eunos depending on the exact block. Expats shortlist it for food and relative value versus River Valley; walk event evenings if Kallang sports nights matter to your sleep. Compare with Dakota when Circle Line adjacency is the priority, Eunos for calmer EWL heartland texture, and Paya Lebar when PLQ office gravity dominates.",
+  "region": "east",
+  "vibe": [
+    "food-belt",
+    "mixed-stock",
+    "east-central",
+    "event-adjacent",
+    "condo-walkup"
+  ],
+  "bestFor": [
+    "food-first households near Old Airport Road",
+    "east-central workers skipping RV rents",
+    "condo renters okay vetting MCST quality",
+    "car-light lives with multiple MRT options nearby"
+  ],
+  "watchOuts": [
+    "Stadium / event evening traffic on some nights",
+    "Sharp quality drop between condo and older walk-ups",
+    "Parking and feeder congestion near food strips",
+    "By-law variance — request MCST PDFs before LOI"
+  ],
+  "housingMix": "Condo and walk-up mix with HDB edges toward Eunos / Geylang.",
+  "commuteNotes": "Nearest MRT depends on block (Dakota, Mountbatten, Paya Lebar, Eunos). Model an event-evening door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3600,
+    "familyFrom": 3000,
+    "familyTo": 5000
+  },
+  "mrt": [
+    "Dakota",
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
