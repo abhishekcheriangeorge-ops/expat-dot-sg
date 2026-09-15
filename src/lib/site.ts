@@ -250,9 +250,9 @@ export const pillars: Pillar[] = [
         blurb: "Post-keys ambush deductions and SCT from overseas.",
       },
       {
-        label: "HDB neighbour renovations",
-        href: "/guides/hdb-neighbour-renovation-noise-tenants",
-        blurb: "Permits vs drilling folklore, hours, and OneService reporting.",
+        label: "HDB void deck & common property",
+        href: "/guides/hdb-void-deck-common-property-disputes-tenants",
+        blurb: "Weddings, funerals, corridor clutter, BBQ pits — OneService rails.",
       },
       {
         label: "Condo vs HDB",
@@ -262,7 +262,7 @@ export const pillars: Pillar[] = [
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Hougang, Bukit Batok, Marine Parade, Serangoon, Pasir Ris, Yishun, and more.",
+        blurb: "Jurong West, Choa Chu Kang, Sembawang, Woodlands, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -405,11 +405,6 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "Grandparents long-stay care",
-        href: "/guides/grandparents-long-stay-caregiving-singapore",
-        blurb: "Social Visit vs LTVP, caregiving ops, dual-career bridge.",
-      },
-      {
         label: "Kids ADHD medication",
         href: "/guides/kids-adhd-medication-singapore",
         blurb: "HSA bridge, local psychiatrist Rx, Adderall gaps.",
@@ -418,11 +413,6 @@ export const pillars: Pillar[] = [
         label: "Mandarin enrichment",
         href: "/guides/mandarin-enrichment-expat-kids-singapore",
         blurb: "Berries vs online vs IS bilingual tracks — goal first.",
-      },
-      {
-        label: "Bilingual primary homework",
-        href: "/guides/bilingual-primary-homework-expat-kids-singapore",
-        blurb: "MTL vs English nights without enrichment sprawl.",
       },
       {
         label: "Kids activities & calendar",
@@ -467,19 +457,9 @@ export const pillars: Pillar[] = [
         blurb: "Order like a local — centres, etiquette, favourites.",
       },
       {
-        label: "Shopping essentials",
+        label: "Shopping & nightlife",
         href: "/guides/shopping-essentials-singapore",
-        blurb: "Grocers, house brands, e-waste, and bulky disposal.",
-      },
-      {
-        label: "Arts & culture",
-        href: "/guides/arts-culture-singapore",
-        blurb: "NLB membership for foreigners, museums, Esplanade habits.",
-      },
-      {
-        label: "Cycling & active mobility",
-        href: "/guides/cycling-active-mobility-singapore",
-        blurb: "Helmet rules, PAB registration, and path etiquette.",
+        blurb: "Where expats actually go after the first month.",
       },
       {
         label: "CASE & Lemon Law",
@@ -509,12 +489,12 @@ export const pillars: Pillar[] = [
       {
         label: "Climate, haze & floods",
         href: "/guides/flash-floods-singapore-renters",
-        blurb: "PUB flash-flood checks, haze season, storms, and emergency rails.",
+        blurb: "PUB flash-flood checks, haze season, and emergency rails.",
       },
       {
-        label: "Lightning & thunderstorms",
-        href: "/guides/lightning-thunderstorms-singapore",
-        blurb: "myENV alerts, high-floor habits, and surge realism.",
+        label: "Power outages & SP Group",
+        href: "/guides/power-outages-sp-group-singapore",
+        blurb: "Outage maps, high-floor lift realism, and when to call 995.",
       },
       {
         label: "Dengue clusters & fogging",
@@ -579,12 +559,7 @@ export const pillars: Pillar[] = [
         href: "/guides/religious-communities-singapore",
         blurb: "Churches, temples, mosques, and interfaith spaces.",
       },
-            {
-        label: "Youth volunteering",
-        href: "/guides/youth-volunteering-communities-singapore",
-        blurb: "Teen/family service rails beyond paid academies.",
-      },
-{
+      {
         label: "Nationality groups",
         href: "/guides/nationality-groups-singapore",
         blurb: "Find your passport crowd without living inside it.",
@@ -671,22 +646,6 @@ export const pillars: Pillar[] = [
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
-      },
-
-      {
-        label: "EP renewal age-band salary",
-        href: "/guides/ep-renewal-age-band-salary-packaging-singapore",
-        blurb: "Fixed monthly vs rising age floors — raise before HR files.",
-      },
-      {
-        label: "S Pass levy / quota renewal",
-        href: "/guides/s-pass-levy-quota-renewal-edges-singapore",
-        blurb: "DRC + levy edges — “no EP quota” is usually S Pass maths.",
-      },
-      {
-        label: "DP LOC vs own pass",
-        href: "/guides/dep-pass-loc-vs-own-pass-chooser-singapore",
-        blurb: "Post-2021 LOC ≠ open labour market — choose EP/S Pass when needed.",
       },
       {
         label: "Between jobs / STVP",
