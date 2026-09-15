@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "pelvic-floor-physio",
+  "name": "Pelvic floor physiotherapy",
+  "summary": "How expats access pelvic floor physio in Singapore — postpartum referral paths, AHPC-registered therapists, male pelvic issues, and what to expect in assessment sessions.",
+  "body": "Pelvic floor physiotherapy helps with postpartum recovery, incontinence, prolapse symptoms, and some male pelvic pain. Care usually starts with a GP or O&G referral, then an AHPC-registered physiotherapist who does an individualised assessment.\n\n## Decision points\n- Postpartum check timing vs early symptoms\n- Internal vs external assessment consent\n- Male pelvic physio pathways\n- Home exercise programme vs clinic-heavy plans\n- Insurance / corporate panel coverage for physio\n\nBring delivery notes or urology letters when available.\n\n## How to choose\nPrefer AHPC-registered physiotherapists with pelvic health training. Ask about privacy setup and chaperone options. Confirm session length and whether follow-ups can be telehealth for exercise review.\n\n## Practical tip\nSchedule the first visit when you can rest afterward — assessment days are not the moment for back-to-back meetings.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.ahpc.gov.sg/",
+  "whenToEngage": [
+    "Postpartum pelvic symptoms need physio plan",
+    "Incontinence / prolapse pathway unclear",
+    "Male pelvic physio referral search",
+    "Insurance cover for pelvic physio unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Allied Health Professions Council",
+      "url": "https://www.ahpc.gov.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

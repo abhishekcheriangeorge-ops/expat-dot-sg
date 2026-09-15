@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 36 — 2026-09-15
+
+Branch: `cursor/services-directory-tick36-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#293); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F35 draft [#293](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/293).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Postpartum threads — pelvic floor physio timing after checks.
+- Parent threads — ISOFIX fit fails in Grab / second cars.
+- Fitness threads — beginner boxing without mandatory sparring.
+- Dental threads — clear aligner refinements and retainer surprises.
+- Pet threads — in-home sitters vs boarding over CNY / summer peaks.
+
+**Official**
+
+- [AHPC](https://www.ahpc.gov.sg/) + [MOH](https://www.moh.gov.sg/).
+- [LTA](https://www.lta.gov.sg/) + [HealthHub](https://www.healthhub.sg/).
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [Singapore Dental Council](https://www.healthprofessionals.gov.sg/sdc).
+- [NParks AVS](https://www.nparks.gov.sg/avs) + [CASE](https://www.case.org.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#293 cover prior depth and every on-main service file. Free surface for tick 36: **pelvic floor physio**, **car seat installation**, **boxing fitness**, **clear aligners**, **pet sitting**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/pelvic-floor-physio.json`
+- `content/entities/services/car-seat-installation.json`
+- `content/entities/services/boxing-fitness.json`
+- `content/entities/services/invisalign-clear-aligners.json`
+- `content/entities/services/pet-sitting.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#293 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. How soon after birth to book pelvic floor physio?
+2. ISOFIX base that fits sedan but not helper’s hatchback?
+3. Boxing gym with opt-in sparring only?
+4. How many aligner refinements are included in the quote?
+5. In-home pet sitter vs boarding for CNY week?
+
+---
+
+---
+
 ## Loop G — SEO hubs / crosslinks (tick 28) — 2026-09-15
 
 Branch: `cursor/loop-g-seo-tick28-a144` → draft PR to `main` (stacked on tip #292 / tick 27). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #292 except log prepend.

@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "invisalign-clear-aligners",
+  "name": "Clear aligners (Invisalign-style)",
+  "summary": "How expats evaluate clear aligner treatment in Singapore — dentist vs orthodontist pathways, refinement rounds, retainer plans, and dental rider limits.",
+  "body": "Clear aligners move teeth with sequential trays. Case complexity decides whether a general dentist or orthodontist should lead. Refinement rounds and retainers are where quotes quietly expand.\n\n## Decision points\n- Mild crowding vs bite issues needing braces instead\n- Dentist vs orthodontist provider choice\n- Attachment / IPR expectations\n- Refinement rounds included in package\n- Retainer type and replacement costs\n\nCompliance hours matter — trays only work when worn.\n\n## How to choose\nPrefer providers who show a digital treatment plan and state refinement caps in writing. Ask who handles mid-treatment emergencies if you travel. Confirm dental rider exclusions for elective orthodontics.\n\n## Practical tip\nCalendar tray-change days on your phone with a photo of the current bag. Lost trays mid-trip are a common expensive scramble.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/sdc",
+  "whenToEngage": [
+    "Clear aligners vs braces decision needed",
+    "Dentist vs orthodontist pathway unclear",
+    "Refinement / retainer costs not in quote",
+    "Dental rider cover for aligners unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Dental Council",
+      "url": "https://www.healthprofessionals.gov.sg/sdc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "dental-care-foreigners-singapore",
+    "kids-braces-orthodontics-singapore",
+    "health-insurance-expat",
+    "healthcare-gp-hospital"
+  ],
+  "featured": false,
+  "sponsored": false
+}
