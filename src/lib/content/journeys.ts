@@ -87,6 +87,10 @@ export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("pre-arrival.json");
 }
 
+export async function getPetsReexportPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("pets-reexport.json");
+}
+
 export async function getUtilityExitHandoverPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("utility-exit-handover.json");
 }
