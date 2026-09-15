@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 8)
+
+Branch: `cursor/e-journeys-tools-tick8-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101** exclusive paths. **#78** already on main. Merge controller order: **#72 → #90 → #101 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore / r/singapore — private hospital asking S$8–15k deposit despite IP; LOG vs cash float; foreign-card declines at admissions.
+- r/askSingapore — FDW levy concession myths when first helper vs subsequent; levy continuity when EP employer changes.
+
+**Official**
+
+- [MOH — healthcare financing overview](https://www.moh.gov.sg/healthcare-systems/financing)
+- [CPF — MediShield Life](https://www.cpf.gov.sg/member/healthcare-financing/medishield-life) (IP adjacency; foreigners ≠ automatic MediSave)
+- [MOM — FDW levy](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/foreign-domestic-worker-levy)
+
+### Gaps vs Loop E ticks 1–7 (open #72 / #90 / #101)
+
+Ticks 1–4 on main (incl. #78): arriving, between-jobs, tax-residency, pre-arrival, lease-notice, GF/Labour/Vesak. Open **#72**: family-joining, ipa-window, Haji/Christmas/NY2027. Open **#90**: loc-dp-work-rights, school-withdrawal. Open **#101**: graduate-pass-bridge, agent-commission. Remaining high-intent journeys/tools gaps **off those path sets**: **hospital cash-deposit playbook**, **FDW levy sketch**. No calendar JSON this tick.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/hospital-cash-deposit.json` + `/journeys/hospital-cash-deposit`
+- Journeys index + sitemap (hub soft-conflict expected after #72/#90/#101)
+
+**Tools**
+
+- `src/lib/tools/fdw-levy.ts`
+- `src/components/tools/FdwLevyCalculator.tsx`
+- `/tools/fdw-levy` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #72 / #90 / #101 exclusive paths.
+- Left #72, #90, #101 open for merge controller.
+
+### Questions mined (sample)
+
+1. Why is the hospital still asking for a cash deposit when I have an Integrated Shield plan?
+2. Does a company Letter of Guarantee replace the admissions deposit?
+3. How long after discharge until the deposit is refunded?
+4. Can MediSave pay a foreigner’s private-hospital bill?
+5. What cash buffer should I hold beyond the quoted deposit?
+6. What is the current MOM monthly levy for a first FDW?
+7. When do I qualify for the concessionary FDW levy?
+8. Is the subsequent-helper levy charged if I hire a second helper?
+9. Does FDW levy change when the EP employer’s pass is cancelled or transferred?
+10. Can I budget FDW levy as a simple months × band sketch before MOM confirms?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 7)
 
 Branch: `cursor/e-journeys-tools-tick7-fa4f` → PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open **#72** (E5) and **#90** (E6) exclusive path sets; **#78** already on main. Merge controller order remains **#72 → #90 → this tick**.

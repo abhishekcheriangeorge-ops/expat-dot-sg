@@ -5,7 +5,7 @@ import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
-  getGraduatePassBridgePlaybook,
+  getHospitalCashDepositPlaybook,
   getLeavingPlaybook,
   getPreArrivalPlaybook,
 } from "@/lib/content";
@@ -18,16 +18,16 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, hospital cash deposit, and Leaving Singapore — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook, preArrival, graduate] = await Promise.all([
+  const [checklists, playbook, preArrival, hospitalCash] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
     getPreArrivalPlaybook(),
-    getGraduatePassBridgePlaybook(),
+    getHospitalCashDepositPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -61,8 +61,8 @@ export default async function JourneysIndexPage() {
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
               {
-                name: graduate?.title ?? "Student / graduate pass bridge",
-                path: "/journeys/graduate-pass-bridge",
+                name: hospitalCash?.title ?? "Hospital cash deposit",
+                path: "/journeys/hospital-cash-deposit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -152,20 +152,20 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Study · work
+            Life · care
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {graduate?.title ?? "Student / graduate pass bridge"}
+            {hospitalCash?.title ?? "Hospital cash deposit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {graduate?.summary ??
-              "Student’s Pass ending — EP / Training EP / exit timing so the post-graduation gap stays lawful."}
+            {hospitalCash?.summary ??
+              "First admission deposits, Integrated Shield / employer LOG gaps, and clawback after discharge."}
           </p>
           <Link
-            href="/journeys/graduate-pass-bridge"
+            href="/journeys/hospital-cash-deposit"
             className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
           >
-            Open graduate pass bridge
+            Open hospital cash playbook
           </Link>
         </FadeIn>
 
@@ -210,7 +210,7 @@ export default async function JourneysIndexPage() {
               href="/tools"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Light COL, lease, agent-commission, and EP threshold tools
+              Light COL, lease, FDW levy, and EP threshold tools
             </Link>{" "}
             live one level down — never on the homepage.
           </p>
