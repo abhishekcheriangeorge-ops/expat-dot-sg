@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 19)
+
+Branch: `loop/story-aeo-tick19` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#98). Avoided open merge-controller H file sets (#102 H17, #107 H18). Prefer merge order **#102 → #107** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “MOM asked for my NOA” renewal panic; EP salary vs IRAS mismatch threads.
+- r/askSingapore — year-three stay/leave anxiety; school deposit lock-in; PR-as-maybe without NS honesty.
+- r/askSingapore — resign-before-IPA pivot horror; industry switch on EP; DP cascade when changing employers.
+
+**Official**
+
+- [MOM — Renew an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass) + [IRAS — Notice of Assessment](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/notices-and-forms/notice-of-assessment).
+- [ICA — Becoming a PR](https://www.ica.gov.sg/reside/PR) + [IRAS IR21](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + [CMPB](https://www.cmpb.gov.sg/).
+- [MOM — Change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep).
+
+### Gaps vs open H + ticks 1–18
+
+Open: #102 (STVP / leaving / PR rejection), #107 (NS / relocation / IR21). Remaining high-intent Next FAQ-free gaps: **EP renewal NOA docs**, **stay vs exit horizon**, **career pivots on a work pass**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ep-renewal-noa-documents.mdx` (direct lead + FAQPage)
+- `content/guides/next/long-term-stay-vs-exit.mdx` (direct lead + FAQPage)
+- `content/guides/next/career-pivots-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Next EP-docs / career blurbs + stay-vs-exit topic)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #102/#107 guide bodies.
+
+### Questions mined (sample)
+
+1. Why did MOM ask for my NOA during EP renewal?
+2. What is the difference between NOA and IR8A?
+3. What if my EP salary and IRAS income do not match?
+4. Does an NOA request mean my EP renewal will be rejected?
+5. Who should reply to MOM’s NOA request — me or HR?
+6. When should expats decide whether to stay long-term or leave?
+7. What signals suggest staying another cycle?
+8. What signals suggest planning an exit?
+9. Should PR approval automatically mean we stay forever?
+10. What should we write down in a stay/leave review?
+11. Can I transfer my Employment Pass to a new employer?
+12. When should I resign if I am pivoting to a new employer?
+13. Is an industry switch harder on a work pass?
+14. What happens to Dependant Passes when I change employers?
+15. Does my old EP cancel automatically when the new one is approved?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 18)
 
 Branch: `loop/story-aeo-tick18` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#69/#73/#82/#84). Avoided open merge-controller H file sets (#87 H14, #93 H15, #98 H16, #102 H17). Prefer merge order **#87 → #93 → #98 → #102** before this lands. No ads / monetization; no Grok copy.
