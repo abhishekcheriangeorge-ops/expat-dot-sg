@@ -2,8 +2,8 @@
   "type": "school",
   "slug": "canadian-international-school",
   "name": "Canadian International School (Lakeside)",
-  "summary": "IB World School on Jurong West / Lakeside with popular bilingual Mandarin tracks — shortlist when Mandarin hours matter as much as the sports hall.",
-  "body": "CIS Lakeside offers IB programmes with a Canadian-influenced pastoral approach and bilingual Mandarin options that r/askSingapore Mandarin-seeking families often shortlist beside Dulwich language pathways. West campus geography pulls Jurong, Clementi, and west Bukit Timah housing — model peak school-bus minutes before signing an East Coast lease. Bilingual tracks fill faster than the English stream; ask admissions for dated openings by grade and weekly Mandarin contact hours (immersion vs optional language), and whether Mandarin intensity holds after middle years. Forum ‘Berries vs school track’ debates are really goal debates — if real bilingualism is the ask, verify CIS hours in writing before buying outside enrichment to paper over a thin optional slot; see the Mandarin enrichment guide for Berries / online 1:1 / MOE-bridge product fit. Confirm current campus map and fee stack (enrolment, capital, bus) on cis.edu.sg — treat aggregator screenshots as stale. Ask admissions how sibling priority interacts with fee assistance and whether corporate invoices can be split across two EP employers in the same household.",
+  "summary": "IB World School on Jurong West / Lakeside with popular bilingual Mandarin tracks \u2014 shortlist when Mandarin hours matter as much as the sports hall.",
+  "body": "CIS Lakeside offers IB programmes with a Canadian-influenced pastoral approach and bilingual Mandarin options that r/askSingapore Mandarin-seeking families often shortlist beside Dulwich language pathways. West campus geography pulls Jurong, Clementi, and west Bukit Timah housing \u2014 model peak school-bus minutes before signing an East Coast lease. Bilingual tracks fill faster than the English stream; ask admissions for dated openings by grade and weekly Mandarin contact hours (immersion vs optional language), and whether Mandarin intensity holds after middle years. Forum \u2018Berries vs school track\u2019 debates are really goal debates \u2014 if real bilingualism is the ask, verify CIS hours in writing before buying outside enrichment to paper over a thin optional slot; see the Mandarin enrichment guide for Berries / online 1:1 / MOE-bridge product fit. Confirm current campus map and fee stack (enrolment, capital, bus) on cis.edu.sg \u2014 treat aggregator screenshots as stale. Ask admissions how sibling priority interacts with fee assistance and whether corporate invoices can be split across two EP employers in the same household. Dual-career parents: recital weeks need costume blackouts and a named hall adult on the shared calendar.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
@@ -11,7 +11,7 @@
     "Bilingual"
   ],
   "sector": "international",
-  "ages": "Nursery–Grade 12",
+  "ages": "Nursery\u2013Grade 12",
   "neighbourhood": "clementi-west-coast",
   "campus": "Lakeside",
   "languages": [
@@ -19,8 +19,12 @@
     "Mandarin"
   ],
   "feesBand": "Upper-mid to premium",
-  "waitlistNotes": "Bilingual tracks fill faster — ask admissions for current openings by grade and confirm Mandarin contact hours in writing.",
+  "waitlistNotes": "Bilingual tracks fill faster \u2014 ask admissions for current openings by grade and confirm Mandarin contact hours in writing.",
   "website": "https://www.cis.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-concert-recital-ops-dual-career-singapore",
+    "music-lesson-studio-waiting-parent-belonging-singapore"
+  ]
 }

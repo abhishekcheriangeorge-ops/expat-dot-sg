@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "dental-care",
   "name": "Dental care (category guide)",
-  "summary": "Private chairs vs polyclinic / NDC pathways for foreigners — full fees, no EP MediSave, MOH fee benchmarks, and corporate dental carve-outs.",
-  "body": "EP and most S Pass holders do not have MediSave and do not get citizen/PR dental subsidies. Polyclinic dental can refer to National Dental Centre or hospital specialists, but waits are long and foreigner pricing is unsubsidised — private is usually the practical path for acute pain, wisdom teeth, and hygiene. Before you book, check whether your group medical rider excludes dental entirely or only caps cleaning; MOH’s published dental fee benchmarks are a negotiation anchor, not a guarantee. Wisdom-tooth surgery myths about MediSave claims fail for EP holders without CPF MediSave — budget cash/card and ask for a written quote with x-ray. JB dental tourism is common on Reddit; due-diligence and remediable follow-up matter more than the first quote. Pair with a familiar GP network only if they actually offer dental chairs on your panel — many do not. Teen braces and Invisalign courses are a separate cash stack from cleaning — see the kids braces guide for NDCS vs private and mid-posting transfer traps. Family ops note: sports-day / carnival weeks are a poor time to discover an untreated toothache — keep routine kids checks off peak school-event calendars when you can.",
+  "summary": "Private chairs vs polyclinic / NDC pathways for foreigners \u2014 full fees, no EP MediSave, MOH fee benchmarks, and corporate dental carve-outs.",
+  "body": "EP and most S Pass holders do not have MediSave and do not get citizen/PR dental subsidies. Polyclinic dental can refer to National Dental Centre or hospital specialists, but waits are long and foreigner pricing is unsubsidised \u2014 private is usually the practical path for acute pain, wisdom teeth, and hygiene. Before you book, check whether your group medical rider excludes dental entirely or only caps cleaning; MOH\u2019s published dental fee benchmarks are a negotiation anchor, not a guarantee. Wisdom-tooth surgery myths about MediSave claims fail for EP holders without CPF MediSave \u2014 budget cash/card and ask for a written quote with x-ray. JB dental tourism is common on Reddit; due-diligence and remediable follow-up matter more than the first quote. Pair with a familiar GP network only if they actually offer dental chairs on your panel \u2014 many do not. Teen braces and Invisalign courses are a separate cash stack from cleaning \u2014 see the kids braces guide for NDCS vs private and mid-posting transfer traps. Family ops note: sports-day / carnival weeks are a poor time to discover an untreated toothache \u2014 keep routine kids checks off peak school-event calendars when you can. Dual-career note: keep scale-and-polish off concert/recital costume blackout weeks when you can.",
   "category": "clinics",
   "areasServed": [
     "Islandwide"
@@ -16,7 +16,7 @@
   ],
   "officialLinks": [
     {
-      "label": "MOH — Guide to dental treatment costs",
+      "label": "MOH \u2014 Guide to dental treatment costs",
       "url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/"
     },
     {
@@ -29,7 +29,8 @@
     "dental-care-foreigners-singapore",
     "healthcare-gp-hospital",
     "health-insurance-expat",
-    "international-school-sports-day-carnival-ops-dual-career-singapore"
+    "international-school-sports-day-carnival-ops-dual-career-singapore",
+    "international-school-concert-recital-ops-dual-career-singapore"
   ],
   "featured": false,
   "sponsored": false
