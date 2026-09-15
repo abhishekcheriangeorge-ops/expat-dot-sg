@@ -6,6 +6,66 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 23) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick23-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #166. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — discharge-day optimism vs sleep debt; noisy renovation during recovery.
+- r/askSingapore — photo-day wardrobe fails; yearbook order deadlines.
+- r/askSingapore — kopi after drop-off as the real parent meetup.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/home/our-healthcare-system)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [HDB](https://www.hdb.gov.sg/) + [PA](https://www.pa.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–22 (open through #166) covered schools through CC belonging. Remaining heat without contested paths: **post-hospitalisation recovery week**, **IS photo-day ops**, **void-deck/kopi parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-post-hospitalisation-recovery-week-singapore.mdx`
+- `content/guides/family/international-school-photo-day-ops-dual-career-singapore.mdx`
+- `content/guides/belong/void-deck-kopi-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- landlord entry/quiet enjoyment, utilities/telecom, dating/social, dengue clusters, early lease termination
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- optical-eye-care, pest-control, UWCSEA East, SJI International, Invictus International
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#166 guide/entity paths.
+
+### Questions mined (sample)
+
+1. Who owns daytime coverage on discharge+1?
+2. Is the bedroom quiet enough to convalesce?
+3. When is the photo order deadline?
+4. Are uniforms laid out at T−1?
+5. What is the retake rule after fever?
+6. Which kopi shop is the repeat rail?
+7. Are void-deck gathering rules clear?
+8. Did we shift helper rest day off recovery mornings?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 22) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick22-8971` → PR to `main`. Owns **Family** + **Belong** plus light clubs/schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #159. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
