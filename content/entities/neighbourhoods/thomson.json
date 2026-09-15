@@ -1,0 +1,46 @@
+{
+  "type": "neighbourhood",
+  "slug": "thomson",
+  "name": "Thomson",
+  "summary": "North-central lifestyle band — café stretches, reservoir weekends, and condo clusters with improving TEL access distinct from Upper Thomson alone.",
+  "body": "Thomson is the shortlist when green weekends and brunch-strip living matter more than CBD doorstep density. Condo clusters along the Thomson corridor trade some commute friction for MacRitchie / Peirce access and a less transient feel than River Valley. Expats shortlist it for family layouts and outdoor rhythm. Watch-outs: brunch queues, heat on trail days, and estate-specific visitor QR / boom-gate apps. Compare with Upper Thomson for the named TEL stop pocket, Balestier for food-spine energy, and Braddell when NSL interchange beats reservoir proximity.",
+  "region": "northeast",
+  "vibe": [
+    "cafes",
+    "reservoir",
+    "family",
+    "tel-adjacent",
+    "outdoor"
+  ],
+  "bestFor": [
+    "families who want green weekends",
+    "couples leaving CBD intensity",
+    "outdoor-first households",
+    "renters testing ActiveSG swim programmes nearby"
+  ],
+  "watchOuts": [
+    "Some CBD commute friction remains",
+    "Popular brunch queues",
+    "Heat and haze on trail days",
+    "Visitor QR / intercom culture varies by condo"
+  ],
+  "housingMix": "Newer and mid-age condos; landed pockets toward the north.",
+  "commuteNotes": "Thomson-East Coast Line gravity (Upper Thomson / Bright Hill / Caldecott depending on block). Test a Saturday trail + weekday commute before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2700,
+    "oneBedTo": 4200,
+    "familyFrom": 4800,
+    "familyTo": 9000
+  },
+  "mrt": [
+    "Upper Thomson",
+    "Bright Hill",
+    "Caldecott"
+  ],
+  "schoolsNearby": [
+    "ai-tong",
+    "catholic-high"
+  ],
+  "featured": false
+}

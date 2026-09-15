@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "braddell",
+  "name": "Braddell",
+  "summary": "NSL interchange pocket between Toa Payoh and Bishan — practical mid-town HDB/condo mix with hub-adjacent errands and less tourist gloss.",
+  "body": "Braddell is the shortlist when North-South Line interchange practicality and mid-town heartland texture matter more than café branding. The station pocket sits between Toa Payoh Hub gravity and Bishan park/interchange pull; housing mixes mature HDB with selective condo edges. Expats land here for manageable CBD hops and walkable errands without Orchard premiums. Watch-outs: peak station congestion, older-block ops, and HDB eligibility checks for foreigners. Compare with Toa Payoh Central for hub density, Balestier for food-spine living, and Bishan when park + Circle Line matter more.",
+  "region": "central",
+  "vibe": [
+    "nsl",
+    "interchange",
+    "practical",
+    "mature-estate",
+    "mid-town"
+  ],
+  "bestFor": [
+    "NSL CBD commuters",
+    "car-light heartland testers",
+    "households comparing Toa Payoh vs Bishan edges",
+    "people who want ActiveSG pool programmes without condo coaching premiums"
+  ],
+  "watchOuts": [
+    "Peak interchange congestion",
+    "Older-block maintenance and chute ops",
+    "HDB whole-flat vs bedroom approval checks",
+    "Less café-strip identity than Thomson"
+  ],
+  "housingMix": "Mature HDB dominant with selective condo / executive pockets.",
+  "commuteNotes": "North-South Line at Braddell; Toa Payoh and Bishan adjacency depending on block. Time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3500,
+    "familyFrom": 2800,
+    "familyTo": 4800
+  },
+  "mrt": [
+    "Braddell",
+    "Toa Payoh",
+    "Bishan"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
