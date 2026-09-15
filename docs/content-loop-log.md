@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 15)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick15-49cb` → PR to `main` (fresh worktree off `origin/main` @ `1f3e1ca` post-H17/#102; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#111](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/111) A8–A14 stay open — **did not** edit those paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — IPA weekend trips to JB; flying home before the EP card; Notification Letter as boarding pass folklore.
+- r/askSingapore — “relocation is tax-free”; tax equalisation myths; burning settling-in cash before IR8A.
+- r/askSingapore — resigning on probation; gardening leave vs MOM cancel; DP collapse when principal quits early.
+
+**Official**
+
+- [MOM — Get / after pass issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/get-a-pass-issued)
+- [IRAS — Employment income / benefits-in-kind](https://www.iras.gov.sg/taxes/individual-income-tax)
+- [MOM — Cancel a work pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + termination notice practices
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A8–A14 already claim **every existing Move and Money guide file**. Tick 15 therefore ships **net-new** Move+Money FAQPages for high-intent gaps that were not yet files: **travel before work-pass card**, **relocation allowance tax**, **EP probation / resignation / cancel clocks**. Left Next-owned STVP/leaving/tax-clearance and Home ABSD/helper bodies alone.
+
+### Shipped this loop
+
+**New guides (FAQPage)**
+
+- `content/guides/move/travel-before-work-pass-card.mdx` (new, 5 FAQs)
+- `content/guides/money/relocation-allowance-tax-singapore.mdx` (new, 5 FAQs)
+- `content/guides/move/ep-probation-resignation-notice.mdx` (new, 5 FAQs)
+- `src/lib/site.ts` (travel-before-card, probation/notice, relocation-tax topics)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A8–A14 guide paths or `intact-immigration`.
+- Did not re-own Loop H STVP/leaving AEO or Loop D tax-clearance / lost-pass-card trees.
+
+### Questions mined (sample)
+
+1. Can I leave on IPA before the EP card exists?
+2. Is the Notification Letter enough to re-enter?
+3. Can I start work travel while the card is printing?
+4. Is relocation cash tax-free?
+5. Are temp housing and house-hunting flights taxable?
+6. Does tax equalisation erase IRAS filing?
+7. If I resign on probation, when does the EP cancel?
+8. Can I serve notice during a new IPA?
+9. What happens to DP when I quit early?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 14)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick14-49cb` → PR to `main` (fresh worktree off `origin/main` @ `183789b` post-H15/#93; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#105](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/105) A8–A13 stay open — **did not** edit those paths).
