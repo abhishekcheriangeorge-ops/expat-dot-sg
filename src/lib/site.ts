@@ -240,6 +240,21 @@ export const pillars: Pillar[] = [
         blurb: "Quiet enjoyment, notice, and viewing pressure.",
       },
       {
+        label: "HDB HIP for tenants",
+        href: "/guides/hdb-hip-tenants",
+        blurb: "Dust, portable toilets, and rent talks during upgrading.",
+      },
+      {
+        label: "Deposit return after handover",
+        href: "/guides/deposit-return-handover-disputes",
+        blurb: "Post-keys ambush deductions and SCT from overseas.",
+      },
+      {
+        label: "HDB neighbour renovations",
+        href: "/guides/hdb-neighbour-renovation-noise-tenants",
+        blurb: "Permits vs drilling folklore, hours, and OneService reporting.",
+      },
+      {
         label: "Condo vs HDB",
         href: "/guides/condo-vs-hdb-expat",
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
@@ -247,7 +262,7 @@ export const pillars: Pillar[] = [
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Bukit Timah, Holland V, East Coast, Toa Payoh, AMK, Bedok, and more.",
+        blurb: "Hougang, Bukit Batok, Marine Parade, Serangoon, Pasir Ris, Yishun, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -494,7 +509,12 @@ export const pillars: Pillar[] = [
       {
         label: "Climate, haze & floods",
         href: "/guides/flash-floods-singapore-renters",
-        blurb: "PUB flash-flood checks, haze season, and emergency rails.",
+        blurb: "PUB flash-flood checks, haze season, storms, and emergency rails.",
+      },
+      {
+        label: "Lightning & thunderstorms",
+        href: "/guides/lightning-thunderstorms-singapore",
+        blurb: "myENV alerts, high-floor habits, and surge realism.",
       },
       {
         label: "Dengue clusters & fogging",

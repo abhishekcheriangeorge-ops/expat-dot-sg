@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "hougang",
+  "name": "Hougang",
+  "summary": "Northeast NEL town with Kovan/Hougang mall gravity, mixed old-and-new HDB, and shorter CBD hops than Sengkang or Punggol — denser and louder than its quieter Reddit reputation.",
+  "body": "Hougang is the northeast shortlist when Punggol feels too new-and-far and Serangoon’s NEX crush feels like a second job. Hougang and Kovan MRT on the North-East Line, Hougang Mall / Heartland Mall clusters, and the Upper Serangoon Road food belt cover errands without forcing a car. Housing mixes mature HDB, newer BTO pockets, and condo stacks toward Kovan — whole-flat rents usually undercut Serangoon Central for similar bedroom counts because you trade interchange prestige for slightly longer rides. Peak NEL crowding is real; Cross Island Line hopes are long-dated. Watch-outs: feeder-bus frustration on some estates, aircraft noise pockets nearer Paya Lebar Air Base approaches, and sequential HDB renovation seasons in older blocks. Compare with Serangoon for dual-line mall gravity, Sengkang for newer flats further out, or Toa Payoh if you want NSL maturity instead of NEL.",
+  "region": "northeast",
+  "vibe": [
+    "nel",
+    "mixed-old-new",
+    "food-belt",
+    "value",
+    "dense"
+  ],
+  "bestFor": [
+    "NEL office hoppers wanting value vs Serangoon",
+    "families okay with mature + BTO mix",
+    "car-light households near Hougang / Kovan",
+    "expats testing northeast heartland living"
+  ],
+  "watchOuts": [
+    "NEL peak crowding",
+    "Feeder-bus variance by estate",
+    "Aircraft noise near some approaches",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB, newer BTO pockets, condo belts toward Kovan.",
+  "commuteNotes": "North-East Line at Hougang / Kovan; time Tuesday 08:15 door-to-desk including feeder walks.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1900,
+    "oneBedTo": 3000,
+    "familyFrom": 2500,
+    "familyTo": 4200
+  },
+  "mrt": [
+    "Hougang",
+    "Kovan"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

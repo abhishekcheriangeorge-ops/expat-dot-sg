@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "marine-parade",
+  "name": "Marine Parade",
+  "summary": "East-coast-adjacent mature estate with Parkway Parade gravity, East Coast Park access, and Katong/Joo Chiat food adjacency — lifestyle east without always paying full East Coast Road condo premiums.",
+  "body": "Marine Parade is the east lifestyle shortlist when you want Parkway Parade errands, wet-market / hawker texture, and East Coast Park weekends without defaulting to a pure condo belt. TEL Marine Parade / Marine Terrace stations tighten rail access that older Reddit threads still describe as bus-first; trunk buses along Marine Parade Road remain the CBD workhorse for many blocks. Housing mixes mature HDB (including Marine Terrace pockets), older walk-ups, and condo adjacency toward Katong — rents sit above Bedok heartland averages because food and park access are the product. Watch-outs: TEL construction residual pain on some streets, weekend ECP crowds, and HDB whole-flat eligibility for foreigners. Compare with Bedok for cheaper EWL east value, Katong–Joo Chiat for denser shophouse character, or Tampines if you want a self-contained east town hub instead of park-side living.",
+  "region": "east",
+  "vibe": [
+    "east-coast",
+    "parkway",
+    "food-adjacent",
+    "mature-estate",
+    "lifestyle"
+  ],
+  "bestFor": [
+    "households wanting ECP weekends without full Katong premiums",
+    "car-light renters using Marine Parade Road buses / TEL",
+    "expats who prioritise food + park over mall-new towns",
+    "Changi-adjacent travellers okay with east pricing"
+  ],
+  "watchOuts": [
+    "Higher rents than Bedok / Tampines heartland",
+    "Block-to-MRT walk variance as TEL settles",
+    "Weekend park and Parkway crowds",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB, Marine Terrace pockets, condo adjacency toward Katong.",
+  "commuteNotes": "TEL Marine Parade / Marine Terrace plus Marine Parade Road trunk buses; time door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3600,
+    "familyFrom": 3000,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Marine Parade",
+    "Marine Terrace"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

@@ -6,6 +6,79 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 25 — 2026-09-15
+
+Branch: `cursor/home-life-tick25-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Rebased onto post-#58 `main` after later A/D/H/F merges; HIP / deposit-return / Serangoon–Pasir Ris–Yishun stay Tick 24’s. Topics: neighbour renovation rails, lightning living, Hougang / Bukit Batok / Marine Parade. Also restores Home HIP / deposit-return / neighbourhood `site.ts` topics clobbered by intervening loops.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — HDB neighbour renovation / permit folklore ([drilling after permit](https://www.reddit.com/r/askSingapore/comments/1jzg2kw/drilling_beyond_renovation_permit_period/); [months of upstairs drilling](https://www.reddit.com/r/askSingapore/comments/1rouz0y/urgent_advice_needed_for_help_in_dealing_with/); [which hotline](https://www.reddit.com/r/askSingapore/comments/12180gm/upstairs_neighbour_is_currently_renovating_with/); [past deadline](https://www.reddit.com/r/askSingapore/comments/198mxjs/renovation_past_the_deadline/); [exceeding period](https://www.reddit.com/r/askSingapore/comments/1hwdcem/neighbours_renovation_exceeding_period/)).
+- r/askSingapore — lightning / thunderstorm high-rise living ([laptop by window](https://www.reddit.com/r/askSingapore/comments/wpofgc/can_lightning_strike_a_computer_that_is_placed/); [shower myths](https://www.reddit.com/r/askSingapore/comments/1md5oxf/is_it_generally_safe_to_shower_during_a_heavy/); [devices plugged in](https://www.reddit.com/r/askSingapore/comments/1sfml9y/is_it_safe_to_have_electronicelectric_devices/); [top-floor blackouts](https://www.reddit.com/r/askSingapore/comments/1crnzbk/qn_on_blackouts/)).
+- r/askSingapore — neighbourhood shortlists for Hougang / Bukit Batok / Marine Parade ([best areas](https://www.reddit.com/r/askSingapore/comments/1jo5une/which_area_in_sg_is_best_to_live_in/); [Marine Terrace](https://www.reddit.com/r/askSingapore/comments/wrk7bg/hows_life_in_marine_terrace/); [where you live](https://www.reddit.com/r/askSingapore/comments/116akld/where_do_you_live_and_what_do_you_likedislike/); [east vs west rent](https://www.reddit.com/r/askSingapore/comments/xxx5wb/renting_in_east_vs_west/)).
+
+**Official**
+
+- [NEA — Renovation noise in residential areas](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/information-on-noise-from-renovation-work-in-residential-areas) (routes HDB-unit reno noise to HDB).
+- [HDB — Renovation hub](https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/renovation) + [myNiceHome — renovation permits 101](https://www.mynicehome.gov.sg/hdb-how-to/renovate-your-flat/hdb-renovation-permits-101/).
+- [MSS — Lightning](https://www.weather.gov.sg/lightning/) + [2-hour forecast](https://www.weather.gov.sg/forecast-2hr/) + myENV thunderstorm alerts.
+- [OneService](https://www.oneservice.gov.sg/).
+
+### Gaps vs Tick 24 on main (Home + Life slice)
+
+Tick 24 (#58, merged) shipped HIP mid-tenancy survival, post-handover deposit / SCT fights, ActiveSG Standard Rate FAQ depth, Serangoon / Pasir Ris / Yishun entities. Remaining high-intent Home+Life gaps matched forum heat without re-owning those paths: **HDB neighbour renovation permits vs ordinary drilling**, **high-rise lightning / thunderstorm living**, plus neighbourhood entity depth for **Hougang**, **Bukit Batok**, and **Marine Parade**. External BTO/site NEA rail and condo MCST reno left as cross-links only.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/hdb-neighbour-renovation-noise-tenants.mdx`
+- `content/guides/life/lightning-thunderstorms-singapore.mdx`
+
+**Upgraded guides (cross-links + related rails)**
+
+- `content/guides/home/construction-site-noise-renters.mdx` (HDB-unit vs site split)
+- `content/guides/home/condo-noise-mcst-neighbours.mdx`
+- `content/guides/home/heartland-living-for-expats.mdx` (Hougang / Bukit Batok / Marine Parade + reno/lightning)
+- `content/guides/home/choosing-neighbourhood-expat.mdx`
+- `content/guides/life/haze-climate-preparedness.mdx` (lightning cross-link; keep Loop H FAQPage)
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/life/apps-that-matter-singapore.mdx` (myENV storm row)
+- `src/lib/site.ts` (restore Home HIP / deposit-return; add reno + Life lightning; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/hougang.json`
+- `content/entities/neighbourhoods/bukit-batok.json`
+- `content/entities/neighbourhoods/marine-parade.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not re-litigate Tick 19–24 fibre/mould/CDRT/HDB-sale/construction/early-exit/flood/renewal/entry/dengue/HIP/deposit-return topics beyond cross-links + `site.ts` restore.
+
+### Questions mined (sample)
+
+1. Is upstairs drilling after the renovation permit period still legal?
+2. Who do I call — NEA, HDB, or OneService — for HDB unit renovation noise?
+3. Can neighbours renovate on Sundays or late evenings in HDB?
+4. Is ordinary picture-frame drilling covered by the same reno permit rules?
+5. Should I unplug devices or close windows during Singapore thunderstorms?
+6. Is it safe to shower during heavy lightning in a high-rise?
+7. Why does my breaker trip more often on stormy afternoons?
+8. Hougang vs Serangoon — when is quieter NEL value worth skipping the interchange?
+9. Is Bukit Batok worth it for west NSL value without Jurong East mall crush?
+10. Does Marine Parade feel more lifestyle-east than Tampines value-east?
+
+---
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 28)
 
 Branch: `cursor/e-journeys-tools-tick28-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #281** (`cursor/e-journeys-tools-tick27-fa4f`) — did not wait for #281 or earlier E drafts to merge. Avoided open E stack exclusives through **#281** (E27): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → this tip**. Soft hubs / content-loop-log: **prepend**.
