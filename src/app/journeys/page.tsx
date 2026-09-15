@@ -4,10 +4,10 @@ import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
-  getBankExitClosurePlaybook,
   getChecklists,
   getLeavingPlaybook,
   getPreArrivalPlaybook,
+  getUtilityExitHandoverPlaybook,
 } from "@/lib/content";
 import {
   breadcrumbJsonLd,
@@ -18,16 +18,16 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, bank-exit closure, and Leaving Singapore — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, utility exit handover, and Leaving Singapore — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook, preArrival, bankExit] = await Promise.all([
+  const [checklists, playbook, preArrival, utilityExit] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
     getPreArrivalPlaybook(),
-    getBankExitClosurePlaybook(),
+    getUtilityExitHandoverPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -61,8 +61,8 @@ export default async function JourneysIndexPage() {
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
               {
-                name: bankExit?.title ?? "Bank exit & account closure",
-                path: "/journeys/bank-exit-closure",
+                name: utilityExit?.title ?? "Utilities & telecom exit handover",
+                path: "/journeys/utility-exit-handover",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -152,20 +152,20 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Money · exit rails
+            Home · exit utilities
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {bankExit?.title ?? "Bank exit & account closure"}
+            {utilityExit?.title ?? "Utilities & telecom exit handover"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {bankExit?.summary ??
-              "PayNow/GIRO teardown, KYC clocks, remittance, and whether to keep one SGD rail for refunds."}
+            {utilityExit?.summary ??
+              "SP, fibre, mobile, and condo GIRO teardown timed to key handover and final deposits."}
           </p>
           <Link
-            href="/journeys/bank-exit-closure"
+            href="/journeys/utility-exit-handover"
             className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
           >
-            Open bank-exit playbook
+            Open utility-exit playbook
           </Link>
         </FadeIn>
 
@@ -210,7 +210,7 @@ export default async function JourneysIndexPage() {
               href="/tools"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Light COL, lease, storage-months, and EP threshold tools
+              Light COL, lease, IR21 withhold, and EP threshold tools
             </Link>{" "}
             live one level down — never on the homepage.
           </p>
