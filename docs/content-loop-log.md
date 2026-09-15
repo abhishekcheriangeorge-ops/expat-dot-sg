@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 29)
+
+Branch: `loop/story-aeo-tick29` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22, #128 H23, #132 H24, #135 H25, #140 H26, #148 H27, #153 H28). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — name-change as Singpass one-click; PR skipping passport-first ICA rejections.
+- r/askSingapore — do I re-register at 30 after a recent loss replacement; overseas NRIC collection folklore.
+- r/askSingapore — S$2–3k overseas notarisation quotes vs SAL/embassy fee realism for LTVP packs.
+
+**Official**
+
+- [ICA — Replace Identity Card (Change of Particulars/Damaged)](https://www.ica.gov.sg/documents/ic/update_particulars) + [Alteration of Child's Name on Birth Certificate](https://www.ica.gov.sg/documents/birth/alter-child-name).
+- [ICA — Re-Register Identity Card for 30/55-year-olds](https://www.ica.gov.sg/documents/ic/re-registration).
+- [SAL — Legalisation / Apostille](https://legalisation.sal.sg/LegalisationInfo) + [MOM LTVP documents required](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/documents-required).
+
+### Gaps vs open H + ticks 1–28
+
+Open: #117–#153 H20–H28 stack. Remaining high-intent Next FAQ-free gaps: **change name on NRIC**, **NRIC re-registration at 30/55**, **document apostille & notary**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/change-name-nric-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/nric-reregistration-30-55-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/document-apostille-notary-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (name-change + 30/55 re-reg + apostille topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124/#128/#132/#135/#140/#148/#153 guide bodies.
+
+### Questions mined (sample)
+
+1. What is the usual order to change a name on a Singapore NRIC?
+2. Do Permanent Residents need to update their foreign passport before the Singapore IC name change?
+3. Is ICA name-change the same fee as a lost IC replacement?
+4. Can parents change a baby’s name on the birth certificate instead of waiting for an IC?
+5. Whose consent is needed to change a minor’s name on the IC?
+6. When must Singapore citizens and PRs re-register their NRIC?
+7. Do I still re-register at 30 if I replaced my IC recently?
+8. What are the subsidised re-registration fees?
+9. Can I collect a re-registered NRIC at an overseas mission?
+10. What happens if my re-registration form lists a new residential address?
+11. What is the usual Singapore path to apostille a local document for use overseas?
+12. Can SAL apostille a foreign original as if it were Singapore-issued?
+13. When did Singapore start using Apostille?
+14. What do MOM LTVP common-law packs typically accept instead of a marriage certificate?
+15. How do I control apostille and notary costs?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 10)
 
 Branch: `cursor/e-journeys-tools-tick10-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → this tick**.
