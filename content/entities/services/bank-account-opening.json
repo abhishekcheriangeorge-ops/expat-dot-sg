@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "bank-account-opening",
+  "name": "Bank account opening help (category guide)",
+  "summary": "EP-week bank KYC without a lease \u2014 employer/hotel address letters, Singpass sequencing, and when a relationship manager beats another rejected app.",
+  "body": "Opening a Singapore salary account on arrival is a document problem, not a \u2018pick the best fintech\u2019 problem. Most full banks want passport + work pass / IPA, a Singapore mobile number, tax-residency self-certification, and proof of local address \u2014 hotel stays fail unless you bring an employer letter on letterhead stating your temporary address, or a hotel confirmation some branches accept. Singpass unlocks smoother digital onboarding; without it, expect branch visits and longer US-person FATCA clears. Compare DBS / OCBC / UOB / HSBC published foreigner document lists before you queue \u2014 policies differ by branch mood more than Reddit folklore admits. Fintech and digital banks may still need a local full-bank account for salary credit. Bring cash for initial deposit minima. This category guide covers when to escalate to HR or a bank relationship manager; it is not a paid account-opening agency pitch and not a ranked bank league table.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "EP start \u2014 need salary account while still in a hotel",
+    "Bank rejects address proof \u2014 need employer letter path",
+    "Singpass not ready \u2014 branch KYC sequencing unclear",
+    "US person / FATCA extras delaying card issuance"
+  ],
+  "officialLinks": [
+    {
+      "label": "DBS \u2014 Documents for account opening",
+      "url": "https://www.dbs.com.sg/personal/support/bank-account-opening-documents-required"
+    },
+    {
+      "label": "MAS \u2014 Banking regulation overview",
+      "url": "https://www.mas.gov.sg/regulation/banking"
+    },
+    {
+      "label": "Singpass",
+      "url": "https://www.singpass.gov.sg/main/"
+    }
+  ],
+  "relatedGuides": [
+    "opening-bank-account-expat",
+    "first-week-sim-singpass-bank",
+    "utilities-telecom-setup",
+    "scams-singpass-phishing-expats"
+  ],
+  "featured": false,
+  "sponsored": false
+}
