@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 21 — 2026-09-15
+
+Branch: `cursor/services-directory-tick21-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — diabetic foot / slow-healing wound dressing threads.
+- r/askSingapore — dietitian vs “nutrition coach” for lipids/diabetes.
+- r/askSingapore — cataract lens option / public-private pathway questions for parents.
+- Hobby forums — pottery studio firing fees and term trials.
+- Expat parenting/legal forums — mediation vs jumping straight to contested hearings.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [AHPC](https://www.healthprofessionals.gov.sg/ahpc) + [HPB](https://www.hpb.gov.sg/).
+- [SMC](https://www.healthprofessionals.gov.sg/smc) + [NAC](https://www.nac.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [Family Justice Courts](https://www.familyjusticecourts.gov.sg/) + [MinLaw](https://www.mlaw.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#188 cover prior depth and every on-main service file. Free surface for tick 21: **wound care**, **dietitian/nutrition**, **cataract surgery**, **pottery/ceramics**, **family mediation**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/wound-care-clinics.json`
+- `content/entities/services/dietitian-nutrition.json`
+- `content/entities/services/cataract-surgery.json`
+- `content/entities/services/pottery-ceramics-classes.json`
+- `content/entities/services/mediation-family-disputes.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#188 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. When is a non-healing cut a wound-clinic problem?
+2. Dietitian or wellness coach for fatty liver?
+3. Multifocal IOL worth it for night driving here?
+4. Do pottery fees include firings?
+5. Mediation before or beside family-law retainers for co-parenting?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 21)
 
 Branch: `cursor/loop-d-next-polish-tick21-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162) / [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169). (#99 merged to main before this tick.)

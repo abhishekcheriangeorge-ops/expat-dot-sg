@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "cataract-surgery",
+  "name": "Cataract surgery",
+  "summary": "How expats navigate cataract assessment and surgery in Singapore — public vs private pathways, lens options, and why optical shops cannot replace ophthalmology surgical counselling.",
+  "body": "Cataracts are a common reason older expats and ageing parents on LTVP suddenly struggle with night driving, glare, and reading. Surgery is highly standardised and effective — shopping should focus on surgeon pathway and aftercare, not only “laser cataract” ads.\n\n## Pathway\n- Ophthalmology exam with dilated lens assessment\n- Biometry for intraocular lens (IOL) power\n- Discussion of monofocal vs toric vs multifocal/EDOF options and trade-offs\n- Day surgery and post-op drop regimens\n- Second-eye timing decisions\n\nOptical refraction alone cannot time surgery; opaque lens changes need an ophthalmologist.\n\n## Cost and insurance\nPublic pathways can be excellent with different waiting and fee structures by residency status. Private centres offer faster scheduling and premium IOL menus — get itemised quotes (surgeon, facility, lens, anaesthetist). Many medical plans cover medically necessary cataract surgery with sub-limits; refractive lens exchange marketed to younger patients is a different product.\n\n## How to choose\nPrefer ophthalmologists who explain glare/contrast trade-offs of multifocal lenses in humid, high-glare Singapore driving — not only “never need glasses again.” Ask about posterior capsule opacification YAG rates and emergency contact after hours. Bring prior spectacle prescriptions and any macular history.\n\n## Practical tip\nArrange a companion for the first post-op day and avoid swimming/eye makeup for the advised window. If Mum is visiting on a short pass, confirm enough days on-island for reviews before she flies.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Glare / cloudy vision — cataract vs new glasses unclear",
+    "Comparing monofocal vs premium IOL options",
+    "Public vs private cataract pathway for EP/LTVP parent",
+    "Insurance sub-limits for cataract day surgery unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "aged-parents-pr-ltvp-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

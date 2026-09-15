@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "mediation-family-disputes",
+  "name": "Family mediation services",
+  "summary": "How expats use family mediation in Singapore for parenting plans, separation logistics, and cross-border co-parenting — alongside (not instead of) family law advice when court or immigration status is at stake.",
+  "body": "Mediation helps separating couples negotiate parenting schedules, maintenance frameworks, and practical housing splits with a neutral facilitator. For expats, pass dependency, school terms, and relocation clauses make mediated agreements especially valuable — but mediation is not a substitute for independent legal advice on immigration or court enforceability.\n\n## When mediation fits\n- Co-parenting plans after separation while both remain in Singapore\n- Disputes over international school costs and holiday travel consent\n- Property/personal-item division without full litigation tone\n- Communication reset when lawyers are involved but stuck on logistics\n\nCourt-annexed and private mediation options exist. Some family proceedings expect mediation attempts — your lawyer will map the timing.\n\n## Cross-border caution\nAn informal mediated note may not travel cleanly to another country’s courts. If one parent may leave on short notice with a child, get urgent legal advice before relying on goodwill alone. Pass cancellations (EP principal vs DP) change leverage — see family-law and divorce guides.\n\n## How to choose\nPrefer mediators experienced with international families and bilingual sessions when needed. Clarify fees, shuttle vs joint sessions, and whether counsel may attend. Do not sign away custody rights in a mediation memo without lawyer review.\n\n## Practical tip\nBring a draft term-time calendar and flight constraints to the first session — concrete schedules beat abstract “fairness” arguments. Keep children’s passports and consent-letter norms on the agenda early.\n",
+  "category": "legal",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.familyjusticecourts.gov.sg/",
+  "whenToEngage": [
+    "Co-parenting plan needed after separation in Singapore",
+    "School/holiday travel consent disputes between parents",
+    "Lawyer-led talks stuck — mediation for logistics",
+    "Cross-border enforceability of parenting terms unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Family Justice Courts",
+      "url": "https://www.familyjusticecourts.gov.sg/"
+    },
+    {
+      "label": "Ministry of Law",
+      "url": "https://www.mlaw.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "divorce-custody-foreigners-singapore",
+    "family-violence-ppo-foreigners",
+    "lasting-power-attorney-amd-foreigners"
+  ],
+  "featured": false,
+  "sponsored": false
+}

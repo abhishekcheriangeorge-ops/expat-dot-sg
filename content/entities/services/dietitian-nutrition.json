@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "dietitian-nutrition",
+  "name": "Dietitians and clinical nutrition",
+  "summary": "How expats find accredited dietitians in Singapore for diabetes, cholesterol, paediatric feeding, and sports nutrition — distinct from wellness coaches selling meal-plan subscriptions.",
+  "body": "Clinical dietitians translate medical diagnoses into food patterns you can run in a Singapore kitchen and Hawker-heavy life. They differ from unregulated “nutrition coaches” and detox brands.\n\n## Common reasons to book\n- Newly diagnosed diabetes, prediabetes, or fatty liver\n- High LDL / post-cardiac event diet patterns\n- Paediatric fussy eating, allergy exclusion planning with medical oversight\n- IBS / FODMAP trials under guidance\n- Sports or shift-work fueling with clinical constraints (not only aesthetics)\n\n## Credentials\nLook for dietitians recognised under Singapore’s allied health frameworks or strong clinical hospital backgrounds. Ask whether they will coordinate with your GP/endocrinologist and how they handle supplements — pushy multilvl marketing is a walk-away signal.\n\n## Hawker and helper realities\nGood local advice covers kopitiam swaps, helper cooking briefs, and travel weeks. Rigid meal plans that assume a Western supermarket-only pantry fail here.\n\n## How to choose\nPrefer clinicians who set measurable goals (labs, symptoms, energy) and review food records without shame. Clarify package length and whether reviews are included. Insurance outpatient riders sometimes cover dietitian visits — check before paying cash packages.\n\n## Practical tip\nBring recent labs and a three-day food photo log including sauces and drinks. “I eat clean” without data wastes the first session.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/ahpc",
+  "whenToEngage": [
+    "New diabetes / lipids diagnosis needs food pattern plan",
+    "Paediatric feeding or allergy exclusion support",
+    "IBS / FODMAP trial needs supervised guidance",
+    "Wellness coach meal plan vs clinical dietitian unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Allied Health Professions Council",
+      "url": "https://www.healthprofessionals.gov.sg/ahpc"
+    },
+    {
+      "label": "Health Promotion Board",
+      "url": "https://www.hpb.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

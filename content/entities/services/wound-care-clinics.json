@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "wound-care-clinics",
+  "name": "Wound care clinics",
+  "summary": "How expats find specialist wound care in Singapore for diabetic ulcers, post-surgical wounds, pressure injuries, and slow-healing cuts — when GP dressings are not enough and A&E is not the right lane.",
+  "body": "Chronic or complex wounds need structured care: vascular assessment, infection control, offloading, and dressing plans that change weekly. Expats meet this pathway after surgery, with diabetes, after travel injuries that will not close, or when a helper-applied home dressing fails for weeks.\n\n## What wound clinics do\n- Assessment of arterial/venous contribution and infection risk\n- Sharp debridement and advanced dressings when indicated\n- Negative-pressure (VAC) therapy coordination\n- Diabetic foot pathways with podiatry and vascular input\n- Education for caregivers on moisture balance and when to escalate\n\nThis is not the same as a one-off A&E stitch check or a beauty “scar clinic” selling lasers for cosmetic concerns.\n\n## Access\nPublic hospital wound/vascular clinics are referral-heavy and strong for complex limbs. Private wound nurses and specialist clinics offer faster slotting — useful when you need frequent reviews before a flight. Home nursing can bridge between clinic visits for mobility-limited patients.\n\n## How to choose\nPrefer teams that measure wounds, photograph progress, and escalate to vascular/plastics rather than endless dressing changes. Ask about antibiotic stewardship and whether they coordinate with your endocrinologist for glucose control. Insurance may treat advanced dressings as consumables — get estimates.\n\n## Practical tip\nBring a list of allergies (including adhesive tapes) and recent antibiotics. Do not soak a diabetic foot wound in herbal baths before clinic — it muddies assessment and can worsen infection.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Wound not healing after routine GP dressings",
+    "Diabetic foot ulcer needs specialist pathway",
+    "Post-surgical wound complication between reviews",
+    "Caregiver home-dressing plan failing for weeks"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "AHPC",
+      "url": "https://www.healthprofessionals.gov.sg/ahpc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "emergencies-995-999-embassies"
+  ],
+  "featured": false,
+  "sponsored": false
+}
