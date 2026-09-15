@@ -750,6 +750,21 @@ export const pillars: Pillar[] = [
         blurb: "Certificate, home-country affidavit, or embassy letter.",
       },
       {
+        label: "DP child aging out at 21",
+        href: "/guides/dp-child-aging-out-21-pass-options-singapore",
+        blurb: "Under-21 cliff — Student’s Pass or own EP/S Pass, not auto-renew.",
+      },
+      {
+        label: "DP LOC renewal CPF pack",
+        href: "/guides/dp-loc-renewal-local-hire-cpf-pack-singapore",
+        blurb: "LQS hire + three months CPF before LOC renewal.",
+      },
+      {
+        label: "EP medical lab / STVP bridge",
+        href: "/guides/ep-medical-lab-stvp-extension-bridge-singapore",
+        blurb: "Labs vs visit-pass clocks — extend before expiry.",
+      },
+      {
         label: "PEP / ONE / Tech.Pass chooser",
         href: "/guides/pep-one-tech-pass-chooser-singapore",
         blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",
