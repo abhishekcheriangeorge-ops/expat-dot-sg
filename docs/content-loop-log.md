@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 27)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick27-49cb` → PR to `main` (fresh worktree off `origin/main` @ `5e77dbe`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180)/[#187](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/187)/[#194](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/194)/[#200](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/200) A17–A26 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → #187 → #194 → #200 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — expired foreign licence / card left overseas; IDP after conversion; licence ≠ COE.
+- r/askSingapore — salary via PayNow; PayNow after bank switch; DP spouse on principal PayNow.
+- r/singaporefi — PR payday CPF switch; EP Medisave/HDB myths; S Pass “hidden CPF.”
+
+**Official**
+
+- [SPF Traffic Police — converting a foreign licence](https://www.police.gov.sg/Advisories/Traffic/Traffic-Matters) framing (verify live conversion pages)
+- [ABS / PayNow](https://www.abs.org.sg/) participating-bank proxy framing
+- [CPF Board — who contributes](https://www.cpf.gov.sg/) citizen/PR vs foreigner
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A26 claim Student’s Pass/LTVP/CPF-withdrawal through travel-before/relocation-tax/bank-opening. Tick 27 deepens **foreign licence conversion**, **PayNow setup**, and **CPF and foreigners** without colliding those paths (including leaving `cpf-withdrawal-leaving-singapore` body untouched).
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/converting-foreign-driving-licence.mdx` (+3)
+- `content/guides/money/paynow-setup-foreigners-singapore.mdx` (+3)
+- `content/guides/money/cpf-and-foreigners.mdx` (+3)
+- `src/lib/site.ts` (CPF-and-foreigners hub topic; licence/PayNow blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A26 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180/#187/#194/#200 for the merge controller.
+
+### Questions mined (sample)
+
+1. Can I convert with an expired or overseas foreign licence?
+2. Do I still need an IDP after Singapore conversion?
+3. Does conversion help buy a car / COE?
+4. Can payroll use PayNow instead of GIRO?
+5. What happens to PayNow when I change banks?
+6. Can a DP spouse use my PayNow?
+7. When does CPF start after PR?
+8. Can EP holders use CPF for HDB or Medisave bills?
+9. Do S Pass holders get CPF?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 17)
 
 Branch: `cursor/e-journeys-tools-tick17-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#164 on tip). **Did not wait for merges.** Avoided open E stack exclusive **#173** (mail-forward / hdb-reno). Prefer merge order note: **#173 → this tick**.

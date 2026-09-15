@@ -164,7 +164,7 @@ export const pillars: Pillar[] = [
       {
         label: "Foreign licence conversion",
         href: "/guides/converting-foreign-driving-licence",
-        blurb: "12-month clock, BTT, JB shortcut myth.",
+        blurb: "12-month clock, original licence required, COE still separate.",
       },
       {
         label: "Importing pets (AVS)",
@@ -333,7 +333,7 @@ export const pillars: Pillar[] = [
       {
         label: "Banking & PayNow",
         href: "/guides/paynow-setup-foreigners-singapore",
-        blurb: "FIN vs mobile proxies after the salary account opens.",
+        blurb: "FIN proxies, salary≠PayNow, bank-switch re-register, DP limits.",
       },
       {
         label: "Wrong PayNow recovery",
@@ -379,6 +379,11 @@ export const pillars: Pillar[] = [
         label: "CPF withdrawal when leaving",
         href: "/guides/cpf-withdrawal-leaving-singapore",
         blurb: "EP had no CPF; PR cash-out only after status ends.",
+      },
+      {
+        label: "CPF and foreigners",
+        href: "/guides/cpf-and-foreigners",
+        blurb: "No EP CPF; cash-in-lieu ≠ Medisave; PR payday switch.",
       },
       {
         label: "Cost of living",
