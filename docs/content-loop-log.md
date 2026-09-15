@@ -6,6 +6,82 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 4) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IVF / fertility financing ([IVF options and cost](https://www.reddit.com/r/askSingapore/comments/1rzjjfj/couples_who_gone_through_ivf_in_singapore_what/); [public IVF options](https://www.reddit.com/r/askSingapore/comments/1p02anc/public_ivf_options_in_singapore/); [KKH fertility](https://www.reddit.com/r/askSingapore/comments/1rqlga7/fertility_treatments_kkh_advice_needed/); [trying after 38](https://www.reddit.com/r/askSingapore/comments/1ewu432/women_who_have_are_trying_for_kids_after_38_in/); [conceive support](https://www.reddit.com/r/askSingapore/comments/1raofat/for_those_who_have_been_trying_to_conceive/)).
+- r/askSingapore — maternity insurance / DP spouse gaps ([maternity cover for DP wife](https://www.reddit.com/r/askSingapore/comments/1g76uwq/can_anyone_share_their_experience_with_insurance/); [foreign spouse pregnant](https://www.reddit.com/r/askSingapore/comments/x14pk6/foreign_spouse_pregnant_whats_your_experience_as/); [parental leave corporates](https://www.reddit.com/r/askSingapore/comments/196mitu/parental_leave_in_corporates/)).
+- r/askSingapore — divorce / LTVP / PPO ([divorce foreign spouse custody](https://www.reddit.com/r/askSingapore/comments/x6dksp/anybody_divorced_a_foreign_spouse_and_share_kids/); [LTVP baby threat](https://www.reddit.com/r/askSingapore/comments/1k7hpf3/ltvp_wife_threatens_to_take_baby_away/); [remarry without dissolve](https://www.reddit.com/r/askSingapore/comments/1sz2ouu/can_a_foreigner_who_got_married_in_singapore_get/); [PPO summons](https://www.reddit.com/r/askSingapore/comments/17qfrak/summoned_to_attend_family_court_hearing/); [DV + divorce](https://www.reddit.com/r/askSingapore/comments/1ja4ei3/anyone_that_can_share_their_experience_with/)).
+- r/askSingapore — Belong via hobby sport ([Reclub pickleball](https://www.reddit.com/r/askSingapore/comments/1u4qy8o/pickleball_games_training_community/); [pickleball venues](https://www.reddit.com/r/askSingapore/comments/1l6xsnv/pickleball_venues_in_singapore/); [running clubs](https://www.reddit.com/r/askSingapore/comments/1tcmff8/do_you_have_any_running_club_recommendations/); [Meetup relocate](https://www.reddit.com/r/askSingapore/comments/1n4xf99/recently_relocated_to_singapore_are_there_any/); [expat friends](https://www.reddit.com/r/askSingapore/comments/1qr196s/expat_friends_group_in_singapore/)).
+- r/askSingapore — school shortlist adjacency ([SAS vs OFS housing](https://www.reddit.com/r/askSingapore/comments/1s7j0lb/moving_to_singapore_with_2_young_kids_help_with/); [relocate school realism](https://www.reddit.com/r/askSingapore/comments/1tq770u/consider_relocating_to_singapore_please_help/)).
+
+**Official**
+
+- [MOH — Marriage and Parenthood schemes](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/marriage-and-parenthood-schemes/) (ART co-funding tiers incl. SC–foreigner 35%; MediSave maternity; PGT tables).
+- [MOH — Elective egg-freezing](https://www.moh.gov.sg/newsroom/updates-on-prices-and-procedures-for-elective-egg-freezing-in-singapore/) + [SC + foreign spouse IVF reply](https://www.moh.gov.sg/newsroom/support-available-for-singaporeans-and-foreign-spouses-seeking-ivf-treatment/).
+- [Judiciary — Apply for PPO](https://www.judiciary.gov.sg/family/apply-personal-protection-order) + respond-to-PPO path; [Divorce requirements](https://www.judiciary.gov.sg/family/understand-requirements-getting-divorce).
+- [Reclub](https://reclub.co/) + [West Coast Park parkrun](https://www.parkrun.sg/westcoast/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-career, newborn DP/Baby Bonus/leave/marriage/vaccines/mental-health soft landing. Remaining Family/Belong heat: **exact MOH ART tiers + elective egg freezing + PGT cash**, **DP spouse maternity insurance + foreigner private billing**, **LTVP expire ≠ divorce + PPO/EO depth**, **kids orthodontics cash**, **Reclub/parkrun belonging playbook** (Life keeps ActiveSG facilities; Home keeps MDW).
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/belong/hobby-sports-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/ivf-fertility-foreigners-singapore.mdx`
+- `content/guides/family/maternity-care-singapore.mdx`
+- `content/guides/family/divorce-custody-foreigners-singapore.mdx`
+- `content/guides/family/family-violence-ppo-foreigners.mdx`
+- `content/guides/family/dental-care-foreigners-singapore.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/hash-house-harriers.mdx`
+- `content/guides/family/international-schools-landscape.mdx`
+
+**Entity depth (schools / clubs / services)**
+
+- `content/entities/schools/overseas-family-school.json` (Pasir Ris campus correction)
+- `content/entities/schools/nexus-international.json`
+- `content/entities/schools/xcl-world-academy.json`
+- `content/entities/clubs/singapore-cricket-club.json`
+- `content/entities/services/family-law-expat.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (no MDW fork; no ActiveSG facilities rewrite).
+
+### Questions mined (sample)
+
+1. Do EP–EP couples get any MOH IVF co-funding at KKH/NUH?
+2. What is the published co-funding % for an SC + foreigner couple on a fresh ART cycle?
+3. Can I start co-funded IVF after 40 if I never tried AR before 40?
+4. Does elective egg freezing qualify for MediSave or ART co-funding?
+5. Why is PGT still a huge cash bill even on the public path?
+6. My company covers me on EP — will it cover my DP wife’s maternity and delivery?
+7. If I get a polyclinic referral to KKH as a foreigner, do I get subsidised maternity rates?
+8. Can EP holders use the MediSave Maternity Package?
+9. If we separate, can I just not renew my spouse’s LTVP — and does that end the marriage?
+10. Does leaving Singapore and letting the LTVP expire dissolve a Women’s Charter marriage?
+11. What is an Expedited Order vs a PPO, and can unmarried partners use PPO?
+12. I was summoned as a PPO respondent — do I have to attend?
+13. Are kids’ braces covered by typical expat group dental riders?
+14. How do beginners actually find pickleball games — Reclub drills or ActiveSG courts?
+15. Is parkrun a realistic first social ritual before joining a paid run club?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 20 — 2026-09-15
 
 Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
