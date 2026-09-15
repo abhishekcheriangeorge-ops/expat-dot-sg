@@ -72,8 +72,8 @@ export default function EditorialPolicyPage() {
             vs notice offset, unpaid retrenchment benefit TADM vs TAFEP,
             EP side-hustle / content-creator traps, FCF MyCareersFuture
             14-day clock, CPF account closure after renouncing PR / SC,
-            DP child aging-out at 21, S Pass → EP upgrades, DP LOC renewal
-            CPF packs,
+            EP secondary directorship LOC, JB hop mid-issuance traps,
+            EP medical / STVP lab bridges,
             citizenship
             application and ORAL, adult SC renunciation, NRIC loss /
             address / re-registration / name change, NS, exits). When agencies

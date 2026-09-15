@@ -92,9 +92,7 @@ export default function AboutPage() {
               notice offset, unpaid retrenchment benefit TADM vs TAFEP,
               EP side-hustle / content-creator traps, FCF MyCareersFuture
               14-day clock, CPF account closure after renouncing PR / SC,
-              EP renewal NOA asks, pass cancellations, DP child aging-out
-              at 21, S Pass → EP upgrades, DP LOC renewal CPF packs) are
-              checked against
+              EP renewal NOA asks, pass cancellations, EP secondary directorship LOC, JB hop mid-issuance traps, EP medical / STVP lab bridges) are checked against
               live ICA / MOM / MHA text before we ship.
             </li>
             <li>
