@@ -92,7 +92,7 @@ export default function AboutPage() {
               notice offset, unpaid retrenchment benefit TADM vs TAFEP,
               EP side-hustle / content-creator traps, FCF MyCareersFuture
               14-day clock, CPF account closure after renouncing PR / SC,
-              EP renewal NOA packaging depth, ONE Pass spouse LOC sequencing, EntrePass renewal evaluation ladder, EP renewal NOA asks, pass cancellations) are checked against
+              COMPASS C1 fixed-salary packaging edges, PEP keep-rule income evidence, Tech.Pass 2027 sunset handoff, EP renewal NOA asks, pass cancellations) are checked against
               live ICA / MOM / MHA text before we ship.
             </li>
             <li>

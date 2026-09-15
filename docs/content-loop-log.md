@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 32)
+
+Branch: `cursor/loop-d-next-polish-tick32-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for COMPASS C1 packaging, PEP keep-rule evidence, and Tech.Pass 2027 sunset handoff. Avoided open Loop D file sets through [#262](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/262).
+
+**Merge order note (controller):** `#246 → #256 → #262 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “SAT said 20 C1 points on a S$12k package.”
+- r/askSingapore — “PEP never gets income-checked after approval.”
+- r/askSingapore — “Tech.Pass will get extended past 2027, no rush.”
+
+**Official**
+
+- [MOM — EP eligibility / COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · [COMPASS rubric PDF](https://www.mom.gov.sg/-/media/mom/documents/press-releases/2023/annex-a---compass-scoring-rubric.pdf)
+- [MOM — PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass) · [PEP eligibility](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/eligibility)
+- [EDB — Tech.Pass](https://www.edb.gov.sg/en/how-we-help/incentives-and-programmes/techpass.html) · [ONE Pass](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass)
+
+### Gaps vs open stack
+
+Open #246→#262 cover DP/S Pass/trailing-partner, EP issuance/medical/STVP bridges, and EP appeal / FCF / EPSC companions. Remaining off-stack gaps: **COMPASS C1 fixed-salary packaging**, **PEP keep-rule income evidence**, **Tech.Pass 2027 sunset handoff**.
+
+### Shipped
+
+**New:** `compass-c1-fixed-salary-packaging-singapore.mdx`, `pep-keep-rule-income-evidence-singapore.mdx`, `tech-pass-2027-sunset-handoff-singapore.mdx`
+
+**Upgraded:** COMPASS, PEP, Tech.Pass, ONE Pass, PEP–ONE–Tech chooser, EP renewal (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #246 / #256 / #262 guide bodies (DP/S Pass/trailing-partner; employment-pass / issuance / medical / STVP extension / travel-before-card / incorporate; EP rejection-IPA / Fair Consideration / career-pivots).
+- Did not wait for CI or merges on prior tips.
+
+### Questions mined
+
+1. Is COMPASS C1 the same as the Stage-1 qualifying salary?
+2. Does “total package S$12k” clear C1 if fixed monthly is lower?
+3. Do housing allowances count as fixed monthly for C1?
+4. Can SAT screenshots substitute for the filed fixed monthly figure?
+5. Does PEP get income-checked after approval?
+6. Do side consulting top-ups satisfy the PEP keep-rule?
+7. Can I renew PEP like an EP if income dips?
+8. Will Tech.Pass be extended past January 2027?
+9. Is there an automatic Tech.Pass → ONE Pass conversion?
+10. How early should Tech.Pass holders start a sponsored EP Plan B?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 27)
 
 Branch: `cursor/e-journeys-tools-tick27-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #273** (`cursor/e-journeys-tools-tick26-fa4f`) — did not wait for #273 or earlier E drafts to merge. Avoided open E stack exclusives through **#273** (E26): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → this tip**. Soft hubs / content-loop-log: **prepend**.

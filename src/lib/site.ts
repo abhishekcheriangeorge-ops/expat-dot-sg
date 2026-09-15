@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "EP renewal NOA packaging",
-        href: "/guides/ep-renewal-noa-packaging-depth-singapore",
-        blurb: "NOA vs IR8A vs fixed monthly — reconcile before HR replies.",
+        label: "COMPASS C1 salary packaging",
+        href: "/guides/compass-c1-fixed-salary-packaging-singapore",
+        blurb: "Fixed monthly ≠ total package — C1 vs Stage-1 floor.",
       },
       {
-        label: "ONE Pass spouse LOC",
-        href: "/guides/one-pass-spouse-loc-depth-singapore",
-        blurb: "DP-first sequencing, one LOC at a time — not EP DP folklore.",
+        label: "PEP keep-rule evidence",
+        href: "/guides/pep-keep-rule-income-evidence-singapore",
+        blurb: "Payroll + IRAS trails beat LinkedIn folklore.",
       },
       {
-        label: "EntrePass renewal ladder",
-        href: "/guides/entrepass-renewal-evaluation-ladder-singapore",
-        blurb: "TBS / local-hire rungs by cycle — plan the EP exit early.",
+        label: "Tech.Pass 2027 handoff",
+        href: "/guides/tech-pass-2027-sunset-handoff-singapore",
+        blurb: "Plan ONE / PEP / EP before the renewal window closes.",
       },
       {
         label: "Between jobs / STVP",
