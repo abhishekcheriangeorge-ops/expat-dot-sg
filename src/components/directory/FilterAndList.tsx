@@ -34,7 +34,11 @@ export function FilterBar({
 }: FilterBarProps) {
   return (
     <div className="sticky top-0 z-30 border-b border-fog-soft bg-paper/95 backdrop-blur-md">
-      <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-4 px-5 py-4 sm:px-8">
+      <div
+        className="mx-auto flex max-w-[var(--max-page)] flex-col gap-4 px-5 py-4 sm:px-8"
+        role="search"
+        aria-label="Filter directory"
+      >
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <label className="relative block w-full max-w-md">
             <span className="sr-only">Search</span>
@@ -46,7 +50,7 @@ export function FilterBar({
               className="w-full border border-fog-soft bg-paper-elevated px-4 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-canopy-mist focus:outline-none"
             />
           </label>
-          <p className="text-sm text-ink-faint">
+          <p className="text-sm text-ink-faint" aria-live="polite">
             <span className="font-medium text-ink-muted">{resultCount}</span>{" "}
             {resultCount === 1 ? "result" : "results"}
           </p>
@@ -124,11 +128,14 @@ export type ListingItem = {
 type ListingGridProps = {
   items: ListingItem[];
   emptyMessage?: string;
+  /** Visible ItemList name for directory indexes */
+  listName?: string;
 };
 
 export function ListingGrid({
   items,
   emptyMessage = "No matches. Clear a filter or try another search.",
+  listName = "Directory results",
 }: ListingGridProps) {
   if (items.length === 0) {
     return (
@@ -139,11 +146,25 @@ export function ListingGrid({
   }
 
   return (
-    <ul className="mx-auto grid max-w-[var(--max-page)] gap-px bg-fog-soft px-0 sm:grid-cols-2 lg:grid-cols-3">
-      {items.map((item) => (
-        <li key={item.slug} className="bg-paper">
+    <ul
+      className="mx-auto grid max-w-[var(--max-page)] gap-px bg-fog-soft px-0 sm:grid-cols-2 lg:grid-cols-3"
+      itemScope
+      itemType="https://schema.org/ItemList"
+    >
+      <meta itemProp="name" content={listName} />
+      <meta itemProp="numberOfItems" content={String(items.length)} />
+      {items.map((item, index) => (
+        <li
+          key={item.slug}
+          className="bg-paper"
+          itemProp="itemListElement"
+          itemScope
+          itemType="https://schema.org/ListItem"
+        >
+          <meta itemProp="position" content={String(index + 1)} />
           <Link
             href={item.href}
+            itemProp="url"
             className="group flex h-full flex-col gap-3 p-6 no-underline transition-colors hover:bg-paper-elevated sm:p-8"
           >
             <div className="flex flex-wrap items-start justify-between gap-2">
@@ -159,10 +180,16 @@ export function ListingGrid({
                 sponsored={item.sponsored}
               />
             </div>
-            <h2 className="font-display text-2xl leading-snug text-ink transition-colors group-hover:text-canopy-deep">
+            <h2
+              itemProp="name"
+              className="font-display text-2xl leading-snug text-ink transition-colors group-hover:text-canopy-deep"
+            >
               {item.name}
             </h2>
-            <p className="flex-1 text-sm leading-relaxed text-ink-muted">
+            <p
+              itemProp="description"
+              className="flex-1 text-sm leading-relaxed text-ink-muted"
+            >
               {item.summary}
             </p>
             {item.meta && item.meta.length > 0 ? (
@@ -204,17 +231,23 @@ type ChipListProps = {
 export function ChipList({ label, items }: ChipListProps) {
   if (items.length === 0) return null;
   return (
-    <div>
+    <div itemScope itemType="https://schema.org/ItemList">
+      <meta itemProp="name" content={label} />
+      <meta itemProp="numberOfItems" content={String(items.length)} />
       <p className="text-xs font-semibold uppercase tracking-[0.12em] text-ink-faint">
         {label}
       </p>
       <ul className="mt-3 flex flex-wrap gap-2">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <li
             key={item}
             className="border border-fog-soft bg-paper-elevated px-3 py-1 text-sm text-ink-muted"
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
           >
-            {item}
+            <meta itemProp="position" content={String(index + 1)} />
+            <span itemProp="name">{item}</span>
           </li>
         ))}
       </ul>

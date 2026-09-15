@@ -60,6 +60,7 @@ export function NeighbourhoodDirectory({ neighbourhoods }: Props) {
         ]}
       />
       <ListingGrid
+        listName="Neighbourhoods"
         items={filtered.map((n) => ({
           slug: n.slug,
           href: `/neighbourhoods/${n.slug}`,

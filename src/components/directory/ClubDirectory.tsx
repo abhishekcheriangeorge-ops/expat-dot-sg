@@ -60,6 +60,7 @@ export function ClubDirectory({ clubs }: Props) {
         ]}
       />
       <ListingGrid
+        listName="Clubs"
         items={filtered.map((c) => ({
           slug: c.slug,
           href: `/clubs/${c.slug}`,

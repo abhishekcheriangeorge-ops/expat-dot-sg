@@ -15,14 +15,26 @@ function Heading({
       id={id}
       className={
         Tag === "h2"
-          ? "font-display mt-12 scroll-mt-28 text-2xl text-ink first:mt-0 sm:text-3xl"
+          ? "font-display mt-12 scroll-mt-28 text-2xl text-ink first:mt-0 sm:text-3xl group"
           : Tag === "h3"
-            ? "font-display mt-8 scroll-mt-28 text-xl text-ink sm:text-2xl"
-            : "mt-6 scroll-mt-28 text-lg font-semibold text-ink"
+            ? "font-display mt-8 scroll-mt-28 text-xl text-ink sm:text-2xl group"
+            : "mt-6 scroll-mt-28 text-lg font-semibold text-ink group"
       }
       {...props}
     >
-      {children}
+      <a
+        href={`#${id}`}
+        className="text-inherit no-underline"
+        aria-label={`Permalink to ${text || "section"}`}
+      >
+        {children}
+        <span
+          aria-hidden
+          className="ml-2 inline-block text-sm font-normal text-ink-faint opacity-0 transition-opacity group-hover:opacity-100"
+        >
+          #
+        </span>
+      </a>
     </Tag>
   );
 }

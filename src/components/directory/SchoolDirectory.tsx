@@ -90,6 +90,7 @@ export function SchoolDirectory({ schools }: Props) {
         ]}
       />
       <ListingGrid
+        listName="Schools"
         items={filtered.map((s) => ({
           slug: s.slug,
           href: `/schools/${s.slug}`,

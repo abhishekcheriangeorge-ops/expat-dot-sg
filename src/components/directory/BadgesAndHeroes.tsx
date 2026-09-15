@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { PathLinks, type PathLink } from "@/components/seo/PathLinks";
 import { Breadcrumbs } from "@/components/seo";
 import type { BreadcrumbItem } from "@/lib/seo";
 
@@ -43,6 +44,7 @@ type DirectoryHeroProps = {
   description: string;
   meta?: ReactNode;
   crumbs?: BreadcrumbItem[];
+  relatedPaths?: readonly PathLink[];
 };
 
 export function DirectoryHero({
@@ -51,9 +53,16 @@ export function DirectoryHero({
   description,
   meta,
   crumbs,
+  relatedPaths,
 }: DirectoryHeroProps) {
   return (
-    <header className="relative overflow-hidden border-b border-fog-soft">
+    <header
+      className="relative overflow-hidden border-b border-fog-soft"
+      itemScope
+      itemType="https://schema.org/CollectionPage"
+    >
+      <meta itemProp="name" content={title} />
+      <meta itemProp="description" content={description} />
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_0%_0%,color-mix(in_srgb,var(--canopy-mist)_22%,transparent),transparent_50%),radial-gradient(ellipse_at_100%_20%,color-mix(in_srgb,var(--tungsten)_10%,transparent),transparent_40%)]"
@@ -70,6 +79,9 @@ export function DirectoryHero({
           {description}
         </p>
         {meta ? <div className="mt-6 text-sm text-ink-faint">{meta}</div> : null}
+        {relatedPaths?.length ? (
+          <PathLinks className="mt-8" links={relatedPaths} />
+        ) : null}
       </div>
     </header>
   );
@@ -91,7 +103,11 @@ export function DetailHero({
   facts,
 }: DetailHeroProps) {
   return (
-    <header className="relative overflow-hidden bg-canopy-deep text-paper">
+    <header
+      className="relative overflow-hidden bg-canopy-deep text-paper"
+      itemScope
+      itemType="https://schema.org/Thing"
+    >
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_80%_0%,color-mix(in_srgb,var(--tungsten)_18%,transparent),transparent_45%),linear-gradient(180deg,transparent,color-mix(in_srgb,var(--dusk)_55%,transparent))]"
@@ -101,10 +117,20 @@ export function DetailHero({
           {eyebrow}
         </p>
         <div className="mt-3 flex flex-wrap items-center gap-3">
-          <h1 className="font-display text-4xl leading-tight sm:text-5xl">{title}</h1>
+          <h1
+            itemProp="name"
+            className="font-display text-4xl leading-tight sm:text-5xl"
+          >
+            {title}
+          </h1>
           {badges}
         </div>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-fog">{summary}</p>
+        <p
+          itemProp="description"
+          className="mt-5 max-w-2xl text-lg leading-relaxed text-fog"
+        >
+          {summary}
+        </p>
         {facts && facts.length > 0 ? (
           <dl className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {facts.map((fact) => (

@@ -1,0 +1,38 @@
+# Agent / crawler orientation for expat.sg
+# Companion to ai.txt and llms.txt — machine-readable hub map for tooling agents.
+
+site: https://expat.sg
+contact: https://expat.sg/about
+editorial: https://expat.sg/editorial-policy
+
+preferred_sources:
+  - MOM (passes, employment)
+  - ICA (immigration, LTVP)
+  - IRAS (tax clearance, residency)
+  - MOE / schools (enrolment, withdrawals)
+
+allow_paths:
+  - /
+  - /arriving
+  - /living
+  - /guides
+  - /journeys
+  - /tools
+  - /directory
+  - /schools
+  - /neighbourhoods
+  - /clubs
+  - /calendar
+  - /move
+  - /money
+  - /family
+  - /belong
+  - /home
+  - /next
+
+disallow_paths:
+  - /api/
+  - /studio
+  - /sponsored
+
+notes: Prefer official Singapore government pages for pass, tax, and school decisions. Tool pages are orientation sketches, not advice.

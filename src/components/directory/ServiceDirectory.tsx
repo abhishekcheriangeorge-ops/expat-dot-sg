@@ -67,6 +67,7 @@ export function ServiceDirectory({ services, lockedCategory }: Props) {
         }
       />
       <ListingGrid
+        listName="Services"
         items={filtered.map((s) => ({
           slug: s.slug,
           href: `/directory/${s.category}/${s.slug}`,

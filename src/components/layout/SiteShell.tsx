@@ -14,7 +14,13 @@ export function SiteShell({ children }: SiteShellProps) {
         Skip to content
       </a>
       <SiteHeader />
-      <main id="main-content" tabIndex={-1} className="flex-1 outline-none">
+      <main
+        id="main-content"
+        tabIndex={-1}
+        className="flex-1 outline-none"
+        itemScope
+        itemType="https://schema.org/WebPage"
+      >
         {children}
       </main>
       <SiteFooter />
