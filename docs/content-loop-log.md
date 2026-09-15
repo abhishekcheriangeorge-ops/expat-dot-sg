@@ -6,6 +6,76 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 3) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — newborn DP / birth registration / passport clock ([Dependent Pass newborn](https://www.reddit.com/r/askSingapore/comments/17hkidm/dependent_pass/); [Malaysian newborn docs](https://www.reddit.com/r/askSingapore/comments/1b0icqt/questions_regarding_malaysian_newborn_baby/); [foreign wife birth SG vs home](https://www.reddit.com/r/askSingapore/comments/1l1fe33/important_considerations_whether_to_have_my/); [LTVP+ pregnancy myths](https://www.reddit.com/r/askSingapore/comments/1dnbo2y/applying_for_ltvp_for_foreigner_spouse/)).
+- r/askSingapore — paternity / SPL / marriage pass sequencing ([maternity/paternity/SPL split](https://www.reddit.com/r/askSingapore/comments/1rawm1s/maternitypaternityshared_parental_leave/); [under 3 months leave](https://www.reddit.com/r/askSingapore/comments/1j8gf7d/has_anyone_able_to_claim_parental_leave_despite/); [PMLA → LTVP + PLOC](https://www.reddit.com/r/askSingapore/comments/1qvnbml/relocating_sc_spouse_to_singapore/); [SC + foreign spouse pregnancy](https://www.reddit.com/r/askSingapore/comments/x14pk6/foreign_spouse_pregnant_whats_your_experience_as/)).
+- r/askSingapore — vaccines / mental health ([NIR not linked](https://www.reddit.com/r/askSingapore/comments/12099bi/childs_immunisation_records/); [cash-pay paediatrician vaccines](https://www.reddit.com/r/askSingapore/comments/1e73vx8/pediatrician_recommendation_for_nonlocal_pay_via/); [vaccination memo](https://www.reddit.com/r/askSingapore/comments/1nk2vi1/getting_a_doctors_vaccination_memo/); [ADHD expat kids](https://www.reddit.com/r/askSingapore/comments/1hg0srx/what_is_the_general_process_for_seeking_advice_on/); [non-resident mental health](https://www.reddit.com/r/askSingapore/comments/1byriih/seeking_options_for_mental_health_help_as_a/)).
+- r/askSingapore — Belong soft landing ([trailing spouse](https://www.reddit.com/r/askSingapore/comments/1inyc7x/whats_it_like_to_be_a_trailing_spouse_in_singapore/); [AWA crafts](https://www.reddit.com/r/askSingapore/comments/1twijzv/looking_for_craft_group_to_join/); [introvert foreigners](https://www.reddit.com/r/askSingapore/comments/1u1tmdb/introvert_foreigners_of_singapore_how_do_you_make/); [Meetup relocate](https://www.reddit.com/r/askSingapore/comments/1n4xf99/recently_relocated_to_singapore_are_there_any/)).
+
+**Official**
+
+- [MOM — Dependant’s Pass for a newborn](https://www.mom.gov.sg/passes-and-permits/dependants-pass/getting-a-pass-for-a-newborn) (14-day register ask; 6-week DP; Special Pass extension rules).
+- [MSF — Shared Parental Leave](https://www.profamilyleave.msf.gov.sg/schemes/shared-parental-leave) (6 vs 10 weeks; SC child gate; under-3-month nuance).
+- [LifeSG — Baby Bonus eligibility](https://www.life.gov.sg/family-parenting/benefits-support/baby-bonus-scheme/eligibility-criteria).
+- [MOH — childhood vaccinations subsidies](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/childhood-developmental-screening-and-childhood-vaccinations/) + [NIR](https://www.nir.hpb.gov.sg/nirp/eservices/parentalfaq).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–2 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-career. Remaining heat: **newborn DP passport clock**, **Baby Bonus SC gate + LTVP+**, **GPPL/SPL citizenship + 2026 weeks**, **PMLA→LTVP/PLOC marriage path**, **NIR/foreigner vaccine fees**, **kids ADHD + non-resident counselling**, **ANZA/AWA trailing-spouse soft landing**.
+
+### Shipped this loop
+
+**Upgraded guides**
+
+- `content/guides/family/newborn-pass-birth-registration-singapore.mdx`
+- `content/guides/family/baby-bonus-cda-mixed-status.mdx`
+- `content/guides/family/paternity-shared-parental-leave-foreigners.mdx`
+- `content/guides/family/getting-married-foreigners-singapore.mdx`
+- `content/guides/family/childhood-vaccination-foreigners.mdx`
+- `content/guides/family/mental-health-resources.mdx`
+- `content/guides/belong/anza-awa-associations.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+
+**Entity depth (schools / clubs)**
+
+- `content/entities/clubs/anza.json`
+- `content/entities/clubs/awa.json`
+- `content/entities/clubs/hollandse-club.json`
+- `content/entities/clubs/british-club.json`
+- `content/entities/schools/australian-international-school.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees.
+
+### Questions mined (sample)
+
+1. How soon after birth must I register and lodge a newborn Dependant’s Pass?
+2. Can I apply for DP before the baby’s passport is ready?
+3. What happens if the newborn DP is rejected — will MOM extend the Special Pass?
+4. Do EP–EP babies get Baby Bonus / CDA just because they were born in Singapore?
+5. Does pregnancy alone unlock LTVP+ hospital subsidies?
+6. Are government paternity / SPL weeks available when the child is not a Singapore citizen?
+7. What are the SPL week counts for births before vs after 1 Apr 2026?
+8. If I have worked under 3 months, can my employer still grant reimbursed parental leave?
+9. Should SC + foreigner couples run PMLA before ROM, and when does PLOC help?
+10. Why are my newborn’s vaccines not showing in HealthHub / NIR?
+11. Do foreigners pay subsidised childhood vaccine rates at polyclinics?
+12. How do EP families get an ADHD assessment for a preschooler without outpatient cover?
+13. Where should trailing spouses look besides Facebook megagroups — ANZA, AWA, Meetup?
+14. Is AWA open to non-American women for craft / interest groups?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 2)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money`.

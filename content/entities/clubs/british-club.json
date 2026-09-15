@@ -2,15 +2,16 @@
   "type": "club",
   "slug": "british-club",
   "name": "The British Club",
-  "summary": "Hilltop club with sport facilities and a UK/Commonwealth social base — compare Bukit Timah access against Hollandse and American Club.",
-  "body": "The British Club offers family sport and social facilities with a Commonwealth lean. Location and traffic access should be part of your comparison versus American Club (Claymore) or Hollandse Club (often stronger value for west-central lives). Ask for current family category fees, F&B minimums, guest rules, and waitlist status — UK-leaning does not mean automatic entry. Tour at kids’ swim or your weekday sport slot; brochure dinners are a weak predictor of weekly use. Pairs well with BritCham / British Association calendars for newcomers who want community without paying country-club entrance twice.",
+  "summary": "Bukit Timah membership club with sport, dining, and family programming — a Commonwealth-orbit alternative to Orchard mega-clubs.",
+  "body": "The British Club sits in the Bukit Timah club belt with dining, sport, and family events that appeal to British and wider international households. It is facilities-first compared with the British Association’s lighter social calendar — compare both before paying entrance fees. Useful when school and housing already sit west/central and you want weekend camps or pool access without Claymore traffic. Confirm current membership categories, F&B minimums, and waitlists; tour at your real use times. Pair with BritCham only if BD is the goal, and with British Association for lower-fee soft landing.",
   "category": "membership",
   "focus": [
-    "UK community",
+    "British community",
     "families",
-    "sport"
+    "sport",
+    "dining"
   ],
-  "membershipNotes": "Family and individual categories — check joining fees, dues, and current waitlists for your membership type.",
+  "membershipNotes": "Entrance fees + monthly dues; ask about family categories, guest rules, and school-break programmes.",
   "website": "https://www.britishclub.org.sg",
   "neighbourhood": "bukit-timah",
   "featured": false,
