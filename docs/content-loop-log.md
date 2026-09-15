@@ -6,6 +6,35 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 9)
+
+Branch: `cursor/loop-g-seo-tick9-a144` → PR to `main`. Guide hub plane + global chrome/schema after hub stack #74→#127 claimed every index/tool/entity/pillar/home surface. Did **not** touch #74 / #94 / #106 / #119 / #127 paths (no ModeHub, PillarPage, HomeHubs, site.ts, tools, claimed hubs). No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- ~195 guide URLs had relatedGuides + entities but no static Explore hubs back to product surfaces.
+- Guide journey chips were plain text while pillar chips already linked.
+- Desktop header omitted Tools (footer/mobile already had it) without editing `site.ts`.
+- Sitewide schema lacked SiteNavigationElement; Article/WebSite missed `inLanguage` / structured `isPartOf` / `mainEntityOfPage`.
+- Default OG eyebrow under-surfaced Tools/Schools; `/arriving` and `/living` wrappers had no WebPage JSON-LD sibling.
+
+### Shipped this loop
+
+- `GuideHubLinks` pillar-conditional footer in `GuideArticle`
+- Journey labels → `/arriving` and/or `/living` in `GuideMetaBar`
+- Desktop Tools link in `SiteHeader` (no `site.ts`)
+- `siteNavigationJsonLd` from root layout; enriched `websiteJsonLd` / `articleJsonLd`; `webPageJsonLd` on mode wrappers
+- Guides `[slug]` Article `isPartOf` pillar CollectionPage + `inLanguage`
+- Default OG eyebrow → Guides · Tools · Schools · Journeys
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 alone for merge controller.
+- No mass MDX `relatedGuides` / body rewrites; no sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 5)
 
 Branch: `loop/e-journeys-tools-tick5` → PR to `main` (fresh worktree off `origin/main` after tick 3 [#53](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/53) merged; while [#66](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/66) tick 4 remained open). Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok. **Avoided #66 paths** (`pre-arrival`, `lease-notice`, Good Friday / Labour Day / Vesak, day-7 / day-30, leaving-singapore).

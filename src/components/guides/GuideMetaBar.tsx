@@ -25,7 +25,30 @@ export function GuideMetaBar({ meta }: GuideMetaBarProps) {
       >
         {PILLAR_LABELS[meta.pillar]}
       </Link>
-      <span>{JOURNEY_LABELS[meta.journey]}</span>
+      {meta.journey === "both" ? (
+        <span className="inline-flex flex-wrap items-center gap-x-2">
+          <Link
+            href="/arriving"
+            className="text-ink-faint no-underline underline-offset-4 hover:text-canopy hover:underline"
+          >
+            Arriving
+          </Link>
+          <span aria-hidden="true">&</span>
+          <Link
+            href="/living"
+            className="text-ink-faint no-underline underline-offset-4 hover:text-canopy hover:underline"
+          >
+            Living
+          </Link>
+        </span>
+      ) : (
+        <Link
+          href={meta.journey === "arriving" ? "/arriving" : "/living"}
+          className="text-ink-faint no-underline underline-offset-4 hover:text-canopy hover:underline"
+        >
+          {JOURNEY_LABELS[meta.journey]}
+        </Link>
+      )}
       <span aria-hidden="true">·</span>
       <span>{meta.readingTimeMinutes} min read</span>
       <span aria-hidden="true">·</span>

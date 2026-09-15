@@ -1,5 +1,6 @@
 export { GuideArticle } from "./GuideArticle";
 export { GuideCitations } from "./GuideCitations";
+export { GuideHubLinks } from "./GuideHubLinks";
 export { GuideMetaBar } from "./GuideMetaBar";
 export { GuideRelated } from "./GuideRelated";
 export { GuideRelatedEntities } from "./GuideRelatedEntities";

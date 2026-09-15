@@ -69,6 +69,25 @@ export function SiteHeader() {
               </Link>
             );
           })}
+          <Link
+            href="/tools"
+            aria-current={
+              pathname === "/tools" || pathname.startsWith("/tools/")
+                ? "page"
+                : undefined
+            }
+            className={`no-underline transition-colors ${
+              pathname === "/tools" || pathname.startsWith("/tools/")
+                ? overHero
+                  ? "text-paper"
+                  : "text-ink"
+                : overHero
+                  ? "hover:text-paper"
+                  : "hover:text-ink"
+            }`}
+          >
+            Tools
+          </Link>
         </nav>
 
         <div className="flex items-center gap-4">

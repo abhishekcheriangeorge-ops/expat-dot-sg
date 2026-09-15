@@ -79,10 +79,55 @@ export function websiteJsonLd() {
     name: SITE_NAME,
     url: getSiteUrl(),
     description: SITE_DESCRIPTION,
+    inLanguage: "en-SG",
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
     },
+  };
+}
+
+/** Primary chrome destinations for crawlers (mirrors header + footer hubs). */
+export function siteNavigationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${SITE_NAME} primary navigation`,
+    itemListElement: [
+      { "@type": "SiteNavigationElement", position: 1, name: "Home", url: absoluteUrl("/") },
+      { "@type": "SiteNavigationElement", position: 2, name: "Arriving", url: absoluteUrl("/arriving") },
+      { "@type": "SiteNavigationElement", position: 3, name: "Living", url: absoluteUrl("/living") },
+      { "@type": "SiteNavigationElement", position: 4, name: "Guides", url: absoluteUrl("/guides") },
+      { "@type": "SiteNavigationElement", position: 5, name: "Directory", url: absoluteUrl("/directory") },
+      { "@type": "SiteNavigationElement", position: 6, name: "Tools", url: absoluteUrl("/tools") },
+      { "@type": "SiteNavigationElement", position: 7, name: "Schools", url: absoluteUrl("/schools") },
+      { "@type": "SiteNavigationElement", position: 8, name: "Neighbourhoods", url: absoluteUrl("/neighbourhoods") },
+      { "@type": "SiteNavigationElement", position: 9, name: "Clubs", url: absoluteUrl("/clubs") },
+      { "@type": "SiteNavigationElement", position: 10, name: "Journeys", url: absoluteUrl("/journeys") },
+      { "@type": "SiteNavigationElement", position: 11, name: "Search", url: absoluteUrl("/search") },
+    ],
+  };
+}
+
+export function webPageJsonLd(input: {
+  title: string;
+  description: string;
+  path: string;
+  dateModified?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: input.title,
+    description: input.description,
+    url: absoluteUrl(input.path),
+    inLanguage: "en-SG",
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: getSiteUrl(),
+    },
+    ...(input.dateModified ? { dateModified: input.dateModified } : {}),
   };
 }
 
@@ -94,13 +139,37 @@ export function articleJsonLd(input: {
   datePublished?: string;
   authorName?: string;
   image?: string;
+  /** Optional CollectionPage this article belongs to (e.g. pillar hub). */
+  collection?: { name: string; path: string };
 }) {
+  const url = absoluteUrl(input.path);
+  const isPartOf: Array<Record<string, string>> = [
+    {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: getSiteUrl(),
+    },
+  ];
+  if (input.collection) {
+    isPartOf.push({
+      "@type": "CollectionPage",
+      name: input.collection.name,
+      url: absoluteUrl(input.collection.path),
+    });
+  }
+
   return {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: input.headline,
     description: input.description,
-    url: absoluteUrl(input.path),
+    url,
+    inLanguage: "en-SG",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+    isPartOf,
     dateModified: input.dateModified,
     datePublished: input.datePublished ?? input.dateModified,
     image: input.image

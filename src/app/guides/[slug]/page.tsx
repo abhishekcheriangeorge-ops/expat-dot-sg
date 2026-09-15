@@ -76,6 +76,10 @@ export default async function GuidePage({ params }: GuidePageProps) {
             path: `/guides/${slug}`,
             dateModified: guide.meta.lastReviewed,
             image: guide.meta.ogImage,
+            collection: {
+              name: PILLAR_LABELS[guide.meta.pillar],
+              path: `/${guide.meta.pillar}`,
+            },
           }),
           breadcrumbJsonLd(crumbs),
         ]}

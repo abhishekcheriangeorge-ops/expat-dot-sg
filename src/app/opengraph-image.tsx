@@ -61,7 +61,7 @@ export default function OpenGraphImage() {
               fontFamily: "system-ui, sans-serif",
             }}
           >
-            Guides · Directories · Journeys
+            Guides · Tools · Schools · Journeys
           </div>
         </div>
       </div>

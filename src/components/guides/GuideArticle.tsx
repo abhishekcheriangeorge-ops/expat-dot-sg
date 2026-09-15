@@ -6,6 +6,7 @@ import type { SponsorPlacement } from "@/lib/content/schemas";
 import type { TocItem } from "@/lib/content/toc";
 import { Breadcrumbs } from "@/components/seo";
 import { GuideCitations } from "./GuideCitations";
+import { GuideHubLinks } from "./GuideHubLinks";
 import { GuideMetaBar } from "./GuideMetaBar";
 import { GuideRelated } from "./GuideRelated";
 import { GuideRelatedEntities } from "./GuideRelatedEntities";
@@ -63,6 +64,7 @@ export function GuideArticle({
             <GuideCitations citations={meta.citations} />
             <GuideRelatedEntities entities={relatedEntities} />
             <GuideRelated guides={related} />
+            <GuideHubLinks pillar={meta.pillar} />
           </div>
         </div>
 

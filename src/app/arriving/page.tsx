@@ -1,14 +1,30 @@
 import type { Metadata } from "next";
 import { ModeHub } from "@/components/modes/ModeHub";
-import { buildPageMetadata } from "@/lib/seo";
+import { JsonLd } from "@/components/seo";
+import { buildPageMetadata, webPageJsonLd } from "@/lib/seo";
+
+const title = "Arriving";
+const description =
+  "Deciding, packing, and the first 90 days in Singapore — visas, housing, banking, and the runway that keeps the move sane.";
+const path = "/arriving";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Arriving",
-  description:
-    "Deciding, packing, and the first 90 days in Singapore — visas, housing, banking, and the runway that keeps the move sane.",
-  path: "/arriving",
+  title,
+  description,
+  path,
 });
 
 export default function ArrivingPage() {
-  return <ModeHub mode="arriving" />;
+  return (
+    <>
+      <JsonLd
+        data={webPageJsonLd({
+          title,
+          description,
+          path,
+        })}
+      />
+      <ModeHub mode="arriving" />
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { SiteShell } from "@/components/layout";
+import { JsonLd } from "@/components/seo";
 import { fontDisplay, fontSans } from "@/lib/fonts";
 import {
   DEFAULT_OG_PATH,
@@ -7,6 +8,7 @@ import {
   SITE_NAME,
   SITE_TAGLINE,
   getSiteUrl,
+  siteNavigationJsonLd,
 } from "@/lib/seo";
 import "./globals.css";
 
@@ -65,6 +67,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${fontDisplay.variable} ${fontSans.variable} h-full`}
     >
       <body className="flex min-h-full flex-col antialiased">
+        <JsonLd data={siteNavigationJsonLd()} />
         <SiteShell>{children}</SiteShell>
       </body>
     </html>
