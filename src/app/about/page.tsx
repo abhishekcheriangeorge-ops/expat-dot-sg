@@ -85,11 +85,10 @@ export default function AboutPage() {
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
               EP job-loss → spouse LTVP bridges, Right of Entry for under-21
               dual-passport SCs, citizenship confirmation letters,
-              REP passport transfers, foreign probate resealing for
-              Singapore banks, EP passport update before travel, FDW
-              cancellation when leaving, EP renewal NOA asks, pass
-              cancellations) are checked against live ICA / MOM / MHA text
-              before we ship.
+              REP passport transfers, PR name-change passport-first,
+              lost NRIC overseas return, graduate LTVP IHL / renewal
+              edges, EP renewal NOA asks, pass cancellations) are
+              checked against live ICA / MOM / MHA text before we ship.
             </li>
             <li>
               Directories for neighbourhoods, schools, clubs, and services —

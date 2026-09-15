@@ -182,6 +182,16 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
+        label: "Travel before the pass card",
+        href: "/guides/travel-before-work-pass-card",
+        blurb: "IPA ≠ travel doc; finish issuance before JB hops.",
+      },
+      {
+        label: "EP probation & resignation notice",
+        href: "/guides/ep-probation-resignation-notice",
+        blurb: "Contract notice ≠ MOM cancel date; DP falls with principal.",
+      },
+      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
@@ -329,6 +339,11 @@ export const pillars: Pillar[] = [
         label: "Tax residency & filing",
         href: "/guides/iras-tax-residency-filing",
         blurb: "IRAS rules, YA calendars, and clearance when you leave.",
+      },
+      {
+        label: "Relocation allowance tax",
+        href: "/guides/relocation-allowance-tax-singapore",
+        blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
       },
       {
         label: "Insurance landscape",
@@ -596,7 +611,7 @@ export const pillars: Pillar[] = [
       {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
-        blurb: "When MOM asks for NOA — reconcile salary with IRAS.",
+        blurb: "NOA vs IR8A — reconcile EP salary with IRAS before HR replies.",
       },
       {
         label: "Citizenship & NS",
@@ -606,7 +621,12 @@ export const pillars: Pillar[] = [
       {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
-        blurb: "Switching employers, industries, or going independent.",
+        blurb: "New employer files fresh pass — resign only after IPA.",
+      },
+      {
+        label: "Stay vs exit horizon",
+        href: "/guides/long-term-stay-vs-exit",
+        blurb: "Annual stay/leave review before school deposits and renewal.",
       },
       {
         label: "Between jobs — STVP",
@@ -619,21 +639,6 @@ export const pillars: Pillar[] = [
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
       },
       {
-        label: "FDW cancel on exit",
-        href: "/guides/fdw-cancellation-when-leaving-singapore",
-        blurb: "MDW Work Permit cancel, levy stop, bond — beside your IR21.",
-      },
-      {
-        label: "Foreign probate resealing",
-        href: "/guides/foreign-probate-resealing-singapore-banks",
-        blurb: "Singapore banks freeze until grant / reseal — not a foreign PDF.",
-      },
-      {
-        label: "EP passport update before travel",
-        href: "/guides/ep-passport-update-before-travel-singapore",
-        blurb: "Renew book → MOM EP eService particulars → then fly.",
-      },
-      {
         label: "PR rejected — appeal / reapply",
         href: "/guides/pr-rejection-reapply",
         blurb: "Official appeal e-Service only; reapply when profile changed.",
@@ -644,39 +649,24 @@ export const pillars: Pillar[] = [
         blurb: "Employer IR21 + withheld final pay — budget runway.",
       },
       {
-        label: "IR21 final pay / RSU freeze",
-        href: "/guides/ir21-final-pay-rsu-withholding-leaving",
-        blurb: "Withholding clocks, garden leave, deemed-exercise questions for HR.",
-      },
-      {
-        label: "Lost work pass overseas",
-        href: "/guides/lost-work-pass-overseas-reentry-letter",
-        blurb: "Same-day HR, SGWorkPass, MOM re-entry letter before you fly.",
-      },
-      {
-        label: "EP salary cut → DP/LTVP",
-        href: "/guides/ep-salary-cut-dp-ltvp-cascade-singapore",
-        blurb: "1-month MOM notify + SAT — cuts can revoke family passes.",
-      },
-      {
         label: "Transfer REP to new passport",
         href: "/guides/transfer-rep-new-passport",
         blurb: "New passport ≠ auto REP — ICA transfer before you fly.",
       },
       {
-        label: "Ship-out lift & deposits",
-        href: "/guides/shipping-out-condo-lift-deposit-singapore",
-        blurb: "MCST lift booking, move-out deposits, pack-out vs IR21 freeze.",
+        label: "PR name change — passport first",
+        href: "/guides/pr-name-change-passport-first-singapore",
+        blurb: "Foreign passport bio-page before ICA blue IC particulars.",
       },
       {
-        label: "PR appeal vs reapply evidence",
-        href: "/guides/pr-rejection-appeal-evidence-reapply-singapore",
-        blurb: "Appeal e-Service only — what belongs on appeal vs fresh file.",
+        label: "Lost NRIC overseas return",
+        href: "/guides/lost-nric-overseas-return-singapore",
+        blurb: "Report on ICA e-Service; missions cannot replace the card.",
       },
       {
-        label: "EP address / FWTES 5-day",
-        href: "/guides/ep-address-fwtes-five-day-clock-singapore",
-        blurb: "MOM 5-day address clock — landlord FWTES blockers ≠ eCOA.",
+        label: "Graduate LTVP IHL / renewal",
+        href: "/guides/graduate-ltvp-ihl-renewal-edges-singapore",
+        blurb: "IHL list gate, ~6-week clock, renewal with no leftover carry.",
       },
       {
         label: "After getting PR",
