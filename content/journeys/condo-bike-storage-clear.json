@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "condo-bike-storage-clear",
+  "title": "Condo bike bay / storage cage clear",
+  "summary": "Leaving a condo with bicycle bays, locker cages, and bulk-store rooms still holding kit — label returns, abandoned-item rules, and how storage clear collides with movers week and insurance portability cash.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-bays",
+      "title": "Inventory every bay, cage, and bulk store",
+      "body": "Condo bike racks, assigned locker cages, and bulk-store rooms often sit outside the unit handover checklist. Managing agents may treat unmarked bikes as abandoned after a notice period. Walk every assigned space the week you decide to leave — not the morning after keys are back.",
+      "bullets": [
+        "Photograph bay / cage numbers and any padlock serials",
+        "List items that belong to neighbours sharing a cage",
+        "Ask the management office for the published clear / abandon notice rules"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "label-return",
+      "title": "Return labels and deactivate apps",
+      "body": "Some estates issue bike-bay stickers or app QR for the cage door. Returning unit keys does not always deactivate storage access. Hand stickers back with a dated acknowledgement, and revoke cage-app logins before Singpass or SIM changes lock you out.",
+      "bullets": [
+        "Return physical bay stickers with a management receipt",
+        "Delete storage-app accounts tied to your FIN or email",
+        "Confirm whether a cage deposit is separate from the renovation deposit"
+      ],
+      "href": "/journeys/condo-visitor-qr-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with movers and insurance",
+      "body": "Bike-bay clear, cage empty, and mover lift booking often land in one fortnight. Sequence so bulky items leave before the service lift is fully booked for boxes, and so storage clear does not raid the insurance portability float you still need for gap weeks.",
+      "bullets": [
+        "Put cage clear, bike move, and lift booking on one family calendar",
+        "Sketch insurance portability cash on /tools/insurance-portability-float",
+        "Keep one adult free for management-office hours on clear week"
+      ],
+      "href": "/tools/insurance-portability-float"
+    },
+    {
+      "id": "abandoned-rules",
+      "title": "Abandoned-item and disposal fees",
+      "body": "Estates sometimes dispose of unmarked bikes after a posted notice window and bill the unit. Leaving a “we will collect later” note is not a hold. If a neighbour still uses a shared cage, get a written split of what stays before you fly.",
+      "bullets": [
+        "Ask for the estate’s abandoned-item notice period in writing",
+        "Do not leave a departing child’s bike unlabeled in a shared rack",
+        "Budget disposal fees if you cannot ship or sell in time"
+      ],
+      "href": "/journeys/mover-lift-booking"
+    },
+    {
+      "id": "insurance-edge",
+      "title": "Home contents vs bike cover edges",
+      "body": "Condo contents policies and separate bike cover often stop at key-handover or policy cancel — not when the cage is finally empty. If bikes move to temporary storage first, confirm whether transit or storage cover applies before you cancel the Singapore policy.",
+      "bullets": [
+        "Check whether cage items are still named on the contents schedule",
+        "Ask if temporary self-storage needs a rider before policy cancel",
+        "Sketch gap weeks on /tools/insurance-portability-float"
+      ],
+      "href": "/tools/insurance-portability-float"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: disposal vs insurance gap",
+      "body": "Disposal fees and insurance gap premiums are small next to IR21 withhold — but they hit while movers deposits are live. Keep a dedicated SGD float so a last-minute cage clear does not raid the portability pot.",
+      "bullets": [
+        "Total likely disposal / label fees before resignation week",
+        "Sketch insurance portability on /tools/insurance-portability-float",
+        "Pay management portals while Singapore cards and PayNow still work"
+      ],
+      "href": "/tools/insurance-portability-float"
+    }
+  ]
+}

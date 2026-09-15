@@ -10,6 +10,7 @@ export { FdwLevyCalculator } from "./FdwLevyCalculator";
 export { FibreBroadbandEtfCalculator } from "./FibreBroadbandEtfCalculator";
 export { ForeignLicenceClockCalculator } from "./ForeignLicenceClockCalculator";
 export { HdbRenoDepositCalculator } from "./HdbRenoDepositCalculator";
+export { InsurancePortabilityFloatCalculator } from "./InsurancePortabilityFloatCalculator";
 export { IpaWindowCalculator } from "./IpaWindowCalculator";
 export { Ir21WithholdCalculator } from "./Ir21WithholdCalculator";
 export { LeaseDutyCalculator } from "./LeaseDutyCalculator";

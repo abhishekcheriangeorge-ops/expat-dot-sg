@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, and clinic deposit exit.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, and insurance portability float.",
   path: "/tools",
 });
 
@@ -66,10 +66,10 @@ const tools = [
       "Sketch iPad / 1:1 device bond return vs damage holds and overdue fees — not handbook advice.",
   },
   {
-    href: "/tools/clinic-deposit-exit",
-    title: "Clinic deposit exit",
+    href: "/tools/insurance-portability-float",
+    title: "Insurance portability float",
     summary:
-      "Sketch GP / dental / specialist deposit return vs unused packages and no-show fees — not clinic advice.",
+      "Sketch extend-Singapore vs gap-bridge vs cancel-and-start costs for the weeks between policy cancel and destination cover.",
   },
 ] as const;
 
