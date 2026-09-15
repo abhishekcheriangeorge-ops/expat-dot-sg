@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "locksmith-home-security",
+  "name": "Locksmiths & home security (category guide)",
+  "summary": "24hr lockout quotes vs landlord key rules — digital lock installs in rentals, scam callouts, and when condo MA / police reports matter.",
+  "body": "Expat lockouts and digital-lock upgrades collide with tenancy rules: many TAs forbid changing cylinders without landlord consent, and condo MAs may restrict common-lobby access devices. 24-hour WhatsApp locksmiths are a classic bait-and-switch forum story — demand a written call-out fee, proof of company registration, and a second quote before night surcharges balloon. After a break-in, photograph damage, notify the landlord/MA, and file a police report before reimbursements. Digital locks and CCTV installs need power, Wi-Fi, and exit planning for deposit return. Distinct from handyman listings that cover general trades. This is a category guide, not a ranked locksmith list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Locked out — need vetted call-out vs scam quote",
+    "Want digital lock but TA / MA rules unclear",
+    "Break-in — need lock change plus police report path",
+    "Landlord key control vs tenant security upgrade dispute"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Singapore Police Force — Online police report",
+      "url": "https://www.police.gov.sg/Advisories/Crime/Online-Police-Report"
+    },
+    {
+      "label": "CEA — Renting guidance",
+      "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+    }
+  ],
+  "relatedGuides": [
+    "security-deposit-diplomatic-clause",
+    "renting-process-loi-ta-deposits",
+    "scams-singpass-phishing-expats",
+    "condo-noise-mcst-neighbours"
+  ],
+  "featured": false,
+  "sponsored": false
+}

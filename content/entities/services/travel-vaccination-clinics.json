@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "travel-vaccination-clinics",
+  "name": "Travel vaccination clinics (category guide)",
+  "summary": "Yellow fever / Hep A / typhoid before leave — travel clinics vs polyclinic, certificate timing, and why childhood schedules are a different product.",
+  "body": "Regional weekends and home-leave trips drive last-minute vaccine panic. Dedicated travel clinics stock yellow-fever and less-common vaccines and issue certificates; polyclinics cover many routine adult boosters cheaper for eligible residents, while foreigners often pay private rates either way. Book far enough ahead for multi-dose courses; some destinations want certificates dated within a window. Bring your vaccine record and destination list — ‘Asia package’ shots are not one-size. Corporate outpatient riders may exclude travel medicine entirely. Distinct from childhood vaccination guides for school entry. This is a category guide, not a ranked travel-clinic list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need yellow fever or destination-specific vaccines before travel",
+    "Comparing travel clinic vs polyclinic booster options",
+    "Multi-dose schedule timing before a fixed flight",
+    "Outpatient rider may exclude travel medicine"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Vaccinations",
+      "url": "https://www.moh.gov.sg/ownyourhealth/healthy-living/vaccinations/"
+    },
+    {
+      "label": "ICA / yellow fever context — Travellers",
+      "url": "https://www.ica.gov.sg/"
+    },
+    {
+      "label": "WHO — International travel and health",
+      "url": "https://www.who.int/travel-advice"
+    }
+  ],
+  "relatedGuides": [
+    "childhood-vaccination-foreigners",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa",
+    "passports-and-documents-overseas"
+  ],
+  "featured": false,
+  "sponsored": false
+}

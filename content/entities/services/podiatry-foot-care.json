@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "podiatry-foot-care",
+  "name": "Podiatry & foot care (category guide)",
+  "summary": "AHPC podiatrists vs ‘foot spa’ upsells — running injuries, diabetic foot risk, custom orthotics quotes, and when physio should lead instead.",
+  "body": "Podiatrists (AHPC-registered) assess foot and lower-limb biomechanics, nails, and wounds; they are not the same as beauty foot spas or unregistered ‘orthotic’ stalls. Runners and expat desk workers often bounce between physio and podiatry — ask who owns gait analysis, whether custom orthotics are cast after a diagnosis, and the remake policy if pain continues. Public hospital podiatry exists for medical need; foreigners pay full fees, so private clinics sell speed. Insurers may reimburse allied-health visits under a shared outpatient bucket with physio — check remaining caps. Pair with sports/fitness guides for training-load context. This is a category guide, not a ranked clinic list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Running / standing foot pain — podiatry vs physio unclear",
+    "Quoted custom orthotics before a written assessment",
+    "Need AHPC registration check on a WhatsApp clinic",
+    "Outpatient allied-health caps shared with physio"
+  ],
+  "officialLinks": [
+    {
+      "label": "AHPC — Allied health registers",
+      "url": "https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "sports-fitness-singapore",
+    "hobby-sports-communities-singapore",
+    "wica-work-injury-compensation-ep"
+  ],
+  "featured": false,
+  "sponsored": false
+}

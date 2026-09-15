@@ -1,0 +1,41 @@
+{
+  "type": "service",
+  "slug": "psychiatry-medication",
+  "name": "Psychiatry & medication (category guide)",
+  "summary": "Psychiatrist vs psychologist/counsellor — private fee bands, prescription continuity for expats, and confidentiality myths that keep people from booking.",
+  "body": "Psychiatrists are medical doctors who diagnose and prescribe; psychologists and counsellors provide therapy and do not replace medication management when that is indicated. Expat threads often chase ‘private so it stays off a public record’ — clinical records are confidential either pathway, but private clinics trade higher cash fees (often low-to-mid hundreds SGD per consult in forum quotes) for shorter waits and easier English continuity. Bring overseas scripts and HSA import paperwork; stimulant / controlled meds need a local prescribing plan before the suitcase supply runs out. Group outpatient riders frequently carve psychiatry or cap sessions — get the schedule in writing. Distinct from mental-health counselling category listings that cover therapy shopping. This is a category guide, not a ranked psychiatrist list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need medication review / ADHD or mood diagnosis path",
+    "Overseas controlled meds need Singapore prescribing continuity",
+    "Comparing private psychiatry fees vs public wait",
+    "Outpatient rider may carve psychiatry sessions"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Mental health services",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
+    },
+    {
+      "label": "HSA — Bringing personal medication into Singapore",
+      "url": "https://www.hsa.gov.sg/consumer-safety/bringing-personal-medication-into-singapore"
+    }
+  ],
+  "relatedGuides": [
+    "mental-health-resources",
+    "teen-mental-health-school-counselling-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa",
+    "kids-adhd-medication-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

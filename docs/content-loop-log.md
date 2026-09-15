@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 10 — 2026-09-15
+
+Branch: `cursor/services-directory-tick10-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every existing service JSON on main is already in open F stack touch sets (#70/#75/#86/#95/#103); this tick ships five net-new category guides only.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ophthalmologist / dry-eye vs optometry triage ([ophthalmologist ask](https://www.reddit.com/r/askSingapore/comments/1k53cwc/can_any1_suggest_a_good_ophthalmologist/); [dry eyes ophthalmologist](https://www.reddit.com/r/askSingapore/comments/1sp2xb8/dry_eyes_ophthalmologistdoctor/)).
+- r/askSingapore — private psychiatry fees / confidentiality myths ([private psychiatrist](https://www.reddit.com/r/askSingapore/comments/1rhv1fx/recommended_private_psychiatrist/); [psychiatrist update](https://www.reddit.com/r/askSingapore/comments/1515bx6/updateish_recommendations_for_private_psychiatrist/); [Singapore psychiatrist](https://www.reddit.com/r/askSingapore/comments/12div5q/singapore_psychiatrist/)).
+- Podiatry / orthotics vs physio adjacency in sports-injury threads; locksmith call-out scam heat adjacent to rental security; travel-vaccine last-minute heat before leave.
+
+**Official**
+
+- [SNEC](https://www.snec.com.sg/) + [SMC register](https://www.smc.gov.sg/pages/registers.aspx) + [MOH mental health services](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/) + [HSA personal medication](https://www.hsa.gov.sg/consumer-safety/bringing-personal-medication-into-singapore).
+- [AHPC allied health registers](https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/).
+- [CASE](https://www.case.org.sg/) + [SPF online police report](https://www.police.gov.sg/Advisories/Crime/Online-Police-Report) + [CEA renting](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/).
+- [MOH vaccinations](https://www.moh.gov.sg/ownyourhealth/healthy-living/vaccinations/) + [WHO travel health](https://www.who.int/travel-advice).
+
+### Gaps vs open F stack
+
+Open #70→#75→#86→#95→#103 already cover pedia/IVF/therapy/preschool/TCM, eldercare/AEIS/ambulance/funeral/cleaning, screening/derm/O&G/trades/laundry, imaging/ENT/gym/utilities/photos, and allergy/adult braces/bikes/MCST/sleep — and their upgrades touch every remaining on-main service file. Free surface for tick 10: **ophthalmology (≠ optical)**, **psychiatry/medication (≠ counselling)**, **podiatry**, **locksmith/home security**, **travel vaccination clinics**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/ophthalmology-eye-specialists.json`
+- `content/entities/services/psychiatry-medication.json`
+- `content/entities/services/podiatry-foot-care.json`
+- `content/entities/services/locksmith-home-security.json`
+- `content/entities/services/travel-vaccination-clinics.json`
+
+**Upgrades:** none (avoid set exhausted on-main files).
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 / #75 / #86 / #95 / #103 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Is dry eye an optometrist problem or ophthalmology?
+2. Will SNEC foreigner fees beat private eye clinics?
+3. Psychiatrist or counsellor first for medication?
+4. Do private psychiatry visits stay ‘off record’?
+5. Podiatry or physio for runner’s foot pain?
+6. Are custom orthotics refundable if they fail?
+7. How do I avoid locksmith call-out bait-and-switch?
+8. Can tenants fit a digital lock without landlord consent?
+9. Travel clinic or polyclinic for Hep A / typhoid?
+10. Does outpatient cover travel vaccines?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 13)
 
 Branch: `loop/story-aeo-tick13` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#77 H9 merge). Avoided open merge-controller file sets (#69 H10, #73 H11, #82 H12). Prefer merge order **#69 → #73 → #82** before this lands. No ads / monetization; no Grok copy.

@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "ophthalmology-eye-specialists",
+  "name": "Ophthalmology / eye specialists (category guide)",
+  "summary": "Optometrist vs ophthalmologist triage — SNEC foreigner fees, private dry-eye upsells, and when red-eye needs a medical specialist not a new pair of glasses.",
+  "body": "Mall optometry fixes refraction; ophthalmology treats disease (cornea, retina, glaucoma, persistent red-eye, sudden vision change). Forum dry-eye threads repeatedly warn that lubricants alone may stall while blepharitis or meibomian disease needs a medical eye doctor — SNEC / public pathways are slower for foreigners paying full fees, so private specialists buy calendar speed, not subsidy. Ask SMC Ophthalmology registration, which hospital the doctor operates at, and whether IPL / punctal-plug packages are diagnosis-led or brochure-led. Corporate outpatient riders often reimburse specialist consults only with GP referral and may carve ‘vision correction’ differently from medical eye disease — read the schedule before a scan deposit. Distinct from optical / optometry category listings. This is a category guide, not a ranked eye-surgeon list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Persistent red-eye / dry-eye beyond drops — need ophthalmology",
+    "Sudden vision change or contact-lens complications",
+    "Comparing SNEC foreigner wait vs private specialist fees",
+    "Insurer referral rules for eye specialist unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore National Eye Centre",
+      "url": "https://www.snec.com.sg/"
+    },
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
