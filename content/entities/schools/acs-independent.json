@@ -3,14 +3,14 @@
   "slug": "acs-independent",
   "name": "ACS (Independent)",
   "summary": "Leading Methodist independent school with IB Diploma and IP options.",
-  "body": "ACS (Independent) offers IP and IB Diploma routes within the local independent sector. Popular among families eligible for local schools who still want IB. Distinct from ACS International — confirm which ACS entity you mean in conversations. Ask how orientation week half-days and parent briefings are scheduled for dual-career households, and whether PH observance matches the campus calendar.",
+  "body": "ACS (Independent) offers IP and IB Diploma routes within the local independent sector. Popular among families eligible for local schools who still want IB. Distinct from ACS International \u2014 confirm which ACS entity you mean in conversations. Ask how orientation week half-days and parent briefings are scheduled for dual-career households, and whether PH observance matches the campus calendar. CAS/service evenings and UTI return weeks both need named dual-career owners \u2014 ask how evening service events are scheduled against bus cutoffs.",
   "curriculum": [
     "MOE",
     "IP",
     "IB DP"
   ],
   "sector": "local",
-  "ages": "Secondary–JC equivalent",
+  "ages": "Secondary\u2013JC equivalent",
   "neighbourhood": "clementi-west-coast",
   "campus": "Dover",
   "languages": [
@@ -20,5 +20,9 @@
   "waitlistNotes": "Eligibility and posting rules apply.",
   "website": "https://www.acsindep.moe.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-cas-service-evening-ops-dual-career-singapore",
+    "dual-career-kids-uti-school-return-coverage-singapore"
+  ]
 }

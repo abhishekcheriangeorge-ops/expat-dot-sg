@@ -3,21 +3,25 @@
   "slug": "nus-high",
   "name": "NUS High School of Math and Science",
   "summary": "Specialised independent school for mathematically and scientifically gifted students.",
-  "body": "NUS High is a specialised pathway for students with exceptional STEM aptitude. Admissions are selective and aptitude-based. Relevant as landscape knowledge for families whose children may qualify — not a general international alternative. Ask how lost-property windows and parent-portal permission slips are communicated to dual-career households — notification lead times matter more than brochure tours.",
+  "body": "NUS High is a specialised pathway for students with exceptional STEM aptitude. Admissions are selective and aptitude-based. Relevant as landscape knowledge for families whose children may qualify \u2014 not a general international alternative. Ask how lost-property windows and parent-portal permission slips are communicated to dual-career households \u2014 notification lead times matter more than brochure tours. STEM-heavy calendars still collide with climbing-gym waits \u2014 dual-career households should separate viewing-bench hellos from CAS evidence nights.",
   "curriculum": [
     "Specialised STEM",
     "NUS High diploma"
   ],
   "sector": "local",
-  "ages": "Secondary–JC equivalent",
+  "ages": "Secondary\u2013JC equivalent",
   "neighbourhood": "clementi-west-coast",
   "campus": "Clementi",
   "languages": [
     "English"
   ],
   "feesBand": "Specialised independent",
-  "waitlistNotes": "Selection tests and interviews — prepare early.",
+  "waitlistNotes": "Selection tests and interviews \u2014 prepare early.",
   "website": "https://www.nushigh.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "climbing-gym-waiting-parent-belonging-singapore",
+    "international-school-cas-service-evening-ops-dual-career-singapore"
+  ]
 }
