@@ -10,5 +10,20 @@
   ],
   "website": "https://www.smg.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Need faster specialist access than public waits",
+    "Cash-pay paediatric continuity while comparing vaccine fees",
+    "Mental-health referral needs insurer carve-out check"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Guide to dental treatment costs",
+      "url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "dental-care-foreigners-singapore"
+  ]
 }

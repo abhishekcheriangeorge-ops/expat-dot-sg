@@ -10,5 +10,19 @@
   ],
   "website": "https://www.nation.com.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Need agency support for SIP + six-monthly medicals",
+    "Comparing replacement policy vs Comfort / DIY",
+    "Levy concession traps for foreign kids unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM — Work Permit for FDW",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker"
+    }
+  ],
+  "relatedGuides": [
+    "hiring-domestic-helper-mdw"
+  ]
 }

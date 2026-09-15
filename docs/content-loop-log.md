@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop F — Services directory depth — 2026-09-15
+
+Branch: `loop/services-directory` → PR to `main`. Owns **services directory** entities + service detail UI fields only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — tax agents / IR21 / ESOP filing ([tax accountant worth it](https://www.reddit.com/r/askSingapore/comments/l965lj/tax_accountant_singapore_worth_it/); [expat income tax](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/); [ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [IR21 withhold explain](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [left after EP cancel + overdue tax](https://www.reddit.com/r/askSingapore/comments/1r8ztij/left_singapore_after_ep_cancellation_may_2024_and/)).
+- r/askSingapore — dental foreigner fees / polyclinic path ([wisdom tooth EP MediSave myth](https://www.reddit.com/r/askSingapore/comments/1on4gnd/wisdom_tooth_extraction_as_a_foreigner/); [dentist via polyclinic](https://www.reddit.com/r/askSingapore/comments/1tvfr6l/is_seeing_a_dentist_via_polyclinic_possible/); [public dental route](https://www.reddit.com/r/askSingapore/comments/rga3uj/how_to_receive_dental_treatment_via_the_public/)).
+- r/askSingapore — notary / apostille / LTVP translation quotes ([US form notarize](https://www.reddit.com/r/askSingapore/comments/1qgzuba/need_to_get_a_usa_institutions_form_notarized/); [LTVP translation cost](https://www.reddit.com/r/askSingapore/comments/1rff1fu/translation_of_documents_for_ltvp/)).
+- r/askSingapore — movers + self-storage / condo lift deposits ([mover with storage](https://www.reddit.com/r/askSingapore/comments/1rvaxn6/mover_with_storage_recommendations/); [condo move deposit](https://www.reddit.com/r/askSingapore/comments/1uf6vp6/deposit_for_moving_into_condo/); [lift padding fee](https://www.reddit.com/r/askSingapore/comments/18lse0i/condo_manager_charging_for_lift_padding/); [padding responsibility](https://www.reddit.com/r/askSingapore/comments/1l3vp58/condo_lift_padding_whose_responsible_to_install/)).
+- r/askSingapore — immigration counsel adjacency (PR rejection / agency myths — reinforce category-guide honesty, not ranked firms) ([PR rejection advice](https://www.reddit.com/r/askSingapore/comments/1d4mbr2/rejected_pr_application_seeking_advice/); [agencies caution](https://www.reddit.com/r/askSingapore/comments/1sx0502/considering_applying_for_singapore_pr_after_only/)).
+
+**Official**
+
+- [IRAS — Tax agents](https://www.iras.gov.sg/quick-links/tax-agents) + [tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + [tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency) + [Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence).
+- [MOH — Guide to dental treatment costs](https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/).
+- [SAL — Notaries Public directory](https://legalisation.sal.sg/Directory) + [legalisation FAQ](https://legalisation.sal.sg/Faq).
+- [AVS — Importing dogs and cats](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/) + [recognised pet agents / CAPQ](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/general-information/).
+- [Singapore Customs — moving to Singapore / GST relief](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/).
+- [CEA — Public register](https://www.cea.gov.sg/public-register/) + [MOM FDW / SIP](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker).
+
+### Gaps vs prior directory state
+
+Directory had movers, clinics, agents, FDW, tutors, insurance, legal stubs, and telecom “other” — but **no tax category**, thin practical fields (no engage-when / official links / related guides on detail UI), and missing high-intent category guides for **dental**, **notary/apostille**, **self-storage**, and **pet relocation** (AVS agent rule). Existing brand listings were summary-only.
+
+### Shipped this loop
+
+**Schema + UI**
+
+- `src/lib/content/schemas.ts` — `tax` category; `whenToEngage`, `officialLinks`, `relatedGuides` on services
+- `src/app/directory/[category]/[slug]/page.tsx` — render engage-when chips, related guides, official source links
+
+**New service entities**
+
+- `content/entities/services/tax-agents.json`
+- `content/entities/services/dental-care.json`
+- `content/entities/services/notary-apostille.json`
+- `content/entities/services/self-storage.json`
+- `content/entities/services/pet-relocation.json`
+
+**Upgraded all 18 existing service entities** with whenToEngage + officialLinks + relatedGuides (immigration, family law, movers, clinics, agents, FDW, telecom, tutors, insurance).
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion (existing sponsored flags left as-is).
+- No Grok / third-party clone copy.
+- Did not edit neighbourhoods, schools, clubs, or pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. Do I need a tax accountant for a simple Singapore salary year?
+2. Who files IR21 — me or my employer — and why is final pay withheld?
+3. How do I declare ESOP/RSU gains when there is no local IR8A entity?
+4. As an EP holder, can I use MediSave for wisdom-tooth surgery?
+5. Is polyclinic dental usable for foreigners, and what do referrals cost?
+6. Where do I find a Singapore notary / apostille for a US form?
+7. Why are overseas LTVP translation+apostille quotes thousands of dollars?
+8. Which movers also offer self-storage for a reno / lease gap?
+9. Who pays the condo lift-padding fee and damage deposit?
+10. Do I need an AVS-recognised pet agent for CAPQ clearance (esp. from Apr 2026)?
+11. Should I hire an immigration agency for a first PR application?
+12. When is immigration counsel worth it vs employer-led EP filing?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 21 — 2026-09-15
 
 Branch: `loop/home-life-t21e` (rebase of #17 onto latest main) → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
