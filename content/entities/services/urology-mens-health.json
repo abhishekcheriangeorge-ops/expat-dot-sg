@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "urology-mens-health",
+  "name": "Urology & men’s health (category guide)",
+  "summary": "Stones, LUTS, ED / hormones — GP first vs private urology, cash clinic upsells, and foreigner fee honesty at public hospitals.",
+  "body": "Urology covers stones, infections, prostate / LUTS, and many men’s-health hormone pathways; not every ED thread needs a private ‘men’s clinic’ package. Start with a GP for urine tests and basic bloods; escalate to SMC-registered Urology when imaging, procedures, or specialist meds are on the table. Public hospital private-patient routes exist; foreigners pay full fees. Boutique men’s clinics often bundle TRT / ED meds — demand labs, contraindications, and written follow-up before recurring subscriptions. Group outpatient riders may carve sexual-health or hormone therapies. Distinct from fertility/IVF listings. Category guide, not a ranked urologist list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Stones / LUTS / recurrent UTI — need urology path",
+    "Men’s-clinic TRT / ED package before labs",
+    "Comparing public-private urology fees as a foreigner",
+    "Outpatient rider may exclude sexual-health therapies"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "SGH — Urology",
+      "url": "https://www.sgh.com.sg/patient-care/specialties-services/urology"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

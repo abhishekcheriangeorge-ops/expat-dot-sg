@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "swimming-lessons-coaches",
+  "name": "Swimming lessons & coaches (category guide)",
+  "summary": "Condo vs ActiveSG vs private coach — kid learn-to-swim packages, adult lanes, and hard-sell multi-term contracts.",
+  "body": "Expat families default to condo pool coaches or mall aquatics academies; adults often want stroke correction in crowded public lanes. Compare ActiveSG / public pool programmes against private 1-to-1 rates, and ask whether the coach is engaged by the condo management or freelancing (liability and access rules differ). Kid packages commonly pre-sell term blocks — get make-up lesson policy, coach-substitution rules, and cooling-off language in writing. Private hotel or club pools may restrict non-member lessons. Distinct from gym/PT membership hard-sells and from school PE. Category guide, not a ranked swim-school list.",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Kid learn-to-swim — condo coach vs academy package",
+    "Adult stroke correction — public lane vs private coach",
+    "Multi-term swim package make-up rules unclear",
+    "Condo / club pool access rules for external coaches"
+  ],
+  "officialLinks": [
+    {
+      "label": "ActiveSG — Swimming",
+      "url": "https://www.activesgcircle.gov.sg/"
+    },
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "sports-fitness-singapore",
+    "hobby-sports-communities-singapore",
+    "music-arts-communities-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

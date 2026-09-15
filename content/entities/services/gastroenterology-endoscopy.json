@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "gastroenterology-endoscopy",
+  "name": "Gastroenterology & endoscopy (category guide)",
+  "summary": "IBS / reflux / scopes — GP vs private gastro triage, foreigner fee honesty, and how package endoscopy quotes hide sedation and histology add-ons.",
+  "body": "Chronic bloating, reflux, and ‘just get a scope’ forum advice send expats straight to private gastro clinics. Start with whether a GP work-up (H. pylori, bloods, lifestyle) is enough before endoscopy; functional IBS pathways differ from alarm-feature work-ups. Public hospital gastro as a private patient lets you pick a consultant with shorter waits than subsidised queues — foreigners pay full fees either public-private or fully private. Package gastroscopy/colonoscopy quotes often exclude sedation upgrades, polyp histology, and follow-up consults — get the line items. Corporate hospitalisation riders may cover day-surgery scopes with pre-auth while outpatient consults sit in a separate bucket. Distinct from TCM digestive listings. This is a category guide, not a ranked gastro clinic list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Chronic reflux / IBS — GP vs gastro timing unclear",
+    "Quoted endoscopy package — sedation / histology extras opaque",
+    "Comparing public-private consultant path vs fully private clinic",
+    "Need insurer pre-auth rules for day-surgery scope"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "Singapore General Hospital — Gastroenterology",
+      "url": "https://www.sgh.com.sg/patient-care/specialties-services/gastroenterology-and-hepatology"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

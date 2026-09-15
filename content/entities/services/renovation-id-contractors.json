@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "renovation-id-contractors",
+  "name": "Renovation & interior design contractors (category guide)",
+  "summary": "HDB/condo reno permits, ID vs contractor scopes, deposit traps, and why tenant ‘light reno’ still needs landlord / MA sign-off.",
+  "body": "Expat owners and long-stay tenants hit the same Reno pain: vague ID packages, milestone payment fights, and estate rules. Confirm whether you need HDB renovation permits, condo MA/MCST endorsement, or landlord consent before any hacking, wet-work, or balcony sealing. Separate design fees from main-con build quotes; demand a written schedule of works, variation-order rules, and retention sums. CASE threads warn about large upfront deposits with thin contracts — keep photos and WhatsApp change orders. Tenants: cosmetic painting and lighting still risk deposit deductions without written approval. Pair with furnishing and rental-inventory guides. Distinct from handyman call-outs for single trades. Category guide, not a ranked ID firm list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need HDB / condo reno permit path before kicking off",
+    "ID package deposit large vs thin written scope",
+    "Tenant light reno — landlord / MA approval unclear",
+    "Variation-order / retention terms missing from quote"
+  ],
+  "officialLinks": [
+    {
+      "label": "HDB — Renovation",
+      "url": "https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/renovation"
+    },
+    {
+      "label": "BCA — Building works / permits context",
+      "url": "https://www1.bca.gov.sg/"
+    },
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "security-deposit-diplomatic-clause",
+    "condo-noise-mcst-neighbours"
+  ],
+  "featured": false,
+  "sponsored": false
+}

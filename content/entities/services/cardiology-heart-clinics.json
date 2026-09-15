@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "cardiology-heart-clinics",
+  "name": "Cardiology / heart clinics (category guide)",
+  "summary": "Chest-pain triage vs executive heart screens — ECG/echo package upsells, SMC cardiology checks, and when A&E beats a boutique clinic.",
+  "body": "Forum ‘heart clinic’ asks mix true chest-pain urgency with wellness ECG packages. Red-flag chest pain, breathlessness, or syncope is A&E territory first — not a next-week private slot. Stable risk-factor work-ups (BP, lipids, family history) can start with a GP before cardiology referral. Private heart centres sell speed and same-day echo; foreigners pay unsubsidised public rates too, so price the consult + tests, not the brand lobby. Executive ‘heart screens’ overlap health-screening products — ask which tests a cardiologist would actually order for your age/risk. Insurers often need referral + pre-auth for stress tests and angiograms. Verify SMC Cardiology registration. Distinct from GP clinic networks and general health-screening guides. Category guide, not a ranked heart-centre list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Stable risk factors — GP vs cardiology referral unclear",
+    "Quoted executive heart screen vs targeted cardiology tests",
+    "Need SMC cardiology check before a package deposit",
+    "Insurer pre-auth for echo / stress test unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "National Heart Centre Singapore",
+      "url": "https://www.nhcs.com.sg/"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa",
+    "emergencies-995-999-embassies"
+  ],
+  "featured": false,
+  "sponsored": false
+}

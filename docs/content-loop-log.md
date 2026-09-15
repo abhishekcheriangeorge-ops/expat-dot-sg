@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 11 — 2026-09-15
+
+Branch: `cursor/services-directory-tick11-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109); this tick ships five net-new category guides only.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — gastroenterologist / endoscopy / chronic gastritis ([endoscopy IBS](https://www.reddit.com/r/askSingapore/comments/1p9o76y/good_gastroenterology_doctor_for_endoscopy_and/); [gastritis gastro/TCM](https://www.reddit.com/r/askSingapore/comments/1efpnde/good_gastroenterologisttcm_for_chronic_gastritis/); [gastro specialist](https://www.reddit.com/r/askSingapore/comments/lwpu2f/recommendation_for_gastroenterologist_specialist/)).
+- r/askSingapore — urologist / men’s health ([urologist suggestions](https://www.reddit.com/r/askSingapore/comments/1boxbr8/need_some_suggestions_on_good_urologist_in/)).
+- r/askSingapore — heart clinic recommendations ([heart clinic](https://www.reddit.com/r/askSingapore/comments/orwjdy/heart_clinic_recommendation/)).
+- Renovation / ID contractor deposit and permit heat adjacent to condo MA and rental furnishing threads; swim-coach package heat adjacent to sports/fitness communities.
+
+**Official**
+
+- [SMC register](https://www.smc.gov.sg/pages/registers.aspx) + [MOH find a facility](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/) + [SGH Gastroenterology](https://www.sgh.com.sg/patient-care/specialties-services/gastroenterology-and-hepatology) + [NHCS](https://www.nhcs.com.sg/) + [SGH Urology](https://www.sgh.com.sg/patient-care/specialties-services/urology).
+- [HDB renovation](https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/renovation) + [CASE](https://www.case.org.sg/).
+- [ActiveSG](https://www.activesgcircle.gov.sg/) + [Sport Singapore](https://www.sportsingapore.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#109 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 11: **gastroenterology/endoscopy**, **cardiology**, **urology/men’s health**, **renovation/ID contractors**, **swimming lessons/coaches**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/gastroenterology-endoscopy.json`
+- `content/entities/services/cardiology-heart-clinics.json`
+- `content/entities/services/urology-mens-health.json`
+- `content/entities/services/renovation-id-contractors.json`
+- `content/entities/services/swimming-lessons-coaches.json`
+
+**Upgrades:** none (avoid set exhausted on-main files).
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 / #75 / #86 / #95 / #103 / #109 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Do I need endoscopy for chronic bloating or start with a GP?
+2. What extras hide inside ‘package’ gastroscopy quotes?
+3. Executive heart screen or targeted cardiology tests?
+4. Chest pain — boutique heart clinic or A&E first?
+5. Men’s clinic TRT package before labs — red flag?
+6. Public-private urology fees for foreigners?
+7. HDB reno permit before ID starts drawing?
+8. How big a reno deposit is too big without a schedule of works?
+9. Condo coach vs ActiveSG learn-to-swim?
+10. Are unused swim-term lessons refundable?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 16)
 
 Branch: `loop/story-aeo-tick16` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#69 H10, #73 H11, #82 H12, #84 H13, #87 H14, #93 H15). Prefer merge order **#69 → #73 → #82 → #84 → #87 → #93** before this lands. No ads / monetization; no Grok copy.
