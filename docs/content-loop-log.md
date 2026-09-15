@@ -6,6 +6,61 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 40 — 2026-09-15
+
+Branch: `cursor/services-directory-tick40-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#324); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F39 draft [#324](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/324).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Health threads — humid-climate eczema flares and mole checks.
+- Housing threads — sofa mildew smells after wet weeks.
+- Hobby threads — beginner photography walkabouts vs studio light.
+- Commute threads — wet-season bike punctures on PCNs.
+- Hearing threads — device trials in noisy open offices.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/) + [NEA](https://www.nea.gov.sg/).
+- [National Arts Council](https://www.nac.gov.sg/) + [NLB](https://www.nlb.gov.sg/).
+- [LTA](https://www.lta.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [AHPC](https://www.ahpc.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#324 cover prior depth and every on-main service file. Free surface for tick 40: **dermatology**, **deep sofa cleaning**, **photography classes**, **bicycle repair**, **hearing aids**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/dermatology-clinic.json`
+- `content/entities/services/sofa-cleaning-deep.json`
+- `content/entities/services/photography-classes.json`
+- `content/entities/services/bicycle-repair-shop.json`
+- `content/entities/services/hearing-aids.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#324 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Same-week derm slot for wet-season eczema flare?
+2. How long before sofa is truly dry in monsoon weather?
+3. Phone class enough before buying a mirrorless body?
+4. Puncture-resist setup worth it for daily PCN commute?
+5. How long should a hearing-aid trial cover real meetings?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 49 — 2026-09-15
 
 Branch: `cursor/home-life-tick49-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295/#301/#309 stay open for the merge controller — **did not** touch those PR paths. Topics: condo standby generator / ATS testing notices, ActiveSG athletics track, Kembangan Fringe / Bedok North West / Guillemard East. Tip confirmed as **#309** (Tick 48); opened next tip in parallel without waiting on merge.

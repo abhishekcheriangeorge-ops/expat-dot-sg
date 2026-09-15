@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "bicycle-repair-shop",
+  "name": "Bicycle repair shop",
+  "summary": "How expats use bicycle repair shops in Singapore — tune-ups after Park Connector rides, e-bike rules awareness, and flat-prone wet-season maintenance.",
+  "body": "Bike shops handle punctures, gear tunes, brake swaps, and fitting advice for PCN commuting. Wet-season flats and rusty chains are common. E-bike and PMD rules are separate — shops can advise but LTA rules still govern what you ride.\n\n## Typical jobs\n- Puncture repair and puncture-resist setups\n- Gear / brake tunes after rain commuting\n- Bike fit basics for new frames\n- Child seat and trailer installs\n- Folding-bike hinge and wheel service\n\nAsk about turnaround before Monday commuting needs.\n\n## How to choose\nPrefer shops that road-test gears after service and show worn pads/chains before replacing. Confirm parts brands and warranty. For e-bikes, ask whether they service your specific system.\n\n## Practical tip\nPhoto the drivetrain and note recent noises before drop-off. Vague “it clicks sometimes” diagnoses waste a service slot.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.lta.gov.sg/",
+  "whenToEngage": [
+    "Puncture / gear tune after wet-season rides",
+    "New commute bike needs basic fit",
+    "Child seat or folding-bike service",
+    "E-bike service compatibility unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Land Transport Authority",
+      "url": "https://www.lta.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "car-ownership-vs-sharing-singapore",
+    "sports-fitness-singapore",
+    "hobby-sports-communities-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

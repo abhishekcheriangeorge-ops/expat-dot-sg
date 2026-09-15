@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "hearing-aids",
+  "name": "Hearing aids",
+  "summary": "How expats navigate hearing aids in Singapore — audiology assessments, device trials, workplace listening needs, and funding / insurance realities.",
+  "body": "Hearing aid pathways usually start with an audiologist assessment and medical clearance when indicated. Device choice depends on hearing loss pattern, work environments, and dexterity for maintenance — not only price tiers.\n\n## Decision points\n- Audiology assessment vs ENT workup first\n- RIC / BTE / custom form factors\n- Trial periods and fine-tuning visits\n- Streaming / meeting-room needs for office work\n- Warranty, batteries/recharge, and loss cover\n\nBring a partner to history-taking when possible.\n\n## How to choose\nPrefer clinics that publish trial lengths and include follow-up fitting visits. Ask about noisy-restaurant programmes and remote adjustments. Avoid pressure to buy same-day without a trial.\n\n## Practical tip\nTest devices in your real commute and meeting rooms during the trial — not only the quiet fitting room.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.ahpc.gov.sg/",
+  "whenToEngage": [
+    "Hearing difficulty needs audiology assessment",
+    "Hearing aid trial / form-factor choice",
+    "Workplace streaming / meeting-room needs",
+    "Warranty and fine-tuning follow-ups unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Allied Health Professions Council",
+      "url": "https://www.ahpc.gov.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
