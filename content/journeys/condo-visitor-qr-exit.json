@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "condo-visitor-qr-exit",
+  "title": "Condo visitor QR revoke",
+  "summary": "Leaving a condo with guest QR, temporary access, and delivery PINs still live — revoke lists, helper / tutor codes, and how visitor apps collide with MCST card return and movers week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-qr",
+      "title": "Inventory every QR, PIN, and guest link",
+      "body": "Condo apps often keep visitor QR, one-day PINs, and recurring helper / tutor codes after the unit is empty. Physical access cards are a separate path — guest digital access can still open the lobby after you fly. Export the active guest list from the condo app before SIM or email changes lock you out.",
+      "bullets": [
+        "Screenshot every active visitor / delivery / helper code with expiry",
+        "Note which adult account issued each code (resident vs tenant admin)",
+        "Pair with /journeys/condo-mcst-exit for physical cards and IU return"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "revoke-before-keys",
+      "title": "Revoke digital access before key handover",
+      "body": "Revoking guest QR after the agent collects keys is harder — your app login may already be deactivated with the MCST resident profile. Kill recurring helper, pet-sitter, and tuition codes on the last full day you still control the app. Keep one short delivery PIN only if movers still need a lobby pass.",
+      "bullets": [
+        "Revoke recurring codes first; leave at most one movers-day delivery PIN",
+        "Confirm the managing agent will close the resident app profile on checkout",
+        "Do not leave guest links in family WhatsApp history as if they still work"
+      ],
+      "href": "/journeys/mover-lift-booking"
+    },
+    {
+      "id": "helper-tutor",
+      "title": "Helper, tutor, and vendor standing access",
+      "body": "FDW, tutors, cleaners, and aircon contractors often hold standing visitor profiles that outlive the tenancy. If the helper is transferring or cancelling separately, revoke condo guest access on the same morning as the handoff — not after Changi. Vendors with QR for warranty visits need a written cancel too.",
+      "bullets": [
+        "Align helper condo revoke with /journeys/helper-handoff-exit when that playbook is on main",
+        "Email tutors / cleaners that lobby QR dies on a named date",
+        "Ask MCST whether vendor QR is estate-wide or unit-scoped"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "delivery-pin",
+      "title": "Delivery PIN vs loading-bay booking",
+      "body": "Movers and parcel lockers are not the same access problem. A loading-bay booking does not revoke yesterday’s GrabFood PIN. Clear delivery PINs and locker codes after the last inbound parcel, and tell the agent which codes were active so they do not chase “unknown visitors” on CCTV after you leave.",
+      "bullets": [
+        "Cancel parcel-locker holds tied to your mobile number",
+        "Keep the movers PIN only for the booked lift / bay window",
+        "Photograph the app’s “access revoked” confirmation where available"
+      ],
+      "href": "/journeys/mover-lift-booking"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with MCST and utilities",
+      "body": "Visitor QR revoke, MCST card return, and utility meter photos often land in one fortnight. Sequence so digital revoke happens while the resident login still works, then physical tokens, then meter handover. Do not schedule app revoke after Singpass / SIM changes that break 2FA.",
+      "bullets": [
+        "Put app revoke, card return, and meter photos on one family calendar",
+        "Pair with /journeys/utility-exit-handover for meter photo backups",
+        "Keep one adult’s condo app login alive through checkout morning"
+      ],
+      "href": "/journeys/utility-exit-handover"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: lost-token fees vs deposits",
+      "body": "Some estates charge for unreturned cards or “lost” remotes even when the real issue was a forgotten guest profile. Keep a small SGD float for replacement fees while landlord and MCST deposits are still open. School device bonds are a separate cash pot — sketch those on the device tool if kids still hold iPads.",
+      "bullets": [
+        "Ask MCST published fees for missing cards vs admin revoke",
+        "Do not raid school device bond cash for condo fees",
+        "Sketch device risk on /tools/school-device-bond"
+      ],
+      "href": "/tools/school-device-bond"
+    }
+  ]
+}

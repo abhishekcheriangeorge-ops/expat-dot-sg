@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 19)
+
+Branch: `cursor/e-journeys-tools-tick19-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#183 / Loop D22 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#196** (E18): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**). Prefer merge order note: **#173 → #186 → #196 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Condo parent / resident threads — guest QR and helper codes still opening lobby after keys returned; delivery PINs left live through movers week.
+- International-school parent threads — 1:1 iPad / device bond return vs damage holds and overdue fees colliding with packing week.
+
+**Official / orientation**
+
+- Estate condo-app / MCST visitor schedules (estate-specific)
+- School 1:1 device handbooks (school-specific return windows)
+
+### Gaps vs open E stack through #196
+
+Open **#173** covers mail forward + HDB reno. Open **#186** covers helper handoff + club deposit. Open **#196** covers school bus/CCA + driving insurance gap. Remaining high-intent gaps **off those path sets**: **condo visitor QR revoke**, **school device / iPad bond sketch**. No calendar JSON. Did not re-edit #164 exclusives (already on main) or #173 / #186 / #196 exclusives. Distinct from existing `/journeys/condo-mcst-exit` (physical cards / IU) — this tick owns digital guest access only.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/condo-visitor-qr-exit.json` + `/journeys/condo-visitor-qr-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/school-device-bond.ts`
+- `src/components/tools/SchoolDeviceBondCalculator.tsx`
+- `/tools/school-device-bond` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #173, #186, or #196 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Do guest QR codes die when the agent collects keys?
+2. Should helper / tutor standing access revoke before MCST card return?
+3. Can a delivery PIN stay live for movers day only?
+4. Who closes the resident condo-app profile on checkout?
+5. Are vendor QR codes unit-scoped or estate-wide?
+6. When should parcel-locker holds tied to my mobile die?
+7. What cash float covers missing-card fees vs school device bonds?
+8. Does an on-time iPad return still bill overdue if IT desk is closed?
+9. Will damage above bond invoice the family separately?
+10. Should device return wait until after visitor QR revoke week?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 24)
 
 Branch: `cursor/loop-d-next-polish-tick24-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Family / Belong / Home body trees beyond Move parent cross-links for PEP / ONE / Tech / EntrePass / incorporate. Avoided open Loop D file sets from [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183) / [#193](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/193).
