@@ -6,6 +6,85 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 36) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick36-8971` → tip PR off [#277](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/277) (tick 35). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #277. Shared log + `site.ts` only (prepend on conflict). Did not wait for #277 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — night cough vs asthma; PE whistle days; empty spacers.
+- r/askSingapore — open-house portals close mid-board-meeting; deposit vibes.
+- r/askSingapore — dojo benches as the real weekday parent meetup.
+
+**Official**
+
+- [HealthHub asthma in children](https://www.healthhub.sg/a-z/diseases-and-conditions/asthma-in-children) + [MOH](https://www.moh.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+- [MOE international schools](https://www.moe.gov.sg/international-schools) + [Parent Hub](https://www.moe.gov.sg/parent-hub)
+- [ActiveSG](https://www.activesg.gov.sg/) + [Sport Singapore](https://www.sportsingapore.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–35 (open tip #277) covered impetigo, book week, gymnastics waiting, gastro, residential camps, dance waiting. Remaining heat without contested paths: **asthma-flare coverage**, **IS open-house / tour ops**, **martial-arts dojo waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-asthma-flare-coverage-singapore.mdx`
+- `content/guides/family/international-school-open-house-tour-ops-dual-career-singapore.mdx`
+- `content/guides/belong/martial-arts-dojo-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open #270–#277 paths)
+
+- kids myopia control, school-holiday coverage, public-holiday school-closed coverage, helper rest-day coverage, mall indoor-playground belonging, supermarket evening belonging, wet-market morning belonging
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- GESS, Dover Court, Nexus International, SMG, AIA Singapore, Comfort Employment
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #270–#277 guide/entity paths.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns overnight inhaler checks?
+2. Where is the school spacer right now?
+3. When does the open-house portal close?
+4. Who owns the tour question script?
+5. Same dojo bench next week?
+6. Is PE/swim paused in writing?
+7. Hard deposit / fee-stack cap?
+8. Helper rest day vs open-house Sunday?
+
+---
+
+# Content loop log
+
+Short running log of research → gap analysis → shipped editorial. No monetization expansion in these ticks.
+
+**Standing order:** after each loop tick, audit then merge PR to main.
+
+---
+
+---
+
+---
+
+# Content loop log
+
+Short running log of research → gap analysis → shipped editorial. No monetization expansion in these ticks.
+
+**Standing order:** after each loop tick, audit then merge PR to main.
+
+---
+
 ## Loop B — Family + Belong (tick 35) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick35-8971` → tip PR off [#270](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/270) (tick 34). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #270. Shared log + `site.ts` only (prepend on conflict). Did not wait for #270 merge/CI. No force-push to `main`.
