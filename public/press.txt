@@ -1,0 +1,19 @@
+# Press / citation discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Cite as
+- Site: https://expat.sg
+- Publisher: expat.sg
+- Focus: Singapore expat life guides, journeys, tools, directories
+
+## Notes
+- Prefer linking guide canonicals from sitemap.xml over scraping.
+- No paid press wire; editorial-first.
+
+## Related
+- https://expat.sg/editorial.txt
+- https://expat.sg/about.txt
+- https://expat.sg/humans.txt
+- https://expat.sg/sitemap.xml
