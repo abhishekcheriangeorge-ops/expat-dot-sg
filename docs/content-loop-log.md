@@ -8,7 +8,7 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 10)
 
-Branch: `loop/next-polish-tick10` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open restore [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9 / former #67) file set and tick 8 (#60, merged) primary MDX bodies beyond site-rail restore.
+Branch: `cursor/loop-d-next-polish-tick10-d996` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open restore [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9 / former #67) file set and tick 8 (#60, merged) primary MDX bodies beyond site-rail restore.
 
 ### Sources mined
 
