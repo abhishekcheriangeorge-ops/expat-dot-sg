@@ -3,14 +3,14 @@
   "slug": "uwcsea-east",
   "name": "UWCSEA East",
   "summary": "Tampines IB campus serving east-side families with the same UWC mission as Dover.",
-  "body": "UWCSEA East mirrors Dover’s IB pathway with an east-coast catchment — convenient for Marine Parade, Katong, and Pasir Ris households. Expect the same emphasis on service, outdoor education, and international diversity. Campus choice is often geography-led within the UWCSEA system. Photo-day and sibling-composite rules differ by campus — read the circular early and put order deadlines on both parents’ calendars.",
+  "body": "UWCSEA East mirrors Dover\u2019s IB pathway with an east-coast catchment \u2014 convenient for Marine Parade, Katong, and Pasir Ris households. Expect the same emphasis on service, outdoor education, and international diversity. Campus choice is often geography-led within the UWCSEA system. Photo-day and sibling-composite rules differ by campus \u2014 read the circular early and put order deadlines on both parents\u2019 calendars. Dual-career note: residential camp and overnight trip consent clocks need a named emergency contact on the shared calendar before client week.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "K1–Grade 12",
+  "ages": "K1\u2013Grade 12",
   "neighbourhood": "east-coast",
   "campus": "Tampines",
   "languages": [
@@ -20,5 +20,9 @@
   "waitlistNotes": "Apply early; campus preference is not guaranteed.",
   "website": "https://www.uwcsea.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-residential-camp-overnight-trip-ops-dual-career-singapore",
+    "dance-studio-waiting-parent-belonging-singapore"
+  ]
 }
