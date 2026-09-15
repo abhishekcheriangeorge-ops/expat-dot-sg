@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 24)
+
+Branch: `cursor/loop-d-next-polish-tick24-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Family / Belong / Home body trees beyond Move parent cross-links for PEP / ONE / Tech / EntrePass / incorporate. Avoided open Loop D file sets from [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183) / [#193](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/193).
+
+**Merge order note (controller):** `#183 → #193 → this tip` (ticks 20–21 already on `main`).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “just get PEP” vs ONE Pass spouse LOC vs Tech.Pass sunset confusion.
+- r/askSingapore — ACRA incorporation sold as EntrePass; nominee director folklore.
+- r/askSingapore — IR21 freeze vs STVP stay; same-week flight + clearance assumptions.
+
+**Official**
+
+- [MOM — PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass) · [ONE Pass](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass) · [EDB Tech.Pass](https://www.edb.gov.sg/en/incentives-and-programmes/incentives-and-facilitation-programmes/tech-pass.html)
+- [MOM — EntrePass eligibility](https://www.mom.gov.sg/passes-and-permits/entrepass/eligibility) · [ACRA foreigners](https://www.acra.gov.sg/register/business/requirements-eligibility/) · [EP secondary directorship](https://www.mom.gov.sg/passes-and-permits/employment-pass/taking-up-secondary-directorship)
+- [IRAS — IR21](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) · [MOM — Cancel EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass)
+
+### Gaps vs open stack
+
+Open #183→#193 cover NS-before-PR / TADM salary clocks / harassment pass-fear; AL encashment / IPA-before-resign / retrenchment TADM-TAFEP. Remaining high-intent gaps: **PEP vs ONE vs Tech.Pass chooser**, **EntrePass vs resident director**, **IR21 vs cancel vs STVP sequencing**.
+
+### Shipped
+
+**New:** `pep-one-tech-pass-chooser-singapore.mdx`, `entrepass-resident-director-vs-pass-singapore.mdx`, `ir21-pass-cancel-stvp-sequencing-singapore.mdx`
+
+**Upgraded:** PEP / ONE / Tech.Pass / EntrePass / incorporate / tax-clearance / IR21-final-pay (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #183 / #193 guide bodies (and no re-edit of #193 parents: leave/notice, career pivots, retrenchment).
+- Did not wait for CI or merges on prior tips.
+
+### Questions mined
+
+1. Is ONE Pass just a fancier PEP?
+2. Should I burn PEP if EP renewals look fine?
+3. What replaces Tech.Pass after Jan 2027?
+4. Does ACRA registration give me EntrePass?
+5. Can my EP be the resident director without an LOC?
+6. Are nominee directors rubber stamps?
+7. Does STVP unfreeze IR21 withholding?
+8. When does garden leave start the IR21 clock?
+9. Can I fly the week HR files IR21?
+10. Who asks MOM for the long STVP — me or HR?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 18)
 
 Branch: `cursor/e-journeys-tools-tick18-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#151 / Loop D18 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#186** (E17): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**). Prefer merge order note: **#173 → #186 → this tip**.
