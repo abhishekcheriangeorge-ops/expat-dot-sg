@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 30 — 2026-09-15
+
+Branch: `cursor/home-life-tick30-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71 (C25), #88 (C26), #96 (C27), #104 (C28), and #126 (C29) stay open for the merge controller — **did not** touch those PR paths (reno / lightning / Hougang–Bukit Batok–Marine Parade; void-deck / power / Jurong West–CCK–Sembawang; condo unit reno / secondhand smoke / Bukit Panjang–Boon Lay–Geylang; PUB water / ActiveSG pools / Kallang–Bendemeer–Potong Pasir; SP bill disputes / ActiveSG stadiums / MacPherson–Tai Seng–Paya Lebar). Topics: OEM electricity retailer switching, HDB common-area smoking complaints, Kovan / Bartley / Lorong Chuan.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — OEM promo cliffs, exit fees mid-lease, landlord-held SP accounts blocking retailer switches.
+- r/askSingapore — HDB corridor / staircase smoking, OneService vs confrontation, void-deck bench smokers vs unit-to-unit drift.
+- r/askSingapore — northeast shortlists for Kovan / Bartley / Lorong Chuan vs Serangoon interchange premiums.
+
+**Official**
+
+- [OEM making the switch](https://www.openelectricitymarket.sg/residential/making-the-switch) + [price comparison](https://compare.openelectricitymarket.sg/#/home) + [EMA OEM FAQ](https://www.ema.gov.sg/resources/faqs/electricity/open-electricity-market/what-is-the-open-electricity-market).
+- [SP residential utilities](https://www.spgroup.com.sg/our-services/utilities/quick-guide-to-your-utilities-residential).
+- [HDB good neighbour](https://www.hdb.gov.sg/community/caring-for-your-neighbours/being-a-good-neighbour) + [OneService](https://www.oneservice.gov.sg/) + [NEA smoking prohibition](https://www.nea.gov.sg/our-services/smoking-prohibition).
+
+### Gaps vs open #71 / #88 / #96 / #104 / #126
+
+Open PRs own reno/lightning/void-deck/power/condo-reno/secondhand-smoke/PUB-water/pools/SP-bill-disputes/ActiveSG-stadiums and their town sets. Remaining high-intent Home+Life gaps without collision: **OEM retailer switching / exit fees** (≠ SP bill estimate disputes, ≠ power outages), **HDB common-area smoking complaints** (≠ unit secondhand-smoke guide, ≠ void-deck property disputes), plus neighbourhood depth for **Kovan**, **Bartley**, and **Lorong Chuan**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/oem-electricity-retailer-switch-renters.mdx`
+- `content/guides/life/hdb-common-area-smoking-complaints-tenants.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/fibre-tp-netlink-renters.mdx`
+- `content/guides/life/dengue-cluster-living-renters.mdx`
+- `content/guides/home/landlord-entry-quiet-enjoyment.mdx`
+- `src/lib/site.ts` (OEM switch + HDB common-area smoking topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/kovan.json`
+- `content/entities/neighbourhoods/bartley.json`
+- `content/entities/neighbourhoods/lorong-chuan.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 file paths.
+- Did not re-litigate Tick 19–29 topics beyond cross-links on safe files.
+
+### Questions mined (sample)
+
+1. Can a foreigner tenant switch OEM retailers?
+2. Will a retailer switch cut my power?
+3. What exit fees should I expect?
+4. Should I switch if my landlord keeps the SP account?
+5. Is smoking banned in all HDB corridors?
+6. OneService or confront the smoker first?
+7. Is corridor smoke the same as next-door unit drift?
+8. Kovan vs Bartley — hub energy or quieter CCL?
+9. Is Lorong Chuan worth Serangoon-adjacent condo rents?
+10. When does staying on the default tariff still win?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 29 — 2026-09-15
 
 Branch: `cursor/home-life-tick29-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71 (C25), #88 (C26), #96 (C27), and #104 (C28) stay open for the merge controller — **did not** touch those PR paths (HDB neighbour reno / lightning / Hougang–Bukit Batok–Marine Parade; void-deck / power outages / Jurong West–CCK–Sembawang; condo unit reno / secondhand smoke / Bukit Panjang–Boon Lay–Geylang; PUB pipe works / ActiveSG pools / Kallang–Bendemeer–Potong Pasir). Topics: SP Group utilities bill disputes, ActiveSG stadiums / indoor courts, MacPherson / Tai Seng / Paya Lebar.

@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "kovan",
+  "name": "Kovan",
+  "summary": "NEL heartland hub around Kovan Hub / Heartland Mall — mature HDB density with condo inserts and a busier food belt than quieter Serangoon edges.",
+  "body": "Kovan is the northeast shortlist when someone wants North-East Line access, a self-contained mall/hawker gravity, and rents under River Valley without going all the way to Punggol. Mature HDB blocks dominate; condo inserts and shop-house-adjacent food strips add weekend noise and parking pressure. Expats land here for NEL CBD hops and errand density; walk evening corridor and void-deck life before LOI if smoke or late food traffic is a sensitivity. Compare with Bartley for quieter CCL-edge living, Lorong Chuan for Circle Line condo-belt adjacency to Serangoon, and Serangoon Central when you want the full NEX interchange crush.",
+  "region": "northeast",
+  "vibe": [
+    "nel",
+    "heartland-hub",
+    "hawker",
+    "mature-hdb",
+    "busy-evenings"
+  ],
+  "bestFor": [
+    "NEL corridor workers wanting hub amenities",
+    "hawker-first households",
+    "car-light couples okay with evening foot traffic",
+    "expats testing northeast heartland before outer towns"
+  ],
+  "watchOuts": [
+    "Evening food-belt and bus hub congestion",
+    "Corridor / void-deck variance between blocks",
+    "Interchange-adjacent rent premium vs quieter NEL towns",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB dominant with selective condo inserts near the hub.",
+  "commuteNotes": "North-East Line at Kovan; time Tuesday 08:15 door-to-desk and a rainy walk to the hub.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3300,
+    "familyFrom": 2800,
+    "familyTo": 4500
+  },
+  "mrt": [
+    "Kovan"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

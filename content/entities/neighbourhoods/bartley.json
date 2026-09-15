@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "bartley",
+  "name": "Bartley",
+  "summary": "Quieter CCL pocket between Serangoon and Tai Seng — residential stacks with less mall crush than NEX and shorter Circle Line hops toward the city.",
+  "body": "Bartley suits renters who want Circle Line access without living inside Serangoon’s interchange crowds. Housing mixes HDB and condo inserts with a calmer evening profile than Kovan Hub; errands often lean on Serangoon or Tai Seng rather than a giant on-doorstep mall. Expats shortlist it for door-to-desk math into CCL office belts and relative value versus Lorong Chuan condo premiums. Walk the exact block twice: some stacks sit closer to major roads or school traffic. Compare with Lorong Chuan when you want Serangoon mall gravity closer, Kovan when NEL + hawker hub matters more, and Tai Seng when industrial-edge CCL living is acceptable.",
+  "region": "northeast",
+  "vibe": [
+    "ccl",
+    "quieter",
+    "residential",
+    "value-vs-serangoon",
+    "car-light"
+  ],
+  "bestFor": [
+    "CCL hoppers skipping NEX crowds",
+    "households wanting quieter evenings than hub towns",
+    "renters trading mall density for commute shortlists",
+    "couples okay importing big errands from Serangoon"
+  ],
+  "watchOuts": [
+    "Thinner on-doorstep mall / hawker density",
+    "Road / school traffic on some approaches",
+    "Block-level variance — walk twice before LOI",
+    "Fewer default expat lobby networks than River Valley"
+  ],
+  "housingMix": "HDB and condo mix; less hub-retail intensity than Serangoon Central.",
+  "commuteNotes": "Circle Line at Bartley; model a rainy last-mile and a Tuesday peak hop toward the city.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3400,
+    "familyFrom": 2900,
+    "familyTo": 4700
+  },
+  "mrt": [
+    "Bartley"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

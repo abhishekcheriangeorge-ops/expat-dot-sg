@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "lorong-chuan",
+  "name": "Lorong Chuan",
+  "summary": "CCL residential belt between Serangoon and Bartley — condo-heavy pockets with NEX errands close enough to borrow without paying full interchange rents.",
+  "body": "Lorong Chuan is the Circle Line shortlist for households who want Serangoon amenities within a short hop but prefer residential stacks over living above the bus interchange. Condo belts and selective HDB edges define the housing mix; weekend life still often routes through NEX. Expats land here for CCL commute math and a slightly quieter night profile than Serangoon Central, while accepting that big groceries and cinema nights lean on the hub. Compare with Bartley for a calmer CCL stop further from NEX, Kovan when NEL + hawker hub is the priority, and Serangoon when you want to be inside the interchange premium.",
+  "region": "northeast",
+  "vibe": [
+    "ccl",
+    "condo-belt",
+    "serangoon-adjacent",
+    "residential",
+    "errand-import"
+  ],
+  "bestFor": [
+    "CCL workers wanting Serangoon amenities nearby",
+    "condo-first households skipping interchange noise",
+    "car-light couples okay walking or hopping to NEX",
+    "renters trading hub premiums for one-stop quieter stacks"
+  ],
+  "watchOuts": [
+    "Condo rent premiums vs deeper heartland HDB",
+    "Still imports weekend crowds toward Serangoon",
+    "Construction on growth plots in the broader catchment",
+    "Thinner hawker density than Kovan Hub"
+  ],
+  "housingMix": "Condo-led with HDB edges; Serangoon hub gravity for major errands.",
+  "commuteNotes": "Circle Line at Lorong Chuan; time the walk or one-stop hop to Serangoon for weekend errands.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3800,
+    "familyFrom": 3200,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Lorong Chuan"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
