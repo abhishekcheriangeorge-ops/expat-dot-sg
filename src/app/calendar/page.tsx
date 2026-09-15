@@ -6,7 +6,7 @@ import { getCalendarEvents } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Events & kids calendar",
   description:
-    "Singapore expat calendar — school holidays, cultural festivals, kids activities, and recurring community anchors.",
+    "Singapore expat calendar — MOE school holidays, P1 and international-school application windows, festivals, and community anchors.",
 };
 
 export default async function CalendarPage() {
@@ -16,8 +16,8 @@ export default async function CalendarPage() {
     <>
       <JourneyHero
         eyebrow="Calendar"
-        title="School holidays, festivals, and the weeks families plan around."
-        summary="A living section for habitual return visits — kids camps, cultural light-ups, and city-wide moments that reshape logistics."
+        title="School holidays, application windows, and the weeks families plan around."
+        summary="MOE term breaks with official dates, P1 registration and international-school admissions seasons, plus festivals and community anchors."
       />
       <CalendarBoard events={events} />
     </>

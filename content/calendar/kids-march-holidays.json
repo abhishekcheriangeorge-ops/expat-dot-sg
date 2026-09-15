@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "kids-school-holiday-mar",
+  "title": "March school holidays (MOE)",
+  "summary": "Official MOE Term 1 break: 14–22 Mar 2026. Short window — good for a regional trip if leave aligns; note 23 Mar 2026 is a designated school off-in-lieu after Hari Raya Puasa.",
+  "date": "2026-03-14",
+  "endDate": "2026-03-22",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}

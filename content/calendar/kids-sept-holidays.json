@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "kids-school-holiday-sep",
+  "title": "September school holidays (MOE)",
+  "summary": "Official MOE Term 3 break: 5–13 Sep 2026 (Teachers’ Day holiday 4 Sep). Useful for a short staycation between Term 3 and Term 4.",
+  "date": "2026-09-05",
+  "endDate": "2026-09-13",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}

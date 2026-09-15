@@ -116,13 +116,25 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
                     {item.detail}
                   </span>
                   {item.href ? (
-                    <Link
-                      href={item.href}
-                      className="mt-2 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
-                      onClick={(e) => e.stopPropagation()}
-                    >
-                      Related →
-                    </Link>
+                    item.href.startsWith("http") ? (
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-2 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        Source →
+                      </a>
+                    ) : (
+                      <Link
+                        href={item.href}
+                        className="mt-2 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        Related →
+                      </Link>
+                    )
                   ) : null}
                 </span>
               </label>
