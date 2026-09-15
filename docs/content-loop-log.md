@@ -135,10 +135,6 @@ Tick 5 shipped child PR, NRIC name change, REP passport transfer. Remaining high
 
 ---
 
----
-
----
-
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 2)
 
 Branch: `loop/e-journeys-tools-tick2` → PR to `main`. Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok.
