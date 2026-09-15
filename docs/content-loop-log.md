@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 13) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick13-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped braces / teen MH / playgroups (#76, now on main), myopia / swim / cooking (#80 open), and parental burnout / UCAS / youth sports academies (#91 open).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — P1 vs international Year 1, Mother Tongue shock, after-school care cliff.
+- r/askSingapore — IS teens alone / boarding / guardianship when parents travel regionally.
+- r/askSingapore — youth drama / dance / speech & drama as belonging vs one-off shows.
+
+**Official**
+
+- [MOE P1 international students](https://www.moe.gov.sg/primary/p1-registration/international-students) + [MOE international admissions](https://www.moe.gov.sg/international-students/admission) + [MTL](https://www.moe.gov.sg/primary/curriculum/mother-tongue-languages) + [fees](https://www.moe.gov.sg/financial-matters/fees).
+- [MOE international students](https://www.moe.gov.sg/international-students) + [ICA Student’s Pass](https://www.ica.gov.sg/reside/STP) + [MOM Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass).
+- [Esplanade](https://www.esplanade.com/) + [NAC](https://www.nac.gov.sg/) + [SRT](https://www.srt.com.sg/) + [SOTA](https://www.sota.edu.sg/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–12 covered schools/SEN/camps/clubs through ADHD/hiking, braces/teen MH/playgroups (now on main via #76), with #80/#91 still open for myopia/swim/cooking and parental burnout/UCAS/youth sports academies. Remaining heat this tick: **primary transition year ops**, **IS teen boarding/guardianship**, **youth performing-arts belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/primary-school-transition-expat-kids-singapore.mdx`
+- `content/guides/family/boarding-hostel-international-school-teens-singapore.mdx`
+- `content/guides/belong/youth-performing-arts-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- preschool, school-waitlist, local-schools, international-schools, university-counselling, kids-activities, music-arts, find-my-people, anza-awa
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/schools/tanglin-trust-school.json`
+- `content/entities/schools/uwcsea-dover.json`
+- `content/entities/clubs/anza.json`
+- `content/entities/clubs/american-club.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite #76 bodies now on main, or open #80 / #91 bodies.
+
+### Questions mined (sample)
+
+1. Is MOE P1 interest enough if we also paid IS application fees?
+2. When does Mother Tongue tutoring need to start for a non-Chinese home?
+3. Who covers the 1pm cliff in a dual-career week?
+4. Does our IS actually offer weekly boarding this year?
+5. Can a 16-year-old stay in a serviced apartment alone on a DP?
+6. What pastoral cover exists at 11pm if both parents are in Jakarta?
+7. Is youth theatre a better belonging rail than another sports academy?
+8. How many shared show weeks before parents make friends?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 12) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick12-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped braces / teen MH / playgroups (#76 tick 10) and myopia / swim / cooking (#80 tick 11).

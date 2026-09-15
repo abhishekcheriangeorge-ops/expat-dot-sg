@@ -3,7 +3,7 @@
   "slug": "american-club",
   "name": "The American Club",
   "summary": "Full-facility membership club in Claymore with dining, sport, kids’ programming, and holiday camps — the default Orchard-fringe family comparison point.",
-  "body": "The American Club is a default comparison point for family memberships: pool, fitness, F&B, kids’ programming, holiday camps, and a dense events calendar in a Claymore / Orchard-fringe location. Relocating households often use it as a third place while a trailing partner’s job search runs — but entrance fees still need cost-per-use maths against ANZA/AWA and ActiveSG. It suits households already living River Valley / Orchard / some Tanglin patterns who will use the club midweek, not only on showcase Saturdays. Waitlists and entrance fees are real — treat joining as a housing-adjacent decision, not an impulse add-on after a welcome tour. Ask HR about corporate seats before paying personally. Tour at your actual use times; compare against Tanglin Club (heritage/scarcity) and Hollandse Club (often stronger facilities-to-fee for Bukit Timah lives). Junior sections and family sport calendars are a membership-tier belonging rail for kids academies — compare fee reality before assuming the sideline community is free.",
+  "body": "The American Club is a default comparison point for family memberships: pool, fitness, F&B, kids’ programming, holiday camps, and a dense events calendar in a Claymore / Orchard-fringe location. Relocating households often use it as a third place while a trailing partner’s job search runs — but entrance fees still need cost-per-use maths against ANZA/AWA and ActiveSG. It suits households already living River Valley / Orchard / some Tanglin patterns who will use the club midweek, not only on showcase Saturdays. Waitlists and entrance fees are real — treat joining as a housing-adjacent decision, not an impulse add-on after a welcome tour. Ask HR about corporate seats before paying personally. Tour at your actual use times; compare against Tanglin Club (heritage/scarcity) and Hollandse Club (often stronger facilities-to-fee for Bukit Timah lives). Junior arts and family performance calendars are a membership-tier belonging rail alongside youth theatre/dance studios outside the club.",
   "category": "membership",
   "focus": [
     "families",
@@ -16,8 +16,5 @@
   "website": "https://www.amclub.org.sg",
   "neighbourhood": "tanglin-dempsey",
   "featured": true,
-  "sponsored": false,
-  "relatedGuides": [
-    "youth-sports-academies-singapore"
-  ]
+  "sponsored": false
 }
