@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "tampines-north-edge",
+  "name": "Tampines North Edge",
+  "summary": "North edge of Tampines toward Pasir Ris / Loyang \u2014 denser new-town fringe living with DTL/EWL hops and community-sport catchment.",
+  "body": "Tampines North Edge is the shortlist when denser Tampines convenience and north-fringe optionality matter more than quiet Loyang weekends alone. The pocket sits on the Tampines North / Pasir Ris / Loyang edges; housing mixes newer HDB, ECs, and selective condos. Expats land here for hub errands, school options, and ActiveSG gateball / petanque catchment without CBD premiums. Watch-outs: smoke-stop / staircase pressurisation fan test calendars on towers, school-run traffic, and confusing Tampines vs Tampines North Edge shortlists. Compare with Pasir Ris West Fringe for quieter park-connector calm, Loyang Edge for industrial-fringe quiet, and Tampines proper when mall gravity wins.",
+  "region": "east",
+  "vibe": [
+    "new-town-edge",
+    "dense-east",
+    "practical",
+    "community-sport",
+    "hub-adjacent"
+  ],
+  "bestFor": [
+    "households who want Tampines hub access without full mall premiums",
+    "renters comparing Tampines North Edge vs Pasir Ris West Fringe",
+    "people who will book ActiveSG gateball or petanque weekly",
+    "car-light workers toward DTL / EWL"
+  ],
+  "watchOuts": [
+    "Smoke-stop / staircase pressurisation fan test notices",
+    "School-run traffic peaks",
+    "Peak DTL / EWL crowding toward town",
+    "Tampines vs Tampines North Edge listing confusion"
+  ],
+  "housingMix": "Newer HDB, executive condos, and selective private towers.",
+  "commuteNotes": "DTL / EWL gravity via Tampines / Tampines North / Tampines East; time Tuesday 08:15 door-to-desk toward town.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3900,
+    "familyFrom": 3300,
+    "familyTo": 6900
+  },
+  "mrt": [
+    "Tampines",
+    "Tampines East",
+    "Tampines West"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

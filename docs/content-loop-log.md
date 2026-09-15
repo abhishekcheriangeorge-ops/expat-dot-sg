@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 53 — 2026-09-15
+
+Branch: `cursor/home-life-tick53-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` after tip **#339** (Tick 52) merged; no other open Loop C drafts in the way. Topics: condo smoke-stop / staircase pressurisation fan test notices, ActiveSG gateball / petanque, Pasir Ris West Fringe / Loyang Edge / Tampines North Edge. Tip after Tick 52 confirmed as **#339**; opened next tip off that tip (now on `main`) without ads / Grok / force-push to main. Shared log conflict resolved by prepend.
+
+**Merge order note (controller):** `#339 (merged) → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — smoke-stop / staircase pressurisation fan test notices confused with sprinkler drain-downs, fire-shutter tests, or alarm drills; staircore noise fights.
+- r/askSingapore — ActiveSG gateball / petanque Standard Rate for foreigners, weekend release races, kit rules vs lawn bowls / cricket nets.
+- r/askSingapore — east shortlists for Pasir Ris West Fringe vs Loyang Edge vs Tampines North Edge noise / estate-texture trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [SCDF — fire safety](https://www.scdf.gov.sg/home/fire-safety).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs tip #339 (merged)
+
+Tip #339 owned sprinkler drain-down / fire-shutter tests, cricket nets, and Bedok Reservoir Fringe / Tampines West Edge / Simei North. Remaining gaps without collision: **condo smoke-stop / staircase pressurisation fan test notices** (≠ sprinkler drain-down / fire-shutter; ≠ hydrant clearance; ≠ fire-alarm drills; ≠ LPS/earth-pit; ≠ generator/ATS; ≠ cat-ladder/roof), **ActiveSG gateball / petanque** (≠ cricket nets; ≠ lawn bowls; ≠ cycling circuit; ≠ athletics; ≠ bowling; ≠ skating; ≠ fencing; ≠ camps; ≠ courts), plus neighbourhood depth for **Pasir Ris West Fringe**, **Loyang Edge**, and **Tampines North Edge**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-smoke-stop-staircase-pressurisation-fan-test-notices-tenants.mdx`
+- `content/guides/life/activesg-gateball-petanque-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None required for exclusive-path safety on this tip.
+- `src/lib/site.ts` (smoke-stop / staircase pressurisation + ActiveSG gateball / petanque topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/pasir-ris-west-fringe.json`
+- `content/entities/neighbourhoods/loyang-edge.json`
+- `content/entities/neighbourhoods/tampines-north-edge.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is a smoke-stop / staircase pressurisation fan test the same as a fire-alarm drill?
+2. Is it the same as a sprinkler drain-down or fire-shutter test?
+3. Will testers enter my unit?
+4. Is fan noise a generator / ATS test?
+5. Can foreigners book ActiveSG gateball or petanque at Standard Rate?
+6. Is gateball / petanque booking the same as lawn bowls or cricket nets?
+7. Do I need my own sticks or boules?
+8. Pasir Ris West Fringe vs Loyang Edge — park calm or industrial quiet?
+9. Is Tampines North Edge denser at night?
+10. When is a condo lawn still not a gateball court?
+
+---
+
+---
+
 ## Loop F — Services directory depth — Tick 37 — 2026-09-15
 
 Branch: `cursor/services-directory-tick37-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#300); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F36 draft [#300](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/300).

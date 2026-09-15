@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "loyang-edge",
+  "name": "Loyang Edge",
+  "summary": "Loyang industrial-fringe toward Pasir Ris / Changi \u2014 quieter east living with practical hops and ActiveSG catchment.",
+  "body": "Loyang Edge is the shortlist when quieter east living and Changi-side optionality matter more than Tampines mall density. The pocket sits on the Loyang / Pasir Ris / Changi edges; housing mixes mid-age HDB, older condos, and selective landed inserts. Expats land here for EWL / bus hops, airport-side convenience, and ActiveSG gateball / petanque catchment without CBD premiums. Watch-outs: smoke-stop / staircase pressurisation fan notices on mid-rises, evening industrial traffic, and confusing Loyang vs Loyang Edge shortlists. Compare with Pasir Ris West Fringe for park-connector texture, Tampines North Edge for denser new-town living, and Changi Village when coastal calm wins.",
+  "region": "east",
+  "vibe": [
+    "industrial-fringe",
+    "quieter-residential",
+    "changi-side",
+    "practical",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "car-light workers who want quieter Loyang-side texture",
+    "households comparing Loyang Edge vs Pasir Ris West Fringe",
+    "renters who will book ActiveSG gateball or petanque weekly",
+    "people okay with mid-age HDB and condo stock"
+  ],
+  "watchOuts": [
+    "Smoke-stop / staircase pressurisation fan test notices on mid-rises",
+    "Evening industrial / Changi traffic",
+    "Peak bus crowding toward Pasir Ris",
+    "Loyang vs Loyang Edge listing confusion"
+  ],
+  "housingMix": "Mid-age HDB, older condos, and selective landed inserts.",
+  "commuteNotes": "Bus / EWL gravity via Pasir Ris / Tampines; walk a weekday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3500,
+    "familyFrom": 2900,
+    "familyTo": 6000
+  },
+  "mrt": [
+    "Pasir Ris",
+    "Tampines East",
+    "Expo"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
