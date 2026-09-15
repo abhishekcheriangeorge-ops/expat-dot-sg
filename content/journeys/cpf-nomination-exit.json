@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "cpf-nomination-exit",
+  "title": "CPF nomination / estate-planning exit",
+  "summary": "Leaving Singapore with CPF balances still open — confirm or update nominations, download statements for estate files, and sequence withdrawal timing without treating folklore as MOM or CPF Board advice.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-balances",
+      "title": "Inventory CPF accounts and nominations on file",
+      "body": "Ordinary, Special, MediSave, and Retirement Account balances can sit under different nomination states. Before you change addresses or Singpass factors, export the nomination summary and recent statements while login still works. Screenshot the nomination type (trust / non-trust) and nominee names as they appear in the portal.",
+      "bullets": [
+        "Export nomination summary and latest OA/SA/MA/RA statements to offline storage",
+        "Note whether a nomination exists and which scheme type the portal shows",
+        "Pair with /tools/cpf-withdrawal for cash-timing sketches only"
+      ],
+      "href": "/tools/cpf-withdrawal"
+    },
+    {
+      "id": "update-or-leave",
+      "title": "Update nomination vs leave as-is before fly week",
+      "body": "Changing nominees can take board processing time that collides with departure. Decide early whether the existing nomination still matches your estate plan. If you must update, file while you still have Singapore contact channels and a local address the board can reach.",
+      "bullets": [
+        "Decide update-now vs leave-as-is at least one board-cycle before flights",
+        "Keep a local mailing address live until any change acknowledgement posts",
+        "Do not treat WhatsApp folklore as CPF Board process timing"
+      ],
+      "href": "https://www.cpf.gov.sg/"
+    },
+    {
+      "id": "estate-file",
+      "title": "Build an estate file your executor can open overseas",
+      "body": "Executors overseas often cannot recover portal PDFs after Singpass factors change. Store nomination confirmations, recent statements, and board reference numbers in a folder your executor can open without your Singapore SIM. Note which adult holds the Singpass that owns the CPF login.",
+      "bullets": [
+        "Put nomination PDFs and statements in executor-accessible cloud + offline copy",
+        "Record Singpass owner and backup contact for board letters",
+        "Align bank statement archive week with /tools/bank-statement-archive"
+      ],
+      "href": "/tools/bank-statement-archive"
+    },
+    {
+      "id": "withdrawal-sequence",
+      "title": "Sequence nomination work vs withdrawal timing",
+      "body": "Nomination housekeeping is not the same as withdrawing balances. Sketch withdrawal eligibility and cash float separately so packing week does not confuse board nomination letters with IRAS or bank exit rails. Keep school-bus last-week cash in its own pot if kids still ride through notice week.",
+      "bullets": [
+        "Keep nomination tasks off the withdrawal calculator path except for cross-links",
+        "Sketch school-bus last-week float on /tools/school-bus-last-week-float if needed",
+        "Do not close the SGD rail that receives board or bank letters mid-change"
+      ],
+      "href": "/tools/school-bus-last-week-float"
+    },
+    {
+      "id": "address-singpass",
+      "title": "Address, Singpass, and board mail after departure",
+      "body": "Board letters can land after you leave. Update contact email before SIM change, and keep Singpass recoverable through a non-Singapore number strategy you already documented in Singpass exit paths. Forwarding addresses only help if that inbox still works.",
+      "bullets": [
+        "Update CPF contact email before SIM / Singpass factor changes",
+        "Cross-check /journeys/singpass-myinfo-exit for login hygiene",
+        "Confirm overseas executor knows how board mail will be received"
+      ],
+      "href": "/journeys/singpass-myinfo-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with bank and leaving playbooks",
+      "body": "Nomination exports, bank statement pulls, and leaving checklists often collide in one fortnight. Sequence portal downloads while Singpass is stable, then bank archive, then physical leaving tasks — so estate PDFs are not trapped behind a closed SIM.",
+      "bullets": [
+        "Put CPF export, bank archive, and Singpass hygiene on one calendar",
+        "Pair with /journeys/bank-exit-closure when closing SGD accounts",
+        "Keep one adult free for board or bank callbacks during notice week"
+      ],
+      "href": "/journeys/bank-exit-closure"
+    }
+  ]
+}
