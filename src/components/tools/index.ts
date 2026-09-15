@@ -3,6 +3,7 @@ export { BankStatementArchiveCalculator } from "./BankStatementArchiveCalculator
 export { CarCoeExitCalculator } from "./CarCoeExitCalculator";
 export { SchoolBusLastWeekFloatCalculator } from "./SchoolBusLastWeekFloatCalculator";
 export { PharmacyLastRefillFloatCalculator } from "./PharmacyLastRefillFloatCalculator";
+export { LibraryLostItemFloatCalculator } from "./LibraryLostItemFloatCalculator";
 export { ClinicDepositExitCalculator } from "./ClinicDepositExitCalculator";
 export { ClubDepositExitCalculator } from "./ClubDepositExitCalculator";
 export { ColCalculator } from "./ColCalculator";

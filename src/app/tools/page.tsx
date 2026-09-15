@@ -101,6 +101,12 @@ const tools = [
     summary:
       "Sketch last-refill cash for polyclinic refill, private top-up, and travel fills — not clinical or HSA advice.",
   },
+  {
+    href: "/tools/library-lost-item-float",
+    title: "Library lost-item float",
+    summary:
+      "Sketch overdue and lost-item cash for return-clear, overdue pay-down, and lost replacement — not NLB advice.",
+  },
 ] as const;
 
 export default function ToolsIndexPage() {

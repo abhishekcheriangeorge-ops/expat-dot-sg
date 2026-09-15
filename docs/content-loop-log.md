@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 32)
+
+Branch: `cursor/e-journeys-tools-tick32-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #315** (`cursor/e-journeys-tools-tick31-fa4f`) — did not wait for #315 or earlier E drafts to merge. Avoided open E stack exclusives through **#315** (E31): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**), pharmacy-chronic-script / pharmacy-last-refill-float (**#315**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → #315 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Leaving threads — NLB holds and kids’ cards still open after flights; lost-item fees appear after mailbox closes; digital Libby seats die mid-move.
+- School / packing threads — library books hiding in lockers; overdue clocks tip into replacement billing.
+
+**Official / orientation**
+
+- NLB membership / loan / lost-item fee schedules (membership-specific)
+- Community library branch overdue tables (branch-specific)
+
+### Gaps vs open E stack through #315
+
+Open tips through **#315** cover mail/HDB through pharmacy chronic-script / last-refill float. Remaining high-intent gaps **off those path sets**: **NLB / library membership exit**, **library lost-item float sketch**. No calendar JSON. Distinct from school-locker-clear — this tick owns library account clearance and fee float, not school locker contents. Distinct from pharmacy-last-refill-float — library fees vs pharmacy cash.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/nlb-library-exit.json` + `/journeys/nlb-library-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/library-lost-item-float.ts`
+- `src/components/tools/LibraryLostItemFloatCalculator.tsx`
+- `/tools/library-lost-item-float` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #315.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Do chute returns clear the same day online?
+2. Are child cards billed to the parent after departure?
+3. Does paying overdue stop the lost-item clock?
+4. Will membership refunds require an in-person visit?
+5. Do PressReader seats survive a foreign-member status change?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 31)
 
 Branch: `cursor/e-journeys-tools-tick31-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #304** (`cursor/e-journeys-tools-tick30-fa4f`) — did not wait for #304 or earlier E drafts to merge. Avoided open E stack exclusives through **#304** (E30): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → this tip**. Soft hubs / content-loop-log: **prepend**.

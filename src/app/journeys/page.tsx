@@ -9,6 +9,7 @@ import {
   getCondoAccessCardDepositPlaybook,
   getCpfNominationExitPlaybook,
   getPharmacyChronicScriptExitPlaybook,
+  getNlbLibraryExitPlaybook,
   getCondoVisitorParkingClearPlaybook,
   getUtilityMeterPhotoHandoffPlaybook,
   getCondoVisitorQrExitPlaybook,
@@ -26,7 +27,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, NLB library exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -44,6 +45,7 @@ export default async function JourneysIndexPage() {
     condoAccessCard,
     cpfNominationExit,
     pharmacyChronicScript,
+    nlbLibraryExit,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -57,6 +59,7 @@ export default async function JourneysIndexPage() {
     getCondoAccessCardDepositPlaybook(),
     getCpfNominationExitPlaybook(),
     getPharmacyChronicScriptExitPlaybook(),
+    getNlbLibraryExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -132,6 +135,11 @@ export default async function JourneysIndexPage() {
                   pharmacyChronicScript?.title ??
                   "Pharmacy / chronic-script exit",
                 path: "/journeys/pharmacy-chronic-script-exit",
+              },
+              {
+                name:
+                  nlbLibraryExit?.title ?? "NLB / library membership exit",
+                path: "/journeys/nlb-library-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -462,6 +470,33 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open pharmacy chronic-script playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            NLB / library
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {nlbLibraryExit?.title ?? "NLB / library membership exit"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {nlbLibraryExit?.summary ??
+              "Return loans, clear lost-item fees, and close membership contacts before Singpass and address changes."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/library-lost-item-float"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/library-lost-item-float
+            </Link>{" "}
+            if overdue or replacement cash competes with packing week.
+          </p>
+          <Link
+            href="/journeys/nlb-library-exit"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open NLB library exit playbook
           </Link>
         </FadeIn>
 

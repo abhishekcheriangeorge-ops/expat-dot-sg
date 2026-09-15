@@ -194,3 +194,7 @@ export async function getCpfNominationExitPlaybook(): Promise<LeavingPlaybook | 
 export async function getPharmacyChronicScriptExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("pharmacy-chronic-script-exit.json");
 }
+
+export async function getNlbLibraryExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("nlb-library-exit.json");
+}

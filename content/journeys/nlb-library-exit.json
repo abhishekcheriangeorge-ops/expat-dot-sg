@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "nlb-library-exit",
+  "title": "NLB / library membership exit",
+  "summary": "Leaving Singapore with NLB or community-library holds still open — return loans, clear lost-item fees, and close membership contact channels before Singpass and address changes.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-loans",
+      "title": "Inventory loans, holds, and e-resource seats",
+      "body": "Physical loans, reservation holds, and digital checkouts often sit under different due dates. Before you change addresses or Singpass factors, export your account summary and photograph any overdue notices. Kids’ cards linked to a parent account can hide fees until packing week.",
+      "bullets": [
+        "List every open loan, hold, and linked child card still on the account",
+        "Download or screenshot the account summary while login still works",
+        "Note e-resource seats that renew quietly after you fly"
+      ],
+      "href": "https://www.nlb.gov.sg/"
+    },
+    {
+      "id": "return-receipt",
+      "title": "Return items with a dated clearance",
+      "body": "Dropping books in a chute without checking the account is how lost-item fees appear after departure. Return everything over the counter or confirm chute returns cleared online the same day. Keep a screenshot of the zero-loan state for your leaving file.",
+      "bullets": [
+        "Return all physical loans before fly week and confirm the account shows zero",
+        "Cancel outstanding holds so reserved items are not billed as uncollected",
+        "Sketch lost / overdue cash on /tools/library-lost-item-float"
+      ],
+      "href": "/tools/library-lost-item-float"
+    },
+    {
+      "id": "lost-fees",
+      "title": "Lost-item and overdue fee float",
+      "body": "Published replacement fees can exceed the original purchase price. If a title is missing, ask for the replacement schedule in writing and hold SGD float until the line clears. Do not raid the pharmacy last-refill pot for sudden library invoices.",
+      "bullets": [
+        "Ask for the published lost-item / replacement fee table in writing",
+        "Hold a separate library float until the account shows no outstanding charges",
+        "Pair with /tools/pharmacy-last-refill-float only as a same-week cash-calendar check"
+      ],
+      "href": "/tools/library-lost-item-float"
+    },
+    {
+      "id": "membership-close",
+      "title": "Membership, contact email, and foreign-member cards",
+      "body": "Foreign-member and resident cards may need explicit closure or address updates so notices do not bounce. Update the email on file before SIM change, and confirm whether a membership fee refund requires an in-person visit.",
+      "bullets": [
+        "Update contact email before Singapore SIM / Singpass factor changes",
+        "Ask whether membership closure or refund needs a branch visit",
+        "Cross-check /journeys/singpass-myinfo-exit for login hygiene"
+      ],
+      "href": "/journeys/singpass-myinfo-exit"
+    },
+    {
+      "id": "digital-seats",
+      "title": "Libby / PressReader and other digital seats",
+      "body": "Digital lending seats tied to NLB membership can stop working after membership status changes. Download any title you still need while the seat is live, and remove payment methods stored against third-party reading apps.",
+      "bullets": [
+        "Download or return digital loans before membership status changes",
+        "Remove stored payment methods on linked reading apps",
+        "Do not treat app folklore as NLB membership policy"
+      ],
+      "href": "https://www.nlb.gov.sg/"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with school and leaving playbooks",
+      "body": "Library clearance, school locker clear, and leaving checklists often share one fortnight. Sequence returns while you still have a local address for notices, then school and condo tasks — so lost-item letters are not trapped behind a closed mailbox.",
+      "bullets": [
+        "Put library returns, fee float, and membership close on one calendar",
+        "Pair with /journeys/school-locker-clear when kids’ bags still hide borrowed titles",
+        "Keep one adult free for branch callbacks during notice week"
+      ],
+      "href": "/journeys/school-locker-clear"
+    }
+  ]
+}
