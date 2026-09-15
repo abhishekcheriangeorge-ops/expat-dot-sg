@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 28)
+
+Branch: `loop/story-aeo-tick28` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22, #128 H23, #132 H24, #135 H25, #140 H26, #148 H27). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — keeping Mum’s address for vouchers/voting; overseas IC address folklore.
+- r/askSingapore / Singapore Expats Forum — embassy passport appointment lag; MOM/ICA desync after new passport.
+- r/askSingapore — SingPost vs international movers; furniture rarely worth shipping to IKEA destinations.
+
+**Official**
+
+- [ICA — Change of Residential Address on Identity Card](https://www.ica.gov.sg/documents/ic/update_residential_address) + [Elections Department](https://www.eld.gov.sg/).
+- [MFA — Overseas Missions](https://www.mfa.gov.sg/Overseas-Missions) + ICA/MOM travel-document update hygiene.
+- [Singapore Customs — Personal shipment](https://www.customs.gov.sg/personal-shipment/) + [SingPost International](https://www.singpost.com/).
+
+### Gaps vs open H + ticks 1–27
+
+Open: #117–#148 H20–H27 stack. Remaining high-intent Next FAQ-free gaps: **eCOA NRIC address change**, **passports & documents overseas**, **shipping out household**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ecoa-nric-address-change-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/passports-and-documents-overseas.mdx` (direct lead + FAQPage)
+- `content/guides/next/shipping-out-household.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (eCOA + passports + shipping-out topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124/#128/#132/#135/#140/#148 guide bodies.
+
+### Questions mined (sample)
+
+1. Who must update residential address on their NRIC via eCOA?
+2. How soon after moving must I report the new address?
+3. Is eCOA free, and do I get a new IC?
+4. Can one Singpass user file eCOA for the whole household?
+5. If I report an overseas address, do I also need an ELD Local Contact Address?
+6. Does renewing my Employment Pass renew my foreign passport?
+7. When should I renew my passport while living in Singapore?
+8. What should I do after my embassy issues a new passport?
+9. Which civil documents should expats keep in one folder?
+10. Does getting PR renew my foreign passport?
+11. Should I ship furniture from Singapore to Europe, the US, or Australia?
+12. When is SingPost enough versus a full international mover?
+13. How early should I sell items before shipping out?
+14. What condo or HDB logistics should I book for pack-out day?
+15. What documents matter for destination customs on an outbound shipment?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 8)
 
 Branch: `cursor/e-journeys-tools-tick8-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101** exclusive paths. **#78** already on main. Merge controller order: **#72 → #90 → #101 → this tick**.

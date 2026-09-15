@@ -649,6 +649,16 @@ export const pillars: Pillar[] = [
         blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
+        label: "eCOA address change",
+        href: "/guides/ecoa-nric-address-change-singapore",
+        blurb: "SC/PR IC holders: report new address in 28 days — free stickers.",
+      },
+      {
+        label: "Passports & documents",
+        href: "/guides/passports-and-documents-overseas",
+        blurb: "Embassy renewals + MOM/ICA sync — pass ≠ passport.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "New employer files fresh pass — resign only after IPA.",
@@ -667,6 +677,11 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
+      },
+      {
+        label: "Shipping out household",
+        href: "/guides/shipping-out-household",
+        blurb: "Ship little, sell early — SingPost vs crate vs full mover.",
       },
       {
         label: "PR rejected — appeal / reapply",
