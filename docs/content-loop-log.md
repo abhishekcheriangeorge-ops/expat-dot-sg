@@ -6,6 +6,47 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 35)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick35-49cb` → PR to `main` (fresh worktree off `origin/main` @ `28add19`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)–[#257](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/257) A17–A34 stay open — **did not** wait for merges/CI and **did not** edit those paths). Prefer merge order **#143 → … → #248 → #257 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore / r/singapore — unpaid “internships” on tourist/STVP; DP unpaid experience seats; charity-office volunteering myths.
+- r/SingaporeRaw / r/askSingapore — CDP + broker KYC after EP issuance; US-person broker refusals; SRS-vs-cash confusion.
+- r/askSingapore — USD home-country payroll while on EP; SoF freezes; equalisation ≠ IRAS waiver folklore.
+
+**Official**
+
+- [MOM — Training Employment Pass](https://www.mom.gov.sg/passes-and-permits/training-employment-pass) / [Work Holiday Pass](https://www.mom.gov.sg/passes-and-permits/work-holiday-programme) / [Misc. Work Pass](https://www.mom.gov.sg/passes-and-permits/miscellaneous-work-pass)
+- [SGX CDP](https://www.sgx.com/securities/retail-investor/cdp-overview) / [MAS investor alert](https://www.mas.gov.sg/investor-alert)
+- [IRAS — employment income](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/employment-income) / [MOM EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)
+
+### Gaps vs prior Loop A ticks
+
+Open A17–A34 claim every existing Move/Money MDX on `main`. Tick 35 **adds three new guides** (FAQ-complete) instead of re-editing open-stack paths: unpaid internship/volunteer pass rules, brokerage/CDP for foreigners, USD/offshore EP payroll.
+
+### Shipped this loop
+
+- `content/guides/move/unpaid-internship-volunteer-work-pass-singapore.mdx` (new, 6 FAQs)
+- `content/guides/money/brokerage-cdp-account-foreigners-singapore.mdx` (new, 6 FAQs)
+- `content/guides/money/usd-offshore-payroll-employment-pass.mdx` (new, 6 FAQs)
+- Move + Money hub topics added; log prepended
+
+### Explicitly not done
+
+- No ads/monetization expansion / no Grok / no force-push to main.
+
+---
+
+---
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 53 — 2026-09-15
 
 Branch: `cursor/home-life-tick53-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` after tip **#339** (Tick 52) merged; no other open Loop C drafts in the way. Topics: condo smoke-stop / staircase pressurisation fan test notices, ActiveSG gateball / petanque, Pasir Ris West Fringe / Loyang Edge / Tampines North Edge. Tip after Tick 52 confirmed as **#339**; opened next tip off that tip (now on `main`) without ads / Grok / force-push to main. Shared log conflict resolved by prepend.

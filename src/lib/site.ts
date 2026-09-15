@@ -251,6 +251,11 @@ export const pillars: Pillar[] = [
         href: "/guides/first-housing-serviced-apartment",
         blurb: "Serviced apartments and short lets while you hunt properly.",
       },
+      {
+        label: "Unpaid internships & volunteering",
+        href: "/guides/unpaid-internship-volunteer-work-pass-singapore",
+        blurb: "Unpaid ≠ legal — TEP, WHP, Misc. Work Pass, DP traps.",
+      },
     ],
     related: [
       { href: "/arriving", label: "Arriving hub" },
@@ -304,19 +309,9 @@ export const pillars: Pillar[] = [
         blurb: "Permit windows, roof doors, and restricted ladder access.",
       },
       {
-        label: "Sprinkler drain-down / fire-shutter tests",
-        href: "/guides/condo-sprinkler-drain-down-fire-shutter-test-notices-tenants",
-        blurb: "Wet-system and shutter-test calendars — not hydrant clearance or alarm drills.",
-      },
-      {
-        label: "Smoke-stop / staircase pressurisation tests",
-        href: "/guides/condo-smoke-stop-staircase-pressurisation-fan-test-notices-tenants",
-        blurb: "Staircore fan and smoke-stop calendars — not sprinkler drain-downs or alarm drills.",
-      },
-      {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Pasir Ris West Fringe, Loyang Edge, Tampines North Edge, and more.",
+        blurb: "Upper East Coast Fringe, Lagoon View West, Mandarin Gardens East, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -429,6 +424,16 @@ export const pillars: Pillar[] = [
         label: "Year-one financial plan",
         href: "/guides/financial-planning-year-one",
         blurb: "3–6 month buffer; defer ABSD condo and COE FOMO.",
+      },
+      {
+        label: "Brokerage & CDP accounts",
+        href: "/guides/brokerage-cdp-account-foreigners-singapore",
+        blurb: "FIN/Singpass KYC, US-person friction, SRS vs cash.",
+      },
+      {
+        label: "USD / offshore EP payroll",
+        href: "/guides/usd-offshore-payroll-employment-pass",
+        blurb: "Source beats wire destination; MOM fixed-salary traps.",
       },
     ],
     related: [
@@ -558,16 +563,6 @@ export const pillars: Pillar[] = [
         label: "ActiveSG lawn bowls",
         href: "/guides/activesg-lawn-bowls-booking-singapore",
         blurb: "Standard Rate green sessions — not cycling circuit or alley bowling.",
-      },
-      {
-        label: "ActiveSG cricket nets",
-        href: "/guides/activesg-cricket-nets-booking-singapore",
-        blurb: "Standard Rate net sessions — not lawn bowls, circuit, or court hire.",
-      },
-      {
-        label: "ActiveSG gateball / petanque",
-        href: "/guides/activesg-gateball-petanque-booking-singapore",
-        blurb: "Standard Rate green sessions — not lawn bowls, cricket nets, or court hire.",
       },
       {
         label: "Apps that matter",
