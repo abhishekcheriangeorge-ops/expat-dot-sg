@@ -154,12 +154,12 @@ export const pillars: Pillar[] = [
       {
         label: "HSA personal medication",
         href: "/guides/bringing-medication-singapore-hsa",
-        blurb: "3-month rule, controlled-drug approval ≥2 weeks out.",
+        blurb: "Approval date slips, no mail-order top-ups, check ‘herbal’ oils.",
       },
       {
         label: "Household shipping & GST relief",
         href: "/guides/shipping-household-singapore",
-        blurb: "DOF before freight lands; what never gets relief.",
+        blurb: "No liquor/car in relief; you own the DOF; new buys ≠ relief.",
       },
       {
         label: "Foreign licence conversion",
@@ -373,7 +373,7 @@ export const pillars: Pillar[] = [
       {
         label: "Remittances & FX",
         href: "/guides/remittances-singapore",
-        blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
+        blurb: "Self-wires freeze risk; no smurfing; remittance≠IRAS form.",
       },
       {
         label: "Health insurance & LOG",

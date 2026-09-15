@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 29)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick29-49cb` → PR to `main` (fresh worktree off `origin/main` @ `e2be999`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180)/[#187](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/187)/[#194](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/194)/[#200](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/200)/[#208](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/208)/[#211](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/211) A17–A28 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → #187 → #194 → #200 → #208 → #211 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — wine/car in household container; who owns DOF errors; new furniture after landing.
+- r/askSingapore — HSA date slip after delay; mail-order ADHD refills; CBD/herbal seizures.
+- r/singaporefi — self-wire SoF freezes; splitting remittances; “must I tell IRAS every Wise?”
+
+**Official**
+
+- [Singapore Customs — GST relief for used household articles](https://www.customs.gov.sg/) + DOF framing
+- [HSA — bringing personal medication into Singapore](https://www.hsa.gov.sg/)
+- MAS-licensed remittance / bank SoF practice (verify live issuer rules)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A28 claim Student’s Pass through STVP/salary/CBNI. Tick 29 deepens **household shipping**, **HSA personal medication**, and **remittances** without colliding those paths. Did **not** expand existing mover/remittance `sponsorSlot` blocks.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/shipping-household-singapore.mdx` (+3)
+- `content/guides/move/bringing-medication-singapore-hsa.mdx` (+3)
+- `content/guides/money/remittances-singapore.mdx` (+3)
+- `src/lib/site.ts` (shipping / HSA / remittance blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion (`sponsorSlot` left untouched).
+- No Grok / third-party clone copy.
+- Did not edit open A17–A28 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180/#187/#194/#200/#208/#211 for the merge controller.
+
+### Questions mined (sample)
+
+1. Can wine or a car ride in the household container under GST relief?
+2. Who is liable if the mover’s DOF is wrong?
+3. Do post-landing furniture buys get GST relief?
+4. What if the flight slips past the HSA approval date?
+5. Can I refill controlled meds by overseas mail order?
+6. Do CBD/herbal sleep aids need HSA checks?
+7. Will a large self-transfer freeze my SG bank?
+8. Can I split remittances to avoid compliance?
+9. Must every outbound Wise be reported to IRAS?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 25)
 
 Branch: `cursor/loop-d-next-polish-tick25-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money parents for side-income, FCF, COMPASS, CPF withdrawal, leaving costs. Avoided open Loop D file set from [#201](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/201).
