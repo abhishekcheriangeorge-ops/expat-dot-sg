@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 13)
+
+Branch: `cursor/loop-d-next-polish-tick13-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99). #79 already merged.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — CPF nomination failed because a witness missed the confirm window / nominee also listed as witness.
+- r/askSingapore — passport stolen overseas / emergency travel document and “am I still PR at Changi?”
+- r/askSingapore — EP renewal SAT screenshots where firm diversity / local-PMET scores cratered after hiring.
+
+**Official**
+
+- [CPF Board — Making a CPF nomination](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination) · [make a nomination](https://www.cpf.gov.sg/makecpfnom)
+- [ICA — Transfer of Re-Entry Permit / Update Travel Document](https://www.ica.gov.sg/reside/PR/transfer-REP) · [Apply / renew REP](https://www.ica.gov.sg/reside/PR/apply-REP)
+- [MOM — EP eligibility / COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · [Renew an EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass) · [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool)
+
+### Gaps vs prior ticks
+
+Open stack (#83 → #89 → #99) owns PRSEP/NS Exit/renounce-PR NS traps, EP-death DP / SC cooling-off / LPA fees, and WICA clocks / training-bond IPA / SAL e-Apostille. Remaining high-intent **Next** gaps without companion depth: **CPF nomination Singpass witness clocks**, **REP transfer after lost passport / ETD**, **COMPASS firm scores on EP renewal**. About + editorial research language updated.
+
+### Shipped
+
+**New:** `cpf-nomination-singpass-witnesses-singapore.mdx`, `rep-transfer-lost-passport-etd-singapore.mdx`, `ep-renewal-compass-firm-scores-singapore.mdx`
+
+**Upgraded:** `wills-probate-cpf-nomination-singapore.mdx`, `transfer-rep-new-passport.mdx`, `ep-renewal-strategy.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits.
+- Did not edit #83 / #89 / #99 guide bodies.
+
+### Questions mined
+
+1. Why did my CPF nomination fail after I submitted online?
+2. Can my spouse be both a CPF nominee and a Singpass witness?
+3. How long do witnesses have to confirm a CPF nomination?
+4. Does a will change rewrite my CPF nomination after divorce?
+5. Passport stolen overseas — am I still PR when I fly home on an ETD?
+6. Do I transfer REP onto an emergency travel document?
+7. Transfer vs renew vs lost-NRIC when the passport is gone?
+8. Why did last year’s EP renewal clear COMPASS but this year’s SAT fails?
+9. What firm COMPASS questions should I email HR before filing?
+10. Is a soft firm score the same problem as an NOA document ask?
+11. Does C1 salary percentile equal the Stage 1 qualifying floor?
+12. When should I ask about COMPASS exemptions vs S Pass contingency?
+
+---
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 15)
 
 Branch: `cursor/e-journeys-tools-tick15-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (through #139 on tip). **Did not wait for merges.** Avoided open E stack exclusives **#147** (newborn/sim-otp) and **#156** (condo/car-coe) plus earlier stack path sets. Prefer merge order note: **#147 → #156 → this tick**.

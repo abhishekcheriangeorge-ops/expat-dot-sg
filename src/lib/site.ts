@@ -663,6 +663,21 @@ export const pillars: Pillar[] = [
         blurb: "ICA 14-day report clock — not MOM work-pass replacement.",
       },
       {
+        label: "REP after lost passport / ETD",
+        href: "/guides/rep-transfer-lost-passport-etd-singapore",
+        blurb: "Mission replacement first, then ICA transfer — ETD traps.",
+      },
+      {
+        label: "CPF nomination witnesses",
+        href: "/guides/cpf-nomination-singpass-witnesses-singapore",
+        blurb: "Two Singpass witnesses, 7-day confirm, amend after marriage.",
+      },
+      {
+        label: "COMPASS firm scores on renewal",
+        href: "/guides/ep-renewal-compass-firm-scores-singapore",
+        blurb: "Firm diversity / local-PMET drift — SAT questions for HR.",
+      },
+      {
         label: "After getting PR",
         href: "/guides/after-getting-pr-checklist",
         blurb: "What transfers and what you leave behind.",
