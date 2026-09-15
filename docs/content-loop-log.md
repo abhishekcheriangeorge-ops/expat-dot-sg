@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 25 — 2026-09-15
+
+Branch: `cursor/services-directory-tick25-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204→#207→#212); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — groin bulge / hernia repair recovery and gym return questions.
+- Parent forums — eczema flare cycles with swimming and air-con.
+- Practical living — watch fogging after pool / authorised service waits.
+- Home threads — framing humidity and condo drilling rules.
+- Parent activity threads — skatepark lessons and helmet fights.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/) + [NAC](https://www.nac.gov.sg/).
+- [SportSG](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#212 cover prior depth and every on-main service file. Free surface for tick 25: **hernia surgery**, **paediatric eczema/derm**, **watch repair**, **art framing**, **skate/scoot lessons**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/hernia-surgery.json`
+- `content/entities/services/eczema-paediatric-dermatology.json`
+- `content/entities/services/watch-repair.json`
+- `content/entities/services/art-framing.json`
+- `content/entities/services/skate-scoot-lessons.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#212 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Watchful waiting or repair for a small inguinal hernia?
+2. When does childhood eczema need dermatology vs GP?
+3. Authorised watch service or independent battery/pressure test?
+4. Acrylic or glass for humid-wall framing?
+5. Group skate lesson gear list before the first park session?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 25)
 
 Branch: `cursor/loop-d-next-polish-tick25-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money parents for side-income, FCF, COMPASS, CPF withdrawal, leaving costs. Avoided open Loop D file set from [#201](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/201).

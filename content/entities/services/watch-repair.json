@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "watch-repair",
+  "name": "Watch repair and servicing",
+  "summary": "How expats find watch repair and authorised servicing in Singapore — battery changes, pressure tests after swimming, and when grey-import pieces complicate warranty paths.",
+  "body": "Humidity, pool days, and MRT bumps punish watches. Services range from walk-in battery/gasket swaps to full manufacturer service centres for automatics and divers.\n\n## Typical jobs\n- Battery and gasket replacement with pressure testing\n- Strap/bracelet adjustments and spring-bar swaps\n- Crystal polishing or replacement\n- Full service (clean, oil, regulate) for mechanicals\n- Authenticity checks before second-hand buys\n\nAuthorised centres protect warranty; independents can be faster/cheaper out of warranty — ask what parts they use.\n\n## How to choose\nFor dive watches, insist on pressure testing after battery work. Keep service papers for resale. Grey-import warranty may require regional detours — check before buying. Avoid street “ultrasonic clean” pitches that open cases without proper seals.\n\n## Practical tip\nPhotograph the watch and note the serial before drop-off. Remove smart-watch cellular SIMs if sending connected devices for hardware work.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Battery/gasket service after swimming fogging",
+    "Mechanical full service due by age/hours",
+    "Authorised vs independent repair for warranty pieces",
+    "Pressure test needed for dive-watch seal work"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "hobby-sports-communities-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

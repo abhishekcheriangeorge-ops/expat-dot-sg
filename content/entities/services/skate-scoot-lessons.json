@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "skate-scoot-lessons",
+  "name": "Skateboarding and scooter lessons",
+  "summary": "How expats book skateboard and kick-scooter lessons in Singapore for kids and beginners — park rules, protective gear, and heat/rain scheduling realities.",
+  "body": "Skate and scoot coaching uses ActiveSG parks, condo voids (where allowed), and private indoor spaces. Parents want fall-safety habits before unsupervised park sessions; adults want commute-scooter confidence beyond footpath chaos.\n\n## Formats\n- Kids’ group fundamentals (stance, braking, falling safe)\n- Private coaching for tricks or commute skills\n- Holiday camps at skate parks\n- Adaptive or confidence-first sessions for anxious beginners\n\nHelmets and wrist guards are non-negotiable for learners despite “it feels hot” protests.\n\n## Rules and etiquette\nPark sessions have peak-hour crowding and unwritten lane etiquette. Condos may ban scooters in corridors — check before practising at home. Public-path PMD rules are separate from skatepark play; coaches should not teach illegal footpath speeds as normal.\n\n## How to choose\nWatch coach-to-kid ratios and whether gear is provided or BYO. Prefer programmes with rain plans and sunscreen breaks. Ask about progression beyond standing push-offs before buying premium boards.\n\n## Practical tip\nBook early-morning or evening classes; midday concrete is brutal. Bring water and shoes with grip — school shoes with smooth soles waste the lesson.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Kids’ first skate/scoot lessons with gear norms",
+    "Holiday skate-park camp search",
+    "Condo vs park practice rules unclear",
+    "Adult beginner coaching for balance/braking"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "hobby-sports-communities-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

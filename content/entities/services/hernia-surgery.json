@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "hernia-surgery",
+  "name": "Hernia surgery",
+  "summary": "How expats evaluate hernia repair in Singapore — inguinal, umbilical, and incisional pathways, open vs laparoscopic options, and return-to-work timing for desk vs physical roles.",
+  "body": "Hernias often show up as a groin bulge after lifting, gym strain, or postpartum wall weakness. Surgery is usually definitive; trusses are bridging tools, not cures. General surgery clinics manage assessment, imaging when needed, and repair planning.\n\n## Common types\n- Inguinal / femoral\n- Umbilical / paraumbilical\n- Incisional (post prior surgery)\n- Sportsman hernia evaluations (diagnosis contested — get a careful exam)\n\nEmergency incarceration/strangulation symptoms (irreducible painful bulge, vomiting) need A&E, not elective clinic queues.\n\n## Technique and recovery\nOpen and minimally invasive approaches each have mesh and recovery trade-offs. Ask about recurrence rates, nerve-pain risk, and when you can lift groceries, kids, or gym loads again. Desk workers often return sooner than warehouse or healthcare movers.\n\n## How to choose\nPrefer surgeons who examine standing and supine, explain watchful waiting criteria for small asymptomatic hernias, and give written activity timelines. Insurance pre-auth is common for elective repair — get diagnostic wording exact.\n\n## Practical tip\nPhotograph the bulge when it appears later in the day; it may reduce in clinic mornings. Stop heavy deadlifts until cleared — ego lifting before repair worsens tissue.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Groin or umbilical bulge needs surgical assessment",
+    "Open vs laparoscopic hernia repair decision",
+    "Return-to-work / gym lifting timeline after repair",
+    "Elective repair insurance pre-auth wording unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "wica-work-injury-compensation-ep"
+  ],
+  "featured": false,
+  "sponsored": false
+}

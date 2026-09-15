@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "art-framing",
+  "name": "Art framing and mounting",
+  "summary": "How expats commission framing in Singapore for posters, canvases, and certificates — humidity-aware materials, condo hanging rules, and turnaround before home leave.",
+  "body": "Framing shops handle posters, kids’ art, degrees, and gallery buys. Tropical humidity argues for better mats/backing than bargain snap frames; condo walls and landlord rules constrain hanging hardware.\n\n## Decisions that matter\n- Acrylic vs glass (weight, shatter, UV options)\n- Acid-free mats and sealed backs against mould\n- Float mounts vs standard mats for art paper\n- Canvas stretching vs frame-over-canvas\n- Mirror and noticeboard adjacent services\n\nAsk about moisture-control materials if the piece faces an exterior wall.\n\n## How to choose\nCompare quotes on the same moulding code. Prefer shops that discuss UV and humidity, not only colour matching. Confirm lead times around Chinese New Year. For rental walls, choose hanging systems that patch cleanly at move-out.\n\n## Practical tip\nBring the hook/wall type photo (concrete vs drywall partition). Measure lift height before framing oversized pieces you cannot get upstairs.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Certificates / art need humidity-aware framing",
+    "Acrylic vs glass and UV options unclear",
+    "Condo hanging / patch rules before drilling",
+    "Lead time tight before home leave or gifting"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

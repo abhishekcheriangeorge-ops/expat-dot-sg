@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "eczema-paediatric-dermatology",
+  "name": "Paediatric eczema and dermatology",
+  "summary": "How expat parents find paediatric dermatology for eczema flares in Singapore’s heat and haze — steroid stewardship, wet-wrap basics, and when GP care should escalate.",
+  "body": "Infant and child eczema flares hard in humidity, air-con dryness, and swimming-pool chlorine cycles. Most mild cases stay with GPs/paediatricians; recurrent infection, facial/eyelid disease, or sleep-destroying itch deserves dermatology.\n\n## Care building blocks\n- Daily emollients and trigger mapping (sweat, dust mites, detergents)\n- Appropriate topical steroids/calcineurin inhibitors — not internet steroid phobia\n- Infection recognition (oozing, crusts) and when antibiotics/antivirals matter\n- Wet wraps and wet-pajama techniques under guidance\n- Allergy testing only when history suggests — not as a first shotgun\n\n## How to choose\nPrefer paediatric-experienced dermatologists who measure quality of life (sleep, school) not only rash photos. Bring a product list including “natural” oils. Be wary of indefinite food-elimination plans without dietitian support.\n\n## Practical tip\nApply leave-on emollient within minutes after baths. Keep a small kit at school/childcare. If your child needs wet wraps overnight before a Monday flight, practice on a weekend first.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Recurrent eczema flares despite GP plans",
+    "Sleep loss / infection signs need dermatology",
+    "Steroid use anxiety — need stewardship counselling",
+    "School swimming / haze triggers need a written plan"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "parenting-communities-playgroups-singapore",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}
