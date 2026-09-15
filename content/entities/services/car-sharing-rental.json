@@ -2,29 +2,29 @@
   "type": "service",
   "slug": "car-sharing-rental",
   "name": "Car sharing & rental (category guide)",
-  "summary": "GetGo-style hourly sharing vs traditional rental vs COE ownership — photo discipline, excess risk, and when Grab maths still beats a car for EP households.",
-  "body": "Most EP households should treat COE ownership as a lifestyle tax, not a default — run Grab / sharing maths before bidding. Hourly car-sharing (GetGo and peers) wins for occasional airport runs, IKEA hauls, and weekend errands once you hold a valid Singapore licence (or eligible foreign-licence window). Photograph exterior and interior before and after every trip; forum threads obsess over surprise damage invoices and worn PHV-ex fleets — pick the car, check tyres/seats, and report defects in-app before you drive. Traditional day/week rentals still make sense for JB trips or multi-day visitors who need a guaranteed model. PHV ‘rent a Grab car as a side hustle’ maths usually fails once daily rental, fuel, and downtime are included — not an expat mobility plan. Pair with licence conversion before you assume you can unlock sharing apps on day three, and with the COE guide before any ownership pitch. This is a category guide to the sharing-vs-rent-vs-own decision, not a ranked operator ranking. Family ops note: speech-day venues and foodcourt dinner rails both punish late GetGo bookings — reserve the car before the assembly blackout, not during it.",
+  "summary": "GetGo-style hourly sharing vs traditional rental vs COE ownership \u2014 photo discipline, excess risk, and when Grab maths still beats a car for EP households.",
+  "body": "Most EP households should treat COE ownership as a lifestyle tax, not a default \u2014 run Grab / sharing maths before bidding. Hourly car-sharing (GetGo and peers) wins for occasional airport runs, IKEA hauls, and weekend errands once you hold a valid Singapore licence (or eligible foreign-licence window). Photograph exterior and interior before and after every trip; forum threads obsess over surprise damage invoices and worn PHV-ex fleets \u2014 pick the car, check tyres/seats, and report defects in-app before you drive. Traditional day/week rentals still make sense for JB trips or multi-day visitors who need a guaranteed model. PHV \u2018rent a Grab car as a side hustle\u2019 maths usually fails once daily rental, fuel, and downtime are included \u2014 not an expat mobility plan. Pair with licence conversion before you assume you can unlock sharing apps on day three, and with the COE guide before any ownership pitch. This is a category guide to the sharing-vs-rent-vs-own decision, not a ranked operator ranking. Family ops note: speech-day venues and foodcourt dinner rails both punish late GetGo bookings \u2014 reserve the car before the assembly blackout, not during it. Family ops note: CAS evenings and climbing sessions both need a named driver \u2014 do not invent \u201cwhoever finishes Zoom first grabs the car\u201d folklore.",
   "category": "other",
   "areasServed": [
     "Islandwide"
   ],
   "whenToEngage": [
-    "Occasional car need — sharing vs Grab monthly spend",
+    "Occasional car need \u2014 sharing vs Grab monthly spend",
     "Need Singapore licence timing before unlocking apps",
     "Comparing hourly sharing vs weekend traditional rental",
     "Someone pitched COE ownership on an EP tour"
   ],
   "officialLinks": [
     {
-      "label": "LTA OneMotoring — Certificate of Entitlement (COE)",
+      "label": "LTA OneMotoring \u2014 Certificate of Entitlement (COE)",
       "url": "https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/certificate-of-entitlement--coe-.html"
     },
     {
-      "label": "LTA OneMotoring — Vehicle tax structure",
+      "label": "LTA OneMotoring \u2014 Vehicle tax structure",
       "url": "https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/tax-structure.html"
     },
     {
-      "label": "SPF — Singapore Driving Licence",
+      "label": "SPF \u2014 Singapore Driving Licence",
       "url": "https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence"
     }
   ],
@@ -35,7 +35,9 @@
     "traffic-accident-motor-claims-singapore",
     "weekend-getaways-from-singapore",
     "international-school-speech-day-prize-giving-ops-dual-career-singapore",
-    "foodcourt-dinner-parent-belonging-singapore"
+    "foodcourt-dinner-parent-belonging-singapore",
+    "international-school-cas-service-evening-ops-dual-career-singapore",
+    "climbing-gym-waiting-parent-belonging-singapore"
   ],
   "featured": false,
   "sponsored": false

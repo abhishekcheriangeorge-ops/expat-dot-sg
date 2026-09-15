@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 43) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick43-8971` → tip PR off [#335](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/335) (tick 42). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #335. Shared log + `site.ts` only (prepend on conflict). Did not wait for #335 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — UTI vs “just drink more water” folklore; swim bans.
+- r/askSingapore — CAS/service portals closing mid-client pack; evidence-log panic.
+- r/askSingapore — climbing-gym viewing benches as the quiet weekday parent meetup.
+
+**Official**
+
+- [NHS UTIs](https://www.nhs.uk/conditions/urinary-tract-infections-utis/) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools) + [IB CAS](https://www.ibo.org/programmes/diploma-programme/curriculum/creativity-activity-and-service/)
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–42 (open tip #335) covered croup nights, sports-awards nights, robotics waiting, fifth disease, language evenings, art-studio waiting. Remaining heat without contested paths: **UTI school-return coverage**, **CAS/service-evening ops**, **climbing-gym waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-uti-school-return-coverage-singapore.mdx`
+- `content/guides/family/international-school-cas-service-evening-ops-dual-career-singapore.mdx`
+- `content/guides/belong/climbing-gym-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open paths through #335)
+
+- childhood vaccination foreigners, grandparents long-stay caregiving, confinement nanny postpartum, find-my-people, book clubs, youth volunteering communities
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- ACS Independent, NUS High, Raffles Institution, car-sharing-rental, notary-apostille, will-writing-probate
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open paths through #335.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns daytime UTI checks and GP follow-up?
+2. What exact line does the school letter use for return?
+3. When does the CAS/service portal slot close?
+4. Who owns the evidence / reflection pack?
+5. Same climbing viewing bench next week?
+6. Is swim / PE paused in writing?
+7. Who covers siblings during the evening?
+8. Who sends the follow-up email?
+
+---
+
 ## Loop B — Family + Belong (tick 42) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick42-8971` → tip PR off [#327](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/327) (tick 41). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #327. Shared log + `site.ts` only (prepend on conflict). Did not wait for #327 merge/CI. No force-push to `main`.

@@ -543,6 +543,16 @@ export const pillars: Pillar[] = [
         blurb: "Call times, kit owners, sibling coverage.",
       },
       {
+        label: "UTI school-return coverage",
+        href: "/guides/dual-career-kids-uti-school-return-coverage-singapore",
+        blurb: "Named owners, antibiotic plans, written return clocks.",
+      },
+      {
+        label: "CAS / service-evening ops",
+        href: "/guides/international-school-cas-service-evening-ops-dual-career-singapore",
+        blurb: "Slot clocks, evidence owners, sibling coverage.",
+      },
+      {
         label: "Pink-eye exclusion ops",
         href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
         blurb: "Written return rules, swim holds, GP vs eye clinic.",
@@ -751,6 +761,11 @@ export const pillars: Pillar[] = [
         label: "Robotics-academy waiting belonging",
         href: "/guides/robotics-academy-waiting-parent-belonging-singapore",
         blurb: "Repeat sofa hellos without competition politics.",
+      },
+      {
+        label: "Climbing-gym waiting belonging",
+        href: "/guides/climbing-gym-waiting-parent-belonging-singapore",
+        blurb: "Repeat viewing-bench hellos without ranking politics.",
       },
       {
         label: "LGBTQ+ resources",
