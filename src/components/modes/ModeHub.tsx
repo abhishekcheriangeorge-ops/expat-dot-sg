@@ -52,29 +52,26 @@ export function ModeHub({ mode }: ModeHubProps) {
       <section className="mx-auto max-w-[var(--max-page)] px-5 py-[var(--space-section)] sm:px-8">
         <FadeIn>
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-tungsten">
-            Start here
+            How to use {data.label.toLowerCase()}
           </p>
           <h2 className="mt-3 font-display text-3xl text-ink sm:text-4xl">
-            Pillars for {data.label.toLowerCase()}
+            One job at a time
           </h2>
-          <p className="mt-3 max-w-lg text-ink-muted">
-            {data.tagline}. Pick a life category — each page links into guides
-            and directories as they ship.
-          </p>
+          <p className="mt-3 max-w-2xl text-ink-muted">{data.howToUse}</p>
         </FadeIn>
 
-        <Stagger className="mt-12 grid gap-8 sm:grid-cols-2">
-          {relatedPillars.map((pillar) => (
-            <StaggerItem key={pillar.slug}>
-              <Link href={pillar.href} className="group block no-underline">
-                <p className="font-display text-2xl text-canopy-deep transition-colors group-hover:text-canopy-mist">
-                  {pillar.label}
+        <Stagger className="mt-10 grid gap-6 sm:grid-cols-2">
+          {data.startHere.map((link) => (
+            <StaggerItem key={link.href}>
+              <Link href={link.href} className="group block no-underline">
+                <p className="font-display text-xl text-canopy-deep transition-colors group-hover:text-canopy-mist">
+                  {link.label}
                 </p>
                 <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                  {pillar.summary}
+                  {link.blurb}
                 </p>
                 <p className="mt-3 text-sm font-semibold text-tungsten transition-colors group-hover:text-canopy">
-                  Explore {pillar.label} →
+                  Open →
                 </p>
               </Link>
             </StaggerItem>
@@ -83,13 +80,50 @@ export function ModeHub({ mode }: ModeHubProps) {
       </section>
 
       <section className="border-t border-fog-soft bg-paper-elevated">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 py-[var(--space-section)] sm:px-8">
+          <FadeIn>
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-tungsten">
+              Then pick a pillar
+            </p>
+            <h2 className="mt-3 font-display text-3xl text-ink sm:text-4xl">
+              Pillars for {data.label.toLowerCase()}
+            </h2>
+            <p className="mt-3 max-w-lg text-ink-muted">
+              {data.tagline}. Each page is a topic map into guides and
+              directories — open one blocker, not the whole shelf.
+            </p>
+          </FadeIn>
+
+          <Stagger className="mt-12 grid gap-8 sm:grid-cols-2">
+            {relatedPillars.map((pillar) => (
+              <StaggerItem key={pillar.slug}>
+                <Link href={pillar.href} className="group block no-underline">
+                  <p className="font-display text-2xl text-canopy-deep transition-colors group-hover:text-canopy-mist">
+                    {pillar.label}
+                  </p>
+                  <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+                    {pillar.summary}
+                  </p>
+                  <p className="mt-3 text-sm font-semibold text-tungsten transition-colors group-hover:text-canopy">
+                    Explore {pillar.label} →
+                  </p>
+                </Link>
+              </StaggerItem>
+            ))}
+          </Stagger>
+        </div>
+      </section>
+
+      <section className="border-t border-fog-soft">
         <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-4 px-5 py-14 sm:flex-row sm:items-end sm:justify-between sm:px-8">
           <FadeIn>
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-tungsten">
               Also on expat.sg
             </p>
             <p className="mt-2 max-w-md font-display text-2xl text-ink">
-              Already past the first ninety days? Switch to {other.label}.
+              {mode === "arriving"
+                ? `Already past the first ninety days? Switch to ${other.label}.`
+                : `Still in issuance chaos? Switch to ${other.label}.`}
             </p>
           </FadeIn>
           <FadeIn delay={0.1}>

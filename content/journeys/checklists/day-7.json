@@ -2,46 +2,52 @@
   "type": "checklist",
   "slug": "arriving-first-7-days",
   "title": "First 7 days",
-  "summary": "Land, sleep, register the essentials. Keep the list short so the jet lag does not win.",
+  "summary": "Land, sleep, get a +65 number, and start pass issuance. Keep the list short so the jet lag does not win — Singpass and a proper bank account usually wait for biometrics. Dependency map: /guides/first-week-sim-singpass-bank.",
   "phase": "day-7",
   "journey": "arriving",
-  "lastReviewed": "2026-03-01",
+  "lastReviewed": "2026-09-15",
   "items": [
     {
       "id": "arrival-card",
-      "title": "Complete ICA arrival formalities",
-      "detail": "Confirm SG Arrival Card submission before landing and keep your In-Principle Approval (IPA) or pass letter ready at immigration.",
-      "pillar": "move"
+      "title": "Submit SG Arrival Card before landing",
+      "detail": "ICA requires the free SG Arrival Card (with electronic health declaration) within three days before arrival, including the day you land — via the e-Service or MyICA app. Keep your IPA or pass letter ready at immigration.",
+      "pillar": "move",
+      "href": "/guides/sg-arrival-card-expats"
     },
     {
       "id": "sim-data",
-      "title": "Get a local SIM or eSIM",
-      "detail": "Singtel, StarHub, M1, or MVNOs at Changi or nearby malls. You will need SMS for banking and OTP-heavy apps.",
-      "pillar": "life"
+      "title": "Get a prepaid +65 SIM or eSIM with passport",
+      "detail": "Changi and mall kiosks sell prepaid SIMs on passport alone. Postpaid often wants a physical pass or stable address. You need a Singapore number for HR/MOM contact updates, banking OTPs, and Singpass SMS 2FA later.",
+      "pillar": "life",
+      "href": "/guides/first-week-sim-singpass-bank"
     },
     {
       "id": "housing-keys",
       "title": "Confirm temporary housing keys and Wi-Fi",
-      "detail": "Serviced apartment, hotel, or host address — note gate access codes and the building’s visitor policy.",
-      "pillar": "home"
+      "detail": "Serviced apartment, hotel, or host address — note gate access codes, visitor policy, and a postal address HR can use for pass-card delivery.",
+      "pillar": "home",
+      "href": "/guides/first-housing-serviced-apartment"
     },
     {
       "id": "employer-hr",
-      "title": "Message HR / relocation contact",
-      "detail": "Confirm first-day logistics, pass collection appointment, and any medical checks still pending.",
-      "pillar": "move"
+      "title": "Message HR / relocation — issuance and biometrics",
+      "detail": "Confirm pass issuance timing, any medical still pending, and the Employment Pass Services Centre (EPSC) biometrics appointment. After issuance you typically get a Notification Letter that lets you work while the card is printed — verify the live MOM window with HR.",
+      "pillar": "move",
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass"
     },
     {
       "id": "cash-transit",
-      "title": "Load SimplyGo / contactless transit",
-      "detail": "Link a contactless card or get an EZ-Link. Grab and Gojek work for the first week if you prefer doors-to-doors.",
-      "pillar": "life"
+      "title": "Load SimplyGo / contactless transit + bridge cash",
+      "detail": "Link a contactless card or get an EZ-Link. Keep a foreign-card or remittance bridge until the local salary account opens — full banking belongs on the 30-day list.",
+      "pillar": "money",
+      "href": "/guides/opening-bank-account-expat"
     },
     {
       "id": "gp-locate",
       "title": "Locate a nearby GP clinic",
-      "detail": "Save one polyclinic or private GP within a short walk or bus of where you are sleeping. Jet lag plus humidity is a classic first-week combo.",
+      "detail": "Save one private panel GP or polyclinic within a short walk or bus of where you are sleeping. Jet lag plus humidity is a classic first-week combo — know 995 vs GP triage.",
       "pillar": "family",
+      "href": "/guides/healthcare-gp-hospital",
       "optional": true
     },
     {

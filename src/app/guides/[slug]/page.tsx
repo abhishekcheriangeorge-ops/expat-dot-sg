@@ -8,7 +8,7 @@ import {
   getRelatedGuides,
 } from "@/lib/content/guides";
 import { getActivePlacementByCategory } from "@/lib/content/sponsored";
-import { articleJsonLd, buildPageMetadata } from "@/lib/seo";
+import { articleJsonLd, buildPageMetadata, faqJsonLd } from "@/lib/seo";
 
 type GuidePageProps = {
   params: Promise<{ slug: string }>;
@@ -45,6 +45,8 @@ export default async function GuidePage({ params }: GuidePageProps) {
     ? await getActivePlacementByCategory(guide.meta.sponsorSlot.category)
     : null;
 
+  const faqData = faqJsonLd(guide.meta.faqs ?? []);
+
   return (
     <>
       <JsonLd
@@ -56,6 +58,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
           image: guide.meta.ogImage,
         })}
       />
+      {faqData ? <JsonLd data={faqData} /> : null}
       <GuideArticle
         meta={guide.meta}
         toc={guide.toc}

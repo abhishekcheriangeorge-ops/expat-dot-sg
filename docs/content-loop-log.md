@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15
+
+Branch: `loop/story-aeo` → PR to `main`. Owns **journey completeness**, **answer-engine shape** (FAQ leads, FAQPage JSON-LD, decision tables), Arriving/Living hub framing, and surgical FAQ upgrades. Did **not** expand ads/monetization or wholesale-rewrite guides owned by Loops A–G this hour.
+
+### Questions mined (forum-shaped)
+
+1. Do I need Singpass before I can open a Singapore bank account?
+2. Can I buy a +65 SIM with only passport / IPA?
+3. What is the real order: SIM → pass → Singpass → bank → PayNow?
+4. Does Singpass SMS 2FA work with my home-country number?
+5. What is the SG Arrival Card, and when must I submit it?
+6. Is SG Arrival Card a visa?
+7. I have an EP IPA — which SGAC path do I use?
+8. What should I actually do in the first 7 days?
+9. 995 or 999 — which number for medical vs police?
+10. Should expats use a polyclinic or a private GP?
+11. When is A&E right vs wait-for-GP?
+12. Will my embassy pay hospital bills or cancel a dengue fine?
+
+### Answer-engine shape added
+
+- Optional `faqs[]` frontmatter → **FAQPage JSON-LD** on guide pages (`faqJsonLd` in `src/lib/seo.ts`).
+- Direct-answer leads (first ~40–60 words), question-shaped H2s, numbered procedures, comparison tables, ICA/MOM/MOH/SCDF/SPF/DBS citations.
+- Arriving/Living ModeHub **“How to use”** + start-here answer links; Move/Family/Life pillar topics pointed at live guides; day-7 checklist + arriving journeys page cross-links.
+
+### Shipped
+
+**New**
+
+- `content/guides/move/first-week-sim-singpass-bank.mdx`
+- `content/guides/move/sg-arrival-card-expats.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/relocation-checklist-7-30-90.mdx`
+- `content/guides/family/healthcare-gp-hospital.mdx`
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/money/opening-bank-account-expat.mdx` (FAQ + cross-link)
+- `content/guides/home/utilities-telecom-setup.mdx` (FAQ + cross-link)
+- `content/journeys/checklists/day-7.json`
+- `src/app/journeys/arriving/page.tsx`
+- `src/components/modes/ModeHub.tsx`
+- `src/components/pillars/PillarPage.tsx`
+- `src/lib/site.ts`
+- `src/lib/content/schemas.ts` / `src/lib/seo.ts` / `src/app/guides/[slug]/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not wholesale rewrite Loop A–G guides beyond light FAQ leads / related links.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 4)
 
 Branch: `loop/next-polish-tick4` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS, post-AIP, NRIC / life-admin) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
