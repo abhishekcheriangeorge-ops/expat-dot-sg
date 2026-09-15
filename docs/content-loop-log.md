@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 24)
+
+Branch: `loop/story-aeo-tick24` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22, #128 H23). Prefer merge order **#117 → #120 → #124 → #128** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “foreigners on EP have no harassment channel”; pass-cancellation fear keeping people silent; chat-group nationality “jokes.”
+- r/askSingapore — dual-citizenship ORAL panic mixed with unused-passport folklore; foreign renunciation timelines vs 21–22 window; NS + ORAL mashups.
+- r/askSingapore — EP layoff + Singaporean spouse “only 30 days?”; assuming cancelled EP morphs into spouse LTVP; working on STVP while waiting.
+
+**Official**
+
+- [TAFEP — Seek help / report workplace harassment](https://www.tal.sg/tafep/employment-practices/workplace-harassment/seek-help-on-workplace-harassment) + [Tripartite Advisory on Managing Workplace Harassment (PDF)](https://www.mom.gov.sg/-/media/mom/documents/employment-practices/guidelines/tripartite-advisory-on-managing-workplace-harassment.pdf).
+- [ICA — Oath-taking for Minors (ORAL)](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking).
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [ICA spouse LTVP (SC / PR)](https://www.ica.gov.sg/reside/LTVP/apply/spouse-of-a-singapore-citizen-(sc)) + [MOM work passes for ICA LTVP](https://www.mom.gov.sg/passes-and-permits/work-passes-for-holders-of-long-term-visit-passes-issued-by-ica).
+
+### Gaps vs open H + ticks 1–23
+
+Open: #117 (leaving costs / spouse PR / retrenchment), #120 (leave/notice / citizenship / bonds), #124 (TADM / spouse LTVP / WICA), #128 (NS Exit Permit / PLOC / FWA). Remaining high-intent Next FAQ-free gaps: **workplace harassment for EP/S Pass**, **ORAL dual-citizenship at 21**, **EP job-loss → spouse LTVP bridge**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/workplace-harassment-tafep-ep.mdx` (direct lead + FAQPage)
+- `content/guides/next/oral-dual-citizenship-age-21.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-job-loss-spouse-ltvp-bridge-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (EP→spouse LTVP blurb + ORAL + TAFEP harassment topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124/#128 guide bodies.
+
+### Questions mined (sample)
+
+1. Do EP or S Pass holders have workplace harassment channels in Singapore?
+2. Should I stay silent because my Employment Pass is employer-tied?
+3. When is workplace harassment a police or PoHA issue?
+4. What should I document before contacting TAFEP?
+5. Can nationality jokes or sexual remarks in work chats count as harassment?
+6. When must SC minors by descent or registration take the ORAL?
+7. Does never using a Singapore passport mean I can skip ORAL?
+8. Do I need to renounce foreign citizenship before ORAL?
+9. Is ORAL the same process as adult PR → Singapore citizenship?
+10. What if my son is also NS-liable around the ORAL window?
+11. If my EP is cancelled and my spouse is Singaporean, do I only get 30 days?
+12. Is spouse LTVP automatic when my EP dies?
+13. Can I keep working while waiting for spouse LTVP after EP cancel?
+14. Does PMLA still help if we are already married and the EP just cancelled?
+15. What happens to Dependant Passes when the main EP is cancelled?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 13)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick13-49cb` → PR to `main` (fresh worktree off `origin/main` @ `6506c2a` post-H10/#69; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#97](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/97) A8–A12 stay open — **did not** edit those paths).

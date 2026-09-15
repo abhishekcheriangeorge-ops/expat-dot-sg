@@ -615,12 +615,17 @@ export const pillars: Pillar[] = [
       {
         label: "EP → spouse LTVP",
         href: "/guides/ep-job-loss-spouse-ltvp-bridge-singapore",
-        blurb: "When EP dies and an SC/PR spouse can sponsor LTVP.",
+        blurb: "STVP ≤90 days + ICA spouse LTVP — not automatic work rights.",
       },
       {
         label: "ROE under 21",
         href: "/guides/right-of-entry-roe-under-21-singapore",
         blurb: "Dual-passport SC kids clearing SG on a foreign passport.",
+      },
+      {
+        label: "ORAL at 21",
+        href: "/guides/oral-dual-citizenship-age-21",
+        blurb: "Descent/registration SCs — take ORAL before 22 or lose SC.",
       },
       {
         label: "Citizenship confirmation",
@@ -636,6 +641,11 @@ export const pillars: Pillar[] = [
         label: "Citizenship & NS",
         href: "/guides/citizenship-ns-implications",
         blurb: "What permanent status implies for families.",
+      },
+      {
+        label: "Workplace harassment (TAFEP)",
+        href: "/guides/workplace-harassment-tafep-ep",
+        blurb: "EP/S Pass ≠ no channel — HR → TAFEP; police for threats.",
       },
       {
         label: "Career pivots",
