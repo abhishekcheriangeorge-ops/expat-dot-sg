@@ -16,3 +16,5 @@ export { NeighbourhoodDirectory } from "./NeighbourhoodDirectory";
 export { SchoolDirectory } from "./SchoolDirectory";
 export { ClubDirectory } from "./ClubDirectory";
 export { ServiceDirectory } from "./ServiceDirectory";
+export { TopicLinks, type TopicLink } from "@/components/seo/TopicLinks";
+export { CiteRail, type CiteLink } from "@/components/seo/CiteRail";

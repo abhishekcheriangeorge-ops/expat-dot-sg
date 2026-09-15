@@ -1,0 +1,17 @@
+# Money pillar discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/money
+
+## Notes
+- Tax residency, banking, CPF edges, and cost-of-living tools.
+- Pair with tools.txt.
+
+## Related
+- https://expat.sg/pillars.txt
+- https://expat.sg/tools.txt
+- https://expat.sg/guides.txt
+- https://expat.sg/sitemap.xml

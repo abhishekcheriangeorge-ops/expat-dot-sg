@@ -1,0 +1,17 @@
+# Clubs discovery map — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/clubs
+
+## Notes
+- Clubs / associations / community entity collection.
+- Prefer sitemap.xml + /clubs for crawl discovery.
+
+## Related
+- https://expat.sg/neighbourhoods.txt
+- https://expat.sg/directory.txt
+- https://expat.sg/guides.txt
+- https://expat.sg/sitemap.xml

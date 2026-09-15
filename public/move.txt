@@ -1,0 +1,17 @@
+# Move pillar discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/move
+
+## Notes
+- Arrival, passes, housing search, and first-90-days ops.
+- Pair with arriving.txt and journeys.
+
+## Related
+- https://expat.sg/pillars.txt
+- https://expat.sg/arriving.txt
+- https://expat.sg/guides.txt
+- https://expat.sg/sitemap.xml

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>expat.sg</ShortName>
+  <Description>Search expat.sg guides and hubs for Singapore expat life.</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://expat.sg/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://expat.sg/guides?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://expat.sg/opensearch.xml"/>
+  <Contact>via /.well-known/security.txt</Contact>
+  <Tags>singapore expat guides neighbourhoods schools</Tags>
+  <Language>en-SG</Language>
+</OpenSearchDescription>
