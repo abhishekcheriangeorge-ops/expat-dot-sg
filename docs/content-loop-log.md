@@ -6,6 +6,77 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 6)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick6` → PR to `main` (worktree off fresh `origin/main` after A5/#46; rebased onto C23/#48 + H6).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — DP work / LOC / dual-career trap ([Can spouse work on DP](https://www.reddit.com/r/askSingapore/comments/1obgpqo/can_spouse_work_while_on_a_dependent_pass/); [DP career trap](https://www.reddit.com/r/askSingapore/comments/1ranfcm/spouse_got_a_dream_job_offer_in_singapore_but_the/); [DP remote overseas](https://www.reddit.com/r/askSingapore/comments/10qkgfs/does_the_dependent_pass_prevent_me_from_working/); [Jobs as DP](https://www.reddit.com/r/askSingapore/comments/169pt9i/jobs_as_a_dependent_pass_holder/)).
+- r/askSingapore — ONE Pass spouse LOC vs ordinary EP DP ([ONE Pass for spouse work](https://www.reddit.com/r/askSingapore/comments/1d9jml1/expats_how_does_my_wife_get_onepass_to_allow_her/); [Zurich→SG ONE Pass / common-law](https://www.reddit.com/r/askSingapore/comments/1cv5alv/zurich_singapore/)).
+- r/askSingapore — digital nomad / DP company myths ([DP digital nomad](https://www.reddit.com/r/askSingapore/comments/r1khtp/digital_nomad_moving_to_singapore_on_dependent/)).
+- r/askSingapore — CPF on EP myths + shadow pensions ([CPF for foreigners](https://www.reddit.com/r/askSingapore/comments/14avcvv/cpf_for_foreigners/); [Do I get CPF on EP?](https://www.reddit.com/r/askSingapore/comments/112u5q9/do_i_get_cpf_on_ep/)).
+- r/askSingapore — bank IPA / address / Singpass chicken-egg ([Open account from abroad](https://www.reddit.com/r/askSingapore/comments/1qp5wh5/opening_a_bank_account_in_singapore_as_a/); [DBS expat address](https://www.reddit.com/r/askSingapore/comments/19amqw7/opening_bank_account_with_dbs_as_expat/); [IPA-only opening](https://www.reddit.com/r/askSingapore/comments/ufns4k/personal_bank_account_opening_procedure/); [No proof of residence](https://www.reddit.com/r/askSingapore/comments/17jok89/open_a_bank_account_without_proof_of_residence/)).
+
+**Official**
+
+- [MOM — ONE Pass eligibility](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/eligibility) + [spouse LOC](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/passes-for-families/dependants-pass-for-overseas-networks-expertise-pass/working-in-singapore) + [one LOC FAQ](https://www.mom.gov.sg/faq/one-pass/can-a-spouse-of-an-onepass-holder-apply-for-multiple-loc)
+- [MOM — EntrePass eligibility](https://www.mom.gov.sg/passes-and-permits/entrepass/eligibility) + [Renew an EntrePass](https://www.mom.gov.sg/passes-and-permits/entrepass/renew-a-pass) (TBS/LWF ladder)
+- [MOM — DP working in Singapore](https://www.mom.gov.sg/passes-and-permits/dependants-pass/working-in-singapore) + [overseas employer FAQ](https://www.mom.gov.sg/faq/dependants-pass/do-i-need-a-work-pass-if-i-am-self-employed-or-working-for-an-overseas-based-employer)
+- [MOM — Can a work pass holder work in multiple jobs?](https://www.mom.gov.sg/faq/work-pass-general/can-a-work-pass-holder-work-in-multiple-jobs)
+- [MOM — What is a fixed monthly salary?](https://www.mom.gov.sg/faq/employment-pass/what-is-a-fixed-monthly-salary) + [AWS / variable wages](https://www.mom.gov.sg/employment-practices/salary/variable-wage-components)
+- [CPF Board — Who should receive CPF](https://www.cpf.gov.sg/employer/employer-obligations/who-should-receive-cpf-contributions)
+- [DBS — Account opening documents](https://www.dbs.com.sg/personal/support/bank-account-opening-documents-required.html)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–5 shipped EP floors/COMPASS, EP vs S Pass, CBNI, remittance, IR21/medical, EP-cancel STVP / DP LOC / PayNow / CPF withdrawal, FWTES, job-change IPA, HISA, tax residency, EP medical, salary notify, CC GX, COR, LOG, PEP, Tech.Pass, IPA reassessment, SRS, RSU, foreign income, COL helper, ACRA, pets transit. Remaining high-intent Move/Money gaps matched this mine: **ONE Pass spouse LOC vs ordinary EP DP**, **EntrePass TBS/LWF renewal ladder**, **DP/trailing/side-income FAQPages**, **CPF-on-EP myths**, **bank IPA/address FAQPage**, **fixed monthly salary vs AWS/bonus**. EP renewal NOA / between-jobs STVP remain Next/H-adjacent — left alone.
+
+### Shipped this loop
+
+**Upgraded guides (FAQPage + depth)**
+
+- `content/guides/move/one-pass-singapore.mdx`
+- `content/guides/move/entrepass-singapore.mdx` (renewal TBS/LWF table)
+- `content/guides/move/dependant-pass-singapore.mdx`
+- `content/guides/move/trailing-partner-career-singapore.mdx`
+- `content/guides/move/side-income-freelance-work-pass.mdx`
+- `content/guides/money/cpf-and-foreigners.mdx`
+- `content/guides/money/opening-bank-account-expat.mdx`
+- `content/guides/money/salary-package-decoding.mdx` (MOM fixed-salary vs AWS)
+- `src/lib/site.ts` (ONE/EntrePass/DP + bank/CPF topic hrefs)
+- `content/entities/services/intact-immigration.json` (ONE Pass LOC vs EP DP)
+
+### Explicitly not done
+
+- No ads/monetization expansion (no sponsorSlot / featured).
+- No Grok / third-party clone copy.
+- Did not re-own Loop H STVP/lost-pass AEO bodies or Loop D EP-renewal NOA.
+- Did not edit Family / Belong / Home / Life heavily.
+
+### Questions mined (sample)
+
+1. Is ONE Pass just a fancier PEP?
+2. Does my ONE Pass spouse automatically get work rights?
+3. Can a ONE Pass spouse hold two LOCs?
+4. Do I cancel my EP before applying for ONE Pass?
+5. Does ACRA registration get me an EntrePass?
+6. What TBS/LWF do I need at second EntrePass renewal?
+7. Can my spouse work on an ordinary EP Dependant’s Pass?
+8. Can I remote for a US employer while on DP?
+9. Can an EP holder freelance or run Grab on the side?
+10. Do EP holders get CPF / Medisave?
+11. Can I open a bank account with only an IPA and no stamped TA?
+12. Does AWS / 13th-month count toward my EP salary floor?
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 9) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick8-8971` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs/services entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned; HSA personal-med import body stays Move-owned — this tick only cross-links it for ADHD continuity).
