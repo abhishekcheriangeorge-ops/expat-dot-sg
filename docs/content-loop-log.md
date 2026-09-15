@@ -6,6 +6,61 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 41 — 2026-09-15
+
+Branch: `cursor/services-directory-tick41-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#332); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F40 draft [#332](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/332).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Health threads — acupuncture for desk-neck pain and session courses.
+- Food threads — adult cooking classes beyond YouTube recipes.
+- Housing threads — mattress dust-mite cleans before rainy season.
+- Mobility threads — PMD/scooter battery safety and workshop trust.
+- Wellness threads — dietitian vs wellness coach credentials.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [TCMPB](https://www.healthprofessionals.gov.sg/tcmpb).
+- [SkillsFuture](https://www.skillsfuture.gov.sg/).
+- [CASE](https://www.case.org.sg/) + [NEA](https://www.nea.gov.sg/).
+- [LTA](https://www.lta.gov.sg/) + [SCDF](https://www.scdf.gov.sg/).
+- [HealthHub](https://www.healthhub.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#332 cover prior depth and every on-main service file. Free surface for tick 41: **acupuncture**, **adult cooking classes**, **mattress cleaning**, **scooter servicing**, **nutritionist/dietitian clinic**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/acupuncture-clinic.json`
+- `content/entities/services/cooking-classes-adult.json`
+- `content/entities/services/mattress-cleaning.json`
+- `content/entities/services/scooter-servicing.json`
+- `content/entities/services/nutritionist-clinic.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#332 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. How many acupuncture sessions before judging benefit?
+2. Knife-skills class useful before weekly meal prep?
+3. Morning mattress clean dry enough by bedtime?
+4. When is a swollen scooter battery a refuse-to-repair case?
+5. Dietitian vs nutritionist title — who for lipid results?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 52 — 2026-09-15
 
 Branch: `cursor/home-life-tick52-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` after tip **#329** (Tick 51) merged; no other open Loop C drafts in the way. Topics: condo sprinkler drain-down / fire-shutter test notices, ActiveSG cricket nets, Bedok Reservoir Fringe / Tampines West Edge / Simei North. Tip after Tick 51 confirmed as **#329**; opened next tip off that tip (now on `main`) without ads / Grok / force-push to main.

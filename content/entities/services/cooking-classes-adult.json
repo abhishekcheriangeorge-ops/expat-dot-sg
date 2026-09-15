@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "cooking-classes-adult",
+  "name": "Adult cooking classes",
+  "summary": "How expats book adult cooking classes in Singapore — hawker-inspired home skills, cuisine-specific studios, and condo kitchen constraints.",
+  "body": "Adult cooking schools and indie chefs teach knife skills, local favourites, and cuisine tracks (Japanese, Indian, plant-based). Small-group studios dominate; some offer private home sessions when condo kitchens allow.\n\n## Formats\n- One-off weekend workshops\n- Multi-week fundamentals courses\n- Cuisine-specific intensives\n- Private couple / team sessions\n- Market-tour plus cook formats\n\nAsk whether ingredients and takeaway containers are included.\n\n## How to choose\nPrefer classes with clear skill outcomes, not only tasting. Check class size and dietary accommodation. Confirm cancellation rules for peak weekends.\n\n## Practical tip\nWear closed shoes and skip flowing sleeves. Studio kitchens run hot and crowded — comfort beats outfit photos.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.skillsfuture.gov.sg/",
+  "whenToEngage": [
+    "Adult beginner home-cooking skills needed",
+    "Cuisine-specific workshop search",
+    "Private vs small-group class choice",
+    "Market-tour plus cook experience booking"
+  ],
+  "officialLinks": [
+    {
+      "label": "SkillsFuture",
+      "url": "https://www.skillsfuture.gov.sg/"
+    },
+    {
+      "label": "Singapore Tourism Board",
+      "url": "https://www.stb.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "hobby-sports-communities-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

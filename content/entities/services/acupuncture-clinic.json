@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "acupuncture-clinic",
+  "name": "Acupuncture clinic",
+  "summary": "How expats try acupuncture in Singapore — TCM vs medical acupuncture pathways, licensed practitioners, and what to expect for pain and stress visits.",
+  "body": "Acupuncture is offered through TCM clinics and some medical settings. Licensing and training paths differ — confirm who is treating you and whether needles are single-use. Common expat visits include neck/back tension, migraine adjunct care, and stress-related sleep issues.\n\n## Decision points\n- TCM acupuncture vs medical acupuncture framing\n- Practitioner licensing and hygiene standards\n- Course of sessions vs one-off trial\n- Combination with physio / pain clinic care\n- Insurance or corporate wellness coverage limits\n\nTell the practitioner about pregnancy, anticoagulants, and implants.\n\n## How to choose\nPrefer clinics that explain the treatment plan length and stop rules if there is no change. Ask about sterile disposable needles. Avoid guaranteed-cure marketing.\n\n## Practical tip\nEat a light snack beforehand and schedule buffer time after the first session — some people feel briefly lightheaded.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Trying acupuncture for pain or stress adjunct care",
+    "TCM vs medical acupuncture pathway unclear",
+    "Need licensed practitioner / hygiene checks",
+    "Insurance cover for acupuncture unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Traditional Chinese Medicine Practitioners Board",
+      "url": "https://www.healthprofessionals.gov.sg/tcmpb"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

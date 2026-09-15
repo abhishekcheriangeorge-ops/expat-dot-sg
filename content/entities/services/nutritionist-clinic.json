@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "nutritionist-clinic",
+  "name": "Nutritionist / dietitian clinic",
+  "summary": "How expats book nutritionist or dietitian care in Singapore — clinical vs wellness scopes, sports nutrition, and how to read credentials.",
+  "body": "Dietitians and nutritionists are not interchangeable titles everywhere — for clinical conditions, prefer regulated dietitian pathways and GP/specialist coordination. Expats often seek help for cholesterol, gestational nutrition, IBS patterns, and busy-office meal structure.\n\n## Decision points\n- Clinical dietitian vs general wellness coaching\n- Condition-led care (diabetes, renal, pregnancy)\n- Sports nutrition for training blocks\n- Grocery / hawker-realistic meal plans\n- Insurance or corporate wellness coverage\n\nBring recent bloodwork when relevant.\n\n## How to choose\nAsk about credentials and whether the plan is condition-specific. Prefer clinicians who work with your existing doctors. Avoid extreme detox packages sold as medical care.\n\n## Practical tip\nPhotograph two weeks of real lunches before the first visit. Idealised food diaries produce useless plans.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Need clinical dietitian vs wellness coach clarity",
+    "Condition-led nutrition plan (e.g. pregnancy, lipids)",
+    "Sports nutrition for a training block",
+    "Hawker-realistic meal structure help"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

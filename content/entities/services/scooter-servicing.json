@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "scooter-servicing",
+  "name": "Scooter servicing",
+  "summary": "How expats service personal mobility devices and scooters in Singapore — authorised workshops, battery safety checks, and LTA-compliant device realities.",
+  "body": "Scooter and PMD workshops handle brakes, tyres, controllers, and battery health checks. Rules and allowable devices change — confirm your model is still legal to ride before paying for a full restore.\n\n## Typical jobs\n- Brake and tyre service\n- Controller / throttle diagnostics\n- Battery health and charger checks\n- Folding hinge and latch repairs\n- Pre-sale inspection for used devices\n\nAsk about genuine vs compatible parts and warranty impact.\n\n## How to choose\nPrefer workshops that refuse unsafe battery swaps and explain fire-risk red flags. Confirm turnaround and whether loaner devices exist. Check they understand current LTA device categories.\n\n## Practical tip\nPhotograph error codes and bring the original charger. “Sometimes won’t start” without the charger wastes the first diagnostic visit.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.lta.gov.sg/",
+  "whenToEngage": [
+    "PMD / scooter brakes or battery issues",
+    "Need LTA-compliant service advice",
+    "Used scooter pre-purchase inspection",
+    "Unsafe battery swap concerns"
+  ],
+  "officialLinks": [
+    {
+      "label": "Land Transport Authority",
+      "url": "https://www.lta.gov.sg/"
+    },
+    {
+      "label": "Singapore Civil Defence Force",
+      "url": "https://www.scdf.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "car-ownership-vs-sharing-singapore",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

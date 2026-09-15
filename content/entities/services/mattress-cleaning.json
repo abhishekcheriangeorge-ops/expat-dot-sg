@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "mattress-cleaning",
+  "name": "Mattress cleaning",
+  "summary": "How expats book mattress cleaning in Singapore — dust-mite extraction, urine odour treatments, and drying time in humid bedrooms.",
+  "body": "Mattress cleaning deep-extracts sweat, dust mites, and spills that surface vacuuming misses. Humid bedrooms need honest drying plans — damp foam becomes a smell factory overnight.\n\n## Typical jobs\n- Hot-water extraction for foam / spring mattresses\n- Dust-mite and allergen-focused cleans\n- Urine / spill odour treatments\n- Mattress protector advice after cleaning\n- Sofa / soft-toy add-ons\n\nStrip bedding and clear bedside clutter before the crew arrives.\n\n## How to choose\nPrefer cleaners who state drying windows and use HEPA extraction. Ask whether both sides are cleaned when the mattress is flippable. Avoid same-hour “fully dry” promises in monsoon weather.\n\n## Practical tip\nBook morning slots and run the AC afterward. Sleeping on a half-damp mattress undoes the appointment.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Mattress smells / allergies need deep clean",
+    "Urine or spill odour treatment",
+    "Dust-mite extraction before rainy season",
+    "Drying-time plan for humid bedroom"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "NEA",
+      "url": "https://www.nea.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "mould-humidity-rental-tenants",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}
