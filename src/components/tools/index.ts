@@ -3,6 +3,7 @@ export { CarCoeExitCalculator } from "./CarCoeExitCalculator";
 export { ClubDepositExitCalculator } from "./ClubDepositExitCalculator";
 export { ColCalculator } from "./ColCalculator";
 export { CpfWithdrawalCalculator } from "./CpfWithdrawalCalculator";
+export { DrivingInsuranceGapCalculator } from "./DrivingInsuranceGapCalculator";
 export { EpThresholdCalculator } from "./EpThresholdCalculator";
 export { FdwLevyCalculator } from "./FdwLevyCalculator";
 export { ForeignLicenceClockCalculator } from "./ForeignLicenceClockCalculator";

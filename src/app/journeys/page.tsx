@@ -5,10 +5,10 @@ import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
-  getHelperHandoffExitPlaybook,
   getLeavingPlaybook,
   getMoverLiftBookingPlaybook,
   getPreArrivalPlaybook,
+  getSchoolBusCcaExitPlaybook,
   getSingpassMyinfoExitPlaybook,
 } from "@/lib/content";
 import {
@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, helper handoff exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, school bus/CCA exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -31,14 +31,14 @@ export default async function JourneysIndexPage() {
     preArrival,
     singpassExit,
     moverLift,
-    helperHandoff,
+    schoolBusCca,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
     getPreArrivalPlaybook(),
     getSingpassMyinfoExitPlaybook(),
     getMoverLiftBookingPlaybook(),
-    getHelperHandoffExitPlaybook(),
+    getSchoolBusCcaExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -80,8 +80,8 @@ export default async function JourneysIndexPage() {
                 path: "/journeys/mover-lift-booking",
               },
               {
-                name: helperHandoff?.title ?? "Helper handoff on exit",
-                path: "/journeys/helper-handoff-exit",
+                name: schoolBusCca?.title ?? "School bus / CCA exit",
+                path: "/journeys/school-bus-cca-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -225,28 +225,28 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Helper exit
+            School exit extras
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {helperHandoff?.title ?? "Helper handoff on exit"}
+            {schoolBusCca?.title ?? "School bus / CCA exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {helperHandoff?.summary ??
-              "Transfer vs cancel timing, MOM sequencing, and care overlap with movers."}{" "}
+            {schoolBusCca?.summary ??
+              "Bus operator notice, CCA kits, and self-drive weeks after the route ends."}{" "}
             Pair with{" "}
             <Link
-              href="/tools/club-deposit-exit"
+              href="/tools/driving-insurance-gap"
               className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
             >
-              /tools/club-deposit-exit
+              /tools/driving-insurance-gap
             </Link>{" "}
-            when club resignation cash is still open.
+            if parents take over the CCA run.
           </p>
           <Link
-            href="/journeys/helper-handoff-exit"
+            href="/journeys/school-bus-cca-exit"
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open helper handoff playbook
+            Open school bus / CCA playbook
           </Link>
         </FadeIn>
 
