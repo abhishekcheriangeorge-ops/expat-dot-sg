@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "bukit-batok",
+  "name": "Bukit Batok",
+  "summary": "West NSL town with West Mall / Bukit Gombak gravity, park connectors, and quieter value living — strong bus reach toward Jurong East without Jurong hub intensity.",
+  "body": "Bukit Batok is the west shortlist when Jurong East feels too mall-loud and Clementi rents feel firm. Bukit Batok and Bukit Gombak MRT on the North-South Line, West Mall errands, and hill/park connectors define the lifestyle; bus density toward Jurong East, Beauty World, and town is a recurring Reddit plus. Housing is mostly HDB with selective condo pockets — whole-flat rents often undercut Clementi and Holland-adjacent west stock for similar bedroom counts because you accept a longer CBD hop. Little Guilin / park loops are the weekend counterweight. Watch-outs: some blocks sit uphill from the MRT, estate-level quiet varies sharply, and HDB renovation seasons in mature stacks. Compare with Jurong East for denser west-hub living, Choa Chu Kang for further-northwest value, or Clementi if west-coast science-park gravity matters more than park hills.",
+  "region": "west",
+  "vibe": [
+    "quiet",
+    "park",
+    "nsl",
+    "value",
+    "west"
+  ],
+  "bestFor": [
+    "west/Jurong-corridor workers wanting quieter nights",
+    "park-connector households",
+    "renters escaping Clementi premiums",
+    "car-optional NSL commuters okay with longer CBD rides"
+  ],
+  "watchOuts": [
+    "Longer CBD commute than central-west towns",
+    "Uphill walks from some blocks to MRT",
+    "Estate-level quiet vs hub noise gaps",
+    "HDB eligibility for foreigner rentals"
+  ],
+  "housingMix": "HDB majority, selective condo pockets, park-adjacent stacks.",
+  "commuteNotes": "North-South Line at Bukit Batok / Bukit Gombak; verify feeder and hill walks in rain.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1800,
+    "oneBedTo": 2900,
+    "familyFrom": 2400,
+    "familyTo": 4000
+  },
+  "mrt": [
+    "Bukit Batok",
+    "Bukit Gombak"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
