@@ -10,5 +10,20 @@
   ],
   "website": "https://www.prudential.com.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Need written exclusions before buying hospital top-up",
+    "May leave Singapore in 2–3 years — ask portability",
+    "Pricing personal cover during a job hop"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Integrated Shield Plans",
+      "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/integratedshieldplans/"
+    }
+  ],
+  "relatedGuides": [
+    "health-insurance-expat",
+    "after-getting-pr-checklist"
+  ]
 }

@@ -11,5 +11,25 @@
   ],
   "website": "https://www.asiantigers-singapore.com",
   "featured": true,
-  "sponsored": true
+  "sponsored": true,
+  "whenToEngage": [
+    "Corporate or self-managed inbound ocean freight",
+    "Need Customs DOF / GST-relief ownership clarity",
+    "Aligning shipment with condo lift slots"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Customs — moving to Singapore",
+      "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/"
+    },
+    {
+      "label": "Singapore Customs — GST relief qualification",
+      "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/"
+    }
+  ],
+  "relatedGuides": [
+    "shipping-household-singapore",
+    "moving-within-singapore",
+    "shipping-out-household"
+  ]
 }

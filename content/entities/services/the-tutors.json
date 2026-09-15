@@ -11,5 +11,20 @@
     "West"
   ],
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Child has a defined subject gap after settling",
+    "AEIS / S-AEIS needs MOE preceding-level method",
+    "Comparing private tutor vs method centre commute cost"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOE — AEIS",
+      "url": "https://www.moe.gov.sg/international-students/aeis"
+    }
+  ],
+  "relatedGuides": [
+    "school-waitlist-realism",
+    "aeis-saeis-international-students"
+  ]
 }

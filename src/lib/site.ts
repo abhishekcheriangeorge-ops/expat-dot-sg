@@ -181,6 +181,7 @@ export const pillars: Pillar[] = [
       { href: "/arriving", label: "Arriving hub" },
       { href: "/money", label: "Money" },
       { href: "/home", label: "Home" },
+      { href: "/guides", label: "All guides" },
     ],
   },
   {
@@ -194,12 +195,12 @@ export const pillars: Pillar[] = [
     topics: [
       {
         label: "Renting process",
-        href: "/guides",
+        href: "/guides/renting-process-loi-ta-deposits",
         blurb: "LOI, tenancy agreement, deposits, and agent norms.",
       },
       {
         label: "Condo vs HDB",
-        href: "/guides",
+        href: "/guides/condo-vs-hdb-expat",
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
       },
       {
@@ -209,17 +210,17 @@ export const pillars: Pillar[] = [
       },
       {
         label: "Utilities & telecom",
-        href: "/guides",
+        href: "/guides/utilities-telecom-setup",
         blurb: "SP Group, fibre, mobile plans that actually work.",
       },
       {
         label: "Domestic helpers (MDW)",
-        href: "/directory",
+        href: "/guides/hiring-domestic-helper-mdw",
         blurb: "Agencies, contracts, and day-to-day realities.",
       },
       {
         label: "Aircon, pest & renewals",
-        href: "/guides",
+        href: "/guides/aircon-pest-renewals",
         blurb: "The maintenance rhythm of tropical living.",
       },
     ],
@@ -227,6 +228,7 @@ export const pillars: Pillar[] = [
       { href: "/neighbourhoods", label: "Neighbourhoods" },
       { href: "/arriving", label: "Arriving" },
       { href: "/living", label: "Living" },
+      { href: "/guides", label: "All guides" },
     ],
   },
   {
@@ -250,27 +252,27 @@ export const pillars: Pillar[] = [
       },
       {
         label: "Tax residency & filing",
-        href: "/guides",
+        href: "/guides/iras-tax-residency-filing",
         blurb: "IRAS rules, YA calendars, and clearance when you leave.",
       },
       {
         label: "Insurance landscape",
-        href: "/guides",
+        href: "/guides/health-insurance-expat",
         blurb: "Health, life, and what employers usually cover.",
       },
       {
         label: "Cost of living",
-        href: "/guides",
+        href: "/guides/cost-of-living-by-household",
         blurb: "Realistic budgets for singles, couples, and families.",
       },
       {
         label: "SRS & investing",
-        href: "/guides",
+        href: "/guides/srs-investing-as-foreigner",
         blurb: "What foreigners can and cannot do with local wrappers.",
       },
       {
         label: "Salary package decoding",
-        href: "/guides",
+        href: "/guides/salary-package-decoding",
         blurb: "Housing, flights, school fees — what the letter really means.",
       },
     ],
@@ -278,6 +280,7 @@ export const pillars: Pillar[] = [
       { href: "/move", label: "Move" },
       { href: "/next", label: "Next" },
       { href: "/arriving", label: "Arriving" },
+      { href: "/guides", label: "All guides" },
     ],
   },
   {
@@ -291,17 +294,17 @@ export const pillars: Pillar[] = [
     topics: [
       {
         label: "School landscape",
-        href: "/schools",
+        href: "/guides/international-schools-landscape",
         blurb: "International, local, and hybrid options compared.",
       },
       {
         label: "Preschool & childcare",
-        href: "/guides",
+        href: "/guides/preschool-childcare-singapore",
         blurb: "Infant care through kindergarten — fees and timing.",
       },
       {
         label: "Waitlist realism",
-        href: "/guides",
+        href: "/guides/school-waitlist-realism",
         blurb: "When to apply, what “full” usually means.",
       },
       {
@@ -311,12 +314,12 @@ export const pillars: Pillar[] = [
       },
       {
         label: "Kids activities & calendar",
-        href: "/calendar",
+        href: "/guides/kids-activities-holiday-camps",
         blurb: "Holiday camps, enrichment, and the school-year rhythm.",
       },
       {
         label: "Special needs",
-        href: "/guides",
+        href: "/guides/special-needs-support",
         blurb: "Assessment, support, and school placement paths.",
       },
     ],
@@ -324,6 +327,7 @@ export const pillars: Pillar[] = [
       { href: "/schools", label: "Schools directory" },
       { href: "/calendar", label: "Calendar" },
       { href: "/living", label: "Living" },
+      { href: "/guides", label: "All guides" },
     ],
   },
   {
@@ -347,22 +351,22 @@ export const pillars: Pillar[] = [
       },
       {
         label: "Food & hawker literacy",
-        href: "/guides",
+        href: "/guides/hawker-food-guide",
         blurb: "Order like a local — centres, etiquette, favourites.",
       },
       {
         label: "Shopping & nightlife",
-        href: "/guides",
+        href: "/guides/shopping-essentials-singapore",
         blurb: "Where expats actually go after the first month.",
       },
       {
         label: "Sports, arts & culture",
-        href: "/guides",
+        href: "/guides/sports-fitness-singapore",
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
       },
       {
         label: "Apps that matter",
-        href: "/guides",
+        href: "/guides/apps-that-matter-singapore",
         blurb: "Singpass, HealthHub, banking, delivery — the short list.",
       },
       {
@@ -375,6 +379,7 @@ export const pillars: Pillar[] = [
       { href: "/belong", label: "Belong" },
       { href: "/living", label: "Living" },
       { href: "/calendar", label: "Calendar" },
+      { href: "/guides", label: "All guides" },
     ],
   },
   {
@@ -388,32 +393,32 @@ export const pillars: Pillar[] = [
     topics: [
       {
         label: "Membership clubs",
-        href: "/clubs",
+        href: "/guides/membership-clubs-comparison",
         blurb: "American, Tanglin, British, Hollandse, Swiss, and peers.",
       },
       {
         label: "Associations & chambers",
-        href: "/clubs",
+        href: "/guides/anza-awa-associations",
         blurb: "ANZA, AWA, business chambers, and professional groups.",
       },
       {
         label: "Hashes & sports tribes",
-        href: "/clubs",
+        href: "/guides/hash-house-harriers",
         blurb: "Running clubs, rugby, cricket, and the social after.",
       },
       {
         label: "Faith communities",
-        href: "/guides",
+        href: "/guides/religious-communities-singapore",
         blurb: "Churches, temples, mosques, and interfaith spaces.",
       },
       {
         label: "Nationality groups",
-        href: "/clubs",
+        href: "/guides/nationality-groups-singapore",
         blurb: "Find your passport crowd without living inside it.",
       },
       {
         label: "LGBTQ+ resources",
-        href: "/guides",
+        href: "/guides/lgbtq-resources-singapore",
         blurb: "Community, nightlife, and practical support.",
       },
     ],
@@ -421,6 +426,7 @@ export const pillars: Pillar[] = [
       { href: "/clubs", label: "Clubs directory" },
       { href: "/life", label: "Life" },
       { href: "/living", label: "Living" },
+      { href: "/guides", label: "All guides" },
     ],
   },
   {
@@ -434,32 +440,32 @@ export const pillars: Pillar[] = [
     topics: [
       {
         label: "EP renewals",
-        href: "/guides",
+        href: "/guides/ep-renewal-strategy",
         blurb: "Timing, COMPASS again, and employer choreography.",
       },
       {
         label: "PR strategy",
-        href: "/guides",
+        href: "/guides/pr-application-strategy",
         blurb: "Eligibility signals, timelines, and realistic odds.",
       },
       {
         label: "Citizenship & NS",
-        href: "/guides",
+        href: "/guides/citizenship-ns-implications",
         blurb: "What permanent status implies for families.",
       },
       {
         label: "Career pivots",
-        href: "/guides",
+        href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
       },
       {
         label: "Leaving Singapore",
-        href: "/guides",
+        href: "/guides/leaving-singapore-playbook",
         blurb: "Tax clearance, deposits, shipping, school exits.",
       },
       {
-        label: "After Singapore",
-        href: "/guides",
+        label: "After getting PR",
+        href: "/guides/after-getting-pr-checklist",
         blurb: "What transfers and what you leave behind.",
       },
     ],
@@ -467,6 +473,7 @@ export const pillars: Pillar[] = [
       { href: "/money", label: "Money" },
       { href: "/move", label: "Move" },
       { href: "/living", label: "Living" },
+      { href: "/guides", label: "All guides" },
     ],
   },
 ];
