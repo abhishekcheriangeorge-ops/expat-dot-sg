@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "bendemeer",
+  "name": "Bendemeer",
+  "summary": "Central-east residential pocket beside Kallang / Boon Keng — quieter stacks than stadium-front living, with Downtown Line access and heartland errands.",
+  "body": "Bendemeer is the calmer sibling shortlist when Kallang’s stadium energy is too much but you still want central-east commute math. Boon Keng / Bendemeer MRT catchments, neighbourhood plazas, and a mix of HDB plus condo inserts define daily life. Expats land here for value versus River Valley and for Downtown Line hops without paying Marina Bay premiums. Walk the block at rush hour and on Sunday night: feeder congestion and nearby works matter more than brochure copy. Compare with Potong Pasir for a slightly quieter NELine-adjacent feel, Kallang when sports infrastructure is the priority, and Toa Payoh when you want denser mature-town hawkers on the NSL.",
+  "region": "east",
+  "vibe": [
+    "residential",
+    "central-east",
+    "dtl",
+    "quieter-than-stadium",
+    "value"
+  ],
+  "bestFor": [
+    "central-east workers wanting quieter stacks",
+    "DTL commuters skipping Marina rents",
+    "HDB / suburban condo value hunters",
+    "households who still want Kallang sports access nearby"
+  ],
+  "watchOuts": [
+    "Some blocks still hear stadium event spillover",
+    "Estate variance between MRT-adjacent and deeper pockets",
+    "Pipe / road works seasons on older approaches",
+    "Thinner expat social defaults than RV / Tanjong Pagar"
+  ],
+  "housingMix": "HDB-led with condo inserts; limited landed.",
+  "commuteNotes": "Downtown Line at Bendemeer / Boon Keng adjacency depending on block. Model a rainy Tuesday door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3200,
+    "familyFrom": 2700,
+    "familyTo": 4200
+  },
+  "mrt": [
+    "Bendemeer",
+    "Boon Keng"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

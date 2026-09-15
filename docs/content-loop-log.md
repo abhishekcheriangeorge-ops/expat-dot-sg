@@ -6,6 +6,78 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 28 — 2026-09-15
+
+Branch: `cursor/home-life-tick28-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71 (C25), #88 (C26), and #96 (C27) stay open for the merge controller — **did not** touch those PR paths (HDB neighbour reno / lightning / Hougang–Bukit Batok–Marine Parade; void-deck / power outages / Jurong West–CCK–Sembawang; condo unit reno / secondhand smoke / Bukit Panjang–Boon Lay–Geylang). Topics: PUB water disruption / pipe works for renters, ActiveSG swimming pools, Kallang / Bendemeer / Potong Pasir.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PUB pipe replacement notices, sudden no-water mornings, yellow water after mains works, landlord vs PUB blame.
+- r/askSingapore — ActiveSG pool Standard Rate for foreigners, MyActiveSG+ lane booking, which centres have serious lap ropes.
+- r/askSingapore — central-east shortlists for Kallang / Bendemeer / Potong Pasir vs River Valley premiums and Geylang variance.
+
+**Official**
+
+- [PUB](https://www.pub.gov.sg/) disruption / water-quality pages + [leak tips PDF](https://www.pub.gov.sg/-/media/Images/Feature/Content-Pages/Resources/Publications/Pdfs/Tips_on_Finding_Leaks.pdf).
+- [SP Group residential utilities](https://www.spgroup.com.sg/our-services/utilities/quick-guide-to-your-utilities-residential).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + membership pages.
+- [OneService](https://www.oneservice.gov.sg/).
+
+### Gaps vs open #71 / #88 / #96 and Tick 24 on main
+
+Tick 24 on main covers HIP / deposit-return / ActiveSG **gym** FAQ depth / Serangoon–Pasir Ris–Yishun. Open PRs own reno/lightning/void-deck/power/condo-unit-reno/secondhand-smoke and their town sets. Remaining high-intent Home+Life gaps without collision: **PUB pipe works / water disruption for renters** (≠ power outages, ≠ floods), **ActiveSG swimming pools** (≠ gym multipass FAQ already on sports guide), plus neighbourhood depth for **Kallang**, **Bendemeer**, and **Potong Pasir**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/pub-water-disruption-pipe-works-renters.mdx`
+- `content/guides/life/activesg-swimming-pools-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/home/utilities-telecom-setup.mdx`
+- `content/guides/home/heartland-living-for-expats.mdx`
+- `content/guides/home/choosing-neighbourhood-expat.mdx`
+- `content/guides/home/hdb-ceiling-leak-tenants.mdx`
+- `content/guides/life/sports-fitness-singapore.mdx`
+- `content/guides/life/flash-floods-singapore-renters.mdx`
+- `content/guides/life/apps-that-matter-singapore.mdx`
+- `src/lib/site.ts` (PUB water + ActiveSG pools topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/kallang.json`
+- `content/entities/neighbourhoods/bendemeer.json`
+- `content/entities/neighbourhoods/potong-pasir.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 file paths.
+- Did not re-litigate Tick 19–24 topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. Who do I call when only my flat has no water?
+2. Is yellow water after pipe works unsafe?
+3. Will PUB or my landlord pay for a hotel during shut-off?
+4. Can foreigners lap-swim at ActiveSG on Standard Rate?
+5. Do I need MyActiveSG+ to get a lane at 7pm?
+6. Which is cheaper long-term — condo pool rent or ActiveSG laps?
+7. Kallang vs Bendemeer — stadium energy or quieter stacks?
+8. Is Potong Pasir too small for a family HDB search?
+9. How do pipe works interact with ceiling leak claims?
+10. Are flash floods the same as PUB shut-offs?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 27 — 2026-09-15
 
 Branch: `cursor/home-life-tick27-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while Tick 25 (#71) and Tick 26 (#88) stay open for the merge controller — **did not** touch #71 reno/lightning/Hougang–Bukit Batok–Marine Parade or #88 void-deck/power-outage/Jurong West–Choa Chu Kang–Sembawang paths. Topics: condo unit renovation notices for adjacent tenants, secondhand smoke neighbour rails, Bukit Panjang / Boon Lay / Geylang.

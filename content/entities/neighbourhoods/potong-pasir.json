@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "potong-pasir",
+  "name": "Potong Pasir",
+  "summary": "Compact north-east Line town with a village feel, older HDB character, and quick NEL hops — small footprint, strong identity, limited new stock.",
+  "body": "Potong Pasir punches above its size: a tight HDB estate with a neighbourhood centre, NEL access, and a loyal ‘village’ reputation among locals. Expats shortlist it when they want central-northeast commute value without Sengkang build-out noise or Orchard rents. Housing is overwhelmingly older HDB with scarce condo alternatives — whole-flat hunts need patience. Lifestyle is kopitiam and park-connector, not nightlife. Watch renovation seasons in mature blocks, limited family-condo options, and the reality that ‘close to town’ still means verifying your exact walk to the MRT. Compare with Bendemeer / Kallang for central-east variety, Serangoon for NEX mall gravity, and Toa Payoh for denser NSL hawker towns.",
+  "region": "northeast",
+  "vibe": [
+    "village",
+    "compact",
+    "nel",
+    "mature-hdb",
+    "character"
+  ],
+  "bestFor": [
+    "renters who like compact mature estates",
+    "NEL commuters wanting central-northeast value",
+    "households okay with older HDB stock",
+    "car-light lives near Potong Pasir MRT"
+  ],
+  "watchOuts": [
+    "Limited condo / new-stock alternatives",
+    "Mature-block renovation seasons",
+    "Small estate — fewer backup mall options on foot",
+    "Fewer default expat networks"
+  ],
+  "housingMix": "Mature HDB dominant; scarce condo pockets.",
+  "commuteNotes": "North-East Line at Potong Pasir. Test door-to-desk on a weekday peak; estate is compact but MRT walk varies by block.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3000,
+    "familyFrom": 2500,
+    "familyTo": 3900
+  },
+  "mrt": [
+    "Potong Pasir"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
