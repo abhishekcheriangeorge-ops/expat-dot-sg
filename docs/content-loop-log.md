@@ -4,6 +4,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money`.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP qualifying salary 2025 / age bands / signed-at-S$5k vs S$5.6k ([has the EP qualifying salary been updated?](https://www.reddit.com/r/askSingapore/comments/1jk9yhn/has_the_ep_qualifying_salary_been_updated/); [how does EP qualifying salary by age work?](https://www.reddit.com/r/askSingapore/comments/1fmj3t4/how_does_ep_qualifying_salary_by_age_works/); [is it realistic to get an EP?](https://www.reddit.com/r/askSingapore/comments/1j3siis/is_it_realistic_to_get_an_employment_pass_in/); [EP application COMPASS process time 2025](https://www.reddit.com/r/askSingapore/comments/1j3cwm2/ep_application_with_compass_process_time_2025/); [COMPASS university campus points](https://www.reddit.com/r/askSingapore/comments/1q00yh8/question_about_employment_pass_compass_framework/); [EP process on company change](https://www.reddit.com/r/askSingapore/comments/120shl1/ep_process_on_company_change/)).
+- r/askSingapore — non-resident / no-FIN personal banking + PayNow as foreigner ([how to open a foreign bank account](https://www.reddit.com/r/askSingapore/comments/1qtoo1v/how_to_open_a_foreign_bank_account/); [DBS Treasures non-resident](https://www.reddit.com/r/askSingapore/comments/1ocese7/dbs_treasure_account_nonresident_noncitizen/); [opening a bank account as a foreign national](https://www.reddit.com/r/askSingapore/comments/1dadryl/opening_a_bank_account_as_a_foreign_national_in/); [using PayNow as a foreigner](https://www.reddit.com/r/askSingapore/comments/1uetszj/using_paynow_as_a_foreigner_accepting_payments/)).
+- r/askSingapore — CBNI / cash >S$20k vs wires ([how much $$$ can I bring into Singapore?](https://www.reddit.com/r/askSingapore/comments/19dh0bb/how_much_can_i_bring_into_singapore/); [advice on bringing in more than $20,000 cash](https://www.reddit.com/r/askSingapore/comments/11726uv/advice_on_bringing_in_more_than_20000_cash_into/); [bringing money from overseas](https://www.reddit.com/r/askSingapore/comments/17ivkvx/bringing_money_from_overseas_to_singapore/); [cheapest inward remittance](https://www.reddit.com/r/askSingapore/comments/w6uicx/cheapest_way_for_inward_remittance/)).
+- r/askSingapore — IR21 withhold on cease / job hop + group medical end dates ([HR explain IR21 withhold](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [lost job — SRS / IR21](https://www.reddit.com/r/askSingapore/comments/187h2wf/in_light_of_losing_my_job_24_hours_ago_i_have_a/); [EP notice <1 month vs IR21](https://www.reddit.com/r/askSingapore/comments/1q9stq3/what_happens_if_an_ep_holder_gives_leaving_notice/); [medical insurance during notice](https://www.reddit.com/r/askSingapore/comments/147evuh/medical_insurance_during_resignation_notice_period/); [medical allowance vs insurance](https://www.reddit.com/r/askSingapore/comments/1s9cv26/company_providing_medical_allowance_or_medical/); [expat health insurance advice](https://www.reddit.com/r/askSingapore/comments/1qknwn1/expat_health_insurance_advice_needed/)).
+
+**Official**
+
+- [MOM — EP eligibility / salary tables](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) + [key facts](https://www.mom.gov.sg/passes-and-permits/employment-pass/key-facts) + [COMPASS C1 benchmarks](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility/compass-c1-salary-benchmarks) + [S Pass eligibility](https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility).
+- [ICA — CBNI cash declaration](https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/CBNI) + [go.gov.sg/cbnideclaration](https://go.gov.sg/cbnideclaration) + [SPF STRO cross-border cash](https://www.police.gov.sg/Advisories/Commercial-Crimes/Suspicious-Transaction-Reporting-Office).
+- [IRAS — tax clearance for non-SC employees](https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/tax-clearance-for-non-singapore-citizen-employees) + [re-employment in Singapore](https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/i-am-re-employed-in-singapore) + [overseas income](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/income-received-from-overseas).
+- [MAS](https://www.mas.gov.sg/) + [ABS PayNow](https://www.abs.org.sg/e-payments/pay-now).
+
+### Gaps vs prior ticks (Move + Money scope)
+
+Prior ticks already covered EP appeal/IPA, COMPASS/FCF overview, remittance basics, bank chicken-and-egg, IRAS residency/COR/NOA GIRO, health insurance audit, salary package heuristics. Remaining high-intent Move/Money gaps matched this mine: **age-banded EP floors + new vs renewal calendars**, **EP vs S Pass “no EP quota” comparison**, **CBNI ≥S$20k physical cash**, **non-resident / no-FIN personal banking myths**, **MPI vs bank for remittance**, **IR21 withhold on job hop while staying**, **group medical end-on-last-day / non-portability**.
+
+### Shipped this loop
+
+**New guides / comparisons**
+
+- `content/guides/money/cbni-cash-declaration-singapore.mdx`
+- `content/guides/move/ep-vs-s-pass-comparison.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/move/employment-pass-singapore.mdx` (Stage 1 salary tables + job-change / pending IPA)
+- `content/guides/move/compass-framework-explained.mdx` (C1 vs floor + new/renewal clocks + S$22.5k exempt)
+- `content/guides/move/decoding-job-offer-singapore.mdx`
+- `content/guides/move/s-pass-singapore.mdx` (comparison deep-link)
+- `content/guides/money/remittances-singapore.mdx` (CBNI + MPI + inward SoF)
+- `content/guides/money/opening-bank-account-expat.mdx` (no-FIN / non-resident section)
+- `content/guides/money/health-insurance-expat.mdx` (notice / job-change portability)
+- `content/guides/money/salary-package-decoding.mdx` (IR21 job-hop cashflow)
+- `content/guides/money/foreign-income-and-tax.mdx` (CBNI adjacency)
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/aia-singapore.json`
+- `content/entities/services/prudential-singapore.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Family / Belong / Home / Life / Next heavily (IR21 deep guide remains under Next; Money guides link out).
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 19 — 2026-09-15
 
 Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
@@ -58,6 +117,9 @@ Tick 1–18 already covered renting LOI/TA, tenant-agent commission, fair-wear i
 - Did not re-litigate Tick 1–18 Home/Life topics beyond the leak, pets, water-bill, grocery-delivery, and visitor-parking gaps above.
 
 ---
+
+---
+
 ## Tick 18 — 2026-09-15
 
 ### Sources mined
