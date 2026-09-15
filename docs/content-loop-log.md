@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 6)
+
+Branch: `loop/next-polish-tick6` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (EP salary notify stays Move-owned; divorce custody stays Family-owned; Next cross-links only).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — spouse PR sponsorship / LTVP bridge ([SC/PR marry foreigner guide](https://www.reddit.com/r/askSingapore/comments/15ji6jz/guide_what_to_do_if_youre_a_sc_or_pr_that_wants/); [husband sponsorship rejected](https://www.reddit.com/r/askSingapore/comments/1g2npsc/husband_pr_by_local_sponsorship_rejected/); [convert foreigner spouse](https://www.reddit.com/r/askSingapore/comments/1pfkl1x/advice_for_route_to_convert_foreigner_spouse/); [reference letters](https://www.reddit.com/r/askSingapore/comments/1ebjj8i/is_it_good_to_have_reference_letter_for_pr/)).
+- r/askSingapore — aged parents PR vs LTVP ([new citizen bring parents](https://www.reddit.com/r/askSingapore/comments/1qbhxf4/how_much_would_a_new_citizen_need_to_earn_to/); [aged parent age folklore](https://www.reddit.com/r/askSingapore/comments/t7yrg6/looking_for_advice_my_mum_wants_me_citizen_to/); [sponsor mum citizenship](https://www.reddit.com/r/askSingapore/comments/1etf7j8/may_be_a_bit_of_a_dumb_question_but_can_i/); [mum SC rejection](https://www.reddit.com/r/askSingapore/comments/1qhyht7/i_dont_understand_why_my_mom_keeps_getting/)).
+- r/askSingapore — EP renewal NOA / salary mismatch ([MOM request NOA](https://www.reddit.com/r/askSingapore/comments/1slvkfe/do_mom_usually_request_noa_for_ep_renewal/); IR8A adjacency: [IR8E/IR8A](https://www.reddit.com/r/askSingapore/comments/1j9nr27/ir8e_document_from_previous_employer/)).
+
+**Official**
+
+- [ICA — Becoming a Permanent Resident](https://www.ica.gov.sg/reside/PR) (spouse + aged-parent rows; fees; Singpass)
+- [ICA — Becoming a Long-Term Visit Pass Holder](https://www.ica.gov.sg/reside/LTVP) (parent of SC/PR; in-laws excluded; fees)
+- [ICA — PR document checklist (PDF)](https://www.ica.gov.sg/docs/default-source/ica/ipses/pr-document-checklist.pdf)
+- [MOM — Renew an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass)
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes)
+- [IRAS — Notice of Assessment](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/notices-and-forms/notice-of-assessment)
+
+### Gaps vs prior ticks
+
+Tick 5 shipped child PR, NRIC name change, REP passport transfer. Remaining high-intent **Next** gaps matched this mine: **spouse-sponsored PR** (strategy page was row-thin), **aged-parent PR vs parent LTVP** (SC-only PR; PR children on LTVP; no published “aged” number), **EP renewal NOA / IR8A document asks** (Loop A deferred deep-dive to Next). About + editorial research language updated.
+
+### Shipped
+
+**New:** `pr-for-spouse-singapore.mdx`, `aged-parents-pr-ltvp-singapore.mdx`, `ep-renewal-noa-documents.mdx`
+
+**Upgraded:** `ep-renewal-strategy.mdx`, `pr-application-strategy.mdx`, `pr-for-child-newborn-singapore.mdx`, `after-getting-pr-checklist.mdx`, `renewing-life-admin-annually.mdx`; `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits (salary-notify guide stays Move; divorce stays Family).
+
+### Questions mined
+
+1. Does marrying an SC or PR automatically grant my spouse Singapore PR?
+2. Should we apply for spouse PR the week after ROM?
+3. Do I need MP / recommendation letters for a spouse-sponsored PR file?
+4. Is LTVP required before spouse PR, or optional bridging?
+5. Can a PR child sponsor an aged parent for PR?
+6. What age makes a parent “aged” on ICA’s PR page?
+7. Are parents-in-law eligible for the parent LTVP row?
+8. What fees does ICA publish for parent LTVP vs aged-parent PR?
+9. Why did MOM suddenly ask for my NOA on EP renewal?
+10. Is an IR8A the same document as a Notice of Assessment?
+11. What if my EP-declared salary does not match IRAS assessment?
+12. Does MOM always require NOA, or only case-by-case?
+
+
+---
+
+---
+
+---
+
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 2)
 
 Branch: `loop/e-journeys-tools-tick2` → PR to `main`. Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok.
