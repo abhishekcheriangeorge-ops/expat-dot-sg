@@ -654,6 +654,11 @@ export const pillars: Pillar[] = [
         blurb: "New employer files fresh pass — resign only after IPA.",
       },
       {
+        label: "EP salary cut → DP / LTVP",
+        href: "/guides/ep-salary-cut-dp-ltvp-cascade-singapore",
+        blurb: "Employer notify ≥1 month + SAT — dependant privileges can revoke.",
+      },
+      {
         label: "IPA-before-resign calendar",
         href: "/guides/ipa-before-resign-calendar-ep-singapore",
         blurb: "Week-shaped sequence — no IPA, no resign letter.",
@@ -692,6 +697,11 @@ export const pillars: Pillar[] = [
         label: "IR21 tax clearance",
         href: "/guides/tax-clearance-when-leaving",
         blurb: "Employer IR21 + withheld final pay — budget runway.",
+      },
+      {
+        label: "IR21 final pay / RSU freeze",
+        href: "/guides/ir21-final-pay-rsu-withholding-leaving",
+        blurb: "Withholding clocks + share-plan deemed exercise at clearance.",
       },
       {
         label: "Transfer REP to new passport",
