@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "paya-lebar-west",
+  "name": "Paya Lebar West",
+  "summary": "West of Paya Lebar toward Geylang / Guillemard edges — EWL/CCL interchange gravity with office-edge living and denser weekend texture.",
+  "body": "Paya Lebar West is the shortlist when dual-line interchange gravity and office-edge convenience matter more than quiet estate parks. The pocket sits west of Paya Lebar toward Geylang / Guillemard edges; housing mixes mid-age condos, walk-ups, and selective HDB. Expats land here for car-light hops to CBD / Bugis and ActiveSG catchment without Marina Bay premiums. Watch-outs: weekend mall and food crowds, high-rise gondola notice calendars, and confusing Paya Lebar vs Paya Lebar West shortlists. Compare with Eunos North for denser EWL food living, Kaki Bukit Fringe for quieter DTL edges, and Guillemard when stadium-adjacent energy wins.",
+  "region": "east",
+  "vibe": [
+    "interchange",
+    "office-edge",
+    "ewl-ccl",
+    "dense",
+    "practical"
+  ],
+  "bestFor": [
+    "car-light CBD / Bugis workers who want interchange optionality",
+    "households okay with denser weekend texture",
+    "renters comparing Paya Lebar West vs Eunos North",
+    "people who will book ActiveSG sepak takraw weekly"
+  ],
+  "watchOuts": [
+    "Weekend mall and food crowds",
+    "High-rise facade / gondola notice calendars",
+    "Peak interchange crowding",
+    "Paya Lebar vs Paya Lebar West listing confusion"
+  ],
+  "housingMix": "Mid-age condos, walk-ups, and selective HDB near office stock.",
+  "commuteNotes": "East-West / Circle Line gravity via Paya Lebar; bus links toward Geylang / Guillemard. Walk a Saturday afternoon before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 4000,
+    "familyFrom": 3500,
+    "familyTo": 7000
+  },
+  "mrt": [
+    "Paya Lebar",
+    "Eunos",
+    "Dakota"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
