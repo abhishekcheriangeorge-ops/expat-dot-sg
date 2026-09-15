@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 10)
+
+Branch: `loop/next-polish-tick10` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open restore [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9 / former #67) file set and tick 8 (#60, merged) primary MDX bodies beyond site-rail restore.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — REP / PRSEP after 1 Dec 2025 (180-day clock folklore; “reinstatement” myths; single-entry pass confused with multi-year REP).
+- r/askSingapore / r/NationalServiceSG — NSman Exit Permit edge cases (12-month threshold vs 6–12 notify; auto-cancel after long Singapore stays; unemployed / freelance renewals; ICT vs Exit Permit).
+- r/askSingapore / r/NationalServiceSG — renouncing PR as NS dodge (pre-enlistment vs NSF vs after ORD; sponsor-family collateral; REP lapse vs formal renunciation).
+
+**Official**
+
+- [ICA — REP process revisions from 1 Dec 2025 (FAQ PDF)](https://www.ica.gov.sg/docs/default-source/ica/files/faqs_revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025.pdf)
+- [MHA — REP process revisions from 1 Dec 2025](https://www.mha.gov.sg/media-room/newsroom/revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025/)
+- [ask.gov.sg — NSman Exit Permit requirements](https://ask.gov.sg/mindef/questions/cmhvc94jb0049koswqmmlpgoh) / [overseas work/study](https://ask.gov.sg/mindef/questions/cmhvblo84008ihpjiojoczv1g)
+- [MINDEF — Exit Permit threshold reply (31 Mar 2023)](https://www.mindef.gov.sg/news-and-events/latest-releases/31mar23_fr/)
+- [ICA — Renunciation of Permanent Residence](https://www.ica.gov.sg/enter-transit-depart/more-information/for-permanent-residents/renunciation-of-permanent-residence) + [ICA PR NS warnings](https://www.ica.gov.sg/reside/PR)
+- [MINDEF parliamentary reply on NS-liable PRs who renounce (2014)](https://www.mindef.gov.sg/news-and-events/latest-releases/2014aug05-Parliamentary-000073)
+
+### Gaps vs prior ticks
+
+Tick 8 shipped NRIC re-reg / eCOA / SCJ. Tick 9 (open restore #79) covers EP→spouse LTVP bridge, ROE, citizenship confirmation letter. Remaining high-intent **Next** depth matched this mine: **PRSEP / 180-day REP FAQ companion**, **NSman Exit Permit edge cases**, **renouncing-PR NS liability traps**. Also restored tick-8 Next topic rails wiped from `site.ts` by a later unrelated merge.
+
+### Shipped
+
+**New:** `prsep-180-day-rep-faq-singapore.mdx`, `ns-exit-permit-nsman-edge-cases-singapore.mdx`, `renouncing-pr-ns-liability-traps-singapore.mdx`
+
+**Upgraded:** `re-entry-permit-pr-overseas.mdx`, `ns-exit-permit-pr-families.mdx`, `renouncing-pr-singapore.mdx`; `src/lib/site.ts` Next topics (tick 8 restore + tick 10); about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits. Did not land tick 9 paths (open on #79). Did not rewrite tick 8 NRIC/eCOA/SCJ MDX bodies.
+
+### Questions mined
+
+1. When does the 180-day REP clock start if I left without a valid REP vs if it expired overseas?
+2. If I return to Singapore within 180 days, does the clock stop?
+3. What is PRSEP, and does it replace a normal multi-year REP?
+4. Can I appeal reinstatement after missing the 180-day window or a refused REP?
+5. Do NSmen need an Exit Permit for trips under 12 months?
+6. Does a long Singapore stay auto-cancel an Exit Permit?
+7. Can I renew an Exit Permit while unemployed / freelancing overseas?
+8. Is Exit Permit the same as ICT deferment or ICA Re-Entry Permit?
+9. Will ICA withhold PR renunciation if NS obligations are outstanding?
+10. What happens to dependants when the main applicant renounces?
+11. Does letting REP lapse overseas avoid NS consequences the way formal renunciation does?
+12. What does ICA’s “serious adverse impact” warning mean for later EP / family passes?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 14)
 
 Branch: `cursor/e-journeys-tools-tick14-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (E6/#90 content present on main). Avoided open E stack exclusive paths **#90 → #101 → #110 → #116 → #122 → #131 → #139 → #147**. Prefer merge order: **#101 → #110 → #116 → #122 → #131 → #139 → #147 → this tick** (skip already-landed #90 files).
