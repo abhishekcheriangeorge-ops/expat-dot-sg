@@ -172,6 +172,16 @@ export const pillars: Pillar[] = [
         blurb: "Country schedules, AQC booking, owner vs recognised agent.",
       },
       {
+        label: "Student’s Pass",
+        href: "/guides/student-pass-singapore",
+        blurb: "SOLAR/IPA formalities, work-hour caps, graduation ≠ EP.",
+      },
+      {
+        label: "LTVP (parents & partners)",
+        href: "/guides/ltvp-singapore",
+        blurb: "Not a DP — S$12k parent path, PLOC limits, healthcare.",
+      },
+      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
@@ -651,6 +661,11 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "Tax clearance, deposits, shipping, school exits.",
+      },
+      {
+        label: "Re-Entry Permit (PR overseas)",
+        href: "/guides/re-entry-permit-pr-overseas",
+        blurb: "Keep PR while abroad — Dec 2025 REP rules, no reinstate.",
       },
       {
         label: "After getting PR",
