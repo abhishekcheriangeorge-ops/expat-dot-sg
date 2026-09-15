@@ -460,9 +460,24 @@ export const pillars: Pillar[] = [
         blurb: "JB Causeway timing, Batam ferries, and pass-card gotchas.",
       },
       {
-        label: "Shopping & nightlife",
+        label: "Shopping essentials",
         href: "/guides/shopping-essentials-singapore",
-        blurb: "Where expats actually go after the first month.",
+        blurb: "Where expats actually shop after the first month.",
+      },
+      {
+        label: "What to wear (climate)",
+        href: "/guides/what-to-wear-singapore-climate",
+        blurb: "Humidity fabrics, office AC layers, temple dress codes.",
+      },
+      {
+        label: "Nightlife & social scenes",
+        href: "/guides/nightlife-social-scene",
+        blurb: "Dress codes, ID at the door, and textures beyond clubs.",
+      },
+      {
+        label: "Dating & making friends",
+        href: "/guides/dating-social-singapore",
+        blurb: "Bumble BFF vs dating apps, Meetup, workplace boundaries.",
       },
       {
         label: "Sports, arts & culture",
