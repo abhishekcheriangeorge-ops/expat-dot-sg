@@ -177,6 +177,11 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
       },
       {
+        label: "Side income on a work pass",
+        href: "/guides/side-income-freelance-work-pass",
+        blurb: "Designated employer only; DP remote rules; crypto ≠ loophole.",
+      },
+      {
         label: "EP rejection, appeal & IPA reassessment",
         href: "/guides/ep-rejection-appeal-ipa-issuance",
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
@@ -195,6 +200,11 @@ export const pillars: Pillar[] = [
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
+      },
+      {
+        label: "EntrePass for founders",
+        href: "/guides/entrepass-singapore",
+        blurb: "ACRA ≠ pass; ineligible F&B list; TBS/LWF renewal ladder.",
       },
       {
         label: "Fair Consideration & MyCareersFuture",
@@ -358,7 +368,7 @@ export const pillars: Pillar[] = [
       {
         label: "Tax residency & filing",
         href: "/guides/iras-tax-residency-filing",
-        blurb: "IRAS rules, YA calendars, and clearance when you leave.",
+        blurb: "EP ≠ tax resident; mid-year myths; equalisation ≠ no filing.",
       },
       {
         label: "Relocation allowance tax",

@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 20)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick20-49cb` → PR to `main` (fresh worktree off `origin/main` @ `7d64b09`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158) A17–A19 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — ACRA = EntrePass myths; café/spa innovator folklore; dilution below 30%.
+- r/askSingapore — EP side hustle with HR blessing; crypto freelancing; DP remote for SG clients.
+- r/askSingapore / r/singaporefi — delay start until July; tax equalisation erases filing; mid-year leave NOA confusion.
+
+**Official**
+
+- [MOM — EntrePass](https://www.mom.gov.sg/passes-and-permits/entrepass)
+- [MOM — Work pass conditions / additional employment](https://www.mom.gov.sg/passes-and-permits/employment-pass/work-pass-conditions)
+- [IRAS — Tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A19 claim Student’s Pass/LTVP/CPF-withdrawal, EP-notify/ONE Pass/COR, and COMPASS/Tech.Pass/foreign-income. Tick 20 deepens **EntrePass**, **side-income/freelance on work passes**, and **IRAS tax residency/filing** without colliding those paths.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/entrepass-singapore.mdx` (+3)
+- `content/guides/move/side-income-freelance-work-pass.mdx` (+3)
+- `content/guides/money/iras-tax-residency-filing.mdx` (+3)
+- `src/lib/site.ts` (EntrePass / side-income hub topics; tax-residency blurb)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A19 guide paths or `intact-immigration`.
+- Left #143/#154/#158 for the merge controller.
+
+### Questions mined (sample)
+
+1. Can I file EntrePass before the Pte Ltd exists?
+2. Do incubator letters alone clear innovator tests?
+3. What if I dilute below 30% ownership?
+4. Can HR approve an EP weekend hustle?
+5. Does crypto payment legalise freelancing on EP?
+6. What must DP trailing partners check before freelancing?
+7. How does dual-status year tax work?
+8. Does tax equalisation remove IRAS filing?
+9. Will I still get a NOA if I leave mid-year?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 12)
 
 Branch: `cursor/e-journeys-tools-tick12-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116 → #122 → #131** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → #122 → #131 → this tick**.
