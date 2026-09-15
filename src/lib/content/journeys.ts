@@ -131,6 +131,10 @@ export async function getCondoMcstExitPlaybook(): Promise<LeavingPlaybook | null
   return getPlaybookByFilename("condo-mcst-exit.json");
 }
 
+export async function getCondoVisitorQrExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("condo-visitor-qr-exit.json");
+}
+
 export async function getSchoolBusCcaExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("school-bus-cca-exit.json");
 }

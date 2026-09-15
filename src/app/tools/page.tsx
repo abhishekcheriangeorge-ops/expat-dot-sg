@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, and driving insurance gap.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, and school device bond.",
   path: "/tools",
 });
 
@@ -60,10 +60,10 @@ const tools = [
       "Sketch common foreign-licence windows from arrival or pass issue — orientation, not SPF advice.",
   },
   {
-    href: "/tools/driving-insurance-gap",
-    title: "Driving insurance gap",
+    href: "/tools/school-device-bond",
+    title: "School device bond",
     summary:
-      "Compare extend-cover, daily float, and Grab-only budgets for post-bus or pre-exit drive weeks.",
+      "Sketch iPad / 1:1 device bond return vs damage holds and overdue fees — not handbook advice.",
   },
 ] as const;
 
