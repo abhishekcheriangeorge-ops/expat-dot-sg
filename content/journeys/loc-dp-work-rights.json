@@ -1,0 +1,86 @@
+{
+  "type": "playbook",
+  "slug": "loc-dp-work-rights",
+  "title": "DP work rights & Letter of Consent",
+  "summary": "A Dependant’s Pass is not a work pass — map employee LOC vs business-owner LOC, main-pass cascade risk, and when an EP or S Pass is the cleaner path before anyone starts billing hours.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "dp-is-not-work",
+      "title": "Dependant’s Pass ≠ permission to work",
+      "body": "A Dependant’s Pass (DP) lets the holder live in Singapore as a dependant of an eligible main pass holder. It does not, by itself, authorise employment or self-employment. Forum shorthand (“my spouse has DP so they can freelance”) is wrong. Work needs a separate MOM permission — usually a Letter of Consent (LOC) tied to a specific arrangement, or a primary work pass (EP / S Pass / Work Permit) instead.",
+      "bullets": [
+        "Do not start paid work, contracting, or “helping in the family business” on DP alone",
+        "School enrolment and CPF myths do not create work rights",
+        "If the role looks like full-time employment, ask whether EP/S Pass is required rather than LOC"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligible-family-members"
+    },
+    {
+      "id": "employee-loc",
+      "title": "Employee Letter of Consent path",
+      "body": "For many DP holders taking a job with a Singapore employer, the employer applies for a Letter of Consent. LOC is employer- and role-specific — it is not a portable “spouse work card.” Confirm the live MOM LOC product pages for the exact DP category, employer duties, and whether the role is eligible before signing an offer that assumes day-one start.",
+      "bullets": [
+        "Employer (not the DP holder) usually drives the LOC application in EP Online / MOM eServices",
+        "Keep the offer letter, job scope, and salary aligned with what MOM will see",
+        "Do not treat LOC approval as automatic because a friend got one last year — products and eligibility change"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/letter-of-consent"
+    },
+    {
+      "id": "business-loc",
+      "title": "Business-owner LOC is a different product",
+      "body": "DP holders who want to operate a business face a separate LOC track with its own eligibility rules (including local-hire / operating-history requirements that forums often oversimplify). “Register a Pte Ltd and invoice” without the right LOC is a compliance trap. Read MOM’s business-owner LOC eligibility page before paying for company setup folklore.",
+      "bullets": [
+        "Company registration ≠ permission for the DP director/shareholder to work",
+        "Budget for local-hire and documentation requirements if the product still requires them",
+        "Renewals are not rubber stamps — keep payroll and ACRA records tidy"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/eligibility"
+    },
+    {
+      "id": "main-pass-cascade",
+      "title": "When the main pass dies, DPs and LOCs usually die with it",
+      "body": "Related Dependant Passes and LOC statuses typically cancel when the main Employment Pass (or other sponsoring pass) is cancelled. A job offer for the spouse does not keep the family legal by itself. Sequence STVP requests, new sponsoring passes, or departure — see the between-jobs playbook if the main holder is changing employers without leaving Singapore.",
+      "bullets": [
+        "Map every related pass before main-pass cancellation day",
+        "LOC does not outlive a cancelled DP",
+        "Between-jobs stay: /journeys/between-jobs · full exit: /journeys/leaving"
+      ],
+      "href": "/journeys/between-jobs"
+    },
+    {
+      "id": "ltvp-adjacency",
+      "title": "LTVP / PLOC adjacency — do not mix the acronyms",
+      "body": "Long-Term Visit Pass holders may have different work pathways (including Pre-approved Letter of Consent / PLOC in some categories). Those rules are not interchangeable with DP LOC. If the family member is on LTVP rather than DP, follow ICA/MOM guidance for that pass — do not copy a DP friend’s playbook.",
+      "bullets": [
+        "Confirm the exact pass printed on the card / ICA letter before applying anything",
+        "PLOC employer notification duties differ from classic DP LOC folklore",
+        "Marriage / LTVP work rights belong on Move pillar guides — this playbook stays DP/LOC-focused"
+      ],
+      "href": "https://www.ica.gov.sg/reside/LTVP"
+    },
+    {
+      "id": "prefer-ep",
+      "title": "When EP / S Pass is cleaner than LOC",
+      "body": "If the spouse’s role is senior, portable across employers, or the household wants independence from the main pass cascade, a primary work pass is often safer than stacking LOC on DP. Run the EP qualifying salary sketch, check COMPASS, and time IPA so the household never relies on an expired dependant status.",
+      "bullets": [
+        "Sketch floors: /tools/ep-threshold",
+        "IPA timing and issuance still matter — no work until the pass is issued",
+        "Compare total risk: LOC convenience vs main-pass dependency"
+      ],
+      "href": "/tools/ep-threshold"
+    },
+    {
+      "id": "school-exit-adjacent",
+      "title": "If the household is also leaving school mid-year",
+      "body": "Work-rights sequencing and school withdrawal notices often collide on the same calendar. International and local school contracts usually demand written notice measured in weeks or a full term — sketch the notice deadline before assuming a mid-term fee refund.",
+      "bullets": [
+        "Use /tools/school-withdrawal for a notice-date sketch",
+        "School attendance does not replace a valid pass for the child",
+        "Keep finance and admissions emails in one thread with the LOC/EP timeline"
+      ],
+      "href": "/tools/school-withdrawal"
+    }
+  ]
+}

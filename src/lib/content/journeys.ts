@@ -90,3 +90,7 @@ export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
 export async function getFamilyJoiningPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("family-joining.json");
 }
+
+export async function getLocDpWorkRightsPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("loc-dp-work-rights.json");
+}
