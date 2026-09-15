@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 29 — 2026-09-15
+
+Branch: `cursor/services-directory-tick29-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204→#207→#212→#219→#224→#236→#241); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Parent forums — recurrent tonsillitis / tonsillectomy recovery day-5 pain spikes.
+- Birth forums — hypnobirthing claims vs hospital realities.
+- Antenatal expo threads — cord blood banking sales pressure.
+- Practical living — spare keys for helpers and mailbox copies.
+- Employer/helper forums — MDW insurance claim friction and renewals.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [HealthHub](https://www.healthhub.sg/).
+- [HSA](https://www.hsa.gov.sg/) + [MOM FDW insurance](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements).
+- [CASE](https://www.case.org.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#241 cover prior depth and every on-main service file. Free surface for tick 29: **tonsillectomy**, **hypnobirthing**, **cord blood banking**, **key duplication**, **domestic helper insurance**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/tonsillectomy.json`
+- `content/entities/services/hypnobirthing.json`
+- `content/entities/services/cord-blood-banking.json`
+- `content/entities/services/key-duplication.json`
+- `content/entities/services/domestic-helper-insurance.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#241 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. How many strep rounds before tonsillectomy talk?
+2. Hypnobirthing — useful skills or oversold calm?
+3. Private cord bank annual fees after year one?
+4. Can mall kiosks copy condo restricted keys?
+5. Which MDW insurance limit before a big hospital bill?
+
+---
+
 ## Loop B — Family + Belong (tick 23) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick23-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #166. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

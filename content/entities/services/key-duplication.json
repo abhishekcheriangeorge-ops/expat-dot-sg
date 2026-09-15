@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "key-duplication",
+  "name": "Key cutting and duplication",
+  "summary": "How expats duplicate house, mailbox, and cabinet keys in Singapore — mall kiosks vs locksmiths, restricted keyways, and condo access-card realities beyond metal keys.",
+  "body": "Key-cutting kiosks handle common pin-tumbler copies quickly; restricted or dimple keys need authorised channels. Condos increasingly mix metal keys with access cards/fobs that mall cutters cannot clone casually.\n\n## Common jobs\n- Backup flat/room keys for helpers and trailing partners\n- Mailbox and padlock copies\n- Car keys (often dealer/specialist only)\n- Broken-key extraction referrals\n- Advice when landlord forbids unapproved copies\n\nAlways confirm tenancy rules before cutting extras.\n\n## How to choose\nBring a clean original; worn blanks copy badly. Ask about keyway brand and whether the blank matches. For high-security keys, use the issuing locksmith. Access cards usually go through MCST/managing agent — not the mall booth.\n\n## Practical tip\nLabel keys the same day you cut them. Photograph fob serial numbers before they vanish into a Grab seat.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Need spare house/mailbox keys for household members",
+    "Restricted keyway vs standard blank unclear",
+    "Condo card/fob process vs metal key copy",
+    "Landlord rules on extra keys before cutting"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

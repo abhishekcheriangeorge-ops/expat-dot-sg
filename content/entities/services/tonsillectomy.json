@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "tonsillectomy",
+  "name": "Tonsillectomy",
+  "summary": "How expats navigate tonsillectomy decisions in Singapore for recurring tonsillitis or sleep-disordered breathing — ENT counselling, recovery diet in hawker culture, and school/work downtime.",
+  "body": "Tonsillectomy is considered after repeated bacterial tonsillitis, quinsy history, or obstructive sleep symptoms with large tonsils — especially in kids. ENT assessment pairs history with exam; sleep studies may enter the pathway when breathing pauses dominate.\n\n## Decision factors\n- Infection frequency and antibiotic courses per year\n- Sleep snoring / apnoea overlap in children\n- Bleeding risk counselling and age considerations\n- Alternatives when watchful waiting still makes sense\n- Same-week emergency for peritonsillar abscess (not elective booking)\n\nAdults recover slower than marketing implies; plan soft foods and time off.\n\n## Recovery practicalities\nHumidity and spicy hawker defaults clash with raw surgical throats — stock porridge, yoghurt, and ice ahead. Ask about return-to-school/sports and when flying is allowed. Pain peaks can surprise parents at day 5–7.\n\n## How to choose\nPrefer ENTs who quantify infection criteria and bleeding protocols, not only “take them out.” Confirm hospital after-hours contacts. Insurance often covers medically indicated tonsillectomy with pre-auth — cosmetic snore marketing is different.\n\n## Practical tip\nSet calendar reminders for antibiotic/analgesic timing after discharge. Keep the A&E plan for secondary bleeding — rare but time-critical.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Recurrent tonsillitis / quinsy history needs ENT review",
+    "Child sleep-disordered breathing with large tonsils",
+    "Recovery diet and school downtime planning",
+    "Insurance pre-auth for medically indicated tonsillectomy"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "emergencies-995-999-embassies"
+  ],
+  "featured": false,
+  "sponsored": false
+}

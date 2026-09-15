@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "cord-blood-banking",
+  "name": "Cord blood banking",
+  "summary": "How expats weigh private cord blood banking in Singapore — evidence limits, contract fine print, and public donation alternatives versus sales pressure in late pregnancy.",
+  "body": "Private cord blood banks market future stem-cell possibilities. Medical societies generally urge caution on routine private banking for healthy families; public donation pathways exist where available. Sales often peak at antenatal expos.\n\n## Questions to force early\n- What conditions have proven autologous uses vs speculative lists\n- Collection success rates and contingency if volume is low\n- Storage term, relocation shipping if you leave Singapore\n- Annual fees after the initial package\n- Consent timing with obstetric teams on delivery day\n\nDo not let a bank representative replace a conversation with your OB.\n\n## How to choose\nPrefer transparent contracts, clear exit/relocation clauses, and no same-day deposit pressure. Compare public donation eligibility if altruism is the goal. Budget opportunity cost against emergency funds and insurance deductibles.\n\n## Practical tip\nIf you proceed, put collection kit instructions in the hospital bag and tell the labour team early — last-minute scrambling misses collection windows.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Weighing private cord banking vs skipping/donation",
+    "Contract storage fees and relocation clauses unclear",
+    "Antenatal expo sales pressure needs a cooling-off plan",
+    "OB coordination for delivery-day collection logistics"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Health Sciences Authority",
+      "url": "https://www.hsa.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "health-insurance-expat",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

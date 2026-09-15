@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "hypnobirthing",
+  "name": "Hypnobirthing classes",
+  "summary": "How expats evaluate hypnobirthing courses in Singapore — what the method covers, how it pairs with hospital birth plans, and how to spot overclaim marketing.",
+  "body": "Hypnobirthing courses teach breathing, visualisation, and partner support scripts aimed at calmer labour. They are education classes, not a guarantee of pain-free birth and not a substitute for obstetric care.\n\n## What good courses clarify\n- Technique practice vs medical decision-making boundaries\n- Partner roles during induction or caesarean changes\n- Hospital policy realities in Singapore birthing suites\n- Audio tracks for homework between sessions\n- Refund/transfer rules if due dates shift\n\nCourses that promise “no pain / no intervention” deserve scepticism.\n\n## How to choose\nPrefer instructors who collaborate with, rather than against, clinical teams. Ask about class size, live vs recorded balance, and whether hospital tours are included. Pair with antenatal classes your birthing hospital recognises when required.\n\n## Practical tip\nPractice tracks with your actual noise floor (condo traffic, helper, toddler). Techniques that only work in silent studios fail on labour ward buzzers.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Want structured calm-labour skills alongside OB care",
+    "Comparing hypnobirthing vs hospital antenatal classes",
+    "Partner support scripts for induction/caesarean paths",
+    "Marketing claims of guaranteed pain-free birth"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "parenting-communities-playgroups-singapore",
+    "confinement-nanny-postpartum-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

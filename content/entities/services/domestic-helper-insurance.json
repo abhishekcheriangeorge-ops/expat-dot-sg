@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "domestic-helper-insurance",
+  "name": "Domestic helper insurance",
+  "summary": "How employers of MDWs in Singapore compare mandatory helper insurance and bond-related products — cover limits, hospital panels, and renewal timing before MOM deadlines.",
+  "body": "Employers must meet MOM insurance requirements for foreign domestic workers. Policies vary on hospitalisation limits, ambulatory add-ons, and whether helpers can use preferred clinics. Sales bundles often mix guarantee bond facilitation with medical cover.\n\n## Check explicitly\n- Hospitalisation limit vs your risk tolerance\n- Age loadings for older helpers\n- Pre-existing condition clauses\n- Claim process and panel hospitals\n- Renewal lead time aligned to Work Permit expiry\n\nCheapest premiums can frustrate during claims — read exclusions.\n\n## How to choose\nCompare schedules of benefits side by side, not only annual price. Ask who the claims desk is after hours. Coordinate with your agency if they place cover, but keep policy PDFs yourself.\n\n## Practical tip\nSet a 6-week renewal reminder before permit expiry. Store policy numbers with the helper’s Work Permit photo in a shared household vault.\n",
+  "category": "insurance",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.mom.gov.sg/",
+  "whenToEngage": [
+    "Buying/renewing mandatory MDW medical insurance",
+    "Comparing hospitalisation limits and exclusions",
+    "Agency-bundled policy vs independent purchase",
+    "Renewal timing before Work Permit expiry"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM — FDW insurance",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements"
+    },
+    {
+      "label": "Ministry of Manpower",
+      "url": "https://www.mom.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hiring-domestic-helper-mdw",
+    "fdw-cancellation-when-leaving-singapore",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
