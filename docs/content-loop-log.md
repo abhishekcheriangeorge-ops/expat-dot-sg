@@ -6,6 +6,30 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO hubs / crosslinks (tick 24) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick24-a144` → draft PR to `main`. SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. Built off fresh `origin/main`; **did not** edit open G-stack `src/` / `public/` paths through #267 (log prepend only).
+
+### Gaps vs prior G ticks
+
+Ticks 4–23 (open #74→#267) claimed chrome, directory pages, tools UI, motion, feeds/privacy/DNT, entity/calendar/journey JSON-LD, middleware, and most discovery txt files. Remaining free surface: **collection/hub JSON-LD**, **SEO slug helpers**, **TopicLinks / CiteRail**, **tools/directory/map discovery txt**.
+
+### Shipped this loop
+
+- `src/lib/seo-collections.ts` — CollectionPage / ItemList hub helpers
+- `src/lib/seo-slug.ts` + `slugify.ts` re-exports — anchor/path helpers
+- `TopicLinks.tsx` / `CiteRail.tsx` + directory barrel re-exports
+- `public/tools.txt` / `public/directory.txt` / `public/map.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → (this PR)
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 37)
 
 Branch: `cursor/loop-d-next-polish-tick37-d996` → draft PR to `main`, off tip [#303](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/303) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EntrePass→EP founder exit, S Pass→EP upgrade packaging, and COMPASS C2 degree verification edges.
