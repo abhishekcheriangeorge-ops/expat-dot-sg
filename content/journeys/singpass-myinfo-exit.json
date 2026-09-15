@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "singpass-myinfo-exit",
+  "title": "Singpass / Myinfo exit",
+  "summary": "Leaving Singapore without losing the last months of Singpass login, Myinfo retrieval, or gov.sg mail — and without treating a cancelled work pass as an immigration status.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "grace-not-status",
+      "title": "Login grace ≠ lawful stay",
+      "body": "After a work pass cancels or expires, Singpass may still allow login for a limited period (forum and AskGov folklore often cites ~3 months). That window is an account convenience, not ICA leave to remain. Do not plan a final IRAS, CPF, or bank task on “Singpass still works” alone — confirm your visit-pass or departure date separately.",
+      "bullets": [
+        "Treat Singpass grace as a tooling buffer, never as STVP or ICA status",
+        "Screenshot or export anything you still need while the pass is active",
+        "If you already left Singapore, test login from abroad before the buffer dies"
+      ],
+      "href": "https://www.singpass.gov.sg/"
+    },
+    {
+      "id": "myinfo-cutoff",
+      "title": "Myinfo retrieval cuts earlier than login",
+      "body": "Myinfo data retrieval for third-party apps often stops when the underlying pass is no longer valid, even if Singpass login still opens. Close bank KYC updates, telco, insurance, and school parent portals while Myinfo still answers — or keep wet-ink / PDF alternatives ready.",
+      "bullets": [
+        "Finish high-stakes Myinfo-backed KYC before cancel day when possible",
+        "Keep FIN / passport scans and NOA PDFs outside Singpass",
+        "Assume overseas banks and insurers will not wait for a Singapore Myinfo revive"
+      ],
+      "href": "https://www.singpass.gov.sg/"
+    },
+    {
+      "id": "govmail-forward",
+      "title": "gov.sg mail and phone number hygiene",
+      "body": "OTP SMS and gov.sg mail still need a reachable channel after you leave. Port or keep a Singapore mobile long enough for IRAS / CPF / bank OTPs, or switch Singpass contact details to an overseas number that actually receives SMS. Dead numbers strand tax clearance and CPF withdrawal more often than forgotten passwords.",
+      "bullets": [
+        "Update Singpass contact mobile and email before you surrender the local SIM",
+        "Keep at least one OTP path alive through IR21 / CPF / bank closure",
+        "Disable unused digital-service tokens you will never audit abroad"
+      ],
+      "href": "https://www.singpass.gov.sg/"
+    },
+    {
+      "id": "authorisations",
+      "title": "Corporate and family authorisations",
+      "body": "Corppass, HDB e-services (if any), school parent accounts, and helper MOM eService roles do not auto-tidy when your EP dies. Hand off or revoke authorisations so a former employer or spouse is not locked out — and so you are not left as the only Singpass that can open a joint task.",
+      "bullets": [
+        "List every org where you are an authorised Singpass user",
+        "Transfer school / clinic / condo portal admins before departure week",
+        "Revoke tokens you no longer control devices for"
+      ],
+      "href": "https://www.singpass.gov.sg/"
+    },
+    {
+      "id": "scam-hygiene",
+      "title": "Scam hygiene on the way out",
+      "body": "Leavers get phishing that mimics MOM cancel, IRAS refund, and Singpass “reactivate” themes. Freeze expectations: real agencies do not ask for Singpass passwords over SMS. Pair exit admin with ScamShield and known gov.sg sender checks so panic OTPs do not undo a clean leave.",
+      "bullets": [
+        "Never enter Singpass credentials from a cold SMS or WhatsApp link",
+        "Prefer bookmarks and official apps over emailed “urgent cancel” URLs",
+        "Tell household members which channels you will use for OTPs abroad"
+      ],
+      "href": "https://www.scamshield.gov.sg/"
+    },
+    {
+      "id": "cash-and-school",
+      "title": "Cash and school fee overlap",
+      "body": "Singpass downtime mid-exit often collides with school deposit clawbacks and final fee invoices that still need parent-portal login. Sketch mid-year deposit risk on the deposit tool before you lock the family’s last Singapore SIM — and keep a non-Myinfo payment path (card on file, wire instructions) for the bursar.",
+      "bullets": [
+        "Pay or dispute open school invoices while portals still accept Singpass",
+        "Sketch clawback risk on /tools/school-deposit-clawback",
+        "Do not assume the school will email a magic link after Myinfo dies"
+      ],
+      "href": "/tools/school-deposit-clawback"
+    }
+  ]
+}

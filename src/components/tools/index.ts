@@ -7,6 +7,7 @@ export { IpaWindowCalculator } from "./IpaWindowCalculator";
 export { Ir21WithholdCalculator } from "./Ir21WithholdCalculator";
 export { LeaseDutyCalculator } from "./LeaseDutyCalculator";
 export { LeaseNoticeCalculator } from "./LeaseNoticeCalculator";
+export { SchoolDepositClawbackCalculator } from "./SchoolDepositClawbackCalculator";
 export { SchoolWithdrawalCalculator } from "./SchoolWithdrawalCalculator";
 export { SetupCashCalculator } from "./SetupCashCalculator";
 export { StorageMonthsCalculator } from "./StorageMonthsCalculator";
