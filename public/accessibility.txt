@@ -1,0 +1,19 @@
+# Accessibility discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Signals
+- Skip links / landmarks in site chrome
+- Prefer reduced-motion where motion tips landed
+- https://expat.sg/a11y.txt
+- https://expat.sg/about
+
+## Notes
+- Accessibility WebPage helpers live in seo-a11y.ts (app shell).
+- Report issues via contact.txt / security.txt channels.
+
+## Related
+- https://expat.sg/help.txt
+- https://expat.sg/status.txt
+- https://expat.sg/sitemap.xml

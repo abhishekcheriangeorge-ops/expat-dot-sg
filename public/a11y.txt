@@ -1,0 +1,14 @@
+# A11y short map — expat.sg
+# Companion alias to accessibility.txt
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## See also
+- https://expat.sg/accessibility.txt
+- https://expat.sg/about
+- https://expat.sg/help.txt
+
+## Notes
+- Machine-oriented short path for accessibility discovery.
+- ItemList helpers: seo-a11y.ts
