@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 25)
+
+Branch: `cursor/e-journeys-tools-tick25-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#234 / Loop B30 tip). **Did not wait for merges or CI on prior tips including #253.** Avoided open E stack exclusives through **#253** (E24): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Condo leaver threads — unmarked bikes tagged abandoned after notice; cage padlocks still on after keys returned.
+- Insurance threads — Singapore health cancel vs destination waiting periods; short travel-medical bridges for gap weeks.
+
+**Official / orientation**
+
+- Estate MCST / managing-agent abandoned-item and bike-bay sticker rules (estate-specific)
+- Insurer portability / waiting-period wordings (policy-specific)
+
+### Gaps vs open E stack through #253
+
+Open tips through **#253** cover mail/HDB, helper/club, bus/insurance, visitor QR/device, locker/pet, gym/leavers, childcare/fibre, parking IU/tuition, workplace/clinic. Remaining high-intent gaps **off those path sets**: **condo bike bay / storage cage clear**, **insurance portability float**. No calendar JSON. Distinct from `/journeys/condo-mcst-exit` and visitor QR — this tick owns physical bay/cage clear. Distinct from `/tools/driving-insurance-gap` — this tick owns health/life/travel portability weeks, not motor.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/condo-bike-storage-clear.json` + `/journeys/condo-bike-storage-clear`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/insurance-portability-float.ts`
+- `src/components/tools/InsurancePortabilityFloatCalculator.tsx`
+- `/tools/insurance-portability-float` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #253.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does returning unit keys auto-clear bike-bay stickers?
+2. How long before unmarked bikes are treated as abandoned?
+3. Is a cage deposit separate from the renovation deposit?
+4. Do Singapore health extensions cover overseas gap weeks?
+5. When does destination cover waiting period start relative to cancel?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 24)
 
 Branch: `cursor/e-journeys-tools-tick24-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#199 / Loop B26 tip). **Did not wait for merges or CI on prior tips including #243.** Avoided open E stack exclusives through **#243** (E23): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → this tip**.

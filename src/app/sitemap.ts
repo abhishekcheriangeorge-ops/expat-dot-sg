@@ -44,7 +44,7 @@ const STATIC_PATHS: Array<{
     priority: 0.75,
   },
   {
-    path: "/journeys/workplace-access-exit",
+    path: "/journeys/condo-bike-storage-clear",
     changeFrequency: "monthly",
     priority: 0.75,
   },
@@ -72,7 +72,7 @@ const STATIC_PATHS: Array<{
     priority: 0.65,
   },
   {
-    path: "/tools/clinic-deposit-exit",
+    path: "/tools/insurance-portability-float",
     changeFrequency: "monthly",
     priority: 0.65,
   },
