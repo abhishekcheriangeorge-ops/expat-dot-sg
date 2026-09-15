@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 39 — 2026-09-15
+
+Branch: `cursor/services-directory-tick39-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#320); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F38 draft [#320](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/320).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Health threads — allergy panels vs elimination diets.
+- Housing threads — blackout curtains for shift work and nursery sleep.
+- Music threads — condo piano practice hours and digital pianos.
+- Appliance threads — humid-climate fridge failures and repair vs replace.
+- Sports / clinic threads — heel pain and custom orthotics.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/) + [NEA](https://www.nea.gov.sg/).
+- [National Arts Council](https://www.nac.gov.sg/) + [MOE](https://www.moe.gov.sg/).
+- [AHPC](https://www.ahpc.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#320 cover prior depth and every on-main service file. Free surface for tick 39: **allergy testing**, **curtains/blinds**, **piano lessons**, **fridge repair**, **podiatry**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/allergy-testing.json`
+- `content/entities/services/curtain-blinds.json`
+- `content/entities/services/piano-lessons.json`
+- `content/entities/services/fridge-repair.json`
+- `content/entities/services/podiatry-clinic.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#320 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Skin prick washout length while on antihistamines?
+2. Motorised blinds worth it for high condo windows?
+3. Digital piano OK for graded exam practice?
+4. When is fridge compressor repair not worth it?
+5. Custom orthotics after one bad race — too soon?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 41 — 2026-09-15
 
 Branch: `cursor/home-life-tick41-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238 stay open for the merge controller — **did not** touch those PR paths. Topics: condo waste / recycling / bulky disposal, ActiveSG archery, Mattar / City Hall / Bras Basah.

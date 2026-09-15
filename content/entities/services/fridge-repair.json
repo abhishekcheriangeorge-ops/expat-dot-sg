@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "fridge-repair",
+  "name": "Fridge repair",
+  "summary": "How expats get fridge repair in Singapore — warranty vs third-party techs, humid-climate failures, and when replacement beats another gas top-up.",
+  "body": "Fridge failures in humid weather often show up as warm compartments, iced evaporators, or noisy compressors. In-warranty jobs go through brand centres; out-of-warranty third-party techs can be faster if parts are stocked.\n\n## Typical jobs\n- Not cooling / intermittent cooling\n- Water leakage and blocked drains\n- Iced freezer walls and fan faults\n- Door seal replacement\n- Thermostat and PCB faults\n\nPhotograph the model sticker before calling.\n\n## How to choose\nAsk whether the diagnostic fee offsets repair cost. Prefer techs who explain repair-vs-replace thresholds for ageing compressors. Confirm same-day food-rescue advice while waiting.\n\n## Practical tip\nClear the coil dust and check the door seal before booking. Many “broken” fridges are airflow and seal problems you can spot in five minutes.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Fridge not cooling / leaking in humidity",
+    "Warranty centre vs third-party tech choice",
+    "Repair vs replace decision on old compressor",
+    "Urgent food-rescue while awaiting parts"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Consumers Association of Singapore",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "aircon-pest-renewals"
+  ],
+  "featured": false,
+  "sponsored": false
+}

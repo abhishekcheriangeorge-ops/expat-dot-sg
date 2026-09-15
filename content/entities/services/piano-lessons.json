@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "piano-lessons",
+  "name": "Piano lessons",
+  "summary": "How expats arrange piano lessons in Singapore — home vs studio teachers, graded exam tracks, digital piano condo compromises, and practice-hour etiquette.",
+  "body": "Piano teachers offer classical graded paths, pop/jazz tracks, and adult beginner programmes. Condos often push families toward weighted digital pianos with headphone practice to keep neighbours sane.\n\n## Formats\n- 1:1 home visits\n- Studio lessons with acoustic pianos\n- Graded exam preparation\n- Adult beginner evening slots\n- Online lessons when one parent travels\n\nClarify acoustic vs digital instrument expectations early.\n\n## How to choose\nPrefer teachers who hear a placement piece and set a realistic practice plan. Ask about exam fees versus lesson fees. Confirm makeup-lesson policies around school holidays.\n\n## Practical tip\nAgree quiet-hour practice windows with neighbours before buying an acoustic upright. Headphones on a digital piano buy goodwill you cannot repurchase later.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nac.gov.sg/",
+  "whenToEngage": [
+    "Kids or adult beginner piano pathway",
+    "Graded exam vs casual playing goals",
+    "Home vs studio teacher choice",
+    "Condo digital piano / practice-hour plan"
+  ],
+  "officialLinks": [
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    },
+    {
+      "label": "Ministry of Education",
+      "url": "https://www.moe.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "parenting-communities-playgroups-singapore",
+    "hobby-sports-communities-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

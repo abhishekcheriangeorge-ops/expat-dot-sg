@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "curtain-blinds",
+  "name": "Curtains and blinds",
+  "summary": "How expats order curtains and blinds in Singapore — blackout for shift work, motorised options, condo railing rules, and humidity-safe fabrics.",
+  "body": "Curtain and blinds shops measure, sew, and install window treatments for HDB and condo bays. Blackout and dual-layer setups matter for shift workers and nursery rooms; motorised tracks help high windows.\n\n## Decision points\n- Blackout vs sheer vs dual-layer stacks\n- Roller / venetian / cellular blinds trade-offs\n- Motorised tracks and smart-home pairing\n- Landlord-safe installs vs drilling limits\n- Fabric choices that handle humidity and mould risk\n\nAlways confirm railing and facade rules with MCST when relevant.\n\n## How to choose\nPrefer shops that do on-site measuring and include installation in the quote. Ask about warranty on motors and child-safe cords. Request leftover fabric for future repairs.\n\n## Practical tip\nMeasure twice for bay windows and AC ledge gaps. Most remakes come from skipped ledge depths, not fabric colour regrets.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Need blackout / nursery window treatments",
+    "Motorised blinds for high windows",
+    "Landlord / MCST drilling constraints",
+    "Humidity-safe fabric and mould-risk choices"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "NEA",
+      "url": "https://www.nea.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "mould-humidity-rental-tenants"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "allergy-testing",
+  "name": "Allergy testing",
+  "summary": "How expats arrange allergy testing in Singapore — skin prick vs blood panels, paediatric pathways, and what results do (and do not) change at home.",
+  "body": "Allergy clinics use skin prick tests, specific IgE blood panels, and sometimes challenge testing. Results guide avoidance and treatment plans, but they are not a free pass to over-restrict diets without clinician advice.\n\n## Decision points\n- Skin prick vs blood test timing (antihistamine washout)\n- Food vs environmental allergen panels\n- Paediatric vs adult clinic pathways\n- Immunotherapy eligibility after confirmed allergy\n- Insurance cover for specialist consults and panels\n\nBring a symptom diary and ingredient photos from flares.\n\n## How to choose\nPrefer clinicians who explain false positives and do not sell huge panel packages without history. Ask about anaphylaxis action plans. Confirm follow-up for interpreting borderline results.\n\n## Practical tip\nPause antihistamines only as instructed before skin testing — do not freestyle the washout from a forum post.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Recurring hives / rhinitis / food reactions need testing",
+    "Skin prick vs blood panel pathway unclear",
+    "Child allergy testing referral needed",
+    "Insurance cover for allergy panels unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

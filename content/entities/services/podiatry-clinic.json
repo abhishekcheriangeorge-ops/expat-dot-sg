@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "podiatry-clinic",
+  "name": "Podiatry clinic",
+  "summary": "How expats find podiatry care in Singapore — heel pain, diabetic foot checks, orthotics, and AHPC-registered podiatrists versus retail insoles.",
+  "body": "Podiatrists assess foot and ankle problems: plantar fasciitis, ingrown nails, sports injuries, and diabetic foot risk. Custom orthotics differ from mall cushioning inserts — assessment quality matters.\n\n## Decision points\n- GP referral vs direct private podiatry\n- Acute heel / Achilles pain pathways\n- Diabetic foot screening cadence\n- Custom orthotics vs off-the-shelf insoles\n- Sports return-to-run plans after injury\n\nBring current shoes you actually walk and run in.\n\n## How to choose\nPrefer AHPC-registered podiatrists who examine gait and shoes, not only sell inserts. Ask about review visits after orthotics. Confirm imaging referral pathways if stress fracture is suspected.\n\n## Practical tip\nDo not jump to the thickest gel insole after one sore run. Book assessment before stacking random cushioning that changes your gait.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.ahpc.gov.sg/",
+  "whenToEngage": [
+    "Heel / foot pain needs podiatry assessment",
+    "Diabetic foot check pathway unclear",
+    "Custom orthotics vs retail insole decision",
+    "Sports foot injury return-to-run plan"
+  ],
+  "officialLinks": [
+    {
+      "label": "Allied Health Professions Council",
+      "url": "https://www.ahpc.gov.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
