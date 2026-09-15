@@ -77,6 +77,12 @@ const tools = [
     summary:
       "Sketch exam / IB / checkpoint deposit return vs partial holds and late-cancel forfeiture — not handbook advice.",
   },
+  {
+    href: "/tools/helper-levy-final-month",
+    title: "Helper levy final month",
+    summary:
+      "Sketch FDW final-month levy for keep-through-month, mid-month cancel, and transfer-out — not MOM filing advice.",
+  },
 ] as const;
 
 export default function ToolsIndexPage() {
