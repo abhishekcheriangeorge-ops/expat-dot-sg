@@ -6,6 +6,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 41 — 2026-09-15
+
+Branch: `cursor/home-life-tick41-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238 stay open for the merge controller — **did not** touch those PR paths. Topics: condo waste / recycling / bulky disposal, ActiveSG archery, Mattar / City Hall / Bras Basah.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo chute cardboard jams, bulky mattress dumping fines, recycling contamination WhatsApp wars.
+- r/askSingapore — ActiveSG archery Standard Rate for foreigners, induction briefings, weekend range release races.
+- r/askSingapore — civic-core shortlists for Mattar vs City Hall vs Bras Basah walkability and noise.
+
+**Official**
+
+- [NEA waste management](https://www.nea.gov.sg/our-services/waste-management) + [Recycle Right](https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/recycle-right) + [e-waste](https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/e-waste-management).
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #238
+
+Open PRs own reno-noise through CCTV/footage / holiday camps and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo waste / recycling / bulky disposal** (≠ lift booking; ≠ CCTV), **ActiveSG archery** (≠ camps; ≠ swim lessons; ≠ court hire), plus neighbourhood depth for **Mattar**, **City Hall**, and **Bras Basah**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-waste-recycling-bulky-disposal-tenants.mdx`
+- `content/guides/life/activesg-archery-range-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #238.
+- `src/lib/site.ts` (waste/recycling + ActiveSG archery topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/mattar.json`
+- `content/entities/neighbourhoods/city-hall.json`
+- `content/entities/neighbourhoods/bras-basah.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 exclusive file paths.
+
+### Questions mined (sample)
+
+1. Can I leave bulky items by the refuse room overnight?
+2. Who pays recycling contamination fines?
+3. Where do batteries and e-waste go?
+4. Is chute etiquette in the TA?
+5. Can foreigners book ActiveSG archery at Standard Rate?
+6. Is archery the same as court hire or holiday camps?
+7. Do I need an induction briefing?
+8. Mattar vs City Hall — quiet DTL or civic core?
+9. Is Bras Basah too touristy on weekends?
+10. When is a condo activities room still enough?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 40 — 2026-09-15
 
 Branch: `cursor/home-life-tick40-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232 stay open for the merge controller — **did not** touch those PR paths. Topics: condo CCTV / MA footage requests, ActiveSG holiday camps, Boon Keng / Sennett / Geylang East.

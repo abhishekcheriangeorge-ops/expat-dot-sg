@@ -294,14 +294,14 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
       },
       {
-        label: "CCTV & MA footage requests",
-        href: "/guides/condo-cctv-ma-footage-requests-tenants",
-        blurb: "Common-area cameras, PDPA limits, and how to request clips.",
+        label: "Waste, recycling & bulky disposal",
+        href: "/guides/condo-waste-recycling-bulky-disposal-tenants",
+        blurb: "Refuse rooms, Recycle Right, and booked bulky pickup.",
       },
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Boon Keng, Sennett, Geylang East, Bukit Timah, and more.",
+        blurb: "Mattar, City Hall, Bras Basah, Bukit Timah, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -458,14 +458,14 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "Child hospitalisation coverage",
-        href: "/guides/dual-career-child-hospitalisation-coverage-singapore",
-        blurb: "Ward vs home roles for dual EP households.",
+        label: "Haze PSI school coverage",
+        href: "/guides/dual-career-haze-psi-school-closure-coverage-singapore",
+        blurb: "Early dismissal, indoor air, dual-career coverage.",
       },
       {
-        label: "PTC dual-career ops",
-        href: "/guides/parent-teacher-conference-dual-career-singapore",
-        blurb: "Conference prep, lead parent, written follow-ups.",
+        label: "Book fair / fundraising ops",
+        href: "/guides/international-school-book-fair-fundraising-ops-dual-career-singapore",
+        blurb: "Wallet caps, volunteer shifts, sibling FOMO.",
       },
       {
         label: "Kids activities & calendar",
@@ -525,14 +525,14 @@ export const pillars: Pillar[] = [
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
       },
       {
-        label: "ActiveSG holiday camps",
-        href: "/guides/activesg-holiday-camps-booking-singapore",
-        blurb: "Standard Rate school-break programmes — not court hire.",
+        label: "ActiveSG archery",
+        href: "/guides/activesg-archery-range-booking-singapore",
+        blurb: "Standard Rate range sessions — not court or camp hire.",
       },
       {
         label: "Apps that matter",
         href: "/guides/apps-that-matter-singapore",
-        blurb: "Singpass first, ScamShield, PayNow→FIN, transit — week one.",
+        blurb: "Singpass, HealthHub, banking, delivery — the short list.",
       },
       {
         label: "Vaping & tobacco laws",
@@ -607,11 +607,10 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "Park playground belonging",
-        href: "/guides/park-playground-parent-belonging-singapore",
-        blurb: "Repeat NParks play hours as adult rails.",
+        label: "ActiveSG swim-parent belonging",
+        href: "/guides/activesg-swim-parent-belonging-singapore",
+        blurb: "Pool-deck hellos during learn-to-swim slots.",
       },
-
       {
         label: "LGBTQ+ resources",
         href: "/guides/lgbtq-resources-singapore",
@@ -653,6 +652,11 @@ export const pillars: Pillar[] = [
         label: "Spouse LTVP + PMLA",
         href: "/guides/spouse-ltvp-pmla-singapore",
         blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
+      },
+      {
+        label: "Spouse LTVP renewal / LLE",
+        href: "/guides/spouse-ltvp-renewal-pmla-lle-window-singapore",
+        blurb: "Renew ≥3 months out; LLE is 1 year — not a renewal form.",
       },
       {
         label: "PLOC / LOC work rights",
@@ -708,6 +712,16 @@ export const pillars: Pillar[] = [
         label: "Transfer REP to new passport",
         href: "/guides/transfer-rep-new-passport",
         blurb: "New passport ≠ auto REP — ICA transfer before you fly.",
+      },
+      {
+        label: "ROE transfer new passport",
+        href: "/guides/roe-transfer-new-foreign-passport-singapore",
+        blurb: "FormSG ROE; transfer when the foreign book renews.",
+      },
+      {
+        label: "SCJ SEV / CSS booking",
+        href: "/guides/scj-sev-css-booking-after-ipa-singapore",
+        blurb: "Portal day+3 working days; book SEV/CSS early.",
       },
       {
         label: "After getting PR",
