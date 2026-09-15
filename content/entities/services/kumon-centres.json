@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "kumon-centres",
   "name": "Kumon (centres islandwide)",
-  "summary": "Structured maths and reading centres — one enrichment option among many; trial commute and culture before locking in.",
-  "body": "Method franchises like Kumon suit some children and frustrate others. Singapore parents often stack enrichment aggressively in year two; arrival-year guidance on expat.sg is to prioritise one social and one physical activity before method centres. Trial the specific centre near you — instructor culture and travel time matter more than brand. Exit guilt-free after a month if it is a poor fit. Compare against ActiveSG programmes and school CCA before assuming paid enrichment is mandatory.",
+  "summary": "Structured maths and reading centres \u2014 one enrichment option among many; trial commute and culture before locking in.",
+  "body": "Method franchises like Kumon suit some children and frustrate others. Singapore parents often stack enrichment aggressively in year two; arrival-year guidance on expat.sg is to prioritise one social and one physical activity before method centres. Trial the specific centre near you \u2014 instructor culture and travel time matter more than brand. Exit guilt-free after a month if it is a poor fit. Compare against ActiveSG programmes and school CCA before assuming paid enrichment is mandatory. Enrichment is not licensed childcare \u2014 if both parents work full days, model ECDA infant/childcare hours separately from Kumon worksheets, and do not use tuition centres as after-care without written centre policy.",
   "category": "tutors",
   "areasServed": [
     "Islandwide"
@@ -13,7 +13,8 @@
   "sponsored": false,
   "whenToEngage": [
     "Considering method franchise after social/physical baseline",
-    "Want a trial near home before year-two enrichment stack"
+    "Want a trial near home before year-two enrichment stack",
+    "Comparing enrichment vs ECDA childcare hours"
   ],
   "officialLinks": [
     {
@@ -23,6 +24,7 @@
   ],
   "relatedGuides": [
     "school-waitlist-realism",
-    "kids-activities-holiday-camps"
+    "kids-activities-holiday-camps",
+    "preschool-childcare-singapore"
   ]
 }

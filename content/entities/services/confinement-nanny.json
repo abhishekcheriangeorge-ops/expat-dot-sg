@@ -2,33 +2,34 @@
   "type": "service",
   "slug": "confinement-nanny",
   "name": "Confinement nanny agencies (category guide)",
-  "summary": "MOM Malaysian confinement-nanny Work Permit vs freelance pui yuet packages — agency cut, citizen vs foreign-baby levy, and how postpartum help stacks on the newborn pass clock.",
-  "body": "A confinement nanny (pui yuet / yue sao) is a short postpartum engagement — typically ~26–28 days — not an MDW. MOM’s Work Permit for confinement nannies is Malaysian-nationality only; citizen vs non-citizen baby levy and employer eligibility differ from the FDW rail — read MOM key facts before you pay an agency deposit. Agencies sell replacement cover and interview pipelines; freelancers via word-of-mouth often cost less but need clear cancellation, rest days, breastfeeding philosophy, and pet rules in writing. Forum pricing clusters move with CNY/peaks and twins — treat brochure rates as perishable. Book months ahead for experienced twin nannies. Do not confuse this with a long-term helper: SIP, security bonds, and MDW insurance floors are a different MOM stack. Pair agency quotes with the Family confinement-nanny guide for pass sequencing and with FDW agencies only when you are comparing postpartum help vs hiring a full-time MDW. This is a category guide, not a ranked agency league table.",
+  "summary": "MOM Malaysian confinement-nanny Work Permit vs freelance pui yuet packages \u2014 agency cut, citizen vs foreign-baby levy, and how postpartum help stacks on the newborn pass clock.",
+  "body": "A confinement nanny (pui yuet / yue sao) is a short postpartum engagement \u2014 typically ~26\u201328 days \u2014 not an MDW. MOM\u2019s Work Permit for confinement nannies is Malaysian-nationality only; citizen vs non-citizen baby levy and employer eligibility differ from the FDW rail \u2014 read MOM key facts before you pay an agency deposit. Agencies sell replacement cover and interview pipelines; freelancers via word-of-mouth often cost less but need clear cancellation, rest days, breastfeeding philosophy, and pet rules in writing. Forum pricing clusters move with CNY/peaks and twins \u2014 treat brochure rates as perishable. Book months ahead for experienced twin nannies. Do not confuse this with a long-term helper: SIP, security bonds, and MDW insurance floors are a different MOM stack. Pair agency quotes with the Family confinement-nanny guide for pass sequencing and with FDW agencies only when you are comparing postpartum help vs hiring a full-time MDW. This is a category guide, not a ranked agency league table. Book confinement help against your obstetric EDD, not against an optimistic IVF transfer date \u2014 agency peak-season deposits rarely slide when a cycle slips.",
   "category": "fdw",
   "areasServed": [
     "Islandwide"
   ],
   "whenToEngage": [
-    "Need ~28-day postpartum help — agency vs freelancer",
+    "Need ~28-day postpartum help \u2014 agency vs freelancer",
     "Unsure MOM confinement-nanny WP eligibility / levy",
     "Want written replacement and cancellation terms",
-    "Comparing nanny package vs MDW hire for the same month"
+    "Comparing nanny package vs MDW hire for the same month",
+    "IVF timeline unstable \u2014 need flexible confinement booking terms"
   ],
   "officialLinks": [
     {
-      "label": "MOM — Work Permit for confinement nanny (key facts)",
+      "label": "MOM \u2014 Work Permit for confinement nanny (key facts)",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts"
     },
     {
-      "label": "MOM — Eligibility for confinement nanny WP",
+      "label": "MOM \u2014 Eligibility for confinement nanny WP",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/eligibility"
     },
     {
-      "label": "MOM — Apply for confinement nanny WP",
+      "label": "MOM \u2014 Apply for confinement nanny WP",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/apply-for-permit"
     },
     {
-      "label": "MOM — Dependant’s Pass for a newborn",
+      "label": "MOM \u2014 Dependant\u2019s Pass for a newborn",
       "url": "https://www.mom.gov.sg/passes-and-permits/dependants-pass/getting-a-pass-for-a-newborn"
     }
   ],
@@ -37,7 +38,8 @@
     "hiring-domestic-helper-mdw",
     "newborn-pass-birth-registration-singapore",
     "maternity-care-singapore",
-    "paternity-shared-parental-leave-foreigners"
+    "paternity-shared-parental-leave-foreigners",
+    "ivf-fertility-foreigners-singapore"
   ],
   "featured": false,
   "sponsored": false

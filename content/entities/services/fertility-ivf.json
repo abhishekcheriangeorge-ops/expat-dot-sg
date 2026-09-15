@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "fertility-ivf",
+  "name": "Fertility & IVF clinics (category guide)",
+  "summary": "Public AR co-funding needs a Singapore Citizen spouse \u2014 EP\u2013EP couples budget private cash cycles, MediSave myths, and waiting-list realism at KKH/NUH/SGH.",
+  "body": "MOH Assisted Conception Procedure co-funding at public AR centres (KKH, NUH, SGH) requires that you or your spouse is a Singapore Citizen at cycle start \u2014 two EP holders generally pay full private or public-as-private rates. Citizen\u2013foreigner couples get a lower co-funding band than SC\u2013SC pairs; read the current Made-For-Families / MOH tables before you assume 75%. MediSave ART withdrawal rules are citizenship- and account-gated \u2014 most EP-only households cannot treat MediSave as the funding plan. Private fertility clinics trade queue time for cash; public centres may wait months for workup. Ask what is included in a \u2018cycle\u2019 quote (meds, ICSI, freezing, storage) and how overseas gamete/embryo shipping is handled. Pair clinic shopping with maternity insurance waiting periods and newborn-pass clocks \u2014 fertility success starts a different admin rail. This is a category guide, not a ranked embryologist list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "EP\u2013EP couple \u2014 need cash IVF budget without SC co-funding",
+    "Citizen\u2013foreigner couple \u2014 confirm 35% band vs private quote",
+    "Comparing public AR queue vs private cycle inclusions",
+    "MediSave ART myths need written eligibility check"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH \u2014 Marriage and parenthood schemes (ACP co-funding)",
+      "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/marriage-and-parenthood-schemes/"
+    },
+    {
+      "label": "Made For Families \u2014 Co-funding for assisted conception",
+      "url": "https://www.madeforfamilies.gov.sg/support-measures/baby-prep/co-funding-for-assisted-conception-procedures"
+    },
+    {
+      "label": "MOH \u2014 Support for Singaporeans and foreign spouses (IVF)",
+      "url": "https://www.moh.gov.sg/newsroom/support-available-for-singaporeans-and-foreign-spouses-seeking-ivf-treatment/"
+    }
+  ],
+  "relatedGuides": [
+    "ivf-fertility-foreigners-singapore",
+    "maternity-care-singapore",
+    "health-insurance-expat",
+    "newborn-pass-birth-registration-singapore",
+    "confinement-nanny-postpartum-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

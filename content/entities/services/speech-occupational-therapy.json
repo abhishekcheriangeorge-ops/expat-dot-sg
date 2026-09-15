@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "speech-occupational-therapy",
+  "name": "Speech & occupational therapy (category guide)",
+  "summary": "AHPC-registered speech and OT for expat kids and adults \u2014 private cash rates, EIPIC/PPIP citizenship gates, and why public early-intervention seats rarely open to EP children.",
+  "body": "Speech-language therapists and occupational therapists practising in Singapore must be registered with the Allied Health Professions Council (AHPC) \u2014 ask for the name on the register before you buy a package. Public early-intervention programmes (EIPIC / PPIP-style seats) are built around citizen/PR children; EP/DP families usually land in private clinics at roughly S$150\u2013250+ per hour, with assessments billed separately. Hospital outpatient therapy waits can be long even when referrals exist; private multidisciplinary centres trade cost for speed. Insurers often carve paediatric developmental therapy out of group medical or cap sessions tightly \u2014 get the schedule in writing. For school-age kids, align therapy goals with the receiving school\u2019s learning-support process rather than collecting uncoordinated private reports. Adults post-stroke or workplace injury should pair AHPC therapy with WICA documentation when the injury is work-related. This is a category guide, not a ranked clinic league table.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Expat child needs speech / OT \u2014 public EIPIC likely closed",
+    "Need AHPC-registered therapist before paying a package",
+    "Group plan outpatient therapy caps unclear",
+    "Adult rehab needs AHPC clinician + injury paperwork"
+  ],
+  "officialLinks": [
+    {
+      "label": "AHPC \u2014 Registers of Allied Health Professionals",
+      "url": "https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/"
+    },
+    {
+      "label": "AHPC home",
+      "url": "https://www.ahpc.gov.sg/"
+    },
+    {
+      "label": "ECDA \u2014 Early childhood intervention overview",
+      "url": "https://www.ecda.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "special-needs-support",
+    "finding-pediatrician-singapore",
+    "preschool-childcare-singapore",
+    "health-insurance-expat",
+    "mental-health-resources"
+  ],
+  "featured": false,
+  "sponsored": false
+}

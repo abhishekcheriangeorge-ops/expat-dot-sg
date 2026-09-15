@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "pediatric-clinics",
+  "name": "Pediatric clinics (category guide)",
+  "summary": "Private paediatricians vs polyclinic vaccines for foreign kids \u2014 cash fees, NIR catch-up, and when KKH/NUH beats a mall clinic after hours.",
+  "body": "EP/DP children pay unsubsidised rates at polyclinics and public hospitals \u2014 \u2018public equals cheap\u2019 is a citizen myth. Routine National Childhood Immunisation Schedule catch-up often still runs through polyclinics for NIR recording even when you keep a private paediatrician for fever and travel consults. Private paediatric clinics (islandwide chains and boutique practices) win on continuity and English-first access; cash/card consults commonly sit well above GP rates, and after-hours fees spike. For true emergencies, know KKH or NUH children\u2019s A&E \u2014 Thomson-style 24-hour kids clinics help for urgent-but-not-critical nights. Ask HR whether your group plan panels named paediatric clinics and what outpatient caps look like; many riders treat kids\u2019 consults like adult GP visits with low annual ceilings. Bring overseas vaccine cards to the first visit; undocumented doses get repeated. This is a category guide, not a ranked paediatrician list \u2014 verify panels, NIR uploads, and cash fee sheets yourself.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need a named paediatrician for fever / travel consults",
+    "Foreign child vaccine catch-up needs NIR-aware path",
+    "Comparing private cash rates vs unsubsidised polyclinic fees",
+    "After-hours kids clinic vs KKH/NUH A&E triage unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH \u2014 National Childhood Immunisation Schedule",
+      "url": "https://www.moh.gov.sg/newsroom/national-childhood-immunisation-schedule/"
+    },
+    {
+      "label": "KK Women\u2019s and Children\u2019s Hospital",
+      "url": "https://www.kkh.com.sg/"
+    },
+    {
+      "label": "National University Hospital \u2014 Children\u2019s Emergency",
+      "url": "https://www.nuh.com.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "finding-pediatrician-singapore",
+    "childhood-vaccination-foreigners",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "newborn-pass-birth-registration-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

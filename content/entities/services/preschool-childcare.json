@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "preschool-childcare",
+  "name": "Preschool & childcare (category guide)",
+  "summary": "ECDA-licensed infant care and childcare for EP families \u2014 citizen subsidy gates, Form 1 enrolment, and why you join ten waitlists before the birth certificate arrives.",
+  "body": "ECDA basic and additional childcare subsidies target Singapore Citizen children \u2014 an EP parent with a foreign child generally pays full private fees even in an ECDA-licensed centre. Form 1 still matters for regulatory enrolment reporting; subsidy calculators that assume an SC child will overstate your take-home fee. Infant-care seats near popular estates fill before birth \u2014 forum consensus is to join multiple waitlists early and accept a farther centre while you hold for the preferred block. Anchor operators and commercial chains both run ECDA licences; compare programme hours, holiday closures, and foreigner fee sheets, not brand lore. A helper is not a drop-in substitute for licensed infant care if both parents work full office hours \u2014 model helper + backup care costs honestly. Pair centre hunting with paediatric continuity and, where relevant, speech/OT support rather than treating preschool as therapy. This is a category guide, not a ranked preschool ranking.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need ECDA infant care / childcare \u2014 foreign child fee sheet",
+    "Subsidy calculator assumes SC child \u2014 need full-fee reality",
+    "Joining multiple waitlists before / right after birth",
+    "Comparing helper-only care vs licensed centre hours"
+  ],
+  "officialLinks": [
+    {
+      "label": "ECDA \u2014 Infant and childcare subsidy overview",
+      "url": "https://www.ecda.gov.sg/parents/preschool-subsidies/infant-and-childcare-subsidy-scheme/overview"
+    },
+    {
+      "label": "LifeSG \u2014 Form 1 preschool enrolment",
+      "url": "https://www.life.gov.sg/services-tools/form-1-preschool"
+    },
+    {
+      "label": "ECDA home",
+      "url": "https://www.ecda.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "preschool-childcare-singapore",
+    "finding-pediatrician-singapore",
+    "hiring-domestic-helper-mdw",
+    "special-needs-support",
+    "newborn-pass-birth-registration-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

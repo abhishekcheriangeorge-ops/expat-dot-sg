@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "tcm-chinese-medicine",
+  "name": "TCM & Chinese medicine (category guide)",
+  "summary": "TCM Practitioners Board\u2013registered physicians for expats \u2014 what group medical usually excludes, fertility \u2018tiao\u2019 realism, and when TCM is adjunct not substitute for acute care.",
+  "body": "Only practitioners registered with the TCM Practitioners Board may legally practise Chinese medicine in Singapore \u2014 verify the name before you book WeChat referrals. Group hospital plans commonly exclude TCM, herbal medicines, and acupuncture, or reimburse only under a tiny outpatient rider \u2014 assume cash until HR confirms a written line. Fertility forums often suggest TCM \u2018body tuning\u2019 alongside IVF; treat it as adjunct care with clear stop rules, not a replacement for ART workups or obstetric red flags. Acute chest pain, trauma, and paediatric emergencies still belong in Western A&E first. Ask whether herbs are dispensed in-clinic, how they interact with prescription meds, and whether English consult notes are available for your GP. This is a category guide for regulated TCM access, not an endorsement of any fertility claim or a ranked physician list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Want Board-registered TCM \u2014 not a WeChat informal referral",
+    "Group plan TCM / acupuncture exclusion needs written check",
+    "Considering TCM as IVF adjunct with clear stop rules",
+    "Need English notes to share with GP / fertility clinic"
+  ],
+  "officialLinks": [
+    {
+      "label": "TCM Practitioners Board",
+      "url": "https://www.healthprofessionals.gov.sg/tcmpb"
+    },
+    {
+      "label": "MOH \u2014 Traditional medicine overview",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Made For Families \u2014 Assisted conception co-funding",
+      "url": "https://www.madeforfamilies.gov.sg/support-measures/baby-prep/co-funding-for-assisted-conception-procedures"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "ivf-fertility-foreigners-singapore",
+    "maternity-care-singapore",
+    "mental-health-resources"
+  ],
+  "featured": false,
+  "sponsored": false
+}

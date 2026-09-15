@@ -6,6 +6,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 5 — 2026-09-15
+
+Branch: `cursor/services-directory-tick5-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–4 topics (tax / dental-as-primary / notary / storage / pet-relocation / mental-health-as-primary / licence / aircon / private-health-as-primary / FDW DIY / pest / furniture / end-of-lease cleaning / confinement-nanny-as-primary / car sharing / physio / optical / vet / bank-KYC / will-writing).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — paediatrician cash/foreign fees + vaccine paths ([recommend paediatrician](https://www.reddit.com/r/askSingapore/comments/1g54za3/anyone_can_recommend_a_pediatrician_in_sgp/); [non-local cash paediatrician](https://www.reddit.com/r/askSingapore/comments/1e73vx8/pediatrician_recommendation_for_nonlocal_pay_via/)).
+- r/askSingapore — public IVF co-funding citizenship gates ([public IVF options](https://www.reddit.com/r/askSingapore/comments/1p02anc/public_ivf_options_in_singapore/)).
+- r/askSingapore — speech/OT cost reality for foreign special-needs kids ([moving with therapy needs](https://www.reddit.com/r/askSingapore/comments/114zacw/moving_to_singapore/)).
+- r/askSingapore — infant-care / childcare waitlists ([infant care under block](https://www.reddit.com/r/askSingapore/comments/1d3yetk/how_to_get_infant_care_under_your_block/)).
+- TCM-as-IVF-adjunct heat adjacent to fertility threads (Board registration + insurance carve-outs).
+
+**Official**
+
+- [MOH — Marriage & parenthood / ACP co-funding](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/marriage-and-parenthood-schemes/) + [Made For Families ACP](https://www.madeforfamilies.gov.sg/support-measures/baby-prep/co-funding-for-assisted-conception-procedures) + [SC–foreign spouse IVF note](https://www.moh.gov.sg/newsroom/support-available-for-singaporeans-and-foreign-spouses-seeking-ivf-treatment/).
+- [ECDA — Infant/childcare subsidies](https://www.ecda.gov.sg/parents/preschool-subsidies/infant-and-childcare-subsidy-scheme/overview) + [LifeSG Form 1](https://www.life.gov.sg/services-tools/form-1-preschool).
+- [AHPC registers](https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/) + [TCM Practitioners Board](https://www.healthprofessionals.gov.sg/tcmpb).
+- [KKH](https://www.kkh.com.sg/) + [NUH](https://www.nuh.com.sg/) children’s pathways.
+
+### Gaps vs ticks 1–4
+
+Ticks 1–3 (on main) and open tick 4 covered tax/dental/notary/storage/pets, mental health/licence/aircon/insurance/FDW DIY, pest/furniture/cleaning/nanny/car-share, and physio/optical/vet/bank/wills. Remaining family-ops **directory** heat matched: **paediatric cash vs polyclinic vaccines**, **IVF SC co-funding gates**, **AHPC speech/OT for EP kids**, **ECDA preschool full-fee waitlists**, and **Board-registered TCM honesty**.
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/pediatric-clinics.json`
+- `content/entities/services/fertility-ivf.json`
+- `content/entities/services/speech-occupational-therapy.json`
+- `content/entities/services/preschool-childcare.json`
+- `content/entities/services/tcm-chinese-medicine.json`
+
+**Upgraded existing** (avoided open tick-4 touch set)
+
+- `dental-care.json`, `mental-health-counselling.json`
+- `kumon-centres.json`, `the-tutors.json`
+- `intact-immigration.json`
+- `confinement-nanny.json`, `fdw-agencies.json`, `comfort-employment.json`
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not re-litigate ticks 1–4 primary topics beyond cross-links.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+- Did not modify open #64 / tick-4 files (physio/optical/vet/bank/wills + clinic/insurance upgrades) to keep merge conflict surface small.
+
+### Questions mined (sample)
+
+1. Do foreign kids pay full polyclinic paediatric fees?
+2. Should vaccines go through polyclinic for NIR even with a private paediatrician?
+3. Can two EP holders get MOH IVF co-funding at KKH?
+4. What does MediSave actually cover for ART if we are not citizens?
+5. Are EIPIC / early-intervention seats open to EP children?
+6. How much do private speech and OT sessions cost?
+7. When should I join ECDA infant-care waitlists?
+8. Do foreign children get ECDA basic childcare subsidy?
+9. Is a helper enough, or do we still need licensed infant care?
+10. How do I verify a TCM physician is Board-registered?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 7)
 
 Branch: `loop/story-aeo-tick7` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 6’s scams / lost-card / ICA STVP-extension FAQPages. Did **not** expand ads/monetization or rewrite Loop C Home/Life dengue–lease bodies or A/B/D/E/F/G trees.

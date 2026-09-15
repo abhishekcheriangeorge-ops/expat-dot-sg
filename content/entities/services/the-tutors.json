@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "the-tutors",
   "name": "The Tutors Network (editorial placeholder)",
-  "summary": "Representative enrichment / tutoring category entry — compare subject specialists carefully; Singapore’s arms race is optional in year one.",
-  "body": "Singapore’s tuition culture is intense. Start from your child’s actual gaps, not neighbour panic. Ask for trial lessons, curriculum alignment (IB vs IGCSE vs MOE), and clear cancellation terms. Arrival-year guidance on expat.sg: one social and one physical activity before stacking weekday enrichment. Method centres (e.g. Kumon) and private tutors both fail when commute time exceeds learning gains — trial the specific teacher near home, not the brand brochure. Mandarin for non-Mandarin homes: brief the tutor whether you need MOE-primary readiness, IS optional-language support, or interest-keeping only — and trial before prepaid packages. Product map (Berries-style centres vs online 1:1 vs home tutor vs school bilingual tracks) lives in the Mandarin enrichment guide. Families aiming for AEIS / S-AEIS should brief tutors on MOE preceding-level maths (and secondary English) method, not generic ‘exam tips’ — and keep an international-school hold until MOE placement lands.",
+  "summary": "Representative enrichment / tutoring category entry \u2014 compare subject specialists carefully; Singapore\u2019s arms race is optional in year one.",
+  "body": "Singapore\u2019s tuition culture is intense. Start from your child\u2019s actual gaps, not neighbour panic. Ask for trial lessons, curriculum alignment (IB vs IGCSE vs MOE), and clear cancellation terms. Arrival-year guidance on expat.sg: one social and one physical activity before stacking weekday enrichment. Method centres (e.g. Kumon) and private tutors both fail when commute time exceeds learning gains \u2014 trial the specific teacher near home, not the brand brochure. Mandarin for non-Mandarin homes: brief the tutor whether you need MOE-primary readiness, IS optional-language support, or interest-keeping only \u2014 and trial before prepaid packages. Product map (Berries-style centres vs online 1:1 vs home tutor vs school bilingual tracks) lives in the Mandarin enrichment guide. Families aiming for AEIS / S-AEIS should brief tutors on MOE preceding-level maths (and secondary English) method, not generic \u2018exam tips\u2019 \u2014 and keep an international-school hold until MOE placement lands. Private tutors and enrichment agencies do not replace ECDA-licensed infant care \u2014 use them after a stable childcare slot exists, especially for EP kids who pay full preschool fees without citizen subsidies.",
   "category": "tutors",
   "areasServed": [
     "Central",
@@ -16,15 +16,16 @@
     "Child has a defined subject gap after settling",
     "AEIS / S-AEIS needs MOE preceding-level method",
     "Comparing private tutor vs method centre commute cost",
-    "Non-Mandarin home needs MOE vs IS vs interest brief"
+    "Non-Mandarin home needs MOE vs IS vs interest brief",
+    "Need tutoring after ECDA childcare slot is secured"
   ],
   "officialLinks": [
     {
-      "label": "MOE — AEIS",
+      "label": "MOE \u2014 AEIS",
       "url": "https://www.moe.gov.sg/international-students/aeis"
     },
     {
-      "label": "MOE — Mother Tongue Languages",
+      "label": "MOE \u2014 Mother Tongue Languages",
       "url": "https://www.moe.gov.sg/primary/curriculum/mother-tongue-languages"
     }
   ],
@@ -32,6 +33,8 @@
     "mandarin-enrichment-expat-kids-singapore",
     "kids-activities-holiday-camps",
     "school-waitlist-realism",
-    "aeis-saeis-international-students"
+    "aeis-saeis-international-students",
+    "preschool-childcare-singapore",
+    "special-needs-support"
   ]
 }
