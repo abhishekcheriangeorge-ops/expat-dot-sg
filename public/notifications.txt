@@ -1,0 +1,17 @@
+# Notifications discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/alerts.txt
+- https://expat.sg/updates.txt
+- https://expat.sg/status.txt
+- https://expat.sg/contact.txt
+
+## Notes
+- Notification discovery shell; no push-channel ads.
+
+## Related
+- https://expat.sg/help.txt
+- https://expat.sg/sitemap.xml

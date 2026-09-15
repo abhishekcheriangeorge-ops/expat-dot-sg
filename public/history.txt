@@ -1,0 +1,17 @@
+# History discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/archive.txt
+- https://expat.sg/changelog.txt
+- https://expat.sg/version.txt
+- https://expat.sg/about
+
+## Notes
+- Historical timeline discovery; no guide body rewrites.
+
+## Related
+- https://expat.sg/updates.txt
+- https://expat.sg/sitemap.xml

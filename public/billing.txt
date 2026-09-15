@@ -1,0 +1,21 @@
+# Billing discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/about
+- https://expat.sg/billing.txt
+- https://expat.sg/invoice.txt
+- https://expat.sg/receipts.txt
+- https://expat.sg/contact.txt
+
+## Notes
+- Billing WebPage / ItemList helpers live in seo-billing.ts (app shell).
+- Editorial product; no ads or paid rankings.
+
+## Related
+- https://expat.sg/legal.txt
+- https://expat.sg/trust.txt
+- https://expat.sg/status.txt
+- https://expat.sg/sitemap.xml

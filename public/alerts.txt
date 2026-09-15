@@ -1,0 +1,20 @@
+# Alerts discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/status.txt
+- https://expat.sg/alerts.txt
+- https://expat.sg/notifications.txt
+- https://expat.sg/updates.txt
+
+## Notes
+- Alerts WebPage / ItemList helpers live in seo-alerts.ts.
+- Service status and editorial update discovery only.
+
+## Related
+- https://expat.sg/help.txt
+- https://expat.sg/support.txt
+- https://expat.sg/archive.txt
+- https://expat.sg/sitemap.xml

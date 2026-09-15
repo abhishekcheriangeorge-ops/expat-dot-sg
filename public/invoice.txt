@@ -1,0 +1,16 @@
+# Invoice discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/billing.txt
+- https://expat.sg/receipts.txt
+- https://expat.sg/contact.txt
+
+## Notes
+- Invoice paths point at billing helpers; no checkout UI in this shell tick.
+
+## Related
+- https://expat.sg/legal.txt
+- https://expat.sg/sitemap.xml

@@ -1,0 +1,19 @@
+# Archive discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/changelog.txt
+- https://expat.sg/version.txt
+- https://expat.sg/history.txt
+- https://expat.sg/updates.txt
+
+## Notes
+- Archive CollectionPage / ItemList helpers live in seo-archive.ts.
+- Complements version.txt without rewriting claimed paths.
+
+## Related
+- https://expat.sg/build.txt
+- https://expat.sg/press.txt
+- https://expat.sg/sitemap.xml

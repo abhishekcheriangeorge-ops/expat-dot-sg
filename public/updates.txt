@@ -1,0 +1,17 @@
+# Updates discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/alerts.txt
+- https://expat.sg/changelog.txt
+- https://expat.sg/version.txt
+- https://expat.sg/archive.txt
+
+## Notes
+- Product and editorial update discovery; pairs with archive helpers.
+
+## Related
+- https://expat.sg/history.txt
+- https://expat.sg/sitemap.xml
