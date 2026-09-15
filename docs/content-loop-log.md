@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 10)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick10-49cb` → PR to `main` (fresh worktree off `origin/main` @ `9253076` post-H9/#77; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8 and [#81](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/81) A9 stay open — **did not** edit A8/A9 paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP salary cuts / occupation renames vs address-notify confusion; DP LOC renewal local-hire traps; Tech.Pass 2027 sunset “auto-convert” folklore.
+- r/askSingapore — household GST relief filed after the container lands; EntrePass family rights assumed equal to EP; EP moonlighting / unpaid “hobby” invoices.
+- r/askSingapore — foreign dividends remitted vs Singapore-source salary myths (paired with IRAS foreign-income pages).
+
+**Official**
+
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) (salary / occupation)
+- [MOM — LOC for DP business owners (renew)](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/renew-cancel-or-replace)
+- [Singapore Customs — Moving to Singapore / GST relief](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/)
+- [EDB — Tech.Pass](https://www.edb.gov.sg/en/how-we-help/incentives-and-schemes/tech-pass.html) (programme sunset messaging)
+- [MOM — EntrePass](https://www.mom.gov.sg/passes-and-permits/entrepass) + [IRAS — Foreign income](https://www.iras.gov.sg/taxes/individual-income-tax)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–7 on main + open A8 (#68) + open A9 (#81) cover FCF/S Pass/offer/WHP/TG/year-one, job-change/Student’s Pass/LTVP/notify/remittance/LOG/CPF, and EP hub/tax residency/relocation/COMPASS/COR/appeal/ACRA FAQPages. Remaining high-intent Move/Money depth **outside** those file sets: **EP salary/occupation employer notifies** (≠ address/passport), **DP LOC renewal clocks**, **shipping GST DOF timing**, **Tech.Pass→EP/PEP before 2027**, **EntrePass ≠ EP family rights**, **EP unpaid-side-hustle line**, **foreign dividends vs SG-source salary**. Left A8/A9 paths and Next PLOC/LOC ICA deep-owns alone.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/ep-salary-occupation-changes.mdx` (+2)
+- `content/guides/move/dependant-pass-singapore.mdx` (+2)
+- `content/guides/move/shipping-household-singapore.mdx` (+2)
+- `content/guides/move/tech-pass-singapore.mdx` (+1)
+- `content/guides/move/entrepass-singapore.mdx` (+1)
+- `content/guides/move/side-income-freelance-work-pass.mdx` (+1)
+- `content/guides/money/foreign-income-and-tax.mdx` (+1)
+- `src/lib/site.ts` (salary/occupation, DP/LOC, EntrePass, Tech.Pass sunset, side-income topics; shipping + foreign-income blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion (shipping sponsorSlot untouched).
+- No Grok / third-party clone copy.
+- Did not edit open A8 paths (changing-jobs / student-pass / ltvp / ep-notify / remittances / health-insurance / cpf-withdrawal).
+- Did not edit open A9 paths (EP hub / tax residency / relocation / COMPASS / COR / appeal / incorporate).
+- Did not edit `intact-immigration` (both A8/A9 touch it).
+- Did not re-own Loop H STVP/housing AEO or Loop D PLOC/ICA trees.
+
+### Questions mined (sample)
+
+1. Does a salary cut still need SAT if I stay above the EP floor?
+2. Who files EP salary/occupation notifies — me or HR?
+3. How often must a DP LOC be renewed?
+4. Can LOC work continue while the principal EP is renewing?
+5. Can the mover file DOF after the container arrives?
+6. Do I get GST relief if goods land before I arrive?
+7. Can I convert Tech.Pass to EP/PEP before the 2027 sunset?
+8. Does EntrePass give DP rights like an EP?
+9. Do unpaid open-source projects need MOM permission on EP?
+10. Are foreign dividends taxable for Singapore tax residents?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 9)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick9-49cb` → PR to `main` (fresh worktree off `origin/main` @ A7/#61 merged; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8 is still open — **did not** edit A8 job-change / Student’s Pass / LTVP / notify / remittance / health LOG / CPF withdrawal paths).
