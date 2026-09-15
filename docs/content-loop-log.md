@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 22)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick22-49cb` → PR to `main` (fresh worktree off `origin/main` @ `7339ccb`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170) A17–A21 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — S Pass job-hop / FCF advertising / mid-card quota myths.
+- r/askSingapore — PEP COMPASS-free hop folklore; S$270k keep-rule; DP on PEP.
+- r/singaporefi — ESPP discount vs RSU tax; US+SG double tax on vests; IR21 on unvested RSUs.
+
+**Official**
+
+- [MOM — S Pass](https://www.mom.gov.sg/passes-and-permits/s-pass) + levy/quota + FCF framing
+- [MOM — Personalised Employment Pass](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass)
+- [IRAS — Gains from the exercise of stock options](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/employment-income/gains-from-the-exercise-of-stock-options) + ESOP/ESOW e-Tax Guide
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A21 claim Student’s Pass/LTVP/CPF-withdrawal, EP-notify/ONE Pass/COR, COMPASS/Tech.Pass/foreign-income, EntrePass/side-income/IRAS-residency, and Dependant’s Pass/EP-appeal/SRS. Tick 22 deepens **S Pass**, **PEP**, and **RSU/ESOP tax** without colliding those paths.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/s-pass-singapore.mdx` (+3)
+- `content/guides/move/personalised-employment-pass-pep.mdx` (+3)
+- `content/guides/money/rsu-esop-tax-singapore.mdx` (+3)
+- `src/lib/site.ts` (S Pass hub topic; PEP/RSU blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A21 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170 for the merge controller.
+
+### Questions mined (sample)
+
+1. Is S Pass job-change a fresh filing?
+2. Does FCF advertising apply to S Pass?
+3. Does losing company quota cancel a live S Pass?
+4. Does PEP hop skip COMPASS forever?
+5. What is the S$270k PEP keep-rule?
+6. Can PEP holders sponsor DPs?
+7. Is ESPP discount taxed like an RSU?
+8. Can US and Singapore both tax the same vest?
+9. Does IR21 deemed exercise hit unvested RSUs?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 12)
 
 Branch: `cursor/loop-d-next-polish-tick12-d996` → PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) / [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89).

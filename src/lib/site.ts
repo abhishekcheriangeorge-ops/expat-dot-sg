@@ -182,6 +182,11 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
       },
       {
+        label: "S Pass realities",
+        href: "/guides/s-pass-singapore",
+        blurb: "Quota + levy, DP at S$6k, job-change is a fresh filing.",
+      },
+      {
         label: "EP rejection, appeal & IPA reassessment",
         href: "/guides/ep-rejection-appeal-ipa-issuance",
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
@@ -189,7 +194,7 @@ export const pillars: Pillar[] = [
       {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
-        blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
+        blurb: "One-shot PEP, S$270k keep-rule, DP still gated, EP handoff.",
       },
       {
         label: "Relocation checklists",
@@ -335,7 +340,7 @@ export const pillars: Pillar[] = [
       {
         label: "RSU / ESOP tax",
         href: "/guides/rsu-esop-tax-singapore",
-        blurb: "Vest vs exercise, no-local-entity filing, deemed exercise.",
+        blurb: "Vest tax, ESPP bargain element, IR21 deemed exercise, US dual-file.",
       },
       {
         label: "Foreign income myths",
