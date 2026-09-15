@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 14)
+
+Branch: `cursor/loop-d-next-polish-tick14-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (beyond linking to existing Move salary-notify parent). Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — HR froze final months of pay / RSU deemed exercise at IR21 clearance.
+- r/askSingapore — lost EP card in Bangkok / airline desk + MOM re-entry letter.
+- r/askSingapore — salary cut and “does my spouse’s DP die?”
+
+**Official**
+
+- [IRAS — Tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) · [Share-plan clearance](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees-with-employee-share-plans)
+- [MOM — Replace an EP card](https://www.mom.gov.sg/passes-and-permits/employment-pass/replace-a-pass-card) · [SGWorkPass](https://www.mom.gov.sg/eservices/sgworkpass)
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) · [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool)
+
+### Gaps vs open stack
+
+Open #83→#89→#99→#114 own NS Exit / PRSEP / renounce-PR NS traps; EP-death DP / SC cooling-off / LPA fees; WICA / training-bond / SAL e-Apostille; CPF Singpass witnesses / REP ETD / COMPASS firm scores. Remaining high-intent **Next** gaps: **IR21 final-pay + RSU freeze**, **lost work-pass overseas re-entry letter**, **EP salary-cut → DP/LTVP cascade**.
+
+### Shipped
+
+**New:** `ir21-final-pay-rsu-withholding-leaving.mdx`, `lost-work-pass-overseas-reentry-letter.mdx`, `ep-salary-cut-dp-ltvp-cascade-singapore.mdx`
+
+**Upgraded:** `tax-clearance-when-leaving.mdx`, `lost-replace-work-pass-card.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #83 / #89 / #99 / #114 guide bodies.
+- Did not edit Move salary-notify parent body (companion links out to it).
+
+### Questions mined
+
+1. Why did HR freeze my last three months of pay when I resigned?
+2. When does IR21 withholding start — resignation notice or final month?
+3. Do unvested RSUs get deemed-exercised at tax clearance?
+4. What should I ask HR in writing about share-plan tracking?
+5. I lost my EP card overseas — can I still board home?
+6. Does SGWorkPass replace the need for a MOM re-entry letter?
+7. How fast must HR file card replacement after overseas loss?
+8. Can a mid-pass salary cut revoke my spouse’s DP?
+9. How far in advance must MOM be notified of an EP salary cut?
+10. Does SAT still need to clear after the cut?
+11. Is a related-company transfer the same as a salary notify?
+12. Does a raise need the same MOM notify as a cut?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 13)
 
 Branch: `cursor/loop-d-next-polish-tick13-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99). #79 already merged.
