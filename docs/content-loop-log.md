@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 30)
+
+Branch: `cursor/e-journeys-tools-tick30-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #296** (`cursor/e-journeys-tools-tick29-fa4f`) — did not wait for #296 or earlier E drafts to merge. Avoided open E stack exclusives through **#296** (E29): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- CPF / leaving threads — nomination PDFs trapped after Singpass SIM change; executors overseas cannot rebuild portal statements; folklore about “auto spouse” nominations.
+- School bus / packing-week threads — early cancel billed full week; notice shortfall vs ride-through cash; sibling seat fees after primary stops.
+
+**Official / orientation**
+
+- CPF Board nomination / statement portals (member-specific)
+- School bus operator / handbook notice and cancel fee tables (operator-specific)
+
+### Gaps vs open E stack through #296
+
+Open tips through **#296** cover mail/HDB through condo access-card / bank statement archive. Remaining high-intent gaps **off those path sets**: **CPF nomination / estate-planning exit**, **school bus last-week float sketch**. No calendar JSON. Distinct from cpf-withdrawal tool — this tick owns nomination / estate file sequencing, not withdrawal math. Distinct from school-bus-cca-exit — this tick owns last-week cash float modes, not the full bus/CCA exit playbook. Distinct from bank-statement-archive — estate CPF PDFs vs bank e-statements.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/cpf-nomination-exit.json` + `/journeys/cpf-nomination-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/school-bus-last-week-float.ts`
+- `src/components/tools/SchoolBusLastWeekFloatCalculator.tsx`
+- `/tools/school-bus-last-week-float` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #296.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does changing nominees delay withdrawal timing or only board mail?
+2. Can executors recover nomination PDFs without the member Singpass?
+3. Do operators bill sibling seats after the primary seat cancels?
+4. Is notice shortfall charged per day or as a flat week?
+5. Will a verbal “stop Monday” hold without written operator confirmation?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 29)
 
 Branch: `cursor/e-journeys-tools-tick29-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #290** (`cursor/e-journeys-tools-tick28-fa4f`) — did not wait for #290 or earlier E drafts to merge. Avoided open E stack exclusives through **#290** (E28): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → this tip**. Soft hubs / content-loop-log: **prepend**.

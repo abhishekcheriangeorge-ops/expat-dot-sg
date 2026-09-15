@@ -186,3 +186,7 @@ export async function getSchoolLockerClearPlaybook(): Promise<LeavingPlaybook | 
 export async function getCondoAccessCardDepositPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("condo-access-card-deposit.json");
 }
+
+export async function getCpfNominationExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("cpf-nomination-exit.json");
+}
