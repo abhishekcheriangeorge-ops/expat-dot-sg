@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "bedok-reservoir-fringe",
+  "name": "Bedok Reservoir Fringe",
+  "summary": "Edges of Bedok Reservoir toward Tampines / Bedok \u2014 park-connector living with quieter residential texture and ActiveSG catchment.",
+  "body": "Bedok Reservoir Fringe is the shortlist when reservoir paths and quieter east-side texture matter more than CBD skyline premiums. The pocket sits on the Bedok Reservoir / Tampines / Bedok edges; housing mixes mid-age HDB, executive condos, and selective private stock. Expats land here for car-light hops to Tampines / Bedok and ActiveSG cricket-net catchment without Orchard rents. Watch-outs: sprinkler drain-down / fire-shutter test notices on mid-rises, weekend park-connector crowds, and confusing Bedok Reservoir vs Bedok Reservoir Fringe shortlists. Compare with Tampines West Edge for denser new-town texture, Simei North for quieter east-rail living, and Bedok North West when heartland value wins.",
+  "region": "east",
+  "vibe": [
+    "reservoir-edge",
+    "park-connector",
+    "quieter-residential",
+    "practical",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "car-light workers who want reservoir-path texture",
+    "households comparing Bedok Reservoir Fringe vs Tampines West Edge",
+    "renters who will book ActiveSG cricket nets weekly",
+    "people okay with mid-age HDB and EC stock"
+  ],
+  "watchOuts": [
+    "Sprinkler drain-down / fire-shutter test notices on mid-rises",
+    "Weekend park-connector crowds",
+    "Peak bus crowding toward Tampines hub",
+    "Bedok Reservoir vs Bedok Reservoir Fringe listing confusion"
+  ],
+  "housingMix": "Mid-age HDB, executive condos, and selective private stock with reservoir edges.",
+  "commuteNotes": "DTL / EWL gravity via Bedok / Tampines / Tampines West depending on block; walk a Saturday morning path before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3800,
+    "familyFrom": 3200,
+    "familyTo": 6500
+  },
+  "mrt": [
+    "Bedok Reservoir",
+    "Tampines West",
+    "Bedok"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

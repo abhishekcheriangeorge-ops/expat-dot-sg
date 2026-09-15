@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "tampines-west-edge",
+  "name": "Tampines West Edge",
+  "summary": "West edge of Tampines toward Bedok Reservoir \u2014 denser new-town living with DTL hops and community-sport catchment.",
+  "body": "Tampines West Edge is the shortlist when denser Tampines convenience and DTL access matter more than quiet reservoir weekends alone. The pocket sits on the Tampines West / Bedok Reservoir edges; housing mixes newer HDB, ECs, and selective condos. Expats land here for hub errands, school options, and ActiveSG cricket-net catchment without CBD premiums. Watch-outs: sprinkler / fire-shutter test calendars on towers, school-run traffic, and confusing Tampines vs Tampines West Edge shortlists. Compare with Bedok Reservoir Fringe for park-connector calm, Simei North for quieter east-rail texture, and Tampines proper when mall gravity wins.",
+  "region": "east",
+  "vibe": [
+    "new-town-edge",
+    "dtl",
+    "dense-east",
+    "practical",
+    "community-sport"
+  ],
+  "bestFor": [
+    "households who want Tampines hub access without full mall premiums",
+    "renters comparing Tampines West Edge vs Bedok Reservoir Fringe",
+    "people who will book ActiveSG cricket nets weekly",
+    "car-light workers toward DTL / EWL"
+  ],
+  "watchOuts": [
+    "Sprinkler drain-down / fire-shutter test notices",
+    "School-run traffic peaks",
+    "Peak DTL crowding toward town",
+    "Tampines vs Tampines West Edge listing confusion"
+  ],
+  "housingMix": "Newer HDB, executive condos, and selective private towers.",
+  "commuteNotes": "Downtown Line at Tampines West; time Tuesday 08:15 door-to-desk toward town.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 4000,
+    "familyFrom": 3400,
+    "familyTo": 7000
+  },
+  "mrt": [
+    "Tampines West",
+    "Bedok Reservoir",
+    "Tampines"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

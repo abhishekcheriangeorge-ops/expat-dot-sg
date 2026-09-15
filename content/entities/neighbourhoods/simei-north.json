@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "simei-north",
+  "name": "Simei North",
+  "summary": "North of Simei MRT toward Tampines / Changi \u2014 quieter east-rail living with practical hops and ActiveSG catchment.",
+  "body": "Simei North is the shortlist when quieter east-rail living and Changi-side optionality matter more than Tampines mall density. The pocket sits north of Simei toward Tampines / Changi edges; housing mixes mid-age HDB, older condos, and selective landed inserts. Expats land here for EWL hops, airport-side convenience, and ActiveSG cricket-net catchment without CBD premiums. Watch-outs: sprinkler drain-down / fire-shutter notices on mid-rises, evening Changi traffic, and confusing Simei vs Simei North shortlists. Compare with Tampines West Edge for denser new-town texture, Bedok Reservoir Fringe for park-connector living, and Tanah Merah when airport-edge calm wins.",
+  "region": "east",
+  "vibe": [
+    "east-rail",
+    "quieter-residential",
+    "changi-side",
+    "practical",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "car-light workers who want quieter Simei-side texture",
+    "households comparing Simei North vs Tampines West Edge",
+    "renters who will book ActiveSG cricket nets weekly",
+    "people okay with mid-age HDB and condo stock"
+  ],
+  "watchOuts": [
+    "Sprinkler drain-down / fire-shutter test notices on mid-rises",
+    "Evening Changi / PIE traffic",
+    "Peak EWL crowding toward town",
+    "Simei vs Simei North listing confusion"
+  ],
+  "housingMix": "Mid-age HDB, older condos, and selective landed inserts.",
+  "commuteNotes": "East-West Line at Simei; walk a weekday evening toward Changi before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3600,
+    "familyFrom": 3000,
+    "familyTo": 6200
+  },
+  "mrt": [
+    "Simei",
+    "Tampines",
+    "Tanah Merah"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

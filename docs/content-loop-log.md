@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 52 — 2026-09-15
+
+Branch: `cursor/home-life-tick52-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` after tip **#329** (Tick 51) merged; no other open Loop C drafts in the way. Topics: condo sprinkler drain-down / fire-shutter test notices, ActiveSG cricket nets, Bedok Reservoir Fringe / Tampines West Edge / Simei North. Tip after Tick 51 confirmed as **#329**; opened next tip off that tip (now on `main`) without ads / Grok / force-push to main.
+
+**Merge order note (controller):** `#329 (merged) → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — sprinkler drain-down / fire-shutter test notices confused with hydrant clearance, alarm drills, or LPS jobs; wet-floor corridor fights.
+- r/askSingapore — ActiveSG cricket nets Standard Rate for foreigners, weekend release races, kit rules vs lawn bowls / circuit bookings.
+- r/askSingapore — east shortlists for Bedok Reservoir Fringe vs Tampines West Edge vs Simei North noise / estate-texture trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [SCDF — fire safety](https://www.scdf.gov.sg/home/fire-safety).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs tip #329 (merged)
+
+Tip #329 owned cat-ladder / roof permits, lawn bowls, and Upper East Coast Fringe / Lagoon View West / Mandarin Gardens East. Remaining gaps without collision: **condo sprinkler drain-down / fire-shutter test notices** (≠ hydrant clearance; ≠ fire-alarm drills; ≠ LPS/earth-pit; ≠ generator/ATS; ≠ facade/gondola; ≠ cat-ladder/roof), **ActiveSG cricket nets** (≠ lawn bowls; ≠ cycling circuit; ≠ athletics track; ≠ bowling; ≠ skating; ≠ fencing; ≠ camps; ≠ courts), plus neighbourhood depth for **Bedok Reservoir Fringe**, **Tampines West Edge**, and **Simei North**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-sprinkler-drain-down-fire-shutter-test-notices-tenants.mdx`
+- `content/guides/life/activesg-cricket-nets-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None required for exclusive-path safety on this tip.
+- `src/lib/site.ts` (sprinkler/fire-shutter + ActiveSG cricket nets topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/bedok-reservoir-fringe.json`
+- `content/entities/neighbourhoods/tampines-west-edge.json`
+- `content/entities/neighbourhoods/simei-north.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is a sprinkler drain-down the same as a fire-alarm drill?
+2. Is it the same as hydrant / hose-reel clearance?
+3. Will water enter my unit?
+4. Is shutter noise a generator / ATS test?
+5. Can foreigners book ActiveSG cricket nets at Standard Rate?
+6. Is cricket-net booking the same as lawn bowls or cycling circuit?
+7. Do I need my own bat and balls?
+8. Bedok Reservoir Fringe vs Tampines West Edge — path calm or hub density?
+9. Is Simei North quieter at night?
+10. When is a condo void deck still not a cricket net?
+
+---
+
+---
+
 ## Loop G — SEO hubs / crosslinks (tick 29) — 2026-09-15
 
 Branch: `cursor/loop-g-seo-tick29-a144` → draft PR to `main` (stacked on tip #299 / tick 28). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #299 except log prepend.
