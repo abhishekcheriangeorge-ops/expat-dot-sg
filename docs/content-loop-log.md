@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 13)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick13-49cb` → PR to `main` (fresh worktree off `origin/main` @ `6506c2a` post-H10/#69; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#97](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/97) A8–A12 stay open — **did not** edit those paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — SA2 / “corporate Airbnb” myths; two-month deposits for two-week stays; condo by-law bans.
+- r/askSingapore — trailing spouse DP study vs Student’s Pass; working after principal EP cancel; ONE Pass as spouse-LOC hack.
+- r/askSingapore — pet cargo on a later flight / AQC capacity; wrong PayNow “I’ll send it back” scams; FIN proxy still mistyped.
+- r/askSingapore — EP holders “maxing CPF”; unvested RSUs as EP salary; WHP employer hops; S Pass floor ≠ DP family gate.
+
+**Official**
+
+- [URA — Serviced apartments](https://www.ura.gov.sg/) + HDB/condo short-stay norms
+- [MOM — Dependant’s Pass / LOC](https://www.mom.gov.sg/passes-and-permits)
+- [AVS — Bringing pets into Singapore](https://www.nparks.gov.sg/avs)
+- [ABS / bank PayNow help](https://absolute.sg/) + police advisory patterns for mistaken transfers
+- [CPF / SRS eligibility for foreigners](https://www.cpf.gov.sg/) + [MOM S Pass / WHP / TEP](https://www.mom.gov.sg/passes-and-permits)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A8–A12 plus ticks 1–7 on main already cover job-change/Student’s Pass/LTVP/notify/remittance/LOG/CPF-exit, EP hub/tax/relocation/COMPASS/COR/appeal/ACRA, salary-occupation/DP/shipping/Tech.Pass/EntrePass/side-income/foreign-dividends, week-one/STVP/ONE Pass/COL/cards/salary-interest/SRS/RSU/CBNI, and SGAC/medical/HSA/licence/PEP/issuance/bank/PayNow/CPF/sign-on. Remaining high-intent depth **outside** those files: **SA2 legality & bridge deposits**, **trailing-partner study/LOC cascade**, **unaccompanied pet cargo**, **PayNow reverse-scam recovery**, **year-one CPF myth**, **unvested RSU ≠ EP floor**, **WHP employer switch**, **S Pass floor ≠ DP**.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/first-housing-serviced-apartment.mdx` (+2)
+- `content/guides/move/trailing-partner-career-singapore.mdx` (+2)
+- `content/guides/move/importing-pets-singapore.mdx` (+1)
+- `content/guides/money/wrong-paynow-epayment-recovery.mdx` (+2)
+- `content/guides/money/financial-planning-year-one.mdx` (+1)
+- `content/guides/move/decoding-job-offer-singapore.mdx` (+1)
+- `content/guides/move/work-holiday-training-employment-pass.mdx` (+1)
+- `content/guides/move/s-pass-singapore.mdx` (+1)
+- `src/lib/site.ts` (trailing-partner + year-one topics; pets / first-housing / wrong-PayNow blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A8–A12 guide paths or `intact-immigration`.
+- Did not re-own Loop H Student Pass/LTVP/REP AEO bodies beyond leaving those files alone.
+
+### Questions mined (sample)
+
+1. Does SA2 make condo Airbnb legal under three months?
+2. Should I pay two months’ deposit for a two-week bridge stay?
+3. Can a DP spouse enrol full-time without a Student’s Pass?
+4. When principal EP cancels, how fast must LOC work stop?
+5. Can my pet fly later while I clear AQC booking?
+6. Is “I’ll PayNow you back” a safe recovery?
+7. Does FIN PayNow stop wrong transfers?
+8. Can EP holders max CPF in year one?
+9. Do unvested RSUs count toward the EP floor?
+10. Can I switch employers on WHP?
+11. Does the S Pass salary floor unlock Dependant’s Pass?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 12)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick12-49cb` → PR to `main` (fresh worktree off `origin/main` @ `b1eea53` post-D9/#79; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8, [#81](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/81) A9, [#85](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/85) A10, and [#92](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/92) A11 stay open — **did not** edit those paths).
