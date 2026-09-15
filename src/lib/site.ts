@@ -177,9 +177,14 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
       },
       {
+        label: "Dependant’s Pass & LOC",
+        href: "/guides/dependant-pass-singapore",
+        blurb: "LOC ≠ open work; cancel cascades; common-law ≠ DP.",
+      },
+      {
         label: "EP rejection, appeal & IPA reassessment",
         href: "/guides/ep-rejection-appeal-ipa-issuance",
-        blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
+        blurb: "Employer-only appeals; 3-month clock; do not fly on reassessment.",
       },
       {
         label: "Travel before the pass card",
@@ -388,7 +393,7 @@ export const pillars: Pillar[] = [
       {
         label: "SRS & investing",
         href: "/guides/srs-investing-as-foreigner",
-        blurb: "Exit withholding, 5% early penalty, foreigner lump-sum rules.",
+        blurb: "No-CPF EP can open SRS; exit withholding; 5% early penalty.",
       },
       {
         label: "RSU / ESOP tax",

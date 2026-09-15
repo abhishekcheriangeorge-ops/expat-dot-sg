@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 21)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick21-49cb` → PR to `main` (fresh worktree off `origin/main` @ `31ef164`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163) A17–A20 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — DP LOC as open work; common-law DP folklore; family cascade on EP cancel.
+- r/askSingapore — candidate-led EP appeals; flying during IPA reassessment; dual pending applications.
+- r/singaporefi — SRS as CPF substitute; IRA portability myths; PR rewriting old SRS years.
+
+**Official**
+
+- [MOM — Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependant-pass) + LOC business-owner path
+- [MOM — EP appeal / enquire](https://www.mom.gov.sg/passes-and-permits/employment-pass)
+- [IRAS — Supplementary Retirement Scheme (SRS)](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/supplementary-retirement-scheme-relief)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A20 claim Student’s Pass/LTVP/CPF-withdrawal, EP-notify/ONE Pass/COR, COMPASS/Tech.Pass/foreign-income, and EntrePass/side-income/IRAS-residency. Tick 21 deepens **Dependant’s Pass**, **EP rejection/appeal/IPA reassessment**, and **SRS for foreigners** without colliding those paths.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/dependant-pass-singapore.mdx` (+3)
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx` (+3)
+- `content/guides/money/srs-investing-as-foreigner.mdx` (+3)
+- `src/lib/site.ts` (DP hub topic; appeal/SRS blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A20 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163 for the merge controller.
+
+### Questions mined (sample)
+
+1. Can common-law partners get a DP?
+2. Does DP include MediShield subsidies?
+3. Do DPs transfer when the principal job-hops?
+4. How long is the EP appeal window?
+5. Should we fly during IPA reassessment?
+6. Can a second employer file while an appeal is pending?
+7. Does SRS create CPF medical eligibility?
+8. Can SRS transfer to a foreign IRA?
+9. Does later PR rewrite old SRS treatment?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 10)
 
 Branch: `cursor/loop-d-next-polish-tick10-d996` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open restore [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9 / former #67) file set and tick 8 (#60, merged) primary MDX bodies beyond site-rail restore.
