@@ -70,8 +70,10 @@ export default function EditorialPolicyPage() {
             authorities, FWA → TAFEP escalation for EP / S Pass, IPA-before-
             resign calendar for EP / S Pass pivots, annual leave encashment
             vs notice offset, unpaid retrenchment benefit TADM vs TAFEP,
-            ONE Pass outstanding-achievements evidence, EP job-change IR21
-            withhold edges, PEP exit-to-EP/PR timing, EP side-hustle /
+            Tech.Pass→ONE salary composite, LTVP/PLOC→EP conversion edges,
+            EP notify-MOM address/passport edges, ONE Pass outstanding-
+            achievements evidence, EP job-change IR21 withhold edges, PEP
+            exit-to-EP/PR timing, EP side-hustle /
             content-creator traps, FCF MyCareersFuture 14-day clock, CPF
             account closure after renouncing PR / SC, citizenship
             application and ORAL, adult SC renunciation, NRIC loss /
