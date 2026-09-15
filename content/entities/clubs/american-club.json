@@ -2,16 +2,17 @@
   "type": "club",
   "slug": "american-club",
   "name": "The American Club",
-  "summary": "Full-facility membership club in Claymore with dining, sport, and a large US-linked community — the default Orchard-fringe comparison point.",
-  "body": "The American Club is a default comparison point for family memberships: pool, fitness, F&B, kids’ programming, and a dense events calendar in a Claymore / Orchard-fringe location. It suits households already living River Valley / Orchard / some Tanglin patterns who will use the club midweek, not only on showcase Saturdays. Waitlists and entrance fees are real — treat joining as a housing-adjacent decision, not an impulse add-on after a welcome tour. Ask HR about corporate seats before paying personally. Tour at your actual use times; compare against Tanglin Club (heritage/scarcity) and Hollandse Club (often stronger facilities-to-fee for Bukit Timah lives).",
+  "summary": "Full-facility membership club in Claymore with dining, sport, kids’ programming, and holiday camps — the default Orchard-fringe family comparison point.",
+  "body": "The American Club is a default comparison point for family memberships: pool, fitness, F&B, kids’ programming, holiday camps, and a dense events calendar in a Claymore / Orchard-fringe location. Relocating households often use it as a third place while a trailing partner’s job search runs — but entrance fees still need cost-per-use maths against ANZA/AWA and ActiveSG. It suits households already living River Valley / Orchard / some Tanglin patterns who will use the club midweek, not only on showcase Saturdays. Waitlists and entrance fees are real — treat joining as a housing-adjacent decision, not an impulse add-on after a welcome tour. Ask HR about corporate seats before paying personally. Tour at your actual use times; compare against Tanglin Club (heritage/scarcity) and Hollandse Club (often stronger facilities-to-fee for Bukit Timah lives).",
   "category": "membership",
   "focus": [
     "families",
     "US community",
     "sport",
-    "dining"
+    "dining",
+    "holiday camps"
   ],
-  "membershipNotes": "Entrance fees + monthly dues + possible F&B minimums; ask about current waitlist by membership category and corporate transfer rules.",
+  "membershipNotes": "Entrance fees + monthly dues + possible F&B minimums; ask about current waitlist by membership category, corporate transfer rules, and school-break camp calendars.",
   "website": "https://www.amclub.org.sg",
   "neighbourhood": "tanglin-dempsey",
   "featured": true,
