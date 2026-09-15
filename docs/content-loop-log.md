@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 47)
+
+Branch: `loop/story-aeo-tick47` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 46 (`loop/story-aeo-tick46` @ `9430fe6` / [#275](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/275)). Avoided open merge-controller H file sets (#117–#275 H20–H46). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “HR will appeal, so I resigned” with no advisory text.
+- r/askSingapore — “we’re FCF exempt” stopping all fair-hiring questions.
+- r/askSingapore — missed EPSC slot; IPA-only JB hop while letter expires.
+
+**Official**
+
+- [MOM — Appeal against a rejected EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/appeal-against-a-rejected-application) · EP eligibility / COMPASS · FCF.
+- [MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) · S$22,500 advertising exemption · job-must-match-ad FAQs.
+- [MOM — Get a pass issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/get-a-pass-issued) · After the pass is issued · EP key facts.
+
+### Gaps vs open H + ticks 1–46
+
+Open: #117–#275 H20–H46. Remaining free Next FAQ-free companions included **EP rejection appeal candidate playbook**, **FCF advertising exemption edges**, **EPSC missed slot / Notification Letter extension**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ep-rejection-appeal-candidate-playbook-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/fcf-advertising-exemption-edges-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/epsc-missed-slot-notification-letter-extension-singapore.mdx` (direct lead + FAQPage)
+- Next hub topics for these three already present on tip (Loop D) — no duplicate `site.ts` rows this tick
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#275 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Can I file an EP appeal myself as the candidate?
+2. How long is the employer EP appeal window?
+3. Does a strong SAT score guarantee appeal success?
+4. Should I resign while an EP appeal is pending?
+5. When is a cleaner refile better than an appeal?
+6. If a role is advertising-exempt, does fair hiring still apply?
+7. Does a S$22,500 package automatically skip MyCareersFuture ads?
+8. Does an under-10 headcount exemption remove all FCF duties?
+9. Is “we already picked you” a shortcut past a mandatory ad window?
+10. Must the EP job match a MyCareersFuture ad when one ran?
+11. What if I miss my EPSC biometrics appointment?
+12. How long is the Notification Letter usually valid?
+13. How soon after issuance must EPSC finish when required?
+14. Can I travel on IPA alone before the letter/card?
+15. Who requests a Notification Letter extension?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 46)
 
 Branch: `loop/story-aeo-tick46` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#265 H20–H45). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265** before this lands. No ads / monetization; no Grok copy; no force-push main.
