@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 13)
+
+Branch: `cursor/e-journeys-tools-tick13-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` after **#72 MERGED** (family-joining + IPA window on main). Avoided open E stack **#90 → #101 → #110 → #116 → #122 → #131 → #139** exclusive paths. Merge controller order: **#90 → #101 → #110 → #116 → #122 → #131 → #139 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — newborn PR / Special Pass clocks; Dependant Pass after Singapore birth vs inbound family joining.
+- r/askSingapore — keeping a prepaid +65 for Singpass OTP after leaving; dead SIM breaking bank SMS mid-IR21 / newborn DP filing.
+
+**Official**
+
+- [ICA](https://www.ica.gov.sg/) Special Pass / birth-related stay framing
+- [MOM — Dependant Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass)
+- [Singpass](https://www.singpass.gov.sg/) OTP / contact hygiene
+
+### Gaps vs Loop E ticks 1–12 (open stack + merged #72)
+
+**#72 on main** covers family-joining + IPA window. Open **#90/#101/#110/#116/#122/#131/#139** cover DP/LOC, graduate bridge, hospital cash, FDW levy, bank-exit, storage, utility exit, IR21 withhold, pets, CPF timing, Singpass exit playbook, school deposit clawback. Remaining high-intent gaps **off those path sets**: **newborn Special Pass playbook** (onshore birth — distinct from family-joining inbound), **SIM/OTP keep-vs-port cash sketch**. No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/newborn-special-pass.json` + `/journeys/newborn-special-pass`
+- Journeys index + sitemap (hub soft-conflict expected after open stack)
+
+**Tools**
+
+- `src/lib/tools/sim-otp-keep.ts`
+- `src/components/tools/SimOtpKeepCalculator.tsx`
+- `/tools/sim-otp-keep` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #90 / #101 / #110 / #116 / #122 / #131 / #139 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. How long is the ICA Special Pass after a Singapore birth?
+2. Is newborn Special Pass the same as family joining later?
+3. When should HR start the Dependant Pass file?
+4. Can we fly out before DP issuance?
+5. Does IPA window maths still apply once the baby is onshore?
+6. Should we keep prepaid or postpaid for Singpass OTP?
+7. How many months of +65 SMS do leavers usually need?
+8. What breaks if we drop the Singapore number too early?
+9. Is number port cheaper than three months of prepaid?
+10. How do newborn DP OTPs collide with a parent’s exit SIM plan?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 12)
 
 Branch: `cursor/e-journeys-tools-tick12-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116 → #122 → #131** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → #122 → #131 → this tick**.

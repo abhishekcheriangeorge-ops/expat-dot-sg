@@ -10,5 +10,6 @@ export { LeaseNoticeCalculator } from "./LeaseNoticeCalculator";
 export { SchoolDepositClawbackCalculator } from "./SchoolDepositClawbackCalculator";
 export { SchoolWithdrawalCalculator } from "./SchoolWithdrawalCalculator";
 export { SetupCashCalculator } from "./SetupCashCalculator";
+export { SimOtpKeepCalculator } from "./SimOtpKeepCalculator";
 export { StorageMonthsCalculator } from "./StorageMonthsCalculator";
 export { TaxResidencyCalculator } from "./TaxResidencyCalculator";

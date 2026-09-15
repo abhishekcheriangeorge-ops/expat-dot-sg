@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "newborn-special-pass",
+  "title": "Newborn Special Pass",
+  "summary": "Baby born in Singapore while you hold an EP — ICA Special Pass clock, birth certificate / passport sequence, Dependant Pass or LTVP filing, and what not to confuse with family-joining flights from abroad.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "hospital-week",
+      "title": "Hospital week: papers before the pass clock",
+      "body": "A Singapore birth triggers registry and passport work before MOM will treat the child as a dependant on your EP. Get the birth certificate path clear with the hospital / ICA registry instructions, then decide which travel document the child will use (home-country passport vs other). Do not wait for a “perfect” passport photo appointment before you understand the Special Pass window.",
+      "bullets": [
+        "Collect discharge paperwork and registry instructions before you leave the ward",
+        "Confirm which parent’s nationality will issue the first passport",
+        "Keep both parents’ FIN / EP details ready for every form"
+      ],
+      "href": "https://www.ica.gov.sg/"
+    },
+    {
+      "id": "special-pass-clock",
+      "title": "ICA Special Pass is a filing buffer, not a lifestyle pass",
+      "body": "Babies born here commonly receive a short ICA Special Pass so they remain lawful while you gather documents and file for a longer stay (often Dependant Pass via the employer). The Special Pass is time-boxed — treat the expiry as a hard project deadline, not a soft reminder. Overstaying while “waiting on the embassy” is still an overstay.",
+      "bullets": [
+        "Diary the Special Pass expiry the day it is issued",
+        "Start employer DP paperwork in parallel with passport processing",
+        "If documents slip, ask ICA / MOM paths early — do not improvise at the counter on expiry day"
+      ],
+      "href": "https://www.ica.gov.sg/"
+    },
+    {
+      "id": "dp-vs-ltvp",
+      "title": "Dependant Pass vs longer visit options",
+      "body": "Most EP households file a Dependant Pass for the newborn through the sponsoring employer once documents exist. Some families explore longer visit arrangements when DP eligibility is unclear — that is a different legal track from the Special Pass. Align with HR early: DP issuance still needs IPA discipline and medicals when MOM requires them.",
+      "bullets": [
+        "Ask HR which dependant product they will sponsor and typical turnaround",
+        "Sketch IPA enter-and-issue dates on /tools/ipa-window once an IPA exists",
+        "Do not book non-refundable newborn travel on folklore timelines"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/dependants-pass"
+    },
+    {
+      "id": "not-family-joining",
+      "title": "This is not the same as family joining later",
+      "body": "Family-joining playbooks cover spouse/kids flying in on approved IPAs. A newborn Special Pass case starts inside Singapore with a local birth and a short ICA buffer. Reuse Arrival Card and Singpass lessons only where they apply — the baby’s first lawful stay is already onshore.",
+      "bullets": [
+        "Use /journeys/family-joining for inbound dependants still abroad",
+        "Use this playbook when the child was born here and needs a next pass",
+        "Do not assume SG Arrival Card folklore replaces Special Pass / DP steps"
+      ],
+      "href": "/journeys/family-joining"
+    },
+    {
+      "id": "insurance-and-cash",
+      "title": "Insurance, mobile OTP, and cash float",
+      "body": "Hospital bills, paediatric follow-ups, and passport fees hit while your own Singpass OTP still depends on a working +65 number. Keep one Singapore mobile alive for MOM / bank / Singpass SMS through DP issuance. Sketch leave-related SIM keep-vs-port costs early if a parent’s exit is also in play.",
+      "bullets": [
+        "Confirm newborn coverage start dates on any Integrated Shield / rider",
+        "Keep OTP SMS reachable until DP card / FIN workflows finish",
+        "Sketch SIM keep vs port cash on /tools/sim-otp-keep"
+      ],
+      "href": "/tools/sim-otp-keep"
+    },
+    {
+      "id": "exit-edge",
+      "title": "If you must leave before DP issuance",
+      "body": "Leaving Singapore with a newborn still on Special Pass — or mid-DP issuance — needs explicit confirmation of re-entry rules. Do not assume a cancelled parent EP plus a baby Special Pass will both survive a family emergency flight. Sequence parent cancel / IR21 / baby paperwork with counsel or HR before anyone boards.",
+      "bullets": [
+        "Ask ICA / MOM whether the child’s current pass allows exit and return",
+        "Never treat parent Singpass login grace as the baby’s immigration status",
+        "Carry originals and certified copies in hand luggage"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/dependants-pass"
+    }
+  ]
+}
