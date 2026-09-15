@@ -382,3 +382,9 @@ export const LeadInquirySchema = z.object({
   source: z.string().max(80).default("advertise"),
 });
 export type LeadInquiry = z.infer<typeof LeadInquirySchema>;
+
+export {
+  guideFaqPageJsonLd,
+  speakableJsonLd,
+  qaPageJsonLd,
+} from "@/lib/seo-faq";
