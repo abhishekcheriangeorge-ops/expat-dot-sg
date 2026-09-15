@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, storage months, cost of living, and Employment Pass salary threshold illustration.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, IR21 withhold timing, cost of living, and Employment Pass salary threshold illustration.",
   path: "/tools",
 });
 
@@ -48,10 +48,10 @@ const tools = [
       "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
   },
   {
-    href: "/tools/storage-months",
-    title: "Storage months sketch",
+    href: "/tools/ir21-withhold",
+    title: "IR21 withhold sketch",
     summary:
-      "Self-storage band × months plus optional insurance and access fees — float SGD before bank closure.",
+      "Count a tax-clearance window forward from cessation day and sketch one month of net pay at risk.",
   },
 ] as const;
 
@@ -69,7 +69,7 @@ export default function ToolsIndexPage() {
           collectionPageJsonLd({
             name: "Tools",
             description:
-              "First-month cash, lease duty, diplomatic-clause notice, storage months, COL, and Employment Pass threshold utilities for Singapore expats.",
+              "First-month cash, lease duty, diplomatic-clause notice, IR21 withhold, COL, and Employment Pass threshold utilities for Singapore expats.",
             path: "/tools",
             items: tools.map((tool) => ({
               name: tool.title,

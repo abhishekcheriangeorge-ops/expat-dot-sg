@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "utility-exit-handover",
+  "title": "Utilities & telecom exit handover",
+  "summary": "Leaving a flat or leaving Singapore — tear down SP Group / water, fibre, mobile, and condo facilities GIRO so final bills and deposits settle before the bank rail dies.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-accounts",
+      "title": "Inventory every utility UEN on the unit",
+      "body": "SP electricity/gas, PUB water (often via SP), fibre ISP, mobile lines, condo MCST / facilities app, and occasional LPG or broadband TV add-ons each have their own closure clock. Screenshot account numbers and the NRIC/FIN on file before you give notice to the landlord.",
+      "bullets": [
+        "List SP, ISP, mobile, MCST, and any GIRO-linked lifestyle apps tied to the address",
+        "Confirm whether the landlord or agent will take over any account mid-cycle",
+        "Export 12 months of bills while e-services still accept your Singpass / FIN login"
+      ],
+      "href": "https://www.spgroup.com.sg/"
+    },
+    {
+      "id": "notice-windows",
+      "title": "Match notice windows to key-handover day",
+      "body": "Fibre and mobile contracts often need 30–90 days’ notice or early-termination fees. SP / water moves usually want several working days before the meter read. Align cancellation requests with the TA end date and diplomatic-clause exit so you are not paying for an empty week — and not blacked out on move-out day.",
+      "bullets": [
+        "Ask ISP for ETF vs remaining contract months in writing",
+        "Book SP final meter appointment before the agent’s checkout photos",
+        "Keep mobile data alive through Changi day if eIA / banking 2FA still depends on it"
+      ],
+      "href": "https://www.imda.gov.sg/"
+    },
+    {
+      "id": "deposits-final",
+      "title": "Deposits, final bills, and forwarding address",
+      "body": "Utility deposits and unused prepaid balances refund slowly if the bank account closes first. Give a forwarding email (and overseas address if asked) on every closure ticket. Keep PDF final invoices for the landlord deposit negotiation and for IRAS if any employer reimbursement is mid-flight.",
+      "bullets": [
+        "Do not close the SGD rail that receives SP / ISP refunds until those credit notes clear — see /journeys/bank-exit-closure when that playbook is on main",
+        "Photograph meter readings at handover as backup to the official read",
+        "Ask MCST how long the condo deposit refund takes after move-out"
+      ],
+      "href": "https://www.pub.gov.sg/"
+    },
+    {
+      "id": "giro-teardown",
+      "title": "Kill GIRO and app autopay deliberately",
+      "body": "Cancelling the service does not always cancel the bank GIRO mandate. Remove SP eService autopay, ISP card-on-file, and condo app wallets explicitly. A ghost GIRO after you leave can bounce, ding credit, or block bank closure.",
+      "bullets": [
+        "Cancel at the biller and confirm the bank mandate status",
+        "Remove stored cards from ISP / telco apps before deleting the apps",
+        "Watch one billing cycle after cancellation for surprise retries"
+      ],
+      "href": "https://www.abs.org.sg/"
+    },
+    {
+      "id": "employer-housing",
+      "title": "Company housing and shared accounts",
+      "body": "If the unit is company-leased, HR or the housing agent may own the SP and fibre accounts. Confirm who files the closure and who pays ETF before you assume personal liability. Shared housemate accounts need a written novation — not a WhatsApp “I’ll take over.”",
+      "bullets": [
+        "Get HR / agent confirmation of which UENs they will close",
+        "Do not leave your FIN as the registered consumer on a unit you no longer control",
+        "Document any ETF the company will reimburse"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float for finals and early-termination fees",
+      "body": "Budget one more utility cycle plus any fibre ETF before remitting the last SGD. IR21 salary withhold can collide with these invoices — sketch withhold timing so rent and utilities do not compete for the same frozen payday.",
+      "bullets": [
+        "Use /tools/ir21-withhold to sketch employer clearance timing vs final bills",
+        "Keep first-month cash logic separate from exit float: /tools/setup-cash",
+        "Leaving playbook still owns deposit recovery and shipping sequencing"
+      ],
+      "href": "/tools/ir21-withhold"
+    }
+  ]
+}

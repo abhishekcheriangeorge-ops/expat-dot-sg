@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 10)
+
+Branch: `cursor/e-journeys-tools-tick10-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — fibre ETF surprises at move-out; SP final meter no-shows; GIRO still pulling after “cancelled” broadband.
+- r/askSingapore / r/singaporefi — IR21 salary hold folklore (2 weeks vs 2 months); final rent competing with withheld pay.
+
+**Official**
+
+- [SP Group](https://www.spgroup.com.sg/) / [PUB](https://www.pub.gov.sg/) account closure norms
+- [IMDA](https://www.imda.gov.sg/) consumer telecom framing
+- [IRAS — tax clearance for foreigners leaving Singapore](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreigners-leaving-singapore)
+
+### Gaps vs Loop E ticks 1–9 (open stack)
+
+Open **#72/#90/#101/#110/#116** cover family-joining, DP/LOC, graduate bridge, hospital cash, FDW levy, bank-exit, storage. Remaining high-intent journeys/tools gaps **off those path sets**: **utility/telecom exit handover**, **IR21 withhold timeline sketch**. No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/utility-exit-handover.json` + `/journeys/utility-exit-handover`
+- Journeys index + sitemap (hub soft-conflict expected after open stack)
+
+**Tools**
+
+- `src/lib/tools/ir21-withhold.ts`
+- `src/components/tools/Ir21WithholdCalculator.tsx`
+- `/tools/ir21-withhold` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #72 / #90 / #101 / #110 / #116 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. How many days’ notice does fibre need before key handover?
+2. Who books the SP final meter read — tenant or agent?
+3. Does cancelling broadband automatically kill the bank GIRO?
+4. How long do utility deposits take to refund after move-out?
+5. Should I keep mobile data active through departure day?
+6. How long will my employer withhold salary for IR21?
+7. Can I fly before the IRAS Directive is issued?
+8. How much net pay should I treat as cash-at-risk during clearance?
+9. What if HR files IR21 late relative to my last day?
+10. How do I float rent and utilities while final pay is frozen?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 9)
 
 Branch: `cursor/e-journeys-tools-tick9-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → this tick**.
