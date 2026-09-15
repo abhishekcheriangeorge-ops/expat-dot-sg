@@ -67,6 +67,36 @@ Tick 1 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage. Tick 2
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15
+
+Branch: `loop/seo-crosslinks` → PR to `main`. Owns sitemap/robots/metadata helpers, pillar hub index pages, related-guides wiring, breadcrumbs, JSON-LD, and app-shell internal linking. Did **not** rewrite A–D guide bodies; no ads / Grok copy. Rebased onto Loop H (kept FAQPage schema / ModeHub how-to).
+
+### Gaps closed
+
+- Pillar hub topics mostly pointed at generic `/guides` — rewired to cornerstone guide URLs (and directories where appropriate) in `src/lib/site.ts`.
+- Pillar / mode / guides hubs lacked canonical + OG via `buildPageMetadata`.
+- No breadcrumbs (UI or BreadcrumbList JSON-LD) on guides or pillar hubs.
+- Guides index did not deep-link to pillar hubs; pillar hubs did not list featured guides.
+- Related-guides fill ignored reciprocal frontmatter links.
+
+### Shipped this loop
+
+- `src/lib/seo.ts` — `breadcrumbJsonLd`, `collectionPageJsonLd` (kept Loop H `faqJsonLd`)
+- `src/components/seo/Breadcrumbs.tsx` (+ export)
+- `src/lib/site.ts` — topic hrefs → real guides; related “All guides”
+- `src/components/pillars/PillarPage.tsx` — breadcrumbs, CollectionPage JSON-LD, featured guides (+ Loop H how-to)
+- Guide article / meta bar / guide page — breadcrumbs + pillar deep links + BreadcrumbList JSON-LD (+ FAQPage)
+- Guides index — pillar hub strip, hub headings, CollectionPage JSON-LD
+- Pillar + Arriving/Living pages — `buildPageMetadata` with canonical paths
+- `getRelatedGuides` — prefer reciprocal same-pillar links before chronological fill
+
+### Explicitly not done / notes for other loops
+
+- No mass reciprocity edits across 200+ one-way `relatedGuides` pairs (shell fill handles ranking).
+- Did not expand ads / sponsor inventory.
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 2)
 
 Branch: `loop/story-aeo-tick2` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 1’s SIM/SGAC/FAQPage foundation. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (FWTES / EP job-change / HDB / SEO shell / services directory left alone).
