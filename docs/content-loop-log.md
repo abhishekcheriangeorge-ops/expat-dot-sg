@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 12)
+
+Branch: `cursor/loop-d-next-polish-tick12-d996` → PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) / [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — WICA light-duty pay / “did I file?” folklore after workplace injury on EP.
+- r/askSingapore — resign-after-IPA with a private training bond / “remaining salary” clawback screenshots.
+- r/askSingapore — Adelphi Apostille queue vs e-Apostille / ACRA digital extract confusion.
+
+**Official**
+
+- [MOM — For employees: how to claim](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/employees-how-to-claim) · [Types of compensation](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation) · [WICA versus common law](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/wica-versus-common-law) · [Do employees still need to file with MOM?](https://www.mom.gov.sg/faq/work-injury-compensation/do-employees-or-representatives-still-need-to-file-claim-for-wica-with-mom)
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) · [Resignation FAQ](https://www.mom.gov.sg/faq/termination/can-an-employer-reject-an-employees-resignation) · [Salary deductions](https://www.mom.gov.sg/employment-practices/salary/salary-deductions)
+- [SAL — Legalisation FAQ](https://legalisation.sal.sg/Faq) · [Legalisation info](https://legalisation.sal.sg/LegalisationInfo) · [Public documents authenticated online from 2025](https://sal.org.sg/articles/public-documents-can-be-authenticated-online-from-2025-2/)
+
+### Gaps vs prior ticks
+
+Ticks 9–11 (open) own spouse-LTVP / ROE / citizenship confirmation, PRSEP / NS Exit / renouncing-PR NS traps, and EP-death DP / SC cooling-off / LPA Form fees. Remaining high-intent **Next** employment / document gaps without companion depth: **WICA light-duty + claim clocks** (notify ≠ file; shortfall maths; 1-year fork), **resign-after-IPA on training bond** (notice vs clawback; deduction vs invoice), **SAL e-Apostille chooser** (notarised pilot vs ACRA direct ~S$10.70). About + editorial research language updated.
+
+### Shipped
+
+**New:** `wica-light-duty-claim-clocks-ep.mdx`, `training-bond-resign-after-ipa-ep.mdx`, `sal-e-apostille-notarised-docs-singapore.mdx`
+
+**Upgraded:** `wica-work-injury-compensation-ep.mdx`, `training-bonds-clawbacks-ep.mdx`, `document-apostille-notary-singapore.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits.
+- Did not edit #79 / #83 / #89 guide bodies.
+
+### Questions mined
+
+1. Do I still need to “file a WICA claim with MOM” after I tell HR?
+2. Does light duty pay full salary, or only a shortfall to AME / 2/3 AME?
+3. What are the 14-day vs 1-year medical-leave wage bands?
+4. How long do I have to choose WICA vs common law?
+5. Can I resign on a training bond once I have a new IPA?
+6. Can HR deduct the bond from my final salary without my agreement?
+7. Is “pay remaining contract salary” usually a penalty vs liquidated damages?
+8. What is the MOM-safe job-change sequence with a live bond?
+9. Is SAL e-Apostille for notarised documents a DIY portal for me?
+10. When is the ~S$10.70 ACRA direct e-Apostille enough?
+11. When does the overseas recipient still demand a paper Apostille?
+12. Can SAL apostille a foreign-issued marriage cert for ICA/MOM?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 11)
 
 Branch: `cursor/loop-d-next-polish-tick11-d996` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9) and [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) (tick 10) file sets.
