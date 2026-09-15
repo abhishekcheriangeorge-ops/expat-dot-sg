@@ -2,8 +2,8 @@
   "type": "club",
   "slug": "singapore-cricket-club",
   "name": "Singapore Cricket Club",
-  "summary": "Padang-side historic club with sport sections and a central business-district presence.",
-  "body": "SCC sits on the Padang with cricket, rugby, hockey and a CBD-adjacent social life. Different proposition from family suburban clubs — stronger for sport sections and central networking.",
+  "summary": "Padang-side historic club with cricket, rugby, hockey and other sport sections — a facilities-plus-league alternative when Reclub pickup is not enough.",
+  "body": "SCC sits on the Padang with cricket, rugby, hockey and a CBD-adjacent social life. Different proposition from family suburban clubs and from free Reclub pickleball: stronger for organised sport sections and central networking once you already want membership structure. Understand category rules and section fees before treating it as a first-week belonging experiment — most newcomers should try hobby sports communities first.",
   "category": "membership",
   "focus": [
     "sport",
@@ -11,7 +11,7 @@
     "heritage",
     "networking"
   ],
-  "membershipNotes": "Sport-section culture is strong; understand category rules.",
+  "membershipNotes": "Sport-section culture is strong; understand category rules and whether your sport has waiting or playing standards.",
   "website": "https://www.scc.org.sg",
   "neighbourhood": "marina-bay-cbd",
   "featured": false,
