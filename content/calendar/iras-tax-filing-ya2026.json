@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "iras-tax-filing-ya2026",
+  "title": "IRAS individual tax e-Filing — YA 2026",
+  "summary": "File YA 2026 (income earned in 2025) on myTax Portal from 1 Mar through 18 Apr 2026 via Singpass or Singpass Foreign user Account (SFA). Non-residents with Singapore-sourced income must file regardless of amount; first-year EP holders should open myTax once Singpass works.",
+  "date": "2026-03-01",
+  "endDate": "2026-04-18",
+  "recurring": true,
+  "venue": "myTax Portal",
+  "audience": ["everyone"],
+  "href": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/understanding-my-income-tax-filing/tax-season-2026---all-you-need-to-know",
+  "featured": true
+}

@@ -43,14 +43,27 @@
       "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass"
     },
     {
+      "id": "money-admin",
+      "title": "Banks, insurance, CPF, and subscriptions",
+      "body": "Close or dormant local accounts deliberately. EP holders often have no CPF; if you ever held PR/SC and are closing CPF after renunciation, CPF Board cites about twelve weeks average processing and strongly prefers applications before you leave Singapore (overseas certification adds friction). If you still owe a YA filing after the pass dies, apply for an IRAS Singpass Foreign user Account (SFA) so myTax Portal stays reachable.",
+      "bullets": [
+        "Update address on insurance and investment platforms",
+        "Cancel telco, gym, club, and streaming local billing",
+        "Export statements; if closing CPF, apply online before departure when eligible",
+        "If FIN/pass will cancel before April filing season, start SFA early rather than hoping Singpass keeps working"
+      ],
+      "href": "https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore"
+    },
+    {
       "id": "housing",
       "title": "Lease exit and deposit recovery",
-      "body": "Inventory check-out, utility final readings, and aircon servicing clauses decide how much of your deposit returns. Photograph everything on move-out day. Deposit refunds often land after you have left — keep a local account open briefly.",
+      "body": "Inventory check-out, utility final readings, and aircon servicing clauses decide how much of your deposit returns. Photograph everything on move-out day. Deposit refunds often land after you have left — keep a local account open briefly. If you signed a fresh TA mid-exit planning (rare), lease duty is still payable — sketch it before you assume zero cash out.",
       "bullets": [
         "Serve notice per tenancy agreement (diplomatic clause if applicable)",
         "Schedule landlord / agent check-out with daylight photos",
         "Close SP Group and broadband accounts; keep final bills"
-      ]
+      ],
+      "href": "/tools/lease-duty"
     },
     {
       "id": "shipping-pets",
@@ -61,17 +74,6 @@
         "Separate \"first week abroad\" suitcase from deep storage",
         "For pets: microchip, rabies titres, and crate training timelines"
       ]
-    },
-    {
-      "id": "money-admin",
-      "title": "Banks, insurance, CPF, and subscriptions",
-      "body": "Close or dormant local accounts deliberately. EP holders often have no CPF; if you ever held PR/SC and are closing CPF after renunciation, CPF Board cites about twelve weeks average processing and strongly prefers applications before you leave Singapore (overseas certification adds friction).",
-      "bullets": [
-        "Update address on insurance and investment platforms",
-        "Cancel telco, gym, club, and streaming local billing",
-        "Export statements; if closing CPF, apply online before departure when eligible"
-      ],
-      "href": "https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore"
     },
     {
       "id": "schools",

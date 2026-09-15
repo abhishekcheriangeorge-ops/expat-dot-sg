@@ -109,8 +109,6 @@ Tick 1 shipped tax / dental / notary / self-storage / pet-relocation + schema/UI
 
 ---
 
----
-
 ## Loop C — Home + Life (parallel) — Tick 22 — 2026-09-15
 
 Branch: `loop/home-life-t22` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.

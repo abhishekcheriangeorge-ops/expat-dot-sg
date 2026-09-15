@@ -36,6 +36,13 @@
       "href": "/guides/bringing-medication-singapore-hsa"
     },
     {
+      "id": "no-vapes",
+      "title": "Do not bring vaporisers — illegal for visitors and pass holders",
+      "detail": "E-vaporisers are prohibited. Devices are seized; foreigners face composition fines and pass-revocation risk on repeat or etomidate (K-pod) cases. Not covered by HSA personal-medication rules.",
+      "pillar": "life",
+      "href": "/guides/vaping-tobacco-laws-foreigners"
+    },
+    {
       "id": "housing-keys",
       "title": "Confirm temporary housing keys and Wi-Fi",
       "detail": "Serviced apartment, hotel, or host address — note gate access codes, visitor policy, and a postal address HR can use for pass-card delivery.",
@@ -46,6 +53,13 @@
       "id": "employer-hr",
       "title": "Message HR / relocation — issuance and biometrics",
       "detail": "Confirm pass issuance timing, any medical still pending, and the Employment Pass Services Centre (EPSC) biometrics appointment. After issuance you typically get a Notification Letter that lets you work while the card is printed — verify the live MOM window with HR.",
+      "pillar": "move",
+      "href": "/guides/work-pass-issuance-epsc-notification"
+    },
+    {
+      "id": "sgworkpass",
+      "title": "Install SGWorkPass after EPSC / issuance",
+      "detail": "Once Singpass is registered at EPSC (or after document verification), open SGWorkPass and confirm your digital work pass shows. Photograph the FIN — banks and telcos ask for it before the plastic card arrives.",
       "pillar": "move",
       "href": "/guides/work-pass-issuance-epsc-notification"
     },
