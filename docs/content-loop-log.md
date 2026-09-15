@@ -8,7 +8,7 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ## Loop A — Move + Money — 2026-09-15 (tick 6)
 
-Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick6` → PR to `main` (worktree off fresh `origin/main` after A5/#46; rebased onto C23/#48 + H6).
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick6-49cb` → PR to `main` (worktree off fresh `origin/main` after A5/#46; rebased onto C23/#48 + H6).
 
 ### Sources mined
 
