@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "tai-seng",
+  "name": "Tai Seng",
+  "summary": "CCL industrial-residential pocket between MacPherson and Bartley — warehouse-edge living with fast Circle Line hops and thinner weekend leisure defaults.",
+  "body": "Tai Seng suits renters who already work along the Paya Lebar / Ubi / Bartley corridor and want the Circle Line without Serangoon hub crowds. Housing mixes older residences, newer condo inserts, and proximity to business parks — weekday energy, quieter Sundays. Expats shortlist it for door-to-desk math and relative value versus Dakota or Guillemard condo belts. Walk night and weekend: F&B and grocery gravity often lean on nearby MacPherson, Paya Lebar, or Serangoon rather than a self-contained town centre. Compare with MacPherson for denser HDB amenities, Paya Lebar for mall/office lifestyle, and Bartley / Serangoon when you want NEX-scale errands on the same line family.",
+  "region": "east",
+  "vibe": [
+    "industrial-edge",
+    "ccl",
+    "value",
+    "quieter-weekends",
+    "corridor-living"
+  ],
+  "bestFor": [
+    "CCL corridor workers toward PLQ / Ubi",
+    "renters trading amenities for commute shortlists",
+    "car-light couples okay importing errands from nearby hubs",
+    "households who want quieter Sundays than mall towns"
+  ],
+  "watchOuts": [
+    "Warehouse and loading traffic on some approaches",
+    "Thinner hawker / mall density than town centres",
+    "Estate variance — walk the exact stack twice",
+    "Limited expat-default social scene on the doorstep"
+  ],
+  "housingMix": "Mixed residential inserts beside business-park / light-industrial stock.",
+  "commuteNotes": "Circle Line at Tai Seng; time the last-mile walk past industrial frontage in rain.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3400,
+    "familyFrom": 2800,
+    "familyTo": 4500
+  },
+  "mrt": [
+    "Tai Seng"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

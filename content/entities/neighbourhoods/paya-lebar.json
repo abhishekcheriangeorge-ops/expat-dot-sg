@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "paya-lebar",
+  "name": "Paya Lebar",
+  "summary": "East-central office-and-mall hub around Paya Lebar Quarter / EWL–CCL interchange — newer condo gravity with older estate edges toward Geylang and MacPherson.",
+  "body": "Paya Lebar is the expat shortlist when the job sits in PLQ / SingPost Centre gravity and you want East-West + Circle Line interchange power without moving to the CBD core. Newer condos and commercial towers define the marketing photos; older HDB and walk-up edges toward Geylang, Eunos, and MacPherson still set real rent bands a short walk away. Expect weekday office crowds, mall F&B density, and quieter patches one estate over. Watch-outs: interchange premium pricing, weekend mall traffic, and assuming every side-street is as polished as the Quarter. Compare with MacPherson for cheaper HDB-led living on the same broad catchment, Tai Seng for industrial-edge CCL value, and Eunos / Guillemard when you want slightly calmer residential texture beside the same EWL spine.",
+  "region": "east",
+  "vibe": [
+    "office-hub",
+    "mall",
+    "interchange",
+    "ewl-ccl",
+    "mixed-edge"
+  ],
+  "bestFor": [
+    "PLQ / east-central office workers",
+    "car-light households who want mall + MRT stacked",
+    "couples trading CBD rents for interchange access",
+    "renters who will vet condo vs older-edge blocks carefully"
+  ],
+  "watchOuts": [
+    "Interchange and PLQ rent premiums",
+    "Weekday crowd crush at the mall/MRT seam",
+    "Sharp quality drop a few streets off the Quarter",
+    "Geylang-edge variance if you stretch too far south"
+  ],
+  "housingMix": "Newer condos around the commercial hub; mature HDB / walk-ups on the MacPherson, Eunos, and Geylang edges.",
+  "commuteNotes": "East-West and Circle Line at Paya Lebar; test office peak and the walk from your block to PLQ in a downpour.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3800,
+    "familyFrom": 3200,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Paya Lebar"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
