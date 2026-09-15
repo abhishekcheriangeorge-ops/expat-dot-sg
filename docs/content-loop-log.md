@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 14)
+
+Branch: `loop/story-aeo-tick14` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#77). Avoided open merge-controller file sets (#69 H10, #73 H11, #82 H12, #84 H13). Prefer merge order **#69 → #73 → #82 → #84** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — cheapest supermarket / RedMart vs FairPrice / online platform fees; HDB vs condo bulky disposal; void-deck dump complaints.
+- r/askSingapore — foreigner NLB membership worth it?; walk-in library work spots; museum ticket sticker shock for EP holders.
+- r/askSingapore — e-bike legality / grey imports; helmet on roads; PMD footpath bans.
+
+**Official**
+
+- [NEA — e-waste recycling](https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/e-waste-management/where-to-recycle-e-waste) + [ALBA](https://alba-ewaste.sg/) + [OneService](https://www.oneservice.gov.sg/).
+- [NLB — Membership types](https://www.nlb.gov.sg/main/services/library-membership/types-of-membership) + [NHB free admission](https://www.nhb.gov.sg/free-admission) + [Esplanade](https://www.esplanade.com/).
+- [LTA — Active Mobility rules](https://www.lta.gov.sg/content/ltagov/en/getting_around/active_mobility/rules_and_public_education/rules_and_code_of_conduct.html) + [OneMotoring PAB](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/vehicle-types-and-registrations/active-mobility-devices/PAB.html).
+
+### Gaps vs open H + ticks 1–13
+
+Open: #69 (Student Pass / LTVP / REP), #73 (apps / COE vs Grab / REP transfer), #82 (hawker / annual admin / weekend getaways), #84 (dating / climate wear / nightlife). Remaining FAQ-free Life gaps: **grocery + e-waste literacy**, **NLB/museum foreigner access**, **cycling / PAB Active Mobility**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/life/shopping-essentials-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/life/arts-culture-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/life/cycling-active-mobility-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Life shopping blurb + arts + cycling topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #69/#73/#82/#84 guide bodies.
+
+### Questions mined (sample)
+
+1. Which supermarket is cheapest in Singapore for expats?
+2. Is RedMart safe for groceries, or is it random Lazada sellers?
+3. Should I ship appliances from home?
+4. How do I dispose of e-waste and bulky items legally?
+5. What should I buy in week one?
+6. Can foreigners use Singapore’s public libraries without membership?
+7. Is NLB membership worth it for expats?
+8. Are museums free for Employment Pass holders?
+9. How do I build a culture habit beyond malls?
+10. Which libraries are good walk-in work spots?
+11. Do I need a licence to cycle in Singapore?
+12. Are e-bikes / PABs legal for newcomers?
+13. Can I ride a PAB on footpaths?
+14. Can I ride a tourist e-scooter on public paths?
+15. Is cycling a realistic expat commute?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 13)
 
 Branch: `loop/story-aeo-tick13` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#77 H9 merge). Avoided open merge-controller file sets (#69 H10, #73 H11, #82 H12). Prefer merge order **#69 → #73 → #82** before this lands. No ads / monetization; no Grok copy.
