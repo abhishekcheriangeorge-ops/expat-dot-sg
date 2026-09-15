@@ -453,6 +453,16 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
+        label: "Gastro / vomiting exclusion",
+        href: "/guides/dual-career-kids-gastroenteritis-vomiting-diarrhoea-school-exclusion-singapore",
+        blurb: "Written return clocks, hydration owners, swim holds.",
+      },
+      {
+        label: "Residential camp / trip ops",
+        href: "/guides/international-school-residential-camp-overnight-trip-ops-dual-career-singapore",
+        blurb: "Consent deadlines, med packets, emergency contacts.",
+      },
+      {
         label: "Pink-eye exclusion ops",
         href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
         blurb: "Written return rules, swim holds, GP vs eye clinic.",
@@ -616,6 +626,11 @@ export const pillars: Pillar[] = [
         label: "Music-studio waiting belonging",
         href: "/guides/music-lesson-studio-waiting-parent-belonging-singapore",
         blurb: "Repeat lesson-sofa hellos without exam politics.",
+      },
+      {
+        label: "Dance-studio waiting belonging",
+        href: "/guides/dance-studio-waiting-parent-belonging-singapore",
+        blurb: "Repeat ballet-bench hellos without exam politics.",
       },
       {
         label: "LGBTQ+ resources",
