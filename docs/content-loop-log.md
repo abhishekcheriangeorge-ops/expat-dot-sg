@@ -6,6 +6,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 30) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick30-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #227. Shared log + `site.ts` only. With #115/#91/#129/#134 merged, shipped CCA vs academy + sideline belonging; still avoided learning-support waitlist depth while #149 is open.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — CCA + academy double stack; Grab between venues; helper rest-day collisions.
+- r/askSingapore — sideline chairs as the real parent meetup; coaching politics fatigue.
+- r/askSingapore — dengue cluster fever anxiety; dual WFH “monitoring” folklore.
+
+**Official**
+
+- [MOE CCA](https://www.moe.gov.sg/education-in-sg/our-programmes/cca) + [Parent Hub](https://www.moe.gov.sg/parent-hub)
+- [ActiveSG](https://www.activesg.gov.sg/) / [Sport Singapore](https://www.sportsingapore.gov.sg/)
+- [NEA dengue clusters](https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters) + [HealthHub dengue](https://www.healthhub.sg/a-z/diseases-and-conditions/dengue)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–29 (open through #227) covered ops through head-lice/speech-day/foodcourt. Unblocked after earlier merges: **CCA vs external academy**, **youth sports sideline belonging**. Remaining heat without contested paths: **dengue child-fever coverage**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/primary-cca-vs-external-academy-dual-career-singapore.mdx`
+- `content/guides/belong/youth-sports-sideline-parent-belonging-singapore.mdx`
+- `content/guides/family/dual-career-dengue-child-fever-coverage-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- IS CCA belonging, youth sports academies, kids activities/camps, kids swimming safety, part-time babysitter/nanny
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- ACS International, Dulwich College Singapore, Tanglin Trust School, Raffles Medical, mental-health counselling
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #142–#227 guide/entity paths.
+- No learning-support waitlist depth while #149 is open.
+
+### Questions mined (sample)
+
+1. Is CCA or academy the primary rail this term?
+2. Who owns Tuesday pickup?
+3. Same sideline chair next fixture?
+4. Did we freeze outdoor fixtures during the fever?
+5. Who is today’s dengue-season coverage owner?
+6. Are academy make-ups worth the Grab stack?
+7. Heat / haze plan for the sideline?
+8. Is the GP slot booked before midnight forum scrolling?
+
+---
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 29) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick29-8971` → PR to `main`. Owns **Family** + **Belong** plus light services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #216. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

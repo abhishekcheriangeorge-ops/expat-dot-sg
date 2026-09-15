@@ -182,6 +182,16 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
+        label: "Travel before the pass card",
+        href: "/guides/travel-before-work-pass-card",
+        blurb: "IPA ≠ travel doc; finish issuance before JB hops.",
+      },
+      {
+        label: "EP probation & resignation notice",
+        href: "/guides/ep-probation-resignation-notice",
+        blurb: "Contract notice ≠ MOM cancel date; DP falls with principal.",
+      },
+      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
@@ -190,6 +200,26 @@ export const pillars: Pillar[] = [
         label: "Fair Consideration & MyCareersFuture",
         href: "/guides/fair-consideration-framework-ep",
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
+      },
+      {
+        label: "Changing jobs on EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
+      },
+      {
+        label: "Student’s Pass work limits",
+        href: "/guides/student-pass-singapore",
+        blurb: "Vacation work exemption ≠ open labour market; LOE ≠ EP.",
+      },
+      {
+        label: "LTVP for partners & parents",
+        href: "/guides/ltvp-singapore",
+        blurb: "Not a DP; parent salary lane; work rights depend on product.",
+      },
+      {
+        label: "ONE Pass",
+        href: "/guides/one-pass-singapore",
+        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
       },
       {
         label: "S Pass vs EP",
@@ -331,9 +361,24 @@ export const pillars: Pillar[] = [
         blurb: "IRAS rules, YA calendars, and clearance when you leave.",
       },
       {
-        label: "Insurance landscape",
+        label: "Relocation allowance tax",
+        href: "/guides/relocation-allowance-tax-singapore",
+        blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
+      },
+      {
+        label: "Remittances & FX",
+        href: "/guides/remittances-singapore",
+        blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
+      },
+      {
+        label: "Health insurance & LOG",
         href: "/guides/health-insurance-expat",
-        blurb: "Health, life, and what employers usually cover.",
+        blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
+      },
+      {
+        label: "CPF withdrawal when leaving",
+        href: "/guides/cpf-withdrawal-leaving-singapore",
+        blurb: "EP had no CPF; PR cash-out only after status ends.",
       },
       {
         label: "Cost of living",
@@ -408,21 +453,26 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "Head-lice outbreak ops",
-        href: "/guides/dual-career-head-lice-school-outbreak-singapore",
-        blurb: "Same-day treatment, sibling checks, return rules.",
+        label: "CCA vs external academy",
+        href: "/guides/primary-cca-vs-external-academy-dual-career-singapore",
+        blurb: "One primary rail, calendar math, belonging trade-offs.",
       },
       {
-        label: "Speech day / prize-giving",
-        href: "/guides/international-school-speech-day-prize-giving-ops-dual-career-singapore",
-        blurb: "RSVPs, work blackouts, sibling logistics.",
+        label: "Dengue child-fever coverage",
+        href: "/guides/dual-career-dengue-child-fever-coverage-singapore",
+        blurb: "Named adults, GP timing, cluster-week ops.",
       },
-            {
-        label: "School-holiday coverage",
-        href: "/guides/school-holiday-coverage-dual-career-singapore",
-        blurb: "Camps, leave splits, babysitter bridges for dual EP weeks.",
+      {
+        label: "Learning support vs tutoring",
+        href: "/guides/international-school-learning-support-vs-tutoring-singapore",
+        blurb: "School supports vs cash tutors — goal-dated.",
       },
-{
+      {
+        label: "Home-leave jet-lag ops",
+        href: "/guides/home-leave-jetlag-dual-career-family-singapore",
+        blurb: "Return-week coverage for dual EP households.",
+      },
+      {
         label: "Kids activities & calendar",
         href: "/guides/kids-activities-holiday-camps",
         blurb: "Holiday camps, enrichment, and the school-year rhythm.",
@@ -521,17 +571,7 @@ export const pillars: Pillar[] = [
       "Membership clubs, associations, chambers, hashes, religious communities, nationality groups, and LGBTQ+ resources — discovery without the awkward cold start.",
     modes: ["living"],
     topics: [
-            {
-        label: "IS CCA belonging",
-        href: "/guides/international-school-cca-belonging-singapore",
-        blurb: "Co-curriculars as family friendship infrastructure.",
-      },
       {
-        label: "Teen internships",
-        href: "/guides/teen-internships-work-experience-singapore",
-        blurb: "Holiday placements, MOM age rules, mentor weak ties.",
-      },
-{
         label: "Membership clubs",
         href: "/guides/membership-clubs-comparison",
         blurb: "American, Tanglin, British, Hollandse, Swiss, and peers.",
@@ -567,9 +607,15 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "Foodcourt dinner belonging",
-        href: "/guides/foodcourt-dinner-parent-belonging-singapore",
-        blurb: "Repeat post-work tray tables.",
+        label: "NLB parent belonging",
+        href: "/guides/nlb-library-parent-belonging-singapore",
+        blurb: "Libraries and storytime as soft adult rails.",
+      },
+
+      {
+        label: "Youth sports sideline belonging",
+        href: "/guides/youth-sports-sideline-parent-belonging-singapore",
+        blurb: "Repeat fixture hellos without committee drama.",
       },
       {
         label: "LGBTQ+ resources",
@@ -626,7 +672,7 @@ export const pillars: Pillar[] = [
       {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
-        blurb: "When MOM asks for NOA — reconcile salary with IRAS.",
+        blurb: "NOA vs IR8A — reconcile EP salary with IRAS before HR replies.",
       },
       {
         label: "Citizenship & NS",
@@ -636,7 +682,12 @@ export const pillars: Pillar[] = [
       {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
-        blurb: "Switching employers, industries, or going independent.",
+        blurb: "New employer files fresh pass — resign only after IPA.",
+      },
+      {
+        label: "Stay vs exit horizon",
+        href: "/guides/long-term-stay-vs-exit",
+        blurb: "Annual stay/leave review before school deposits and renewal.",
       },
       {
         label: "Between jobs — STVP",
