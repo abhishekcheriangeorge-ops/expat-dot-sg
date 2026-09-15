@@ -2,8 +2,8 @@
   "type": "school",
   "slug": "acs-international",
   "name": "ACS International",
-  "summary": "ACS-family international school with IB Diploma and a Singaporean institutional backbone.",
-  "body": "ACS International offers an international pathway connected to the broader Anglo-Chinese Schools family. It appeals to families wanting IB with local institutional roots. Compare against ACS (Independent) if local secondary pathways are also on the table.",
+  "summary": "ACS-family international school with IB Diploma and a Singaporean institutional backbone — do not confuse with ACS (Independent) local pathways.",
+  "body": "ACS International offers an international pathway connected to the broader Anglo-Chinese Schools family. It appeals to families wanting IB (often via IGCSE/MYP into DP) with local institutional roots — useful when the university thesis is portable and you still want ACS-brand familiarity. Compare carefully against ACS (Independent) and other MOE-pathway IB schools: those are cut-throat local admissions products, not walk-in international seats. Confirm campus, age range, and current year-group openings on the school site before housing locks. For IB-vs-A-Level decision framing across the island, pair this entity with the secondary pathways guide rather than treating any single ACS campus as the whole map.",
   "curriculum": [
     "IB MYP",
     "IB DP",
@@ -17,7 +17,7 @@
     "English"
   ],
   "feesBand": "Upper-mid",
-  "waitlistNotes": "Secondary entry points are popular — apply on published timelines.",
+  "waitlistNotes": "Secondary entry points are popular — apply on published timelines. Ask which grades still accept mid-year transfers.",
   "website": "https://www.acsinternational.com.sg",
   "featured": false,
   "sponsored": false

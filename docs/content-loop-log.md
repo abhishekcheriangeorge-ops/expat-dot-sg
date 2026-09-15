@@ -411,6 +411,80 @@ Tick 21 shipped HDB mid-lease sale, bedroom continuous-occupation / partitions, 
 ---
 
 
+## Loop B — Family + Belong (tick 7) — 2026-09-15
+
+Branch: `loop/family-belong-tick7` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned; Tuition Grant bond stays Move-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — kids allergy / EpiPen continuity ([polyclinic nut allergy](https://www.reddit.com/r/askSingapore/comments/1n6ayva/polyclinic_for_nut_allergy_or_do_we_have_to_go_to/); [paediatric allergist](https://www.reddit.com/r/askSingapore/comments/1uij2re/looking_for_best_paediatric_allergist_in/); [prescription drugs / EpiPen](https://www.reddit.com/r/askSingapore/comments/1cr7j1l/prescription_drugs/)).
+- r/askSingapore — private ST/OT cash realism ([speech therapy S$200++](https://www.reddit.com/r/askSingapore/comments/1s14acu/speech_therapy_for_kids_in_singapore_is_200_per/); [moving with special needs](https://www.reddit.com/r/askSingapore/comments/1svtc96/moving_to_singapore_with_a_child_with_special/)).
+- r/askSingapore — secondary IB / A-Level / transfer myths ([local vs IB](https://www.reddit.com/r/askSingapore/comments/1h15iwd/local_schools_vs_ib_schools/); [Cambridge A-Level after IGCSE](https://www.reddit.com/r/askSingapore/comments/1l9jedc/anyone_recommend_any_schools_in_singapore_that/); [IS → public transfer](https://www.reddit.com/r/askSingapore/comments/kg0mdd/whats_the_admission_process_for_a_transfer_from/)).
+- r/askSingapore — Belong music/arts rails ([musical communities](https://www.reddit.com/r/askSingapore/comments/1r53h7g/musical_communities_to_join_to_make_friends/); [join bands / orchestra](https://www.reddit.com/r/askSingapore/comments/17zkwjp/how_can_i_join_bands_in_singapore/); [classical community](https://www.reddit.com/r/askSingapore/comments/18qkpsq/classical_music_looking_for_a_community/); [Sing Song Social Club](https://www.reddit.com/r/askSingapore/comments/1kcquiw/anyone_attended_the_sing_song_social_club/)).
+
+**Official**
+
+- [KKH — Allergy](https://www.kkh.com.sg/our-specialties/allergy) + [HealthHub EpiPen](https://www.healthhub.sg/medication-devices-and-treatment/medications/adrenaline-auto-injector-epipen-and-epipen-jr) + [NDF EpiPen](https://www.ndf.gov.sg/about-drugs/product-information/sin13288p/) + [MOH EpiPen subsidy note](https://www.moh.gov.sg/newsroom/increase-in-number-of-reported-incidents-of-food-related-anaphylaxis-in-children-and-assistance-for-those-from-low-income-families/).
+- [MOE — Studying in Singapore](https://www.moe.gov.sg/international-students/studying-in-singapore) + [international admissions](https://www.moe.gov.sg/international-students) + [post-secondary admissions](https://www.moe.gov.sg/post-secondary/admissions).
+- [BHSO join](https://bhso.org/join-our-family/) + [OMM join](https://www.orchestra.sg/join) + [SSO](https://www.sso.org.sg/) / [Esplanade](https://www.esplanade.com/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–6 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-career, newborn/leave/vaccines, IVF/maternity/divorce/PPO, Reclub/parkrun, school-bus/Mandarin/preschool/chambers/faith, confinement-nanny WP/levy, indoor hobby belonging, AEIS 2026. Remaining Family/Belong heat: **allergy/EpiPen continuity + local Rx**, **private ST/OT cash wall** (deepen), **IB vs A-Level / IGCSE≠JC myth**, **music/arts belonging** beyond board games/Toastmasters.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/kids-allergy-epipen-singapore.mdx`
+- `content/guides/family/secondary-ib-alevel-pathways-singapore.mdx`
+- `content/guides/belong/music-arts-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/special-needs-support.mdx` (ST/OT cash band)
+- `content/guides/family/finding-pediatrician-singapore.mdx`
+- `content/guides/family/international-schools-landscape.mdx`
+- `content/guides/family/kids-activities-holiday-camps.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/indoor-hobby-communities-singapore.mdx`
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth (schools / clubs)**
+
+- `content/entities/schools/tanglin-trust-school.json`
+- `content/entities/schools/acs-international.json`
+- `content/entities/schools/uwcsea-dover.json`
+- `content/entities/schools/dulwich-college-singapore.json`
+- `content/entities/clubs/british-association.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (no MDW fork; no ActiveSG facilities rewrite; TG bond stays Move).
+
+### Questions mined (sample)
+
+1. Will a polyclinic accept my overseas nut-allergy report and refill an EpiPen?
+2. Do foreign prescriptions work for adrenaline auto-injectors in Singapore?
+3. Will my preschool accept a US/UK allergy action plan PDF alone?
+4. Are portable EpiPens subsidised for EP/DP kids the way hospital epinephrine can be?
+5. Is private kids’ speech therapy really S$200+/session for foreigners?
+6. Can my foreign child use EIPIC while waiting for private ST/OT?
+7. Does finishing IGCSE overseas let my teen walk into a local JC for A-Levels?
+8. Should a mobile family choose IB DP or A-Level if the next posting is unknown?
+9. Can we transfer mid-DP from one international school to another without losing a year?
+10. Is Dulwich an A-Level school or an IB DP exit?
+11. Where do singers find friends if Reclub and board games are not the rail?
+12. Can expats audition for Braddell Heights Symphony Orchestra by video?
+13. Are OMM auditions open year-round or by instrument intake windows?
+14. Are open mics actually good for making musician friends, or just stage time?
+
+---
+
 ## Loop B — Family + Belong (tick 6) — 2026-09-15
 
 Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW deep hiring stays Home-owned).
