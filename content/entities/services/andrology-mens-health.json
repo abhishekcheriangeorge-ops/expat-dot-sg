@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "andrology-mens-health",
+  "name": "Andrology and men's reproductive health",
+  "summary": "How expats find andrology and male reproductive health care in Singapore for fertility workups, hypogonadism questions, and sexual health — coordinated with IVF clinics and urology when needed.",
+  "body": "Andrology focuses on male fertility and reproductive endocrinology: semen analysis interpretation, varicoceles, hormone issues, and medical optimisation before IVF/ICSI. General urology covers surgical anatomy; fertility-focused andrology sits closer to reproductive medicine teams.\n\n## Common entry points\n- Couple fertility workup after 6–12 months of trying (or sooner with known risk factors)\n- Abnormal semen analysis needing repeat testing and lifestyle/medical review\n- Prior chemotherapy, undescended testis history, or genetic concerns\n- Hypogonadism symptoms — careful distinction from wellness “testosterone package” marketing\n- Sexual health issues needing medical rather than spa-clinic framing\n\n## IVF coordination\nMany couples meet andrology through a fertility centre. Ask how semen processing, surgical sperm retrieval, and genetic counselling are handled in one pathway. Parallel GP testosterone ads rarely belong in a fertility plan without proper labs and shared decision-making.\n\n## How to choose\nPrefer clinicians linked to accredited fertility or urology departments who explain evidence for supplements vs procedures. Confirm lab accreditation for semen analysis — collection timing and abstinence windows change results. Insurance often excludes fertility; get cash estimates early.\n\n## Practical tip\nRepeat an abnormal semen analysis before invasive steps — one hot Grab ride or recent fever can skew results. Bring overseas labs with reference ranges; units differ across countries.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Couple fertility workup needs male-factor assessment",
+    "Abnormal semen analysis needs specialist interpretation",
+    "Considering surgical sperm retrieval with IVF clinic",
+    "Wellness testosterone package before proper hormone workup"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "ivf-fertility-foreigners-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "maternity-care-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

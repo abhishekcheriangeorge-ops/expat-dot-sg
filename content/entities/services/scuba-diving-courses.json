@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "scuba-diving-courses",
+  "name": "Scuba diving courses",
+  "summary": "How expats choose PADI/SSI diving courses in Singapore and nearby — pool confins, medical forms, and weekend trip logistics — without confusing discovery dives with certification that transfers worldwide.",
+  "body": "Singapore is a training hub with pool sessions locally and open-water weekends on nearby islands or further afield. Expats often start with Discover Scuba, then Open Water, Advanced, and rescue tracks through PADI, SSI, or other agencies.\n\n## Course realities\n- Classroom / e-learning + confined pool + open-water dives\n- Medical questionnaire — some answers require physician sign-off before in-water\n- Gear hire vs buy; humid storage and servicing matter\n- Certification cards should be verifiable online with the agency\n\nA resort “resort diver” experience is not a substitute for full Open Water if you want portable certification.\n\n## Safety culture\nAsk about instructor ratios, current briefings, and emergency oxygen/ first-aid readiness. Cheap packages that skip pool time or rush medical screening are not bargains. Equalise patiently — forcing ears ruins trips.\n\n## How to choose\nPrefer shops with clear course calendars, published referral policies if weather cancels boats, and gear that fits a range of body sizes. Check whether weekends conflict with school CCAs for families. For kids’ junior programmes, confirm age minimums and supervision rules.\n\n## Practical tip\nComplete e-learning before the pool weekend so you are not cramming theory after a full work week. If you take medication or have asthma/ear issues, sort the dive medical early — last-minute GP letters on Saturday mornings are miserable.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Starting Open Water certification while based in Singapore",
+    "Comparing Discover Scuba vs full certification goals",
+    "Dive medical questionnaire needs GP clearance",
+    "Weekend open-water trip logistics and weather make-ups"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore",
+    "healthcare-gp-hospital"
+  ],
+  "featured": false,
+  "sponsored": false
+}

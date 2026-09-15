@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 20 — 2026-09-15
+
+Branch: `cursor/services-directory-tick20-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — chiropractor vs physio for desk neck pain; prepaid package scepticism.
+- r/askSingapore — male fertility / semen analysis / IVF coordination questions.
+- Parenting forums — LAMDA drama vs confidence class; speech therapy mix-ups.
+- Rental/move forums — organiser vs cleaner after container-into-condo chaos.
+- Hobby forums — PADI Open Water from Singapore pool + weekend islands.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [AHPC](https://www.healthprofessionals.gov.sg/ahpc) + [SMC](https://www.healthprofessionals.gov.sg/smc).
+- [NAC](https://www.nac.gov.sg/) + [MOE](https://www.moe.gov.sg/).
+- [CASE](https://www.case.org.sg/) + [NEA waste](https://www.nea.gov.sg/our-services/waste-management) + [SportSG](https://www.sportsingapore.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#184 cover prior depth and every on-main service file. Free surface for tick 20: **chiropractic/osteopathy**, **andrology/men's reproductive health**, **drama/speech tuition**, **home organising**, **scuba courses**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/chiropractic-osteopathy.json`
+- `content/entities/services/andrology-mens-health.json`
+- `content/entities/services/drama-speech-tuition.json`
+- `content/entities/services/home-organising-declutter.json`
+- `content/entities/services/scuba-diving-courses.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#184 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Chiro package or physio rehab for desk neck?
+2. When does abnormal semen analysis need andrology?
+3. LAMDA exam track or confidence drama only?
+4. Organiser before or after mover quote when leaving?
+5. Discover Scuba vs full Open Water if relocating again soon?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 19)
 
 Branch: `cursor/loop-d-next-polish-tick19-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151).

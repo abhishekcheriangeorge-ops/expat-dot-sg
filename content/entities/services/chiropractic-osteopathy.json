@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "chiropractic-osteopathy",
+  "name": "Chiropractic and osteopathy",
+  "summary": "How expats evaluate chiropractors and osteopaths in Singapore for back and neck pain — credential checks, red-flag referrals, and how these sit beside physio and sports medicine rather than replacing them.",
+  "body": "Chiropractic and osteopathy are popular first stops for desk-bound expats with neck pain, desk posture complaints, and “I threw my back out moving boxes.” They are not interchangeable with physiotherapy or medical orthopaedics — and marketing volume is high.\n\n## What good care looks like\n- History and exam before high-velocity manipulation\n- Clear explanation of expected visit count — not open-ended prepaid “spinal packages”\n- Immediate escalation when red flags appear (fever, progressive weakness, saddle anaesthesia, trauma)\n- Coordination with GP imaging or sports medicine when pain persists\n\nOsteopathy in Singapore is less uniformly regulated than medicine; ask about training pathway and professional association membership. Chiropractors likewise vary — credentials and informed consent matter more than Instagram adjustments.\n\n## Physio vs chiro/osteo\nPhysiotherapy often leads exercise-based rehab covered under some insurance outpatient riders. Chiro/osteo visits may be cash or narrowly covered — read your policy. Many people use both: manual care for short-term relief plus physio for load capacity.\n\n## How to choose\nPrefer clinicians who screen red flags, do not promise curing visceral disease with spinal cracks, and will refer rather than endlessly adjust. Avoid large prepaid packages sold the same day as the first visit. Ask about paediatric claims carefully — kids need different thresholds.\n\n## Practical tip\nIf pain started after a scooter fall or with neurological symptoms, go A&E/ortho first. Bring prior MRI disks; repeating imaging at every new manual therapist wastes money and time.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Desk-related neck/back pain exploring manual therapy",
+    "Quoted long prepaid spinal package on first visit",
+    "Unsure chiro/osteo vs physio for rehab goals",
+    "Need red-flag clarity before further manipulation"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Allied Health Professions Council",
+      "url": "https://www.healthprofessionals.gov.sg/ahpc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
