@@ -6,6 +6,55 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 32)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick32-49cb` → PR to `main` (fresh worktree off `origin/main` @ `4fe4328`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)–[#235](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/235) A17–A31 stay open — **did not** wait for merges/CI and **did not** edit those paths). Prefer merge order **#143 → … → #223 → #235 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP refusal → verbal S Pass downgrade; fixed salary vs CTC across passes; renewal quota folklore.
+- r/askSingapore — starting work during medical; TB follow-up delays; pregnancy vs chest X-ray.
+- r/askSingapore / r/singaporefi — travel insurance as local cover; home-plan LOG failures; probation-gated group medical gaps.
+
+**Official**
+
+- [MOM — EP vs S Pass key facts](https://www.mom.gov.sg/passes-and-permits)
+- [MOM — EP issuance medical / IPA conditions](https://www.mom.gov.sg/passes-and-permits/employment-pass)
+- Employer group medical / MAS-regulated insurer LOG practice (verify live schedules)
+
+### Gaps vs prior Loop A ticks
+
+Open A17–A31 claim Student’s Pass through SGAC/issuance/year-one finance. Tick 32 deepens **EP vs S Pass**, **EP issuance medical**, and **expat health insurance** without colliding those paths. Left existing insurance `sponsorSlot` untouched (no ads expansion).
+
+### Shipped this loop
+
+- `content/guides/move/ep-vs-s-pass-comparison.mdx` (+3)
+- `content/guides/move/ep-medical-examination-issuance.mdx` (+3)
+- `content/guides/money/health-insurance-expat.mdx` (+3)
+- `src/lib/site.ts` blurbs
+
+### Explicitly not done
+
+- No ads/monetization expansion / no Grok.
+- Did not edit open A17–A31 paths; no force-push to main.
+- Left #143–#235 for the merge controller.
+
+### Questions mined (sample)
+
+1. Can HR auto-downgrade EP refusal to S Pass?
+2. Same fixed-salary definition on both passes?
+3. Is S Pass renewal harder due to quota?
+4. Work while medical pending?
+5. TB follow-up on EP medical?
+6. Pregnancy vs issuance X-ray?
+7. Travel insurance as Singapore cover?
+8. Home-country plan LOG at private hospitals?
+9. Cover before probation-gated group medical?
+
+---
+
 ## Loop B — Family + Belong (tick 20) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick20-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/clubs entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #149 (#80/#91/#100/#108/#115/#129/#134/#142/#149). Shared log + `site.ts` only. Skipped primary-CCA-vs-academy (#115/#91 adjacency) and learning-support waitlist depth (#149 adjacency).

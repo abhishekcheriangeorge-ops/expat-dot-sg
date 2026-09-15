@@ -149,7 +149,7 @@ export const pillars: Pillar[] = [
       {
         label: "EP medical for issuance",
         href: "/guides/ep-medical-examination-issuance",
-        blurb: "IPA-required exams, WP-form myths, STVP while labs process.",
+        blurb: "No work while labs pending; TB follow-ups; pregnancy X-ray deferrals.",
       },
       {
         label: "HSA personal medication",
@@ -224,7 +224,7 @@ export const pillars: Pillar[] = [
       {
         label: "S Pass vs EP",
         href: "/guides/ep-vs-s-pass-comparison",
-        blurb: "No EP quota myth, levy/DRC, Sep 2025 S Pass floors.",
+        blurb: "No auto-downgrade; fixed salary differs; renewals ≠ quota swap.",
       },
       {
         label: "Decode the job offer",
@@ -373,7 +373,7 @@ export const pillars: Pillar[] = [
       {
         label: "Health insurance & LOG",
         href: "/guides/health-insurance-expat",
-        blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
+        blurb: "Travel≠local cover; home plans/LOG; bridge before probation.",
       },
       {
         label: "CPF withdrawal when leaving",
