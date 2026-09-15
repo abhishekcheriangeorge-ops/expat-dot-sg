@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 26)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick26-49cb` → PR to `main` (fresh worktree off `origin/main` @ `6b98462`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180)/[#187](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/187)/[#194](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/194) A17–A25 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → #187 → #194 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — JB weekend mid-issuance; SGWorkPass “issued” = fly today; family visit-pass travel while EP pending.
+- r/singaporefi — relocation clawback vs tax; self-paid shipping “deduction”; split lump sum across YAs.
+- r/askSingapore — private-bank KYC still needed; Wise as salary substitute; rejected serviced-apartment letters.
+
+**Official**
+
+- [MOM — EP issuance / Notification Letter](https://www.mom.gov.sg/passes-and-permits/employment-pass) framing
+- [IRAS — Employment income / benefits](https://www.iras.gov.sg/) for relocation cash vs reimbursements
+- Bank KYC / MAS-regulated retail account practice (verify live issuer rules)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A25 claim Student’s Pass/LTVP/CPF-withdrawal through incorporate/probation/COL. Tick 26 deepens **travel before pass card**, **relocation allowance tax**, and **opening a bank account** without colliding those paths. Restores travel-before and relocation-allowance hub topics missing on this `main` tip.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/travel-before-work-pass-card.mdx` (+3)
+- `content/guides/money/relocation-allowance-tax-singapore.mdx` (+3)
+- `content/guides/money/opening-bank-account-expat.mdx` (+3)
+- `src/lib/site.ts` (travel-before + relocation-allowance hub topics; bank blurb)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A25 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180/#187/#194 for the merge controller.
+
+### Questions mined (sample)
+
+1. Is a JB day trip safe mid-issuance?
+2. Does SGWorkPass issued mean fly today?
+3. Can family travel on visit passes while EP card is pending?
+4. Is a year-one clawback a personal tax deduction?
+5. Are self-paid shipping/pet costs tax-free relocation?
+6. Can I split a lump sum across two tax years?
+7. Do private banks skip EP KYC?
+8. Can Wise replace a local salary account?
+9. What if the branch rejects my serviced-apartment letter?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 22)
 
 Branch: `cursor/loop-d-next-polish-tick22-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162) / [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169) / [#177](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/177). (#83 / #89 / #99 / #114 already on main.)

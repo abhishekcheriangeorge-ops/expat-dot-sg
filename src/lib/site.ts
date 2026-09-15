@@ -187,6 +187,11 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
+        label: "Travel before the pass card",
+        href: "/guides/travel-before-work-pass-card",
+        blurb: "JB/Changi exits mid-issuance; SGWorkPass ≠ same-day fly.",
+      },
+      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
@@ -285,7 +290,12 @@ export const pillars: Pillar[] = [
       {
         label: "Open a bank account",
         href: "/guides/opening-bank-account-expat",
-        blurb: "Address letters, IPA vs issued pass, Singpass timing.",
+        blurb: "IPA vs issued pass, address letters, Wise ≠ salary bank.",
+      },
+      {
+        label: "Relocation allowance tax",
+        href: "/guides/relocation-allowance-tax-singapore",
+        blurb: "Cash vs reimbursement, clawbacks, shipping isn’t a DIY deduction.",
       },
       {
         label: "Banking & PayNow",
