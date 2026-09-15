@@ -594,6 +594,11 @@ export const pillars: Pillar[] = [
         blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
       },
       {
+        label: "Aged parents PR vs LTVP",
+        href: "/guides/aged-parents-pr-ltvp-singapore",
+        blurb: "Aged-parent PR = SC sponsor only; PR kids use parent LTVP.",
+      },
+      {
         label: "Spouse LTVP + PMLA",
         href: "/guides/spouse-ltvp-pmla-singapore",
         blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
@@ -609,6 +614,11 @@ export const pillars: Pillar[] = [
         blurb: "National exam / IP eligibility row — not private-exam folklore.",
       },
       {
+        label: "Graduate LTVP job hunt",
+        href: "/guides/graduate-ltvp-job-hunt",
+        blurb: "Stay to seek work after IHL — not a work pass or spouse LOC.",
+      },
+      {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
         blurb: "NOA vs IR8A — reconcile EP salary with IRAS before HR replies.",
@@ -617,6 +627,11 @@ export const pillars: Pillar[] = [
         label: "Citizenship & NS",
         href: "/guides/citizenship-ns-implications",
         blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
+      },
+      {
+        label: "Citizenship Journey (SCJ)",
+        href: "/guides/singapore-citizenship-journey-scj",
+        blurb: "After IPA: portal day-3, SEV/CSS, registration — IPA ≠ citizen.",
       },
       {
         label: "Career pivots",
