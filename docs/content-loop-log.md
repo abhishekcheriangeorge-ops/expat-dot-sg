@@ -6,6 +6,8 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+---
+
 ## Loop B — Family + Belong (tick 5) — 2026-09-15
 
 Branch: `loop/family-belong-tick5` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; neighbourhood/housing deep guides stay Home-owned).
@@ -86,6 +88,8 @@ Ticks 1–4 covered waitlists/SEN/camps/clubs/LGBTQ/dual-career, newborn/Baby Bo
 
 ---
 
+---
+
 ## Loop B — Family + Belong (tick 4) — 2026-09-15
 
 Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned).
@@ -161,6 +165,74 @@ Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-ca
 15. Is parkrun a realistic first social ritual before joining a paid run club?
 
 ---
+
+---
+
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 4)
+
+Branch: `loop/next-polish-tick4` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS, post-AIP, NRIC / life-admin) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — lost / stolen IC fees and overseas replacement ([lost IC overseas](https://www.reddit.com/r/askSingapore/comments/xaopoz/lost_singapore_ic_overseas/); [lost IC 14 days](https://www.reddit.com/r/askSingapore/comments/1gpwgbx/lost_ic/); [stolen IC S$300](https://www.reddit.com/r/askSingapore/comments/1eemjks/ic_was_stolen_must_pay_300_for_2nd_replacement/); [NRIC renewal at 30](https://www.reddit.com/r/askSingapore/comments/wbnz5h/nric_renewal_for_pr/); [re-register overseas](https://www.reddit.com/r/askSingapore/comments/ozzprx/reregistering_ic_at_30_yo_and_collecting_it_i/)).
+- r/askSingapore — PR address / “PR renew” folklore ([PR renew + address](https://www.reddit.com/r/askSingapore/comments/14ypowc/pr_renew_and_change_of_residential_address/); [advice renewing PR/REP](https://www.reddit.com/r/askSingapore/comments/11er8in/advice_on_renewing_pr/)).
+- r/askSingapore + r/NationalServiceSG — adult SC renunciation vs ORAL ([renunciation overseas](https://www.reddit.com/r/askSingapore/comments/195g78b/renunciation_of_sg_citizenship_overseas/); [process after ORD](https://www.reddit.com/r/NationalServiceSG/comments/whersp/procedure_for_renouncing_citizenship_after_ord/); [renounce mid-service myths](https://www.reddit.com/r/NationalServiceSG/comments/12v1pi1/has_anyone_been_discharged_from_service_because/); [how long dual for females](https://www.reddit.com/r/askSingapore/comments/1koqllo/how_long_can_a_female_legally_hold_dual/)).
+- r/askSingapore — post-PR identity hygiene follow-ons ([next steps after PR](https://www.reddit.com/r/askSingapore/comments/1j7t4a5/next_steps_for_my_wifes_singapore_pr_status/); [what happens right after PR](https://www.reddit.com/r/askSingapore/comments/159r6lg/what_happens_right_after_you_get_pr/)).
+
+**Official**
+
+- [ICA — Loss of Identity Card](https://www.ica.gov.sg/documents/ic/loss) (14-day replace ask; S$100 / S$300; overseas return; collection within 3 months of approval).
+- [ICA — Re-Register Identity Card for 30/55-year-olds](https://www.ica.gov.sg/documents/ic/re-registration) (10-year rule; S$10 SC / S$50 PR; overseas return within 1 year).
+- [ICA — Change of Residential Address on Identity Card](https://www.ica.gov.sg/documents/ic/update_residential_address) (28-day clock; eCOA; PIN + sticker).
+- [ICA — Renunciation of Singapore Citizenship](https://www.ica.gov.sg/enter-depart/for-singapore-citizens/renunciation) + [ask.gov.sg — another citizenship required](https://ask.gov.sg/ica/questions/clxwhkixr006kdsotsvorx1u1) + [user guide PDF](https://www.ica.gov.sg/docs/default-source/ica/forms/user-guide-sc-renunciation.pdf) (age 21+, S$35, cooling-off, NS withhold language).
+- [ICA — Oath-taking for Minors (ORAL)](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking) (retention vs renunciation contrast).
+
+### Gaps vs prior ticks (Next-owned)
+
+Tick 3 shipped ORAL@21, REP/PRSEP, EP family cascade, SCJ depth. Remaining high-intent **Next** gaps matched this mine: **lost/stolen blue NRIC** (work-pass card guide did not cover ICA IC), **NRIC re-registration 30/55 + 28-day address**, **adult SC renunciation** (distinct from ORAL keep-SC and PR renunciation), plus thin **annual life-admin / passport** guides needing those clocks. About + editorial needed clearer NRIC / SC-renunciation research language.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/next/lost-replace-nric-pr-singapore.mdx`
+- `content/guides/next/renouncing-singapore-citizenship.mdx`
+
+**Upgraded guides**
+
+- `content/guides/next/renewing-life-admin-annually.mdx` (NRIC / address / REP / ORAL rows)
+- `content/guides/next/passports-and-documents-overseas.mdx` (MOM sync, ORAL/SC renunciation, document pack table)
+- `content/guides/next/lost-replace-work-pass-card.mdx` (wrong-agency NRIC cross-link)
+- `content/guides/next/after-getting-pr-checklist.mdx` (address, lost IC, re-reg hygiene)
+- `content/guides/next/citizenship-ns-implications.mdx` / `oral-dual-citizenship-age-21.mdx` / `singapore-citizenship-application.mdx` / `renouncing-pr-singapore.mdx` (SC renunciation cross-links)
+
+**Editorial polish**
+
+- `src/app/about/page.tsx`
+- `src/app/editorial-policy/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Family / Belong / Home / Life guide trees owned by Loops A–C.
+
+### Questions mined (sample)
+
+1. I lost my blue PR IC — is that MOM or ICA, and what is the fee?
+2. Do I need a police report to replace a lost NRIC?
+3. Can someone collect my replacement IC for me while I am overseas?
+4. Why does ICA say I am not eligible to re-register my NRIC at 30?
+5. How long after moving must I update my IC residential address?
+6. If I put an overseas address on my IC, will my REP renew for five years?
+7. Can I renounce Singapore citizenship before I get another nationality?
+8. Will ICA let a male renounce SC while NS liability is outstanding?
+9. What documents must I return with an SC renunciation application?
+10. Is missing ORAL the same as formally renouncing citizenship?
+11. After PR, should I still carry my old FIN card as backup ID?
+12. What belongs on the annual September life-admin checklist for PRs?
 
 ---
 
