@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "bank-exit-closure",
+  "title": "Bank exit & account closure",
+  "summary": "Leaving Singapore or losing your EP — sequence SGD account closure, PayNow / GIRO teardown, tax-refund rails, and residual standing instructions so money does not get trapped after you fly.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "decide-keep-vs-close",
+      "title": "Decide: keep a SGD rail vs full closure",
+      "body": "If IRAS may still owe you a tax refund, an employer may pay a final tranche, or you might return within months, keeping one multi-currency or SGD account can be cheaper than remitting twice. Full exit (no return plans, no local income) usually means orderly closure. Do not leave dormant accounts with forgotten GIRO pulls.",
+      "bullets": [
+        "Keep one account if IR21 / tax refund / final salary is still pending",
+        "Full exit → inventory every SGD product before you book the last flight",
+        "Between-jobs stay: do not close the account you need for rent while STVP runs — see /journeys/between-jobs"
+      ],
+      "href": "https://www.mas.gov.sg/regulation/banking"
+    },
+    {
+      "id": "inventory-rails",
+      "title": "Inventory PayNow, GIRO, cards, and standing instructions",
+      "body": "Banks will not magically cancel every autopay when you close. List PayNow proxies (NRIC/FIN, mobile, UEN links), GIRO to SP Utilities / telecom / condo MCST, credit-card autopay, and investment platforms that debit SGD. Tear those down first so closure is not blocked by open mandates.",
+      "bullets": [
+        "Screenshot PayNow registration and deregister mobile / FIN proxies you will lose",
+        "Cancel GIRO at the biller and confirm the bank mandate is dead",
+        "Destroy or securely store physical cards; freeze digital wallets tied to the account"
+      ],
+      "href": "https://www.abs.org.sg/consumer-banking/paynow"
+    },
+    {
+      "id": "pass-kyc",
+      "title": "Pass expiry and bank KYC clocks",
+      "body": "When an EP or FIN status changes, banks re-run KYC. Some freeze online banking or reject remittances until you update pass documents — or until you close. Bring the cancellation letter / STVP email / new IPA if you are staying. Do not assume Singpass login alone keeps the account fully usable after pass cancel.",
+      "bullets": [
+        "Update residential address and pass documents before the FIN looks stale in the bank’s file",
+        "Ask whether the account can stay open on STVP / new EP, or must close",
+        "Export 12–24 months of statements while e-banking still works"
+      ],
+      "href": "https://www.mas.gov.sg/regulation/guidance"
+    },
+    {
+      "id": "remit-then-close",
+      "title": "Remit residual SGD, then close",
+      "body": "Leave a small buffer for unexpected GIRO retries, then remitting the rest. Confirm FX cut-offs and whether the bank requires branch attendance for foreign beneficiaries. After the final outward remittance clears, submit the closure request and ask for a written confirmation letter for your tax / visa files.",
+      "bullets": [
+        "Keep a buffer for one utility cycle after you think everything is cancelled",
+        "Prefer account-to-account remittance over carrying cash through Changi",
+        "File the closure confirmation with IR21 / exit paperwork"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "joint-and-dependants",
+      "title": "Joint accounts and dependant access",
+      "body": "Joint SGD accounts and dependant supplementary cards often outlive the main EP holder’s mental model of “we’re leaving.” Remove supplementary cards, change signatories, or close joint products deliberately — especially if a spouse remains on DP/LOC while you exit.",
+      "bullets": [
+        "Map every joint holder and supplementary card before closure day",
+        "If family stays, decide who remains the primary banked adult in Singapore",
+        "Do not strand school or helper GIRO on an account you are closing"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+    },
+    {
+      "id": "storage-overlap",
+      "title": "Cash timing vs furniture storage",
+      "body": "Bank closure week often collides with movers and temporary storage invoices billed in SGD. Keep enough local balance to clear storage and utility final bills, or pre-pay with a card that will still work abroad. Sketch storage months before you drain the account.",
+      "bullets": [
+        "Use /tools/storage-months for a rough SGD storage float",
+        "Pay the final SP / telecom bills before the account dies",
+        "Leaving playbook still owns shipping and deposit recovery sequencing"
+      ],
+      "href": "/tools/storage-months"
+    }
+  ]
+}
