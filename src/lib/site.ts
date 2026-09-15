@@ -735,6 +735,21 @@ export const pillars: Pillar[] = [
         blurb: "Related ACRA entity + written consent + MOM LOC.",
       },
       {
+        label: "Health insurance job-exit bridge",
+        href: "/guides/health-insurance-exit-between-jobs-bridge-singapore",
+        blurb: "Group cover dies with employment — bridge before cancel.",
+      },
+      {
+        label: "Mid-year school transfer knock-ons",
+        href: "/guides/mid-year-school-transfer-pass-knockons-singapore",
+        blurb: "Fees, bus bonds, pass validity — school ≠ immigration.",
+      },
+      {
+        label: "Common-law spouse LTVP evidence",
+        href: "/guides/ltvp-common-law-spouse-evidence-pack-singapore",
+        blurb: "Certificate, home-country affidavit, or embassy letter.",
+      },
+      {
         label: "PEP / ONE / Tech.Pass chooser",
         href: "/guides/pep-one-tech-pass-chooser-singapore",
         blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",

@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 51)
+
+Branch: `loop/story-aeo-tick51` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 50 (`loop/story-aeo-tick50` @ `5674233` / [#319](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/319)). Avoided open merge-controller H file sets (#117–#319 H20–H50). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308 → #312 → #319** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — uninsured STVP week after group medical ends; maternity waiting period on new plan.
+- r/askSingapore — mid-year international school hop; fee forfeiture vs pass expiry.
+- r/askSingapore — “we share a lease” as common-law LTVP proof.
+
+**Official**
+
+- [MOH healthcare system](https://www.moh.gov.sg/home/our-healthcare-system) · [Cancel EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) · CPF contribution eligibility.
+- [MOE](https://www.moe.gov.sg/) · [Notify MOM of EP changes](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) · [ICA LTVP](https://www.ica.gov.sg/reside/LTVP).
+- [MOM — LTVP documents required](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/documents-required) · eligibility · apply.
+
+### Gaps vs open H + ticks 1–50
+
+Open: #117–#319 H20–H50. Remaining free Next FAQ-free companions included **health-insurance exit bridge**, **mid-year school transfer knock-ons**, **common-law spouse LTVP evidence pack**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/health-insurance-exit-between-jobs-bridge-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/mid-year-school-transfer-pass-knockons-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ltvp-common-law-spouse-evidence-pack-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (insurance exit bridge + mid-year school knock-ons + common-law LTVP evidence topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#319 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does group medical continue through STVP after EP cancel?
+2. When should a personal medical bridge start?
+3. Do dependants lose cover the same day?
+4. Is travel insurance enough for a between-jobs gap?
+5. Are pass stay and medical cover the same product?
+6. Does a mid-year school transfer auto-update EP/DP?
+7. Can a school letter extend a short DP/LTVP?
+8. Which fees and bonds hit hardest mid-year?
+9. How should job-change and school deadlines sequence?
+10. When does immigration become the main school-transfer risk?
+11. Is a shared lease enough for common-law spouse LTVP?
+12. Who can use the common-law spouse LTVP path?
+13. Where must the joint affidavit be notarised?
+14. How should non-English relationship docs be uploaded?
+15. Does LTVP grant work rights after IPA?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 50)
 
 Branch: `loop/story-aeo-tick50` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 49 (`loop/story-aeo-tick49` @ `6ba9a6c` / [#312](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/312)). Avoided open merge-controller H file sets (#117–#312 H20–H49). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308 → #312** before this lands. No ads / monetization; no Grok copy; no force-push main.
