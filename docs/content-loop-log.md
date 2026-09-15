@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 26)
+
+Branch: `loop/story-aeo-tick26` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22, #128 H23, #132 H24, #135 H25). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “baby born here so automatic PR”; parent blue IC myths; don’t-apply-for-baby-boy NS panic.
+- r/askSingapore — private O Levels as PR points cheat code; Student Pass alone as student-row folklore.
+- r/NationalServiceSG / r/askSingapore — renounce PR to exit NS mid-stream; dependants and Visit Pass confusion.
+
+**Official**
+
+- [ICA — Becoming a Permanent Resident](https://www.ica.gov.sg/reside/PR) (child / student rows + NS warnings).
+- [ICA — Renunciation of Permanent Residence](https://www.ica.gov.sg/enter-transit-depart/more-information/for-permanent-residents/renunciation-of-permanent-residence).
+- [CMPB — National Service](https://www.cmpb.gov.sg/) + [MINDEF parliamentary reply on NS-liable PRs who renounce (2014)](https://www.mindef.gov.sg/news-and-events/latest-releases/2014aug05-Parliamentary-000073).
+
+### Gaps vs open H + ticks 1–25
+
+Open: #117 (leaving costs / spouse PR / retrenchment), #120 (leave/notice / citizenship / bonds), #124 (TADM / spouse LTVP / WICA), #128 (NS Exit Permit / PLOC / FWA), #132 (TAFEP / ORAL / EP→spouse LTVP), #135 (graduate LTVP / SCJ / aged parents). Remaining high-intent Next FAQ-free gaps: **PR for child/newborn**, **student PR**, **renouncing PR**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/pr-for-child-newborn-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/pr-for-student-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/renouncing-pr-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (child PR + renounce PR topics; student PR blurb)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124/#128/#132/#135 guide bodies.
+
+### Questions mined (sample)
+
+1. Does a parent’s blue IC automatically give a newborn PR?
+2. Does birth in Singapore create PR or citizenship for a foreign child?
+3. Who files the child PR application?
+4. Are sons granted PR under parents’ sponsorship liable for National Service?
+5. Is child PR guaranteed if a parent already holds PR?
+6. Who can apply under ICA’s student PR eligibility row?
+7. Do private O Levels unlock student PR for a new postgraduate?
+8. Is there a fixed years-of-study requirement on the student PR row?
+9. Do male students granted PR as foreign students face National Service?
+10. Does eligibility on the student row mean approval?
+11. Is renouncing Singapore PR the same process as renouncing citizenship?
+12. Do dependants lose PR when the main applicant renounces?
+13. What happens immediately after ICA approves PR renunciation?
+14. Can I renounce PR to exit National Service mid-stream without consequences?
+15. Do I need to renounce if I already lost PR by letting my REP lapse overseas?
+
+---
+
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 5)
 
 Branch: `loop/e-journeys-tools-tick5` → PR to `main` (fresh worktree off `origin/main` after tick 3 [#53](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/53) merged; while [#66](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/66) tick 4 remained open). Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok. **Avoided #66 paths** (`pre-arrival`, `lease-notice`, Good Friday / Labour Day / Vesak, day-7 / day-30, leaving-singapore).

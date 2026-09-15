@@ -594,6 +594,11 @@ export const pillars: Pillar[] = [
         blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
       },
       {
+        label: "Child / newborn PR",
+        href: "/guides/pr-for-child-newborn-singapore",
+        blurb: "SC/PR parent sponsors unmarried under-21 — birth ≠ auto PR.",
+      },
+      {
         label: "Spouse LTVP + PMLA",
         href: "/guides/spouse-ltvp-pmla-singapore",
         blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
@@ -606,7 +611,7 @@ export const pillars: Pillar[] = [
       {
         label: "Student PR",
         href: "/guides/pr-for-student-singapore",
-        blurb: "National exam / IP eligibility row — not private-exam folklore.",
+        blurb: "National exam / IP row only — eligibility ≠ approval; NS for males.",
       },
       {
         label: "EP renewal docs",
@@ -637,6 +642,11 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
+      },
+      {
+        label: "Renounce PR",
+        href: "/guides/renouncing-pr-singapore",
+        blurb: "ICA e-Service + 30-day Visit Pass — NS exits are not free.",
       },
       {
         label: "PR rejected — appeal / reapply",
