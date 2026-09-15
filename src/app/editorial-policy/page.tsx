@@ -51,9 +51,11 @@ export default function EditorialPolicyPage() {
           <h2 className="font-display text-2xl text-ink">Research inputs</h2>
           <p className="mt-3">
             We mine public forums and Reddit for recurring pain points, then
-            verify claims against official pages before shipping. Peer anecdotes
-            illustrate uncertainty; they never replace agency text. We do not
-            copy third-party expat roundups or AI-generated clone sites.
+            verify claims against official pages before shipping — especially on
+            high-stakes Next-pillar topics (passes, PR, citizenship, NS, exits).
+            Peer anecdotes illustrate uncertainty; they never replace agency
+            text. We do not copy third-party expat roundups or AI-generated clone
+            sites.
           </p>
         </section>
 
