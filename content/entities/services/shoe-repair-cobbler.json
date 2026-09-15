@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "shoe-repair-cobbler",
+  "name": "Shoe repair and cobblers",
+  "summary": "How expats find cobblers in Singapore for sole replacements, heel tips, and bag repairs — mall kiosks vs workshop quality, turnaround, and when repair beats replacing tropical-wear shoes.",
+  "body": "Heat, rain, and MRT miles destroy heels and glued soles faster than many temperate cities. Cobblers and shoe-repair kiosks handle resoling, stitching, zipper swaps, and some leather-bag fixes.\n\n## Typical jobs\n- Heel tips and sole replacements\n- Stretching and minor fitting tweaks\n- Bag zippers and strap repairs\n- Deep cleaning / colour restoration (variable quality)\n- School shoe emergency fixes\n\nAsk whether adhesives used tolerate humidity and how waterproofing is claimed.\n\n## How to choose\nWorkshop cobblers often outlast pure polish kiosks for structural jobs. Get quotes before leaving premium shoes. Turnaround of 3–10 days is common; rush fees exist before travel. Photograph damage for insurance if shoes were airline-damaged.\n\n## Practical tip\nKeep a spare office pair at work during monsoon weeks. Resole favourites early — waiting until the midsole is gone raises cost past replacement.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Heel tip / sole repair vs buying new in humidity wear",
+    "Leather bag zipper or strap repair needed",
+    "Rush cobbler turnaround before travel",
+    "Mall kiosk vs workshop quality for premium shoes"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "mrt-bus-transport-literacy"
+  ],
+  "featured": false,
+  "sponsored": false
+}

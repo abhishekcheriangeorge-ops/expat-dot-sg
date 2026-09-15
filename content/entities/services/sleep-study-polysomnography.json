@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "sleep-study-polysomnography",
+  "name": "Sleep studies (polysomnography)",
+  "summary": "How expats arrange overnight sleep studies in Singapore for OSA workups — lab vs home tests, referral paths, and how results feed CPAP or dental-appliance decisions.",
+  "body": "A sleep study measures breathing, oxygen, and sleep stages to diagnose obstructive sleep apnoea and related disorders. It sits upstream of CPAP clinics and oral-appliance pathways — do not buy machines or dental devices before the diagnostic question is answered.\n\n## Formats\n- In-lab overnight polysomnography (attended)\n- Home sleep apnoea testing for selected patients\n- Titration studies when CPAP settings need formal calibration\n- Multiple sleep latency testing in rarer hypersomnia workups\n\nYour sleep physician or ENT/respiratory referrer chooses the modality; DIY consumer rings are not a substitute for reimbursement-grade diagnosis.\n\n## Access and cost\nPublic pathways are referral-gated; private sleep labs offer faster booking at higher cash cost. Insurance may cover medically indicated studies with pre-auth — confirm before the night stay. Bring medication lists and note shift-work patterns that affect scheduling.\n\n## How to choose\nPrefer labs that explain hookup comfort, cancellation rules, and how quickly scored reports return to the referring doctor. Ask whether a split-night study is possible. Avoid vendors selling CPAP the same morning as an unreviewed home test.\n\n## Practical tip\nSkip afternoon caffeine and heavy alcohol before the study unless told otherwise. Pack button-front pyjamas and your usual nasal sprays — wire comfort affects sleep quality and data usefulness.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Loud snoring / witnessed apnoeas need formal diagnosis",
+    "Lab vs home sleep-test modality unclear",
+    "Insurer pre-auth for polysomnography needed",
+    "CPAP or oral-appliance decision waiting on study results"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

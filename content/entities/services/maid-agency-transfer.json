@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "maid-agency-transfer",
+  "name": "Domestic helper transfer agencies",
+  "summary": "How expats use MDW transfer agencies in Singapore when hiring an already-in-country helper — documentation, probation norms, and how transfers differ from first-time overseas hires.",
+  "body": "Transfer hires place a helper already in Singapore with a new employer. Agencies intermediate matching, MOM paperwork, and sometimes short handovers. This is different from first-time overseas recruitment timelines and costs.\n\n## Why transfers appeal\n- Faster start than overseas pipelines\n- Prior Singapore experience (English, public transport, condo rules)\n- Shorter uncertainty on cultural fit — still not zero risk\n\nPrior employment disputes, rest-day norms, and loan/salary histories still need careful interviews.\n\n## Process checkpoints\n- Verify work-pass eligibility and transfer consent steps on MOM channels\n- Clear safety orientation and house rules in writing\n- Medical check requirements on transfer\n- Agency fees vs direct-employer responsibilities\n- Exit/cancellation planning if the match fails\n\nUse official MOM guidance as source of truth; agency WhatsApp summaries go stale.\n\n## How to choose\nPrefer agencies that allow proper interviews, disclose prior placement context lawfully, and do not pressure same-day signatures. Cross-check fee schedules and refund rules. Pair with the hiring-helper guide for levy, insurance, and rest-day baselines.\n\n## Practical tip\nCheck references where possible and run a paid trial period with documented expectations. Keep copies of the employment contract and safety agreement in shared cloud storage for both spouses.\n",
+  "category": "fdw",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.mom.gov.sg/",
+  "whenToEngage": [
+    "Hiring an in-Singapore MDW via transfer vs overseas pipeline",
+    "Agency transfer fees and refund rules unclear",
+    "Need structured interview before same-day placement pressure",
+    "Transfer medical and MOM documentation checklist"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM — FDW",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker"
+    },
+    {
+      "label": "Ministry of Manpower",
+      "url": "https://www.mom.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hiring-domestic-helper-mdw",
+    "fdw-cancellation-when-leaving-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

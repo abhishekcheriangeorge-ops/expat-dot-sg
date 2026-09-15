@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "scoliosis-spine-clinics",
+  "name": "Scoliosis and spine clinics",
+  "summary": "How expat families and adults find scoliosis and spine clinics in Singapore for adolescent curves, bracing discussions, and adult degenerative spine pain — distinct from one-off chiropractic packages.",
+  "body": "Scoliosis care ranges from school-age curve monitoring to adult deformity and degenerative spine clinics. Expats often arrive mid-brace journey or with overseas X-rays that need local reinterpretation.\n\n## Typical pathways\n- Adolescent idiopathic scoliosis screening and follow-up\n- Bracing education and physiotherapy scoliosis-specific exercise\n- Surgical counselling for progressive large curves\n- Adult degenerative scoliosis / stenosis overlaps with ortho spine\n- Second opinions when overseas recommendations conflict\n\nRed flags (fever, progressive weakness, bowel/bladder change) belong in urgent medical care, not elective posture clinics.\n\n## How to choose\nPrefer orthopaedic spine or specialist clinics that measure Cobb angles consistently and explain observation vs brace vs surgery thresholds. Bring prior films on disk. Be wary of indefinite “posture correction” packages that never quantify curve change.\n\n## Practical tip\nFor teens, coordinate imaging with growth-spurt timing and school exam stress. Keep a simple photo log of brace wear hours if compliance is part of the plan — clinics ask.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Adolescent curve monitoring or bracing discussion",
+    "Overseas scoliosis films need local second opinion",
+    "Adult degenerative scoliosis / spine clinic referral",
+    "Posture package quoted without Cobb-angle follow-up"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "KK Women's and Children's Hospital",
+      "url": "https://www.kkh.com.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "international-schools-landscape"
+  ],
+  "featured": false,
+  "sponsored": false
+}

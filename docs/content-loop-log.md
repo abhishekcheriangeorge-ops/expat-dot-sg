@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 24 — 2026-09-15
+
+Branch: `cursor/services-directory-tick24-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204→#207); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — sleep-study booking / CPAP-before-diagnosis scepticism.
+- Parent forums — scoliosis bracing vs observation second opinions.
+- FDW forums — transfer helper vs first-time overseas hire trade-offs.
+- Hobby forums — baking workshop kit fees and condo oven complaints.
+- Practical living threads — cobbler vs replace shoes after monsoon wear.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [KKH](https://www.kkh.com.sg/).
+- [MOM FDW](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker).
+- [SkillsFuture](https://www.skillsfuture.gov.sg/) + [CASE](https://www.case.org.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#207 cover prior depth and every on-main service file. Free surface for tick 24: **sleep studies**, **scoliosis/spine**, **MDW transfer agencies**, **baking classes**, **shoe repair**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/sleep-study-polysomnography.json`
+- `content/entities/services/scoliosis-spine-clinics.json`
+- `content/entities/services/maid-agency-transfer.json`
+- `content/entities/services/baking-classes.json`
+- `content/entities/services/shoe-repair-cobbler.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#207 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Home sleep test or in-lab study for suspected OSA?
+2. When does a teen curve need bracing vs watchful waiting?
+3. Transfer MDW agency fee fair vs overseas pipeline?
+4. Do baking class fees include take-home kits?
+5. Resole office shoes or replace after monsoon damage?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 24)
 
 Branch: `cursor/loop-d-next-polish-tick24-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Family / Belong / Home body trees beyond Move parent cross-links for PEP / ONE / Tech / EntrePass / incorporate. Avoided open Loop D file sets from [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183) / [#193](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/193).

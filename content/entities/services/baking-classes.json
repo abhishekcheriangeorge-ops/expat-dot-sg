@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "baking-classes",
+  "name": "Baking and pastry classes",
+  "summary": "How expats find baking and pastry classes in Singapore — hobby workshops, kid birthday sessions, and diploma-lite courses — including condo oven limits and kit fees to clarify before paying.",
+  "body": "Baking classes range from single macaron workshops to multi-week pastry foundations. Condos with poor ovens make studio time valuable; humidity also changes dough behaviour versus temperate home recipes.\n\n## Formats\n- Drop-in themed workshops\n- Kids’ holiday baking camps\n- Sourdough / bread series\n- Professional short courses for career pivots\n- Private group bookings\n\nAsk whether ingredients, take-home boxes, and apron laundry are included.\n\n## How to choose\nRead recent class photos for batch size and instructor attention. Prefer kitchens that teach weighing metric and humidity tips for Singapore kitchens. For kids, confirm age minimums and allergen policies. Diploma marketing aimed at career changers should disclose internship reality — not just Instagram cakes.\n\n## Practical tip\nIf your condo oven runs hot/cold, bring an oven thermometer to class discussions. Book evening weekday slots if weekends are packed with CCA.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.skillsfuture.gov.sg/",
+  "whenToEngage": [
+    "Hobby pastry workshop or multi-week foundations course",
+    "Kids’ holiday baking camp search",
+    "Kit / ingredient fees unclear before booking",
+    "Condo oven limits — need studio practice time"
+  ],
+  "officialLinks": [
+    {
+      "label": "SkillsFuture",
+      "url": "https://www.skillsfuture.gov.sg/"
+    },
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "hobby-sports-communities-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
