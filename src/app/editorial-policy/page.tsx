@@ -62,13 +62,15 @@ export default function EditorialPolicyPage() {
             verify claims against official pages before shipping — especially on
             high-stakes Next-pillar topics (passes, PR including child and spouse
             sponsorship and aged-parent PR vs LTVP, spouse LTVP / PMLA and
-            PLOC / LOC work rights, student PR national-exam row, EP job-loss
-            → spouse LTVP bridges, Right of Entry for under-21 dual-passport
-            SCs, citizenship confirmation letters, EP renewal NOA / document
-            asks, Re-Entry Permit rules and passport transfers, ROE transfer
-            on new foreign passport, spouse LTVP renewal / PMLA LLE window,
-            SCJ SEV / CSS booking after IPA, citizenship application and
-            ORAL, adult SC renunciation, NRIC loss / address /
+            PLOC / LOC work rights, student PR national-exam row, NRIC
+            re-registration at 30 / 55, eCOA address changes, Singapore
+            Citizenship Journey after IPA, WICA light-duty / claim clocks,
+            EP training-bond resign after IPA, SAL e-Apostille for
+            notarised and ACRA docs, PLOC / LOC renewal sequencing,
+            EP cancel → spouse LTVP same-week checklist, annual
+            stay/exit review calendar, EP renewal NOA / document asks,
+            Re-Entry Permit rules and passport transfers, citizenship
+            application and ORAL, adult SC renunciation, NRIC loss / address /
             re-registration / name change, NS, exits). When agencies
             publish dated
             revisions (for example MHA / ICA REP process changes), we prefer the

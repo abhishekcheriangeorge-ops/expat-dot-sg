@@ -83,11 +83,13 @@ export default function AboutPage() {
               adult SC renunciation, NRIC loss / re-registration / name change,
               child and spouse PR sponsorship, aged-parent PR vs LTVP,
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
-              EP job-loss → spouse LTVP bridges, Right of Entry for under-21
-              dual-passport SCs, citizenship confirmation letters,
-              REP passport transfers, ROE transfer on new foreign
-              passport, spouse LTVP renewal / PMLA LLE window, SCJ
-              SEV / CSS booking after IPA, EP renewal NOA asks, pass
+              NRIC re-registration at 30 / 55, eCOA address changes,
+              Singapore Citizenship Journey after IPA,
+              WICA light-duty / claim clocks, EP training-bond resign
+              after IPA, SAL e-Apostille for notarised and ACRA docs,
+              PLOC / LOC renewal sequencing, EP cancel → spouse LTVP
+              same-week checklist, annual stay/exit review calendar,
+              REP passport transfers, EP renewal NOA asks, pass
               cancellations) are checked against live ICA / MOM / MHA text
               before we ship.
             </li>

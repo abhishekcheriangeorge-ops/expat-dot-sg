@@ -6,6 +6,57 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 21)
+
+Branch: `cursor/loop-d-next-polish-tick21-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162) / [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169). (#99 merged to main before this tick.)
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — renew PLOC while LTVP almost expired; employer tries to file PLOC.
+- r/askSingapore — layoff week burns days before HR STVP / ICA spouse LTVP emails.
+- r/askSingapore — “decide after CNY” after school deposits already paid.
+
+**Official**
+
+- [MOM — PLOC eligibility](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) · [FormSG PLOC](https://form.gov.sg/65b84e2aa1b08110518e9706) · [LOC renew](https://www.mom.gov.sg/passes-and-permits/loc-for-ica-issued-ltvp-holders/renew-cancel-or-replace)
+- [MOM — Cancel EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) · [Spouse LTVP SC/PR](https://www.ica.gov.sg/reside/LTVP)
+- [ICA — PR](https://www.ica.gov.sg/reside/PR) · [IRAS IR21](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees)
+
+### Gaps vs open stack
+
+Open #83→#169 (minus merged #99) cover NS Exit through ROE/SCJ/spouse LTVP renewal. Remaining high-intent **Next** gaps: **PLOC/LOC renewal sequencing**, **EP cancel + SC/PR spouse same-week checklist**, **annual stay/exit review calendar**.
+
+### Shipped
+
+**New:** `ploc-renewal-ltvp-sequencing-singapore.mdx`, `ep-cancel-spouse-ltvp-same-week-checklist-singapore.mdx`, `annual-stay-exit-review-calendar-singapore.mdx`
+
+**Upgraded:** `ploc-loc-ica-ltvp-singapore.mdx`, `ep-job-loss-spouse-ltvp-bridge-singapore.mdx`, `long-term-stay-vs-exit.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #83 / #89 / #114 / #123 / #130 / #138 / #146 / #151 / #162 / #169 guide bodies (including #169 spouse-LTVP / SCJ / ROE parents).
+
+### Questions mined
+
+1. Must I renew LTVP before PLOC?
+2. Can my employer apply for PLOC for me?
+3. How do I request PLOC after I skipped it on renewal?
+4. When can an employer renew LOC?
+5. What do I email HR the day EP cancel is announced if my spouse is SC?
+6. Do Dependant Passes survive EP cancel?
+7. Should I wait for STVP before filing spouse LTVP?
+8. Is PMLA a post-layoff speed tool?
+9. When should we run the annual stay/exit review?
+10. Which lock-ins fake a soft maybe?
+11. Does PR approval end the stay/exit conversation?
+12. How does the review sit beside EP renewal and school deposits?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 20)
 
 Branch: `cursor/loop-d-next-polish-tick20-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162).
