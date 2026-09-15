@@ -2,16 +2,18 @@
   "type": "club",
   "slug": "british-association",
   "name": "British Association of Singapore",
-  "summary": "Community and events association for Brits and friends of Britain in Singapore.",
-  "body": "BAS offers social programming and community touchpoints without full club capital costs. Useful alongside or instead of British Club membership depending on your budget and facilities needs.",
+  "summary": "Nationality association for Brits and friends — soft-landing events, community notices, and a lighter alternative to country-club membership.",
+  "body": "The British Association of Singapore is a nationality-community layer rather than a full sports club: events, notices, and soft-landing introductions for British and Commonwealth-adjacent households. It pairs well with BritCham when you need professional adjacency and with British Club or Hollandse-style memberships when you need facilities. Use it for week-one calendar density — festival gatherings, family meetups, newcomer briefings — then decide whether a paid membership club still earns its keep. Forum ‘make friends as a foreigner’ advice often points at nationality associations before InterNations mixers; show up twice before judging the room.",
   "category": "association",
   "focus": [
-    "British",
-    "social",
-    "families"
+    "British community",
+    "families",
+    "events",
+    "newcomers"
   ],
-  "membershipNotes": "Association-level dues.",
+  "membershipNotes": "Association dues are typically far below country-club entrance fees — confirm live categories and event access for non-members.",
   "website": "https://www.britishassociation.org.sg",
+  "neighbourhood": "tanglin-dempsey",
   "featured": false,
   "sponsored": false
 }

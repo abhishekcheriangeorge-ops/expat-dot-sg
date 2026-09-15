@@ -1,16 +1,19 @@
 {
   "type": "club",
   "slug": "german-association",
-  "name": "German Association (Teutonia)",
-  "summary": "German community association with cultural events and social programming.",
-  "body": "Teutonia / German Association life pairs naturally with GESS families and German corporate circles. Events and language spaces help trailing partners and teens stay connected.",
-  "category": "nationality",
+  "name": "German Association Singapore",
+  "summary": "German community association for cultural events, language adjacency, and soft landings — distinct from chamber BD calendars.",
+  "body": "The German Association is a cultural and community hub for German-speaking households: events, language-adjacent programming, and newcomer orientation that sits beside (not inside) EuroCham or Swiss Club membership maths. Useful in week one when you need festival calendars and family meetups without paying country-club entrance fees. Pair with German-system or international school logistics if your posting is family-heavy, and with EuroCham only if BD is the actual goal. As with other nationality associations, belonging comes from repeat attendance — one mixer rarely sticks.",
+  "category": "association",
   "focus": [
-    "German",
+    "German community",
     "culture",
-    "social"
+    "events",
+    "families"
   ],
-  "membershipNotes": "Annual membership; events calendars drive value.",
+  "membershipNotes": "Confirm live membership categories, language of events, and guest access before budgeting.",
+  "website": "https://www.german-association.org.sg",
+  "neighbourhood": "bukit-timah",
   "featured": false,
   "sponsored": false
 }
