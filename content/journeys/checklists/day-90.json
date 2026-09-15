@@ -23,9 +23,17 @@
     {
       "id": "tax-residency",
       "title": "Sketch your tax residency timeline + filing season",
-      "detail": "IRAS tax residency often hinges on days present and employment. Note your arrival date; open myTax Portal once Singpass works. YA 2026 e-Filing runs 1 Mar–18 Apr 2026 — put it on the calendar even in your first year.",
+      "detail": "IRAS tax residency often hinges on days present and employment. Note your arrival date; open myTax Portal once Singpass works. Use the tax-residency day sketch for the common ≥183-day calendar-year test. YA 2026 e-Filing runs 1 Mar–18 Apr 2026 — put it on the calendar even in your first year.",
       "pillar": "money",
-      "href": "/calendar"
+      "href": "/tools/tax-residency"
+    },
+    {
+      "id": "between-jobs-awareness",
+      "title": "Skim the between-jobs playbook once",
+      "detail": "If you ever change employers without leaving Singapore, STVP timing, Dependant Pass fall-through, and IR21-vs-rehire rules matter more than LinkedIn. Keep the sequence bookmarked before you need it.",
+      "pillar": "next",
+      "optional": true,
+      "href": "/journeys/between-jobs"
     },
     {
       "id": "emergency-pack",

@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "teachers-day-2026",
+  "title": "Teachers’ Day school holiday",
+  "summary": "MOE Teachers’ Day school holiday on Fri 4 Sep 2026 — sits just before the Term 3 break (5–13 Sep). Plan leave or backup care early.",
+  "date": "2026-09-04",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}

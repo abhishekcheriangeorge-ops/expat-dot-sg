@@ -58,19 +58,27 @@ export async function getChecklistBySlug(
   return checklists.find((c) => c.slug === slug) ?? null;
 }
 
-export async function getLeavingPlaybook(): Promise<LeavingPlaybook | null> {
-  const filePath = path.join(JOURNEYS_DIR, "leaving-singapore.json");
+async function getPlaybookByFilename(
+  filename: string,
+): Promise<LeavingPlaybook | null> {
+  const filePath = path.join(JOURNEYS_DIR, filename);
   try {
     const raw = await fs.readFile(filePath, "utf8");
     const result = LeavingPlaybookSchema.safeParse(JSON.parse(raw));
     if (!result.success) {
-      throw new Error(
-        `Invalid leaving playbook: ${result.error.message}`,
-      );
+      throw new Error(`Invalid playbook (${filename}): ${result.error.message}`);
     }
     return result.data;
   } catch (err) {
     if ((err as NodeJS.ErrnoException).code === "ENOENT") return null;
     throw err;
   }
+}
+
+export async function getLeavingPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("leaving-singapore.json");
+}
+
+export async function getBetweenJobsPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("between-jobs.json");
 }

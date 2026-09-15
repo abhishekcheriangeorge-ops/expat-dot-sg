@@ -1,0 +1,88 @@
+{
+  "type": "playbook",
+  "slug": "between-jobs",
+  "title": "Between jobs (EP gap)",
+  "summary": "Resigning or being let go without leaving Singapore yet — STVP buffer, IR21 vs stay-and-rehire, Dependant Pass risk, Singpass grace, and the new IPA sequence so the gap stays lawful.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "decide-path",
+      "title": "Decide: leave Singapore vs stay-and-rehire",
+      "body": "If you are exiting Singapore for good, use the Leaving playbook (IR21, shipping, deposit). If you plan to stay and start another EP, treat this as a lawful-stay problem first and a tax-clearance problem second. New IPA approval does not auto-cancel the old EP — the current employer still cancels.",
+      "bullets": [
+        "Leaving permanently → /journeys/leaving (IR21 ≥1 month lead time)",
+        "Stay in Singapore for a new job → ask HR to request STVP at cancellation (up to 90 days)",
+        "MOM: existing EP is not cancelled automatically when a new EP is approved"
+      ],
+      "href": "https://www.mom.gov.sg/faq/employment-pass/if-an-ep-or-s-pass-holder-changes-jobs-is-the-existing-pass-automatically-cancelled"
+    },
+    {
+      "id": "stvp-buffer",
+      "title": "Lock the STVP buffer on cancellation day",
+      "body": "Employer cancels within one week after your last day (advance cancel allowed up to 14 days). If you are still in Singapore, HR should request a Short-Term Visit Pass at cancellation — MOM cites valid stay for up to 90 days. Forum folklore often says “default 30 days”; ask explicitly for the longer window. You cannot work on STVP.",
+      "bullets": [
+        "Confirm cancellation date vs last working day in writing with HR",
+        "Request STVP in the same EP eService cancellation flow (or within a day after expiry)",
+        "STVP is typically single-entry — leaving Singapore usually ends that visit pass",
+        "Cut the cancelled EP card in half once MOM instructs; keep digital STVP email"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass"
+    },
+    {
+      "id": "dependants",
+      "title": "Dependant / LOC statuses fall with the main pass",
+      "body": "When the main EP cancels, related Dependant Passes and Letter of Consent statuses cancel with it. Spouse and kids need their own lawful stay plan (STVP request, leave Singapore, or a new sponsoring pass) — do not assume school term alone keeps them legal.",
+      "bullets": [
+        "Map every related pass before cancellation day",
+        "School attendance does not replace a valid pass",
+        "If the new employer will sponsor DPs, sequence IPA / issuance before the old cards die when possible"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass"
+    },
+    {
+      "id": "tax-gap",
+      "title": "IR21 only when you are actually leaving the tax net",
+      "body": "Tax clearance (Form IR21) applies when a non-citizen employee ceases employment, goes on overseas posting, or leaves Singapore for more than three months. A same-year rehire can still trigger clearance on the first cessation — then IRAS may reassess when total employment days later pass 183. Keep payslips; sketch residency days with the tax-residency tool.",
+      "bullets": [
+        "Ask HR whether they will file IR21 on this cessation",
+        "Expect salary withhold until a Directive / release notification if IR21 is filed",
+        "Same-calendar-year rehire: total days can flip you to resident rates — see IRAS re-employment FAQ",
+        "Use /tools/tax-residency to sketch the 183-day calendar-year count"
+      ],
+      "href": "https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/i-am-re-employed-in-singapore"
+    },
+    {
+      "id": "singpass-banks",
+      "title": "Singpass grace, banks, and myTax continuity",
+      "body": "Singpass guidance for expired/cancelled work passes cites about three months of continued login, without Myinfo data, before deactivation. That grace is not immigration status. If April filing is still ahead and FIN access looks shaky, start an IRAS Singpass Foreign user Account (SFA) early. Tell your bank the pass status changed so KYC does not freeze PayNow mid-job-hunt.",
+      "bullets": [
+        "Export statements and update recovery contacts while Singpass still works",
+        "Do not treat Singpass login as proof you may work or overstay",
+        "If leaving before tax season, prefer SFA over hoping FIN Singpass survives"
+      ],
+      "href": "https://ask.gov.sg/singpass/questions/clul2p4cf003s3b8g1podbru7"
+    },
+    {
+      "id": "new-ipa",
+      "title": "New IPA → issuance → card (while STVP runs)",
+      "body": "Job offers still need COMPASS / qualifying salary on the live MOM table. Time the new employer’s application so IPA and issuance fit inside your STVP window. You may not work until the new pass is issued. Calendar the 1 Jan 2027 EP salary uplift if the offer straddles that date.",
+      "bullets": [
+        "Check /tools/ep-threshold against the offer and regime (pre/post 1 Jan 2027)",
+        "Old employer cancels; new employer applies — two different EP eService actors",
+        "Keep STVP email + passport ready for any short exit; assume re-entry needs a fresh permission"
+      ],
+      "href": "/tools/ep-threshold"
+    },
+    {
+      "id": "housing-cash",
+      "title": "Lease and cash while unemployed",
+      "body": "Diplomatic clauses and early-exit fees decide whether you keep the condo through the gap. Deposit recovery still needs check-out photos. If you resign into a cheaper place, sketch lease duty before you LOI again.",
+      "bullets": [
+        "Re-read diplomatic / early termination clauses this week",
+        "Keep one SGD account funded for rent while IR21 withhold (if any) clears",
+        "Lease-duty sketch: /tools/lease-duty · first-month cash: /tools/setup-cash"
+      ],
+      "href": "/tools/lease-duty"
+    }
+  ]
+}

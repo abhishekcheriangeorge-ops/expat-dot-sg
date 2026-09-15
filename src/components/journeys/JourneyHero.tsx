@@ -89,10 +89,16 @@ export function ArrivingPhaseNav({ active }: PhaseNavProps) {
           );
         })}
         <Link
-          href="/journeys/leaving"
+          href="/journeys/between-jobs"
           className="ml-auto text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
         >
-          Leaving playbook →
+          Between jobs →
+        </Link>
+        <Link
+          href="/journeys/leaving"
+          className="text-sm font-medium text-ink-muted no-underline hover:text-ink"
+        >
+          Leaving →
         </Link>
       </div>
     </nav>

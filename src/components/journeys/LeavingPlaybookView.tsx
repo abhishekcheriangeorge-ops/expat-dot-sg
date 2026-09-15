@@ -62,6 +62,18 @@ export function LeavingPlaybookView({ playbook }: LeavingPlaybookViewProps) {
             ← Arriving checklists
           </Link>
           <Link
+            href="/journeys/between-jobs"
+            className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Between-jobs playbook
+          </Link>
+          <Link
+            href="/journeys/leaving"
+            className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Leaving playbook
+          </Link>
+          <Link
             href="/tools"
             className="text-sm font-medium text-ink-muted no-underline hover:text-ink"
           >

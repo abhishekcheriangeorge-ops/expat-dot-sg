@@ -6,6 +6,80 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 3)
+
+Branch: `loop/e-journeys-tools-tick3` → PR to `main`. Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — EP resign / STVP folklore ([EP resignation STVP](https://www.reddit.com/r/askSingapore/comments/1ttedbd/ep_question_on_resignation_stvp/); [EP cancel → STVP timing](https://www.reddit.com/r/askSingapore/comments/1jk7dy7/ep_cancellation_stvp_approval/); [LTVP after job loss](https://www.reddit.com/r/askSingapore/comments/1q66ra7/getting_an_ltvp_after_losing_job/)).
+- Forum heat: “default 30-day STVP” vs ask-for-90; STVP single-entry; Dependant Pass falls with main EP; IR21 vs same-year rehire.
+
+**Official**
+
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) (STVP up to 90 days; cancel within 1 week; related passes cancel).
+- [MOM — Job change does not auto-cancel EP](https://www.mom.gov.sg/faq/employment-pass/if-an-ep-or-s-pass-holder-changes-jobs-is-the-existing-pass-automatically-cancelled).
+- [IRAS — Working out my tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency) (≥183 days; 3 consecutive years; straddling employment).
+- [IRAS — Re-employment in Singapore](https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/i-am-re-employed-in-singapore).
+- [Singpass — Work Permit expired/cancelled grace](https://ask.gov.sg/singpass/questions/clul2p4cf003s3b8g1podbru7) (~3 months login; no Myinfo; not immigration status).
+- [MOE calendar 2026](https://www.moe.gov.sg/calendar) — Youth Day / Teachers’ Day / Children’s Day.
+- [MOM — EP eligibility / 1 Jan 2027 uplift](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility).
+
+### Gaps vs Loop E ticks 1–2
+
+Ticks 1–2 shipped arriving 7/30/90 depth, leaving IR21/STVP/SFA, AEIS/tax calendar, lease-duty + setup-cash + EP tables. Remaining high-intent journey/tool gaps: **between-jobs playbook** (distinct from full exit), **tax-residency day sketch**, **EP salary uplift on calendar**, **MOE Youth/Teachers’/Children’s Day care gaps**. Skipped pillar guide MDX.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/between-jobs.json` + `/journeys/between-jobs`
+- Journeys index / leaving / arriving nav cross-links
+- `day-90.json` — tax-residency tool + between-jobs awareness items
+- `leaving-singapore.json` — stay-and-rehire pointer
+
+**Tools**
+
+- `src/lib/tools/tax-residency.ts`
+- `src/components/tools/TaxResidencyCalculator.tsx`
+- `/tools/tax-residency` + tools index + sitemap
+
+**Calendar**
+
+- `ep-salary-uplift-2027.json` (featured)
+- `youth-day-2026.json`, `teachers-day-2026.json`, `childrens-day-2026.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did **not** edit pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. When my EP cancels between jobs, do I automatically get 90 days STVP?
+2. Can I leave Singapore on STVP and fly back on the same visit pass?
+3. Does a new IPA auto-cancel my old EP?
+4. What happens to my spouse’s Dependant Pass when my EP dies?
+5. Does resigning into a new job still trigger IR21?
+6. If I work Jan–Mar then Aug–Dec, am I tax resident for that YA?
+7. How do I sketch the 183-day calendar-year test before April filing?
+8. Does Singpass keep working after EP cancel, and is that the same as lawful stay?
+9. When do MOM EP qualifying salaries rise again?
+10. Which MOE single-day holidays need backup childcare in 2026?
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 3)
 
 Branch: `cursor/loop-g-seo-tick3-a144` → PR to `main`. Owns shell/metadata/hubs/crosslink depth only. Did **not** rewrite A–F/H guide bodies; skipped ads inventory / Grok; left tick-1 pillar topics and tick-2 hub OG work alone beyond shell reciprocity.

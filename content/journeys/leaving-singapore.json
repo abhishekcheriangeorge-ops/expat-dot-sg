@@ -2,7 +2,7 @@
   "type": "playbook",
   "slug": "leaving-singapore",
   "title": "Leaving Singapore",
-  "summary": "A practical exit sequence — IR21 tax clearance, housing deposits, shipping, pass cancellation with STVP buffer, and CPF closure — so the last two months are orderly rather than chaotic.",
+  "summary": "A practical exit sequence — IR21 tax clearance, housing deposits, shipping, pass cancellation with STVP buffer, and CPF closure — so the last two months are orderly rather than chaotic. Changing employers while staying in Singapore? Use the between-jobs playbook instead.",
   "lastReviewed": "2026-09-15",
   "sections": [
     {
@@ -14,7 +14,8 @@
         "T−8 to T−6 weeks: serve lease / diplomatic-clause notice; request school transcripts; start pet-export paperwork if needed",
         "T−4 weeks: IR21 should already be with IRAS (e-file typically ~7 working days; paper up to ~21 days); keep living costs covered while salary is withheld",
         "T−2 to T−1 weeks: pass cancellation / STVP buffer, utilities finals, soft goodbyes",
-        "After departure: keep one SGD account briefly for deposit refunds and tax directives if needed"
+        "After departure: keep one SGD account briefly for deposit refunds and tax directives if needed",
+        "Staying in Singapore for a new EP? Switch to /journeys/between-jobs — do not follow the full exit shipping path"
       ],
       "href": "https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/tax-clearance-for-non-singapore-citizen-employees"
     },

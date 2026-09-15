@@ -40,7 +40,14 @@ export default async function LeavingJourneyPage() {
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
         <p className="text-sm text-ink-faint">
-          Narrative depth:{" "}
+          Changing jobs without leaving?{" "}
+          <Link
+            href="/journeys/between-jobs"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Between-jobs playbook
+          </Link>{" "}
+          · Narrative depth:{" "}
           <Link
             href="/guides/leaving-singapore-playbook"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"

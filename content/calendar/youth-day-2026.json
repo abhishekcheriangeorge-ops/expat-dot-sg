@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "youth-day-2026",
+  "title": "Youth Day school holiday",
+  "summary": "Youth Day falls on Sun 5 Jul 2026; MOE schools observe Mon 6 Jul 2026 as the school holiday. Useful childcare gap if offices stay open.",
+  "date": "2026-07-06",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}
