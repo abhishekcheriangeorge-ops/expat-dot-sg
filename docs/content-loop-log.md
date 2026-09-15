@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 18) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick18-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next body trees. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), #129 (exam-week/IS PTA/teen driving), and #134 (sibling fees/newborn–preschool handoff/workplace belonging). Also skipped primary-CCA-vs-academy to stay clear of #115/#91 adjacency.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — bus late / CCA dismissal cliffs; Grab-as-daily-pickup regret.
+- r/askSingapore — teen class WhatsApp at midnight; phone bans that collapse on travel weeks.
+- r/askSingapore — condo parent chat politics; free babysitting assumptions; parcel-swap belonging.
+
+**Official**
+
+- [MOE — Student Care Centres](https://www.moe.gov.sg/education-in-sg/our-programme/student-care-centres)
+- [CSA](https://www.csa.gov.sg/) family digital-safety orientation
+- [HDB](https://www.hdb.gov.sg/) neighbourhood framing + estate MCST by-laws (private)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–17 (incl. open #80–#134) covered schools/SEN through workplace belonging. Remaining heat: **IS bus/pickup dual-career ops**, **teen phone/social household contracts**, **condo/block parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/international-school-bus-pickup-dual-career-singapore.mdx`
+- `content/guides/family/teen-phone-social-media-household-singapore.mdx`
+- `content/guides/belong/condo-block-parent-networks-belonging-singapore.mdx`
+
+**Upgraded guides** (low-conflict vs open B stack)
+
+- teen counselling, kids ADHD meds, braces, AEIS/SAEIS, getting married, book clubs
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/schools/nexus-international.json`
+- `content/entities/schools/dover-court.json`
+- `content/entities/schools/chatsworth-international.json`
+- `content/entities/clubs/british-association.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite open #80 / #91 / #100 / #108 / #115 / #129 / #134 bodies; avoided contested files in that stack where possible.
+
+### Questions mined (sample)
+
+1. Who owns Wednesday pickup when CCA runs late?
+2. Is Grab a backup fund or a daily habit?
+3. What is the household phone sleep window?
+4. Do class chats mute overnight?
+5. Can condo chats become unpaid childcare?
+6. How many neighbours have explicitly said yes to an emergency scenario?
+7. Where do phones charge during mock weeks?
+8. What is the bus SMS contact for delays?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 17) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick17-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Life / Next body trees beyond a light Home cross-link on MDW hiring. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), and #129 (exam-week coverage/IS PTA/teen driving).

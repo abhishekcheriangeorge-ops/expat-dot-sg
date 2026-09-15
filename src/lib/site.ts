@@ -202,6 +202,26 @@ export const pillars: Pillar[] = [
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
       },
       {
+        label: "Changing jobs on EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
+      },
+      {
+        label: "Student’s Pass work limits",
+        href: "/guides/student-pass-singapore",
+        blurb: "Vacation work exemption ≠ open labour market; LOE ≠ EP.",
+      },
+      {
+        label: "LTVP for partners & parents",
+        href: "/guides/ltvp-singapore",
+        blurb: "Not a DP; parent salary lane; work rights depend on product.",
+      },
+      {
+        label: "ONE Pass",
+        href: "/guides/one-pass-singapore",
+        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
+      },
+      {
         label: "S Pass vs EP",
         href: "/guides/ep-vs-s-pass-comparison",
         blurb: "No EP quota myth, levy/DRC, Sep 2025 S Pass floors.",
@@ -346,9 +366,19 @@ export const pillars: Pillar[] = [
         blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
       },
       {
-        label: "Insurance landscape",
+        label: "Remittances & FX",
+        href: "/guides/remittances-singapore",
+        blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
+      },
+      {
+        label: "Health insurance & LOG",
         href: "/guides/health-insurance-expat",
-        blurb: "Health, life, and what employers usually cover.",
+        blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
+      },
+      {
+        label: "CPF withdrawal when leaving",
+        href: "/guides/cpf-withdrawal-leaving-singapore",
+        blurb: "EP had no CPF; PR cash-out only after status ends.",
       },
       {
         label: "Cost of living",
@@ -423,14 +453,14 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "IS sibling fees & bursary",
-        href: "/guides/international-school-sibling-fees-bursary-singapore",
-        blurb: "Multi-child fee stacks, discounts, employer caps.",
+        label: "IS bus & pickup ops",
+        href: "/guides/international-school-bus-pickup-dual-career-singapore",
+        blurb: "Bus contracts, bridges, Grab overflow for two EPs.",
       },
       {
-        label: "Newborn→preschool handoff",
-        href: "/guides/newborn-preschool-handoff-dual-career-singapore",
-        blurb: "Confinement to infant-care relay for dual careers.",
+        label: "Teen phone household rules",
+        href: "/guides/teen-phone-social-media-household-singapore",
+        blurb: "Device contracts, chat hours, exam blackouts.",
       },
       {
         label: "Kids activities & calendar",
@@ -567,9 +597,9 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "Workplace parent belonging",
-        href: "/guides/workplace-parent-helper-community-belonging-singapore",
-        blurb: "ERGs, office parent chats, helper-community rails.",
+        label: "Condo parent networks",
+        href: "/guides/condo-block-parent-networks-belonging-singapore",
+        blurb: "Building chats and playground belonging rails.",
       },
 
       {
