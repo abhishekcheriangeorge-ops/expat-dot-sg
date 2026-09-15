@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "condo-mcst-exit",
+  "title": "Condo MCST / access exit",
+  "summary": "Leaving a condo or MCST-managed block — access cards, car-park IU, facility apps, renovation deposits, and who signs the agent-led handover so keys and remote fobs do not strand after you fly.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-access",
+      "title": "Inventory every access artefact early",
+      "body": "Condos rarely run on a single key. Count unit keys, mailbox keys, car-park remotes / IU, clubhouse tags, bike-room cards, and any condo app logins tied to your FIN or email. Photograph serial stickers on remotes. Agents often only chase the door set — missing IU or gym tags become deposit fights after you leave.",
+      "bullets": [
+        "List every physical token the day you decide to leave",
+        "Screenshot condo app account email / mobile before SIM changes",
+        "Ask the management office for their published return checklist"
+      ],
+      "href": "https://www.ura.gov.sg/"
+    },
+    {
+      "id": "mcst-office",
+      "title": "Book the MCST / managing agent window",
+      "body": "Many estates only process card deactivation and deposit refunds on weekday office hours. Diplomatic-clause exits and Friday flights collide with closed management counters. Schedule card return and car-park IU release before movers day — not after the last Grab to Changi.",
+      "bullets": [
+        "Confirm office hours and required ID (passport + tenancy / SPA proof)",
+        "Ask whether cards must be returned in person vs via the agent",
+        "Get written confirmation of what deposits the MCST vs landlord holds"
+      ],
+      "href": "/tools/lease-notice"
+    },
+    {
+      "id": "renovation-deposit",
+      "title": "Renovation / renovation-adjacent deposits",
+      "body": "If you drilled brackets, tinted glass, or ran approved works, an MCST renovation deposit may still be outstanding even when the landlord’s security deposit is a separate pot. Defect inspections and contractor invoices can delay refund weeks after keys are back. Do not assume “landlord deposit returned” means the MCST is done.",
+      "bullets": [
+        "Find the renovation permit / deposit receipt before packing",
+        "Book reinstatement photos the management office will accept",
+        "Leave a forwarding email that is not your soon-to-die work address"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "parking-iu",
+      "title": "Car-park IU and vehicle exit",
+      "body": "Season parking and IU tags often need a separate cancel from unit access cards. Selling or exporting the car adds LTA / dealer steps that do not auto-notify the condo office. Sketch residual COE / PARF cash separately so you do not hold the unit for a vehicle that already left.",
+      "bullets": [
+        "Cancel season parking in writing with an end date",
+        "Return or transfer IU hardware per estate rules",
+        "Sketch vehicle exit cash on /tools/car-coe-exit"
+      ],
+      "href": "/tools/car-coe-exit"
+    },
+    {
+      "id": "app-and-visitor",
+      "title": "Condo apps, visitor QR, and helper access",
+      "body": "Facility apps, visitor QR, and helper access rights linger after you leave if nobody revokes them. A former helper or guest QR that still opens the turnstile is a security and neighbour complaint risk. Revoke digital access the same week physical cards return.",
+      "bullets": [
+        "Remove household members from the condo app before cancel day",
+        "Invalidate standing visitor QR / plate whitelist entries",
+        "If a helper stays with a new employer, re-issue access under the new unit — do not share yours"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "handover-day",
+      "title": "Handover day sequencing",
+      "body": "Ideal order: management office card return → utility meter photos → landlord / agent key handover → leave. Reversing that order leaves you locked out of the management office while holding a car remote they still want. Keep one authorised adult on-island until MCST stamped the return form.",
+      "bullets": [
+        "Do not courier all cards from abroad and hope",
+        "Align mover load-out with car-park access still live",
+        "Keep copies of signed MCST return forms with the tenancy file"
+      ],
+      "href": "/journeys/leaving"
+    }
+  ]
+}

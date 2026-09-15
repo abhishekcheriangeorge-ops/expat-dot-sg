@@ -1,4 +1,5 @@
 export { AgentCommissionCalculator } from "./AgentCommissionCalculator";
+export { CarCoeExitCalculator } from "./CarCoeExitCalculator";
 export { ColCalculator } from "./ColCalculator";
 export { CpfWithdrawalCalculator } from "./CpfWithdrawalCalculator";
 export { EpThresholdCalculator } from "./EpThresholdCalculator";

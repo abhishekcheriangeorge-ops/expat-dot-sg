@@ -6,9 +6,9 @@ import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getBetweenJobsPlaybook,
   getChecklists,
-  getFamilyJoiningPlaybook,
+  getCondoMcstExitPlaybook,
   getLeavingPlaybook,
-  getNewbornSpecialPassPlaybook,
+  getLocDpWorkRightsPlaybook,
 } from "@/lib/content";
 import {
   breadcrumbJsonLd,
@@ -19,18 +19,18 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Arriving 7/30/90 checklists, family-joining and newborn Special Pass playbooks, between-jobs, and Leaving Singapore — practical sequences for expat life transitions.",
+    "Arriving 7/30/90 checklists, between-jobs, DP/LOC, condo MCST exit, and Leaving Singapore — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook, betweenJobs, familyJoining, newbornPass] =
+  const [checklists, playbook, betweenJobs, locDp, condoExit] =
     await Promise.all([
       getChecklists(),
       getLeavingPlaybook(),
       getBetweenJobsPlaybook(),
-      getFamilyJoiningPlaybook(),
-      getNewbornSpecialPassPlaybook(),
+      getLocDpWorkRightsPlaybook(),
+      getCondoMcstExitPlaybook(),
     ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -50,7 +50,7 @@ export default async function JourneysIndexPage() {
           collectionPageJsonLd({
             name: "Journeys",
             description:
-              "Arriving checklists, family-joining and between-jobs playbooks, and Leaving Singapore.",
+              "Arriving checklists, between-jobs and DP/LOC playbooks, and Leaving Singapore.",
             path: "/journeys",
             items: [
               ...arriving
@@ -60,16 +60,16 @@ export default async function JourneysIndexPage() {
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
               {
-                name: familyJoining?.title ?? "Family joining later",
-                path: "/journeys/family-joining",
-              },
-              {
-                name: newbornPass?.title ?? "Newborn Special Pass",
-                path: "/journeys/newborn-special-pass",
-              },
-              {
                 name: betweenJobs?.title ?? "Between jobs (EP gap)",
                 path: "/journeys/between-jobs",
+              },
+              {
+                name: locDp?.title ?? "DP work rights & Letter of Consent",
+                path: "/journeys/loc-dp-work-rights",
+              },
+              {
+                name: condoExit?.title ?? "Condo MCST / access exit",
+                path: "/journeys/condo-mcst-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -140,60 +140,6 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Family
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {familyJoining?.title ?? "Family joining later"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {familyJoining?.summary ??
-              "Dependant Pass IPA timing, Arrival Card, Singpass/bank week, and school seats when spouse or kids follow later."}{" "}
-            Pair with the{" "}
-            <Link
-              href="/tools/ipa-window"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              IPA window sketch
-            </Link>
-            .
-          </p>
-          <Link
-            href="/journeys/family-joining"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
-          >
-            Open family-joining playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Newborn
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {newbornPass?.title ?? "Newborn Special Pass"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {newbornPass?.summary ??
-              "ICA Special Pass clock and Dependant Pass filing after a Singapore birth."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/sim-otp-keep"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/sim-otp-keep
-            </Link>{" "}
-            while OTP SMS still matters.
-          </p>
-          <Link
-            href="/journeys/newborn-special-pass"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
-          >
-            Open newborn Special Pass playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
             Next
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
@@ -208,6 +154,52 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
           >
             Open between-jobs playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Family
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {locDp?.title ?? "DP work rights & Letter of Consent"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {locDp?.summary ??
+              "Dependant’s Pass is not a work pass — employee vs business-owner LOC, cascade risk, and when EP is cleaner."}
+          </p>
+          <Link
+            href="/journeys/loc-dp-work-rights"
+            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
+          >
+            Open DP / LOC playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Home exit
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {condoExit?.title ?? "Condo MCST / access exit"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {condoExit?.summary ??
+              "Access cards, car-park IU, renovation deposits, and MCST handover sequencing."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/car-coe-exit"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/car-coe-exit
+            </Link>{" "}
+            if a vehicle is leaving too.
+          </p>
+          <Link
+            href="/journeys/condo-mcst-exit"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open condo MCST exit playbook
           </Link>
         </FadeIn>
 
@@ -245,8 +237,8 @@ export default async function JourneysIndexPage() {
               href="/tools"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Light COL, IPA-window, lease-duty, tax-residency, and EP threshold
-              tools
+              Light COL, lease-duty, tax-residency, EP threshold, and school
+              withdrawal tools
             </Link>{" "}
             live one level down — never on the homepage.
           </p>

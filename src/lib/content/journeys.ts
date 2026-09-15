@@ -122,3 +122,7 @@ export async function getGraduatePassBridgePlaybook(): Promise<LeavingPlaybook |
 export async function getLocDpWorkRightsPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("loc-dp-work-rights.json");
 }
+
+export async function getCondoMcstExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("condo-mcst-exit.json");
+}

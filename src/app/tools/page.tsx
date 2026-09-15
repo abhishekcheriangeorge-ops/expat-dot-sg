@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, IPA enter-and-issue window, tax-residency days, cost of living, Employment Pass salary threshold, and SIM/OTP keep sketch.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, cost-of-living estimate, Employment Pass salary threshold, school withdrawal notice, and car/COE exit sketch.",
   path: "/tools",
 });
 
@@ -30,18 +30,6 @@ const tools = [
       "IRAS tenancy lease duty only — 0.4% of total rent (≤4 years), 4× AAR for longer leases, AAR exemption.",
   },
   {
-    href: "/tools/ipa-window",
-    title: "IPA enter-and-issue window",
-    summary:
-      "Sketch MOM’s common six-month IPA deadline to enter Singapore and get the pass issued — before you book flights.",
-  },
-  {
-    href: "/tools/tax-residency",
-    title: "Tax residency days",
-    summary:
-      "Sketch the common IRAS ≥183-day calendar-year presence test for a Year of Assessment.",
-  },
-  {
     href: "/tools/cost-of-living",
     title: "Cost of living sketch",
     summary:
@@ -54,10 +42,16 @@ const tools = [
       "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
   },
   {
-    href: "/tools/sim-otp-keep",
-    title: "SIM / OTP keep",
+    href: "/tools/school-withdrawal",
+    title: "School withdrawal notice",
     summary:
-      "Compare prepaid keep, postpaid keep, port, and drop-and-replace sketches while Singpass SMS still matters.",
+      "Count contractual notice weeks backwards from the last attendance day — mid-term fee cue only.",
+  },
+  {
+    href: "/tools/car-coe-exit",
+    title: "Car / COE exit",
+    summary:
+      "Sketch local sale, export/scrap, or transfer cash — proceeds, rebate hope, loan, fees, prepaid burn.",
   },
 ] as const;
 
@@ -75,7 +69,7 @@ export default function ToolsIndexPage() {
           collectionPageJsonLd({
             name: "Tools",
             description:
-              "First-month cash, lease duty, IPA window, tax-residency days, COL, and Employment Pass threshold utilities for Singapore expats.",
+              "First-month cash, lease duty, COL, EP threshold, and school withdrawal utilities for Singapore expats.",
             path: "/tools",
             items: tools.map((tool) => ({
               name: tool.title,
@@ -113,10 +107,22 @@ export default function ToolsIndexPage() {
 
         <FadeIn className="mt-16 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <Link
-            href="/journeys"
+            href="/journeys/arriving"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
-            ← Back to journeys
+            Arriving journeys →
+          </Link>
+          <Link
+            href="/guides"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Guides →
+          </Link>
+          <Link
+            href="/home"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Home (lease cash) →
           </Link>
           <Link
             href="/money"
