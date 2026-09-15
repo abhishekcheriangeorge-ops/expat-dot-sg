@@ -410,6 +410,16 @@ export const pillars: Pillar[] = [
         blurb: "HSA bridge, local psychiatrist Rx, Adderall gaps.",
       },
       {
+        label: "Kids braces & orthodontics",
+        href: "/guides/kids-braces-orthodontics-singapore",
+        blurb: "Private vs NDCS, Invisalign Teen cash, transfer traps.",
+      },
+      {
+        label: "Teen mental health",
+        href: "/guides/teen-mental-health-school-counselling-singapore",
+        blurb: "IS counsellors, CHAT 16–30, confidentiality limits.",
+      },
+      {
         label: "Mandarin enrichment",
         href: "/guides/mandarin-enrichment-expat-kids-singapore",
         blurb: "Berries vs online vs IS bilingual tracks — goal first.",
@@ -528,6 +538,11 @@ export const pillars: Pillar[] = [
         label: "Book clubs & hiking",
         href: "/guides/book-hiking-communities-singapore",
         blurb: "NLB/Meetup reading groups and NParks trail rails.",
+      },
+      {
+        label: "Parenting communities",
+        href: "/guides/parenting-communities-playgroups-singapore",
+        blurb: "EDD chats, playgroups, ANZA/AWA family calendars.",
       },
       {
         label: "Associations & chambers",
