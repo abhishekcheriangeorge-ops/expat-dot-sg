@@ -2,12 +2,19 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { JourneyHero } from "@/components/journeys";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
     "Light Singapore expat utilities — cost-of-living sketch and Employment Pass salary threshold illustration.",
-};
+  path: "/tools",
+});
 
 const tools = [
   {
@@ -25,8 +32,33 @@ const tools = [
 ] as const;
 
 export default function ToolsIndexPage() {
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Tools", path: "/tools" },
+  ];
+
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: "Tools",
+            description:
+              "Light COL and Employment Pass threshold utilities for Singapore expats.",
+            path: "/tools",
+            items: tools.map((tool) => ({
+              name: tool.title,
+              path: tool.href,
+            })),
+          }),
+        ]}
+      />
+      <div className="border-b border-fog-soft">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
+          <Breadcrumbs items={crumbs} />
+        </div>
+      </div>
       <JourneyHero
         eyebrow="Tools"
         title="Calculators as support — never the homepage."
@@ -49,12 +81,24 @@ export default function ToolsIndexPage() {
           ))}
         </Stagger>
 
-        <FadeIn className="mt-16">
+        <FadeIn className="mt-16 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <Link
             href="/journeys"
-            className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
             ← Back to journeys
+          </Link>
+          <Link
+            href="/money"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Money pillar →
+          </Link>
+          <Link
+            href="/move"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Move pillar →
           </Link>
         </FadeIn>
       </div>

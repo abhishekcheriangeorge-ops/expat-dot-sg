@@ -1,17 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { DirectoryHero, ServiceDirectory } from "@/components/directory";
+import { JsonLd } from "@/components/seo";
 import {
   SERVICE_CATEGORY_LABELS,
   getServices,
   type ServiceCategory,
 } from "@/lib/content";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Service directory",
   description:
     "Movers, clinics, agents, helper agencies, tutors, insurance, and legal — Singapore expat service directory.",
-};
+  path: "/directory",
+});
 
 export default async function DirectoryPage() {
   const services = await getServices();
@@ -25,13 +32,34 @@ export default async function DirectoryPage() {
     }))
     .filter((c) => c.count > 0);
 
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Directory", path: "/directory" },
+  ];
+
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: "Service directory",
+            description:
+              "Singapore expat service categories — movers, clinics, agents, helpers, tutors, cover, and counsel.",
+            path: "/directory",
+            items: byCategory.map((cat) => ({
+              name: cat.label,
+              path: `/directory/${cat.category}`,
+            })),
+          }),
+        ]}
+      />
       <DirectoryHero
         eyebrow="Directory"
         title="Services"
         description="Practical operators for the messy middle of expat life — moves, clinics, agents, helpers, tutors, cover, and counsel. Featured and Sponsored badges mark paid placements — never unmarked editorial."
         meta={`${services.length} listings across ${byCategory.length} categories`}
+        crumbs={crumbs}
       />
 
       <section className="border-b border-fog-soft">
@@ -52,6 +80,37 @@ export default async function DirectoryPage() {
               </li>
             ))}
           </ul>
+          <p className="mt-8 text-sm text-ink-faint">
+            Need the decision first? Start in{" "}
+            <Link
+              href="/move"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Move
+            </Link>
+            ,{" "}
+            <Link
+              href="/home"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Home
+            </Link>
+            ,{" "}
+            <Link
+              href="/family"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Family
+            </Link>
+            , or{" "}
+            <Link
+              href="/guides"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Guides
+            </Link>
+            .
+          </p>
         </div>
       </section>
 

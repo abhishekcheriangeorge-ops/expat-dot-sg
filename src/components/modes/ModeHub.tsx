@@ -1,6 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FadeIn, KenBurns, Stagger, StaggerItem } from "@/components/motion";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
+import {
+  breadcrumbJsonLd,
+  collectionPageJsonLd,
+} from "@/lib/seo";
 import { modes, pillarsForMode, type ModeSlug } from "@/lib/site";
 
 type ModeHubProps = {
@@ -13,9 +18,33 @@ export function ModeHub({ mode }: ModeHubProps) {
 
   const relatedPillars = pillarsForMode(mode);
   const other = modes.find((m) => m.slug !== mode)!;
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: data.label, path: data.href },
+  ];
 
   return (
     <div>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: data.label,
+            description: data.summary,
+            path: data.href,
+            items: [
+              ...data.startHere.map((link) => ({
+                name: link.label,
+                path: link.href,
+              })),
+              ...relatedPillars.map((pillar) => ({
+                name: pillar.label,
+                path: pillar.href,
+              })),
+            ],
+          }),
+        ]}
+      />
       <section className="relative isolate overflow-hidden bg-dusk text-paper">
         <div className="absolute inset-0">
           <KenBurns className="h-full w-full min-h-[52vh]">
@@ -36,7 +65,11 @@ export function ModeHub({ mode }: ModeHubProps) {
 
         <div className="relative mx-auto flex min-h-[52vh] max-w-[var(--max-page)] flex-col justify-end px-5 py-16 sm:px-8 sm:py-20">
           <FadeIn>
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-tungsten-soft">
+            <Breadcrumbs
+              items={crumbs}
+              className="text-sm text-fog/80 [&_a]:text-fog/80 [&_a:hover]:text-paper [&_[aria-current=page]]:text-paper/90"
+            />
+            <p className="mt-6 text-xs font-semibold uppercase tracking-[0.16em] text-tungsten-soft">
               Mode
             </p>
             <h1 className="mt-3 font-display text-4xl tracking-tight sm:text-6xl">

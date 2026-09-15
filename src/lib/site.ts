@@ -262,9 +262,9 @@ export const pillars: Pillar[] = [
       },
     ],
     related: [
+      { href: "/tools", label: "COL & EP tools" },
       { href: "/move", label: "Move" },
       { href: "/next", label: "Next" },
-      { href: "/arriving", label: "Arriving" },
       { href: "/guides", label: "All guides" },
     ],
   },
@@ -455,9 +455,9 @@ export const pillars: Pillar[] = [
       },
     ],
     related: [
+      { href: "/journeys/leaving", label: "Leaving playbook" },
       { href: "/money", label: "Money" },
       { href: "/move", label: "Move" },
-      { href: "/living", label: "Living" },
       { href: "/guides", label: "All guides" },
     ],
   },
