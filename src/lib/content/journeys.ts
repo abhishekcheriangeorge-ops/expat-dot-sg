@@ -79,6 +79,10 @@ export async function getLeavingPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("leaving-singapore.json");
 }
 
+export async function getBetweenJobsPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("between-jobs.json");
+}
+
 export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("pre-arrival.json");
 }
