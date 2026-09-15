@@ -6,6 +6,82 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 11) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick11-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped ADHD / Mandarin / hiking (#51 tick 9) and braces / teen MH / playgroups (tick 10 restore PR from `cursor/loop-b-family-belong-tick9-8971`, formerly #62).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — kids myopia / Ortho-K / atropine ([high myopia specialist](https://www.reddit.com/r/askSingapore/comments/1slvwr2/high_myopia_specialist_for_kids/), [kids optical shops](https://www.reddit.com/r/askSingapore/comments/13kkqrm/optical_shops_for_kids/), [Ortho-K experiences](https://www.reddit.com/r/askSingapore/comments/1k5s10z/anyone_who_experienced_orthok_vision_correction/), [Ortho-K cost](https://www.reddit.com/r/askSingapore/comments/1eljyb8/how_much_is_your_orthok_treatment_and_where/)).
+- r/askSingapore — kids camps / sports adjacency for swim competence ([outdoor camps](https://www.reddit.com/r/askSingapore/comments/1m1wlfb/are_there_any_good_outdoor_holiday_camps_for_kids/), [team sports outside school](https://www.reddit.com/r/askSingapore/comments/1re4fxt/team_sports_for_kids_pri_sch_outside_of_school/)).
+- r/askSingapore — cooking classes as belonging ([start cooking](https://www.reddit.com/r/askSingapore/comments/1sc0ihv/how_do_you_start_to_learn_cooking/), [baking/cooking class experiences](https://www.reddit.com/r/askSingapore/comments/1iy0e5d/experiences_with_baking_cooking_classes_in_sg/), [dad needs friends / CC](https://www.reddit.com/r/askSingapore/comments/1k2tysx/having_a_dad_that_has_no_friends/)).
+
+**Official**
+
+- [SingHealth — Childhood myopia](https://www.singhealth.com.sg/symptoms-treatments/childhood-myopia) + [MOH NMPP note](https://www.moh.gov.sg/newsroom/effectiveness-of-national-myopia-prevention-programme-s-strategies-for-primary-school-students/) + [SNEC](https://www.snec.com.sg/).
+- [ActiveSG Learn — Swimming](https://www.activesgcircle.gov.sg/learn/swimming) + SportSG SwimSafer media + [ActiveSG complexes](https://www.activesgcircle.gov.sg/facilities/swimming-complexes).
+- [PA](https://www.pa.gov.sg/) / [OnePA](https://www.onepa.gov.sg/) community courses.
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–10 covered schools/SEN/camps/clubs, newborn/leave/vaccines, IVF/maternity/divorce, Reclub/parkrun, Mandarin, confinement, indoor hobbies, allergy/EpiPen, IB/A-Level, music, babysitter, uni counselling, book clubs, ADHD, hiking, and (in #62) braces/teen MH/playgroups. Remaining heat: **kids myopia-control product map**, **SwimSafer / ActiveSG foreigner lesson realism**, **cooking-class belonging** for non-sport personalities.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/kids-myopia-control-singapore.mdx`
+- `content/guides/family/kids-swimming-water-safety-singapore.mdx`
+- `content/guides/belong/cooking-class-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/finding-pediatrician-singapore.mdx`
+- `content/guides/family/kids-activities-holiday-camps.mdx`
+- `content/guides/family/kids-allergy-epipen-singapore.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/indoor-hobby-communities-singapore.mdx`
+- `content/guides/belong/hobby-sports-communities-singapore.mdx`
+- `content/guides/belong/anza-awa-associations.mdx`
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/services/raffles-medical.json`
+- `content/entities/clubs/anza.json`
+- `content/entities/clubs/american-club.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite ADHD / Mandarin / hiking / braces / teen MH / playgroups bodies.
+- Did not expand Life ActiveSG facility trees beyond kids swim competence.
+
+### Questions mined (sample)
+
+1. Is Ortho-K worth the yearly lens cost for a sporty EP kid?
+2. Can a polyclinic start atropine, or do we need private ophthalmology?
+3. Do myopia-control glasses work without drops?
+4. Are ActiveSG swim lessons full fee for DP children?
+5. Is a condo coach enough, or do we need SwimSafer staging?
+6. How do dual-career parents schedule 2× weekly lessons without a helper?
+7. Are PA cooking courses open to foreigners at citizen SkillsFuture prices?
+8. Do commercial studio packages actually create friends, or only recipes?
+9. Can trailing partners use CC cooking as a soft landing beside ANZA?
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 25)
 
 Branch: `cursor/loop-d-next-polish-tick25-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money parents for side-income, FCF, COMPASS, CPF withdrawal, leaving costs. Avoided open Loop D file set from [#201](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/201).
