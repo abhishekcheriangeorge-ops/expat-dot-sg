@@ -48,6 +48,18 @@ export default function CostOfLivingToolPage() {
             COL guide →
           </Link>
           <Link
+            href="/guides/salary-package-decoding"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Salary package →
+          </Link>
+          <Link
+            href="/neighbourhoods"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Neighbourhoods →
+          </Link>
+          <Link
             href="/money"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >

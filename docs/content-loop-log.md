@@ -6,6 +6,35 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 3b)
+
+Branch: `cursor/loop-g-seo-tick3-a144` → PR to `main`. Follow-up to tick 3 (#57). Shell/metadata/hubs/crosslink depth only — **no** A–F/H body rewrites, **no** ads inventory / Grok.
+
+### Gaps closed (vs tick 3)
+
+- `relatedEntities` frontmatter (~124 guides) was still unused — resolve + render on guide pages.
+- Neighbourhood / school / club details lacked reverse links from guides that cite them.
+- Tool footers / tools index / calendar CollectionPage still thin vs hub↔tool↔guide graph.
+
+### Shipped
+
+- `resolveRelatedEntities` + `GuideRelatedEntities` on guide articles
+- `getGuidesLinkingToEntity` reverse rails on neighbourhood/school/club details
+- Tool footer + tools index + calendar CollectionPage crosslink depth
+- Trust/advertise/sponsored metadata parity retained from tick 3 where still needed on tip
+
+### Explicitly not done
+
+- No mass `relatedGuides` MDX reciprocity edits
+- No new sponsorSlots / featured inventory
+- No guide body / Grok clone copy
+
+---
+
+---
+
+---
+
 ## Loop F — Services directory depth — Tick 4 — 2026-09-15
 
 Branch: `cursor/services-directory-tick4-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–3 topics (tax / dental / notary-as-primary / storage / pets-relocation-as-primary / mental health / licence / aircon / private-health-as-primary / FDW DIY / pest / furniture / end-of-lease cleaning / confinement nanny / car sharing).

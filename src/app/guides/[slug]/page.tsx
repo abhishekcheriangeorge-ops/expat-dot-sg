@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { GuideArticle } from "@/components/guides";
 import { JsonLd } from "@/components/seo";
+import { resolveRelatedEntities } from "@/lib/content/entities";
 import {
   getAllGuides,
   getGuideBySlug,
@@ -46,7 +47,10 @@ export default async function GuidePage({ params }: GuidePageProps) {
   const guide = await getGuideBySlug(slug);
   if (!guide) notFound();
 
-  const related = await getRelatedGuides(guide.meta);
+  const [related, relatedEntities] = await Promise.all([
+    getRelatedGuides(guide.meta),
+    resolveRelatedEntities(guide.meta.relatedEntities),
+  ]);
   const placement = guide.meta.sponsorSlot?.category
     ? await getActivePlacementByCategory(guide.meta.sponsorSlot.category)
     : null;
@@ -81,6 +85,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
         meta={guide.meta}
         toc={guide.toc}
         related={related}
+        relatedEntities={relatedEntities}
         placement={placement}
       >
         {guide.content}

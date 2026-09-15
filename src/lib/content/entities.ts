@@ -92,3 +92,80 @@ export async function getClubs(): Promise<Club[]> {
 export async function getServices(): Promise<ServiceListing[]> {
   return (await getEntities("services")) as ServiceListing[];
 }
+
+export type ResolvedRelatedEntity = {
+  slug: string;
+  name: string;
+  href: string;
+  collection: EntityCollection;
+  kindLabel: string;
+};
+
+const COLLECTION_KIND_LABEL: Record<EntityCollection, string> = {
+  neighbourhoods: "Neighbourhood",
+  schools: "School",
+  clubs: "Club",
+  services: "Service",
+};
+
+function entityHref(entity: Entity): string {
+  switch (entity.type) {
+    case "neighbourhood":
+      return `/neighbourhoods/${entity.slug}`;
+    case "school":
+      return `/schools/${entity.slug}`;
+    case "club":
+      return `/clubs/${entity.slug}`;
+    case "service":
+      return `/directory/${entity.category}/${entity.slug}`;
+  }
+}
+
+/** Resolve relatedEntities frontmatter slugs across all entity collections. */
+export async function resolveRelatedEntities(
+  slugs: string[],
+): Promise<ResolvedRelatedEntity[]> {
+  if (!slugs.length) return [];
+
+  const [neighbourhoods, schools, clubs, services] = await Promise.all([
+    getNeighbourhoods(),
+    getSchools(),
+    getClubs(),
+    getServices(),
+  ]);
+
+  const bySlug = new Map<string, Entity>();
+  for (const entity of [
+    ...neighbourhoods,
+    ...schools,
+    ...clubs,
+    ...services,
+  ]) {
+    // First match wins if slugs ever collide across collections
+    if (!bySlug.has(entity.slug)) bySlug.set(entity.slug, entity);
+  }
+
+  const out: ResolvedRelatedEntity[] = [];
+  const seen = new Set<string>();
+  for (const slug of slugs) {
+    const entity = bySlug.get(slug);
+    if (!entity || seen.has(entity.slug)) continue;
+    const collection =
+      entity.type === "neighbourhood"
+        ? "neighbourhoods"
+        : entity.type === "school"
+          ? "schools"
+          : entity.type === "club"
+            ? "clubs"
+            : "services";
+    out.push({
+      slug: entity.slug,
+      name: entity.name,
+      href: entityHref(entity),
+      collection,
+      kindLabel: COLLECTION_KIND_LABEL[collection],
+    });
+    seen.add(entity.slug);
+  }
+  return out;
+}

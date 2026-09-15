@@ -42,16 +42,28 @@ export default function LeaseDutyToolPage() {
             ← All tools
           </Link>
           <Link
-            href="/home"
+            href="/guides/renting-process-loi-ta-deposits"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
-            Home pillar →
+            Renting process →
+          </Link>
+          <Link
+            href="/guides/lease-renewal-rent-increase"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Lease renewal →
           </Link>
           <Link
             href="/tools/setup-cash"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
             Setup cash sketch →
+          </Link>
+          <Link
+            href="/home"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Home pillar →
           </Link>
         </p>
       </div>
