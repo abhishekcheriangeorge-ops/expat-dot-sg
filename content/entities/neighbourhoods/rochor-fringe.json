@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "rochor-fringe",
+  "name": "Rochor Fringe",
+  "summary": "Fringe of Rochor / Little India toward Bencoolen — DTL/NEL adjacency with arts-school energy and denser central living without full Orchard gloss.",
+  "body": "Rochor Fringe is the shortlist when arts-campus walkability and dual-line adjacency matter more than mall-spine living. The pocket sits on the Rochor / Bencoolen / Little India edges; housing mixes mid-age condos with selective walk-ups. Expats land here for car-light CBD hops and culture nights. Watch-outs: weekend tourist spill, street noise variance, and estate tank/booster notice culture. Compare with Bras Basah for museum-campus core, Lavender South for EWL mid-town, and Kallang Wave when stadium living wins.",
+  "region": "central",
+  "vibe": [
+    "arts",
+    "campus-adjacent",
+    "dense-central",
+    "dtl-nel",
+    "walkable"
+  ],
+  "bestFor": [
+    "arts and campus households",
+    "car-light central workers",
+    "renters comparing Rochor vs Bencoolen edges",
+    "people testing ActiveSG skating nearby"
+  ],
+  "watchOuts": [
+    "Weekend tourist and street-noise peaks",
+    "Dense-block tank / booster notices vary",
+    "Serviced vs TA confusion",
+    "Peak interchange crowding nearby"
+  ],
+  "housingMix": "Mid-age condos and walk-ups with selective serviced edges.",
+  "commuteNotes": "Downtown / North-East Line gravity via Rochor / Little India / Bencoolen depending on block. Walk a Sunday afternoon before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2700,
+    "oneBedTo": 4500,
+    "familyFrom": 4000,
+    "familyTo": 8000
+  },
+  "mrt": [
+    "Rochor",
+    "Little India",
+    "Bencoolen"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

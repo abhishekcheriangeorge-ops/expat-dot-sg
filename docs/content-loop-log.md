@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 43 — 2026-09-15
+
+Branch: `cursor/home-life-tick43-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255 stay open for the merge controller — **did not** touch those PR paths. Topics: condo water-tank / booster-pump outages, ActiveSG skating, Lavender South / Kallang Wave / Rochor Fringe.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo booster-pump dry spells, rooftop tank cleaning notices, upper-floor pressure loss, PUB-vs-estate outage confusion.
+- r/askSingapore — ActiveSG rink / skating Standard Rate for foreigners, weekend family slot release races, skate-hire queues.
+- r/askSingapore — mid-town shortlists for Lavender South vs Kallang Wave vs Rochor Fringe event-noise trade-offs.
+
+**Official**
+
+- [PUB water supply interruptions](https://www.pub.gov.sg/watersupply/watersupplyinterruptions) + [PUB water supply](https://www.pub.gov.sg/watersupply).
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #255
+
+Open PRs own reno-noise through FOC fogging / climbing and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo water-tank / booster outages** (≠ PUB street pipe works; ≠ utilities setup), **ActiveSG skating** (≠ climbing; ≠ archery; ≠ camps; ≠ court hire), plus neighbourhood depth for **Lavender South**, **Kallang Wave**, and **Rochor Fringe**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-water-tank-booster-pump-outages-tenants.mdx`
+- `content/guides/life/activesg-skating-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #255.
+- `src/lib/site.ts` (tank/booster + ActiveSG skating topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/lavender-south.json`
+- `content/entities/neighbourhoods/kallang-wave.json`
+- `content/entities/neighbourhoods/rochor-fringe.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is a booster outage the same as a PUB street cut?
+2. How much notice should the MA give for tank cleaning?
+3. Who stocks bottled water — landlord or tenant?
+4. Can upper floors claim a rebate for overnight dry pressure?
+5. Can foreigners book ActiveSG skating at Standard Rate?
+6. Is skating the same as court hire or climbing?
+7. Do I need my own skates?
+8. Lavender South vs Kallang Wave — nightlife tax or event crowds?
+9. Is Rochor Fringe too touristy on weekends?
+10. When is a condo play court still enough?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 42 — 2026-09-15
 
 Branch: `cursor/home-life-tick42-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249 stay open for the merge controller — **did not** touch those PR paths. Topics: condo FOC pest fogging / chute treatment, ActiveSG climbing walls, Bugis South / Kallang Bahru / Bendemeer East.

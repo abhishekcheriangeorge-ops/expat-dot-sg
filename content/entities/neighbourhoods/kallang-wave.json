@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "kallang-wave",
+  "name": "Kallang Wave",
+  "summary": "Stadium / Sports Hub belt on the Kallang waterfront — event-day energy, condo edges, and Circle/EWL optionality with crowd tax on fixture nights.",
+  "body": "Kallang Wave is the shortlist when stadium-side living and waterfront promenade access matter more than quiet cul-de-sac texture. The pocket sits around the Sports Hub / Kallang basin with condo edges rather than dense HDB grids. Expats land here for car-light hops to town and weekend sport calendars. Watch-outs: concert and match-night crowds, surge pricing on Grab, and estate plant (tank/booster) notice culture on high-rises. Compare with Lavender South for denser mid-town food, Rochor Fringe for arts campuses, and Marina Centre when civic-core polish wins.",
+  "region": "central",
+  "vibe": [
+    "stadium",
+    "waterfront",
+    "event-days",
+    "condo",
+    "sport"
+  ],
+  "bestFor": [
+    "sport and concert households",
+    "car-light renters near Circle/EWL gravity",
+    "people who want promenade weekends",
+    "ActiveSG skating / sport-session users"
+  ],
+  "watchOuts": [
+    "Match and concert crowd surges",
+    "Grab surge on event nights",
+    "High-rise tank / booster windows vary by tower",
+    "Fewer heartland hawker grids than Lavender"
+  ],
+  "housingMix": "Condo-dominant stock around the Sports Hub belt.",
+  "commuteNotes": "Stadium / Kallang / Nicoll Highway gravity depending on block. Test an event-night walk home before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3000,
+    "oneBedTo": 5200,
+    "familyFrom": 4500,
+    "familyTo": 9500
+  },
+  "mrt": [
+    "Stadium",
+    "Kallang",
+    "Nicoll Highway"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
