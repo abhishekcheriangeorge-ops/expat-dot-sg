@@ -1,0 +1,43 @@
+{
+  "type": "service",
+  "slug": "handyman-plumber-electrician",
+  "name": "Handyman, plumber & electrician (category guide)",
+  "summary": "HDB town-council term rates vs condo MCST rules — PUB-licensed plumbing, EMA-licensed electrical work, and the cheap WhatsApp quote that balloons on-site.",
+  "body": "askSingapore’s standing advice for HDB: check your town council’s published handyman / sanitary / electrical term-contractor rates before googling ‘24hr plumber’ — contracted call-out fees are often lower and clearer. Condo / landed tenants usually go through the managing agent or landlord for common-property issues; private interiors still need licensed trades. PUB expects licensed plumbers for regulated plumbing works — verify on PUB’s homeowner plumbing pages rather than trusting a Facebook number. Electrical installations and modifications should sit with EMA-licensed electrical workers / licensed electrical workers (LEW) for the job class; frequent breaker trips need root-cause diagnosis, not a silent MCB swap. Classic forum failure mode: a too-cheap call-out that ‘discovers’ heavy equipment fees once on site — get a written scope, ask what triggers extras, and keep a second quote. Lease responsibility: landlord usually owns structure / water heater / wiring faults present at move-in; tenant misuse is on you — photograph and email before paying. Pair with aircon and pest category guides for adjacent home vendors. This is a category guide, not a ranked contractor list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "HDB choke / trip — want town-council rate card first",
+    "Need PUB-licensed plumber confirmation",
+    "Quoted 24hr call-out looks too cheap or extras unclear",
+    "Condo MA vs tenant responsibility for a leak is disputed"
+  ],
+  "officialLinks": [
+    {
+      "label": "PUB — Plumbing works for homeowners",
+      "url": "https://www.pub.gov.sg/compliance/plumbingworks/homeowners"
+    },
+    {
+      "label": "EMA — Licensed electrical workers",
+      "url": "https://www.ema.gov.sg/consumer-information/electricity/safety/licensed-electrical-workers"
+    },
+    {
+      "label": "HDB — Minor renovation / contractors context",
+      "url": "https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/renovation"
+    },
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "aircon-pest-renewals",
+    "renting-process-loi-ta-deposits",
+    "rental-inventory-fair-wear-tear",
+    "furnishing-rental-flat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "health-screening-labs",
+  "name": "Health screening & diagnostic labs (category guide)",
+  "summary": "Full-body packages vs GP/polyclinic bloodwork — what corporate riders actually reimburse, EP medical vs elective screening, and when a fancy MRI package is theatre.",
+  "body": "Expats on Reddit split into two camps: cheap annual blood panels at polyclinics / panel GPs, versus private ‘executive’ packages (Raffles, Parkway, ATA-style centres, SATA) that finish in a morning and email PDF results. Foreigners pay unsubsidised rates either way — the package premium buys speed and bundling, not MOH co-funding. Read your group outpatient rider before buying: many plans reimburse diagnostic tests only when ordered by a panel doctor for a complaint, not cash health-screening SKUs, and some carve imaging out entirely. EP issuance / renewal medicals are a separate MOM checklist — do not assume a wellness package substitutes for the designated clinic form. Prefer annual affordable panels you will actually repeat over a once-off S$2k MRI buffet that never gets trended. Ask who interprets abnormal results and whether a GP consult is included; orphaned lab PDFs are a common complaint. This is a category guide for shopping screening honestly, not a ranked lab list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Want annual bloodwork without a five-hour polyclinic wait",
+    "Corporate rider wording on ‘diagnostics’ vs ‘health screening’ is unclear",
+    "Comparing executive packages against GP-ordered panels",
+    "Need EP medical vs elective wellness timing clarity"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Health screening",
+      "url": "https://www.moh.gov.sg/ownyourhealth/healthy-living/health-screening/"
+    },
+    {
+      "label": "MOM — Employment Pass medical examination",
+      "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/documents-required#medical-examination"
+    },
+    {
+      "label": "HealthHub — Screening programmes",
+      "url": "https://www.healthhub.sg/programmes/screen_for_life/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "ep-medical-examination-issuance",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

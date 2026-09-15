@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "obstetrics-gynaecology",
+  "name": "Obstetrics & gynaecology (category guide)",
+  "summary": "Private O&G continuity vs KKH/NUH referral maths — pregnancy package deposits, foreigner fee honesty, and gynae that is not an IVF clinic.",
+  "body": "Routine gynae (pap smear, contraception, PCOS, menstrual issues) and obstetric delivery packages are different shopping problems from fertility/IVF centres — start here for women’s health and pregnancy, then branch to fertility listings only if you need assisted conception. Public paths (polyclinic referral → KKH / NUH / SGH) are cheaper for citizens/PRs; foreigners usually pay private-class rates even in public hospitals, so many expats book a private O&G for continuity and WhatsApp access knowing the premium. Ask which hospital the doctor delivers at, what the package includes (epidural, paediatrician standby, NICU exclusions), and the deposit / Letter of Guarantee dance with your insurer — maternity is frequently carved out or waiting-period limited on group plans. Verify SMC specialist registration in Obstetrics & Gynaecology. For non-pregnant gynae, a one-off private consult is often faster than waiting for a subsidised slot you do not qualify for. Pair with maternity and newborn-pass guides for admin after delivery. This is a category guide, not a ranked doctor list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need a gynae for screening or menstrual issues as a foreigner",
+    "Comparing private pregnancy packages vs public hospital fees",
+    "Insurer maternity waiting periods / LOG limits unclear",
+    "Want continuity with one O&G who delivers at a chosen hospital"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "KK Women’s and Children’s Hospital",
+      "url": "https://www.kkh.com.sg/"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "newborn-pass-birth-registration-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "finding-pediatrician-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

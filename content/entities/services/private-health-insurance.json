@@ -3,25 +3,27 @@
   "slug": "private-health-insurance",
   "name": "Private health insurance (category guide)",
   "summary": "EP-year hospital plans vs MediShield/ISP myths, maternity waiting periods, newborn issuance clocks, and group-cover end-on-last-day traps.",
-  "body": "EP and most dependants are not on MediShield Life and cannot fund Integrated Shield Plan premiums from MediSave \u2014 cash-paid foreigner hospital plans and international insurers are the usual path until PR. Do not buy an ISP pitch as an EP \u2018equivalent\u2019 without reading exclusions, deductibles, and ward-class pro-ration. Maternity cover almost never pays a smooth delivery already underway; local complication/newborn riders often need 10\u201312 month waiting periods and still exclude routine antenatal visits \u2014 buy before trying to conceive, not at week 12. Newborn hospitalisation applications commonly open around day 14 with full health declarations \u2014 premature/NICU history can block issuance even after a maternity rider. Group medical usually ends on the last employment day and does not port; price personal cover before elective care or a job hop. Compare AIA, Prudential, Singlife, HSBC Life, and international brokers on written schedules, not mummy-fair gifts. This is a category guide \u2014 verify products with licensed advisers and MOH/CPF primary sources. Outpatient physiotherapy and optical riders are easy to over-read: many hospital plans reimburse only inpatient specialist care, while spectacle subsidies are not medical eye cover \u2014 demand written sub-limits before you book a long rehab block.",
+  "body": "EP and most dependants are not on MediShield Life and cannot fund Integrated Shield Plan premiums from MediSave — cash-paid foreigner hospital plans and international insurers are the usual path until PR. Do not buy an ISP pitch as an EP ‘equivalent’ without reading exclusions, deductibles, and ward-class pro-ration. Maternity cover almost never pays a smooth delivery already underway; local complication/newborn riders often need 10–12 month waiting periods and still exclude routine antenatal visits — buy before trying to conceive, not at week 12. Newborn hospitalisation applications commonly open around day 14 with full health declarations — premature/NICU history can block issuance even after a maternity rider. Group medical usually ends on the last employment day and does not port; price personal cover before elective care or a job hop. Compare AIA, Prudential, Singlife, HSBC Life, and international brokers on written schedules, not mummy-fair gifts. This is a category guide — verify products with licensed advisers and MOH/CPF primary sources. Outpatient physiotherapy and optical riders are easy to over-read: many hospital plans reimburse only inpatient specialist care, while spectacle subsidies are not medical eye cover — demand written sub-limits before you book a long rehab block. Full-body screening packages and dermatology consults are easy brochure wins that still fail at claims time when the schedule reimburses only GP-ordered diagnostics for a presenting complaint, or excludes aesthetic-coded derm entirely — read the category guides for health screening and dermatology before you prepay a wellness day.",
   "category": "insurance",
   "areasServed": [
     "Islandwide"
   ],
   "whenToEngage": [
     "EP family lacks inpatient cover beyond thin group plan",
-    "Planning pregnancy \u2014 need waiting-period maths",
+    "Planning pregnancy — need waiting-period maths",
     "Newborn hospitalisation after complications / NICU",
     "Job hop ends group medical on last employment day",
-    "Physio / optical outpatient sub-limits unclear on schedule"
+    "Physio / optical outpatient sub-limits unclear on schedule",
+    "Prepaying executive screening — need rider wording check",
+    "Derm claim risk if coded aesthetic"
   ],
   "officialLinks": [
     {
-      "label": "MOH \u2014 Integrated Shield Plans",
+      "label": "MOH — Integrated Shield Plans",
       "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/integratedshieldplans/"
     },
     {
-      "label": "CPF \u2014 MediShield Life",
+      "label": "CPF — MediShield Life",
       "url": "https://www.cpf.gov.sg/member/healthcare-financing/medishield-life"
     },
     {

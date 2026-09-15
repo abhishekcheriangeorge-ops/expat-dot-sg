@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "laundry-dry-cleaning",
+  "name": "Laundry & dry cleaning (category guide)",
+  "summary": "Neighbourhood coin laundry vs pickup dry-clean — curtain/sofa add-ons, hotel-press pricing traps, and why weekly bags are not end-of-lease cleaning.",
+  "body": "Expat households usually need three different products: self-service / drop-off wash-fold for weekly clothes, garment dry-clean for suits and delicate labels, and occasional curtain / sofa / duvet cleaning — bundling all three into one ‘laundry’ WhatsApp vendor is how prices and damage disputes explode. Ask whether the shop owns its plant or brokers to a third-party factory; turnaround, stain liability, and eco-solvent claims differ. Pickup/delivery apps are convenient in condo landings but read minimum-order and express surcharges. Dry-clean price lists that look cheap per shirt often omit silk, pleats, or wedding-dress tiers — photograph stains before drop-off and keep the ticket. Recurring laundry is not a substitute for professional end-of-lease cleaning clauses in a TA; landlords still expect reinstatement cleans separate from your weekly bag. Pair with furnishing and inventory guides when curtains were landlord-supplied. This is a category guide, not a ranked shop list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need wash-fold vs dry-clean split for a household",
+    "Condo pickup minimums / express fees unclear",
+    "Landlord curtains need cleaning before handover",
+    "Tempted to use weekly laundry to satisfy lease-end clean clause"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "NEA — Cleaning industry context",
+      "url": "https://www.nea.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "rental-inventory-fair-wear-tear",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

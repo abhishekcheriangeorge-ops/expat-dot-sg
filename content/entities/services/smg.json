@@ -3,7 +3,7 @@
   "slug": "smg",
   "name": "Singapore Medical Group clinics",
   "summary": "Multi-specialty and GP options across town for routine care, specialist referrals, and cash-pay paediatric visits when panel lists are thin.",
-  "body": "SMG and similar groups help when you need faster specialist access than public pathways. Bring vaccination records and prior scripts to your first visit. Foreign families paying cash/card often use private paediatric clinics for continuity while comparing unsubsidised polyclinic fees for vaccines \u2014 confirm current charges rather than assuming public equals cheap. For mental-health referrals, verify whether your insurer reimburses psychology vs psychiatry before booking a long therapy series. For dental, treat MOH fee benchmarks as a negotiation anchor and assume EP holders have no Medisave \u2014 see the dental guide. Pair with the paediatrician, dental, and mental-health guides for first-90-days planning. Multi-specialty groups are useful when you need physio or eye referrals without rebuilding your GP relationship \u2014 still confirm AHPC/OOB credentials and cash rates when outpatient riders are thin.",
+  "body": "SMG and similar groups help when you need faster specialist access than public pathways. Bring vaccination records and prior scripts to your first visit. Foreign families paying cash/card often use private paediatric clinics for continuity while comparing unsubsidised polyclinic fees for vaccines — confirm current charges rather than assuming public equals cheap. For mental-health referrals, verify whether your insurer reimburses psychology vs psychiatry before booking a long therapy series. For dental, treat MOH fee benchmarks as a negotiation anchor and assume EP holders have no Medisave — see the dental guide. Pair with the paediatrician, dental, and mental-health guides for first-90-days planning. Multi-specialty groups are useful when you need physio or eye referrals without rebuilding your GP relationship — still confirm AHPC/OOB credentials and cash rates when outpatient riders are thin. Multi-specialty groups also market health screening and specialist derm/gynae under the same umbrella — treat each specialty's fee schedule and insurer code separately, and use the category guides for screening, dermatology, and O&G rather than assuming a GP panel visit unlocks specialist reimbursement.",
   "category": "clinics",
   "areasServed": [
     "Islandwide"
@@ -15,15 +15,17 @@
     "Need faster specialist access than public waits",
     "Cash-pay paediatric continuity while comparing vaccine fees",
     "Mental-health referral needs insurer carve-out check",
-    "Need physio or optical referral without changing GP"
+    "Need physio or optical referral without changing GP",
+    "Health-screening package vs specialist fee schedule unclear",
+    "Derm / gynae cash rates before insurer reply"
   ],
   "officialLinks": [
     {
-      "label": "MOH \u2014 Guide to dental treatment costs",
+      "label": "MOH — Guide to dental treatment costs",
       "url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/"
     },
     {
-      "label": "MOH \u2014 Mental health services",
+      "label": "MOH — Mental health services",
       "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
     }
   ],

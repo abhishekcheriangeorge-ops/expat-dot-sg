@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 7 — 2026-09-15
+
+Branch: `cursor/services-directory-tick7-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–6 primary topics and avoided open #70 / #75 touch sets (pedia/IVF/SLT-OT/preschool/TCM + dental/mental/enrichment/immigration/helper upgrades; eldercare/AEIS/ambulance/funeral/cleaning + legal/tax/movers/agents/helper upgrades). Fresh worktree off `origin/main` (F4 already landed).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — blood tests / full-body screening package vs polyclinic labs ([where to get blood tested](https://www.reddit.com/r/askSingapore/comments/1j2kkih/where_to_get_blood_tested_in_singapore_feeling/); [full body health check](https://www.reddit.com/r/askSingapore/comments/1hqyjrt/where_to_do_full_body_health_check_up/)).
+- r/askSingapore — private dermatologist cash fees vs NSC foreigner rates ([affordable private dermatologist](https://www.reddit.com/r/askSingapore/comments/1n1gjbh/an_affordable_private_dermatologist_in_sg/)).
+- r/askSingapore — gynae recommendations / private vs public referral ([gynae recommendations](https://www.reddit.com/r/askSingapore/comments/1cxa5mb/gynae_recommendations_please/)).
+- r/askSingapore — HDB town-council handyman rates vs WhatsApp plumber/electrician upsells ([reliable plumber/electrician](https://www.reddit.com/r/askSingapore/comments/m0zezr/where_do_you_guys_find_reliable/); [plumbing services](https://www.reddit.com/r/askSingapore/comments/1nwrnm5/recommended_plumbing_services_in_singapore/); [handyman electrical](https://www.reddit.com/r/askSingapore/comments/1e6yn5v/looking_for_reliable_handyman_for_electrical/)).
+- Laundry / dry-clean pickup vs coin laundry heat adjacent to furnishing and lease-end cleaning threads (distinct from #75 recurring home cleaning).
+
+**Official**
+
+- [MOH — Health screening](https://www.moh.gov.sg/ownyourhealth/healthy-living/health-screening/) + [HealthHub Screen for Life](https://www.healthhub.sg/programmes/screen_for_life/) + [MOM EP medical examination](https://www.mom.gov.sg/passes-and-permits/employment-pass/documents-required#medical-examination).
+- [National Skin Centre](https://www.nsc.com.sg/) + [SMC register](https://www.smc.gov.sg/pages/registers.aspx).
+- [KKH](https://www.kkh.com.sg/) + MOH find-a-facility.
+- [PUB — Plumbing works for homeowners](https://www.pub.gov.sg/compliance/plumbingworks/homeowners) + [EMA — Licensed electrical workers](https://www.ema.gov.sg/consumer-information/electricity/safety/licensed-electrical-workers) + HDB renovation / town-council handyman context.
+- [CASE](https://www.case.org.sg/) consumer advice for laundry/dry-clean disputes.
+
+### Gaps vs ticks 1–6 / open PRs
+
+Ticks 1–4 on main plus open #70/#75 cover tax/dental/notary/storage/pets, mental health/licence/aircon/insurance/FDW DIY, pest/furniture/cleaning-exit/nanny/car-share, physio/optical/vet/bank/wills, pedia/IVF/SLT-OT/preschool/TCM, and eldercare/AEIS/ambulance/funeral/recurring-clean. Remaining high-intent **directory** gaps: **health screening & labs**, **dermatology foreigner-fee honesty**, **O&G (not IVF)**, **handyman/plumber/electrician licensing**, and **laundry/dry-cleaning** (distinct from home cleaners).
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/health-screening-labs.json`
+- `content/entities/services/dermatology-skin.json`
+- `content/entities/services/obstetrics-gynaecology.json`
+- `content/entities/services/handyman-plumber-electrician.json`
+- `content/entities/services/laundry-dry-cleaning.json`
+
+**Upgraded existing** (avoided #70/#75 paths)
+
+- Clinics: `parkway-shenton.json`, `raffles-medical.json`, `smg.json`
+- Home: `aircon-servicing.json`, `pest-control.json`, `furniture-rental.json`
+- Insurance: `private-health-insurance.json`, `aia-singapore.json`, `prudential-singapore.json` (did not flip featured/sponsored)
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 or #75 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Is an executive health-screening package worth it vs GP bloodwork?
+2. Will my outpatient rider reimburse a cash screening SKU?
+3. Are NSC foreigner fees actually cheaper than private derm?
+4. How do I avoid aesthetic package hard-sell at a skin clinic?
+5. Should I book private O&G or take a polyclinic referral to KKH?
+6. Does maternity cover pay antenatal visits on my group plan?
+7. Where do I find PUB-licensed plumbers for HDB work?
+8. Are town-council handyman rates better than 24hr WhatsApp vendors?
+9. Wash-fold vs dry-clean — what do I need for suits and curtains?
+10. Can weekly laundry satisfy an end-of-lease cleaning clause?
+
+---
+
 ## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 3b)
 
 Branch: `cursor/loop-g-seo-tick3-a144` → PR to `main`. Follow-up to tick 3 (#57). Shell/metadata/hubs/crosslink depth only — **no** A–F/H body rewrites, **no** ads inventory / Grok.

@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "dermatology-skin",
+  "name": "Dermatology & skin (category guide)",
+  "summary": "National Skin Centre vs private derm cash rates — foreigner fee honesty, aesthetic upsells, and when a GP trial beats a S$300 first consult.",
+  "body": "Foreigners on EP/DP are not entitled to citizen/PR subsidies at the National Skin Centre — public queue + full foreigner fees can cost more than a transparent private clinic, which is why askSingapore threads warn against assuming ‘government = cheaper’. Private derm first consults commonly land in the low-to-mid hundreds SGD before procedures or isotretinoin labs; ask for the consult fee and typical add-ons in writing. Aesthetic / laser packages are a different product from medical dermatology for acne, eczema, or suspicious moles — decline hard-sell packages until you have a diagnosis. Many corporate outpatient riders exclude dermatology or reimburse only when referred for a medical (not cosmetic) indication — read the schedule. Start with a panel GP for straightforward rashes or mild acne; escalate to a SMC-registered dermatologist for scarring acne, unexplained lesions, or treatments that need blood monitoring. Verify the doctor on the Singapore Medical Council register. This is a category guide, not a ranked clinic list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Acne / eczema not responding to GP care",
+    "Quoted private derm fees or package hard-sell need a sanity check",
+    "NSC foreigner fees vs private cash unclear",
+    "Outpatient rider may exclude dermatology / aesthetic codes"
+  ],
+  "officialLinks": [
+    {
+      "label": "National Skin Centre",
+      "url": "https://www.nsc.com.sg/"
+    },
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}
