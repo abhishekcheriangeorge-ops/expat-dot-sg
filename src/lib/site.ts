@@ -645,6 +645,11 @@ export const pillars: Pillar[] = [
         blurb: "Timing, COMPASS, age bands — plus NOA document asks.",
       },
       {
+        label: "COMPASS firm scores on renewal",
+        href: "/guides/ep-renewal-compass-firm-scores-singapore",
+        blurb: "SAT firm criteria can drift even when your pay still clears.",
+      },
+      {
         label: "PR strategy",
         href: "/guides/pr-application-strategy",
         blurb: "Eligibility signals, timelines, and realistic odds.",
@@ -685,6 +690,11 @@ export const pillars: Pillar[] = [
         blurb: "New employer files fresh pass — resign only after IPA.",
       },
       {
+        label: "PEP / ONE / Tech.Pass chooser",
+        href: "/guides/pep-one-tech-pass-chooser-singapore",
+        blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",
+      },
+      {
         label: "EP rejection appeal playbook",
         href: "/guides/ep-rejection-appeal-candidate-playbook-singapore",
         blurb: "Employer-only 3-month window — advisory facts beat resign vibes.",
@@ -713,6 +723,11 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
+      },
+      {
+        label: "Cancel MDW Work Permit on exit",
+        href: "/guides/fdw-cancellation-when-leaving-singapore",
+        blurb: "Transfer vs repatriate; levy stops only after MOM cancel.",
       },
       {
         label: "PR rejected — appeal / reapply",
