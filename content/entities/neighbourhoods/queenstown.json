@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "queenstown",
+  "name": "Queenstown",
+  "summary": "Mature west-of-CBD estate with EWL access, hawker density, and Holland V / Tiong Bahru adjacency — central-feeling heartland without Orchard rents.",
+  "body": "Queenstown rewards people who want CBD-adjacent convenience without Marina Bay layouts. East-West Line stations (Queenstown, Commonwealth, and nearby Redhill / Buona Vista gravity depending on block) keep door-to-desk times competitive for west-central offices; buses and park connectors stitch Margaret Drive, Alexandra, and the Southern Ridges weekend loop. Hawker and wet-market density (Margaret Drive, ABC Brickworks adjacency, Redhill pockets) is a real grocery and dinner advantage versus mall-only towns. Housing spans older HDB, selective condos, and pockets that price like ‘almost central’ — expect firmer rents than Tampines or Sengkang for similar bedroom counts. Holland Village and Tiong Bahru café scenes are a short hop when you want expat-default social texture without paying those estate premiums nightly. Watch-outs: limited late-night F&B in some pockets, ongoing estate upgrading / construction on specific plots, and HDB eligibility rules for foreigner rentals. Compare with Clementi for west-science-park gravity or Bishan for NSL/CCL interchange centrality.",
+  "region": "central",
+  "vibe": [
+    "mature-estate",
+    "hawker",
+    "cbd-adjacent",
+    "park-connector",
+    "practical"
+  ],
+  "bestFor": [
+    "CBD / west-central workers",
+    "hawker-first households",
+    "couples upgrading from serviced stays",
+    "runners using Southern Ridges"
+  ],
+  "watchOuts": [
+    "Rent premiums vs outer heartlands",
+    "Patchy late-night amenities",
+    "Block-level construction / upgrading",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB, selective condos, some walk-up stock.",
+  "commuteNotes": "East-West Line (Queenstown / Commonwealth); verify which station your block actually walks to in the rain.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3500,
+    "familyFrom": 3000,
+    "familyTo": 4800
+  },
+  "mrt": [
+    "Queenstown",
+    "Commonwealth"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

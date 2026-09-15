@@ -76,7 +76,73 @@ Tick 1 shipped tax / dental / notary / self-storage / pet-relocation + schema/UI
 
 ---
 
----
+## Loop C — Home + Life (parallel) — Tick 22 — 2026-09-15
+
+Branch: `loop/home-life-t22` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — early lease exit without diplomatic clause / deposit forfeiture vs remaining-rent SCT claims ([can landlord sue](https://www.reddit.com/r/askSingapore/comments/1fh2rcg/can_my_landlord_sue_me_for_ending_a_tenancy_early/); [S$20k demand](https://www.reddit.com/r/askSingapore/comments/1j5m8bl/landlord_demanding_20k_for_early_lease/); [deposit-only myths](https://www.reddit.com/r/askSingapore/comments/1gsh3fn/in_singapore_what_happens_if_the_tenancy_rental/)).
+- r/askSingapore — habitability / pest exits adjacency ([condo termites](https://www.reddit.com/r/askSingapore/comments/1e9w12r/contract_termination_in_condo_termites/)).
+- r/askSingapore — neighbourhood shortlists for Bishan / Sengkang / Queenstown / Bedok belts ([Bishan](https://www.reddit.com/r/askSingapore/comments/1p6c1sd/is_staying_at_bishan_really_good/); [love/hate neighbourhoods](https://www.reddit.com/r/askSingapore/comments/1k2tn35/what_do_you_love_and_hate_about_your/); [quiet long-stay](https://www.reddit.com/r/askSingapore/comments/1qwfoge/best_quiet_area_in_sg_for_long_term_stay_wfh_5k/); [best MRT](https://www.reddit.com/r/askSingapore/comments/1581thm/best_mrt_to_live_nearby_to/)).
+
+**Official**
+
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [renting guidance](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/).
+- [Judiciary — SCT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-small-claim) + [small claims guide PDF](https://www.judiciary.gov.sg/docs/default-source/civil-docs/sct_guide_to_small_claims.pdf).
+- [NEA — Management of bed bugs](https://www.nea.gov.sg/our-services/pest-control/management-of-bed-bugs).
+- [PUB — About floods](https://www.pub.gov.sg/Public/KeyInitiatives/Flood-Resilience/About-Floods) + [Flood Resilience](https://www.pub.gov.sg/Public/KeyInitiatives/Flood-Resilience).
+
+### Gaps vs Tick 21 (Home + Life slice)
+
+Tick 21 shipped HDB mid-lease sale, bedroom continuous-occupation / partitions, adjacent BTO/site construction noise, SP ownership-transfer cut-offs, Punggol + Jurong East entities. Remaining high-intent Home+Life gaps matched forum heat: **early termination without diplomatic clause (deposit ≠ full release)**, **bed-bug / habitability pest escalation**, **PUB flash-flood checks for renters**, plus neighbourhood entity depth for **Bishan**, **Sengkang**, and **Queenstown**. Stamp duty already covered under renting-process — left alone beyond cross-links.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/early-lease-termination-tenants.mdx`
+- `content/guides/life/flash-floods-singapore-renters.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/aircon-pest-renewals.mdx` (bed bugs + NEA + habitability exit pointer)
+- `content/guides/home/security-deposit-diplomatic-clause.mdx` (non-clause exit deep-link)
+- `content/guides/home/renting-process-loi-ta-deposits.mdx` (early-exit ask + related)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (Bishan/Sengkang/Queenstown + flood constraint)
+- `content/guides/home/heartland-living-for-expats.mdx` (entity shortlist + flood/construction)
+- `content/guides/life/haze-climate-preparedness.mdx` (flood cross-link)
+- `src/lib/site.ts` (Home early-exit topic; Life climate/floods topic)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/bishan.json`
+- `content/entities/neighbourhoods/sengkang.json`
+- `content/entities/neighbourhoods/queenstown.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not re-litigate Tick 19–21 fibre/mould/CDRT/HDB-sale/construction topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. If I forfeit my security deposit to leave early, can the landlord still sue for remaining rent?
+2. Does “without prejudice to further claims” in my TA mean deposit forfeiture is not a full release?
+3. Must the landlord mitigate by finding a replacement tenant before claiming months of rent?
+4. Can I assign my lease to a friend without the landlord’s consent?
+5. Is SCT the right forum when the landlord files for S$20k after I break the lease?
+6. Should I stop paying rent once I give early-termination notice?
+7. Who pays for the first bed-bug treatment — tenant or landlord — and how do I document it?
+8. Can untreated bed bugs or termites support a mutual early termination?
+9. How do I check PUB flood hotspots before I LOI a ground-floor or basement-parking unit?
+10. Does a one-hour lobby flash flood let me break the lease?
+11. Bishan vs Queenstown vs Sengkang — which fits a CBD office vs NEL-office family?
+12. Is Junction 8 / Compass One enough errand gravity, or do I still need a car?
 
 ---
 
@@ -1090,8 +1156,6 @@ Prior Loop D tick shipped PR rejection, EP renewal age-bands, NS Exit Permit, re
 
 ---
 
----
-
 ## Loop C — Home + Life (parallel) — Tick 20 — 2026-09-15
 
 Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
@@ -1160,8 +1224,6 @@ Tick 19 shipped HDB ceiling leaks, pets daily life, PUB water appeals, grocery d
 10. Upstairs dripping laundry keeps soaking my clothes — Town Council or confront?
 11. Katong vs Tampines vs Clementi vs Bukit Timah — which fits a mid-package family?
 12. Should I run a fibre TP availability check before paying the rental deposit?
-
----
 
 ---
 

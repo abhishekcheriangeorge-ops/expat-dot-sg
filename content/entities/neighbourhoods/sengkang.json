@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "sengkang",
+  "name": "Sengkang",
+  "summary": "Northeast family town on the NEL — newer HDB stock, mall + LRT loops, strong value vs central condos, with peak-hour crowd and build-out noise trade-offs.",
+  "body": "Sengkang is the classic mid-package family shortlist when Punggol feels too far-waterfront and Tampines feels too east-airport. Compass One / Sengkang MRT / bus interchange density makes errands easy; LRT loops cover Rivervale, Compassvale, and Anchorvale pockets that listings blur together. Whole-flat HDB rents usually undercut Bukit Timah and East Coast condo math, which is why expat and PR households appear more often than agents admit — still verify HDB open-market eligibility and approval letters before deposits. The honest taxes: North East Line crush at peak, thinner expat-default café culture than Holland V, and adjacent BTO / infrastructure works that deserve an 8am weekday walk (construction noise is an NEA rail, not an automatic rent cut). Pair with Punggol if you want waterway parks, or Bishan if you need NSL/CCL interchange centrality. Grocery default is FairPrice + mall specialty; RedMart fills imported gaps.",
+  "region": "northeast",
+  "vibe": [
+    "family",
+    "nel",
+    "newer-hdb",
+    "mall-hub",
+    "value"
+  ],
+  "bestFor": [
+    "families",
+    "NEL corridor workers",
+    "HDB whole-flat hunters",
+    "budget-conscious renters"
+  ],
+  "watchOuts": [
+    "NEL peak crowding",
+    "Adjacent BTO / works noise",
+    "Fewer expat-default social spots",
+    "LRT last-mile adds minutes"
+  ],
+  "housingMix": "Newer HDB towns, executive condos, some private clusters near the hub.",
+  "commuteNotes": "North East Line at Sengkang; Sengkang LRT for estate last-mile — time the full door-to-desk path.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3000,
+    "familyFrom": 2600,
+    "familyTo": 4000
+  },
+  "mrt": [
+    "Sengkang"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

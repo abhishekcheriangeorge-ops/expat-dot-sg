@@ -204,6 +204,11 @@ export const pillars: Pillar[] = [
         blurb: "LOI, tenancy agreement, deposits, and agent norms.",
       },
       {
+        label: "Early lease exit",
+        href: "/guides/early-lease-termination-tenants",
+        blurb: "Break leases without a diplomatic clause — deposit vs remaining rent.",
+      },
+      {
         label: "Condo vs HDB",
         href: "/guides/condo-vs-hdb-expat",
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
@@ -211,7 +216,7 @@ export const pillars: Pillar[] = [
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Bukit Timah, Holland V, East Coast, River Valley, and more.",
+        blurb: "Bukit Timah, Holland V, East Coast, Bishan, Sengkang, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -226,7 +231,7 @@ export const pillars: Pillar[] = [
       {
         label: "Aircon, pest & renewals",
         href: "/guides/aircon-pest-renewals",
-        blurb: "The maintenance rhythm of tropical living.",
+        blurb: "Tropical maintenance — including bed-bug escalation.",
       },
     ],
     related: [
@@ -385,9 +390,14 @@ export const pillars: Pillar[] = [
         blurb: "Singpass, HealthHub, banking, delivery — the short list.",
       },
       {
-        label: "Climate, haze & emergencies",
+        label: "Climate, haze & floods",
+        href: "/guides/flash-floods-singapore-renters",
+        blurb: "PUB flash-flood checks, haze season, and emergency rails.",
+      },
+      {
+        label: "Emergencies & embassies",
         href: "/guides/emergencies-995-999-embassies",
-        blurb: "995/999, embassies, and what haze season requires.",
+        blurb: "995/999, embassies, and what to do when it is serious.",
       },
     ],
     related: [
