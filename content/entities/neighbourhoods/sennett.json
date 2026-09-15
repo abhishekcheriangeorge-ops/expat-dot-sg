@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "sennett",
+  "name": "Sennett",
+  "summary": "Landed-adjacent pocket near Potong Pasir / MacPherson gravity — quieter residential texture with mid-town access without full estate-hub intensity.",
+  "body": "Sennett is the shortlist when low-rise calm and central-east adjacency matter more than MRT-doorstep living. The estate sits near Potong Pasir and MacPherson gravity with landed streets and selective walk-up / condo edges. Expats shortlist it for family layouts and a less transient feel than Kallang riverside towers. Watch-outs: last-mile to MRT, school-run traffic, and variable MA / CCTV culture on condo pockets. Compare with Boon Keng for NEL doorstep practicality, Geylang East for food density, and Potong Pasir when you want the named station estate.",
+  "region": "central",
+  "vibe": [
+    "landed-adjacent",
+    "quiet",
+    "family",
+    "central-east",
+    "residential"
+  ],
+  "bestFor": [
+    "families wanting quieter streets",
+    "households with school-run cars",
+    "renters leaving CBD tower intensity",
+    "people testing ActiveSG holiday camps nearby"
+  ],
+  "watchOuts": [
+    "Walk to MRT can be the tax",
+    "School-run congestion",
+    "Fewer 24/7 amenity options than hub towns",
+    "Condo CCTV / visitor-app rules vary estate by estate"
+  ],
+  "housingMix": "Landed streets with selective walk-up and condo edges.",
+  "commuteNotes": "Nearest MRT gravity toward Potong Pasir / Tai Seng / MacPherson depending on block. Test a weekday last-mile before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3800,
+    "familyFrom": 4500,
+    "familyTo": 9000
+  },
+  "mrt": [
+    "Potong Pasir",
+    "Tai Seng",
+    "MacPherson"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

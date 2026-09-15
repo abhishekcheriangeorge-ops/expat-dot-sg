@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "boon-keng",
+  "name": "Boon Keng",
+  "summary": "NEL mid-town pocket between Kallang and Potong Pasir — practical condo/HDB mix with CTE-adjacent hops and less tourist gloss than Bugis.",
+  "body": "Boon Keng is the shortlist when North-East Line mid-town access and quieter residential texture matter more than riverside nightlife branding. The station pocket sits between Kallang lifestyle gravity and Potong Pasir’s older estate feel; housing mixes HDB slabs with selective condo edges. Expats land here for manageable CBD hops and car-light errands without Orchard premiums. Watch-outs: peak NEL congestion, older-block ops, and estate-specific CCTV / visitor-app culture. Compare with Sennett for landed-adjacent calm, Geylang East for food-spine energy, and Kallang when stadium / riverside living wins.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "mid-town",
+    "practical",
+    "residential",
+    "cte-adjacent"
+  ],
+  "bestFor": [
+    "NEL CBD commuters",
+    "car-light mid-town renters",
+    "households comparing Kallang vs Potong Pasir edges",
+    "people who will book ActiveSG camps instead of condo kids-club myths"
+  ],
+  "watchOuts": [
+    "Peak NEL crowding",
+    "Older-block maintenance variance",
+    "CCTV / MA footage rules differ by estate",
+    "Less café-strip identity than Joo Chiat"
+  ],
+  "housingMix": "Mature HDB with selective condo / executive pockets near the station.",
+  "commuteNotes": "North-East Line at Boon Keng; CTE adjacency depending on block. Time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3600,
+    "familyFrom": 3000,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Boon Keng",
+    "Potong Pasir",
+    "Kallang"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
