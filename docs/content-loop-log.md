@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 21) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick21-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #155. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — overnight ward parent vs sibling coverage; insurance panel panic.
+- r/askSingapore — PTC slot wars; which parent should attend; no written follow-up.
+- r/askSingapore — playground regulars as soft belonging; heat/haze cancellations.
+
+**Official**
+
+- [MOH healthcare system](https://www.moh.gov.sg/home/our-healthcare-system)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [NParks](https://www.nparks.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–20 (open through #155) covered schools through faith–preschool belonging. Remaining heat without contested paths: **child hospitalisation coverage**, **PTC dual-career ops**, **park/playground parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-child-hospitalisation-coverage-singapore.mdx`
+- `content/guides/family/parent-teacher-conference-dual-career-singapore.mdx`
+- `content/guides/belong/park-playground-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- emergencies 995, haze preparedness, condo vs HDB, construction-site noise
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- `content/entities/services/smg.json`
+- `content/entities/services/private-health-insurance.json`
+- `content/entities/services/aia-singapore.json`
+- `content/entities/schools/singapore-american-school.json`
+- `content/entities/schools/stamford-american.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#155 guide/entity paths.
+
+### Questions mined (sample)
+
+1. Who sleeps in the ward tonight?
+2. Who runs sibling drop-off tomorrow?
+3. Is the guarantee letter ready?
+4. Which parent leads the PTC?
+5. What are the three concerns max?
+6. What is the written follow-up?
+7. Which playground is our repeat rail?
+8. What is the haze backup plan?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 20) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick20-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/clubs entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #149 (#80/#91/#100/#108/#115/#129/#134/#142/#149). Shared log + `site.ts` only. Skipped primary-CCA-vs-academy (#115/#91 adjacency) and learning-support waitlist depth (#149 adjacency).
