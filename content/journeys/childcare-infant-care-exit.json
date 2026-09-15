@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "childcare-infant-care-exit",
+  "title": "Childcare / infant-care exit",
+  "summary": "Leaving mid-term with infant care, childcare, and student-care contracts still live — notice weeks, deposit returns, and how centre exit collides with school withdrawal, movers week, and fibre ETF cash.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-centres",
+      "title": "Inventory every centre and after-care contract",
+      "body": "Infant care, childcare, student care, and holiday programmes often sit on separate contracts from international school. Cancelling school enrolment does not auto-stop centre billing. List every centre with written-notice weeks and deposit amounts the week you resign.",
+      "bullets": [
+        "Screenshot parent-portal invoices and notice clauses for each centre",
+        "Confirm whether sibling discounts survive one child leaving",
+        "Ask whether holiday-programme deposits are separate pots"
+      ],
+      "href": "/tools/school-withdrawal"
+    },
+    {
+      "id": "notice-windows",
+      "title": "Notice windows vs last attendance day",
+      "body": "Many centres want one calendar month’s written notice ending on a fee-cycle boundary. Diplomatic-clause exits and mid-month flights collide with those cut-offs. Serve notice early enough that the last billed month matches the child’s last attendance day — not an empty week after you fly.",
+      "bullets": [
+        "Email written notice and keep the acknowledgement PDF",
+        "Align last attendance with the centre’s published fee cycle",
+        "Do not assume verbal notice to a teacher counts as contract notice"
+      ],
+      "href": "/tools/lease-notice"
+    },
+    {
+      "id": "deposits-meals",
+      "title": "Deposits, meal plans, and uniform kits",
+      "body": "Caution deposits, meal-plan top-ups, and uniform / bedding kits linger after the child stops attending. Some centres forfeit deposits on short notice; others refund after a final inspection of returned kits. Inventory kits before movers week swallows the bag.",
+      "bullets": [
+        "List deposit, meal credit, and kit items per child",
+        "Book kit return on a day the centre office is open",
+        "Ask whether unused meal credits refund to the card on file"
+      ],
+      "href": "/tools/school-deposit-clawback"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with school and fibre",
+      "body": "Centre notice, school withdrawal, and fibre / broadband early-termination fees often land in one fortnight. Sequence so the child still has care on school clear-out days, and so fibre ETF cash is not raided by a surprise centre deposit forfeit.",
+      "bullets": [
+        "Put centre last day, school errands, and ISP cancel on one family calendar",
+        "Sketch fibre ETF cash on /tools/fibre-broadband-etf",
+        "Keep one adult free for centre-office handovers on notice week"
+      ],
+      "href": "/tools/fibre-broadband-etf"
+    },
+    {
+      "id": "subsidy-edges",
+      "title": "Subsidy and employer childcare edges",
+      "body": "ECDA / employer childcare subsidies and claims can reverse when attendance stops mid-month. Confirm whether you owe a clawback on prepaid subsidy months, and whether HR needs a stop date before your last working day.",
+      "bullets": [
+        "Ask the centre how subsidy claims change on early exit",
+        "Email HR the childcare stop date with the EP cancel window",
+        "Keep final invoices for any employer reimbursement still mid-flight"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: centre deposits vs fibre ETF",
+      "body": "Centre deposit forfeits and fibre early-termination fees are small next to IR21 withhold — but they hit while movers deposits are live. Keep a dedicated SGD float so a centre invoice does not raid the ISP ETF pot.",
+      "bullets": [
+        "Total open centre deposits and notice-month fees before resignation week",
+        "Sketch fibre / broadband ETF on /tools/fibre-broadband-etf",
+        "Pay parent portals while Singapore cards and PayNow still work"
+      ],
+      "href": "/tools/fibre-broadband-etf"
+    }
+  ]
+}

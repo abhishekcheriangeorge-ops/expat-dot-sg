@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 22)
+
+Branch: `cursor/e-journeys-tools-tick22-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#129 / Loop B16 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#225** (E21): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Parent threads — infant care / childcare notice still billing after school withdrawal; meal credits and kit returns on movers week.
+- Home-exit threads — fibre ETF vs serving remaining months; rebate clawbacks exceeding the published ETF line.
+
+**Official / orientation**
+
+- Centre parent-handbook notice / deposit schedules (centre-specific)
+- ISP fibre early-termination / promo clawback schedules (vendor-specific)
+
+### Gaps vs open E stack through #225
+
+Open tips through **#225** cover mail/HDB, helper/club, bus/insurance, visitor QR/device, locker/pet float, gym/leavers. Remaining high-intent gaps **off those path sets**: **childcare / infant-care exit**, **fibre broadband ETF sketch**. No calendar JSON. Distinct from `/journeys/utility-exit-handover` (process) and `/tools/sim-otp-keep` (OTP keep) — this tick owns centre exit + fibre ETF cash only.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/childcare-infant-care-exit.json` + `/journeys/childcare-infant-care-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/fibre-broadband-etf.ts`
+- `src/components/tools/FibreBroadbandEtfCalculator.tsx`
+- `/tools/fibre-broadband-etf` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #173 / #186 / #196 / #203 / #217 / #225 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does school withdrawal stop childcare billing?
+2. How many written-notice weeks does the centre need?
+3. Do meal credits refund on early exit?
+4. When should kits be returned relative to movers day?
+5. Do sibling discounts survive one child leaving?
+6. Is paying fibre ETF cheaper than serving six remaining months?
+7. Can rebate clawbacks exceed the published ETF?
+8. Is a $0 transfer fee a real takeover path?
+9. Should centre deposits and fibre ETF share one cash float?
+10. When must the ONT be returned after cancel?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 21)
 
 Branch: `cursor/e-journeys-tools-tick21-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#91 / Loop B12 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#217** (E20): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → this tip**.
