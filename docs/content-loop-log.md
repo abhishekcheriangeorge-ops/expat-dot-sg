@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 17) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick17-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Life / Next body trees beyond a light Home cross-link on MDW hiring. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), and #129 (exam-week coverage/IS PTA/teen driving).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — second/third IS fee shock; sibling discount myths; corporate education caps.
+- r/askSingapore — confinement ends / infant-care waitlist still cold; dual-EP fever-day fights.
+- r/askSingapore — employer parent ERGs; helper Sunday community; privacy in condo employer chats.
+
+**Official**
+
+- [MOE — International schools](https://www.moe.gov.sg/international-schools)
+- [ECDA](https://www.ecda.gov.sg/) + [MOH National Childhood Immunisation Schedule](https://www.moh.gov.sg/ownhealth/stay-well/national-childhood-immunisation-schedule)
+- [MOM — Newborn Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass/getting-a-pass-for-a-newborn) + [FDW Work Permit](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–16 (incl. open #80/#91/#100/#108/#115/#129) covered schools/SEN through teen driving. Remaining heat: **IS sibling fees/bursary realism**, **newborn→preschool dual-career handoff**, **workplace parent + helper-community belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/international-school-sibling-fees-bursary-singapore.mdx`
+- `content/guides/family/newborn-preschool-handoff-dual-career-singapore.mdx`
+- `content/guides/belong/workplace-parent-helper-community-belonging-singapore.mdx`
+
+**Upgraded guides** (low-conflict vs open B stack)
+
+- confinement nanny, maternity care, childhood vaccination, baby bonus/CDA, book clubs, hiring domestic helper (Home cross-link)
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/schools/australian-international-school.json`
+- `content/entities/schools/canadian-international-school.json`
+- `content/entities/schools/gess.json`
+- `content/entities/services/comfort-employment.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite open #80 / #91 / #100 / #108 / #115 / #129 bodies; avoided contested files in that stack where possible.
+
+### Questions mined (sample)
+
+1. Is sibling discount tuition-only or all-in?
+2. Does employer education cap cover child two?
+3. When do infant-care applications need to start relative to birth?
+4. Who owns fever-day pickup after both EPs return?
+5. Is an office parents ERG enough belonging?
+6. How do helper Sunday communities relate to employer privacy?
+7. Can bursary language be underwritten before enrolment?
+8. What backup exists for the first preschool sick weeks?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 16) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick16-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next body trees beyond a cross-link on driving-licence conversion. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), and #115 (school-holiday coverage/IS CCA/teen internships).
