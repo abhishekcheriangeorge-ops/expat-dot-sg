@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "workplace-access-exit",
+  "title": "Workplace access / pass exit",
+  "summary": "Leaving a Singapore employer with building access cards, office car-park labels, VPN tokens, and visitor apps still live — return clocks, deposit holds, and how workplace exit collides with EP cancel and clinic deposit cash.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-access",
+      "title": "Inventory every workplace access artefact",
+      "body": "Office tower cards, floor fobs, locker keys, car-park labels, VPN hardware tokens, and visitor-invite admin rights often sit on different desks — facilities, IT, and HR. EP cancel does not auto-collect them. List every item the week you resign, not the morning of your last day.",
+      "bullets": [
+        "Photograph card serials and car-park label numbers",
+        "List VPN tokens, RSA keys, and admin roles on visitor apps",
+        "Ask facilities for the published return checklist and deposit amounts"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "last-day-window",
+      "title": "Match returns to facilities office hours",
+      "body": "Many towers only process card deactivation and deposit refunds on weekday office hours. Friday flights and diplomatic-clause exits collide with closed counters. Schedule card and label return before movers day — not after the last Grab to Changi.",
+      "bullets": [
+        "Confirm facilities hours and required ID (passport + company letter)",
+        "Ask whether cards must be returned in person vs via HR",
+        "Get written confirmation of what deposits facilities vs HR holds"
+      ],
+      "href": "/tools/lease-notice"
+    },
+    {
+      "id": "it-and-apps",
+      "title": "IT tokens and visitor-app admins",
+      "body": "Hardware VPN tokens and visitor-invite admin rights can outlive your last working day if IT only closes email. Hand tokens back with a dated IT ticket, and remove yourself as visitor-host admin so ex-colleagues cannot keep issuing lobby QR under your name.",
+      "bullets": [
+        "Return hardware tokens with an IT acknowledgement",
+        "Revoke visitor-host / meeting-room booking admin before Singpass changes",
+        "Export expense and medical claims PDFs while SSO still works"
+      ],
+      "href": "/journeys/singpass-myinfo-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with EP cancel and clinic cash",
+      "body": "Access-card return, EP cancel paperwork, and clinic / dental deposit refunds often land in one fortnight. Sequence so you still have building access on the day HR needs wet-ink signatures, and so workplace deposits are not raided by a clinic deposit float.",
+      "bullets": [
+        "Put card return, HR wet-ink day, and clinic settlement on one calendar",
+        "Sketch clinic deposit cash on /tools/clinic-deposit-exit",
+        "Keep one adult free for tower facilities hours on exit week"
+      ],
+      "href": "/tools/clinic-deposit-exit"
+    },
+    {
+      "id": "carpark-vs-iu",
+      "title": "Office car-park labels vs personal IU",
+      "body": "Workplace car-park labels are not the same as your personal IU / ERP rail. Returning an office label does not deregister the car’s IU. Treat office parking deposits as a separate cash line from condo season parking or IU auto-top-up.",
+      "bullets": [
+        "Return office labels to facilities — do not leave them with the next driver informally",
+        "Confirm whether unpaid office parking charges hit your final payslip",
+        "Pair personal IU / ERP exit with /journeys/parking-iu-erp-exit when that playbook is on main"
+      ],
+      "href": "/tools/car-coe-exit"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: access deposits vs clinic deposits",
+      "body": "Access-card deposits and clinic / dental deposits are small next to IR21 withhold — but they hit while movers cash is live. Keep a dedicated SGD float so a lost-card fee does not raid the clinic refund pot.",
+      "bullets": [
+        "Total open facilities deposits before resignation week",
+        "Sketch clinic deposit risk on /tools/clinic-deposit-exit",
+        "Pay any lost-card fees while Singapore cards and PayNow still work"
+      ],
+      "href": "/tools/clinic-deposit-exit"
+    }
+  ]
+}

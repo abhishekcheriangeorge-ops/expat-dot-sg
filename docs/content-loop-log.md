@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 24)
+
+Branch: `cursor/e-journeys-tools-tick24-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#199 / Loop B26 tip). **Did not wait for merges or CI on prior tips including #243.** Avoided open E stack exclusives through **#243** (E23): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Leaver threads — office tower cards still active after EP cancel; VPN tokens unreturned; visitor-app host rights left live.
+- Health threads — GP / dental deposits and unused packages held past flight week; records-transfer fees netted against deposits.
+
+**Official / orientation**
+
+- Building facilities / landlord access return desks (estate-specific)
+- Clinic / dental finance desk deposit schedules (practice-specific)
+
+### Gaps vs open E stack through #243
+
+Open tips through **#243** cover mail/HDB, helper/club, bus/insurance, visitor QR/device, locker/pet, gym/leavers, childcare/fibre, parking IU/tuition. Remaining high-intent gaps **off those path sets**: **workplace access / pass exit**, **clinic deposit exit sketch**. No calendar JSON. Distinct from `/journeys/hospital-cash-deposit` (admission float) — this tick owns outpatient clinic deposit release. Distinct from parking-iu-erp — this tick owns employer building access, not personal IU.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/workplace-access-exit.json` + `/journeys/workplace-access-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/clinic-deposit-exit.ts`
+- `src/components/tools/ClinicDepositExitCalculator.tsx`
+- `/tools/clinic-deposit-exit` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #243.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does EP cancel auto-deactivate the office tower card?
+2. When must VPN tokens be returned relative to last working day?
+3. Do visitor-app host rights survive email deactivation?
+4. Are office car-park labels separate from personal IU?
+5. Who holds the access-card deposit — facilities or HR?
+6. Will unused dental packages offset no-show fees?
+7. Do clinics hold deposits until records transfer completes?
+8. Should workplace deposits and clinic deposits share one float?
+9. Can open consult balances block the whole deposit refund?
+10. When should clinic settlement land relative to card return week?
+
+---
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 32)
 
 Branch: `cursor/loop-d-next-polish-tick32-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for COMPASS C1 packaging, PEP keep-rule evidence, and Tech.Pass 2027 sunset handoff. Avoided open Loop D file sets through [#262](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/262).
