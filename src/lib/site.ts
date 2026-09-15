@@ -453,24 +453,24 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "CCA vs external academy",
-        href: "/guides/primary-cca-vs-external-academy-dual-career-singapore",
-        blurb: "One primary rail, calendar math, belonging trade-offs.",
+        label: "LS waitlist ops",
+        href: "/guides/international-school-learning-support-waitlist-ops-dual-career-singapore",
+        blurb: "Referral chase, interim caps, review blackouts.",
       },
       {
-        label: "Dengue child-fever coverage",
-        href: "/guides/dual-career-dengue-child-fever-coverage-singapore",
-        blurb: "Named adults, GP timing, cluster-week ops.",
+        label: "Mid-year school transfer",
+        href: "/guides/international-school-midyear-transfer-dual-career-singapore",
+        blurb: "Notice clocks, LS handoffs, bus/uniform resets.",
       },
       {
-        label: "Learning support vs tutoring",
-        href: "/guides/international-school-learning-support-vs-tutoring-singapore",
-        blurb: "School supports vs cash tutors — goal-dated.",
+        label: "Sibling care in hospital weeks",
+        href: "/guides/dual-career-sibling-care-during-hospitalisation-singapore",
+        blurb: "Cascade coverage when one child is admitted.",
       },
       {
-        label: "Home-leave jet-lag ops",
-        href: "/guides/home-leave-jetlag-dual-career-family-singapore",
-        blurb: "Return-week coverage for dual EP households.",
+        label: "Kids birthday party ops",
+        href: "/guides/kids-birthday-party-ops-dual-career-singapore",
+        blurb: "Venue lead times, caps, helper bandwidth.",
       },
       {
         label: "Kids activities & calendar",
@@ -607,15 +607,15 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "NLB parent belonging",
-        href: "/guides/nlb-library-parent-belonging-singapore",
-        blurb: "Libraries and storytime as soft adult rails.",
+        label: "CC / PA parent belonging",
+        href: "/guides/community-centre-parent-belonging-singapore",
+        blurb: "OnePA courses and neighbourhood CC rails.",
       },
 
       {
-        label: "Youth sports sideline belonging",
-        href: "/guides/youth-sports-sideline-parent-belonging-singapore",
-        blurb: "Repeat fixture hellos without committee drama.",
+        label: "Tuition lobby belonging",
+        href: "/guides/tuition-centre-lobby-parent-belonging-singapore",
+        blurb: "Repeat wait-sofa hellos without upsell spirals.",
       },
       {
         label: "LGBTQ+ resources",
@@ -670,9 +670,39 @@ export const pillars: Pillar[] = [
         blurb: "National exam / IP eligibility row — not private-exam folklore.",
       },
       {
+        label: "NRIC at 30 / 55",
+        href: "/guides/nric-reregistration-30-55-singapore",
+        blurb: "Compulsory re-registration windows, fees, overseas return clock.",
+      },
+      {
+        label: "eCOA address change",
+        href: "/guides/ecoa-nric-address-change-singapore",
+        blurb: "28-day report clock, PIN mailer, stickers, overseas + LCA.",
+      },
+      {
+        label: "Citizenship Journey",
+        href: "/guides/singapore-citizenship-journey-scj",
+        blurb: "After IPA — portal day +3, SEV / CSS, e-Journey, registration.",
+      },
+      {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
         blurb: "NOA vs IR8A — reconcile EP salary with IRAS before HR replies.",
+      },
+      {
+        label: "PRSEP / 180-day REP",
+        href: "/guides/prsep-180-day-rep-faq-singapore",
+        blurb: "Dec 2025 FAQ — clock start, PRSEP, mid-window return, no reinstatement.",
+      },
+      {
+        label: "NSman Exit Permit edges",
+        href: "/guides/ns-exit-permit-nsman-edge-cases-singapore",
+        blurb: "12-month threshold, notify band, auto-cancel folklore, freelance docs.",
+      },
+      {
+        label: "Renouncing PR · NS traps",
+        href: "/guides/renouncing-pr-ns-liability-traps-singapore",
+        blurb: "Pre-enlistment vs NSF vs ORD, family collateral, REP lapse vs filing.",
       },
       {
         label: "Citizenship & NS",

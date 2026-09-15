@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 31) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick31-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #234. Shared log + `site.ts` only. With #149/#155/#159 merged, shipped **learning-support waitlist depth**. Did not wait for #234 CI/merge.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — LS referral filed, seat not; tutor stack while waiting.
+- r/askSingapore — tuition lobby sofas as the real parent meetup.
+- r/askSingapore — mid-year transfer deposit fights; uniform/bus reset week.
+
+**Official**
+
+- [MOE SEN](https://www.moe.gov.sg/special-educational-needs) + [international schools](https://www.moe.gov.sg/international-schools) + [Parent Hub](https://www.moe.gov.sg/parent-hub)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–30 (open through #234) covered CCA/academy/sideline/dengue. Newly fair after #149: **LS waitlist ops**. Remaining heat without contested paths: **tuition lobby belonging**, **mid-year IS transfer ops**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/international-school-learning-support-waitlist-ops-dual-career-singapore.mdx`
+- `content/guides/belong/tuition-centre-lobby-parent-belonging-singapore.mdx`
+- `content/guides/family/international-school-midyear-transfer-dual-career-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- LS vs tutoring, special needs support, school waitlist realism, NLB parent belonging, Mandarin enrichment
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- the-tutors, kumon-centres, parkway-shenton, Singapore American School, Stamford American, Overseas Family School
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #166–#234 guide/entity paths.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. When was the LS referral dated?
+2. Who owns the chase email this week?
+3. What is the interim tutor end date?
+4. Same tuition lobby window thrice?
+5. What is the withdrawal notice clock?
+6. Is the LS packet packed for the new school?
+7. Who owns bus/uniform reset?
+8. Are both calendars blocked for the review meeting?
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 30) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick30-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #227. Shared log + `site.ts` only. With #115/#91/#129/#134 merged, shipped CCA vs academy + sideline belonging; still avoided learning-support waitlist depth while #149 is open.
