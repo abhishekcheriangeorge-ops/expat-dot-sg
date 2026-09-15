@@ -129,7 +129,7 @@ export const pillars: Pillar[] = [
       {
         label: "Week-one dependency map",
         href: "/guides/first-week-sim-singpass-bank",
-        blurb: "SIM → Singpass → bank order that stops circular blockers.",
+        blurb: "Pass → SIM → Singpass → bank; IPA/hotel KYC dead ends.",
       },
       {
         label: "SG Arrival Card",
@@ -159,7 +159,7 @@ export const pillars: Pillar[] = [
       {
         label: "Household shipping & GST relief",
         href: "/guides/shipping-household-singapore",
-        blurb: "DOF before arrival; post-landing filings and early freight traps.",
+        blurb: "DOF before freight lands; what never gets relief.",
       },
       {
         label: "Foreign licence conversion",
@@ -177,11 +177,6 @@ export const pillars: Pillar[] = [
         blurb: "5-day address/mobile clock, FWTES landlord gate, passport sync.",
       },
       {
-        label: "EP salary & occupation notify",
-        href: "/guides/ep-salary-occupation-changes",
-        blurb: "Employer SAT on cuts; DP cascade; sister-co ≠ payroll rename.",
-      },
-      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
@@ -192,29 +187,19 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
-        label: "Dependant’s Pass & LOC",
-        href: "/guides/dependant-pass-singapore",
-        blurb: "DP ≠ work rights; LOC renewals need local hire; EP-cancel cascade.",
-      },
-      {
-        label: "EntrePass for founders",
-        href: "/guides/entrepass-singapore",
-        blurb: "ACRA ≠ pass; excluded trades; family rights ≠ EP copy-paste.",
-      },
-      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
       },
       {
-        label: "Tech.Pass sunset path",
-        href: "/guides/tech-pass-singapore",
-        blurb: "No auto-convert before Jan 2027 — plan EP/PEP while still valid.",
+        label: "ONE Pass",
+        href: "/guides/one-pass-singapore",
+        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
       },
       {
-        label: "Side income on a work pass",
-        href: "/guides/side-income-freelance-work-pass",
-        blurb: "EP moonlighting ban; DP remote myths; unpaid hobby vs paid gigs.",
+        label: "STVP extension while waiting",
+        href: "/guides/short-term-visit-pass-extension",
+        blurb: "ICA extensions ≠ post-cancel STVP; JB refresh is not a plan.",
       },
       {
         label: "Relocation checklists",
@@ -325,17 +310,17 @@ export const pillars: Pillar[] = [
       {
         label: "High-interest salary accounts",
         href: "/guides/high-interest-salary-accounts-foreigners",
-        blurb: "Multiplier / OCBC 360 / UOB One salary-credit codes.",
+        blurb: "Payroll codes only — PayNow/self-GIRO rarely unlocks bonus tiers.",
       },
       {
         label: "Credit cards for foreigners",
         href: "/guides/credit-cards-foreigners-singapore",
-        blurb: "S$45k floors, GX history, secured FD fallbacks.",
+        blurb: "S$45k floors, thin local files, secured FD vs shotgun apps.",
       },
       {
         label: "Cash declaration (CBNI)",
         href: "/guides/cbni-cash-declaration-singapore",
-        blurb: "S$20k+ physical cash — NP727 before you fly.",
+        blurb: "S$20k+ cash/BNI — NP727; prepaid cards ≠ the same rule.",
       },
       {
         label: "Tax residency & filing",
@@ -350,22 +335,22 @@ export const pillars: Pillar[] = [
       {
         label: "Cost of living",
         href: "/guides/cost-of-living-by-household",
-        blurb: "Family budgets, helper all-in, school+rent stacking.",
+        blurb: "Family budgets; school fees rival rent — model both.",
       },
       {
         label: "SRS & investing",
         href: "/guides/srs-investing-as-foreigner",
-        blurb: "Exit withholding, 5% early penalty, foreigner lump-sum rules.",
+        blurb: "No-CPF EP can still open SRS; exit withholding rules.",
       },
       {
         label: "RSU / ESOP tax",
         href: "/guides/rsu-esop-tax-singapore",
-        blurb: "Vest vs exercise, no-local-entity filing, deemed exercise.",
+        blurb: "Tax at vest; later sale gains usually not taxed again.",
       },
       {
         label: "Foreign income myths",
         href: "/guides/foreign-income-and-tax",
-        blurb: "Remittance ≠ source; DP remote still SG-sourced; foreign dividends.",
+        blurb: "Remittance ≠ source; DP remote work still SG-sourced.",
       },
       {
         label: "Salary package decoding",
