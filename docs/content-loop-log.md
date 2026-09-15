@@ -6,6 +6,79 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 20 — 2026-09-15
+
+Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — fibre TP / NetLink Unreleased Fibre / second TP ([ports in use](https://www.reddit.com/r/askSingapore/comments/1gih02b/fibre_tp_in_used_what_to_do/); [old property no FTP](https://www.reddit.com/r/askSingapore/comments/1mteyos/installation_of_fiber_tp_at_old_properties/); [BTO fibre point](https://www.reddit.com/r/askSingapore/comments/1j5qpdg/need_help_with_bto_wifi_installation_issues_fiber/); [new condo NetLink backend](https://www.reddit.com/r/askSingapore/comments/1t9ssb4/anyone_having_issues_with_netlink_trust/); [install cancellations](https://www.reddit.com/r/askSingapore/comments/1cgkwm1/is_fibre_broad_installation_down_nationwide/)).
+- r/askSingapore — rental mould / paint-over / aircon mould / dehumidifier ([condo leak damp mould](https://www.reddit.com/r/askSingapore/comments/18ysztr/condo_leak_damp_mould_responsibility_rights/); [mold in aircon](https://www.reddit.com/r/askSingapore/comments/1coj9oi/mold_in_aircon_tenant_or_landlord_responsible/); [apartment mold owner vs tenant](https://www.reddit.com/r/askSingapore/comments/11iytkz/apartment_mold_owner_or_tenant/); [paint-over after leak](https://www.reddit.com/r/askSingapore/comments/14naq3b/mould_situation_at_a_rental/); [move-in ceiling mould](https://www.reddit.com/r/askSingapore/comments/1fuce70/mould_in_apartment_what_to_do/)).
+- r/askSingapore — secondhand smoke + CDRT ([nightly cigarette drift](https://www.reddit.com/r/askSingapore/comments/1on5w7n/need_advice_neighbors_cigarette_smoke_fills_my/); [HDB service-yard smoke](https://www.reddit.com/r/askSingapore/comments/1knwfxa/hdb_neighbour_secondhand_smoke/); [balcony smoke + pets](https://www.reddit.com/r/askSingapore/comments/1n4mqb6/any_way_to_deal_with_neighbours_smoking_out_their/); [filed CDRT](https://www.reddit.com/r/askSingapore/comments/1ggwxzh/anyone_filed_a_case_with_community_disputes/); [recourse upstairs smokers](https://www.reddit.com/r/askSingapore/comments/1h9iuew/do_i_have_any_recourse_against_my_neighbor/)).
+- r/askSingapore — bulky waste / laundry poles / OneService ([HDB bulky](https://www.reddit.com/r/askSingapore/comments/1g8k344/bulky_item_disposal/); [condo bulky](https://www.reddit.com/r/askSingapore/comments/xxudnu/disposal_of_bulky_items_condo/); [chute dumping](https://www.reddit.com/r/askSingapore/comments/14844rl/who_to_talk_to_about_hdb_neighbours_leaving_trash/); [dripping laundry](https://www.reddit.com/r/askSingapore/comments/zx331d/hdb_problems_and_inconsiderate_neighbours/); [litter on laundry](https://www.reddit.com/r/askSingapore/comments/j4vbtw/neighbours_above_littering_on_my_laundry_how_do/)).
+- r/askSingapore — neighbourhood shortlists east/west ([non-expat areas](https://www.reddit.com/r/askSingapore/comments/195ji13/nonexpat_areas_for_expat/); [east vs west rent](https://www.reddit.com/r/askSingapore/comments/xxx5wb/renting_in_east_vs_west/); [best towns](https://www.reddit.com/r/askSingapore/comments/1qq0fly/what_are_the_best_towns_to_live_in_singapore_and/); [where to stay](https://www.reddit.com/r/askSingapore/comments/1jo5une/which_area_in_sg_is_best_to_live_in/); [any neighbourhood](https://www.reddit.com/r/askSingapore/comments/13sa2zi/if_you_could_stay_in_any_neighbourhood_in_sg_you/)).
+
+**Official**
+
+- [NetLink Trust — Residential connections](https://www.netlinktrust.com/faq/residential-connections/) + [appointment FAQ](https://www.netlinktrust.com/faq/appointment-related/) + [Fibre TP installation tariff (1 Apr 2024)](https://www.netlinktrust.com/images/pdf/2024/Installation%20of%20Fibre%20Termination%20Point%20in%20Residential%20Premise%20Effective%201%20Apr%202024.pdf).
+- [Judiciary — CDRT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-neighbour-dispute-claim) + [how to file / serve](https://www.judiciary.gov.sg/civil/how-to-file-serve-neighbour-dispute-claim) + [MCCY CDMF](https://www.mccy.gov.sg/sectors/community/community-disputes-management-framework/).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [SCT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-small-claim).
+- [OneService](https://www.oneservice.gov.sg/) + [NEA e-waste](https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/e-waste-management/where-to-recycle-e-waste).
+
+### Gaps vs Tick 19 (Home + Life slice)
+
+Tick 19 shipped HDB ceiling leaks, pets daily life, PUB water appeals, grocery delivery depth, visitor parking. Remaining high-intent Home+Life gaps matched forum heat: **fibre TP / Unreleased Fibre for renters**, **mould remediation vs paint-over**, **CDRT + secondhand smoke** (condo-noise was CMC/STB-only), **bulky waste + HDB laundry/OneService**, plus neighbourhood entity depth for Katong/Joo Chiat, Tampines, Clementi/West Coast, Bukit Timah.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/fibre-tp-netlink-renters.mdx`
+- `content/guides/home/mould-humidity-rental-tenants.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/utilities-telecom-setup.mdx` (pre-LOI TP check + NetLink)
+- `content/guides/home/condo-noise-mcst-neighbours.mdx` (secondhand smoke + CDRT)
+- `content/guides/home/aircon-pest-renewals.mdx` / `furnishing-rental-flat.mdx` (mould cross-links)
+- `content/guides/home/heartland-living-for-expats.mdx` (laundry poles / OneService)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (east/west shortlist + fibre note)
+- `content/guides/life/shopping-essentials-singapore.mdx` (bulky waste playbook)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/katong-joo-chiat.json`
+- `content/entities/neighbourhoods/tampines.json`
+- `content/entities/neighbourhoods/clementi-west-coast.json`
+- `content/entities/neighbourhoods/bukit-timah.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+
+### Questions mined (sample)
+
+1. Both fibre TP ports say “in use” — can I switch ISP to get online this week?
+2. How long after the previous tenant cancels until the NetLink port actually frees?
+3. Do I need landlord permission (and how destructive is it) to install a new FTP in an old walk-up?
+4. Who pays when the landlord only paints over black mould after a pipe leak?
+5. Is aircon mould after three months a tenant chemical-wash bill or a landlord handover failure?
+6. Can I ask for rent reduction for 24/7 dehumidifier electricity when the damp is landlord-side?
+7. Is neighbour cigarette smoke from a balcony illegal, and will NEA help?
+8. When do I file CDRT vs keep complaining to MCST / OneService?
+9. How do HDB tenants dispose of bulky furniture vs condo residents?
+10. Upstairs dripping laundry keeps soaking my clothes — Town Council or confront?
+11. Katong vs Tampines vs Clementi vs Bukit Timah — which fits a mid-package family?
+12. Should I run a fibre TP availability check before paying the rental deposit?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 3) — 2026-09-15
 
 Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next.

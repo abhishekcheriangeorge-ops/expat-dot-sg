@@ -1,0 +1,82 @@
+---
+title: "Fibre TP and NetLink delays for Singapore renters"
+description: "When MyRepublic or Singtel says both Termination Point ports are in use, how Unreleased Fibre works, second-TP install costs, landlord permission, and what to do before you move in."
+slug: "fibre-tp-netlink-renters"
+pillar: "home"
+journey: "arriving"
+segments: []
+lastReviewed: "2026-09-15"
+citations:
+  - label: "NetLink Trust — Residential connections FAQ"
+    url: "https://www.netlinktrust.com/faq/residential-connections/"
+  - label: "NetLink Trust — Appointment FAQ"
+    url: "https://www.netlinktrust.com/faq/appointment-related/"
+  - label: "NetLink Trust — Fibre TP installation tariff (1 Apr 2024)"
+    url: "https://www.netlinktrust.com/images/pdf/2024/Installation%20of%20Fibre%20Termination%20Point%20in%20Residential%20Premise%20Effective%201%20Apr%202024.pdf"
+  - label: "IMDA — Telecoms consumer info"
+    url: "https://www.imda.gov.sg/"
+relatedGuides:
+  - utilities-telecom-setup
+  - renting-process-loi-ta-deposits
+  - short-term-vs-long-term-rental
+  - moving-within-singapore
+  - apps-that-matter-singapore
+relatedEntities:
+  - telecom-setup-help
+draft: false
+---
+r/askSingapore’s move-in broadband threads share one failure mode: you signed the LOI, booked the fibre install for day three, then the ISP portal says **both ports on the Fibre Termination Point (TP/FTP) are in use**. Switching Singtel ↔ StarHub ↔ MyRepublic does not invent a free port. The bottleneck is usually **NetLink Trust infrastructure + the previous occupant’s unreleased subscription**, not your chosen retailer.
+
+## Terms that unlock the ticket
+
+| Term | What it means for a renter |
+| --- | --- |
+| **Fibre Termination Point (TP / FTP)** | Wall box where NetLink’s fibre ends inside the unit — typically two ports |
+| **Unreleased Fibre Issue** | A port still linked to a former owner/tenant after they left; IMDA process requires your **ISP** to request release — NetLink will not process end-user tickets alone |
+| **Second / additional TP** | Paid install of another termination point when both ports stay occupied or the unit never had fibre-ready COPIF cabling |
+| **ONT + router** | ISP-owned gear plugged into a free TP port; red ONT light often means building-side fibre not live yet |
+
+<OfficialSource>
+Start at [NetLink Trust — residential connections](https://www.netlinktrust.com/faq/residential-connections/). Appointment and FTP install/relocate/repair flows: [appointment FAQ](https://www.netlinktrust.com/faq/appointment-related/).
+</OfficialSource>
+
+## Pre-LOI checks (cheap insurance)
+
+1. Run the ISP’s **TP availability / address check** on the exact unit number before you pay the deposit  
+2. Ask the agent in writing: “Is there a live TP? Who is the current broadband subscriber? Will they terminate before handover?”  
+3. Photograph the TP box and any existing ONT on viewing day — missing box in older walk-ups is a different (and slower) problem  
+4. Budget a **mobile hotspot bridge** for week one regardless — banks and WFH do not wait for NetLink
+
+Forum consensus ([ports in use](https://www.reddit.com/r/askSingapore/comments/1gih02b/fibre_tp_in_used_what_to_do/), [old property no FTP](https://www.reddit.com/r/askSingapore/comments/1mteyos/installation_of_fiber_tp_at_old_properties/), [new condo NetLink backend](https://www.reddit.com/r/askSingapore/comments/1t9ssb4/anyone_having_issues_with_netlink_trust/)): treat “fibre ready” marketing as **building can have fibre**, not **your unit’s port is free on Monday**.
+
+## Unreleased fibre: the ~1-month clock
+
+When the previous occupant cancels, industry process often keeps the port unavailable for roughly **one month**, then a few more **working days** before the address check flips to free. Only the **ISP of the occupying service** (via NetLink) can drive release — you cannot cold-call NetLink with a passport and hope.
+
+| Move | When it helps |
+| --- | --- |
+| Ask agent to chase outgoing tenant’s **termination confirmation date** | You can schedule install after the release window, not before |
+| Take over / transfer the existing plan if the ISP allows | Avoids waiting for a free port (still confirm account name vs your FIN) |
+| Pay for a **second TP** | Both ports stuck, or you need service before release; landlord permission for trunking |
+| Escalate via ISP → NetLink → **IMDA** if providers bounce blame | Rare; document ticket numbers first |
+
+## No TP / dead signal / new-build delays
+
+- **Older flats** built to pre-2013 COPIF rules may need a chargeable NetLink TP install (surface trunking). Published tariff examples (from 1 Apr 2024): roughly **S$182 w/GST** high-rise and **S$334 w/GST** landed for a standard install without retail subscription — confirm live figures on NetLink’s tariff PDF before you LOI.  
+- **Landlord must approve** drilling / trunking on common corridors; agents who “forget” to reply after you paid deposit are a renting-process problem, not a NetLink one.  
+- **New condos**: NetLink may be live to the MDF while the developer / MCST in-building segment is not. Forum fix is pressure on **MCST / developer**, not hopping retailers.  
+- Installer finds **no light on the TP**: get a written memo “fault outside unit,” then chase HDB BSC / MCST / NetLink through the ISP — [BTO-style finger-pointing](https://www.reddit.com/r/askSingapore/comments/1j5qpdg/need_help_with_bto_wifi_installation_issues_fiber/) is common.
+
+<OfficialSource>
+Tariff reference: [NetLink Trust — Installation of Fibre Termination Point (effective 1 Apr 2024)](https://www.netlinktrust.com/images/pdf/2024/Installation%20of%20Fibre%20Termination%20Point%20in%20Residential%20Premise%20Effective%201%20Apr%202024.pdf).
+</OfficialSource>
+
+## Renter playbook
+
+1. **Day −7 to keys**: address check + written TP status from agent  
+2. **Keys day**: photo TP; open ISP order; ask explicitly “Unreleased Fibre?”  
+3. **If blocked**: hotspot + calendar the release date; decide transfer vs second TP with landlord email on file  
+4. **Install day**: adult on site; clear the wall; do not break the anti-tamper seal  
+5. **Exit**: terminate **your** broadband early enough that the next tenant is not stuck on your unreleased port  
+
+Pair with the wider [utilities & telecom sequence](/guides/utilities-telecom-setup) (SIM → Singpass → SP → fibre). Fibre is step five for a reason — but the **TP check belongs before the LOI**, not after the sofa arrives.

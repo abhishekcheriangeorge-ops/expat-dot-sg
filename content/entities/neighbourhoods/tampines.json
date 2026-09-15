@@ -2,27 +2,29 @@
   "type": "neighbourhood",
   "slug": "tampines",
   "name": "Tampines",
-  "summary": "Mature east-region town with malls, parks, and MRT density — a heartland alternative when East Coast rents feel excessive.",
-  "body": "Tampines is one of Singapore’s most complete new towns: town centre retail, strong bus/MRT links (including Downtown and East-West interchanges nearby), parks, and a predominantly local residential fabric. Expats shortlist it when they want more space per dollar than Marine Parade condos, accept a longer CBD hop, and are willing to build social life outside lobby WhatsApp groups. Housing is HDB-heavy with suburban condo pockets; verify HDB rental eligibility before you fall in love with a specific block. Weekends skew toward Tampines Mall / Century Square / Our Tampines Hub rather than Holland V brunch culture — which is either the point or the deal-breaker.",
+  "summary": "Mature east-region town with malls, parks, and MRT density — the self-contained heartland alternative when East Coast / Katong rents feel excessive.",
+  "body": "Tampines is one of Singapore’s most complete new towns: town centre retail, strong bus/MRT links (East-West and Downtown Line stations), parks, and a predominantly local residential fabric. Forum neighbourhood threads treat it as the textbook “everything at the hub” east option — Our Tampines Hub / Century Square / IKEA shuttle culture — when Marine Parade condo premiums hurt and you accept a longer CBD hop. Expats shortlist it for space per dollar, airport-side logistics, and willingness to build social life outside lobby WhatsApp groups. Housing is HDB-heavy with suburban condo pockets; verify HDB rental eligibility before you fall in love with a specific block. Weekends skew toward town-centre malls and park connectors rather than Holland V brunch — which is either the point or the deal-breaker. Practical ops: Town Council bulky waste, chute fogging pest waves, laundry-pole etiquette, and OneService for dripping-clothes neighbours. Fibre is usually straightforward in mature HDB; still confirm TP release on handover week.",
   "region": "east",
   "vibe": [
     "heartland",
     "family",
     "town-centre",
-    "value"
+    "value",
+    "self-contained"
   ],
   "bestFor": [
     "families stretching mid packages",
     "heartland-curious couples",
-    "east-side office commutes"
+    "east-side office or airport-adjacent lives"
   ],
   "watchOuts": [
-    "CBD commute longer than East Coast proper",
+    "CBD commute longer than East Coast / Katong proper",
     "Fewer expat-default social density",
-    "HDB eligibility rules apply"
+    "HDB eligibility rules apply",
+    "Mall-centric weekends if that is not your taste"
   ],
   "housingMix": "Predominantly HDB with suburban condo options near town centre and park connectors.",
-  "commuteNotes": "Tampines MRT (EWL) and Tampines West/East (DTL); buses across the east region.",
+  "commuteNotes": "Tampines MRT (EWL) and Tampines West/East (DTL); buses across the east region; Changi Airport is a practical east advantage.",
   "rentBand": {
     "currency": "SGD",
     "oneBedFrom": 2200,
