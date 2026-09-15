@@ -6,6 +6,42 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 34)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick34-49cb` → PR to `main` (fresh worktree off `origin/main` @ `cc926d0`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)–[#248](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/248) A17–A33 stay open — **did not** wait for merges/CI and **did not** edit those paths). Prefer merge order **#143 → … → #239 → #248 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — Singpass/bank KYC blocked on IPA; overlapping fibre contracts across bridge stays.
+- r/askSingapore — corporate housing as MOM address; SA → condo notify myths by postal district.
+- r/askSingapore — TG sureties / LD recovery; own-company folklore; silent deferment gaps.
+
+**Official**
+
+- [Singpass](https://www.singpass.gov.sg/)
+- [URA — Short-term accommodation](https://www.ura.gov.sg/guidelines/property-and-business-owners/property/short-term-accommodation/)
+- [MOE — Tuition Grant / bond matters](https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters)
+- [MOM — Employment Pass notify changes](https://www.mom.gov.sg/passes-and-permits/employment-pass)
+
+### Gaps vs prior Loop A ticks
+
+Open A17–A33 claim Student’s Pass through EP job-change / trailing partner / salary-occupation notifies. Tick 34 deepens **relocation 7/30/90**, **first-housing serviced apartments**, and **MOE Tuition Grant bond** without colliding those paths.
+
+### Shipped this loop
+
+- `content/guides/move/relocation-checklist-7-30-90.mdx` (+3)
+- `content/guides/move/first-housing-serviced-apartment.mdx` (+3)
+- `content/guides/move/moe-tuition-grant-bond.mdx` (+3)
+- Move hub topics restored for the three guides; log prepended
+
+### Explicitly not done
+
+- No ads/monetization expansion / no Grok / no force-push to main.
+
+---
+
 ## Loop B — Family + Belong (tick 27) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick27-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #199. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

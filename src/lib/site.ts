@@ -197,9 +197,14 @@ export const pillars: Pillar[] = [
         blurb: "Salary band, renewability, spouse LOC, 2027 handoff.",
       },
       {
-        label: "Relocation checklists",
-        href: "/journeys/arriving",
-        blurb: "7, 30, and 90-day sequences that keep the move sane.",
+        label: "MOE Tuition Grant bond",
+        href: "/guides/moe-tuition-grant-bond",
+        blurb: "3-year bond, LOE ≠ EP, liquidated damages reality.",
+      },
+      {
+        label: "Relocation checklist (7/30/90)",
+        href: "/guides/relocation-checklist-7-30-90",
+        blurb: "Pass, Singpass, housing, schools — week one through day 90.",
       },
       {
         label: "First housing bridge",
