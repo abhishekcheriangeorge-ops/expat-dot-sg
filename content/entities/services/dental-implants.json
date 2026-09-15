@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "dental-implants",
+  "name": "Dental implants",
+  "summary": "How expats plan dental implants in Singapore — CBCT planning, staged vs immediate load, dental rider limits, and travel timing around osseointegration.",
+  "body": "Dental implants replace missing teeth with titanium fixtures and crowns. Planning usually needs CBCT, bone assessment, and a clear staged timeline. Dental riders often cap implants heavily or exclude them — read schedules before quoting packages.\n\n## Decision points\n- Single implant vs bridge vs denture alternatives\n- Bone graft / sinus lift needs before fixture placement\n- Immediate load vs delayed crown after osseointegration\n- Specialist oral surgeon / prosthodontist vs general dentist pathway\n- Travel gaps between surgery and abutment/crown visits\n\nSmoking, uncontrolled diabetes, and grinding change risk — disclose honestly.\n\n## How to choose\nPrefer clinics that show the CBCT plan and implant brand on paper. Ask who covers night swelling calls. Confirm whether temporary teeth are included during healing.\n\n## Practical tip\nBlock two soft-food weeks after placement before big client dinners. Stock porridge ingredients before surgery day — Grab decisions hurt with a sore jaw.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/sdc",
+  "whenToEngage": [
+    "Missing tooth needs implant vs bridge decision",
+    "CBCT / bone graft pathway unclear",
+    "Dental rider implant cover capped or excluded",
+    "Travel timing between surgery and crown visits"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Dental Council",
+      "url": "https://www.healthprofessionals.gov.sg/sdc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "dental-care-foreigners-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

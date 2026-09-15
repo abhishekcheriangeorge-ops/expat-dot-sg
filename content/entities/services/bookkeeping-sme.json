@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "bookkeeping-sme",
+  "name": "SME bookkeeping",
+  "summary": "How foreign founders set up SME bookkeeping in Singapore — cloud ledgers, GST registration cues, IRAS filing support, and what bookkeepers do not replace in tax advice.",
+  "body": "Bookkeepers keep bank feeds, invoices, payroll exports, and GST worksheets clean. They are not automatically tax agents — confirm who signs IRAS submissions and who advises on XP / foreign income.\n\n## Scope to define\n- Monthly management accounts vs annual cleanup\n- GST registration threshold monitoring\n- Payroll / CPF file handoff to a separate provider\n- Xero / QuickBooks / SQL admin ownership\n- Year-end package for tax agent\n\nFounders still own CorpPass roles and bank authority.\n\n## How to choose\nPrefer firms that document turnaround SLAs and software seats. Ask who reviews GST coding. Confirm exit handoff if you leave Singapore mid-year.\n\n## Practical tip\nReconcile the corporate card weekly yourself for the first month. Bookkeepers cannot fix missing receipts they never receive.\n",
+  "category": "legal",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.iras.gov.sg/",
+  "whenToEngage": [
+    "Need monthly SME bookkeeping after incorporation",
+    "GST registration / coding support unclear",
+    "Cloud ledger handoff to tax agent",
+    "Exit bookkeeping package before leaving Singapore"
+  ],
+  "officialLinks": [
+    {
+      "label": "IRAS",
+      "url": "https://www.iras.gov.sg/"
+    },
+    {
+      "label": "ACRA",
+      "url": "https://www.acra.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "incorporate-company-foreigner-singapore",
+    "iras-tax-residency-filing",
+    "tax-clearance-when-leaving",
+    "leaving-singapore-playbook"
+  ],
+  "featured": false,
+  "sponsored": false
+}

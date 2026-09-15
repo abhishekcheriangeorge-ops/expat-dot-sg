@@ -1,0 +1,31 @@
+{
+  "type": "service",
+  "slug": "appliance-repair-home",
+  "name": "Home appliance repair",
+  "summary": "How expats get fridge, washer, dryer, and oven repairs in Singapore \u2014 warranty vs third-party techs, condo access rules, and when replacement beats repair.",
+  "body": "Humid heat and hard water shorten appliance life. Brand warranty centres handle in-warranty jobs; third-party techs often win on out-of-warranty speed and price. Condos add lift booking and quiet-hour constraints.\n\n## Typical jobs\n- Fridge not cooling / iced evaporator\n- Washer error codes and drum bearing noise\n- Dryer no-heat and lint-related faults\n- Oven / hob ignition failures\n- Dishwasher drain and detergent issues\n\nKeep model plates photographed \u2014 techs quote faster with exact SKUs.\n\n## How to choose\nAsk for diagnostic fees upfront and whether they offset repair cost. Prefer techs who stock common parts for your brand. Confirm same-day vs next-day windows before taking leave.\n\n## Practical tip\nClear the cabinet toe-kick and unplug before the visit. Half of first visits die waiting for access to the power point.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Fridge / washer / dryer failure out of warranty",
+    "Comparing warranty centre vs third-party tech",
+    "Condo lift booking for appliance swap",
+    "Repair vs replace decision on aging unit"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "aircon-pest-renewals"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "fertility-egg-freezing",
+  "name": "Egg freezing (fertility)",
+  "summary": "How foreign women explore elective egg freezing in Singapore — eligibility rules, clinic pathways, stimulation timelines, and insurance/cash realities for expats.",
+  "body": "Elective egg freezing sits under Singapore’s regulated fertility framework. Eligibility, marital-status rules, and what clinics can offer change over time — verify current MOH guidance before booking packages marketed online.\n\n## Decision points\n- Elective vs medical fertility preservation pathways\n- Ovarian reserve testing (AMH, AFC) before stimulation\n- Stimulation calendar vs work-pass travel\n- Storage duration, transfer of frozen eggs, and exit logistics\n- Cash vs any corporate fertility benefits\n\nPartner and visa timing often matter as much as lab protocol.\n\n## How to choose\nPrefer clinics that explain legal eligibility clearly and put storage fees in writing. Ask about after-hours nurse contacts during stimulation. Confirm what happens to stored eggs if you leave Singapore.\n\n## Practical tip\nPut injection teaching and blood-test mornings on your calendar before accepting a start date. Missed monitoring windows waste a cycle.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Exploring elective egg freezing eligibility",
+    "Ovarian reserve testing before stimulation",
+    "Stimulation calendar vs work travel conflicts",
+    "Storage / exit logistics if leaving Singapore"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "ivf-fertility-foreigners-singapore",
+    "maternity-care-singapore",
+    "health-insurance-expat",
+    "healthcare-gp-hospital"
+  ],
+  "featured": false,
+  "sponsored": false
+}

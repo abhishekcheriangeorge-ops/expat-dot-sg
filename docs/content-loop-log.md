@@ -6,6 +6,61 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 34 — 2026-09-15
+
+Branch: `cursor/services-directory-tick34-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#276); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F33 draft [#276](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/276).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Dental threads — implant stages, bone grafts, rider caps.
+- Fertility threads — egg freezing eligibility and stimulation calendars.
+- Condo living — fridge/washer repair vs replace in humid heat.
+- Fitness threads — reformer intro packages and injury screening.
+- Founder threads — bookkeeping retainers vs tax-agent scope.
+
+**Official**
+
+- [Singapore Dental Council](https://www.healthprofessionals.gov.sg/sdc) + [MOH](https://www.moh.gov.sg/).
+- [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/).
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [IRAS](https://www.iras.gov.sg/) + [ACRA](https://www.acra.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#276 cover prior depth and every on-main service file. Free surface for tick 34: **dental implants**, **egg freezing**, **home appliance repair**, **reformer Pilates**, **SME bookkeeping**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/dental-implants.json`
+- `content/entities/services/fertility-egg-freezing.json`
+- `content/entities/services/appliance-repair-home.json`
+- `content/entities/services/pilates-reformer.json`
+- `content/entities/services/bookkeeping-sme.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#276 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Immediate load vs delayed crown after implant placement?
+2. Elective egg freezing eligibility for foreign single women?
+3. Warranty centre wait vs third-party fridge tech?
+4. Physio-led reformer vs fitness group class for back pain?
+5. Bookkeeper vs tax agent — who files GST?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 25)
 
 Branch: `cursor/e-journeys-tools-tick25-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#234 / Loop B30 tip). **Did not wait for merges or CI on prior tips including #253.** Avoided open E stack exclusives through **#253** (E24): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → this tip**.

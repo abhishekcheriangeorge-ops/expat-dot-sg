@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "pilates-reformer",
+  "name": "Reformer Pilates",
+  "summary": "How expats start reformer Pilates in Singapore — intro packages, instructor credentials, heat/humidity class timing, and rehab vs fitness studio fit.",
+  "body": "Reformer studios are dense across town; quality varies from physio-led rehab to high-energy group flow. Beginners should learn footbar safety and spring changes before chasing advanced choreography.\n\n## Formats\n- Intro private sessions on reformer\n- Semi-private duets\n- Group reformer classes\n- Clinical / physio-adjacent rehab Pilates\n- Mat crossover homework between sessions\n\nPeak evenings book out — lunch and early mornings stay calmer.\n\n## How to choose\nPrefer instructors who ask about injuries and pregnancy history before loading springs. Ask whether grips and socks are included. Confirm cancellation windows — no-show fees stack quickly.\n\n## Practical tip\nBring grip socks and a water bottle on day one. Midday humidity makes slippery feet the main beginner risk, not the springs.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Beginner reformer intro package search",
+    "Rehab vs fitness studio pathway unclear",
+    "Instructor credentials / injury screening",
+    "Class timing around heat and work hours"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore",
+    "kids-activities-holiday-camps"
+  ],
+  "featured": false,
+  "sponsored": false
+}
