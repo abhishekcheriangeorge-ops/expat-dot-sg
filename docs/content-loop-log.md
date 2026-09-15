@@ -6,6 +6,178 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO hubs / crosslinks (tick 31) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick31-a144` → draft PR to `main` (stacked on tip #311 / tick 30). SEO shell only — no ads / no Grok / no A–F/H guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #311 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–30 (open #74→#311) claimed chrome through glossary/help helpers and most discovery txt. Remaining free surface: **accessibility JSON-LD**, **credits/version helpers**, **A11yLinks / CreditLinks**, **accessibility/a11y/credits/sources/version/build discovery**.
+
+### Shipped this loop
+
+- `src/lib/seo-a11y.ts` / `seo-credits.ts` / `seo-version.ts` + `seo-tip31.ts`
+- `A11yLinks.tsx` / `CreditLinks.tsx`
+- `public/accessibility.txt` / `a11y.txt` / `credits.txt` / `sources.txt` / `version.txt` / `build.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → #279 → #285 → #292 → #299 → #307 → #311 → (this PR)
+
+---
+
+## Loop G — SEO hubs / crosslinks (tick 30) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick30-a144` → draft PR to `main` (stacked on tip #307 / tick 29). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #307 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–29 (open #74→#307) claimed chrome through cite/brand helpers and most discovery txt. Remaining free surface: **glossary DefinedTerm**, **help/support/community JSON-LD**, **HelpLinks / SupportLinks**, **faq/glossary/help/support/community discovery**.
+
+### Shipped this loop
+
+- `src/lib/seo-glossary.ts` / `seo-support.ts` / `seo-community.ts` + `seo-tip30.ts`
+- `HelpLinks.tsx` / `SupportLinks.tsx`
+- `public/faq.txt` / `glossary.txt` / `help.txt` / `support.txt` / `community.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → #279 → #285 → #292 → #299 → #307 → (this PR)
+
+---
+
+## Loop G — SEO hubs / crosslinks (tick 29) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick29-a144` → draft PR to `main` (stacked on tip #299 / tick 28). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #299 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–28 (open #74→#299) claimed chrome, contact/editorial/software helpers, and most discovery txt. Remaining free surface: **cite / brand JSON-LD**, **CiteLinks / BrandLinks**, **cite/brand/media/indexnow discovery**.
+
+### Shipped this loop
+
+- `src/lib/seo-cite.ts` / `seo-brand.ts` + `seo-tip29.ts`
+- `CiteLinks.tsx` / `BrandLinks.tsx`
+- `public/cite.txt` / `brand.txt` / `media.txt` / `indexnow.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → #279 → #285 → #292 → #299 → (this PR)
+
+---
+
+## Loop G — SEO hubs / crosslinks (tick 28) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick28-a144` → draft PR to `main` (stacked on tip #292 / tick 27). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #292 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–27 (open #74→#292) claimed chrome, FAQ/search/OG/pillar/locale/nav/leaving helpers, and most hub/pillar discovery txt. Remaining free surface: **contact / editorial / site-SoftwareApplication JSON-LD**, **ContactLinks / UtilityLinks**, **contact/editorial/press/status discovery**.
+
+### Shipped this loop
+
+- `src/lib/seo-contact.ts` / `seo-editorial.ts` / `seo-software.ts` + `seo-tip28.ts`
+- `ContactLinks.tsx` / `UtilityLinks.tsx`
+- `public/contact.txt` / `editorial.txt` / `press.txt` / `status.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → #279 → #285 → #292 → (this PR)
+
+---
+
+## Loop G — SEO hubs / crosslinks (tick 27) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick27-a144` → draft PR to `main` (stacked on tip #285 / tick 26). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #285 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–26 (open #74→#285) claimed chrome, FAQ/search/OG/pillar helpers, and most hub discovery txt. Remaining free surface: **locale + SiteNavigationElement JSON-LD**, **leaving journey helpers**, **HubLinks / QuickLinks**, **per-pillar + leaving discovery txt**.
+
+### Shipped this loop
+
+- `src/lib/seo-locale.ts` / `seo-site-nav.ts` / `seo-leaving.ts` + `seo-tip27.ts`
+- `HubLinks.tsx` / `QuickLinks.tsx`
+- `public/move.txt` / `home.txt` / `money.txt` / `family.txt` / `life.txt` / `belong.txt` / `next.txt` / `leaving.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → #279 → #285 → (this PR)
+
+---
+
+## Loop G — SEO hubs / crosslinks (tick 26) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick26-a144` → draft PR to `main` (stacked on tip #279 / tick 25). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #279 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–25 (open #74→#279) claimed chrome, directory/tools UI, privacy/feeds/search/FAQ, collection/calendar/journey JSON-LD, and most hub discovery txt. Remaining free surface: **OG/image/pillar JSON-LD**, **PillarLinks / SectionLinks**, **pillars/topics/about/changelog/arriving/living discovery + change-password well-known**.
+
+### Shipped this loop
+
+- `src/lib/seo-og.ts` / `seo-image.ts` / `seo-pillars.ts` + `seo-tip26.ts` re-exports
+- `PillarLinks.tsx` / `SectionLinks.tsx`
+- `public/pillars.txt` / `topics.txt` / `about.txt` / `changelog.txt` / `arriving.txt` / `living.txt`
+- `public/.well-known/change-password`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → #279 → (this PR)
+
+---
+
+## Loop G — SEO hubs / crosslinks (tick 25) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick25-a144` → draft PR to `main` (stacked on tip #272 / tick 24). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #272 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–24 (open #74→#272) claimed chrome, directory/tools UI, motion primitives, privacy/feeds, entity/calendar/journey/collection JSON-LD, and most discovery txt. Remaining free surface: **FAQ/speakable/search JSON-LD**, **FaqLinks / GlossaryLinks**, **guides/schools/neighbourhoods/clubs/search discovery + OpenSearch**.
+
+### Shipped this loop
+
+- `src/lib/seo-faq.ts` / `seo-search.ts` + `schemas.ts` re-exports
+- `FaqLinks.tsx` / `GlossaryLinks.tsx` + motion barrel re-exports
+- `public/guides.txt` / `schools.txt` / `neighbourhoods.txt` / `clubs.txt` / `search.txt` / `opensearch.xml`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → (this PR)
+
+---
+
+## Loop G — SEO hubs / crosslinks (tick 24) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick24-a144` → draft PR to `main`. SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. Built off fresh `origin/main`; **did not** edit open G-stack `src/` / `public/` paths through #267 (log prepend only).
+
+### Gaps vs prior G ticks
+
+Ticks 4–23 (open #74→#267) claimed chrome, directory pages, tools UI, motion, feeds/privacy/DNT, entity/calendar/journey JSON-LD, middleware, and most discovery txt files. Remaining free surface: **collection/hub JSON-LD**, **SEO slug helpers**, **TopicLinks / CiteRail**, **tools/directory/map discovery txt**.
+
+### Shipped this loop
+
+- `src/lib/seo-collections.ts` — CollectionPage / ItemList hub helpers
+- `src/lib/seo-slug.ts` + `slugify.ts` re-exports — anchor/path helpers
+- `TopicLinks.tsx` / `CiteRail.tsx` + directory barrel re-exports
+- `public/tools.txt` / `public/directory.txt` / `public/map.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → (this PR)
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 37)
 
 Branch: `cursor/loop-d-next-polish-tick37-d996` → draft PR to `main`, off tip [#303](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/303) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EntrePass→EP founder exit, S Pass→EP upgrade packaging, and COMPASS C2 degree verification edges.

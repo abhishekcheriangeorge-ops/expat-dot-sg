@@ -1,0 +1,19 @@
+# Credits / attribution — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Attribution
+- Site publisher: expat.sg
+- Image attribution: /images/ATTRIBUTION.md (when present)
+- Official sources cited in guide frontmatter
+
+## Notes
+- Credits WebPage / ItemList helpers live in seo-credits.ts.
+- Pair with cite.txt and media.txt for citation + assets.
+
+## Related
+- https://expat.sg/cite.txt
+- https://expat.sg/sources.txt
+- https://expat.sg/media.txt
+- https://expat.sg/brand.txt

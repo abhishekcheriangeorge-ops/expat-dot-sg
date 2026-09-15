@@ -1,0 +1,19 @@
+# Sources map — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Prefer
+- Guide canonical URLs from https://expat.sg/sitemap.xml
+- Official .gov.sg / regulator links cited in guides
+- https://expat.sg/cite.txt
+
+## Notes
+- Not a scraped dump — discovery pointer for humans and agents.
+- Pair with editorial.txt for sourcing norms.
+
+## Related
+- https://expat.sg/credits.txt
+- https://expat.sg/press.txt
+- https://expat.sg/editorial.txt
+- https://expat.sg/sitemap.xml
