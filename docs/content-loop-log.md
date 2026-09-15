@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 32 — 2026-09-15
+
+Branch: `cursor/services-directory-tick32-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#260); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Parent threads — kids’ myopia progression and ortho-K hygiene.
+- New-parent forums — infant sleep consultant vs night nanny scope.
+- Condo / rental threads — recurring mould after bleach wipe-downs.
+- Hobby sports — badminton hall peak-hour booking and junior academies.
+- Legal/docs — AMD vs LPA confusion for foreigners/PRs.
+
+**Official**
+
+- [HealthHub](https://www.healthhub.sg/) + [OOB](https://www.oob.gov.sg/) + [MOH](https://www.moh.gov.sg/).
+- [NEA](https://www.nea.gov.sg/) + [CASE](https://www.case.org.sg/).
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [OPG / MSF](https://www.msf.gov.sg/what-we-do/opg) + [MinLaw find a lawyer](https://www.mlaw.gov.sg/legal-industry/find-a-lawyer/).
+
+### Gaps vs open F stack
+
+Open #70→#260 cover prior depth and every on-main service file. Free surface for tick 32: **kids myopia control**, **infant sleep consultant**, **mould remediation**, **badminton coaching**, **advance medical directive**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/myopia-control-kids.json`
+- `content/entities/services/sleep-consultant-infant.json`
+- `content/entities/services/mould-remediation.json`
+- `content/entities/services/badminton-coaching.json`
+- `content/entities/services/advance-medical-directive.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#260 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Atropine vs ortho-K for a primary-school progression spike?
+2. Sleep consultant package vs night nanny for 6-month naps?
+3. Moisture report enough to win a mould deposit dispute?
+4. Hall fees included in badminton group class price?
+5. Does a home-country living will replace a Singapore AMD?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 28)
 
 Branch: `cursor/loop-d-next-polish-tick28-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Family / Next parents for AEIS, STVP, and apostille. Avoided open Loop D file sets from [#215](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/215) / [#222](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/222).
