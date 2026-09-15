@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "eunos-north",
+  "name": "Eunos North",
+  "summary": "North of Eunos toward Kembangan / Geylang East edges — EWL-adjacent denser living with food energy and practical mid-town hops.",
+  "body": "Eunos North is the shortlist when EWL adjacency and denser food texture matter more than quiet landed weekends. The pocket sits north of Eunos toward Kembangan / Geylang East edges; housing mixes HDB, mid-age condos, and walk-ups. Expats land here for car-light hops to Bugis / City Hall and ActiveSG catchment without Orchard premiums. Watch-outs: late food noise, facade washing calendars on older blocks, and confusing Eunos vs Eunos North shortlists. Compare with Kaki Bukit Fringe for quieter industrial-edge DTL living, Paya Lebar West for office-edge energy, and Geylang East when nightlife adjacency is intentional.",
+  "region": "east",
+  "vibe": [
+    "ewl-adjacent",
+    "food-dense",
+    "practical",
+    "mid-town",
+    "dense"
+  ],
+  "bestFor": [
+    "car-light CBD / Bugis workers",
+    "households okay with denser food texture",
+    "renters comparing Eunos North vs Kaki Bukit Fringe",
+    "people who will treat ActiveSG sepak takraw as the weekly court SKU"
+  ],
+  "watchOuts": [
+    "Late food and arterial noise",
+    "Older-block facade / gondola notice stacks",
+    "Peak EWL crowding",
+    "Eunos vs Eunos North listing confusion"
+  ],
+  "housingMix": "HDB, mid-age condos, and walk-ups with selective newer edges.",
+  "commuteNotes": "East-West Line gravity via Eunos; bus links toward Kembangan / Geylang East. Walk a Friday night before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3600,
+    "familyFrom": 3200,
+    "familyTo": 6200
+  },
+  "mrt": [
+    "Eunos",
+    "Kembangan",
+    "Paya Lebar"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 48 — 2026-09-15
+
+Branch: `cursor/home-life-tick48-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295/#301 stay open for the merge controller — **did not** touch those PR paths. Topics: condo facade / gondola access notices, ActiveSG sepak takraw, Kaki Bukit Fringe / Eunos North / Paya Lebar West. Tip confirmed as **#301** (Tick 47); opened next tip in parallel without waiting on merge.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → #266 → #274 → #282 → #295 → #301 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — gondola / facade washing notices, balcony pot clearance fights, BMU noise vs unit reno confusion.
+- r/askSingapore — ActiveSG sepak takraw Standard Rate for foreigners, weekend court release races, ball kit rules.
+- r/askSingapore — east-side shortlists for Kaki Bukit Fringe vs Eunos North vs Paya Lebar West noise / interchange trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [MOM — working at heights](https://www.mom.gov.sg/workplace-safety-and-health/working-at-heights).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs open #71 → #301
+
+Open PRs own reno-noise through guest-suite / netball and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo facade / gondola access notices** (≠ fire-hose clearance; ≠ unit reno noise), **ActiveSG sepak takraw** (≠ netball; ≠ pickleball; ≠ badminton; ≠ futsal; ≠ fencing; ≠ bowling; ≠ skating; ≠ climbing; ≠ archery; ≠ camps), plus neighbourhood depth for **Kaki Bukit Fringe**, **Eunos North**, and **Paya Lebar West**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-facade-gondola-access-notices-tenants.mdx`
+- `content/guides/life/activesg-sepak-takraw-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #301.
+- `src/lib/site.ts` (facade/gondola + ActiveSG sepak takraw topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/kaki-bukit-fringe.json`
+- `content/entities/neighbourhoods/eunos-north.json`
+- `content/entities/neighbourhoods/paya-lebar-west.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 / #266 / #274 / #282 / #295 / #301 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is gondola access the same as fire-hose clearance?
+2. Must I clear balcony pots for facade washing?
+3. Can workers enter my unit for window access?
+4. Who pays if screens are damaged during BMU works?
+5. Can foreigners book ActiveSG sepak takraw at Standard Rate?
+6. Is sepak takraw the same as netball or badminton hire?
+7. Do I need my own takraw ball?
+8. Kaki Bukit Fringe vs Eunos North — quieter DTL or denser EWL food?
+9. Is Paya Lebar West too interchange-crowded on weekends?
+10. When is a condo multipurpose court still enough?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 47 — 2026-09-15
 
 Branch: `cursor/home-life-tick47-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295 stay open for the merge controller — **did not** touch those PR paths. Topics: condo guest-suite / temporary stay, ActiveSG netball, Mattar Fringe / Tai Seng North / Ubi West. Tip confirmed as **#295** (Tick 46); opened next tip in parallel without waiting on merge.

@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "kaki-bukit-fringe",
+  "name": "Kaki Bukit Fringe",
+  "summary": "Edges of Kaki Bukit toward Ubi / Bedok Reservoir — DTL-adjacent industrial-residential mix with practical rents and community-sport catchment.",
+  "body": "Kaki Bukit Fringe is the shortlist when DTL adjacency and practical rents matter more than polished condo landscaping. The pocket sits on the Kaki Bukit / Ubi / Bedok Reservoir edges; housing mixes HDB, mid-age walk-ups, and selective condo stock beside light industrial. Expats land here for car-light hops to Paya Lebar / Tampines and ActiveSG catchment without CBD premiums. Watch-outs: weekday truck noise, facade/gondola notice stacks on mid-rise blocks, and confusing Kaki Bukit vs Kaki Bukit Fringe shortlists. Compare with Eunos North for EWL food density, Paya Lebar West for office-edge living, and Ubi West when quieter DTL edges win.",
+  "region": "east",
+  "vibe": [
+    "dtl-adjacent",
+    "industrial-edge",
+    "practical",
+    "value",
+    "community-sport"
+  ],
+  "bestFor": [
+    "car-light workers toward Paya Lebar / Tampines",
+    "renters okay with industrial-edge texture",
+    "households comparing Kaki Bukit Fringe vs Eunos North",
+    "people who will book ActiveSG sepak takraw weekly"
+  ],
+  "watchOuts": [
+    "Weekday truck and loading noise",
+    "Facade / gondola clearance notices on mid-rises",
+    "Weekend ActiveSG release competition",
+    "Kaki Bukit vs Kaki Bukit Fringe listing confusion"
+  ],
+  "housingMix": "HDB, mid-age walk-ups, and selective condo stock beside light industrial.",
+  "commuteNotes": "Downtown Line gravity via Kaki Bukit; bus links toward Ubi / Bedok Reservoir. Walk a weekday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3200,
+    "familyFrom": 2800,
+    "familyTo": 5400
+  },
+  "mrt": [
+    "Kaki Bukit",
+    "Ubi",
+    "Bedok North"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
