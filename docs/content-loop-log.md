@@ -6,6 +6,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 26) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick26-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #190. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — chickenpox crusting vs “spots look fine”; sibling cascade.
+- r/askSingapore — lost water bottles; muted parent portals; permission-slip panic.
+- r/askSingapore — mall soft-play as the rainy-day parent meetup.
+
+**Official**
+
+- [HealthHub chickenpox](https://www.healthhub.sg/a-z/diseases-and-conditions/chickenpox) + [MOH](https://www.moh.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [ECDA](https://www.ecda.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–25 (open through #190) covered schools through haze/book-fair/ActiveSG. Remaining heat without contested paths: **chickenpox / varicella exclusion**, **IS lost-property / admin-portal ops**, **mall indoor-playground parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-chickenpox-varicella-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-lost-property-admin-portal-dual-career-singapore.mdx`
+- `content/guides/belong/mall-indoor-playground-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- HDB ceiling leak, security deposit/diplomatic clause, short vs long rental, shopping essentials, weekend getaways, cycling/active mobility
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- furniture-rental, self-storage, veterinary-clinics, NUS High, Methodist Girls' School
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#190 guide/entity paths.
+
+### Questions mined (sample)
+
+1. What is the written crusting / clearance rule?
+2. Does the well sibling still have class tomorrow?
+3. Who owns portal notifications this term?
+4. Are bottles labelled with name + phone?
+5. When is the weekly lost-property sweep?
+6. Same mall soft-play hour next week?
+7. Is the bedroom dry enough to convalesce?
+8. Did we freeze visitor playdates?
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 25) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick25-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #179. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
