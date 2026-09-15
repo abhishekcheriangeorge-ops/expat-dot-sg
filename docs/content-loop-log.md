@@ -6,6 +6,75 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 10) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick9-8971` → PR to `main` (branch name kept; tick number is **10** after #51 landed on main as tick 9). Owns **Family** + **Belong** guides plus schools/clubs/services entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Skipped ADHD / Mandarin / hiking bodies already shipped via #51 (tick 9 on main) and babysitter / uni counselling / book clubs via #52 (tick 8).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — kids braces / Invisalign cash ([ortho recommendations](https://www.reddit.com/r/askSingapore/comments/1p96zty/can_anyone_recommend_me_a_good_ortho/), [Invisalign advice](https://www.reddit.com/r/askSingapore/comments/1texrw9/invisalign_recommendationsadvice/)).
+- r/askSingapore — teen / school counselling paths ([school counselling](https://www.reddit.com/r/askSingapore/comments/10wqtp2/school_counseling/), [help as a minor](https://www.reddit.com/r/askSingapore/comments/xyji0v/seeking_help_for_mental_health_as_a_minor/), [eating disorder help](https://www.reddit.com/r/askSingapore/comments/11xlgsg/how_to_get_eating_disorder_help_in_sg/)).
+- r/askSingapore — parenting communities / playgroups ([where parents hang out](https://www.reddit.com/r/askSingapore/comments/16bleg3/parents_where_do_you_hang_out_online_and_offline/), [parenting groups](https://www.reddit.com/r/askSingapore/comments/12bj0q4/parenting_subsgroups_for_young_and_new/), [playgroup tiers](https://www.reddit.com/r/askSingapore/comments/14q1w8z/thoughts_on_playgroups_for_kids_do_you_feel/)).
+
+**Official**
+
+- [NDCS Orthodontics](https://www.ndcs.com.sg/patient-care/specialties-and-services/orthodontics) + [MOH dental fees](https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-fees).
+- [CHAT Get Help](https://www.imh.com.sg/CHAT/Get-Help/Pages/default.aspx) (ages 16–30) + [mindline 1771](https://www.mindline.sg/) + [IMH Child Guidance Clinic](https://www.imh.com.sg/Clinical-Services/Outpatient-Clinics/Pages/Child-Guidance-Clinic.aspx).
+- [ECDA](https://www.ecda.gov.sg/) + [ANZA](https://www.anza.org.sg/) / [AWA](https://www.awasingapore.org/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–9 covered schools/SEN/camps/clubs, newborn/leave/vaccines, IVF/maternity/divorce, Reclub/parkrun, Mandarin-thin→dedicated, confinement, indoor hobbies, allergy/EpiPen, IB/A-Level, music, babysitter, uni counselling, book clubs, ADHD meds, hiking. Remaining heat: **kids braces/ortho cash + transfer**, **teen mental health / IS counsellor limits / CHAT**, **parenting-community rails beyond ANZA/AWA**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/kids-braces-orthodontics-singapore.mdx`
+- `content/guides/family/teen-mental-health-school-counselling-singapore.mdx`
+- `content/guides/belong/parenting-communities-playgroups-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/dental-care-foreigners-singapore.mdx`
+- `content/guides/family/mental-health-resources.mdx`
+- `content/guides/family/preschool-childcare-singapore.mdx`
+- `content/guides/family/university-counselling-international-schools-singapore.mdx`
+- `content/guides/belong/anza-awa-associations.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/services/dental-care.json`
+- `content/entities/services/mental-health-counselling.json`
+- `content/entities/clubs/awa.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite ADHD / Mandarin / hiking guides already on main from #51.
+- Did not edit Move / Money / Home / Life / Next trees.
+
+### Questions mined (sample)
+
+1. Will my employer plan cover Invisalign Teen for an EP child?
+2. Is NDCS orthodontics cheaper for foreigners, or still full fee?
+3. Can we transfer braces mid-course when we leave Singapore?
+4. Is the IS counsellor the same as a clinical psychologist?
+5. Will the school tell parents if a teen sees the counsellor?
+6. What is CHAT actually for if it is not a crisis line?
+7. Where do new expat parents meet people besides Facebook megagroups?
+8. Are paid playgroups worth it vs parent-led rotations?
+9. How do dual-career households keep one belonging rail without mummy-brunch overload?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 9)
 
 Branch: `loop/next-polish-tick9` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Tick 8 (#60) still open elsewhere — this branch is off current `main` only.
