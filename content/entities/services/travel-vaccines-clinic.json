@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "travel-vaccines-clinic",
+  "name": "Travel vaccines clinic",
+  "summary": "How expats book travel vaccine clinics in Singapore — destination risk lists, yellow fever centres, timing before flights, and what work-pass travel medicals do not cover.",
+  "body": "Travel clinics map vaccines and malaria advice to itinerary countries. Some destinations need yellow fever certificates from designated centres. Corporate GP medicals for work passes are not a substitute for destination-specific travel shots.\n\n## Decision points\n- Destination list and rural vs city exposure\n- Yellow fever designated-centre requirement\n- Hep A/B, typhoid, rabies, JE, and boosters\n- Lead time before departure (multi-dose schedules)\n- Malaria prophylaxis when relevant\n\nBring prior immunisation records — duplicate live vaccines are avoidable.\n\n## How to choose\nPrefer clinics that document batch numbers and issue ICVP/yellow cards when required. Ask about same-day serology if history is unclear. Confirm whether advice includes food/water and mosquito timing, not only injections.\n\n## Practical tip\nBook six weeks before long-haul multi-country trips. Last-minute appointments often mean incomplete schedules and rushed paperwork.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Trip needs destination-specific vaccines",
+    "Yellow fever certificate centre required",
+    "Multi-dose schedule timing before flights",
+    "Prior immunisation record incomplete"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "stvp-travel-medical-cover-gap-singapore",
+    "travel-before-work-pass-card",
+    "kids-passport-renewal-school-term-travel-singapore",
+    "healthcare-gp-hospital"
+  ],
+  "featured": false,
+  "sponsored": false
+}

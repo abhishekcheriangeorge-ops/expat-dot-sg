@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "pest-termite-treatment",
+  "name": "Pest and termite treatment",
+  "summary": "How tenants and owners handle pest and termite treatment in Singapore — cockroach/ant programmes, termite inspections, landlord vs tenant scope, and condo common-area boundaries.",
+  "body": "Tropical housing brings cockroaches, ants, mosquitoes, and subterranean termites. One-off sprays rarely beat breeding cycles; serious termite finds need inspection, baiting or dusting, and follow-up.\n\n## Typical jobs\n- Kitchen/bathroom cockroach programmes\n- Ant and bed-bug treatments\n- Mosquito breeding-site advice\n- Termite inspection and monitoring stations\n- Landlord / MCST coordination for shared stacks\n\nPhotos and tenancy clauses matter before arguing who pays.\n\n## How to choose\nPrefer firms that explain active ingredients, re-entry times, and pet safety. Ask whether the quote is a single spray or a multi-visit programme. For termites, insist on a written inspection diagram — not only a verbal “maybe.”\n\n## Practical tip\nDeclutter under sinks and seal food before the first visit. Treatment fails when bait stations sit next to competing crumbs.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nea.gov.sg/",
+  "whenToEngage": [
+    "Recurring cockroach or ant infestations",
+    "Suspected termite damage needs inspection",
+    "Landlord vs tenant pest scope unclear",
+    "Condo common-area vs unit treatment boundary"
+  ],
+  "officialLinks": [
+    {
+      "label": "NEA",
+      "url": "https://www.nea.gov.sg/"
+    },
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "aircon-pest-renewals",
+    "furnishing-rental-flat",
+    "mould-humidity-rental-tenants",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

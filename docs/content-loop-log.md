@@ -6,6 +6,61 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 33 — 2026-09-15
+
+Branch: `cursor/services-directory-tick33-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#269); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F32 draft [#269](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/269).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Dental threads — root canal vs extraction and rider cover.
+- Travel threads — yellow fever centres and last-minute vaccine timing.
+- Condo / rental threads — termites vs DIY sprays and who pays.
+- Adult swim anxiety / ActiveSG lane crowding.
+- Founder threads — company secretary retainers after incorporation.
+
+**Official**
+
+- [Singapore Dental Council](https://www.healthprofessionals.gov.sg/sdc) + [MOH](https://www.moh.gov.sg/).
+- [HealthHub](https://www.healthhub.sg/).
+- [NEA](https://www.nea.gov.sg/) + [CASE](https://www.case.org.sg/).
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [ACRA](https://www.acra.gov.sg/) + [MinLaw find a lawyer](https://www.mlaw.gov.sg/legal-industry/find-a-lawyer/).
+
+### Gaps vs open F stack
+
+Open #70→#269 cover prior depth and every on-main service file. Free surface for tick 33: **root canal**, **travel vaccines**, **pest/termite treatment**, **adult swimming lessons**, **company secretary**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/root-canal-treatment.json`
+- `content/entities/services/travel-vaccines-clinic.json`
+- `content/entities/services/pest-termite-treatment.json`
+- `content/entities/services/swimming-lessons-adult.json`
+- `content/entities/services/company-secretary.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#269 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Endodontist referral vs GP dentist for a curved canal?
+2. Yellow fever centre booking lead time before Africa trip?
+3. Termite inspection report enough for landlord remediation?
+4. Private adult swim vs group for fear-of-water restart?
+5. CS retainer vs incorporation package — what is excluded?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 23)
 
 Branch: `cursor/e-journeys-tools-tick23-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#155 / Loop B20 tip). **Did not wait for merges or CI on prior tips including #233.** Avoided open E stack exclusives through **#233** (E22): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → this tip**.
