@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 14)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick14-49cb` → PR to `main` (fresh worktree off `origin/main` @ `183789b` post-H15/#93; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#105](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/105) A8–A13 stay open — **did not** edit those paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — “no EP quota so take S Pass”; levy/DRC vs COMPASS trade-offs; S Pass now, EP later folklore.
+- r/askSingapore — MCF 14-day box-ticking; offer during ad window; ICT exemption hand-waving; ad salary ≠ contract salary.
+- r/askSingapore — Tuition Grant LOE mistaken for EP; S Pass/PEP as bond service; liquidated damages as “immigration done”; spouse PR shortening bond.
+
+**Official**
+
+- [MOM — Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass) + [S Pass](https://www.mom.gov.sg/passes-and-permits/s-pass)
+- [MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework)
+- [MOE — Tuition Grant bond matters](https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A8–A13 plus ticks 1–7 on main already own the broad Move/Money FAQ surface (job-change through year-one finance, housing, PayNow recovery, pets, WHP, S Pass hub, etc.). **Only three Move guides remained outside that open stack** with thin FAQ depth left: **EP vs S Pass comparison**, **Fair Consideration / MCF**, **MOE Tuition Grant bond**. No untouched Money guides remained outside A8–A13 — this tick stays Move-comparison dense rather than forcing Money file collisions.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/ep-vs-s-pass-comparison.mdx` (+3)
+- `content/guides/move/fair-consideration-framework-ep.mdx` (+3)
+- `content/guides/move/moe-tuition-grant-bond.mdx` (+3)
+- `src/lib/site.ts` (EP vs S Pass, FCF/MCF, Tuition Grant topics)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A8–A13 guide paths or `intact-immigration`.
+- Did not invent new Money guide files solely to fill the pillar when every Money path is already in the open A stack.
+
+### Questions mined (sample)
+
+1. Does taking S Pass permanently block EP later?
+2. Is S Pass always cheaper for HR once levy/DRC are counted?
+3. Can I hold S Pass while keeping a spouse’s DP from another EP?
+4. Does FCF apply to overseas affiliate transfers?
+5. Which salary wins if MCF ad and offer disagree?
+6. Can a recruiter close me during the 14-day ad window?
+7. Does S Pass or PEP service count for Tuition Grant?
+8. Does paying liquidated damages clear MOM?
+9. Can a spouse’s PR shorten my TG bond?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 13)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick13-49cb` → PR to `main` (fresh worktree off `origin/main` @ `6506c2a` post-H10/#69; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#97](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/97) A8–A12 stay open — **did not** edit those paths).
