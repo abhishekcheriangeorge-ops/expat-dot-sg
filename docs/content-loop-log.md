@@ -4,6 +4,76 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15
+
+Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PR rejection / appeal / reapply / long pending ([appeal for PR rejection](https://www.reddit.com/r/askSingapore/comments/196c2xa/appeal_for_pr_rejection/); [four lines / re-apply UI](https://www.reddit.com/r/askSingapore/comments/1hbwgci/if_i_have_seen_four_lines_in_my_pr_application/); [17 months pending](https://www.reddit.com/r/askSingapore/comments/1bvp1o2/pr_application_been_17_months_still_pending/); [pending status myths](https://www.reddit.com/r/askSingapore/comments/10l5vyh/singapore_pr_application_status/); [update salary while pending](https://www.reddit.com/r/askSingapore/comments/1ez5zog/pr_application/); [reapply what to change](https://www.reddit.com/r/askSingapore/comments/1dv2qgn/reapply_pr/); [husband local sponsorship rejected](https://www.reddit.com/r/askSingapore/comments/1g2npsc/husband_pr_by_local_sponsorship_rejected/); [rejected seeking advice](https://www.reddit.com/r/askSingapore/comments/1d4mbr2/rejected_pr_application_seeking_advice/); [apply after few months](https://www.reddit.com/r/askSingapore/comments/1sx0502/considering_applying_for_singapore_pr_after_only/)).
+- r/askSingapore — EP renewal / age-band salary / COMPASS / S Pass downgrade ([new round of EP renewals](https://www.reddit.com/r/askSingapore/comments/1cfsd88/new_round_of_ep_renewals/); [qualifying salary by age](https://www.reddit.com/r/askSingapore/comments/1fmj3t4/how_does_ep_qualifying_salary_by_age_works/); [salary slightly below age band](https://www.reddit.com/r/askSingapore/comments/1js33jo/ep_qualifying_salary_slightly_below_considering/); [COMPASS uni campus](https://www.reddit.com/r/askSingapore/comments/1q00yh8/question_about_employment_pass_compass_framework/); [EP processing times](https://www.reddit.com/r/askSingapore/comments/1o4eekn/are_eps_getting_really_processed_in_singapore/); [qualifying salary update confusion](https://www.reddit.com/r/askSingapore/comments/1jk9yhn/has_the_ep_qualifying_salary_been_updated/)).
+- r/askSingapore + r/NationalServiceSG — Exit Permit / renounce PR / NS overseas ([NS obligations exit permits living overseas](https://www.reddit.com/r/askSingapore/comments/1ozhd20/ns_obligations_exit_permits_and_living_overseas/); [ORD overseas exit permit](https://www.reddit.com/r/NationalServiceSG/comments/1eledbd/ord_help_overseas_and_temp_review/); [exit permit IPPT mistake](https://www.reddit.com/r/NationalServiceSG/comments/1qq2c20/missing_ippt_due_to_mistake_on_exit_permit/); [should I renounce SG PR](https://www.reddit.com/r/NationalServiceSG/comments/1i032rw/should_i_renounce_my_sg_pr/); [how to renounce after going in](https://www.reddit.com/r/NationalServiceSG/comments/1oqm6f1/how_to_renounce_pr_after_going_in_guide/); [renounce in unit and leave](https://www.reddit.com/r/NationalServiceSG/comments/1oo0nsm/renounce_pr_in_unit_and_leave/)).
+- r/askSingapore — leaving / IR21 / STVP / notice travel ([EP resignation STVP](https://www.reddit.com/r/askSingapore/comments/1ttedbd/ep_question_on_resignation_stvp/); [IR21 withhold explain](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [lost job exit questions](https://www.reddit.com/r/askSingapore/comments/187h2wf/in_light_of_losing_my_job_24_hours_ago_i_have_a/); [GIRO refund after clearance](https://www.reddit.com/r/askSingapore/comments/1h21yvx/can_i_refund_giro_payment/)).
+
+**Official**
+
+- [ICA — Appeal for SC / PR / LTVP](https://www.ica.gov.sg/reside/reside-appeals) + [ask.gov.sg PR appeal FAQ](https://ask.gov.sg/ica/questions/clxwhkiyp00hudsotw6rtl2oh) + [status enquire](https://ask.gov.sg/ica/questions/clxwhkixw007sdsotpvir28dv) + [Becoming a PR](https://www.ica.gov.sg/reside/PR).
+- [MOM — EP eligibility / COMPASS / age-band salary through 2027–2028](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) + [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool) + [FCF](https://www.mom.gov.sg/passes-and-permits/employment-pass/consider-all-candidates-fairly).
+- [CMPB — Exit Permit and bond (pre-enlistment)](https://www.cmpb.gov.sg/before-ns/pre-enlistment-process/exit-permit-and-bond/) + [ask.gov.sg NSman Exit Permit](https://ask.gov.sg/mindef/questions/cmhvc94jb0049koswqmmlpgoh) + [overseas work/study Exit Permit](https://ask.gov.sg/mindef/questions/cmhvblo84008ihpjiojoczv1g).
+- [ICA — Renunciation of Permanent Residence](https://www.ica.gov.sg/enter-transit-depart/more-information/for-permanent-residents/renunciation-of-permanent-residence) + [CPF leaving / account closure](https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore).
+- [IRAS — Tax clearance IR21](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees).
+
+### Gaps vs prior ticks (Next-owned)
+
+Ticks 1–18 already covered PR strategy / after-PR / REP, thin EP renewal, leaving playbook / IR21 / costs, citizenship-NS overview, STVP between jobs, retrenchment, bonds/WICA, etc. Remaining high-intent **Next** gaps matched forum heat: **PR rejection + e-Service appeal + reapply**, **EP renewal age-band / 2027–2028 floors / S Pass contingency**, **NS Exit Permit + bond for PR sons**, **ICA renunciation process vs NS adverse impact**, plus leaving polish on **STVP length / notice travel / withholding cashflow**. About + editorial needed clearer research/orientation language.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/next/pr-rejection-reapply.mdx`
+- `content/guides/next/ns-exit-permit-pr-families.mdx`
+- `content/guides/next/renouncing-pr-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/next/ep-renewal-strategy.mdx` (age bands, 2027/2028, COMPASS/SAT, S Pass contingency)
+- `content/guides/next/leaving-singapore-playbook.mdx` (STVP ask, notice travel, withholding runway, renounce cross-link)
+- `content/guides/next/pr-application-strategy.mdx` (rejection/exit-permit cross-links)
+- `content/guides/next/citizenship-ns-implications.mdx` (Exit Permit + renounce cross-links)
+
+**Editorial polish**
+
+- `src/app/about/page.tsx`
+- `src/app/editorial-policy/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Family / Belong / Home / Life guide trees owned by Loops A–C.
+
+### Questions mined (sample)
+
+1. Can I appeal a PR rejection, or only reapply after circumstances change?
+2. Does “pending” for 17+ months mean anything good?
+3. How do I tell ICA about a new job/salary while PR is pending?
+4. What should I change before PR try #2 after a local-sponsor refusal?
+5. Will my EP renew if cash salary is under the age-band floor?
+6. Is age counted at renewal filing or at pass expiry?
+7. If EP renewal fails, will HR convert me to S Pass?
+8. Do 13th-month / bonuses count toward EP qualifying salary?
+9. Does my PR son need an Exit Permit (and bond) for overseas school?
+10. As an NSman, when is Exit Permit required (6 vs 12 months)?
+11. Can I renounce PR during NSF / BMT, and what happens to future EP chances?
+12. After EP cancel, do I automatically get 90-day STVP?
+13. Can I travel on notice while EP is still live?
+14. Why is my final salary withheld for IR21, and how much runway do I need?
+
+---
+
 ## Loop B — Family + Belong — 2026-09-15
 
 Branch: `loop/family-belong` (Family + Belong guides + schools/clubs entity depth only).
