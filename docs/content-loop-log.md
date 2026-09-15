@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 32) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick32-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #242. Shared log + `site.ts` only. Did not wait for #242 merge/CI. No force-push to `main`. Rebased after #210/#216 landed on main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — night ear pain; swim bans; ENT vs GP folklore.
+- r/askSingapore — winter-fair stall shifts vs client calls; raffle PayNow guilt.
+- r/askSingapore — private swim-school waiting glass as the real parent meetup.
+
+**Official**
+
+- [HealthHub middle ear infection](https://www.healthhub.sg/a-z/diseases-and-conditions/middle-ear-infection) + [MOH](https://www.moh.gov.sg/) + [KKH](https://www.kkh.com.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [ActiveSG](https://www.activesg.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–31 (open through #242) covered LS waitlists/tuition lobbies/transfers. Remaining heat without contested paths: **ear infection / ENT coverage**, **IS winter fair / bazaar ops**, **swim-school waiting-area belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-ear-infection-ent-coverage-singapore.mdx`
+- `content/guides/family/international-school-winter-fair-bazaar-ops-dual-career-singapore.mdx`
+- `content/guides/belong/swim-school-waiting-area-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- finding paediatrician, sick-child coverage, ActiveSG swim belonging, kids allergy/EpiPen, park playground belonging
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- Dover Court, GESS, Nexus International, SMG, AIA Singapore, aircon-servicing
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #227–#242 guide/entity paths (and avoided prior open-stack paths through #242).
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns overnight ear-pain coverage?
+2. Is swim school paused in writing?
+3. Which adult owns the fair stall shift?
+4. What is the hard wallet cap?
+5. Same swim waiting bench next week?
+6. GP tonight or ENT this week?
+7. Helper rest day vs fair Sunday?
+8. Allergy plan checked before class stall tasting?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 31)
 
 Branch: `cursor/loop-d-next-polish-tick31-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EP rejection, Fair Consideration, and career pivots. Avoided open Loop D file sets through [#256](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/256).
