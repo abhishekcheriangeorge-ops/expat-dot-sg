@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 38)
+
+Branch: `loop/story-aeo-tick38` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#221 H20–H37). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — HR said my annual leave eats my notice / encash vs offset.
+- r/askSingapore — first-gen PR exemption / dual passport means no NS before IPA.
+- r/askSingapore — DBS will not release Mum’s Singapore account on a UK grant alone.
+
+**Official**
+
+- [MOM — Annual leave](https://www.mom.gov.sg/employment-practices/leave/annual-leave/eligibility-and-entitlement) + [Termination with notice](https://www.mom.gov.sg/employment-practices/termination-of-employment/termination-with-notice).
+- [CMPB — Overseas pre-enlistees](https://www.cmpb.gov.sg/before-ns/overseas-pre-enlistees/) + [Exit Permit and bond](https://www.cmpb.gov.sg/before-ns/pre-enlistment-process/exit-permit-and-bond/).
+- [Judiciary — Apply for probate](https://www.judiciary.gov.sg/family/apply-for-probate) + Family Justice Courts non-contentious probate directions.
+
+### Gaps vs open H + ticks 1–37
+
+Open: #117–#221 H20–H37. Remaining free Next FAQ-free companions included **AL encashment vs notice offset**, **NS liability checklist before PR/SC**, **foreign probate resealing for Singapore banks**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/annual-leave-encashment-notice-offset-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ns-liability-before-pr-citizenship-checklist-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/foreign-probate-resealing-singapore-banks.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (AL encashment + NS checklist + foreign probate resealing topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#221 guide bodies.
+
+### Questions mined (sample)
+
+1. Does unused annual leave automatically shorten my EP notice period?
+2. What is the difference between encashing AL and taking AL during notice?
+3. Do MC days during notice extend my notice period?
+4. Can HR force me to offset notice with annual leave?
+5. What if HR underpays encashed leave on my last day?
+6. Should I model NS liability before accepting a PR or citizenship IPA?
+7. From what age can male SC/PR sons face Exit Permit / bond issues overseas?
+8. Does dual citizenship mean my son avoids National Service?
+9. Can ICA refuse PR renunciation if NS is unresolved?
+10. Is ORAL at 21 a substitute for NS modelling before PR?
+11. Will Singapore banks release money on a foreign probate grant alone?
+12. What is resealing a foreign grant in Singapore?
+13. Is showing the will enough for DBS, UOB, or OCBC?
+14. Does a will control CPF balances for a PR contributor?
+15. What should next of kin gather first after a death with Singapore accounts?
+
+---
+
 ## Loop B — Family + Belong (tick 14) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick14-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), and #100 (primary transition/IS boarding/youth performing arts).

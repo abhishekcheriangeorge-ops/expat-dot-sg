@@ -648,9 +648,19 @@ export const pillars: Pillar[] = [
         blurb: "What permanent status implies for families.",
       },
       {
+        label: "NS checklist before PR / SC",
+        href: "/guides/ns-liability-before-pr-citizenship-checklist-singapore",
+        blurb: "CMPB letter first — Exit Permit / bond before IPA celebrations.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
+      },
+      {
+        label: "AL encashment vs notice offset",
+        href: "/guides/annual-leave-encashment-notice-offset-ep-singapore",
+        blurb: "Encash ≠ offset ≠ AL-during-notice — get HR’s meaning in writing.",
       },
       {
         label: "Between jobs / STVP",
@@ -671,6 +681,11 @@ export const pillars: Pillar[] = [
         label: "Lost blue NRIC (PR / SC)",
         href: "/guides/lost-replace-nric-pr-singapore",
         blurb: "ICA 14-day report clock — not MOM work-pass replacement.",
+      },
+      {
+        label: "Foreign probate resealing / banks",
+        href: "/guides/foreign-probate-resealing-singapore-banks",
+        blurb: "Singapore grant or reseal before local banks release cash.",
       },
       {
         label: "After getting PR",
