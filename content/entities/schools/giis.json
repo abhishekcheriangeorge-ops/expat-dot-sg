@@ -3,16 +3,16 @@
   "slug": "giis",
   "name": "Global Indian International School",
   "summary": "Indian and international curricula across multiple Singapore campuses.",
-  "body": "GIIS serves Indian and broader international families with CBSE / other pathways depending on campus. Multiple sites mean geography and curriculum stream must be chosen together. A common shortlist for Indian corporate and diaspora families. Cohort birthday density rises mid-term — dual-career families should cap guest lists early and align with school communication norms on party invites.",
+  "body": "GIIS serves Indian and broader international families with CBSE / other pathways depending on campus. Multiple sites mean geography and curriculum stream must be chosen together. A common shortlist for Indian corporate and diaspora families. Cohort birthday density rises mid-term \u2014 dual-career families should cap guest lists early and align with school communication norms on party invites. Weekday parent coffee mornings and academy waits still need dual-career calendar owners \u2014 ask admissions how early morning parent events are scheduled against bus routes.",
   "curriculum": [
     "CBSE",
     "IB",
     "CLSP"
   ],
   "sector": "international",
-  "ages": "Nursery–Grade 12",
+  "ages": "Nursery\u2013Grade 12",
   "neighbourhood": "east-coast",
-  "campus": "Multiple — SMARTCampus and others",
+  "campus": "Multiple \u2014 SMARTCampus and others",
   "languages": [
     "English",
     "Hindi options"
@@ -21,5 +21,9 @@
   "waitlistNotes": "Campus-specific; popular grades can waitlist.",
   "website": "https://singapore.globalindianschool.org",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-parent-coffee-morning-ops-dual-career-singapore",
+    "football-academy-waiting-parent-belonging-singapore"
+  ]
 }

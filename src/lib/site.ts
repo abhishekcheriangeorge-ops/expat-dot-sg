@@ -513,6 +513,16 @@ export const pillars: Pillar[] = [
         blurb: "Kickoff clocks, kit owners, away-bus rewrites.",
       },
       {
+        label: "Scarlet-fever exclusion ops",
+        href: "/guides/dual-career-kids-scarlet-fever-school-exclusion-singapore",
+        blurb: "Written return clocks, antibiotic plans, sibling freezes.",
+      },
+      {
+        label: "Parent coffee-morning ops",
+        href: "/guides/international-school-parent-coffee-morning-ops-dual-career-singapore",
+        blurb: "Slot clocks, question scripts, mid-morning coverage.",
+      },
+      {
         label: "Pink-eye exclusion ops",
         href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
         blurb: "Written return rules, swim holds, GP vs eye clinic.",
@@ -706,6 +716,11 @@ export const pillars: Pillar[] = [
         label: "Tennis-academy waiting belonging",
         href: "/guides/tennis-academy-waiting-parent-belonging-singapore",
         blurb: "Repeat shade-bench hellos without ranking politics.",
+      },
+      {
+        label: "Football-academy waiting belonging",
+        href: "/guides/football-academy-waiting-parent-belonging-singapore",
+        blurb: "Repeat pitch-bench hellos without ranking politics.",
       },
       {
         label: "LGBTQ+ resources",
