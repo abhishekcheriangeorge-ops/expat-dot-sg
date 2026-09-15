@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 9)
+
+Branch: `cursor/e-journeys-tools-tick9-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “bank froze my account after EP cancel”; PayNow still linked to old FIN; GIRO ghost pulls after exit.
+- r/askSingapore / relocation threads — furniture in storage while flat hunting or shipping; 3-month warehouse vs extend lease math.
+
+**Official / primary**
+
+- [MAS — banking regulation overview](https://www.mas.gov.sg/regulation/banking)
+- [ABS — PayNow](https://www.abs.org.sg/consumer-banking/paynow)
+- Market self-storage rate cards (orientation bands only — not a vendor endorsement)
+
+### Gaps vs Loop E ticks 1–8 (open #72 / #90 / #101 / #110)
+
+Ticks 1–4 on main. Open **#72**: family-joining, ipa-window, PH. Open **#90**: loc-dp-work-rights, school-withdrawal. Open **#101**: graduate-pass-bridge, agent-commission. Open **#110**: hospital-cash-deposit, fdw-levy. Remaining high-intent journeys/tools gaps **off those path sets**: **bank-exit closure playbook**, **storage-months cost sketch**. No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/bank-exit-closure.json` + `/journeys/bank-exit-closure`
+- Journeys index + sitemap (hub soft-conflict expected after open stack)
+
+**Tools**
+
+- `src/lib/tools/storage-months.ts`
+- `src/components/tools/StorageMonthsCalculator.tsx`
+- `/tools/storage-months` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #72 / #90 / #101 / #110 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Should I close my SGD account the week my EP cancels?
+2. Will the bank freeze online banking when my FIN status changes?
+3. How do I remove PayNow linked to a mobile number I am giving up?
+4. Can forgotten GIRO mandates block account closure?
+5. Do I keep one account open for an IRAS refund?
+6. How much self-storage does a 2-bed condo usually need?
+7. Is three months of storage cheaper than extending the lease?
+8. What insurance add-on should I budget on top of the unit rate?
+9. When should I pay storage relative to bank remittance?
+10. Can I settle the final storage invoice after I leave Singapore?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 8)
 
 Branch: `cursor/e-journeys-tools-tick8-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101** exclusive paths. **#78** already on main. Merge controller order: **#72 → #90 → #101 → this tick**.

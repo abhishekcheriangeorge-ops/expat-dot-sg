@@ -87,6 +87,10 @@ export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("pre-arrival.json");
 }
 
+export async function getBankExitClosurePlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("bank-exit-closure.json");
+}
+
 export async function getHospitalCashDepositPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("hospital-cash-deposit.json");
 }
