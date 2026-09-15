@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 3)
+
+Branch: `loop/next-polish-tick3` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS, post-AIP) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ORAL / dual citizenship at 21 ([do I take the oath](https://www.reddit.com/r/askSingapore/comments/5s8py3/do_i_have_to_take_the_oath_of_citizenship/); [early oath before 21](https://www.reddit.com/r/askSingapore/comments/1t5965o/has_anyone_successfully_requested_early_oath/); [renounce Malaysian overseas](https://www.reddit.com/r/askSingapore/comments/1m0l46v/renouncing_malaysian_citizenship_overseas/); [dual citizenship consequences](https://www.reddit.com/r/askSingapore/comments/1q0gb63/consequences_of_holding_dual_citizenship/); [renounce for minor](https://www.reddit.com/r/askSingapore/comments/1b13q64/renounce_citizenship_for_minor/)).
+- r/askSingapore — unemployed / short REP renewals ([unemployed overseas REP](https://www.reddit.com/r/askSingapore/comments/1cp6e0r/rep_renewal_concerns_when_unemployed_overseas/); [REP renewed 1 year](https://www.reddit.com/r/askSingapore/comments/1eaair5/reentry_permit_renewed_for_only_1_year_sg_pr/); [does unemployment affect REP](https://www.reddit.com/r/askSingapore/comments/1ep9pvp/does_being_unemployed_effect_your_reentry_permit/); [unemployed PR opinion](https://www.reddit.com/r/askSingapore/comments/1t4wg22/opinion_if_unemployed_pr_reentry_permit/); [advice renewing PR/REP](https://www.reddit.com/r/askSingapore/comments/11er8in/advice_on_renewing_pr/)).
+- r/askSingapore — EP cancel family cascade / travel during PR formalities ([travel while waiting formalities](https://www.reddit.com/r/askSingapore/comments/1jbnuyb/sg_pr_application_safe_to_travel_while_waiting/); [PR approved next steps](https://www.reddit.com/r/askSingapore/comments/1tfhowb/pr_approved_help_with_next_steps_please/); [formalities delay](https://www.reddit.com/r/askSingapore/comments/1k4x482/completion_of_sg_pr_formalities_is_taking_a_while/); adjacency: DP/LOC when sponsor pass dies in between-jobs threads).
+
+**Official**
+
+- [ICA — Oath-taking for Minors (ORAL)](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking) (21–22 window; auto-loss on 22nd birthday; NRIC + foreign renunciation certificate; no fee; same-day).
+- [MHA — REP process revisions from 1 Dec 2025](https://www.mha.gov.sg/media-room/newsroom/revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025/) + [ICA REP FAQ PDF](https://www.ica.gov.sg/docs/default-source/ica/files/faqs_revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025.pdf) + [Entry Permit & REP conditions](https://www.ica.gov.sg/PR/see-more/entry-permit-and-re-entry-permit-conditions-for-singapore-permanent-residents) (180-day clocks, PRSEP, no reinstatement, good-conduct conditions).
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass).
+- [MOM — Pre-approved Letter of Consent eligibility](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) (SC/PR spouse LTVP category — contrasted with EP-tied DP cascade).
+- [ICA — Apply for Singapore Citizenship](https://www.ica.gov.sg/reside/citizenship/apply) (SCJ ages 16–60; completion fees).
+
+### Gaps vs prior ticks (Next-owned)
+
+Tick 2 shipped citizenship application, graduate LTVP, REP visa-free myth, PR AIP formalities. Remaining high-intent **Next** gaps matched this mine: **ORAL dual-citizenship retention at 21**, **unemployed / 1-year REP realism + PRSEP / no-reinstatement depth on the Dec 2025 rules**, **EP-cancel DP/LTVP family cascade**, **citizenship post-IPA SCJ formalities**, **truthful REP fields at PR take-up**. About + editorial needed clearer ORAL / dated-REP research language.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/next/oral-dual-citizenship-age-21.mdx`
+
+**Upgraded guides**
+
+- `content/guides/next/re-entry-permit-pr-overseas.mdx` (180-day clocks table, PRSEP, no reinstatement, unemployed/1-year REP, family NS note)
+- `content/guides/next/between-jobs-stvp-singapore.mdx` (family cascade checklist; PLOC vs DP distinction)
+- `content/guides/next/singapore-citizenship-application.mdx` (SCJ formalities project; ORAL cross-link)
+- `content/guides/next/after-getting-pr-checklist.mdx` (truthful REP fields; travel on existing pass during formalities)
+- `content/guides/next/citizenship-ns-implications.mdx` (ORAL cross-link)
+
+**Editorial polish**
+
+- `src/app/about/page.tsx`
+- `src/app/editorial-policy/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Family / Belong / Home / Life guide trees owned by Loops A–C (spouse LTVP/PLOC depth stays Move/Family; Next only contrasts categories).
+
+### Questions mined (sample)
+
+1. Do I have to take the ORAL after turning 21 if I got SC by descent?
+2. What happens if I miss ORAL before my 22nd birthday?
+3. Can ICA administer ORAL early for a university visa / passport-validity problem?
+4. Which documents prove foreign citizenship renunciation for ORAL?
+5. If I am unemployed, will ICA only renew my REP for one year?
+6. Can I stay in Singapore without a valid REP as long as I never travel?
+7. After 1 Dec 2025, is there still a reinstatement path if REP is refused overseas?
+8. What is PRSEP, and does it replace a normal multi-year REP?
+9. When my EP is cancelled, does my spouse’s DP and LOC survive?
+10. Can I travel on EP while waiting for PR formalities / blue IC?
+11. Should I put “unemployed” on the REP form at PR take-up?
+12. What is the SCJ calendar after citizenship IPA, and how does it differ from ORAL at 21?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 2)
 
 Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.

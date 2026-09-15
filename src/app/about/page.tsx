@@ -71,7 +71,9 @@ export default function AboutPage() {
             <li>
               Research that starts from real reader questions (forums, Reddit,
               agency FAQs), then maps gaps to primary sources — not recycled
-              listicles.
+              listicles. High-stakes Next topics (REP clocks, citizenship ORAL,
+              pass cancellations) are checked against live ICA / MOM / MHA text
+              before we ship.
             </li>
             <li>
               Directories for neighbourhoods, schools, clubs, and services —
