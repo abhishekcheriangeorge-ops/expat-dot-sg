@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 42 — 2026-09-15
+
+Branch: `cursor/home-life-tick42-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249 stay open for the merge controller — **did not** touch those PR paths. Topics: condo FOC pest fogging / chute treatment, ActiveSG climbing walls, Bugis South / Kallang Bahru / Bendemeer East.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo FOC fogging notices, chute treatment smell complaints, pets/asthma on spray days, unit-entry myths.
+- r/askSingapore — ActiveSG climbing / bouldering Standard Rate for foreigners, induction queues, evening wall release races.
+- r/askSingapore — mid-town shortlists for Bugis South vs Kallang Bahru vs Bendemeer East noise and commute trade-offs.
+
+**Official**
+
+- [NEA pest control](https://www.nea.gov.sg/our-services/pest-control) + [dengue / mosquito control](https://www.nea.gov.sg/dengue-zika).
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #249
+
+Open PRs own reno-noise through waste/recycling / archery and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo FOC fogging / chute treatment** (≠ unit aircon-pest renewals; ≠ waste/bulky), **ActiveSG climbing walls** (≠ archery; ≠ camps; ≠ court hire), plus neighbourhood depth for **Bugis South**, **Kallang Bahru**, and **Bendemeer East**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-foc-pest-fogging-chute-treatment-tenants.mdx`
+- `content/guides/life/activesg-climbing-wall-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #249.
+- `src/lib/site.ts` (FOC fogging + ActiveSG climbing topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/bugis-south.json`
+- `content/entities/neighbourhoods/kallang-bahru.json`
+- `content/entities/neighbourhoods/bendemeer-east.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is FOC fogging the same as my unit pest contract?
+2. Must vendors enter my flat?
+3. Can I refuse chute treatment for asthma/pets?
+4. Who pays if fogging stains corridor laundry?
+5. Can foreigners book ActiveSG climbing at Standard Rate?
+6. Is climbing the same as court hire or archery?
+7. Do I need a belay cert?
+8. Bugis South vs Kallang Bahru — nightlife tax or quiet mid-town?
+9. Is Bendemeer East just “Bendemeer with a longer walk”?
+10. When is a condo gym wall still enough?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 41 — 2026-09-15
 
 Branch: `cursor/home-life-tick41-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238 stay open for the merge controller — **did not** touch those PR paths. Topics: condo waste / recycling / bulky disposal, ActiveSG archery, Mattar / City Hall / Bras Basah.
