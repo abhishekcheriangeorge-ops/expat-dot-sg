@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "good-friday-2026",
+  "title": "Good Friday public holiday",
+  "summary": "Fri 3 Apr 2026 is a public holiday. MOE schools are closed; useful marker between Term 1 holidays and the April stretch — book kids’ care if both parents work.",
+  "date": "2026-04-03",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["everyone", "families", "kids"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}

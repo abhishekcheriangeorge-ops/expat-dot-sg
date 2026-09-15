@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "labour-day-2026",
+  "title": "Labour Day public holiday",
+  "summary": "Fri 1 May 2026 is Labour Day — a single-day public holiday inside Term 2. Offices shut; international schools vary — confirm camps before you assume childcare cover.",
+  "date": "2026-05-01",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["everyone", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}

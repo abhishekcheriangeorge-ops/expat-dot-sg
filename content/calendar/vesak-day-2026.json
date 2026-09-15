@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "vesak-day-2026",
+  "title": "Vesak Day public holiday",
+  "summary": "Vesak Day falls on Sun 31 May 2026; Mon 1 Jun 2026 is the public holiday. It sits at the start of MOE Term 2 school holidays (30 May–28 Jun) — plan leave stacking carefully.",
+  "date": "2026-06-01",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["everyone", "families", "culture"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}

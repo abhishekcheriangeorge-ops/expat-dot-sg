@@ -82,3 +82,7 @@ export async function getLeavingPlaybook(): Promise<LeavingPlaybook | null> {
 export async function getBetweenJobsPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("between-jobs.json");
 }
+
+export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("pre-arrival.json");
+}

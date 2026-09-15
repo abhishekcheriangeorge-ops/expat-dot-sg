@@ -1,0 +1,78 @@
+{
+  "type": "playbook",
+  "slug": "pre-arrival",
+  "title": "Pre-arrival (T−30 to wheels-down)",
+  "summary": "The month before you fly — IPA / SG Arrival Card, HSA meds, shipping vs suitcase, spouse or kids joining later, and the cash bridge until Singpass and a local bank exist.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "documents",
+      "title": "Documents pack (phone + paper)",
+      "body": "Immigration and HR both move faster when the IPA, offer letter, and passport biodata page are offline-ready. Screenshot MyICA / MOM emails; print one thin folder for the aircraft mode stretch after landing.",
+      "bullets": [
+        "IPA / in-principle approval PDF + FIN if shown",
+        "Signed offer / employment letter with Singapore entity name",
+        "Passport biodata + any prior Singapore visit stamps you care about",
+        "Marriage / birth certificates if Dependant Pass applications ride with you",
+        "HSA approval emails for controlled meds (apply ≥2 weeks out)"
+      ],
+      "href": "/guides/sg-arrival-card-expats"
+    },
+    {
+      "id": "arrival-card",
+      "title": "SG Arrival Card inside the 3-day window",
+      "body": "ICA’s free SG Arrival Card (with electronic health declaration) must be submitted within three days before arrival, including the day you land. Do it after your flight is firm — early submissions outside the window are rejected folklore on forums for a reason.",
+      "bullets": [
+        "Submit via ICA e-Service or MyICA once inside the window",
+        "Match passport number and flight details to the ticket",
+        "Keep the confirmation QR / PDF with the IPA at immigration"
+      ],
+      "href": "https://www.ica.gov.sg/enter-depart/entry_requirements/sg-arrival-card"
+    },
+    {
+      "id": "money-bridge",
+      "title": "Cash and cards until the local account opens",
+      "body": "Singpass and a salary account usually wait for biometrics / physical pass. Bridge the first week with a foreign card that works on SimplyGo, a small SGD cash float, and a remittance plan that does not assume PayNow on day one.",
+      "bullets": [
+        "Confirm your foreign card’s FX fee and contactless transit behaviour",
+        "Sketch first-month condo cash with /tools/setup-cash before you LOI from overseas",
+        "Tell payroll which temporary account to use if onboarding is remote"
+      ],
+      "href": "/tools/setup-cash"
+    },
+    {
+      "id": "shipping",
+      "title": "Shipping vs suitcase triage",
+      "body": "Sea freight is slow; air is expensive. Decide what must clear GST relief rules versus what rides in luggage. Controlled meds and vaporisers are not “ship it and hope” categories — HSA and the vape ban are hard lines.",
+      "bullets": [
+        "Label personal effects inventories for your mover",
+        "Keep 2–3 weeks of clothes and kid essentials in accompanied baggage",
+        "No e-vaporisers — seizure and pass risk",
+        "Pets: AVS schedule + AQC booking before the crate flies"
+      ],
+      "href": "/guides/shipping-household-singapore"
+    },
+    {
+      "id": "family-later",
+      "title": "If spouse or kids join later",
+      "body": "A Dependant Pass issued after you land still needs its own IPA timing, address proof, and school seat. Do not assume the main EP card in your wallet automatically clears their bank or Singpass on week one — each FIN has its own sequence.",
+      "bullets": [
+        "Align DP IPA validity with their flight, not only yours",
+        "Hold a spare bedroom / serviced week for the join-up landing",
+        "School waitlists and AEIS calendars move on MOE clocks — check /calendar"
+      ],
+      "href": "/journeys/arriving"
+    },
+    {
+      "id": "first-72h",
+      "title": "Hand off to the day-7 checklist",
+      "body": "Once you clear immigration, stop inventing a new list — use the arriving day-7 board for SGWorkPass, SIM, Grab vs taxi, and HR issuance. Pre-arrival ends at wheels-down.",
+      "bullets": [
+        "Open /journeys/arriving/day-7 after you have hotel Wi-Fi",
+        "Message HR that you landed and confirm EPSC / issuance timing",
+        "Sleep before you renegotiate the lease from the airport taxi"
+      ],
+      "href": "/journeys/arriving/day-7"
+    }
+  ]
+}
