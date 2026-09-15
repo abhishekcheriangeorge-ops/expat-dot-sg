@@ -10,6 +10,10 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 Branch: `loop/family-belong-tick5` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; neighbourhood/housing deep guides stay Home-owned).
 
+## Loop F — Services directory depth — 2026-09-15
+
+Branch: `loop/services-directory` → PR to `main`. Owns **services directory** entities + service detail UI fields only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy.
+
 ### Sources mined
 
 **Reddit / forums**
@@ -160,6 +164,135 @@ Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-ca
 14. How do beginners actually find pickleball games — Reclub drills or ActiveSG courts?
 15. Is parkrun a realistic first social ritual before joining a paid run club?
 
+- r/askSingapore — tax agents / IR21 / ESOP filing ([tax accountant worth it](https://www.reddit.com/r/askSingapore/comments/l965lj/tax_accountant_singapore_worth_it/); [expat income tax](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/); [ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [IR21 withhold explain](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [left after EP cancel + overdue tax](https://www.reddit.com/r/askSingapore/comments/1r8ztij/left_singapore_after_ep_cancellation_may_2024_and/)).
+- r/askSingapore — dental foreigner fees / polyclinic path ([wisdom tooth EP MediSave myth](https://www.reddit.com/r/askSingapore/comments/1on4gnd/wisdom_tooth_extraction_as_a_foreigner/); [dentist via polyclinic](https://www.reddit.com/r/askSingapore/comments/1tvfr6l/is_seeing_a_dentist_via_polyclinic_possible/); [public dental route](https://www.reddit.com/r/askSingapore/comments/rga3uj/how_to_receive_dental_treatment_via_the_public/)).
+- r/askSingapore — notary / apostille / LTVP translation quotes ([US form notarize](https://www.reddit.com/r/askSingapore/comments/1qgzuba/need_to_get_a_usa_institutions_form_notarized/); [LTVP translation cost](https://www.reddit.com/r/askSingapore/comments/1rff1fu/translation_of_documents_for_ltvp/)).
+- r/askSingapore — movers + self-storage / condo lift deposits ([mover with storage](https://www.reddit.com/r/askSingapore/comments/1rvaxn6/mover_with_storage_recommendations/); [condo move deposit](https://www.reddit.com/r/askSingapore/comments/1uf6vp6/deposit_for_moving_into_condo/); [lift padding fee](https://www.reddit.com/r/askSingapore/comments/18lse0i/condo_manager_charging_for_lift_padding/); [padding responsibility](https://www.reddit.com/r/askSingapore/comments/1l3vp58/condo_lift_padding_whose_responsible_to_install/)).
+- r/askSingapore — immigration counsel adjacency (PR rejection / agency myths — reinforce category-guide honesty, not ranked firms) ([PR rejection advice](https://www.reddit.com/r/askSingapore/comments/1d4mbr2/rejected_pr_application_seeking_advice/); [agencies caution](https://www.reddit.com/r/askSingapore/comments/1sx0502/considering_applying_for_singapore_pr_after_only/)).
+
+**Official**
+
+- [IRAS — Tax agents](https://www.iras.gov.sg/quick-links/tax-agents) + [tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + [tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency) + [Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence).
+- [MOH — Guide to dental treatment costs](https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/).
+- [SAL — Notaries Public directory](https://legalisation.sal.sg/Directory) + [legalisation FAQ](https://legalisation.sal.sg/Faq).
+- [AVS — Importing dogs and cats](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/) + [recognised pet agents / CAPQ](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/general-information/).
+- [Singapore Customs — moving to Singapore / GST relief](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/).
+- [CEA — Public register](https://www.cea.gov.sg/public-register/) + [MOM FDW / SIP](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker).
+
+### Gaps vs prior directory state
+
+Directory had movers, clinics, agents, FDW, tutors, insurance, legal stubs, and telecom “other” — but **no tax category**, thin practical fields (no engage-when / official links / related guides on detail UI), and missing high-intent category guides for **dental**, **notary/apostille**, **self-storage**, and **pet relocation** (AVS agent rule). Existing brand listings were summary-only.
+
+### Shipped this loop
+
+**Schema + UI**
+
+- `src/lib/content/schemas.ts` — `tax` category; `whenToEngage`, `officialLinks`, `relatedGuides` on services
+- `src/app/directory/[category]/[slug]/page.tsx` — render engage-when chips, related guides, official source links
+
+**New service entities**
+
+- `content/entities/services/tax-agents.json`
+- `content/entities/services/dental-care.json`
+- `content/entities/services/notary-apostille.json`
+- `content/entities/services/self-storage.json`
+- `content/entities/services/pet-relocation.json`
+
+**Upgraded all 18 existing service entities** with whenToEngage + officialLinks + relatedGuides (immigration, family law, movers, clinics, agents, FDW, telecom, tutors, insurance).
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion (existing sponsored flags left as-is).
+- No Grok / third-party clone copy.
+- Did not edit neighbourhoods, schools, clubs, or pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. Do I need a tax accountant for a simple Singapore salary year?
+2. Who files IR21 — me or my employer — and why is final pay withheld?
+3. How do I declare ESOP/RSU gains when there is no local IR8A entity?
+4. As an EP holder, can I use MediSave for wisdom-tooth surgery?
+5. Is polyclinic dental usable for foreigners, and what do referrals cost?
+6. Where do I find a Singapore notary / apostille for a US form?
+7. Why are overseas LTVP translation+apostille quotes thousands of dollars?
+8. Which movers also offer self-storage for a reno / lease gap?
+9. Who pays the condo lift-padding fee and damage deposit?
+10. Do I need an AVS-recognised pet agent for CAPQ clearance (esp. from Apr 2026)?
+11. Should I hire an immigration agency for a first PR application?
+12. When is immigration counsel worth it vs employer-led EP filing?
+
+---
+
+## Loop C — Home + Life (parallel) — Tick 21 — 2026-09-15
+
+Branch: `loop/home-life-t21e` (rebase of #17 onto latest main) → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — HDB landlord selling mid-lease / vacant possession vs sale-with-tenancy folklore ([2yr contract owner sells](https://www.reddit.com/r/askSingapore/comments/1lidib5/renting_a_hdb_with_2yrs_contract_but_owner_wants/); rental nightmare / deposit leverage adjacency ([rental nightmare](https://www.reddit.com/r/askSingapore/comments/1sftqn4/rental_nightmare_in_singapore/); first-timer condo ask list ([questions for agent](https://www.reddit.com/r/askSingapore/comments/1oeici6/firsttimer_in_renting_a_condo_unit_what_are_some/))).
+- r/askSingapore — HDB bedroom rental / owner continuous occupation / illegal partitions ([owner stay weekly](https://www.reddit.com/r/askSingapore/comments/1mzsjy6/inquiry_about_renting_hdb_with_owner_stay/); [partition room](https://www.reddit.com/r/askSingapore/comments/1kaidl9/isit_ever_legal_in_singapore_to_rent_out_a_hdb/); landlord enter room adjacency).
+- r/askSingapore — adjacent construction / BTO site noise vs condo reno ([construction past 2am](https://www.reddit.com/r/askSingapore/comments/1g3vf5r/where_to_report_loud_ongoing_construction_that/); [BTO beside block](https://www.reddit.com/r/SingaporeRaw/comments/1reztv8/bto_construction_noise_beside_my_block_driving_me/)).
+- r/askSingapore — SP cut-off after previous tenant / ownership transfer ([previous tenant cut-off](https://www.reddit.com/r/askSingapore/comments/1cbtcet/sp_services_cut_off_supplies_due_to_previous/); [ownership transfer](https://www.reddit.com/r/askSingapore/comments/1jml1sd/power_cutoff_due_to_ownership_transfer_any_way_to/)).
+- r/askSingapore — neighbourhood shortlists west/northeast ([non-expat areas](https://www.reddit.com/r/askSingapore/comments/195ji13/nonexpat_areas_for_expat/); [east vs west](https://www.reddit.com/r/askSingapore/comments/xxx5wb/renting_in_east_vs_west/); [best towns](https://www.reddit.com/r/askSingapore/comments/1qq0fly/what_are_the_best_towns_to_live_in_singapore_and/)).
+
+**Official**
+
+- [HDB — Resale completion](https://www.hdb.gov.sg/residential/selling-a-flat/resale-completion) + [temporary extension of stay](https://www.hdb.gov.sg/cs/infoweb/residential/selling-a-flat/resale-application/request-for-temporary-extension-of-stay) + resale T&Cs.
+- [HDB — Tenant eligibility](https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/eligibility) + [renting-out flat eligibility](https://www.hdb.gov.sg/residential/renting-out-a-flat-bedroom/renting-out-your-flat/eligibility) + [regulations / continuous occupation](https://www.hdb.gov.sg/business/estate-agents-and-salespersons/renting-out-a-flat-or-bedroom/regulations-for-renting-out-flats) + [gov.sg owner explainer](https://www.gov.sg/explainers/renting-out-your-hdb-flat-a-homeowners-guide/).
+- [NEA — Construction noise control](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control) + [FAQs](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/frequently-asked-questions-(faqs)) + [Sunday/PH no-work rule](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/work-on-sundays-and-ph) + [OneService](https://www.oneservice.gov.sg/).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [SP open account](https://openaccount.spgroup.com.sg/#/open-account/).
+
+### Gaps vs Tick 20 (Home + Life slice)
+
+Tick 20 shipped fibre TP / NetLink, mould remediation, CDRT + secondhand smoke, bulky waste / laundry poles, Katong–Tampines–Clementi–Bukit Timah entity depth. Remaining high-intent Home+Life gaps matched forum heat: **HDB mid-lease sale / vacant possession**, **bedroom rental continuous-occupation + illegal partitions**, **adjacent BTO/site construction noise (NEA rail)**, SP ownership-transfer cut-offs, plus **Punggol** and **Jurong East** neighbourhood entities. Dengue inspections already covered under Life emergencies — left alone.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/hdb-landlord-selling-tenants.mdx`
+- `content/guides/home/hdb-bedroom-rental-rules-tenants.mdx`
+- `content/guides/home/construction-site-noise-renters.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/condo-noise-mcst-neighbours.mdx` (site-noise row + cross-link)
+- `content/guides/home/heartland-living-for-expats.mdx` (approval / sale / construction + Punggol/Jurong entities)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (construction constraint + west/northeast shortlist)
+- `content/guides/home/renting-process-loi-ta-deposits.mdx` (HDB approval + sale clause asks)
+- `content/guides/home/security-deposit-diplomatic-clause.mdx` (sale / bedroom adjacency)
+- `content/guides/home/utilities-telecom-setup.mdx` (ownership-transfer cut-off playbook)
+- `content/guides/home/moving-within-singapore.mdx` (HDB Town Council lift booking)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/punggol.json`
+- `content/entities/neighbourhoods/jurong-east.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not re-litigate Tick 19–20 fibre/mould/CDRT/pets/ceiling-leak topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. My HDB landlord is selling three months into a two-year lease — does the contract die automatically?
+2. Is “sale with tenancy” a real option for HDB the way it is for condos?
+3. How much notice and compensation should I negotiate for viewings and early move-out?
+4. Can the listing agent keep a set of keys and bring buyers when I am at work?
+5. Is it legal to rent an HDB bedroom when the owner only visits from Malaysia on weekends?
+6. How do I verify the landlord actually got HDB approval to rent out the bedroom or whole flat?
+7. Is a partitioned living-room “bedroom” ever lawful, and can I use that to exit and reclaim my deposit?
+8. Who do I call when BTO piling next door runs past midnight — MCST, police, or NEA?
+9. Does construction noise let me break the lease or demand a rent cut?
+10. SP cut power after the previous tenant’s arrears / an ownership transfer — how do I get reconnected while living there?
+11. Punggol vs Jurong East vs Tampines — which fits a west-office vs NEL-office family?
+12. Should I walk empty plots at 8am before I LOI a “quiet” heartland unit?
+
 ---
 
 ## Loop A — Move + Money — 2026-09-15 (tick 3)
@@ -289,6 +422,36 @@ Tick 1 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage. Tick 2
 10. Can foreigners use PayNow without a local bank account?
 11. Should I register PayNow to FIN or mobile?
 12. Why did money sent to my new +65 number go to someone else?
+
+---
+
+## Loop G — SEO, internal linking, hub polish — 2026-09-15
+
+Branch: `loop/seo-crosslinks` → PR to `main`. Owns sitemap/robots/metadata helpers, pillar hub index pages, related-guides wiring, breadcrumbs, JSON-LD, and app-shell internal linking. Did **not** rewrite A–D guide bodies; no ads / Grok copy. Rebased onto Loop H (kept FAQPage schema / ModeHub how-to).
+
+### Gaps closed
+
+- Pillar hub topics mostly pointed at generic `/guides` — rewired to cornerstone guide URLs (and directories where appropriate) in `src/lib/site.ts`.
+- Pillar / mode / guides hubs lacked canonical + OG via `buildPageMetadata`.
+- No breadcrumbs (UI or BreadcrumbList JSON-LD) on guides or pillar hubs.
+- Guides index did not deep-link to pillar hubs; pillar hubs did not list featured guides.
+- Related-guides fill ignored reciprocal frontmatter links.
+
+### Shipped this loop
+
+- `src/lib/seo.ts` — `breadcrumbJsonLd`, `collectionPageJsonLd` (kept Loop H `faqJsonLd`)
+- `src/components/seo/Breadcrumbs.tsx` (+ export)
+- `src/lib/site.ts` — topic hrefs → real guides; related “All guides”
+- `src/components/pillars/PillarPage.tsx` — breadcrumbs, CollectionPage JSON-LD, featured guides (+ Loop H how-to)
+- Guide article / meta bar / guide page — breadcrumbs + pillar deep links + BreadcrumbList JSON-LD (+ FAQPage)
+- Guides index — pillar hub strip, hub headings, CollectionPage JSON-LD
+- Pillar + Arriving/Living pages — `buildPageMetadata` with canonical paths
+- `getRelatedGuides` — prefer reciprocal same-pillar links before chronological fill
+
+### Explicitly not done / notes for other loops
+
+- No mass reciprocity edits across 200+ one-way `relatedGuides` pairs (shell fill handles ranking).
+- Did not expand ads / sponsor inventory.
 
 ---
 

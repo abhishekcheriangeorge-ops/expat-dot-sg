@@ -10,5 +10,24 @@
   ],
   "website": "https://www.aia.com.sg",
   "featured": true,
-  "sponsored": true
+  "sponsored": true,
+  "whenToEngage": [
+    "Mapping EP-year gaps vs post-PR Integrated Shield",
+    "Comparing ISP riders on MOH table, not ads",
+    "Job hop ends group cover on last employment day"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Integrated Shield Plans",
+      "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/integratedshieldplans/"
+    },
+    {
+      "label": "CPF — MediShield Life",
+      "url": "https://www.cpf.gov.sg/member/healthcare-financing/medishield-life"
+    }
+  ],
+  "relatedGuides": [
+    "health-insurance-expat",
+    "after-getting-pr-checklist"
+  ]
 }

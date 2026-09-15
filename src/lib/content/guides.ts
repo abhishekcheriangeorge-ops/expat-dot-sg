@@ -141,6 +141,16 @@ export async function getRelatedGuides(
     if (picked.length >= limit) return picked;
   }
 
+  // Prefer guides that list this slug back (reciprocal internal links)
+  for (const candidate of all) {
+    if (seen.has(candidate.slug)) continue;
+    if (candidate.pillar !== guide.pillar) continue;
+    if (!candidate.relatedGuides.includes(guide.slug)) continue;
+    picked.push(candidate);
+    seen.add(candidate.slug);
+    if (picked.length >= limit) return picked;
+  }
+
   for (const candidate of all) {
     if (seen.has(candidate.slug)) continue;
     if (candidate.pillar !== guide.pillar) continue;
