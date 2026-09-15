@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 39) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick39-8971` → tip PR off [#302](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/302) (tick 38). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #302. Shared log + `site.ts` only (prepend on conflict). Did not wait for #302 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ringworm vs eczema folklore; cream-started-this-morning clearance myths.
+- r/askSingapore — weekday ACSIS-style fixture bus calls colliding with client packs.
+- r/askSingapore — tennis-academy shade benches as the quiet weekday parent meetup.
+
+**Official**
+
+- [NHS ringworm](https://www.nhs.uk/conditions/ringworm/) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools) + [Sport Singapore](https://www.sportsingapore.gov.sg/)
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–38 (open tip #302) covered strep, curriculum evening, drama waiting, eczema, PTA, coding waiting. Remaining heat without contested paths: **ringworm/tinea exclusion**, **weekday sports-fixture ops**, **tennis-academy waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-ringworm-tinea-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-sports-fixture-weekday-ops-dual-career-singapore.mdx`
+- `content/guides/belong/tennis-academy-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open paths through #302)
+
+- kids ADHD medication, kids passport renewal / school-term travel, primary CCA vs external academy, park/playground belonging, tuition-centre lobby belonging, swim-school waiting belonging, youth-sports sideline belonging
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- Stamford American, Overseas Family School, OWIS, private-health-insurance, confinement-nanny, kumon-centres
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open paths through #302.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns daytime ringworm checks and GP follow-up?
+2. What exact line does the school letter use for return?
+3. When is bus call vs kickoff for the weekday fixture?
+4. Who owns the kit bag and medical form?
+5. Same tennis shade bench next week?
+6. Is swim / PE / mats paused in writing?
+7. Who covers siblings during the away fixture?
+8. Are hats, combs, and towels separated?
+
+---
+
 ## Loop B — Family + Belong (tick 38) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick38-8971` → tip PR off [#294](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/294) (tick 37). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #294. Shared log + `site.ts` only (prepend on conflict). Did not wait for #294 merge/CI. No force-push to `main`.
