@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 50)
+
+Branch: `loop/story-aeo-tick50` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 49 (`loop/story-aeo-tick49` @ `6ba9a6c` / [#312](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/312)). Avoided open merge-controller H file sets (#117–#312 H20–H49). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308 → #312** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — STVP week with no medical cover; JB hop “to reset.”
+- r/askSingapore — IPA-only Causeway lunch; stranded outside waiting EPSC.
+- r/askSingapore — “just add myself as director of the side Pte Ltd” on EP.
+
+**Official**
+
+- [MOM — Cancel an EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) · Extend stay after cancellation FAQ · MOH healthcare system.
+- [MOM — Get a pass issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/get-a-pass-issued) · After the pass is issued · ICA entering Singapore.
+- [MOM — Taking up secondary directorship](https://www.mom.gov.sg/passes-and-permits/employment-pass/taking-up-secondary-directorship) · ACRA appointing directors.
+
+### Gaps vs open H + ticks 1–49
+
+Open: #117–#312 H20–H49. Remaining free Next FAQ-free companions included **STVP travel/medical gaps**, **JB hop mid-EP issuance re-entry trap**, **EP secondary directorship LOC**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/stvp-travel-medical-cover-gap-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/jb-hop-mid-ep-issuance-reentry-trap-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-secondary-directorship-loc-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (STVP travel/medical + JB hop issuance + secondary directorship LOC topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#312 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does STVP after EP cancel let me keep working?
+2. Does group medical last for the whole STVP window?
+3. Can I leave Singapore on STVP and return easily?
+4. What medical cover should I arrange before cancel day?
+5. Is travel insurance the same as work rights or STVP length?
+6. Can I do a JB lunch run on IPA-only status?
+7. Is the Notification Letter enough to travel like a cardholder?
+8. Should I travel before EPSC biometrics are done?
+9. What should I ask HR before booking mid-issuance travel?
+10. When is mid-issuance travel safer?
+11. Does ACRA director registration alone clear a second board seat on EP?
+12. Does owning shares authorise directing a side Pte Ltd on EP?
+13. What counts as a related company for secondary-directorship LOC?
+14. Is Slack HR approval enough for the LOC file?
+15. What happens to the LOC if my EP is cancelled?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 49)
 
 Branch: `loop/story-aeo-tick49` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 48 (`loop/story-aeo-tick48` @ `79e83dd` / [#308](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/308)). Avoided open merge-controller H file sets (#117–#308 H20–H48). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308** before this lands. No ads / monetization; no Grok copy; no force-push main.

@@ -720,6 +720,21 @@ export const pillars: Pillar[] = [
         blurb: "Term caps, vacation window, exchange-student bars.",
       },
       {
+        label: "STVP travel / medical gaps",
+        href: "/guides/stvp-travel-medical-cover-gap-singapore",
+        blurb: "Stay-only pass; group cover ends with job; re-entry risk.",
+      },
+      {
+        label: "JB hop mid-EP issuance",
+        href: "/guides/jb-hop-mid-ep-issuance-reentry-trap-singapore",
+        blurb: "IPA is not a day-trip stamp — finish issuance first.",
+      },
+      {
+        label: "EP secondary directorship LOC",
+        href: "/guides/ep-secondary-directorship-loc-singapore",
+        blurb: "Related ACRA entity + written consent + MOM LOC.",
+      },
+      {
         label: "PEP / ONE / Tech.Pass chooser",
         href: "/guides/pep-one-tech-pass-chooser-singapore",
         blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",
