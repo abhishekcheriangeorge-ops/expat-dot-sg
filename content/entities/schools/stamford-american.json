@@ -3,7 +3,7 @@
   "slug": "stamford-american",
   "name": "Stamford American International School",
   "summary": "American + IB programmes at Woodleigh — frequently shortlisted beside SAS; verify nationality mix, fees, and commute (not Woodlands) before treating peer rankings as truth.",
-  "body": "Stamford American offers American curriculum elements alongside IB pathways, with modern facilities that dominate brochure comparisons. r/askSingapore threads routinely pit it against Singapore American School: treat those as preference wars, not admissions policy. Geography mistake to avoid: Woodleigh / Lorong Chuan is not Woodlands — rental belts differ completely from SAS. Ask for dated year-group availability, nationality-balance constraints if any, learning-support capacity, and the full fee stack (enrolment, capital, bus, CCA). Model door-to-campus time and bus vendor route samples before you lock a River Valley or East Coast lease. Mid-year seats depend on attrition; closed registration is common in peak grades, so email early and keep a curriculum-matched safety school in parallel. Ask how learning-support leads join PTC slots; fifteen minutes is not enough to invent an IEP conversation from scratch.",
+  "body": "Stamford American offers American curriculum elements alongside IB pathways, with modern facilities that dominate brochure comparisons. r/askSingapore threads routinely pit it against Singapore American School: treat those as preference wars, not admissions policy. Geography mistake to avoid: Woodleigh / Lorong Chuan is not Woodlands — rental belts differ completely from SAS. Ask for dated year-group availability, nationality-balance constraints if any, learning-support capacity, and the full fee stack (enrolment, capital, bus, CCA). Model door-to-campus time and bus vendor route samples before you lock a River Valley or East Coast lease. Mid-year seats depend on attrition; closed registration is common in peak grades, so email early and keep a curriculum-matched safety school in parallel. Ask how learning-support leads join PTC slots; fifteen minutes is not enough to invent an IEP conversation from scratch. Confirm LS referral timelines, interim classroom strategies while waitlisted, and mid-year transfer document packs for dual-career households.",
   "curriculum": [
     "American",
     "IB PYP",
@@ -21,5 +21,9 @@
   "waitlistNotes": "Inquire by grade; mid-year seats depend on attrition. Confirm whether registration is open vs waitlist-only and ask about nationality balance for your passport.",
   "website": "https://www.sais.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-learning-support-waitlist-ops-dual-career-singapore",
+    "international-school-midyear-transfer-dual-career-singapore"
+  ]
 }
