@@ -6,6 +6,456 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 21 — 2026-09-15
+
+Branch: `loop/home-life-t21` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — HDB landlord selling mid-lease / vacant possession vs sale-with-tenancy folklore ([2yr contract owner sells](https://www.reddit.com/r/askSingapore/comments/1lidib5/renting_a_hdb_with_2yrs_contract_but_owner_wants/); rental nightmare / deposit leverage adjacency ([rental nightmare](https://www.reddit.com/r/askSingapore/comments/1sftqn4/rental_nightmare_in_singapore/); first-timer condo ask list ([questions for agent](https://www.reddit.com/r/askSingapore/comments/1oeici6/firsttimer_in_renting_a_condo_unit_what_are_some/))).
+- r/askSingapore — HDB bedroom rental / owner continuous occupation / illegal partitions ([owner stay weekly](https://www.reddit.com/r/askSingapore/comments/1mzsjy6/inquiry_about_renting_hdb_with_owner_stay/); [partition room](https://www.reddit.com/r/askSingapore/comments/1kaidl9/isit_ever_legal_in_singapore_to_rent_out_a_hdb/); landlord enter room adjacency).
+- r/askSingapore — adjacent construction / BTO site noise vs condo reno ([construction past 2am](https://www.reddit.com/r/askSingapore/comments/1g3vf5r/where_to_report_loud_ongoing_construction_that/); [BTO beside block](https://www.reddit.com/r/SingaporeRaw/comments/1reztv8/bto_construction_noise_beside_my_block_driving_me/)).
+- r/askSingapore — SP cut-off after previous tenant / ownership transfer ([previous tenant cut-off](https://www.reddit.com/r/askSingapore/comments/1cbtcet/sp_services_cut_off_supplies_due_to_previous/); [ownership transfer](https://www.reddit.com/r/askSingapore/comments/1jml1sd/power_cutoff_due_to_ownership_transfer_any_way_to/)).
+- r/askSingapore — neighbourhood shortlists west/northeast ([non-expat areas](https://www.reddit.com/r/askSingapore/comments/195ji13/nonexpat_areas_for_expat/); [east vs west](https://www.reddit.com/r/askSingapore/comments/xxx5wb/renting_in_east_vs_west/); [best towns](https://www.reddit.com/r/askSingapore/comments/1qq0fly/what_are_the_best_towns_to_live_in_singapore_and/)).
+
+**Official**
+
+- [HDB — Resale completion](https://www.hdb.gov.sg/residential/selling-a-flat/resale-completion) + [temporary extension of stay](https://www.hdb.gov.sg/cs/infoweb/residential/selling-a-flat/resale-application/request-for-temporary-extension-of-stay) + resale T&Cs.
+- [HDB — Tenant eligibility](https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/eligibility) + [renting-out flat eligibility](https://www.hdb.gov.sg/residential/renting-out-a-flat-bedroom/renting-out-your-flat/eligibility) + [regulations / continuous occupation](https://www.hdb.gov.sg/business/estate-agents-and-salespersons/renting-out-a-flat-or-bedroom/regulations-for-renting-out-flats) + [gov.sg owner explainer](https://www.gov.sg/explainers/renting-out-your-hdb-flat-a-homeowners-guide/).
+- [NEA — Construction noise control](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control) + [FAQs](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/frequently-asked-questions-(faqs)) + [Sunday/PH no-work rule](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/work-on-sundays-and-ph) + [OneService](https://www.oneservice.gov.sg/).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [SP open account](https://openaccount.spgroup.com.sg/#/open-account/).
+
+### Gaps vs Tick 20 (Home + Life slice)
+
+Tick 20 shipped fibre TP / NetLink, mould remediation, CDRT + secondhand smoke, bulky waste / laundry poles, Katong–Tampines–Clementi–Bukit Timah entity depth. Remaining high-intent Home+Life gaps matched forum heat: **HDB mid-lease sale / vacant possession**, **bedroom rental continuous-occupation + illegal partitions**, **adjacent BTO/site construction noise (NEA rail)**, SP ownership-transfer cut-offs, plus **Punggol** and **Jurong East** neighbourhood entities. Dengue inspections already covered under Life emergencies — left alone.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/hdb-landlord-selling-tenants.mdx`
+- `content/guides/home/hdb-bedroom-rental-rules-tenants.mdx`
+- `content/guides/home/construction-site-noise-renters.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/condo-noise-mcst-neighbours.mdx` (site-noise row + cross-link)
+- `content/guides/home/heartland-living-for-expats.mdx` (approval / sale / construction + Punggol/Jurong entities)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (construction constraint + west/northeast shortlist)
+- `content/guides/home/renting-process-loi-ta-deposits.mdx` (HDB approval + sale clause asks)
+- `content/guides/home/security-deposit-diplomatic-clause.mdx` (sale / bedroom adjacency)
+- `content/guides/home/utilities-telecom-setup.mdx` (ownership-transfer cut-off playbook)
+- `content/guides/home/moving-within-singapore.mdx` (HDB Town Council lift booking)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/punggol.json`
+- `content/entities/neighbourhoods/jurong-east.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not re-litigate Tick 19–20 fibre/mould/CDRT/pets/ceiling-leak topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. My HDB landlord is selling three months into a two-year lease — does the contract die automatically?
+2. Is “sale with tenancy” a real option for HDB the way it is for condos?
+3. How much notice and compensation should I negotiate for viewings and early move-out?
+4. Can the listing agent keep a set of keys and bring buyers when I am at work?
+5. Is it legal to rent an HDB bedroom when the owner only visits from Malaysia on weekends?
+6. How do I verify the landlord actually got HDB approval to rent out the bedroom or whole flat?
+7. Is a partitioned living-room “bedroom” ever lawful, and can I use that to exit and reclaim my deposit?
+8. Who do I call when BTO piling next door runs past midnight — MCST, police, or NEA?
+9. Does construction noise let me break the lease or demand a rent cut?
+10. SP cut power after the previous tenant’s arrears / an ownership transfer — how do I get reconnected while living there?
+11. Punggol vs Jurong East vs Tampines — which fits a west-office vs NEL-office family?
+12. Should I walk empty plots at 8am before I LOI a “quiet” heartland unit?
+
+---
+
+## Loop A — Move + Money — 2026-09-15 (tick 3)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick3` (from main `@229508e`).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP residential address / FWTES landlord blockers / 5-day clock ([EP holder stuck FWTES](https://www.reddit.com/r/askSingapore/comments/1oaf0dl/ep_holder_stuck_landlord_wont_enable_fwtes_so_i/); [update address in Singpass](https://www.reddit.com/r/askSingapore/comments/1l2wbjh/how_to_update_address_in_singpass/); adjacency in short-stay rental threads).
+- r/askSingapore — passport particulars / auto-gates after renew ([update passport particulars](https://www.reddit.com/r/askSingapore/comments/11sji0w/update_passport_particulars/); travel without EP card adjacency: [lost EP in Malaysia](https://www.reddit.com/r/askSingapore/comments/12g8yk6/lost_my_employment_pass_ep_in_malaysia_on_a/); [forgot EP card](https://www.reddit.com/r/askSingapore/comments/yfm0ut/forgot_ep_card_at_home_how_do_i_travel_back/)).
+- r/askSingapore — Singpass IPA vs issued FIN ([Singpass with temp EP or IPA](https://www.reddit.com/r/askSingapore/comments/1ehccsc/singpass_with_temp_ep_or_ipa/); [expat SingPass day-one](https://www.reddit.com/r/askSingapore/comments/wfwo76/expat_arrived_from_australia_last_evening_can_i/)).
+- r/askSingapore — changing jobs on EP / resign-after-IPA / dual pending ([changing job under EP](https://www.reddit.com/r/askSingapore/comments/uefner/changing_job_under_ep/); [EP process on company change](https://www.reddit.com/r/askSingapore/comments/120shl1/ep_process_on_company_change/)).
+- r/askSingapore — first-year tax residency / ≥1-year pass / straddling ([income tax for expats](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/); [tax for a foreigner](https://www.reddit.com/r/askSingapore/comments/1fl09aq/info_about_tax_for_a_foreigner/); [moving timing for income tax](https://www.reddit.com/r/askSingapore/comments/19b12g0/moving_to_sg_timing_for_income_tax_foreigner/)).
+- Banking product heat — Multiplier salary-credit recognition (DBS docs + recurring “why no bonus interest” peer advice).
+
+**Official**
+
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) + [FWTES](https://www.mom.gov.sg/eservices/services/tes) + [OFWAS](https://www.mom.gov.sg/eservices/services/ofwas) + [EP eService](https://www.mom.gov.sg/eservices/services/employment-pass-eservice).
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep).
+- [IRAS — Working out my tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency) (≥1-year work-pass treatment + clearance review).
+- [DBS — Multiplier](https://www.dbs.com.sg/personal/deposits/bank-earn/multiplier) + [FAQs](https://www.dbs.com.sg/personal/deposits/multiplier/faqs.page) + [eligible transactions](https://www.dbs.com.sg/personal/support/bank-multiplier-eligible-transactions.html).
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Tick 1 shipped EP floors / COMPASS clocks, EP vs S Pass, CBNI, no-FIN banking, remittance MPI/SoF, IR21 job-hop cashflow, group medical portability. Tick 2 shipped EP-cancel STVP asks, DP cascade / LOC renewal, PayNow FIN vs mobile, CPF withdrawal myths. Remaining high-intent Move/Money gaps matched this mine: **5-day address/mobile + FWTES landlord blockers**, **passport particulars / auto-gate lag**, **Singpass IPA vs FIN**, **dedicated change-jobs resign-after-IPA playbook**, **≥1-year pass tax-resident treatment vs clearance reclassification**, **Multiplier salary-credit recognition for EP payroll**. Home-owned short-stay FWTES mentions stay thin pointers — Move now owns the pass-holder ops guide.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/move/ep-notify-mom-address-passport.mdx`
+- `content/guides/move/changing-jobs-employment-pass.mdx`
+- `content/guides/money/high-interest-salary-accounts-foreigners.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/move/employment-pass-singapore.mdx`
+- `content/guides/move/first-housing-serviced-apartment.mdx`
+- `content/guides/move/relocation-checklist-7-30-90.mdx`
+- `content/guides/money/opening-bank-account-expat.mdx`
+- `content/guides/money/iras-tax-residency-filing.mdx`
+- `content/guides/money/financial-planning-year-one.mdx`
+- `content/guides/money/salary-package-decoding.mdx`
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json` (FWTES / passport / job-change IPA)
+
+### Explicitly not done
+
+- No ads/monetization expansion (no Multiplier sponsorSlot).
+- No Grok / third-party clone copy.
+- Did not edit Family / Belong / Home / Life / Next heavily (lost-card + between-jobs STVP + EP renewal remain Next-owned; Home short-stay keeps adjacency only).
+
+### Questions mined (sample)
+
+1. My landlord will not enable FWTES — how do I update my EP address within 5 days?
+2. After I renew my passport, when can I use automated immigration gates again?
+3. Can I register Singpass with only an IPA / temporary EP letter?
+4. Should I resign before or after the new employer’s EP IPA?
+5. Can two companies file EPs for me at the same time while one IPA is pending?
+6. Does my FIN change when I change employers on EP?
+7. Why does IR21 still withhold my final pay if I am staying in Singapore on a new EP?
+8. Does a ≥1-year EP make me a tax resident even if I arrive mid-year under 183 days?
+9. Why is my DBS Multiplier still on base rate when salary hits my account?
+10. What payroll description / GIRO code does HR need so Multiplier recognises income?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 3)
+
+Branch: `loop/story-aeo-tick3` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 2’s EPSC / SimplyGo / serviced-apartment FAQs. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change, Home/HDB, SEO shell, services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Changi Grab vs taxi / payment ([airport transportation](https://www.reddit.com/r/askSingapore/comments/1gukbru/airport_transportation/); [coming next week advice](https://www.reddit.com/r/askSingapore/comments/1d8ma13/coming_to_singapore_next_week_need_advice/)).
+- r/askSingapore — cash “limit” myths and suitcase financing (adjacency in remittance / first-month float threads).
+- r/askSingapore — PayNow FIN vs recycled prepaid / wrong-number traps (adjacency with bank-open and remittance threads).
+
+**Official**
+
+- [LTA — Taxi fares & payment methods](https://www.lta.gov.sg/content/ltagov/en/getting_around/point_to_point_transport_and_cross_border_services/taxi_fares_payment_methods.html) (Changi location surcharge S$6 / S$8; peak / late-night %).
+- [Grab — Changi Airport transfers](https://www.grab.com/global/airport-rides/changi-airport/) (upfront fare framing).
+- [ICA — Taking cash in and out of Singapore (CBNI)](https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/CBNI) (S$20k threshold; 72-hour e-727; post-13 May 2024 electronic receipt).
+- [ABS — PayNow](https://www.abs.org.sg/e-payments/pay-now) + [PayNow fact sheet](https://abs.org.sg/docs/library/paynow_factsheet.pdf) (FIN / mobile / VPA proxies).
+
+### Gaps vs ticks 1–2
+
+Tick 1 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage. Tick 2 shipped IPA/Notification Letter/EPSC, SimplyGo foreign-card fee, serviced-apartment legality. Remaining high-intent **landing-day** gaps: **Grab vs taxi from Changi** (no dedicated guide; MRT guide only answered “when Grab wins” for daily rides), **CBNI S$20k myth without FAQPage/direct lead**, **PayNow FIN vs mobile without FAQPage** (dependency map pointed here but answer-engine shape was thin).
+
+### Shipped this loop
+
+**New**
+
+- `content/guides/life/changi-airport-grab-taxi.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/money/cbni-cash-declaration-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/money/paynow-setup-foreigners-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/life/mrt-bus-transport-literacy.mdx` (Changi cross-link)
+- `content/journeys/checklists/day-7.json` (airport-transfer item)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Arriving start-here + Move/Life/Money topic hrefs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Should I take Grab or a taxi from Changi Airport?
+2. What is the Changi Airport taxi surcharge right now?
+3. Do I need Singapore dollars cash for the taxi queue?
+4. Can I take the MRT from Changi with luggage?
+5. Where do I pick up Grab at my terminal?
+6. Is there a cash limit when entering Singapore?
+7. When must I submit the CBNI / NP 727 declaration?
+8. Do bank wires or Wise need a CBNI form?
+9. Do I still hand a paper form at the Red Channel?
+10. Can foreigners use PayNow without a local bank account?
+11. Should I register PayNow to FIN or mobile?
+12. Why did money sent to my new +65 number go to someone else?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 2)
+
+Branch: `loop/story-aeo-tick2` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 1’s SIM/SGAC/FAQPage foundation. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (FWTES / EP job-change / HDB / SEO shell / services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IPA vs Notification Letter / when can I work / Singpass before plastic card ([start work with IPA only](https://www.reddit.com/r/askSingapore/comments/16i7zxi/start_work_with_ipa_only/); [EP but no IPA yet](https://www.reddit.com/r/askSingapore/comments/16kc2jf/i_have_the_ep_but_no_ipa_yet/); [Singpass after Notification Letter](https://www.reddit.com/r/askSingapore/comments/wfwo76/expat_arrived_from_australia_last_evening_can_i/); [EP related IPA delay](https://www.reddit.com/r/askSingapore/comments/1f1jnjh/ep_related/)).
+
+**Official**
+
+- [MOM — Apply for an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass/) (IPA → issue → Notification Letter 1 month → EPSC within 2 weeks → card ~5 working days; SGWorkPass).
+- [MOM — Key facts on Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/key-facts).
+- [SimplyGo — Contactless bank cards FAQ](https://simplygo.com.sg/faqs/cards-and-charms/simplygo/contactless-bank-cards/) (S$0.60/day foreign-card admin fee).
+- [URA — Short-term accommodation](https://www.ura.gov.sg/guidelines/property-and-business-owners/property/short-term-accommodation/).
+
+### Gaps vs tick 1
+
+Tick 1 shipped SIM→Singpass→bank, SG Arrival Card, healthcare/emergency FAQs, FAQPage schema. Remaining high-intent **arriving** gaps: **can I work on IPA alone / Notification Letter / EPSC bag list / card delivery** (only buried in appeal guide + day-7 MOM deep-link), **SimplyGo foreign-card fee** (MRT guide had no FAQ/lead), **serviced apartment legality + address for banks/MOM** (housing bridge lacked FAQPage).
+
+### Shipped this loop
+
+**New**
+
+- `content/guides/move/work-pass-issuance-epsc-notification.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/life/mrt-bus-transport-literacy.mdx` (direct lead + FAQPage)
+- `content/guides/move/first-housing-serviced-apartment.mdx` (direct lead + FAQPage)
+- `content/guides/move/first-week-sim-singpass-bank.mdx` (cross-links)
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx` (cross-link only)
+- `content/journeys/checklists/day-7.json` (EPSC + SimplyGo hrefs)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Arriving start-here + Move/Life topic hrefs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Can I start work with only an IPA letter?
+2. What is the MOM Notification Letter, and how long is it valid?
+3. Do I need the physical EP card before I can work?
+4. How soon must I attend EPSC for fingerprints and photo?
+5. When does the physical work pass card arrive, and what if delivery fails?
+6. Can I ride MRT/buses on a foreign credit card, and what is the SimplyGo admin fee?
+7. Do I need an EZ-Link as a new expat?
+8. Why was I charged the maximum MRT fare?
+9. Should I book a serviced apartment for my first weeks?
+10. Is a condo Airbnb short-let legal under three months?
+11. Can a serviced-apartment address work for bank opening and MOM issuance?
+12. When should I update my MOM residential address after the bridge stay?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15
+
+Branch: `loop/story-aeo` → PR to `main`. Owns **journey completeness**, **answer-engine shape** (FAQ leads, FAQPage JSON-LD, decision tables), Arriving/Living hub framing, and surgical FAQ upgrades. Did **not** expand ads/monetization or wholesale-rewrite guides owned by Loops A–G this hour.
+
+### Questions mined (forum-shaped)
+
+1. Do I need Singpass before I can open a Singapore bank account?
+2. Can I buy a +65 SIM with only passport / IPA?
+3. What is the real order: SIM → pass → Singpass → bank → PayNow?
+4. Does Singpass SMS 2FA work with my home-country number?
+5. What is the SG Arrival Card, and when must I submit it?
+6. Is SG Arrival Card a visa?
+7. I have an EP IPA — which SGAC path do I use?
+8. What should I actually do in the first 7 days?
+9. 995 or 999 — which number for medical vs police?
+10. Should expats use a polyclinic or a private GP?
+11. When is A&E right vs wait-for-GP?
+12. Will my embassy pay hospital bills or cancel a dengue fine?
+
+### Answer-engine shape added
+
+- Optional `faqs[]` frontmatter → **FAQPage JSON-LD** on guide pages (`faqJsonLd` in `src/lib/seo.ts`).
+- Direct-answer leads (first ~40–60 words), question-shaped H2s, numbered procedures, comparison tables, ICA/MOM/MOH/SCDF/SPF/DBS citations.
+- Arriving/Living ModeHub **“How to use”** + start-here answer links; Move/Family/Life pillar topics pointed at live guides; day-7 checklist + arriving journeys page cross-links.
+
+### Shipped
+
+**New**
+
+- `content/guides/move/first-week-sim-singpass-bank.mdx`
+- `content/guides/move/sg-arrival-card-expats.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/relocation-checklist-7-30-90.mdx`
+- `content/guides/family/healthcare-gp-hospital.mdx`
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/money/opening-bank-account-expat.mdx` (FAQ + cross-link)
+- `content/guides/home/utilities-telecom-setup.mdx` (FAQ + cross-link)
+- `content/journeys/checklists/day-7.json`
+- `src/app/journeys/arriving/page.tsx`
+- `src/components/modes/ModeHub.tsx`
+- `src/components/pillars/PillarPage.tsx`
+- `src/lib/site.ts`
+- `src/lib/content/schemas.ts` / `src/lib/seo.ts` / `src/app/guides/[slug]/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not wholesale rewrite Loop A–G guides beyond light FAQ leads / related links.
+
+---
+
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 4)
+
+Branch: `loop/next-polish-tick4` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS, post-AIP, NRIC / life-admin) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — lost / stolen IC fees and overseas replacement ([lost IC overseas](https://www.reddit.com/r/askSingapore/comments/xaopoz/lost_singapore_ic_overseas/); [lost IC 14 days](https://www.reddit.com/r/askSingapore/comments/1gpwgbx/lost_ic/); [stolen IC S$300](https://www.reddit.com/r/askSingapore/comments/1eemjks/ic_was_stolen_must_pay_300_for_2nd_replacement/); [NRIC renewal at 30](https://www.reddit.com/r/askSingapore/comments/wbnz5h/nric_renewal_for_pr/); [re-register overseas](https://www.reddit.com/r/askSingapore/comments/ozzprx/reregistering_ic_at_30_yo_and_collecting_it_i/)).
+- r/askSingapore — PR address / “PR renew” folklore ([PR renew + address](https://www.reddit.com/r/askSingapore/comments/14ypowc/pr_renew_and_change_of_residential_address/); [advice renewing PR/REP](https://www.reddit.com/r/askSingapore/comments/11er8in/advice_on_renewing_pr/)).
+- r/askSingapore + r/NationalServiceSG — adult SC renunciation vs ORAL ([renunciation overseas](https://www.reddit.com/r/askSingapore/comments/195g78b/renunciation_of_sg_citizenship_overseas/); [process after ORD](https://www.reddit.com/r/NationalServiceSG/comments/whersp/procedure_for_renouncing_citizenship_after_ord/); [renounce mid-service myths](https://www.reddit.com/r/NationalServiceSG/comments/12v1pi1/has_anyone_been_discharged_from_service_because/); [how long dual for females](https://www.reddit.com/r/askSingapore/comments/1koqllo/how_long_can_a_female_legally_hold_dual/)).
+- r/askSingapore — post-PR identity hygiene follow-ons ([next steps after PR](https://www.reddit.com/r/askSingapore/comments/1j7t4a5/next_steps_for_my_wifes_singapore_pr_status/); [what happens right after PR](https://www.reddit.com/r/askSingapore/comments/159r6lg/what_happens_right_after_you_get_pr/)).
+
+**Official**
+
+- [ICA — Loss of Identity Card](https://www.ica.gov.sg/documents/ic/loss) (14-day replace ask; S$100 / S$300; overseas return; collection within 3 months of approval).
+- [ICA — Re-Register Identity Card for 30/55-year-olds](https://www.ica.gov.sg/documents/ic/re-registration) (10-year rule; S$10 SC / S$50 PR; overseas return within 1 year).
+- [ICA — Change of Residential Address on Identity Card](https://www.ica.gov.sg/documents/ic/update_residential_address) (28-day clock; eCOA; PIN + sticker).
+- [ICA — Renunciation of Singapore Citizenship](https://www.ica.gov.sg/enter-depart/for-singapore-citizens/renunciation) + [ask.gov.sg — another citizenship required](https://ask.gov.sg/ica/questions/clxwhkixr006kdsotsvorx1u1) + [user guide PDF](https://www.ica.gov.sg/docs/default-source/ica/forms/user-guide-sc-renunciation.pdf) (age 21+, S$35, cooling-off, NS withhold language).
+- [ICA — Oath-taking for Minors (ORAL)](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking) (retention vs renunciation contrast).
+
+### Gaps vs prior ticks (Next-owned)
+
+Tick 3 shipped ORAL@21, REP/PRSEP, EP family cascade, SCJ depth. Remaining high-intent **Next** gaps matched this mine: **lost/stolen blue NRIC** (work-pass card guide did not cover ICA IC), **NRIC re-registration 30/55 + 28-day address**, **adult SC renunciation** (distinct from ORAL keep-SC and PR renunciation), plus thin **annual life-admin / passport** guides needing those clocks. About + editorial needed clearer NRIC / SC-renunciation research language.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/next/lost-replace-nric-pr-singapore.mdx`
+- `content/guides/next/renouncing-singapore-citizenship.mdx`
+
+**Upgraded guides**
+
+- `content/guides/next/renewing-life-admin-annually.mdx` (NRIC / address / REP / ORAL rows)
+- `content/guides/next/passports-and-documents-overseas.mdx` (MOM sync, ORAL/SC renunciation, document pack table)
+- `content/guides/next/lost-replace-work-pass-card.mdx` (wrong-agency NRIC cross-link)
+- `content/guides/next/after-getting-pr-checklist.mdx` (address, lost IC, re-reg hygiene)
+- `content/guides/next/citizenship-ns-implications.mdx` / `oral-dual-citizenship-age-21.mdx` / `singapore-citizenship-application.mdx` / `renouncing-pr-singapore.mdx` (SC renunciation cross-links)
+
+**Editorial polish**
+
+- `src/app/about/page.tsx`
+- `src/app/editorial-policy/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Family / Belong / Home / Life guide trees owned by Loops A–C.
+
+### Questions mined (sample)
+
+1. I lost my blue PR IC — is that MOM or ICA, and what is the fee?
+2. Do I need a police report to replace a lost NRIC?
+3. Can someone collect my replacement IC for me while I am overseas?
+4. Why does ICA say I am not eligible to re-register my NRIC at 30?
+5. How long after moving must I update my IC residential address?
+6. If I put an overseas address on my IC, will my REP renew for five years?
+7. Can I renounce Singapore citizenship before I get another nationality?
+8. Will ICA let a male renounce SC while NS liability is outstanding?
+9. What documents must I return with an SC renunciation application?
+10. Is missing ORAL the same as formally renouncing citizenship?
+11. After PR, should I still carry my old FIN card as backup ID?
+12. What belongs on the annual September life-admin checklist for PRs?
+
+---
+
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 3)
+
+Branch: `loop/next-polish-tick3` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS, post-AIP) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ORAL / dual citizenship at 21 ([do I take the oath](https://www.reddit.com/r/askSingapore/comments/5s8py3/do_i_have_to_take_the_oath_of_citizenship/); [early oath before 21](https://www.reddit.com/r/askSingapore/comments/1t5965o/has_anyone_successfully_requested_early_oath/); [renounce Malaysian overseas](https://www.reddit.com/r/askSingapore/comments/1m0l46v/renouncing_malaysian_citizenship_overseas/); [dual citizenship consequences](https://www.reddit.com/r/askSingapore/comments/1q0gb63/consequences_of_holding_dual_citizenship/); [renounce for minor](https://www.reddit.com/r/askSingapore/comments/1b13q64/renounce_citizenship_for_minor/)).
+- r/askSingapore — unemployed / short REP renewals ([unemployed overseas REP](https://www.reddit.com/r/askSingapore/comments/1cp6e0r/rep_renewal_concerns_when_unemployed_overseas/); [REP renewed 1 year](https://www.reddit.com/r/askSingapore/comments/1eaair5/reentry_permit_renewed_for_only_1_year_sg_pr/); [does unemployment affect REP](https://www.reddit.com/r/askSingapore/comments/1ep9pvp/does_being_unemployed_effect_your_reentry_permit/); [unemployed PR opinion](https://www.reddit.com/r/askSingapore/comments/1t4wg22/opinion_if_unemployed_pr_reentry_permit/); [advice renewing PR/REP](https://www.reddit.com/r/askSingapore/comments/11er8in/advice_on_renewing_pr/)).
+- r/askSingapore — EP cancel family cascade / travel during PR formalities ([travel while waiting formalities](https://www.reddit.com/r/askSingapore/comments/1jbnuyb/sg_pr_application_safe_to_travel_while_waiting/); [PR approved next steps](https://www.reddit.com/r/askSingapore/comments/1tfhowb/pr_approved_help_with_next_steps_please/); [formalities delay](https://www.reddit.com/r/askSingapore/comments/1k4x482/completion_of_sg_pr_formalities_is_taking_a_while/); adjacency: DP/LOC when sponsor pass dies in between-jobs threads).
+
+**Official**
+
+- [ICA — Oath-taking for Minors (ORAL)](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking) (21–22 window; auto-loss on 22nd birthday; NRIC + foreign renunciation certificate; no fee; same-day).
+- [MHA — REP process revisions from 1 Dec 2025](https://www.mha.gov.sg/media-room/newsroom/revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025/) + [ICA REP FAQ PDF](https://www.ica.gov.sg/docs/default-source/ica/files/faqs_revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025.pdf) + [Entry Permit & REP conditions](https://www.ica.gov.sg/PR/see-more/entry-permit-and-re-entry-permit-conditions-for-singapore-permanent-residents) (180-day clocks, PRSEP, no reinstatement, good-conduct conditions).
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass).
+- [MOM — Pre-approved Letter of Consent eligibility](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) (SC/PR spouse LTVP category — contrasted with EP-tied DP cascade).
+- [ICA — Apply for Singapore Citizenship](https://www.ica.gov.sg/reside/citizenship/apply) (SCJ ages 16–60; completion fees).
+
+### Gaps vs prior ticks (Next-owned)
+
+Tick 2 shipped citizenship application, graduate LTVP, REP visa-free myth, PR AIP formalities. Remaining high-intent **Next** gaps matched this mine: **ORAL dual-citizenship retention at 21**, **unemployed / 1-year REP realism + PRSEP / no-reinstatement depth on the Dec 2025 rules**, **EP-cancel DP/LTVP family cascade**, **citizenship post-IPA SCJ formalities**, **truthful REP fields at PR take-up**. About + editorial needed clearer ORAL / dated-REP research language.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/next/oral-dual-citizenship-age-21.mdx`
+
+**Upgraded guides**
+
+- `content/guides/next/re-entry-permit-pr-overseas.mdx` (180-day clocks table, PRSEP, no reinstatement, unemployed/1-year REP, family NS note)
+- `content/guides/next/between-jobs-stvp-singapore.mdx` (family cascade checklist; PLOC vs DP distinction)
+- `content/guides/next/singapore-citizenship-application.mdx` (SCJ formalities project; ORAL cross-link)
+- `content/guides/next/after-getting-pr-checklist.mdx` (truthful REP fields; travel on existing pass during formalities)
+- `content/guides/next/citizenship-ns-implications.mdx` (ORAL cross-link)
+
+**Editorial polish**
+
+- `src/app/about/page.tsx`
+- `src/app/editorial-policy/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Family / Belong / Home / Life guide trees owned by Loops A–C (spouse LTVP/PLOC depth stays Move/Family; Next only contrasts categories).
+
+### Questions mined (sample)
+
+1. Do I have to take the ORAL after turning 21 if I got SC by descent?
+2. What happens if I miss ORAL before my 22nd birthday?
+3. Can ICA administer ORAL early for a university visa / passport-validity problem?
+4. Which documents prove foreign citizenship renunciation for ORAL?
+5. If I am unemployed, will ICA only renew my REP for one year?
+6. Can I stay in Singapore without a valid REP as long as I never travel?
+7. After 1 Dec 2025, is there still a reinstatement path if REP is refused overseas?
+8. What is PRSEP, and does it replace a normal multi-year REP?
+9. When my EP is cancelled, does my spouse’s DP and LOC survive?
+10. Can I travel on EP while waiting for PR formalities / blue IC?
+11. Should I put “unemployed” on the REP form at PR take-up?
+12. What is the SCJ calendar after citizenship IPA, and how does it differ from ORAL at 21?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 2)
 
 Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.

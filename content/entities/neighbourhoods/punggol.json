@@ -5,13 +5,38 @@
   "summary": "Waterway town living with newer HDB stock, Punggol Coast MRT growth, family parks — and frequent adjacent BTO / infrastructure noise risk for WFH renters.",
   "body": "Punggol sells the waterfront promenade, Punggol Digital District adjacency, and family playground density. Whole-flat HDB rents often undercut central condo belts, which is why mid-package expats shortlist it after Tampines and Sengkang. The trade-offs are real: longer CBD hops unless your office sits on the North East Line corridor, thinner expat-default café density than East Coast, and ongoing estate growth that means construction dust and piling can sit next to ‘completed’ blocks for years. Before LOI, walk the facing plots at 8am on a weekday and ask agents in writing about known adjacent works — construction-site noise is an NEA rail, not an automatic rent-free exit. Pet and bedroom-rental households must still clear HDB approval and landlord rules; waterfront walks help dogs, but corridor etiquette and PALS licensing still apply. Groceries skew FairPrice / waterway malls with RedMart covering specialty gaps.",
   "region": "northeast",
-  "vibe": ["waterway", "family", "newer-hdb", "growing", "parks"],
-  "bestFor": ["families", "NEL corridor workers", "outdoor walkers", "budget-conscious renters"],
-  "watchOuts": ["Adjacent BTO / infrastructure noise", "Longer cross-island CBD hops", "Humidity in waterfront-facing units", "Fewer expat-default social density spots"],
+  "vibe": [
+    "waterway",
+    "family",
+    "newer-hdb",
+    "growing",
+    "parks"
+  ],
+  "bestFor": [
+    "families",
+    "NEL corridor workers",
+    "outdoor walkers",
+    "budget-conscious renters"
+  ],
+  "watchOuts": [
+    "Adjacent BTO / infrastructure noise",
+    "Longer cross-island CBD hops",
+    "Humidity in waterfront-facing units",
+    "Fewer expat-default social density spots"
+  ],
   "housingMix": "Newer HDB towns, executive condos, waterfront clusters.",
   "commuteNotes": "North East Line (Punggol / Punggol Coast); plan door-to-desk before you LOI.",
-  "rentBand": {"currency": "SGD", "oneBedFrom": 2200, "oneBedTo": 3200, "familyFrom": 2800, "familyTo": 4200},
-  "mrt": ["Punggol", "Punggol Coast"],
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3200,
+    "familyFrom": 2800,
+    "familyTo": 4200
+  },
+  "mrt": [
+    "Punggol",
+    "Punggol Coast"
+  ],
   "schoolsNearby": [],
   "featured": false
 }
