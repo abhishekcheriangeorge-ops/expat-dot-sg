@@ -70,6 +70,8 @@ export default function EditorialPolicyPage() {
             authorities, FWA → TAFEP escalation for EP / S Pass, IPA-before-
             resign calendar for EP / S Pass pivots, annual leave encashment
             vs notice offset, unpaid retrenchment benefit TADM vs TAFEP,
+            EP probation×new IPA overlap, training-bond final-pay
+            deduction edges, FCF 14-day relist/ad-match edges,
             WHP/TEP→EP handoff, graduate LTVP→EP sponsor packaging,
             S Pass levy/quota mid-cycle shocks, EntrePass→EP founder exit,
             S Pass→EP upgrade packaging, COMPASS C2 degree verification

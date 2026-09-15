@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "WHP/TEP → EP handoff",
-        href: "/guides/work-holiday-tep-to-ep-handoff-singapore",
-        blurb: "Short runway ≠ conversion — stage FCF + COMPASS early.",
+        label: "EP probation × new IPA overlap",
+        href: "/guides/ep-probation-resign-new-ipa-overlap-singapore",
+        blurb: "Probation notice ≠ cancel ≠ IPA — align three clocks.",
       },
       {
-        label: "Graduate LTVP → EP packaging",
-        href: "/guides/graduate-ltvp-to-ep-sponsor-packaging-singapore",
-        blurb: "Stay rights ≠ work rights — package a real sponsor file.",
+        label: "Training-bond final-pay cuts",
+        href: "/guides/training-bond-final-pay-deduction-edges-singapore",
+        blurb: "Clawback invoice ≠ payroll self-help on last cheque.",
       },
       {
-        label: "S Pass levy mid-cycle shocks",
-        href: "/guides/s-pass-levy-quota-midcycle-shocks-singapore",
-        blurb: "DRC/levy can move before renewal day — watch headcount.",
+        label: "FCF 14-day relist / ad-match",
+        href: "/guides/fcf-14-day-relist-ad-match-edges-singapore",
+        blurb: "Pulled MCF ads restart risk — match before you resign.",
       },
       {
         label: "Between jobs / STVP",

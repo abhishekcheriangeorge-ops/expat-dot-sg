@@ -6,6 +6,19 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 39)
+
+Branch: `cursor/loop-d-next-polish-tick39-d996` → draft PR to `main`, off tip [#328](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/328) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EP probation×new IPA overlap, training-bond final-pay deduction edges, and FCF 14-day relist/ad-match edges.
+
+**Shipped**
+- New: `ep-probation-resign-new-ipa-overlap-singapore`, `training-bond-final-pay-deduction-edges-singapore`, `fcf-14-day-relist-ad-match-edges-singapore`
+- Parents (light): EP probation resignation notice, training bonds & clawbacks, FCF MyCareersFuture 14-day clock
+- Rails: `src/lib/site.ts` Next topics, about, editorial; this log prepend
+
+**Merge note:** tip [#328](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/328) → this tip when controller merges.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 38)
 
 Branch: `cursor/loop-d-next-polish-tick38-d996` → draft PR to `main`, off tip [#316](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/316) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for WHP/TEP→EP handoff, graduate LTVP→EP sponsor packaging, and S Pass levy/quota mid-cycle shocks.
