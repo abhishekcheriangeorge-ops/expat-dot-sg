@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "fencing-lessons",
+  "name": "Fencing lessons",
+  "summary": "How expats start fencing in Singapore — foil/epee/sabre intros, youth programmes, kit costs, and club vs commercial academy trade-offs.",
+  "body": "Fencing offers air-con sport with clear progression. Beginners usually start foil; epee and sabre follow. Kids’ classes and adult beginner courses run through clubs and private academies.\n\n## What to budget\n- Intro course fees before buying full kit\n- Mask, jacket, glove, weapon rental vs purchase\n- Electric lamé and body cords for weapon tracks\n- Competition entry later (optional)\n- Travel to limited specialised halls\n\nHeat is less outdoor-brutal than running, but hydration still matters under masks.\n\n## How to choose\nWatch coach attention in group footwork drills. Prefer programmes that teach safety and referee basics early. Ask about weapon specialisation pressure on kids — early single-weapon lock-in is unnecessary for most. Trial before annual membership.\n\n## Practical tip\nBring a water bottle and thin base layer; masks get swampy. Confirm left-handed kit availability before your child’s first weapon purchase.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Adult or youth beginner fencing course search",
+    "Kit rental vs buy after intro term",
+    "Club vs academy pathway for kids unclear",
+    "Weapon specialisation timing for children"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

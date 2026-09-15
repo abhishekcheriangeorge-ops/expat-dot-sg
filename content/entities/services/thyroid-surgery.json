@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "thyroid-surgery",
+  "name": "Thyroid surgery",
+  "summary": "How expats evaluate thyroidectomy and related surgery in Singapore — nodule workups, voice-risk counselling, and coordination with endocrinology before and after the OR.",
+  "body": "Thyroid surgery sits after ultrasound, labs, and often FNA when nodules or compressive symptoms warrant removal. Head-and-neck or endocrine surgeons handle hemithyroidectomy and total thyroidectomy; endocrinology manages hormones around the decision.\n\n## Common triggers\n- Suspicious or growing nodules after FNA\n- Compressive symptoms (swallowing, positional breath issues)\n- Confirmed cancer pathways needing surgery\n- Selected hyperthyroidism cases not controlled medically\n- Retrosternal goitre evaluations\n\nCosmetic neck-lift marketing is not a thyroid pathway — insist on proper cytology and vocal-cord risk discussion.\n\n## Risks to understand\nRecurrent laryngeal nerve injury, hypoparathyroidism (calcium issues), and lifelong thyroxine after total removal are standard counselling points. Ask about neuromonitoring, scar care in humid climates, and who adjusts levothyroxine post-op.\n\n## How to choose\nPrefer teams that present multidisciplinary tumour-board logic for cancer cases and clear calcium follow-up protocols. Bring overseas ultrasound disks. Insurance often needs pre-auth with histology codes when known.\n\n## Practical tip\nRecord your voice before surgery for comparison. Stock calcium instructions in writing before discharge — night tetany panic is avoidable with a clear escalation plan.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Nodule FNA results point toward surgery",
+    "Compressive goitre symptoms need surgical review",
+    "Voice/calcium risk counselling before thyroidectomy",
+    "Post-op thyroxine and scar-care plan unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

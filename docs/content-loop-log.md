@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 27 — 2026-09-15
+
+Branch: `cursor/services-directory-tick27-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204→#207→#212→#219→#224); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — thyroid nodule FNA / surgery timing anxiety.
+- Running/physio threads — custom orthotics vs pharmacy insoles.
+- Parent sports forums — fencing starter kit sticker shock.
+- Culture/hobby forums — Chinese brush vs modern calligraphy workshops.
+- New-parent forums — postnatal massage packages vs pelvic-floor physio needs.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [AHPC](https://www.healthprofessionals.gov.sg/ahpc).
+- [SportSG](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/) + [NAC](https://www.nac.gov.sg/).
+- [HealthHub](https://www.healthhub.sg/) + [NLB](https://www.nlb.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#224 cover prior depth and every on-main service file. Free surface for tick 27: **thyroid surgery**, **custom orthotics**, **fencing lessons**, **calligraphy classes**, **postnatal massage**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/thyroid-surgery.json`
+- `content/entities/services/orthotics-insoles.json`
+- `content/entities/services/fencing-lessons.json`
+- `content/entities/services/calligraphy-classes.json`
+- `content/entities/services/postnatal-massage.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#224 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Hemithyroidectomy or total — who decides with endo?
+2. Custom orthotics after 8 weeks of plantar fascia physio?
+3. Foil starter rental long enough before buying electric kit?
+4. Brush calligraphy usable without Mandarin literacy?
+5. Massage package or pelvic-floor physio first postpartum?
+
+---
+
 ## Loop B — Family + Belong (tick 18) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick18-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next body trees. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), #129 (exam-week/IS PTA/teen driving), and #134 (sibling fees/newborn–preschool handoff/workplace belonging). Also skipped primary-CCA-vs-academy to stay clear of #115/#91 adjacency.

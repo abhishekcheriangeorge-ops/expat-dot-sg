@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "postnatal-massage",
+  "name": "Postnatal massage",
+  "summary": "How new parents evaluate postnatal massage in Singapore — traditional confinement styles vs clinical physiotherapy massage, safety after C-section, and upsell scepticism.",
+  "body": "Postnatal massage packages are heavily marketed alongside confinement nannies. Offerings range from traditional oil massage traditions to physiotherapist-led scar and pelvic considerations. Medical clearance matters after tears or caesarean.\n\n## Clarify the goal\n- Relaxation and sleep support in early weeks\n- Swelling and shoulder tension from feeding postures\n- Scar desensitisation under clinical guidance\n- “Shape recovery” marketing — treat claims cautiously\n\nMassage is not a substitute for pelvic-floor physiotherapy when incontinence or prolapse symptoms exist.\n\n## Safety\nDisclose clotting history, fever, mastitis signs, and wound status. Practitioners should avoid pressure on healing scars until cleared. Home visits help when leaving the flat is hard — confirm hygiene standards.\n\n## How to choose\nPrefer clear session length, practitioner training, and refund rules if baby logistics cancel. Be wary of long prepaid packages sold on day two postpartum. Pair with lactation and GP follow-up rather than massage-only recovery narratives.\n\n## Practical tip\nSchedule between feeds with a pumped bottle ready if you are the birthing parent. Keep water nearby — dehydration after massage in air-con is common.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Early postpartum body tension / sleep support",
+    "C-section scar timing for massage clearance",
+    "Traditional vs clinical postnatal massage choice",
+    "Prepaid package pressure right after birth"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "confinement-nanny-postpartum-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

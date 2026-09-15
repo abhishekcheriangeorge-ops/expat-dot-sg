@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "orthotics-insoles",
+  "name": "Custom orthotics and insoles",
+  "summary": "How expats get custom foot orthotics in Singapore for plantar fasciitis, knee load issues, and standing-desk days — clinical casting vs retail heat-mould inserts.",
+  "body": "Custom orthotics reshape load through the foot. Podiatrists and some sports-med clinics prescribe them after exam and sometimes gait review; pharmacies sell generic cushions that help mild cases but are not the same device.\n\n## When custom makes sense\n- Plantar fasciitis persisting after basic load management\n- Posterior tibial tendon or midfoot pain\n- Knee tracking issues with clear foot contribution\n- Standing-heavy jobs on hard mall/office floors\n- Selected paediatric flat-foot pathways under clinician advice\n\nShoe volume matters — narrow dress shoes may not fit bulky posts.\n\n## Process\nAssessment, casting or scan, manufacture lead time, and dispense review. Expect break-in schedules. Rechecks matter after weight change or new running shoes. Insurance coverage for devices is inconsistent — get written quotes.\n\n## How to choose\nPrefer clinicians who explain goals (reduce tissue load) rather than selling annual “posture packages.” Ask about remake policies if the first pair hotspots. Bring your most-worn work and sport shoes to the dispense visit.\n\n## Practical tip\nWear the orthotics with the socks and shoes you actually use at work. A perfect lab fit in running shoes can fail in leather loafers the next morning.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/ahpc",
+  "whenToEngage": [
+    "Foot/knee load pain after failed generic inserts",
+    "Custom vs heat-mould retail insole decision",
+    "Standing-job footwear needs device + shoe pairing",
+    "Remake policy and insurance quote unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "AHPC",
+      "url": "https://www.healthprofessionals.gov.sg/ahpc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
