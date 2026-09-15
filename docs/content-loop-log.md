@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 18)
+
+Branch: `cursor/loop-d-next-polish-tick18-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ORAL clock vs months waiting for a foreign renunciation certificate / mission packs.
+- r/askSingapore — Mum’s parent LTVP expiry; sponsor child emigrating; leftover-validity myths.
+- r/askSingapore — layoff “Special Pass” folklore on EP cancel (actually STVP).
+
+**Official**
+
+- [ICA — Oath-taking for Minors](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking) · [MFA Washington ORAL](https://washington.mfa.gov.sg/consular-services/citizens-services/oath-taking-for-minors/) · [MFA New Delhi ORAL](https://new-delhi.mfa.gov.sg/consular-services/citizens-services/oath-taking-for-minors/)
+- [ICA — LTVP](https://www.ica.gov.sg/reside/LTVP) · [Parent of SC/PR](https://www.ica.gov.sg/reside/LTVP/apply/parent-of-a-singapore-citizen-(sc)-or-singapore-permanent-resident-(pr)) · [LTVP Terms PDF](https://www.ica.gov.sg/docs/default-source/ica/files/docs/terms_and_conditions_ltp.pdf)
+- [MOM — Cancel EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) · [Cancel Work Permit](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/cancel-a-work-permit) · [Extend stay FAQ](https://www.mom.gov.sg/faq/work-pass-general/how-can-i-extend-my-pass-holders-stay-in-singapore)
+
+### Gaps vs open stack
+
+Open #83→#146 cover NS Exit / PRSEP; EP-death DP / SC cooling-off / LPA; WICA / training-bond / e-Apostille; CPF witnesses / REP ETD / COMPASS; IR21 RSU / lost-pass overseas / salary-cut DP; ship-out / PR appeal / EP FWTES; probate / EP passport / FDW cancel; PR passport-first name / lost NRIC overseas / graduate LTVP IHL. Remaining high-intent **Next** gaps: **ORAL foreign renunciation proof**, **aged-parent LTVP renewal / sponsor change**, **STVP vs Special Pass myths**.
+
+### Shipped
+
+**New:** `oral-foreign-renunciation-proof-before-22-singapore.mdx`, `aged-parent-ltvp-renewal-sponsor-change-singapore.mdx`, `stvp-after-ep-cancel-special-pass-myths-singapore.mdx`
+
+**Upgraded:** `oral-dual-citizenship-age-21.mdx`, `aged-parents-pr-ltvp-singapore.mdx`, `between-jobs-stvp-singapore.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #83 / #89 / #99 / #114 / #123 / #130 / #138 / #146 guide bodies.
+- Did not edit #89 renouncing-SC body or #146 name-change / lost-NRIC / graduate parents.
+
+### Questions mined
+
+1. What documents do Singapore missions ask for beyond ICA’s two-item list?
+2. How early should I start home-country renunciation before my 22nd birthday?
+3. Can I take ORAL before a notary overseas?
+4. When must I renew Mum’s parent LTVP?
+5. Does leftover LTVP validity carry forward on renewal?
+6. What if the sponsoring child emigrates or withdraws?
+7. Can another SC/PR take over sponsorship?
+8. After EP cancel, do I get a Special Pass or an STVP?
+9. Is Work Permit Special Pass the same as between-jobs STVP?
+10. Can ICA extend my MOM STVP at the counter?
+11. How long can HR request on EP cancel STVP?
+12. Do family DPs float independently after EP cancel?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 17)
 
 Branch: `cursor/loop-d-next-polish-tick17-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138).
