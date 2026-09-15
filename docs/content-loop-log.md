@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 51 — 2026-09-15
+
+Branch: `cursor/home-life-tick51-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #274/#282/#295/#301/#309/#313/#321 stay open for the merge controller — **did not** touch those PR paths. Topics: condo cat-ladder / roof-access permit notices, ActiveSG lawn bowls, Upper East Coast Fringe / Lagoon View West / Mandarin Gardens East. Tip confirmed as **#321** (Tick 50); opened next tip in parallel without waiting on merge.
+
+**Merge order note (controller):** `#274 → #282 → #295 → #301 → #309 → #313 → #321 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — cat-ladder / roof-access permit notices confused with LPS earth-pit jobs, gondola cleans, or generator tests; roof-party myths.
+- r/askSingapore — ActiveSG lawn bowls Standard Rate for foreigners, flat-shoe rules, weekend green release races.
+- r/askSingapore — east-coast shortlists for Upper East Coast Fringe vs Lagoon View West vs Mandarin Gardens East noise / estate-texture trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [MOM — Working at heights](https://www.mom.gov.sg/workplace-safety-and-health/working-at-heights).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs open #274 → #321
+
+Open PRs own hydrant clearance through LPS/earth-pit / cycling circuit and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo cat-ladder / roof-access permit notices** (≠ LPS/earth-pit; ≠ facade/gondola; ≠ generator/ATS; ≠ water-tank/booster), **ActiveSG lawn bowls** (≠ cycling circuit; ≠ athletics track; ≠ sepak takraw; ≠ netball; ≠ pickleball; ≠ fencing; ≠ bowling; ≠ skating; ≠ climbing; ≠ archery; ≠ camps; ≠ courts), plus neighbourhood depth for **Upper East Coast Fringe**, **Lagoon View West**, and **Mandarin Gardens East**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-cat-ladder-roof-access-permit-notices-tenants.mdx`
+- `content/guides/life/activesg-lawn-bowls-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #321.
+- `src/lib/site.ts` (cat-ladder / roof-access + ActiveSG lawn bowls topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/upper-east-coast-fringe.json`
+- `content/entities/neighbourhoods/lagoon-view-west.json`
+- `content/entities/neighbourhoods/mandarin-gardens-east.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #274 / #282 / #295 / #301 / #309 / #313 / #321 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is a cat-ladder / roof-access permit the same as an LPS / earth-pit inspection?
+2. Is it the same as facade / gondola cleaning?
+3. Can residents use the roof cat ladder for photos or parties?
+4. Will contractors enter my unit for roof access?
+5. Is roof-access noise a generator / ATS test?
+6. Can foreigners book ActiveSG lawn bowls at Standard Rate?
+7. Is lawn bowls the same as indoor bowling, cycling circuit, or athletics track hire?
+8. Do I need my own bowls and flat shoes?
+9. Upper East Coast Fringe vs Lagoon View West — bus-led or condo-loop living?
+10. Is Mandarin Gardens East quieter at night?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 50 — 2026-09-15
 
 Branch: `cursor/home-life-tick50-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295/#301/#309/#313 stay open for the merge controller — **did not** touch those PR paths. Topics: condo lightning-protection / earth-pit inspection notices, ActiveSG cycling circuit, Siglap Fringe / Frankel East / Opera Estate West. Tip confirmed as **#313** (Tick 49); opened next tip in parallel without waiting on merge.

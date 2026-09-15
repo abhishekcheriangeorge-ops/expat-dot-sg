@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "upper-east-coast-fringe",
+  "name": "Upper East Coast Fringe",
+  "summary": "Edges of Upper East Coast toward Siglap / Bedok — east-coast adjacent living with quieter residential texture and ActiveSG catchment.",
+  "body": "Upper East Coast Fringe is the shortlist when east-coast adjacency and quieter residential texture matter more than CBD skyline premiums. The pocket sits on the Upper East Coast / Siglap / Bedok edges; housing mixes mid-age condos, walk-ups, and selective landed. Expats land here for car-light hops to town and ActiveSG lawn-bowls / circuit catchment without Orchard rents. Watch-outs: roof-access / cat-ladder permit notices on mid-rises, weekend beach-road traffic, and confusing Upper East Coast vs Upper East Coast Fringe shortlists. Compare with Lagoon View West for denser condo texture, Mandarin Gardens East for estate-edge living, and Siglap Fringe when cafe strips win.",
+  "region": "east",
+  "vibe": [
+    "east-coast-adjacent",
+    "quieter-residential",
+    "practical",
+    "beach-road-edge",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "car-light workers who want east-coast texture",
+    "households comparing Upper East Coast Fringe vs Lagoon View West",
+    "renters who will book ActiveSG lawn bowls weekly",
+    "people okay with mid-age condo stock"
+  ],
+  "watchOuts": [
+    "Cat-ladder / roof-access permit notices on mid-rises",
+    "Weekend beach-road traffic",
+    "Peak bus crowding toward town",
+    "Upper East Coast vs Upper East Coast Fringe listing confusion"
+  ],
+  "housingMix": "Mid-age condos, walk-ups, and selective landed with beach-road edges.",
+  "commuteNotes": "East-coast bus / EWL optionality depending on block; walk a Saturday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 4100,
+    "familyFrom": 3700,
+    "familyTo": 7800
+  },
+  "mrt": [
+    "Bedok",
+    "Kembangan",
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

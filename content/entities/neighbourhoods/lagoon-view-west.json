@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "lagoon-view-west",
+  "name": "Lagoon View West",
+  "summary": "West of Lagoon View toward Marine Parade / East Coast — denser condo-edge living with practical east-side hops and community-sport catchment.",
+  "body": "Lagoon View West is the shortlist when denser condo-edge living and east-side convenience matter more than quiet landed weekends alone. The pocket sits west of Lagoon View toward Marine Parade / East Coast edges; housing mixes mid-age and selective newer condo stock. Expats land here for car-light hops to town and ActiveSG catchment without CBD premiums. Watch-outs: roof-access permit calendars on taller blocks, weekend promenade crowds, and confusing Lagoon View vs Lagoon View West shortlists. Compare with Upper East Coast Fringe for quieter texture, Mandarin Gardens East for estate-edge living, and Siglap Fringe when cafe strips win.",
+  "region": "east",
+  "vibe": [
+    "condo-edge",
+    "east-coast",
+    "dense",
+    "practical",
+    "community-sport"
+  ],
+  "bestFor": [
+    "car-light workers toward town who want denser condo stock",
+    "households comparing Lagoon View West vs Upper East Coast Fringe",
+    "people who will book ActiveSG lawn bowls weekly",
+    "renters okay with weekend promenade energy"
+  ],
+  "watchOuts": [
+    "Roof-access / cat-ladder permit notices on taller blocks",
+    "Weekend promenade and parking pressure",
+    "Peak bus crowding",
+    "Lagoon View vs Lagoon View West listing confusion"
+  ],
+  "housingMix": "Mid-age and selective newer condo stock with promenade edges.",
+  "commuteNotes": "East-coast bus gravity toward town; walk a Sunday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2500,
+    "oneBedTo": 4300,
+    "familyFrom": 3900,
+    "familyTo": 8200
+  },
+  "mrt": [
+    "Bedok",
+    "Kembangan",
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
