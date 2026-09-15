@@ -186,10 +186,28 @@ export default async function SchoolDetailPage({ params }: Props) {
               AEIS / S-AEIS →
             </Link>
             <Link
+              href="/guides/preschool-childcare-singapore"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Preschool & childcare →
+            </Link>
+            <Link
+              href="/guides/school-waitlist-realism"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              School waitlist realism →
+            </Link>
+            <Link
               href="/calendar"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
               Kids calendar →
+            </Link>
+            <Link
+              href="/living"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Living hub →
             </Link>
           </p>
         </div>

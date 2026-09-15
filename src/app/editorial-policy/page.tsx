@@ -128,6 +128,14 @@ export default function EditorialPolicyPage() {
             Guides
           </Link>
           {" · "}
+          <Link href="/journeys" className="text-canopy underline">
+            Journeys
+          </Link>
+          {" · "}
+          <Link href="/tools" className="text-canopy underline">
+            Tools
+          </Link>
+          {" · "}
           <Link href="/sponsored" className="text-canopy underline">
             Sponsored
           </Link>

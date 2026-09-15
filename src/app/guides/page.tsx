@@ -58,10 +58,20 @@ export default async function GuidesIndexPage() {
             description:
               "Cornerstone guides for Singapore expat life across seven pillars.",
             path: "/guides",
-            items: PILLAR_ORDER.map((pillar) => ({
-              name: PILLAR_LABELS[pillar],
-              path: `/${pillar}`,
-            })),
+            items: [
+              ...PILLAR_ORDER.map((pillar) => ({
+                name: PILLAR_LABELS[pillar],
+                path: `/${pillar}`,
+              })),
+              { name: "Tools", path: "/tools" },
+              { name: "Journeys", path: "/journeys" },
+              { name: "Neighbourhoods", path: "/neighbourhoods" },
+              { name: "Schools", path: "/schools" },
+              { name: "Clubs", path: "/clubs" },
+              { name: "Directory", path: "/directory" },
+              { name: "Arriving", path: "/arriving" },
+              { name: "Living", path: "/living" },
+            ],
           }),
         ]}
       />
@@ -155,6 +165,62 @@ export default async function GuidesIndexPage() {
             );
           })}
         </div>
+
+        <footer className="mt-16 border-t border-fog-soft pt-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+            Related hubs
+          </p>
+          <p className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            <Link
+              href="/tools"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Tools
+            </Link>
+            <Link
+              href="/journeys"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Journeys
+            </Link>
+            <Link
+              href="/neighbourhoods"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Neighbourhoods
+            </Link>
+            <Link
+              href="/schools"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Schools
+            </Link>
+            <Link
+              href="/clubs"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Clubs
+            </Link>
+            <Link
+              href="/directory"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Directory
+            </Link>
+            <Link
+              href="/arriving"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Arriving
+            </Link>
+            <Link
+              href="/living"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Living
+            </Link>
+          </p>
+        </footer>
       </main>
     </>
   );

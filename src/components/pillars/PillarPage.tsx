@@ -12,11 +12,57 @@ type PillarPageProps = {
   slug: PillarSlug;
 };
 
+/** Static Related appends — keeps Living/journey/tool equity without editing site.ts (#94). */
+const EXTRA_RELATED: Partial<
+  Record<PillarSlug, { href: string; label: string }[]>
+> = {
+  move: [
+    { href: "/journeys", label: "Journeys" },
+    { href: "/journeys/pre-arrival", label: "Pre-arrival playbook" },
+    { href: "/tools/setup-cash", label: "First-month cash" },
+    { href: "/directory", label: "Service directory" },
+  ],
+  home: [
+    { href: "/tools/lease-duty", label: "Lease stamp duty" },
+    { href: "/tools/lease-notice", label: "Diplomatic clause notice" },
+    { href: "/tools", label: "All tools" },
+  ],
+  money: [
+    { href: "/tools/tax-residency", label: "Tax residency sketch" },
+    { href: "/tools/cost-of-living", label: "Cost of living" },
+    { href: "/journeys/between-jobs", label: "Between jobs" },
+  ],
+  family: [
+    { href: "/neighbourhoods", label: "Neighbourhoods" },
+    {
+      href: "/guides/preschool-childcare-singapore",
+      label: "Preschool & childcare",
+    },
+  ],
+  life: [
+    { href: "/directory", label: "Service directory" },
+    { href: "/neighbourhoods", label: "Neighbourhoods" },
+  ],
+  belong: [{ href: "/calendar", label: "Calendar" }],
+  next: [
+    { href: "/journeys", label: "Journeys" },
+    { href: "/journeys/between-jobs", label: "Between jobs" },
+    { href: "/tools/tax-residency", label: "Tax residency sketch" },
+  ],
+};
+
 export async function PillarPage({ slug }: PillarPageProps) {
   const pillar = getPillar(slug);
   const modeLinks = modes.filter((m) => pillar.modes.includes(m.slug));
   const guides = await getAllGuides({ pillar: slug });
   const featured = guides.slice(0, 8);
+  const relatedByHref = new Map(
+    [...pillar.related, ...(EXTRA_RELATED[slug] ?? [])].map((link) => [
+      link.href,
+      link,
+    ]),
+  );
+  const related = [...relatedByHref.values()];
 
   const crumbs = [
     { name: "Home", path: "/" },
@@ -41,6 +87,10 @@ export async function PillarPage({ slug }: PillarPageProps) {
               ...featured.map((guide) => ({
                 name: guide.title,
                 path: `/guides/${guide.slug}`,
+              })),
+              ...related.map((link) => ({
+                name: link.label,
+                path: link.href,
               })),
             ],
           }),
@@ -170,7 +220,7 @@ export async function PillarPage({ slug }: PillarPageProps) {
                 Related
               </p>
               <ul className="mt-5 flex flex-wrap gap-x-8 gap-y-3">
-                {pillar.related.map((link) => (
+                {related.map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}

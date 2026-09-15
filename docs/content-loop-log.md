@@ -6,6 +6,33 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 8)
+
+Branch: `cursor/loop-g-seo-tick8-a144` → PR to `main`. PillarPage Related without `site.ts` + corpus/trust hub shell fill. Did **not** touch #74 / #94 / #106 / #119 paths (no ModeHub, no tool pages, no claimed entity indexes/details). No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Pillar hubs only exposed `site.ts` related — Move/Home/Next (and peers) lacked journeys/tools/directory equity while #94 holds `site.ts`.
+- `/guides` CollectionPage + UI stopped at the seven pillars — no tools/journeys/directory Related.
+- Homepage JSON-LD was Org/WebSite only; below-fold was pillars-only with no hub crosslink plane.
+- `/about` had BreadcrumbList only — no AboutPage JSON-LD; start graph missed schools/tools/modes.
+- `/schools/[slug]` Family strip lagged clubs/neighbourhoods detail work; editorial-policy Related was about/guides/sponsored only.
+
+### Shipped this loop
+
+- Slug-conditional EXTRA_RELATED + CollectionPage merge in `PillarPage.tsx`
+- Guides index Related hubs + broadened CollectionPage ItemList
+- `HomeHubs` below-fold strip + homepage CollectionPage ItemList
+- AboutPage JSON-LD + wider start exploring; schools detail Family strip; editorial-policy → journeys/tools
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 alone (including `site.ts` Living startHere and every `/tools/*` page).
+- No mass MDX `relatedGuides` / body rewrites; no sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 19)
 
 Branch: `loop/story-aeo-tick19` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#98). Avoided open merge-controller H file sets (#102 H17, #107 H18). Prefer merge order **#102 → #107** before this lands. No ads / monetization; no Grok copy.

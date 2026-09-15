@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  getSiteUrl,
+} from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "About",
@@ -18,7 +22,24 @@ export default function AboutPage() {
 
   return (
     <article className="mx-auto w-full max-w-[var(--max-page)] px-5 py-16 sm:px-8 sm:py-24">
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          {
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            name: "About expat.sg",
+            description:
+              "expat.sg is the operating system for Singapore expat life — editorial guides, directories, and dual journeys for arriving and living.",
+            url: `${getSiteUrl()}/about`,
+            isPartOf: {
+              "@type": "WebSite",
+              name: "expat.sg",
+              url: getSiteUrl(),
+            },
+          },
+        ]}
+      />
       <Breadcrumbs items={crumbs} className="mb-8 text-sm text-ink-faint" />
       <header className="max-w-2xl">
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
@@ -108,8 +129,26 @@ export default function AboutPage() {
             <Link href="/journeys" className="text-canopy underline">
               Journeys
             </Link>
+            <Link href="/tools" className="text-canopy underline">
+              Tools
+            </Link>
+            <Link href="/schools" className="text-canopy underline">
+              Schools
+            </Link>
+            <Link href="/neighbourhoods" className="text-canopy underline">
+              Neighbourhoods
+            </Link>
+            <Link href="/clubs" className="text-canopy underline">
+              Clubs
+            </Link>
             <Link href="/directory" className="text-canopy underline">
               Directory
+            </Link>
+            <Link href="/arriving" className="text-canopy underline">
+              Arriving
+            </Link>
+            <Link href="/living" className="text-canopy underline">
+              Living
             </Link>
             <Link href="/editorial-policy" className="text-canopy underline">
               Editorial policy
