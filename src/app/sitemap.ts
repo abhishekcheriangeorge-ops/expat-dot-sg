@@ -44,7 +44,7 @@ const STATIC_PATHS: Array<{
     priority: 0.75,
   },
   {
-    path: "/journeys/school-locker-clear",
+    path: "/journeys/gym-membership-freeze-exit",
     changeFrequency: "monthly",
     priority: 0.75,
   },
@@ -72,7 +72,7 @@ const STATIC_PATHS: Array<{
     priority: 0.65,
   },
   {
-    path: "/tools/pet-quarantine-float",
+    path: "/tools/school-leavers-fee",
     changeFrequency: "monthly",
     priority: 0.65,
   },

@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 21)
+
+Branch: `cursor/e-journeys-tools-tick21-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#91 / Loop B12 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#217** (E20): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Fitness / expat threads — gym freeze vs cancel when leaving Singapore; boutique class packs still billing after EP cancel.
+- International-school parent threads — leavers / yearbook / optional photo packs billed mid-year beside movers deposits.
+
+**Official / orientation**
+
+- Gym / studio contract freeze & ETF schedules (vendor-specific)
+- School leavers / yearbook fee schedules (school-specific)
+
+### Gaps vs open E stack through #217
+
+Open tips through **#217** cover mail/HDB reno, helper/club, bus/insurance, visitor QR/device bond, locker/pet float. Remaining high-intent gaps **off those path sets**: **gym membership freeze/exit**, **school leavers / yearbook fee sketch**. No calendar JSON. Distinct from club-deposit-exit (social clubs) — this tick owns fitness memberships. Distinct from school-deposit-clawback (enrolment deposits) — this tick owns leavers/yearbook cash.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/gym-membership-freeze-exit.json` + `/journeys/gym-membership-freeze-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/school-leavers-fee.ts`
+- `src/components/tools/SchoolLeaversFeeCalculator.tsx`
+- `/tools/school-leavers-fee` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #173 / #186 / #196 / #203 / #217 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does leaving Singapore unlock a free gym cancel?
+2. Is freeze cheaper than early-termination for two remaining months?
+3. Do boutique class packs survive a freeze?
+4. When should access fobs be returned relative to billing stop?
+5. Does corporate wellness keep deducting after the last working day?
+6. Are yearbook fees automatic on mid-year exit?
+7. How do sibling discounts apply to leavers packs?
+8. Should optional photo/dinner packs wait until after gym ETF is known?
+9. Can leavers fees and gym ETFs share one cash float safely?
+10. When must membership OTP still work for cancel confirmation?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 20)
 
 Branch: `cursor/e-journeys-tools-tick20-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#201 / Loop D24 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#203** (E19): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**). Prefer merge order note: **#173 → #186 → #196 → #203 → this tip**.

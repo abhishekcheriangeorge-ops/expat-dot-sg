@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "gym-membership-freeze-exit",
+  "title": "Gym membership freeze / exit",
+  "summary": "Leaving Singapore with gym, boutique fitness, and corporate wellness memberships still billing — freeze vs cancel clocks, class packs, and how membership exit collides with movers week and school leavers fees.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-memberships",
+      "title": "Inventory every membership and class pack",
+      "body": "Big-box gyms, boutique studios, swimming clubs, and corporate wellness portals often bill separately. A freeze on one brand does not stop another. Export invoices and remaining class credits the week you resign — not after the bank rail is already closing.",
+      "bullets": [
+        "List every gym / studio login with next billing date and contract end",
+        "Screenshot class-pack balances and freeze eligibility windows",
+        "Ask HR whether corporate wellness deducts after your last working day"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "freeze-vs-cancel",
+      "title": "Freeze vs cancel is not the same cash path",
+      "body": "Some contracts let you freeze for travel or medical leave but still charge a reduced month; others only allow cancel with notice weeks and early-termination fees. Diplomatic-clause exits and mid-month flights collide with billing cut-offs. Get the freeze and cancel quotes in writing before you pick a path.",
+      "bullets": [
+        "Ask for freeze fee, max freeze months, and whether billing pauses fully",
+        "Compare cancel ETF vs remaining contract months in SGD",
+        "Do not assume “leaving Singapore” auto-qualifies as a free cancel"
+      ],
+      "href": "/tools/lease-notice"
+    },
+    {
+      "id": "access-cards",
+      "title": "Access fobs, apps, and guest passes",
+      "body": "Membership cards, app QR, and guest passes can outlive the billing cancel ticket. Revoke guest access and return fobs on management-office hours — not after Changi. Boutique waitlists sometimes keep your slot billed until the app profile is closed.",
+      "bullets": [
+        "Return physical fobs with a dated receipt from the front desk",
+        "Delete guest / family add-ons before the primary cancel",
+        "Confirm the app login dies on the same day billing stops"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with movers and school fees",
+      "body": "Gym cancel, mover lift booking, and school leavers / yearbook fees often hit the same fortnight. Sequence so membership notice is served while you still have a Singapore number for OTP, and so leavers-fee cash is not raided by a surprise gym ETF.",
+      "bullets": [
+        "Put gym notice, lift booking, and school leavers payment on one calendar",
+        "Sketch leavers / yearbook cash on /tools/school-leavers-fee",
+        "Keep one adult free for front-desk returns on cancel week"
+      ],
+      "href": "/tools/school-leavers-fee"
+    },
+    {
+      "id": "corporate-wellness",
+      "title": "Corporate wellness and payroll deductions",
+      "body": "Employer-subsidised gym desks often continue payroll deduction until HR files the stop. Leaving on a Friday does not always stop Monday’s deduction. Confirm the last deducted month and whether you owe a clawback on unused credits.",
+      "bullets": [
+        "Email HR and the wellness vendor the same cancel date",
+        "Check final payslip for gym lines after EP cancel paperwork starts",
+        "Ask whether unused corporate credits transfer or expire"
+      ],
+      "href": "/journeys/bank-exit-closure"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: ETF vs leavers fees",
+      "body": "Gym early-termination fees and school leavers / yearbook invoices are small next to IR21 withhold — but they land while movers deposits are live. Keep a dedicated SGD float so a studio ETF does not raid the leavers-fee pot.",
+      "bullets": [
+        "Total open gym ETFs and freeze fees before resignation week",
+        "Sketch school leavers cash on /tools/school-leavers-fee",
+        "Pay membership portals while Singapore cards and PayNow still work"
+      ],
+      "href": "/tools/school-leavers-fee"
+    }
+  ]
+}
