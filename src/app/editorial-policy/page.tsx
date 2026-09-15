@@ -65,11 +65,11 @@ export default function EditorialPolicyPage() {
             PLOC / LOC work rights, student PR national-exam row, EP job-loss
             → spouse LTVP bridges, Right of Entry for under-21 dual-passport
             SCs, citizenship confirmation letters, EP renewal NOA / document
-            asks, Re-Entry Permit rules and passport transfers, NRIC
-            re-registration overseas return, confirmation letter for foreign
-            authorities, FWA → TAFEP escalation for EP / S Pass, citizenship
-            application and ORAL, adult SC renunciation, NRIC loss /
-            address / re-registration / name change, NS, exits). When agencies
+            asks, Re-Entry Permit rules and passport transfers, ROE transfer
+            on new foreign passport, spouse LTVP renewal / PMLA LLE window,
+            SCJ SEV / CSS booking after IPA, citizenship application and
+            ORAL, adult SC renunciation, NRIC loss / address /
+            re-registration / name change, NS, exits). When agencies
             publish dated
             revisions (for example MHA / ICA REP process changes), we prefer the
             live notice and FAQ over older forum “reinstatement” folklore. Peer

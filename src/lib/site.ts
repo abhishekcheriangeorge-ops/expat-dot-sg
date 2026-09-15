@@ -629,6 +629,11 @@ export const pillars: Pillar[] = [
         blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
       },
       {
+        label: "Spouse LTVP renewal / LLE",
+        href: "/guides/spouse-ltvp-renewal-pmla-lle-window-singapore",
+        blurb: "Renew ≥3 months out; LLE is 1 year — not a renewal form.",
+      },
+      {
         label: "PLOC / LOC work rights",
         href: "/guides/ploc-loc-ica-ltvp-singapore",
         blurb: "ICA spouse/child LTVP work — PLOC vs employer LOC.",
@@ -684,19 +689,14 @@ export const pillars: Pillar[] = [
         blurb: "New passport ≠ auto REP — ICA transfer before you fly.",
       },
       {
-        label: "NRIC re-reg overseas return",
-        href: "/guides/nric-reregistration-overseas-return-singapore",
-        blurb: "One year after return; collect in Singapore — not at missions.",
+        label: "ROE transfer new passport",
+        href: "/guides/roe-transfer-new-foreign-passport-singapore",
+        blurb: "FormSG ROE; transfer when the foreign book renews.",
       },
       {
-        label: "Citizenship confirmation letter",
-        href: "/guides/confirmation-citizenship-letter-foreign-authority-singapore",
-        blurb: "S$20 digital letter — no stamp/QR; ask foreign desks first.",
-      },
-      {
-        label: "FWA → TAFEP escalation",
-        href: "/guides/fwa-request-tafep-escalation-ep-singapore",
-        blurb: "Formal request + 2-month reply → grievance → TAFEP.",
+        label: "SCJ SEV / CSS booking",
+        href: "/guides/scj-sev-css-booking-after-ipa-singapore",
+        blurb: "Portal day+3 working days; book SEV/CSS early.",
       },
       {
         label: "After getting PR",

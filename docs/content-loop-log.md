@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 20)
+
+Branch: `cursor/loop-d-next-polish-tick20-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — new foreign passport, stale ROE; multi-passport kids.
+- r/askSingapore — “do PMLA again to renew spouse LTVP?”; expired LLE after ROM delay.
+- r/askSingapore — IPA email day-one portal fail; SEV calendar folklore.
+
+**Official**
+
+- [ICA — ROE](https://www.ica.gov.sg/reside/citizenship/roe) · [FormSG ROE](https://form.gov.sg/67ce4d14b7c5bd4de3a4459b)
+- [ICA — PMLA](https://www.ica.gov.sg/reside/pre-marriage-long-term-visit-pass-assessment) · [LTVP renewal](https://www.ica.gov.sg/reside/LTVP)
+- [ICA — Citizenship apply / SCJ](https://www.ica.gov.sg/reside/citizenship/apply) · [Roadmap PDF](https://www.ica.gov.sg/docs/default-source/ica/files/esc-roadmap.pdf) · [sgjourney help](http://sgjourney.gov.sg/help)
+
+### Gaps vs open stack
+
+Open #83→#162 cover NS Exit / PRSEP through NRIC re-reg overseas / confirmation letter / FWA TAFEP. Remaining high-intent **Next** gaps: **ROE transfer / FormSG**, **spouse LTVP renewal / PMLA LLE window**, **SCJ SEV/CSS booking after IPA**.
+
+### Shipped
+
+**New:** `roe-transfer-new-foreign-passport-singapore.mdx`, `spouse-ltvp-renewal-pmla-lle-window-singapore.mdx`, `scj-sev-css-booking-after-ipa-singapore.mdx`
+
+**Upgraded:** `right-of-entry-roe-under-21-singapore.mdx`, `spouse-ltvp-pmla-singapore.mdx`, `singapore-citizenship-journey-scj.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #83 / #89 / #99 / #114 / #123 / #130 / #138 / #146 / #151 / #162 guide bodies.
+- Did not edit #162 confirmation companions or #151 ORAL / aged-parent parents.
+
+### Questions mined
+
+1. Does ROE auto-move when my child renews the foreign passport?
+2. One ROE for two foreign passports?
+3. Where is the FormSG for ROE?
+4. Can I run PMLA again to renew spouse LTVP?
+5. How long is the Letter of Eligibility valid?
+6. When must I renew spouse LTVP?
+7. Does leftover LTVP validity carry forward?
+8. Why can’t I log into SC Journey the day IPA arrives?
+9. How soon should I book SEV and CSS?
+10. What are the e-Journey 7+7 clocks?
+11. Does SCJ waive foreign renunciation?
+12. Is CSS booking the same as ORAL at 21?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 19)
 
 Branch: `cursor/loop-d-next-polish-tick19-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151).
