@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 45)
+
+Branch: `loop/story-aeo-tick45` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#259 H20–H44). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — resigned on verbal / “IPA next week”; notice longer than IPA window.
+- r/askSingapore — PR deed poll uploaded with old passport bio-page; ICA rejection.
+- r/askSingapore — condo move MOM reject; hotel/Airbnb as EP address; mixed MOM vs eCOA.
+
+**Official**
+
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) + employing existing pass holder / existing pass not auto-cancelled FAQs.
+- [ICA — Replace IC (Change of Particulars)](https://www.ica.gov.sg/documents/ic/update_particulars) + [Transfer of REP](https://www.ica.gov.sg/reside/PR/transfer-REP).
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) · [FWTES](https://www.mom.gov.sg/eservices/services/tes) · [OFWAS](https://www.mom.gov.sg/eservices/services/ofwas).
+
+### Gaps vs open H + ticks 1–44
+
+Open: #117–#259 H20–H44. Remaining free Next FAQ-free companions included **IPA-before-resign calendar**, **PR name change passport-first**, **EP address FWTES 5-day clock**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ipa-before-resign-calendar-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/pr-name-change-passport-first-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-address-fwtes-five-day-clock-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (IPA before resign + PR passport-first name change + EP FWTES 5-day clock topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#259 guide bodies.
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. When should I resign if pivoting to a new EP / S Pass job?
+2. Is a verbal offer or “IPA next week” enough to resign?
+3. What if contractual notice is longer than the new IPA window?
+4. Does the old EP auto-cancel when the new pass is approved?
+5. What happens to DP / LTVP during an EP pivot?
+6. Can a PR change IC name before updating the foreign passport?
+7. Do citizens follow the same passport-first rule?
+8. After IC name change, do I still need Transfer of REP?
+9. Is a deed poll alone enough for ICA PR name change?
+10. Will Singpass auto-update banks after IC rename?
+11. How soon must I update MOM after EP address/mobile change?
+12. Why does EP eService reject my condo address?
+13. Can I use hotel/Airbnb as my MOM EP address?
+14. Is MOM EP address update the same as ICA eCOA?
+15. Does the 5-day clock pause while FWTES is pending?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 27)
 
 Branch: `cursor/loop-d-next-polish-tick27-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Family / Money parents for LTVP/PLOC, schools, and health insurance. Avoided open Loop D file set from [#215](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/215).

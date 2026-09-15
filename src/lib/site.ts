@@ -642,6 +642,21 @@ export const pillars: Pillar[] = [
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
       },
+      {
+        label: "IPA before resign calendar",
+        href: "/guides/ipa-before-resign-calendar-ep-singapore",
+        blurb: "No new IPA → no resign letter; notice vs IPA validity.",
+      },
+      {
+        label: "PR name change passport-first",
+        href: "/guides/pr-name-change-passport-first-singapore",
+        blurb: "Foreign passport bio-page before ICA IC particulars.",
+      },
+      {
+        label: "EP address FWTES 5-day clock",
+        href: "/guides/ep-address-fwtes-five-day-clock-singapore",
+        blurb: "MOM 5-day address/mobile; FWTES blockers ≠ eCOA.",
+      },
 
       {
         label: "LTVP + PLOC → EP",
