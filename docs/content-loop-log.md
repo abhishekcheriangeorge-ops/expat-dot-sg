@@ -6,6 +6,76 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 12) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick12-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped braces / teen MH / playgroups (#76 tick 10) and myopia / swim / cooking (#80 tick 11).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — dual-career parent exhaustion / helper gaps / spouse isolation adjacency to EAP stigma.
+- r/askSingapore — international-school exit counselling / UCAS–Common App realism for mobile families ([HCIS](https://www.reddit.com/r/askSingapore/comments/1p7y994/hwa_chong_international_school_thoughts/), [SJII/HCI/ACI](https://www.reddit.com/r/askSingapore/comments/1r8hxmi/have_you_attended_sjii_hci_or_aci/), [IS worth it](https://www.reddit.com/r/askSingapore/comments/1e9e01p/are_international_schools_in_singapore_worth_it/)).
+- r/askSingapore — kids team sports outside school / academy logistics (camps and CCA adjacency).
+
+**Official**
+
+- [MOH mental health services](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/for-the-public/) + [mindline.sg](https://mindline.sg/) + mindline 1771.
+- [UCAS applying](https://www.ucas.com/applying) + [Common App](https://www.commonapp.org/) + [IB university admissions](https://www.ibo.org/university-admission/) + [MOE post-secondary](https://www.moe.gov.sg/post-secondary/admissions).
+- [ActiveSG](https://www.activesgcircle.gov.sg/) + Sport Singapore / FAS pathway context.
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–11 (incl. open #76/#80) covered schools/SEN/camps/clubs, newborn/leave/vaccines, IVF/maternity/divorce, Reclub/parkrun, Mandarin, confinement, indoor hobbies, allergy/EpiPen, IB/A-Level, music, babysitter, uni counselling, book clubs, ADHD, hiking, braces/teen MH/playgroups, myopia/swim/cooking. Remaining heat: **parental burnout + EAP realism**, **UCAS/Common App ops for mobile teens**, **youth sports academies as belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/parental-burnout-eap-singapore.mdx`
+- `content/guides/family/ucas-common-app-expat-teens-singapore.mdx`
+- `content/guides/belong/youth-sports-academies-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/dual-career-spouse-singapore.mdx`
+- `content/guides/family/mental-health-resources.mdx`
+- `content/guides/family/university-counselling-international-schools-singapore.mdx`
+- `content/guides/family/kids-activities-holiday-camps.mdx`
+- `content/guides/belong/hobby-sports-communities-singapore.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/anza-awa-associations.mdx`
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/services/mental-health-counselling.json`
+- `content/entities/clubs/anza.json`
+- `content/entities/clubs/american-club.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite braces / teen MH / playgroups (#76) or myopia / swim / cooking (#80) bodies.
+- Did not expand Life ActiveSG facility trees beyond youth academy belonging notes.
+
+### Questions mined (sample)
+
+1. Does employer EAP cover DP spouse and kids, or employee only?
+2. Are EAP sessions really confidential from HR?
+3. Is mindline 1771 usable for foreigners?
+4. Who owns the UCAS reference if we change schools mid-DP?
+5. Do predicted grades reset after a mid-posting move?
+6. Does IB alone cover US testing expectations?
+7. Are ActiveSG-adjacent academy fees citizen-priced for DP kids?
+8. How many weeks before an academy parent WhatsApp feels real?
+9. Is a membership-club junior section worth it vs a neighbourhood academy?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 11) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick11-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped ADHD / Mandarin / hiking (#51 tick 9) and braces / teen MH / playgroups (tick 10 restore PR from `cursor/loop-b-family-belong-tick9-8971`, formerly #62).

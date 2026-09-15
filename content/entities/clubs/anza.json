@@ -1,9 +1,9 @@
 {
   "type": "club",
   "slug": "anza",
-  "name": "ANZA \u2014 Australian & New Zealand Association",
-  "summary": "Community association for Aussies, Kiwis, and friends \u2014 sports, socials, and family programming that accelerates belonging without country-club fees.",
-  "body": "ANZA functions as a community operating system rather than a facilities club: sports teams, social events, and family programming help new arrivals find people in weeks instead of months. Forum advice for ANZ families \u2014 and many trailing partners \u2014 often ranks association membership above expensive country-club entrance fees for year-one ROI, especially when housing already orbits Australian International School or east/Thomson corridors. Use recurring sport or social groups as network infrastructure while a Dependant\u2019s Pass job search runs. Check current membership categories, event calendars, and whether friends-of-ANZ can attend before budgeting. Complements hashes, Meetup hobbies, school-parent networks, AWA-style women\u2019s associations, and Hollandse Club if you later want facilities. Family calendars sometimes surface swim squads and cooking interest groups \u2014 useful soft landings beside the kids swimming and cooking-class guides.",
+  "name": "ANZA — Australian & New Zealand Association",
+  "summary": "Community association for Aussies, Kiwis, and friends — sports, socials, and family programming that accelerates belonging without country-club fees.",
+  "body": "ANZA functions as a community operating system rather than a facilities club: sports teams, social events, and family programming help new arrivals find people in weeks instead of months. Forum advice for ANZ families — and many trailing partners — often ranks association membership above expensive country-club entrance fees for year-one ROI, especially when housing already orbits Australian International School or east/Thomson corridors. Use recurring sport or social groups as network infrastructure while a Dependant’s Pass job search runs. Check current membership categories, event calendars, and whether friends-of-ANZ can attend before budgeting. Complements hashes, Meetup hobbies, school-parent networks, AWA-style women’s associations, and Hollandse Club if you later want facilities. Family sport days and junior academy tips are a soft landing for parents who need sideline belonging without a country-club cheque — pair with the youth sports academies guide.",
   "category": "association",
   "focus": [
     "Australian",
@@ -13,11 +13,11 @@
     "newcomers",
     "trailing partners"
   ],
-  "membershipNotes": "Annual membership \u2014 typically far lighter than country-club entrance fees. Verify live dues and guest policies for events.",
+  "membershipNotes": "Annual membership — typically far lighter than country-club entrance fees. Verify live dues and guest policies for events.",
   "website": "https://www.anza.org.sg",
   "featured": false,
   "sponsored": false,
   "relatedGuides": [
-    "cooking-class-communities-singapore"
+    "youth-sports-academies-singapore"
   ]
 }
