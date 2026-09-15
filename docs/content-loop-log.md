@@ -6,6 +6,28 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO hubs / crosslinks (tick 23) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick23-a144` → draft PR to `main`. SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. Built off fresh `origin/main`; **did not** edit open G-stack `src/` / `public/` paths through #261 (log prepend only).
+
+### Gaps vs prior G ticks
+
+Ticks 4–22 (open #74→#261) claimed chrome, directory, tools, motion, feeds/GPC/privacy, entity JSON-LD, middleware, and most hub pages. Remaining free surface: **calendar/journey JSON-LD helpers**, **calendar.txt / journeys.txt discovery**, **EventRail / PhaseLinks**.
+
+### Shipped this loop
+
+- `src/lib/seo-calendar.ts` + `calendar.ts` re-exports — Event / ItemList
+- `src/lib/seo-journeys.ts` + `journeys.ts` re-exports — checklist ItemList / playbook HowTo
+- `EventRail.tsx` / `PhaseLinks.tsx` + calendar/journeys barrel re-exports
+- `public/calendar.txt` / `public/journeys.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → (this PR)
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 28)
 
 Branch: `cursor/loop-d-next-polish-tick28-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Family / Next parents for AEIS, STVP, and apostille. Avoided open Loop D file sets from [#215](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/215) / [#222](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/222).

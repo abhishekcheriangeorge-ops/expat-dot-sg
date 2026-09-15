@@ -146,3 +146,9 @@ export async function getHelperHandoffExitPlaybook(): Promise<LeavingPlaybook | 
 export async function getMailForwardExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("mail-forward-exit.json");
 }
+
+export {
+  checklistItemListJsonLd,
+  playbookHowToJsonLd,
+  journeysHubItemListJsonLd,
+} from "@/lib/seo-journeys";

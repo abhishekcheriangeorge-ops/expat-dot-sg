@@ -1,0 +1,25 @@
+# Journeys discovery map — expat.sg
+# Companion to calendar.txt / feeds.txt / browse.txt.
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/journeys
+
+## Phases & playbooks (representative)
+- https://expat.sg/journeys/pre-arrival
+- https://expat.sg/journeys/arriving
+- https://expat.sg/journeys/leaving
+- https://expat.sg/journeys/between-jobs
+
+## Notes
+- Journeys are checklist / playbook shells for arriving, living, and exit.
+- Prefer sitemap.xml + /journeys for crawl discovery.
+- JSON-LD ItemList / HowTo helpers live in seo-journeys.ts (app shell).
+
+## Related
+- https://expat.sg/calendar
+- https://expat.sg/calendar.txt
+- https://expat.sg/tools
+- https://expat.sg/sitemap.xml

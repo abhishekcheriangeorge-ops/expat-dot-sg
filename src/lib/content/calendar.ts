@@ -46,3 +46,8 @@ export async function getFeaturedCalendarEvents(): Promise<CalendarEvent[]> {
   const events = await getCalendarEvents();
   return events.filter((e) => e.featured);
 }
+
+export {
+  calendarEventJsonLd,
+  calendarItemListJsonLd,
+} from "@/lib/seo-calendar";
