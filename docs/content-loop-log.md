@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 12 — 2026-09-15
+
+Branch: `cursor/services-directory-tick12-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109→#113); this tick ships five net-new category guides only.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — endocrinologist / diabetes care paths ([endocrinologist](https://www.reddit.com/r/askSingapore/comments/1pkjeb8/hi_where_do_i_find_a_good_endocrinologist/); [diabetes treatment](https://www.reddit.com/r/askSingapore/comments/1mh075x/where_do_diabetics_go_for_regular_treatment_and/)).
+- r/askSingapore — neurologist for migraine / vertigo ([neurologist migraine](https://www.reddit.com/r/askSingapore/comments/1na9oq8/neurologist_recommendations_specialising_in/)).
+- r/askSingapore — orthopaedic specialist recommendations ([orthopaedic](https://www.reddit.com/r/askSingapore/comments/1dkwify/recommendations_for_any_good_orthopaedic/)).
+- r/askSingapore — reformer Pilates studio / package heat ([reformer pilates](https://www.reddit.com/r/askSingapore/comments/1pazo80/reformer_pilates_recommendations/)).
+- Independent broker vs tied-agent comparison heat adjacent to health-insurance expat guide shopping.
+
+**Official**
+
+- [SMC register](https://www.smc.gov.sg/pages/registers.aspx) + [MOH find a facility](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/) + [NNI](https://www.nni.com.sg/) + [AHPC](https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/).
+- [MAS Register of Representatives](https://eservices.mas.gov.sg/registerofrepresentatives/) + [compareFIRST](https://www.comparefirst.sg/).
+- [CASE](https://www.case.org.sg/) + [SportSG](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#113 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 12: **endocrinology/diabetes**, **neurology/migraine**, **orthopaedic joints**, **pilates/yoga studios**, **independent insurance brokers**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/endocrinology-diabetes.json`
+- `content/entities/services/neurology-migraine.json`
+- `content/entities/services/orthopaedic-joints.json`
+- `content/entities/services/pilates-yoga-studios.json`
+- `content/entities/services/independent-insurance-brokers.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 / #75 / #86 / #95 / #103 / #109 / #113 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Polyclinic diabetes programme or private endocrinologist first?
+2. Are boutique hormone clinics the same as endocrinology?
+3. Migraine — GP preventives or neurology now?
+4. When is MRI a wellness upsell vs neurology work-up?
+5. Physio-first or ortho for frozen shoulder?
+6. Will non-panel ortho surgery break my rider?
+7. Reformer intro pack — freeze / expiry rules?
+8. Credentials to ask before a Pilates pack?
+9. Tied agent vs independent broker — how are they paid?
+10. What documents should a broker put in writing before I bind?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 18)
 
 Branch: `loop/story-aeo-tick18` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#69/#73/#82/#84). Avoided open merge-controller H file sets (#87 H14, #93 H15, #98 H16, #102 H17). Prefer merge order **#87 → #93 → #98 → #102** before this lands. No ads / monetization; no Grok copy.

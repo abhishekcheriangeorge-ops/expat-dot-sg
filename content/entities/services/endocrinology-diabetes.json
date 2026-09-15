@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "endocrinology-diabetes",
+  "name": "Endocrinology & diabetes (category guide)",
+  "summary": "Thyroid / PCOS / diabetes pathways — polyclinic chronic care vs private endo, foreigner fee honesty, and why ‘hormone clinics’ are not the same specialty.",
+  "body": "Endocrinology covers diabetes, thyroid, PCOS, and other hormone disorders. Citizens/PRs often stay in polyclinic chronic programmes with hospital endo referral when needed; foreigners pay full public fees, so private endocrinology mainly buys speed and continuity in English. Start with a GP for HbA1c, thyroid panels, and medication refills before a specialist package. Boutique ‘hormone optimisation’ clinics are not automatic substitutes for SMC Endocrinology — ask registration and what labs justify ongoing scripts. Corporate outpatient riders may cover specialist consults with referral while chronic meds sit outside the outpatient bucket. Distinct from men’s-health urology hormone sales. Category guide, not a ranked endo list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Diabetes / thyroid / PCOS — GP vs endo timing unclear",
+    "Quoted private hormone package before basic labs",
+    "Foreigner fees at public diabetes centre vs private endo",
+    "Outpatient rider chronic-med carve-outs unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "SGH — Diabetes & Metabolism Centre",
+      "url": "https://www.sgh.com.sg/patient-care/specialties-services/endocrinology"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

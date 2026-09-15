@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "independent-insurance-brokers",
+  "name": "Independent insurance brokers (category guide)",
+  "summary": "Fee vs commission brokers — comparing inpatient riders without a single-insurer sales script, and documents to demand before you bind.",
+  "body": "Tied agents sell one brand; independent brokers / FA firms can compare multiple insurers — still ask how they are paid (commission vs client fee) and get product illustrations in writing. Expats shopping hospitalisation, outpatient riders, and maternity add-ons should compare waiting periods, ward pro-ration, pre-existing exclusions, and panel hospital lists — not brochure gifts. Cross-check MAS Register of Representatives and keep emails of advice given. Distinct from insurer brand pages (AIA/Prudential-style listings) and from the private-health-insurance category overview. Category guide, not a ranked broker league table.",
+  "category": "insurance",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Want multi-insurer compare without a tied-agent script",
+    "Need written waiting periods / exclusions before binding",
+    "Maternity / outpatient rider shopping across brands",
+    "Unsure commission vs fee conflict on advice"
+  ],
+  "officialLinks": [
+    {
+      "label": "MAS — Register of Representatives",
+      "url": "https://eservices.mas.gov.sg/registerofrepresentatives/"
+    },
+    {
+      "label": "MAS — Financial institutions directory",
+      "url": "https://eservices.mas.gov.sg/fid/"
+    },
+    {
+      "label": "compareFIRST",
+      "url": "https://www.comparefirst.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "health-insurance-expat",
+    "opening-bank-account-expat",
+    "healthcare-gp-hospital"
+  ],
+  "featured": false,
+  "sponsored": false
+}

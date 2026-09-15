@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "orthopaedic-joints",
+  "name": "Orthopaedic & joint care (category guide)",
+  "summary": "Shoulder / knee / spine — physio-first honesty, MRI and injection upsells, and panel surgeon rules before you prepay surgery packages.",
+  "body": "Orthopaedics handles fractures, sports injuries, and degenerative joints. Many forum ‘need MRI tomorrow’ arcs still start better with GP + AHPC physio unless there is trauma, locking, or progressive neurological deficit. Private ortho clinics sell speed; foreigners pay full public fees too, so price consult + imaging + injection separately. Surgery packages need written inclusions (implants, ICU, physio sessions) and insurer panel / LOA rules — non-panel surgeons can shred post-op outpatient coverage windows. Distinct from podiatry and from gym/PT hard-sells. Category guide, not a ranked surgeon list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Joint / shoulder pain — physio vs ortho timing unclear",
+    "Quoted MRI or injection before a clear plan",
+    "Surgery package vs insurer panel / LOA rules",
+    "Foreigner public ortho fees vs private speed trade-off"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "AHPC — Allied health registers",
+      "url": "https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "sports-fitness-singapore",
+    "wica-work-injury-compensation-ep"
+  ],
+  "featured": false,
+  "sponsored": false
+}

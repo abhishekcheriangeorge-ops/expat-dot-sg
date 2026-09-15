@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "pilates-yoga-studios",
+  "name": "Pilates & yoga studios (category guide)",
+  "summary": "Reformer packages vs ClassPass sampling — instructor credentials, injury red flags, and hard-sell multi-class packs that expire unused.",
+  "body": "Expat fitness threads split between boutique reformer Pilates, yoga memberships, and ClassPass hopping. Credentials matter: ask about teacher training hours and whether the studio routes injured clients to physio instead of ‘just modify’. Intro packs and large class banks commonly expire — get freeze, transfer, and refund rules in writing before the upsell desk. Reformer classes are coached differently from mat yoga; small ratios beat crowded rooms when you are learning load. Distinct from gym/PT memberships and from clinical physio. Category guide, not a ranked studio list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "New to reformer — credentials / class size unclear",
+    "Large class pack expiry / freeze rules opaque",
+    "Injury history — studio vs physio-first decision",
+    "Comparing ClassPass sampling vs studio membership"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "sports-fitness-singapore",
+    "hobby-sports-communities-singapore",
+    "music-arts-communities-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "neurology-migraine",
+  "name": "Neurology & migraine care (category guide)",
+  "summary": "Migraine / vertigo / neuropathy — GP first vs neurologist, imaging pre-auth traps, and when sudden neurological symptoms are A&E not a boutique clinic.",
+  "body": "Neurology is for migraine that fails simple care, unexplained vertigo, seizures, and neuropathy — not every headache needs an MRI package. Sudden worst-ever headache, weakness, or speech change is A&E first. Stable migraine work-ups can start with a GP; escalate to SMC Neurology when preventives, Botox pathways, or specialised testing enter the chat. Public hospital private-patient booking exists; foreigners pay full fees. Private centres sell speed — still ask which tests are diagnostic vs wellness. Insurers often gate MRI/CT behind referral and pre-auth. Distinct from ENT vertigo pathways and from psychiatry medication listings. Category guide, not a ranked neurologist list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Migraine / vertigo failing GP care — need neurology",
+    "Quoted MRI package before specialist review",
+    "Insurer pre-auth for neuro imaging unclear",
+    "Sudden neuro red flags — confirm A&E vs clinic"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "National Neuroscience Institute",
+      "url": "https://www.nni.com.sg/"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "emergencies-995-999-embassies",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}
