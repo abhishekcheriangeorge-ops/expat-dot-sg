@@ -85,13 +85,13 @@ export default function AboutPage() {
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
               EP job-loss → spouse LTVP bridges, Right of Entry for under-21
               dual-passport SCs, citizenship confirmation letters,
-              REP passport transfers, REP after lost passport / ETD,
-              CPF nomination Singpass witnesses, COMPASS firm scores on
-              EP renewal, NS liability before PR / citizenship, TADM
-              salary claim filing clocks for EP / S Pass, workplace
-              harassment pass-fear planning, EP renewal NOA asks, pass
-              cancellations) are checked against live ICA / MOM / MHA text
-              before we ship.
+              REP passport transfers, NRIC re-registration overseas
+              return, confirmation letter for foreign authorities,
+              FWA → TAFEP escalation for EP / S Pass, IPA-before-resign
+              calendar for EP / S Pass pivots, annual leave encashment vs
+              notice offset, unpaid retrenchment benefit TADM vs TAFEP,
+              EP renewal NOA asks, pass cancellations) are checked against
+              live ICA / MOM / MHA text before we ship.
             </li>
             <li>
               Directories for neighbourhoods, schools, clubs, and services —

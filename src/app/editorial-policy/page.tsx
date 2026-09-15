@@ -64,14 +64,15 @@ export default function EditorialPolicyPage() {
             sponsorship and aged-parent PR vs LTVP, spouse LTVP / PMLA and
             PLOC / LOC work rights, student PR national-exam row, EP job-loss
             → spouse LTVP bridges, Right of Entry for under-21 dual-passport
-            SCs, citizenship confirmation letters, REP after lost passport /
-            ETD, CPF nomination Singpass witnesses, COMPASS firm scores on
-            EP renewal, NS liability before PR / citizenship, TADM salary
-            claim filing clocks for EP / S Pass, workplace harassment
-            pass-fear planning, EP renewal NOA / document asks, Re-Entry
-            Permit rules and passport transfers, citizenship application and
-            ORAL, adult SC renunciation, NRIC loss / address / re-registration /
-            name change, NS, exits). When agencies
+            SCs, citizenship confirmation letters, EP renewal NOA / document
+            asks, Re-Entry Permit rules and passport transfers, NRIC
+            re-registration overseas return, confirmation letter for foreign
+            authorities, FWA → TAFEP escalation for EP / S Pass, IPA-before-
+            resign calendar for EP / S Pass pivots, annual leave encashment
+            vs notice offset, unpaid retrenchment benefit TADM vs TAFEP,
+            citizenship
+            application and ORAL, adult SC renunciation, NRIC loss /
+            address / re-registration / name change, NS, exits). When agencies
             publish dated
             revisions (for example MHA / ICA REP process changes), we prefer the
             live notice and FAQ over older forum “reinstatement” folklore. Peer
