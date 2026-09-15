@@ -187,6 +187,21 @@ export const pillars: Pillar[] = [
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
       },
       {
+        label: "ONE Pass & spouse LOC",
+        href: "/guides/one-pass-singapore",
+        blurb: "S$30k top-talent track; spouse LOC ordinary EP households lost.",
+      },
+      {
+        label: "EntrePass founder path",
+        href: "/guides/entrepass-singapore",
+        blurb: "Innovator gates plus TBS/LWF renewal ladder — not ACRA-only.",
+      },
+      {
+        label: "Dependant’s Pass & trailing careers",
+        href: "/guides/dependant-pass-singapore",
+        blurb: "Post-2021 work rules, business LOC, overseas remote FAQ.",
+      },
+      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -276,6 +291,11 @@ export const pillars: Pillar[] = [
     modes: ["arriving", "living"],
     topics: [
       {
+        label: "Open a salary account",
+        href: "/guides/opening-bank-account-expat",
+        blurb: "IPA vs issued pass, address letters, Singpass timing.",
+      },
+      {
         label: "Banking & PayNow",
         href: "/guides/paynow-setup-foreigners-singapore",
         blurb: "FIN vs mobile proxies after the salary account opens.",
@@ -299,6 +319,11 @@ export const pillars: Pillar[] = [
         label: "Cash declaration (CBNI)",
         href: "/guides/cbni-cash-declaration-singapore",
         blurb: "S$20k+ physical cash — NP727 before you fly.",
+      },
+      {
+        label: "CPF myths for EP holders",
+        href: "/guides/cpf-and-foreigners",
+        blurb: "No ordinary CPF on EP; shadow pensions; SRS ≠ CPF.",
       },
       {
         label: "Tax residency & filing",
@@ -333,7 +358,7 @@ export const pillars: Pillar[] = [
       {
         label: "Salary package decoding",
         href: "/guides/salary-package-decoding",
-        blurb: "Housing, flights, school fees — what the letter really means.",
+        blurb: "Fixed salary vs AWS/bonus; housing taxable; CPF myths.",
       },
     ],
     related: [
