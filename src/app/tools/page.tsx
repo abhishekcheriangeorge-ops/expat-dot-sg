@@ -6,10 +6,16 @@ import { JourneyHero } from "@/components/journeys";
 export const metadata: Metadata = {
   title: "Tools",
   description:
-    "Light Singapore expat utilities — cost-of-living sketch and Employment Pass salary threshold illustration.",
+    "Singapore expat utilities — first-month cash sketch, cost-of-living estimate, and Employment Pass salary threshold illustration.",
 };
 
 const tools = [
+  {
+    href: "/tools/setup-cash",
+    title: "First-month cash sketch",
+    summary:
+      "Advance rent, deposit, agent fee, IRAS lease duty, and temp housing — the LOI-week cash question.",
+  },
   {
     href: "/tools/cost-of-living",
     title: "Cost of living sketch",
@@ -20,7 +26,7 @@ const tools = [
     href: "/tools/ep-threshold",
     title: "EP qualifying salary",
     summary:
-      "Age-progressive Employment Pass floor illustration with a MOM disclaimer baked in.",
+      "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
   },
 ] as const;
 
@@ -30,11 +36,11 @@ export default function ToolsIndexPage() {
       <JourneyHero
         eyebrow="Tools"
         title="Calculators as support — never the homepage."
-        summary="Two light utilities tucked under Journeys. Use them when a guide or checklist points here."
+        summary="Light utilities tucked under Journeys. Use them when a checklist or playbook points here."
       />
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
-        <Stagger className="grid gap-10 sm:grid-cols-2">
+        <Stagger className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {tools.map((tool) => (
             <StaggerItem key={tool.href}>
               <Link href={tool.href} className="group block no-underline">
