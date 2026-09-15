@@ -6,6 +6,113 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 5)
+
+Branch: `loop/story-aeo-tick5` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 4’s HSA meds / foreign licence / household GST FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory, Family/Belong left alone).
+
+## Loop B — Family + Belong (tick 6) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW deep hiring stays Home-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — pet import timelines / condo “pets OK” verbal traps (adjacency in relocation + Schedule III quarantine threads).
+- r/askSingapore — weekly wrong-PayNow / recycled prepaid number fails (adjacency after PayNow setup heat).
+- r/askSingapore — K-pod / vape on DP or Student’s Pass pass-risk panic (nightlife + enforcement threads).
+
+**Official**
+
+- [AVS — Importing dogs and cats](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/) + [general information / recognised pet agents](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/general-information/) (owner **or** AVS-recognised agent may file).
+- [MAS — E-Payments User Protection Guidelines](https://www.mas.gov.sg/regulation/guidelines/e-payments-user-protection-guidelines) (+ Dec 2024 PDF) erroneous-transfer process.
+- [gov.sg — Stop vaping / higher penalties](https://www.gov.sg/stopvaping-penalties/) (TVCA foreigner composition → revocation / etomidate).
+
+### Gaps vs ticks 1–4
+
+Ticks 1–4 shipped SIM→Singpass→bank, SGAC, healthcare/emergency, IPA/EPSC, SimplyGo, serviced apartment, Changi Grab/taxi, CBNI + PayNow setup, HSA meds, licence conversion, household GST. Remaining high-intent **family / money-fail / pass-risk** gaps: **pet import without FAQPage/direct lead** (body existed; owner-vs-agent under-weighted), **wrong PayNow recovery without FAQPage** (setup FAQ existed; failure mode thin), **vaping pass-risk without FAQPage** (pre-land packing + nightlife).
+
+### Shipped this loop
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/importing-pets-singapore.mdx` (direct lead + FAQPage; AVS owner/agent)
+- `content/guides/money/wrong-paynow-epayment-recovery.mdx` (direct lead + FAQPage)
+- `content/guides/life/vaping-tobacco-laws-foreigners.mdx` (direct lead + FAQPage)
+- `content/journeys/checklists/day-7.json` (no-vapes item)
+- `content/journeys/checklists/day-30.json` (optional pet import + PayNow recovery href)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Move pets / Money wrong-PayNow / Life vaping topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion (remittance sponsorSlot left as-is).
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change / Multiplier, Loop B Family/Belong, Loop C Home/HDB, Loop F services entities, or Loop G SEO shell.
+
+### Questions mined (sample)
+
+1. Can I bring my dog or cat into Singapore?
+2. How long is quarantine for pets arriving in Singapore?
+3. Do I need an AVS-recognised pet agent?
+4. When should I book Animal Quarantine Centre space?
+5. Can my condo reject my pet after I import it?
+6. I PayNow’d the wrong number — what do I do first?
+7. Will the bank guarantee same-day recovery?
+8. I received a wrong PayNow — should I send it back?
+9. When do I need a police report for a wrong PayNow?
+10. Are vapes illegal for tourists and EP holders?
+11. Can a vaping offence cancel my EP or DP?
+12. Can I bring a vape as “personal medication”?
+
+- r/askSingapore — birth location vs confinement cost ([foreign wife birth SG vs home](https://www.reddit.com/r/askSingapore/comments/1l1fe33/important_considerations_whether_to_have_my/)).
+- r/askSingapore — local-school / DP fee realism ([primary admission foreigners](https://www.reddit.com/r/askSingapore/comments/1azh44d/primary_school_admission/); [DP + government education](https://www.reddit.com/r/askSingapore/comments/1jfc9e5/dependent_pass_and_government_education/)).
+- Belong soft-landing beyond sport: InterNations / Toastmasters / board-game Meetup patterns (forum “make friends” threads + Meetup calendars).
+
+**Official**
+
+- [MOM — Confinement nanny WP key facts](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts) + [eligibility](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/eligibility) + [apply](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/apply-for-permit) (Malaysian-only; levy S$60 SC baby / S$300 non-SC; max 16 weeks from birth).
+- [MOE — AEIS](https://www.moe.gov.sg/international-students/aeis) (2026 apps closed; tests 1–3 Sep 2026) + [S-AEIS](https://www.moe.gov.sg/international-students/s-aeis) (2027 apps early Jan 2027).
+- [Toastmasters Club of Singapore](https://toastmasters.org.sg/) + [Meetup boardgames](https://www.meetup.com/singapore-international-boardgames-meetup/) + [InterNations Singapore](https://www.internations.org/singapore-expats).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–5 covered waitlists/SEN/camps/clubs/LGBTQ/dual-career, newborn/Baby Bonus/leave/marriage/vaccines/mental-health, IVF/maternity/divorce/hobby-sports, school-bus/Mandarin/infant-care/paediatric/chambers/faith/AAS. Remaining heat: **confinement nanny WP + foreign-baby levy**, **AEIS 2026 live calendar + DSA conditional offers**, **indoor belonging rails** (board games / Toastmasters / InterNations ROI) for non-sport personalities.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/confinement-nanny-postpartum-singapore.mdx`
+- `content/guides/belong/indoor-hobby-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/aeis-saeis-international-students.mdx` (2026/2027 calendar + DSA-Sec conditional note)
+- `content/guides/family/maternity-care-singapore.mdx` + `newborn-pass-birth-registration-singapore.mdx` (confinement cross-links)
+- `content/guides/belong/find-my-people-singapore.mdx` + `hobby-sports-communities-singapore.mdx` (indoor hobby cross-links)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (full MDW hiring left Home-owned).
+
+### Questions mined (sample)
+
+1. Should we hire a confinement nanny in Singapore or fly grandparents in?
+2. Is the MOM confinement Work Permit only for Malaysians — and how long does it last?
+3. Why is the confinement levy S$300 for our foreign baby but S$60 for SC friends?
+4. Can an agency skip the security bond story for a 28-day nanny?
+5. Did we already miss 2026 AEIS — what does S-AEIS 2027 actually buy us?
+6. If DSA-Sec shortlists our international-school kid, do we still need AEIS?
+7. How do introverts make friends without pickleball humidity?
+8. Are InterNations mixers worth annual dues after week two?
+9. Is Toastmasters a belonging rail or just career theatre?
+10. Which board-game Meetup actually seats newcomers instead of closed friend tables?
+
+---
+
 ## Loop F — Services directory depth — Tick 2 — 2026-09-15
 
 Branch: `loop/services-directory-tick2b` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped tick 1 topics (tax / dental / notary / self-storage / pet-relocation).

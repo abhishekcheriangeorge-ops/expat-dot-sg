@@ -167,6 +167,11 @@ export const pillars: Pillar[] = [
         blurb: "12-month clock, BTT, JB shortcut myth.",
       },
       {
+        label: "Importing pets (AVS)",
+        href: "/guides/importing-pets-singapore",
+        blurb: "Country schedules, AQC booking, owner vs recognised agent.",
+      },
+      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
@@ -254,6 +259,11 @@ export const pillars: Pillar[] = [
         label: "Banking & PayNow",
         href: "/guides/paynow-setup-foreigners-singapore",
         blurb: "FIN vs mobile proxies after the salary account opens.",
+      },
+      {
+        label: "Wrong PayNow recovery",
+        href: "/guides/wrong-paynow-epayment-recovery",
+        blurb: "Call your bank first; never peer-refund strangers.",
       },
       {
         label: "High-interest salary accounts",
@@ -388,6 +398,11 @@ export const pillars: Pillar[] = [
         label: "Apps that matter",
         href: "/guides/apps-that-matter-singapore",
         blurb: "Singpass, HealthHub, banking, delivery — the short list.",
+      },
+      {
+        label: "Vaping & tobacco laws",
+        href: "/guides/vaping-tobacco-laws-foreigners",
+        blurb: "Illegal for visitors and passes — fines to revocation.",
       },
       {
         label: "Climate, haze & floods",

@@ -25,13 +25,23 @@
       "id": "bank-account",
       "title": "Open a local bank account",
       "detail": "DBS, OCBC, UOB, and Standard Chartered are common. Bring passport, physical pass, employment letter, and proof of address. Singpass + MyInfo makes online opening far easier once biometrics are done.",
-      "pillar": "money"
+      "pillar": "money",
+      "href": "/guides/opening-bank-account-expat"
     },
     {
       "id": "paynow",
       "title": "Register PayNow to your FIN / local number",
-      "detail": "Link PayNow after the account is live. Prefer FIN over a recycled mobile number when the bank offers both.",
-      "pillar": "money"
+      "detail": "Link PayNow after the account is live. Prefer FIN over a recycled mobile number when the bank offers both. If you mistype a proxy, call your bank for erroneous-transfer recovery — never peer-refund strangers.",
+      "pillar": "money",
+      "href": "/guides/wrong-paynow-epayment-recovery"
+    },
+    {
+      "id": "pet-import",
+      "title": "If bringing pets — confirm AVS schedule / AQC booking",
+      "detail": "Match the pet’s export country to AVS Schedule I–III. Book AQC via QMS when quarantine applies; file the import licence as owner or via an AVS-recognised agent. Housing pet clauses must be in writing.",
+      "pillar": "move",
+      "href": "/guides/importing-pets-singapore",
+      "optional": true
     },
     {
       "id": "cpf-check",

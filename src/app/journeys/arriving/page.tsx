@@ -19,7 +19,7 @@ export default async function ArrivingJourneysPage() {
       <JourneyHero
         eyebrow="Arriving"
         title="The first 90 days, in three lists."
-        summary="Land soft, get operational, then build routines. Tick items in your browser — progress stays local. Start with the week-one dependency map, SG Arrival Card, Changi transfer, HSA meds, and issuance → EPSC so you do not invent circular blockers."
+        summary="Land soft, get operational, then build routines. Tick items in your browser — progress stays local. Start with the week-one dependency map, SG Arrival Card, Changi transfer, HSA meds, pet import clocks, and issuance → EPSC so you do not invent circular blockers."
       />
       <ArrivingPhaseNav />
 
@@ -44,6 +44,12 @@ export default async function ArrivingJourneysPage() {
             HSA medication →
           </Link>
           <Link
+            href="/guides/importing-pets-singapore"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Pet import (AVS) →
+          </Link>
+          <Link
             href="/guides/work-pass-issuance-epsc-notification"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
@@ -60,6 +66,12 @@ export default async function ArrivingJourneysPage() {
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
             Shipping GST relief →
+          </Link>
+          <Link
+            href="/guides/vaping-tobacco-laws-foreigners"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Vaping pass risk →
           </Link>
           <Link
             href="/guides/relocation-checklist-7-30-90"
