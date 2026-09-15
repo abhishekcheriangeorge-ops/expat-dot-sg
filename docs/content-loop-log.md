@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 19)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick19-49cb` → PR to `main` (fresh worktree off `origin/main` @ `89d7ede`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143) A17 and [#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154) A18 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — SAT screenshot as “guaranteed EP”; bonus counted as C1; firm-score panic.
+- r/askSingapore — Tech.Pass vs PEP confusion; 2027 sunset; spouse work myths; ONE Pass replacement folklore.
+- r/askSingapore / r/singaporefi — remittance myths; US LLC consulting while in SG; foreign tax credit on local salary.
+
+**Official**
+
+- [MOM — COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/complementarity-assessment-framework-compass) + Self-Assessment Tool framing
+- [EDB — Tech.Pass](https://www.edb.gov.sg/en/how-we-help/inspiring-talent-and-entrepreneurs/techpass.html) / MOM ONE Pass (AI and Tech) direction
+- [IRAS — Foreign-sourced income](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/foreign-sourced-income)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A18 claim Student’s Pass/LTVP/CPF-withdrawal and EP-notify/ONE Pass/COR. Tick 19 deepens **COMPASS**, **Tech.Pass**, and **foreign income** FAQPages without colliding those paths.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/compass-framework-explained.mdx` (+3)
+- `content/guides/move/tech-pass-singapore.mdx` (+3)
+- `content/guides/money/foreign-income-and-tax.mdx` (+3)
+- `src/lib/site.ts` (COMPASS / Tech.Pass hub topics; foreign-income blurb)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17/A18 guide paths or `intact-immigration`.
+- Did not re-own Loop H STVP/leaving AEO or Loop D tax-clearance trees.
+- Left #143/#154 for the merge controller.
+
+### Questions mined (sample)
+
+1. Do bonuses count for COMPASS C1?
+2. Can a weak firm score still pass COMPASS?
+3. Do renewals use the same COMPASS rules?
+4. Can Tech.Pass mix founder and employee roles?
+5. Does Tech.Pass auto-work-authorise a spouse?
+6. Is ONE Pass a courtesy conversion from Tech.Pass?
+7. Does foreign tax credit erase Singapore salary tax?
+8. Is US LLC consulting foreign-sourced if I work in SG?
+9. Must I declare foreign bank interest on my SG return?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 11)
 
 Branch: `cursor/e-journeys-tools-tick11-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116 → #122** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → #122 → this tick**.

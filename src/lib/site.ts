@@ -177,6 +177,11 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
       },
       {
+        label: "COMPASS framework",
+        href: "/guides/compass-framework-explained",
+        blurb: "SAT ≠ approval; C1 ≠ qualifying floor; firm scores still matter.",
+      },
+      {
         label: "EP rejection, appeal & IPA reassessment",
         href: "/guides/ep-rejection-appeal-ipa-issuance",
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
@@ -195,6 +200,11 @@ export const pillars: Pillar[] = [
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
+      },
+      {
+        label: "Tech.Pass (to 2027)",
+        href: "/guides/tech-pass-singapore",
+        blurb: "Not PEP; company-scale test; plan ONE Pass before Jan 2027 sunset.",
       },
       {
         label: "Fair Consideration & MyCareersFuture",
@@ -398,7 +408,7 @@ export const pillars: Pillar[] = [
       {
         label: "Foreign income myths",
         href: "/guides/foreign-income-and-tax",
-        blurb: "Remittance ≠ source; DP remote work still SG-sourced.",
+        blurb: "Remittance ≠ source; SG work via foreign LLC still local; FTC myths.",
       },
       {
         label: "Salary package decoding",
