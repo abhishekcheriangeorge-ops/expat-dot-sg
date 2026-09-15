@@ -31,7 +31,6 @@
     {
       "id": "paynow",
       "title": "Register PayNow to your FIN / local number",
-<<<<<<< HEAD
       "detail": "Link PayNow after the account is live. Prefer FIN over a recycled mobile number when the bank offers both. If you mistype a proxy, call your bank for erroneous-transfer recovery — never peer-refund strangers.",
       "pillar": "money",
       "href": "/guides/wrong-paynow-epayment-recovery"
@@ -43,11 +42,6 @@
       "pillar": "move",
       "href": "/guides/importing-pets-singapore",
       "optional": true
-=======
-      "detail": "Link PayNow after the account is live. Prefer FIN over a recycled mobile number when the bank offers both.",
-      "pillar": "money",
-      "href": "/guides/opening-bank-account-expat"
->>>>>>> 3ae6915 (Loop E tick 2: AEIS/tax calendar, lease-duty tool, checklist depth)
     },
     {
       "id": "cpf-check",
