@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 42) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick42-8971` → tip PR off [#327](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/327) (tick 41). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #327. Shared log + `site.ts` only (prepend on conflict). Did not wait for #327 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — night barky cough; steam folklore; ED timing fights.
+- r/askSingapore — sports-awards call times colliding with client packs.
+- r/askSingapore — robotics sofas as the quiet weekday STEM parent meetup.
+
+**Official**
+
+- [NHS bronchiolitis](https://www.nhs.uk/conditions/bronchiolitis/) + [NHS croup](https://www.nhs.uk/conditions/croup/) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools) + [Sport Singapore](https://www.sportsingapore.gov.sg/)
+- [IMDA](https://www.imda.gov.sg/) + [Science Centre](https://www.science.edu.sg/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–41 (open tip #327) covered fifth disease, language evenings, art-studio waiting, scarlet fever, coffee mornings, football waiting. Remaining heat without contested paths: **croup/bronchiolitis night coverage**, **sports-awards-night ops**, **robotics-academy waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-croup-bronchiolitis-night-coverage-singapore.mdx`
+- `content/guides/family/international-school-sports-awards-night-ops-dual-career-singapore.mdx`
+- `content/guides/belong/robotics-academy-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open paths through #327)
+
+- teen mental health / school counselling, UCAS/Common App, special-needs support, membership clubs, Hash House Harriers, IS CCA belonging
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- Hwa Chong International, Japanese School, SOTA, tax-agents, pet-relocation, alliance-movers
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open paths through #327.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns overnight breathing checks?
+2. What are the written ED red flags?
+3. When is awards-night call time?
+4. Who owns kit / tickets / forms?
+5. Same robotics sofa next week?
+6. Who covers siblings during the hall night?
+7. Who owns the day-after deep-work shield?
+8. Who sends the follow-up email?
+
+---
+
 ## Loop B — Family + Belong (tick 41) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick41-8971` → tip PR off [#322](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/322) (tick 40). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #322. Shared log + `site.ts` only (prepend on conflict). Did not wait for #322 merge/CI. No force-push to `main`.

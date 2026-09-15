@@ -3,20 +3,24 @@
   "slug": "japanese-school",
   "name": "The Japanese School Singapore",
   "summary": "Japanese Ministry-aligned curriculum school anchoring West Coast / Clementi community life for Japanese postings.",
-  "body": "The Japanese School Singapore delivers Japanese national curriculum continuity for families who expect a return to Japan or another Japanese overseas school. It is as much a community anchor as an academic one — West Coast / Clementi housing patterns often form around school logistics, Japanese Association events, and language density. Admissions and grade placement follow Japanese-system expectations; engage early with prior school records. English-medium international schools are the wrong comparison set if curriculum continuity is the posting requirement. Pair school choice with Japanese Association membership and neighbourhood realism rather than Orchard club geography. Confirm campus, bus, and fee details on the school’s live channels before locking a lease. National-curriculum calendars drive passport and home-leave timing — dual-career households should map embassy renewal windows against term blackouts early.",
+  "body": "The Japanese School Singapore delivers Japanese national curriculum continuity for families who expect a return to Japan or another Japanese overseas school. It is as much a community anchor as an academic one \u2014 West Coast / Clementi housing patterns often form around school logistics, Japanese Association events, and language density. Admissions and grade placement follow Japanese-system expectations; engage early with prior school records. English-medium international schools are the wrong comparison set if curriculum continuity is the posting requirement. Pair school choice with Japanese Association membership and neighbourhood realism rather than Orchard club geography. Confirm campus, bus, and fee details on the school\u2019s live channels before locking a lease. National-curriculum calendars drive passport and home-leave timing \u2014 dual-career households should map embassy renewal windows against term blackouts early. Language-heavy calendars still collide with STEM academy waits \u2014 dual-career households should separate robotics sofa hellos from awards-night call times.",
   "curriculum": [
     "Japanese"
   ],
   "sector": "international",
-  "ages": "Primary–Secondary",
+  "ages": "Primary\u2013Secondary",
   "neighbourhood": "clementi-west-coast",
   "campus": "Clementi + Changi primary; West Coast secondary",
   "languages": [
     "Japanese"
   ],
   "feesBand": "System / nationality-dependent",
-  "waitlistNotes": "Peak posting seasons can tighten seats — apply with employer timing in mind.",
+  "waitlistNotes": "Peak posting seasons can tighten seats \u2014 apply with employer timing in mind.",
   "website": "https://www.sjs.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "robotics-academy-waiting-parent-belonging-singapore",
+    "international-school-sports-awards-night-ops-dual-career-singapore"
+  ]
 }
