@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "movers-local",
+  "name": "Local movers",
+  "summary": "How expats book local movers in Singapore — man-and-van vs full crews, condo lift bookings, disposal add-ons, and peak-month pricing.",
+  "body": "Local movers handle unit-to-unit shifts, storage runs, and partial loads when you are not doing a full international relocation. Condo lift bookings and padding rules often drive the timeline more than distance.\n\n## Decision points\n- Man-and-van vs full packing crew\n- Lift booking / protection deposit with MCST\n- Disposal / donation runs vs keep-all moves\n- Peak month and weekend surcharges\n- Insurance for high-value items\n\nShare floor plans and photos of bulky sofas early.\n\n## How to choose\nPrefer movers who itemise labour hours, transport, and materials. Ask about waiting-time fees when lifts run late. Confirm whether dismantling beds/wardrobes is included.\n\n## Practical tip\nBook the condo lift before you book the truck. Crews idle expensive when the loading bay is free but the lift is not.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Unit-to-unit or storage local move",
+    "Condo lift booking / padding requirements",
+    "Man-and-van vs full crew decision",
+    "Peak-month move pricing and disposal add-ons"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Consumers Association of Singapore",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "leaving-singapore-playbook"
+  ],
+  "featured": false,
+  "sponsored": false
+}

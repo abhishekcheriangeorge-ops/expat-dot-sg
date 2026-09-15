@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "house-painting",
+  "name": "House painting",
+  "summary": "How expats hire house painters in Singapore — rental touch-ups vs full repaint, low-VOC paints for humidity, and landlord colour constraints.",
+  "body": "Painting jobs range from deposit-saving touch-ups to full-unit repaints before a lease ends. Humid weather and short drying windows matter; low-VOC formulas help when you cannot leave overnight.\n\n## Typical jobs\n- Patching and spot touch-ups before move-out\n- Full room / unit repaints\n- Ceiling and corridor common-area adjacent work (with approvals)\n- Feature walls within landlord colour rules\n- Anti-mould prep on problem walls\n\nConfirm furniture moving and masking scope in writing.\n\n## How to choose\nPrefer crews who quote surface prep separately from paint coats. Ask about drying times before furniture returns. For rentals, photograph original colours and keep leftover tins labelled.\n\n## Practical tip\nSchedule painting early in the week, not the night before key handover. Humidity can add a day you did not budget.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Move-out touch-ups before deposit inspection",
+    "Full-unit repaint with landlord colour rules",
+    "Mould-prone walls need prep + paint",
+    "Low-VOC / occupied-home painting plan"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "NEA",
+      "url": "https://www.nea.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "mould-humidity-rental-tenants"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "speech-therapy-adults",
+  "name": "Adult speech therapy",
+  "summary": "How expats access adult speech therapy in Singapore — accent coaching vs clinical therapy, post-stroke / voice pathways, and AHPC-registered therapists.",
+  "body": "Adult speech therapy covers clinical needs (voice, stuttering, post-stroke communication) and, separately, elective accent coaching. Do not confuse the two when booking — credentials and goals differ.\n\n## Decision points\n- Clinical speech-language therapy vs accent coaching\n- Voice strain from teaching / call-centre work\n- Post-stroke or neurological rehab pathways\n- Telehealth follow-ups while travelling\n- Insurance / hospital day-rehab coverage\n\nBring prior ENT or neurology letters when relevant.\n\n## How to choose\nPrefer AHPC-registered speech therapists for clinical care. Ask about assessment length and home practice load. For accent coaching, request a sample lesson plan tied to workplace scenarios.\n\n## Practical tip\nRecord a 60-second work voicemail before session one. Progress is easier to hear than to feel week to week.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.ahpc.gov.sg/",
+  "whenToEngage": [
+    "Voice / stuttering / post-stroke speech needs",
+    "Clinical therapy vs accent coaching unclear",
+    "Workplace voice strain needs therapy plan",
+    "Telehealth speech follow-ups while travelling"
+  ],
+  "officialLinks": [
+    {
+      "label": "Allied Health Professions Council",
+      "url": "https://www.ahpc.gov.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bilingual-primary-homework-expat-kids-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
