@@ -10,5 +10,19 @@
   ],
   "website": "https://www.kumon.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Considering method franchise after social/physical baseline",
+    "Want a trial near home before year-two enrichment stack"
+  ],
+  "officialLinks": [
+    {
+      "label": "Kumon Singapore",
+      "url": "https://www.kumon.sg"
+    }
+  ],
+  "relatedGuides": [
+    "school-waitlist-realism",
+    "kids-activities-holiday-camps"
+  ]
 }

@@ -9,5 +9,33 @@
     "Islandwide"
   ],
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "EP refusal / 3-month employer appeal window",
+    "Job-change IPA sequencing or FWTES address blockers",
+    "Complex dependants, common-law LTVP, or pass cascade",
+    "Tech.Pass / ONE Pass / EntrePass conversions",
+    "Side-income or LOC renewal local-hire failures"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM — Employment Pass",
+      "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+    },
+    {
+      "label": "MOM — Cancel an Employment Pass",
+      "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass"
+    },
+    {
+      "label": "ICA — Long-Term Visit Pass",
+      "url": "https://www.ica.gov.sg/reside/LTVP"
+    }
+  ],
+  "relatedGuides": [
+    "employment-pass-singapore",
+    "compass-framework-explained",
+    "ep-rejection-appeal-ipa-issuance",
+    "between-jobs-stvp-singapore",
+    "ltvp-singapore"
+  ]
 }

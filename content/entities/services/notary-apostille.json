@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "notary-apostille",
+  "name": "Notary & apostille (category guide)",
+  "summary": "SAL-listed notaries, e-Apostille, and embassy translation paths for LTVP packs, US forms, and overseas affidavits — fee-capped, not character-billed overseas quotes.",
+  "body": "Singapore Academy of Law appoints Notaries Public and issues authentication / e-Apostille for notarised documents — SAL does not notarise for you. Start at the SAL directory, confirm whether the receiving authority wants notarisation only, apostille, or embassy legalisation, then book a notary near you. Notarial fees are regulated; page-based overseas translation-plus-apostille quotes of thousands of dollars for LTVP packs are a common Reddit failure mode — ask your embassy in Singapore for accepted translators first. Commissioners for Oaths handle statutory declarations for many local uses; notaries handle documents destined abroad. Pair immigration counsel when the pack is a common-law LTVP affidavit, not when you only need a signature witnessed.",
+  "category": "legal",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Overseas form needs Singapore notarisation / apostille",
+    "LTVP or PR pack needs certified translation sequencing",
+    "Embassy list of translators beats home-country character quotes",
+    "Statutory declaration vs notarised affidavit is unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "SAL — Notaries Public directory",
+      "url": "https://legalisation.sal.sg/Directory"
+    },
+    {
+      "label": "SAL — Legalisation / e-Apostille FAQ",
+      "url": "https://legalisation.sal.sg/Faq"
+    }
+  ],
+  "relatedGuides": [
+    "document-apostille-notary-singapore",
+    "ltvp-singapore",
+    "passports-and-documents-overseas"
+  ],
+  "featured": false,
+  "sponsored": false
+}
