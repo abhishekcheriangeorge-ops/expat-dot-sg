@@ -6,6 +6,78 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 27 — 2026-09-15
+
+Branch: `cursor/home-life-tick27-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while Tick 25 (#71) and Tick 26 (#88) stay open for the merge controller — **did not** touch #71 reno/lightning/Hougang–Bukit Batok–Marine Parade or #88 void-deck/power-outage/Jurong West–Choa Chu Kang–Sembawang paths. Topics: condo unit renovation notices for adjacent tenants, secondhand smoke neighbour rails, Bukit Panjang / Boon Lay / Geylang.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo stack renovation notices, weekday hacking, MA “cannot help” replies, dust / water shut-off adjacency.
+- r/askSingapore — balcony / service-yard secondhand smoke drift, OneService vs “smoking at home is legal,” CMC / CDRT folklore.
+- r/askSingapore — northwest / west / central-east shortlists for Bukit Panjang, Boon Lay, Geylang (vs Jurong East / Woodlands / Katong premiums).
+
+**Official**
+
+- [NEA — Renovation noise in residential areas](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/information-on-noise-from-renovation-work-in-residential-areas) (condo unit reno → MCST).
+- [BCA — BMSM prescribed by-laws](https://www.bca.gov.sg/publications/BMSM/BM_strata_mgt_reg.html) + [common private-estate issues](https://www1.bca.gov.sg/guidelines-and-requirements/common-issues-or-disputes-encountered-by-residents-in-private-estates/).
+- [NEA — Smoking prohibition](https://www.nea.gov.sg/our-services/public-cleanliness/smoking-prohibition) + [HDB common areas](https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/keeping-common-areas-safe-and-pleasant).
+- [CMC](https://www.mlaw.gov.sg/conflict-minimisation/cmc/) + [CDRT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-neighbour-dispute-claim) + [MCCY disputes framework](https://www.mccy.gov.sg/sectors/community/community-disputes-management-framework/).
+- [OneService](https://www.oneservice.gov.sg/).
+
+### Gaps vs open #71 / #88 and Tick 24 on main
+
+Tick 24 on main covers HIP / deposit-return / ActiveSG FAQ / Serangoon–Pasir Ris–Yishun. #71 (open) owns HDB neighbour reno + lightning + Hougang/Bukit Batok/Marine Parade. #88 (open) owns void-deck / common-property + SP Group outages + Jurong West/CCK/Sembawang. Remaining high-intent Home+Life gaps without collision: **condo unit renovation notices for adjacent tenants** (≠ HDB unit reno, ≠ void deck), **secondhand smoke neighbour rails** (≠ vaping illegality guide), plus neighbourhood depth for **Bukit Panjang**, **Boon Lay**, and **Geylang**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-unit-renovation-adjacent-tenants.mdx`
+- `content/guides/life/secondhand-smoke-neighbours-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/home/condo-noise-mcst-neighbours.mdx`
+- `content/guides/home/heartland-living-for-expats.mdx`
+- `content/guides/home/choosing-neighbourhood-expat.mdx`
+- `content/guides/home/construction-site-noise-renters.mdx`
+- `content/guides/life/vaping-tobacco-laws-foreigners.mdx`
+- `content/guides/life/apps-that-matter-singapore.mdx`
+- `src/lib/site.ts` (condo unit reno + secondhand smoke topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/bukit-panjang.json`
+- `content/entities/neighbourhoods/boon-lay.json`
+- `content/entities/neighbourhoods/geylang.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 or #88 file paths.
+- Did not re-litigate Tick 19–24 topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. Does an MCST reno notice mean unlimited weekday drilling?
+2. Who enforces after-hours condo hacking — NEA or the MA?
+3. Can I break my lease because the upstairs unit is renovating?
+4. Is balcony cigarette smoke illegal if it enters my flat?
+5. When is OneService the right rail vs CMC for smoke drift?
+6. Does vaping next door change the complaint path?
+7. Bukit Panjang vs Choa Chu Kang — when does DTL win over NSL?
+8. Is Boon Lay worth it for west-office value without Jurong East premiums?
+9. How do I vet a Geylang block before LOI?
+10. Condo reno dust — inventory claim or just tolerate?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 26 — 2026-09-15
 
 Branch: `cursor/home-life-tick26-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while Tick 25 (#71) stays open — **did not** touch #71 reno / lightning / Hougang–Bukit Batok–Marine Parade paths. Topics: HDB void-deck / common-property disputes, SP Group power-outage living, Jurong West / Choa Chu Kang / Sembawang (+ Woodlands refresh). Also restores Home HIP / deposit-return `site.ts` topics clobbered by intervening loops.

@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "boon-lay",
+  "name": "Boon Lay",
+  "summary": "West EWL town with Jurong Industrial Estate gravity, mall errands at Boon Lay / Jurong Point adjacency, and HDB value for west-office households.",
+  "body": "Boon Lay is the west heartland shortlist when your office pulls toward Jurong Island logistics, one-north via EWL hops, or west industrial campuses — and you want whole-flat value without paying the Jurong East interchange premium. Boon Lay MRT plus Jurong Point / surrounding plazas cover daily errands; Chinese Garden / lakeside edges are a short hop when you want green. Housing is HDB-dominant with suburban condo pockets. Expect heartland texture: void-deck life, feeder-bus dependency for deep estate blocks, and industrial-edge traffic on some arterials. Walk the block at 8am on a weekday before you LOI. Compare with Jurong East when you want mall-hub density and NSL/EWL interchange access, Jurong West for Pioneer-side sprawl, and Clementi when NUS / one-north adjacency matters more than deep-west rents.",
+  "region": "west",
+  "vibe": [
+    "heartland",
+    "west-industrial-edge",
+    "value",
+    "family",
+    "ewl"
+  ],
+  "bestFor": [
+    "west-office households",
+    "HDB whole-flat value hunters",
+    "families wanting space over mall prestige",
+    "car-light renters near Boon Lay MRT"
+  ],
+  "watchOuts": [
+    "Longer CBD rides than Jurong East interchange living",
+    "Industrial-edge traffic on some roads",
+    "Feeder-bus dependency away from MRT",
+    "Secondhand smoke / void-deck event density in older blocks"
+  ],
+  "housingMix": "HDB-dominant town with suburban condo pockets; limited landed.",
+  "commuteNotes": "East-West Line at Boon Lay; model door-to-desk via Jurong East if your office is central. Feeder timing matters for deep estate blocks.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1800,
+    "oneBedTo": 2800,
+    "familyFrom": 2400,
+    "familyTo": 3600
+  },
+  "mrt": [
+    "Boon Lay"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
