@@ -1,6 +1,16 @@
 import Link from "next/link";
 import { modes, pillars, primaryNav } from "@/lib/site";
 
+/** Hardcoded explore plane — newer journeys/tools without editing site.ts. */
+const EXPLORE_HUBS = [
+  { href: "/journeys/family-joining", label: "Family joining" },
+  { href: "/tools/ipa-window", label: "IPA window" },
+  { href: "/journeys/pre-arrival", label: "Pre-arrival" },
+  { href: "/journeys/arriving", label: "Arriving checklists" },
+  { href: "/tools", label: "All tools" },
+  { href: "/schools", label: "Schools" },
+] as const;
+
 export function SiteFooter() {
   return (
     <footer className="mt-auto border-t border-fog-soft bg-canopy-deep text-paper">
@@ -37,6 +47,24 @@ export function SiteFooter() {
                     className="text-[#d6d1c8] no-underline transition-colors hover:text-paper"
                   >
                     {pillar.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label="Explore">
+            <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten-soft">
+              Explore
+            </p>
+            <ul className="mt-4 grid grid-cols-2 gap-x-8 gap-y-2 text-sm lg:grid-cols-1">
+              {EXPLORE_HUBS.map((hub) => (
+                <li key={hub.href}>
+                  <Link
+                    href={hub.href}
+                    className="text-[#d6d1c8] no-underline transition-colors hover:text-paper"
+                  >
+                    {hub.label}
                   </Link>
                 </li>
               ))}

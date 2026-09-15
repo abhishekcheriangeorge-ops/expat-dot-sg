@@ -6,6 +6,31 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 10)
+
+Branch: `cursor/loop-g-seo-tick10-a144` → PR to `main`. New Loop-E surface shell + footer Explore + pillar WebPage schema after #74→#145 claimed hubs/tools/guides/chrome. Did **not** touch open G-stack paths (no ModeHub, PillarPage, HomeHubs, site.ts, seo.ts, claimed hubs/tools). No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- `/journeys/family-joining` and `/tools/ipa-window` (landed via Loop E on main) had crumbs only — no CollectionPage / HowTo / WebApplication equity or Related hub plane.
+- Footer lacked an Explore strip for those newer journeys/tools without editing `site.ts`.
+- Seven pillar wrappers emitted no WebPage JSON-LD sibling (PillarPage UI owned by #127).
+
+### Shipped this loop
+
+- Family-joining: HowTo + CollectionPage JSON-LD + Related hubs (schools/calendar/living)
+- IPA window: WebApplication + CollectionPage + Related hubs
+- `SiteFooter` Explore column (hardcoded; no `site.ts`)
+- Pillar wrappers (`move`/`home`/`money`/`family`/`life`/`belong`/`next`) WebPage via new `seo-shell.ts` (avoids #145 `seo.ts`)
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 / #145 alone for merge controller.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 16)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick16-49cb` → PR to `main` (fresh worktree off `origin/main` @ `83b4cc4` post-A11/#92; A12–A15 (#97/#105/#111/#121) had also landed on `main` by rebase time; this tip rebases onto `origin/main` @ `83b4cc4` post-#121. Did not re-edit those now-merged guide paths beyond the freed job-change/remittance/health FAQ depth.)

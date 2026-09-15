@@ -3,25 +3,61 @@ import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { IpaWindowCalculator } from "@/components/tools";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/seo-shell";
+
+const title = "IPA enter-and-issue window";
+const description =
+  "Sketch MOM Employment Pass IPA deadlines — common six-month enter-and-issue window, notification-letter buffer, and extension lead time before you book flights.";
+const path = "/tools/ipa-window";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "IPA enter-and-issue window",
-  description:
-    "Sketch MOM Employment Pass IPA deadlines — common six-month enter-and-issue window, notification-letter buffer, and extension lead time before you book flights.",
-  path: "/tools/ipa-window",
+  title,
+  description,
+  path,
 });
+
+const RELATED = [
+  { href: "/tools", label: "All tools" },
+  { href: "/journeys/family-joining", label: "Family joining later" },
+  { href: "/journeys/arriving", label: "Arriving checklists" },
+  { href: "/journeys/pre-arrival", label: "Pre-arrival" },
+  { href: "/move", label: "Move pillar" },
+  { href: "/arriving", label: "Arriving hub" },
+] as const;
 
 export default function IpaWindowToolPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Tools", path: "/tools" },
-    { name: "IPA window", path: "/tools/ipa-window" },
+    { name: "IPA window", path },
   ];
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          webApplicationJsonLd({
+            name: title,
+            description,
+            path,
+          }),
+          collectionPageJsonLd({
+            name: `${title} — related`,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -34,32 +70,22 @@ export default function IpaWindowToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <IpaWindowCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
-          <Link
-            href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            ← All tools
-          </Link>
-          <Link
-            href="/journeys/family-joining"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Family joining later →
-          </Link>
-          <Link
-            href="/journeys/arriving"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Arriving checklists →
-          </Link>
-          <Link
-            href="/move"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Move pillar →
-          </Link>
-        </p>
+        <nav aria-label="Related hubs" className="mt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+            Related hubs
+          </p>
+          <p className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            {RELATED.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </p>
+        </nav>
       </div>
     </>
   );
