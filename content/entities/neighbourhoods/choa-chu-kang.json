@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "choa-chu-kang",
+  "name": "Choa Chu Kang",
+  "summary": "North-west NSL / BPLRT town with Lot One errands, family HDB stock, and value rents — quiet suburban rhythm if you accept longer CBD hops.",
+  "body": "Choa Chu Kang (CCK) sits on the North-South Line with Bukit Panjang LRT links, giving north-west families a self-contained town centre around Lot One / CCK Way without Jurong East mall crush. Housing is overwhelmingly HDB with suburban condo pockets; whole-flat rents usually beat central-north mature estates for the same bedroom count. The lifestyle pitch is parks, schools, and errand gravity — not nightlife. Commute honesty: NSL to CBD is a long sit; west-office or north-west industrial lives fit better. Watch void-deck season, LRT transfer friction with strollers, and estate-level variance between CCK MRT-adjacent blocks and deeper LRT stops. Compare with Bukit Batok when you want quieter west NSL without CCK’s LRT mesh, Jurong West for EWL west value, and Woodlands when JB / Causeway geography dominates.",
+  "region": "west",
+  "vibe": [
+    "family",
+    "suburban",
+    "nsl",
+    "value",
+    "self-contained"
+  ],
+  "bestFor": [
+    "families wanting north-west HDB space",
+    "NSL commuters okay with longer CBD rides",
+    "households who prefer town-centre errands over Orchard",
+    "budget-conscious whole-flat renters"
+  ],
+  "watchOuts": [
+    "Long CBD peak-hour rides on NSL",
+    "LRT transfer friction with kids / groceries",
+    "Fewer default expat social networks",
+    "Void-deck and precinct facility noise weekends"
+  ],
+  "housingMix": "HDB towns with BPLRT connectivity; suburban condo pockets.",
+  "commuteNotes": "North-South Line at Choa Chu Kang; Bukit Panjang LRT feeder mesh. Test Tuesday 08:10 door-to-desk before you sign.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1800,
+    "oneBedTo": 2700,
+    "familyFrom": 2300,
+    "familyTo": 3500
+  },
+  "mrt": [
+    "Choa Chu Kang",
+    "Yew Tee"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

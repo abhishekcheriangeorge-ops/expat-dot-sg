@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "jurong-west",
+  "name": "Jurong West",
+  "summary": "Large west heartland town with Pioneer / Boon Lay gravity, industrial-edge rents, and more space than Jurong East’s mall hub — built for west-office and value HDB hunters.",
+  "body": "Jurong West is the sprawling neighbour to Jurong East’s interchange glamour: bigger town footprint, denser HDB stock, and rents that often undercut the JEM/Westgate premium. Pioneer and Boon Lay MRT plus feeder buses define daily life; Chinese Garden / lakeside edges and neighbourhood plazas cover weekends if you are not chasing Holland V brunch. Expat shortlists land here for west-office commutes (Jurong Island logistics, one-north adjacency via EWL hops) and whole-flat value — not for walkable CBD nightlife. Expect heartland texture: void-deck events, town-council ops, and industrial-edge lorries on some arterials. Walk the block at 8am on a weekday before you LOI; Pioneer vs deep-estate feeder time is the make-or-break. Compare with Jurong East when you want mall-hub density, Clementi when you want NUS/one-north adjacency, and Choa Chu Kang when NSL north-west value matters more than EWL west.",
+  "region": "west",
+  "vibe": [
+    "heartland",
+    "value",
+    "spacious",
+    "west-industrial-edge",
+    "family"
+  ],
+  "bestFor": [
+    "west-office households",
+    "HDB whole-flat value hunters",
+    "families wanting space over mall prestige",
+    "car-light renters near Pioneer / Boon Lay"
+  ],
+  "watchOuts": [
+    "Longer CBD rides than Jurong East interchange living",
+    "Industrial-edge traffic on some roads",
+    "Void-deck and precinct event noise in dense blocks",
+    "Feeder-bus dependency away from MRT"
+  ],
+  "housingMix": "HDB-dominant town with suburban condo pockets; limited landed.",
+  "commuteNotes": "East-West Line at Pioneer / Boon Lay; model door-to-desk via Jurong East interchange if your office is central. Feeder timing matters for deep estate blocks.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1800,
+    "oneBedTo": 2800,
+    "familyFrom": 2400,
+    "familyTo": 3600
+  },
+  "mrt": [
+    "Pioneer",
+    "Boon Lay"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

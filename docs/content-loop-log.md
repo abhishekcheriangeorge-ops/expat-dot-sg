@@ -6,6 +6,77 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 26 — 2026-09-15
+
+Branch: `cursor/home-life-tick26-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while Tick 25 (#71) stays open — **did not** touch #71 reno / lightning / Hougang–Bukit Batok–Marine Parade paths. Topics: HDB void-deck / common-property disputes, SP Group power-outage living, Jurong West / Choa Chu Kang / Sembawang (+ Woodlands refresh). Also restores Home HIP / deposit-return `site.ts` topics clobbered by intervening loops.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore + r/singapore — recurring HDB void-deck wedding / funeral / karaoke noise, corridor clutter & bicycle obstruction, BBQ-pit smoke drift (tenant escalation folklore → OneService / Town Council).
+- r/askSingapore — block-level power trips, high-floor lift outages, spoiled freezer food after feeder faults (SP Group vs in-unit RCD confusion).
+- r/askSingapore — west / north heartland shortlists comparing Jurong West vs Jurong East, Choa Chu Kang NSL family value, Sembawang vs Woodlands Causeway trade-offs.
+
+**Official**
+
+- [OneService](https://www.oneservice.gov.sg/) + [HDB — keeping common areas safe and pleasant](https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/keeping-common-areas-safe-and-pleasant).
+- [MCCY — Community Disputes Management Framework](https://www.mccy.gov.sg/sectors/community/community-disputes-management-framework/) + [CMC](https://www.mlaw.gov.sg/conflict-minimisation/cmc/).
+- [SP Group](https://www.spgroup.com.sg/) + [EMA — Electricity](https://www.ema.gov.sg/) + [SCDF home fire safety](https://www.scdf.gov.sg/).
+
+### Gaps vs Tick 24 on main / Tick 25 open (Home + Life slice)
+
+Tick 24 (#58) shipped HIP / deposit-return / ActiveSG FAQ / Serangoon–Pasir Ris–Yishun. Tick 25 (#71, open) owns neighbour-reno permits, lightning living, Hougang / Bukit Batok / Marine Parade — left untouched. Remaining high-intent Home+Life gaps matched forum heat without colliding #71: **HDB void-deck / common-property disputes**, **SP Group power-outage living**, plus neighbourhood entity depth for **Jurong West**, **Choa Chu Kang**, and **Sembawang** (Woodlands refresh only). Condo MCST unit-reno notice depth left as cross-link on existing condo-noise guide.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/hdb-void-deck-common-property-disputes-tenants.mdx`
+- `content/guides/life/power-outages-sp-group-singapore.mdx`
+
+**Upgraded guides (cross-links + related rails)**
+
+- `content/guides/home/heartland-living-for-expats.mdx`
+- `content/guides/home/choosing-neighbourhood-expat.mdx`
+- `content/guides/home/condo-noise-mcst-neighbours.mdx`
+- `content/guides/home/utilities-telecom-setup.mdx`
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/life/apps-that-matter-singapore.mdx`
+- `src/lib/site.ts` (restore Home HIP / deposit-return; add void-deck + Life power-outage; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/jurong-west.json`
+- `content/entities/neighbourhoods/choa-chu-kang.json`
+- `content/entities/neighbourhoods/sembawang.json`
+- `content/entities/neighbourhoods/woodlands.json` (refresh vs Sembawang / west comps)
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not touch Tick 25 (#71) reno / lightning / Hougang–Bukit Batok–Marine Parade files.
+- Did not re-litigate Tick 19–24 fibre/mould/CDRT/HDB-sale/construction/early-exit/flood/renewal/entry/dengue/HIP/deposit-return topics beyond cross-links + `site.ts` restore.
+
+### Questions mined (sample)
+
+1. Can a void-deck wedding run past midnight under my bedroom?
+2. Who do I call for corridor bikes blocking the fire escape — police or Town Council?
+3. Is BBQ-pit smoke a OneService case or a neighbour mediation case?
+4. Can I break my lease because of repeated funeral tents downstairs?
+5. Who restores power — SP Group or my electricity retailer?
+6. Should I call 995 when the block goes dark?
+7. Will my landlord pay for spoiled freezer food after an outage?
+8. Jurong West vs Jurong East — when is Pioneer value worth skipping the interchange?
+9. Is Choa Chu Kang worth NSL family space if the CBD ride is long?
+10. Sembawang vs Woodlands — quieter north without Causeway crush?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 25 — 2026-09-15
 
 Branch: `cursor/home-life-tick25-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Rebased onto post-#58 `main` after later A/D/H/F merges; HIP / deposit-return / Serangoon–Pasir Ris–Yishun stay Tick 24’s. Topics: neighbour renovation rails, lightning living, Hougang / Bukit Batok / Marine Parade. Also restores Home HIP / deposit-return / neighbourhood `site.ts` topics clobbered by intervening loops.

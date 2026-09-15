@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "sembawang",
+  "name": "Sembawang",
+  "summary": "Northern NSL coastal town with park and beach-park adjacency, quieter heartland pace, and value rents — for households who want north space without Woodlands’ Causeway crush.",
+  "body": "Sembawang is the quieter north shortlist when Woodlands feels too Causeway-oriented and Yishun feels too hub-dense. NSL access, Sembawang Beach Park / park connector edges, and neighbourhood malls cover daily life; Sun Plaza / Canberra adjacency depends on exact block. Housing skews HDB with newer and older precincts — whole-flat value is the pitch, not River Valley social density. Commute tax to CBD is real; the payoff is evening park walks and slightly less border traffic theatre than Woodlands. Walk noise at dinner time: void decks, nearby works, and coastal wind-driven rain on higher floors. Compare with Woodlands for JB logistics, Yishun for Northpoint hub gravity, and Punggol if you want northeast new-town energy instead of north NSL calm.",
+  "region": "north",
+  "vibe": [
+    "coastal-park",
+    "quiet",
+    "heartland",
+    "value",
+    "nsl"
+  ],
+  "bestFor": [
+    "north value hunters who dislike Causeway congestion",
+    "families wanting park / beach-park access",
+    "HDB whole-flat renters",
+    "households okay with longer CBD rides"
+  ],
+  "watchOuts": [
+    "Long NSL rides to CBD",
+    "Thinner expat social defaults than central",
+    "Precinct variance — Canberra vs older Sembawang pockets",
+    "Weekend void-deck and park-crowd spikes"
+  ],
+  "housingMix": "HDB-dominant with suburban condo pockets near newer precincts.",
+  "commuteNotes": "North-South Line at Sembawang / Canberra; verify feeder buses for park-side blocks. Model door-to-desk on a rainy Tuesday.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1700,
+    "oneBedTo": 2600,
+    "familyFrom": 2200,
+    "familyTo": 3400
+  },
+  "mrt": [
+    "Sembawang",
+    "Canberra"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
