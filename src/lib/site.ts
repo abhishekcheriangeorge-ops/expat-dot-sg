@@ -463,6 +463,16 @@ export const pillars: Pillar[] = [
         blurb: "Consent deadlines, med packets, emergency contacts.",
       },
       {
+        label: "Impetigo exclusion ops",
+        href: "/guides/dual-career-kids-impetigo-school-exclusion-singapore",
+        blurb: "Written return rules, towel resets, swim/mat holds.",
+      },
+      {
+        label: "Book week / author-visit ops",
+        href: "/guides/international-school-book-week-author-visit-ops-dual-career-singapore",
+        blurb: "Costume blackouts, parade calls, wallet caps.",
+      },
+      {
         label: "Pink-eye exclusion ops",
         href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
         blurb: "Written return rules, swim holds, GP vs eye clinic.",
@@ -631,6 +641,11 @@ export const pillars: Pillar[] = [
         label: "Dance-studio waiting belonging",
         href: "/guides/dance-studio-waiting-parent-belonging-singapore",
         blurb: "Repeat ballet-bench hellos without exam politics.",
+      },
+      {
+        label: "Gymnastics-studio waiting belonging",
+        href: "/guides/gymnastics-studio-waiting-parent-belonging-singapore",
+        blurb: "Repeat viewing-glass hellos without squad politics.",
       },
       {
         label: "LGBTQ+ resources",

@@ -3,14 +3,14 @@
   "slug": "iss-international",
   "name": "ISS International School",
   "summary": "IB continuum school near Preston / Alexandra with a long Singapore history.",
-  "body": "ISS is an established IB school serving a diverse international community near the Alexandra / River Valley west edge. It is a frequent comparison school against larger UK/US campuses for families who want IB with a slightly different scale and culture. Dual-career families should request the learning-support handbook and any tutoring referral norms before assuming classroom strategies equal 1:1 rescue.",
+  "body": "ISS is an established IB school serving a diverse international community near the Alexandra / River Valley west edge. It is a frequent comparison school against larger UK/US campuses for families who want IB with a slightly different scale and culture. Dual-career families should request the learning-support handbook and any tutoring referral norms before assuming classroom strategies equal 1:1 rescue. Dual-career note: keep book-order wallet caps written before fair bundles and signed copies stack.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "Preschool–Grade 12",
+  "ages": "Preschool\u2013Grade 12",
   "neighbourhood": "tiong-bahru",
   "campus": "Preston",
   "languages": [
@@ -20,5 +20,8 @@
   "waitlistNotes": "Check grade-level openings; touring recommended.",
   "website": "https://www.iss.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-book-week-author-visit-ops-dual-career-singapore"
+  ]
 }

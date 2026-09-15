@@ -3,22 +3,25 @@
   "slug": "chatsworth-international",
   "name": "Chatsworth International School",
   "summary": "IB World School with multiple campuses and a relatively approachable admissions culture.",
-  "body": "Chatsworth offers IB programmes across campuses that historically include Orchard and east-side sites. It is often shortlisted by families seeking IB without the longest mega-school waitlists — though demand still varies by grade. Verify which campus matches your housing. Multi-campus / bus routing questions matter as much as fee bands when both adults work across town.",
+  "body": "Chatsworth offers IB programmes across campuses that historically include Orchard and east-side sites. It is often shortlisted by families seeking IB without the longest mega-school waitlists \u2014 though demand still varies by grade. Verify which campus matches your housing. Multi-campus / bus routing questions matter as much as fee bands when both adults work across town. Dual-career note: author-visit and book-parade weeks are hard calendar blocks, not optional drop-ins.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "Nursery–Year 13",
+  "ages": "Nursery\u2013Year 13",
   "neighbourhood": "river-valley",
-  "campus": "Orchard / East — verify",
+  "campus": "Orchard / East \u2014 verify",
   "languages": [
     "English"
   ],
   "feesBand": "Mid to upper-mid",
-  "waitlistNotes": "Often more flexible mid-year than mega-campuses — still apply early.",
+  "waitlistNotes": "Often more flexible mid-year than mega-campuses \u2014 still apply early.",
   "website": "https://www.chatsworth.com.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-book-week-author-visit-ops-dual-career-singapore"
+  ]
 }
