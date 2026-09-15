@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 49 — 2026-09-15
+
+Branch: `cursor/home-life-tick49-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295/#301/#309 stay open for the merge controller — **did not** touch those PR paths. Topics: condo standby generator / ATS testing notices, ActiveSG athletics track, Kembangan Fringe / Bedok North West / Guillemard East. Tip confirmed as **#309** (Tick 48); opened next tip in parallel without waiting on merge.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → #266 → #274 → #282 → #295 → #301 → #309 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — genset/ATS load-test noise, brief power flickers during live transfer, WFH clashes with MA calendars.
+- r/askSingapore — ActiveSG athletics track Standard Rate for foreigners, evening lane release races, spike rules.
+- r/askSingapore — east/central-east shortlists for Kembangan Fringe vs Bedok North West vs Guillemard East noise / event trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [SCDF — fire safety](https://www.scdf.gov.sg/home/fire-safety) (drill contrast).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs open #71 → #309
+
+Open PRs own reno-noise through facade/gondola / sepak takraw and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo standby generator / ATS testing notices** (≠ fire-alarm drills; ≠ facade/gondola), **ActiveSG athletics track** (≠ sepak takraw; ≠ netball; ≠ pickleball; ≠ stadium courts; ≠ football/futsal; ≠ fencing; ≠ bowling; ≠ skating; ≠ climbing; ≠ archery; ≠ camps), plus neighbourhood depth for **Kembangan Fringe**, **Bedok North West**, and **Guillemard East**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-standby-generator-ats-testing-notices-tenants.mdx`
+- `content/guides/life/activesg-athletics-track-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #309.
+- `src/lib/site.ts` (generator/ATS + ActiveSG athletics track topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/kembangan-fringe.json`
+- `content/entities/neighbourhoods/bedok-north-west.json`
+- `content/entities/neighbourhoods/guillemard-east.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 / #266 / #274 / #282 / #295 / #301 / #309 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is generator / ATS testing the same as a fire-alarm drill?
+2. Will my unit lose power during a live transfer test?
+3. Is genset noise a neighbour reno or gondola job?
+4. Can I refuse testing because I WFH?
+5. Can foreigners book ActiveSG athletics tracks at Standard Rate?
+6. Is track booking the same as stadium court or sepak takraw hire?
+7. Are spikes allowed on public lanes?
+8. Kembangan Fringe vs Bedok North West — quieter EWL or deeper heartland?
+9. Is Guillemard East too event-day noisy?
+10. When is a condo jogging path still enough?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 48 — 2026-09-15
 
 Branch: `cursor/home-life-tick48-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295/#301 stay open for the merge controller — **did not** touch those PR paths. Topics: condo facade / gondola access notices, ActiveSG sepak takraw, Kaki Bukit Fringe / Eunos North / Paya Lebar West. Tip confirmed as **#301** (Tick 47); opened next tip in parallel without waiting on merge.

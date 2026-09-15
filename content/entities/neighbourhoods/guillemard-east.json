@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "guillemard-east",
+  "name": "Guillemard East",
+  "summary": "East of Guillemard toward Dakota / Paya Lebar edges — denser central-east living with stadium-adjacent energy and dual-line hops.",
+  "body": "Guillemard East is the shortlist when denser central-east living and stadium-adjacent energy matter more than quiet heartland weekends. The pocket sits east of Guillemard toward Dakota / Paya Lebar edges; housing mixes mid-age condos, walk-ups, and selective HDB. Expats land here for car-light hops to CBD / Bugis and ActiveSG catchment without Orchard premiums. Watch-outs: event-day crowd spikes, high-rise genset testing notices, and confusing Guillemard vs Guillemard East shortlists. Compare with Kembangan Fringe for quieter EWL living, Bedok North West for heartland value, and Paya Lebar West when interchange office-edge wins.",
+  "region": "central",
+  "vibe": [
+    "central-east",
+    "stadium-adjacent",
+    "dense",
+    "practical",
+    "dual-line"
+  ],
+  "bestFor": [
+    "car-light CBD / Bugis workers okay with denser texture",
+    "households comparing Guillemard East vs Kembangan Fringe",
+    "renters who want stadium-adjacent ActiveSG catchment",
+    "people who will book athletics track sessions weekly"
+  ],
+  "watchOuts": [
+    "Event-day crowd and traffic spikes",
+    "High-rise standby generator / ATS notices",
+    "Peak dual-line crowding",
+    "Guillemard vs Guillemard East listing confusion"
+  ],
+  "housingMix": "Mid-age condos, walk-ups, and selective HDB near stadium edges.",
+  "commuteNotes": "Circle / East-West gravity via Dakota / Paya Lebar depending on block; bus links along Guillemard. Walk an event evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3800,
+    "familyFrom": 3400,
+    "familyTo": 6800
+  },
+  "mrt": [
+    "Dakota",
+    "Paya Lebar",
+    "Mountbatten"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

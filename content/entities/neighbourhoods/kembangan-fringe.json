@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "kembangan-fringe",
+  "name": "Kembangan Fringe",
+  "summary": "Edges of Kembangan toward Eunos / Bedok — EWL-adjacent quieter east living with practical rents and ActiveSG catchment.",
+  "body": "Kembangan Fringe is the shortlist when EWL adjacency and quieter east texture matter more than Paya Lebar interchange crowds. The pocket sits on the Kembangan / Eunos / Bedok edges; housing mixes HDB, mid-age condos, and walk-ups. Expats land here for car-light hops to Bugis / City Hall and ActiveSG track catchment without CBD premiums. Watch-outs: genset/ATS notice stacks on mid-rises, evening arterial noise, and confusing Kembangan vs Kembangan Fringe shortlists. Compare with Bedok North West for deeper heartland texture, Guillemard East for denser central-east living, and Eunos North when food density wins.",
+  "region": "east",
+  "vibe": [
+    "ewl-adjacent",
+    "quieter-east",
+    "practical",
+    "value",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "car-light CBD / Bugis workers who want quieter nights",
+    "renters comparing Kembangan Fringe vs Bedok North West",
+    "households who will book ActiveSG athletics tracks weekly",
+    "people okay with mid-age estate texture"
+  ],
+  "watchOuts": [
+    "Standby generator / ATS testing notices on mid-rises",
+    "Evening arterial noise on some edges",
+    "Peak EWL crowding",
+    "Kembangan vs Kembangan Fringe listing confusion"
+  ],
+  "housingMix": "HDB, mid-age condos, and walk-ups with selective newer edges.",
+  "commuteNotes": "East-West Line gravity via Kembangan; bus links toward Eunos / Bedok. Walk a weekday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3400,
+    "familyFrom": 3000,
+    "familyTo": 5800
+  },
+  "mrt": [
+    "Kembangan",
+    "Eunos",
+    "Bedok"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
