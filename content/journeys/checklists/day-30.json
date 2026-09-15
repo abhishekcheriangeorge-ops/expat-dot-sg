@@ -52,7 +52,7 @@
     {
       "id": "housing-search",
       "title": "Start the longer-term housing search",
-      "detail": "Decide condo vs HDB eligibility, budget, and agent engagement. Sketch first-month cash (deposit + advance rent + stamp duty + agent) before you LOI.",
+      "detail": "Decide condo vs HDB eligibility, budget, and agent engagement. Sketch first-month cash (deposit + advance rent + stamp duty + agent) before you LOI — use the lease-duty tool if you only need the IRAS line item.",
       "pillar": "home",
       "href": "/tools/setup-cash"
     },
@@ -65,7 +65,7 @@
     {
       "id": "school-enquiry",
       "title": "Enquire at shortlisted schools (if with kids)",
-      "detail": "International-school waitlists and fixed admissions rounds (e.g. UWCSEA Sep–Nov for the following August) move slowly. Watch the calendar for P1 and IS application windows.",
+      "detail": "International-school waitlists and fixed admissions rounds (e.g. UWCSEA Sep–Nov for the following August) move slowly. Watch the calendar for AEIS/S-AEIS, P1, and IS application windows — AEIS tests are only held in Singapore.",
       "pillar": "family",
       "optional": true,
       "href": "/calendar"
@@ -79,10 +79,11 @@
     },
     {
       "id": "driving",
-      "title": "Decide on driving licence conversion",
-      "detail": "Foreign licence conversion windows are time-bound. If you will drive, start conversion before the grace period closes.",
+      "title": "Start foreign licence conversion before month 12",
+      "detail": "Foreigners residing here generally get under 12 months on a foreign licence (+ IDP / English translation rules). Conversion usually needs BTT while still inside that window — calendar the clock from your arrival date, not from when you buy a car.",
       "pillar": "move",
-      "optional": true
+      "optional": true,
+      "href": "/guides/converting-foreign-driving-licence"
     },
     {
       "id": "social-anchor",

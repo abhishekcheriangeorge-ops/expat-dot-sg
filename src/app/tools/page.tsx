@@ -6,7 +6,7 @@ import { JourneyHero } from "@/components/journeys";
 export const metadata: Metadata = {
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash sketch, cost-of-living estimate, and Employment Pass salary threshold illustration.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, cost-of-living estimate, and Employment Pass salary threshold illustration.",
 };
 
 const tools = [
@@ -15,6 +15,12 @@ const tools = [
     title: "First-month cash sketch",
     summary:
       "Advance rent, deposit, agent fee, IRAS lease duty, and temp housing — the LOI-week cash question.",
+  },
+  {
+    href: "/tools/lease-duty",
+    title: "Lease stamp duty",
+    summary:
+      "IRAS tenancy lease duty only — 0.4% of total rent (≤4 years), 4× AAR for longer leases, AAR exemption.",
   },
   {
     href: "/tools/cost-of-living",

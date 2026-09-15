@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "s-aeis-2027",
+  "title": "S-AEIS 2027 — mid-year MOE international admissions",
+  "summary": "Supplementary AEIS for same-year entry (typically April/May start). Applications open early January 2027; tests tentatively end February to early March 2027. Covers Primary 2–4 and Secondary 1–2 — confirm live MOE windows before you book flights.",
+  "date": "2027-01-05",
+  "endDate": "2027-03-06",
+  "recurring": true,
+  "venue": "Online apply · tests in Singapore",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/international-students/s-aeis",
+  "featured": true
+}
