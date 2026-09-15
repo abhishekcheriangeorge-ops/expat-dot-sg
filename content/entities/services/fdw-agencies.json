@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "fdw-agencies",
+  "name": "Helper agencies & DIY FDW (category guide)",
+  "summary": "When to pay an agency vs renew/transfer yourself on MOM eServices — SIP clocks, ≥S$60k enhanced MI, and age-50 premium jumps.",
+  "body": "You can apply, renew, and cancel an MDW Work Permit yourself with Singpass via MOM’s FDW eServices — agencies are optional after the first hire. First-time helpers still need the Settling-In Programme within seven days of arrival and cannot start work before SIP. Before every renewal, place/extend medical + personal accident insurance meeting MOM’s enhanced MI floor (≥S$60k inpatient/day-surgery annual limit; Stage 2 rules from 1 July 2025 standardise exclusions and age-banded premiums for helpers above 50). Shop insurers directly — agency-tied quotes are often not the cheapest, especially after age 50. Non-Malaysian helpers need a fresh security bond timed to the renewal. Transfers skip SIP but usually cost more in salary and placement. Levy concession for young children generally requires SC/PR kids — most EP+DP households miss it. Compare Comfort, Nation, and DIY on total cost, replacement policy, who books SIP/6ME, and whether dental sits outside the MI quote. This is a category guide, not a ranked agency league table.",
+  "category": "fdw",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "First hire — SIP within 7 days + EOP done",
+    "Renewal: DIY vs agency fee for same MOM steps",
+    "Helper over 50 — MI premium jumps sharply",
+    "Comparing transfer salary vs new-hire all-in cost"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM — Employ / renew MDW without an agency",
+      "url": "https://www.mom.gov.sg/faq/work-permit-for-fdw/can-i-employ-an-fdw-without-going-through-an-employment-agency"
+    },
+    {
+      "label": "MOM — MDW insurance requirements",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements"
+    },
+    {
+      "label": "MOM — Renew MDW Work Permit",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/renew-a-work-permit"
+    },
+    {
+      "label": "MOM — Settling-In Programme",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/settling-in-programme"
+    }
+  ],
+  "relatedGuides": [
+    "hiring-domestic-helper-mdw"
+  ],
+  "featured": false,
+  "sponsored": false
+}
