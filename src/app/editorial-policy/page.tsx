@@ -70,6 +70,8 @@ export default function EditorialPolicyPage() {
             authorities, FWA → TAFEP escalation for EP / S Pass, IPA-before-
             resign calendar for EP / S Pass pivots, annual leave encashment
             vs notice offset, unpaid retrenchment benefit TADM vs TAFEP,
+            DP LOC CPF hire-timing edges, STVP extension vs Special
+            Pass edges, AL encashment×IR21 tax-clearance edges,
             EP probation×new IPA overlap, training-bond final-pay
             deduction edges, FCF 14-day relist/ad-match edges,
             WHP/TEP→EP handoff, graduate LTVP→EP sponsor packaging,

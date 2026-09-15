@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "EP probation × new IPA overlap",
-        href: "/guides/ep-probation-resign-new-ipa-overlap-singapore",
-        blurb: "Probation notice ≠ cancel ≠ IPA — align three clocks.",
+        label: "DP LOC CPF hire timing",
+        href: "/guides/dp-loc-cpf-hire-timing-edges-singapore",
+        blurb: "Three CPF months need calendar math — not month-11 hires.",
       },
       {
-        label: "Training-bond final-pay cuts",
-        href: "/guides/training-bond-final-pay-deduction-edges-singapore",
-        blurb: "Clawback invoice ≠ payroll self-help on last cheque.",
+        label: "STVP extension vs Special Pass",
+        href: "/guides/stvp-extension-vs-special-pass-edges-singapore",
+        blurb: "EP cancel → STVP stay — Special Pass is usually WP folklore.",
       },
       {
-        label: "FCF 14-day relist / ad-match",
-        href: "/guides/fcf-14-day-relist-ad-match-edges-singapore",
-        blurb: "Pulled MCF ads restart risk — match before you resign.",
+        label: "AL encashment × IR21 edges",
+        href: "/guides/al-encashment-ir21-tax-clearance-edges-singapore",
+        blurb: "Leave payout and tax clearance share one last-day email.",
       },
       {
         label: "Between jobs / STVP",
