@@ -6,6 +6,75 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 34) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick34-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #264. Shared log + `site.ts` only. Did not wait for #264 merge/CI. No force-push to `main`. Open stack treated as #254 → #264.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — vomit in class; 48-hour folklore; swim bans.
+- r/askSingapore — residential camp consent closes mid-board-meeting; unlabelled meds.
+- r/askSingapore — ballet-studio benches as the real weekday parent meetup.
+
+**Official**
+
+- [HealthHub gastroenteritis](https://www.healthhub.sg/a-z/diseases-and-conditions/gastroenteritis) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools) + [Sport Singapore](https://www.sportsingapore.gov.sg/)
+- [NAC](https://www.nac.gov.sg/) + [Esplanade](https://www.esplanade.com/) + [ActiveSG](https://www.activesg.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–33 (open through #264) covered pink-eye, concert/recital, music-studio waiting, ear infection, winter fair, swim waiting. Remaining heat without contested paths: **gastro / vomiting–diarrhoea exclusion**, **IS residential camp / overnight trip ops**, **dance-studio waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-gastroenteritis-vomiting-diarrhoea-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-residential-camp-overnight-trip-ops-dual-career-singapore.mdx`
+- `content/guides/belong/dance-studio-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- chickenpox exclusion, head-lice outbreak, kids activities/holiday camps, sports-day/carnival ops, foodcourt dinner belonging, youth sports academies
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- UWCSEA East, UWCSEA Dover, Dulwich College Singapore, Parkway Shenton, physiotherapy-rehab, mental-health-counselling
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #254–#264 guide/entity paths.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns overnight hydration checks?
+2. Is the return clock written?
+3. When does camp consent close?
+4. Who is the named emergency contact?
+5. Same dance bench next week?
+6. Is swim paused in writing?
+7. Is the med/allergy packet labelled?
+8. Helper rest day vs camp pickup?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 53 — 2026-09-15
 
 Branch: `cursor/home-life-tick53-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` after tip **#339** (Tick 52) merged; no other open Loop C drafts in the way. Topics: condo smoke-stop / staircase pressurisation fan test notices, ActiveSG gateball / petanque, Pasir Ris West Fringe / Loyang Edge / Tampines North Edge. Tip after Tick 52 confirmed as **#339**; opened next tip off that tip (now on `main`) without ads / Grok / force-push to main. Shared log conflict resolved by prepend.
