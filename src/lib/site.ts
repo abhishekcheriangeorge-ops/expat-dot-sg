@@ -54,7 +54,7 @@ export const modes = [
       {
         href: "/guides/first-week-sim-singpass-bank",
         label: "Week-one dependency map",
-        blurb: "The real order for SIM, Singpass, bank, and PayNow.",
+        blurb: "HR can’t skip issuance; eSIM OK if +65; FIN mismatch workarounds.",
       },
       {
         href: "/guides/sg-arrival-card-expats",
@@ -129,7 +129,7 @@ export const pillars: Pillar[] = [
       {
         label: "Week-one dependency map",
         href: "/guides/first-week-sim-singpass-bank",
-        blurb: "SIM → Singpass → bank order that stops circular blockers.",
+        blurb: "HR can’t skip issuance; eSIM OK if +65; FIN mismatch workarounds.",
       },
       {
         label: "SG Arrival Card",
@@ -169,7 +169,7 @@ export const pillars: Pillar[] = [
       {
         label: "Importing pets (AVS)",
         href: "/guides/importing-pets-singapore",
-        blurb: "Country schedules, AQC booking, owner vs recognised agent.",
+        blurb: "Brachycephalic airline limits; condo caps; pets ≠ Arrival Card.",
       },
       {
         label: "Notify MOM — address / passport",
@@ -295,7 +295,7 @@ export const pillars: Pillar[] = [
       {
         label: "Wrong PayNow recovery",
         href: "/guides/wrong-paynow-epayment-recovery",
-        blurb: "Call your bank first; never peer-refund strangers.",
+        blurb: "FIN≠bulletproof; no self-freeze clawback; scams≠typos.",
       },
       {
         label: "High-interest salary accounts",

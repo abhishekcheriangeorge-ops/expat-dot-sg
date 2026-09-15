@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 30)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick30-49cb` → PR to `main` (fresh worktree off `origin/main` @ `a668a77`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180)/[#187](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/187)/[#194](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/194)/[#200](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/200)/[#208](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/208)/[#211](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/211)/[#218](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/218) A17–A29 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → #187 → #194 → #200 → #208 → #211 → #218 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — flat-faced breed cargo bans; condo one-pet caps after AVS approval; pets vs Arrival Card myths.
+- r/askSingapore — HR demanding Singpass day one; eSIM OTP fails; FIN name mismatch on Singpass.
+- r/askSingapore — FIN proxy still wrong payee; freezing account to claw back; scam vs typo recovery.
+
+**Official**
+
+- [AVS — Bringing pets into Singapore](https://www.nparks.gov.sg/avs) schedule / AQC framing
+- Singpass enrolment / local-number 2FA practice (verify live)
+- [MAS — E-Payments User Protection Guidelines](https://www.mas.gov.sg/) mistaken-transfer recovery framing
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A29 claim Student’s Pass through shipping/HSA/remittances. Tick 30 deepens **pet import**, **first-week SIM/Singpass/bank**, and **wrong PayNow recovery** without colliding those paths (PayNow setup body left untouched).
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/importing-pets-singapore.mdx` (+3)
+- `content/guides/move/first-week-sim-singpass-bank.mdx` (+3)
+- `content/guides/money/wrong-paynow-epayment-recovery.mdx` (+3)
+- `src/lib/site.ts` (pets / week-one / wrong-PayNow blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A29 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180/#187/#194/#200/#208/#211/#218 for the merge controller.
+
+### Questions mined (sample)
+
+1. Extra airline rules for brachycephalic breeds?
+2. Condo one-pet cap after AVS import of two?
+3. Does a pet need an Arrival Card?
+4. Can HR require Singpass before issuance?
+5. Does eSIM work for Singpass SMS?
+6. FIN issued but Singpass name mismatch?
+7. Does FIN PayNow stop all wrong sends?
+8. Does freezing my account claw money back?
+9. Is a scam push-payment treated like a typo?
+
+---
+
 ## Loop B — Family + Belong (tick 12) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick12-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped braces / teen MH / playgroups (#76 tick 10) and myopia / swim / cooking (#80 tick 11).
