@@ -452,7 +452,12 @@ export const pillars: Pillar[] = [
       {
         label: "Food & hawker literacy",
         href: "/guides/hawker-food-guide",
-        blurb: "Order like a local — centres, etiquette, favourites.",
+        blurb: "Cash vs PayNow, tray return, and a five-stall rotation.",
+      },
+      {
+        label: "Weekend getaways",
+        href: "/guides/weekend-getaways-from-singapore",
+        blurb: "JB Causeway timing, Batam ferries, and pass-card gotchas.",
       },
       {
         label: "Shopping & nightlife",
@@ -622,6 +627,11 @@ export const pillars: Pillar[] = [
         label: "After getting PR",
         href: "/guides/after-getting-pr-checklist",
         blurb: "What transfers and what you leave behind.",
+      },
+      {
+        label: "Annual life admin",
+        href: "/guides/renewing-life-admin-annually",
+        blurb: "Passes, REP, NRIC, insurance, lease — September checklist.",
       },
     ],
     related: [

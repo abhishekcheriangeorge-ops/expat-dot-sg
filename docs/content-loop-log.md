@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 12)
+
+Branch: `loop/story-aeo-tick12` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller file sets (#77 H9 restore, #69 H10, #73 H11). Prefer merge order **#77 → #69 → #73** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — hawker cash vs PayNow for foreigners; tray-return shame; tourist-stall rotation fatigue.
+- r/askSingapore — “what renews every year?” passport / EP / REP / school fee panic threads.
+- r/askSingapore — Causeway Friday/Sunday hell; car-share cross-border bans; STVP “Batam reset” folklore.
+
+**Official**
+
+- [NEA — Hawker centres](https://www.nea.gov.sg/our-services/hawker-management/about-hawker-centres) + [ABS — PayNow](https://www.abs.org.sg/e-payments/pay-now).
+- [MOM — Work passes](https://www.mom.gov.sg/passes-and-permits) + [ICA — NRIC re-registration](https://www.ica.gov.sg/documents/ic/re-registration) + [ICA — eCOA address](https://www.ica.gov.sg/documents/ic/update_residential_address) + [ICA — REP](https://www.ica.gov.sg/reside/PR/apply-REP) + [MFA — Overseas missions](https://www.mfa.gov.sg/Overseas-Missions).
+- [ICA — Travellers](https://www.ica.gov.sg/enter-depart) + [LTA](https://www.lta.gov.sg/).
+
+### Gaps vs open H + ticks 1–11
+
+Open: #77 (EP notify / Lemon Law / lost NRIC), #69 (Student Pass / LTVP / REP), #73 (apps / COE vs Grab / REP transfer). Remaining FAQ-free Life/Next living gaps: **hawker payment literacy**, **annual life-admin checklist AEO**, **weekend getaway checkpoint physics**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/life/hawker-food-guide.mdx` (direct lead + FAQPage)
+- `content/guides/next/renewing-life-admin-annually.mdx` (direct lead + FAQPage)
+- `content/guides/life/weekend-getaways-from-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Life hawker blurb + weekend-getaways topic; Next annual-life-admin topic)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #77/#69/#73 guide bodies (case-lemon-law, ep-notify, lost-nric, student-pass, ltvp, re-entry-permit, apps, car-ownership, transfer-rep).
+
+### Questions mined (sample)
+
+1. Can foreigners pay hawkers with card or Apple Pay?
+2. What notes should I bring to a hawker centre?
+3. Do I have to return my tray?
+4. Is WeChat Pay useful at Singapore hawkers?
+5. How do I stop eating the same tourist stalls every week?
+6. What should I put on an annual Singapore life-admin calendar?
+7. Is my Singapore pass or NRIC enough to travel on?
+8. When do PRs re-register their NRIC?
+9. I got a new foreign passport — what else breaks?
+10. How soon must I update my residential address on NRIC?
+11. What documents do I need for a JB weekend?
+12. When should I leave Singapore for Johor to avoid Causeway hell?
+13. Can I use Singapore car-share for a JB trip?
+14. Is living in JB and commuting to Singapore a smart rent hack?
+15. Can I do a quick Batam reset on an STVP after EP cancellation?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 11)
 
 Branch: `loop/story-aeo-tick11` → PR to `main`. Owns **answer-engine shape** after tick 8 on main while ticks 9–10 stay open. Did **not** expand ads/monetization; avoided open tick-9 files (EP notify / Lemon Law / lost NRIC) and tick-10 files (Student Pass / LTVP / REP).
