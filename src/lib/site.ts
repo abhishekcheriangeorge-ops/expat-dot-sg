@@ -49,7 +49,7 @@ export const modes = [
     summary:
       "From the offer letter through visas, first housing, banking, and the chaos of week one — a clear path into Singapore.",
     howToUse:
-      "Start with the dependency map (SIM → Singpass → bank), file the SG Arrival Card, then push HR through issuance → Notification Letter → EPSC. Tick the 7/30/90 boards; open a pillar only when a specific blocker appears.",
+      "Start with the dependency map (SIM → Singpass → bank), file the SG Arrival Card, clear Changi → city, then push HR through issuance → Notification Letter → EPSC. Tick the 7/30/90 boards; open a pillar only when a specific blocker appears.",
     startHere: [
       {
         href: "/guides/first-week-sim-singpass-bank",
@@ -60,6 +60,11 @@ export const modes = [
         href: "/guides/sg-arrival-card-expats",
         label: "SG Arrival Card",
         blurb: "ICA’s 3-day window, IPA path, and why it is not a visa.",
+      },
+      {
+        href: "/guides/changi-airport-grab-taxi",
+        label: "Changi → city",
+        blurb: "Grab vs taxi surcharges vs MRT after you land.",
       },
       {
         href: "/guides/work-pass-issuance-epsc-notification",
@@ -130,6 +135,11 @@ export const pillars: Pillar[] = [
         label: "SG Arrival Card",
         href: "/guides/sg-arrival-card-expats",
         blurb: "ICA’s 3-day window and IPA vs issued-pass paths.",
+      },
+      {
+        label: "Changi → city transfer",
+        href: "/guides/changi-airport-grab-taxi",
+        blurb: "Grab vs taxi location surcharges vs MRT with luggage.",
       },
       {
         label: "Issuance, EPSC & Notification Letter",
@@ -214,9 +224,14 @@ export const pillars: Pillar[] = [
     modes: ["arriving", "living"],
     topics: [
       {
-        label: "Banking & remittances",
-        href: "/guides",
-        blurb: "Which banks, what documents, how to move money home.",
+        label: "Banking & PayNow",
+        href: "/guides/paynow-setup-foreigners-singapore",
+        blurb: "FIN vs mobile proxies after the salary account opens.",
+      },
+      {
+        label: "Cash declaration (CBNI)",
+        href: "/guides/cbni-cash-declaration-singapore",
+        blurb: "S$20k+ physical cash — NP727 before you fly.",
       },
       {
         label: "Tax residency & filing",
@@ -305,6 +320,11 @@ export const pillars: Pillar[] = [
       "Transport, hawker literacy, shopping, nightlife, sports, arts, dating, essential apps, haze season, and what to do in an emergency.",
     modes: ["living"],
     topics: [
+      {
+        label: "Changi → city transfer",
+        href: "/guides/changi-airport-grab-taxi",
+        blurb: "First-ride Grab vs taxi surcharges vs MRT.",
+      },
       {
         label: "Transport fluency",
         href: "/guides/mrt-bus-transport-literacy",
