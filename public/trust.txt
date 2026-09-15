@@ -1,0 +1,21 @@
+# Trust / transparency — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/about
+- https://expat.sg/editorial.txt
+- https://expat.sg/contact.txt
+- https://expat.sg/status.txt
+- https://expat.sg/.well-known/security.txt
+
+## Notes
+- Trust WebPage / ItemList helpers live in seo-trust.ts.
+- No paid rankings disguised as editorial.
+
+## Related
+- https://expat.sg/legal.txt
+- https://expat.sg/safety.txt
+- https://expat.sg/compliance.txt
+- https://expat.sg/sitemap.xml

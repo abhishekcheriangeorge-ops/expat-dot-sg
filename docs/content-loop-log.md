@@ -6,6 +6,27 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO hubs / crosslinks (tick 32) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick32-a144` → draft PR to `main` (stacked on tip #318 / tick 31). SEO shell only — no ads / no Grok / no A–F/H guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #318 except log prepend.
+
+### Gaps vs prior G ticks
+
+Ticks 4–31 (open #74→#318) claimed chrome through a11y/credits helpers and most discovery txt. Remaining free surface: **legal / trust / safety JSON-LD**, **LegalLinks / TrustLinks**, **legal/terms/cookies/licenses/trust/safety/compliance/moderation discovery**.
+
+### Shipped this loop
+
+- `src/lib/seo-legal.ts` / `seo-trust.ts` / `seo-safety.ts` + `seo-tip32.ts`
+- `LegalLinks.tsx` / `TrustLinks.tsx`
+- `public/legal.txt` / `terms.txt` / `cookies.txt` / `licenses.txt` / `trust.txt` / `safety.txt` / `compliance.txt` / `moderation.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → #272 → #279 → #285 → #292 → #299 → #307 → #311 → #318 → (this PR)
+
+---
+
 ## Loop G — SEO hubs / crosslinks (tick 31) — 2026-09-15
 
 Branch: `cursor/loop-g-seo-tick31-a144` → draft PR to `main` (stacked on tip #311 / tick 30). SEO shell only — no ads / no Grok / no A–F/H guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #311 except log prepend.

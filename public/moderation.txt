@@ -1,0 +1,18 @@
+# Moderation / abuse — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Report
+- Security: https://expat.sg/.well-known/security.txt
+- Editorial contact: https://expat.sg/contact.txt
+- https://expat.sg/about
+
+## Notes
+- Mostly static editorial site — limited UGC surface.
+- Pair with safety.txt for reader-safety context.
+
+## Related
+- https://expat.sg/trust.txt
+- https://expat.sg/legal.txt
+- https://expat.sg/help.txt

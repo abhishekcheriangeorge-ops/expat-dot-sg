@@ -1,0 +1,18 @@
+# Licenses / reuse — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Prefer
+- Link guide canonicals rather than republishing bodies
+- Image credits: credits.txt / media.txt
+- Cite: cite.txt / sources.txt
+
+## Notes
+- Not an open-license dump of guide MDX.
+- Pair with legal.txt for publisher terms.
+
+## Related
+- https://expat.sg/credits.txt
+- https://expat.sg/brand.txt
+- https://expat.sg/press.txt

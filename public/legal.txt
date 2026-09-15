@@ -1,0 +1,21 @@
+# Legal discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/about
+- https://expat.sg/privacy.txt
+- https://expat.sg/terms.txt
+- https://expat.sg/cookies.txt
+- https://expat.sg/licenses.txt
+
+## Notes
+- Legal WebPage / ItemList helpers live in seo-legal.ts (app shell).
+- Editorial product; not a law firm.
+
+## Related
+- https://expat.sg/trust.txt
+- https://expat.sg/compliance.txt
+- https://expat.sg/contact.txt
+- https://expat.sg/sitemap.xml

@@ -1,0 +1,13 @@
+# Terms pointer — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Entry
+- https://expat.sg/about
+- https://expat.sg/legal.txt
+- https://expat.sg/privacy.txt
+
+## Notes
+- Short discovery alias for terms/legal policy paths.
+- Pair with legal.txt for the full map.

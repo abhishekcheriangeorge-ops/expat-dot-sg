@@ -1,0 +1,20 @@
+# Compliance map — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Pointers
+- https://expat.sg/privacy.txt
+- https://expat.sg/legal.txt
+- https://expat.sg/cookies.txt
+- https://expat.sg/trust.txt
+- https://expat.sg/.well-known/security.txt
+
+## Notes
+- Discovery checklist for privacy/legal/trust surfaces.
+- Not a certification badge page.
+
+## Related
+- https://expat.sg/status.txt
+- https://expat.sg/editorial.txt
+- https://expat.sg/sitemap.xml

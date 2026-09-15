@@ -1,0 +1,18 @@
+# Cookies / tracking prefs — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Signals
+- https://expat.sg/privacy.txt
+- https://expat.sg/.well-known/gpc.json
+- https://expat.sg/dnt-policy.txt
+
+## Notes
+- Core hubs avoid ad-network scripts.
+- Privacy/DNT helpers landed in earlier G tips.
+
+## Related
+- https://expat.sg/legal.txt
+- https://expat.sg/trust.txt
+- https://expat.sg/sitemap.xml

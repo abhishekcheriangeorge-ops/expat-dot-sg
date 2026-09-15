@@ -1,0 +1,19 @@
+# Safety notes — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Guidance
+- Prefer official .gov.sg / regulator sources linked from guides
+- Scam / phishing: verify domains; use security.txt for vuln reports
+- https://expat.sg/help.txt
+- https://expat.sg/support.txt
+
+## Notes
+- Safety WebPage helpers live in seo-safety.ts.
+- Editorial ops advice — not emergency services.
+
+## Related
+- https://expat.sg/trust.txt
+- https://expat.sg/moderation.txt
+- https://expat.sg/contact.txt
