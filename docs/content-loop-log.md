@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 10)
+
+Branch: `loop/story-aeo-tick10` → PR to `main`. Owns **answer-engine shape** after tick 7 on main while ticks 8–9 stay open. Did **not** expand ads/monetization; avoided open tick-8 files (haze / motor claims / DP / day-90) and tick-9 files (EP notify / Lemon Law / lost NRIC).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Student’s Pass vs DP study exemption; part-time work hour myths; “offer letter = can start class.”
+- r/askSingapore — parent LTVP S$12k salary folklore; LTVP confused with Dependant’s Pass; PLOC work myths.
+- r/askSingapore — forgot REP / almost lost PR at Changi; Dec 2025 REP process panic; passport change without REP transfer.
+
+**Official**
+
+- [ICA — Student’s Pass](https://www.ica.gov.sg/reside/STP/) + [MOM — work-pass exemption for foreign students](https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students).
+- [MOM — LTVP eligibility](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/eligibility) + [ICA — LTVP](https://www.ica.gov.sg/reside/LTVP) + [PLOC](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility).
+- [ICA — Re-Entry Permit](https://www.ica.gov.sg/reside/PR/apply-REP) + [Dec 2025 REP FAQ PDF](https://www.ica.gov.sg/docs/default-source/ica/files/faqs_revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025.pdf).
+
+### Gaps vs ticks 1–9
+
+Ticks 1–7 on main cover landing/fail AEO through MOM cancel STVP + housing/bank hubs. Open tick 8 covers haze / motor / DP; open tick 9 covers EP notify / Lemon Law / lost NRIC. Remaining high-intent **study / family-visit / PR-travel** gaps without FAQPage: **Student’s Pass**, **LTVP (≠ DP)**, **Re-Entry Permit / Dec 2025 rules**.
+
+### Shipped this loop
+
+**Upgraded (AEO only)**
+
+- `content/guides/move/student-pass-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/move/ltvp-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/re-entry-permit-pr-overseas.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Move Student’s Pass + LTVP topics; Next REP topic)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit open tick-8/9 file sets.
+- Did not rewrite Loop D spouse-LTVP/PMLA bodies or Loop A EP eligibility trees beyond FAQPage shape.
+
+### Questions mined (sample)
+
+1. Do I need a Student’s Pass if I already hold a Dependant’s Pass?
+2. Can an offer letter alone let me start classes?
+3. Can Student’s Pass holders freelance freely?
+4. Does graduation convert into an Employment Pass?
+5. Is LTVP the same as a Dependant’s Pass?
+6. What salary do I need to bring parents on MOM LTVP?
+7. Can every LTVP holder work via PLOC?
+8. Does LTVP include subsidised public healthcare?
+9. Do PRs need a Re-Entry Permit every time they leave Singapore?
+10. What changed for REP renewals from 1 December 2025?
+11. If my REP expires overseas, can ICA reinstate PR?
+12. Does renewing my passport transfer the REP automatically?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 10) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick9-8971` → PR to `main` (branch name kept; tick number is **10** after #51 landed on main as tick 9). Owns **Family** + **Belong** guides plus schools/clubs/services entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Skipped ADHD / Mandarin / hiking bodies already shipped via #51 (tick 9 on main) and babysitter / uni counselling / book clubs via #52 (tick 8).
