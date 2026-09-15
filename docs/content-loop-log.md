@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 50 — 2026-09-15
+
+Branch: `cursor/home-life-tick50-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295/#301/#309/#313 stay open for the merge controller — **did not** touch those PR paths. Topics: condo lightning-protection / earth-pit inspection notices, ActiveSG cycling circuit, Siglap Fringe / Frankel East / Opera Estate West. Tip confirmed as **#313** (Tick 49); opened next tip in parallel without waiting on merge.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → #266 → #274 → #282 → #295 → #301 → #309 → #313 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — LPS / earth-pit inspection notices confused with genset tests or gondola cleans; balcony clearance fights.
+- r/askSingapore — ActiveSG cycling circuit Standard Rate for foreigners, evening session release races, helmet rules.
+- r/askSingapore — east-coast shortlists for Siglap Fringe vs Frankel East vs Opera Estate West noise / estate-texture trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [SCDF — fire safety](https://www.scdf.gov.sg/home/fire-safety) (drill contrast).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs open #71 → #313
+
+Open PRs own reno-noise through generator/ATS / athletics track and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo lightning-protection / earth-pit inspection notices** (≠ generator/ATS; ≠ facade/gondola; ≠ fire-alarm), **ActiveSG cycling circuit** (≠ athletics track; ≠ sepak takraw; ≠ netball; ≠ pickleball; ≠ stadium courts; ≠ fencing; ≠ bowling; ≠ skating; ≠ climbing; ≠ archery; ≠ camps), plus neighbourhood depth for **Siglap Fringe**, **Frankel East**, and **Opera Estate West**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-lightning-protection-earth-pit-inspection-notices-tenants.mdx`
+- `content/guides/life/activesg-cycling-circuit-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #313.
+- `src/lib/site.ts` (LPS/earth-pit + ActiveSG cycling circuit topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/siglap-fringe.json`
+- `content/entities/neighbourhoods/frankel-east.json`
+- `content/entities/neighbourhoods/opera-estate-west.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 / #266 / #274 / #282 / #295 / #301 / #309 / #313 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is LPS / earth-pit inspection the same as a generator / ATS test?
+2. Is it the same as facade / gondola cleaning?
+3. Will inspectors enter my unit?
+4. Is an LPS inspection a fire-alarm drill?
+5. Can foreigners book ActiveSG cycling circuits at Standard Rate?
+6. Is circuit booking the same as athletics track or stadium court hire?
+7. Do I need my own bike and helmet?
+8. Siglap Fringe vs Frankel East — cafe-edge or denser landed-edge?
+9. Is Opera Estate West quieter at night?
+10. When is a condo loop road still enough?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 49 — 2026-09-15
 
 Branch: `cursor/home-life-tick49-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295/#301/#309 stay open for the merge controller — **did not** touch those PR paths. Topics: condo standby generator / ATS testing notices, ActiveSG athletics track, Kembangan Fringe / Bedok North West / Guillemard East. Tip confirmed as **#309** (Tick 48); opened next tip in parallel without waiting on merge.

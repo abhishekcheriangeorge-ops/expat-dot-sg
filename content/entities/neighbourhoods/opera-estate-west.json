@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "opera-estate-west",
+  "name": "Opera Estate West",
+  "summary": "West of Opera Estate toward Frankel / Siglap edges — quieter estate living with practical east-side hops and ActiveSG catchment.",
+  "body": "Opera Estate West is the shortlist when quieter estate living and practical east-side hops matter more than cafe-strip energy. The pocket sits west of Opera Estate toward Frankel / Siglap edges; housing mixes landed and selective low-rise condo stock. Expats land here for car-light hops to Bedok / Eunos and ActiveSG catchment without Orchard premiums. Watch-outs: estate LPS / earth-pit notice stacks, limited evening bus frequency, and confusing Opera Estate vs Opera Estate West shortlists. Compare with Frankel East for denser landed-edge living, Siglap Fringe for cafe-edge texture, and Kembangan Fringe when quieter EWL living wins.",
+  "region": "east",
+  "vibe": [
+    "quieter-estate",
+    "landed-edge",
+    "practical",
+    "east-side",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "households who want quieter nights than Siglap cafe strips",
+    "renters comparing Opera Estate West vs Frankel East",
+    "people who will book ActiveSG cycling circuits weekly",
+    "car-light workers toward Bedok / Eunos"
+  ],
+  "watchOuts": [
+    "LPS / earth-pit inspection notices",
+    "Limited evening bus frequency on some edges",
+    "Visitor parking scarcity",
+    "Opera Estate vs Opera Estate West listing confusion"
+  ],
+  "housingMix": "Landed and selective low-rise condo stock.",
+  "commuteNotes": "Bus / EWL gravity via Bedok / Kembangan depending on block. Walk a Sunday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2500,
+    "oneBedTo": 4300,
+    "familyFrom": 4000,
+    "familyTo": 9000
+  },
+  "mrt": [
+    "Bedok",
+    "Kembangan",
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
