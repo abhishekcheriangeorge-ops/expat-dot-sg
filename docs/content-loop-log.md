@@ -6,6 +6,240 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 49)
+
+Branch: `loop/story-aeo-tick49` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 48 (`loop/story-aeo-tick48` @ `79e83dd` / [#308](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/308)). Avoided open merge-controller H file sets (#117–#308 H20–H48). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — post-IPA SCJ portal fails day one; SEV/CSS slot panic.
+- r/askSingapore — emptying SRS the week EP cancels as “free remittance.”
+- r/askSingapore — “students can work 16 hours” without school/eligibility checks.
+
+**Official**
+
+- [ICA — Apply for Singapore Citizenship](https://www.ica.gov.sg/reside/citizenship/apply) · Citizenship Roadmap PDF · Singapore Journey help.
+- [IRAS — SRS](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/supplementary-retirement-scheme-(srs)) · Tax on SRS withdrawals.
+- [MOM — Work pass exemption for foreign students](https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students) · ICA Student’s Pass · TEP / Work Holiday Pass.
+
+### Gaps vs open H + ticks 1–48
+
+Open: #117–#308 H20–H48. Remaining free Next FAQ-free companions included **SCJ SEV/CSS booking after IPA**, **SRS exit withholding for non-residents**, **Student’s Pass work hours / vacation exemption**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/scj-sev-css-booking-after-ipa-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/srs-exit-withholding-nonresident-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/student-pass-work-hours-vacation-exemption-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (SCJ SEV/CSS + SRS exit withholding + STP work hours topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#308 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. When can I log into the Singapore Journey portal after citizenship IPA?
+2. What are SEV and CSS, and when should I book?
+3. How long is e-Journey after I start?
+4. Does SCJ waive renunciation or NS liability?
+5. What if portal login fails after three working days?
+6. Is emptying SRS on EP cancel a simple remittance?
+7. What is the SRS early-withdrawal penalty?
+8. When is only 50% of an SRS withdrawal taxable?
+9. What withholding rate do foreigners usually see?
+10. Is SRS withdrawal the same as IR21?
+11. Can every STP holder work 16 hours/week?
+12. Do exchange students get the work exemption?
+13. Are vacation work rules the same as term caps?
+14. Does graduation keep STP work rights?
+15. Is an internship automatically covered by STP exemption?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 48)
+
+Branch: `loop/story-aeo-tick48` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 47 (`loop/story-aeo-tick47` @ `fc7072e` / [#286](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/286)). Avoided open merge-controller H file sets (#117–#286 H20–H47). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “FIN stays the same so DP auto-follows” on EP job change.
+- r/askSingapore — “just convert LTVP/PLOC to EP” as a stealth upgrade.
+- r/askSingapore — “HR will convert me to EP after the raise” with no FCF/COMPASS file.
+
+**Official**
+
+- [MOM — Change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) · Dependant’s Pass · Cancel a pass · Extend stay FAQ.
+- [MOM — PLOC eligibility](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) · Work passes for ICA LTVP · EP eligibility · FCF.
+- [MOM — EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · S Pass eligibility · EP key facts · FCF.
+
+### Gaps vs open H + ticks 1–47
+
+Open: #117–#286 H20–H47. Remaining free Next FAQ-free companions included **DP re-sponsor when principal changes EP**, **LTVP+PLOC → EP conversion**, **S Pass → EP upgrade in Singapore**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/dp-resubmission-when-principal-changes-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ltvp-ploc-to-ep-conversion-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/s-pass-to-ep-upgrade-in-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (DP re-sponsor + LTVP/PLOC→EP + S Pass→EP topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#286 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does DP auto-move when I change EP employers?
+2. When should family re-sponsor start vs new EP IPA?
+3. Does the same FIN keep the DP card valid?
+4. What should I ask old and new HR in writing?
+5. What if old DP cancels before new family cards issue?
+6. Does PLOC convert LTVP into an EP?
+7. When should I leave PLOC for my own EP?
+8. Does working on PLOC exempt FCF/COMPASS for EP?
+9. Should I cancel LTVP on EP IPA day?
+10. Is graduate LTVP job-hunt stay the same as PLOC work rights?
+11. Does a raise auto-convert S Pass to EP?
+12. Can I stay on S Pass while EP files?
+13. Is EP blocked by foreign-worker quota?
+14. What if MOM refuses EP while I am still on S Pass?
+15. Do family DPs upgrade automatically with S Pass → EP?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 47)
+
+Branch: `loop/story-aeo-tick47` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 46 (`loop/story-aeo-tick46` @ `9430fe6` / [#275](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/275)). Avoided open merge-controller H file sets (#117–#275 H20–H46). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “HR will appeal, so I resigned” with no advisory text.
+- r/askSingapore — “we’re FCF exempt” stopping all fair-hiring questions.
+- r/askSingapore — missed EPSC slot; IPA-only JB hop while letter expires.
+
+**Official**
+
+- [MOM — Appeal against a rejected EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/appeal-against-a-rejected-application) · EP eligibility / COMPASS · FCF.
+- [MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) · S$22,500 advertising exemption · job-must-match-ad FAQs.
+- [MOM — Get a pass issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/get-a-pass-issued) · After the pass is issued · EP key facts.
+
+### Gaps vs open H + ticks 1–46
+
+Open: #117–#275 H20–H46. Remaining free Next FAQ-free companions included **EP rejection appeal candidate playbook**, **FCF advertising exemption edges**, **EPSC missed slot / Notification Letter extension**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ep-rejection-appeal-candidate-playbook-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/fcf-advertising-exemption-edges-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/epsc-missed-slot-notification-letter-extension-singapore.mdx` (direct lead + FAQPage)
+- Next hub topics for these three already present on tip (Loop D) — no duplicate `site.ts` rows this tick
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#275 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Can I file an EP appeal myself as the candidate?
+2. How long is the employer EP appeal window?
+3. Does a strong SAT score guarantee appeal success?
+4. Should I resign while an EP appeal is pending?
+5. When is a cleaner refile better than an appeal?
+6. If a role is advertising-exempt, does fair hiring still apply?
+7. Does a S$22,500 package automatically skip MyCareersFuture ads?
+8. Does an under-10 headcount exemption remove all FCF duties?
+9. Is “we already picked you” a shortcut past a mandatory ad window?
+10. Must the EP job match a MyCareersFuture ad when one ran?
+11. What if I miss my EPSC biometrics appointment?
+12. How long is the Notification Letter usually valid?
+13. How soon after issuance must EPSC finish when required?
+14. Can I travel on IPA alone before the letter/card?
+15. Who requests a Notification Letter extension?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 46)
+
+Branch: `loop/story-aeo-tick46` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#265 H20–H45). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — renewal blamed on salary when firm COMPASS drifted after hiring spree.
+- r/askSingapore — “just get PEP” collapsing PEP / ONE / Tech.Pass; spouse LOC folklore.
+- r/askSingapore — levy invoices after family flight; helper cancel forgotten beside IR21.
+
+**Official**
+
+- [MOM — EP eligibility / COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · [Renew an EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass) · [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool).
+- [MOM — PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass) · [ONE Pass](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass) · [EDB Tech.Pass](https://www.edb.gov.sg/en/incentives-and-programmes/incentives-and-facilitation-programmes/tech-pass.html).
+- [MOM — Cancel MDW Work Permit](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/cancel-a-work-permit) · levy + security bond pages.
+
+### Gaps vs open H + ticks 1–45
+
+Open: #117–#265 H20–H45. Remaining free Next FAQ-free companions included **COMPASS firm scores on EP renewal**, **PEP / ONE / Tech.Pass chooser**, **FDW cancel when leaving**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ep-renewal-compass-firm-scores-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/pep-one-tech-pass-chooser-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/fdw-cancellation-when-leaving-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (COMPASS firm scores + PEP/ONE/Tech.Pass chooser + MDW cancel-on-exit topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#265 guide bodies.
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Do EP renewals still need 40 COMPASS points?
+2. Can firm COMPASS scores drop even if my salary clears?
+3. Is C1 salary percentile the same as Stage 1 qualifying salary?
+4. What should I ask HR in writing before renewal filing?
+5. If firm scores are soft, should I upload extra IR8A docs?
+6. Should I leave a renewable EP for PEP for flexibility?
+7. Which personalised pass fits a spouse who needs employer work rights?
+8. How do PEP and ONE Pass differ on renewability?
+9. Is Tech.Pass still open, and what replaces it?
+10. Can founders use PEP as an entrepreneur pass?
+11. Does MDW levy stop when my EP cancel date is set?
+12. Transfer vs repatriation — what comes first?
+13. When to cancel the MDW Work Permit relative to final salary?
+14. Does the security bond release the day she flies?
+15. Is helper cancel the same calendar as IR21?
+
+---
+
+---
+
 ## Loop G — SEO hubs / crosslinks (tick 30) — 2026-09-15
 
 Branch: `cursor/loop-g-seo-tick30-a144` → draft PR to `main` (stacked on tip #307 / tick 29). SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. **Did not** edit open G-stack `src/` / `public/` paths through #307 except log prepend.

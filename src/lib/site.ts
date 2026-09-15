@@ -705,6 +705,21 @@ export const pillars: Pillar[] = [
         blurb: "Raise ≠ conversion; FCF + COMPASS on a fresh EP file.",
       },
       {
+        label: "SCJ SEV / CSS after IPA",
+        href: "/guides/scj-sev-css-booking-after-ipa-singapore",
+        blurb: "Portal day+3; book SEV/CSS early; e-Journey 7+7 clocks.",
+      },
+      {
+        label: "SRS exit withholding",
+        href: "/guides/srs-exit-withholding-nonresident-singapore",
+        blurb: "Early 5% + taxable portion; withholding ≠ final bill.",
+      },
+      {
+        label: "Student’s Pass work hours",
+        href: "/guides/student-pass-work-hours-vacation-exemption-singapore",
+        blurb: "Term caps, vacation window, exchange-student bars.",
+      },
+      {
         label: "PEP / ONE / Tech.Pass chooser",
         href: "/guides/pep-one-tech-pass-chooser-singapore",
         blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",
