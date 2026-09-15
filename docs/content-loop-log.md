@@ -4,6 +4,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong — 2026-09-15
+
+Branch: `loop/family-belong` (Family + Belong guides + schools/clubs entity depth only).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — international school short-notice / waitlists / SAS vs Stamford ([international school help](https://www.reddit.com/r/askSingapore/comments/1jeyw1a/international_school_help_please/); [Stamford American?](https://www.reddit.com/r/askSingapore/comments/1l310j3/is_stamford_american_international_school_a_good/); [primary admission / ~S$35k fees](https://www.reddit.com/r/askSingapore/comments/1azh44d/primary_school_admission/); [MOE waiver → FSS](https://www.reddit.com/r/askSingapore/comments/1u4ilik/can_i_move_my_kid_to_an_international_school_in/)).
+- r/askSingapore — preschool / childcare unsubsidised reality + POP traps ([expats recommend preschool](https://www.reddit.com/r/askSingapore/comments/1911bks/expats_please_recommend_a_preschool/); [relocation two kids](https://www.reddit.com/r/askSingapore/comments/1golvge/relocation_to_singapore_with_two_kids/); [POP vs private](https://www.reddit.com/r/askSingapore/comments/1s970xq/partner_operated_preschool_pop_vs_nonpop_private/); [12k family / school fees](https://www.reddit.com/r/askSingapore/comments/1qisb1f/frenchchinese_family_considering_move_to_sg_is/); [preschool student visa](https://www.reddit.com/r/askSingapore/comments/1auflqg/preschool_student_visa/)).
+- r/askSingapore — family healthcare / paediatrician cash-pay ([pediatrician non-local](https://www.reddit.com/r/askSingapore/comments/1e73vx8/pediatrician_recommendation_for_nonlocal_pay_via/); [public vs private PD](https://www.reddit.com/r/askSingapore/comments/1lksvrf/pediatrician_public_vs_private/); [recommend PD cash](https://www.reddit.com/r/askSingapore/comments/1g54za3/anyone_can_recommend_a_pediatrician_in_sgp/)).
+- r/askSingapore — spouse career / DP work ([finding job on DP](https://www.reddit.com/r/askSingapore/comments/18kmvea/finding_a_job_on_a_dependant_pass/); [male DP job chances](https://www.reddit.com/r/askSingapore/comments/17i35df/going_to_singapore_as_a_male_dp_need_a_job_but/); [expat spouse tech leadership](https://www.reddit.com/r/askSingapore/comments/1qvow08/expat_spouse_moving_to_singapore_realistic/); [can spouse work on DP](https://www.reddit.com/r/askSingapore/comments/1obgpqo/can_spouse_work_while_on_a_dependent_pass/); [DP + overseas employer](https://www.reddit.com/r/askSingapore/comments/uli2dx/how_can_a_dependent_pass_holder_work_in_singapore/)).
+- r/askSingapore — LGBTQ partner pass / queer families ([same sex LTVP](https://www.reddit.com/r/askSingapore/comments/1rjp492/same_sex_couple_ltvp_options/); [LGBT couple + 2 kids](https://www.reddit.com/r/askSingapore/comments/1ixj6hq/lgbt_couple_and_2_kids_is_it_possible_to_raise_a/); [SG/FR gay couple relocate](https://www.reddit.com/r/askSingapore/comments/15qwmkv/thoughts_on_relocating_from_paris_to_singapore/)).
+- r/askSingapore — clubs + trailing-spouse community ([trailing spouse life](https://www.reddit.com/r/askSingapore/comments/1inyc7x/whats_it_like_to_be_a_trailing_spouse_in_singapore/); [country club waits / Tanglin](https://www.reddit.com/r/askSingapore/comments/1153k1x/country_clubs_are_they_still_popular_with_the/); [private clubs](https://www.reddit.com/r/askSingapore/comments/16k8oin/private_clubs_in_singapore/); [finding friends / Meetup](https://www.reddit.com/r/askSingapore/comments/1n4xf99/recently_relocated_to_singapore_are_there_any/); [expat friends group](https://www.reddit.com/r/askSingapore/comments/1qr196s/expat_friends_group_in_singapore/)).
+
+**Official**
+
+- [ECDA — Preschool subsidies](https://www.ecda.gov.sg/parents/preschool-subsidies) (SC-framed).
+- [MOM — Working in Singapore on a Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass/working-in-singapore) (EP/S Pass/DP-WP paths).
+- [MOM — LTVP documents required](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/documents-required) + [DP eligibility](https://www.mom.gov.sg/passes-and-permits/dependants-pass/eligibility) (partner-pass framing).
+- [MOH — Healthcare system](https://www.moh.gov.sg/home/our-healthcare-system).
+
+### Gaps vs prior ticks
+
+Prior ticks covered waitlists, preschool subsidies, paediatrician, clubs, LGBTQ stub, ANZA/AWA, trailing-partner (Move pillar). Remaining Family/Belong heat: **POP/AOP citizen-fee screenshots vs foreigner gross**, **nationality caps / short-notice school seats**, **foreigner poly ≈ private cash**, **dual-career household planning** (Family-owned, linking Move trailing-partner), **LGBTQ partner-pass + queer-family depth**, **club holiday-camp / Tanglin decade-wait realism**, **trailing-spouse belonging without Facebook megagroups**. Skipped ads / sponsor expansion; no Move/Money/Home/Life/Next ownership edits.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-spouse-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/belong/lgbtq-resources-singapore.mdx`
+- `content/guides/family/preschool-childcare-singapore.mdx`
+- `content/guides/family/school-waitlist-realism.mdx`
+- `content/guides/family/international-schools-landscape.mdx`
+- `content/guides/family/finding-pediatrician-singapore.mdx`
+- `content/guides/family/healthcare-gp-hospital.mdx`
+- `content/guides/belong/membership-clubs-comparison.mdx` (removed sponsorSlot; added citations + holiday-camp axis)
+- `content/guides/belong/american-club-vs-tanglin.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/anza-awa-associations.mdx`
+
+**Entity depth (schools / clubs)**
+
+- `content/entities/schools/stamford-american.json`
+- `content/entities/schools/singapore-american-school.json`
+- `content/entities/schools/tanglin-trust-school.json`
+- `content/entities/schools/uwcsea-dover.json`
+- `content/entities/clubs/american-club.json`
+- `content/entities/clubs/tanglin-club.json`
+- `content/entities/clubs/hollandse-club.json`
+- `content/entities/clubs/british-club.json`
+- `content/entities/clubs/anza.json`
+- `content/entities/clubs/awa.json`
+- `content/entities/clubs/oogachaga.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (removed clubs `sponsorSlot`).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Home/Life/Next guides (trailing-partner left under Move; Family dual-career links to it).
+
+---
+
 ## Loop A — Move + Money — 2026-09-15
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money`.
@@ -61,8 +128,6 @@ Prior ticks already covered EP appeal/IPA, COMPASS/FCF overview, remittance basi
 
 ---
 
----
-
 ## Loop C — Home + Life (parallel) — Tick 19 — 2026-09-15
 
 Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
@@ -115,8 +180,6 @@ Tick 1–18 already covered renting LOI/TA, tenant-agent commission, fair-wear i
 - No copying of third-party “expat-sg” / Grok clones.
 - Did not edit Move/Money/Family/Belong guides (importing-pets left owned by Move; Life guide cross-links only).
 - Did not re-litigate Tick 1–18 Home/Life topics beyond the leak, pets, water-bill, grocery-delivery, and visitor-parking gaps above.
-
----
 
 ---
 

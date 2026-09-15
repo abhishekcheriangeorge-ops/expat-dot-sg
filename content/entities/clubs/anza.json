@@ -2,17 +2,18 @@
   "type": "club",
   "slug": "anza",
   "name": "ANZA — Australian & New Zealand Association",
-  "summary": "Community association for Aussies, Kiwis, and friends — sports, socials, and family programming that accelerates belonging.",
-  "body": "ANZA functions as a community operating system rather than a facilities club: sports teams, social events, and family programming help new arrivals find people in weeks instead of months. Forum advice for ANZ families often ranks association membership above expensive country-club entrance fees for year-one ROI. Check current membership categories, event calendars, and whether friends-of-ANZ can attend before budgeting. Complements hashes, Meetup hobbies, and school-parent networks.",
+  "summary": "Community association for Aussies, Kiwis, and friends — sports, socials, and family programming that accelerates belonging without country-club fees.",
+  "body": "ANZA functions as a community operating system rather than a facilities club: sports teams, social events, and family programming help new arrivals find people in weeks instead of months. Forum advice for ANZ families — and many trailing partners — often ranks association membership above expensive country-club entrance fees for year-one ROI. Use recurring sport or social groups as network infrastructure while a Dependant’s Pass job search runs. Check current membership categories, event calendars, and whether friends-of-ANZ can attend before budgeting. Complements hashes, Meetup hobbies, school-parent networks, and AWA-style women’s associations.",
   "category": "association",
   "focus": [
     "Australian",
     "New Zealand",
     "families",
     "sport",
-    "newcomers"
+    "newcomers",
+    "trailing partners"
   ],
-  "membershipNotes": "Annual membership — typically far lighter than country-club entrance fees. Verify live dues.",
+  "membershipNotes": "Annual membership — typically far lighter than country-club entrance fees. Verify live dues and guest policies for events.",
   "website": "https://www.anza.org.sg",
   "featured": false,
   "sponsored": false
