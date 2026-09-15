@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "aeis-2026",
+  "title": "AEIS 2026 — MOE international-student admissions",
+  "summary": "Admissions Exercise for International Students for Jan 2027 mainstream entry (P2–P5, S1–S3). Primary applications 7–16 Jul 2026; secondary 8–17 Jul 2026; tests in Singapore 1–4 Sep 2026. Placement is vacancy-based — not a school choice list.",
+  "date": "2026-07-07",
+  "endDate": "2026-09-04",
+  "recurring": true,
+  "venue": "Online apply · tests in Singapore",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/international-students/aeis",
+  "featured": true
+}

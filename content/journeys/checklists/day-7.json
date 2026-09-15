@@ -57,6 +57,13 @@
       "href": "/guides/work-pass-issuance-epsc-notification"
     },
     {
+      "id": "sgworkpass",
+      "title": "Install SGWorkPass after EPSC / issuance",
+      "detail": "Once Singpass is registered at EPSC (or after document verification), open SGWorkPass and confirm your digital work pass shows. Photograph the FIN — banks and telcos ask for it before the plastic card arrives.",
+      "pillar": "move",
+      "href": "/guides/work-pass-issuance-epsc-notification"
+    },
+    {
       "id": "cash-transit",
       "title": "Load SimplyGo / contactless transit + bridge cash",
       "detail": "Foreign contactless works day one (SimplyGo S$0.60/day admin fee). Or buy an EZ-Link. Keep a foreign-card or remittance bridge until the local salary account opens — full banking belongs on the 30-day list.",

@@ -10,9 +10,9 @@
     {
       "id": "lease-signed",
       "title": "Sign a longer-term lease (or renew serviced)",
-      "detail": "Understand LOI vs Tenancy Agreement, diplomatic clause, inventory list, and deposit return conditions before you stamp. IRAS lease duty is typically 0.4% of total rent for leases of four years or less — budget it into move-in cash.",
+      "detail": "Understand LOI vs Tenancy Agreement, diplomatic clause, inventory list, and deposit return conditions before you stamp. IRAS lease duty is typically 0.4% of total rent for leases of four years or less — stamp within 14 days if signed in Singapore.",
       "pillar": "home",
-      "href": "/tools/setup-cash"
+      "href": "/tools/lease-duty"
     },
     {
       "id": "utilities",
@@ -22,10 +22,10 @@
     },
     {
       "id": "tax-residency",
-      "title": "Sketch your tax residency timeline",
-      "detail": "IRAS tax residency often hinges on days present and employment. Note your arrival date; open myTax Portal once Singpass works so filing season is not a scramble.",
+      "title": "Sketch your tax residency timeline + filing season",
+      "detail": "IRAS tax residency often hinges on days present and employment. Note your arrival date; open myTax Portal once Singpass works. YA 2026 e-Filing runs 1 Mar–18 Apr 2026 — put it on the calendar even in your first year.",
       "pillar": "money",
-      "href": "https://www.iras.gov.sg"
+      "href": "/calendar"
     },
     {
       "id": "emergency-pack",
@@ -36,7 +36,7 @@
     {
       "id": "kids-routine",
       "title": "Lock school / childcare and holiday care",
-      "detail": "Confirm term dates against the MOE and international-school calendars. Book a backup carer for public holidays and June / year-end breaks when schools close and offices do not.",
+      "detail": "Confirm term dates against the MOE and international-school calendars. If targeting mainstream schools, track AEIS (Jul/Sep) and S-AEIS (Jan/Mar) windows. Book a backup carer for public holidays and June / year-end breaks when schools close and offices do not.",
       "pillar": "family",
       "optional": true,
       "href": "/calendar"

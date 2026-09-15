@@ -6,6 +6,94 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 2)
+
+Branch: `loop/e-journeys-tools-tick2` → PR to `main`. Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — rental stamp duty myths / agent “optional” folklore / who pays ([stamp duty necessary](https://www.reddit.com/r/askSingapore/comments/lsz072/is_rental_stamp_duty_necessary_and_why_would_a/); [agent hasn’t stamped](https://www.reddit.com/r/askSingapore/comments/1dntunl/moved_into_a_new_apartment_but_agent_hasnt_paid/); [property tax vs lease duty confusion](https://www.reddit.com/r/askSingapore/comments/1e2ydnt/paying_property_tax_as_a_foreign_renter_in/); [TA checklist](https://www.reddit.com/r/askSingapore/comments/zmcmh7/what_to_look_for_in_a_tenancy_agreement_when/)).
+- r/askSingapore — AEIS / mainstream school path for foreign kids ([local primary for foreign kids](https://www.reddit.com/r/askSingapore/comments/1houq07/local_primary_schools_for_foreign_kids/); [EP child subsidies](https://www.reddit.com/r/askSingapore/comments/13hduoz/do_any_educational_subsidies_or_grants_exists_for/); [intl → public transfer](https://www.reddit.com/r/askSingapore/comments/kg0mdd/whats_the_admission_process_for_a_transfer_from/)).
+- r/askSingapore — foreign licence 12-month conversion clock ([foreigner driving](https://www.reddit.com/r/askSingapore/comments/1bujpm1/foreigner_driving_in_singapore/); [EP licence conversion](https://www.reddit.com/r/askSingapore/comments/1q4987p/getting_a_singapore_drivers_licence_as_a/); [conversion timing](https://www.reddit.com/r/askSingapore/comments/18e48al/foreign_license_conversion/)).
+- r/askSingapore — IR21 withhold / STVP single-entry adjacency already covered in tick 1; tick 2 adds post-cancel **SFA / myTax** filing continuity heat.
+
+**Official**
+
+- [MOE — AEIS](https://www.moe.gov.sg/international-students/aeis) + [S-AEIS](https://www.moe.gov.sg/international-students/s-aeis) + [international students hub](https://www.moe.gov.sg/international-students) (2026 AEIS Jul apps / Sep tests; 2027 S-AEIS Jan apps).
+- [IRAS — Tax Season 2026](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/understanding-my-income-tax-filing/tax-season-2026---all-you-need-to-know) (1 Mar–18 Apr 2026) + [SFA for foreign individuals](https://www.iras.gov.sg/digital-services/others/singpass-foreign-user-account-(sfa)-for-foreign-individuals).
+- [IRAS — Renting a property / lease duty](https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property) (0.4% ≤4yr; 4× AAR >4yr; AAR ≤S$1,000 exempt; floor to nearest dollar).
+- [SPF — Singapore Driving Licence (foreigners)](https://www.police.gov.sg/Advisories/Traffic/Traffic-Matters/Singapore-Driving-Licence).
+
+### Gaps vs Loop E tick 1
+
+Tick 1 shipped leaving IR21/STVP timeline, day-30/90 depth, MOE holiday/P1/intl-school calendar, setup-cash tool, EP salary tables. Remaining high-intent journey/tool gaps: **AEIS/S-AEIS calendar windows**, **IRAS YA filing season on the calendar**, **dedicated lease-duty calculator** (stamp-duty-only searches), day-7 **SGWorkPass**, day-30 **12-month licence clock**, day-90 **tax-season + 14-day stamp**, leaving **SFA continuity**. Skipped pillar guide edits.
+
+### Shipped this tick
+
+**Calendar**
+
+- `content/calendar/aeis-2026.json`
+- `content/calendar/s-aeis-2027.json`
+- `content/calendar/iras-tax-filing-ya2026.json`
+- `src/app/calendar/page.tsx` (copy)
+
+**Tools**
+
+- `src/lib/tools/lease-duty.ts`
+- `src/components/tools/LeaseDutyCalculator.tsx`
+- `src/app/tools/lease-duty/page.tsx`
+- tools index + sitemap wiring
+
+**Journeys / checklists**
+
+- `content/journeys/checklists/day-7.json` (SGWorkPass)
+- `content/journeys/checklists/day-30.json` (licence clock, AEIS calendar cue; kept Loop H PayNow/pets items)
+- `content/journeys/checklists/day-90.json` (lease-duty + tax season)
+- `content/journeys/leaving-singapore.json` (SFA + lease-duty cross-link; shipping section retained)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did **not** edit pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. When do AEIS 2026 applications and tests run, and must we sit the test in Singapore?
+2. What is the S-AEIS 2027 window if we miss AEIS for January entry?
+3. How much IRAS lease stamp duty on a S$4,500 × 24-month condo TA?
+4. Is stamp duty optional if the agent says so, and who usually pays?
+5. What is the S$1,000 AAR exemption — does a room rental ever qualify?
+6. When is YA 2026 e-Filing open, and do first-year EP holders need to file?
+7. If my EP cancels before April, how do I reach myTax Portal without Singpass?
+8. When must I convert my foreign driving licence — from arrival or from first drive?
+9. After EPSC, how soon can I see my FIN / digital pass in SGWorkPass?
+10. Do I stamp the TA within 14 days if we signed in Singapore?
+11. Can MOE AEIS guarantee a school near my condo?
+12. Should lease duty be sketched separately from the full first-month cash tool?
+
+---
+
+## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 1)
+
+Branch: `loop/e-journeys-tools` → merged as `f4fd03f` (PR #31). Owns journeys / checklists / calendar / tools only.
+
+### Shipped (tick 1 — already on main)
+
+- Leaving IR21/STVP timeline depth (`leaving-singapore.json`)
+- Day-30 / day-90 checklist upgrades
+- MOE-accurate school holiday + P1 + international-school application calendar events
+- `/tools/setup-cash` first-month cash sketch
+- EP qualifying-salary regime tables / toggle
+
+### Explicitly not done (tick 1)
+
+- No pillar guide MDX edits; no ads; no Grok.
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 5)
 
 Branch: `loop/story-aeo-tick5` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 4’s HSA meds / foreign licence / household GST FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory, Family/Belong left alone).
