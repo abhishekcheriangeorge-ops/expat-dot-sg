@@ -92,7 +92,7 @@ export default function AboutPage() {
               notice offset, unpaid retrenchment benefit TADM vs TAFEP,
               EP side-hustle / content-creator traps, FCF MyCareersFuture
               14-day clock, CPF account closure after renouncing PR / SC,
-              EP renewal age-band salary packaging, S Pass levy / quota renewal edges, DP LOC vs own-pass chooser, EP renewal NOA asks, pass cancellations) are checked against
+              ONE Pass outstanding-achievements evidence, EP job-change IR21 withhold edges, PEP exit-to-EP/PR timing, EP renewal NOA asks, pass cancellations) are checked against
               live ICA / MOM / MHA text before we ship.
             </li>
             <li>

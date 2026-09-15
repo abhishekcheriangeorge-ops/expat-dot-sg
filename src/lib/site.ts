@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "EP renewal age-band salary",
-        href: "/guides/ep-renewal-age-band-salary-packaging-singapore",
-        blurb: "Fixed monthly vs rising age floors — raise before HR files.",
+        label: "ONE Pass achievements evidence",
+        href: "/guides/one-pass-outstanding-achievements-evidence-singapore",
+        blurb: "Outstanding track ≠ LinkedIn awards — dated third-party proof.",
       },
       {
-        label: "S Pass levy / quota renewal",
-        href: "/guides/s-pass-levy-quota-renewal-edges-singapore",
-        blurb: "DRC + levy edges — “no EP quota” is usually S Pass maths.",
+        label: "EP job-change IR21 withhold",
+        href: "/guides/ep-job-change-ir21-withhold-edges-singapore",
+        blurb: "Same-city hop still triggers clearance cash-flow clocks.",
       },
       {
-        label: "DP LOC vs own pass",
-        href: "/guides/dep-pass-loc-vs-own-pass-chooser-singapore",
-        blurb: "Post-2021 LOC ≠ open labour market — choose EP/S Pass when needed.",
+        label: "PEP exit timing",
+        href: "/guides/pep-exit-to-ep-or-pr-timing-singapore",
+        blurb: "PEP is a runway — stage EP/PR before the card dies.",
       },
       {
         label: "Between jobs / STVP",
