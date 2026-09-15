@@ -87,6 +87,14 @@ export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("pre-arrival.json");
 }
 
+export async function getFamilyJoiningPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("family-joining.json");
+}
+
+export async function getNewbornSpecialPassPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("newborn-special-pass.json");
+}
+
 export async function getSingpassMyinfoExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("singpass-myinfo-exit.json");
 }
@@ -109,10 +117,6 @@ export async function getHospitalCashDepositPlaybook(): Promise<LeavingPlaybook 
 
 export async function getGraduatePassBridgePlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("graduate-pass-bridge.json");
-}
-
-export async function getFamilyJoiningPlaybook(): Promise<LeavingPlaybook | null> {
-  return getPlaybookByFilename("family-joining.json");
 }
 
 export async function getLocDpWorkRightsPlaybook(): Promise<LeavingPlaybook | null> {
