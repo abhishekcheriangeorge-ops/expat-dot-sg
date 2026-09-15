@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, school CCA kit bond, and school exam / IB deposit.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, and school CCA kit bond.",
   path: "/tools",
 });
 
@@ -70,12 +70,6 @@ const tools = [
     title: "School CCA kit bond",
     summary:
       "Sketch CCA kit / instrument / sports gear bond return vs damage holds and overdue fees — not handbook advice.",
-  },
-  {
-    href: "/tools/school-exam-ib-deposit",
-    title: "School exam / IB deposit",
-    summary:
-      "Sketch exam / IB / checkpoint deposit return vs partial holds and late-cancel forfeiture — not handbook advice.",
   },
 ] as const;
 
