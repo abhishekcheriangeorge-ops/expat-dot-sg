@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, IPA enter-and-issue window, tax-residency days, cost of living, and Employment Pass salary threshold illustration.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, cost-of-living estimate, Employment Pass salary threshold, and school withdrawal notice sketch.",
   path: "/tools",
 });
 
@@ -30,18 +30,6 @@ const tools = [
       "IRAS tenancy lease duty only — 0.4% of total rent (≤4 years), 4× AAR for longer leases, AAR exemption.",
   },
   {
-    href: "/tools/ipa-window",
-    title: "IPA enter-and-issue window",
-    summary:
-      "Sketch MOM’s common six-month IPA deadline to enter Singapore and get the pass issued — before you book flights.",
-  },
-  {
-    href: "/tools/tax-residency",
-    title: "Tax residency days",
-    summary:
-      "Sketch the common IRAS ≥183-day calendar-year presence test for a Year of Assessment.",
-  },
-  {
     href: "/tools/cost-of-living",
     title: "Cost of living sketch",
     summary:
@@ -52,6 +40,12 @@ const tools = [
     title: "EP qualifying salary",
     summary:
       "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
+  },
+  {
+    href: "/tools/school-withdrawal",
+    title: "School withdrawal notice",
+    summary:
+      "Count contractual notice weeks backwards from the last attendance day — mid-term fee cue only.",
   },
 ] as const;
 
@@ -69,7 +63,7 @@ export default function ToolsIndexPage() {
           collectionPageJsonLd({
             name: "Tools",
             description:
-              "First-month cash, lease duty, IPA window, tax-residency days, COL, and Employment Pass threshold utilities for Singapore expats.",
+              "First-month cash, lease duty, COL, EP threshold, and school withdrawal utilities for Singapore expats.",
             path: "/tools",
             items: tools.map((tool) => ({
               name: tool.title,
@@ -107,10 +101,22 @@ export default function ToolsIndexPage() {
 
         <FadeIn className="mt-16 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <Link
-            href="/journeys"
+            href="/journeys/arriving"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
-            ← Back to journeys
+            Arriving journeys →
+          </Link>
+          <Link
+            href="/guides"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Guides →
+          </Link>
+          <Link
+            href="/home"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Home (lease cash) →
           </Link>
           <Link
             href="/money"

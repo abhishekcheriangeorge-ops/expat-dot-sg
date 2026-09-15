@@ -83,10 +83,6 @@ export async function getBetweenJobsPlaybook(): Promise<LeavingPlaybook | null> 
   return getPlaybookByFilename("between-jobs.json");
 }
 
-export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
-  return getPlaybookByFilename("pre-arrival.json");
-}
-
-export async function getFamilyJoiningPlaybook(): Promise<LeavingPlaybook | null> {
-  return getPlaybookByFilename("family-joining.json");
+export async function getLocDpWorkRightsPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("loc-dp-work-rights.json");
 }

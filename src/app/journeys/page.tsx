@@ -6,8 +6,8 @@ import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getBetweenJobsPlaybook,
   getChecklists,
-  getFamilyJoiningPlaybook,
   getLeavingPlaybook,
+  getLocDpWorkRightsPlaybook,
 } from "@/lib/content";
 import {
   breadcrumbJsonLd,
@@ -18,16 +18,16 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Arriving 7/30/90 checklists, family-joining and between-jobs playbooks, and Leaving Singapore — practical sequences for expat life transitions.",
+    "Arriving 7/30/90 checklists, between-jobs and DP/LOC playbooks, and Leaving Singapore — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook, betweenJobs, familyJoining] = await Promise.all([
+  const [checklists, playbook, betweenJobs, locDp] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
     getBetweenJobsPlaybook(),
-    getFamilyJoiningPlaybook(),
+    getLocDpWorkRightsPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -47,7 +47,7 @@ export default async function JourneysIndexPage() {
           collectionPageJsonLd({
             name: "Journeys",
             description:
-              "Arriving checklists, family-joining and between-jobs playbooks, and Leaving Singapore.",
+              "Arriving checklists, between-jobs and DP/LOC playbooks, and Leaving Singapore.",
             path: "/journeys",
             items: [
               ...arriving
@@ -57,12 +57,12 @@ export default async function JourneysIndexPage() {
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
               {
-                name: familyJoining?.title ?? "Family joining later",
-                path: "/journeys/family-joining",
-              },
-              {
                 name: betweenJobs?.title ?? "Between jobs (EP gap)",
                 path: "/journeys/between-jobs",
+              },
+              {
+                name: locDp?.title ?? "DP work rights & Letter of Consent",
+                path: "/journeys/loc-dp-work-rights",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -133,33 +133,6 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Family
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {familyJoining?.title ?? "Family joining later"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {familyJoining?.summary ??
-              "Dependant Pass IPA timing, Arrival Card, Singpass/bank week, and school seats when spouse or kids follow later."}{" "}
-            Pair with the{" "}
-            <Link
-              href="/tools/ipa-window"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              IPA window sketch
-            </Link>
-            .
-          </p>
-          <Link
-            href="/journeys/family-joining"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
-          >
-            Open family-joining playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
             Next
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
@@ -174,6 +147,25 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
           >
             Open between-jobs playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Family
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {locDp?.title ?? "DP work rights & Letter of Consent"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {locDp?.summary ??
+              "Dependant’s Pass is not a work pass — employee vs business-owner LOC, cascade risk, and when EP is cleaner."}
+          </p>
+          <Link
+            href="/journeys/loc-dp-work-rights"
+            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
+          >
+            Open DP / LOC playbook
           </Link>
         </FadeIn>
 
@@ -211,8 +203,8 @@ export default async function JourneysIndexPage() {
               href="/tools"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Light COL, IPA-window, lease-duty, tax-residency, and EP threshold
-              tools
+              Light COL, lease-duty, tax-residency, EP threshold, and school
+              withdrawal tools
             </Link>{" "}
             live one level down — never on the homepage.
           </p>

@@ -6,6 +6,66 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 6)
+
+Branch: `cursor/e-journeys-tools-tick6-fa4f` → PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open **#78** (E4 restore) and **#72** (E5) path sets — merge controller lands **#78 before #72**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “DP = can work?” / LOC renewal local-hire traps / DP dies when EP cancelled.
+- r/askSingapore / international-school parent threads — mid-year withdrawal notice weeks, term-fee forfeiture folklore, handbook vs enrolment letter mismatch.
+
+**Official**
+
+- [MOM — Letter of Consent](https://www.mom.gov.sg/passes-and-permits/letter-of-consent)
+- [MOM — LOC for DP business owners / eligibility](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/eligibility)
+- [MOM — EP eligible family members](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligible-family-members)
+- [ICA — Long-Term Visit Pass](https://www.ica.gov.sg/reside/LTVP) (adjacency only — not mixed with DP LOC)
+
+### Gaps vs Loop E ticks 1–5 (and open #78 / #72)
+
+Ticks 1–3 on main: arriving depth, between-jobs, tax-residency, EP uplift calendar. Open **#78**: pre-arrival, lease-notice, GF/Labour/Vesak. Open **#72**: family-joining, ipa-window, Haji/Christmas/NY2027. Remaining high-intent journeys/tools gaps **off those path sets**: **DP/LOC work-rights playbook shell**, **school-withdrawal notice sketch**. No calendar JSON this tick (avoids `calendar/page.tsx` soft-conflict with #78/#72).
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/loc-dp-work-rights.json` + `/journeys/loc-dp-work-rights`
+- Journeys index + sitemap entries (hub soft-conflict expected after #78/#72)
+
+**Tools**
+
+- `src/lib/tools/school-withdrawal.ts`
+- `src/components/tools/SchoolWithdrawalCalculator.tsx`
+- `/tools/school-withdrawal` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #78 paths (pre-arrival, lease-notice, GF/Labour/Vesak, day-7/30, leaving-singapore body, JourneyHero).
+- Did **not** touch #72 paths (family-joining, ipa-window, Haji/Christmas/NY2027, day-90).
+- Left #78 and #72 open for merge controller (#78 → #72).
+
+### Questions mined (sample)
+
+1. Does a Dependant’s Pass let my spouse work in Singapore?
+2. Who applies for an employee Letter of Consent — me or the employer?
+3. Is business-owner LOC the same product as employee LOC?
+4. What happens to LOC when the main EP is cancelled?
+5. Can I copy a friend’s DP LOC playbook onto an LTVP?
+6. When is EP/S Pass cleaner than stacking LOC on DP?
+7. How many weeks’ written notice does my international school need before withdrawal?
+8. If I miss the notice deadline, do I still owe the rest of the term’s fees?
+9. Does last attendance before term end automatically mean a mid-term fee clawback?
+10. Should school withdrawal and LOC/EP timelines be planned on the same calendar?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 16)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick16-49cb` → PR to `main` (fresh worktree off `origin/main` @ `83b4cc4` post-A11/#92; A12–A15 (#97/#105/#111/#121) had also landed on `main` by rebase time; this tip rebases onto `origin/main` @ `83b4cc4` post-#121. Did not re-edit those now-merged guide paths beyond the freed job-change/remittance/health FAQ depth.)
