@@ -85,9 +85,9 @@ export default function AboutPage() {
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
               EP job-loss → spouse LTVP bridges, Right of Entry for under-21
               dual-passport SCs, citizenship confirmation letters,
-              REP passport transfers, IR21 final-pay / RSU withholding,
-              lost work-pass overseas / re-entry letters, EP salary-cut
-              DP/LTVP cascades, EP renewal NOA asks, pass
+              REP passport transfers, ship-out condo lift / deposits,
+              PR appeal evidence vs reapply, EP address / FWTES 5-day
+              clocks, EP renewal NOA asks, pass
               cancellations) are checked against live ICA / MOM / MHA text
               before we ship.
             </li>
