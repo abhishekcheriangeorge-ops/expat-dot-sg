@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 38 — 2026-09-15
+
+Branch: `cursor/services-directory-tick38-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#306); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F37 draft [#306](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/306).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Health threads — CPAP starts and home sleep study confusion.
+- Rental threads — painting before deposit inspection in humidity.
+- Hobby threads — condo-friendly guitar practice and amp noise.
+- Moving threads — lift booking before man-and-van arrival.
+- Voice / rehab threads — adult speech therapy vs accent coaching.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/) + [NEA](https://www.nea.gov.sg/).
+- [National Arts Council](https://www.nac.gov.sg/).
+- [AHPC](https://www.ahpc.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#306 cover prior depth and every on-main service file. Free surface for tick 38: **sleep apnea clinic**, **house painting**, **guitar lessons**, **local movers**, **adult speech therapy**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/sleep-apnea-clinic.json`
+- `content/entities/services/house-painting.json`
+- `content/entities/services/guitar-lessons.json`
+- `content/entities/services/movers-local.json`
+- `content/entities/services/speech-therapy-adults.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#306 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Home sleep study enough before buying a CPAP?
+2. How many dry days before deposit paint inspection?
+3. Headphone amp OK for condo quiet hours?
+4. Book condo lift before or after confirming mover slot?
+5. Accent coaching vs clinical speech therapy for work calls?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 34 — 2026-09-15
 
 Branch: `cursor/home-life-tick34-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167 stay open for the merge controller — **did not** touch those PR paths. Topics: condo move-in/move-out lift booking, ActiveSG badminton court booking, Little India / Rochor / Jalan Besar.

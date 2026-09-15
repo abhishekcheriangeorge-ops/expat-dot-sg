@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "sleep-apnea-clinic",
+  "name": "Sleep apnea clinic",
+  "summary": "How expats evaluate sleep apnea care in Singapore — home vs lab sleep studies, CPAP titration, ENT surgical paths, and insurance hurdles for devices.",
+  "body": "Sleep apnea clinics investigate snoring, daytime sleepiness, and witnessed apneas. Pathways usually start with a GP or ENT, then a sleep study (home or lab) before CPAP, oral appliances, or surgery discussions.\n\n## Decision points\n- Home sleep test vs attended lab study\n- CPAP trial / titration logistics\n- Oral appliance vs device vs ENT surgery\n- Travel-friendly machine and mask fitting\n- Insurance cover for studies and CPAP rentals/purchases\n\nBring a partner’s snore/apnea notes if possible.\n\n## How to choose\nPrefer clinics that explain study type and follow-up clearly. Ask who adjusts CPAP pressure after the first weeks. Confirm device loaner policies before buying hardware.\n\n## Practical tip\nBlock two quiet nights after starting CPAP. Mask leaks and dry mouth tweaks are normal — do not abandon after night one.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Loud snoring / daytime sleepiness needs sleep study",
+    "Home vs lab sleep study pathway unclear",
+    "CPAP trial and mask fitting support",
+    "Insurance cover for study / CPAP unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

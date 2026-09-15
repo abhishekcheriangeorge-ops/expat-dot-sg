@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "guitar-lessons",
+  "name": "Guitar lessons",
+  "summary": "How expats start guitar lessons in Singapore — acoustic vs electric paths, kids vs adult beginner tracks, and condo noise-hour realities.",
+  "body": "Guitar teachers and music schools cover acoustic, electric, and classical pathways. Adult beginners often want chord songs fast; kids’ programmes lean on graded exams. Condo quiet hours shape practice and amp use.\n\n## Formats\n- 1:1 home or studio lessons\n- Small group beginner classes\n- Exam tracks (e.g. graded syllabi)\n- Online lessons for travelling parents\n- Instrument rental vs buy guidance\n\nClarify goals: campfire chords vs lead guitar vs exams.\n\n## How to choose\nPrefer teachers who set a 4-week skill plan and assign short daily practice. Ask about instrument sizing for kids. Confirm cancellation rules around school holidays.\n\n## Practical tip\nStart with a quiet practice amp or headphone setup. Neighbour complaints kill motivation faster than sore fingertips.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nac.gov.sg/",
+  "whenToEngage": [
+    "Adult or kids beginner guitar pathway",
+    "Acoustic vs electric starting instrument",
+    "Exam track vs casual song goals",
+    "Condo-friendly practice / amp setup"
+  ],
+  "officialLinks": [
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "hobby-sports-communities-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
