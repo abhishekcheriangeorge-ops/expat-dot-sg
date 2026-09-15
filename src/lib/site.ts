@@ -182,6 +182,21 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
+        label: "EP vs S Pass",
+        href: "/guides/ep-vs-s-pass-comparison",
+        blurb: "No EP quota/levy; DRC+levy on S Pass; S Pass ≠ forever EP ban.",
+      },
+      {
+        label: "Fair Consideration & MyCareersFuture",
+        href: "/guides/fair-consideration-framework-ep",
+        blurb: "14-day ads, exemptions, salary-band match — not a locals-only veto.",
+      },
+      {
+        label: "MOE Tuition Grant bond",
+        href: "/guides/moe-tuition-grant-bond",
+        blurb: "LOE ≠ EP; S Pass/PEP may not clear service; LD ≠ immigration.",
+      },
+      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP; unemployment does not pause the 3-year clock.",
