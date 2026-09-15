@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "intl-school-apps-aug-entry",
+  "title": "International school applications — August entry cycle",
+  "summary": "Many selective schools open or prioritise applications from September for the following August. Example: UWCSEA’s Family Dashboard opens 1 Sep for August entry the next year; first-round deadline commonly early November. Rolling schools accept earlier but still concentrate offers in spring.",
+  "date": "2026-09-01",
+  "endDate": "2026-11-02",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["kids", "families"],
+  "href": "https://www.uwcsea.edu.sg/admissions/how-to-apply/timelines",
+  "featured": true
+}

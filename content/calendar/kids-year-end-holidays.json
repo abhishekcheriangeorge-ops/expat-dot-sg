@@ -1,12 +1,13 @@
 {
   "type": "event",
   "slug": "kids-school-holiday-nov-dec",
-  "title": "Year-end school holidays",
-  "summary": "The long break. Flight prices rise; book enrichment camps and relative visits before October if you can.",
-  "date": "2026-11-14",
+  "title": "Year-end school holidays (MOE)",
+  "summary": "Official MOE Term 4 break for MK/primary/secondary: 21 Nov–31 Dec 2026 (last day of school 20 Nov). Flight prices rise; book camps and relative visits before October if you can.",
+  "date": "2026-11-21",
   "endDate": "2026-12-31",
   "recurring": true,
   "venue": "Island-wide",
   "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
   "featured": true
 }

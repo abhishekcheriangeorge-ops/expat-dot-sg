@@ -11,5 +11,24 @@
   ],
   "website": "https://www.santaferelo.com",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "On corporate approved-vendor list for door-to-door",
+    "Comparing outbound crate vs SingPost for small volume",
+    "Need destination-agent quality check in writing"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Customs — moving to Singapore",
+      "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/"
+    },
+    {
+      "label": "Singapore Customs — GST relief qualification",
+      "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/"
+    }
+  ],
+  "relatedGuides": [
+    "shipping-household-singapore",
+    "shipping-out-household"
+  ]
 }

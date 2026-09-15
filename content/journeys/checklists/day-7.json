@@ -15,11 +15,25 @@
       "href": "/guides/sg-arrival-card-expats"
     },
     {
+      "id": "airport-transfer",
+      "title": "Choose Grab vs taxi vs MRT from Changi",
+      "detail": "Compare Grab’s upfront fare with a metered taxi plus LTA’s Changi location surcharge (S$8 from 5pm–11:59pm, else S$6). MRT only with light bags. Card in Grab beats hunting SGD cash.",
+      "pillar": "life",
+      "href": "/guides/changi-airport-grab-taxi"
+    },
+    {
       "id": "sim-data",
       "title": "Get a prepaid +65 SIM or eSIM with passport",
       "detail": "Changi and mall kiosks sell prepaid SIMs on passport alone. Postpaid often wants a physical pass or stable address. You need a Singapore number for HR/MOM contact updates, banking OTPs, and Singpass SMS 2FA later.",
       "pillar": "life",
       "href": "/guides/first-week-sim-singpass-bank"
+    },
+    {
+      "id": "hsa-meds",
+      "title": "Confirm HSA medication approvals are printed or on phone",
+      "detail": "Controlled ADHD / sleep / anxiety meds need prior HSA approval (apply ≥2 weeks out). Keep approval email + prescription + original packs ready if ICA asks. Non-controlled personal meds: up to 3 months in labelled containers.",
+      "pillar": "move",
+      "href": "/guides/bringing-medication-singapore-hsa"
     },
     {
       "id": "housing-keys",

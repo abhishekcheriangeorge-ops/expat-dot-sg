@@ -6,16 +6,18 @@ import {
   EP_MOM_URL,
   estimateEpMinimum,
   formatSgdWhole,
+  type EpRegime,
 } from "@/lib/tools/ep-threshold";
 
 export function EpThresholdCalculator() {
   const [age, setAge] = useState(32);
   const [sector, setSector] = useState<"general" | "financial">("general");
+  const [regime, setRegime] = useState<EpRegime>("current");
   const [offered, setOffered] = useState(6500);
 
   const result = useMemo(
-    () => estimateEpMinimum(age, sector),
-    [age, sector],
+    () => estimateEpMinimum(age, sector, regime),
+    [age, sector, regime],
   );
 
   const gap = offered - result.minimum;
@@ -46,6 +48,33 @@ export function EpThresholdCalculator() {
             <span className="w-10 text-right font-medium tabular-nums text-ink">
               {age}
             </span>
+          </div>
+        </div>
+
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+            MOM table
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {(
+              [
+                ["current", "Before 1 Jan 2027"],
+                ["from-2027", "From 1 Jan 2027"],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                onClick={() => setRegime(id)}
+                className={
+                  regime === id
+                    ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper"
+                    : "border border-ink/15 px-4 py-2 text-sm font-medium text-ink hover:border-ink/35"
+                }
+              >
+                {label}
+              </button>
+            ))}
           </div>
         </div>
 

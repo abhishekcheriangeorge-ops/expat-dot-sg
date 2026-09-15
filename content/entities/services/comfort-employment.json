@@ -9,5 +9,23 @@
     "Islandwide"
   ],
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "First-time MDW hire needing SIP within 7 days",
+    "Comparing agency all-in cost vs transfer route",
+    "Insurance quote must meet ≥S$60k inpatient floor"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM — Work Permit for FDW",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker"
+    },
+    {
+      "label": "MOM — Settling-In Programme",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/settling-in-programme"
+    }
+  ],
+  "relatedGuides": [
+    "hiring-domestic-helper-mdw"
+  ]
 }

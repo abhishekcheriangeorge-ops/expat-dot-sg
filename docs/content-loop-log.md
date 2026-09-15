@@ -55,6 +55,431 @@ Tick 4 covered lost NRIC + SC renunciation. Remaining Next heat: **child PR spon
 11. Can I re-enter as PR if REP shows the old passport number?
 12. Does a parent’s REP transfer cover a child’s new passport?
 
+
+---
+
+## Loop A — Move + Money — 2026-09-15 (tick 4)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick4` (from main `@48f51c4`).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP / work-pass medical exam vs Work Permit form myths / clinic logistics ([MoM Work Authorization Medical Exam](https://www.reddit.com/r/askSingapore/comments/1rw9ev6/mom_work_authorization_medical_exam/); [TEP medical clinics](https://www.reddit.com/r/askSingapore/comments/1jd978t/clinics_to_go_for_a_medical_examination_for_the/); IPA-only start-work adjacency: [Start work with IPA only?](https://www.reddit.com/r/askSingapore/comments/16i7zxi/start_work_with_ipa_only/)).
+- r/askSingapore — salary / occupation / DP cascade when pay changes (adjacency to [MOM NOA for EP renewal](https://www.reddit.com/r/askSingapore/comments/1slvkfe/do_mom_usually_request_noa_for_ep_renewal/) salary-mismatch heat; living notify rules from MOM docs).
+- r/askSingapore — credit card GX / no history / secured FD ([Best SG banks and credit cards?](https://www.reddit.com/r/askSingapore/comments/1l7nynj/best_sg_banks_and_credit_cards/); [Credit card for expat](https://www.reddit.com/r/askSingapore/comments/1d7x88f/credit_card_for_expat/); [Credit card for postgraduates](https://www.reddit.com/r/askSingapore/comments/1p6alun/credit_card_for_postgraduates_with_unassessable/)).
+- r/askSingapore — OCBC 360 vs UOB One salary-credit codes beyond Multiplier ([OCBC 360/365 vs UOB EVOL/ONE](https://www.reddit.com/r/askSingapore/comments/195gqov/ocbc_360365_vs_uob_evolone/); [Uob one and ocbc 360](https://www.reddit.com/r/askSingapore/comments/1fde027/uob_one_and_ocbc_360/)).
+- r/askSingapore — corporate LOG / Letter of Guarantee cashflow ([Confused about Letter of Guarantee](https://www.reddit.com/r/askSingapore/comments/1q67qw4/confused_about_letter_of_guarantee_from_my_insurer/); [AIA Corporate Medical Insurance](https://www.reddit.com/r/askSingapore/comments/1rkernq/anyone_claimed_aia_corporate_medical_insurance_before/)).
+
+**Official**
+
+- [MOM — Apply for an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass/) (IPA medical wording + STVP extension while labs process).
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) (salary lower ≥1 month; raise for DP privileges; occupation; related-company).
+- [OCBC — 360 salary bonus](https://www.ocbc.com/personal-banking/help-and-support/accounts/360account-salarybonus) + [UOB — One Account](https://www.uob.com.sg/personal/save/everyday-accounts/one-account.page).
+- [DBS — Card application eligibility](https://www.dbs.com.sg/personal/support/card-application-eligibility.html) + [IRAS — Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence).
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–3 shipped EP floors/COMPASS, EP vs S Pass, CBNI, remittance MPI/SoF, IR21 job-hop medical portability, EP-cancel STVP / DP LOC / PayNow / CPF withdrawal, FWTES address/passport, job-change IPA, Multiplier salary-credit, ≥1-year tax residency. Remaining high-intent Move/Money gaps matched this mine: **IPA-required EP medical vs WP form myth + STVP lab extension**, **employer salary-cut notify / DP cascade / occupation update**, **OCBC 360 / UOB One salary codes beyond Multiplier**, **credit-card GX / secured FD bootstrap**, **COR FAQ shape**, **LOG cashflow for foreigners**. EP renewal NOA deep-dives remain Next-owned.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/move/ep-medical-examination-issuance.mdx`
+- `content/guides/move/ep-salary-occupation-changes.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/money/high-interest-salary-accounts-foreigners.mdx` (OCBC 360 / UOB One + FAQPage)
+- `content/guides/money/credit-cards-foreigners-singapore.mdx` (GX / secured FD + FAQPage)
+- `content/guides/money/certificate-of-residence-dta.mdx` (FAQPage)
+- `content/guides/money/health-insurance-expat.mdx` (LOG foreigner cashflow)
+- `content/guides/move/work-pass-issuance-epsc-notification.mdx`
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx`
+- `content/guides/move/ep-notify-mom-address-passport.mdx`
+- `content/guides/move/changing-jobs-employment-pass.mdx`
+- `src/lib/site.ts` (Move medical + Money HISA/CC topic hrefs)
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json` (medical form mismatch + salary-cut DP cascade)
+
+### Explicitly not done
+
+- No ads/monetization expansion (no HISA/CC sponsorSlot).
+- No Grok / third-party clone copy.
+- Did not edit Family / Belong / Home / Life / Next heavily (EP renewal NOA / between-jobs STVP remain Next-owned).
+
+### Questions mined (sample)
+
+1. Does my IPA always require a MOM medical, or only when the letter says so?
+2. Is the Work Permit medical_form.pdf from Google the right form for EP issuance?
+3. Can I finish the EP medical overseas before I fly?
+4. What if my STVP expires while I wait for chest X-ray / HIV results?
+5. Must HR notify MOM one month before cutting my EP salary?
+6. If my salary is lowered, does my spouse’s DP get revoked?
+7. Do raises need immediate MOM notification before I apply for dependants?
+8. Why was my credit card rejected when I already clear the S$45k foreigner floor?
+9. What payroll description unlocks OCBC 360 or UOB One bonus interest?
+10. Can UOB One earn bonus interest with 3× GIRO instead of salary credit?
+11. Do I need a Letter of Guarantee before private-hospital surgery on group medical?
+12. Is an EP card enough for foreign-broker DTA rates, or do I need IRAS COR?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 4)
+
+Branch: `loop/story-aeo-tick4` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 3’s Changi Grab/taxi + CBNI/PayNow FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ADHD / benzo / sleep-tablet HSA panic (adjacency in medication + mental-health threads; last-week packing fails).
+- r/askSingapore — foreign licence 12-month clock / BTT / JB conversion myth (adjacency in car vs Grab lifestyle threads).
+- r/askSingapore — sea-freight GST bills when DOF missing (mover / DHL / personal-effects threads).
+
+**Official**
+
+- [HSA — Travelling with personal medications](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-medications/) (3-month non-controlled; controlled prior approval; **≥2 weeks** apply window; transit-without-clearance note).
+- [SPF Traffic Police — Singapore Driving Licence](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence) + [convert appointment](https://www.police.gov.sg/E-Services/Book-Appointment-to-Convert-Foreign-Driving-Licence).
+- [Singapore Customs — GST relief for used effects](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/) + [unaccompanied items / DOF](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/sending-unaccompanied-items/).
+
+### Gaps vs ticks 1–3
+
+Ticks 1–3 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage, IPA/EPSC, SimplyGo fee, serviced-apartment legality, Changi Grab/taxi, CBNI + PayNow FAQPages. Remaining high-intent **pre-land / settle** gaps: **HSA medication without FAQPage/direct lead** (body existed; 2-week clock under-weighted), **foreign licence 12-month / JB myth without FAQPage**, **household GST relief / DOF without FAQPage** (journey completeness for families shipping crates).
+
+### Shipped this loop
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/bringing-medication-singapore-hsa.mdx` (direct lead + FAQPage; HSA ≥2-week apply)
+- `content/guides/move/converting-foreign-driving-licence.mdx` (direct lead + FAQPage)
+- `content/guides/move/shipping-household-singapore.mdx` (direct lead + FAQPage)
+- `content/journeys/checklists/day-7.json` (HSA meds item)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Move topic hrefs for meds / shipping / licence)
+
+### Explicitly not done
+
+- No ads / monetization expansion (existing movers sponsorSlot left as-is).
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change / Multiplier bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Can I bring my prescription medication into Singapore?
+2. Do ADHD stimulants or sleeping tablets need HSA approval?
+3. How early should I apply for HSA personal-medication approval?
+4. Do I declare approved meds at Changi Customs?
+5. What if I only transit Singapore without clearing immigration?
+6. How long can I drive on a foreign licence as an EP holder?
+7. What do I need to convert a foreign driving licence?
+8. Can I get a Malaysia licence this weekend and convert it?
+9. Do I need to convert if I only take Grab and MRT?
+10. Do I pay GST on used household goods shipped to Singapore?
+11. What is the Declaration of Facts (DOF) for household shipping?
+12. Are brand-new sealed items eligible for GST relief?
+
+---
+
+
+
+## Loop B — Family + Belong (tick 5) — 2026-09-15
+
+Branch: `loop/family-belong-tick5` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; neighbourhood/housing deep guides stay Home-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — school commute / housing lock-in ([SAS vs OFS vs Stamford](https://www.reddit.com/r/askSingapore/comments/1s7j0lb/moving_to_singapore_with_2_young_kids_help_with/); [Stamford American](https://www.reddit.com/r/askSingapore/comments/1l310j3/is_stamford_american_international_school_a_good/); [Aussie family school bus](https://www.reddit.com/r/askSingapore/comments/1ah4ofa/where_is_an_awesome_place_to_live_in_sg_for_a/); [relocate school realism](https://www.reddit.com/r/askSingapore/comments/1tq770u/consider_relocating_to_singapore_please_help/)).
+- r/askSingapore — Mandarin enrichment for IS / non-Mandarin homes ([Berries](https://www.reddit.com/r/askSingapore/comments/1i12wnc/is_berries_worth_it_asking_parents_of_singapore/); [LingoAce](https://www.reddit.com/r/askSingapore/comments/1ls4t8u/lingoace_chinese_lessons_are_they_good/); [home Chinese tutor](https://www.reddit.com/r/askSingapore/comments/1n9uvgo/where_to_find_fun_and_engaging_home_chinese_tutor/); [Mandarin school shortlist](https://www.reddit.com/r/askSingapore/comments/1j6qcys/question_can_someone_help_me_with_choosing_a/)).
+- r/askSingapore — preschool / infant care vs helper ([expat preschool fees](https://www.reddit.com/r/askSingapore/comments/1911bks/expats_please_recommend_a_preschool/); [infant care vs helper](https://www.reddit.com/r/askSingapore/comments/1krpxo7/infant_care_or_domestic_helper/); [travel childcare](https://www.reddit.com/r/askSingapore/comments/1jobcri/childcare_options_while_traveling_for_work/); [preschool student visa myth](https://www.reddit.com/r/askSingapore/comments/1auflqg/preschool_student_visa/)).
+- r/askSingapore — cash-pay paediatric after-hours ([cash-pay paediatrician](https://www.reddit.com/r/askSingapore/comments/1e73vx8/pediatrician_recommendation_for_nonlocal_pay_via/); [recommend paediatrician](https://www.reddit.com/r/askSingapore/comments/1g54za3/anyone_can_recommend_a_pediatrician_in_sgp/); [foreigner medical diagnosis](https://www.reddit.com/r/askSingapore/comments/v0bgxx/where_can_foreigners_go_to_for_medical_diagnosis/)).
+- r/askSingapore — Belong chambers / faith / nationality ([young professional friends](https://www.reddit.com/r/askSingapore/comments/1r69mda/how_to_make_friends_as_a_young_professional/); [young expat groups](https://www.reddit.com/r/askSingapore/comments/1edbojo/groupsevents_to_meet_young_expats/); [engineering networking](https://www.reddit.com/r/askSingapore/comments/1gbmb1l/networking_for_engineers_in_sg/); [SG Catholics church](https://www.reddit.com/r/askSingapore/comments/1i5hlrx/sg_catholics_which_church_to_attend/); [joining church](https://www.reddit.com/r/askSingapore/comments/1ejw01r/joining_church_in_sg/); [where are the Americans?](https://www.reddit.com/r/askSingapore/comments/18bpqu8/where_are_the_americans/)).
+
+**Official**
+
+- [ECDA — Preschool subsidies](https://www.ecda.gov.sg/parents/preschool-subsidies) (SC-child framing for infant/childcare + KiFAS).
+- [AmCham Singapore](https://www.amcham.com.sg/) + [BritCham](https://www.britcham.org.sg/) + [EuroCham](https://eurocham.org.sg/) + [AustCham](https://www.austcham.org.sg/).
+- [Roman Catholic Archdiocese](https://www.catholic.sg/) + [MUIS](https://www.muis.gov.sg/) + [American Association of Singapore](https://www.aasingapore.com/).
+- [CIS](https://www.cis.edu.sg/) + [Dulwich Singapore](https://singapore.dulwich.org/) + [GESS](https://www.gess.sg/) (campus / language pathway verification).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–4 covered waitlists/SEN/camps/clubs/LGBTQ/dual-career, newborn/Baby Bonus/leave/marriage/vaccines/mental-health, IVF/maternity/divorce/hobby-sports. Remaining Family/Belong heat: **school-bus commute tax + Woodlands≠Woodleigh**, **Mandarin enrichment vs IS bilingual tracks**, **infant care vs helper for unsubsidised foreigners**, **cash-pay paediatric after-hours triage**, **chambers ROI for young professionals**, **faith soft landing without networking-only etiquette**, **AAS family-heavy American soft landing**. Also restores Loop B tick 4 log entry accidentally overwritten by a later Loop D prepend.
+
+### Shipped this loop
+
+**Upgraded guides**
+
+- `content/guides/family/international-schools-landscape.mdx` (bus/commute table; Mandarin/bilingual tracks; CIS/Dulwich/GESS/Stamford geography)
+- `content/guides/family/kids-activities-holiday-camps.mdx` (Mandarin enrichment decision frame)
+- `content/guides/family/preschool-childcare-singapore.mdx` (infant care vs helper foreigner stack)
+- `content/guides/family/finding-pediatrician-singapore.mdx` (after-hours / cash-pay triage)
+- `content/guides/belong/chambers-of-commerce-singapore.mdx` (young-pro / steep association ROI)
+- `content/guides/belong/religious-communities-singapore.mdx` (Catholic/OYP soft landing; faith-first etiquette)
+- `content/guides/belong/nationality-groups-singapore.mdx` (AAS family-heavy American pattern)
+- `content/guides/belong/find-my-people-singapore.mdx` (chambers/faith/nationality cross-links)
+
+**Entity depth (schools / clubs / services)**
+
+- `content/entities/schools/canadian-international-school.json`
+- `content/entities/schools/dulwich-college-singapore.json`
+- `content/entities/schools/gess.json`
+- `content/entities/schools/stamford-american.json`
+- `content/entities/schools/overseas-family-school.json`
+- `content/entities/clubs/american-association-singapore.json` (new)
+- `content/entities/clubs/amcham.json`
+- `content/entities/clubs/britcham.json`
+- `content/entities/clubs/eurocham.json`
+- `content/entities/services/the-tutors.json`
+
+**Log hygiene**
+
+- Restored `Loop B — Family + Belong (tick 4)` section below (was overwritten when Loop D prepended).
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (MDW / neighbourhood deep guides left owned elsewhere).
+
+### Questions mined (sample)
+
+1. Should we live near SAS Woodlands, OFS Pasir Ris, or Stamford Woodleigh — and how long is the school bus?
+2. Is Woodleigh the same as Woodlands when shortlisting Stamford American?
+3. Do CIS bilingual tracks actually deliver Mandarin immersion hours past junior school?
+4. Is Dulwich Mandarin optional language or a bilingual pathway?
+5. Are Berries / LingoAce packages worth it for international-school kids from non-Mandarin homes?
+6. As a foreigner, should we choose infant care, a helper, or both when ECDA subsidies do not apply?
+7. Can a preschool Student’s Pass replace a Dependant’s Pass for a toddler?
+8. Where should cash-pay foreigners take a febrile toddler after hours — poly, panel, Thomson 24h, or KKH ED?
+9. Are AmCham/BritCham worth it for mid-20s friendship, or only for BD committees?
+10. Are steep industry associations (AAIS/SSIA) just expensive chambers?
+11. Which Catholic parish should a CBD transplant try first, and is OYP for newcomers?
+12. Is it appropriate to join a church only to make friends?
+13. Where are the Americans if not at expat bars — AAS, American Club, or SAS geography?
+14. Can smaller-passport families find nationality groups without a megaclub?
+
+---
+
+## Loop B — Family + Belong (tick 4) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IVF / fertility financing ([IVF options and cost](https://www.reddit.com/r/askSingapore/comments/1rzjjfj/couples_who_gone_through_ivf_in_singapore_what/); [public IVF options](https://www.reddit.com/r/askSingapore/comments/1p02anc/public_ivf_options_in_singapore/); [KKH fertility](https://www.reddit.com/r/askSingapore/comments/1rqlga7/fertility_treatments_kkh_advice_needed/); [trying after 38](https://www.reddit.com/r/askSingapore/comments/1ewu432/women_who_have_are_trying_for_kids_after_38_in/); [conceive support](https://www.reddit.com/r/askSingapore/comments/1raofat/for_those_who_have_been_trying_to_conceive/)).
+- r/askSingapore — maternity insurance / DP spouse gaps ([maternity cover for DP wife](https://www.reddit.com/r/askSingapore/comments/1g76uwq/can_anyone_share_their_experience_with_insurance/); [foreign spouse pregnant](https://www.reddit.com/r/askSingapore/comments/x14pk6/foreign_spouse_pregnant_whats_your_experience_as/); [parental leave corporates](https://www.reddit.com/r/askSingapore/comments/196mitu/parental_leave_in_corporates/)).
+- r/askSingapore — divorce / LTVP / PPO ([divorce foreign spouse custody](https://www.reddit.com/r/askSingapore/comments/x6dksp/anybody_divorced_a_foreign_spouse_and_share_kids/); [LTVP baby threat](https://www.reddit.com/r/askSingapore/comments/1k7hpf3/ltvp_wife_threatens_to_take_baby_away/); [remarry without dissolve](https://www.reddit.com/r/askSingapore/comments/1sz2ouu/can_a_foreigner_who_got_married_in_singapore_get/); [PPO summons](https://www.reddit.com/r/askSingapore/comments/17qfrak/summoned_to_attend_family_court_hearing/); [DV + divorce](https://www.reddit.com/r/askSingapore/comments/1ja4ei3/anyone_that_can_share_their_experience_with/)).
+- r/askSingapore — Belong via hobby sport ([Reclub pickleball](https://www.reddit.com/r/askSingapore/comments/1u4qy8o/pickleball_games_training_community/); [pickleball venues](https://www.reddit.com/r/askSingapore/comments/1l6xsnv/pickleball_venues_in_singapore/); [running clubs](https://www.reddit.com/r/askSingapore/comments/1tcmff8/do_you_have_any_running_club_recommendations/); [Meetup relocate](https://www.reddit.com/r/askSingapore/comments/1n4xf99/recently_relocated_to_singapore_are_there_any/); [expat friends](https://www.reddit.com/r/askSingapore/comments/1qr196s/expat_friends_group_in_singapore/)).
+- r/askSingapore — school shortlist adjacency ([SAS vs OFS housing](https://www.reddit.com/r/askSingapore/comments/1s7j0lb/moving_to_singapore_with_2_young_kids_help_with/); [relocate school realism](https://www.reddit.com/r/askSingapore/comments/1tq770u/consider_relocating_to_singapore_please_help/)).
+
+**Official**
+
+- [MOH — Marriage and Parenthood schemes](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/marriage-and-parenthood-schemes/) (ART co-funding tiers incl. SC–foreigner 35%; MediSave maternity; PGT tables).
+- [MOH — Elective egg-freezing](https://www.moh.gov.sg/newsroom/updates-on-prices-and-procedures-for-elective-egg-freezing-in-singapore/) + [SC + foreign spouse IVF reply](https://www.moh.gov.sg/newsroom/support-available-for-singaporeans-and-foreign-spouses-seeking-ivf-treatment/).
+- [Judiciary — Apply for PPO](https://www.judiciary.gov.sg/family/apply-personal-protection-order) + respond-to-PPO path; [Divorce requirements](https://www.judiciary.gov.sg/family/understand-requirements-getting-divorce).
+- [Reclub](https://reclub.co/) + [West Coast Park parkrun](https://www.parkrun.sg/westcoast/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-career, newborn DP/Baby Bonus/leave/marriage/vaccines/mental-health soft landing. Remaining Family/Belong heat: **exact MOH ART tiers + elective egg freezing + PGT cash**, **DP spouse maternity insurance + foreigner private billing**, **LTVP expire ≠ divorce + PPO/EO depth**, **kids orthodontics cash**, **Reclub/parkrun belonging playbook** (Life keeps ActiveSG facilities; Home keeps MDW).
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/belong/hobby-sports-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/ivf-fertility-foreigners-singapore.mdx`
+- `content/guides/family/maternity-care-singapore.mdx`
+- `content/guides/family/divorce-custody-foreigners-singapore.mdx`
+- `content/guides/family/family-violence-ppo-foreigners.mdx`
+- `content/guides/family/dental-care-foreigners-singapore.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/hash-house-harriers.mdx`
+- `content/guides/family/international-schools-landscape.mdx`
+
+**Entity depth (schools / clubs / services)**
+
+- `content/entities/schools/overseas-family-school.json` (Pasir Ris campus correction)
+- `content/entities/schools/nexus-international.json`
+- `content/entities/schools/xcl-world-academy.json`
+- `content/entities/clubs/singapore-cricket-club.json`
+- `content/entities/services/family-law-expat.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (no MDW fork; no ActiveSG facilities rewrite).
+
+### Questions mined (sample)
+
+1. Do EP–EP couples get any MOH IVF co-funding at KKH/NUH?
+2. What is the published co-funding % for an SC + foreigner couple on a fresh ART cycle?
+3. Can I start co-funded IVF after 40 if I never tried AR before 40?
+4. Does elective egg freezing qualify for MediSave or ART co-funding?
+5. Why is PGT still a huge cash bill even on the public path?
+6. My company covers me on EP — will it cover my DP wife’s maternity and delivery?
+7. If I get a polyclinic referral to KKH as a foreigner, do I get subsidised maternity rates?
+8. Can EP holders use the MediSave Maternity Package?
+9. If we separate, can I just not renew my spouse’s LTVP — and does that end the marriage?
+10. Does leaving Singapore and letting the LTVP expire dissolve a Women’s Charter marriage?
+11. What is an Expedited Order vs a PPO, and can unmarried partners use PPO?
+12. I was summoned as a PPO respondent — do I have to attend?
+13. Are kids’ braces covered by typical expat group dental riders?
+14. How do beginners actually find pickleball games — Reclub drills or ActiveSG courts?
+15. Is parkrun a realistic first social ritual before joining a paid run club?
+
+---
+
+## Loop F — Services directory depth — 2026-09-15
+
+Branch: `loop/services-directory` → PR to `main`. Owns **services directory** entities + service detail UI fields only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — tax agents / IR21 / ESOP filing ([tax accountant worth it](https://www.reddit.com/r/askSingapore/comments/l965lj/tax_accountant_singapore_worth_it/); [expat income tax](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/); [ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [IR21 withhold explain](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [left after EP cancel + overdue tax](https://www.reddit.com/r/askSingapore/comments/1r8ztij/left_singapore_after_ep_cancellation_may_2024_and/)).
+- r/askSingapore — dental foreigner fees / polyclinic path ([wisdom tooth EP MediSave myth](https://www.reddit.com/r/askSingapore/comments/1on4gnd/wisdom_tooth_extraction_as_a_foreigner/); [dentist via polyclinic](https://www.reddit.com/r/askSingapore/comments/1tvfr6l/is_seeing_a_dentist_via_polyclinic_possible/); [public dental route](https://www.reddit.com/r/askSingapore/comments/rga3uj/how_to_receive_dental_treatment_via_the_public/)).
+- r/askSingapore — notary / apostille / LTVP translation quotes ([US form notarize](https://www.reddit.com/r/askSingapore/comments/1qgzuba/need_to_get_a_usa_institutions_form_notarized/); [LTVP translation cost](https://www.reddit.com/r/askSingapore/comments/1rff1fu/translation_of_documents_for_ltvp/)).
+- r/askSingapore — movers + self-storage / condo lift deposits ([mover with storage](https://www.reddit.com/r/askSingapore/comments/1rvaxn6/mover_with_storage_recommendations/); [condo move deposit](https://www.reddit.com/r/askSingapore/comments/1uf6vp6/deposit_for_moving_into_condo/); [lift padding fee](https://www.reddit.com/r/askSingapore/comments/18lse0i/condo_manager_charging_for_lift_padding/); [padding responsibility](https://www.reddit.com/r/askSingapore/comments/1l3vp58/condo_lift_padding_whose_responsible_to_install/)).
+- r/askSingapore — immigration counsel adjacency (PR rejection / agency myths — reinforce category-guide honesty, not ranked firms) ([PR rejection advice](https://www.reddit.com/r/askSingapore/comments/1d4mbr2/rejected_pr_application_seeking_advice/); [agencies caution](https://www.reddit.com/r/askSingapore/comments/1sx0502/considering_applying_for_singapore_pr_after_only/)).
+
+**Official**
+
+- [IRAS — Tax agents](https://www.iras.gov.sg/quick-links/tax-agents) + [tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + [tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency) + [Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence).
+- [MOH — Guide to dental treatment costs](https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/).
+- [SAL — Notaries Public directory](https://legalisation.sal.sg/Directory) + [legalisation FAQ](https://legalisation.sal.sg/Faq).
+- [AVS — Importing dogs and cats](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/) + [recognised pet agents / CAPQ](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/general-information/).
+- [Singapore Customs — moving to Singapore / GST relief](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/).
+- [CEA — Public register](https://www.cea.gov.sg/public-register/) + [MOM FDW / SIP](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker).
+
+### Gaps vs prior directory state
+
+Directory had movers, clinics, agents, FDW, tutors, insurance, legal stubs, and telecom “other” — but **no tax category**, thin practical fields (no engage-when / official links / related guides on detail UI), and missing high-intent category guides for **dental**, **notary/apostille**, **self-storage**, and **pet relocation** (AVS agent rule). Existing brand listings were summary-only.
+
+### Shipped this loop
+
+**Schema + UI**
+
+- `src/lib/content/schemas.ts` — `tax` category; `whenToEngage`, `officialLinks`, `relatedGuides` on services
+- `src/app/directory/[category]/[slug]/page.tsx` — render engage-when chips, related guides, official source links
+
+**New service entities**
+
+- `content/entities/services/tax-agents.json`
+- `content/entities/services/dental-care.json`
+- `content/entities/services/notary-apostille.json`
+- `content/entities/services/self-storage.json`
+- `content/entities/services/pet-relocation.json`
+
+**Upgraded all 18 existing service entities** with whenToEngage + officialLinks + relatedGuides (immigration, family law, movers, clinics, agents, FDW, telecom, tutors, insurance).
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion (existing sponsored flags left as-is).
+- No Grok / third-party clone copy.
+- Did not edit neighbourhoods, schools, clubs, or pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. Do I need a tax accountant for a simple Singapore salary year?
+2. Who files IR21 — me or my employer — and why is final pay withheld?
+3. How do I declare ESOP/RSU gains when there is no local IR8A entity?
+4. As an EP holder, can I use MediSave for wisdom-tooth surgery?
+5. Is polyclinic dental usable for foreigners, and what do referrals cost?
+6. Where do I find a Singapore notary / apostille for a US form?
+7. Why are overseas LTVP translation+apostille quotes thousands of dollars?
+8. Which movers also offer self-storage for a reno / lease gap?
+9. Who pays the condo lift-padding fee and damage deposit?
+10. Do I need an AVS-recognised pet agent for CAPQ clearance (esp. from Apr 2026)?
+11. Should I hire an immigration agency for a first PR application?
+12. When is immigration counsel worth it vs employer-led EP filing?
+
+---
+
+## Loop C — Home + Life (parallel) — Tick 21 — 2026-09-15
+
+Branch: `loop/home-life-t21e` (rebase of #17 onto latest main) → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — HDB landlord selling mid-lease / vacant possession vs sale-with-tenancy folklore ([2yr contract owner sells](https://www.reddit.com/r/askSingapore/comments/1lidib5/renting_a_hdb_with_2yrs_contract_but_owner_wants/); rental nightmare / deposit leverage adjacency ([rental nightmare](https://www.reddit.com/r/askSingapore/comments/1sftqn4/rental_nightmare_in_singapore/); first-timer condo ask list ([questions for agent](https://www.reddit.com/r/askSingapore/comments/1oeici6/firsttimer_in_renting_a_condo_unit_what_are_some/))).
+- r/askSingapore — HDB bedroom rental / owner continuous occupation / illegal partitions ([owner stay weekly](https://www.reddit.com/r/askSingapore/comments/1mzsjy6/inquiry_about_renting_hdb_with_owner_stay/); [partition room](https://www.reddit.com/r/askSingapore/comments/1kaidl9/isit_ever_legal_in_singapore_to_rent_out_a_hdb/); landlord enter room adjacency).
+- r/askSingapore — adjacent construction / BTO site noise vs condo reno ([construction past 2am](https://www.reddit.com/r/askSingapore/comments/1g3vf5r/where_to_report_loud_ongoing_construction_that/); [BTO beside block](https://www.reddit.com/r/SingaporeRaw/comments/1reztv8/bto_construction_noise_beside_my_block_driving_me/)).
+- r/askSingapore — SP cut-off after previous tenant / ownership transfer ([previous tenant cut-off](https://www.reddit.com/r/askSingapore/comments/1cbtcet/sp_services_cut_off_supplies_due_to_previous/); [ownership transfer](https://www.reddit.com/r/askSingapore/comments/1jml1sd/power_cutoff_due_to_ownership_transfer_any_way_to/)).
+- r/askSingapore — neighbourhood shortlists west/northeast ([non-expat areas](https://www.reddit.com/r/askSingapore/comments/195ji13/nonexpat_areas_for_expat/); [east vs west](https://www.reddit.com/r/askSingapore/comments/xxx5wb/renting_in_east_vs_west/); [best towns](https://www.reddit.com/r/askSingapore/comments/1qq0fly/what_are_the_best_towns_to_live_in_singapore_and/)).
+
+**Official**
+
+- [HDB — Resale completion](https://www.hdb.gov.sg/residential/selling-a-flat/resale-completion) + [temporary extension of stay](https://www.hdb.gov.sg/cs/infoweb/residential/selling-a-flat/resale-application/request-for-temporary-extension-of-stay) + resale T&Cs.
+- [HDB — Tenant eligibility](https://www.hdb.gov.sg/residential/renting-a-flat/renting-from-the-open-market/eligibility) + [renting-out flat eligibility](https://www.hdb.gov.sg/residential/renting-out-a-flat-bedroom/renting-out-your-flat/eligibility) + [regulations / continuous occupation](https://www.hdb.gov.sg/business/estate-agents-and-salespersons/renting-out-a-flat-or-bedroom/regulations-for-renting-out-flats) + [gov.sg owner explainer](https://www.gov.sg/explainers/renting-out-your-hdb-flat-a-homeowners-guide/).
+- [NEA — Construction noise control](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control) + [FAQs](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/frequently-asked-questions-(faqs)) + [Sunday/PH no-work rule](https://www.nea.gov.sg/our-services/pollution-control/noise-pollution/construction-noise-control/work-on-sundays-and-ph) + [OneService](https://www.oneservice.gov.sg/).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [SP open account](https://openaccount.spgroup.com.sg/#/open-account/).
+
+### Gaps vs Tick 20 (Home + Life slice)
+
+Tick 20 shipped fibre TP / NetLink, mould remediation, CDRT + secondhand smoke, bulky waste / laundry poles, Katong–Tampines–Clementi–Bukit Timah entity depth. Remaining high-intent Home+Life gaps matched forum heat: **HDB mid-lease sale / vacant possession**, **bedroom rental continuous-occupation + illegal partitions**, **adjacent BTO/site construction noise (NEA rail)**, SP ownership-transfer cut-offs, plus **Punggol** and **Jurong East** neighbourhood entities. Dengue inspections already covered under Life emergencies — left alone.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/hdb-landlord-selling-tenants.mdx`
+- `content/guides/home/hdb-bedroom-rental-rules-tenants.mdx`
+- `content/guides/home/construction-site-noise-renters.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/condo-noise-mcst-neighbours.mdx` (site-noise row + cross-link)
+- `content/guides/home/heartland-living-for-expats.mdx` (approval / sale / construction + Punggol/Jurong entities)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (construction constraint + west/northeast shortlist)
+- `content/guides/home/renting-process-loi-ta-deposits.mdx` (HDB approval + sale clause asks)
+- `content/guides/home/security-deposit-diplomatic-clause.mdx` (sale / bedroom adjacency)
+- `content/guides/home/utilities-telecom-setup.mdx` (ownership-transfer cut-off playbook)
+- `content/guides/home/moving-within-singapore.mdx` (HDB Town Council lift booking)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/punggol.json`
+- `content/entities/neighbourhoods/jurong-east.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not re-litigate Tick 19–20 fibre/mould/CDRT/pets/ceiling-leak topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. My HDB landlord is selling three months into a two-year lease — does the contract die automatically?
+2. Is “sale with tenancy” a real option for HDB the way it is for condos?
+3. How much notice and compensation should I negotiate for viewings and early move-out?
+4. Can the listing agent keep a set of keys and bring buyers when I am at work?
+5. Is it legal to rent an HDB bedroom when the owner only visits from Malaysia on weekends?
+6. How do I verify the landlord actually got HDB approval to rent out the bedroom or whole flat?
+7. Is a partitioned living-room “bedroom” ever lawful, and can I use that to exit and reclaim my deposit?
+8. Who do I call when BTO piling next door runs past midnight — MCST, police, or NEA?
+9. Does construction noise let me break the lease or demand a rent cut?
+10. SP cut power after the previous tenant’s arrears / an ownership transfer — how do I get reconnected while living there?
+11. Punggol vs Jurong East vs Tampines — which fits a west-office vs NEL-office family?
+12. Should I walk empty plots at 8am before I LOI a “quiet” heartland unit?
+
 ---
 
 ## Loop A — Move + Money — 2026-09-15 (tick 3)
@@ -184,6 +609,36 @@ Tick 1 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage. Tick 2
 10. Can foreigners use PayNow without a local bank account?
 11. Should I register PayNow to FIN or mobile?
 12. Why did money sent to my new +65 number go to someone else?
+
+---
+
+## Loop G — SEO, internal linking, hub polish — 2026-09-15
+
+Branch: `loop/seo-crosslinks` → PR to `main`. Owns sitemap/robots/metadata helpers, pillar hub index pages, related-guides wiring, breadcrumbs, JSON-LD, and app-shell internal linking. Did **not** rewrite A–D guide bodies; no ads / Grok copy. Rebased onto Loop H (kept FAQPage schema / ModeHub how-to).
+
+### Gaps closed
+
+- Pillar hub topics mostly pointed at generic `/guides` — rewired to cornerstone guide URLs (and directories where appropriate) in `src/lib/site.ts`.
+- Pillar / mode / guides hubs lacked canonical + OG via `buildPageMetadata`.
+- No breadcrumbs (UI or BreadcrumbList JSON-LD) on guides or pillar hubs.
+- Guides index did not deep-link to pillar hubs; pillar hubs did not list featured guides.
+- Related-guides fill ignored reciprocal frontmatter links.
+
+### Shipped this loop
+
+- `src/lib/seo.ts` — `breadcrumbJsonLd`, `collectionPageJsonLd` (kept Loop H `faqJsonLd`)
+- `src/components/seo/Breadcrumbs.tsx` (+ export)
+- `src/lib/site.ts` — topic hrefs → real guides; related “All guides”
+- `src/components/pillars/PillarPage.tsx` — breadcrumbs, CollectionPage JSON-LD, featured guides (+ Loop H how-to)
+- Guide article / meta bar / guide page — breadcrumbs + pillar deep links + BreadcrumbList JSON-LD (+ FAQPage)
+- Guides index — pillar hub strip, hub headings, CollectionPage JSON-LD
+- Pillar + Arriving/Living pages — `buildPageMetadata` with canonical paths
+- `getRelatedGuides` — prefer reciprocal same-pillar links before chronological fill
+
+### Explicitly not done / notes for other loops
+
+- No mass reciprocity edits across 200+ one-way `relatedGuides` pairs (shell fill handles ranking).
+- Did not expand ads / sponsor inventory.
 
 ---
 
