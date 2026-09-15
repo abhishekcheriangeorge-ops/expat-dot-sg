@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "kallang-bahru",
+  "name": "Kallang Bahru",
+  "summary": "Industrial-residential mid-town belt between Lavender and Geylang Bahru — practical condo/HDB edges with CTE adjacency and less tourist gloss than Bugis.",
+  "body": "Kallang Bahru is the shortlist when mid-town practicality and quieter nights matter more than mall-spine living. The belt sits between Lavender / Bendemeer gravity and Geylang Bahru industrial-residential edges; housing mixes HDB slabs with selective condo pockets. Expats land here for manageable CBD hops and car-light errands without Orchard premiums. Watch-outs: industrial traffic peaks, older-block FOC culture, and last-mile variance. Compare with Bugis South for denser central energy, Bendemeer East for NEL-adjacent living, and Mattar when DTL doorstep wins.",
+  "region": "central",
+  "vibe": [
+    "mid-town",
+    "practical",
+    "industrial-adjacent",
+    "quiet-nights",
+    "cte-adjacent"
+  ],
+  "bestFor": [
+    "value-seeking mid-town renters",
+    "car-light CBD hoppers",
+    "households leaving Bugis nightlife tax",
+    "people testing ActiveSG climbing nearby"
+  ],
+  "watchOuts": [
+    "Industrial and CTE traffic peaks",
+    "Older-block FOC / pest schedules vary",
+    "Fewer café-strip amenities than Joo Chiat",
+    "Walk to MRT depends on block"
+  ],
+  "housingMix": "Mature HDB with selective condo / executive pockets.",
+  "commuteNotes": "Nearest MRT gravity toward Lavender / Bendemeer / Geylang Bahru / Mattar depending on block. Time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3600,
+    "familyFrom": 2800,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Bendemeer",
+    "Lavender",
+    "Geylang Bahru"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

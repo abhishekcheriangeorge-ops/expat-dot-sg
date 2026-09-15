@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "bugis-south",
+  "name": "Bugis South",
+  "summary": "South of the Bugis retail belt toward Beach Road / Nicoll — denser central living with EWL/DTL optionality and nightlife spill as the lifestyle tax.",
+  "body": "Bugis South is the shortlist when central interchange access and walkable food matter more than quiet landed texture. The pocket sits south of the Bugis mall spine toward Beach Road / Nicoll gravity; housing mixes older walk-ups, mid-age condos, and selective serviced edges. Expats land here for car-light CBD hops and late food options. Watch-outs: weekend tourist spill, nightlife noise nearer Beach Road, and estate-specific FOC / refuse culture. Compare with City Hall for civic-core polish, Bras Basah for arts campuses, and Kallang Bahru when you want quieter mid-town nights.",
+  "region": "central",
+  "vibe": [
+    "central",
+    "dense",
+    "food",
+    "nightlife-adjacent",
+    "interchange"
+  ],
+  "bestFor": [
+    "car-light CBD workers",
+    "households okay with denser texture",
+    "renters comparing Bugis retail vs Beach Road edges",
+    "people who will book ActiveSG climbing instead of condo gym myths"
+  ],
+  "watchOuts": [
+    "Weekend tourist and nightlife spill",
+    "Older-block FOC / chute treatment variance",
+    "Serviced vs TA confusion",
+    "Peak interchange crowding"
+  ],
+  "housingMix": "Walk-ups and mid-age condos with selective serviced-apartment edges.",
+  "commuteNotes": "East-West / Downtown Line gravity via Bugis / City Hall / Nicoll depending on block. Walk a Saturday night before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2800,
+    "oneBedTo": 4800,
+    "familyFrom": 4200,
+    "familyTo": 8500
+  },
+  "mrt": [
+    "Bugis",
+    "City Hall",
+    "Nicoll Highway"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

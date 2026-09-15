@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "bendemeer-east",
+  "name": "Bendemeer East",
+  "summary": "East of Bendemeer MRT toward Kallang Bahru — NEL-adjacent mid-town living with denser HDB/condo mix and practical CBD hops.",
+  "body": "Bendemeer East is the shortlist when North-East Line adjacency and mid-town value matter more than riverside branding. The pocket sits east of Bendemeer station toward Kallang Bahru industrial-residential edges; housing mixes mature HDB with selective condo stock. Expats land here for car-light CBD hops without Bugis tourist crush. Watch-outs: peak NEL loads, FOC / chute treatment notices, and older-block variance. Compare with the wider Bendemeer entity for station-core framing, Kallang Bahru for quieter industrial-adjacent nights, and Bugis South when denser central energy wins.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "mid-town",
+    "practical",
+    "hdb-condo-mix",
+    "value"
+  ],
+  "bestFor": [
+    "NEL CBD commuters",
+    "value-seeking mid-town households",
+    "renters comparing Bendemeer vs Lavender edges",
+    "people who will book ActiveSG climbing instead of condo gym myths"
+  ],
+  "watchOuts": [
+    "Peak NEL crowding",
+    "FOC fogging / chute schedules differ by estate",
+    "Older-block maintenance variance",
+    "Less nightlife polish than Bugis"
+  ],
+  "housingMix": "Mature HDB dominant with selective condo pockets east of the station.",
+  "commuteNotes": "North-East Line at Bendemeer; Kallang Bahru / Boon Keng adjacency depending on block. Time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3400,
+    "familyFrom": 2700,
+    "familyTo": 4800
+  },
+  "mrt": [
+    "Bendemeer",
+    "Boon Keng",
+    "Kallang"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
