@@ -10,10 +10,6 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 Branch: `loop/story-aeo-tick5` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 4’s HSA meds / foreign licence / household GST FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory, Family/Belong left alone).
 
-## Loop B — Family + Belong (tick 6) — 2026-09-15
-
-Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW deep hiring stays Home-owned).
-
 ### Sources mined
 
 **Reddit / forums**
@@ -64,6 +60,16 @@ Ticks 1–4 shipped SIM→Singpass→bank, SGAC, healthcare/emergency, IPA/EPSC,
 10. Are vapes illegal for tourists and EP holders?
 11. Can a vaping offence cancel my EP or DP?
 12. Can I bring a vape as “personal medication”?
+
+---
+
+## Loop B — Family + Belong (tick 6) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW deep hiring stays Home-owned).
+
+### Sources mined
+
+**Reddit / forums**
 
 - r/askSingapore — birth location vs confinement cost ([foreign wife birth SG vs home](https://www.reddit.com/r/askSingapore/comments/1l1fe33/important_considerations_whether_to_have_my/)).
 - r/askSingapore — local-school / DP fee realism ([primary admission foreigners](https://www.reddit.com/r/askSingapore/comments/1azh44d/primary_school_admission/); [DP + government education](https://www.reddit.com/r/askSingapore/comments/1jfc9e5/dependent_pass_and_government_education/)).
