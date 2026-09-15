@@ -146,3 +146,7 @@ export async function getHelperHandoffExitPlaybook(): Promise<LeavingPlaybook | 
 export async function getMailForwardExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("mail-forward-exit.json");
 }
+
+export async function getSchoolLockerClearPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("school-locker-clear.json");
+}
