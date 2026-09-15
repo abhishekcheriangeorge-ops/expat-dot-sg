@@ -6,13 +6,11 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+
 ## Loop B — Family + Belong (tick 5) — 2026-09-15
 
 Branch: `loop/family-belong-tick5` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; neighbourhood/housing deep guides stay Home-owned).
-
-## Loop F — Services directory depth — 2026-09-15
-
-Branch: `loop/services-directory` → PR to `main`. Owns **services directory** entities + service detail UI fields only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy.
 
 ### Sources mined
 
@@ -163,6 +161,16 @@ Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-ca
 13. Are kids’ braces covered by typical expat group dental riders?
 14. How do beginners actually find pickleball games — Reclub drills or ActiveSG courts?
 15. Is parkrun a realistic first social ritual before joining a paid run club?
+
+---
+
+## Loop F — Services directory depth — 2026-09-15
+
+Branch: `loop/services-directory` → PR to `main`. Owns **services directory** entities + service detail UI fields only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
 
 - r/askSingapore — tax agents / IR21 / ESOP filing ([tax accountant worth it](https://www.reddit.com/r/askSingapore/comments/l965lj/tax_accountant_singapore_worth_it/); [expat income tax](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/); [ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [IR21 withhold explain](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [left after EP cancel + overdue tax](https://www.reddit.com/r/askSingapore/comments/1r8ztij/left_singapore_after_ep_cancellation_may_2024_and/)).
 - r/askSingapore — dental foreigner fees / polyclinic path ([wisdom tooth EP MediSave myth](https://www.reddit.com/r/askSingapore/comments/1on4gnd/wisdom_tooth_extraction_as_a_foreigner/); [dentist via polyclinic](https://www.reddit.com/r/askSingapore/comments/1tvfr6l/is_seeing_a_dentist_via_polyclinic_possible/); [public dental route](https://www.reddit.com/r/askSingapore/comments/rga3uj/how_to_receive_dental_treatment_via_the_public/)).
@@ -771,6 +779,10 @@ Prior Loop D tick shipped PR rejection, EP renewal age-bands, NS Exit Permit, re
 
 ---
 
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 20 — 2026-09-15
 
 Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
@@ -839,6 +851,8 @@ Tick 19 shipped HDB ceiling leaks, pets daily life, PUB water appeals, grocery d
 10. Upstairs dripping laundry keeps soaking my clothes — Town Council or confront?
 11. Katong vs Tampines vs Clementi vs Bukit Timah — which fits a mid-package family?
 12. Should I run a fibre TP availability check before paying the rental deposit?
+
+---
 
 ---
 
