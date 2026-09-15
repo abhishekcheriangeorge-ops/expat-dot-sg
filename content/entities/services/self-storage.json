@@ -3,7 +3,7 @@
   "slug": "self-storage",
   "name": "Self-storage (category guide)",
   "summary": "Between-lease and renovation buffer storage — compare climate control, access hours, and mover handoff separately from ocean-freight crates.",
-  "body": "Self-storage fills the gap when keys do not line up, reno runs long, or you leave Singapore temporarily without shipping everything. Tour the unit before you commit — humidity, ground-floor trolley access, and after-hours entry matter more than brochure sq ft. Ask whether the facility partners with movers for door-to-door load-in, who owns insurance while goods sit, and how billing works if you overstay a month. Condo-to-condo movers may offer short storage add-ons; pure self-storage brands (often named on forums) are usually cheaper for multi-month holds. Photograph inventory as it goes in; disputes later are won on item lists, not WhatsApp memory. Pair with local movers for the lift-deposit chapter and with outbound shipping only when furniture still earns its freight.",
+  "body": "Self-storage fills the gap when keys do not line up, reno runs long, or you leave Singapore temporarily without shipping everything. Tour the unit before you commit — humidity, ground-floor trolley access, and after-hours entry matter more than brochure sq ft. Ask whether the facility partners with movers for door-to-door load-in, who owns insurance while goods sit, and how billing works if you overstay a month. Condo-to-condo movers may offer short storage add-ons; pure self-storage brands (often named on forums) are usually cheaper for multi-month holds. Photograph inventory as it goes in; disputes later are won on item lists, not WhatsApp memory. If the alternative is buying furniture you will dump at exit, compare a short furniture-rental package against storage + later disposal fees. Pair with local movers for the lift-deposit chapter and with outbound shipping only when furniture still earns its freight.",
   "category": "movers",
   "areasServed": [
     "Islandwide"
@@ -12,7 +12,8 @@
     "Lease gap or reno needs a 1–6 month hold",
     "Leaving temporarily without full outbound freight",
     "Mover quote includes expensive crate storage you can unbundle",
-    "Need climate-aware storage for wood / electronics"
+    "Need climate-aware storage for wood / electronics",
+    "Comparing storage + disposal vs furniture rental for a short stay"
   ],
   "officialLinks": [
     {
@@ -27,7 +28,8 @@
   "relatedGuides": [
     "moving-within-singapore",
     "shipping-household-singapore",
-    "shipping-out-household"
+    "shipping-out-household",
+    "furnishing-rental-flat"
   ],
   "featured": false,
   "sponsored": false

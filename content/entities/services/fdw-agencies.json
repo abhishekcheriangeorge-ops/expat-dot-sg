@@ -3,7 +3,7 @@
   "slug": "fdw-agencies",
   "name": "Helper agencies & DIY FDW (category guide)",
   "summary": "When to pay an agency vs renew/transfer yourself on MOM eServices — SIP clocks, ≥S$60k enhanced MI, and age-50 premium jumps.",
-  "body": "You can apply, renew, and cancel an MDW Work Permit yourself with Singpass via MOM’s FDW eServices — agencies are optional after the first hire. First-time helpers still need the Settling-In Programme within seven days of arrival and cannot start work before SIP. Before every renewal, place/extend medical + personal accident insurance meeting MOM’s enhanced MI floor (≥S$60k inpatient/day-surgery annual limit; Stage 2 rules from 1 July 2025 standardise exclusions and age-banded premiums for helpers above 50). Shop insurers directly — agency-tied quotes are often not the cheapest, especially after age 50. Non-Malaysian helpers need a fresh security bond timed to the renewal. Transfers skip SIP but usually cost more in salary and placement. Levy concession for young children generally requires SC/PR kids — most EP+DP households miss it. Compare Comfort, Nation, and DIY on total cost, replacement policy, who books SIP/6ME, and whether dental sits outside the MI quote. This is a category guide, not a ranked agency league table.",
+  "body": "You can apply, renew, and cancel an MDW Work Permit yourself with Singpass via MOM’s FDW eServices — agencies are optional after the first hire. First-time helpers still need the Settling-In Programme within seven days of arrival and cannot start work before SIP. Before every renewal, place/extend medical + personal accident insurance meeting MOM’s enhanced MI floor (≥S$60k inpatient/day-surgery annual limit; Stage 2 rules from 1 July 2025 standardise exclusions and age-banded premiums for helpers above 50). Shop insurers directly — agency-tied quotes are often not the cheapest, especially after age 50. Non-Malaysian helpers need a fresh security bond timed to the renewal. Transfers skip SIP but usually cost more in salary and placement. Levy concession for young children generally requires SC/PR kids — most EP+DP households miss it. Compare Comfort, Nation, and DIY on total cost, replacement policy, who books SIP/6ME, and whether dental sits outside the MI quote. Short postpartum help is a different MOM rail — see the confinement-nanny category guide (Malaysian WP, ~28 days) before you force-fit a full MDW hire for one month of pui yuet care. This is a category guide, not a ranked agency league table.",
   "category": "fdw",
   "areasServed": [
     "Islandwide"
@@ -12,7 +12,8 @@
     "First hire — SIP within 7 days + EOP done",
     "Renewal: DIY vs agency fee for same MOM steps",
     "Helper over 50 — MI premium jumps sharply",
-    "Comparing transfer salary vs new-hire all-in cost"
+    "Comparing transfer salary vs new-hire all-in cost",
+    "Deciding MDW hire vs confinement-nanny package"
   ],
   "officialLinks": [
     {
@@ -30,10 +31,15 @@
     {
       "label": "MOM — Settling-In Programme",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/settling-in-programme"
+    },
+    {
+      "label": "MOM — Work Permit for confinement nanny (key facts)",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts"
     }
   ],
   "relatedGuides": [
-    "hiring-domestic-helper-mdw"
+    "hiring-domestic-helper-mdw",
+    "confinement-nanny-postpartum-singapore"
   ],
   "featured": false,
   "sponsored": false

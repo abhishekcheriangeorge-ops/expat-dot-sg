@@ -3,7 +3,7 @@
   "slug": "orange-tee",
   "name": "OrangeTee & Tie",
   "summary": "Property agency network active across condo and landed rentals and sales — negotiate tenant-side fees in writing and confirm stamp-duty reimbursement timing.",
-  "body": "Agents are not interchangeable — interview for neighbourhood fluency, landlord relationships, and LOI discipline. OrangeTee is one of several large brands; chemistry with your individual agent matters more than logo. If you engage them as your tenant agent, document commission and renewal terms in a CEA prescribed agreement before the first viewing, and clarify that stamp-duty collection is reimbursement after stamping, not a pre-stamp cash grab. Listings that say ‘agent fees apply’ while the salesperson also represents the landlord are a dual-commission / dual-representation risk — confirm engagement in writing and use CEA’s complaint path if needed. If you are comparing rent vs buy, ask for a written cash-flow sketch that includes ABSD (or FTA remission) rather than a mortgage-only spreadsheet. Landed listings for foreigners often have approval caveats — confirm eligibility before emotional deposits.",
+  "body": "Agents are not interchangeable — interview for neighbourhood fluency, landlord relationships, and LOI discipline. OrangeTee is one of several large brands; chemistry with your individual agent matters more than logo. If you engage them as your tenant agent, document commission and renewal terms in a CEA prescribed agreement before the first viewing, and clarify that stamp-duty collection is reimbursement after stamping, not a pre-stamp cash grab. Listings that say ‘agent fees apply’ while the salesperson also represents the landlord are a dual-commission / dual-representation risk — confirm engagement in writing and use CEA’s complaint path if needed. Ask for prior cleaning receipts if the TA mandates professional / curtain cleaning, and who pays pest treatment discovered in the first 30 days. If you are comparing rent vs buy, ask for a written cash-flow sketch that includes ABSD (or FTA remission) rather than a mortgage-only spreadsheet. Landed listings for foreigners often have approval caveats — confirm eligibility before emotional deposits.",
   "category": "agents",
   "areasServed": [
     "Islandwide"
@@ -15,7 +15,8 @@
     "Renting with tenant-side representation",
     "Need CEA prescribed agreement before viewings",
     "Purchase / ABSD maths must be stated on OTP",
-    "Listing claims tenant fee while agent also represents landlord"
+    "Listing claims tenant fee while agent also represents landlord",
+    "Need cleaning / pest / defect-free clauses clarified at LOI"
   ],
   "officialLinks": [
     {
@@ -33,6 +34,8 @@
   ],
   "relatedGuides": [
     "renting-process-loi-ta-deposits",
-    "buying-property-foreigner-absd"
+    "buying-property-foreigner-absd",
+    "rental-inventory-fair-wear-tear",
+    "aircon-pest-renewals"
   ]
 }

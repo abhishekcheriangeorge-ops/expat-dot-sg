@@ -6,6 +6,85 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 3 — 2026-09-15
+
+Branch: `cursor/services-directory-tick3-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped tick 1–2 topics (tax / dental / notary / storage / pets / mental health / licence / aircon / private health insurance / FDW DIY).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — bed bugs / who pays / multi-visit pest control ([agent refused proper treatment](https://www.reddit.com/r/askSingapore/comments/16cecjd/i_just_rented_a_place_discovered_bed_bug_and/); [HDB hygiene landlord vs tenant](https://www.reddit.com/r/askSingapore/comments/1b33122/who_is_responsible_for_the_hygiene_of_the_hdb/); [condo termites habitability](https://www.reddit.com/r/askSingapore/comments/1e9w12r/contract_termination_in_condo_termites/); [cockroach nest / professional service](https://www.reddit.com/r/askSingapore/comments/1bk010u/cockroaches_at_home/)).
+- r/askSingapore — bare vs furnished / furniture exit dumps ([semi vs fully furnished](https://www.reddit.com/r/askSingapore/comments/1acslvx/renting_semibare_vs_fully_furnished_condo/); TA professional-cleaning asks adjacency ([what to look for in a TA](https://www.reddit.com/r/askSingapore/comments/zmcmh7/what_to_look_for_in_a_tenancy_agreement_when/))).
+- r/askSingapore — confinement nanny agency vs freelancer ([first-timer parents](https://www.reddit.com/r/askSingapore/comments/1rlk81j/first_timer_parents_confinement_nanny/)).
+- r/askSingapore — car sharing photo/excess anxiety vs COE ([which car sharing](https://www.reddit.com/r/askSingapore/comments/1jvrlzs/which_car_sharing_service_do_you_recommend_and_why/); Grab-car rental side-hustle maths adjacency).
+- r/askSingapore — wills vs CPF nomination ([how to write will](https://www.reddit.com/r/askSingapore/comments/1e0lqb5/how_to_write_will_to_donate_organs_and_money/)).
+
+**Official**
+
+- [NEA — Vector Control Operator](https://www.nea.gov.sg/our-services/pest-control/vector-control-operator) + [Management of bed bugs](https://www.nea.gov.sg/our-services/pest-control/management-of-bed-bugs) + [mosquito habitat inspection](https://www.nea.gov.sg/dengue-zika/inspecting-your-homes-and-premises-for-mosquito-habitats).
+- [CEA — Renting guidance](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/) + [Agreements / checklists](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [MOM — Work Permit for confinement nanny](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts) + [eligibility](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/eligibility) + [apply](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/apply-for-permit).
+- [LTA OneMotoring — COE](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/certificate-of-entitlement--coe-.html) + [vehicle tax structure](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/tax-structure.html) + [SPF driving licence](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence).
+- [Judiciary — probate](https://www.judiciary.gov.sg/family/apply-for-probate) + [CPF nomination](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination) + [SCT](https://www.judiciary.gov.sg/civil/about-small-claims-tribunals).
+
+### Gaps vs tick 2
+
+Tick 2 shipped mental health / licence / aircon / private health insurance / FDW DIY + agent dual-rep depth. Remaining high-intent **directory** gaps matched this mine: **NEA VCO pest control (bed bugs / German roaches / who pays)**, **furniture rental for bare units**, **end-of-lease professional cleaning / curtain clauses**, **confinement-nanny agencies (distinct from MDW)**, **car sharing vs COE ownership**, plus wills/CPF nomination engage cues on family-law counsel and cleaning/pest LOI asks on agent brands.
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/pest-control.json`
+- `content/entities/services/furniture-rental.json`
+- `content/entities/services/end-of-lease-cleaning.json`
+- `content/entities/services/confinement-nanny.json`
+- `content/entities/services/car-sharing-rental.json`
+
+**Upgraded existing**
+
+- Aircon / movers / storage: `aircon-servicing.json`, `alliance-movers.json`, `self-storage.json`, `driving-schools-licence.json`
+- FDW brands + category: `fdw-agencies.json`, `comfort-employment.json`, `nation-employment.json` (confinement-nanny cross-rail)
+- Agents: `era-realty.json`, `huttons.json`, `orange-tee.json` (cleaning / pest / defect-free LOI asks)
+- Legal: `family-law-expat.json` (wills / CPF nomination / probate links)
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion (existing sponsored flags left as-is).
+- No Grok / third-party clone copy.
+- Did not re-litigate tick 1–2 tax/dental/notary/storage/pet/mental-health/licence/aircon/insurance/FDW DIY topics beyond cross-links.
+- Did not edit neighbourhoods, schools, clubs, or pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. Who pays for bed-bug treatment discovered in week one — landlord or tenant?
+2. Is a single fogging visit enough, or do I need a multi-visit NEA VCO plan?
+3. How do I verify a pest company is an NEA-registered Vector Control Operator?
+4. Should I rent furniture for a bare condo on a 12-month EP, or buy and dump?
+5. Will my landlord buy my sofa when I leave Singapore?
+6. Does my TA really require professional curtain cleaning at handover?
+7. What invoices protect my security deposit at checkout?
+8. Is a confinement nanny the same MOM pass as an MDW?
+9. Can foreigners hire a Malaysian confinement nanny, and what is the levy?
+10. Agency vs freelancer pui yuet — what should be in writing?
+11. Is GetGo cheaper than Grab once I have a Singapore licence?
+12. Do I photograph the car every trip to avoid damage invoices?
+13. Does a will move my CPF, or do I need a separate CPF nomination?
+14. Will a UK probate unfreeze my Singapore bank accounts?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 3)
 
 Branch: `loop/e-journeys-tools-tick3` → PR to `main`. Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok.

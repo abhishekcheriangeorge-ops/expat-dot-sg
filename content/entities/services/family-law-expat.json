@@ -14,7 +14,9 @@
     "Tenancy deposit / SCT leverage unclear",
     "Divorce, custody, Hague / ICAA travel risk",
     "PPO / family violence safety sequencing",
-    "TADM salary, retrenchment, or training-bond fights"
+    "TADM salary, retrenchment, or training-bond fights",
+    "Need Singapore will + separate CPF nomination",
+    "Foreign probate may not unfreeze local banks"
   ],
   "officialLinks": [
     {
@@ -24,6 +26,14 @@
     {
       "label": "TADM — Employment disputes",
       "url": "https://www.tal.sg/tadm"
+    },
+    {
+      "label": "Judiciary — Apply for probate",
+      "url": "https://www.judiciary.gov.sg/family/apply-for-probate"
+    },
+    {
+      "label": "CPF Board — Making a CPF nomination",
+      "url": "https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination"
     }
   ],
   "relatedGuides": [
@@ -31,6 +41,9 @@
     "security-deposit-diplomatic-clause",
     "rental-inventory-fair-wear-tear",
     "divorce-custody-foreigners-singapore",
-    "workplace-harassment-tafep-ep"
+    "workplace-harassment-tafep-ep",
+    "wills-probate-cpf-nomination-singapore",
+    "lasting-power-attorney-amd-foreigners",
+    "death-repatriation-foreigners-singapore"
   ]
 }

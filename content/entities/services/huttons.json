@@ -3,7 +3,7 @@
   "slug": "huttons",
   "name": "Huttons Asia",
   "summary": "Large agency presence for rentals and purchases across Singapore districts — verify CEA registration, commission, and renewal terms before viewings.",
-  "body": "Use agency scale for inventory breadth, then judge the agent on response time and contract hygiene. Never skip reading the tenancy agreement because someone is 'in a hurry.' On tenant representation, insist on a CEA prescribed Estate Agency Agreement that states commission, GST, and whether renewal attracts a further fee — there is no statutory rate, and surprise year-two invoices are a recurring expat complaint. Landlord’s agents who demand tenant commission while also being paid by the owner are a CEA dual-rep red flag — verify who engaged whom in writing and report with evidence if both sides paid the same salesperson. On the buy side, treat ABSD and BSD timelines as critical path — foreigners often underestimate cash due within days of the OTP. Ask whether the agent has closed FTA-remission purchases before if you are US or EFTA-national; process mistakes are expensive at 60% ABSD. Pay the agency with a receipt; dual commission from both sides of one deal is an offence.",
+  "body": "Use agency scale for inventory breadth, then judge the agent on response time and contract hygiene. Never skip reading the tenancy agreement because someone is 'in a hurry.' On tenant representation, insist on a CEA prescribed Estate Agency Agreement that states commission, GST, and whether renewal attracts a further fee — there is no statutory rate, and surprise year-two invoices are a recurring expat complaint. Landlord’s agents who demand tenant commission while also being paid by the owner are a CEA dual-rep red flag — verify who engaged whom in writing and report with evidence if both sides paid the same salesperson. Push for written clarity on professional cleaning, curtain dry-clean, and pest / defect-free wording before you sign — end-of-lease invoice theatre starts in the LOI. On the buy side, treat ABSD and BSD timelines as critical path — foreigners often underestimate cash due within days of the OTP. Ask whether the agent has closed FTA-remission purchases before if you are US or EFTA-national; process mistakes are expensive at 60% ABSD. Pay the agency with a receipt; dual commission from both sides of one deal is an offence.",
   "category": "agents",
   "areasServed": [
     "Islandwide"
@@ -15,7 +15,8 @@
     "Renting with tenant-side representation",
     "Need CEA prescribed agreement before viewings",
     "Purchase / ABSD maths must be stated on OTP",
-    "Landlord’s agent pushing tenant to pay their commission"
+    "Landlord’s agent pushing tenant to pay their commission",
+    "Need cleaning / pest / defect-free clauses clarified at LOI"
   ],
   "officialLinks": [
     {
@@ -33,6 +34,8 @@
   ],
   "relatedGuides": [
     "renting-process-loi-ta-deposits",
-    "buying-property-foreigner-absd"
+    "buying-property-foreigner-absd",
+    "rental-inventory-fair-wear-tear",
+    "aircon-pest-renewals"
   ]
 }

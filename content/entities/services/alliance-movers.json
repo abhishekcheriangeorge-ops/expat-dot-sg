@@ -3,7 +3,7 @@
   "slug": "alliance-movers",
   "name": "Alliance Movers",
   "summary": "Local and regional moving support for apartment and condo shifts — lift bookings, padding duties, and inventory discipline without full-container corporate freight.",
-  "body": "For intra-island condo moves, local movers can be more proportionate than full international freight agents. Ask who pays the MCST damage deposit (often S$500–1,000), who installs lift padding, and whether trolley distance from loading bay to lift triggers a surcharge — Reddit condo threads treat these as standard variables, not surprises. Insist on a written inventory, insurance clarity, and weekday lift slots coordinated with both buildings’ managing agents. If any unaccompanied overseas boxes are in the mix, confirm Singapore Customs GST-relief steps separately; domestic movers may not handle Declaration of Facts. Photograph meter readings and existing damage on both ends so aircon brackets and flooring disputes do not become deposit fights.",
+  "body": "For intra-island condo moves, local movers can be more proportionate than full international freight agents. Ask who pays the MCST damage deposit (often S$500–1,000), who installs lift padding, and whether trolley distance from loading bay to lift triggers a surcharge — Reddit condo threads treat these as standard variables, not surprises. Insist on a written inventory, insurance clarity, and weekday lift slots coordinated with both buildings’ managing agents. If any unaccompanied overseas boxes are in the mix, confirm Singapore Customs GST-relief steps separately; domestic movers may not handle Declaration of Facts. Photograph meter readings and existing damage on both ends so aircon brackets and flooring disputes do not become deposit fights. When the unit is bare, ask whether the crew can stage furniture-rental delivery or haul orphan pieces to self-storage / disposal — exit dumping fees surprise many EP leavers.",
   "category": "movers",
   "areasServed": [
     "Islandwide"
@@ -13,7 +13,8 @@
   "whenToEngage": [
     "Condo-to-condo move with MCST deposits",
     "Need written inventory + insurance clarity",
-    "Lift padding / trolley surcharge unknowns"
+    "Lift padding / trolley surcharge unknowns",
+    "Need storage or furniture-disposal handoff with the move"
   ],
   "officialLinks": [
     {
@@ -27,6 +28,7 @@
   ],
   "relatedGuides": [
     "moving-within-singapore",
-    "shipping-household-singapore"
+    "shipping-household-singapore",
+    "furnishing-rental-flat"
   ]
 }
