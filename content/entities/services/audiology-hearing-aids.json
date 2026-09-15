@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "audiology-hearing-aids",
+  "name": "Audiology and hearing aids",
+  "summary": "How expats navigate audiology in Singapore for hearing tests, hearing-aid fitting, and tinnitus support — including when ENT should lead and how to avoid mall upsell packages.",
+  "body": "Hearing loss shows up in noisy open offices, after years of concerts, or when an ageing parent on LTVP stops following dinner conversation. Audiologists run diagnostic tests and fit hearing aids; ENT doctors manage medical/surgical ear disease. Many people need both in sequence.\n\n## What audiology covers\n- Pure-tone and speech audiometry\n- Tympanometry and middle-ear screening\n- Hearing-aid evaluation, fitting, and verification\n- Tinnitus counselling and sound-therapy options\n- Paediatric hearing pathways (with medical clearance when indicated)\n\nMall “free hearing tests” that jump straight to same-day premium aids are a common complaint — insist on proper diagnostics and a cooling-off period.\n\n## Cost and follow-up\nHearing aids are often cash purchases with trial periods; insurance cover is patchy. Ask about warranty, battery vs rechargeable running costs, and fine-tuning visits. Humidity and sweat affect device reliability — ask about moisture care.\n\n## How to choose\nPrefer audiologists who show real-ear verification, explain aid classes without shame, and will refer to ENT for asymmetric loss, sudden drop, or ear disease signs. Bring prior audiograms from overseas for comparison.\n\n## Practical tip\nSudden hearing loss is time-sensitive — seek urgent ENT/A&E care, not a routine aid demo. For gradual loss, book diagnostics before browsing device catalogues.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/ahpc",
+  "whenToEngage": [
+    "Workplace/home conversation hearing strain",
+    "Hearing-aid trial and verification needed",
+    "Mall free-test upsell before proper audiometry",
+    "Ageing parent on visit needs hearing assessment"
+  ],
+  "officialLinks": [
+    {
+      "label": "Allied Health Professions Council",
+      "url": "https://www.healthprofessionals.gov.sg/ahpc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "aged-parents-pr-ltvp-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

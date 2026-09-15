@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "breast-pump-rental",
+  "name": "Breast pump rental and lactation support",
+  "summary": "How new parents in Singapore rent hospital-grade breast pumps and find lactation consultants — hospital discharge timing, flange fit, and what rental contracts should clarify about deposits and sanitisation.",
+  "body": "Returning to work on short maternity leave makes pump logistics urgent. Hospital-grade double electrics are commonly rented; personal pumps are bought. Lactation consultants (IBCLC where possible) troubleshoot latch, supply, and return-to-work plans beyond device rental alone.\n\n## Rental basics\n- Deposit, weekly/monthly rates, and minimum hire period\n- Collection vs delivery; spare parts and tubing policy\n- Cleaning/sanitising expectations between hirers\n- Flange sizing — wrong size causes pain and poor output\n- When to escalate medical breast issues to a doctor\n\nEmployer lactation-room quality varies; plan cold-chain storage for commuting.\n\n## How to choose\nPrefer vendors who help with flange fit and can swap parts quickly. Pair rental with at least one lactation consult if feeding is painful or intake concerns exist. Be wary of “guaranteed supply” supplement stacks sold beside pumps.\n\n## Practical tip\nBook the pump before discharge if you know you will need it week one. Label parts, keep a small cooler bag for Grab rides home, and photograph the serial number for deposit returns.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Hospital-grade pump rental before return to work",
+    "Painful latch / supply questions need lactation consult",
+    "Flange size and hire deposit terms unclear",
+    "Cold-chain pumping plan for commute days"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "parenting-communities-playgroups-singapore",
+    "paternity-shared-parental-leave-foreigners"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "veterinary-dental-pets",
+  "name": "Veterinary dental care for pets",
+  "summary": "How expats arrange professional pet dental cleaning and oral surgery in Singapore — anaesthesia norms, cost ranges, and why “anaesthesia-free dentistry” marketing is a red flag for most dogs and cats.",
+  "body": "Pet dental disease is common in condo-living dogs and cats eating mostly kibble. Professional cleaning under anaesthesia lets vets chart, probe, polish, and extract safely — something scale-only “anaesthesia-free” stalls cannot do below the gumline.\n\n## What to expect\n- Pre-anaesthetic exam and often bloodwork\n- Full-mouth charting, dental radiographs when available\n- Scaling, polishing, and extractions as needed\n- Pain relief and home-care plans (brushing, diets, chews)\n- Follow-up for oral surgery cases\n\nImport-new pets may arrive with deferred dental care from the relocation scramble — book once AVS settling allows elective anaesthesia.\n\n## Cost honesty\nQuotes can jump after radiographs reveal root disease. Ask what is included vs variable extractions. Pet insurance often excludes pre-existing dental disease — check waiting periods early.\n\n## How to choose\nPrefer AVS-licensed clinics with dental radiography and clear anaesthetic monitoring standards. Be sceptical of anaesthesia-free packages for small dogs with heavy tartar. Ask who monitors anaesthesia and what happens if complications arise.\n\n## Practical tip\nStart toothbrush acclimation weeks before the procedure. Fasting instructions matter — confirm exact hours for your pet’s size and species.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nparks.gov.sg/avs",
+  "whenToEngage": [
+    "Bad breath / tartar — professional dental vs home chews",
+    "Quoted anaesthesia-free dentistry needs a second opinion",
+    "Pre-anaesthetic bloodwork and cost variables unclear",
+    "Post-import pet due for deferred dental care"
+  ],
+  "officialLinks": [
+    {
+      "label": "NParks Animal & Veterinary Service",
+      "url": "https://www.nparks.gov.sg/avs"
+    }
+  ],
+  "relatedGuides": [
+    "importing-pets-singapore",
+    "pets-daily-life-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

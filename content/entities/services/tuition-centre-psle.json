@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "tuition-centre-psle",
+  "name": "PSLE and local-school tuition centres",
+  "summary": "How expat families evaluate PSLE-focused tuition centres when children enter or consider local schools — subject banding reality, package pressure, and how centres differ from school homework help.",
+  "body": "PSLE tuition is a dense market aimed at MOE primary pathways. Some expat families use it after joining local schools; others sample it while deciding between international and local tracks. Centres are not a substitute for understanding whether local school is the right fit.\n\n## What centres sell\n- Subject-specific weekly classes (English, Maths, Science, Mother Tongue)\n- Holiday intensives and mock exam papers\n- Small-group vs large lecture formats\n- “Heuristic” maths branding and science practical add-ons\n\nAsk how they diagnose gaps versus racing ahead of school pacing.\n\n## Expat-specific notes\nMother Tongue policies and exemptions matter — confirm your child’s MT code before buying Chinese intensives blindly. If you are still on international curriculum, PSLE centres may misalign until a transfer is real. Transport and evening load on top of CCA can burn kids out.\n\n## How to choose\nTrial classes beat year packages. Prefer centres that share marked work samples and teacher stability data. Be sceptical of rank guarantees. For learning differences, ask about differentiation — or choose specialist educational support instead.\n\n## Practical tip\nMap the weekly timetable with sleep and family dinners first. One strong subject centre plus school partnership often beats four overlapping brands.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moe.gov.sg/",
+  "whenToEngage": [
+    "Child in/entering local primary needs PSLE subject support",
+    "Trial centre class before annual package",
+    "Mother Tongue stream vs tuition product mismatch risk",
+    "Overlapping tuition load vs sleep/CCA balance"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Education",
+      "url": "https://www.moe.gov.sg/"
+    },
+    {
+      "label": "SEAB",
+      "url": "https://www.seab.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "local-schools-for-expats",
+    "school-waitlist-realism",
+    "mandarin-enrichment-expat-kids-singapore",
+    "international-schools-landscape"
+  ],
+  "featured": false,
+  "sponsored": false
+}

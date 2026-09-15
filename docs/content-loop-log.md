@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 23 — 2026-09-15
+
+Branch: `cursor/services-directory-tick23-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — hearing-aid mall upsell vs proper audiology threads.
+- Pet forums — anaesthesia-free dental scepticism and cleaning cost jumps.
+- Parenting forums — newborn photographer contracts and heat logistics.
+- New-parent forums — hospital-grade pump rental and flange fit pain.
+- Local-school parent forums — PSLE centre package pressure and MT stream mismatch.
+
+**Official**
+
+- [AHPC](https://www.healthprofessionals.gov.sg/ahpc) + [MOH](https://www.moh.gov.sg/).
+- [NParks AVS](https://www.nparks.gov.sg/avs) + [PDPC](https://www.pdpc.gov.sg/) + [CASE](https://www.case.org.sg/).
+- [HealthHub](https://www.healthhub.sg/) + [MOE](https://www.moe.gov.sg/) + [SEAB](https://www.seab.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#204 cover prior depth and every on-main service file. Free surface for tick 23: **audiology/hearing aids**, **vet dental**, **family/newborn photography**, **breast pump rental**, **PSLE tuition centres**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/audiology-hearing-aids.json`
+- `content/entities/services/veterinary-dental-pets.json`
+- `content/entities/services/photo-studio-family.json`
+- `content/entities/services/breast-pump-rental.json`
+- `content/entities/services/tuition-centre-psle.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#204 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Free mall hearing test or audiologist diagnostics first?
+2. Is anaesthesia-free pet dentistry enough for tartar?
+3. Studio or outdoor family shoot with toddlers in heat?
+4. When to rent a hospital-grade pump vs buy personal?
+5. Which PSLE centre subjects if MT stream is still unclear?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 17)
 
 Branch: `cursor/e-journeys-tools-tick17-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#164 on tip). **Did not wait for merges.** Avoided open E stack exclusive **#173** (mail-forward / hdb-reno). Prefer merge order note: **#173 → this tick**.
