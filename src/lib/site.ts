@@ -179,7 +179,12 @@ export const pillars: Pillar[] = [
       {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
-        blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
+        blurb: "Age-band floors, renewal re-checks, one-employer EP reality.",
+      },
+      {
+        label: "Decode the job offer",
+        href: "/guides/decoding-job-offer-singapore",
+        blurb: "Fixed salary vs CTC, sign-before-IPA traps, who pays EP fees.",
       },
       {
         label: "EP rejection, appeal & IPA reassessment",
@@ -305,7 +310,7 @@ export const pillars: Pillar[] = [
       {
         label: "Credit cards for foreigners",
         href: "/guides/credit-cards-foreigners-singapore",
-        blurb: "S$45k floors, GX history, secured FD fallbacks.",
+        blurb: "S$45k floors, GX history, secured FD, pass-cancel freezes.",
       },
       {
         label: "Cash declaration (CBNI)",

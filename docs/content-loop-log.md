@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 23)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick23-49cb` → PR to `main` (fresh worktree off `origin/main` @ `4621bcf`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175) A17–A22 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP renewal floors rising; dual-EP myths; nationality folklore vs COMPASS.
+- r/askSingapore — sign-before-IPA; CTC vs fixed salary; who pays MOM fees.
+- r/askSingapore — foreign cards while waiting; DP spouse principal cards; pass-cancel freezes.
+
+**Official**
+
+- [MOM — Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass) + eligibility / key facts
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep)
+- Bank product pages / MAS-regulated issuer framing for foreigner card eligibility (verify live issuer terms)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A22 claim Student’s Pass/LTVP/CPF-withdrawal, EP-notify/ONE Pass/COR, COMPASS/Tech.Pass/foreign-income, EntrePass/side-income/IRAS-residency, Dependant’s Pass/EP-appeal/SRS, and S Pass/PEP/RSU. Tick 23 deepens **Employment Pass**, **decoding the job offer**, and **credit cards for foreigners** without colliding those paths. Did not expand the existing job-offer sponsor slot.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/employment-pass-singapore.mdx` (+3)
+- `content/guides/move/decoding-job-offer-singapore.mdx` (+3)
+- `content/guides/money/credit-cards-foreigners-singapore.mdx` (+3)
+- `src/lib/site.ts` (job-offer hub topic; EP/credit-card blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion (left `sponsorSlot` on decoding-job-offer untouched beyond FAQ appends).
+- No Grok / third-party clone copy.
+- Did not edit open A17–A22 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175 for the merge controller.
+
+### Questions mined (sample)
+
+1. Does EP renewal re-check salary/COMPASS?
+2. Can I hold two EPs during a job change?
+3. Is nationality a hidden EP factor?
+4. Should I sign before IPA?
+5. Is CTC the same as fixed monthly salary?
+6. Who pays EP application fees?
+7. Can I rely on a foreign card meanwhile?
+8. Do DP spouses get principal cards on the EP income?
+9. What happens to cards when the pass cancels?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 13)
 
 Branch: `cursor/loop-d-next-polish-tick13-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99). #79 already merged.
