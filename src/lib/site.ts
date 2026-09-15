@@ -690,21 +690,6 @@ export const pillars: Pillar[] = [
         blurb: "New employer files fresh pass — resign only after IPA.",
       },
       {
-        label: "DP re-sponsor on EP job change",
-        href: "/guides/dp-resubmission-when-principal-changes-ep-singapore",
-        blurb: "New principal IPA → family re-file before old cancel.",
-      },
-      {
-        label: "LTVP + PLOC → EP",
-        href: "/guides/ltvp-ploc-to-ep-conversion-singapore",
-        blurb: "PLOC is work consent — EP is a new principal file.",
-      },
-      {
-        label: "S Pass → EP upgrade",
-        href: "/guides/s-pass-to-ep-upgrade-in-singapore",
-        blurb: "Raise ≠ conversion; FCF + COMPASS on a fresh EP file.",
-      },
-      {
         label: "PEP / ONE / Tech.Pass chooser",
         href: "/guides/pep-one-tech-pass-chooser-singapore",
         blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",
