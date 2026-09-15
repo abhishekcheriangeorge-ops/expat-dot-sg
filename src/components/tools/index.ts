@@ -6,6 +6,7 @@ export { CpfWithdrawalCalculator } from "./CpfWithdrawalCalculator";
 export { DrivingInsuranceGapCalculator } from "./DrivingInsuranceGapCalculator";
 export { EpThresholdCalculator } from "./EpThresholdCalculator";
 export { FdwLevyCalculator } from "./FdwLevyCalculator";
+export { FibreBroadbandEtfCalculator } from "./FibreBroadbandEtfCalculator";
 export { ForeignLicenceClockCalculator } from "./ForeignLicenceClockCalculator";
 export { HdbRenoDepositCalculator } from "./HdbRenoDepositCalculator";
 export { IpaWindowCalculator } from "./IpaWindowCalculator";

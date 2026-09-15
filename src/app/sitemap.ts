@@ -44,7 +44,7 @@ const STATIC_PATHS: Array<{
     priority: 0.75,
   },
   {
-    path: "/journeys/gym-membership-freeze-exit",
+    path: "/journeys/childcare-infant-care-exit",
     changeFrequency: "monthly",
     priority: 0.75,
   },
@@ -72,7 +72,7 @@ const STATIC_PATHS: Array<{
     priority: 0.65,
   },
   {
-    path: "/tools/school-leavers-fee",
+    path: "/tools/fibre-broadband-etf",
     changeFrequency: "monthly",
     priority: 0.65,
   },

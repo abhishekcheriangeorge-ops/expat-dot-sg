@@ -5,8 +5,8 @@ import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
+  getChildcareInfantCareExitPlaybook,
   getCondoVisitorQrExitPlaybook,
-  getGymMembershipFreezeExitPlaybook,
   getLeavingPlaybook,
   getMoverLiftBookingPlaybook,
   getPreArrivalPlaybook,
@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, gym membership freeze/exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, childcare/infant-care exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -33,7 +33,7 @@ export default async function JourneysIndexPage() {
     singpassExit,
     moverLift,
     condoVisitorQr,
-    gymFreeze,
+    childcareExit,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -41,7 +41,7 @@ export default async function JourneysIndexPage() {
     getSingpassMyinfoExitPlaybook(),
     getMoverLiftBookingPlaybook(),
     getCondoVisitorQrExitPlaybook(),
-    getGymMembershipFreezeExitPlaybook(),
+    getChildcareInfantCareExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -87,8 +87,8 @@ export default async function JourneysIndexPage() {
                 path: "/journeys/condo-visitor-qr-exit",
               },
               {
-                name: gymFreeze?.title ?? "Gym membership freeze / exit",
-                path: "/journeys/gym-membership-freeze-exit",
+                name: childcareExit?.title ?? "Childcare / infant-care exit",
+                path: "/journeys/childcare-infant-care-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -259,28 +259,28 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Fitness exit
+            Care exit
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {gymFreeze?.title ?? "Gym membership freeze / exit"}
+            {childcareExit?.title ?? "Childcare / infant-care exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {gymFreeze?.summary ??
-              "Freeze vs cancel clocks, class packs, and access fobs before movers week."}{" "}
+            {childcareExit?.summary ??
+              "Centre notice weeks, deposits, and kits before school withdrawal and movers week."}{" "}
             Pair with{" "}
             <Link
-              href="/tools/school-leavers-fee"
+              href="/tools/fibre-broadband-etf"
               className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
             >
-              /tools/school-leavers-fee
+              /tools/fibre-broadband-etf
             </Link>{" "}
-            if yearbook / leavers invoices land the same fortnight.
+            if ISP early-termination cash lands the same fortnight.
           </p>
           <Link
-            href="/journeys/gym-membership-freeze-exit"
+            href="/journeys/childcare-infant-care-exit"
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open gym freeze / exit playbook
+            Open childcare / infant-care playbook
           </Link>
         </FadeIn>
 

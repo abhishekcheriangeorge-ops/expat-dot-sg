@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, and school leavers fee.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, and fibre broadband ETF.",
   path: "/tools",
 });
 
@@ -66,10 +66,10 @@ const tools = [
       "Sketch iPad / 1:1 device bond return vs damage holds and overdue fees — not handbook advice.",
   },
   {
-    href: "/tools/school-leavers-fee",
-    title: "School leavers fee",
+    href: "/tools/fibre-broadband-etf",
+    title: "Fibre broadband ETF",
     summary:
-      "Sketch core leavers fees, yearbook charges, and optional packs — not handbook advice.",
+      "Compare serve-remaining-months, ETF + rebate clawback, and transfer/takeover fees — not ISP advice.",
   },
 ] as const;
 
