@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import type { ReactNode } from "react";
 
 type KenBurnsProps = {
@@ -10,9 +10,19 @@ type KenBurnsProps = {
 
 /**
  * Soft ken-burns + rain-light shift for hero media.
- * Wrap an image or full-bleed visual plane — not for UI chrome.
+ * Static under prefers-reduced-motion — still paints the visual plane.
  */
 export function KenBurns({ children, className }: KenBurnsProps) {
+  const reduceMotion = useReducedMotion();
+
+  if (reduceMotion) {
+    return (
+      <div className={`relative h-full w-full overflow-hidden ${className ?? ""}`}>
+        {children}
+      </div>
+    );
+  }
+
   return (
     <motion.div
       className={`relative h-full w-full overflow-hidden ${className ?? ""}`}

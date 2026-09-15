@@ -6,6 +6,33 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 21)
+
+Branch: `cursor/loop-g-seo-tick21-a144` → PR to `main`. Reduced-motion a11y, feeds/GPC discovery, JumpLinks/MoreLinks after #74→#244 claimed surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Motion primitives ignored `prefers-reduced-motion` (CLS/a11y crawl risk on hero planes).
+- No feeds discovery map or GPC privacy signal (`.well-known/gpc.json`).
+- TOC lacked JumpLinks consumer + ItemList helpers; no MoreLinks rail.
+- `next.config.ts` had no referrer / sniff / feeds cache headers.
+
+### Shipped this loop
+
+- FadeIn / Stagger / KenBurns respect reduced motion
+- `JumpLinks`, `MoreLinks`; `seo-feeds.ts`; `tocToJumpItems`
+- `public/feeds.txt`; `public/.well-known/gpc.json`
+- Security/cache headers in `next.config.ts`
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 → #244 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy; no sponsored pages.
+
+---
+
 ## Loop B — Family + Belong (tick 26) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick26-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #190. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

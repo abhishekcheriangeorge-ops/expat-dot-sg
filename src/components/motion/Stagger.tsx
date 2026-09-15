@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, type HTMLMotionProps } from "framer-motion";
+import { motion, useReducedMotion, type HTMLMotionProps } from "framer-motion";
 import type { ReactNode } from "react";
 
 const easeOutExpo: [number, number, number, number] = [0.16, 1, 0.3, 1];
@@ -29,8 +29,14 @@ type StaggerProps = {
   className?: string;
 } & Omit<HTMLMotionProps<"div">, "children">;
 
-/** Staggered pillar / list reveal */
+/** Staggered pillar / list reveal — static when reduced motion is preferred. */
 export function Stagger({ children, className, ...rest }: StaggerProps) {
+  const reduceMotion = useReducedMotion();
+
+  if (reduceMotion) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       className={className}
@@ -45,11 +51,13 @@ export function Stagger({ children, className, ...rest }: StaggerProps) {
   );
 }
 
-export function StaggerItem({
-  children,
-  className,
-  ...rest
-}: StaggerProps) {
+export function StaggerItem({ children, className, ...rest }: StaggerProps) {
+  const reduceMotion = useReducedMotion();
+
+  if (reduceMotion) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div className={className} variants={item} {...rest}>
       {children}

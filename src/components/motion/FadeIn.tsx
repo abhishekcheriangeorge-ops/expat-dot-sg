@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, type HTMLMotionProps } from "framer-motion";
+import { motion, useReducedMotion, type HTMLMotionProps } from "framer-motion";
 import type { ReactNode } from "react";
 
 type FadeInProps = {
@@ -12,7 +12,7 @@ type FadeInProps = {
 
 const easeOutExpo: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
-/** Soft opacity + rise reveal — primary motion primitive */
+/** Soft opacity + rise reveal — respects prefers-reduced-motion. */
 export function FadeIn({
   children,
   className,
@@ -20,6 +20,12 @@ export function FadeIn({
   y = 16,
   ...rest
 }: FadeInProps) {
+  const reduceMotion = useReducedMotion();
+
+  if (reduceMotion) {
+    return <div className={className}>{children}</div>;
+  }
+
   return (
     <motion.div
       className={className}

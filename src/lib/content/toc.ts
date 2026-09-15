@@ -31,3 +31,16 @@ export function extractToc(source: string): TocItem[] {
 
   return items;
 }
+
+/** Stable fragment list for JumpLinks / ItemList consumers. */
+export function tocToJumpItems(items: TocItem[]): Array<{
+  id: string;
+  title: string;
+  depth: 2 | 3;
+}> {
+  return items.map((item) => ({
+    id: item.id,
+    title: item.title,
+    depth: item.depth,
+  }));
+}

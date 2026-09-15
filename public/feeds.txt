@@ -1,0 +1,32 @@
+# Feeds & discovery map — expat.sg
+# Companion to browse.txt / agents.txt / ai.txt / llms.txt.
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Sitemaps
+- https://expat.sg/sitemap.xml
+
+## Crawl / agent orientation
+- https://expat.sg/browse.txt
+- https://expat.sg/agents.txt
+- https://expat.sg/ai.txt
+- https://expat.sg/llms.txt
+- https://expat.sg/humans.txt
+
+## Primary hubs
+- https://expat.sg/
+- https://expat.sg/guides
+- https://expat.sg/journeys
+- https://expat.sg/tools
+- https://expat.sg/schools
+- https://expat.sg/neighbourhoods
+- https://expat.sg/clubs
+- https://expat.sg/directory
+- https://expat.sg/calendar
+
+## Privacy signals
+- https://expat.sg/.well-known/gpc.json
+- https://expat.sg/.well-known/security.txt
+
+notes: No RSS body feed yet — use sitemap.xml + hub indexes for discovery.
