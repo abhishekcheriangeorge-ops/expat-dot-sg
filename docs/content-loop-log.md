@@ -6,6 +6,66 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 22) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick22-8971` → PR to `main`. Owns **Family** + **Belong** plus light clubs/schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #159. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — sibling meltdown while one child is admitted; helper overload.
+- r/askSingapore — birthday guest-list inflation; condo function-room deposits.
+- r/askSingapore — OnePA / CC courses as soft landing for foreigners.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/home/our-healthcare-system) + [ECDA](https://www.ecda.gov.sg/)
+- [NParks](https://www.nparks.gov.sg/)
+- [PA](https://www.pa.gov.sg/) + [OnePA](https://www.onepa.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–21 (open through #159) covered schools through park belonging. Remaining heat without contested paths: **sibling care during hospitalisation**, **kids birthday party ops**, **CC/PA parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-sibling-care-during-hospitalisation-singapore.mdx`
+- `content/guides/family/kids-birthday-party-ops-dual-career-singapore.mdx`
+- `content/guides/belong/community-centre-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- hawker food, arts/culture, moving within Singapore, mould/humidity
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- Tanglin Club, Tower Club, GIIS, XCL, family-law-expat
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#159 guide/entity paths.
+
+### Questions mined (sample)
+
+1. Who covers sibling bedtime if the ward parent stays overnight?
+2. Are two sibling backups confirmed?
+3. What is the guest-list cap before class pressure expands it?
+4. Does MCST need a deposit for the function room?
+5. Is helper rest day on party day?
+6. Which two CCs are within 15 minutes?
+7. Is the OnePA foreigner fee tier clear?
+8. Can hospital visiting include siblings this week?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 21) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick21-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #155. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
