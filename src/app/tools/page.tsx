@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, cost-of-living estimate, Employment Pass salary threshold, school withdrawal notice, car/COE exit, and HDB reno deposit sketch.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, and club deposit exit.",
   path: "/tools",
 });
 
@@ -30,6 +30,12 @@ const tools = [
       "IRAS tenancy lease duty only — 0.4% of total rent (≤4 years), 4× AAR for longer leases, AAR exemption.",
   },
   {
+    href: "/tools/lease-notice",
+    title: "Diplomatic clause notice",
+    summary:
+      "Sketch lock-in + written notice dates on a typical 12/24-month TA before you resign or book flights.",
+  },
+  {
     href: "/tools/cost-of-living",
     title: "Cost of living sketch",
     summary:
@@ -42,22 +48,22 @@ const tools = [
       "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
   },
   {
-    href: "/tools/school-withdrawal",
-    title: "School withdrawal notice",
+    href: "/tools/school-deposit-clawback",
+    title: "School deposit clawback",
     summary:
-      "Count contractual notice weeks backwards from the last attendance day — mid-term fee cue only.",
+      "Sketch mid-year deposit forfeiture and remaining tuition cash at risk — not handbook advice.",
   },
   {
-    href: "/tools/car-coe-exit",
-    title: "Car / COE exit",
+    href: "/tools/foreign-licence-clock",
+    title: "Foreign licence clock",
     summary:
-      "Sketch local sale, export/scrap, or transfer cash — proceeds, rebate hope, loan, fees, prepaid burn.",
+      "Sketch common foreign-licence windows from arrival or pass issue — orientation, not SPF advice.",
   },
   {
-    href: "/tools/hdb-reno-deposit",
-    title: "HDB reno deposit",
+    href: "/tools/club-deposit-exit",
+    title: "Club deposit exit",
     summary:
-      "Sketch renovation permit deposit refund timing and cash at risk after inspection.",
+      "Sketch resignation deposit refund hope, notice-month dues, admin fees, and prepaid burn.",
   },
 ] as const;
 
@@ -75,7 +81,7 @@ export default function ToolsIndexPage() {
           collectionPageJsonLd({
             name: "Tools",
             description:
-              "First-month cash, lease duty, COL, EP threshold, and school withdrawal utilities for Singapore expats.",
+              "First-month cash, lease duty, diplomatic-clause notice, COL, and Employment Pass threshold utilities for Singapore expats.",
             path: "/tools",
             items: tools.map((tool) => ({
               name: tool.title,
@@ -113,22 +119,10 @@ export default function ToolsIndexPage() {
 
         <FadeIn className="mt-16 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <Link
-            href="/journeys/arriving"
+            href="/journeys"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
-            Arriving journeys →
-          </Link>
-          <Link
-            href="/guides"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Guides →
-          </Link>
-          <Link
-            href="/home"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Home (lease cash) →
+            ← Back to journeys
           </Link>
           <Link
             href="/money"

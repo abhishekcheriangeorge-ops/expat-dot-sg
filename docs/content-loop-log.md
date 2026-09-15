@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 17)
+
+Branch: `cursor/e-journeys-tools-tick17-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#164 on tip). **Did not wait for merges.** Avoided open E stack exclusive **#173** (mail-forward / hdb-reno). Prefer merge order note: **#173 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — FDW transfer vs cancel when the family leaves; helper still in the flat after EP cancel folklore.
+- r/askSingapore / club threads — resignation notice months; entrance deposit refund myths; dues through notice.
+
+**Official / orientation**
+
+- [MOM — Work Permit for FDW](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker)
+- Club constitution / resignation schedules (club-specific)
+
+### Gaps vs open E stack through #173
+
+Open **#173** covers mail forward exit + HDB reno deposit. Remaining high-intent gaps **off that path set**: **helper handoff on exit**, **club deposit resignation cash sketch**. No calendar JSON. Did not re-edit #164 exclusives (already on main).
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/helper-handoff-exit.json` + `/journeys/helper-handoff-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/club-deposit-exit.ts`
+- `src/components/tools/ClubDepositExitCalculator.tsx`
+- `/tools/club-deposit-exit` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #173 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Can the helper stay after we fly if the lease still runs?
+2. Transfer vs cancel — which MOM path fits exit week?
+3. Who is employer of record on movers morning?
+4. How do we sequence helper exit with pet / newborn care?
+5. When should condo app access for the helper be revoked?
+6. How many notice months does the club actually require?
+7. Will the entrance deposit come back?
+8. Do dues keep billing through the notice window?
+9. What admin fees hit on resignation?
+10. Should club resignation wait until after helper handoff?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 16)
 
 Branch: `cursor/e-journeys-tools-tick16-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#147/#156 on tip). **Did not wait for merges.** Avoided open E stack exclusive **#164** (mover-lift / foreign-licence). Prefer merge order note: **#164 → this tick**.

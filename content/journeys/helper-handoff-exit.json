@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "helper-handoff-exit",
+  "title": "Helper handoff on exit",
+  "summary": "Leaving Singapore with an FDW still in the household — transfer vs home leave vs cancel, MOM timing, and how helper exit collides with movers, pets, and newborn care.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "decide-path",
+      "title": "Decide: transfer, home leave, or cancel",
+      "body": "An exit week is a terrible time to improvise helper status. Transfer to a new employer, scheduled home leave that ends the contract cleanly, or cancellation with repatriation each have different MOM clocks. Pick one path in writing with the agency or new employer before you book the family’s flights.",
+      "bullets": [
+        "Do not assume “she can stay a few weeks after we leave” without a lawful pass plan",
+        "Ask the agency which documents they need for transfer vs cancel",
+        "Align helper last working day with movers and key handover — not after you are already abroad"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker"
+    },
+    {
+      "id": "mom-timing",
+      "title": "MOM timing vs your EP cancel",
+      "body": "Helper Work Permit actions are separate from your EP cancel and IR21. Sequence so the helper is not stranded without a sponsoring household, and so you are not still the employer of record after you have left Singapore. Levy and insurance continuations follow the permit — sketch levy cash separately from handoff logistics.",
+      "bullets": [
+        "Confirm who remains the employer of record on each calendar day of exit week",
+        "Keep MOM eService access (Singpass) alive until the helper action completes",
+        "Pair levy timing with /tools/fdw-levy if you still need a cash sketch"
+      ],
+      "href": "/tools/fdw-levy"
+    },
+    {
+      "id": "care-overlap",
+      "title": "Care overlap: kids, pets, newborn",
+      "body": "If the helper is primary childcare or pet care, her exit day can strand the household the same morning as the movers truck. Sequence pet re-export, newborn Special Pass errands, and helper handoff so one adult is always free for MOM / agency counters.",
+      "bullets": [
+        "Map who walks the dog / covers childcare on movers morning",
+        "Do not book helper home-leave flights that collide with pet export day",
+        "Newborn DP filing often still needs a caregiver — plan for that adult explicitly"
+      ],
+      "href": "/journeys/newborn-special-pass"
+    },
+    {
+      "id": "quarters-and-keys",
+      "title": "Helper room, keys, and condo access",
+      "body": "Helper room clearance, cupboard keys, and condo app access are easy to forget when the main unit is packing. Revoke helper visitor QR and access cards the same day physical cards return — not after the new employer’s first week.",
+      "bullets": [
+        "Inventory helper keys with the main access list",
+        "Photograph the helper room for deposit disputes",
+        "Remove helper from condo / MCST apps when her pass path changes"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "agency-money",
+      "title": "Agency fees and leftover salary",
+      "body": "Transfer fees, leftover salary, and air ticket obligations show up as cash surprises mid-IR21 withhold. Get a written settlement from the agency before you cut the last local bank account. Do not leave “we will PayNow later” hanging after you lose the Singapore number.",
+      "bullets": [
+        "Ask for a one-page settlement: salary, levy, ticket, agency fee",
+        "Pay while your Singapore bank and Singpass OTP still work",
+        "Keep PDFs of transfer / cancel confirmations in the leave folder"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "club-overlap",
+      "title": "Club and lifestyle handoff",
+      "body": "Some helpers use club facilities on family memberships. Resigning the club while the helper still needs access — or keeping membership solely for her — both create awkward bills. Sketch club deposit cash separately so helper exit and club resignation do not double-hit the float.",
+      "bullets": [
+        "Check whether helper access dies when the membership resigns",
+        "Sketch resignation cash on /tools/club-deposit-exit",
+        "Do not assume reciprocal guest rules cover a helper after you leave"
+      ],
+      "href": "/tools/club-deposit-exit"
+    }
+  ]
+}
