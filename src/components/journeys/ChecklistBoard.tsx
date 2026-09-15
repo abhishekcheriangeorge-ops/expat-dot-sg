@@ -86,14 +86,27 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
         />
       </div>
 
-      <ul className="flex flex-col gap-4">
-        {checklist.items.map((item) => {
+      <ul
+        className="flex flex-col gap-4"
+        itemScope
+        itemType="https://schema.org/ItemList"
+      >
+        <meta itemProp="name" content={checklist.title ?? "Journey checklist"} />
+        <meta
+          itemProp="numberOfItems"
+          content={String(checklist.items.length)}
+        />
+        {checklist.items.map((item, index) => {
           const checked = Boolean(done[item.id]);
           return (
             <li
               key={item.id}
               className="border-b border-fog-soft/90 pb-4 last:border-0"
+              itemProp="itemListElement"
+              itemScope
+              itemType="https://schema.org/ListItem"
             >
+              <meta itemProp="position" content={String(index + 1)} />
               <label className="flex cursor-pointer gap-4">
                 <input
                   type="checkbox"
@@ -103,6 +116,7 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
                 />
                 <span className="min-w-0 flex-1">
                   <span
+                    itemProp="name"
                     className={`block font-medium ${checked ? "text-ink-faint line-through" : "text-ink"}`}
                   >
                     {item.title}
@@ -121,6 +135,7 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
+                        itemProp="url"
                         className="mt-2 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
                         onClick={(e) => e.stopPropagation()}
                       >
@@ -129,6 +144,7 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
                     ) : (
                       <Link
                         href={item.href}
+                        itemProp="url"
                         className="mt-2 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
                         onClick={(e) => e.stopPropagation()}
                       >

@@ -11,7 +11,11 @@ export function GuideCitations({ citations }: GuideCitationsProps) {
     <section
       aria-labelledby="guide-citations-heading"
       className="border-t border-fog-soft pt-10"
+      itemScope
+      itemType="https://schema.org/ItemList"
     >
+      <meta itemProp="name" content="Sources and citations" />
+      <meta itemProp="numberOfItems" content={String(citations.length)} />
       <h2
         id="guide-citations-heading"
         className="font-display text-2xl text-ink"
@@ -25,7 +29,14 @@ export function GuideCitations({ citations }: GuideCitationsProps) {
       </p>
       <ol className="mt-6 space-y-3">
         {citations.map((citation, index) => (
-          <li key={citation.url} className="flex gap-3 text-sm">
+          <li
+            key={citation.url}
+            className="flex gap-3 text-sm"
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
+          >
+            <meta itemProp="position" content={String(index + 1)} />
             <span className="mt-0.5 w-6 shrink-0 font-medium text-ink-faint">
               {index + 1}.
             </span>
@@ -33,9 +44,10 @@ export function GuideCitations({ citations }: GuideCitationsProps) {
               href={citation.url}
               target="_blank"
               rel="noopener noreferrer"
+              itemProp="item"
               className="text-canopy underline decoration-canopy-mist/40 hover:decoration-canopy-mist"
             >
-              {citation.label}
+              <span itemProp="name">{citation.label}</span>
             </a>
           </li>
         ))}

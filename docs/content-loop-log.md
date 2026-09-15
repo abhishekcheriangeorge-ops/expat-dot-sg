@@ -6,6 +6,33 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 16)
+
+Branch: `cursor/loop-g-seo-tick16-a144` → PR to `main`. Guide/checklist ItemList microdata + runtime error recovery after #74→#195 claimed route/tool/hub/chrome surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Related guides / entities / citations / TOC shells lacked ItemList microdata (JSON-LD only elsewhere).
+- Journey ChecklistBoard had no ItemList semantics on the visible list.
+- No App Router `error.tsx` recovery plane for runtime faults (soft-404 owned by #195).
+- No generated `icon.tsx` or `security.txt` crawl signals.
+
+### Shipped this loop
+
+- `GuideRelated` / `GuideRelatedEntities` / `GuideCitations` / `GuideToc` ItemList microdata
+- `ChecklistBoard` ItemList microdata
+- `error.tsx` hub recovery shell
+- `icon.tsx` brand mark; `public/.well-known/security.txt`
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 / #145 / #152 / #160 / #168 / #176 / #185 / #195 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy; no `not-found` / Breadcrumbs / JsonLd / llms.txt edits.
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 16)
 
 Branch: `cursor/e-journeys-tools-tick16-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#147/#156 on tip). **Did not wait for merges.** Avoided open E stack exclusive **#164** (mover-lift / foreign-licence). Prefer merge order note: **#164 → this tick**.
