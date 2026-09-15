@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "bedok-north-west",
+  "name": "Bedok North West",
+  "summary": "West of Bedok North toward Kaki Bukit / Bedok Reservoir — DTL/EWL optionality with heartland texture and community-sport catchment.",
+  "body": "Bedok North West is the shortlist when heartland texture and dual-line optionality matter more than CBD skyline premiums. The pocket sits west of Bedok North toward Kaki Bukit / Bedok Reservoir edges; housing mixes HDB-dominant stock with selective mid-age condos. Expats land here for car-light hops to Tampines / Paya Lebar and ActiveSG catchment without Marina Bay rents. Watch-outs: estate genset testing calendars, weekday industrial-edge noise toward Kaki Bukit, and confusing Bedok North vs Bedok North West shortlists. Compare with Kembangan Fringe for quieter EWL living, Guillemard East for denser central-east, and Kaki Bukit Fringe when DTL industrial edges win.",
+  "region": "east",
+  "vibe": [
+    "heartland",
+    "dtl-ewl-optional",
+    "practical",
+    "value",
+    "community-sport"
+  ],
+  "bestFor": [
+    "car-light workers toward Tampines / Paya Lebar",
+    "households who want heartland texture over CBD gloss",
+    "renters comparing Bedok North West vs Kembangan Fringe",
+    "people who will treat ActiveSG athletics tracks as the weekly outdoor SKU"
+  ],
+  "watchOuts": [
+    "Genset / ATS testing notices on larger blocks",
+    "Weekday industrial-edge noise toward Kaki Bukit",
+    "Weekend ActiveSG release competition",
+    "Bedok North vs Bedok North West listing confusion"
+  ],
+  "housingMix": "HDB-dominant with selective mid-age condo stock.",
+  "commuteNotes": "Downtown / East-West optionality via Bedok North / nearby interchanges; bus links toward Kaki Bukit / Bedok Reservoir. Walk a Sunday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1900,
+    "oneBedTo": 3100,
+    "familyFrom": 2700,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Bedok North",
+    "Kaki Bukit",
+    "Bedok"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
