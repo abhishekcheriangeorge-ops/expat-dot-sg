@@ -2,15 +2,15 @@
   "type": "school",
   "slug": "dulwich-college-singapore",
   "name": "Dulwich College (Singapore)",
-  "summary": "British independent school model in Bukit Batok with IGCSEs and IB Diploma — verify Mandarin as immersion vs optional language by year group.",
-  "body": "Dulwich Singapore brings a UK independent-school culture to the west, with strong performing arts and academic pathways through IGCSE into IB Diploma — note the senior exit is typically IB DP rather than Singapore-Cambridge A-Level, so do not shortlist it as a pure A-Level substitute without reading the current pathway page. Forum school-choice threads often name Dulwich when families want British structure plus some Mandarin exposure — but optional language slots are not bilingual immersion. Ask admissions for weekly Mandarin hours by year and whether intensity continues past junior school. Bukit Batok geography pairs with west-side housing; peak CBD reverse-commute is a separate adult problem from the child bus. Tour early and price the full fee stack including bus. CCA selection culture and school-run holiday camps shape family calendars as much as classroom pathways — ask for current CCA handbooks and camp timelines early. Confirm CCA vs after-school academy stacking guidance for dual-career families, plus sideline/fixture communication norms.",
+  "summary": "British independent school model in Bukit Batok with IGCSEs and IB Diploma \u2014 verify Mandarin as immersion vs optional language by year group.",
+  "body": "Dulwich Singapore brings a UK independent-school culture to the west, with strong performing arts and academic pathways through IGCSE into IB Diploma \u2014 note the senior exit is typically IB DP rather than Singapore-Cambridge A-Level, so do not shortlist it as a pure A-Level substitute without reading the current pathway page. Forum school-choice threads often name Dulwich when families want British structure plus some Mandarin exposure \u2014 but optional language slots are not bilingual immersion. Ask admissions for weekly Mandarin hours by year and whether intensity continues past junior school. Bukit Batok geography pairs with west-side housing; peak CBD reverse-commute is a separate adult problem from the child bus. Tour early and price the full fee stack including bus. CCA selection culture and school-run holiday camps shape family calendars as much as classroom pathways \u2014 ask for current CCA handbooks and camp timelines early. Confirm CCA vs after-school academy stacking guidance for dual-career families, plus sideline/fixture communication norms. Dual-career note: overnight trip medication packets and allergy forms belong in the portal early \u2014 not the morning of the coach.",
   "curriculum": [
     "British",
     "IGCSE",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "Toddler–Year 13",
+  "ages": "Toddler\u2013Year 13",
   "neighbourhood": "clementi-west-coast",
   "campus": "Bukit Batok",
   "languages": [
@@ -24,6 +24,8 @@
   "sponsored": false,
   "relatedGuides": [
     "primary-cca-vs-external-academy-dual-career-singapore",
-    "youth-sports-sideline-parent-belonging-singapore"
+    "youth-sports-sideline-parent-belonging-singapore",
+    "international-school-residential-camp-overnight-trip-ops-dual-career-singapore",
+    "dance-studio-waiting-parent-belonging-singapore"
   ]
 }
