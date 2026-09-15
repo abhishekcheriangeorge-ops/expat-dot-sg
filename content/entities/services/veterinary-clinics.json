@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "veterinary-clinics",
   "name": "Veterinary clinics (category guide)",
-  "summary": "AVS-licensed vets for post-import pets \u2014 licence clocks, emergency vs GP clinics, and why relocation agents are not your ongoing clinic.",
-  "body": "After CAPQ and the relocation agent handoff, you still need a neighbourhood veterinary clinic for vaccines, parasite control, and emergencies. Confirm the practice is licensed under NParks / Animal & Veterinary Service (AVS) rules \u2014 Facebook \u2018house-call only\u2019 vendors are a recurring risk. Budget for higher cash fees than many home countries; pet insurance sold overseas often excludes Singapore clinics or waits out pre-existing conditions. Ask about after-hours coverage before the first fever at 11pm \u2014 not every GP vet runs a 24-hour emergency bench. Keep import vaccination and rabies-serology originals; clinics will not reinvent CAPQ paperwork from memory. Licensing and sterilisation rules for dogs/cats sit with AVS and your town council / condo by-laws \u2014 clinic advice does not override estate pet clauses. Pair this directory entry with the pet-relocation category guide for import, and with daily-life pet guidance for housing and transit. This is a category guide, not a ranked vet list.",
+  "summary": "AVS-licensed vets for post-import pets — licence clocks, emergency vs GP clinics, and why relocation agents are not your ongoing clinic.",
+  "body": "After CAPQ and the relocation agent handoff, you still need a neighbourhood veterinary clinic for vaccines, parasite control, and emergencies. Confirm the practice is licensed under NParks / Animal & Veterinary Service (AVS) rules — Facebook ‘house-call only’ vendors are a recurring risk. Budget for higher cash fees than many home countries; pet insurance sold overseas often excludes Singapore clinics or waits out pre-existing conditions. Ask about after-hours coverage before the first fever at 11pm — not every GP vet runs a 24-hour emergency bench. Keep import vaccination and rabies-serology originals; clinics will not reinvent CAPQ paperwork from memory. Licensing and sterilisation rules for dogs/cats sit with AVS and your town council / condo by-laws — clinic advice does not override estate pet clauses. Pair this directory entry with the pet-relocation category guide for import, and with daily-life pet guidance for housing and transit. This is a category guide, not a ranked vet list. Family ops note: human varicella weeks are not pet-care holidays — keep vaccine and boarding bookings off the same calendar day as GP clearance visits.",
   "category": "other",
   "areasServed": [
     "Islandwide"
@@ -16,22 +16,23 @@
   ],
   "officialLinks": [
     {
-      "label": "NParks / AVS \u2014 Animals & veterinary services",
+      "label": "NParks / AVS — Animals & veterinary services",
       "url": "https://www.nparks.gov.sg/avs"
     },
     {
-      "label": "AVS \u2014 Importing dogs and cats",
+      "label": "AVS — Importing dogs and cats",
       "url": "https://www.nparks.gov.sg/avs/pets/bringing-animals-into-singapore-and-exporting/bringing-in-animals/dogs-and-cats"
     },
     {
-      "label": "AVS \u2014 Pet licensing",
+      "label": "AVS — Pet licensing",
       "url": "https://www.nparks.gov.sg/avs/pets/owning-a-pet/license-a-pet"
     }
   ],
   "relatedGuides": [
     "importing-pets-singapore",
     "pets-daily-life-singapore",
-    "shipping-household-singapore"
+    "shipping-household-singapore",
+    "dual-career-chickenpox-varicella-school-exclusion-singapore"
   ],
   "featured": false,
   "sponsored": false
