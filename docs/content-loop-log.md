@@ -6,6 +6,55 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 33)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick33-49cb` → PR to `main` (fresh worktree off `origin/main` @ `f56b1da`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)–[#239](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/239) A17–A32 stay open — **did not** wait for merges/CI and **did not** edit those paths). Prefer merge order **#143 → … → #235 → #239 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — garden leave during IPA; old employer won’t release; school letters on EP hop.
+- r/askSingapore — DP full-time study myths; LOC after principal cancel; unpaid internship folklore.
+- r/askSingapore — salary cut above floor still fails SAT; who files notifies; SOL title ≠ COMPASS points.
+
+**Official**
+
+- [MOM — Change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep)
+- [MOM — DP / LOC work arrangements](https://www.mom.gov.sg/passes-and-permits)
+- [MOM — Notify MOM of EP salary/occupation changes](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes)
+
+### Gaps vs prior Loop A ticks
+
+Open A17–A32 claim Student’s Pass through EP-vs-S-Pass/EP-medical/health-insurance. Tick 33 deepens **changing jobs on EP**, **trailing-partner careers**, and **EP salary/occupation notifies** without colliding those paths.
+
+### Shipped this loop
+
+- `content/guides/move/changing-jobs-employment-pass.mdx` (+3)
+- `content/guides/move/trailing-partner-career-singapore.mdx` (+3)
+- `content/guides/move/ep-salary-occupation-changes.mdx` (+3)
+- log prepended; hub blurbs refreshed where present
+
+### Explicitly not done
+
+- No ads/monetization expansion / no Grok / no force-push to main.
+- Did not edit open A17–A32 paths.
+- Left #143–#239 for the merge controller.
+
+### Questions mined (sample)
+
+1. Garden leave while new IPA pending?
+2. Old employer won’t release after IPA?
+3. School letters when EP employer changes?
+4. DP covers full-time degree?
+5. LOC work after principal cancel?
+6. Unpaid internship on DP?
+7. SAT after cut above floor?
+8. Who files salary/occupation notifies?
+9. SOL title automatic COMPASS?
+
+---
+
 ## Loop B — Family + Belong (tick 23) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick23-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #166. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
