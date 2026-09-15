@@ -15,6 +15,13 @@
       "href": "/guides/sg-arrival-card-expats"
     },
     {
+      "id": "airport-transfer",
+      "title": "Choose Grab vs taxi vs MRT from Changi",
+      "detail": "Compare Grab’s upfront fare with a metered taxi plus LTA’s Changi location surcharge (S$8 from 5pm–11:59pm, else S$6). MRT only with light bags. Card in Grab beats hunting SGD cash.",
+      "pillar": "life",
+      "href": "/guides/changi-airport-grab-taxi"
+    },
+    {
       "id": "sim-data",
       "title": "Get a prepaid +65 SIM or eSIM with passport",
       "detail": "Changi and mall kiosks sell prepaid SIMs on passport alone. Postpaid often wants a physical pass or stable address. You need a Singapore number for HR/MOM contact updates, banking OTPs, and Singpass SMS 2FA later.",

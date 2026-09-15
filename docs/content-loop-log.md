@@ -162,6 +162,136 @@ Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-ca
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 3)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick3` (from main `@229508e`).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP residential address / FWTES landlord blockers / 5-day clock ([EP holder stuck FWTES](https://www.reddit.com/r/askSingapore/comments/1oaf0dl/ep_holder_stuck_landlord_wont_enable_fwtes_so_i/); [update address in Singpass](https://www.reddit.com/r/askSingapore/comments/1l2wbjh/how_to_update_address_in_singpass/); adjacency in short-stay rental threads).
+- r/askSingapore — passport particulars / auto-gates after renew ([update passport particulars](https://www.reddit.com/r/askSingapore/comments/11sji0w/update_passport_particulars/); travel without EP card adjacency: [lost EP in Malaysia](https://www.reddit.com/r/askSingapore/comments/12g8yk6/lost_my_employment_pass_ep_in_malaysia_on_a/); [forgot EP card](https://www.reddit.com/r/askSingapore/comments/yfm0ut/forgot_ep_card_at_home_how_do_i_travel_back/)).
+- r/askSingapore — Singpass IPA vs issued FIN ([Singpass with temp EP or IPA](https://www.reddit.com/r/askSingapore/comments/1ehccsc/singpass_with_temp_ep_or_ipa/); [expat SingPass day-one](https://www.reddit.com/r/askSingapore/comments/wfwo76/expat_arrived_from_australia_last_evening_can_i/)).
+- r/askSingapore — changing jobs on EP / resign-after-IPA / dual pending ([changing job under EP](https://www.reddit.com/r/askSingapore/comments/uefner/changing_job_under_ep/); [EP process on company change](https://www.reddit.com/r/askSingapore/comments/120shl1/ep_process_on_company_change/)).
+- r/askSingapore — first-year tax residency / ≥1-year pass / straddling ([income tax for expats](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/); [tax for a foreigner](https://www.reddit.com/r/askSingapore/comments/1fl09aq/info_about_tax_for_a_foreigner/); [moving timing for income tax](https://www.reddit.com/r/askSingapore/comments/19b12g0/moving_to_sg_timing_for_income_tax_foreigner/)).
+- Banking product heat — Multiplier salary-credit recognition (DBS docs + recurring “why no bonus interest” peer advice).
+
+**Official**
+
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) + [FWTES](https://www.mom.gov.sg/eservices/services/tes) + [OFWAS](https://www.mom.gov.sg/eservices/services/ofwas) + [EP eService](https://www.mom.gov.sg/eservices/services/employment-pass-eservice).
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep).
+- [IRAS — Working out my tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency) (≥1-year work-pass treatment + clearance review).
+- [DBS — Multiplier](https://www.dbs.com.sg/personal/deposits/bank-earn/multiplier) + [FAQs](https://www.dbs.com.sg/personal/deposits/multiplier/faqs.page) + [eligible transactions](https://www.dbs.com.sg/personal/support/bank-multiplier-eligible-transactions.html).
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Tick 1 shipped EP floors / COMPASS clocks, EP vs S Pass, CBNI, no-FIN banking, remittance MPI/SoF, IR21 job-hop cashflow, group medical portability. Tick 2 shipped EP-cancel STVP asks, DP cascade / LOC renewal, PayNow FIN vs mobile, CPF withdrawal myths. Remaining high-intent Move/Money gaps matched this mine: **5-day address/mobile + FWTES landlord blockers**, **passport particulars / auto-gate lag**, **Singpass IPA vs FIN**, **dedicated change-jobs resign-after-IPA playbook**, **≥1-year pass tax-resident treatment vs clearance reclassification**, **Multiplier salary-credit recognition for EP payroll**. Home-owned short-stay FWTES mentions stay thin pointers — Move now owns the pass-holder ops guide.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/move/ep-notify-mom-address-passport.mdx`
+- `content/guides/move/changing-jobs-employment-pass.mdx`
+- `content/guides/money/high-interest-salary-accounts-foreigners.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/move/employment-pass-singapore.mdx`
+- `content/guides/move/first-housing-serviced-apartment.mdx`
+- `content/guides/move/relocation-checklist-7-30-90.mdx`
+- `content/guides/money/opening-bank-account-expat.mdx`
+- `content/guides/money/iras-tax-residency-filing.mdx`
+- `content/guides/money/financial-planning-year-one.mdx`
+- `content/guides/money/salary-package-decoding.mdx`
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json` (FWTES / passport / job-change IPA)
+
+### Explicitly not done
+
+- No ads/monetization expansion (no Multiplier sponsorSlot).
+- No Grok / third-party clone copy.
+- Did not edit Family / Belong / Home / Life / Next heavily (lost-card + between-jobs STVP + EP renewal remain Next-owned; Home short-stay keeps adjacency only).
+
+### Questions mined (sample)
+
+1. My landlord will not enable FWTES — how do I update my EP address within 5 days?
+2. After I renew my passport, when can I use automated immigration gates again?
+3. Can I register Singpass with only an IPA / temporary EP letter?
+4. Should I resign before or after the new employer’s EP IPA?
+5. Can two companies file EPs for me at the same time while one IPA is pending?
+6. Does my FIN change when I change employers on EP?
+7. Why does IR21 still withhold my final pay if I am staying in Singapore on a new EP?
+8. Does a ≥1-year EP make me a tax resident even if I arrive mid-year under 183 days?
+9. Why is my DBS Multiplier still on base rate when salary hits my account?
+10. What payroll description / GIRO code does HR need so Multiplier recognises income?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 3)
+
+Branch: `loop/story-aeo-tick3` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 2’s EPSC / SimplyGo / serviced-apartment FAQs. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change, Home/HDB, SEO shell, services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Changi Grab vs taxi / payment ([airport transportation](https://www.reddit.com/r/askSingapore/comments/1gukbru/airport_transportation/); [coming next week advice](https://www.reddit.com/r/askSingapore/comments/1d8ma13/coming_to_singapore_next_week_need_advice/)).
+- r/askSingapore — cash “limit” myths and suitcase financing (adjacency in remittance / first-month float threads).
+- r/askSingapore — PayNow FIN vs recycled prepaid / wrong-number traps (adjacency with bank-open and remittance threads).
+
+**Official**
+
+- [LTA — Taxi fares & payment methods](https://www.lta.gov.sg/content/ltagov/en/getting_around/point_to_point_transport_and_cross_border_services/taxi_fares_payment_methods.html) (Changi location surcharge S$6 / S$8; peak / late-night %).
+- [Grab — Changi Airport transfers](https://www.grab.com/global/airport-rides/changi-airport/) (upfront fare framing).
+- [ICA — Taking cash in and out of Singapore (CBNI)](https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/CBNI) (S$20k threshold; 72-hour e-727; post-13 May 2024 electronic receipt).
+- [ABS — PayNow](https://www.abs.org.sg/e-payments/pay-now) + [PayNow fact sheet](https://abs.org.sg/docs/library/paynow_factsheet.pdf) (FIN / mobile / VPA proxies).
+
+### Gaps vs ticks 1–2
+
+Tick 1 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage. Tick 2 shipped IPA/Notification Letter/EPSC, SimplyGo foreign-card fee, serviced-apartment legality. Remaining high-intent **landing-day** gaps: **Grab vs taxi from Changi** (no dedicated guide; MRT guide only answered “when Grab wins” for daily rides), **CBNI S$20k myth without FAQPage/direct lead**, **PayNow FIN vs mobile without FAQPage** (dependency map pointed here but answer-engine shape was thin).
+
+### Shipped this loop
+
+**New**
+
+- `content/guides/life/changi-airport-grab-taxi.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/money/cbni-cash-declaration-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/money/paynow-setup-foreigners-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/life/mrt-bus-transport-literacy.mdx` (Changi cross-link)
+- `content/journeys/checklists/day-7.json` (airport-transfer item)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Arriving start-here + Move/Life/Money topic hrefs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Should I take Grab or a taxi from Changi Airport?
+2. What is the Changi Airport taxi surcharge right now?
+3. Do I need Singapore dollars cash for the taxi queue?
+4. Can I take the MRT from Changi with luggage?
+5. Where do I pick up Grab at my terminal?
+6. Is there a cash limit when entering Singapore?
+7. When must I submit the CBNI / NP 727 declaration?
+8. Do bank wires or Wise need a CBNI form?
+9. Do I still hand a paper form at the Red Channel?
+10. Can foreigners use PayNow without a local bank account?
+11. Should I register PayNow to FIN or mobile?
+12. Why did money sent to my new +65 number go to someone else?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 2)
 
 Branch: `loop/story-aeo-tick2` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 1’s SIM/SGAC/FAQPage foundation. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (FWTES / EP job-change / HDB / SEO shell / services directory left alone).
