@@ -4,6 +4,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 18 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — WICA / workplace injury / employer delay / Singapore-doctor bills ([injured @ work but can't quit](https://www.reddit.com/r/askSingapore/comments/ypkjy7/injured_work_but_cant_quit_bc_of_bond/); [workplace injury and help](https://www.reddit.com/r/askSingapore/comments/1u80ui1/need_advice_workplace_injury_and_help/); [5 months no progress](https://www.reddit.com/r/askSingapore/comments/1ie2u9r/it_has_been_5_months_since_my_workplace_injury/); [critically ill foreign worker](https://www.reddit.com/r/askSingapore/comments/14kzixu/what_will_happen_to_a_foreign_worker_if_they_get/); [workplace injury claims](https://www.reddit.com/r/askSingapore/comments/st81i3/workplace_injury_claims/)).
+- r/askSingapore — tenant agent commission / renewal fee / CEA agreement ([want to avoid agent's commission upon renewal](https://www.reddit.com/r/askSingapore/comments/1jd30vm/want_to_avoid_agents_commission_upon_renewal/); [need agent for renewal?](https://www.reddit.com/r/askSingapore/comments/1dss3xs/tenants_in_sg_do_you_still_need_a_property_agent/); [use tenant agent?](https://www.reddit.com/r/askSingapore/comments/1psr0va/on_renting_do_you_use_tenant_agent/); [expat hire agent?](https://www.reddit.com/r/askSingapore/comments/1dnzx8x/expat_looking_to_rent_should_i_hire_an_agent/); [TA without agent](https://www.reddit.com/r/askSingapore/comments/1g7qpkq/tenancy_agreement_question/)).
+- r/askSingapore — EP training bonds / liquidated damages / clawbacks ([unfair foreigner bond](https://www.reddit.com/r/askSingapore/comments/1cyigjo/unfair_employment_contract_clause/); [EP offer letter bond](https://www.reddit.com/r/askSingapore/comments/1qquyw2/employment_pass_ep_offer_letter_bond/); [penalty / LD clause](https://www.reddit.com/r/askSingapore/comments/16dgitq/penaltyliquidated_damages_clause_in_job_offer/); [probation exit fee](https://www.reddit.com/r/askSingapore/comments/udlpxh/friends_offer_letter_says_this_first_time_hearing/); [bonus clawback](https://www.reddit.com/r/askSingapore/comments/1pqhpd3/resignation_healthcare_can_they_clawback_my_bonus/)).
+- r/askSingapore — traffic accident / SPF report criteria / Malaysian plates / GetGo pressure ([traffic accident reported against me](https://www.reddit.com/r/askSingapore/comments/1rv6u8q/traffic_accident_reported_against_me/); [car cannot be driven](https://www.reddit.com/r/askSingapore/comments/1jauhx7/if_my_car_gets_into_accident_and_cannot_be_driven/); [hit and run carpark](https://www.reddit.com/r/askSingapore/comments/1cxwz02/minor_damage_from_hit_and_run_in_a_carpark_police/); [Malaysian rear-end](https://www.reddit.com/r/askSingapore/comments/1nk69kt/moms_car_got_rear_ended_badly_by_a_malaysian_car/); [rental assessor TP report](https://www.reddit.com/r/askSingapore/comments/16xn8c2/am_i_being_scammed_by_car_rental_company/)).
+- r/askSingapore — first NOA / GIRO instalment timing adjacency ([GIRO income tax payment](https://www.reddit.com/r/askSingapore/comments/11wb03o/giro_income_tax_payment/); [moving timing for income tax](https://www.reddit.com/r/askSingapore/comments/19b12g0/moving_to_sg_timing_for_income_tax_foreigner/); [change GIRO bank](https://www.reddit.com/r/askSingapore/comments/14fuhlz/how_to_change_giro_bank_for_tax_payments_online/)).
+
+**Official**
+
+- [MOM — EP holders under WICA](https://www.mom.gov.sg/faq/employment-pass/are-ep-holders-covered-under-wica) + [who is covered](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/who-is-covered) + [eligible claims](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/eligible-claims) + [types / S$53k from 1 Nov 2025](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/types-of-compensation) + [mandatory insurance](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/work-injury-compensation-insurance) + [employees how to claim](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/employees-how-to-claim) + [higher limits PR](https://www.mom.gov.sg/newsroom/press-releases/2024/0802-higher-compensation-limits-under-the-work-injury-compensation-act).
+- [CEA — renting / engaging an agent](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/) + [what to note](https://www.cea.gov.sg/consumers/engaging-a-property-agent/what-to-take-note-of-when-engaging-a-property-agent/) + [public register](https://www.cea.gov.sg/public-register/) + [TA templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [IRAS lease duty](https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property).
+- [MOM — salary deductions](https://www.mom.gov.sg/employment-practices/salary/salary-deductions) + [reject resignation FAQ](https://www.mom.gov.sg/faq/termination/can-an-employer-reject-an-employees-resignation) + [termination with notice](https://www.mom.gov.sg/employment-practices/termination-of-employment/termination-with-notice) + [change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep).
+- [SPF — Reporting traffic accidents](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Reporting-Traffic-Accidents-and-Offences) + [GIA motor insurance / foreign motorists](https://gia.org.sg/motor-insurance/22-premium-renewal-of-policy/361-claiming-against-foreign-motorists.html).
+- [IRAS — late payment / GIRO instalments](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/receive-tax-bill-pay-tax-check-refunds/late-payment-or-non-payment-of-individual-income-tax) + [GIRO IIT](https://www.iras.gov.sg/quick-links/payments/giro-individual-income-tax) + [new taxpayer guide](https://www.iras.gov.sg/taxes/individual-income-tax/employees/basic-guide-for-new-individual-taxpayers).
+
+### Gaps vs Tick 1–17
+
+Tick 1–17 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR/MediShield/CareShield/DPS, MDW, diplomatic clause/SCT/inventory, insurance/maternity/Baby Bonus, preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass/scams, pets, IRAS/foreign income/COR (thin on **NOA GIRO approval-before-due-date**), short-stay/FWTES, MOE P1/AEIS, LTVP, EP appeal/IPA/COMPASS/FCF, healthcare/HSA/dental/vaccination (thin on **WICA vs group plan**), remittance/PayNow recovery, S Pass, Customs GST, Student’s Pass/Tuition Grant, career pivots/TADM/leave/harassment/FWA/retrenchment (thin on **training bonds / LD / clawbacks**), SimplyGo, aircon/mould, SRS, haze, ABSD/HDB, STVP, PEP/ONE/Tech.Pass, EntrePass/incorporation, COE/car (thin on **SPF report vs Motor Claims Framework**), JB, dengue, year-one finance, furnishing, condo noise, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife/vaping, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty, ROM/divorce/PPO, newborn/LOG, REP, probate/death/LPA, cycling, IVF, visit-pass, paternity/SPL, WHP/TEP, CASE/Lemon Law. Remaining high-intent gaps matched forum heat: **WICA**, **tenant-agent commission/renewal**, **EP bonds/clawbacks**, **traffic accident claims**, NOA/GIRO depth.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/next/wica-work-injury-compensation-ep.mdx`
+- `content/guides/home/tenant-agent-commission-cea.mdx`
+- `content/guides/next/training-bonds-clawbacks-ep.mdx`
+- `content/guides/life/traffic-accident-motor-claims-singapore.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/next/career-pivots-singapore.mdx`
+- `content/guides/next/employment-act-leave-notice-ep.mdx`
+- `content/guides/home/renting-process-loi-ta-deposits.mdx`
+- `content/guides/home/moving-within-singapore.mdx`
+- `content/guides/money/health-insurance-expat.mdx`
+- `content/guides/family/healthcare-gp-hospital.mdx`
+- `content/guides/money/iras-tax-residency-filing.mdx` (NOA / GIRO instalment clocks)
+- `content/guides/move/decoding-job-offer-singapore.mdx`
+- `content/guides/life/car-ownership-vs-sharing-singapore.mdx`
+
+**Entity depth**
+
+- `content/entities/services/era-realty.json`
+- `content/entities/services/huttons.json`
+- `content/entities/services/orange-tee.json`
+- `content/entities/services/raffles-medical.json`
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/family-law-expat.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–17 topics beyond the WICA, tenant-commission, training-bond, traffic-claim, and NOA/GIRO adjacency gaps above.
+
+---
+
 ## Tick 17 — 2026-09-15
 
 ### Sources mined
