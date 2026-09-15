@@ -6,3 +6,4 @@ export { LeaseNoticeCalculator } from "./LeaseNoticeCalculator";
 export { SchoolWithdrawalCalculator } from "./SchoolWithdrawalCalculator";
 export { SetupCashCalculator } from "./SetupCashCalculator";
 export { TaxResidencyCalculator } from "./TaxResidencyCalculator";
+export { AgentCommissionCalculator } from "./AgentCommissionCalculator";

@@ -87,6 +87,10 @@ export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("pre-arrival.json");
 }
 
+export async function getGraduatePassBridgePlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("graduate-pass-bridge.json");
+}
+
 export async function getFamilyJoiningPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("family-joining.json");
 }

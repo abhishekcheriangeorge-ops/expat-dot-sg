@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 7)
+
+Branch: `cursor/e-journeys-tools-tick7-fa4f` → PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open **#72** (E5) and **#90** (E6) exclusive path sets; **#78** already on main. Merge controller order remains **#72 → #90 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore / r/singapore — Student’s Pass ending with no IPA yet; “can I stay and job-hunt?” folklore; Training EP vs EP confusion.
+- r/askSingapore / PropertyGuru-adjacent threads — who pays agent fee on condo rentals; half-month vs one-month + GST ambush at LOI.
+
+**Official**
+
+- [ICA — Student’s Pass](https://www.ica.gov.sg/reside/studentpass)
+- [MOM — Training Employment Pass](https://www.mom.gov.sg/passes-and-permits/training-employment-pass)
+- [MOM — Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass)
+- CEA / market practice notes: residential rental commission is contractual (not a fixed statute fee)
+
+### Gaps vs Loop E ticks 1–6 (and open #72 / #90)
+
+Ticks 1–4 on main (incl. #78): arriving, between-jobs, tax-residency, pre-arrival, lease-notice, GF/Labour/Vesak. Open **#72**: family-joining, ipa-window, Haji/Christmas/NY2027. Open **#90**: loc-dp-work-rights, school-withdrawal. Remaining high-intent journeys/tools gaps **off those path sets**: **graduate / Student’s Pass bridge**, **tenancy agent-commission sketch**. No calendar JSON this tick.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/graduate-pass-bridge.json` + `/journeys/graduate-pass-bridge`
+- Journeys index + sitemap entries (hub soft-conflict expected after #72/#90)
+
+**Tools**
+
+- `src/lib/tools/agent-commission.ts`
+- `src/components/tools/AgentCommissionCalculator.tsx`
+- `/tools/agent-commission` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #72 paths (family-joining, ipa-window, Haji/Christmas/NY2027, day-90).
+- Did **not** touch #90 paths (loc-dp-work-rights, school-withdrawal).
+- Did **not** re-edit #78 exclusive files beyond soft hubs.
+- Left #72 and #90 open for merge controller (#72 → #90 → #tick7).
+
+### Questions mined (sample)
+
+1. Can I stay in Singapore after my Student’s Pass ends while I job-hunt?
+2. Is a signed EP offer enough to keep me legal past Student’s Pass expiry?
+3. When should my employer lodge the IPA relative to graduation?
+4. Is Training Employment Pass the right product for a short graduate attachment?
+5. What if my Student’s Pass dies before IPA issuance?
+6. Who usually pays the condo rental agent — tenant or landlord?
+7. Is half a month of rent a normal tenant-side fee on a 2-year TA?
+8. Does GST apply on top of the agent’s fee months?
+9. Can the agent claim more than one month from a tenant?
+10. Should I budget agent commission inside the first-month cash sketch?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 6)
 
 Branch: `cursor/e-journeys-tools-tick6-fa4f` → PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open **#78** (E4 restore) and **#72** (E5) path sets — merge controller lands **#78 before #72**.
