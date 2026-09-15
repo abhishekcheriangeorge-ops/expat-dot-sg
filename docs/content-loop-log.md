@@ -6,6 +6,78 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 7)
+
+Branch: `loop/story-aeo-tick7` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 6’s scams / lost-card / ICA STVP-extension FAQPages. Did **not** expand ads/monetization or rewrite Loop C Home/Life dengue–lease bodies or A/B/D/E/F/G trees.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — laid-off “only 30 days?” panic, spouse DP/LOC myths, JB hop to reset MOM STVP (distinct from tick 6’s ICA tourist extension).
+- r/askSingapore — condo Airbnb “under 3 months is fine” folklore vs URA short-term rules; serviced-apartment address for banks.
+- r/askSingapore — IPA-only bank open fails / no address letter / no-FIN personal account myths (FAQPage debt from early H ticks).
+
+**Official**
+
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [Cancel a Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass/cancel-a-pass) (STVP up to 90 days; family cascade).
+- [URA — Short-term accommodation](https://www.ura.gov.sg/guidelines/property-and-business-owners/property/short-term-accommodation/) (hotels + qualifying SA; &lt;3-month private residential illegal).
+- [DBS — Account opening documents](https://www.dbs.com.sg/personal/support/bank-account-opening-documents-required.html) + [Singpass](https://www.singpass.gov.sg/) (example KYC stack).
+- [ScamShield helpline 1799](https://www.scamshield.gov.sg/scamshield-helpline/) (journey checklist wiring for tick 6 FAQPage).
+
+### Gaps vs ticks 1–6
+
+Tick 6 shipped FAQPages for scams, lost work-pass card, and **ICA** visit-pass extension — but left **journey hubs / site topics unwired** and did not FAQPage the **MOM EP-cancel STVP** rail. Early ticks claimed FAQ shape for **serviced apartment** and **bank opening** that later lacked `faqs[]` frontmatter. Remaining high-intent gaps: **MOM cancel STVP FAQPage**, **restore housing/bank FAQPages**, **ScamShield + leaving STVP hub links**.
+
+### Shipped this loop
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/next/between-jobs-stvp-singapore.mdx` (direct lead + FAQPage; MOM vs ICA distinction)
+- `content/guides/move/first-housing-serviced-apartment.mdx` (FAQPage restore; URA SA vs Airbnb)
+- `content/guides/money/opening-bank-account-expat.mdx` (FAQPage restore; address / Singpass / FIN)
+- `content/journeys/checklists/day-7.json` (ScamShield item; SGWorkPass replacement cue)
+- `content/journeys/checklists/day-30.json` (pass-card → lost-card href)
+- `content/journeys/leaving-singapore.json` (STVP section → between-jobs guide)
+- `src/app/journeys/arriving/page.tsx` + `src/app/journeys/leaving/page.tsx`
+- `src/lib/site.ts` (Living start-here; Life scams; Money bank open; Next STVP + lost-card; Move housing blurb)
+
+### Explicitly not done
+
+- No ads / monetization expansion (insurance sponsorSlot left as-is).
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A eligibility trees, Loop B Family/Belong, Loop C dengue/lease bodies, Loop F services entities, or Loop G SEO shell.
+- Did not re-edit tick 6 FAQ bodies beyond hub links.
+
+### Questions mined (sample)
+
+1. When my EP is cancelled, do I only have 30 days to leave?
+2. Can I keep working on the STVP after EP cancellation?
+3. Do my spouse’s DP and LOC survive when my EP is cancelled?
+4. Is EP-cancel STVP the same as ICA tourist visit-pass extension?
+5. Should I book a serviced apartment for my first weeks?
+6. Is a condo Airbnb short-let legal under three months?
+7. Can a serviced-apartment address work for bank opening and MOM?
+8. What is SA vs SA2 minimum stay?
+9. Can I open a bank account with only an IPA letter?
+10. Do I need Singpass before opening a local account?
+11. How do I prove address while still in a hotel?
+12. Should I register PayNow to FIN or mobile?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop F — Services directory depth — Tick 3 — 2026-09-15
 
 Branch: `cursor/services-directory-tick3-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped tick 1–2 topics (tax / dental / notary / storage / pets / mental health / licence / aircon / private health insurance / FDW DIY).
