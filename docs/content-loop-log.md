@@ -6,6 +6,77 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 4)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick4` (from main `@48f51c4`).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP / work-pass medical exam vs Work Permit form myths / clinic logistics ([MoM Work Authorization Medical Exam](https://www.reddit.com/r/askSingapore/comments/1rw9ev6/mom_work_authorization_medical_exam/); [TEP medical clinics](https://www.reddit.com/r/askSingapore/comments/1jd978t/clinics_to_go_for_a_medical_examination_for_the/); IPA-only start-work adjacency: [Start work with IPA only?](https://www.reddit.com/r/askSingapore/comments/16i7zxi/start_work_with_ipa_only/)).
+- r/askSingapore — salary / occupation / DP cascade when pay changes (adjacency to [MOM NOA for EP renewal](https://www.reddit.com/r/askSingapore/comments/1slvkfe/do_mom_usually_request_noa_for_ep_renewal/) salary-mismatch heat; living notify rules from MOM docs).
+- r/askSingapore — credit card GX / no history / secured FD ([Best SG banks and credit cards?](https://www.reddit.com/r/askSingapore/comments/1l7nynj/best_sg_banks_and_credit_cards/); [Credit card for expat](https://www.reddit.com/r/askSingapore/comments/1d7x88f/credit_card_for_expat/); [Credit card for postgraduates](https://www.reddit.com/r/askSingapore/comments/1p6alun/credit_card_for_postgraduates_with_unassessable/)).
+- r/askSingapore — OCBC 360 vs UOB One salary-credit codes beyond Multiplier ([OCBC 360/365 vs UOB EVOL/ONE](https://www.reddit.com/r/askSingapore/comments/195gqov/ocbc_360365_vs_uob_evolone/); [Uob one and ocbc 360](https://www.reddit.com/r/askSingapore/comments/1fde027/uob_one_and_ocbc_360/)).
+- r/askSingapore — corporate LOG / Letter of Guarantee cashflow ([Confused about Letter of Guarantee](https://www.reddit.com/r/askSingapore/comments/1q67qw4/confused_about_letter_of_guarantee_from_my_insurer/); [AIA Corporate Medical Insurance](https://www.reddit.com/r/askSingapore/comments/1rkernq/anyone_claimed_aia_corporate_medical_insurance_before/)).
+
+**Official**
+
+- [MOM — Apply for an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass/) (IPA medical wording + STVP extension while labs process).
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) (salary lower ≥1 month; raise for DP privileges; occupation; related-company).
+- [OCBC — 360 salary bonus](https://www.ocbc.com/personal-banking/help-and-support/accounts/360account-salarybonus) + [UOB — One Account](https://www.uob.com.sg/personal/save/everyday-accounts/one-account.page).
+- [DBS — Card application eligibility](https://www.dbs.com.sg/personal/support/card-application-eligibility.html) + [IRAS — Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence).
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–3 shipped EP floors/COMPASS, EP vs S Pass, CBNI, remittance MPI/SoF, IR21 job-hop medical portability, EP-cancel STVP / DP LOC / PayNow / CPF withdrawal, FWTES address/passport, job-change IPA, Multiplier salary-credit, ≥1-year tax residency. Remaining high-intent Move/Money gaps matched this mine: **IPA-required EP medical vs WP form myth + STVP lab extension**, **employer salary-cut notify / DP cascade / occupation update**, **OCBC 360 / UOB One salary codes beyond Multiplier**, **credit-card GX / secured FD bootstrap**, **COR FAQ shape**, **LOG cashflow for foreigners**. EP renewal NOA deep-dives remain Next-owned.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/move/ep-medical-examination-issuance.mdx`
+- `content/guides/move/ep-salary-occupation-changes.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/money/high-interest-salary-accounts-foreigners.mdx` (OCBC 360 / UOB One + FAQPage)
+- `content/guides/money/credit-cards-foreigners-singapore.mdx` (GX / secured FD + FAQPage)
+- `content/guides/money/certificate-of-residence-dta.mdx` (FAQPage)
+- `content/guides/money/health-insurance-expat.mdx` (LOG foreigner cashflow)
+- `content/guides/move/work-pass-issuance-epsc-notification.mdx`
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx`
+- `content/guides/move/ep-notify-mom-address-passport.mdx`
+- `content/guides/move/changing-jobs-employment-pass.mdx`
+- `src/lib/site.ts` (Move medical + Money HISA/CC topic hrefs)
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json` (medical form mismatch + salary-cut DP cascade)
+
+### Explicitly not done
+
+- No ads/monetization expansion (no HISA/CC sponsorSlot).
+- No Grok / third-party clone copy.
+- Did not edit Family / Belong / Home / Life / Next heavily (EP renewal NOA / between-jobs STVP remain Next-owned).
+
+### Questions mined (sample)
+
+1. Does my IPA always require a MOM medical, or only when the letter says so?
+2. Is the Work Permit medical_form.pdf from Google the right form for EP issuance?
+3. Can I finish the EP medical overseas before I fly?
+4. What if my STVP expires while I wait for chest X-ray / HIV results?
+5. Must HR notify MOM one month before cutting my EP salary?
+6. If my salary is lowered, does my spouse’s DP get revoked?
+7. Do raises need immediate MOM notification before I apply for dependants?
+8. Why was my credit card rejected when I already clear the S$45k foreigner floor?
+9. What payroll description unlocks OCBC 360 or UOB One bonus interest?
+10. Can UOB One earn bonus interest with 3× GIRO instead of salary credit?
+11. Do I need a Letter of Guarantee before private-hospital surgery on group medical?
+12. Is an EP card enough for foreign-broker DTA rates, or do I need IRAS COR?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 4)
 
 Branch: `loop/story-aeo-tick4` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 3’s Changi Grab/taxi + CBNI/PayNow FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory left alone).
