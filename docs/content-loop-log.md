@@ -8,7 +8,7 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ## Loop F — Services directory depth — Tick 2 — 2026-09-15
 
-Branch: `loop/services-directory-tick2` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped tick 1 topics (tax / dental / notary / self-storage / pet-relocation).
+Branch: `loop/services-directory-tick2b` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped tick 1 topics (tax / dental / notary / self-storage / pet-relocation).
 
 ### Sources mined
 
