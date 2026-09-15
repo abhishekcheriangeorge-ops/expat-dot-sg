@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 39 — 2026-09-15
+
+Branch: `cursor/home-life-tick39-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226 stay open for the merge controller — **did not** touch those PR paths. Topics: condo intercom / boom-gate / visitor QR, ActiveSG swimming lessons, Balestier / Thomson / Braddell.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo boom-gate QR failures, intercom ringing landlord’s old SIM, Grab stuck at LPR, guard desk override fights.
+- r/askSingapore — ActiveSG learn-to-swim / stroke classes at Standard Rate for foreigners, weekend kids class release races, condo pool “coach WhatsApp” chaos.
+- r/askSingapore — central-north shortlists for Balestier food spine vs Thomson reservoir weekends vs Braddell NSL practicality.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf) + [common issues in private estates](https://www1.bca.gov.sg/guidelines-and-requirements/common-issues-or-disputes-encountered-by-residents-in-private-estates/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes) + [swimming](https://www.activesgcircle.gov.sg/sports/swimming).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #226
+
+Open PRs own reno-noise through parcel-locker / studio-dance / fire-alarm / yoga-pilates and their town sets, including visitor-parking/access-cards (#150) and pool-lane hire (#104). Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo intercom / boom-gate / visitor QR** (≠ visitor parking deposits), **ActiveSG swimming lessons** (≠ pool lane hire), plus neighbourhood depth for **Balestier**, **Thomson**, and **Braddell**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-intercom-boom-gate-visitor-qr-tenants.mdx`
+- `content/guides/life/activesg-swimming-lessons-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #226.
+- `src/lib/site.ts` (intercom/QR + ActiveSG swim-lesson topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/balestier.json`
+- `content/entities/neighbourhoods/thomson.json`
+- `content/entities/neighbourhoods/braddell.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 exclusive file paths.
+
+### Questions mined (sample)
+
+1. Is visitor QR the same as visitor parking?
+2. Who registers my intercom number?
+3. Can I reuse one Grab QR all week?
+4. Do boom gates need IU for drop-offs?
+5. Can foreigners book ActiveSG swimming lessons at Standard Rate?
+6. Is a lesson the same as pool-lane hire?
+7. Which level should beginners pick?
+8. Balestier vs Thomson — food spine or reservoir?
+9. Is Braddell worth interchange congestion?
+10. When is condo pool coaching still better than ActiveSG?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 38 — 2026-09-15
 
 Branch: `cursor/home-life-tick38-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213 stay open for the merge controller — **did not** touch those PR paths. Topics: condo fire-alarm / smoke-detector tenant drills, ActiveSG yoga / pilates booking, Novena / Newton / Toa Payoh Central.

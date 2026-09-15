@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "balestier",
+  "name": "Balestier",
+  "summary": "Central-north food and shophouse spine — bak kut teh reputation, mid-town condo edges, and CTE-adjacent hops without full Orchard tourist crush.",
+  "body": "Balestier is the shortlist when food-street energy and central-north condo access matter more than mall-spine living. The Balestier Road corridor concentrates classic eateries, clinics, and mid-age towers; housing mixes walk-up leftovers with newer condo stock toward the CTE. Expats land here for car-light mid-town hops and evening food culture without paying River Valley nightlife premiums. Watch-outs: road noise on the main spine, variable boom-gate / intercom culture by estate, and older-block maintenance. Compare with Thomson for café–reservoir lifestyle, Braddell for NSL interchange practicality, and Novena when hospital gravity wins.",
+  "region": "central",
+  "vibe": [
+    "food-spine",
+    "shophouse",
+    "mid-town",
+    "cte-adjacent",
+    "practical"
+  ],
+  "bestFor": [
+    "food-first mid-town renters",
+    "car-light workers hopping CTE / NSL",
+    "households okay with main-road energy",
+    "people who will book ActiveSG lessons instead of trusting condo pool coaching"
+  ],
+  "watchOuts": [
+    "Balestier Road traffic and noise",
+    "Variable condo age and MA apps",
+    "Intercom / boom-gate QR rules differ by estate",
+    "Less polished café-strip cohesion than Holland V"
+  ],
+  "housingMix": "Mid-age and newer condos with selective walk-up / shophouse-adjacent stock.",
+  "commuteNotes": "Bus-heavy on the spine; nearest MRT gravity toward Novena / Toa Payoh / Caldecott depending on block. Time a weekday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2600,
+    "oneBedTo": 4200,
+    "familyFrom": 4500,
+    "familyTo": 8500
+  },
+  "mrt": [
+    "Novena",
+    "Toa Payoh",
+    "Caldecott"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
