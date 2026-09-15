@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "music-tuition-teachers",
+  "name": "Music tuition & teachers (category guide)",
+  "summary": "Piano / violin home teachers vs academies — ABRSM path honesty, trial-lesson traps, and expat-kid rate bands without the hard sell.",
+  "body": "Expat families shop Yamaha/Cristofori-style academies against freelance home teachers charging roughly SGD 70–100+/hr depending on level and language. Ask about exam board pathway (ABRSM/Trinity), make-up lesson policy, and whether the teacher holds a diploma if you want graded progress — Grade 8 alone is not a teaching credential. Trial lessons should not auto-enrol a term package; get fees, instrument rental, and notice periods in writing. Condo rules may limit evening practising volume for neighbours. Distinct from school enrichment and from sports coaching. Category guide, not a ranked teacher directory.",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Kid starting piano / strings — academy vs home teacher",
+    "Need ABRSM pathway and make-up policy in writing",
+    "Trial lesson pushed into multi-term package",
+    "Condo practice-noise limits affecting lesson timing"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "music-arts-communities-singapore",
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

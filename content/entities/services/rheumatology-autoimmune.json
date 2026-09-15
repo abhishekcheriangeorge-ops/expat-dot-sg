@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "rheumatology-autoimmune",
+  "name": "Rheumatology & autoimmune care (category guide)",
+  "summary": "Joint pain / lupus / inflammatory disease — GP labs first, long private rheumatology waits, and foreigner fee honesty in public clinics.",
+  "body": "Rheumatology covers inflammatory arthritis, connective-tissue disease, and many autoimmune pathways that look like ‘just joint pain’ online. Start with a GP for basic inflammatory markers before chasing a private rheumatologist — waits are famously long even in private. Public hospital private-patient booking exists; foreigners pay full fees without citizen subsidies. Functional-medicine ‘autoimmune packages’ are not substitutes for SMC Rheumatology when DMARDs or biologics may be needed. Corporate outpatient riders may cover consults while specialty drugs need separate pre-auth. Distinct from orthopaedics (mechanical joints) and from allergy/immunology panels. Category guide, not a ranked rheumatologist list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Inflammatory joint / autoimmune suspicion — GP vs rheum timing",
+    "Long private rheumatology wait — public-private path unclear",
+    "Quoted autoimmune package before specialist labs",
+    "Insurer rules for biologics / specialty drugs unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "SGH — Rheumatology",
+      "url": "https://www.sgh.com.sg/patient-care/specialties-services/rheumatology-and-immunology"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa",
+    "kids-allergy-epipen-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "haematology-blood",
+  "name": "Haematology & blood disorders (category guide)",
+  "summary": "Anaemia / clotting / abnormal blood counts — GP repeats vs haematologist, and why executive ‘full blood’ packages are not a work-up.",
+  "body": "Haematologists manage anaemia, clotting disorders, cytopenias, and many abnormal full blood count patterns. A single ‘weird blood result’ on a wellness screen usually needs GP repeat labs and context before a private haematology package. Easy bruising, unexplained lymphadenopathy, or progressive cytopenias need timely medical review — not Instagram anaemia influencers. Public hospital private-patient paths exist; foreigners pay full fees. Corporate riders may cover specialist consults while specialised assays need pre-auth. Distinct from health-screening lab category listings. Category guide, not a ranked haematologist list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Abnormal blood counts — GP repeat vs haematology",
+    "Wellness screen flagged anaemia / clotting without plan",
+    "Need foreigner fee honesty for public haematology",
+    "Insurer pre-auth for specialised blood assays unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "SGH — Haematology",
+      "url": "https://www.sgh.com.sg/patient-care/specialties-services/haematology"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

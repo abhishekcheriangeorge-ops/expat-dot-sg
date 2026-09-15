@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "appliance-repair-warranty",
+  "name": "Appliance repair & warranty (category guide)",
+  "summary": "Washer / fridge / oven call-outs — landlord vs tenant responsibility, authorised service centres, and WhatsApp repair bait-and-switch quotes.",
+  "body": "Condo appliance failures land in tenancy grey zones: many TAs put fair wear on the landlord and misuse on the tenant — photograph the fault and read the inventory before calling a random repair chat. Authorised brand service centres protect warranty; grey-market parts can void it. 24-hour WhatsApp ‘fix anything’ outfits are a classic bait-and-switch — demand a written call-out fee and diagnosis fee before they open the machine. For landlord-owned appliances, get written approval before paying cash you hope to reclaim from deposit. Distinct from handyman general trades and from end-of-lease cleaning. Category guide, not a ranked repair-shop list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Washer / fridge down — landlord vs tenant responsibility unclear",
+    "Need authorised service vs grey WhatsApp repairer",
+    "Call-out quote missing diagnosis fee in writing",
+    "Warranty risk if non-authorised parts used"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "CASE — Lemon Law overview",
+      "url": "https://www.case.org.sg/consumer-guides/lemon-law/"
+    },
+    {
+      "label": "CEA — Renting guidance",
+      "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+    }
+  ],
+  "relatedGuides": [
+    "renting-process-loi-ta-deposits",
+    "furnishing-rental-flat",
+    "security-deposit-diplomatic-clause"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 13 — 2026-09-15
+
+Branch: `cursor/services-directory-tick13-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109→#113→#118); this tick ships five net-new category guides only.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — chronic cough / respiratory specialty triage ([cough specialist](https://www.reddit.com/r/askSingapore/comments/13uo4cj/looking_for_cough_specialist_any_recommendations/)).
+- r/askSingapore — rheumatology waits / autoimmune pathways ([seeing a specialist](https://www.reddit.com/r/askSingapore/comments/1aqqk6t/seeing_a_specialist/); [subsidised rheumatologist continuity](https://www.reddit.com/r/askSingapore/comments/16ytzyi/do_you_consult_the_same_specialist_in_public/)).
+- r/askSingapore — piano / music teacher market rates ([music teacher piano](https://www.reddit.com/r/askSingapore/comments/192526h/music_teacher_in_singapore_specifically_piano/)).
+- Haematology / abnormal blood-result heat adjacent to screening threads; appliance repair / landlord warranty heat adjacent to rental deposit fights.
+
+**Official**
+
+- [SMC register](https://www.smc.gov.sg/pages/registers.aspx) + [MOH find a facility](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/).
+- [CASE](https://www.case.org.sg/) + Lemon Law consumer guides + [CEA renting](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/).
+- [National Arts Council](https://www.nac.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#118 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 13: **rheumatology/autoimmune**, **pulmonology/asthma**, **haematology**, **music tuition**, **appliance repair/warranty**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/rheumatology-autoimmune.json`
+- `content/entities/services/pulmonology-asthma.json`
+- `content/entities/services/haematology-blood.json`
+- `content/entities/services/music-tuition-teachers.json`
+- `content/entities/services/appliance-repair-warranty.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 / #75 / #86 / #95 / #103 / #109 / #113 / #118 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Joint pain — ortho or rheumatology?
+2. How long are private rheumatology waits for foreigners?
+3. Chronic cough — ENT, gastro, or pulmonology?
+4. When is asthma an A&E problem vs clinic tweak?
+5. Weird blood results on a screen — GP repeat or haematology?
+6. Do wellness anaemia packages replace a work-up?
+7. Academy vs home piano teacher for ABRSM?
+8. What make-up rules should be in a music-tuition contract?
+9. Who pays appliance repair under a typical TA?
+10. Authorised service centre or WhatsApp repairer?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 19)
 
 Branch: `loop/story-aeo-tick19` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#98). Avoided open merge-controller H file sets (#102 H17, #107 H18). Prefer merge order **#102 → #107** before this lands. No ads / monetization; no Grok copy.

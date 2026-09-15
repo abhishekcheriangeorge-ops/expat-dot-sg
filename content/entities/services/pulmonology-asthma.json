@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "pulmonology-asthma",
+  "name": "Pulmonology & asthma care (category guide)",
+  "summary": "Chronic cough / asthma / sleep-breathing overlap — GP inhaler plans vs respiratory physician, and when ‘cough specialist’ shopping is the wrong door.",
+  "body": "Respiratory physicians (pulmonology) manage asthma, COPD, interstitial disease, and complex chronic cough after GP work-ups. Forum ‘cough specialist’ threads often need ENT, gastro (reflux), or cardiology instead — start with history and a GP exam before private lung packages. Uncontrolled asthma on guideline inhalers, haemoptysis, or unexplained breathlessness warrants specialist review; sudden severe breathlessness is A&E. Foreigners pay full public fees; private clinics sell speed and lung-function slots. Distinct from sleep-medicine/CPAP listings and from ENT. Category guide, not a ranked lung-clinic list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Chronic cough / asthma failing GP inhaler plan",
+    "Quoted lung-function package before a clear differential",
+    "Foreigner public respiratory fees vs private speed",
+    "Unsure ENT vs pulmonology vs A&E for breathlessness"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "SGH — Respiratory & Critical Care",
+      "url": "https://www.sgh.com.sg/patient-care/specialties-services/respiratory-and-critical-care-medicine"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "emergencies-995-999-embassies",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}
