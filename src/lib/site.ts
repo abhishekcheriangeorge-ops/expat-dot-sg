@@ -169,7 +169,7 @@ export const pillars: Pillar[] = [
       {
         label: "Importing pets (AVS)",
         href: "/guides/importing-pets-singapore",
-        blurb: "Country schedules, AQC booking, owner vs recognised agent.",
+        blurb: "AQC books early; unaccompanied cargo still needs full AVS papers.",
       },
       {
         label: "Employment Pass & COMPASS",
@@ -202,6 +202,11 @@ export const pillars: Pillar[] = [
         blurb: "Post-2021 work rules, business LOC, overseas remote FAQ.",
       },
       {
+        label: "Trailing-partner career paths",
+        href: "/guides/trailing-partner-career-singapore",
+        blurb: "DP study vs Student’s Pass; LOC dies with principal EP.",
+      },
+      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -209,7 +214,7 @@ export const pillars: Pillar[] = [
       {
         label: "First housing bridge",
         href: "/guides/first-housing-serviced-apartment",
-        blurb: "Serviced apartments and short lets while you hunt properly.",
+        blurb: "SA2 ≠ Airbnb waiver; skip two-month deposits on bridge stays.",
       },
     ],
     related: [
@@ -305,7 +310,7 @@ export const pillars: Pillar[] = [
       {
         label: "Wrong PayNow recovery",
         href: "/guides/wrong-paynow-epayment-recovery",
-        blurb: "Call your bank first; never peer-refund strangers.",
+        blurb: "Bank first; never peer-refund; FIN proxy ≠ typo-proof.",
       },
       {
         label: "High-interest salary accounts",
@@ -361,6 +366,11 @@ export const pillars: Pillar[] = [
         label: "Salary package decoding",
         href: "/guides/salary-package-decoding",
         blurb: "Sign-on cash ≠ EP fixed monthly salary for MOM floors.",
+      },
+      {
+        label: "Year-one financial plan",
+        href: "/guides/financial-planning-year-one",
+        blurb: "Cash buffer first; EP holders cannot ‘max CPF’ in year one.",
       },
     ],
     related: [
