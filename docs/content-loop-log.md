@@ -6,6 +6,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 25) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick25-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #179. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PSI spike mid-meeting; preschool early dismissal SMS.
+- r/askSingapore — book-fair PayNow guilt; volunteer shift ghosts.
+- r/askSingapore — ActiveSG learn-to-swim deck as the real parent meetup.
+
+**Official**
+
+- [NEA](https://www.nea.gov.sg/) haze / PSI
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [ActiveSG](https://www.activesg.gov.sg/) / [Sport Singapore](https://www.sportsingapore.gov.sg/)
+- [NLB](https://www.nlb.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–24 (open through #179) covered schools through HFMD/sports-day/wet-market. Remaining heat without contested paths: **haze PSI school-closure coverage**, **IS book-fair / fundraising ops**, **ActiveSG swim-parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-haze-psi-school-closure-coverage-singapore.mdx`
+- `content/guides/family/international-school-book-fair-fundraising-ops-dual-career-singapore.mdx`
+- `content/guides/belong/activesg-swim-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- deposit return/handover, furnishing, rental inventory, apps that matter, MRT/bus literacy, what to wear
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- aircon-servicing, driving-schools-licence, confinement-nanny, SOTA, Hwa Chong International
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#179 guide/entity paths.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns the phone when the early-dismissal SMS lands?
+2. Is the home aircon actually working today?
+3. What is the hard wallet cap per child?
+4. Which adult owns the book-fair volunteer shift?
+5. Same ActiveSG bench next Saturday?
+6. Did we put NEA + school apps on both phones?
+7. Is outdoor PE cancelled or is the whole campus closed?
+8. Are masks labelled in the school bag?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 24) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick24-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #172. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
