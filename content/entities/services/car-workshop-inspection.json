@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "car-workshop-inspection",
+  "name": "Car workshops and pre-purchase inspection",
+  "summary": "How expats find trustworthy workshops and pre-purchase inspection (PPI) in Singapore for used-car buys, COE-aged vehicles, and post-accident repairs — including what to verify before you authorise work.",
+  "body": "Whether you import driving habits from a cheap-car country or finally abandon Grab after the third rainy surge, Singapore car ownership is expensive enough that workshop choice matters. Parallel-import specialists, authorised dealers, and neighbourhood workshops behave very differently on diagnostics, parts, and warranty.\n\n## Pre-purchase inspection (PPI)\nBefore buying used, budget an independent PPI: compression/leakdown where relevant, scan tools for hidden faults, underbody corrosion, flood indicators, and service-history authenticity. Seller-preferred workshops have conflict-of-interest risk — choose your own inspector. COE expiry, PARF/COE rebate maths, and outstanding finance checks sit beside the mechanical PPI.\n\n## Servicing and repairs\nAuthorised centres protect warranty on new cars but cost more. Independent workshops can be excellent for out-of-warranty Japanese/Korean/European fleets if they specialise in your brand. Ask whether they use OEM or aftermarket parts and whether they will show you failed components. For accident repairs, insurer panels constrain choice — understand betterment and paint-blend rules early.\n\n## Electric and hybrid notes\nEV/hybrid diagnostics need shops with high-voltage competence. Do not assume every aircon specialist is ready for heat-pump EVs. Tyre and alignment shops still matter — Singapore's kerbs and ERP gantries eat sidewalls.\n\n## How to choose\nLook for transparent quotes, LTA-relevant inspection familiarity, and willingness to explain findings in plain English. Crowdsourced expat recommendations help, but verify recent experiences for your exact model. Keep invoices for warranty and future resale.\n\n## Practical tip\nPhotograph odometer, warning lights, and damage before leaving a car for multi-day work. Provide a written authorisation limit (“call me above S$X”). For PPI, attend the inspection if possible — watching the hoist walkthrough teaches you what to recheck at the next service.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://onemotoring.lta.gov.sg/",
+  "whenToEngage": "Before buying a used car, when you need reliable servicing outside dealer warranty, after an accident when choosing repair pathways, or when an EV/hybrid needs specialist diagnostics.",
+  "officialLinks": [
+    {
+      "label": "OneMotoring (LTA)",
+      "url": "https://onemotoring.lta.gov.sg/"
+    },
+    {
+      "label": "CASE consumer guidance",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "converting-foreign-driving-licence",
+    "car-ownership-vs-sharing-singapore",
+    "traffic-accident-motor-claims-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

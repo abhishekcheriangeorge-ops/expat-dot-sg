@@ -6,6 +6,62 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 15 — 2026-09-15
+
+Branch: `cursor/services-directory-tick15-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136); this tick ships five net-new category guides only.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — chronic back pain / injection vs physio pathways; “which specialist for nerve pain” threads.
+- r/askSingapore — prolonged fever after travel / dengue cluster anxiety adjacent to ID workup questions.
+- r/askSingapore — varicose vein clinic vs vascular surgeon credential heat.
+- r/SGExams / parenting forums — coding academy package vs school maths tutor confusion.
+- r/askSingapore — used-car PPI / workshop horror stories beside COE ownership threads.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc).
+- [NEA dengue](https://www.nea.gov.sg/dengue-zika) + [MOE](https://www.moe.gov.sg/) + [Science Centre](https://www.science.edu.sg/).
+- [OneMotoring / LTA](https://onemotoring.lta.gov.sg/) + [CASE](https://www.case.org.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#136 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 15: **pain management**, **infectious disease**, **vascular/vein care**, **coding/STEM tuition**, **car workshop/PPI**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/pain-management-clinics.json`
+- `content/entities/services/infectious-disease-specialists.json`
+- `content/entities/services/vascular-vein-care.json`
+- `content/entities/services/coding-stem-tuition.json`
+- `content/entities/services/car-workshop-inspection.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 / #75 / #86 / #95 / #103 / #109 / #113 / #118 / #125 / #136 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Ortho cleared me — who manages chronic nerve pain?
+2. Do Shield riders cover outpatient pain injections?
+3. Prolonged post-travel fever — GP or ID clinic?
+4. Varicose package ads vs duplex-first vascular assessment?
+5. Coding academy or maths tutor for a struggling IB student?
+6. How to trial STEM camps before annual contracts?
+7. Who should run used-car PPI — seller workshop or independent?
+8. Authorised dealer vs indie shop after warranty ends?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 15)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick15-49cb` → PR to `main` (fresh worktree off `origin/main` @ `1f3e1ca` post-H17/#102; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#111](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/111) A8–A14 stay open — **did not** edit those paths).

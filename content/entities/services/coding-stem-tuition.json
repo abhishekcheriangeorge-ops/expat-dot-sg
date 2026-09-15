@@ -1,0 +1,31 @@
+{
+  "type": "service",
+  "slug": "coding-stem-tuition",
+  "name": "Coding and STEM tuition",
+  "summary": "How expat families evaluate coding, robotics, and STEM enrichment in Singapore — from after-school centres to competition tracks — without confusing weekend hobbies with school maths remediation.",
+  "body": "Singapore's enrichment market is dense with coding academies, robotics labs, and “future-ready” STEM brands. Expat parents usually want one of three things: a confidence-building hobby, a portfolio edge for international-school applications, or support that actually transfers into school maths/science — those goals need different providers.\n\n## What good programmes clarify\n- Age bands and prerequisite logic (scratch → Python, not random app badges)\n- Class size, mentor-to-student ratio, and whether homework exists\n- Competition pathways (NOI, robotics contests) versus project portfolios\n- Device requirements and whether fees include hardware\n- Make-up class and withdrawal terms during home-leave travel\n\nHoliday camps are useful trials before annual contracts. Beware large prepaid packages sold at education fairs without a trial class.\n\n## School alignment\nInternational-school computer science and local-school maths olympiad prep are different products. If your child is struggling in classroom maths, a coding academy will not replace a maths tutor — and vice versa. Ask whether instructors can speak to your school's curriculum language (IB, IG, AP, MOE).\n\n## Online vs in-centre\nOnline US/UK coding tutors can work across time zones; in-centre labs win for robotics hardware and peer energy. Hybrid models are common. Check PDPA-ish photo policies and whether sessions are recorded.\n\n## How to choose\nPrefer centres that show student project progression, publish instructor backgrounds, and let you observe a class. Avoid outfits that only market “AI certificates” for primary kids. For teens aiming at CS-heavy university paths, look for text-based programming depth and GitHub-style portfolios over drag-and-drop forever.\n\n## Practical tip\nBudget term fees beside CCA calendars and exam blocks. Many families over-commit enrichment in the first term after landing — start with one STEM slot until sleep and homework stabilise.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moe.gov.sg/",
+  "whenToEngage": "When you want structured coding/robotics enrichment, a trial holiday camp, or STEM portfolio support that matches your child's school pathway — not as a substitute for core maths remediation.",
+  "officialLinks": [
+    {
+      "label": "Ministry of Education",
+      "url": "https://www.moe.gov.sg/"
+    },
+    {
+      "label": "Science Centre Singapore",
+      "url": "https://www.science.edu.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "international-schools-landscape",
+    "kids-activities-holiday-camps",
+    "school-waitlist-realism",
+    "mandarin-enrichment-expat-kids-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

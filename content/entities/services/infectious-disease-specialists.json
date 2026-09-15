@@ -1,0 +1,31 @@
+{
+  "type": "service",
+  "slug": "infectious-disease-specialists",
+  "name": "Infectious disease specialists",
+  "summary": "How expats access infectious disease (ID) physicians in Singapore for complex infections, fever of unknown origin, tropical exposures, HIV care, and post-travel syndromes beyond a standard GP or travel-vaccine visit.",
+  "body": "Travel clinics handle vaccines and malaria tablets. Infectious disease specialists handle the harder cases: prolonged fever, recurrent infections, imported tropical disease, antibiotic-resistant organisms, HIV, and infections in immunocompromised patients.\n\n## When ID (not just GP) makes sense\n- Fever lasting beyond a simple viral window, especially after travel\n- Recurrent UTIs, skin infections, or osteomyelitis needing stewardship\n- Positive blood cultures or hospital-acquired infection follow-up\n- HIV diagnosis, PrEP complexity, or opportunistic infection workup\n- Parasitic or tropical disease suspicion (dengue complications, melioidosis risk after soil/flood exposure, etc.)\n\nPublic hospital ID departments run consult services and specialty clinics. Private ID physicians exist in major medical centres and are useful when you need rapid outpatient workup before a flight home or school term starts.\n\n## Dengue and tropical living\nSingapore's dengue clusters mean many febrile illnesses start with a GP NS1/Ig test. Complicated dengue, warning signs, or diagnostic uncertainty after negative early tests may still need hospital pathways. Flood or construction-site soil exposure raises different differentials — tell the clinician exactly where you were.\n\n## Antimicrobial stewardship\nExpat habits of “just in case” antibiotics from home cabinets collide with Singapore stewardship culture. Bring culture results rather than demanding a broad-spectrum script. If you arrived mid-course on an overseas antibiotic, show the drug name and day count.\n\n## How to choose\nPrefer ID physicians affiliated with hospitals that can escalate imaging, bronchoscopy, or inpatient isolation quickly. For HIV and sexual-health continuity, ask about confidentiality practices and long-term refill logistics on your pass type. Pair travel-vaccine planning with a separate travel clinic when you only need shots — do not consume ID slots for routine Yellow Fever paperwork.\n\n## Practical tip\nAfter regional travel, keep a simple exposure log (dates, countries, freshwater, insect bites, new sexual contacts, animal scratches). ID consults go faster with that timeline than with “I felt sick sometime after the trip.”\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": "When fever or infection is prolonged, travel-related, recurrent, antibiotic-resistant, HIV-related, or too complex for GP-only management — especially after tropical exposure or hospital discharge.",
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "NEA dengue information",
+      "url": "https://www.nea.gov.sg/dengue-zika"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "emergencies-995-999-embassies",
+    "dengue-cluster-living-renters"
+  ],
+  "featured": false,
+  "sponsored": false
+}

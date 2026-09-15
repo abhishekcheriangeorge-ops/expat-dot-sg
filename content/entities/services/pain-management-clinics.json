@@ -1,0 +1,31 @@
+{
+  "type": "service",
+  "slug": "pain-management-clinics",
+  "name": "Pain management clinics",
+  "summary": "How expats find interventional and multidisciplinary pain clinics in Singapore for back pain, neuropathic pain, post-surgical pain, and cancer-related pain — without bouncing endlessly between ortho, neuro, and GP visits.",
+  "body": "Chronic pain is one of the most common reasons expats feel stuck in Singapore's specialist maze. Orthopaedics may clear structural surgery, neurology may rule out red flags, and you are still waking at 3am with nerve pain. Pain medicine (anaesthesiology-trained or dedicated pain physicians) sits across those silos.\n\n## What pain clinics offer\n- Medication optimisation (including careful opioid stewardship)\n- Nerve blocks, epidural injections, radiofrequency ablation\n- Neuromodulation referrals in selected centres\n- Physiotherapy and psychology integration for persistent pain\n- Cancer and palliative pain pathways coordinated with oncology\n\nNot every “pain” Google result is a specialist pain physician — some are physio-led or TCM-branded. For interventional procedures, prefer SMC-registered specialists with hospital admitting rights and clear sterile-facility standards.\n\n## Public vs private\nPublic hospital pain clinics (often under anaesthesiology) can be excellent but referral-gated and wait-listed. Private pain centres and hospital-based consultants offer faster access; cash fees for procedures add up quickly. Confirm whether your Integrated Shield rider or international plan covers outpatient interventional pain — many policies treat injections differently from surgery.\n\n## Red flags first\nNew bowel/bladder loss, saddle anaesthesia, fever with back pain, unexplained weight loss, or post-trauma neurological deficits belong in A&E, not an elective pain consult. After emergencies are cleared, bring imaging disks, prior injection records, and a medication list (including home-country controlled analgesics — HSA import rules still apply).\n\n## How to choose\nAsk who leads the clinic (pain physician vs proceduralist-only), how they coordinate physio and psychology, and what the plan is if the first injection fails. Avoid centres that sell large prepaid “pain packages” before a proper diagnosis. For work-injury contexts, document WICA timelines with your employer early.\n\n## Practical tip\nKeep a two-week pain and function diary (sleep, sitting tolerance, walking distance) for the first visit. Pain scores alone under-sell disability to insurers and specialists; function metrics help justify imaging or procedures.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": "When back, nerve, joint, or post-surgical pain persists after GP and organ-specialist workup, when you need interventional options, or when cancer/palliative pain needs specialist titration.",
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa",
+    "wica-work-injury-compensation-ep"
+  ],
+  "featured": false,
+  "sponsored": false
+}

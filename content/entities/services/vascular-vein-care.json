@@ -1,0 +1,29 @@
+{
+  "type": "service",
+  "slug": "vascular-vein-care",
+  "name": "Vascular and vein care",
+  "summary": "How expats find vascular surgeons and vein clinics in Singapore for varicose veins, DVT follow-up, peripheral artery disease, and dialysis access — clarifying medical vascular care versus cosmetic vein packaging.",
+  "body": "Vascular care covers arteries and veins: claudication, carotid disease, aneurysms, deep vein thrombosis (DVT) follow-up, venous ulcers, and varicose vein treatment. Expats often meet the specialty after a long-haul flight clot scare, non-healing leg wounds, or cosmetic concern about visible veins.\n\n## Medical vs cosmetic framing\nVaricose and spider veins sit on a spectrum. Symptoms (ache, swelling, skin changes, bleeding, ulcer risk) push toward duplex ultrasound and vascular assessment. Purely cosmetic thread veins may be handled in aesthetic-leaning vein clinics — still verify the proceduralist's credentials and facility standards. Insurance is far more likely to engage when there is documented reflux with symptoms than for appearance-only packages.\n\n## DVT and travel\nPost-flight leg swelling needs urgent GP/A&E triage when unilateral, painful, or associated with breathlessness (rule out PE). After diagnosis, anticoagulation follow-up and thrombophilia decisions may involve haematology and vascular input. Keep your long-haul itinerary and prior clot history handy.\n\n## Arterial disease\nSmoking history, diabetes, and exertional leg pain deserve ankle-brachial index / imaging pathways, not only vein laser ads. Vascular surgery departments in public hospitals handle complex arterial reconstruction; private consultants can accelerate duplex and angiogram planning when time-sensitive.\n\n## How to choose\nLook for vascular surgeons or accredited vein centres that start with duplex ultrasound, explain CEAP staging in plain language, and quote thermal ablation / sclerotherapy options without forcing a same-day package. Ask about compression stocking protocols and return-to-flight advice after procedures.\n\n## Practical tip\nIf you stand all day in humid weather, graduated compression and weight/leg-elevation basics still matter between procedures. Bring prior duplex reports — repeating every scan at each new clinic wastes cash and delays treatment.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": "When varicose veins cause symptoms or skin changes, after a DVT/PE workup needs venous follow-up, when leg ulcers or claudication appear, or before buying cosmetic vein packages.",
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
