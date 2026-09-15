@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "aircon-servicing",
+  "name": "Aircon servicing (category guide)",
+  "summary": "Tenant quarterly service vs chemical-wash / gas-top-up upsells — read the TA, keep receipts, and treat ‘low gas’ as a leak until proven otherwise.",
+  "body": "Singapore rental TAs commonly require the tenant to pay general aircon servicing every three months — confirm the clause before move-in and budget an annual package rather than ad-hoc WhatsApp vendors. General service should dismantle/clean blowers and trays and clear drains; foam spray from a ladder is not a chemical wash. Chemical wash is an occasional deep clean, not a quarterly ritual — acid-style washes can accelerate wear if overdone. Refrigerant top-ups are not routine: aircon systems are closed loops, so ‘low gas’ usually means a leak — ask for pressure readings and a second opinion before paying hundreds for gas alone. Lease-end clauses that force chemical wash + gas top-up regardless of condition are negotiation items at LOI, not automatic landlord rights. Keep dated invoices to defend deposit deductions. Pair with the aircon/pest renewals guide for mould adjacency and landlord repair vs tenant maintenance splits. This is a category guide for hiring honest contractors, not a ranked vendor list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "TA requires quarterly tenant-paid servicing",
+    "Vendor pushes chemical wash every visit",
+    "Quoted gas top-up on a young unit",
+    "Lease-end reinstatement aircon clause looks aggressive"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "CEA — Renting guidance",
+      "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+    }
+  ],
+  "relatedGuides": [
+    "aircon-pest-renewals",
+    "renting-process-loi-ta-deposits",
+    "rental-inventory-fair-wear-tear",
+    "mould-humidity-rental-tenants"
+  ],
+  "featured": false,
+  "sponsored": false
+}
