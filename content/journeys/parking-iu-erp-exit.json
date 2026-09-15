@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "parking-iu-erp-exit",
+  "title": "Parking IU / ERP exit",
+  "summary": "Leaving Singapore with IU units, condo / HDB parking labels, and ERP accounts still live — deregister clocks, deposit returns, and how parking exit collides with car COE sale and movers week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-parking",
+      "title": "Inventory every parking artefact",
+      "body": "IU units, condo car-park labels, HDB season parking, workplace lots, and ERP / Parking.sg accounts often sit on different rails. Selling or exporting the car does not auto-close every parking subscription. List every label, IU serial, and auto-top-up wallet the week you decide to leave.",
+      "bullets": [
+        "Photograph IU serial stickers and condo / HDB label numbers",
+        "Export Parking.sg and ERP statements while Singpass still works",
+        "Ask the managing agent whether labels must be returned in person"
+      ],
+      "href": "/tools/car-coe-exit"
+    },
+    {
+      "id": "iu-deregister",
+      "title": "IU deregister before the car leaves",
+      "body": "IU units stay linked to a vehicle and often to auto-top-up bank rails. If the car is sold, exported, or scrapped, deregister or transfer the IU on LTA’s published path before the bank account that funds ERP closes. Keep the IU receipt with the COE / PARF paperwork.",
+      "bullets": [
+        "Confirm whether the buyer takes over the IU or you must deregister",
+        "Stop auto-top-up before the SGD rail used for ERP closes",
+        "Pair with /tools/car-coe-exit when COE / PARF cash is still open"
+      ],
+      "href": "/tools/car-coe-exit"
+    },
+    {
+      "id": "season-parking",
+      "title": "Condo / HDB season parking cut-offs",
+      "body": "Season parking often bills a full month even when you leave mid-cycle. Diplomatic-clause exits and Friday flights collide with weekday management counters. Serve written cancel notice early enough that the last billed month matches the last night the car sleeps in the lot.",
+      "bullets": [
+        "Email the managing agent / HDB season desk the cancel date",
+        "Return physical labels and get a dated acknowledgement",
+        "Ask whether pro-rata refunds exist after the published cut-off"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with COE and tuition bonds",
+      "body": "IU deregister, season-parking cancel, car sale, and tuition-centre bond returns often land in one fortnight. Sequence so the car still has a legal parking home until load-out, and so parking deposits are not raided by a surprise tuition bond forfeit.",
+      "bullets": [
+        "Put IU deregister, label return, and car handover on one calendar",
+        "Sketch tuition bond cash on /tools/tuition-centre-bond",
+        "Keep one adult free for management-office hours on cancel week"
+      ],
+      "href": "/tools/tuition-centre-bond"
+    },
+    {
+      "id": "erp-wallets",
+      "title": "ERP wallets and unpaid charges",
+      "body": "Unpaid ERP or parking charges can follow the FIN after you leave if auto-top-up dies mid-week. Clear open Parking.sg / ERP balances before Changi day, and keep PDFs for any employer mileage reclaim still mid-flight.",
+      "bullets": [
+        "Settle open ERP / parking balances before the bank rail closes",
+        "Screenshot zero-balance confirmations where the app offers them",
+        "Do not leave a company car’s IU on a personal auto-top-up rail"
+      ],
+      "href": "/journeys/bank-exit-closure"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: parking deposits vs tuition bonds",
+      "body": "Parking label deposits and tuition-centre bonds are small next to IR21 withhold — but they hit while movers and COE cash are live. Keep a dedicated SGD float so a season-parking forfeit does not raid the tuition bond pot.",
+      "bullets": [
+        "Total open parking deposits before resignation week",
+        "Sketch tuition centre bond risk on /tools/tuition-centre-bond",
+        "Pay parking portals while Singapore cards and PayNow still work"
+      ],
+      "href": "/tools/tuition-centre-bond"
+    }
+  ]
+}

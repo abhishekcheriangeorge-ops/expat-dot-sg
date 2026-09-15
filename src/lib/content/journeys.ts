@@ -147,6 +147,10 @@ export async function getMailForwardExitPlaybook(): Promise<LeavingPlaybook | nu
   return getPlaybookByFilename("mail-forward-exit.json");
 }
 
+export async function getParkingIuErpExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("parking-iu-erp-exit.json");
+}
+
 export async function getChildcareInfantCareExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("childcare-infant-care-exit.json");
 }

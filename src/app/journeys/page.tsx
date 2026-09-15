@@ -5,10 +5,10 @@ import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
-  getChildcareInfantCareExitPlaybook,
   getCondoVisitorQrExitPlaybook,
   getLeavingPlaybook,
   getMoverLiftBookingPlaybook,
+  getParkingIuErpExitPlaybook,
   getPreArrivalPlaybook,
   getSingpassMyinfoExitPlaybook,
 } from "@/lib/content";
@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, childcare/infant-care exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, parking IU/ERP exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -33,7 +33,7 @@ export default async function JourneysIndexPage() {
     singpassExit,
     moverLift,
     condoVisitorQr,
-    childcareExit,
+    parkingIuErp,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -41,7 +41,7 @@ export default async function JourneysIndexPage() {
     getSingpassMyinfoExitPlaybook(),
     getMoverLiftBookingPlaybook(),
     getCondoVisitorQrExitPlaybook(),
-    getChildcareInfantCareExitPlaybook(),
+    getParkingIuErpExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -87,8 +87,8 @@ export default async function JourneysIndexPage() {
                 path: "/journeys/condo-visitor-qr-exit",
               },
               {
-                name: childcareExit?.title ?? "Childcare / infant-care exit",
-                path: "/journeys/childcare-infant-care-exit",
+                name: parkingIuErp?.title ?? "Parking IU / ERP exit",
+                path: "/journeys/parking-iu-erp-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -259,28 +259,28 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Care exit
+            Parking exit
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {childcareExit?.title ?? "Childcare / infant-care exit"}
+            {parkingIuErp?.title ?? "Parking IU / ERP exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {childcareExit?.summary ??
-              "Centre notice weeks, deposits, and kits before school withdrawal and movers week."}{" "}
+            {parkingIuErp?.summary ??
+              "IU deregister, season labels, and ERP wallets before the car and bank rail leave."}{" "}
             Pair with{" "}
             <Link
-              href="/tools/fibre-broadband-etf"
+              href="/tools/tuition-centre-bond"
               className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
             >
-              /tools/fibre-broadband-etf
+              /tools/tuition-centre-bond
             </Link>{" "}
-            if ISP early-termination cash lands the same fortnight.
+            if enrichment deposits land the same fortnight.
           </p>
           <Link
-            href="/journeys/childcare-infant-care-exit"
+            href="/journeys/parking-iu-erp-exit"
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open childcare / infant-care playbook
+            Open parking IU / ERP playbook
           </Link>
         </FadeIn>
 
