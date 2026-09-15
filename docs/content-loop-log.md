@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 46 — 2026-09-15
+
+Branch: `cursor/home-life-tick46-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282 stay open for the merge controller — **did not** touch those PR paths. Topics: condo loading-bay / refuse-bay booking, ActiveSG pickleball, Woodleigh Fringe / Boon Keng North / Geylang Bahru West. Tip confirmed as **#282** (Tick 45); opened next tip in parallel without waiting on merge.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → #266 → #274 → #282 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — loading-bay deposits, refuse-bay vs lift booking confusion, trucks parked in visitor lots.
+- r/askSingapore — ActiveSG pickleball Standard Rate for foreigners, weekend court release races, paddle kit rules.
+- r/askSingapore — mid-town / NEL–DTL shortlists for Woodleigh Fringe vs Boon Keng North vs Geylang Bahru West.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [NEA — waste management](https://www.nea.gov.sg/our-services/waste-management).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs open #71 → #282
+
+Open PRs own reno-noise through access-card/fob / fencing and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo loading-bay / refuse-bay booking** (≠ move-in/out lift; ≠ visitor parking), **ActiveSG pickleball** (≠ fencing; ≠ bowling; ≠ tennis; ≠ badminton; ≠ skating; ≠ climbing; ≠ archery; ≠ camps), plus neighbourhood depth for **Woodleigh Fringe**, **Boon Keng North**, and **Geylang Bahru West**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-loading-bay-refuse-bay-booking-tenants.mdx`
+- `content/guides/life/activesg-pickleball-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #282.
+- `src/lib/site.ts` (loading/refuse bay + ActiveSG pickleball topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/woodleigh-fringe.json`
+- `content/entities/neighbourhoods/boon-keng-north.json`
+- `content/entities/neighbourhoods/geylang-bahru-west.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 / #266 / #274 / #282 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is loading-bay booking the same as move-in/out lift booking?
+2. Can trucks sit in visitor lots without a bay slot?
+3. Who holds the bay deposit — landlord or tenant?
+4. Do refuse-bay and loading-bay share one calendar?
+5. Can foreigners book ActiveSG pickleball at Standard Rate?
+6. Is pickleball the same as tennis or fencing hire?
+7. Do I need my own paddle?
+8. Woodleigh Fringe vs Boon Keng North — quieter NEL or denser mid-town?
+9. Is Geylang Bahru West too industrial-noisy on weekdays?
+10. When is a condo multipurpose court still enough?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 45 — 2026-09-15
 
 Branch: `cursor/home-life-tick45-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274 stay open for the merge controller — **did not** touch those PR paths. Topics: condo access-card / fob replacement, ActiveSG fencing, Potong Pasir Fringe / Kallang Bend / Lavender North. Tip confirmed as **#274** (Tick 44); opened next tip in parallel without waiting on merge.

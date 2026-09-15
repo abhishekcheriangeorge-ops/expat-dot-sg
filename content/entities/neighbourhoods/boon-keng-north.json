@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "boon-keng-north",
+  "name": "Boon Keng North",
+  "summary": "North of Boon Keng toward Bendemeer / Songsong edges — denser NEL mid-town living with mixed housing and practical CBD hops.",
+  "body": "Boon Keng North is the shortlist when denser NEL mid-town texture and short CBD hops matter more than quiet landed weekends. The pocket sits north of Boon Keng toward Bendemeer / Songsong edges; housing mixes mid-age condos, walk-ups, and HDB. Expats land here for car-light Little India / Bugis adjacency without full CBD premiums. Watch-outs: refuse-bay and loading-bay deposit stacks on move weekends, arterial noise, and confusing Boon Keng vs Boon Keng North shortlists. Compare with Woodleigh Fringe for newer quieter stock, Geylang Bahru West for DTL edges, and Lavender North when EWL mid-town wins.",
+  "region": "central",
+  "vibe": [
+    "nel-midtown",
+    "dense",
+    "practical",
+    "mixed-housing",
+    "central"
+  ],
+  "bestFor": [
+    "car-light CBD / Bugis workers",
+    "renters okay with denser texture",
+    "households comparing Boon Keng North vs Woodleigh Fringe",
+    "people who will treat ActiveSG pickleball as the weekly court SKU"
+  ],
+  "watchOuts": [
+    "Arterial and evening noise",
+    "Move-weekend bay booking competition",
+    "Peak NEL crowding",
+    "Boon Keng vs Boon Keng North listing confusion"
+  ],
+  "housingMix": "Mid-age condos, walk-ups, and HDB with selective newer edges.",
+  "commuteNotes": "North East Line gravity via Boon Keng; bus links toward Bendemeer. Walk a Friday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3800,
+    "familyFrom": 3400,
+    "familyTo": 6800
+  },
+  "mrt": [
+    "Boon Keng",
+    "Bendemeer",
+    "Kallang"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
