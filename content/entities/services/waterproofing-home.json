@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "waterproofing-home",
+  "name": "Home waterproofing",
+  "summary": "How tenants and owners fix waterproofing failures in Singapore — bathroom seepage, monsoon window leaks, slab diagnosis, and MCST vs unit responsibility.",
+  "body": "Tropical rain and upstairs renovations drive seepage into bathrooms, bedrooms, and window frames. Quick paint-overs fail if membranes and falls are wrong. Proper waterproofing needs diagnosis, dry-down time, and warranty paperwork.\n\n## Typical jobs\n- Bathroom floor / wall membrane renewals\n- Ceiling seepage investigation from upstairs units\n- Window and sliding-door perimeter sealing\n- Balcony / planter waterproofing\n- Moisture-meter reports for disputes\n\nPhotos and MCST letters matter before major works.\n\n## How to choose\nPrefer contractors who flood-test and issue written warranties. Ask about re-tiling scope and dry-down days. Separate diagnosis fees from full remediation quotes.\n\n## Practical tip\nLog leak times against rain and upstairs shower use for a week. Patterns shorten the blame loop between neighbours and MCST.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.bca.gov.sg/",
+  "whenToEngage": [
+    "Bathroom or ceiling seepage needs diagnosis",
+    "Monsoon window leaks after DIY sealant fails",
+    "MCST vs unit waterproofing responsibility unclear",
+    "Need moisture report for landlord / neighbour dispute"
+  ],
+  "officialLinks": [
+    {
+      "label": "Building and Construction Authority",
+      "url": "https://www.bca.gov.sg/"
+    },
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "mould-humidity-rental-tenants",
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

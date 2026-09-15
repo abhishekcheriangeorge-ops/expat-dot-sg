@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "mandarin-tuition",
+  "name": "Mandarin tuition",
+  "summary": "How expat families arrange Mandarin tuition in Singapore — mother-tongue school support, adult beginner pathways, online vs centre formats, and realistic fluency goals.",
+  "body": "Mandarin demand spans international-school mother-tongue support, bilingual primary homework, and adult beginners who need workplace basics. Centres, private tutors, and online platforms all compete — match format to exam pressure vs conversation goals.\n\n## Formats\n- 1:1 home or centre tuition\n- Small group enrichment classes\n- Adult beginner evening cohorts\n- Exam-focused composition / oral drills\n- Online lessons across time zones for trailing families\n\nClarify simplified vs traditional script expectations early.\n\n## How to choose\nPrefer tutors who diagnose listening, speaking, reading, and writing separately. Ask for a 4-week trial plan with measurable targets. Confirm homework load so it does not crush other subjects.\n\n## Practical tip\nRecord a 1-minute baseline oral clip before week one. Progress arguments get clearer when you can replay month-old tones.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moe.gov.sg/",
+  "whenToEngage": [
+    "Mother-tongue / bilingual homework support needed",
+    "Adult beginner Mandarin pathway search",
+    "Centre vs private vs online format choice",
+    "Exam oral / composition drills before assessments"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Education",
+      "url": "https://www.moe.gov.sg/"
+    },
+    {
+      "label": "SkillsFuture",
+      "url": "https://www.skillsfuture.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "bilingual-primary-homework-expat-kids-singapore",
+    "kids-activities-holiday-camps",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

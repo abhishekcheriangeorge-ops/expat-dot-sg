@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "electric-vehicle-charger",
+  "name": "EV charger installation",
+  "summary": "How expats install EV chargers in Singapore — condo MCST approvals, load assessments, home vs workplace charging, and installer vs dealer package trade-offs.",
+  "body": "EV charging at home depends on parking rights, electrical load, and condo by-laws. Many MCSTs require applications, licensed electricians, and metered billing setups before wallbox install.\n\n## Decision points\n- Condo visitor vs designated lot charging rules\n- Single-phase load assessment and DB upgrades\n- Wallbox brand compatibility with your EV\n- Dealer package vs independent licensed installer\n- Workplace / mall charging as interim backup\n\nRenters need landlord and MCST consent in writing.\n\n## How to choose\nPrefer installers who handle the MCST paperwork pack and provide load calculation sheets. Ask about RFID / app access for shared chargers. Confirm warranty for both hardware and labour.\n\n## Practical tip\nStart the MCST application before the car arrives. Hardware lead times are shorter than committee approval cycles.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.ema.gov.sg/",
+  "whenToEngage": [
+    "Condo EV charger approval pathway unclear",
+    "Home wallbox load assessment needed",
+    "Dealer vs independent installer comparison",
+    "Rental landlord / MCST consent for charging"
+  ],
+  "officialLinks": [
+    {
+      "label": "Energy Market Authority",
+      "url": "https://www.ema.gov.sg/"
+    },
+    {
+      "label": "Land Transport Authority",
+      "url": "https://www.lta.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "car-ownership-vs-sharing-singapore",
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

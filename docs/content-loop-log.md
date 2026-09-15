@@ -6,6 +6,61 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 35 — 2026-09-15
+
+Branch: `cursor/services-directory-tick35-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#284); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F34 draft [#284](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/284).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Neurology threads — migraine diaries and preventive starts.
+- New-parent threads — condo window locks and crawler hazards.
+- Rental threads — bathroom seepage vs upstairs renovation blame.
+- Education threads — Mandarin mother-tongue support vs adult beginners.
+- EV threads — MCST charger approvals before car delivery.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/).
+- [BCA](https://www.bca.gov.sg/).
+- [MOE](https://www.moe.gov.sg/) + [SkillsFuture](https://www.skillsfuture.gov.sg/).
+- [EMA](https://www.ema.gov.sg/) + [LTA](https://www.lta.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#284 cover prior depth and every on-main service file. Free surface for tick 35: **migraine neurology**, **baby proofing**, **home waterproofing**, **Mandarin tuition**, **EV charger installation**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/migraine-neurology.json`
+- `content/entities/services/baby-proofing.json`
+- `content/entities/services/waterproofing-home.json`
+- `content/entities/services/mandarin-tuition.json`
+- `content/entities/services/electric-vehicle-charger.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#284 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. GP migraine diary long enough before neurology referral?
+2. Removable window stops OK for landlord deposits?
+3. Moisture meter report enough for upstairs seepage claim?
+4. Centre Mandarin vs 1:1 for mother-tongue oral exams?
+5. MCST charger approval before or after EV booking?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 34)
 
 Branch: `cursor/loop-d-next-polish-tick34-d996` → draft PR to `main`, stacked on tip [#280](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/280). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money / Next parents for EP renewal age-band salary, S Pass levy/quota renewal, and DP LOC vs own-pass chooser. Avoided open Loop D file set from [#280](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/280).

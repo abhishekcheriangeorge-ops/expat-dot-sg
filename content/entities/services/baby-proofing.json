@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "baby-proofing",
+  "name": "Baby proofing",
+  "summary": "How new expat parents baby-proof Singapore flats — condo window and balcony risks, outlet covers, soft-edge installs, and installer vs DIY kit trade-offs.",
+  "body": "High-rise living changes baby-proofing priorities: window stops, balcony door latches, and furniture anchors matter as much as cabinet locks. Installers who know condo rules avoid drilling mistakes that anger MCSTs.\n\n## Typical jobs\n- Window and sliding-door restrictors\n- Corner guards and TV / bookshelf anchoring\n- Fridge / oven / toilet locks\n- Stair gates for maisonettes\n- Post-install walkthrough for crawler vs toddler stages\n\nLandlord consent may be required before drilling.\n\n## How to choose\nPrefer installers who stock humidity-tolerant adhesives and explain removable options for rentals. Ask for a room-by-room checklist, not only a product catalogue. Confirm whether removal at move-out is included.\n\n## Practical tip\nDo the crawl yourself at baby eye level before booking. Most missed hazards are low drawers and dangling blind cords.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Crawler / toddler stage needs flat proofing",
+    "Condo window and balcony restrictors required",
+    "Rental drilling / landlord consent unclear",
+    "Installer vs DIY kit decision"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "parenting-communities-playgroups-singapore",
+    "maternity-care-singapore",
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

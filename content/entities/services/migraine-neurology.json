@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "migraine-neurology",
+  "name": "Migraine neurology",
+  "summary": "How expats find migraine neurology care in Singapore — GP triage vs specialist, acute vs preventive meds, workplace trigger planning, and insurance panel realities.",
+  "body": "Migraine care usually starts with a GP diary and red-flag screen, then neurology when attacks are frequent, disabling, or atypical. Specialists discuss acute rescue plans, preventives, and lifestyle triggers in humid, high-stimulus workplaces.\n\n## Decision points\n- GP management vs neurology referral thresholds\n- Acute rescue vs preventive medication pathways\n- Imaging only when red flags justify it\n- Work-from-office lighting / smell trigger plans\n- Panel hospital vs private neurologist access\n\nKeep a 4-week attack diary before the first specialist visit.\n\n## How to choose\nPrefer clinicians who separate migraine from tension headache clearly and set review dates for preventives. Ask about after-hours rescue advice. Confirm insurance pre-auth needs for injectables if discussed.\n\n## Practical tip\nPhotograph your medication blister packs and attack calendar into one album. First visits waste time reconstructing doses from memory.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Frequent or disabling migraines need neurology plan",
+    "Acute vs preventive medication pathway unclear",
+    "Workplace trigger plan after GP diary",
+    "Insurance panel / pre-auth for migraine care"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
