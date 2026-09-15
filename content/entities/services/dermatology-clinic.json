@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "dermatology-clinic",
+  "name": "Dermatology clinic",
+  "summary": "How expats find dermatology care in Singapore — eczema and acne pathways, mole checks, aesthetic vs medical visits, and insurance panel realities.",
+  "body": "Dermatologists manage medical skin disease and some procedural care. Expats often mix humid-climate eczema flares, adult acne, and mole checks. Keep medical and purely aesthetic bookings conceptually separate when reading insurance rules.\n\n## Decision points\n- GP management vs dermatology referral\n- Eczema / dermatitis flare plans in humidity\n- Mole mapping and biopsy pathways\n- Medical visit vs aesthetic add-ons\n- Panel clinic vs private cash rates\n\nBring a photo timeline of rashes and a list of creams already tried.\n\n## How to choose\nPrefer clinics that triage urgent flares and explain steroid / non-steroid laddering. Ask who reviews biopsy results. Confirm whether follow-ups are bundled.\n\n## Practical tip\nPhotograph rashes in the same light each morning for a week before the visit. Descriptions alone under-sell how fast humidity flares change.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Eczema / acne / rash needs dermatology plan",
+    "Mole check or biopsy pathway unclear",
+    "Medical vs aesthetic dermatology booking",
+    "Insurance panel cover for derm visits unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

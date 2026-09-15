@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "sofa-cleaning-deep",
+  "name": "Deep sofa cleaning",
+  "summary": "How expats book deep sofa cleaning in Singapore — fabric vs leather methods, mildew odours after humidity spikes, and drying-time planning in small flats.",
+  "body": "Deep sofa cleaning extracts sweat, food spills, and mildew smells that surface wiping misses. Fabric, microfibre, and leather need different chemistry; rushed jobs leave damp cushions that smell worse the next day.\n\n## Typical jobs\n- Hot-water extraction for fabric sofas\n- Leather clean and condition\n- Urine / pet odour treatments\n- Mattress add-on cleans\n- Stain-guard options after cleaning\n\nAsk about drying time before kids and pets climb back on.\n\n## How to choose\nPrefer cleaners who test a hidden patch and state drying windows. Avoid one-price quotes that ignore fabric type. Confirm whether cushions are cleaned on both sides.\n\n## Practical tip\nRun the AC and point a fan at the sofa after the crew leaves. Humidity turns a “same-day dry” claim into an overnight damp couch.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Sofa smells / stains after humidity or spills",
+    "Fabric vs leather cleaning method unclear",
+    "Pet odour treatment needed",
+    "Drying-time plan for small flat"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "NEA",
+      "url": "https://www.nea.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "mould-humidity-rental-tenants",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}

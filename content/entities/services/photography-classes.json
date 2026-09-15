@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "photography-classes",
+  "name": "Photography classes",
+  "summary": "How expats join photography classes in Singapore — phone vs mirrorless beginner tracks, weekend walkabouts, and studio lighting intros.",
+  "body": "Photography schools and indie coaches run beginner phone courses, mirrorless fundamentals, and genre workshops (street, family, food). Walkabout lessons use MRT-accessible neighbourhoods; studio sessions cost more but teach light control.\n\n## Formats\n- Phone photography intensives\n- Mirrorless / DSLR fundamentals\n- Weekend outdoor walkabouts\n- Family / newborn posing intros\n- Lighting studio short courses\n\nClarify whether camera hire is included.\n\n## How to choose\nPrefer teachers who critique a small homework set, not only lecture settings. Ask about class size and rain plans for outdoor sessions. Confirm editing software expectations.\n\n## Practical tip\nBring one SD card and a charged battery, not your whole kit. First classes are about seeing light, not swapping lenses every five minutes.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nac.gov.sg/",
+  "whenToEngage": [
+    "Phone or mirrorless beginner class search",
+    "Weekend walkabout vs studio format choice",
+    "Family / food photography short course",
+    "Camera hire vs bring-your-own unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    },
+    {
+      "label": "National Library Board",
+      "url": "https://www.nlb.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "hobby-sports-communities-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
