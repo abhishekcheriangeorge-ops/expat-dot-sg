@@ -473,6 +473,16 @@ export const pillars: Pillar[] = [
         blurb: "Costume blackouts, parade calls, wallet caps.",
       },
       {
+        label: "Asthma-flare coverage",
+        href: "/guides/dual-career-kids-asthma-flare-coverage-singapore",
+        blurb: "Named owners, spacer kits, PE/swim holds.",
+      },
+      {
+        label: "Open-house / tour ops",
+        href: "/guides/international-school-open-house-tour-ops-dual-career-singapore",
+        blurb: "Slot clocks, question scripts, deposit caps.",
+      },
+      {
         label: "Pink-eye exclusion ops",
         href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
         blurb: "Written return rules, swim holds, GP vs eye clinic.",
@@ -646,6 +656,11 @@ export const pillars: Pillar[] = [
         label: "Gymnastics-studio waiting belonging",
         href: "/guides/gymnastics-studio-waiting-parent-belonging-singapore",
         blurb: "Repeat viewing-glass hellos without squad politics.",
+      },
+      {
+        label: "Martial-arts dojo waiting belonging",
+        href: "/guides/martial-arts-dojo-waiting-parent-belonging-singapore",
+        blurb: "Repeat dojo-bench hellos without belt politics.",
       },
       {
         label: "LGBTQ+ resources",
