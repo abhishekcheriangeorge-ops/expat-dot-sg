@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "mattar-fringe",
+  "name": "Mattar Fringe",
+  "summary": "Edges of Mattar toward MacPherson / Geylang Bahru — DTL-adjacent practical living with mixed estate texture and quieter nights than Geylang food strips.",
+  "body": "Mattar Fringe is the shortlist when DTL adjacency and practical mid-town rents matter more than polished condo brochure parks. The pocket sits on the Mattar / MacPherson / Geylang Bahru edges; housing mixes HDB, mid-age walk-ups, and selective condo stock. Expats land here for car-light hops to Bugis / Chinatown and ActiveSG catchment without Orchard premiums. Watch-outs: overnight guest-registration stacks that differ estate-to-estate, arterial noise toward PIE edges, and confusing Mattar vs Mattar Fringe shortlists. Compare with Tai Seng North for industrial-edge value, Ubi West for quieter DTL living, and Geylang Bahru West when stadium-adjacent energy is intentional.",
+  "region": "central",
+  "vibe": [
+    "dtl-adjacent",
+    "practical",
+    "mixed-estate",
+    "mid-town",
+    "value"
+  ],
+  "bestFor": [
+    "car-light workers toward Bugis / Chinatown",
+    "renters hunting practical mid-town value",
+    "households comparing Mattar Fringe vs Tai Seng North",
+    "people who will book ActiveSG netball weekly"
+  ],
+  "watchOuts": [
+    "Estate-by-estate overnight guest registration",
+    "Arterial / PIE-edge noise on some blocks",
+    "Weekend ActiveSG release competition",
+    "Mattar vs Mattar Fringe listing confusion"
+  ],
+  "housingMix": "HDB, mid-age walk-ups, and selective condo stock.",
+  "commuteNotes": "Downtown Line gravity via Mattar; bus links toward MacPherson / Geylang Bahru. Walk a weekday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3400,
+    "familyFrom": 3000,
+    "familyTo": 5800
+  },
+  "mrt": [
+    "Mattar",
+    "MacPherson",
+    "Geylang Bahru"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

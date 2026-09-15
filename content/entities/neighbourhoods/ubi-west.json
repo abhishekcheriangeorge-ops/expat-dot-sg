@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "ubi-west",
+  "name": "Ubi West",
+  "summary": "West of Ubi toward Kaki Bukit / Eunos edges — DTL-adjacent quieter industrial-residential living with practical rents and community-sport catchment.",
+  "body": "Ubi West is the shortlist when quieter DTL edges and practical rents matter more than nightlife adjacency. The pocket sits west of Ubi toward Kaki Bukit / Eunos edges; housing mixes HDB, mid-age walk-ups, and selective condo stock. Expats land here for car-light hops to Paya Lebar / Bugis and ActiveSG / community-sport catchment without Orchard premiums. Watch-outs: industrial-edge weekday noise, overnight guest caps that differ by estate, and confusing Ubi vs Ubi West shortlists. Compare with Mattar Fringe for denser mid-town, Tai Seng North for CCL industrial edges, and Eunos when east-side food density wins.",
+  "region": "east",
+  "vibe": [
+    "dtl-adjacent",
+    "quieter-industrial-edge",
+    "practical",
+    "value",
+    "community-sport"
+  ],
+  "bestFor": [
+    "car-light workers toward Paya Lebar / Bugis",
+    "households who want quieter nights than Geylang strips",
+    "renters comparing Ubi West vs Mattar Fringe",
+    "people who will book ActiveSG netball weekly"
+  ],
+  "watchOuts": [
+    "Weekday industrial-edge noise",
+    "Estate-by-estate overnight guest caps",
+    "Weekend ActiveSG release competition",
+    "Ubi vs Ubi West listing confusion"
+  ],
+  "housingMix": "HDB, mid-age walk-ups, and selective condo stock.",
+  "commuteNotes": "Downtown Line gravity via Ubi; bus links toward Kaki Bukit / Eunos. Walk a Sunday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3200,
+    "familyFrom": 2800,
+    "familyTo": 5400
+  },
+  "mrt": [
+    "Ubi",
+    "Kaki Bukit",
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
