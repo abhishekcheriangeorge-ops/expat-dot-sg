@@ -1,0 +1,21 @@
+# Community discovery — expat.sg
+# Editorial community hubs — not paid partner inventory.
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hubs
+- https://expat.sg/belong
+- https://expat.sg/clubs
+- https://expat.sg/neighbourhoods
+- https://expat.sg/clubs.txt
+- https://expat.sg/belong.txt
+
+## Notes
+- Community ItemList / CollectionPage helpers live in seo-community.ts.
+- No sponsor/partner marketplace in this file.
+
+## Related
+- https://expat.sg/pillars.txt
+- https://expat.sg/living.txt
+- https://expat.sg/sitemap.xml
