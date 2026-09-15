@@ -6,6 +6,80 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 2 — 2026-09-15
+
+Branch: `loop/services-directory-tick2c` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped tick 1 topics (tax / dental / notary / self-storage / pet-relocation).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — mental health for foreigners / insurance carve-outs ([foreigner mental health services](https://www.reddit.com/r/askSingapore/comments/1m8tl7z/mental_health_services_in_sg_for_foreigners/); [therapy costs](https://www.reddit.com/r/askSingapore/comments/1jbp3ii/has_anyone_tried_therapy_or_counselling_in/); [non-resident options](https://www.reddit.com/r/askSingapore/comments/1byriih/seeking_options_for_mental_health_help_as_a_non-resident/)).
+- r/askSingapore — driving licence conversion / BTT / JB myth ([EP licence steps](https://www.reddit.com/r/askSingapore/comments/1q4987p/getting_a_singapore_drivers_licence_as_a/); [BTT next step](https://www.reddit.com/r/askSingapore/comments/1nnfrv8/basic_theory_test_the_next_step/); [foreign conversion](https://www.reddit.com/r/askSingapore/comments/18e48al/foreign_license_conversion/)).
+- r/askSingapore — aircon TA quarterly service / chemical wash / gas top-up ([who pays](https://www.reddit.com/r/askSingapore/comments/1jy8adw/aircon_servicing_who_will_pay/); [TA clause](https://www.reddit.com/r/askSingapore/comments/1h3c1xm/tenancy_agreement_aircon_servicing/); [chemical wash + gas](https://www.reddit.com/r/askSingapore/comments/1l7ai97/renting_in_sg_aircon_chemical_wash_and_top_up/); [low gas scam](https://www.reddit.com/r/askSingapore/comments/1eh9inq/aircon_servicing/)).
+- r/askSingapore — EP hospitalisation / maternity waiting / group-cover gaps ([EP hospitalisation](https://www.reddit.com/r/askSingapore/comments/pr1l6h/hospitalization_insurance_for_ep_holders/); [DP maternity+visit cover](https://www.reddit.com/r/askSingapore/comments/1g76uwq/can_anyone_share_their_experience_with_insurance/); [maternity plans](https://www.reddit.com/r/askSingapore/comments/1fjlm8c/maternity_insurance/); [expat health advice](https://www.reddit.com/r/askSingapore/comments/1qknwn1/expat_health_insurance_advice_needed/)).
+- r/askSingapore — FDW DIY renew / age-50 MI premiums ([renew without agency](https://www.reddit.com/r/askSingapore/comments/1diomhc/after_2_years_are_we_allow_to_renew_our_maids/); [helper over 50 insurance](https://www.reddit.com/r/askSingapore/comments/1nd7mrs/helper_insurance_for_helper_over_50/)).
+- r/askSingapore — CEA dual-rep / tenant commission pushes ([dual representation](https://www.reddit.com/r/askSingapore/comments/1hrw1w8/can_an_rental_agent_act_on_behalf_of_both_tenant/); [agent fee because owner won’t pay](https://www.reddit.com/r/askSingapore/comments/10zoiys/why_agent_mentions_agent_fee_is_applicable/); [landlord asks tenant to pay agent](https://www.reddit.com/r/askSingapore/comments/yr6yxp/landlord_asking_to_pay_agent_their_fees/)).
+
+**Official**
+
+- [MOH — Mental health services / mindline 1771](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/) + [IMH appointments](https://www.imh.com.sg/Patients-and-Visitors/Pages/Appointments-and-Referrals.aspx) + [mindline.sg](https://mindline.sg/).
+- [SPF — Singapore Driving Licence](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence) + [e-services appointments](https://www.police.gov.sg/e-services).
+- [MOH — Integrated Shield Plans](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/integratedshieldplans/) + [CPF MediShield Life](https://www.cpf.gov.sg/member/healthcare-financing/medishield-life) + [compareFIRST](https://www.comparefirst.sg/).
+- [MOM — Employ/renew MDW without agency](https://www.mom.gov.sg/faq/work-permit-for-fdw/can-i-employ-an-fdw-without-going-through-an-employment-agency) + [MDW insurance / Stage 2 Jul 2025](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements) + [renew WP](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/renew-a-work-permit).
+- [CEA — Public register / renting guidance](https://www.cea.gov.sg/public-register/) + [CASE](https://www.case.org.sg/).
+
+### Gaps vs tick 1
+
+Tick 1 shipped tax / dental / notary / self-storage / pet-relocation + schema/UI engage fields. Remaining high-intent **directory** gaps matched this mine: **mental health cash vs IMH**, **BTT-only licence conversion**, **aircon chemical-wash / gas-top-up upsells**, **EP private health / maternity waiting category guide**, **FDW DIY renew + age-50 MI**, plus agent dual-rep / landlord-commission push depth on existing brands.
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/mental-health-counselling.json`
+- `content/entities/services/driving-schools-licence.json`
+- `content/entities/services/aircon-servicing.json`
+- `content/entities/services/private-health-insurance.json`
+- `content/entities/services/fdw-agencies.json`
+
+**Upgraded existing**
+
+- FDW brands: `comfort-employment.json`, `nation-employment.json` (DIY renew / Stage 2 / age-50)
+- Insurance brands: `aia-singapore.json`, `prudential-singapore.json` (maternity / MediSave myth / group end)
+- Clinics: `parkway-shenton.json`, `smg.json` (mental-health carve-outs)
+- Agents: `era-realty.json`, `huttons.json`, `orange-tee.json` (dual-rep / tenant commission push)
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion (existing sponsored flags left as-is).
+- No Grok / third-party clone copy.
+- Did not re-litigate tick 1 tax/dental/notary/storage/pet topics.
+- Did not edit neighbourhoods, schools, clubs, or pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. Does my EP group plan cover outpatient counselling or psychiatry?
+2. How much does private therapy cost for foreigners in Singapore?
+3. Can I use IMH as a non-citizen, and do I get subsidies?
+4. Do I need FTT and lessons to convert a foreign driving licence, or only BTT?
+5. Can I get a Malaysia licence this weekend and convert it in Singapore?
+6. Who pays quarterly aircon servicing under a typical tenancy agreement?
+7. Is lease-end chemical wash + gas top-up a fair landlord demand?
+8. Why did the aircon vendor say my 2-year-old unit needs gas?
+9. Can EP holders buy MediShield / ISP with MediSave?
+10. When should I buy maternity insurance relative to trying to conceive?
+11. Can I renew my helper’s Work Permit and insurance without an agency?
+12. Why did MDW medical insurance triple after my helper turned 50?
+13. Can a rental agent collect commission from both landlord and tenant?
+14. Landlord’s agent wants me (tenant) to pay their fee — is that legal?
+
+---
+
+---
+
+---
+
 
 ## Loop B — Family + Belong (tick 6) — 2026-09-15
 

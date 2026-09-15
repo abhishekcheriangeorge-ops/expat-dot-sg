@@ -1,0 +1,42 @@
+{
+  "type": "service",
+  "slug": "mental-health-counselling",
+  "name": "Mental health & counselling (category guide)",
+  "summary": "Private therapy vs IMH / polyclinic paths for foreigners — cash rates, insurance outpatient carve-outs, and when psychiatry beats talk-only counselling.",
+  "body": "Most EP/DP group medical plans carve out outpatient mental health — assume cash until HR confirms psychiatry, psychology, and counselling lines in writing. Private counselling/psychology commonly runs S$160–300 per session; weekly care becomes a budget line, so trial-fit two clinicians rather than locking a package. Public IMH and hospital psychiatry accept foreigners, but citizen/PR subsidies generally do not apply — polyclinic referral helps sequencing, not foreigner pricing. Use GP/panel clinics for medication bridges and crisis routing; IMH appointments are by referral/appointment, and psychotherapy waits can be long. Match modality to need: counsellor for adjustment stress, clinical psychologist for structured therapy, psychiatrist when medication or risk assessment is on the table. Nationality-aware or English-fluent clinicians matter for expat isolation topics — ask explicitly. Emergencies and active risk go to A&E / I-CARE / crisis lines first, not a directory search. This is a category guide, not a ranked clinic list — verify fees, credentials, and insurance panels yourself.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Group plan excludes outpatient mental health",
+    "Need psychiatrist vs counsellor triage",
+    "Comparing private cash rates vs IMH foreigner fees",
+    "Want nationality-aware / English-fluent clinician fit"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Mental health services for the public",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/for-the-public/"
+    },
+    {
+      "label": "IMH — Appointments & referrals",
+      "url": "https://www.imh.com.sg/Patients-and-Visitors/Pages/Appointments-and-Referrals.aspx"
+    },
+    {
+      "label": "MOH — Mental health services (mindline 1771)",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
+    },
+    {
+      "label": "mindline.sg",
+      "url": "https://mindline.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "mental-health-resources",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
