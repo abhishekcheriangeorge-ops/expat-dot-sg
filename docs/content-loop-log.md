@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 44)
+
+Branch: `loop/story-aeo-tick44` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#258 H20–H43). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Bizfile = I can work / nominee director packages for founders.
+- r/askSingapore — EP weekend Grab / Singapore brand deal is not a real second job.
+- r/askSingapore — resigned after verbal offer on MCF day two; FCF later blew up.
+
+**Official**
+
+- [MOM — EntrePass eligibility](https://www.mom.gov.sg/passes-and-permits/entrepass/eligibility) + [EP secondary directorship](https://www.mom.gov.sg/passes-and-permits/employment-pass/taking-up-secondary-directorship) + ACRA director/eligibility pages.
+- [MOM — Can a work pass holder work in multiple jobs?](https://www.mom.gov.sg/faq/work-pass-general/can-a-work-pass-holder-work-in-multiple-jobs) + DP overseas-employer FAQ.
+- [MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) + MCF match / S$22,500 exemption FAQs.
+
+### Gaps vs open H + ticks 1–43
+
+Open: #117–#258 H20–H43. Remaining free Next FAQ-free companions included **EntrePass vs resident director**, **EP side-hustle / content-creator traps**, **FCF MyCareersFuture 14-day clock**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/entrepass-resident-director-vs-pass-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-side-hustle-content-creator-traps-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/fcf-mycareersfuture-14-day-clock-ep-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (EntrePass vs director + EP side-hustle traps + FCF 14-day clock topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#258 guide bodies.
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does incorporating a Singapore Pte Ltd give me a work pass?
+2. When is EntrePass better than a normal EP for founders?
+3. Can an EP holder be resident director without extra MOM steps?
+4. Are nominee resident directors just paperwork?
+5. Can PEP be used as a founder/entrepreneur pass?
+6. Can an EP holder take paid Singapore brand deals or Grab weekends?
+7. Does calling it content creation change the EP rule?
+8. Can a DP holder do overseas-remote freelance in Singapore?
+9. Does a side Pte Ltd authorise EP freelancing?
+10. Is PEP a freelance licence?
+11. How long must a job stay on MyCareersFuture before most EP filings?
+12. Can HR offer during the mandatory 14-day FCF window?
+13. Which FCF advertising exemptions should candidates verify in writing?
+14. Must the EP application match the MCF ad?
+15. Is clearing FCF the same as passing COMPASS?
+
+---
+
 ## Loop B — Family + Belong (tick 31) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick31-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #234. Shared log + `site.ts` only. With #149/#155/#159 merged, shipped **learning-support waitlist depth**. Did not wait for #234 CI/merge.

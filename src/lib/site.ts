@@ -715,6 +715,21 @@ export const pillars: Pillar[] = [
         blurb: "New employer files fresh pass — resign only after IPA.",
       },
       {
+        label: "EntrePass vs resident director",
+        href: "/guides/entrepass-resident-director-vs-pass-singapore",
+        blurb: "ACRA company ≠ MOM work rights; nominee directors are real risk.",
+      },
+      {
+        label: "EP side-hustle / creator traps",
+        href: "/guides/ep-side-hustle-content-creator-traps-singapore",
+        blurb: "Paid local brand deals and weekend gigs still count as extra work.",
+      },
+      {
+        label: "FCF MyCareersFuture 14-day clock",
+        href: "/guides/fcf-mycareersfuture-14-day-clock-ep-singapore",
+        blurb: "Advertise 14 days; no offer in-window; match Job Ad ID on filing.",
+      },
+      {
         label: "Stay vs exit horizon",
         href: "/guides/long-term-stay-vs-exit",
         blurb: "Annual stay/leave review before school deposits and renewal.",
