@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 14)
+
+Branch: `cursor/e-journeys-tools-tick14-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (E6/#90 content present on main). Avoided open E stack exclusive paths **#90 → #101 → #110 → #116 → #122 → #131 → #139 → #147**. Prefer merge order: **#101 → #110 → #116 → #122 → #131 → #139 → #147 → this tick** (skip already-landed #90 files).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo access card / IU return fights; MCST renovation deposit vs landlord deposit confusion.
+- r/askSingapore / r/singapore — selling vs exporting car before exit; PARF/COE rebate double-count folklore.
+
+**Official / orientation**
+
+- Estate managing-agent / MCST handover norms (estate-specific)
+- [OneMotoring / LTA](https://onemotoring.lta.gov.sg/) vehicle deregistration / rebate framing
+
+### Gaps vs open E stack
+
+Open **#101/#110/#116/#122/#131/#139/#147** (and #90 exclusives if still open elsewhere) cover graduate bridge, hospital cash, FDW levy, bank-exit, storage, utility exit, IR21, pets, CPF, Singpass exit, school deposit clawback, newborn Special Pass, SIM/OTP keep. Remaining high-intent gaps **off those path sets**: **condo MCST / access-card exit**, **car/COE exit cash sketch**. No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/condo-mcst-exit.json` + `/journeys/condo-mcst-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/car-coe-exit.ts`
+- `src/components/tools/CarCoeExitCalculator.tsx`
+- `/tools/car-coe-exit` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #90 / #101 / #110 / #116 / #122 / #131 / #139 / #147 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Who holds the condo renovation deposit — MCST or landlord?
+2. Can the agent return access cards without me present?
+3. Does cancelling season parking auto-return the IU?
+4. When should visitor QR / plate whitelist be wiped?
+5. How do I sequence movers vs management-office hours?
+6. Will a private sale price already include PARF/COE rebate?
+7. What cash float do I need if export fees spike?
+8. Does prepaid parking count as sunk cost in the exit sketch?
+9. Should I clear the car loan before or after the condo handover?
+10. Can I keep the car registered after I leave Singapore?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 13)
 
 Branch: `cursor/e-journeys-tools-tick13-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` after **#72 MERGED** (family-joining + IPA window on main). Avoided open E stack **#90 → #101 → #110 → #116 → #122 → #131 → #139** exclusive paths. Merge controller order: **#90 → #101 → #110 → #116 → #122 → #131 → #139 → this tick**.
