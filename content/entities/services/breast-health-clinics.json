@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "breast-health-clinics",
+  "name": "Breast health clinics",
+  "summary": "How expats find breast specialists in Singapore for lumps, screening mammograms, biopsy coordination, and post-cancer surveillance — including how breast clinics relate to gynae and oncology pathways.",
+  "body": "Breast concerns are high-anxiety and time-sensitive. Singapore offers one-stop breast clinics (imaging + surgeon consult), public hospital breast units, and private specialists. Expats may also arrive mid-surveillance after overseas treatment and need continuity.\n\n## What these clinics cover\n- Symptomatic lumps, nipple discharge, mastitis\n- Screening mammography / ultrasound pathways by age and density\n- Biopsy (core, vacuum-assisted) and pathology follow-up\n- Benign disease surveillance vs excision decisions\n- Coordination into oncology and reconstructive surgery when malignant\n\nObstetrics-gynaecology is not a substitute for dedicated breast assessment when imaging is abnormal — use the right specialty early.\n\n## Screening and cost\nEmployer screens and “executive health” packages vary in quality. Prefer centres that can recall you for additional views and biopsy without restarting at a new brand. Check whether your insurance treats screening as wellness (often excluded) vs diagnostic imaging after symptoms (more often claimable).\n\n## How to choose\nLook for radiologist + surgeon collaboration, clear timelines from abnormal image to biopsy result, and nurse navigators for cancer pathways. For breastfeeding-related issues, confirm lactation-aware protocols. Bring prior mammogram disks — density comparison matters.\n\n## Practical tip\nBook symptomatic slots rather than waiting for an annual package if you feel a new lump. Same-week private imaging is often available; public pathways are solid but referral-gated. Take a support person to result discussions when cancer is on the differential.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "New breast lump, discharge, or imaging abnormality",
+    "Due for mammogram / ultrasound with density follow-up",
+    "Biopsy coordination after an abnormal screen",
+    "Post-cancer surveillance after relocating to Singapore"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Breast Cancer Foundation",
+      "url": "https://www.bcf.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "maternity-care-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "geriatrics-elderly-medicine",
+  "name": "Geriatrics and elderly medicine",
+  "summary": "How expats find geriatricians in Singapore for ageing parents on LTVP/visit passes, polypharmacy reviews, falls clinics, and memory assessment — distinct from nursing-home placement brokers.",
+  "body": "Geriatric medicine focuses on complex older adults: multiple chronic diseases, medication burden, falls, frailty, and cognition. Expats often need it when a parent relocates to Singapore, visits and deteriorates, or when a spouse hits a tipping point between “GP enough” and “needs a falls/memory pathway.”\n\n## What geriatricians do\n- Comprehensive geriatric assessment (function, cognition, mood, meds, social supports)\n- Falls and bone-health clinics\n- Memory / dementia workup coordination with neurology and psychiatry\n- Polypharmacy deprescribing\n- Advance-care planning conversations in culturally mixed families\n\nThis is medical specialty care — not the same as choosing a nursing home or engaging a domestic helper. Eldercare facility placement is a parallel decision once care needs exceed home capacity.\n\n## Public vs private\nPublic hospital geriatric departments run memory and falls clinics with structured MDTs; waits vary and referral letters help. Private geriatricians and “healthy ageing” clinics offer faster access; clarify whether you are buying a true specialist assessment or a wellness package with cognitive screening marketing.\n\n## Pass and logistics reality\nLTVP parents may not have the same subsidy access as citizens/PRs. Bring medication lists from overseas (including brand/generic names), prior imaging, and who holds Lasting Power of Attorney or equivalent. HSA rules still apply when carrying controlled meds for parents.\n\n## How to choose\nPrefer clinics that coordinate physio, OT, and social work rather than one-off “senior health screens.” Ask how they handle acute decompensation (which hospital) and whether they will speak with overseas siblings on a scheduled call. For dementia pathways, confirm interpreter options if the parent is not English-dominant.\n\n## Practical tip\nBefore the first visit, list every supplement and traditional medicine alongside prescriptions — geriatric reviews often find interactions that GPs inherited across countries.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Ageing parent on LTVP/visit pass needs specialist review",
+    "Falls, frailty, or polypharmacy beyond GP capacity",
+    "Memory concerns need structured geriatric assessment",
+    "Choosing medical assessment vs jumping to nursing-home search"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Agency for Integrated Care",
+      "url": "https://www.aic.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "aged-parents-pr-ltvp-singapore",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

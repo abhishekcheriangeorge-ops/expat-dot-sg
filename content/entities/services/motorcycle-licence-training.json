@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "motorcycle-licence-training",
+  "name": "Motorcycle licence training",
+  "summary": "How expats convert or earn motorcycle/scooter licences in Singapore through authorised schools — Class 2B/2A/2 pathways, theory and practical booking realities, and why Grab-only habits are not a substitute if you plan to ride.",
+  "body": "Singapore motorcycle licensing is structured (Class 2B → 2A → 2) with theory, practical circuits, and traffic tests via authorised riding schools. Expats sometimes assume a foreign bike licence converts cleanly — rules depend on nationality, licence class, and whether you already hold a Singapore car licence.\n\n## Typical pathway\n- Check conversion eligibility vs fresh enrollment on OneMotoring / school advice\n- Basic theory test (if required) and riding theory\n- Practical training modules and circuit tests\n- Traffic test and provisional/full licence issuance steps\n\nSchools publish package fees; peak evening and weekend slots book out. Cool weather myths aside — humidity and tropical rain change braking and visibility training needs.\n\n## Safety and insurance\nRiding here means dense buses, ERP gantries, and wet roads. Budget ABS-equipped learners’ considerations, proper ATGATT gear, and separate motorcycle insurance — car policies do not cover bikes. After licence, practice in light traffic before expressway runs.\n\n## How to choose\nPick authorised schools with transparent failure/retake pricing and instructors experienced with foreign riders. Ask about automatic vs manual training bikes if relevant to your target class. Crowdsourced “easy circuit” tips are less useful than logging enough supervised hours.\n\n## Practical tip\nIf you only need occasional island trips, do the maths vs taxi/Grab and car-sharing first — licence + bike + COE/parking can exceed the convenience. If you will ride, start theory study early while waiting for practical slots.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://onemotoring.lta.gov.sg/",
+  "whenToEngage": [
+    "Converting a foreign motorcycle licence vs fresh Class 2B enrollment",
+    "Booking theory/practical packages at an authorised riding school",
+    "Comparing bike ownership costs vs Grab/car-sharing",
+    "Retake fees and wet-weather training slot planning"
+  ],
+  "officialLinks": [
+    {
+      "label": "OneMotoring (LTA)",
+      "url": "https://onemotoring.lta.gov.sg/"
+    },
+    {
+      "label": "Traffic Police",
+      "url": "https://www.police.gov.sg/Advisories/Traffic"
+    }
+  ],
+  "relatedGuides": [
+    "converting-foreign-driving-licence",
+    "car-ownership-vs-sharing-singapore",
+    "traffic-accident-motor-claims-singapore",
+    "mrt-bus-transport-literacy"
+  ],
+  "featured": false,
+  "sponsored": false
+}

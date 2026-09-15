@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "colorectal-surgery",
+  "name": "Colorectal surgery and bowel specialists",
+  "summary": "How expats navigate colorectal surgeons in Singapore for screening colonoscopy follow-up, haemorrhoids, IBD surgical questions, and cancer pathways — alongside gastroenterology medical care.",
+  "body": "Colorectal surgeons manage operative and procedural bowel disease: cancer resection, complex polyps, haemorrhoid and fistula surgery, diverticular complications, and selected IBD operations. Gastroenterologists often own medical IBD and screening colonoscopy — the two specialties collaborate, and knowing who leads avoids duplicate consults.\n\n## Common expat entry points\n- Positive faecal immunochemical test (FIT) or abnormal screening colonoscopy\n- Persistent bleeding, change in bowel habit, or unexplained anaemia\n- Haemorrhoid / fistula symptoms after failed clinic procedures\n- IBD with structuring disease or dysplasia discussions\n- Second opinion after an overseas polyp or cancer diagnosis\n\n## Public vs private\nPublic colorectal units deliver high-volume cancer surgery with MDT tumour boards. Private surgeons at major hospital clusters offer faster elective slots and easier evening consults — useful when you need clearance before a relocation flight or school term. Confirm whether your Shield rider covers colonoscopy with polypectomy as day surgery vs inpatient.\n\n## Screening honesty\nAge and family-history guidelines differ by country. Bring prior endoscopy reports (not just “it was fine”) and pathology. If you are on blood thinners, ask about hold protocols early.\n\n## How to choose\nFor cancer, prefer surgeons embedded in multidisciplinary pathways with oncology and stoma nursing. For benign anorectal disease, ask about minimally invasive options and recurrence rates without upselling cash packages. Clarify who does your surveillance scopes after surgery — surgery clinic vs GI.\n\n## Practical tip\nAfter any scope under sedation, do not plan to Drive/ride-share alone if your hotel is far — arrange a companion. Keep a photo of the endoscopy report in your phone cloud before the paper leaves with you.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Abnormal FIT or colonoscopy needs surgical follow-up",
+    "Haemorrhoids / fistula after failed clinic treatment",
+    "IBD or polyp dysplasia surgical questions",
+    "Colorectal cancer pathway or overseas second opinion"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Cancer Society",
+      "url": "https://www.singaporecancersociety.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

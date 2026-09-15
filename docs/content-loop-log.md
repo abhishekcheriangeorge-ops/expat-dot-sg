@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 16 — 2026-09-15
+
+Branch: `cursor/services-directory-tick16-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141); this tick ships five net-new category guides only. `whenToEngage` shipped as `string[]` per Zod schema (tick 15 deploy fix).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ageing parents / LTVP medical navigation heat beside eldercare threads.
+- r/askSingapore — colonoscopy / haemorrhoid specialist pathway questions.
+- r/askSingapore — breast lump / mammogram package vs one-stop clinic anxiety.
+- Parenting forums — IB visual arts / portfolio studio vs hobby art class confusion.
+- r/askSingapore — motorcycle Class 2B school packages vs Grab-only living maths.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [AIC](https://www.aic.sg/) + [Breast Cancer Foundation](https://www.bcf.org.sg/).
+- [Singapore Cancer Society](https://www.singaporecancersociety.org.sg/) + [MOE](https://www.moe.gov.sg/) + [NAC](https://www.nac.gov.sg/).
+- [OneMotoring / LTA](https://onemotoring.lta.gov.sg/) + [Traffic Police](https://www.police.gov.sg/Advisories/Traffic).
+
+### Gaps vs open F stack
+
+Open #70→#141 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 16: **geriatrics**, **colorectal surgery**, **breast health**, **art/design tuition**, **motorcycle licence training**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/geriatrics-elderly-medicine.json`
+- `content/entities/services/colorectal-surgery.json`
+- `content/entities/services/breast-health-clinics.json`
+- `content/entities/services/art-design-tuition.json`
+- `content/entities/services/motorcycle-licence-training.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#141 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Geriatrician vs nursing-home broker first for Mum on LTVP?
+2. Who owns surveillance scopes after colorectal surgery?
+3. Executive mammogram package vs symptomatic breast clinic?
+4. Hobby art class or IB process-journal coaching?
+5. Foreign bike licence conversion or fresh Class 2B?
+6. Is motorcycle ownership cheaper than surge Grab?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 14)
 
 Branch: `cursor/e-journeys-tools-tick14-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (E6/#90 content present on main). Avoided open E stack exclusive paths **#90 → #101 → #110 → #116 → #122 → #131 → #139 → #147**. Prefer merge order: **#101 → #110 → #116 → #122 → #131 → #139 → #147 → this tick** (skip already-landed #90 files).
