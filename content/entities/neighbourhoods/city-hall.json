@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "city-hall",
+  "name": "City Hall",
+  "summary": "Civic and arts core on NSL/EWL — Padang-adjacent condo and hotel-serviced edges with walkable museums and CBD hops.",
+  "body": "City Hall is the shortlist when civic-core walkability and dual-line interchange access matter more than quiet heartland texture. The pocket sits on the Padang / museum / theatre belt with condo and serviced-apartment edges rather than HDB grids. Expats land here for car-light CBD and arts nights without full Orchard tourist crush. Watch-outs: event-day closures, tourist footfall, serviced-vs-TA confusion, and dense-building refuse / visitor-app variance. Compare with Bras Basah for arts-school energy, Marina Bay for skyline premiums, and Mattar when you want quieter mid-town nights.",
+  "region": "central",
+  "vibe": [
+    "civic-core",
+    "arts",
+    "interchange",
+    "walkable",
+    "city"
+  ],
+  "bestFor": [
+    "car-light CBD workers",
+    "arts and museum weekend households",
+    "renters comparing serviced vs proper TA nearby",
+    "people who will book ActiveSG niche sports instead of trusting condo amenities"
+  ],
+  "watchOuts": [
+    "National-event road closures and crowds",
+    "Serviced-apartment vs real TA confusion",
+    "Tourist footfall on Padang event days",
+    "Refuse / bulky rules vary sharply by building"
+  ],
+  "housingMix": "Condo and serviced-apartment stock with limited HDB texture.",
+  "commuteNotes": "North-South and East-West Lines at City Hall; walkable to Esplanade / Padang belt. Test a National Day rehearsal week before you romanticise quiet.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3500,
+    "oneBedTo": 6000,
+    "familyFrom": 5500,
+    "familyTo": 11000
+  },
+  "mrt": [
+    "City Hall",
+    "Esplanade",
+    "Raffles Place"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

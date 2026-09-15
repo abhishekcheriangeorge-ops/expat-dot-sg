@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "mattar",
+  "name": "Mattar",
+  "summary": "DTL pocket between Geylang and MacPherson — quieter mid-town living with CTE-adjacent hops and less nightlife tax than Kallang riverside.",
+  "body": "Mattar is the shortlist when Downtown Line mid-town access and a calmer residential texture matter more than food-spine intensity. The station pocket sits between Geylang energy and MacPherson / Tai Seng industrial-residential edges; housing mixes newer condo stock with selective HDB adjacency. Expats land here for manageable CBD hops and car-light errands without Orchard premiums. Watch-outs: last-mile to some blocks, peak DTL loads, and estate-specific refuse / CCTV culture. Compare with Boon Keng for NEL doorstep living, Geylang East for food density, and City Hall when civic-core walkability wins.",
+  "region": "central",
+  "vibe": [
+    "dtl",
+    "mid-town",
+    "quiet",
+    "practical",
+    "cte-adjacent"
+  ],
+  "bestFor": [
+    "DTL CBD commuters",
+    "car-light mid-town renters",
+    "households leaving Geylang noise",
+    "people who will book ActiveSG archery instead of condo MPH myths"
+  ],
+  "watchOuts": [
+    "Walk to station varies by block",
+    "Peak DTL crowding",
+    "Bulky-disposal / refuse rules differ by estate",
+    "Fewer late-night amenity options than Bugis"
+  ],
+  "housingMix": "Newer and mid-age condos with selective HDB adjacency.",
+  "commuteNotes": "Downtown Line at Mattar; CTE adjacency depending on block. Time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3800,
+    "familyFrom": 3500,
+    "familyTo": 6500
+  },
+  "mrt": [
+    "Mattar",
+    "MacPherson",
+    "Geylang Bahru"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

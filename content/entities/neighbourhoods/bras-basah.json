@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "bras-basah",
+  "name": "Bras Basah",
+  "summary": "Arts-and-school belt between City Hall and Dhoby Ghaut — museums, campuses, and condo edges with walkable culture and interchange optionality.",
+  "body": "Bras Basah is the shortlist when arts campuses, museum weekends, and dual-line adjacency matter more than mall-spine living. The belt sits between City Hall civic core and Dhoby Ghaut interchange gravity; housing is mostly condo and serviced edges rather than HDB grids. Expats land here for walkable culture nights and car-light CBD hops. Watch-outs: student/tourist footfall, event noise, and building-by-building visitor / refuse SOPs. Compare with City Hall for Padang-adjacent polish, Bugis for denser retail, and Mattar when you want quieter mid-town evenings.",
+  "region": "central",
+  "vibe": [
+    "arts",
+    "campus",
+    "walkable",
+    "museums",
+    "central"
+  ],
+  "bestFor": [
+    "arts and museum households",
+    "car-light central workers",
+    "renters comparing City Hall vs Dhoby Ghaut edges",
+    "people testing ActiveSG archery / niche programmes nearby"
+  ],
+  "watchOuts": [
+    "Campus and tourist footfall peaks",
+    "Event and street-noise variance",
+    "Serviced vs TA confusion",
+    "Bulky / recycling rules differ by estate"
+  ],
+  "housingMix": "Condo and serviced-apartment stock with limited quiet HDB texture.",
+  "commuteNotes": "Circle / Downtown / North-South gravity via Bras Basah / City Hall / Dhoby Ghaut depending on block. Walk a Saturday museum afternoon before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3200,
+    "oneBedTo": 5500,
+    "familyFrom": 5000,
+    "familyTo": 10000
+  },
+  "mrt": [
+    "Bras Basah",
+    "City Hall",
+    "Dhoby Ghaut"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
