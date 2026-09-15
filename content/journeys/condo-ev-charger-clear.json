@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "condo-ev-charger-clear",
+  "title": "Condo EV charger / lot clear",
+  "summary": "Leaving a condo with a reserved EV charger bay, wallbox deposit, or visitor-charging PIN still live \u2014 release lots, return RFID tags, and settle charger deposits before MCST card return and movers week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-charger",
+      "title": "Inventory charger bay, wallbox, and RFID",
+      "body": "Assigned EV lots, shared visitor chargers, and private wallboxes often sit outside the unit handover checklist. Managing agents may keep billing the bay or treat an unreturned RFID as lost even after keys go back. Walk the charger point the week you decide to leave \u2014 photograph the bay number, wallbox serial, and any padlock or cable lock.",
+      "bullets": [
+        "Photograph bay / charger ID labels and RFID serials",
+        "List whether the wallbox is estate property, landlord fit-out, or yours to remove",
+        "Ask the management office for published EV bay release and abandon rules"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "release-bay",
+      "title": "Release the bay and cancel charging apps",
+      "body": "Returning unit keys does not always free an EV reservation or kill the charging app login. Hand RFID tags back with a dated acknowledgement, cancel visitor-charging PINs, and revoke app accounts tied to your FIN or email before Singpass or SIM changes lock you out.",
+      "bullets": [
+        "Return physical RFID / fobs with a management receipt",
+        "Delete charging-app accounts tied to the unit",
+        "Confirm whether the bay deposit is separate from the renovation or cage deposit"
+      ],
+      "href": "/journeys/condo-visitor-qr-exit"
+    },
+    {
+      "id": "wallbox-remove",
+      "title": "Private wallbox remove vs leave-in-place",
+      "body": "Landlord-owned wallboxes usually stay; owner-installed units may need licensed removal and make-good before checkout photos. Estate rules can ban DIY cable cuts. Get written confirmation on who owns the charger and whether make-good includes patching the parking-lot column.",
+      "bullets": [
+        "Get landlord / MCST written ownership of the wallbox",
+        "Book a licensed electrician if removal is required",
+        "Photograph the bay empty after make-good for deposit negotiations"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with movers and school kit",
+      "body": "EV bay clear, visitor QR revoke, and mover lift booking often land in one fortnight. Sequence so the charging cable and wallbox work finish before the service lift is fully booked for boxes, and so bay deposits do not raid the school CCA kit bond float you still need for instrument returns.",
+      "bullets": [
+        "Put bay release, wallbox work, and lift booking on one family calendar",
+        "Sketch CCA kit bond cash on /tools/school-cca-kit-bond",
+        "Keep one adult free for management-office hours on clear week"
+      ],
+      "href": "/tools/school-cca-kit-bond"
+    },
+    {
+      "id": "billing-float",
+      "title": "Final charging bills and deposit float",
+      "body": "Shared-charger GIRO and app wallets can post a last session after you fly. Export statements, cancel auto-top-ups, and keep a small SGD float until the bay deposit and any overstay fee settle. Do not close the refund rail before those credits clear.",
+      "bullets": [
+        "Cancel auto-top-up and export the last 90 days of charging statements",
+        "Ask MCST published overstay / lost-RFID fees in writing",
+        "Hold SGD float until bay deposit and app wallet refunds post"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "visitor-charging",
+      "title": "Visitor charging PINs vs guest QR",
+      "body": "Visitor EV PINs are not the same as lobby guest QR. A revoked lobby code can still leave a charger PIN live for guests who already know the lot. Clear both, and tell the agent which visitor-charging profiles were active so CCTV chase-downs do not hit the next tenant.",
+      "bullets": [
+        "Revoke visitor-charging PINs the same day as lobby QR",
+        "Pair with /journeys/condo-visitor-qr-exit for lobby access",
+        "Confirm estate apps treat charger guests as a separate list"
+      ],
+      "href": "/journeys/condo-visitor-qr-exit"
+    }
+  ]
+}

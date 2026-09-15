@@ -44,7 +44,7 @@ const STATIC_PATHS: Array<{
     priority: 0.75,
   },
   {
-    path: "/journeys/condo-bike-storage-clear",
+    path: "/journeys/condo-ev-charger-clear",
     changeFrequency: "monthly",
     priority: 0.75,
   },
@@ -72,7 +72,7 @@ const STATIC_PATHS: Array<{
     priority: 0.65,
   },
   {
-    path: "/tools/insurance-portability-float",
+    path: "/tools/school-cca-kit-bond",
     changeFrequency: "monthly",
     priority: 0.65,
   },
