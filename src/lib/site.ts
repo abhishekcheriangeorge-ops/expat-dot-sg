@@ -147,6 +147,21 @@ export const pillars: Pillar[] = [
         blurb: "When you may work, biometrics, SGWorkPass, card delivery.",
       },
       {
+        label: "HSA personal medication",
+        href: "/guides/bringing-medication-singapore-hsa",
+        blurb: "3-month rule, controlled-drug approval ≥2 weeks out.",
+      },
+      {
+        label: "Household shipping & GST relief",
+        href: "/guides/shipping-household-singapore",
+        blurb: "DOF before freight lands; what never gets relief.",
+      },
+      {
+        label: "Foreign licence conversion",
+        href: "/guides/converting-foreign-driving-licence",
+        blurb: "12-month clock, BTT, JB shortcut myth.",
+      },
+      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",

@@ -6,6 +6,62 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 4)
+
+Branch: `loop/story-aeo-tick4` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 3’s Changi Grab/taxi + CBNI/PayNow FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ADHD / benzo / sleep-tablet HSA panic (adjacency in medication + mental-health threads; last-week packing fails).
+- r/askSingapore — foreign licence 12-month clock / BTT / JB conversion myth (adjacency in car vs Grab lifestyle threads).
+- r/askSingapore — sea-freight GST bills when DOF missing (mover / DHL / personal-effects threads).
+
+**Official**
+
+- [HSA — Travelling with personal medications](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-medications/) (3-month non-controlled; controlled prior approval; **≥2 weeks** apply window; transit-without-clearance note).
+- [SPF Traffic Police — Singapore Driving Licence](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence) + [convert appointment](https://www.police.gov.sg/E-Services/Book-Appointment-to-Convert-Foreign-Driving-Licence).
+- [Singapore Customs — GST relief for used effects](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/) + [unaccompanied items / DOF](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/sending-unaccompanied-items/).
+
+### Gaps vs ticks 1–3
+
+Ticks 1–3 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage, IPA/EPSC, SimplyGo fee, serviced-apartment legality, Changi Grab/taxi, CBNI + PayNow FAQPages. Remaining high-intent **pre-land / settle** gaps: **HSA medication without FAQPage/direct lead** (body existed; 2-week clock under-weighted), **foreign licence 12-month / JB myth without FAQPage**, **household GST relief / DOF without FAQPage** (journey completeness for families shipping crates).
+
+### Shipped this loop
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/bringing-medication-singapore-hsa.mdx` (direct lead + FAQPage; HSA ≥2-week apply)
+- `content/guides/move/converting-foreign-driving-licence.mdx` (direct lead + FAQPage)
+- `content/guides/move/shipping-household-singapore.mdx` (direct lead + FAQPage)
+- `content/journeys/checklists/day-7.json` (HSA meds item)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Move topic hrefs for meds / shipping / licence)
+
+### Explicitly not done
+
+- No ads / monetization expansion (existing movers sponsorSlot left as-is).
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change / Multiplier bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Can I bring my prescription medication into Singapore?
+2. Do ADHD stimulants or sleeping tablets need HSA approval?
+3. How early should I apply for HSA personal-medication approval?
+4. Do I declare approved meds at Changi Customs?
+5. What if I only transit Singapore without clearing immigration?
+6. How long can I drive on a foreign licence as an EP holder?
+7. What do I need to convert a foreign driving licence?
+8. Can I get a Malaysia licence this weekend and convert it?
+9. Do I need to convert if I only take Grab and MRT?
+10. Do I pay GST on used household goods shipped to Singapore?
+11. What is the Declaration of Facts (DOF) for household shipping?
+12. Are brand-new sealed items eligible for GST relief?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 3)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick3` (from main `@229508e`).
