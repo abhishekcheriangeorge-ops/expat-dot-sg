@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "woodleigh-fringe",
+  "name": "Woodleigh Fringe",
+  "summary": "Edges of Woodleigh toward Potong Pasir / Bidadari — NEL-adjacent newer stock with park connectors and quieter nights than Kallang Bend event spill.",
+  "body": "Woodleigh Fringe is the shortlist when newer condo stock and NEL adjacency matter more than CBD skyline premiums. The pocket sits on the Woodleigh / Potong Pasir / Bidadari edges; housing mixes recent condos and selective HDB. Expats land here for car-light hops to Serangoon / Dhoby Ghaut and park-connector weekends. Watch-outs: estate loading-bay calendars that book out on Sunday move days, ActiveSG pickleball release races at neighbouring centres, and comparing Woodleigh Fringe vs Boon Keng North noise. Compare with Potong Pasir Fringe for older estate texture, Boon Keng North for denser central living, and Geylang Bahru West when DTL edges win.",
+  "region": "northeast",
+  "vibe": [
+    "nel-adjacent",
+    "newer-stock",
+    "park-connector",
+    "quieter-residential",
+    "practical"
+  ],
+  "bestFor": [
+    "car-light workers toward Serangoon / Dhoby Ghaut",
+    "households who want quieter nights than Kallang Bend",
+    "renters comparing Woodleigh vs Potong Pasir Fringe",
+    "people who will book ActiveSG pickleball instead of condo court myths"
+  ],
+  "watchOuts": [
+    "Sunday loading-bay booking competition",
+    "Peak NEL crowding",
+    "Newer condo MA forms still want deposits for bay slots",
+    "Bidadari vs Woodleigh listing confusion"
+  ],
+  "housingMix": "Recent condos and selective HDB with park-connector edges.",
+  "commuteNotes": "North East Line gravity via Woodleigh; bus links toward Potong Pasir / Bidadari. Walk a Sunday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 4000,
+    "familyFrom": 3600,
+    "familyTo": 7200
+  },
+  "mrt": [
+    "Woodleigh",
+    "Potong Pasir",
+    "Serangoon"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

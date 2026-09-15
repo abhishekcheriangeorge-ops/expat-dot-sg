@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "geylang-bahru-west",
+  "name": "Geylang Bahru West",
+  "summary": "West of Geylang Bahru toward Kallang Bahru industrial edges — DTL-adjacent practical living with mixed estate texture and ActiveSG catchment.",
+  "body": "Geylang Bahru West is the shortlist when DTL adjacency and practical rents matter more than polished condo brochure parks. The pocket sits west of Geylang Bahru toward Kallang Bahru edges; housing mixes HDB, mid-age walk-ups, and selective condo stock. Expats land here for car-light hops to Bugis / Chinatown and ActiveSG catchment without Orchard premiums. Watch-outs: industrial-edge truck noise, loading-bay rules that differ estate-to-estate, and weekend pickleball release competition. Compare with Boon Keng North for denser NEL living, Woodleigh Fringe for newer quieter stock, and Kallang Bend when stadium energy is intentional.",
+  "region": "central",
+  "vibe": [
+    "dtl-adjacent",
+    "practical",
+    "mixed-estate",
+    "industrial-edge",
+    "value"
+  ],
+  "bestFor": [
+    "car-light workers toward Bugis / Chinatown",
+    "renters hunting practical mid-town value",
+    "households comparing Geylang Bahru West vs Boon Keng North",
+    "people who will book ActiveSG pickleball weekly"
+  ],
+  "watchOuts": [
+    "Industrial-edge truck and loading noise",
+    "Estate-by-estate bay booking rules",
+    "Weekend ActiveSG release competition",
+    "Geylang Bahru vs Geylang East listing confusion"
+  ],
+  "housingMix": "HDB, mid-age walk-ups, and selective condo stock.",
+  "commuteNotes": "Downtown Line gravity via Geylang Bahru; bus links toward Kallang Bahru. Walk a weekday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3500,
+    "familyFrom": 3000,
+    "familyTo": 6000
+  },
+  "mrt": [
+    "Geylang Bahru",
+    "Bendemeer",
+    "Kallang"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
