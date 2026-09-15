@@ -212,9 +212,9 @@ export const pillars: Pillar[] = [
         blurb: "3-year bond, LOE ≠ EP, liquidated damages reality.",
       },
       {
-        label: "Relocation checklists",
-        href: "/journeys/arriving",
-        blurb: "7, 30, and 90-day sequences that keep the move sane.",
+        label: "Relocation checklist (7/30/90)",
+        href: "/guides/relocation-checklist-7-30-90",
+        blurb: "Pass, Singpass, housing, schools — week one through day 90.",
       },
       {
         label: "First housing bridge",
@@ -601,7 +601,7 @@ export const pillars: Pillar[] = [
       {
         label: "Citizenship & NS",
         href: "/guides/citizenship-ns-implications",
-        blurb: "What permanent status implies for families.",
+        blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
         label: "Career pivots",
@@ -622,6 +622,11 @@ export const pillars: Pillar[] = [
         label: "PR rejected — appeal / reapply",
         href: "/guides/pr-rejection-reapply",
         blurb: "Official appeal e-Service only; reapply when profile changed.",
+      },
+      {
+        label: "IR21 tax clearance",
+        href: "/guides/tax-clearance-when-leaving",
+        blurb: "Employer IR21 + withheld final pay — budget runway.",
       },
       {
         label: "Transfer REP to new passport",
