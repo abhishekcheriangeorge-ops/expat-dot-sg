@@ -6,6 +6,12 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 16)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick16-49cb` → PR to `main` (fresh worktree off `origin/main` @ `12e831c` post-A11/#92; while [#97](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/97)–[#121](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/121) A12–A15 stay open — **did not** edit those paths). A8–A11 (#68/#81/#85/#92) landed on main before this tick.
+
+---
+
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 5)
 
 Branch: `loop/e-journeys-tools-tick5` → PR to `main` (fresh worktree off `origin/main` after tick 3 [#53](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/53) merged; while [#66](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/66) tick 4 remained open). Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok. **Avoided #66 paths** (`pre-arrival`, `lease-notice`, Good Friday / Labour Day / Vesak, day-7 / day-30, leaving-singapore).
