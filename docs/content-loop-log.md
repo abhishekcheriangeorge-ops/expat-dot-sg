@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 32)
+
+Branch: `loop/story-aeo-tick32` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#174 H20–H31). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/NationalServiceSG / r/askSingapore — “renounce PR before enlistment” as clean exit; REP lapse as clever substitute.
+- r/askSingapore — main EP death and kids’ DP cards still “valid”; Special Pass widow folklore.
+- r/askSingapore — CPF nomination failed because witness was also nominee / missed 7-day confirm.
+
+**Official**
+
+- [ICA — Renunciation of Permanent Residence](https://www.ica.gov.sg/enter-transit-depart/more-information/for-permanent-residents/renunciation-of-permanent-residence) + [ICA PR NS warnings](https://www.ica.gov.sg/reside/PR) + [MINDEF parliamentary reply (2014)](https://www.mindef.gov.sg/news-and-events/latest-releases/2014aug05-Parliamentary-000073).
+- [MOM — Cancel a Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass/cancel-a-pass) + [ICA Special Pass](https://www.ica.gov.sg/public-education/special-pass).
+- [CPF Board — Making a CPF nomination](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination).
+
+### Gaps vs open H + ticks 1–31
+
+Open: #117–#174 H20–H31. Remaining free Next FAQ-free companions on main included **renouncing PR · NS traps** (priority), **EP death → DP cascade**, **CPF nomination Singpass witnesses**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/renouncing-pr-ns-liability-traps-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-death-dependant-pass-cascade-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/cpf-nomination-singpass-witnesses-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (NS traps + EP-death DP cascade + CPF witnesses hub topics/blurbs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#174 guide bodies.
+
+### Questions mined (sample)
+
+1. Can a male PR renounce Permanent Residence before enlistment to avoid National Service?
+2. What happens if an NSF tries to renounce PR mid-service?
+3. Do dependants keep PR if the main applicant renounces?
+4. Is letting a Re-Entry Permit lapse overseas the same as formal PR renunciation?
+5. What does ICA mean by serious adverse impact after renouncing without completing NS?
+6. Do Dependant’s Passes stay valid after the main Employment Pass holder dies?
+7. What stay option do surviving DP holders get after cancel?
+8. Does a Letter of Consent survive when the DP is cancelled after the main EP holder’s death?
+9. Is an ICA Special Pass automatic for widows or surviving children?
+10. Is death-related STVP the same process as layoff STVP?
+11. How many Singpass witnesses does an online CPF nomination need?
+12. Can my spouse be both a CPF nominee and a witness?
+13. Does changing my will also change my CPF nomination?
+14. What happens if I never make a CPF nomination?
+15. Do Employment Pass holders need a CPF nomination?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 15)
 
 Branch: `cursor/loop-d-next-polish-tick15-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123).

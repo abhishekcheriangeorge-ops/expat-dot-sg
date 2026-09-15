@@ -604,6 +604,21 @@ export const pillars: Pillar[] = [
         blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
+        label: "CPF nomination witnesses",
+        href: "/guides/cpf-nomination-singpass-witnesses-singapore",
+        blurb: "Two Singpass witnesses, 7-day confirm — will never moves CPF.",
+      },
+      {
+        label: "EP death → DP cascade",
+        href: "/guides/ep-death-dependant-pass-cascade-singapore",
+        blurb: "DPs cancel with main pass — STVP up to 90 days, not Special Pass folklore.",
+      },
+      {
+        label: "Renouncing PR · NS traps",
+        href: "/guides/renouncing-pr-ns-liability-traps-singapore",
+        blurb: "NS clocks, household cascade, REP lapse ≠ planned renunciation.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
