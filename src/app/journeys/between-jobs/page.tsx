@@ -1,23 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { JourneyHero } from "@/components/journeys";
-import { CalendarBoard } from "@/components/calendar";
+import { notFound } from "next/navigation";
+import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { getCalendarEvents } from "@/lib/content";
+import { getBetweenJobsPlaybook } from "@/lib/content";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Events & kids calendar",
+  title: "Between jobs (EP gap)",
   description:
-    "Singapore expat calendar — MOE holidays and Teachers’/Youth/Children’s Day, AEIS/S-AEIS and P1 windows, IRAS tax season, EP salary uplift 2027, international-school apps, festivals, and community anchors.",
-  path: "/calendar",
+    "Between-jobs playbook for EP holders — STVP buffer, Dependant Pass risk, IR21 vs rehire, Singpass grace, and new IPA timing while you stay in Singapore.",
+  path: "/journeys/between-jobs",
 });
 
-export default async function CalendarPage() {
-  const events = await getCalendarEvents();
+export default async function BetweenJobsJourneyPage() {
+  const playbook = await getBetweenJobsPlaybook();
+  if (!playbook) notFound();
+
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Calendar", path: "/calendar" },
+    { name: "Journeys", path: "/journeys" },
+    { name: "Between jobs", path: "/journeys/between-jobs" },
   ];
 
   return (
@@ -29,33 +32,34 @@ export default async function CalendarPage() {
         </div>
       </div>
       <JourneyHero
-        eyebrow="Calendar"
-        title="School holidays, application windows, and the weeks families plan around."
-        summary="MOE term breaks and Teachers’/Youth/Children’s Day, AEIS/S-AEIS and P1 seasons, IRAS e-Filing, the 1 Jan 2027 EP salary uplift, international-school admissions, plus festivals and community anchors."
+        eyebrow="Next · Between jobs"
+        title={playbook.title}
+        summary="Stay lawful through the gap. STVP first, then tax and the new IPA — not the other way around."
+        lastReviewed={playbook.lastReviewed}
       />
-      <CalendarBoard events={events} />
+      <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
         <p className="text-sm text-ink-faint">
-          Related:{" "}
+          Leaving Singapore instead?{" "}
           <Link
-            href="/family"
+            href="/journeys/leaving"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
-            Family pillar
+            Leaving playbook
           </Link>{" "}
           ·{" "}
           <Link
-            href="/guides/kids-activities-holiday-camps"
+            href="/tools/tax-residency"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
-            Kids activities guide
+            Tax residency sketch
           </Link>{" "}
           ·{" "}
           <Link
-            href="/schools"
+            href="/next"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
-            Schools directory
+            Next pillar
           </Link>
         </p>
       </div>

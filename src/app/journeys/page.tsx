@@ -3,7 +3,11 @@ import Link from "next/link";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { getChecklists, getLeavingPlaybook } from "@/lib/content";
+import {
+  getBetweenJobsPlaybook,
+  getChecklists,
+  getLeavingPlaybook,
+} from "@/lib/content";
 import {
   breadcrumbJsonLd,
   buildPageMetadata,
@@ -13,14 +17,15 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Arriving 7/30/90 checklists and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Arriving 7/30/90 checklists, between-jobs EP gap playbook, and Leaving Singapore — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook] = await Promise.all([
+  const [checklists, playbook, betweenJobs] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
+    getBetweenJobsPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -40,7 +45,7 @@ export default async function JourneysIndexPage() {
           collectionPageJsonLd({
             name: "Journeys",
             description:
-              "Arriving checklists and the Leaving Singapore playbook.",
+              "Arriving checklists, between-jobs playbook, and Leaving Singapore.",
             path: "/journeys",
             items: [
               ...arriving
@@ -49,6 +54,10 @@ export default async function JourneysIndexPage() {
                   name: c!.title,
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
+              {
+                name: betweenJobs?.title ?? "Between jobs (EP gap)",
+                path: "/journeys/between-jobs",
+              },
               {
                 name: playbook?.title ?? "Leaving Singapore",
                 path: "/journeys/leaving",
@@ -64,8 +73,8 @@ export default async function JourneysIndexPage() {
       </div>
       <JourneyHero
         eyebrow="Journeys"
-        title="Checklists for arriving — and a playbook for leaving."
-        summary="Interior utilities for the weeks that matter. Not a dashboard; a calm sequence you can tick through."
+        title="Checklists for arriving — playbooks for the hard transitions."
+        summary="Interior utilities for the weeks that matter. Not a dashboard; calm sequences you can tick through."
       />
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
@@ -121,6 +130,25 @@ export default async function JourneysIndexPage() {
             Next
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {betweenJobs?.title ?? "Between jobs (EP gap)"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {betweenJobs?.summary ??
+              "STVP buffer, Dependant Pass risk, and new IPA timing when you change jobs without leaving."}
+          </p>
+          <Link
+            href="/journeys/between-jobs"
+            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
+          >
+            Open between-jobs playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Next
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
             {playbook?.title ?? "Leaving Singapore"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -137,7 +165,7 @@ export default async function JourneysIndexPage() {
           </p>
           <Link
             href="/journeys/leaving"
-            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open leaving playbook
           </Link>
@@ -150,7 +178,7 @@ export default async function JourneysIndexPage() {
               href="/tools"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Light COL and EP threshold tools
+              Light COL, lease-duty, tax-residency, and EP threshold tools
             </Link>{" "}
             live one level down — never on the homepage.
           </p>

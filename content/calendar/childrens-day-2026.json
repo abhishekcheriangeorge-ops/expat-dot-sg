@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "childrens-day-2026",
+  "title": "Children’s Day (primary schools)",
+  "summary": "Fri 2 Oct 2026 is a school holiday for MOE primary schools and primary sections of full schools. Secondary / JC cohorts typically still have school — confirm with your child’s campus.",
+  "date": "2026-10-02",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
+  "featured": false
+}
