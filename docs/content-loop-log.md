@@ -6,6 +6,79 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 35) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick35-8971` → tip PR off [#270](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/270) (tick 34). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #270. Shared log + `site.ts` only (prepend on conflict). Did not wait for #270 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — crusty sores vs mosquito bites; swim bans; towel folklore.
+- r/askSingapore — book-week costume blackouts; author-visit call times; PayNow book bundles.
+- r/askSingapore — gymnastics viewing glass as the real weekday parent meetup.
+
+**Official**
+
+- [HealthHub impetigo](https://www.healthhub.sg/a-z/diseases-and-conditions/impetigo) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools) + [NLB](https://www.nlb.gov.sg/)
+- [ActiveSG](https://www.activesg.gov.sg/) + [Sport Singapore](https://www.sportsingapore.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–34 (open tip #270) covered gastro, residential camps, dance waiting, pink-eye, concert, music waiting. Remaining heat without contested paths: **impetigo exclusion**, **IS book week / author-visit ops**, **gymnastics-studio waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-impetigo-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-book-week-author-visit-ops-dual-career-singapore.mdx`
+- `content/guides/belong/gymnastics-studio-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open #270 paths)
+
+- exam-week coverage, preschool/childcare, orientation week, parent-teacher conference, hawker breakfast belonging, community-centre belonging, void-deck kopi belonging
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- Singapore American School, Chatsworth International, ISS International, Raffles Medical, FDW agencies, Nation Employment
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #270 guide/entity paths.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns daytime dressing changes?
+2. Is the return rule written?
+3. What is the book-week call time and gate?
+4. Which adult owns the author-visit seat?
+5. Same gymnastics glass next week?
+6. Is swim/mat sport paused in writing?
+7. Hard wallet cap for book bundles?
+8. Helper rest day vs book-week volunteer?
+
+---
+
+# Content loop log
+
+Short running log of research → gap analysis → shipped editorial. No monetization expansion in these ticks.
+
+**Standing order:** after each loop tick, audit then merge PR to main.
+
+---
+
+---
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 28 — 2026-09-15
 
 Branch: `cursor/home-life-tick28-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71 (C25), #88 (C26), and #96 (C27) stay open for the merge controller — **did not** touch those PR paths (HDB neighbour reno / lightning / Hougang–Bukit Batok–Marine Parade; void-deck / power outages / Jurong West–CCK–Sembawang; condo unit reno / secondhand smoke / Bukit Panjang–Boon Lay–Geylang). Topics: PUB water disruption / pipe works for renters, ActiveSG swimming pools, Kallang / Bendemeer / Potong Pasir.

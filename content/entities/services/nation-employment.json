@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "nation-employment",
   "name": "Nation Employment",
-  "summary": "MDW / helper agency — interview process, SIP booking, insurance floors, and MOM compliance support vs DIY renewals.",
-  "body": "Helper agencies should be transparent on fees, replacement policies, and training. You remain the employer under MOM rules — understand levy concession traps for foreign kids, Settling-In Programme within seven days for first-time helpers, enhanced medical insurance (≥S$60k inpatient; Stage 2 age bands from Jul 2025), personal accident cover, and six-monthly medicals before the helper arrives. Work-permit renewals can be filed yourself on MOM eServices; pay an agency when you need candidate sourcing and replacement guarantees, not for the online renew alone. Compare total cost against Comfort Employment, the FDW category guide, and DIY transfer routes using the MDW hiring guide — and shop MI yourself when agency premiums spike after age 50. For ~28-day postpartum help, use the confinement-nanny category guide instead of forcing an MDW placement onto a pui yuet window. Family ops note: rest-day planning and relief coverage conversations belong in the agency onboarding pack — dual-career households should ask before the first Sunday surprise.",
+  "summary": "MDW / helper agency \u2014 interview process, SIP booking, insurance floors, and MOM compliance support vs DIY renewals.",
+  "body": "Helper agencies should be transparent on fees, replacement policies, and training. You remain the employer under MOM rules \u2014 understand levy concession traps for foreign kids, Settling-In Programme within seven days for first-time helpers, enhanced medical insurance (\u2265S$60k inpatient; Stage 2 age bands from Jul 2025), personal accident cover, and six-monthly medicals before the helper arrives. Work-permit renewals can be filed yourself on MOM eServices; pay an agency when you need candidate sourcing and replacement guarantees, not for the online renew alone. Compare total cost against Comfort Employment, the FDW category guide, and DIY transfer routes using the MDW hiring guide \u2014 and shop MI yourself when agency premiums spike after age 50. For ~28-day postpartum help, use the confinement-nanny category guide instead of forcing an MDW placement onto a pui yuet window. Family ops note: rest-day planning and relief coverage conversations belong in the agency onboarding pack \u2014 dual-career households should ask before the first Sunday surprise. Family ops: impetigo exclusion weeks are a poor time for surprise helper rest-day gaps \u2014 keep a named daytime adult.",
   "category": "fdw",
   "areasServed": [
     "Islandwide"
@@ -15,30 +15,31 @@
     "Need agency support for SIP + six-monthly medicals",
     "Comparing replacement policy vs Comfort / DIY renew",
     "Levy concession traps for foreign kids unclear",
-    "Age-50 MI premium jump — want non-agency quotes",
+    "Age-50 MI premium jump \u2014 want non-agency quotes",
     "Comparing MDW hire vs confinement-nanny package"
   ],
   "officialLinks": [
     {
-      "label": "MOM — Work Permit for FDW",
+      "label": "MOM \u2014 Work Permit for FDW",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker"
     },
     {
-      "label": "MOM — Renew MDW Work Permit",
+      "label": "MOM \u2014 Renew MDW Work Permit",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/renew-a-work-permit"
     },
     {
-      "label": "MOM — MDW insurance requirements",
+      "label": "MOM \u2014 MDW insurance requirements",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements"
     },
     {
-      "label": "MOM — Work Permit for confinement nanny (key facts)",
+      "label": "MOM \u2014 Work Permit for confinement nanny (key facts)",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts"
     }
   ],
   "relatedGuides": [
     "hiring-domestic-helper-mdw",
     "confinement-nanny-postpartum-singapore",
-    "dual-career-helper-rest-day-sunday-coverage-singapore"
+    "dual-career-helper-rest-day-sunday-coverage-singapore",
+    "dual-career-kids-impetigo-school-exclusion-singapore"
   ]
 }
