@@ -6,6 +6,77 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 8)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick8-49cb` → PR to `main` (fresh worktree off `origin/main` after A6/#56 merged; while [#61](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/61) A7 is still open — **did not** edit A7 FCF/S Pass/job-offer/WHP/TG/year-one paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP job change / IPA-before-resign / dual applications ([EP process on company change](https://www.reddit.com/r/askSingapore/comments/120shl1/ep_process_on_company_change/); [resignation notice vs EP expiry](https://www.reddit.com/r/askSingapore/comments/1q9stq3/what_happens_if_an_ep_holder_gives_leaving_notice/); [resignation STVP](https://www.reddit.com/r/askSingapore/comments/1ttedbd/ep_question_on_resignation_stvp/)).
+- r/askSingapore — IR21 withhold while staying / job-hop cashflow ([HR explain IR21](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [job loss 24h](https://www.reddit.com/r/askSingapore/comments/187h2wf/in_light_of_losing_my_job_24_hours_ago_i_have_a/)).
+
+**Official**
+
+- [MOM — Change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep)
+- [IRAS — Tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees)
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) (5-day address/mobile)
+- [MOM — Work pass exemption for foreign students](https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students)
+- [ICA — Student’s Pass](https://www.ica.gov.sg/reside/STP/) + [LTVP](https://www.ica.gov.sg/reside/LTVP)
+- [CPF Board — Closing account when leaving](https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore)
+
+### Gaps vs prior Loop A ticks
+
+Ticks 1–6 on main + open A7 cover EP/COMPASS, remittance body, medical, cancel STVP/DP/PayNow/CPF myths, HISA/CC/COR/LOG body, PEP/Tech.Pass, IPA reassessment, SRS/RSU, COL helper, ACRA, pets, ONE/EntrePass/DP/side-income/CPF/bank/salary FAQPages, and (in #61) FCF/S Pass/offer/WHP/TG/year-one. Remaining high-intent Move/Money gaps matched this mine without colliding #61: **job-change IPA-before-resign + IR21-while-staying FAQPage**, **Student’s Pass work limits / not-an-EP**, **LTVP ≠ DP FAQPage**, **5-day address/passport notify + FWTES**, **remittance PayNow≠FX + SoF freezes FAQPage**, **health LOG / no MediShield FAQPage**, **CPF withdrawal only after status ends**. Left Next between-jobs STVP deep-dives and Loop H AEO bodies alone.
+
+### Shipped this loop
+
+**Upgraded guides (FAQPage)**
+
+- `content/guides/move/changing-jobs-employment-pass.mdx`
+- `content/guides/move/student-pass-singapore.mdx`
+- `content/guides/move/ltvp-singapore.mdx`
+- `content/guides/move/ep-notify-mom-address-passport.mdx`
+- `content/guides/money/remittances-singapore.mdx`
+- `content/guides/money/health-insurance-expat.mdx`
+- `content/guides/money/cpf-withdrawal-leaving-singapore.mdx`
+- `src/lib/site.ts` (job-change / Student’s Pass / LTVP / notify + remittance / health LOG / CPF withdrawal topics)
+- `content/entities/services/intact-immigration.json` (job-change / Student’s Pass / notify engage paths)
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing remittance/insurance sponsorSlots left untouched).
+- No Grok / third-party clone copy.
+- Did not edit open A7 paths (FCF / S Pass / job-offer / WHP / TG / year-one).
+- Did not re-own Loop H STVP/housing/banking AEO or Loop D NRIC/citizenship trees.
+- Did not edit Family / Belong / Home / Life heavily.
+
+### Questions mined (sample)
+
+1. Should I resign before the new EP IPA arrives?
+2. Does IR21 still withhold pay if I am only changing Singapore employers?
+3. Can two companies file EP for me at once?
+4. Can I work full-time on a Student’s Pass?
+5. Does graduation auto-grant an EP?
+6. Is LTVP the same as Dependant’s Pass?
+7. Can EP holders bring parents on LTVP?
+8. How fast must I update MOM after moving house?
+9. Why does FWTES block my condo address?
+10. Is PayNow a cross-border remittance product?
+11. Why did my large inward wire freeze for source-of-funds?
+12. Do EP holders get MediShield / Medisave?
+13. What is a hospital Letter of Guarantee?
+14. Can I cash out CPF when my EP ends?
+
+---
+
+---
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 19)
 
 Branch: `loop/story-aeo-tick19` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#98). Avoided open merge-controller H file sets (#102 H17, #107 H18). Prefer merge order **#102 → #107** before this lands. No ads / monetization; no Grok copy.
