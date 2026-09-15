@@ -294,29 +294,9 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
       },
       {
-        label: "Water tank & booster outages",
-        href: "/guides/condo-water-tank-booster-pump-outages-tenants",
-        blurb: "Rooftop tanks, booster windows, and MA notices vs PUB cuts.",
-      },
-      {
-        label: "Cat-ladder / roof-access permits",
-        href: "/guides/condo-cat-ladder-roof-access-permit-notices-tenants",
-        blurb: "Permit windows, roof doors, and restricted ladder access.",
-      },
-      {
-        label: "Sprinkler drain-down / fire-shutter tests",
-        href: "/guides/condo-sprinkler-drain-down-fire-shutter-test-notices-tenants",
-        blurb: "Wet-system and shutter-test calendars — not hydrant clearance or alarm drills.",
-      },
-      {
-        label: "Smoke-stop / staircase pressurisation tests",
-        href: "/guides/condo-smoke-stop-staircase-pressurisation-fan-test-notices-tenants",
-        blurb: "Staircore fan and smoke-stop calendars — not sprinkler drain-downs or alarm drills.",
-      },
-      {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Pasir Ris West Fringe, Loyang Edge, Tampines North Edge, and more.",
+        blurb: "Bukit Timah, Holland V, East Coast, Toa Payoh, AMK, Bedok, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -336,7 +316,7 @@ export const pillars: Pillar[] = [
     ],
     related: [
       { href: "/neighbourhoods", label: "Neighbourhoods" },
-      { href: "/neighbourhoods", label: "Neighbourhoods" },
+      { href: "/arriving", label: "Arriving" },
       { href: "/living", label: "Living" },
       { href: "/guides", label: "All guides" },
     ],
@@ -550,26 +530,6 @@ export const pillars: Pillar[] = [
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
       },
       {
-        label: "ActiveSG skating",
-        href: "/guides/activesg-skating-booking-singapore",
-        blurb: "Standard Rate rink sessions — not court or camp hire.",
-      },
-      {
-        label: "ActiveSG lawn bowls",
-        href: "/guides/activesg-lawn-bowls-booking-singapore",
-        blurb: "Standard Rate green sessions — not cycling circuit or alley bowling.",
-      },
-      {
-        label: "ActiveSG cricket nets",
-        href: "/guides/activesg-cricket-nets-booking-singapore",
-        blurb: "Standard Rate net sessions — not lawn bowls, circuit, or court hire.",
-      },
-      {
-        label: "ActiveSG gateball / petanque",
-        href: "/guides/activesg-gateball-petanque-booking-singapore",
-        blurb: "Standard Rate green sessions — not lawn bowls, cricket nets, or court hire.",
-      },
-      {
         label: "Apps that matter",
         href: "/guides/apps-that-matter-singapore",
         blurb: "Singpass first, ScamShield, PayNow→FIN, transit — week one.",
@@ -685,6 +645,11 @@ export const pillars: Pillar[] = [
         blurb: "Timing, COMPASS, age bands — plus NOA document asks.",
       },
       {
+        label: "COMPASS firm scores on renewal",
+        href: "/guides/ep-renewal-compass-firm-scores-singapore",
+        blurb: "SAT firm criteria can drift even when your pay still clears.",
+      },
+      {
         label: "PR strategy",
         href: "/guides/pr-application-strategy",
         blurb: "Eligibility signals, timelines, and realistic odds.",
@@ -725,6 +690,26 @@ export const pillars: Pillar[] = [
         blurb: "New employer files fresh pass — resign only after IPA.",
       },
       {
+        label: "DP re-sponsor on EP job change",
+        href: "/guides/dp-resubmission-when-principal-changes-ep-singapore",
+        blurb: "New principal IPA → family re-file before old cancel.",
+      },
+      {
+        label: "LTVP + PLOC → EP",
+        href: "/guides/ltvp-ploc-to-ep-conversion-singapore",
+        blurb: "PLOC is work consent — EP is a new principal file.",
+      },
+      {
+        label: "S Pass → EP upgrade",
+        href: "/guides/s-pass-to-ep-upgrade-in-singapore",
+        blurb: "Raise ≠ conversion; FCF + COMPASS on a fresh EP file.",
+      },
+      {
+        label: "PEP / ONE / Tech.Pass chooser",
+        href: "/guides/pep-one-tech-pass-chooser-singapore",
+        blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",
+      },
+      {
         label: "EP rejection appeal playbook",
         href: "/guides/ep-rejection-appeal-candidate-playbook-singapore",
         blurb: "Employer-only 3-month window — advisory facts beat resign vibes.",
@@ -753,6 +738,11 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
+      },
+      {
+        label: "Cancel MDW Work Permit on exit",
+        href: "/guides/fdw-cancellation-when-leaving-singapore",
+        blurb: "Transfer vs repatriate; levy stops only after MOM cancel.",
       },
       {
         label: "PR rejected — appeal / reapply",
@@ -799,7 +789,7 @@ export const primaryNav = [
   { href: "/living", label: "Living" },
   { href: "/guides", label: "Guides" },
   { href: "/neighbourhoods", label: "Neighbourhoods" },
-  { href: "/neighbourhoods", label: "Neighbourhoods" },
+  { href: "/schools", label: "Schools" },
   { href: "/clubs", label: "Clubs" },
   { href: "/directory", label: "Directory" },
   { href: "/journeys", label: "Journeys" },
@@ -813,7 +803,7 @@ export const primaryNavDesktop = [
   { href: "/living", label: "Living" },
   { href: "/guides", label: "Guides" },
   { href: "/neighbourhoods", label: "Areas" },
-  { href: "/neighbourhoods", label: "Areas" },
+  { href: "/schools", label: "Schools" },
   { href: "/clubs", label: "Clubs" },
   { href: "/directory", label: "Directory" },
   { href: "/journeys", label: "Journeys" },
