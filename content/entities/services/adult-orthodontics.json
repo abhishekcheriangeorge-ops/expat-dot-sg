@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "adult-orthodontics",
+  "name": "Adult orthodontics (category guide)",
+  "summary": "Braces / clear aligners in your 20s–40s — orthodontist vs GP dentist honesty, Invisalign price bands, and why retainers are not optional.",
+  "body": "Adult braces are normal in Singapore; forum quotes commonly land metal cases in the mid-thousands SGD and comprehensive clear-aligner plans higher, before extractions and retainers. Complex bites, jaw discrepancies, or sleep-apnoea-related orthodontics belong with an orthodontist (extra specialty training), not only a GP dentist selling a brand tray. Ask who monitors mid-course, what happens if you travel for months, and the retainer plan after active treatment — skipping retainers is the classic relapse story. Corporate dental riders often exclude orthodontics or cap it tightly; get the schedule in writing before a scan deposit. Distinct from children’s braces (see the kids orthodontics guide) and from general dental care listings. This is a category guide, not a ranked Invisalign clinic list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Adult braces / aligners — orthodontist vs GP dentist unclear",
+    "Quoted package excludes retainers or travel pauses",
+    "Dental rider may exclude orthodontics",
+    "Bite / jaw issues may need specialty orthodontics"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Guide to dental treatment costs",
+      "url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/"
+    },
+    {
+      "label": "SDC — Singapore Dental Council",
+      "url": "https://www.sdc.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-braces-orthodontics-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "dental-care-foreigners-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

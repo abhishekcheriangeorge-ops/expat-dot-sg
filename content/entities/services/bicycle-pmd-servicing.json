@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "bicycle-pmd-servicing",
+  "name": "Bicycle & PMD servicing (category guide)",
+  "summary": "Hydraulic disc brakes, foldie rust, and LTA PMD rules — shop vs mobile mechanic honesty, and why illegal e-scooter ‘tune-ups’ are a fine risk.",
+  "body": "Expat cyclists and folding-bike owners hit the same gaps: hydraulic disc bleeds, seized chains after monsoon storage, and mobile mechanics who will come to the void deck. Chain shops (Rodalink-style) and independent specialists differ on parts stock and wait times — ask whether the quote includes parts or labour-only. Personal Mobility Devices sit under LTA device rules; ‘speed unlocks’ or non-compliant mods are enforcement risks, not clever hacks. Pair servicing with the cycling / active mobility guide for path rules and insurance questions. Condo bike-rack theft and rusty foldies after a long trip home are the usual triggers. This is a category guide for choosing honest workshops, not a ranked shop list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Hydraulic disc / foldie rust needs a workshop",
+    "Comparing walk-in shop vs mobile mechanic quotes",
+    "Unsure whether a PMD mod is LTA-legal",
+    "Need service before a long active-mobility commute"
+  ],
+  "officialLinks": [
+    {
+      "label": "LTA — Active mobility / PMD rules",
+      "url": "https://www.lta.gov.sg/content/ltagov/en/getting_around/active_mobility.html"
+    },
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "cycling-active-mobility-singapore",
+    "sports-fitness-singapore",
+    "condo-noise-mcst-neighbours"
+  ],
+  "featured": false,
+  "sponsored": false
+}

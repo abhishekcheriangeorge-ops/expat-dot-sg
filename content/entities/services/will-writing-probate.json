@@ -2,33 +2,34 @@
   "type": "service",
   "slug": "will-writing-probate",
   "name": "Will-writing & probate (category guide)",
-  "summary": "Singapore wills vs CPF nomination for expats \u2014 when a solicitor beats an online template, resealing foreign grants, and bank freezes after death.",
-  "body": "A Singapore will moves local bank, brokerage, and condo assets; it does not move CPF \u2014 that needs a separate CPF nomination (or Public Trustee distribution if none exists). Online templates are weak for cross-border assets, minor guardianship, or foreign marriage/divorce histories; budget a solicitor consult when those apply. After death, Singapore banks usually freeze accounts until they see a Singapore grant of probate or letters of administration \u2014 a home-country grant alone often needs resealing or a fresh local application. Keep an asset list and executor contacts where your next-of-kin can find them; embassy repatriation logistics are a parallel rail. Pair will-writing with lasting power of attorney / advance medical directive planning while capacity is clear. Notary and apostille services help authenticate documents for foreign courts but do not replace a Singapore-qualified draftsman. This is a category guide, not a ranked firm list \u2014 verify counsel against the Ministry of Law directory and read CPF nomination rules yourself.",
+  "summary": "Singapore wills vs CPF nomination for expats — when a solicitor beats an online template, resealing foreign grants, and bank freezes after death.",
+  "body": "A Singapore will moves local bank, brokerage, and condo assets; it does not move CPF — that needs a separate CPF nomination (or Public Trustee distribution if none exists). Online templates are weak for cross-border assets, minor guardianship, or foreign marriage/divorce histories; budget a solicitor consult when those apply. After death, Singapore banks usually freeze accounts until they see a Singapore grant of probate or letters of administration — a home-country grant alone often needs resealing or a fresh local application. Keep an asset list and executor contacts where your next-of-kin can find them; embassy repatriation logistics are a parallel rail. Pair will-writing with lasting power of attorney / advance medical directive planning while capacity is clear. Notary and apostille services help authenticate documents for foreign courts but do not replace a Singapore-qualified draftsman. This is a category guide, not a ranked firm list — verify counsel against the Ministry of Law directory and read CPF nomination rules yourself. Sleep-apnoea or long-term CPAP dependence is a reminder to keep lasting power of attorney / AMD paperwork current alongside the will — medical-device and caregiving wishes belong in capacity documents, not only the asset will. See the sleep medicine category guide when device dependence is part of the care plan you want executors to understand.",
   "category": "legal",
   "areasServed": [
     "Islandwide"
   ],
   "whenToEngage": [
     "Need Singapore will plus separate CPF nomination",
-    "Cross-border assets / minor guardianship \u2014 template unsafe",
+    "Cross-border assets / minor guardianship — template unsafe",
     "Foreign probate may not unfreeze local bank accounts",
-    "Executor / asset list missing for next-of-kin"
+    "Executor / asset list missing for next-of-kin",
+    "Need LPA/AMD alongside will because of chronic device care"
   ],
   "officialLinks": [
     {
-      "label": "Judiciary \u2014 Apply for probate",
+      "label": "Judiciary — Apply for probate",
       "url": "https://www.judiciary.gov.sg/family/apply-for-probate"
     },
     {
-      "label": "CPF Board \u2014 Making a CPF nomination",
+      "label": "CPF Board — Making a CPF nomination",
       "url": "https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination"
     },
     {
-      "label": "Ministry of Law \u2014 Find a lawyer",
+      "label": "Ministry of Law — Find a lawyer",
       "url": "https://www.mlaw.gov.sg/legal-industry/find-a-lawyer/"
     },
     {
-      "label": "SAL \u2014 Legalisation / apostille",
+      "label": "SAL — Legalisation / apostille",
       "url": "https://legalisation.sal.sg/"
     }
   ],

@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "allergy-immunology",
+  "name": "Allergy & immunology (category guide)",
+  "summary": "Skin-prick / blood panels vs symptom-led work-ups — foreigner fee honesty, immunotherapy cost clocks, and when derm or ENT should lead instead.",
+  "body": "Expat threads asking for a ‘full allergy panel’ often meet clinicians who test against symptoms, not a hundred-allergen buffet. Public hospital allergy clinics (e.g. NUH pathways) are cheaper for citizens/PRs; foreigners usually pay full fees, so private immunology / allergy clinics buy speed more than subsidy. Ask whether you are seeing an SMC-registered immunologist, a dermatologist for chronic urticaria, or an ENT for allergic rhinitis — the wrong door wastes cash. Immunotherapy (injection courses measured in years) is a budget decision, not a one-visit fix; get written package scope and drop-out fees. Food / drug challenge tests need controlled settings — mall ‘allergy screens’ are not the same product. Pair with paediatric allergy guides when the patient is a child, and with health-insurance schedules that often carve allergy testing thinly. This is a category guide, not a ranked clinic list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Want allergy testing and unsure public vs private foreigner fees",
+    "Chronic hives / rhinitis — derm vs immunology vs ENT unclear",
+    "Quoted multi-year immunotherapy needs cost honesty",
+    "Outpatient rider may exclude allergy panels"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "NUH — Allergy clinic (example public pathway)",
+      "url": "https://www.nuh.com.sg/our-services/Specialties/Medicine/Pages/Allergy.aspx"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "kids-allergy-epipen-singapore",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

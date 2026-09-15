@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "sleep-medicine-cpap",
+  "name": "Sleep medicine & CPAP (category guide)",
+  "summary": "Home sleep studies vs in-lab PSG — ENT/dental device cross-sells, CPAP machine rental vs buy, and insurer pre-auth traps for foreigners.",
+  "body": "Snoring and daytime fatigue threads often jump straight to a CPAP shop; start with whether you need a diagnostic sleep study (home polygraphy vs attended polysomnography) ordered by a sleep physician, ENT, or respiratory specialist. Foreigners pay unsubsidised public rates, so private labs sell scheduling speed. Mandibular advancement devices and septoplasty pitches are adjacent products — get the AHI/diagnosis in writing before bundling dental or surgical quotes. CPAP machines may be rented during titration then purchased; ask about mask-fit revisits, filter costs, and travel adapters. Group plans often need pre-authorisation for sleep studies and may classify CPAP as durable medical equipment with separate caps. Pair with adult orthodontics only when jaw surgery / bite correction is explicitly on the table. Category guide, not a ranked sleep-lab list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Suspected sleep apnoea — home study vs lab PSG unclear",
+    "Quoted CPAP buy/rent before a formal diagnosis",
+    "Insurer pre-auth for sleep study / DME unclear",
+    "ENT or dental device pitched as first step"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "HSA — Medical devices (CPAP context)",
+      "url": "https://www.hsa.gov.sg/medical-devices"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa",
+    "kids-braces-orthodontics-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

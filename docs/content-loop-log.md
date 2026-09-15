@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 9 — 2026-09-15
+
+Branch: `cursor/services-directory-tick9-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–8 primary topics and avoided open **#70 / #86 / #95** touch sets (also steered clear of still-open #75 paths for merge hygiene). Fresh worktree off `origin/main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — comprehensive allergy testing / immunology paths ([allergy test clinics](https://www.reddit.com/r/askSingapore/comments/1hg9bll/comprehensive_allergy_test_needed_any_clinic/); [allergy immunology doctor](https://www.reddit.com/r/askSingapore/comments/w7p6tb/std_test_allergy_immunology_doctor/); [sulphite allergy specialist](https://www.reddit.com/r/askSingapore/comments/1o6yvl6/specialist_allergy_doctor_in_singapore_for/)).
+- r/askSingapore — adult braces / Invisalign price and orthodontist vs dentist honesty ([braces crisis](https://www.reddit.com/r/askSingapore/comments/r1njzq/braces_crisis/); [Invisalign recommendations](https://www.reddit.com/r/askSingapore/comments/1lez8o5/recommendations_for_invisalign/)).
+- r/askSingapore — bicycle hydraulic / mobile mechanic heat ([bike repair](https://www.reddit.com/r/askSingapore/comments/1g2egiq/reliable_bicycle_repair_shop_hydraulic_disc_brake/); [home bike mechanic](https://www.reddit.com/r/askSingapore/comments/1p6ysjx/recommendation_for_homebased_bicycle_mechanic_in/)).
+- r/askSingapore — condo managing-agent / MCST escalation ([incompetent MA](https://www.reddit.com/r/askSingapore/comments/1dn9hh2/dealing_with_incompetent_residence_managing_agent/); [MCST committees](https://www.reddit.com/r/askSingapore/comments/10sjk03/what_do_you_know_about_condo_management_committees/); [condo management problems](https://www.reddit.com/r/askSingapore/comments/ojhjc0/problems_with_condo_management/)).
+- Sleep-study / CPAP shopping heat adjacent to ENT and adult orthodontics threads.
+
+**Official**
+
+- [SMC register](https://www.smc.gov.sg/pages/registers.aspx) + [MOH find a facility](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/) + [SDC](https://www.sdc.gov.sg/) + [MOH dental cost guide](https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/).
+- [LTA — Active mobility](https://www.lta.gov.sg/content/ltagov/en/getting_around/active_mobility.html) + [CASE](https://www.case.org.sg/).
+- [BCA — Strata management](https://www1.bca.gov.sg/regulatory-info/building-control/strata-management) + [BMSMA](https://www1.bca.gov.sg/regulatory-info/building-control/building-maintenance-and-strata-management-act-bmsma).
+- [HSA — Medical devices](https://www.hsa.gov.sg/medical-devices).
+
+### Gaps vs ticks 1–8 / open PRs
+
+Open #70/#75/#86/#95 plus ticks 1–4 on main cover the prior directory stack. Remaining high-intent gaps with free touch surface: **allergy/immunology**, **adult orthodontics** (distinct from #70 dental and kids braces guide), **bicycle/PMD servicing**, **condo managing agents / MCST**, and **sleep medicine / CPAP**.
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/allergy-immunology.json`
+- `content/entities/services/adult-orthodontics.json`
+- `content/entities/services/bicycle-pmd-servicing.json`
+- `content/entities/services/condo-managing-agent.json`
+- `content/entities/services/sleep-medicine-cpap.json`
+
+**Upgraded existing** (only free paths left outside open F PRs)
+
+- `pet-relocation.json`, `will-writing-probate.json`
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 / #75 / #86 / #95 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Is a ‘full allergy panel’ what immunologists actually order?
+2. Do foreigners save money at public allergy clinics?
+3. Orthodontist or GP dentist for adult Invisalign?
+4. Are retainers included in the braces package price?
+5. Who bleeds hydraulic disc brakes without a two-week wait?
+6. Are PMD ‘speed unlock’ services legal?
+7. How do tenants escalate when the condo MA ghosts WhatsApp?
+8. Can owners replace a managing agent without an AGM?
+9. Home sleep study or in-lab PSG first?
+10. Will my insurer pre-auth CPAP as DME?
+
+---
+
 ## Loop B — Family + Belong (tick 10) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick9-8971` → PR to `main` (branch name kept; tick number is **10** after #51 landed on main as tick 9). Owns **Family** + **Belong** guides plus schools/clubs/services entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Skipped ADHD / Mandarin / hiking bodies already shipped via #51 (tick 9 on main) and babysitter / uni counselling / book clubs via #52 (tick 8).

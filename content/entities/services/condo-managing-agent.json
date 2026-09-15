@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "condo-managing-agent",
+  "name": "Condo managing agents (category guide)",
+  "summary": "MCST vs managing agent roles — how tenants escalate noise/repairs, AGM/EOGM levers for owners, and why WhatsApp silence is a documentation problem.",
+  "body": "In strata condos the Management Corporation Strata Title (MCST) council sets policy; a managing agent (MA) executes day-to-day ops under contract. Tenants usually go landlord → MA for common-property issues (leaks from common pipes, lobby noise enforcement); owners escalate via council if the MA ghosts. Forum heat centres on unresponsive MAs, missed AGMs, and fee hikes — document dates, photos, and written requests before AGM/EOGM politics. BCA / BMSMA frameworks govern councils; individual owners cannot casually fire an MA without council process. New buyers should read AGM minutes and MA contract length before completion. Distinct from tenant property agents (CEA sales/rental). This is a category guide, not a ranked MA firm list.",
+  "category": "agents",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Common-property repair / noise — MA unresponsive",
+    "Owner wants AGM / EOGM options on a failing MA",
+    "Need MCST vs MA role clarity as a new buyer or tenant",
+    "Documenting escalation before council complaint"
+  ],
+  "officialLinks": [
+    {
+      "label": "BCA — Strata management",
+      "url": "https://www1.bca.gov.sg/regulatory-info/building-control/strata-management"
+    },
+    {
+      "label": "BCA — BMSMA resources",
+      "url": "https://www1.bca.gov.sg/regulatory-info/building-control/building-maintenance-and-strata-management-act-bmsma"
+    },
+    {
+      "label": "CEA — Consumers",
+      "url": "https://www.cea.gov.sg/consumers"
+    }
+  ],
+  "relatedGuides": [
+    "condo-noise-mcst-neighbours",
+    "renting-process-loi-ta-deposits",
+    "tenant-agent-commission-cea",
+    "security-deposit-diplomatic-clause"
+  ],
+  "featured": false,
+  "sponsored": false
+}
