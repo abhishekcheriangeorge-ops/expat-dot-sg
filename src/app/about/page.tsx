@@ -72,7 +72,8 @@ export default function AboutPage() {
               Research that starts from real reader questions (forums, Reddit,
               agency FAQs), then maps gaps to primary sources — not recycled
               listicles. High-stakes Next topics (REP clocks, citizenship ORAL,
-              adult SC renunciation, NRIC loss / re-registration, pass
+              adult SC renunciation, NRIC loss / re-registration / name change,
+              child PR sponsorship, REP passport transfers, pass
               cancellations) are checked against live ICA / MOM / MHA text
               before we ship.
             </li>
