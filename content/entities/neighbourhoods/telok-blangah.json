@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "telok-blangah",
+  "name": "Telok Blangah",
+  "summary": "CCL / harbour-adjacent ridge — park connectors, older estate and condo mix, and shorter harbour hops than far-west towns.",
+  "body": "Telok Blangah is the shortlist when Circle Line / harbour-adjacent access and greener ridge walking matter more than CBD-south office crush. Housing mixes mature HDB, walk-ups, and condo inserts toward HarbourFront / Henderson; weekend park-connector traffic and hill humidity are the tax. Expats land here for car-light living with Mount Faber / Southern Ridges adjacency and rents that still undercut Quayside. Compare with Redhill for denser EWL hawker texture, HarbourFront for mall / ferry gravity, and Queenstown when you want a more classic west-of-CBD estate grid.",
+  "region": "central",
+  "vibe": [
+    "ccl",
+    "ridge",
+    "park-connectors",
+    "harbour-adjacent",
+    "mixed-stock"
+  ],
+  "bestFor": [
+    "households who walk ridges and park connectors",
+    "car-light workers okay with a transfer toward CBD",
+    "condo renters who will book ActiveSG gyms instead of trusting brochure gyms",
+    "people testing harbour-adjacent living before Sentosa premiums"
+  ],
+  "watchOuts": [
+    "Hill humidity and slopey walks in rain",
+    "Transfer tax toward some CBD desks",
+    "MCST EV / bicycle-bay variance by estate",
+    "Weekend park-connector crowd spikes"
+  ],
+  "housingMix": "Mature HDB and walk-ups with condo inserts toward HarbourFront / Henderson.",
+  "commuteNotes": "Circle Line / nearby EWL hops via Redhill or HarbourFront; test a rainy ridge walk and a Tuesday 08:15 door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3800,
+    "familyFrom": 3000,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Telok Blangah",
+    "HarbourFront",
+    "Redhill"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

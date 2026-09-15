@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "harbourfront",
+  "name": "HarbourFront",
+  "summary": "NEL/CCL harbour hub — VivoCity gravity, Sentosa adjacency, and dense condo/serviced edges with weekend mall crowds as the daily tax.",
+  "body": "HarbourFront is the shortlist when North-East / Circle Line interchange access and mall / ferry / Sentosa adjacency matter. Housing is mostly condo and serviced-apartment stock rather than quiet HDB heartland; weekend VivoCity crowds and tourist spillover are the tax. Expats land here for car-light harbour living and multi-line hops, not cul-de-sac calm. Compare with Telok Blangah for a greener ridge feel, Redhill for denser EWL hawker texture, and Sentosa when you are already paying island premiums and want the beach walk.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "ccl",
+    "mall-hub",
+    "harbour",
+    "sentosa-adjacent"
+  ],
+  "bestFor": [
+    "car-light workers who want two MRT lines and mall gravity",
+    "households okay with weekend tourist and mall crowds",
+    "renters comparing serviced vs proper TA nearby",
+    "people who will use ActiveSG gyms instead of trusting condo facilities"
+  ],
+  "watchOuts": [
+    "Weekend VivoCity / Sentosa crowd spikes",
+    "Serviced-apartment vs real TA confusion",
+    "Noise on major mall corridors",
+    "Facility brochure vs MA EV / bike-bay reality"
+  ],
+  "housingMix": "Dense condo and serviced-apartment stock with limited quiet HDB texture.",
+  "commuteNotes": "North-East and Circle Line at HarbourFront; test a Saturday afternoon station exit before you romanticise the interchange.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2800,
+    "oneBedTo": 4800,
+    "familyFrom": 4000,
+    "familyTo": 7500
+  },
+  "mrt": [
+    "HarbourFront"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

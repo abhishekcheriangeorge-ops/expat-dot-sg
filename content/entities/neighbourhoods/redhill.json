@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "redhill",
+  "name": "Redhill",
+  "summary": "EWL stop west of Outram — mature estate texture, hawker density, and shorter CBD hops than far-west towns with older HDB and condo mix.",
+  "body": "Redhill is the shortlist when East-West Line access and mature-estate hawker gravity matter more than HarbourFront mall living. Housing mixes HDB blocks, older walk-ups, and condo inserts toward Alexandra / Telok Blangah edges; weekday peak trains and weekend wet-market energy are the tax. Expats land here for car-light CBD hops and heartland rents that still undercut River Valley. Compare with Telok Blangah for a slightly greener ridge feel, HarbourFront for mall / VivoCity gravity, and Queenstown when you want a denser west-of-CBD estate grid.",
+  "region": "central",
+  "vibe": [
+    "ewl",
+    "mature-estate",
+    "hawker-density",
+    "cbd-adjacent",
+    "mixed-stock"
+  ],
+  "bestFor": [
+    "EWL workers wanting CBD-adjacent heartland rents",
+    "households who cook less and walk to hawkers",
+    "condo renters who will vet MA EV / bike-bay rules",
+    "car-light couples testing central-west before RV prices"
+  ],
+  "watchOuts": [
+    "Weekday EWL peak crowding",
+    "Block-level variance in MCST facility rules",
+    "Older-stock humidity and maintenance fights",
+    "Not a quiet cul-de-sac default"
+  ],
+  "housingMix": "Mature HDB with older walk-ups and condo inserts toward Alexandra / Telok Blangah.",
+  "commuteNotes": "East-West Line at Redhill; test a Tuesday 08:15 door-to-desk and a Saturday wet-market walk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3600,
+    "familyFrom": 2900,
+    "familyTo": 5000
+  },
+  "mrt": [
+    "Redhill"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
