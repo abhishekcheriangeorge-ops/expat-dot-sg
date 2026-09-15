@@ -21,7 +21,7 @@ Branch: `loop/seo-crosslinks-tick2c` → PR to `main`. Owns shell/metadata/hubs/
 ### Shipped this loop
 
 - `src/app/layout.tsx` — drop inherited homepage canonical
-- Hub indexes — `buildPageMetadata` + breadcrumbs + CollectionPage where useful (neighbourhoods, schools, clubs, directory + categories, journeys + arriving + leaving + phases, tools + COL/EP, calendar)
+- Hub indexes — `buildPageMetadata` + breadcrumbs + CollectionPage where useful (neighbourhoods, schools, clubs, directory + categories, journeys + arriving + leaving + phases, tools + COL/EP/setup-cash/lease-duty, calendar)
 - `ModeHub` — breadcrumbs + CollectionPage JSON-LD
 - `DirectoryHero` — optional `crumbs`
 - Detail pages — breadcrumbs + pillar reciprocal links
@@ -34,6 +34,340 @@ Branch: `loop/seo-crosslinks-tick2c` → PR to `main`. Owns shell/metadata/hubs/
 - No mass `relatedGuides` frontmatter reciprocity edits.
 - Skipped advertise / sponsored surfaces (ads).
 - No A–F/H guide body rewrites.
+
+---
+
+## Loop A — Move + Money — 2026-09-15 (tick 5)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick5` (rebased onto latest main after Loop H pets FAQPage).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — PEP one-shot / overseas apply timing ([Pros and cons of PEP](https://www.reddit.com/r/askSingapore/comments/1hff5n2/pros_and_cons_of_personalized_employment_pass/); [Job Hunt and PEP overseas](https://www.reddit.com/r/askSingapore/comments/1dxd5ox/job_hunt_and_pep_when_to_apply_from_overseas/); [PEP + tech.pass](https://www.reddit.com/r/askSingapore/comments/n5ew8q/requirements_for_job_hunting_in_singapore_and/)).
+- r/askSingapore — IPA reassessment / postpone arrival ([What does EP reassessment mean?](https://www.reddit.com/r/askSingapore/comments/1izbe21/what_does_employment_pass_reassessment_mean/); [EP appeal chances](https://www.reddit.com/r/askSingapore/comments/1jehp27/job_offer_rejected_due_to_ep_issues_what_are_my/)).
+- r/askSingapore — COMPASS campus / SAT myths ([COMPASS university campus](https://www.reddit.com/r/askSingapore/comments/1q00yh8/question_about_employment_pass_compass_framework/)).
+- r/askSingapore — SRS exit withholding / early top-up trap ([SRS Investment](https://www.reddit.com/r/askSingapore/comments/13ogmnh/srs_investment/); [job-loss SRS](https://www.reddit.com/r/askSingapore/comments/187h2wf/in_light_of_losing_my_job_24_hours_ago_i_have_a/); [moving timing + SRS](https://www.reddit.com/r/askSingapore/comments/19b12g0/moving_to_sg_timing_for_income_tax_foreigner/)).
+- r/askSingapore — RSU/ESOP no-local-entity filing ([ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [RSU tax](https://www.reddit.com/r/askSingapore/comments/oh9u7v/do_i_have_to_pay_income_tax_on_rsus_as_part_of_my/)).
+- r/askSingapore — foreign income remittance myths + COL/helper stack ([income tax overseas](https://www.reddit.com/r/askSingapore/comments/16eeijh/income_tax_for_2024/); [family of 4](https://www.reddit.com/r/askSingapore/comments/1l8sdak/moving_to_sg_as_a_young_family_of_4/); [helper costs](https://www.reddit.com/r/askSingapore/comments/1llhf9w/opinions_on_getting_a_helper_in_singapore/)).
+- r/askSingapore — ACRA/nominee / self-sponsor EP myths ([which visa start company](https://www.reddit.com/r/askSingapore/comments/1762o0u/which_visa_will_allow_me_to_start_a_company_in/); [launching business](https://www.reddit.com/r/askSingapore/comments/1ejq9y5/expats_launching_a_business_in_singapore/)).
+- Pets transit-loophole FAQ only (Loop H tick 5 already shipped core pet FAQPage).
+
+**Official**
+
+- [MOM — PEP eligibility](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/eligibility)
+- [EDB — Tech.Pass](https://www.edb.gov.sg/en/incentives-and-programmes/incentives-and-facilitation-programmes/tech-pass.html)
+- [IRAS — Tax on SRS withdrawals](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/tax-on-srs-withdrawals)
+- [IRAS — Income received from overseas](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/income-received-from-overseas) + [ESOP/ESOW e-Tax Guide](https://www.iras.gov.sg/docs/default-source/e-tax/etaxguides_iit_esop_2026-01-30.pdf)
+- [ACRA — Requirements for foreigners](https://www.acra.gov.sg/register/business/requirements-eligibility/)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–4 shipped EP floors/COMPASS overview, EP vs S Pass, CBNI, remittance, IR21/medical portability, EP-cancel STVP / DP LOC / PayNow / CPF, FWTES, job-change IPA, HISA (Multiplier/OCBC/UOB), ≥1-year tax residency, EP medical, salary/occupation notify, CC GX, COR, LOG. Remaining high-intent gaps matched this mine: **PEP one-shot + overseas apply**, **Tech.Pass vs PEP FAQ**, **IPA reassessment**, **COMPASS SAT≠guarantee / campus FAQ**, **SRS foreigner withholding**, **RSU no-local-entity FAQ**, **foreign-income remittance myths**, **COL helper all-in**, **ACRA/self-sponsor myths**, plus **pets transit-loophole** additive to Loop H’s FAQPage. EP renewal NOA / between-jobs STVP remain Next-owned.
+
+### Shipped this loop
+
+**Upgraded guides (FAQPage + depth)**
+
+- `content/guides/move/personalised-employment-pass-pep.mdx`
+- `content/guides/move/tech-pass-singapore.mdx`
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx` (IPA reassessment)
+- `content/guides/move/compass-framework-explained.mdx`
+- `content/guides/move/importing-pets-singapore.mdx` (transit-loophole FAQ additive only)
+- `content/guides/move/incorporate-company-foreigner-singapore.mdx`
+- `content/guides/money/srs-investing-as-foreigner.mdx` (24%/15% withholding table)
+- `content/guides/money/rsu-esop-tax-singapore.mdx`
+- `content/guides/money/foreign-income-and-tax.mdx`
+- `content/guides/money/cost-of-living-by-household.mdx` (helper all-in)
+- `src/lib/site.ts` (PEP/IPA + SRS/RSU/foreign-income topic hrefs)
+- `content/entities/services/intact-immigration.json` (IPA reassessment)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not re-own Loop H’s pets/wrong-PayNow AEO bodies beyond the transit-loophole FAQ.
+- Did not edit Family / Belong / Home / Life / Next heavily.
+
+### Questions mined (sample)
+
+1. Should I switch from EP to PEP when renewal looks easy?
+2. Can I apply for PEP from overseas before I have a Singapore job?
+3. What happens when my PEP expires after three years?
+4. Is Tech.Pass the same as PEP?
+5. What does IPA reassessment / postpone arrival mean?
+6. Does a green SAT screenshot guarantee EP approval?
+7. Does my university’s overseas campus count for 20 COMPASS points?
+8. Should an EP holder contribute to SRS in year one if they might leave?
+9. If I lose my job in December, can I still top up SRS safely?
+10. My US parent has no Singapore entity — how do I report RSU/ESOP gains?
+11. Is foreign income remitted into DBS taxable?
+12. Is S$12k/month enough for a family of four paying international school?
+13. Can I incorporate then hire myself on an EP?
+14. Can I avoid pet quarantine by flying via a low-risk country?
+
+---
+
+---
+
+---
+
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 6)
+
+Branch: `loop/next-polish-tick6` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (EP salary notify stays Move-owned; divorce custody stays Family-owned; Next cross-links only).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — spouse PR sponsorship / LTVP bridge ([SC/PR marry foreigner guide](https://www.reddit.com/r/askSingapore/comments/15ji6jz/guide_what_to_do_if_youre_a_sc_or_pr_that_wants/); [husband sponsorship rejected](https://www.reddit.com/r/askSingapore/comments/1g2npsc/husband_pr_by_local_sponsorship_rejected/); [convert foreigner spouse](https://www.reddit.com/r/askSingapore/comments/1pfkl1x/advice_for_route_to_convert_foreigner_spouse/); [reference letters](https://www.reddit.com/r/askSingapore/comments/1ebjj8i/is_it_good_to_have_reference_letter_for_pr/)).
+- r/askSingapore — aged parents PR vs LTVP ([new citizen bring parents](https://www.reddit.com/r/askSingapore/comments/1qbhxf4/how_much_would_a_new_citizen_need_to_earn_to/); [aged parent age folklore](https://www.reddit.com/r/askSingapore/comments/t7yrg6/looking_for_advice_my_mum_wants_me_citizen_to/); [sponsor mum citizenship](https://www.reddit.com/r/askSingapore/comments/1etf7j8/may_be_a_bit_of_a_dumb_question_but_can_i/); [mum SC rejection](https://www.reddit.com/r/askSingapore/comments/1qhyht7/i_dont_understand_why_my_mom_keeps_getting/)).
+- r/askSingapore — EP renewal NOA / salary mismatch ([MOM request NOA](https://www.reddit.com/r/askSingapore/comments/1slvkfe/do_mom_usually_request_noa_for_ep_renewal/); IR8A adjacency: [IR8E/IR8A](https://www.reddit.com/r/askSingapore/comments/1j9nr27/ir8e_document_from_previous_employer/)).
+
+**Official**
+
+- [ICA — Becoming a Permanent Resident](https://www.ica.gov.sg/reside/PR) (spouse + aged-parent rows; fees; Singpass)
+- [ICA — Becoming a Long-Term Visit Pass Holder](https://www.ica.gov.sg/reside/LTVP) (parent of SC/PR; in-laws excluded; fees)
+- [ICA — PR document checklist (PDF)](https://www.ica.gov.sg/docs/default-source/ica/ipses/pr-document-checklist.pdf)
+- [MOM — Renew an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass)
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes)
+- [IRAS — Notice of Assessment](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/notices-and-forms/notice-of-assessment)
+
+### Gaps vs prior ticks
+
+Tick 5 shipped child PR, NRIC name change, REP passport transfer. Remaining high-intent **Next** gaps matched this mine: **spouse-sponsored PR** (strategy page was row-thin), **aged-parent PR vs parent LTVP** (SC-only PR; PR children on LTVP; no published “aged” number), **EP renewal NOA / IR8A document asks** (Loop A deferred deep-dive to Next). About + editorial research language updated.
+
+### Shipped
+
+**New:** `pr-for-spouse-singapore.mdx`, `aged-parents-pr-ltvp-singapore.mdx`, `ep-renewal-noa-documents.mdx`
+
+**Upgraded:** `ep-renewal-strategy.mdx`, `pr-application-strategy.mdx`, `pr-for-child-newborn-singapore.mdx`, `after-getting-pr-checklist.mdx`, `renewing-life-admin-annually.mdx`; `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits (salary-notify guide stays Move; divorce stays Family).
+
+### Questions mined
+
+1. Does marrying an SC or PR automatically grant my spouse Singapore PR?
+2. Should we apply for spouse PR the week after ROM?
+3. Do I need MP / recommendation letters for a spouse-sponsored PR file?
+4. Is LTVP required before spouse PR, or optional bridging?
+5. Can a PR child sponsor an aged parent for PR?
+6. What age makes a parent “aged” on ICA’s PR page?
+7. Are parents-in-law eligible for the parent LTVP row?
+8. What fees does ICA publish for parent LTVP vs aged-parent PR?
+9. Why did MOM suddenly ask for my NOA on EP renewal?
+10. Is an IR8A the same document as a Notice of Assessment?
+11. What if my EP-declared salary does not match IRAS assessment?
+12. Does MOM always require NOA, or only case-by-case?
+
+
+---
+
+---
+
+---
+
+## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 2)
+
+Branch: `loop/e-journeys-tools-tick2` → PR to `main`. Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — rental stamp duty myths / agent “optional” folklore / who pays ([stamp duty necessary](https://www.reddit.com/r/askSingapore/comments/lsz072/is_rental_stamp_duty_necessary_and_why_would_a/); [agent hasn’t stamped](https://www.reddit.com/r/askSingapore/comments/1dntunl/moved_into_a_new_apartment_but_agent_hasnt_paid/); [property tax vs lease duty confusion](https://www.reddit.com/r/askSingapore/comments/1e2ydnt/paying_property_tax_as_a_foreign_renter_in/); [TA checklist](https://www.reddit.com/r/askSingapore/comments/zmcmh7/what_to_look_for_in_a_tenancy_agreement_when/)).
+- r/askSingapore — AEIS / mainstream school path for foreign kids ([local primary for foreign kids](https://www.reddit.com/r/askSingapore/comments/1houq07/local_primary_schools_for_foreign_kids/); [EP child subsidies](https://www.reddit.com/r/askSingapore/comments/13hduoz/do_any_educational_subsidies_or_grants_exists_for/); [intl → public transfer](https://www.reddit.com/r/askSingapore/comments/kg0mdd/whats_the_admission_process_for_a_transfer_from/)).
+- r/askSingapore — foreign licence 12-month conversion clock ([foreigner driving](https://www.reddit.com/r/askSingapore/comments/1bujpm1/foreigner_driving_in_singapore/); [EP licence conversion](https://www.reddit.com/r/askSingapore/comments/1q4987p/getting_a_singapore_drivers_licence_as_a/); [conversion timing](https://www.reddit.com/r/askSingapore/comments/18e48al/foreign_license_conversion/)).
+- r/askSingapore — IR21 withhold / STVP single-entry adjacency already covered in tick 1; tick 2 adds post-cancel **SFA / myTax** filing continuity heat.
+
+**Official**
+
+- [MOE — AEIS](https://www.moe.gov.sg/international-students/aeis) + [S-AEIS](https://www.moe.gov.sg/international-students/s-aeis) + [international students hub](https://www.moe.gov.sg/international-students) (2026 AEIS Jul apps / Sep tests; 2027 S-AEIS Jan apps).
+- [IRAS — Tax Season 2026](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/understanding-my-income-tax-filing/tax-season-2026---all-you-need-to-know) (1 Mar–18 Apr 2026) + [SFA for foreign individuals](https://www.iras.gov.sg/digital-services/others/singpass-foreign-user-account-(sfa)-for-foreign-individuals).
+- [IRAS — Renting a property / lease duty](https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property) (0.4% ≤4yr; 4× AAR >4yr; AAR ≤S$1,000 exempt; floor to nearest dollar).
+- [SPF — Singapore Driving Licence (foreigners)](https://www.police.gov.sg/Advisories/Traffic/Traffic-Matters/Singapore-Driving-Licence).
+
+### Gaps vs Loop E tick 1
+
+Tick 1 shipped leaving IR21/STVP timeline, day-30/90 depth, MOE holiday/P1/intl-school calendar, setup-cash tool, EP salary tables. Remaining high-intent journey/tool gaps: **AEIS/S-AEIS calendar windows**, **IRAS YA filing season on the calendar**, **dedicated lease-duty calculator** (stamp-duty-only searches), day-7 **SGWorkPass**, day-30 **12-month licence clock**, day-90 **tax-season + 14-day stamp**, leaving **SFA continuity**. Skipped pillar guide edits.
+
+### Shipped this tick
+
+**Calendar**
+
+- `content/calendar/aeis-2026.json`
+- `content/calendar/s-aeis-2027.json`
+- `content/calendar/iras-tax-filing-ya2026.json`
+- `src/app/calendar/page.tsx` (copy)
+
+**Tools**
+
+- `src/lib/tools/lease-duty.ts`
+- `src/components/tools/LeaseDutyCalculator.tsx`
+- `src/app/tools/lease-duty/page.tsx`
+- tools index + sitemap wiring
+
+**Journeys / checklists**
+
+- `content/journeys/checklists/day-7.json` (SGWorkPass)
+- `content/journeys/checklists/day-30.json` (licence clock, AEIS calendar cue; kept Loop H PayNow/pets items)
+- `content/journeys/checklists/day-90.json` (lease-duty + tax season)
+- `content/journeys/leaving-singapore.json` (SFA + lease-duty cross-link; shipping section retained)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did **not** edit pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. When do AEIS 2026 applications and tests run, and must we sit the test in Singapore?
+2. What is the S-AEIS 2027 window if we miss AEIS for January entry?
+3. How much IRAS lease stamp duty on a S$4,500 × 24-month condo TA?
+4. Is stamp duty optional if the agent says so, and who usually pays?
+5. What is the S$1,000 AAR exemption — does a room rental ever qualify?
+6. When is YA 2026 e-Filing open, and do first-year EP holders need to file?
+7. If my EP cancels before April, how do I reach myTax Portal without Singpass?
+8. When must I convert my foreign driving licence — from arrival or from first drive?
+9. After EPSC, how soon can I see my FIN / digital pass in SGWorkPass?
+10. Do I stamp the TA within 14 days if we signed in Singapore?
+11. Can MOE AEIS guarantee a school near my condo?
+12. Should lease duty be sketched separately from the full first-month cash tool?
+
+---
+
+## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 1)
+
+Branch: `loop/e-journeys-tools` → merged as `f4fd03f` (PR #31). Owns journeys / checklists / calendar / tools only.
+
+### Shipped (tick 1 — already on main)
+
+- Leaving IR21/STVP timeline depth (`leaving-singapore.json`)
+- Day-30 / day-90 checklist upgrades
+- MOE-accurate school holiday + P1 + international-school application calendar events
+- `/tools/setup-cash` first-month cash sketch
+- EP qualifying-salary regime tables / toggle
+
+### Explicitly not done (tick 1)
+
+- No pillar guide MDX edits; no ads; no Grok.
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 5)
+
+Branch: `loop/story-aeo-tick5` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 4’s HSA meds / foreign licence / household GST FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory, Family/Belong left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — pet import timelines / condo “pets OK” verbal traps (adjacency in relocation + Schedule III quarantine threads).
+- r/askSingapore — weekly wrong-PayNow / recycled prepaid number fails (adjacency after PayNow setup heat).
+- r/askSingapore — K-pod / vape on DP or Student’s Pass pass-risk panic (nightlife + enforcement threads).
+
+**Official**
+
+- [AVS — Importing dogs and cats](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/) + [general information / recognised pet agents](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/general-information/) (owner **or** AVS-recognised agent may file).
+- [MAS — E-Payments User Protection Guidelines](https://www.mas.gov.sg/regulation/guidelines/e-payments-user-protection-guidelines) (+ Dec 2024 PDF) erroneous-transfer process.
+- [gov.sg — Stop vaping / higher penalties](https://www.gov.sg/stopvaping-penalties/) (TVCA foreigner composition → revocation / etomidate).
+
+### Gaps vs ticks 1–4
+
+Ticks 1–4 shipped SIM→Singpass→bank, SGAC, healthcare/emergency, IPA/EPSC, SimplyGo, serviced apartment, Changi Grab/taxi, CBNI + PayNow setup, HSA meds, licence conversion, household GST. Remaining high-intent **family / money-fail / pass-risk** gaps: **pet import without FAQPage/direct lead** (body existed; owner-vs-agent under-weighted), **wrong PayNow recovery without FAQPage** (setup FAQ existed; failure mode thin), **vaping pass-risk without FAQPage** (pre-land packing + nightlife).
+
+### Shipped this loop
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/importing-pets-singapore.mdx` (direct lead + FAQPage; AVS owner/agent)
+- `content/guides/money/wrong-paynow-epayment-recovery.mdx` (direct lead + FAQPage)
+- `content/guides/life/vaping-tobacco-laws-foreigners.mdx` (direct lead + FAQPage)
+- `content/journeys/checklists/day-7.json` (no-vapes item)
+- `content/journeys/checklists/day-30.json` (optional pet import + PayNow recovery href)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Move pets / Money wrong-PayNow / Life vaping topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion (remittance sponsorSlot left as-is).
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change / Multiplier, Loop B Family/Belong, Loop C Home/HDB, Loop F services entities, or Loop G SEO shell.
+
+### Questions mined (sample)
+
+1. Can I bring my dog or cat into Singapore?
+2. How long is quarantine for pets arriving in Singapore?
+3. Do I need an AVS-recognised pet agent?
+4. When should I book Animal Quarantine Centre space?
+5. Can my condo reject my pet after I import it?
+6. I PayNow’d the wrong number — what do I do first?
+7. Will the bank guarantee same-day recovery?
+8. I received a wrong PayNow — should I send it back?
+9. When do I need a police report for a wrong PayNow?
+10. Are vapes illegal for tourists and EP holders?
+11. Can a vaping offence cancel my EP or DP?
+12. Can I bring a vape as “personal medication”?
+
+---
+
+## Loop B — Family + Belong (tick 6) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW deep hiring stays Home-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — birth location vs confinement cost ([foreign wife birth SG vs home](https://www.reddit.com/r/askSingapore/comments/1l1fe33/important_considerations_whether_to_have_my/)).
+- r/askSingapore — local-school / DP fee realism ([primary admission foreigners](https://www.reddit.com/r/askSingapore/comments/1azh44d/primary_school_admission/); [DP + government education](https://www.reddit.com/r/askSingapore/comments/1jfc9e5/dependent_pass_and_government_education/)).
+- Belong soft-landing beyond sport: InterNations / Toastmasters / board-game Meetup patterns (forum “make friends” threads + Meetup calendars).
+
+**Official**
+
+- [MOM — Confinement nanny WP key facts](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts) + [eligibility](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/eligibility) + [apply](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/apply-for-permit) (Malaysian-only; levy S$60 SC baby / S$300 non-SC; max 16 weeks from birth).
+- [MOE — AEIS](https://www.moe.gov.sg/international-students/aeis) (2026 apps closed; tests 1–3 Sep 2026) + [S-AEIS](https://www.moe.gov.sg/international-students/s-aeis) (2027 apps early Jan 2027).
+- [Toastmasters Club of Singapore](https://toastmasters.org.sg/) + [Meetup boardgames](https://www.meetup.com/singapore-international-boardgames-meetup/) + [InterNations Singapore](https://www.internations.org/singapore-expats).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–5 covered waitlists/SEN/camps/clubs/LGBTQ/dual-career, newborn/Baby Bonus/leave/marriage/vaccines/mental-health, IVF/maternity/divorce/hobby-sports, school-bus/Mandarin/infant-care/paediatric/chambers/faith/AAS. Remaining heat: **confinement nanny WP + foreign-baby levy**, **AEIS 2026 live calendar + DSA conditional offers**, **indoor belonging rails** (board games / Toastmasters / InterNations ROI) for non-sport personalities.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/confinement-nanny-postpartum-singapore.mdx`
+- `content/guides/belong/indoor-hobby-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/aeis-saeis-international-students.mdx` (2026/2027 calendar + DSA-Sec conditional note)
+- `content/guides/family/maternity-care-singapore.mdx` + `newborn-pass-birth-registration-singapore.mdx` (confinement cross-links)
+- `content/guides/belong/find-my-people-singapore.mdx` + `hobby-sports-communities-singapore.mdx` (indoor hobby cross-links)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (full MDW hiring left Home-owned).
+
+### Questions mined (sample)
+
+1. Should we hire a confinement nanny in Singapore or fly grandparents in?
+2. Is the MOM confinement Work Permit only for Malaysians — and how long does it last?
+3. Why is the confinement levy S$300 for our foreign baby but S$60 for SC friends?
+4. Can an agency skip the security bond story for a 28-day nanny?
+5. Did we already miss 2026 AEIS — what does S-AEIS 2027 actually buy us?
+6. If DSA-Sec shortlists our international-school kid, do we still need AEIS?
+7. How do introverts make friends without pickleball humidity?
+8. Are InterNations mixers worth annual dues after week two?
+9. Is Toastmasters a belonging rail or just career theatre?
+10. Which board-game Meetup actually seats newcomers instead of closed friend tables?
 
 ---
 
@@ -104,6 +438,8 @@ Tick 1 shipped tax / dental / notary / self-storage / pet-relocation + schema/UI
 12. Why did MDW medical insurance triple after my helper turned 50?
 13. Can a rental agent collect commission from both landlord and tenant?
 14. Landlord’s agent wants me (tenant) to pay their fee — is that legal?
+
+---
 
 ---
 
@@ -181,6 +517,80 @@ Tick 21 shipped HDB mid-lease sale, bedroom continuous-occupation / partitions, 
 
 ---
 
+
+## Loop B — Family + Belong (tick 7) — 2026-09-15
+
+Branch: `loop/family-belong-tick7` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned; Tuition Grant bond stays Move-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — kids allergy / EpiPen continuity ([polyclinic nut allergy](https://www.reddit.com/r/askSingapore/comments/1n6ayva/polyclinic_for_nut_allergy_or_do_we_have_to_go_to/); [paediatric allergist](https://www.reddit.com/r/askSingapore/comments/1uij2re/looking_for_best_paediatric_allergist_in/); [prescription drugs / EpiPen](https://www.reddit.com/r/askSingapore/comments/1cr7j1l/prescription_drugs/)).
+- r/askSingapore — private ST/OT cash realism ([speech therapy S$200++](https://www.reddit.com/r/askSingapore/comments/1s14acu/speech_therapy_for_kids_in_singapore_is_200_per/); [moving with special needs](https://www.reddit.com/r/askSingapore/comments/1svtc96/moving_to_singapore_with_a_child_with_special/)).
+- r/askSingapore — secondary IB / A-Level / transfer myths ([local vs IB](https://www.reddit.com/r/askSingapore/comments/1h15iwd/local_schools_vs_ib_schools/); [Cambridge A-Level after IGCSE](https://www.reddit.com/r/askSingapore/comments/1l9jedc/anyone_recommend_any_schools_in_singapore_that/); [IS → public transfer](https://www.reddit.com/r/askSingapore/comments/kg0mdd/whats_the_admission_process_for_a_transfer_from/)).
+- r/askSingapore — Belong music/arts rails ([musical communities](https://www.reddit.com/r/askSingapore/comments/1r53h7g/musical_communities_to_join_to_make_friends/); [join bands / orchestra](https://www.reddit.com/r/askSingapore/comments/17zkwjp/how_can_i_join_bands_in_singapore/); [classical community](https://www.reddit.com/r/askSingapore/comments/18qkpsq/classical_music_looking_for_a_community/); [Sing Song Social Club](https://www.reddit.com/r/askSingapore/comments/1kcquiw/anyone_attended_the_sing_song_social_club/)).
+
+**Official**
+
+- [KKH — Allergy](https://www.kkh.com.sg/our-specialties/allergy) + [HealthHub EpiPen](https://www.healthhub.sg/medication-devices-and-treatment/medications/adrenaline-auto-injector-epipen-and-epipen-jr) + [NDF EpiPen](https://www.ndf.gov.sg/about-drugs/product-information/sin13288p/) + [MOH EpiPen subsidy note](https://www.moh.gov.sg/newsroom/increase-in-number-of-reported-incidents-of-food-related-anaphylaxis-in-children-and-assistance-for-those-from-low-income-families/).
+- [MOE — Studying in Singapore](https://www.moe.gov.sg/international-students/studying-in-singapore) + [international admissions](https://www.moe.gov.sg/international-students) + [post-secondary admissions](https://www.moe.gov.sg/post-secondary/admissions).
+- [BHSO join](https://bhso.org/join-our-family/) + [OMM join](https://www.orchestra.sg/join) + [SSO](https://www.sso.org.sg/) / [Esplanade](https://www.esplanade.com/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–6 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-career, newborn/leave/vaccines, IVF/maternity/divorce/PPO, Reclub/parkrun, school-bus/Mandarin/preschool/chambers/faith, confinement-nanny WP/levy, indoor hobby belonging, AEIS 2026. Remaining Family/Belong heat: **allergy/EpiPen continuity + local Rx**, **private ST/OT cash wall** (deepen), **IB vs A-Level / IGCSE≠JC myth**, **music/arts belonging** beyond board games/Toastmasters.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/kids-allergy-epipen-singapore.mdx`
+- `content/guides/family/secondary-ib-alevel-pathways-singapore.mdx`
+- `content/guides/belong/music-arts-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/special-needs-support.mdx` (ST/OT cash band)
+- `content/guides/family/finding-pediatrician-singapore.mdx`
+- `content/guides/family/international-schools-landscape.mdx`
+- `content/guides/family/kids-activities-holiday-camps.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/indoor-hobby-communities-singapore.mdx`
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth (schools / clubs)**
+
+- `content/entities/schools/tanglin-trust-school.json`
+- `content/entities/schools/acs-international.json`
+- `content/entities/schools/uwcsea-dover.json`
+- `content/entities/schools/dulwich-college-singapore.json`
+- `content/entities/clubs/british-association.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (no MDW fork; no ActiveSG facilities rewrite; TG bond stays Move).
+
+### Questions mined (sample)
+
+1. Will a polyclinic accept my overseas nut-allergy report and refill an EpiPen?
+2. Do foreign prescriptions work for adrenaline auto-injectors in Singapore?
+3. Will my preschool accept a US/UK allergy action plan PDF alone?
+4. Are portable EpiPens subsidised for EP/DP kids the way hospital epinephrine can be?
+5. Is private kids’ speech therapy really S$200+/session for foreigners?
+6. Can my foreign child use EIPIC while waiting for private ST/OT?
+7. Does finishing IGCSE overseas let my teen walk into a local JC for A-Levels?
+8. Should a mobile family choose IB DP or A-Level if the next posting is unknown?
+9. Can we transfer mid-DP from one international school to another without losing a year?
+10. Is Dulwich an A-Level school or an IB DP exit?
+11. Where do singers find friends if Reclub and board games are not the rail?
+12. Can expats audition for Braddell Heights Symphony Orchestra by video?
+13. Are OMM auditions open year-round or by instrument intake windows?
+14. Are open mics actually good for making musician friends, or just stage time?
+
+---
 
 ## Loop B — Family + Belong (tick 6) — 2026-09-15
 

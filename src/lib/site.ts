@@ -177,6 +177,16 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
       },
       {
+        label: "EP rejection, appeal & IPA reassessment",
+        href: "/guides/ep-rejection-appeal-ipa-issuance",
+        blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
+      },
+      {
+        label: "PEP & Tech.Pass flexibility",
+        href: "/guides/personalised-employment-pass-pep",
+        blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
+      },
+      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -293,12 +303,22 @@ export const pillars: Pillar[] = [
       {
         label: "Cost of living",
         href: "/guides/cost-of-living-by-household",
-        blurb: "Realistic budgets for singles, couples, and families.",
+        blurb: "Family budgets, helper all-in, school+rent stacking.",
       },
       {
         label: "SRS & investing",
         href: "/guides/srs-investing-as-foreigner",
-        blurb: "What foreigners can and cannot do with local wrappers.",
+        blurb: "Exit withholding, 5% early penalty, foreigner lump-sum rules.",
+      },
+      {
+        label: "RSU / ESOP tax",
+        href: "/guides/rsu-esop-tax-singapore",
+        blurb: "Vest vs exercise, no-local-entity filing, deemed exercise.",
+      },
+      {
+        label: "Foreign income myths",
+        href: "/guides/foreign-income-and-tax",
+        blurb: "Remittance ≠ source; DP remote work still SG-sourced.",
       },
       {
         label: "Salary package decoding",
@@ -328,6 +348,11 @@ export const pillars: Pillar[] = [
         blurb: "International, local, and hybrid options compared.",
       },
       {
+        label: "IB vs A-Level pathways",
+        href: "/guides/secondary-ib-alevel-pathways-singapore",
+        blurb: "Exam thesis for mobile teens — not brochure tours.",
+      },
+      {
         label: "Preschool & childcare",
         href: "/guides/preschool-childcare-singapore",
         blurb: "Infant care through kindergarten — fees and timing.",
@@ -338,9 +363,9 @@ export const pillars: Pillar[] = [
         blurb: "When to apply, what “full” usually means.",
       },
       {
-        label: "Healthcare for families",
-        href: "/guides/healthcare-gp-hospital",
-        blurb: "GP, hospitals, maternity, and mental health.",
+        label: "Kids allergy & EpiPen",
+        href: "/guides/kids-allergy-epipen-singapore",
+        blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
         label: "Kids activities & calendar",
@@ -350,7 +375,7 @@ export const pillars: Pillar[] = [
       {
         label: "Special needs",
         href: "/guides/special-needs-support",
-        blurb: "Assessment, support, and school placement paths.",
+        blurb: "EIPIC wall, private ST/OT cash, school placement paths.",
       },
     ],
     related: [
@@ -437,6 +462,16 @@ export const pillars: Pillar[] = [
         blurb: "American, Tanglin, British, Hollandse, Swiss, and peers.",
       },
       {
+        label: "Indoor hobbies",
+        href: "/guides/indoor-hobby-communities-singapore",
+        blurb: "Board games, Toastmasters, language exchanges.",
+      },
+      {
+        label: "Music & arts communities",
+        href: "/guides/music-arts-communities-singapore",
+        blurb: "Choirs, volunteer orchestras, jams, and concert rails.",
+      },
+      {
         label: "Associations & chambers",
         href: "/guides/anza-awa-associations",
         blurb: "ANZA, AWA, business chambers, and professional groups.",
@@ -481,12 +516,22 @@ export const pillars: Pillar[] = [
       {
         label: "EP renewals",
         href: "/guides/ep-renewal-strategy",
-        blurb: "Timing, COMPASS again, and employer choreography.",
+        blurb: "Timing, COMPASS, age bands — plus NOA document asks.",
       },
       {
         label: "PR strategy",
         href: "/guides/pr-application-strategy",
         blurb: "Eligibility signals, timelines, and realistic odds.",
+      },
+      {
+        label: "Spouse & parent PR",
+        href: "/guides/pr-for-spouse-singapore",
+        blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
+      },
+      {
+        label: "EP renewal docs",
+        href: "/guides/ep-renewal-noa-documents",
+        blurb: "When MOM asks for NOA — reconcile salary with IRAS.",
       },
       {
         label: "Citizenship & NS",
