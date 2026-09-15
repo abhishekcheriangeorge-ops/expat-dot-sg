@@ -36,6 +36,14 @@
       "href": "/journeys/between-jobs"
     },
     {
+      "id": "family-joining-awareness",
+      "title": "If family joins later — open the family-joining playbook",
+      "detail": "Spouse or kids on a later Dependant Pass need their own IPA clock, Arrival Card, Singpass/bank week, and school seat plan. Sketch the IPA enter-and-issue window before you buy non-refundable tickets.",
+      "pillar": "family",
+      "optional": true,
+      "href": "/journeys/family-joining"
+    },
+    {
       "id": "emergency-pack",
       "title": "Save emergency and embassy contacts",
       "detail": "995 (ambulance/fire), 999 (police), your embassy/high commission, and building security. Share with household members.",

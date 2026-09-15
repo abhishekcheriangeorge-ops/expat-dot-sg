@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "new-year-2027",
+  "title": "New Year’s Day 2027",
+  "summary": "Fri 1 Jan 2027 — public holiday and the day MOM’s higher EP qualifying salaries apply to new applications. Pair with /tools/ep-threshold and the EP salary uplift calendar card.",
+  "date": "2027-01-01",
+  "recurring": false,
+  "venue": "Island-wide",
+  "audience": ["everyone"],
+  "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+  "featured": true
+}

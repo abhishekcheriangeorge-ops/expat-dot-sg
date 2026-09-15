@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "hari-raya-haji-2026",
+  "title": "Hari Raya Haji public holiday",
+  "summary": "Wed 27 May 2026 is Hari Raya Haji (Aidiladha) — a Singapore public holiday confirmed via the 2026 gazette / MUIS calendar. It sits just before Vesak weekend and MOE June holidays; plan leave stacking and open-house visits early.",
+  "date": "2026-05-27",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["everyone", "families", "culture"],
+  "href": "https://www.mom.gov.sg/employment-practices/public-holidays",
+  "featured": false
+}

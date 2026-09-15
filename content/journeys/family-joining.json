@@ -1,0 +1,78 @@
+{
+  "type": "playbook",
+  "slug": "family-joining",
+  "title": "Family joining later",
+  "summary": "You landed first on an EP \u2014 spouse and kids follow weeks or months later. Sequence Dependant Pass IPAs, Arrival Cards, school seats, and day-one Singpass/bank steps so the join-up week is not improvised.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "apply-timing",
+      "title": "Apply for each Dependant Pass on its own clock",
+      "body": "MOM lets employers apply for Dependant Passes with the main EP or later. Each family member is a separate application. Bring them in only after approval \u2014 MOM will not extend a short-term visit pass that expires before DP issuance. Babies born here get a short ICA Special Pass window to file.",
+      "bullets": [
+        "Submit one DP application per spouse / child \u2014 do not batch names on one form",
+        "Most EP/S Pass dependant outcomes: within about 3 weeks; PEP/EntrePass lines can take longer",
+        "Fees: application + issuance (plus Multiple Journey Visa if required) \u2014 confirm live MOM schedule",
+        "Align IPA validity with their flight, not only your own arrival story"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/dependants-pass/apply-for-a-pass"
+    },
+    {
+      "id": "ipa-window",
+      "title": "Watch the IPA enter-and-issue window",
+      "body": "An EP IPA is a pre-approved single-entry permission: the candidate generally has six months to enter Singapore and get the pass issued. Dependant IPAs follow the same issuance discipline once approved. Sketch the deadline with the IPA window tool before you book non-refundable flights.",
+      "bullets": [
+        "Print / save both employer and pass-holder IPA copies",
+        "Issue the pass in EP eService after they land (medical if the IPA requires it)",
+        "Notification letter after issuance is typically valid for one month while the card prints",
+        "Need more time? Employer can request IPA extension \u22652 weeks before expiry"
+      ],
+      "href": "/tools/ipa-window"
+    },
+    {
+      "id": "arrival-week",
+      "title": "Join-up week: Arrival Card, SIM, Singpass, bank",
+      "body": "Each dependant still needs their own SG Arrival Card inside the three-day window. A Singapore mobile number unlocks Singpass SMS 2FA; the physical DP / FIN makes bank KYC far less painful. Do not assume your EP card in your wallet clears their onboarding.",
+      "bullets": [
+        "Each traveller submits SG Arrival Card within three days before landing",
+        "Prepaid +65 SIM on passport at Changi if postpaid still wants a pass card",
+        "Register Singpass once FIN is live \u2014 Face Verify when offered",
+        "Bank pack: passport, DP/IPA, proof of address (tenancy or employer letter)"
+      ],
+      "href": "/journeys/arriving/day-7"
+    },
+    {
+      "id": "housing-space",
+      "title": "Housing and address proof before they fly",
+      "body": "A spare bedroom or a serviced week beats a last-minute Airbnb scramble. Banks and schools want a Singapore address that matches the application. If the lease is only in your name, bring relationship proof for joint account or kids\u2019 school forms.",
+      "bullets": [
+        "Confirm pet / guest / occupancy clauses if the condo is picky",
+        "Hold a week of serviced apartment as buffer if renovation or check-in slips",
+        "Update MOM / ICA contact address once they have a stable bed"
+      ],
+      "href": "/tools/setup-cash"
+    },
+    {
+      "id": "schools",
+      "title": "School seats move on MOE and IS clocks",
+      "body": "Valid DP holders can study full-time without a separate Student\u2019s Pass, but seats and fees do not wait for your family flight. International-school waitlists and AEIS/S-AEIS windows are calendar problems \u2014 see /calendar. Government-school international-student fees apply even when you pay Singapore tax.",
+      "bullets": [
+        "Hold offers with written start dates that survive DP IPA delays",
+        "AEIS tests are only held in Singapore \u2014 plan who sits them and when",
+        "Collect vaccination and prior-school transcripts before the suitcase closes"
+      ],
+      "href": "/calendar"
+    },
+    {
+      "id": "handoff",
+      "title": "Hand off to arriving day-7 / day-30 lists",
+      "body": "Once they clear immigration, stop inventing a parallel checklist. Reuse the arriving boards for SIM, SGWorkPass (main pass), GP, and PayNow \u2014 then return here only for DP-specific renewals and LOC questions.",
+      "bullets": [
+        "Open /journeys/arriving/day-7 after hotel Wi-Fi works",
+        "Calendar DP / main EP expiry together \u2014 they often move as a set",
+        "If the main EP ever cancels, dependants fall with it \u2014 see /journeys/between-jobs"
+      ],
+      "href": "/journeys/arriving"
+    }
+  ]
+}
