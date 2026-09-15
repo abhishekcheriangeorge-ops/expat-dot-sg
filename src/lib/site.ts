@@ -202,6 +202,26 @@ export const pillars: Pillar[] = [
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
       },
       {
+        label: "Changing jobs on EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
+      },
+      {
+        label: "Student’s Pass work limits",
+        href: "/guides/student-pass-singapore",
+        blurb: "Vacation work exemption ≠ open labour market; LOE ≠ EP.",
+      },
+      {
+        label: "LTVP for partners & parents",
+        href: "/guides/ltvp-singapore",
+        blurb: "Not a DP; parent salary lane; work rights depend on product.",
+      },
+      {
+        label: "ONE Pass",
+        href: "/guides/one-pass-singapore",
+        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
+      },
+      {
         label: "S Pass vs EP",
         href: "/guides/ep-vs-s-pass-comparison",
         blurb: "No EP quota myth, levy/DRC, Sep 2025 S Pass floors.",
@@ -346,9 +366,19 @@ export const pillars: Pillar[] = [
         blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
       },
       {
-        label: "Insurance landscape",
+        label: "Remittances & FX",
+        href: "/guides/remittances-singapore",
+        blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
+      },
+      {
+        label: "Health insurance & LOG",
         href: "/guides/health-insurance-expat",
-        blurb: "Health, life, and what employers usually cover.",
+        blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
+      },
+      {
+        label: "CPF withdrawal when leaving",
+        href: "/guides/cpf-withdrawal-leaving-singapore",
+        blurb: "EP had no CPF; PR cash-out only after status ends.",
       },
       {
         label: "Cost of living",
@@ -634,21 +664,6 @@ export const pillars: Pillar[] = [
         blurb: "Ask for up to 90 days stay — not work rights — after EP cancel.",
       },
       {
-        label: "STVP vs Special Pass myths",
-        href: "/guides/stvp-after-ep-cancel-special-pass-myths-singapore",
-        blurb: "EP cancel → STVP; Work Permit Special Pass is a different rail.",
-      },
-      {
-        label: "ORAL foreign renunciation proof",
-        href: "/guides/oral-foreign-renunciation-proof-before-22-singapore",
-        blurb: "Home-country certificate + mission pack before the 22nd birthday.",
-      },
-      {
-        label: "Aged-parent LTVP renewal",
-        href: "/guides/aged-parent-ltvp-renewal-sponsor-change-singapore",
-        blurb: "Renew ≥3 months early; notify ICA if the sponsor withdraws.",
-      },
-      {
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
@@ -669,19 +684,19 @@ export const pillars: Pillar[] = [
         blurb: "New passport ≠ auto REP — ICA transfer before you fly.",
       },
       {
-        label: "PR name change — passport first",
-        href: "/guides/pr-name-change-passport-first-singapore",
-        blurb: "Foreign passport bio-page before ICA blue IC particulars.",
+        label: "NRIC re-reg overseas return",
+        href: "/guides/nric-reregistration-overseas-return-singapore",
+        blurb: "One year after return; collect in Singapore — not at missions.",
       },
       {
-        label: "Lost NRIC overseas return",
-        href: "/guides/lost-nric-overseas-return-singapore",
-        blurb: "Report on ICA e-Service; missions cannot replace the card.",
+        label: "Citizenship confirmation letter",
+        href: "/guides/confirmation-citizenship-letter-foreign-authority-singapore",
+        blurb: "S$20 digital letter — no stamp/QR; ask foreign desks first.",
       },
       {
-        label: "Graduate LTVP IHL / renewal",
-        href: "/guides/graduate-ltvp-ihl-renewal-edges-singapore",
-        blurb: "IHL list gate, ~6-week clock, renewal with no leftover carry.",
+        label: "FWA → TAFEP escalation",
+        href: "/guides/fwa-request-tafep-escalation-ep-singapore",
+        blurb: "Formal request + 2-month reply → grievance → TAFEP.",
       },
       {
         label: "After getting PR",

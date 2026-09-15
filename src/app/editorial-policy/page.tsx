@@ -65,9 +65,9 @@ export default function EditorialPolicyPage() {
             PLOC / LOC work rights, student PR national-exam row, EP job-loss
             → spouse LTVP bridges, Right of Entry for under-21 dual-passport
             SCs, citizenship confirmation letters, EP renewal NOA / document
-            asks, Re-Entry Permit rules and passport transfers, ORAL foreign
-            renunciation proof before 22, aged-parent LTVP renewal / sponsor
-            change, STVP vs Special Pass myths after EP cancel, citizenship
+            asks, Re-Entry Permit rules and passport transfers, NRIC
+            re-registration overseas return, confirmation letter for foreign
+            authorities, FWA → TAFEP escalation for EP / S Pass, citizenship
             application and ORAL, adult SC renunciation, NRIC loss /
             address / re-registration / name change, NS, exits). When agencies
             publish dated

@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 19)
+
+Branch: `cursor/loop-d-next-polish-tick19-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — turn-30 IC while overseas; consulate collection folklore.
+- r/askSingapore — foreign uni rejects “unsigned” citizenship PDF; wants stamps.
+- r/askSingapore — HR ghosts FWA email; EP holders unsure about TAFEP.
+
+**Official**
+
+- [ICA — Re-Register IC 30/55](https://www.ica.gov.sg/documents/ic/re-registration) · [National Registration Regulations](https://sso.agc.gov.sg/SL/NRA1965-RG2) · [Collect IC](https://www.ica.gov.sg/documents/ic/collect)
+- [ICA — Confirmation of SC status](https://www.ica.gov.sg/reside/citizenship/confirmation) · [FormSG](https://go.gov.sg/confirmationofsc)
+- [MOM — TG-FWAR](https://www.mom.gov.sg/employment-practices/good-work-practices/flexible-work-arrangements) · [TAFEP — requesting FWAs](https://www.tal.sg/tafep/employment-practices/work-life-harmony/guide-to-requesting-and-using-flexible-work-arrangements-for-employees)
+
+### Gaps vs open stack
+
+Open #83→#151 cover NS Exit / PRSEP; EP-death DP / SC cooling-off / LPA; WICA / training-bond / e-Apostille; CPF / REP ETD / COMPASS; IR21 RSU / lost-pass overseas / salary-cut DP; ship-out / PR appeal / EP FWTES; probate / EP passport / FDW; PR passport-first / lost NRIC overseas / graduate LTVP; ORAL renunciation proof / aged-parent LTVP renewal / STVP myths. Remaining high-intent **Next** gaps: **NRIC re-reg overseas return**, **confirmation letter foreign-authority edges**, **FWA → TAFEP escalation**.
+
+### Shipped
+
+**New:** `nric-reregistration-overseas-return-singapore.mdx`, `confirmation-citizenship-letter-foreign-authority-singapore.mdx`, `fwa-request-tafep-escalation-ep-singapore.mdx`
+
+**Upgraded:** `nric-reregistration-30-55-singapore.mdx`, `confirmation-singapore-citizenship-status.mdx`, `flexible-work-arrangement-request.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #83 / #89 / #99 / #114 / #123 / #130 / #138 / #146 / #151 guide bodies.
+- Did not edit ecoa / lost-NRIC companions / ORAL parents from prior open ticks.
+
+### Questions mined
+
+1. Can I collect my age-30 IC at a Singapore mission?
+2. How long after returning must I re-register?
+3. Can I apply early if I will be abroad for the whole window?
+4. Will ICA stamp the citizenship confirmation letter for my foreign uni?
+5. Is FormSG the only confirmation channel now?
+6. What if the foreign desk rejects the unsigned PDF?
+7. Can under-16s apply for confirmation themselves?
+8. HR ignored my FWA email — is that a formal TG-FWAR request?
+9. When do I escalate FWA process failures to TAFEP?
+10. Does TAFEP force Bali WFH on EP?
+11. Is FWA escalation the same as workplace harassment reporting?
+12. What written artefacts should I keep before contacting TAFEP?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 18)
 
 Branch: `cursor/loop-d-next-polish-tick18-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146).

@@ -85,11 +85,11 @@ export default function AboutPage() {
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
               EP job-loss → spouse LTVP bridges, Right of Entry for under-21
               dual-passport SCs, citizenship confirmation letters,
-              REP passport transfers, ORAL foreign renunciation proof,
-              aged-parent LTVP renewal / sponsor change, STVP vs Special
-              Pass myths after EP cancel, EP renewal NOA asks, pass
-              cancellations) are checked against live ICA / MOM / MHA text
-              before we ship.
+              REP passport transfers, NRIC re-registration overseas
+              return, confirmation letter for foreign authorities,
+              FWA → TAFEP escalation for EP / S Pass, EP renewal NOA
+              asks, pass cancellations) are checked against live ICA /
+              MOM / MHA text before we ship.
             </li>
             <li>
               Directories for neighbourhoods, schools, clubs, and services —
