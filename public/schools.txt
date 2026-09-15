@@ -1,0 +1,18 @@
+# Schools discovery map — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/schools
+
+## Notes
+- School entity collection for international / local / special pathways.
+- Prefer sitemap.xml + /schools for crawl discovery.
+- Collection ItemList helpers live in seo-collections.ts (prior tip).
+
+## Related
+- https://expat.sg/guides.txt
+- https://expat.sg/neighbourhoods.txt
+- https://expat.sg/directory.txt
+- https://expat.sg/sitemap.xml

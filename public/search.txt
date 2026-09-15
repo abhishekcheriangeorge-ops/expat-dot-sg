@@ -1,0 +1,22 @@
+# Search discovery — expat.sg
+# Companion to opensearch.xml / guides.txt.
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Entry points
+- https://expat.sg/guides
+- https://expat.sg/tools
+- https://expat.sg/directory
+- https://expat.sg/opensearch.xml
+
+## Notes
+- No dedicated /search route yet — guides hub is the primary query surface.
+- WebSite SearchAction helper lives in seo-search.ts (app shell).
+- OpenSearch description: /opensearch.xml
+
+## Related
+- https://expat.sg/guides.txt
+- https://expat.sg/browse.txt
+- https://expat.sg/feeds.txt
+- https://expat.sg/sitemap.xml

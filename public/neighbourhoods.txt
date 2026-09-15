@@ -1,0 +1,18 @@
+# Neighbourhoods discovery map — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/neighbourhoods
+
+## Notes
+- Neighbourhood entity collection for housing / commute / school-proximity reads.
+- Prefer sitemap.xml + /neighbourhoods for crawl discovery.
+
+## Related
+- https://expat.sg/schools.txt
+- https://expat.sg/clubs.txt
+- https://expat.sg/directory.txt
+- https://expat.sg/map.txt
+- https://expat.sg/sitemap.xml

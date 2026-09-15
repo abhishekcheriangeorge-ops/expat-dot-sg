@@ -1,0 +1,21 @@
+# Guides discovery map — expat.sg
+# Companion to search.txt / schools.txt / feeds.txt / browse.txt.
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/guides
+
+## Notes
+- Editorial guides for Singapore expat life (move, home, money, family, life, belong, next).
+- Prefer sitemap.xml + /guides for machine discovery.
+- FAQPage / speakable helpers live in seo-faq.ts (app shell).
+
+## Related
+- https://expat.sg/search.txt
+- https://expat.sg/opensearch.xml
+- https://expat.sg/schools.txt
+- https://expat.sg/neighbourhoods.txt
+- https://expat.sg/clubs.txt
+- https://expat.sg/sitemap.xml
