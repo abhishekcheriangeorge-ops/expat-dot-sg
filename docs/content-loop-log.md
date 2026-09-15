@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 39)
+
+Branch: `loop/story-aeo-tick39` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#229 H20–H38). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — private uni friend got graduate LTVP / can I renew leftover months.
+- r/askSingapore — HR ghosted my WFH email / can TAFEP force Bali remote.
+- r/askSingapore — new passport, old EP file failed at automated gate.
+
+**Official**
+
+- [ICA — Graduate from an IHL seeking employment (LTVP)](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore) + [IHL list](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore/list_ihl).
+- [MOM — Tripartite Guidelines on Flexible Work Arrangement Requests](https://www.mom.gov.sg/employment-practices/good-work-practices/flexible-work-arrangements) + [TAFEP FWA employee guide](https://www.tal.sg/tafep/employment-practices/work-life-harmony/guide-to-requesting-and-using-flexible-work-arrangements-for-employees).
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) + EP eService / SGWorkPass.
+
+### Gaps vs open H + ticks 1–38
+
+Open: #117–#229 H20–H38. Remaining free Next FAQ-free companions included **graduate LTVP IHL / renewal edges**, **FWA request → TAFEP escalation**, **EP passport update before travel**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/graduate-ltvp-ihl-renewal-edges-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/fwa-request-tafep-escalation-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-passport-update-before-travel-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (graduate LTVP IHL edges + FWA→TAFEP + EP passport-before-travel topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#229 guide bodies.
+
+### Questions mined (sample)
+
+1. Does every private university graduate qualify for ICA graduate LTVP?
+2. How long does ICA take to process a graduate-seeking-employment LTVP?
+3. Can I work while holding a graduate LTVP?
+4. Do unused days on my graduate LTVP carry into a renewal?
+5. Is graduate LTVP the same as spouse/child LTVP with PLOC?
+6. Does TG-FWAR force my EP employer to approve WFH?
+7. How long does my employer have to reply to a formal FWA request?
+8. What should I do before contacting TAFEP about an FWA refusal?
+9. Can TAFEP make my employer let me work from overseas on an EP?
+10. Is an FWA escalation the same as a workplace harassment report?
+11. I renewed my foreign passport — do I need to update MOM before flying on an EP?
+12. What is the usual sequence after getting a new passport on an EP?
+13. Is updating an EP passport the same as transferring a PR REP?
+14. Is a passport update the same as notifying MOM of a new address?
+15. Can I wait until Changi to fix a mismatched passport number on my EP file?
+
+---
+
 ## Loop B — Family + Belong (tick 17) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick17-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Life / Next body trees beyond a light Home cross-link on MDW hiring. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), and #129 (exam-week coverage/IS PTA/teen driving).

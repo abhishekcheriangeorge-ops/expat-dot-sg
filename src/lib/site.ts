@@ -640,6 +640,16 @@ export const pillars: Pillar[] = [
         blurb: "New employer files fresh pass — resign only after IPA.",
       },
       {
+        label: "FWA refused → TAFEP escalation",
+        href: "/guides/fwa-request-tafep-escalation-ep-singapore",
+        blurb: "Formal request + 2-month reply → grievance → TAFEP process help.",
+      },
+      {
+        label: "EP passport update before travel",
+        href: "/guides/ep-passport-update-before-travel-singapore",
+        blurb: "New passport → MOM eService particulars → SGWorkPass, then fly.",
+      },
+      {
         label: "Stay vs exit horizon",
         href: "/guides/long-term-stay-vs-exit",
         blurb: "Annual stay/leave review before school deposits and renewal.",
@@ -648,6 +658,11 @@ export const pillars: Pillar[] = [
         label: "Between jobs — STVP",
         href: "/guides/between-jobs-stvp-singapore",
         blurb: "Ask for up to 90 days stay — not work rights — after EP cancel.",
+      },
+      {
+        label: "Graduate LTVP IHL / renewal edges",
+        href: "/guides/graduate-ltvp-ihl-renewal-edges-singapore",
+        blurb: "IHL list gate, ~6-week clock, no leftover-day carry on renew.",
       },
       {
         label: "Leaving Singapore",
