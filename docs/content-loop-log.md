@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 20)
+
+Branch: `cursor/e-journeys-tools-tick20-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#201 / Loop D24 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#203** (E19): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**). Prefer merge order note: **#173 → #186 → #196 → #203 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- International-school parent threads — lockers / cubbies / lost-property still holding kit after last attendance; padlock cut fees delaying clearance.
+- Pet-export threads — AVS titres + airline crate fees + destination quarantine kennel cash colliding with movers week.
+
+**Official / orientation**
+
+- School locker / facilities handbooks (school-specific)
+- [NParks / AVS — exporting animals](https://www.nparks.gov.sg/avs) · destination competent-authority quarantine schedules
+
+### Gaps vs open E stack through #203
+
+Open **#173** mail forward + HDB reno. Open **#186** helper handoff + club deposit. Open **#196** school bus/CCA + driving insurance. Open **#203** condo visitor QR + school device bond. Remaining high-intent gaps **off those path sets**: **school locker / cubby clear**, **pet quarantine cash float**. No calendar JSON. Distinct from existing `/journeys/pets-reexport` (process) — this tick owns cash float only. Distinct from school-bus-cca (routes/kits) — this tick owns locker/cubby clear-out.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/school-locker-clear.json` + `/journeys/school-locker-clear`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/pet-quarantine-float.ts`
+- `src/components/tools/PetQuarantineFloatCalculator.tsx`
+- `/tools/pet-quarantine-float` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #173 / #186 / #196 / #203 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. When should lockers be cleared relative to the last attendance day?
+2. What does a padlock cut cost if the combination is lost?
+3. Do library and canteen holds block clearance with empty lockers?
+4. How do sibling shared cubbies get split on exit?
+5. Should locker clear wait until after bus cancel?
+6. How much AVS / titre cash should we float before resignation?
+7. Does arrival quarantine usually exceed crate + ticket cash?
+8. What buffer covers a missed titre or airline slot?
+9. Should pet float stay separate from school locker fees?
+10. When do destination kennel day-rates become the dominant line?
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 33) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick33-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #254. Shared log + `site.ts` only. Did not wait for #254 merge/CI. No force-push to `main`. Rebased after #242 and later main landings; open stack treated as #254.

@@ -12,6 +12,7 @@ export { IpaWindowCalculator } from "./IpaWindowCalculator";
 export { Ir21WithholdCalculator } from "./Ir21WithholdCalculator";
 export { LeaseDutyCalculator } from "./LeaseDutyCalculator";
 export { LeaseNoticeCalculator } from "./LeaseNoticeCalculator";
+export { PetQuarantineFloatCalculator } from "./PetQuarantineFloatCalculator";
 export { SchoolDepositClawbackCalculator } from "./SchoolDepositClawbackCalculator";
 export { SchoolDeviceBondCalculator } from "./SchoolDeviceBondCalculator";
 export { SchoolWithdrawalCalculator } from "./SchoolWithdrawalCalculator";

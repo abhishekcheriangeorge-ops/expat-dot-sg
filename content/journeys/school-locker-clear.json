@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "school-locker-clear",
+  "title": "School locker / cubby clear",
+  "summary": "Leaving mid-term with lockers, cubbies, and lost-property shelves still holding kit — clear days, padlock cuts, and how locker clear collides with bus cancel, device return, and movers week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-lockers",
+      "title": "Inventory every locker and cubby early",
+      "body": "Primary cubbies, secondary lockers, PE cage cages, music practice rooms, and art dry-racks often hold more than the classroom desk. Lost-property shelves keep unlabeled kits for weeks. Walk every space the week you decide to leave — not the morning after the last attendance day.",
+      "bullets": [
+        "Photograph each assigned locker number and combination before packing week",
+        "Ask form tutors for shared CCA / drama storage the child uses",
+        "Check lost-property once mid-week and once on the last attendance morning"
+      ],
+      "href": "/journeys/school-bus-cca-exit"
+    },
+    {
+      "id": "padlock-cut",
+      "title": "Padlocks, combinations, and cut-off fees",
+      "body": "Forgotten combinations become facilities cut fees or delayed clearances. Some schools will not issue final reports or device clearances until lockers are empty and padlocks removed. Book a cut appointment before movers week if the combination is already lost.",
+      "bullets": [
+        "Test the padlock the weekend before clear day",
+        "Ask facilities the published cut / replacement fee before you book flights",
+        "Do not leave a cut padlock on the locker — remove and bin it"
+      ],
+      "href": "/tools/school-deposit-clawback"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with bus, devices, and pets",
+      "body": "Locker clear, bus cancel, school device return, and pet export paperwork often land in one fortnight. Sequence so the child still has a ride on clear day, and so locker kit is not scheduled after the service lift is already booked for packing. Pet quarantine cash is a separate float — do not raid locker fee money for AVS titres.",
+      "bullets": [
+        "Put locker clear, bus last-ride, and device return on one family calendar",
+        "Pair with /tools/pet-quarantine-float if animals still need export cash",
+        "Keep one adult free for school-office errands on clear week"
+      ],
+      "href": "/tools/pet-quarantine-float"
+    },
+    {
+      "id": "shared-cubbies",
+      "title": "Sibling and shared cubbies",
+      "body": "Families with two children sharing a cubby or PE cage need an explicit split list. Leaving one child’s textbooks in a sibling’s locker becomes a deposit fight after you fly. Label bags before clear morning.",
+      "bullets": [
+        "Make a written split list for shared PE / music storage",
+        "Re-label the surviving sibling’s cubby after the departing child clears",
+        "Do not leave meds or epi-pens in a shared locker overnight"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "digital-holds",
+      "title": "Library, canteen, and print holds",
+      "body": "Locker clear is physical — library holds, canteen top-ups, and print credit are digital. Some schools block report release until library items and locker fees clear together. Export canteen balances while the parent portal still accepts your login.",
+      "bullets": [
+        "Clear library loans the same week as the locker",
+        "Screenshot canteen / print balances before portal access dies",
+        "Ask whether unspent canteen credit refunds to the bank on file"
+      ],
+      "href": "/journeys/bank-exit-closure"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: cut fees vs pet export",
+      "body": "Padlock cuts, lost-locker fees, and last canteen top-ups are small next to pet quarantine or titre cash — but they hit the same week as movers deposits. Keep a dedicated SGD float so a facilities invoice does not raid AVS or flight money.",
+      "bullets": [
+        "Total published locker / cut fees before resignation week",
+        "Sketch pet export cash on /tools/pet-quarantine-float",
+        "Pay school portals while Singapore cards and PayNow still work"
+      ],
+      "href": "/tools/pet-quarantine-float"
+    }
+  ]
+}

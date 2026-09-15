@@ -5,10 +5,11 @@ import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
-  getCondoVisitorQrExitPlaybook,
   getLeavingPlaybook,
   getMoverLiftBookingPlaybook,
   getPreArrivalPlaybook,
+  getSchoolBusCcaExitPlaybook,
+  getSchoolLockerClearPlaybook,
   getSingpassMyinfoExitPlaybook,
 } from "@/lib/content";
 import {
@@ -20,7 +21,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, school bus/CCA exit, school locker clear, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -31,14 +32,16 @@ export default async function JourneysIndexPage() {
     preArrival,
     singpassExit,
     moverLift,
-    condoVisitorQr,
+    schoolBusCca,
+    schoolLocker,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
     getPreArrivalPlaybook(),
     getSingpassMyinfoExitPlaybook(),
     getMoverLiftBookingPlaybook(),
-    getCondoVisitorQrExitPlaybook(),
+    getSchoolBusCcaExitPlaybook(),
+    getSchoolLockerClearPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -80,8 +83,12 @@ export default async function JourneysIndexPage() {
                 path: "/journeys/mover-lift-booking",
               },
               {
-                name: condoVisitorQr?.title ?? "Condo visitor QR revoke",
-                path: "/journeys/condo-visitor-qr-exit",
+                name: schoolBusCca?.title ?? "School bus / CCA exit",
+                path: "/journeys/school-bus-cca-exit",
+              },
+              {
+                name: schoolLocker?.title ?? "School locker clear",
+                path: "/journeys/school-locker-clear",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -225,28 +232,55 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Condo digital access
+            School exit extras
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {condoVisitorQr?.title ?? "Condo visitor QR revoke"}
+            {schoolBusCca?.title ?? "School bus / CCA exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {condoVisitorQr?.summary ??
-              "Guest QR, helper codes, and delivery PINs before MCST card return."}{" "}
+            {schoolBusCca?.summary ??
+              "Bus operator notice, CCA kits, and self-drive weeks after the route ends."}{" "}
             Pair with{" "}
             <Link
-              href="/tools/school-device-bond"
+              href="/tools/driving-insurance-gap"
               className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
             >
-              /tools/school-device-bond
+              /tools/driving-insurance-gap
             </Link>{" "}
-            if kids still hold school iPads through checkout week.
+            if parents take over the CCA run.
           </p>
           <Link
-            href="/journeys/condo-visitor-qr-exit"
+            href="/journeys/school-bus-cca-exit"
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open visitor QR revoke playbook
+            Open school bus / CCA playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            School clear-out
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {schoolLocker?.title ?? "School locker clear"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {schoolLocker?.summary ??
+              "Lockers, cubbies, and lost-property shelves before the last attendance day."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/pet-quarantine-float"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/pet-quarantine-float
+            </Link>{" "}
+            if pets still need export cash the same fortnight.
+          </p>
+          <Link
+            href="/journeys/school-locker-clear"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open school locker clear playbook
           </Link>
         </FadeIn>
 
