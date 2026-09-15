@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 38) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick38-8971` → tip PR off [#294](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/294) (tick 37). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #294. Shared log + `site.ts` only (prepend on conflict). Did not wait for #294 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — fever + sore throat; rapid-test folklore; choir bans.
+- r/askSingapore — curriculum-evening portals close mid-board-meeting; sibling coverage fails.
+- r/askSingapore — drama-studio corridors as the real weekday parent meetup.
+
+**Official**
+
+- [HealthHub sore throat](https://www.healthhub.sg/a-z/diseases-and-conditions/sore-throat) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [NAC](https://www.nac.gov.sg/) + [Esplanade](https://www.esplanade.com/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–37 (open tip #294) covered eczema, PTA volunteer, coding waiting, asthma, open house, dojo waiting. Remaining heat without contested paths: **strep-throat exclusion**, **IS curriculum-evening ops**, **drama-studio waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-strep-throat-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-curriculum-evening-ops-dual-career-singapore.mdx`
+- `content/guides/belong/drama-studio-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open paths through #294)
+
+- kids braces/orthodontics, home-leave jetlag, IS bus/pickup ops, youth performing arts, indoor hobby communities, music & arts communities, hobby sports communities
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- XCL World Academy, Swiss School, Lycée Français, dental-care, optical-eye-care, furniture-rental
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open paths through #294.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns daytime fever checks?
+2. Is the return clock written?
+3. When does the curriculum-evening slot close?
+4. Who owns the question script?
+5. Same drama corridor next week?
+6. Is choir/swim paused in writing?
+7. Who covers siblings during the evening?
+8. Who sends the follow-up email?
+
+---
+
 ## Loop B — Family + Belong (tick 37) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick37-8971` → tip PR off [#287](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/287) (tick 36). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #287. Shared log + `site.ts` only (prepend on conflict). Did not wait for #287 merge/CI. No force-push to `main`.

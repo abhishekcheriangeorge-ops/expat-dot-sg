@@ -1,23 +1,26 @@
 {
   "type": "school",
   "slug": "lycee-francais",
-  "name": "Lycée Français de Singapour",
-  "summary": "AEFE French national curriculum school — the continuity default for Francophone postings when MOE AEIS is not the household thesis.",
-  "body": "Lycée Français de Singapour (LFS) provides AEFE-aligned French curriculum continuity from maternelle through terminale — essential for many French and Francophone postings that expect a smooth return to France or another AEFE campus. Admissions follow French-system logics (grade placement, language readiness) more than typical Anglo international-school marketing cycles; engage the school early and bring prior school reports. Priority rules often favour French nationals and AEFE continuity students. Housing usually orbits the school-bus corridors rather than the Orchard club belt. If your household is cost-comparing against MOE international-student fees, remember LFS is a curriculum decision first — not a cheaper AEIS substitute. Confirm current campus, fee schedule, and wait guidance on the school site before signing a lease. Zone and term structures affect mid-year travel consent and sick-day patterns; confirm absence rules before booking term-time flights.",
+  "name": "Lyc\u00e9e Fran\u00e7ais de Singapour",
+  "summary": "AEFE French national curriculum school \u2014 the continuity default for Francophone postings when MOE AEIS is not the household thesis.",
+  "body": "Lyc\u00e9e Fran\u00e7ais de Singapour (LFS) provides AEFE-aligned French curriculum continuity from maternelle through terminale \u2014 essential for many French and Francophone postings that expect a smooth return to France or another AEFE campus. Admissions follow French-system logics (grade placement, language readiness) more than typical Anglo international-school marketing cycles; engage the school early and bring prior school reports. Priority rules often favour French nationals and AEFE continuity students. Housing usually orbits the school-bus corridors rather than the Orchard club belt. If your household is cost-comparing against MOE international-student fees, remember LFS is a curriculum decision first \u2014 not a cheaper AEIS substitute. Confirm current campus, fee schedule, and wait guidance on the school site before signing a lease. Zone and term structures affect mid-year travel consent and sick-day patterns; confirm absence rules before booking term-time flights. Dual-career note: curriculum-evening follow-ups need one email owner within 24 hours \u2014 dual muted Slack loses the action list.",
   "curriculum": [
     "French",
     "AEFE"
   ],
   "sector": "international",
-  "ages": "Maternelle–Terminale",
+  "ages": "Maternelle\u2013Terminale",
   "neighbourhood": "bukit-timah",
   "campus": "Verify live campus / bus corridors on school site",
   "languages": [
     "French"
   ],
   "feesBand": "Mid to upper-mid (system-dependent)",
-  "waitlistNotes": "Priority rules often favour French nationals and AEFE continuity — apply early for peak entry years.",
+  "waitlistNotes": "Priority rules often favour French nationals and AEFE continuity \u2014 apply early for peak entry years.",
   "website": "https://www.lfs.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-curriculum-evening-ops-dual-career-singapore"
+  ]
 }
