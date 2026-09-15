@@ -6,6 +6,57 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 34)
+
+Branch: `cursor/loop-d-next-polish-tick34-d996` → draft PR to `main`, stacked on tip [#280](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/280). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money / Next parents for EP renewal age-band salary, S Pass levy/quota renewal, and DP LOC vs own-pass chooser. Avoided open Loop D file set from [#280](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/280).
+
+**Merge order note (controller):** `#280 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “We renewed at this salary last year — why is SAT failing now?”
+- r/askSingapore — “HR says no EP quota so S Pass is the only option.”
+- r/askSingapore — “DP Letter of Consent means my spouse can take any job.”
+
+**Official**
+
+- [MOM — EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · [Renew an EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass) · [Fixed monthly salary FAQ](https://www.mom.gov.sg/faq/employment-pass/what-is-a-fixed-monthly-salary)
+- [MOM — S Pass](https://www.mom.gov.sg/passes-and-permits/s-pass) · [Levy and quota](https://www.mom.gov.sg/passes-and-permits/s-pass/quota-and-levy/levy-and-quota-requirements)
+- [MOM — DP work arrangements factsheet](https://www.mom.gov.sg/-/media/mom/documents/budget2021/factsheet-work-arrangements-dp-holders.pdf) · [LOC for DP business owners](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/eligibility)
+
+### Gaps vs open stack
+
+Open #280 covers EP NOA packaging, ONE Pass spouse LOC, EntrePass renewal ladder (+ those parents). Remaining off-stack gaps: **EP renewal age-band salary packaging**, **S Pass levy/quota renewal edges**, **DP LOC vs own-pass chooser**.
+
+### Shipped
+
+**New:** `ep-renewal-age-band-salary-packaging-singapore.mdx`, `s-pass-levy-quota-renewal-edges-singapore.mdx`, `dep-pass-loc-vs-own-pass-chooser-singapore.mdx`
+
+**Upgraded:** Employment Pass, S Pass, Dependant’s Pass, COMPASS firm-scores renewal, salary package decoding, decoding job offer (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #280 guide bodies (tick33 companions + their parent set including ONE Pass / EntrePass / trailing partner / EP renewal strategy / NOA docs / PLOC).
+- Did not wait for CI or merge on #280.
+- content-loop-log: prepend only.
+
+### Questions mined
+
+1. Does last year’s renewal salary still clear this year’s age band?
+2. Can AWS / bonus close a Stage-1 gap at renewal?
+3. Should HR file renewal before a raise lands?
+4. Does Employment Pass have a foreign-worker quota?
+5. Which levy tier applies at my S Pass renewal?
+6. Do new-app and renewal S Pass salary steps share the same date?
+7. Does clearing S Pass salary unlock Dependant’s Pass automatically?
+8. Can DP + LOC cover ordinary employer jobs after 2021?
+9. What breaks LOC renewal for a solo consultancy?
+10. If the principal EP lapses, does LOC keep the spouse working?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 33)
 
 Branch: `cursor/loop-d-next-polish-tick33-d996` → draft PR to `main`, stacked on tip [#268](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/268). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EP renewal NOA packaging, ONE Pass spouse LOC, and EntrePass renewal ladder. Avoided open Loop D file set from [#268](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/268).
