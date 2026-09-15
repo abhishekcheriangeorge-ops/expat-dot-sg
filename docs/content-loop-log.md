@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 29) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick29-8971` → PR to `main`. Owns **Family** + **Belong** plus light services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #216. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — class lice letters; pharmacy queues; sibling combing fights.
+- r/askSingapore — speech-day RSVPs vs client calls; prize callouts missed.
+- r/askSingapore — same foodcourt dinner table after enrichment as the real hello.
+
+**Official**
+
+- [HealthHub head lice](https://www.healthhub.sg/a-z/diseases-and-conditions/head-lice) + [MOH](https://www.moh.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [NEA](https://www.nea.gov.sg/) + [HDB](https://www.hdb.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–28 (open through #216; #80/#91 merged) covered schools through helper rest-day/report-card/supermarket. Remaining heat without contested paths: **head-lice outbreak ops**, **IS speech day / prize-giving ops**, **foodcourt dinner parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-head-lice-school-outbreak-singapore.mdx`
+- `content/guides/family/international-school-speech-day-prize-giving-ops-dual-career-singapore.mdx`
+- `content/guides/belong/foodcourt-dinner-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- HDB HIP tenants, traffic accident motor claims, vaping/tobacco laws
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- alliance-movers, intact-immigration, will-writing-probate, prudential-singapore, car-sharing-rental
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #100–#216 guide/entity paths.
+
+### Questions mined (sample)
+
+1. Who owns same-day lice treatment?
+2. Were siblings checked tonight?
+3. Which adult has the speech-day blackout?
+4. Is sibling care covered during the assembly?
+5. Same foodcourt window thrice this week?
+6. Did we return trays before the kopi add-on?
+7. What does the school letter actually require for return?
+8. Are phones silenced before prize callouts?
+
+---
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 28) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick28-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #210. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
