@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 31)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick31-49cb` → PR to `main` (fresh worktree off `origin/main` @ `96b9ead`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180)/[#187](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/187)/[#194](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/194)/[#200](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/200)/[#208](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/208)/[#211](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/211)/[#218](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/218)/[#223](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/223) A17–A30 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → #187 → #194 → #200 → #208 → #211 → #218 → #223 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — kids need own SGAC; reusing SGAC after JB; SGAC≠IPA activation.
+- r/askSingapore — missed EPSC window; DP biometrics separate; travel on Notification Letter.
+- r/singaporefi — school deposit vs pass risk; invest before buffer; IPA-to-issuance insurance gap.
+
+**Official**
+
+- [ICA — SG Arrival Card](https://www.ica.gov.sg/) submission window / traveller-type framing
+- [MOM — EP issuance / Notification Letter / EPSC](https://www.mom.gov.sg/passes-and-permits/employment-pass)
+- Year-one cash & insurance planning against IRAS/MOM pass volatility (no product pitches)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A30 claim Student’s Pass through pets/week-one/wrong-PayNow. Tick 31 deepens **SG Arrival Card**, **work-pass issuance/EPSC**, and **year-one financial planning** without colliding those paths.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/sg-arrival-card-expats.mdx` (+3)
+- `content/guides/move/work-pass-issuance-epsc-notification.mdx` (+3)
+- `content/guides/money/financial-planning-year-one.mdx` (+3)
+- `src/lib/site.ts` (SGAC / issuance / year-one blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A30 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180/#187/#194/#200/#208/#211/#218/#223 for the merge controller.
+
+### Questions mined (sample)
+
+1. Do kids need their own SGAC?
+2. Can I reuse SGAC after a JB hop?
+3. Does SGAC activate the IPA?
+4. What if I miss the EPSC window?
+5. Separate EPSC for DP holders?
+6. Travel on Notification Letter while card prints?
+7. How to size school deposits vs pass risk?
+8. Invest before the cash buffer?
+9. What insurance gap matters IPA→issuance?
+
+---
+
 ## Loop B — Family + Belong (tick 18) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick18-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next body trees. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), #129 (exam-week/IS PTA/teen driving), and #134 (sibling fees/newborn–preschool handoff/workplace belonging). Also skipped primary-CCA-vs-academy to stay clear of #115/#91 adjacency.

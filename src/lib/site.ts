@@ -59,7 +59,7 @@ export const modes = [
       {
         href: "/guides/sg-arrival-card-expats",
         label: "SG Arrival Card",
-        blurb: "ICA’s 3-day window, IPA path, and why it is not a visa.",
+        blurb: "Kids need own SGAC; no reuse for JB returns; SGAC≠IPA live.",
       },
       {
         href: "/guides/changi-airport-grab-taxi",
@@ -69,7 +69,7 @@ export const modes = [
       {
         href: "/guides/work-pass-issuance-epsc-notification",
         label: "Issuance → EPSC → card",
-        blurb: "IPA vs Notification Letter, when you may work, biometrics clocks.",
+        blurb: "Missed EPSC clocks; DP slots separate; travel on Notification Letter.",
       },
       {
         href: "/journeys/arriving",
@@ -134,7 +134,7 @@ export const pillars: Pillar[] = [
       {
         label: "SG Arrival Card",
         href: "/guides/sg-arrival-card-expats",
-        blurb: "ICA’s 3-day window and IPA vs issued-pass paths.",
+        blurb: "Kids need own SGAC; no reuse for JB returns; SGAC≠IPA live.",
       },
       {
         label: "Changi → city transfer",
@@ -144,7 +144,7 @@ export const pillars: Pillar[] = [
       {
         label: "Issuance, EPSC & Notification Letter",
         href: "/guides/work-pass-issuance-epsc-notification",
-        blurb: "When you may work, biometrics, SGWorkPass, card delivery.",
+        blurb: "Missed EPSC clocks; DP slots separate; travel on Notification Letter.",
       },
       {
         label: "EP medical for issuance",
@@ -408,7 +408,7 @@ export const pillars: Pillar[] = [
       {
         label: "Year-one financial plan",
         href: "/guides/financial-planning-year-one",
-        blurb: "3–6 month buffer; defer ABSD condo and COE FOMO.",
+        blurb: "School-deposit risk; invest after buffer; bridge insurance gaps.",
       },
     ],
     related: [
