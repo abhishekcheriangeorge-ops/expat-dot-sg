@@ -202,6 +202,26 @@ export const pillars: Pillar[] = [
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
       },
       {
+        label: "Changing jobs on EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
+      },
+      {
+        label: "Student’s Pass work limits",
+        href: "/guides/student-pass-singapore",
+        blurb: "Vacation work exemption ≠ open labour market; LOE ≠ EP.",
+      },
+      {
+        label: "LTVP for partners & parents",
+        href: "/guides/ltvp-singapore",
+        blurb: "Not a DP; parent salary lane; work rights depend on product.",
+      },
+      {
+        label: "ONE Pass",
+        href: "/guides/one-pass-singapore",
+        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
+      },
+      {
         label: "S Pass vs EP",
         href: "/guides/ep-vs-s-pass-comparison",
         blurb: "No EP quota myth, levy/DRC, Sep 2025 S Pass floors.",
@@ -274,14 +294,14 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
       },
       {
-        label: "Intercom, boom-gate & visitor QR",
-        href: "/guides/condo-intercom-boom-gate-visitor-qr-tenants",
-        blurb: "MA apps, timed visitor codes, and drop-off vs overnight.",
+        label: "CCTV & MA footage requests",
+        href: "/guides/condo-cctv-ma-footage-requests-tenants",
+        blurb: "Common-area cameras, PDPA limits, and how to request clips.",
       },
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Balestier, Thomson, Braddell, Bukit Timah, and more.",
+        blurb: "Boon Keng, Sennett, Geylang East, Bukit Timah, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -351,9 +371,19 @@ export const pillars: Pillar[] = [
         blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
       },
       {
-        label: "Insurance landscape",
+        label: "Remittances & FX",
+        href: "/guides/remittances-singapore",
+        blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
+      },
+      {
+        label: "Health insurance & LOG",
         href: "/guides/health-insurance-expat",
-        blurb: "Health, life, and what employers usually cover.",
+        blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
+      },
+      {
+        label: "CPF withdrawal when leaving",
+        href: "/guides/cpf-withdrawal-leaving-singapore",
+        blurb: "EP had no CPF; PR cash-out only after status ends.",
       },
       {
         label: "Cost of living",
@@ -428,14 +458,14 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "IS sibling fees & bursary",
-        href: "/guides/international-school-sibling-fees-bursary-singapore",
-        blurb: "Multi-child fee stacks, discounts, employer caps.",
+        label: "Child hospitalisation coverage",
+        href: "/guides/dual-career-child-hospitalisation-coverage-singapore",
+        blurb: "Ward vs home roles for dual EP households.",
       },
       {
-        label: "Newborn→preschool handoff",
-        href: "/guides/newborn-preschool-handoff-dual-career-singapore",
-        blurb: "Confinement to infant-care relay for dual careers.",
+        label: "PTC dual-career ops",
+        href: "/guides/parent-teacher-conference-dual-career-singapore",
+        blurb: "Conference prep, lead parent, written follow-ups.",
       },
       {
         label: "Kids activities & calendar",
@@ -495,9 +525,9 @@ export const pillars: Pillar[] = [
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
       },
       {
-        label: "ActiveSG swimming lessons",
-        href: "/guides/activesg-swimming-lessons-booking-singapore",
-        blurb: "Standard Rate programmes — not the same as lane hire.",
+        label: "ActiveSG holiday camps",
+        href: "/guides/activesg-holiday-camps-booking-singapore",
+        blurb: "Standard Rate school-break programmes — not court hire.",
       },
       {
         label: "Apps that matter",
@@ -577,9 +607,9 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "Workplace parent belonging",
-        href: "/guides/workplace-parent-helper-community-belonging-singapore",
-        blurb: "ERGs, office parent chats, helper-community rails.",
+        label: "Park playground belonging",
+        href: "/guides/park-playground-parent-belonging-singapore",
+        blurb: "Repeat NParks play hours as adult rails.",
       },
 
       {

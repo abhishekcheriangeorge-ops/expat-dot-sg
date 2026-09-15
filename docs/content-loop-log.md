@@ -6,6 +6,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 40 — 2026-09-15
+
+Branch: `cursor/home-life-tick40-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232 stay open for the merge controller — **did not** touch those PR paths. Topics: condo CCTV / MA footage requests, ActiveSG holiday camps, Boon Keng / Sennett / Geylang East.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo lobby theft CCTV requests, MA PDPA pushback, DIY doorbell cameras facing corridors.
+- r/askSingapore — ActiveSG June/December holiday camp Standard Rate for foreigners, release-week races, condo “kids club” collapses.
+- r/askSingapore — central-east shortlists for Boon Keng vs Sennett vs Geylang East food/noise trade-offs.
+
+**Official**
+
+- [PDPC PDPA](https://www.pdpc.gov.sg/Overview-of-PDPA/The-Legislation/Personal-Data-Protection-Act) + [selected-topics advisory (CCTV)](https://www.pdpc.gov.sg/guidelines-and-consultation/2022/09/advisory-guidelines-on-the-pdpa-for-selected-topics).
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #232
+
+Open PRs own reno-noise through intercom/QR / swim-lessons and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo CCTV / MA footage requests** (≠ intercom/QR; ≠ visitor parking), **ActiveSG holiday camps** (≠ pool lanes; ≠ swim lessons; ≠ court hire), plus neighbourhood depth for **Boon Keng**, **Sennett**, and **Geylang East**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-cctv-ma-footage-requests-tenants.mdx`
+- `content/guides/life/activesg-holiday-camps-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #232.
+- `src/lib/site.ts` (CCTV/footage + ActiveSG holiday-camp topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/boon-keng.json`
+- `content/entities/neighbourhoods/sennett.json`
+- `content/entities/neighbourhoods/geylang-east.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 exclusive file paths.
+
+### Questions mined (sample)
+
+1. Can tenants demand condo CCTV footage?
+2. How long is footage retained?
+3. Do I need a police report first?
+4. Are DIY corridor doorbell cameras allowed?
+5. Can foreigners book ActiveSG holiday camps at Standard Rate?
+6. Is a camp the same as court or lane hire?
+7. When do June / year-end camps release?
+8. Boon Keng vs Sennett — NEL doorstep or landed calm?
+9. Is Geylang East worth late-night noise?
+10. When is a condo kids club still better than ActiveSG?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 39 — 2026-09-15
 
 Branch: `cursor/home-life-tick39-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226 stay open for the merge controller — **did not** touch those PR paths. Topics: condo intercom / boom-gate / visitor QR, ActiveSG swimming lessons, Balestier / Thomson / Braddell.

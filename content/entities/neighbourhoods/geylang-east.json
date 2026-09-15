@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "geylang-east",
+  "name": "Geylang East",
+  "summary": "East of the Geylang food spine toward Eunos / Paya Lebar — denser heartland texture with East-West Line optionality and late-night energy as the lifestyle tax.",
+  "body": "Geylang East is the shortlist when food density and East-West Line access matter more than polished condo branding. The pocket sits east of the classic Geylang lorong spine toward Eunos / Paya Lebar gravity; housing mixes HDB slabs, walk-ups, and selective condo edges. Expats land here for car-light food culture and manageable CBD hops. Watch-outs: late-night noise nearer the lorongs, variable estate CCTV culture, and HDB eligibility checks for foreigners. Compare with Boon Keng for quieter NEL mid-town, Sennett for landed calm, and Paya Lebar when mall-interchange living wins.",
+  "region": "east",
+  "vibe": [
+    "food",
+    "heartland",
+    "ewl",
+    "dense",
+    "late-energy"
+  ],
+  "bestFor": [
+    "food-first households",
+    "East-West Line CBD commuters",
+    "renters okay with denser texture",
+    "people who will book ActiveSG camps instead of condo kids-club myths"
+  ],
+  "watchOuts": [
+    "Late-night noise nearer Geylang lorongs",
+    "Peak hub congestion toward Paya Lebar",
+    "HDB whole-flat vs bedroom approval checks",
+    "CCTV / MA footage rules differ by estate"
+  ],
+  "housingMix": "Mature HDB and walk-ups with selective condo edges toward Paya Lebar.",
+  "commuteNotes": "East-West Line gravity at Eunos / Paya Lebar / Aljunied depending on block. Time a Saturday night walk before you romanticise the food spine.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3400,
+    "familyFrom": 2800,
+    "familyTo": 4800
+  },
+  "mrt": [
+    "Eunos",
+    "Paya Lebar",
+    "Aljunied"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
