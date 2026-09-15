@@ -304,9 +304,14 @@ export const pillars: Pillar[] = [
         blurb: "Permit windows, roof doors, and restricted ladder access.",
       },
       {
+        label: "Sprinkler drain-down / fire-shutter tests",
+        href: "/guides/condo-sprinkler-drain-down-fire-shutter-test-notices-tenants",
+        blurb: "Wet-system and shutter-test calendars — not hydrant clearance or alarm drills.",
+      },
+      {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Upper East Coast Fringe, Lagoon View West, Mandarin Gardens East, and more.",
+        blurb: "Bedok Reservoir Fringe, Tampines West Edge, Simei North, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -548,6 +553,11 @@ export const pillars: Pillar[] = [
         label: "ActiveSG lawn bowls",
         href: "/guides/activesg-lawn-bowls-booking-singapore",
         blurb: "Standard Rate green sessions — not cycling circuit or alley bowling.",
+      },
+      {
+        label: "ActiveSG cricket nets",
+        href: "/guides/activesg-cricket-nets-booking-singapore",
+        blurb: "Standard Rate net sessions — not lawn bowls, circuit, or court hire.",
       },
       {
         label: "Apps that matter",
