@@ -2,6 +2,8 @@
 
 Short running log of research → gap analysis → shipped editorial. No monetization expansion in these ticks.
 
+**Standing order:** after each loop tick, audit then merge PR to main.
+
 ---
 
 ## Loop D — Next pillar + editorial polish — 2026-09-15
