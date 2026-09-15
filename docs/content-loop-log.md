@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 9)
+
+Branch: `loop/next-polish-tick9` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Tick 8 (#60) still open elsewhere — this branch is off current `main` only.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — EP cancel / STVP vs spouse LTVP after job loss ([LTVP after losing job](https://www.reddit.com/r/askSingapore/comments/1q66ra7/getting_an_ltvp_after_losing_job/); [EP resignation STVP](https://www.reddit.com/r/askSingapore/comments/1ttedbd/ep_question_on_resignation_stvp/)).
+- Dual-passport / under-21 clearance + status-letter folklore adjacent to ORAL threads (mission/school “prove citizenship” asks; foreign-passport checkpoint confusion).
+
+**Official**
+
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) (STVP up to 90 days)
+- [ICA — Spouse of a Singapore Citizen (LTVP)](https://www.ica.gov.sg/reside/LTVP/apply/spouse-of-a-singapore-citizen-(sc)) / [Spouse of a Singapore PR](https://www.ica.gov.sg/reside/LTVP/apply/spouse-of-a-singapore-permanent-resident-(pr))
+- [ICA — Right of Entry (ROE)](https://www.ica.gov.sg/reside/citizenship/roe) (under-21 SC with foreign passport; free; ~3 working days; transfer on new passport)
+- [ICA — Confirmation of Singapore Citizenship Status](https://www.ica.gov.sg/reside/citizenship/confirmation) (S$20 digital letter; no signature/stamp/QR; ~3 working days)
+- [ICA — Oath-taking for Minors (ORAL)](https://www.ica.gov.sg/reside/citizenship/minor-oath-taking) (adjacency only)
+
+### Gaps vs prior ticks
+
+Tick 7 shipped spouse LTVP/PMLA, PLOC/LOC, student PR. Tick 8 (open) covers NRIC re-reg / eCOA / SCJ. Remaining high-intent **Next** gaps matched this mine: **EP job-loss → SC/PR spouse LTVP bridge** (distinct from generic STVP between-jobs and from spouse LTVP mechanics), **Right of Entry for under-21 dual-passport SCs** (ORAL adjacency; not dual-citizenship forever), **ICA citizenship confirmation letter** (S$20 digital status PDF for schools/missions). About + editorial research language updated.
+
+### Shipped
+
+**New:** `ep-job-loss-spouse-ltvp-bridge-singapore.mdx`, `right-of-entry-roe-under-21-singapore.mdx`, `confirmation-singapore-citizenship-status.mdx`
+
+**Upgraded:** `between-jobs-stvp-singapore.mdx`, `spouse-ltvp-pmla-singapore.mdx`, `ploc-loc-ica-ltvp-singapore.mdx`, `oral-dual-citizenship-age-21.mdx`, `singapore-citizenship-application.mdx`, `renewing-life-admin-annually.mdx`; `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits. Did not land tick 8 paths (still open on #60).
+
+### Questions mined
+
+1. After EP cancel, if my spouse is Singaporean, do I still only get a 30-day STVP?
+2. Should HR request 90-day STVP while we file spouse LTVP?
+3. Can we file spouse LTVP while I am still serving EP notice?
+4. Does PMLA help if we are already married and I just lost my EP?
+5. Is PLOC automatic when spouse LTVP is approved after a layoff?
+6. What is Right of Entry for an under-21 SC who also holds a foreign passport?
+7. Is ROE free, and must it be transferred when the foreign passport renews?
+8. Does ROE mean my child can keep dual citizenship past 21?
+9. What is ICA’s Confirmation of Singapore Citizenship Status letter?
+10. Does that letter come with a signature, stamp, or QR code?
+11. Who can apply as proxy for a child under 16?
+12. When should a family use confirmation letter vs ROE vs ORAL?
+
+---
+
+---
+
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 4)
 
 Branch: `loop/e-journeys-tools-tick4` → PR to `main` (fresh worktree off `origin/main` while [#53](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/53) tick 3 was still open). Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok. Avoided tick-3 paths (`between-jobs`, `tax-residency`) so the merge controller can land #53 first.
