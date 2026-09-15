@@ -289,6 +289,21 @@ export const pillars: Pillar[] = [
         blurb: "Quiet enjoyment, notice, and viewing pressure.",
       },
       {
+        label: "HDB HIP for tenants",
+        href: "/guides/hdb-hip-tenants",
+        blurb: "Dust, portable toilets, and rent talks during upgrading.",
+      },
+      {
+        label: "Deposit return after handover",
+        href: "/guides/deposit-return-handover-disputes",
+        blurb: "Post-keys ambush deductions and SCT from overseas.",
+      },
+      {
+        label: "HDB neighbour renovations",
+        href: "/guides/hdb-neighbour-renovation-noise-tenants",
+        blurb: "Permits vs drilling folklore, hours, and OneService reporting.",
+      },
+      {
         label: "Condo vs HDB",
         href: "/guides/condo-vs-hdb-expat",
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
@@ -296,7 +311,7 @@ export const pillars: Pillar[] = [
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Bukit Timah, Holland V, East Coast, Toa Payoh, AMK, Bedok, and more.",
+        blurb: "Hougang, Bukit Batok, Marine Parade, Serangoon, Pasir Ris, Yishun, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -473,6 +488,16 @@ export const pillars: Pillar[] = [
         blurb: "Costume blackouts, parade calls, wallet caps.",
       },
       {
+        label: "Asthma-flare coverage",
+        href: "/guides/dual-career-kids-asthma-flare-coverage-singapore",
+        blurb: "Named owners, spacer kits, PE/swim holds.",
+      },
+      {
+        label: "Open-house / tour ops",
+        href: "/guides/international-school-open-house-tour-ops-dual-career-singapore",
+        blurb: "Slot clocks, question scripts, deposit caps.",
+      },
+      {
         label: "Pink-eye exclusion ops",
         href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
         blurb: "Written return rules, swim holds, GP vs eye clinic.",
@@ -562,7 +587,12 @@ export const pillars: Pillar[] = [
       {
         label: "Climate, haze & floods",
         href: "/guides/flash-floods-singapore-renters",
-        blurb: "PUB flash-flood checks, haze season, and emergency rails.",
+        blurb: "PUB flash-flood checks, haze season, storms, and emergency rails.",
+      },
+      {
+        label: "Lightning & thunderstorms",
+        href: "/guides/lightning-thunderstorms-singapore",
+        blurb: "myENV alerts, high-floor habits, and surge realism.",
       },
       {
         label: "Dengue clusters & fogging",
@@ -646,6 +676,11 @@ export const pillars: Pillar[] = [
         label: "Gymnastics-studio waiting belonging",
         href: "/guides/gymnastics-studio-waiting-parent-belonging-singapore",
         blurb: "Repeat viewing-glass hellos without squad politics.",
+      },
+      {
+        label: "Martial-arts dojo waiting belonging",
+        href: "/guides/martial-arts-dojo-waiting-parent-belonging-singapore",
+        blurb: "Repeat dojo-bench hellos without belt politics.",
       },
       {
         label: "LGBTQ+ resources",
