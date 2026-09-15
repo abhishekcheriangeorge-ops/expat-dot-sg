@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 31 — 2026-09-15
+
+Branch: `cursor/home-life-tick31-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137 stay open for the merge controller — **did not** touch those PR paths. Topics: condo MCST by-laws / AGMs for tenants, ActiveSG football & futsal booking, Eunos / Guillemard / Dakota.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — MCST pet vetoes after landlord WhatsApp yes; AGM voting myths for tenants; renovation blackout surprises.
+- r/askSingapore — ActiveSG futsal cage release races, Standard Rate for foreigners, group booking no-shows.
+- r/askSingapore — east-central shortlists for Eunos / Guillemard / Dakota vs Paya Lebar premiums and Kallang event spillover.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [facilities](https://www.activesgcircle.gov.sg/facilities).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 / #88 / #96 / #104 / #126 / #137
+
+Open PRs own reno/lightning/void-deck/power/condo-unit-reno/secondhand-smoke/PUB-water/pools/SP-bill/stadium-courts/OEM-switch/HDB-corridor-smoking and their town sets. Remaining high-intent gaps without collision: **MCST by-laws / AGM tenant orientation** (≠ condo noise guide body edits), **ActiveSG football/futsal booking** (≠ pools, ≠ stadium tracks), plus neighbourhood depth for **Eunos**, **Guillemard**, and **Dakota**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-mcst-bylaws-agm-tenants.mdx`
+- `content/guides/life/activesg-football-futsal-booking-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/condo-vs-hdb-expat.mdx`
+- `content/guides/home/deposit-return-handover-disputes.mdx`
+- `content/guides/life/pets-daily-life-singapore.mdx`
+- `src/lib/site.ts` (MCST by-laws + ActiveSG football/futsal topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/eunos.json`
+- `content/entities/neighbourhoods/guillemard.json`
+- `content/entities/neighbourhoods/dakota.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 file paths.
+
+### Questions mined (sample)
+
+1. Do condo by-laws bind tenants?
+2. Can tenants vote at an AGM?
+3. Where do I find by-laws before LOI?
+4. Can MCST ban my dog after landlord said yes?
+5. Can foreigners book ActiveSG futsal at Standard Rate?
+6. Why do weekend pitches vanish instantly?
+7. Eunos vs Dakota — heartland calm or food/stadium energy?
+8. Is Guillemard too event-noisy for sleep?
+9. Who emails MA vs landlord for a by-law breach?
+10. When is a private cage better than ActiveSG?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 30 — 2026-09-15
 
 Branch: `cursor/home-life-tick30-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71 (C25), #88 (C26), #96 (C27), #104 (C28), and #126 (C29) stay open for the merge controller — **did not** touch those PR paths (reno / lightning / Hougang–Bukit Batok–Marine Parade; void-deck / power / Jurong West–CCK–Sembawang; condo unit reno / secondhand smoke / Bukit Panjang–Boon Lay–Geylang; PUB water / ActiveSG pools / Kallang–Bendemeer–Potong Pasir; SP bill disputes / ActiveSG stadiums / MacPherson–Tai Seng–Paya Lebar). Topics: OEM electricity retailer switching, HDB common-area smoking complaints, Kovan / Bartley / Lorong Chuan.

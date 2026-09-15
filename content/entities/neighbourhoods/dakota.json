@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "dakota",
+  "name": "Dakota",
+  "summary": "Circle Line stop by Old Airport Road / Dakota Crescent edges — food density, stadium adjacency, and condo/HDB mix with shorter CBD hops than far-east towns.",
+  "body": "Dakota is the east-central shortlist when Circle Line access and Old Airport Road food matter more than a quiet cul-de-sac. Housing mixes newer condos, older estates, and proximity to stadium / indoor sports gravity toward Kallang. Expats land here for CCL hops and lifestyle density; accept event traffic and tourist-food weekends as the tax. Compare with Guillemard for a slightly broader residential road belt, Eunos for calmer EWL heartland living, and Mountbatten / Stadium catchments when you want to be even closer to sports infrastructure.",
+  "region": "east",
+  "vibe": [
+    "ccl",
+    "food-density",
+    "stadium-adjacent",
+    "east-central",
+    "mixed-stock"
+  ],
+  "bestFor": [
+    "CCL workers who want Old Airport Road on the doorstep",
+    "households okay with event-evening energy",
+    "renters trading quiet for food and sport access",
+    "car-light couples testing east-central before RV prices"
+  ],
+  "watchOuts": [
+    "Event and weekend food-crowd spikes",
+    "Block-level noise variance",
+    "Condo MCST quality varies — read by-laws",
+    "Fewer ‘quiet heartland’ defaults than Eunos"
+  ],
+  "housingMix": "Condo inserts with older estate edges; food and sports infrastructure nearby.",
+  "commuteNotes": "Circle Line at Dakota; test an event evening and a rainy walk to Old Airport Road.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3700,
+    "familyFrom": 3100,
+    "familyTo": 5100
+  },
+  "mrt": [
+    "Dakota"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
