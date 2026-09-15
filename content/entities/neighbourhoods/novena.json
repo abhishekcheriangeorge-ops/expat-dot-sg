@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "novena",
+  "name": "Novena",
+  "summary": "Medical-hub NSL stop — hospital gravity, mid-town condo stock, and errand density without full Orchard tourist crush.",
+  "body": "Novena is the shortlist when hospital-adjacent convenience and North-South Line mid-town access matter more than quiet cul-de-sac living. The Square / hospital belt concentrates clinics, food, and weekday traffic; housing is mostly condo towers with selective older stock. Expats land here for car-light hops to CBD and Orchard without paying full River Valley nightlife premiums. Watch-outs: medical traffic peaks, variable building age, and fire-alarm / detector culture that differs estate-by-estate. Compare with Newton for food-street energy, Toa Payoh Central for heartland town-centre texture, and the combined Novena–Newton entity when you want both stops in one shortlist.",
+  "region": "central",
+  "vibe": [
+    "medical-hub",
+    "nsl",
+    "mid-town",
+    "practical",
+    "condo-dense"
+  ],
+  "bestFor": [
+    "healthcare-adjacent professionals",
+    "car-light mid-town workers",
+    "households comparing value vs Orchard",
+    "renters who will book ActiveSG mats instead of trusting condo wellness rooms"
+  ],
+  "watchOuts": [
+    "Hospital and clinic traffic peaks",
+    "Variable condo age and MA responsiveness",
+    "Detector / false-alarm recovery rules differ by estate",
+    "Less café-strip cohesion than Holland V"
+  ],
+  "housingMix": "Mid-to-large condos; limited quiet HDB texture at the station core.",
+  "commuteNotes": "North-South Line at Novena; Downtown Line nearby depending on block. Time a weekday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3000,
+    "oneBedTo": 4800,
+    "familyFrom": 5200,
+    "familyTo": 10000
+  },
+  "mrt": [
+    "Novena"
+  ],
+  "schoolsNearby": [
+    "stamford-american"
+  ],
+  "featured": false
+}

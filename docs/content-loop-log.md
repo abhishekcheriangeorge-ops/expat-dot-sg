@@ -6,6 +6,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 38 — 2026-09-15
+
+Branch: `cursor/home-life-tick38-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213 stay open for the merge controller — **did not** touch those PR paths. Topics: condo fire-alarm / smoke-detector tenant drills, ActiveSG yoga / pilates booking, Novena / Newton / Toa Payoh Central.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — beeping condo smoke detectors, cooking false alarms that summon SCDF, tenants taping over heads, MA recovery of call-out fees.
+- r/askSingapore — ActiveSG yoga / pilates Standard Rate for foreigners, peak lunch mat release races, condo “wellness rooms” used as storage.
+- r/askSingapore — mid-town shortlists splitting Novena vs Newton vs Toa Payoh Central hub living.
+
+**Official**
+
+- [SCDF fire safety](https://www.scdf.gov.sg/home/fire-safety) + [home fire safety tips](https://www.scdf.gov.sg/home/fire-safety/home-fire-safety-tips).
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #213
+
+Open PRs own reno-noise/lightning/void-deck/power/condo-adjacent-reno/smoke/PUB-water/pools/SP-bill/stadium/OEM/HDB-corridor-smoking/MCST-bylaws/football/visitor-parking/tennis/reno-deposit/squash/move-in-lift/badminton/BBQ-function/table-tennis/EV-bike/gym/parcel-locker/studio-dance and their town sets. Every tip Home/Life guide path is already claimed by the open C stack — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo fire-alarm / smoke-detector drills** (≠ secondhand smoke; ≠ parcel lockers), **ActiveSG yoga / pilates classes** (≠ studio/dance; ≠ gym entry), plus neighbourhood depth for **Novena**, **Newton**, and **Toa Payoh Central** (distinct from tip `novena-newton` / `toa-payoh`).
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-fire-alarm-smoke-detector-tenant-drills.mdx`
+- `content/guides/life/activesg-yoga-pilates-class-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #213.
+- `src/lib/site.ts` (fire-alarm + ActiveSG yoga/pilates topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/novena.json`
+- `content/entities/neighbourhoods/newton.json`
+- `content/entities/neighbourhoods/toa-payoh-central.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 exclusive file paths.
+
+### Questions mined (sample)
+
+1. Can I tape over a beeping smoke detector?
+2. Who pays when cooking sets off SCDF?
+3. Are fire drills optional for tenants?
+4. Is a unit detector the same as the building panel?
+5. Can foreigners book ActiveSG yoga / pilates at Standard Rate?
+6. Is a yoga class the same as gym entry or dance studio hire?
+7. Do I need my own mat?
+8. Novena vs Newton — hospital hub or food centre?
+9. Is Toa Payoh Central worth hub congestion?
+10. When is a condo wellness room still better than ActiveSG?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 37 — 2026-09-15
 
 Branch: `cursor/home-life-tick37-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202 stay open for the merge controller — **did not** touch those PR paths. Topics: condo parcel locker / mailroom deposits, ActiveSG studio / dance class booking, Orchard / Somerset / Dhoby Ghaut.
