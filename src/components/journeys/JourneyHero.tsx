@@ -8,6 +8,17 @@ type JourneyHeroProps = {
   lastReviewed?: string;
 };
 
+function formatReviewed(iso: string): string {
+  const date = new Date(`${iso}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) return iso;
+  return new Intl.DateTimeFormat("en-SG", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+}
+
 export function JourneyHero({
   eyebrow,
   title,
@@ -39,7 +50,10 @@ export function JourneyHero({
         {lastReviewed ? (
           <FadeIn delay={0.2}>
             <p className="mt-6 text-sm text-ink-faint">
-              Last reviewed {lastReviewed}
+              Last reviewed{" "}
+              <time dateTime={lastReviewed}>
+                {formatReviewed(lastReviewed)}
+              </time>
             </p>
           </FadeIn>
         ) : null}

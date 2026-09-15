@@ -6,6 +6,36 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 15)
+
+Branch: `cursor/loop-g-seo-tick15-a144` → PR to `main`. Soft-404 recovery + shared chrome semantics after #74→#185 claimed route/tool/hub surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- No App Router `not-found` recovery plane — soft 404s dumped users without hub equity.
+- Visible breadcrumbs lacked BreadcrumbList microdata (JSON-LD only on pages).
+- Journey `lastReviewed` was plain text without `<time datetime>`.
+- Playbook views had no HowTo microdata on the visible step list.
+- No `llms.txt` hub index for answer-engine crawlers.
+
+### Shipped this loop
+
+- `not-found.tsx` hub recovery shell (noindex, follow)
+- `Breadcrumbs` BreadcrumbList microdata
+- `JourneyHero` reviewed `<time datetime>`
+- `LeavingPlaybookView` HowTo / HowToStep microdata
+- `JsonLd` `suppressHydrationWarning`
+- `public/llms.txt` primary hub list
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 / #145 / #152 / #160 / #168 / #176 / #185 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy; no robots.ts edit.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 18)
 
 Branch: `cursor/loop-d-next-polish-tick18-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146).

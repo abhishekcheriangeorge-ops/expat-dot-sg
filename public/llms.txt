@@ -1,0 +1,36 @@
+# expat.sg
+
+> Singapore expat life — guides, neighbourhoods, schools, clubs, journeys, and tools from the offer letter to year three.
+
+This file lists primary crawl hubs for answer engines. Editorial guidance only; confirm live MOM / ICA / IRAS rules.
+
+## Primary hubs
+
+- https://expat.sg/
+- https://expat.sg/arriving
+- https://expat.sg/living
+- https://expat.sg/guides
+- https://expat.sg/journeys
+- https://expat.sg/tools
+- https://expat.sg/directory
+- https://expat.sg/schools
+- https://expat.sg/neighbourhoods
+- https://expat.sg/clubs
+- https://expat.sg/calendar
+- https://expat.sg/about
+- https://expat.sg/editorial-policy
+
+## Pillars
+
+- https://expat.sg/move
+- https://expat.sg/home
+- https://expat.sg/money
+- https://expat.sg/family
+- https://expat.sg/life
+- https://expat.sg/belong
+- https://expat.sg/next
+
+## Optional
+
+- Sitemap: https://expat.sg/sitemap.xml
+- Contact / ads: https://expat.sg/advertise

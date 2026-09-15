@@ -8,7 +8,13 @@ type LeavingPlaybookViewProps = {
 
 export function LeavingPlaybookView({ playbook }: LeavingPlaybookViewProps) {
   return (
-    <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
+    <div
+      className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8"
+      itemScope
+      itemType="https://schema.org/HowTo"
+    >
+      <meta itemProp="name" content={playbook.title} />
+      <meta itemProp="description" content={playbook.summary} />
       <FadeIn>
         <p className="max-w-2xl text-base leading-relaxed text-ink-muted">
           {playbook.summary}
@@ -17,13 +23,28 @@ export function LeavingPlaybookView({ playbook }: LeavingPlaybookViewProps) {
 
       <Stagger className="mt-12 flex flex-col gap-12">
         {playbook.sections.map((section, index) => (
-          <StaggerItem key={section.id} className="grid gap-4 sm:grid-cols-[4rem_1fr]">
+          <StaggerItem
+            key={section.id}
+            className="grid gap-4 sm:grid-cols-[4rem_1fr]"
+            itemProp="step"
+            itemScope
+            itemType="https://schema.org/HowToStep"
+          >
             <p className="font-display text-3xl text-tungsten/80">
               {String(index + 1).padStart(2, "0")}
             </p>
             <div>
-              <h2 className="font-display text-2xl text-ink">{section.title}</h2>
-              <p className="mt-3 max-w-2xl leading-relaxed text-ink-muted">
+              <meta itemProp="position" content={String(index + 1)} />
+              <h2
+                className="font-display text-2xl text-ink"
+                itemProp="name"
+              >
+                {section.title}
+              </h2>
+              <p
+                className="mt-3 max-w-2xl leading-relaxed text-ink-muted"
+                itemProp="text"
+              >
                 {section.body}
               </p>
               {section.bullets.length > 0 ? (
