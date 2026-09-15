@@ -2,45 +2,46 @@
   "type": "service",
   "slug": "fdw-agencies",
   "name": "Helper agencies & DIY FDW (category guide)",
-  "summary": "When to pay an agency vs renew/transfer yourself on MOM eServices — SIP clocks, ≥S$60k enhanced MI, and age-50 premium jumps.",
-  "body": "You can apply, renew, and cancel an MDW Work Permit yourself with Singpass via MOM’s FDW eServices — agencies are optional after the first hire. First-time helpers still need the Settling-In Programme within seven days of arrival and cannot start work before SIP. Before every renewal, place/extend medical + personal accident insurance meeting MOM’s enhanced MI floor (≥S$60k inpatient/day-surgery annual limit; Stage 2 rules from 1 July 2025 standardise exclusions and age-banded premiums for helpers above 50). Shop insurers directly — agency-tied quotes are often not the cheapest, especially after age 50. Non-Malaysian helpers need a fresh security bond timed to the renewal. Transfers skip SIP but usually cost more in salary and placement. Levy concession for young children generally requires SC/PR kids — most EP+DP households miss it. Compare Comfort, Nation, and DIY on total cost, replacement policy, who books SIP/6ME, and whether dental sits outside the MI quote. Short postpartum help is a different MOM rail — see the confinement-nanny category guide (Malaysian WP, ~28 days) before you force-fit a full MDW hire for one month of pui yuet care. This is a category guide, not a ranked agency league table. Family ops note: HFMD exclusion weeks expose helper rest-day gaps fast — agency relief coverage is not same-day magic; plan the rest-day shift before the outbreak letter arrives.",
+  "summary": "When to pay an agency vs renew/transfer yourself on MOM eServices \u2014 SIP clocks, \u2265S$60k enhanced MI, and age-50 premium jumps.",
+  "body": "You can apply, renew, and cancel an MDW Work Permit yourself with Singpass via MOM\u2019s FDW eServices \u2014 agencies are optional after the first hire. First-time helpers still need the Settling-In Programme within seven days of arrival and cannot start work before SIP. Before every renewal, place/extend medical + personal accident insurance meeting MOM\u2019s enhanced MI floor (\u2265S$60k inpatient/day-surgery annual limit; Stage 2 rules from 1 July 2025 standardise exclusions and age-banded premiums for helpers above 50). Shop insurers directly \u2014 agency-tied quotes are often not the cheapest, especially after age 50. Non-Malaysian helpers need a fresh security bond timed to the renewal. Transfers skip SIP but usually cost more in salary and placement. Levy concession for young children generally requires SC/PR kids \u2014 most EP+DP households miss it. Compare Comfort, Nation, and DIY on total cost, replacement policy, who books SIP/6ME, and whether dental sits outside the MI quote. Short postpartum help is a different MOM rail \u2014 see the confinement-nanny category guide (Malaysian WP, ~28 days) before you force-fit a full MDW hire for one month of pui yuet care. This is a category guide, not a ranked agency league table. Family ops note: HFMD exclusion weeks expose helper rest-day gaps fast \u2014 agency relief coverage is not same-day magic; plan the rest-day shift before the outbreak letter arrives. Family ops: book-week volunteer Sundays collide with helper rest days \u2014 rewrite coverage early.",
   "category": "fdw",
   "areasServed": [
     "Islandwide"
   ],
   "whenToEngage": [
-    "First hire — SIP within 7 days + EOP done",
+    "First hire \u2014 SIP within 7 days + EOP done",
     "Renewal: DIY vs agency fee for same MOM steps",
-    "Helper over 50 — MI premium jumps sharply",
+    "Helper over 50 \u2014 MI premium jumps sharply",
     "Comparing transfer salary vs new-hire all-in cost",
     "Deciding MDW hire vs confinement-nanny package"
   ],
   "officialLinks": [
     {
-      "label": "MOM — Employ / renew MDW without an agency",
+      "label": "MOM \u2014 Employ / renew MDW without an agency",
       "url": "https://www.mom.gov.sg/faq/work-permit-for-fdw/can-i-employ-an-fdw-without-going-through-an-employment-agency"
     },
     {
-      "label": "MOM — MDW insurance requirements",
+      "label": "MOM \u2014 MDW insurance requirements",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements"
     },
     {
-      "label": "MOM — Renew MDW Work Permit",
+      "label": "MOM \u2014 Renew MDW Work Permit",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/renew-a-work-permit"
     },
     {
-      "label": "MOM — Settling-In Programme",
+      "label": "MOM \u2014 Settling-In Programme",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/settling-in-programme"
     },
     {
-      "label": "MOM — Work Permit for confinement nanny (key facts)",
+      "label": "MOM \u2014 Work Permit for confinement nanny (key facts)",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts"
     }
   ],
   "relatedGuides": [
     "hiring-domestic-helper-mdw",
     "confinement-nanny-postpartum-singapore",
-    "dual-career-hfmd-school-outbreak-coverage-singapore"
+    "dual-career-hfmd-school-outbreak-coverage-singapore",
+    "international-school-book-week-author-visit-ops-dual-career-singapore"
   ],
   "featured": false,
   "sponsored": false
