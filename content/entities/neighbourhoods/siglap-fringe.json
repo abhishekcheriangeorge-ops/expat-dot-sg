@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "siglap-fringe",
+  "name": "Siglap Fringe",
+  "summary": "Edges of Siglap toward Marine Parade / Bedok — east-coast adjacent living with quieter residential texture and ActiveSG catchment.",
+  "body": "Siglap Fringe is the shortlist when east-coast adjacency and quieter residential texture matter more than CBD skyline premiums. The pocket sits on the Siglap / Marine Parade / Bedok edges; housing mixes mid-age condos, walk-ups, and selective HDB. Expats land here for car-light hops to town and ActiveSG circuit / track catchment without Orchard rents. Watch-outs: LPS / earth-pit inspection notices on mid-rises, weekend cafe crowds on some strips, and confusing Siglap vs Siglap Fringe shortlists. Compare with Frankel East for denser landed-edge living, Opera Estate West for quieter estate texture, and Eunos North when EWL food density wins.",
+  "region": "east",
+  "vibe": [
+    "east-coast-adjacent",
+    "quieter-residential",
+    "practical",
+    "cafe-edges",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "car-light workers who want east-coast texture",
+    "households comparing Siglap Fringe vs Frankel East",
+    "renters who will book ActiveSG cycling circuits weekly",
+    "people okay with mid-age condo stock"
+  ],
+  "watchOuts": [
+    "LPS / earth-pit inspection notices on mid-rises",
+    "Weekend cafe and parking pressure on some strips",
+    "Peak bus crowding toward town",
+    "Siglap vs Siglap Fringe listing confusion"
+  ],
+  "housingMix": "Mid-age condos, walk-ups, and selective HDB with landed-edge pockets.",
+  "commuteNotes": "East-coast bus / EWL optionality depending on block; walk a Saturday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3900,
+    "familyFrom": 3500,
+    "familyTo": 7200
+  },
+  "mrt": [
+    "Bedok",
+    "Kembangan",
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
