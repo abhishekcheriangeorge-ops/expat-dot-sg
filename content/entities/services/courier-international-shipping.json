@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "courier-international-shipping",
+  "name": "International courier and shipping",
+  "summary": "How expats ship documents and parcels in and out of Singapore — passport/visa pouches, school applications, and household goods vs courier limits — without mixing formal customs rules with Facebook “runner” risk.",
+  "body": "Couriers move time-critical documents (visa packets, apostilles, school transcripts) and small parcels when full movers are overkill. Singapore’s retail courier network is dense; quality differences show up in customs brokerage, prohibited-item advice, and tracking clarity.\n\n## Use cases\n- Passport renewal packs to embassies abroad / returns\n- Notarised or apostilled documents to home-country authorities\n- University and school application packets with deadlines\n- Phone/laptop RMA to regional service hubs\n- Care packages within airline and courier restricted lists\n\nFor door-to-door furniture, use movers/relocation — couriers are not cheap mini-containers.\n\n## Compliance basics\nDeclare accurately. Batteries, food, medicines, and brand-parallel goods trigger holds. HSA/AVA-adjacent items are not “just declare as gifts.” Personal document shipments still need correct receiver ID details.\n\n## How to choose\nCompare door-to-door vs service-point dropoff, insurance limits, and whether duties are billed as DDP/DDU. For passports, prefer carriers used to embassy pouches and signature-on-delivery. Avoid informal runners for valuables or immigration documents.\n\n## Practical tip\nPhotograph contents and tracking labels before handover. For deadline filings, build two courier buffer days — tropical storms and customs queries are normal, not exceptional.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.customs.gov.sg/",
+  "whenToEngage": [
+    "Shipping passports or apostilled docs on a deadline",
+    "School/university packet needs tracked international delivery",
+    "Unsure courier vs mover for small household goods",
+    "Quoted informal runner for immigration documents"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Customs",
+      "url": "https://www.customs.gov.sg/"
+    },
+    {
+      "label": "ICA",
+      "url": "https://www.ica.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "document-apostille-notary-singapore",
+    "passports-and-documents-overseas",
+    "first-week-sim-singpass-bank"
+  ],
+  "featured": false,
+  "sponsored": false
+}

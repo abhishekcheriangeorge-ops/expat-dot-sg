@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "laser-eye-lasik",
+  "name": "Laser eye surgery (LASIK / SMILE / PRK)",
+  "summary": "How expats evaluate refractive surgery centres in Singapore for LASIK, SMILE, and PRK — suitability checks, military/occupation limits, and why optical shops are not the same as surgical counselling.",
+  "body": "Refractive surgery is a common expat “while I’m here” procedure: stable myopia, contact-lens fatigue in humidity, and competitive package marketing. Optical retailers and ophthalmology centres both advertise laser — only surgical pathways with proper suitability workups belong in this decision.\n\n## Procedure map\n- **LASIK** — flap + laser reshape; fast visual recovery for many candidates\n- **SMILE** — small-incision lenticule extraction; different dry-eye and activity profiles\n- **PRK / surface ablation** — no flap; slower recovery, useful for thinner corneas or certain occupations\n- **ICL / lens options** — when cornea is unsuitable\n\nSuitability needs topography, thickness, tear assessment, and realistic expectation setting — not only a power check at a mall optician.\n\n## Occupational caveats\nSome employers, aviation, diving, and uniformed roles have waiting periods or restrictions after laser. Confirm with your employer medical team before booking. Dry-eye risk is real in Singapore air-con; discuss occupation and screen time honestly.\n\n## Cost and marketing\nQuoted “both eyes” packages often exclude enhancements, medications, or follow-ups beyond a window. Ask about retreat rates, surgeon identity (not only brand), and after-hours complication pathways. Insurance almost never covers elective refractive surgery.\n\n## How to choose\nPrefer centres where an ophthalmologist examines you, explains why you are (or are not) a candidate, and does not pressure same-day surgery after a free screening. Bring prior prescriptions and soft-lens holiday duration requirements. If you only need progressive glasses or myopia control for kids, stay with optical/ophthalmology pathways — do not laser-shop those problems.\n\n## Practical tip\nStop contact lenses for the full advised period before topography. Flying home immediately after surgery complicates follow-up — plan local review visits before long-haul travel.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Stable myopia and considering LASIK/SMILE/PRK",
+    "Mall laser package before ophthalmologist suitability workup",
+    "Occupation or diving rules may restrict post-laser timing",
+    "Dry-eye risk in air-con needs frank counselling"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

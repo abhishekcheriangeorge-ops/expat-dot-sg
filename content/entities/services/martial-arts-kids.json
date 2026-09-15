@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "martial-arts-kids",
+  "name": "Martial arts for kids",
+  "summary": "How expat parents evaluate taekwondo, karate, judo, BJJ, and kung fu programmes in Singapore — belt systems, sparring safety, and trial norms before prepaid term fees.",
+  "body": "Martial arts fill the after-school gap for discipline and confidence, but schools vary wildly in coaching quality and hard-sparring culture. Match art and dojo to your child’s temperament and your school’s CCA load.\n\n## Matching art to child\n- **Taekwondo / karate** — kicking/striking patterns, common belt exams\n- **Judo / wrestling** — throws and grappling; good for contact confidence without punching focus\n- **BJJ** — ground game; check kids-only classes and mat hygiene\n- **Traditional kung fu / wushu** — forms-heavy; performance pathways differ\n\nAsk about competition pressure — some families want recreation only.\n\n## Safety and culture\nWatch a class: coach attention, bullying norms, and whether belts are earned or sold. Confirm first-aid readiness and concussion/ sparring gear rules. Air-con mats in humid weather still need hygiene standards.\n\n## How to choose\nTrial before term packages. Prefer coaches who can explain progression without guaranteeing black-belt timelines. For international-school travel weeks, make-up policies matter as much as syllabus. Girls-only or small-group options exist if that helps settling in.\n\n## Practical tip\nBuy only the uniform the school requires after the trial. Fancy weapons or multiple annual grading fees add up — get the extras list in writing with the term contract.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Trial kids martial-arts class before term package",
+    "Choosing striking vs grappling art for temperament",
+    "Sparring safety and make-up policy unclear",
+    "Belt grading fees stacking on top of term fees"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "international-schools-landscape",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

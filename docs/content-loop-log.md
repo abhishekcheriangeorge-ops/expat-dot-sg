@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 18 — 2026-09-15
+
+Branch: `cursor/services-directory-tick18-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171); five net-new category guides only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — LASIK package / dry-eye / “which centre” threads.
+- r/askSingapore — EP medical clinic recommendations and IPA timing stress.
+- r/askSingapore — wisdom tooth GA quotes / dental rider confusion.
+- Parenting forums — kids taekwondo vs BJJ temperament fit.
+- r/askSingapore — courier passport pouch / customs hold horror stories.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [SDC](https://www.healthprofessionals.gov.sg/sdc).
+- [MOM Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass).
+- [SportSG](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [Singapore Customs](https://www.customs.gov.sg/) + [ICA](https://www.ica.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#171 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 18: **laser eye / LASIK**, **occupational health / pre-employment medicals**, **OMS / maxillofacial**, **kids martial arts**, **international courier**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/laser-eye-lasik.json`
+- `content/entities/services/occupational-health-preemployment.json`
+- `content/entities/services/maxillofacial-oral-surgery.json`
+- `content/entities/services/martial-arts-kids.json`
+- `content/entities/services/courier-international-shipping.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#171 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. LASIK vs SMILE for dry-eye risk in air-con?
+2. Which clinic stamps MOM EP medical forms correctly?
+3. Does dental rider cover surgical wisdom teeth?
+4. Taekwondo or judo for a shy primary kid?
+5. Courier vs informal runner for passport renewal packs?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 15)
 
 Branch: `cursor/e-journeys-tools-tick15-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (through #139 on tip). **Did not wait for merges.** Avoided open E stack exclusives **#147** (newborn/sim-otp) and **#156** (condo/car-coe) plus earlier stack path sets. Prefer merge order note: **#147 → #156 → this tick**.

@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "maxillofacial-oral-surgery",
+  "name": "Oral and maxillofacial surgery",
+  "summary": "How expats find oral & maxillofacial surgeons in Singapore for wisdom teeth, jaw surgery, facial trauma, and complex dental extractions — when a general dentist should refer upward.",
+  "body": "Oral and maxillofacial surgery (OMS) sits between dentistry and medicine: impacted wisdom teeth, cysts, jaw alignment (orthognathic) surgery, facial fractures, and dental implants in complex bone. General dentists and orthodontists refer when risk, anatomy, or hospital anaesthesia is beyond clinic comfort.\n\n## Typical expat needs\n- Symptomatic or prophylactic wisdom tooth removal under LA or GA\n- Orthognathic pathways coordinated with orthodontics\n- Dental trauma after PMD/scooter falls or sports\n- Pathology needing biopsy\n- Implant/bone-graft cases after long-term missing teeth\n\n## Setting and cost\nMany wisdom teeth cases run in day-surgery centres; jaw surgery needs hospital admission. Public dental/OMS units exist with subsidy rules that often exclude foreigners or limit access — private OMS consultants are the usual EP path. Confirm whether your dental rider covers surgical extractions vs restorative-only schedules.\n\n## How to choose\nPrefer SMC/SDC-appropriate specialists who explain nerve injury risk, imaging (OPG/CBCT) rationale, and freeze timelines for orthognathic cases. Get written quotes for GA, facility, and assistant fees. Avoid “cheap wisdom package” ads that skip proper imaging.\n\n## Practical tip\nIf flying soon after extractions, ask about dry-socket risk and swimming/diving restrictions. Arrange soft-food logistics in a rental kitchen before GA days — GrabFood alone is miserable without a recovery plan.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/sdc",
+  "whenToEngage": [
+    "Impacted wisdom teeth need surgical removal",
+    "Dentist refers for jaw surgery or complex extraction",
+    "Facial dental trauma after fall or sport",
+    "Dental rider coverage for surgical extractions unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Dental Council",
+      "url": "https://www.healthprofessionals.gov.sg/sdc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "dental-care-foreigners-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "occupational-health-preemployment",
+  "name": "Occupational health and pre-employment medicals",
+  "summary": "How expats book pre-employment, EP issuance, and workplace medicals in Singapore — what MOM/employer panels actually need, vs executive screens sold as “medical check” upsells.",
+  "body": "Not every “health screening” satisfies an Employment Pass issuance exam, offshore fitness certificate, or employer onboarding panel. Occupational health clinics and designated GP/panel labs exist to match form fields — chest X-ray, HIV, pregnancy where required, vision, and role-specific tests.\n\n## Common triggers\n- EP / S Pass issuance medical after in-principle approval\n- Pre-employment forms for finance, healthcare, education, or F&B roles\n- Offshore / shipyard / height fitness and audiometry\n- Return-to-work or periodic surveillance for certain industries\n- Driver or heavy-vehicle medicals when relevant\n\nBring the exact form PDF. Clinics cannot invent MOM fields from a wellness brochure.\n\n## Choosing a clinic\nPanel clinics familiar with MOM forms reduce rejection loops. Hospital executive suites can run thorough screens that still miss a single tick-box the employer needs. Ask whether results upload to the required portal or arrive as stamped hardcopy within your IPA window.\n\n## Privacy and cost\nEmployer-paid medicals may share results with HR under consent — read what you sign. Self-paid issuance medicals are usually cash and modest compared with full-body packages. Do not buy tumour-marker add-ons to “speed” an EP medical.\n\n## How to choose\nMatch clinic to form type, turnaround SLA, and X-ray on-site vs referral. For shift workers, ask about early slots. If you failed a prior film (old TB scar folklore), bring prior imaging so radiologists can compare.\n\n## Practical tip\nBook the medical as soon as IPA lands — peak weeks slip. Eat/fast only as instructed for that form; EP medicals are not always fasting lipid panels.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.mom.gov.sg/",
+  "whenToEngage": [
+    "EP/S Pass issuance medical after IPA",
+    "Employer pre-employment panel form needs a panel clinic",
+    "Offshore/height fitness or audiometry certificate",
+    "Wellness package quoted instead of MOM form fields"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM — Employment Pass",
+      "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "ep-medical-examination-issuance",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
