@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 20) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick20-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/clubs entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #149 (#80/#91/#100/#108/#115/#129/#134/#142/#149). Shared log + `site.ts` only. Skipped primary-CCA-vs-academy (#115/#91 adjacency) and learning-support waitlist depth (#149 adjacency).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — fever exclusions vs dual EP meetings; helper rest-day cliffs.
+- r/askSingapore — kids’ passport validity surprises; embassy queues before long breaks.
+- r/askSingapore — church/temple preschool gates as belonging; unpaid nursery rota fatigue.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [ICA](https://www.ica.gov.sg/) + [MOM Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass)
+- [MCCY](https://www.mccy.gov.sg/) community orientation
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–19 (open through #149) covered schools/SEN through NLB belonging. Remaining heat without contested paths: **dual-career sick-child coverage**, **kids passport/term-travel ops**, **faith–preschool parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-sick-child-coverage-singapore.mdx`
+- `content/guides/family/kids-passport-renewal-school-term-travel-singapore.mdx`
+- `content/guides/belong/faith-preschool-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- family violence PPO, heartland living, condo noise/MCST
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- `content/entities/clubs/st-georges-church.json`
+- `content/entities/schools/japanese-school.json`
+- `content/entities/schools/lycee-francais.json`
+- `content/entities/schools/swiss-school.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#149 guide/entity paths.
+
+### Questions mined (sample)
+
+1. Who owns Wednesday if the fever starts at drop-off?
+2. Is the helper rest day on the matrix?
+3. How many months left on each child’s passport?
+4. Does term-time absence need principal approval?
+5. Is nursery during service our coverage plan? (No.)
+6. How many volunteer hours fit two full-time jobs?
+7. Which embassy queue is slower?
+8. Who is on-island if one parent flies with the kids?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 19) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick19-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/services entity depth. No ads / no Grok. Did **not** edit any path in open B stack #80/#91/#100/#108/#115/#129/#134/#142. Light Home cross-link only on neighbourhood choice. Explicitly skipped primary-CCA-vs-academy and sports-sideline belonging (#115/#91 adjacency).
