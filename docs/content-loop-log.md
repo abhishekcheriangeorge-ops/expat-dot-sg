@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 6 — 2026-09-15
+
+Branch: `cursor/services-directory-tick6-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–5 topics and avoided open #70 touch set (pedia/IVF/SLT-OT/preschool/TCM + dental/mental/enrichment/immigration/helper upgrades). Rebased onto main after #64 landed.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — aged-parent LTVP + nursing-home cost/subsidy gates ([bring parent dependent](https://www.reddit.com/r/askSingapore/comments/1dwrds5/bringing_parent_to_singapore_as_dependent_visa/); [nursing home subsidies](https://www.reddit.com/r/askSingapore/comments/1ocv1et/nursing_home_and_long_term_care_subsidies/); [what qualifies for subsidised NH](https://www.reddit.com/r/askSingapore/comments/1thsbya/what_really_qualifies_someone_for_subsidised/)).
+- r/askSingapore — AEIS / international-school placement realism ([EP education subsidies](https://www.reddit.com/r/askSingapore/comments/13hduoz/do_any_educational_subsidies_or_grants_exists_for/); [DP government education](https://www.reddit.com/r/askSingapore/comments/1jfc9e5/dependent_pass_and_government_education/); [AEIS prep ask](https://www.reddit.com/r/askSingapore/comments/1bynbk6/helping_my_malaysian_cousin_11_yo_to_study_here/)).
+- SCDF 995 vs paid non-emergency ambulance / A&E deposit adjacency (official EMS pages + emergencies guide heat).
+- Death-admin / repatriation vendor confusion adjacent to household clear-out movers.
+
+**Official**
+
+- [AIC — Nursing homes](https://www.aic.sg/Care-Services/Nursing-Home) + [MOH residential LTC subsidies](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/subsidies-for-residential-long-term-care-services/) + [MOM LTVP](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/key-facts).
+- [MOE international students / AEIS](https://www.moe.gov.sg/international-students/admission) + [ICA Student’s Pass](https://www.ica.gov.sg/reside/STP).
+- [SCDF EMS](https://www.scdf.gov.sg/home/about-scdf/emergency-medical-services) + [MOH find a facility](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/).
+- [Judiciary probate](https://www.judiciary.gov.sg/family/apply-for-probate) + ICA death-registration context.
+
+### Gaps vs ticks 1–5 / open PRs
+
+Ticks 1–4 on main plus open #70 cover tax/dental/notary/storage/pets, mental health/licence/aircon/insurance/FDW DIY, pest/furniture/cleaning-exit/nanny/car-share, physio/optical/vet/bank/wills, and pedia/IVF/SLT-OT/preschool/TCM. Remaining high-intent **directory** gaps: **eldercare/NH for LTVP parents**, **school placement vs AEIS honesty**, **995 vs paid ambulance / A&E deposits**, **funeral & repatriation vendors**, and **recurring home cleaning** (distinct from end-of-lease).
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/eldercare-nursing-homes.json`
+- `content/entities/services/school-placement-aeis.json`
+- `content/entities/services/emergency-ambulance-ae.json`
+- `content/entities/services/funeral-repatriation.json`
+- `content/entities/services/regular-home-cleaning.json`
+
+**Upgraded existing** (avoided #70 paths; #64 already on main)
+
+- Legal/tax: `family-law-expat.json`, `tax-agents.json`
+- Movers/storage: `alliance-movers.json`, `asian-tigers-mobility.json`, `santa-fe-relocation.json`, `self-storage.json`
+- Agents: `era-realty.json`, `huttons.json`, `orange-tee.json`
+- Helper / exit clean: `nation-employment.json`, `end-of-lease-cleaning.json`
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Can my LTVP parent get MOH-subsidised nursing-home care?
+2. How do AIC referrals work if we are not citizens/PRs?
+3. Should I hire a school placement agent for international schools?
+4. Can an agent guarantee an AEIS pass or MOE school choice?
+5. Is SCDF 995 free for foreigners in a true emergency?
+6. When do I pay for a private / 1777 ambulance instead?
+7. Will a private hospital demand a large A&E deposit without LOG?
+8. Who coordinates funeral vs remains repatriation paperwork?
+9. Can my mover also handle repatriation of remains?
+10. Is a weekly cleaner enough to satisfy an end-of-lease professional-clean clause?
+
+---
+
 ## Loop F — Services directory depth — Tick 4 — 2026-09-15
 
 Branch: `cursor/services-directory-tick4-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–3 topics (tax / dental / notary-as-primary / storage / pets-relocation-as-primary / mental health / licence / aircon / private-health-as-primary / FDW DIY / pest / furniture / end-of-lease cleaning / confinement nanny / car sharing).

@@ -1,0 +1,41 @@
+{
+  "type": "service",
+  "slug": "funeral-repatriation",
+  "name": "Funeral & repatriation (category guide)",
+  "summary": "Funeral directors and repatriation logistics for foreigners \u2014 ICA/police death paperwork, embassy roles, cargo vs escort flights, and why a will / CPF nomination still matters before anyone quotes urn shipping.",
+  "body": "When a foreign national dies in Singapore, funeral directors coordinate with hospitals, ICA, and (when required) police documentation before cremation, burial, or repatriation of remains. Embassies help with next-of-kin authentication and laissez-passer paperwork \u2014 they do not pay bills. Ask quotes to separate local funeral rites, embalming/cremation, airline cargo, escort seats, and destination receiving costs; \u2018repatriation packages\u2019 hide which legs are optional. Keep passport, FIN/pass card, and insurance death-benefit contacts findable; banks freeze accounts until probate/letters of administration appear. Pair this directory entry with the death-repatriation guide, wills/CPF nomination guide, and outbound shipping only when household clear-out is also required. This is a category guide, not a ranked funeral-home list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide",
+    "International"
+  ],
+  "whenToEngage": [
+    "Need funeral director for foreign national death admin",
+    "Comparing local cremation vs repatriation cargo quotes",
+    "Embassy / ICA paperwork sequence unclear for next-of-kin",
+    "Household clear-out + remains logistics both needed"
+  ],
+  "officialLinks": [
+    {
+      "label": "ICA \u2014 Death registration overview",
+      "url": "https://www.ica.gov.sg/"
+    },
+    {
+      "label": "Ministry of Health \u2014 Death certification context",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Judiciary \u2014 Apply for probate",
+      "url": "https://www.judiciary.gov.sg/family/apply-for-probate"
+    }
+  ],
+  "relatedGuides": [
+    "death-repatriation-foreigners-singapore",
+    "wills-probate-cpf-nomination-singapore",
+    "shipping-out-household",
+    "leaving-singapore-playbook",
+    "emergencies-995-999-embassies"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "santa-fe-relocation",
   "name": "Santa Fe Relocation",
-  "summary": "Global relocation firm on many corporate vendor lists — door-to-door household goods inbound and outbound, plus destination orientation.",
-  "body": "Santa Fe and peers often appear on corporate approved-vendor lists for both inbound and outbound moves. Self-movers should still compare Singapore destination-agent quality, storage fees, and Customs GST-relief handling as carefully as origin pack pricing. On exit, get like-for-like quotes against shared-crate services and SingPost for tiny volumes — furniture rarely pays to ship when the destination has IKEA. Confirm who owns inventory accuracy, insurance valuation, condo lift bookings, and packing-waste disposal in writing before the container sails. Pair with the shipping-household and shipping-out guides.",
+  "summary": "Global relocation firm on many corporate vendor lists \u2014 door-to-door household goods inbound and outbound, plus destination orientation.",
+  "body": "Santa Fe and peers often appear on corporate approved-vendor lists for both inbound and outbound moves. Self-movers should still compare Singapore destination-agent quality, storage fees, and Customs GST-relief handling as carefully as origin pack pricing. On exit, get like-for-like quotes against shared-crate services and SingPost for tiny volumes \u2014 furniture rarely pays to ship when the destination has IKEA. Confirm who owns inventory accuracy, insurance valuation, condo lift bookings, and packing-waste disposal in writing before the container sails. Pair with the shipping-household and shipping-out guides. Corporate relocation vendors are rarely the right first call for remains repatriation \u2014 keep funeral directors on the death rail and use movers only for apartment clear-out and onward freight of effects.",
   "category": "movers",
   "areasServed": [
     "Islandwide",
@@ -15,20 +15,22 @@
   "whenToEngage": [
     "On corporate approved-vendor list for door-to-door",
     "Comparing outbound crate vs SingPost for small volume",
-    "Need destination-agent quality check in writing"
+    "Need destination-agent quality check in writing",
+    "Corporate move vendor asked to handle death clear-out"
   ],
   "officialLinks": [
     {
-      "label": "Singapore Customs — moving to Singapore",
+      "label": "Singapore Customs \u2014 moving to Singapore",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/"
     },
     {
-      "label": "Singapore Customs — GST relief qualification",
+      "label": "Singapore Customs \u2014 GST relief qualification",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/"
     }
   ],
   "relatedGuides": [
     "shipping-household-singapore",
-    "shipping-out-household"
+    "shipping-out-household",
+    "death-repatriation-foreigners-singapore"
   ]
 }

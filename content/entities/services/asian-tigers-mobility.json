@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "asian-tigers-mobility",
   "name": "Asian Tigers Mobility",
-  "summary": "Regional moving and relocation brand frequently used on corporate packages — useful when GST relief paperwork and condo lift bookings matter as much as the crate.",
-  "body": "International movers differ wildly on inventory care, storage, and Singapore Customs paperwork. Ask explicitly who files the Declaration of Facts and TradeNet GST-relief permit before the Bill of Lading lands — late DOFs are a common reason courier/freight holds bill GST on used personal effects. Get two to three like-for-like quotes on the same inventory, confirm insurance valuation, and align shipment timing with housing keys and condo move-in slots, not only with your flight. For later intra-island shifts of the same household, many families switch to lighter local movers once the ocean freight chapter closes — still coordinate MCST lift padding and deposits. Pair with the shipping-household and moving-within-Singapore guides.",
+  "summary": "Regional moving and relocation brand frequently used on corporate packages \u2014 useful when GST relief paperwork and condo lift bookings matter as much as the crate.",
+  "body": "International movers differ wildly on inventory care, storage, and Singapore Customs paperwork. Ask explicitly who files the Declaration of Facts and TradeNet GST-relief permit before the Bill of Lading lands \u2014 late DOFs are a common reason courier/freight holds bill GST on used personal effects. Get two to three like-for-like quotes on the same inventory, confirm insurance valuation, and align shipment timing with housing keys and condo move-in slots, not only with your flight. For later intra-island shifts of the same household, many families switch to lighter local movers once the ocean freight chapter closes \u2014 still coordinate MCST lift padding and deposits. Pair with the shipping-household and moving-within-Singapore guides. International movers sometimes appear in death-admin threads for household export after a funeral \u2014 confirm they are quoting cargo for effects, not remains, and that ICA/funeral-director paperwork stays with the funeral rail.",
   "category": "movers",
   "areasServed": [
     "Islandwide",
@@ -15,21 +15,23 @@
   "whenToEngage": [
     "Corporate or self-managed inbound ocean freight",
     "Need Customs DOF / GST-relief ownership clarity",
-    "Aligning shipment with condo lift slots"
+    "Aligning shipment with condo lift slots",
+    "Post-funeral household export needs mover vs funeral split"
   ],
   "officialLinks": [
     {
-      "label": "Singapore Customs — moving to Singapore",
+      "label": "Singapore Customs \u2014 moving to Singapore",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/"
     },
     {
-      "label": "Singapore Customs — GST relief qualification",
+      "label": "Singapore Customs \u2014 GST relief qualification",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/"
     }
   ],
   "relatedGuides": [
     "shipping-household-singapore",
     "moving-within-singapore",
-    "shipping-out-household"
+    "shipping-out-household",
+    "death-repatriation-foreigners-singapore"
   ]
 }

@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "huttons",
   "name": "Huttons Asia",
-  "summary": "Large agency presence for rentals and purchases across Singapore districts — verify CEA registration, commission, and renewal terms before viewings.",
-  "body": "Use agency scale for inventory breadth, then judge the agent on response time and contract hygiene. Never skip reading the tenancy agreement because someone is 'in a hurry.' On tenant representation, insist on a CEA prescribed Estate Agency Agreement that states commission, GST, and whether renewal attracts a further fee — there is no statutory rate, and surprise year-two invoices are a recurring expat complaint. Landlord’s agents who demand tenant commission while also being paid by the owner are a CEA dual-rep red flag — verify who engaged whom in writing and report with evidence if both sides paid the same salesperson. Push for written clarity on professional cleaning, curtain dry-clean, and pest / defect-free wording before you sign — end-of-lease invoice theatre starts in the LOI. On the buy side, treat ABSD and BSD timelines as critical path — foreigners often underestimate cash due within days of the OTP. Ask whether the agent has closed FTA-remission purchases before if you are US or EFTA-national; process mistakes are expensive at 60% ABSD. Pay the agency with a receipt; dual commission from both sides of one deal is an offence.",
+  "summary": "Large agency presence for rentals and purchases across Singapore districts \u2014 verify CEA registration, commission, and renewal terms before viewings.",
+  "body": "Use agency scale for inventory breadth, then judge the agent on response time and contract hygiene. Never skip reading the tenancy agreement because someone is 'in a hurry.' On tenant representation, insist on a CEA prescribed Estate Agency Agreement that states commission, GST, and whether renewal attracts a further fee \u2014 there is no statutory rate, and surprise year-two invoices are a recurring expat complaint. Landlord\u2019s agents who demand tenant commission while also being paid by the owner are a CEA dual-rep red flag \u2014 verify who engaged whom in writing and report with evidence if both sides paid the same salesperson. Push for written clarity on professional cleaning, curtain dry-clean, and pest / defect-free wording before you sign \u2014 end-of-lease invoice theatre starts in the LOI. On the buy side, treat ABSD and BSD timelines as critical path \u2014 foreigners often underestimate cash due within days of the OTP. Ask whether the agent has closed FTA-remission purchases before if you are US or EFTA-national; process mistakes are expensive at 60% ABSD. Pay the agency with a receipt; dual commission from both sides of one deal is an offence. If school logistics drive the search, bring campus addresses and bus lists to the briefing \u2014 dual-rep pressure already hurts tenants; adding last-minute school-run constraints mid-negotiation is worse.",
   "category": "agents",
   "areasServed": [
     "Islandwide"
@@ -15,20 +15,21 @@
     "Renting with tenant-side representation",
     "Need CEA prescribed agreement before viewings",
     "Purchase / ABSD maths must be stated on OTP",
-    "Landlord’s agent pushing tenant to pay their commission",
-    "Need cleaning / pest / defect-free clauses clarified at LOI"
+    "Landlord\u2019s agent pushing tenant to pay their commission",
+    "Need cleaning / pest / defect-free clauses clarified at LOI",
+    "School-run / campus proximity is a hard filter"
   ],
   "officialLinks": [
     {
-      "label": "CEA — Public register of agents",
+      "label": "CEA \u2014 Public register of agents",
       "url": "https://www.cea.gov.sg/public-register/"
     },
     {
-      "label": "CEA — Engaging an agent (renting)",
+      "label": "CEA \u2014 Engaging an agent (renting)",
       "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
     },
     {
-      "label": "IRAS — Stamp duty for renting",
+      "label": "IRAS \u2014 Stamp duty for renting",
       "url": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property"
     }
   ],
@@ -36,6 +37,7 @@
     "renting-process-loi-ta-deposits",
     "buying-property-foreigner-absd",
     "rental-inventory-fair-wear-tear",
-    "aircon-pest-renewals"
+    "aircon-pest-renewals",
+    "international-schools-landscape"
   ]
 }

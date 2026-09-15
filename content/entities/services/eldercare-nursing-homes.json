@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "eldercare-nursing-homes",
+  "name": "Eldercare & nursing homes (category guide)",
+  "summary": "AIC nursing-home paths vs private eldercare for LTVP parents \u2014 citizen/PR subsidy gates, ADL assessments, and why an EP child\u2019s salary does not unlock MOH residential LTC co-funding for a foreign parent.",
+  "body": "MOH residential long-term-care subsidies and AIC-brokered nursing-home seats are built around Singapore Citizen / PR residents with means-tested household income \u2014 an EP child sponsoring a foreign parent on LTVP generally pays private rates. Start with a doctor or hospital medical social worker for care-needs (ADL) assessment; AIC Link helps citizens/PRs into subsidised queues, while private homes take direct applications with medical reports and deposits. Forum threads quote private beds in the low thousands SGD per month before add-ons; assume pre-existing conditions are poorly covered by LTVP medical insurance. Many EP households combine a live-in helper with day-care rather than jumping straight to institutional care \u2014 model rest-day backup honestly. Pair placement shopping with the aged-parent LTVP / PR guide and immigration counsel when the pass itself is the blocker. This is a category guide, not a ranked nursing-home list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Foreign parent on LTVP needs nursing-level care \u2014 private path likely",
+    "Need AIC vs direct private home application clarity",
+    "Comparing helper + day-care vs institutional placement costs",
+    "LTVP medical insurance excludes pre-existing conditions"
+  ],
+  "officialLinks": [
+    {
+      "label": "AIC \u2014 Nursing home care services",
+      "url": "https://www.aic.sg/Care-Services/Nursing-Home"
+    },
+    {
+      "label": "MOH \u2014 Subsidies for residential long-term care",
+      "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/subsidies-for-residential-long-term-care-services/"
+    },
+    {
+      "label": "MOM \u2014 Long-Term Visit Pass key facts",
+      "url": "https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/key-facts"
+    }
+  ],
+  "relatedGuides": [
+    "aged-parents-pr-ltvp-singapore",
+    "hiring-domestic-helper-mdw",
+    "health-insurance-expat",
+    "healthcare-gp-hospital",
+    "death-repatriation-foreigners-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
