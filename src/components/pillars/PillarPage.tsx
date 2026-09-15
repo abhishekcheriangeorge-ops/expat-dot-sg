@@ -24,6 +24,13 @@ export function PillarPage({ slug }: PillarPageProps) {
             <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink-muted sm:text-xl">
               {pillar.summary}
             </p>
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-ink-muted">
+              How to use this pillar: open one topic below that matches the
+              decision in front of you — then follow related guides. Prefer the{" "}
+              {modeLinks.map((m) => m.label).join(" / ")} hub
+              {modeLinks.length > 1 ? "s" : ""} if you need the full journey
+              sequence first.
+            </p>
             <div className="mt-6 flex flex-wrap gap-3">
               {modeLinks.map((mode) => (
                 <Link
@@ -45,7 +52,8 @@ export function PillarPage({ slug }: PillarPageProps) {
             In this pillar
           </h2>
           <p className="mt-2 max-w-lg text-ink-muted">
-            Topic map with live navigation into guides and directories.
+            Topic map with live navigation into guides and directories — one
+            decision per row.
           </p>
         </FadeIn>
 

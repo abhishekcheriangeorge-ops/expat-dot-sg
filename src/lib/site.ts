@@ -34,6 +34,12 @@ export type Pillar = {
   related: NavLink[];
 };
 
+export type ModeStartLink = {
+  href: string;
+  label: string;
+  blurb: string;
+};
+
 export const modes = [
   {
     slug: "arriving" as const,
@@ -42,6 +48,30 @@ export const modes = [
     tagline: "Deciding, packing, first 90 days",
     summary:
       "From the offer letter through visas, first housing, banking, and the chaos of week one — a clear path into Singapore.",
+    howToUse:
+      "Start with the dependency map (SIM → Singpass → bank), file the SG Arrival Card, then push HR through issuance → Notification Letter → EPSC. Tick the 7/30/90 boards; open a pillar only when a specific blocker appears.",
+    startHere: [
+      {
+        href: "/guides/first-week-sim-singpass-bank",
+        label: "Week-one dependency map",
+        blurb: "The real order for SIM, Singpass, bank, and PayNow.",
+      },
+      {
+        href: "/guides/sg-arrival-card-expats",
+        label: "SG Arrival Card",
+        blurb: "ICA’s 3-day window, IPA path, and why it is not a visa.",
+      },
+      {
+        href: "/guides/work-pass-issuance-epsc-notification",
+        label: "Issuance → EPSC → card",
+        blurb: "IPA vs Notification Letter, when you may work, biometrics clocks.",
+      },
+      {
+        href: "/journeys/arriving",
+        label: "7 / 30 / 90 checklists",
+        blurb: "Tickable boards for landing week through first quarter.",
+      },
+    ] as const satisfies readonly ModeStartLink[],
     image: "/images/arriving-singapore.jpg",
     imageAlt: "Marina Bay skyline at dusk, Singapore",
   },
@@ -52,6 +82,30 @@ export const modes = [
     tagline: "Thriving, renewing, belonging, leaving",
     summary:
       "Year two and beyond — neighbourhoods that fit, schools that work, communities that stick, and a clear exit when it is time.",
+    howToUse:
+      "Use Living when issuance drama is over. Pick one life category (home, school, belonging, renewals) — each pillar page is a topic map, not a feed. Keep the leaving playbook bookmarked before you need it.",
+    startHere: [
+      {
+        href: "/guides/healthcare-gp-hospital",
+        label: "GP vs A&E triage",
+        blurb: "Which door to open when someone is sick at 10pm.",
+      },
+      {
+        href: "/guides/emergencies-995-999-embassies",
+        label: "995 vs 999",
+        blurb: "Emergency numbers, dengue inspections, embassy limits.",
+      },
+      {
+        href: "/neighbourhoods",
+        label: "Neighbourhoods",
+        blurb: "Where the commute and weekends actually fit.",
+      },
+      {
+        href: "/journeys/leaving",
+        label: "Leaving playbook",
+        blurb: "IR21, deposits, and the exit sequence when plans change.",
+      },
+    ] as const satisfies readonly ModeStartLink[],
     image: "/images/living-singapore.jpg",
     imageAlt: "Gardens by the Bay at dusk, Singapore",
   },
@@ -68,34 +122,34 @@ export const pillars: Pillar[] = [
     modes: ["arriving"],
     topics: [
       {
+        label: "Week-one dependency map",
+        href: "/guides/first-week-sim-singpass-bank",
+        blurb: "SIM → Singpass → bank order that stops circular blockers.",
+      },
+      {
+        label: "SG Arrival Card",
+        href: "/guides/sg-arrival-card-expats",
+        blurb: "ICA’s 3-day window and IPA vs issued-pass paths.",
+      },
+      {
+        label: "Issuance, EPSC & Notification Letter",
+        href: "/guides/work-pass-issuance-epsc-notification",
+        blurb: "When you may work, biometrics, SGWorkPass, card delivery.",
+      },
+      {
         label: "Employment Pass & COMPASS",
-        href: "/guides",
+        href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
       },
       {
-        label: "Dependant & LTVP passes",
-        href: "/guides",
-        blurb: "Bringing a partner or family — documents and timelines.",
-      },
-      {
         label: "Relocation checklists",
-        href: "/arriving",
+        href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
       },
       {
-        label: "Shipping, pets & driving",
-        href: "/guides",
-        blurb: "Import rules, quarantine, and converting a foreign licence.",
-      },
-      {
         label: "First housing bridge",
-        href: "/home",
+        href: "/guides/first-housing-serviced-apartment",
         blurb: "Serviced apartments and short lets while you hunt properly.",
-      },
-      {
-        label: "Trailing-partner career",
-        href: "/guides",
-        blurb: "Work rights, networking, and realistic first-job paths.",
       },
     ],
     related: [
@@ -222,7 +276,7 @@ export const pillars: Pillar[] = [
       },
       {
         label: "Healthcare for families",
-        href: "/guides",
+        href: "/guides/healthcare-gp-hospital",
         blurb: "GP, hospitals, maternity, and mental health.",
       },
       {
@@ -253,8 +307,8 @@ export const pillars: Pillar[] = [
     topics: [
       {
         label: "Transport fluency",
-        href: "/guides",
-        blurb: "MRT, buses, Grab, and when a car still makes sense.",
+        href: "/guides/mrt-bus-transport-literacy",
+        blurb: "SimplyGo, foreign-card fee, EZ-Link, and when Grab wins.",
       },
       {
         label: "Food & hawker literacy",
@@ -278,7 +332,7 @@ export const pillars: Pillar[] = [
       },
       {
         label: "Climate, haze & emergencies",
-        href: "/guides",
+        href: "/guides/emergencies-995-999-embassies",
         blurb: "995/999, embassies, and what haze season requires.",
       },
     ],

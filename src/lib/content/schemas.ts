@@ -35,6 +35,13 @@ export const GuideSponsorSlotSchema = z.object({
 });
 export type GuideSponsorSlot = z.infer<typeof GuideSponsorSlotSchema>;
 
+/** Optional FAQ pairs — powers FAQPage JSON-LD for answer engines */
+export const GuideFaqSchema = z.object({
+  question: z.string().min(1),
+  answer: z.string().min(1),
+});
+export type GuideFaq = z.infer<typeof GuideFaqSchema>;
+
 export const GuideFrontmatterSchema = z.object({
   title: z.string().min(1),
   description: z.string().min(1),
@@ -53,6 +60,7 @@ export const GuideFrontmatterSchema = z.object({
     .default([]),
   relatedEntities: z.array(z.string()).default([]),
   relatedGuides: z.array(z.string()).default([]),
+  faqs: z.array(GuideFaqSchema).default([]),
   sponsorSlot: GuideSponsorSlotSchema.optional(),
   draft: z.boolean().default(false),
   ogImage: z.string().optional(),

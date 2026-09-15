@@ -19,11 +19,38 @@ export default async function ArrivingJourneysPage() {
       <JourneyHero
         eyebrow="Arriving"
         title="The first 90 days, in three lists."
-        summary="Land soft, get operational, then build routines. Tick items in your browser — progress stays local."
+        summary="Land soft, get operational, then build routines. Tick items in your browser — progress stays local. Start with the week-one dependency map, SG Arrival Card, and issuance → EPSC guide so you do not invent circular blockers."
       />
       <ArrivingPhaseNav />
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
+        <FadeIn className="mb-12 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+          <Link
+            href="/guides/first-week-sim-singpass-bank"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Week-one dependency map →
+          </Link>
+          <Link
+            href="/guides/sg-arrival-card-expats"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            SG Arrival Card →
+          </Link>
+          <Link
+            href="/guides/work-pass-issuance-epsc-notification"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Issuance → EPSC → card →
+          </Link>
+          <Link
+            href="/guides/relocation-checklist-7-30-90"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Narrative checklist →
+          </Link>
+        </FadeIn>
+
         <Stagger className="flex flex-col gap-10">
           {phases.map((phase) => {
             const c = checklists.find((x) => x.phase === phase);

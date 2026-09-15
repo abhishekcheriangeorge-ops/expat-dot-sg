@@ -6,8 +6,6 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
----
-
 ## Loop B — Family + Belong (tick 5) — 2026-09-15
 
 Branch: `loop/family-belong-tick5` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; neighbourhood/housing deep guides stay Home-owned).
@@ -88,8 +86,6 @@ Ticks 1–4 covered waitlists/SEN/camps/clubs/LGBTQ/dual-career, newborn/Baby Bo
 
 ---
 
----
-
 ## Loop B — Family + Belong (tick 4) — 2026-09-15
 
 Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned).
@@ -165,6 +161,118 @@ Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-ca
 15. Is parkrun a realistic first social ritual before joining a paid run club?
 
 ---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 2)
+
+Branch: `loop/story-aeo-tick2` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 1’s SIM/SGAC/FAQPage foundation. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (FWTES / EP job-change / HDB / SEO shell / services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IPA vs Notification Letter / when can I work / Singpass before plastic card ([start work with IPA only](https://www.reddit.com/r/askSingapore/comments/16i7zxi/start_work_with_ipa_only/); [EP but no IPA yet](https://www.reddit.com/r/askSingapore/comments/16kc2jf/i_have_the_ep_but_no_ipa_yet/); [Singpass after Notification Letter](https://www.reddit.com/r/askSingapore/comments/wfwo76/expat_arrived_from_australia_last_evening_can_i/); [EP related IPA delay](https://www.reddit.com/r/askSingapore/comments/1f1jnjh/ep_related/)).
+
+**Official**
+
+- [MOM — Apply for an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass/) (IPA → issue → Notification Letter 1 month → EPSC within 2 weeks → card ~5 working days; SGWorkPass).
+- [MOM — Key facts on Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/key-facts).
+- [SimplyGo — Contactless bank cards FAQ](https://simplygo.com.sg/faqs/cards-and-charms/simplygo/contactless-bank-cards/) (S$0.60/day foreign-card admin fee).
+- [URA — Short-term accommodation](https://www.ura.gov.sg/guidelines/property-and-business-owners/property/short-term-accommodation/).
+
+### Gaps vs tick 1
+
+Tick 1 shipped SIM→Singpass→bank, SG Arrival Card, healthcare/emergency FAQs, FAQPage schema. Remaining high-intent **arriving** gaps: **can I work on IPA alone / Notification Letter / EPSC bag list / card delivery** (only buried in appeal guide + day-7 MOM deep-link), **SimplyGo foreign-card fee** (MRT guide had no FAQ/lead), **serviced apartment legality + address for banks/MOM** (housing bridge lacked FAQPage).
+
+### Shipped this loop
+
+**New**
+
+- `content/guides/move/work-pass-issuance-epsc-notification.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/life/mrt-bus-transport-literacy.mdx` (direct lead + FAQPage)
+- `content/guides/move/first-housing-serviced-apartment.mdx` (direct lead + FAQPage)
+- `content/guides/move/first-week-sim-singpass-bank.mdx` (cross-links)
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx` (cross-link only)
+- `content/journeys/checklists/day-7.json` (EPSC + SimplyGo hrefs)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Arriving start-here + Move/Life topic hrefs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Can I start work with only an IPA letter?
+2. What is the MOM Notification Letter, and how long is it valid?
+3. Do I need the physical EP card before I can work?
+4. How soon must I attend EPSC for fingerprints and photo?
+5. When does the physical work pass card arrive, and what if delivery fails?
+6. Can I ride MRT/buses on a foreign credit card, and what is the SimplyGo admin fee?
+7. Do I need an EZ-Link as a new expat?
+8. Why was I charged the maximum MRT fare?
+9. Should I book a serviced apartment for my first weeks?
+10. Is a condo Airbnb short-let legal under three months?
+11. Can a serviced-apartment address work for bank opening and MOM issuance?
+12. When should I update my MOM residential address after the bridge stay?
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15
+
+Branch: `loop/story-aeo` → PR to `main`. Owns **journey completeness**, **answer-engine shape** (FAQ leads, FAQPage JSON-LD, decision tables), Arriving/Living hub framing, and surgical FAQ upgrades. Did **not** expand ads/monetization or wholesale-rewrite guides owned by Loops A–G this hour.
+
+### Questions mined (forum-shaped)
+
+1. Do I need Singpass before I can open a Singapore bank account?
+2. Can I buy a +65 SIM with only passport / IPA?
+3. What is the real order: SIM → pass → Singpass → bank → PayNow?
+4. Does Singpass SMS 2FA work with my home-country number?
+5. What is the SG Arrival Card, and when must I submit it?
+6. Is SG Arrival Card a visa?
+7. I have an EP IPA — which SGAC path do I use?
+8. What should I actually do in the first 7 days?
+9. 995 or 999 — which number for medical vs police?
+10. Should expats use a polyclinic or a private GP?
+11. When is A&E right vs wait-for-GP?
+12. Will my embassy pay hospital bills or cancel a dengue fine?
+
+### Answer-engine shape added
+
+- Optional `faqs[]` frontmatter → **FAQPage JSON-LD** on guide pages (`faqJsonLd` in `src/lib/seo.ts`).
+- Direct-answer leads (first ~40–60 words), question-shaped H2s, numbered procedures, comparison tables, ICA/MOM/MOH/SCDF/SPF/DBS citations.
+- Arriving/Living ModeHub **“How to use”** + start-here answer links; Move/Family/Life pillar topics pointed at live guides; day-7 checklist + arriving journeys page cross-links.
+
+### Shipped
+
+**New**
+
+- `content/guides/move/first-week-sim-singpass-bank.mdx`
+- `content/guides/move/sg-arrival-card-expats.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/relocation-checklist-7-30-90.mdx`
+- `content/guides/family/healthcare-gp-hospital.mdx`
+- `content/guides/life/emergencies-995-999-embassies.mdx`
+- `content/guides/money/opening-bank-account-expat.mdx` (FAQ + cross-link)
+- `content/guides/home/utilities-telecom-setup.mdx` (FAQ + cross-link)
+- `content/journeys/checklists/day-7.json`
+- `src/app/journeys/arriving/page.tsx`
+- `src/components/modes/ModeHub.tsx`
+- `src/components/pillars/PillarPage.tsx`
+- `src/lib/site.ts`
+- `src/lib/content/schemas.ts` / `src/lib/seo.ts` / `src/app/guides/[slug]/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not wholesale rewrite Loop A–G guides beyond light FAQ leads / related links.
 
 ---
 
@@ -370,10 +478,6 @@ Prior Loop D tick shipped PR rejection, EP renewal age-bands, NS Exit Permit, re
 
 ---
 
----
-
----
-
 ## Loop C — Home + Life (parallel) — Tick 20 — 2026-09-15
 
 Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
@@ -442,8 +546,6 @@ Tick 19 shipped HDB ceiling leaks, pets daily life, PUB water appeals, grocery d
 10. Upstairs dripping laundry keeps soaking my clothes — Town Council or confront?
 11. Katong vs Tampines vs Clementi vs Bukit Timah — which fits a mid-package family?
 12. Should I run a fibre TP availability check before paying the rental deposit?
-
----
 
 ---
 
