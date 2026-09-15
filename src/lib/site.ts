@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "EntrePass → EP founder exit",
-        href: "/guides/entrepass-to-ep-founder-exit-singapore",
-        blurb: "Founder pass ≠ self-hire EP — stage before TBS dies.",
+        label: "WHP/TEP → EP handoff",
+        href: "/guides/work-holiday-tep-to-ep-handoff-singapore",
+        blurb: "Short runway ≠ conversion — stage FCF + COMPASS early.",
       },
       {
-        label: "S Pass→EP upgrade packaging",
-        href: "/guides/s-pass-to-ep-upgrade-packaging-singapore",
-        blurb: "Raise letter ≠ EP file — fixed monthly + FCF + COMPASS.",
+        label: "Graduate LTVP → EP packaging",
+        href: "/guides/graduate-ltvp-to-ep-sponsor-packaging-singapore",
+        blurb: "Stay rights ≠ work rights — package a real sponsor file.",
       },
       {
-        label: "COMPASS C2 degree edges",
-        href: "/guides/compass-c2-degree-verification-edges-singapore",
-        blurb: "Awarding body on the cert — not campus brand folklore.",
+        label: "S Pass levy mid-cycle shocks",
+        href: "/guides/s-pass-levy-quota-midcycle-shocks-singapore",
+        blurb: "DRC/levy can move before renewal day — watch headcount.",
       },
       {
         label: "Between jobs / STVP",

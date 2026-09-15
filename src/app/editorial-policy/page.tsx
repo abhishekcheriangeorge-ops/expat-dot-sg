@@ -70,8 +70,10 @@ export default function EditorialPolicyPage() {
             authorities, FWA → TAFEP escalation for EP / S Pass, IPA-before-
             resign calendar for EP / S Pass pivots, annual leave encashment
             vs notice offset, unpaid retrenchment benefit TADM vs TAFEP,
-            EntrePass→EP founder exit, S Pass→EP upgrade packaging,
-            COMPASS C2 degree verification edges, Tech.Pass→ONE salary
+            WHP/TEP→EP handoff, graduate LTVP→EP sponsor packaging,
+            S Pass levy/quota mid-cycle shocks, EntrePass→EP founder exit,
+            S Pass→EP upgrade packaging, COMPASS C2 degree verification
+            edges, Tech.Pass→ONE salary
             composite, LTVP/PLOC→EP conversion edges, EP notify-MOM
             address/passport edges, ONE Pass outstanding-
             achievements evidence, EP job-change IR21 withhold edges, PEP
