@@ -765,6 +765,21 @@ export const pillars: Pillar[] = [
         blurb: "Labs vs visit-pass clocks — extend before expiry.",
       },
       {
+        label: "AEIS placement vs international hold",
+        href: "/guides/aeis-placement-vs-international-hold-singapore",
+        blurb: "Pass ≠ brand school — keep hold until offer names a seat.",
+      },
+      {
+        label: "Tech.Pass 2027 sunset handoff",
+        href: "/guides/tech-pass-2027-sunset-handoff-singapore",
+        blurb: "ONE / PEP / sponsored EP before the renewal window dies.",
+      },
+      {
+        label: "PEP exit to EP or PR timing",
+        href: "/guides/pep-exit-to-ep-or-pr-timing-singapore",
+        blurb: "Finite runway — stage exit 9–12 months out.",
+      },
+      {
         label: "PEP / ONE / Tech.Pass chooser",
         href: "/guides/pep-one-tech-pass-chooser-singapore",
         blurb: "Salary, renewability, spouse LOC, Tech.Pass 2027 sunset.",
