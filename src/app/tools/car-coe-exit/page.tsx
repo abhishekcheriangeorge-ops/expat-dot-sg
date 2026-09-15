@@ -1,27 +1,59 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { CrossLinks } from "@/components/seo/CrossLinks";
 import { CarCoeExitCalculator } from "@/components/tools";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/seo-exit";
+
+const title = "Car / COE exit sketch";
+const description =
+  "Sketch sale, export/scrap, or transfer cash for a Singapore car — proceeds, PARF/COE rebate hope, loan, fees, and prepaid parking burn.";
+const path = "/tools/car-coe-exit";
+
+const RELATED = [
+  { href: "/tools", label: "All tools" },
+  { href: "/journeys/condo-mcst-exit", label: "Condo MCST exit" },
+  { href: "/journeys/leaving", label: "Leaving playbook" },
+  { href: "/journeys/utility-exit-handover", label: "Utility exit handover" },
+  { href: "/tools/storage-months", label: "Storage months sketch" },
+  { href: "/move", label: "Move pillar" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Car / COE exit sketch",
-  description:
-    "Sketch sale, export/scrap, or transfer cash for a Singapore car — proceeds, PARF/COE rebate hope, loan, fees, and prepaid parking burn.",
-  path: "/tools/car-coe-exit",
+  title,
+  description,
+  path,
 });
 
 export default function CarCoeExitToolPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Tools", path: "/tools" },
-    { name: "Car / COE exit", path: "/tools/car-coe-exit" },
+    { name: "Car / COE exit", path },
   ];
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          webApplicationJsonLd({ name: title, description, path }),
+          collectionPageJsonLd({
+            name: `${title} — related`,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -34,32 +66,9 @@ export default function CarCoeExitToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <CarCoeExitCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
-          <Link
-            href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            ← All tools
-          </Link>
-          <Link
-            href="/journeys/condo-mcst-exit"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Condo MCST exit →
-          </Link>
-          <Link
-            href="/journeys/leaving"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Leaving playbook →
-          </Link>
-          <Link
-            href="/move"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Move pillar →
-          </Link>
-        </p>
+        <div className="mt-12">
+          <CrossLinks links={RELATED} />
+        </div>
       </div>
     </>
   );
