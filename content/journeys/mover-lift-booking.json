@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "mover-lift-booking",
+  "title": "Mover lift / loading-bay booking",
+  "summary": "Leaving a condo or HDB with a container or 3-tonne — book the service lift, loading bay, and pad protection early enough that movers day is not an improvised lobby argument.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "book-early",
+      "title": "Book the lift before you book the movers’ truck",
+      "body": "Many estates only release one service lift and a short loading-bay window per day. Peak month-end and school-holiday Saturdays fill first. Confirm the managing agent’s booking form, deposit, and blackout dates before you pay a non-refundable mover deposit that assumes a 09:00 start.",
+      "bullets": [
+        "Ask for written lift + bay confirmation with date, time block, and lift ID",
+        "Align mover ETA to the estate window — not the other way around",
+        "Keep a buffer slot if IPA / IR21 / flight dates still move"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "forms-deposits",
+      "title": "Forms, deposits, and pad protection",
+      "body": "Expect a renovation-style or move-in/out form, refundable lift deposit, and rules on floor pads, corner guards, and forbidding passenger-lift use. Some MCST offices only process weekday mornings. Photograph the empty lift and lobby before and after so deposit disputes stay boring.",
+      "bullets": [
+        "Bring passport / FIN and tenancy or SPA proof as the office requires",
+        "Clarify whether the mover or tenant pays the lift deposit",
+        "Ask who supplies protective pads if the estate requires them"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "hdb-vs-condo",
+      "title": "HDB vs condo quirks",
+      "body": "HDB blocks often share lifts with neighbours and may restrict weekend or late-evening moves more tightly. Condos add loading-bay height limits, IU access for trucks, and clubhouse-adjacent noise rules. Do not assume the playbook that worked in one estate works in the next.",
+      "bullets": [
+        "Measure truck height vs basement / canopy clearance",
+        "Confirm whether a second trip needs a second booking",
+        "Tell neighbours via the estate channel when the rules ask for notice"
+      ],
+      "href": "/home"
+    },
+    {
+      "id": "same-day-stack",
+      "title": "Same-day stack: utilities, keys, and cards",
+      "body": "Lift morning + utility final meter + key handover in one afternoon is a common failure mode. Sequence so the truck clears before management-office card return closes. If access cards die at noon, movers still inside the unit become an expensive problem.",
+      "bullets": [
+        "Keep one authorised adult with live access until the truck leaves",
+        "Do not schedule card return before the last box is out",
+        "Photograph meters after movers finish, not before"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "licence-side",
+      "title": "If you still drive here",
+      "body": "Movers week is a bad week to discover your foreign-licence conversion clock already expired. Sketch the conversion deadline separately so rental vans, Grab, or a helper’s errands are not your only mobility plan on load-out day.",
+      "bullets": [
+        "Check /tools/foreign-licence-clock before you cancel the car",
+        "Do not plan to “just drive on the foreign licence forever”",
+        "Keep one legal mobility option through movers day"
+      ],
+      "href": "/tools/foreign-licence-clock"
+    },
+    {
+      "id": "rain-and-slip",
+      "title": "Rain, slip fees, and rebooking",
+      "body": "Tropical afternoon storms cancel open-air bay slots. Ask the mover and the estate what a weather slip costs and how fast a replacement bay can be booked. A written rebooking path beats arguing in the rain with a half-loaded container.",
+      "bullets": [
+        "Get the mover’s weather / waiting-time clause in writing",
+        "Know the estate’s next available bay before you need it",
+        "Budget an extra half-day float in the leave cash plan"
+      ],
+      "href": "/tools/setup-cash"
+    }
+  ]
+}

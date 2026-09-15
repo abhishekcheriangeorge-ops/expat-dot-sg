@@ -87,14 +87,6 @@ export async function getPreArrivalPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("pre-arrival.json");
 }
 
-export async function getFamilyJoiningPlaybook(): Promise<LeavingPlaybook | null> {
-  return getPlaybookByFilename("family-joining.json");
-}
-
-export async function getNewbornSpecialPassPlaybook(): Promise<LeavingPlaybook | null> {
-  return getPlaybookByFilename("newborn-special-pass.json");
-}
-
 export async function getSingpassMyinfoExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("singpass-myinfo-exit.json");
 }
@@ -119,8 +111,20 @@ export async function getGraduatePassBridgePlaybook(): Promise<LeavingPlaybook |
   return getPlaybookByFilename("graduate-pass-bridge.json");
 }
 
+export async function getFamilyJoiningPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("family-joining.json");
+}
+
 export async function getLocDpWorkRightsPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("loc-dp-work-rights.json");
+}
+
+export async function getMoverLiftBookingPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("mover-lift-booking.json");
+}
+
+export async function getNewbornSpecialPassPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("newborn-special-pass.json");
 }
 
 export async function getCondoMcstExitPlaybook(): Promise<LeavingPlaybook | null> {
