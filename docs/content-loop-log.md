@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 25)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick25-49cb` → PR to `main` (fresh worktree off `origin/main` @ `a518343`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180)/[#187](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/187) A17–A24 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → #187 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — ACRA ≠ EP; DP running a Pte Ltd; corporate bank as work-rights myth.
+- r/askSingapore — probation as “trial pass”; cancel runway after probation fire; resign-undo when IPA fails.
+- r/singaporefi / r/askSingapore — gross vs take-home COL; arrival cash before payday; housing allowance tax/caps.
+
+**Official**
+
+- [ACRA — Starting a company](https://www.acra.gov.sg/) + resident director framing
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + changing jobs guidance
+- Household COL modelling against IRAS employment-income norms (no ads)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A24 claim Student’s Pass/LTVP/CPF-withdrawal, EP-notify/ONE Pass/COR, COMPASS/Tech.Pass/foreign-income, EntrePass/side-income/IRAS-residency, Dependant’s Pass/EP-appeal/SRS, S Pass/PEP/RSU, Employment Pass/job-offer/credit-cards, and FCF/WHP/high-interest accounts. Tick 25 deepens **incorporate-as-foreigner**, **EP probation/resignation**, and **cost of living by household** without colliding those paths.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/incorporate-company-foreigner-singapore.mdx` (+3)
+- `content/guides/move/ep-probation-resignation-notice.mdx` (+3)
+- `content/guides/money/cost-of-living-by-household.mdx` (+3)
+- `src/lib/site.ts` (incorporate hub topic; probation/COL blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A24 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180/#187 for the merge controller.
+
+### Questions mined (sample)
+
+1. Do I need an office lease before incorporating?
+2. Can a DP holder run a company full-time after ACRA?
+3. Does a corporate bank account prove work rights?
+4. Is probation a temporary EP?
+5. How long to leave after probation termination?
+6. Can I undo resignation if the new IPA fails?
+7. Budget on gross or take-home?
+8. How much arrival cash before first payday?
+9. Does housing allowance fix the COL sheet?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 19)
 
 Branch: `cursor/loop-d-next-polish-tick19-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151).

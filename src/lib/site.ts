@@ -189,7 +189,12 @@ export const pillars: Pillar[] = [
       {
         label: "EP probation & resignation notice",
         href: "/guides/ep-probation-resignation-notice",
-        blurb: "Contract notice ≠ MOM cancel date; DP falls with principal.",
+        blurb: "Probation ≠ trial pass; cancel runway; resign-undo traps.",
+      },
+      {
+        label: "Incorporate as a foreigner",
+        href: "/guides/incorporate-company-foreigner-singapore",
+        blurb: "ACRA ≠ work pass; DP LOC limits; corporate bank ≠ rights.",
       },
       {
         label: "PEP & Tech.Pass flexibility",
@@ -383,7 +388,7 @@ export const pillars: Pillar[] = [
       {
         label: "Cost of living",
         href: "/guides/cost-of-living-by-household",
-        blurb: "Family budgets, helper all-in, school+rent stacking.",
+        blurb: "Take-home budgeting, arrival cash buffer, housing-support math.",
       },
       {
         label: "SRS & investing",
