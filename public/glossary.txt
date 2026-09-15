@@ -1,0 +1,18 @@
+# Glossary discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub intent
+- Defined terms for passes, housing, schools, and money jargon
+- Pair with guides + tools for deep reads
+
+## Notes
+- DefinedTerm / DefinedTermSet helpers live in seo-glossary.ts (app shell).
+- No standalone /glossary route required for this discovery file.
+
+## Related
+- https://expat.sg/faq.txt
+- https://expat.sg/guides.txt
+- https://expat.sg/cite.txt
+- https://expat.sg/sitemap.xml
