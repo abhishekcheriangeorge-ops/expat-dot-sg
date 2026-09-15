@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "newton",
+  "name": "Newton",
+  "summary": "Food-centre gravity and NSL/DTL adjacency — mid-town condo living with evening queues as the lifestyle tax.",
+  "body": "Newton is the shortlist when food-centre reputation and dual-line optionality matter more than medical-hub density. Condo stock along the CTE / Newton corridor trades quieter blocks for weekend food queues and tourist spill from the famous centre. Expats shortlist it for CBD hops without full Orchard mall intensity. Watch-outs: evening noise near the food centre, older vs newer tower variance, and estate-specific fire-alarm recovery rules. Compare with Novena for hospital convenience, Toa Payoh Central for heartland errands, and Upper Thomson when reservoir weekends beat mid-town food crowds.",
+  "region": "central",
+  "vibe": [
+    "food",
+    "nsl",
+    "dtl",
+    "mid-town",
+    "evening-energy"
+  ],
+  "bestFor": [
+    "hawker- and food-centre-first households",
+    "dual-line mid-town commuters",
+    "couples okay with evening footfall",
+    "people testing ActiveSG yoga nearby before paying for condo studios"
+  ],
+  "watchOuts": [
+    "Food-centre evening queues and noise",
+    "Variable building age",
+    "Tourist spill on peak nights",
+    "False-alarm / detector ops vary by MCST"
+  ],
+  "housingMix": "Condo-dominant with selective landed pockets toward the north.",
+  "commuteNotes": "North-South Line and Downtown Line at Newton; test a Saturday evening walk before you romanticise the food strip.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3100,
+    "oneBedTo": 5000,
+    "familyFrom": 5500,
+    "familyTo": 10500
+  },
+  "mrt": [
+    "Newton"
+  ],
+  "schoolsNearby": [
+    "acs-independent"
+  ],
+  "featured": false
+}

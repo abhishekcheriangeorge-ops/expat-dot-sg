@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "toa-payoh-central",
+  "name": "Toa Payoh Central",
+  "summary": "HDB Hub / town-centre belt — wet-market and mall gravity with NSL access and classic heartland texture inside Toa Payoh.",
+  "body": "Toa Payoh Central is the pocket shortlist inside the wider Toa Payoh town when walkable hub errands matter more than quieter outer blocks. The HDB Hub, lounges, and wet-market belt concentrate weekday density; housing is mature HDB with selective condo edges. Expats land here to test heartland living with a manageable CBD hop on the North-South Line. Watch-outs: hub peak congestion, older-block chute and detector ops, and whole-flat vs bedroom approval checks for foreigners. Compare with the broader Toa Payoh entity for town-wide framing, Novena for medical mid-town, and Newton when food-centre energy beats hub practicality.",
+  "region": "central",
+  "vibe": [
+    "town-centre",
+    "hawker",
+    "mature-estate",
+    "nsl",
+    "practical"
+  ],
+  "bestFor": [
+    "hawker-first households",
+    "car-light NSL commuters",
+    "expats testing heartland hub living",
+    "renters who want ActiveSG options without condo wellness premiums"
+  ],
+  "watchOuts": [
+    "Hub peak congestion",
+    "Older-block maintenance and refuse-chute fogging",
+    "HDB whole-flat vs bedroom approval checks",
+    "Firms rents vs outer heartlands for similar bedroom counts"
+  ],
+  "housingMix": "Mature HDB dominant around the hub; selective condo / executive pockets on the edges.",
+  "commuteNotes": "North-South Line at Toa Payoh; Braddell adjacency depending on block. Time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3400,
+    "familyFrom": 2800,
+    "familyTo": 4500
+  },
+  "mrt": [
+    "Toa Payoh",
+    "Braddell"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
