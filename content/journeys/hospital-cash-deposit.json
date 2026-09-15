@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "hospital-cash-deposit",
+  "title": "Hospital cash deposit (first admission)",
+  "summary": "Private or restructured hospital asking for a five-figure deposit before admission — map what Integrated Shield / employer plans actually pre-authorise, what you must float in cash, and how to claw the deposit back after discharge.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "ask-before-admit",
+      "title": "Ask finance before you pack the overnight bag",
+      "body": "Singapore private and restructured hospitals routinely quote an admission deposit sized to the ward class and estimated length of stay. Expats on EP often assume “I have IP / company insurance” means zero cash — then meet a counter asking for $5k–$20k same day. Call the hospital’s admissions / patient finance line with the procedure code and ward class before the booking is locked.",
+      "bullets": [
+        "Get the deposit quote and accepted payment methods in writing (email / WhatsApp from finance)",
+        "Ask whether the deposit is per admission or per night estimate",
+        "Confirm whether a Letter of Guarantee (LOG) from insurer / employer can shrink or waive the cash hold"
+      ],
+      "href": "https://www.moh.gov.sg/healthcare-systems/financing"
+    },
+    {
+      "id": "ip-vs-cash",
+      "title": "Integrated Shield ≠ automatic deposit waiver",
+      "body": "An Integrated Shield Plan (IP) rider and a company Group Hospitalisation policy can each issue a Letter of Guarantee — but only after pre-authorisation, and only for covered benefits. Deductibles, co-insurance, non-panel surgeons, and waiting periods still leave a cash gap. Treat the deposit as working capital you may need for 2–6 weeks after discharge while claims settle.",
+      "bullets": [
+        "Start pre-auth as soon as the admission date is known — not the morning of surgery",
+        "Ask whether the LOG covers deposit, final bill, or both",
+        "Keep a separate SGD buffer for outpatient follow-ups the LOG will not touch"
+      ],
+      "href": "https://www.cpf.gov.sg/member/healthcare-financing/medishield-life"
+    },
+    {
+      "id": "payment-rail",
+      "title": "Payment rails: card limits, PayNow, and employer LOG",
+      "body": "Hospital counters often prefer Visa/Mastercard or PayNow to a hospital UEN. Foreign cards can fail 3-D Secure or hit issuer fraud blocks on five-figure holds. Test a smaller charge the day before if you must use an overseas card. Employer LOGs usually route through HR / the TPA portal — build that lead time into the admission week.",
+      "bullets": [
+        "Confirm daily card limit with your bank before admission day",
+        "Save the hospital PayNow / UEN screenshot and receipt PDF",
+        "If HR is slow, ask finance whether a partial deposit holds the bed"
+      ],
+      "href": "https://www.abs.org.sg/consumer-banking/paynow"
+    },
+    {
+      "id": "discharge-clawback",
+      "title": "Discharge → final bill → deposit clawback",
+      "body": "After discharge the hospital issues a final bill, offsets the deposit, and refunds the remainder — or issues a top-up invoice. Refunds to foreign cards can take weeks; PayNow refunds are usually faster. Keep the admission deposit receipt; finance will ask for it if the refund stalls.",
+      "bullets": [
+        "Photograph every receipt and the discharge summary before you leave the ward",
+        "Ask finance for the expected refund method and SLA in writing",
+        "If insurer pays the hospital direct, confirm you are not double-charged the deposit"
+      ],
+      "href": "https://www.moh.gov.sg/cost-financing"
+    },
+    {
+      "id": "family-dependants",
+      "title": "Dependant admissions — whose policy, whose cash",
+      "body": "A child’s or spouse’s admission still needs a paying party at the counter. Dependant Pass status does not create MediSave access the way a citizen/PR parent might expect. Confirm whether the child’s cover sits on the EP holder’s IP rider, a separate rider, or employer family cover — then size the cash deposit to the uncovered gap.",
+      "bullets": [
+        "Do not assume MediSave can settle a foreigner’s private-hospital bill",
+        "Name the policyholder and LOG applicant before admission day",
+        "FDW / household helper admissions are a different product — see MOM helpers guidance"
+      ],
+      "href": "https://www.cpf.gov.sg/member/healthcare-financing"
+    },
+    {
+      "id": "cash-buffer",
+      "title": "Size a calm cash buffer",
+      "body": "Forum numbers swing wildly by hospital and ward. A practical orientation buffer for a planned private admission is often one quoted deposit plus a 20–30% contingency for upgrades, longer stay, or delayed LOG. Sketch household cash separately from rent and agent fees so admission week does not raid the lease deposit.",
+      "bullets": [
+        "Hold the deposit in a SGD account you can PayNow from same day",
+        "Do not raid rent / agent-commission reserves for elective surgery",
+        "First-month cash tool is for housing LOI week — keep hospital float separate: /tools/setup-cash"
+      ],
+      "href": "/tools/setup-cash"
+    }
+  ]
+}
