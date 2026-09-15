@@ -1,0 +1,17 @@
+# Next pillar discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Hub
+- https://expat.sg/next
+
+## Notes
+- Exit, renewal, between-jobs, and long-horizon decisions.
+- Pair with leaving.txt and journeys.
+
+## Related
+- https://expat.sg/pillars.txt
+- https://expat.sg/leaving.txt
+- https://expat.sg/journeys.txt
+- https://expat.sg/sitemap.xml
