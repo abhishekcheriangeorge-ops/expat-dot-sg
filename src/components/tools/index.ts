@@ -1,5 +1,6 @@
 export { AgentCommissionCalculator } from "./AgentCommissionCalculator";
 export { ColCalculator } from "./ColCalculator";
+export { CpfWithdrawalCalculator } from "./CpfWithdrawalCalculator";
 export { EpThresholdCalculator } from "./EpThresholdCalculator";
 export { FdwLevyCalculator } from "./FdwLevyCalculator";
 export { IpaWindowCalculator } from "./IpaWindowCalculator";

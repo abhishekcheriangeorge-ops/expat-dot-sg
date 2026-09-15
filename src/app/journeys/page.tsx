@@ -6,8 +6,8 @@ import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
   getLeavingPlaybook,
+  getPetsReexportPlaybook,
   getPreArrivalPlaybook,
-  getUtilityExitHandoverPlaybook,
 } from "@/lib/content";
 import {
   breadcrumbJsonLd,
@@ -18,16 +18,16 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, utility exit handover, and Leaving Singapore — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, pets re-export, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook, preArrival, utilityExit] = await Promise.all([
+  const [checklists, playbook, preArrival, petsReexport] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
     getPreArrivalPlaybook(),
-    getUtilityExitHandoverPlaybook(),
+    getPetsReexportPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -61,8 +61,8 @@ export default async function JourneysIndexPage() {
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
               {
-                name: utilityExit?.title ?? "Utilities & telecom exit handover",
-                path: "/journeys/utility-exit-handover",
+                name: petsReexport?.title ?? "Pets re-export / exit",
+                path: "/journeys/pets-reexport",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -152,20 +152,28 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Home · exit utilities
+            Pets leaving with you
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {utilityExit?.title ?? "Utilities & telecom exit handover"}
+            {petsReexport?.title ?? "Pets re-export / exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {utilityExit?.summary ??
-              "SP, fibre, mobile, and condo GIRO teardown timed to key handover and final deposits."}
+            {petsReexport?.summary ??
+              "NParks/AVS export timing, titres, crates, and quarantine myths."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/cpf-withdrawal"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/cpf-withdrawal
+            </Link>{" "}
+            if you also need a CPF timing sketch as a PR leaver.
           </p>
           <Link
-            href="/journeys/utility-exit-handover"
-            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
+            href="/journeys/pets-reexport"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open utility-exit playbook
+            Open pets re-export playbook
           </Link>
         </FadeIn>
 
@@ -210,7 +218,7 @@ export default async function JourneysIndexPage() {
               href="/tools"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Light COL, lease, IR21 withhold, and EP threshold tools
+              Light COL, lease, and EP threshold tools
             </Link>{" "}
             live one level down — never on the homepage.
           </p>

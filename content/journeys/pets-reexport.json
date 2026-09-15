@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "pets-reexport",
+  "title": "Pets re-export / exit",
+  "summary": "Leaving Singapore with a dog or cat — NParks/AVS export timing, rabies titres, crate airlines, and quarantine myths so the pet’s ticket is not an afterthought to your own flights.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "start-early",
+      "title": "Start 3–6 months before your own exit",
+      "body": "Pet export is a project with veterinary labs and airline cut-offs, not a week-of errand. Confirm the destination country’s import rules first (EU, UK, AU, US, and ASEAN differ wildly), then work backwards to Singapore export paperwork. Your EP cancel date is irrelevant to the pet’s titre clock.",
+      "bullets": [
+        "Read the destination competent-authority checklist before you book family tickets",
+        "Ask your Singapore vet which labs they use for rabies serology and microchip ISO checks",
+        "Do not assume “we imported fine” means re-export is automatic"
+      ],
+      "href": "https://www.nparks.gov.sg/avs"
+    },
+    {
+      "id": "avs-export",
+      "title": "NParks / AVS export health certificate path",
+      "body": "Animal & Veterinary Service (AVS) under NParks issues the export health certificate after an authorised vet examination. Lead times and supporting docs (vaccinations, titres, parasite treatments) depend on the destination. Book the AVS slot only after the destination’s pre-conditions are met — not the other way around.",
+      "bullets": [
+        "Confirm microchip number matches every certificate character-for-character",
+        "Keep vaccine books and titre reports as PDFs and originals in the carry-on",
+        "Ask whether the destination needs an original wet-ink cert vs e-cert"
+      ],
+      "href": "https://www.nparks.gov.sg/avs/pets/bringing-animals-into-singapore-and-exporting/exporting-animals"
+    },
+    {
+      "id": "airline-crate",
+      "title": "Airline, crate, and cabin vs manifest",
+      "body": "Many long-haul carriers accept pets only as manifested cargo or in limited cabin categories. IATA crate dimensions, ventilation, and absorbent flooring are non-negotiable. Peak summer embargoes and breed restrictions strand pets even when paperwork is perfect — check the operating carrier, not the codeshare brand on your ticket.",
+      "bullets": [
+        "Measure the crate with the pet standing, turning, and lying naturally",
+        "Confirm temperature embargoes for the route and transfer hubs",
+        "Book the pet as early as passenger tickets — space is inventory, not a formality"
+      ],
+      "href": "https://www.iata.org/en/programs/cargo/live-animals/"
+    },
+    {
+      "id": "quarantine-myths",
+      "title": "Quarantine myths on the way out",
+      "body": "Singapore import quarantine lore does not map 1:1 onto export. Destination quarantine (or none) is decided by that country’s rules and your compliance history. Do not plan to “just transit” a third country to dodge paperwork — transit hubs increasingly require full transit permits.",
+      "bullets": [
+        "Ask whether destination quarantine is mandatory, conditional, or waived with titres",
+        "Avoid informal transit schemes that put the animal in legal limbo mid-route",
+        "Budget boarding in Singapore if titres or airline slots slip past your own flight"
+      ],
+      "href": "https://www.nparks.gov.sg/avs"
+    },
+    {
+      "id": "housing-overlap",
+      "title": "Housing and helper overlap",
+      "body": "Diplomatic-clause exits and pet deposits collide. Some TAs forbid pets mid-tenancy; others charge steam-clean fees at handover. If an FDW is the primary caregiver, her pass cancel timing can leave the animal without a walker the week of export — sequence helper exit after the pet flies when possible.",
+      "bullets": [
+        "Re-read the TA pet clause before you serve lease notice",
+        "Photograph the flat for deposit claims after deep-clean",
+        "Coordinate FDW cancel with pet flight day if she handles daily care"
+      ],
+      "href": "/tools/lease-notice"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: titres, kennel, freight",
+      "body": "Expect vet titres, export cert fees, crate purchase, and freight that can rival a human business-class segment on long-haul. Keep a SGD buffer separate from IR21 withhold and utility finals. Sketch CPF withdrawal only if you actually have OA/SA balances as a PR — EP-only households usually skip that rail.",
+      "bullets": [
+        "Get written freight quotes from at least two agents including fuel surcharges",
+        "Do not raid rent or utility float for last-minute kennel fees",
+        "PR leavers: /tools/cpf-withdrawal for a rough OA/SA timing sketch"
+      ],
+      "href": "/tools/cpf-withdrawal"
+    }
+  ]
+}

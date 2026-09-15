@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 11)
+
+Branch: `cursor/e-journeys-tools-tick11-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116 → #122** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → #122 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — pet re-export titre / airline crate horror; “we imported fine so export is easy” myths.
+- r/askSingapore / r/singaporefi — CPF withdrawal timing vs flight date; PR leavers waiting on Board processing while freight quotes expire.
+
+**Official**
+
+- [NParks / AVS — exporting animals](https://www.nparks.gov.sg/avs/pets/bringing-animals-into-singapore-and-exporting/exporting-animals)
+- [IATA Live Animals](https://www.iata.org/en/programs/cargo/live-animals/)
+- [CPF Board](https://www.cpf.gov.sg/) withdrawal / closure framing for foreigners and PRs leaving
+
+### Gaps vs Loop E ticks 1–10 (open stack)
+
+Open **#72/#90/#101/#110/#116/#122** cover family-joining, DP/LOC, graduate bridge, hospital cash, FDW levy, bank-exit, storage, utility exit, IR21 withhold. Remaining high-intent journeys/tools gaps **off those path sets**: **pets re-export / AVS exit**, **CPF withdrawal timing sketch**. No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/pets-reexport.json` + `/journeys/pets-reexport`
+- Journeys index + sitemap (hub soft-conflict expected after open stack)
+
+**Tools**
+
+- `src/lib/tools/cpf-withdrawal.ts`
+- `src/components/tools/CpfWithdrawalCalculator.tsx`
+- `/tools/cpf-withdrawal` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #72 / #90 / #101 / #110 / #116 / #122 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. How early should I start rabies titres before my own flights?
+2. Does NParks/AVS export require destination paperwork first?
+3. Cabin vs cargo — which airlines still take pets on my route?
+4. Do Singapore import quarantine rules apply on the way out?
+5. How do I sequence FDW cancel with the pet’s flight day?
+6. When should a PR start CPF withdrawal relative to departure?
+7. What processing window should I assume if CPF has not quoted yet?
+8. Can EP-only households skip CPF withdrawal entirely?
+9. What if the apply-by date is already past?
+10. How do pet freight quotes collide with CPF cash timing?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 10)
 
 Branch: `cursor/e-journeys-tools-tick10-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → this tick**.
