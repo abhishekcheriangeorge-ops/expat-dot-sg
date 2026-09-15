@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "farrer-park-south",
+  "name": "Farrer Park South",
+  "summary": "South of Farrer Park MRT toward Race Course / Mustafa gravity — NEL mid-town living with hospital-adjacent density and shopping spill as the lifestyle tax.",
+  "body": "Farrer Park South is the shortlist when North-East Line mid-town access and walkable errands matter more than quiet cul-de-sac living. The pocket sits south of Farrer Park station toward Race Course Road / Mustafa gravity; housing mixes mid-age condos with selective walk-ups. Expats land here for car-light CBD hops and dense retail. Watch-outs: shopping-day crowds, hospital traffic peaks, and corridor hydrant clearance culture on older landings. Compare with Jalan Besar Fringe for food-spine energy, Bendemeer West for quieter NEL edges, and Little India core when heritage density wins.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "mid-town",
+    "retail-dense",
+    "hospital-adjacent",
+    "practical"
+  ],
+  "bestFor": [
+    "NEL CBD commuters",
+    "car-light errand-heavy households",
+    "renters comparing Farrer Park vs Little India edges",
+    "ActiveSG bowling / sport-session users nearby"
+  ],
+  "watchOuts": [
+    "Weekend retail and tourist spill",
+    "Hospital traffic peaks",
+    "Keep landing hose reels clear on older blocks",
+    "Peak NEL crowding"
+  ],
+  "housingMix": "Mid-age condos and walk-ups with selective serviced edges.",
+  "commuteNotes": "North-East Line at Farrer Park; Little India / Rochor adjacency depending on block. Walk a Sunday afternoon before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2600,
+    "oneBedTo": 4300,
+    "familyFrom": 3800,
+    "familyTo": 7800
+  },
+  "mrt": [
+    "Farrer Park",
+    "Little India",
+    "Rochor"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
