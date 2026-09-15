@@ -6,6 +6,31 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 14)
+
+Branch: `cursor/loop-g-seo-tick14-a144` → PR to `main`. Loop-E tick 15 movers/licence shell + web manifest after #74→#176 claimed prior surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- `/journeys/mover-lift-booking` and `/tools/foreign-licence-clock` (Loop E 15 on main) had crumbs only.
+- No `manifest.webmanifest` / App Router `manifest.ts` for installable brand chrome.
+
+### Shipped this loop
+
+- Mover lift booking: HowTo + CollectionPage + HubStrip
+- Foreign licence clock: WebApplication + CollectionPage + HubStrip
+- `manifest.ts` web app manifest
+- New `seo-movers.ts` + `HubStrip` (avoids claimed seo libs; no `seo/index.ts` edit)
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 / #145 / #152 / #160 / #168 / #176 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 13)
 
 Branch: `cursor/loop-d-next-polish-tick13-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99). #79 already merged.

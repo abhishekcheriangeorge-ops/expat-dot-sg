@@ -1,27 +1,59 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { HubStrip } from "@/components/seo/HubStrip";
 import { ForeignLicenceClockCalculator } from "@/components/tools";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/seo-movers";
+
+const title = "Foreign licence conversion clock";
+const description =
+  "Sketch common Singapore foreign-driving-licence windows against arrival or pass-issue dates — orientation only, not SPF advice.";
+const path = "/tools/foreign-licence-clock";
+
+const RELATED = [
+  { href: "/tools", label: "All tools" },
+  { href: "/journeys/mover-lift-booking", label: "Mover lift booking" },
+  { href: "/journeys/leaving", label: "Leaving playbook" },
+  { href: "/journeys/pre-arrival", label: "Pre-arrival" },
+  { href: "/tools/car-coe-exit", label: "Car / COE exit" },
+  { href: "/move", label: "Move pillar" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Foreign licence conversion clock",
-  description:
-    "Sketch common Singapore foreign-driving-licence windows against arrival or pass-issue dates — orientation only, not SPF advice.",
-  path: "/tools/foreign-licence-clock",
+  title,
+  description,
+  path,
 });
 
 export default function ForeignLicenceClockToolPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Tools", path: "/tools" },
-    { name: "Foreign licence clock", path: "/tools/foreign-licence-clock" },
+    { name: "Foreign licence clock", path },
   ];
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          webApplicationJsonLd({ name: title, description, path }),
+          collectionPageJsonLd({
+            name: `${title} — related`,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -34,32 +66,9 @@ export default function ForeignLicenceClockToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <ForeignLicenceClockCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
-          <Link
-            href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            ← All tools
-          </Link>
-          <Link
-            href="/journeys/mover-lift-booking"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Mover lift booking →
-          </Link>
-          <Link
-            href="/journeys/leaving"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Leaving playbook →
-          </Link>
-          <Link
-            href="/move"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Move pillar →
-          </Link>
-        </p>
+        <div className="mt-12">
+          <HubStrip links={RELATED} />
+        </div>
       </div>
     </>
   );
