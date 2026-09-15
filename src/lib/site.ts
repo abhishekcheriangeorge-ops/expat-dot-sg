@@ -669,6 +669,21 @@ export const pillars: Pillar[] = [
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
       },
       {
+        label: "LPA & AMD (PR / foreigners)",
+        href: "/guides/lasting-power-attorney-amd-foreigners",
+        blurb: "LPA ≠ will — May 2026 PR/foreigner OPG fee bands.",
+      },
+      {
+        label: "Wills, probate & CPF nomination",
+        href: "/guides/wills-probate-cpf-nomination-singapore",
+        blurb: "SG banks need a local grant; CPF never follows a will.",
+      },
+      {
+        label: "Death & repatriation",
+        href: "/guides/death-repatriation-foreigners-singapore",
+        blurb: "Digital death cert + NEA permit; ICA overseas-death report.",
+      },
+      {
         label: "PR rejected — appeal / reapply",
         href: "/guides/pr-rejection-reapply",
         blurb: "Official appeal e-Service only; reapply when profile changed.",
