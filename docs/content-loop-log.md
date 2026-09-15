@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 13)
+
+Branch: `loop/story-aeo-tick13` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#77 H9 merge). Avoided open merge-controller file sets (#69 H10, #73 H11, #82 H12). Prefer merge order **#69 → #73 → #82** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Bumble BFF vs dating-app “friends”; transient-city honesty; workplace dating caution.
+- r/askSingapore — office AC freeze after MRT sweat; fabric fails in humidity; club dress / ID threads.
+- r/askSingapore — “where do expats hang out?”; club age/dress doors; vape illegality adjacency.
+
+**Official**
+
+- [Meetup](https://www.meetup.com/) + [giving.sg](https://www.giving.sg/).
+- [NEA — Weather](https://www.nea.gov.sg/weather) + [Sultan Mosque — Visitors](https://www.sultanmosque.sg/visitors-info/).
+- [VisitSingapore — Nightlife](https://www.visitsingapore.com/en/editorials/nightlife-in-singapore/) + [SPF](https://www.police.gov.sg/).
+
+### Gaps vs open H + ticks 1–12
+
+Open: #69 (Student Pass / LTVP / REP), #73 (apps / COE vs Grab / REP transfer), #82 (hawker / annual admin / weekend getaways). Remaining FAQ-free Life social gaps: **dating vs friends channels**, **climate wardrobe / AC swing**, **nightlife dress + ID**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/life/dating-social-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/life/what-to-wear-singapore-climate.mdx` (direct lead + FAQPage)
+- `content/guides/life/nightlife-social-scene.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Life shopping label split + climate / nightlife / dating topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #69/#73/#82 guide bodies (student-pass, ltvp, re-entry-permit, apps, car-ownership, transfer-rep, hawker, weekend-getaways, renewing-life-admin).
+
+### Questions mined (sample)
+
+1. Should I use Bumble BFF or Tinder to make friends in Singapore?
+2. What actually works for meeting people beyond the office?
+3. Is Singapore dating culture serious or casual?
+4. Any safety tips for first dates as a newcomer?
+5. Should I date colleagues in Singapore?
+6. Why am I freezing in the office after melting on the MRT?
+7. What fabrics work in Singapore humidity?
+8. How do locals handle office sweat on the commute?
+9. What should I wear to mosques and temples as a visitor?
+10. Can I wear slippers or gym shorts to clubs?
+11. What should I wear to clubs in Singapore?
+12. What ID do clubs accept if I do not want to carry my passport?
+13. Where do expats hang out at night?
+14. Are men under 21 allowed into big clubs?
+15. Can I bring a vape into Singapore nightlife?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 12)
 
 Branch: `loop/story-aeo-tick12` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller file sets (#77 H9 restore, #69 H10, #73 H11). Prefer merge order **#77 → #69 → #73** before this lands. No ads / monetization; no Grok copy.
