@@ -88,7 +88,7 @@ export const modes = [
     summary:
       "Year two and beyond — neighbourhoods that fit, schools that work, communities that stick, and a clear exit when it is time.",
     howToUse:
-      "Use Living when issuance drama is over. Pick one life category (home, school, belonging, renewals) — each pillar page is a topic map, not a feed. Keep ScamShield, pass-card replacement, and the leaving / STVP playbook bookmarked before you need them.",
+      "Use Living when issuance drama is over. Pick one life category (home, school, belonging, renewals) — each pillar page is a topic map, not a feed. Keep the leaving playbook bookmarked before you need it.",
     startHere: [
       {
         href: "/guides/healthcare-gp-hospital",
@@ -96,14 +96,14 @@ export const modes = [
         blurb: "Which door to open when someone is sick at 10pm.",
       },
       {
-        href: "/guides/scams-singpass-phishing-expats",
-        label: "ScamShield / Singpass",
-        blurb: "1799, gov.sg SMS, and what banks will never ask.",
+        href: "/guides/emergencies-995-999-embassies",
+        label: "995 vs 999",
+        blurb: "Emergency numbers, dengue inspections, embassy limits.",
       },
       {
-        href: "/guides/between-jobs-stvp-singapore",
-        label: "EP cancel → STVP",
-        blurb: "Up to 90 days stay, no work, family DP cascade.",
+        href: "/neighbourhoods",
+        label: "Neighbourhoods",
+        blurb: "Where the commute and weekends actually fit.",
       },
       {
         href: "/journeys/leaving",
@@ -172,6 +172,11 @@ export const pillars: Pillar[] = [
         blurb: "Country schedules, AQC booking, owner vs recognised agent.",
       },
       {
+        label: "Dependant’s Pass (spouse / kids)",
+        href: "/guides/dependant-pass-singapore",
+        blurb: "Not a work pass — LOC limits, EP-cancel cascade.",
+      },
+      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
@@ -187,6 +192,21 @@ export const pillars: Pillar[] = [
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
       },
       {
+        label: "ONE Pass & spouse LOC",
+        href: "/guides/one-pass-singapore",
+        blurb: "S$30k top-talent track; spouse LOC ordinary EP households lost.",
+      },
+      {
+        label: "EntrePass founder path",
+        href: "/guides/entrepass-singapore",
+        blurb: "Innovator gates plus TBS/LWF renewal ladder — not ACRA-only.",
+      },
+      {
+        label: "Dependant’s Pass & trailing careers",
+        href: "/guides/dependant-pass-singapore",
+        blurb: "Post-2021 work rules, business LOC, overseas remote FAQ.",
+      },
+      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -194,7 +214,7 @@ export const pillars: Pillar[] = [
       {
         label: "First housing bridge",
         href: "/guides/first-housing-serviced-apartment",
-        blurb: "URA-legal serviced stays vs illegal condo short-lets.",
+        blurb: "Serviced apartments and short lets while you hunt properly.",
       },
     ],
     related: [
@@ -288,9 +308,9 @@ export const pillars: Pillar[] = [
     modes: ["arriving", "living"],
     topics: [
       {
-        label: "Open a bank account",
+        label: "Open a salary account",
         href: "/guides/opening-bank-account-expat",
-        blurb: "Address letters, IPA vs issued pass, Singpass timing.",
+        blurb: "IPA vs issued pass, address letters, Singpass timing.",
       },
       {
         label: "Banking & PayNow",
@@ -316,6 +336,11 @@ export const pillars: Pillar[] = [
         label: "Cash declaration (CBNI)",
         href: "/guides/cbni-cash-declaration-singapore",
         blurb: "S$20k+ physical cash — NP727 before you fly.",
+      },
+      {
+        label: "CPF myths for EP holders",
+        href: "/guides/cpf-and-foreigners",
+        blurb: "No ordinary CPF on EP; shadow pensions; SRS ≠ CPF.",
       },
       {
         label: "Tax residency & filing",
@@ -350,7 +375,7 @@ export const pillars: Pillar[] = [
       {
         label: "Salary package decoding",
         href: "/guides/salary-package-decoding",
-        blurb: "Housing, flights, school fees — what the letter really means.",
+        blurb: "Fixed salary vs AWS/bonus; housing taxable; CPF myths.",
       },
     ],
     related: [
@@ -467,9 +492,14 @@ export const pillars: Pillar[] = [
         blurb: "Illegal for visitors and passes — fines to revocation.",
       },
       {
-        label: "Scams & Singpass phishing",
-        href: "/guides/scams-singpass-phishing-expats",
-        blurb: "ScamShield 1799, gov.sg SMS, mule-job traps.",
+        label: "Haze, heat & PSI literacy",
+        href: "/guides/haze-climate-preparedness",
+        blurb: "PM2.5 vs PSI, MOH bands, N95 / purifier kit.",
+      },
+      {
+        label: "Traffic accidents & motor claims",
+        href: "/guides/traffic-accident-motor-claims-singapore",
+        blurb: "SPF vs insurer clocks, foreign plates, GetGo.",
       },
       {
         label: "Climate, haze & floods",
@@ -611,16 +641,6 @@ export const pillars: Pillar[] = [
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
-      },
-      {
-        label: "Between jobs / STVP",
-        href: "/guides/between-jobs-stvp-singapore",
-        blurb: "EP cancel → up to 90 days stay, DP cascade, no work.",
-      },
-      {
-        label: "Lost work pass card",
-        href: "/guides/lost-replace-work-pass-card",
-        blurb: "1-week MOM replacement, fees, SGWorkPass travel.",
       },
       {
         label: "Leaving Singapore",
