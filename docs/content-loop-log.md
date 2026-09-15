@@ -6,6 +6,35 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 19)
+
+Branch: `cursor/loop-g-seo-tick19-a144` → PR to `main`. Directory ItemList microdata + MDX heading permalinks + SiteShell WebPage + `agents.txt` after #74→#228 claimed route/tool/hub/chrome surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Shared directory ListingGrid lacked ItemList microdata across schools / neighbourhoods / clubs / services.
+- DirectoryHero / DetailHero had no CollectionPage / Thing semantics.
+- Guide MDX headings had ids but no crawlable permalink anchors.
+- SiteShell main lacked WebPage itemScope; no `agents.txt` agent-hub map (`ai.txt` / `llms.txt` owned upstream).
+
+### Shipped this loop
+
+- ListingGrid ItemList + listName on School / Neighbourhood / Club / Service directories
+- FilterBar `role="search"`; ChipList ItemList
+- DirectoryHero CollectionPage; DetailHero Thing name/description
+- Optional `relatedPaths` → PathLinks on DirectoryHero
+- MDX heading permalinks; SiteShell WebPage microdata
+- `public/agents.txt`
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 → #228 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy; no sponsored pages.
+
+---
+
 ## Loop B — Family + Belong (tick 17) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick17-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Life / Next body trees beyond a light Home cross-link on MDW hiring. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), and #129 (exam-week coverage/IS PTA/teen driving).
