@@ -675,12 +675,12 @@ export const pillars: Pillar[] = [
       {
         label: "WICA light duty / clocks",
         href: "/guides/wica-light-duty-claim-clocks-ep",
-        blurb: "Notify vs file, light-duty shortfall, 1-year medical / civil fork.",
+        blurb: "Deemed claim on notice, light-duty shortfall, 1-year medical / civil fork.",
       },
       {
         label: "Training bond after IPA",
         href: "/guides/training-bond-resign-after-ipa-ep",
-        blurb: "Resign sequence, notice vs clawback, deduction vs invoice.",
+        blurb: "IPA first, notice vs clawback, deduction vs invoice.",
       },
       {
         label: "SAL e-Apostille",
@@ -691,6 +691,11 @@ export const pillars: Pillar[] = [
         label: "Lost blue NRIC (PR / SC)",
         href: "/guides/lost-replace-nric-pr-singapore",
         blurb: "ICA 14-day report clock — not MOM work-pass replacement.",
+      },
+      {
+        label: "Lost NRIC overseas → return",
+        href: "/guides/lost-nric-overseas-return-singapore",
+        blurb: "Report on ICA e-Service abroad; replace/collect only in Singapore.",
       },
       {
         label: "After getting PR",

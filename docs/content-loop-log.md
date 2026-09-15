@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 36)
+
+Branch: `loop/story-aeo-tick36` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#205 H20–H35). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — new IPA but old EP has a 24-month training bond / HR refuses resignation.
+- r/askSingapore — light duty after workplace accident / did I file WICA / WICA or sue.
+- r/askSingapore — lost blue card in Bangkok / London; embassy temporary IC folklore.
+
+**Official**
+
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) + resignation / notice / salary-deduction pages.
+- [MOM — WICA employees how to claim](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/employees-how-to-claim) + types of compensation + WICA vs common law.
+- [ICA — Loss of Identity Card](https://www.ica.gov.sg/documents/ic/loss) + collect IC + mission “cannot replace NRIC” pages.
+
+### Gaps vs open H + ticks 1–35
+
+Open: #117–#205 H20–H35. Remaining free Next FAQ-free companions included **training bond resign after IPA**, **WICA light-duty claim clocks**, **lost NRIC overseas return**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/training-bond-resign-after-ipa-ep.mdx` (direct lead + FAQPage)
+- `content/guides/next/wica-light-duty-claim-clocks-ep.mdx` (direct lead + FAQPage)
+- `content/guides/next/lost-nric-overseas-return-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (training-bond + WICA blurb deepen + lost NRIC overseas topic)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#205 guide bodies.
+
+### Questions mined (sample)
+
+1. Can an old employer block resignation because of a training bond when I have a new IPA?
+2. Should I resign before or after the new employer’s IPA?
+3. Can HR deduct the full training-bond amount from final salary?
+4. Is “pay remaining 18 months’ salary” always enforceable?
+5. Does an employer-initiated exit wipe the training bond automatically?
+6. Do I still need to file a separate WICA claim with MOM after an EP workplace accident?
+7. Does light duty under WICA pay full salary?
+8. What is the one-year WICA clock EP holders miss?
+9. Can I claim under WICA and sue at common law for the same accident?
+10. What if HR never notifies MOM or the insurer after light duty?
+11. Can the embassy issue a temporary IC if I lose my NRIC overseas?
+12. How soon must I report a lost NRIC while abroad?
+13. Can I keep travelling without the physical NRIC?
+14. Where do I collect the replacement NRIC after reporting overseas?
+15. Is a foreign police report required for ICA NRIC replacement?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 24)
 
 Branch: `cursor/loop-d-next-polish-tick24-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Family / Belong / Home body trees beyond Move parent cross-links for PEP / ONE / Tech / EntrePass / incorporate. Avoided open Loop D file sets from [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183) / [#193](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/193).
