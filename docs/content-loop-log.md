@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 24)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick24-49cb` → PR to `main` (fresh worktree off `origin/main` @ `42e5f3f`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180) A17–A23 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — FCF renewal myths; MCF volume ≠ easy EP; ad-ID swap after resignation.
+- r/askSingapore — WHP/TEP side gigs; TEP tenure folklore; short-pass expiry while IPA pending.
+- r/singaporefi — FX/HQ payroll missing bonus interest; mid-month job-hop salary-credit gaps; EP vs PR rate myths.
+
+**Official**
+
+- [MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) + MyCareersFuture advertising rules
+- [MOM — Work Holiday Pass / Training Employment Pass](https://www.mom.gov.sg/passes-and-permits)
+- Bank product T&Cs for Multiplier / OCBC 360 / UOB One (verify live salary-credit categories)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A23 claim Student’s Pass/LTVP/CPF-withdrawal, EP-notify/ONE Pass/COR, COMPASS/Tech.Pass/foreign-income, EntrePass/side-income/IRAS-residency, Dependant’s Pass/EP-appeal/SRS, S Pass/PEP/RSU, and Employment Pass/job-offer/credit-cards. Tick 24 deepens **Fair Consideration**, **WHP vs TEP**, and **high-interest salary accounts** without colliding those paths.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/fair-consideration-framework-ep.mdx` (+3)
+- `content/guides/move/work-holiday-training-employment-pass.mdx` (+3)
+- `content/guides/money/high-interest-salary-accounts-foreigners.mdx` (+3)
+- `src/lib/site.ts` (FCF / WHP / salary-account blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A23 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180 for the merge controller.
+
+### Questions mined (sample)
+
+1. Does FCF advertising apply to same-employer EP renewals?
+2. Does MCF ad volume mean EP is easy?
+3. Can HR swap the Job Advertisement ID after I resign?
+4. Can I freelance on WHP/TEP?
+5. Does TEP count like EP tenure for PR?
+6. What if WHP/TEP expires while EP IPA is pending?
+7. Do FX/HQ salaries unlock SGD bonus tiers?
+8. Does a mid-month job-hop kill that month’s bonus interest?
+9. Do EP holders get different bonus rates than PRs?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 17)
 
 Branch: `cursor/loop-d-next-polish-tick17-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138).

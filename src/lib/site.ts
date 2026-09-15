@@ -199,7 +199,7 @@ export const pillars: Pillar[] = [
       {
         label: "Fair Consideration & MyCareersFuture",
         href: "/guides/fair-consideration-framework-ep",
-        blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
+        blurb: "14-day ads, renewal vs new vacancy, screenshot the ad ID.",
       },
       {
         label: "S Pass vs EP",
@@ -214,7 +214,7 @@ export const pillars: Pillar[] = [
       {
         label: "Work Holiday & Training EP",
         href: "/guides/work-holiday-training-employment-pass",
-        blurb: "WHP vs TEP — never intern on a tourist visit pass.",
+        blurb: "No tourist internships; no side gigs; expiry vs pending IPA.",
       },
       {
         label: "MOE Tuition Grant bond",
@@ -323,7 +323,7 @@ export const pillars: Pillar[] = [
       {
         label: "High-interest salary accounts",
         href: "/guides/high-interest-salary-accounts-foreigners",
-        blurb: "Multiplier / OCBC 360 / UOB One salary-credit codes.",
+        blurb: "Salary-credit codes, FX payroll misses, mid-month job-hop gaps.",
       },
       {
         label: "Credit cards for foreigners",
