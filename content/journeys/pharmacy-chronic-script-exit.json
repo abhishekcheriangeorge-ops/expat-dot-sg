@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "pharmacy-chronic-script-exit",
+  "title": "Pharmacy / chronic-script exit",
+  "summary": "Leaving Singapore on chronic meds — pull last refills, request transfer letters, and float private-script cash before clinic accounts and Singpass logistics change.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-scripts",
+      "title": "Inventory every chronic script still active",
+      "body": "GP, polyclinic, and specialist scripts often renew on different calendars. Before you freeze clinic portals or change Singpass factors, list every ongoing medicine, dose, and next refill date. Photograph bottle labels and the latest prescription printouts — overseas pharmacies rarely accept a WhatsApp photo as a valid transfer.",
+      "bullets": [
+        "List active chronic meds with dose, frequency, and next refill window",
+        "Photograph labels and keep PDF/print copies of current prescriptions",
+        "Note which scripts sit at polyclinic vs private GP vs specialist"
+      ],
+      "href": "/journeys/hospital-cash-deposit"
+    },
+    {
+      "id": "last-refill",
+      "title": "Book last refills before fly week",
+      "body": "Many leavers discover mid-packing that a 30-day supply ends three days after landing. Ask clinics whether a travel / longer fill is allowed, and keep a SGD float for private top-ups when polyclinic slots are full. Sketch cash on /tools/pharmacy-last-refill-float so packing week does not raid the clinic-deposit pot.",
+      "bullets": [
+        "Ask for travel or extended fills in writing where the clinic allows it",
+        "Hold a separate last-refill float from clinic deposit cash",
+        "Sketch refill / private-script cash on /tools/pharmacy-last-refill-float"
+      ],
+      "href": "/tools/pharmacy-last-refill-float"
+    },
+    {
+      "id": "transfer-letter",
+      "title": "Request transfer / summary letters for the next GP",
+      "body": "A destination GP usually wants a diagnosis list, current doses, and recent labs — not a bag of half-used blister packs alone. Request medical summaries and script histories while you still have Singapore contact numbers and can collect sealed letters. Do not assume clinic portals stay reachable after pass cancellation.",
+      "bullets": [
+        "Request a medical summary and active-medication list before the last consult",
+        "Collect sealed letters or portal PDFs while login still works",
+        "Pair clinic account close with /tools/clinic-deposit-exit if deposits remain"
+      ],
+      "href": "/tools/clinic-deposit-exit"
+    },
+    {
+      "id": "controlled-meds",
+      "title": "Controlled meds and carry-on documentation",
+      "body": "Some chronic meds need original packaging, scripts, and destination import rules. Confirm what you can legally carry in hand luggage, and keep doctor letters with the medicines — not in checked bags. Folklore from expat chats is not customs advice.",
+      "bullets": [
+        "Check destination import rules for each controlled or injectable medicine",
+        "Pack scripts and doctor letters with the meds in carry-on",
+        "Do not treat forum packing lists as legal clearance"
+      ],
+      "href": "https://www.hsa.gov.sg/"
+    },
+    {
+      "id": "portal-singpass",
+      "title": "Clinic portals, Singpass, and contact hygiene",
+      "body": "Prescription renewals and appointment SMS often depend on a Singapore number and Singpass. Update email contacts, download histories, and sequence Singpass factor changes after pharmacy and clinic exports are done — the same week CPF and bank archives often collide.",
+      "bullets": [
+        "Download clinic portal histories before SIM / Singpass factor changes",
+        "Cross-check /journeys/singpass-myinfo-exit for login hygiene",
+        "Keep one inbox alive for pharmacy or clinic callbacks during notice week"
+      ],
+      "href": "/journeys/singpass-myinfo-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with hospital and leaving playbooks",
+      "body": "Chronic refills, hospital deposit returns, and leaving checklists often share one fortnight. Sequence last pharmacy visits while clinic accounts are still open, then deposit clearances, then physical leaving tasks — so meds and letters are not trapped behind a closed portal.",
+      "bullets": [
+        "Put last refill, transfer letters, and clinic deposit return on one calendar",
+        "Pair with /journeys/hospital-cash-deposit when inpatient deposits remain",
+        "Keep one adult free for pharmacy or clinic callbacks during packing week"
+      ],
+      "href": "/journeys/hospital-cash-deposit"
+    }
+  ]
+}

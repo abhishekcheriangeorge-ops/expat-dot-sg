@@ -190,3 +190,7 @@ export async function getCondoAccessCardDepositPlaybook(): Promise<LeavingPlaybo
 export async function getCpfNominationExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("cpf-nomination-exit.json");
 }
+
+export async function getPharmacyChronicScriptExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("pharmacy-chronic-script-exit.json");
+}
