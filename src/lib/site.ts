@@ -49,7 +49,7 @@ export const modes = [
     summary:
       "From the offer letter through visas, first housing, banking, and the chaos of week one — a clear path into Singapore.",
     howToUse:
-      "Start with the dependency map (SIM → Singpass → bank), file the SG Arrival Card, then tick the 7/30/90 boards. Open a pillar only when a specific blocker appears — do not binge-read every guide before wheels-down.",
+      "Start with the dependency map (SIM → Singpass → bank), file the SG Arrival Card, then push HR through issuance → Notification Letter → EPSC. Tick the 7/30/90 boards; open a pillar only when a specific blocker appears.",
     startHere: [
       {
         href: "/guides/first-week-sim-singpass-bank",
@@ -62,14 +62,14 @@ export const modes = [
         blurb: "ICA’s 3-day window, IPA path, and why it is not a visa.",
       },
       {
+        href: "/guides/work-pass-issuance-epsc-notification",
+        label: "Issuance → EPSC → card",
+        blurb: "IPA vs Notification Letter, when you may work, biometrics clocks.",
+      },
+      {
         href: "/journeys/arriving",
         label: "7 / 30 / 90 checklists",
         blurb: "Tickable boards for landing week through first quarter.",
-      },
-      {
-        href: "/guides/relocation-checklist-7-30-90",
-        label: "Relocation narrative",
-        blurb: "Story version of the same runway, with family notes.",
       },
     ] as const satisfies readonly ModeStartLink[],
     image: "/images/arriving-singapore.jpg",
@@ -132,6 +132,11 @@ export const pillars: Pillar[] = [
         blurb: "ICA’s 3-day window and IPA vs issued-pass paths.",
       },
       {
+        label: "Issuance, EPSC & Notification Letter",
+        href: "/guides/work-pass-issuance-epsc-notification",
+        blurb: "When you may work, biometrics, SGWorkPass, card delivery.",
+      },
+      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
@@ -145,11 +150,6 @@ export const pillars: Pillar[] = [
         label: "First housing bridge",
         href: "/guides/first-housing-serviced-apartment",
         blurb: "Serviced apartments and short lets while you hunt properly.",
-      },
-      {
-        label: "Trailing-partner career",
-        href: "/guides/trailing-partner-career-singapore",
-        blurb: "Work rights, networking, and realistic first-job paths.",
       },
     ],
     related: [
@@ -307,8 +307,8 @@ export const pillars: Pillar[] = [
     topics: [
       {
         label: "Transport fluency",
-        href: "/guides",
-        blurb: "MRT, buses, Grab, and when a car still makes sense.",
+        href: "/guides/mrt-bus-transport-literacy",
+        blurb: "SimplyGo, foreign-card fee, EZ-Link, and when Grab wins.",
       },
       {
         label: "Food & hawker literacy",
