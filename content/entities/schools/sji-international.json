@@ -3,16 +3,16 @@
   "slug": "sji-international",
   "name": "SJI International School",
   "summary": "Lasallian international school offering IB with a values-led culture.",
-  "body": "SJI International combines IB academics with Lasallian ethos. It attracts families who want international curriculum with a faith-informed community culture. Admissions are competitive; understand elementary vs high school campus logistics. Formal uniform expectations on photo day are easy to miss in a dual-career morning rush — lay out pieces the night before.",
+  "body": "SJI International combines IB academics with Lasallian ethos. It attracts families who want international curriculum with a faith-informed community culture. Admissions are competitive; understand elementary vs high school campus logistics. Formal uniform expectations on photo day are easy to miss in a dual-career morning rush \u2014 lay out pieces the night before. Mother-tongue / language info nights are school-specific ops \u2014 dual-career households should calendar the portal slot before stacking an art-studio wait the same evening.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "Elementary–High school",
+  "ages": "Elementary\u2013High school",
   "neighbourhood": "east-coast",
-  "campus": "Thomson / Bukit Serangoon area — verify",
+  "campus": "Thomson / Bukit Serangoon area \u2014 verify",
   "languages": [
     "English"
   ],
@@ -20,5 +20,9 @@
   "waitlistNotes": "Faith-community fit conversations may be part of process.",
   "website": "https://www.sji-international.com.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-language-evening-ops-dual-career-singapore",
+    "art-studio-waiting-parent-belonging-singapore"
+  ]
 }

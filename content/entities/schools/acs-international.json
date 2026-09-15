@@ -2,26 +2,28 @@
   "type": "school",
   "slug": "acs-international",
   "name": "ACS International",
-  "summary": "ACS-family international school with IB Diploma and a Singaporean institutional backbone — do not confuse with ACS (Independent) local pathways.",
-  "body": "ACS International offers an international pathway connected to the broader Anglo-Chinese Schools family. It appeals to families wanting IB (often via IGCSE/MYP into DP) with local institutional roots — useful when the university thesis is portable and you still want ACS-brand familiarity. Compare carefully against ACS (Independent) and other MOE-pathway IB schools: those are cut-throat local admissions products, not walk-in international seats. Confirm campus, age range, and current year-group openings on the school site before housing locks. For IB-vs-A-Level decision framing across the island, pair this entity with the secondary pathways guide rather than treating any single ACS campus as the whole map. Careers/CCA offices may broker short work-experience weeks — confirm age/pass compliance and mentor names before treating placements as belonging. Ask how CCA loads interact with external academy calendars for dual-career households, and how fixture changes are communicated.",
+  "summary": "ACS-family international school with IB Diploma and a Singaporean institutional backbone \u2014 do not confuse with ACS (Independent) local pathways.",
+  "body": "ACS International offers an international pathway connected to the broader Anglo-Chinese Schools family. It appeals to families wanting IB (often via IGCSE/MYP into DP) with local institutional roots \u2014 useful when the university thesis is portable and you still want ACS-brand familiarity. Compare carefully against ACS (Independent) and other MOE-pathway IB schools: those are cut-throat local admissions products, not walk-in international seats. Confirm campus, age range, and current year-group openings on the school site before housing locks. For IB-vs-A-Level decision framing across the island, pair this entity with the secondary pathways guide rather than treating any single ACS campus as the whole map. Careers/CCA offices may broker short work-experience weeks \u2014 confirm age/pass compliance and mentor names before treating placements as belonging. Ask how CCA loads interact with external academy calendars for dual-career households, and how fixture changes are communicated. Language evenings and slapped-cheek exclusion weeks both need named dual-career owners \u2014 ask admissions how parent language nights are scheduled against bus cutoffs.",
   "curriculum": [
     "IB MYP",
     "IB DP",
     "IGCSE"
   ],
   "sector": "international",
-  "ages": "Secondary focus — confirm junior offerings",
+  "ages": "Secondary focus \u2014 confirm junior offerings",
   "neighbourhood": "holland-village",
-  "campus": "Holland Village / Central — verify",
+  "campus": "Holland Village / Central \u2014 verify",
   "languages": [
     "English"
   ],
   "feesBand": "Upper-mid",
-  "waitlistNotes": "Secondary entry points are popular — apply on published timelines. Ask which grades still accept mid-year transfers.",
+  "waitlistNotes": "Secondary entry points are popular \u2014 apply on published timelines. Ask which grades still accept mid-year transfers.",
   "website": "https://www.acsinternational.com.sg",
   "featured": false,
   "sponsored": false,
   "relatedGuides": [
-    "primary-cca-vs-external-academy-dual-career-singapore"
+    "primary-cca-vs-external-academy-dual-career-singapore",
+    "international-school-language-evening-ops-dual-career-singapore",
+    "dual-career-kids-fifth-disease-slapped-cheek-school-exclusion-singapore"
   ]
 }

@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 41) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick41-8971` → tip PR off [#322](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/322) (tick 40). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #322. Shared log + `site.ts` only (prepend on conflict). Did not wait for #322 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — slapped-cheek vs sunburn folklore; pregnancy-exposure panic.
+- r/askSingapore — language-evening portals closing mid-board pack.
+- r/askSingapore — art-studio sofas as the quiet weekday parent meetup.
+
+**Official**
+
+- [NHS slapped cheek](https://www.nhs.uk/conditions/slapped-cheek-syndrome/) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [NAC](https://www.nac.gov.sg/) + [Esplanade](https://www.esplanade.com/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–40 (open tip #322) covered scarlet fever, coffee mornings, football waiting, ringworm, sports fixtures, tennis waiting. Remaining heat without contested paths: **fifth-disease / slapped-cheek exclusion**, **language-evening ops**, **art-studio waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-fifth-disease-slapped-cheek-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-language-evening-ops-dual-career-singapore.mdx`
+- `content/guides/belong/art-studio-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open paths through #322)
+
+- kids birthday-party ops, Mandarin enrichment, primary-school transition, chambers of commerce, nationality groups, religious communities
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- ACS International, SJI International, NPS International, driving-schools-licence, end-of-lease-cleaning, bank-account-opening
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open paths through #322.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns daytime fever / rash checks?
+2. What exact line does the school letter use for return?
+3. Is a pregnancy-exposure note required?
+4. When does the language-evening portal slot close?
+5. Who owns the pathway question script?
+6. Same art-studio sofa next week?
+7. Who covers siblings during the evening?
+8. Who sends the follow-up email?
+
+---
+
 ## Loop B — Family + Belong (tick 40) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick40-8971` → tip PR off [#314](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/314) (tick 39). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #314. Shared log + `site.ts` only (prepend on conflict). Did not wait for #314 merge/CI. No force-push to `main`.
