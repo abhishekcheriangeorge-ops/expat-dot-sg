@@ -2,22 +2,21 @@
   "type": "school",
   "slug": "hwa-chong-international",
   "name": "Hwa Chong International School",
-  "summary": "International arm of the Hwa Chong family with bilingual and IP-adjacent strengths.",
-  "body": "HCIS attracts families seeking bilingual strength and the Hwa Chong academic culture in an international-school frame. Useful when you want Singaporean academic intensity without full local-school eligibility constraints — still verify admissions eligibility carefully.",
+  "summary": "IB pathway with a mixed local/foreign cohort — often shortlisted for academically inclined families comparing SJII and ACS(I).",
+  "body": "HCIS runs an IB programme with a reputation for stronger academic intensity than some peer “local international” campuses. Forum feedback often describes a roughly half-local / half-foreign mix skewed toward Asian nationalities, English as the working language in class, and university exits weighted toward UK and local universities more than US unless students chase SAT strength. Boarding exists for some foreign students — confirm current capacity. Tour counselling early: ask for recent destination lists by country and counsellor caseloads before treating Oxbridge logos as the product. Compare pastoral fit against SJII and ACS(I) open houses; geography and peer culture matter as much as IB branding. Verify fees, boarding, and language support on the school site.",
   "curriculum": [
-    "IB",
-    "Bilingual"
+    "IB"
   ],
   "sector": "international",
-  "ages": "Secondary",
+  "ages": "Secondary–IB DP",
   "neighbourhood": "bukit-timah",
   "campus": "Bukit Timah",
   "languages": [
     "English",
-    "Mandarin"
+    "Chinese environment adjacency"
   ],
-  "feesBand": "Upper-mid",
-  "waitlistNotes": "Academic selection elements may apply.",
+  "feesBand": "Mid to upper-mid international",
+  "waitlistNotes": "Year-group and boarding capacity vary — ask for dated openings and counselling intro timing.",
   "website": "https://www.hcis.edu.sg",
   "featured": false,
   "sponsored": false

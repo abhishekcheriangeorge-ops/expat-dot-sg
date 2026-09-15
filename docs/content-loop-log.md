@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 8) — 2026-09-15
+
+Branch: `loop/family-belong-tick8` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; HSS cleaning adjacency cited only; ActiveSG stays Life-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — part-time babysitter / day nanny vs live-in ([part-time caregiver](https://www.reddit.com/r/askSingapore/comments/1iavktv/where_to_find_part_time_child_caregiver/); [part-time instead of live-in](https://www.reddit.com/r/askSingapore/comments/1kx7bj4/can_we_have_a_parttime_helpernanny_instead_of/); [nanny hire services](https://www.reddit.com/r/askSingapore/comments/1rqowk6/has_anyone_used_nanny_hire_services_and_what_do/); [babysitters](https://www.reddit.com/r/askSingapore/comments/xrlycz/babysitters_in_singapore/)).
+- r/askSingapore — university counselling / IS exits ([HCIS](https://www.reddit.com/r/askSingapore/comments/1p7y994/hwa_chong_international_school_thoughts/); [SJII/HCI/ACI](https://www.reddit.com/r/askSingapore/comments/1r8hxmi/have_you_attended_sjii_hci_or_aci/); [SJII vs Dulwich](https://www.reddit.com/r/askSingapore/comments/1p8egox/saint_josephs_international_or_dulwich/); [IS worth it](https://www.reddit.com/r/askSingapore/comments/1e9e01p/are_international_schools_in_singapore_worth_it/)).
+
+**Official**
+
+- [MOM — Household Services Scheme](https://www.mom.gov.sg/faq/work-permit-for-foreign-worker/what-is-household-services-scheme) (part-time company services; child-minding concession wind-down note).
+- [MOM — Confinement nanny](https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny) + [MDW](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker) (product separation).
+- [MOE — Post-secondary admissions](https://www.moe.gov.sg/post-secondary/admissions) + [IB university admissions](https://www.ibo.org/university-admission/).
+- [NLB](https://www.nlb.gov.sg/) learning communities.
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–7 covered schools/SEN/camps/clubs/volunteering/LGBTQ, newborn/leave/vaccines, IVF/maternity/divorce, Reclub/parkrun, school-bus/Mandarin/preschool/chambers/faith, confinement WP, indoor hobbies, allergy/EpiPen, IB/A-Level, music belonging. Remaining heat: **ad-hoc/part-time babysitter legal lanes vs MDW moonlighting myths**, **IS university counselling ops**, **book-club belonging** for introverts.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/part-time-babysitter-nanny-singapore.mdx`
+- `content/guides/family/university-counselling-international-schools-singapore.mdx`
+- `content/guides/belong/book-clubs-reading-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/confinement-nanny-postpartum-singapore.mdx`
+- `content/guides/family/preschool-childcare-singapore.mdx`
+- `content/guides/family/secondary-ib-alevel-pathways-singapore.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/indoor-hobby-communities-singapore.mdx`
+
+**Entity depth**
+
+- `content/entities/schools/hwa-chong-international.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (no MDW ownership rewrite).
+
+### Questions mined (sample)
+
+1. Can I hire my neighbour’s FDW for evening babysitting on her rest day?
+2. Is a part-time foreign cleaner via HSS the same as a babysitter?
+3. Will ad-hoc platform nannies show up every weekday for months?
+4. When does hourly babysitting cost more than a junior MDW all-in?
+5. How is a day nanny different from a confinement nanny?
+6. What counsellor caseload should I ask for before paying an IS deposit?
+7. Do HCIS exits skew UK more than US without SAT prep?
+8. Can IGCSE grads casually enter a local JC for A-Levels?
+9. When should mobile families book university counselling — DP1 or DP2 panic?
+10. Where do introverts find book clubs without a country-club membership?
+11. Are NLB learning communities open to foreigners?
+12. Should SJII vs HCIS decisions weight counselling lists or only IB branding?
+
+---
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 7)
 
 Branch: `loop/next-polish-tick7` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (Move keeps arrival LTVP / DP survey; divorce stays Family-owned; Next deepens spouse LTVP / PLOC / student PR only).
