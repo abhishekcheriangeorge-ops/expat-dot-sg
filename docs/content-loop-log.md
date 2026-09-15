@@ -6,6 +6,76 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 7)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick7-49cb` → PR to `main` (fresh worktree off `origin/main` while [#56](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/56) A6 is still open — **did not** edit A6 ONE/EntrePass/DP/side-income/CPF/bank/salary paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — MyCareersFuture / Fair Consideration “box-ticking” vs real hire ([where companies hire](https://www.reddit.com/r/askSingapore/comments/1nxz5tf/for_those_working_in_hr_talent_acquisition_or/); [reposted jobs](https://www.reddit.com/r/askSingapore/comments/1jetjum/why_do_so_many_jobs_in_singapore_get_reposted_so/)).
+- r/askSingapore — S Pass while on DP / “no EP quota” myths ([S Pass on DP](https://www.reddit.com/r/askSingapore/comments/1sxxf18/is_it_very_hard_to_get_an_s_pass_job_while_on_a/); [DP career trap](https://www.reddit.com/r/askSingapore/comments/1ranfcm/spouse_got_a_dream_job_offer_in_singapore_but_the/); [EP tightening](https://www.reddit.com/r/askSingapore/comments/1porrdk/is_singapores_ep_quota_tightening_backfiring/)).
+- r/askSingapore — WHP / TEP internship rails ([WHP timing](https://www.reddit.com/r/askSingapore/comments/159toan/do_i_apply_for_whp_working_holiday_pass_while/); [internship pay/pass](https://www.reddit.com/r/askSingapore/comments/1gj9m83/internship_in_singapore/); [TEP institution list](https://www.reddit.com/r/askSingapore/comments/1jdqcl9/training_employment_pass_how_to_know_if_an/); [LOE ≠ EP](https://www.reddit.com/r/askSingapore/comments/1isg140/company_sponsorship_requirement_for_foreign/)).
+
+**Official**
+
+- [MOM — Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) + [consider candidates fairly (EP)](https://www.mom.gov.sg/passes-and-permits/employment-pass/consider-all-candidates-fairly) + [S Pass FCF](https://www.mom.gov.sg/passes-and-permits/s-pass/consider-all-candidates-fairly) (14 days; S$22,500 / &lt;10 employees exemptions)
+- [MOM — S Pass eligibility](https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility) + [COS 2025 factsheet](https://www.mom.gov.sg/-/media/mom/documents/budget2025/cos-2025-factsheet-on-foreign-workforce-policies) (Sep 2025 floors / levy)
+- [MOM — Work Holiday Programme](https://www.mom.gov.sg/passes-and-permits/work-holiday-programme/eligibility) + [Training Employment Pass](https://www.mom.gov.sg/passes-and-permits/training-employment-pass/eligibility)
+- [MOE — Tuition Grant bond matters](https://www.moe.gov.sg/financial-matters/tuition-grant-scheme/bond-matters) + liquidated damages pages
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–5 (on main) + open A6 (#56) cover EP floors/COMPASS, EP vs S Pass body, remittance, medical/IR21, cancel STVP/DP LOC/PayNow/CPF withdrawal, FWTES, job-change IPA, HISA, tax residency, EP medical, salary notify, CC GX, COR, LOG, PEP/Tech.Pass, IPA reassessment, SRS/RSU, foreign income, COL helper, ACRA, pets transit, and (in #56) ONE/EntrePass/DP/side-income/CPF/bank/salary FAQPages. Remaining high-intent Move/Money gaps matched this mine without colliding #56 paths: **FCF/MCF 14-day + S$22.5k exemption FAQPage**, **S Pass Sep 2025 floors/levy + “no EP quota” myth FAQPage**, **EP vs S Pass FAQPage**, **job-offer fixed-salary vs AWS FAQPage**, **WHP/TEP vs tourist-intern myth**, **MOE TG LOE ≠ EP**, **year-one finance FOMO**. Left Next EP-renewal NOA and Loop H STVP/housing/banking AEO alone.
+
+### Shipped this loop
+
+**Upgraded guides (FAQPage + depth)**
+
+- `content/guides/move/fair-consideration-framework-ep.mdx`
+- `content/guides/move/s-pass-singapore.mdx`
+- `content/guides/move/ep-vs-s-pass-comparison.mdx`
+- `content/guides/move/decoding-job-offer-singapore.mdx`
+- `content/guides/move/work-holiday-training-employment-pass.mdx`
+- `content/guides/move/moe-tuition-grant-bond.mdx`
+- `content/guides/money/financial-planning-year-one.mdx`
+- `src/lib/site.ts` (FCF / S Pass / offer / WHP / TG + year-one finance topics)
+- `content/entities/services/intact-immigration.json` (FCF / S Pass / WHP / TG engage paths)
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing decoding-offer sponsorSlot left untouched).
+- No Grok / third-party clone copy.
+- Did not edit open A6 paths (ONE/EntrePass/DP/side-income/CPF/bank/salary).
+- Did not re-own Loop H STVP/housing/banking AEO or Loop D EP-renewal NOA.
+- Did not edit Family / Belong / Home / Life heavily.
+
+### Questions mined (sample)
+
+1. Is every MyCareersFuture ad just FCF box-ticking?
+2. Can HR offer me the job during the 14-day ad window?
+3. When is MCF advertising exempt (S$22,500 / small firm)?
+4. Must the EP filing match the MCF ad ID and salary?
+5. Does “no EP quota” mean I must take S Pass?
+6. What are Sep 2025 S Pass salary and levy floors?
+7. Can S Pass holders hit the S$6,000 DP family gate?
+8. Does AWS / 13th month count as fixed monthly salary for MOM?
+9. Can I intern on a tourist / STVP?
+10. Is MOM’s TEP sample university list exhaustive?
+11. Does a Tuition Grant LOE mean I already have an EP?
+12. Should year-one expats buy a condo or COE car before the first renewal?
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 8)
 
 Branch: `loop/next-polish-tick8` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees.
