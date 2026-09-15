@@ -6,6 +6,7 @@ import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
   getCondoEvChargerClearPlaybook,
+  getCondoVisitorParkingClearPlaybook,
   getUtilityMeterPhotoHandoffPlaybook,
   getCondoVisitorQrExitPlaybook,
   getLeavingPlaybook,
@@ -22,7 +23,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -36,6 +37,7 @@ export default async function JourneysIndexPage() {
     condoVisitorQr,
     condoEvCharger,
     utilityMeterPhoto,
+    condoVisitorParking,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -45,6 +47,7 @@ export default async function JourneysIndexPage() {
     getCondoVisitorQrExitPlaybook(),
     getCondoEvChargerClearPlaybook(),
     getUtilityMeterPhotoHandoffPlaybook(),
+    getCondoVisitorParkingClearPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -97,6 +100,12 @@ export default async function JourneysIndexPage() {
                 name:
                   utilityMeterPhoto?.title ?? "Utility meter photo handoff",
                 path: "/journeys/utility-meter-photo-handoff",
+              },
+              {
+                name:
+                  condoVisitorParking?.title ??
+                  "Condo visitor parking / loading-bay clear",
+                path: "/journeys/condo-visitor-parking-clear",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -316,6 +325,34 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open meter photo handoff playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Condo visitor parking
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {condoVisitorParking?.title ??
+              "Condo visitor parking / loading-bay clear"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {condoVisitorParking?.summary ??
+              "Visitor bay QR, loading slots, and guest tags before MCST handover."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/helper-levy-final-month"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/helper-levy-final-month
+            </Link>{" "}
+            if helper final-levy cash settles the same fortnight.
+          </p>
+          <Link
+            href="/journeys/condo-visitor-parking-clear"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open visitor parking clear playbook
           </Link>
         </FadeIn>
 
