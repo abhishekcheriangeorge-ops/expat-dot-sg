@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 27)
+
+Branch: `cursor/loop-d-next-polish-tick27-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Family / Money parents for LTVP/PLOC, schools, and health insurance. Avoided open Loop D file set from [#215](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/215).
+
+**Merge order note (controller):** `#215 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “upgrade LTVP to EP”; PLOC treated as permanent conversion.
+- r/askSingapore — mid-year international school hop; fee forfeiture vs pass expiry.
+- r/askSingapore — uninsured STVP week after group medical ends; LOG deposits on exit.
+
+**Official**
+
+- [MOM — PLOC](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) · [Work passes for ICA LTVP](https://www.mom.gov.sg/passes-and-permits/work-passes-for-holders-of-long-term-visit-passes-issued-by-ica) · [EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)
+- [MOE](https://www.moe.gov.sg/) · [Notify MOM of EP changes](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes)
+- [MOH healthcare system](https://www.moh.gov.sg/home/our-healthcare-system) · [Cancel EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass)
+
+### Gaps vs open stack
+
+Open #215 covers DP re-sponsor on EP job change, Student’s Pass work hours, SRS exit withholding. Remaining high-intent gaps: **LTVP+PLOC → EP**, **mid-year school-transfer knock-ons**, **health-insurance exit bridge**.
+
+### Shipped
+
+**New:** `ltvp-ploc-to-ep-conversion-singapore.mdx`, `mid-year-school-transfer-pass-knockons-singapore.mdx`, `health-insurance-exit-between-jobs-bridge-singapore.mdx`
+
+**Upgraded:** PLOC/LOC, LTVP, international schools, health-insurance-expat (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #215 guide bodies (DP re-sponsor, STP work hours, SRS exit withholding) and no re-edit of #215 parents (changing-jobs EP, Student’s Pass, SRS-as-foreigner).
+- Did not wait for #215 CI or merge.
+
+### Questions mined
+
+1. Does PLOC auto-convert into an EP?
+2. When should an LTVP spouse file their own EP?
+3. Does FCF still apply if I already work on PLOC?
+4. Does a mid-year school transfer extend my DP?
+5. What fees do I forfeit if I leave mid-term?
+6. Should I move house the same month as the school transfer?
+7. When does employer group medical end on resignation?
+8. Does STVP include medical cover?
+9. Can I keep dependants on the old group plan during notice?
+10. Should I buy a bridge before or after EP cancel?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 26)
 
 Branch: `cursor/loop-d-next-polish-tick26-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money parents for job-change, Student’s Pass, and SRS. Avoided open Loop D file set from [#209](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/209).

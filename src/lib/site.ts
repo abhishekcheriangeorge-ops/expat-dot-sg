@@ -642,6 +642,17 @@ export const pillars: Pillar[] = [
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
       },
+
+      {
+        label: "LTVP + PLOC → EP",
+        href: "/guides/ltvp-ploc-to-ep-conversion-singapore",
+        blurb: "PLOC is work consent — EP is a new principal file.",
+      },
+      {
+        label: "Mid-year school transfer knock-ons",
+        href: "/guides/mid-year-school-transfer-pass-knockons-singapore",
+        blurb: "Fees, bus bonds, pass validity — school ≠ immigration.",
+      },
       {
         label: "DP re-sponsor on EP job change",
         href: "/guides/dp-resubmission-when-principal-changes-ep-singapore",
@@ -676,6 +687,12 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "Tax clearance, deposits, shipping, school exits.",
+      },
+
+      {
+        label: "Insurance exit / job-hop bridge",
+        href: "/guides/health-insurance-exit-between-jobs-bridge-singapore",
+        blurb: "Group cover dies with employment — bridge before cancel.",
       },
       {
         label: "EntrePass vs resident director",
