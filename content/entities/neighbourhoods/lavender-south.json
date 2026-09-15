@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "lavender-south",
+  "name": "Lavender South",
+  "summary": "South of Lavender MRT toward Kallang / Beach Road edges — EWL mid-town living with denser condo/HDB mix and nightlife spill as the lifestyle tax.",
+  "body": "Lavender South is the shortlist when East-West Line mid-town access and walkable food matter more than quiet landed texture. The pocket sits south of Lavender station toward Kallang and Beach Road gravity; housing mixes mid-age condos with selective HDB edges. Expats land here for car-light CBD hops and late options without Orchard premiums. Watch-outs: nightlife noise nearer Beach Road, peak EWL loads, and estate-specific tank / booster notice culture. Compare with Rochor Fringe for arts-campus adjacency, Kallang Wave for stadium-side living, and Bugis South when denser retail wins.",
+  "region": "central",
+  "vibe": [
+    "ewl",
+    "mid-town",
+    "dense",
+    "nightlife-adjacent",
+    "practical"
+  ],
+  "bestFor": [
+    "EWL CBD commuters",
+    "car-light mid-town renters",
+    "households okay with denser texture",
+    "people who will book ActiveSG skating instead of condo court myths"
+  ],
+  "watchOuts": [
+    "Nightlife and weekend spill toward Beach Road",
+    "Peak EWL crowding",
+    "Water-tank / booster notices vary by estate",
+    "Serviced vs TA confusion on some blocks"
+  ],
+  "housingMix": "Mid-age condos with selective HDB / walk-up edges.",
+  "commuteNotes": "East-West Line at Lavender; Kallang / Nicoll adjacency depending on block. Walk a Saturday night before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2600,
+    "oneBedTo": 4200,
+    "familyFrom": 3800,
+    "familyTo": 7500
+  },
+  "mrt": [
+    "Lavender",
+    "Kallang",
+    "Nicoll Highway"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
