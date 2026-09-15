@@ -8,9 +8,9 @@ import {
   getCondoVisitorQrExitPlaybook,
   getLeavingPlaybook,
   getMoverLiftBookingPlaybook,
-  getParkingIuErpExitPlaybook,
   getPreArrivalPlaybook,
   getSingpassMyinfoExitPlaybook,
+  getWorkplaceAccessExitPlaybook,
 } from "@/lib/content";
 import {
   breadcrumbJsonLd,
@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, parking IU/ERP exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, workplace access exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -33,7 +33,7 @@ export default async function JourneysIndexPage() {
     singpassExit,
     moverLift,
     condoVisitorQr,
-    parkingIuErp,
+    workplaceAccess,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -41,7 +41,7 @@ export default async function JourneysIndexPage() {
     getSingpassMyinfoExitPlaybook(),
     getMoverLiftBookingPlaybook(),
     getCondoVisitorQrExitPlaybook(),
-    getParkingIuErpExitPlaybook(),
+    getWorkplaceAccessExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -87,8 +87,8 @@ export default async function JourneysIndexPage() {
                 path: "/journeys/condo-visitor-qr-exit",
               },
               {
-                name: parkingIuErp?.title ?? "Parking IU / ERP exit",
-                path: "/journeys/parking-iu-erp-exit",
+                name: workplaceAccess?.title ?? "Workplace access / pass exit",
+                path: "/journeys/workplace-access-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -259,28 +259,28 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Parking exit
+            Workplace exit
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {parkingIuErp?.title ?? "Parking IU / ERP exit"}
+            {workplaceAccess?.title ?? "Workplace access / pass exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {parkingIuErp?.summary ??
-              "IU deregister, season labels, and ERP wallets before the car and bank rail leave."}{" "}
+            {workplaceAccess?.summary ??
+              "Building cards, office car-park labels, and VPN tokens before EP cancel week."}{" "}
             Pair with{" "}
             <Link
-              href="/tools/tuition-centre-bond"
+              href="/tools/clinic-deposit-exit"
               className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
             >
-              /tools/tuition-centre-bond
+              /tools/clinic-deposit-exit
             </Link>{" "}
-            if enrichment deposits land the same fortnight.
+            if GP / dental deposits settle the same fortnight.
           </p>
           <Link
-            href="/journeys/parking-iu-erp-exit"
+            href="/journeys/workplace-access-exit"
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open parking IU / ERP playbook
+            Open workplace access playbook
           </Link>
         </FadeIn>
 

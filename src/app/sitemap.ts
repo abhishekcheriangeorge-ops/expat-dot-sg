@@ -44,7 +44,7 @@ const STATIC_PATHS: Array<{
     priority: 0.75,
   },
   {
-    path: "/journeys/parking-iu-erp-exit",
+    path: "/journeys/workplace-access-exit",
     changeFrequency: "monthly",
     priority: 0.75,
   },
@@ -72,7 +72,7 @@ const STATIC_PATHS: Array<{
     priority: 0.65,
   },
   {
-    path: "/tools/tuition-centre-bond",
+    path: "/tools/clinic-deposit-exit",
     changeFrequency: "monthly",
     priority: 0.65,
   },
