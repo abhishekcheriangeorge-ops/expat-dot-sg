@@ -70,7 +70,7 @@ export default function EditorialPolicyPage() {
             authorities, FWA → TAFEP escalation for EP / S Pass, IPA-before-
             resign calendar for EP / S Pass pivots, annual leave encashment
             vs notice offset, unpaid retrenchment benefit TADM vs TAFEP,
-            EP side-hustle / content-creator traps, FCF MyCareersFuture
+            EP rejection appeal playbooks, FCF advertising exemption edges, EPSC / Notification Letter extension clocks, EP side-hustle / content-creator traps, FCF MyCareersFuture
             14-day clock, CPF account closure after renouncing PR / SC,
             EP secondary directorship LOC, JB hop mid-issuance traps,
             EP medical / STVP lab bridges,
