@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "utility-meter-photo-handoff",
+  "title": "Utility meter photo handoff",
+  "summary": "Leaving a flat with electricity, water, and gas meters still unsigned — capture dated meter photos, align final reads with SP / PUB / landlord checkout, and keep a float until credit notes clear.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "photo-kit",
+      "title": "Build a meter photo kit before notice week",
+      "body": "Account closure alone does not prove the final read. Landlords and agents often argue over dial vs smart-meter screenshots taken after keys are back. Photograph every meter (electricity, water, gas if any) with the unit number in frame, date stamp on, and dial/display fully visible — then store the set in a shared family folder before the agent walkthrough.",
+      "bullets": [
+        "Photograph electricity, water, and gas meters with unit ID in frame",
+        "Keep phone date/time correct; export originals, not compressed WhatsApp copies",
+        "Pair with /journeys/utility-exit-handover for account closure clocks"
+      ],
+      "href": "/journeys/utility-exit-handover"
+    },
+    {
+      "id": "align-reads",
+      "title": "Align final reads with SP / PUB and checkout",
+      "body": "SP Group and PUB final appointments may land days before or after the TA end date. Ask whether the landlord accepts your dated photos as the interim read if the official appointment slips. Do not rely on a verbal “we will take our own reading later” without a written acknowledgement of your photo set.",
+      "bullets": [
+        "Book SP / water final read appointments against key-handover day",
+        "Email the agent your photo set with meter IDs before checkout",
+        "Ask for written acceptance if the official read cannot land on handover morning"
+      ],
+      "href": "https://www.spgroup.com.sg/"
+    },
+    {
+      "id": "landlord-dispute",
+      "title": "Dispute window and deposit float",
+      "body": "Meter disputes often surface after the security deposit negotiation starts. Keep a small SGD float for unexpected final bills or “estimated read” surcharges while refunds are open. Do not close the bank rail that receives utility credits until those notes clear — see bank-exit paths when they land on main.",
+      "bullets": [
+        "Hold SGD float until final utility invoices and credits post",
+        "Compare photo reads to any estimated bill within the published dispute window",
+        "Sketch school exam / IB deposit cash separately on /tools/school-exam-ib-deposit"
+      ],
+      "href": "/tools/school-exam-ib-deposit"
+    },
+    {
+      "id": "condo-shared",
+      "title": "Condo shared meters and sub-meters",
+      "body": "Some estates bill chilled water, EV, or gas through MCST sub-meters that are not on your SP login. Ask the management office which sub-meters sit under the unit and whether a photo handoff is required for those dials too. Visitor or EV charging PINs are a separate revoke path — do not confuse them with unit meter photos.",
+      "bullets": [
+        "List MCST sub-meters tied to the unit, if any",
+        "Ask whether estate apps export a closing sub-meter PDF",
+        "Pair EV bay clear with /journeys/condo-ev-charger-clear when that playbook applies"
+      ],
+      "href": "/journeys/condo-ev-charger-clear"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with movers and school cash",
+      "body": "Meter photos, utility notice, and school exam / IB deposit settlements often collide in one fortnight. Sequence so meter photos happen while you still have access to meter cupboards, then utility notice tickets, then school cashier appointments — so packing week does not raid the exam-deposit float.",
+      "bullets": [
+        "Put meter photos, SP appointment, and school cashier on one calendar",
+        "Keep one adult free for meter-cupboard access on checkout morning",
+        "Do not spend the exam / IB deposit float on estimated utility bills"
+      ],
+      "href": "/tools/school-exam-ib-deposit"
+    },
+    {
+      "id": "archive",
+      "title": "Archive for overseas follow-up",
+      "body": "Final bills and credit notes may arrive after you leave Singapore. Keep the photo set, appointment confirmations, and closure ticket numbers in a folder your overseas email can still open. Forwarding addresses on utility tickets matter only if the inbox that receives them still works.",
+      "bullets": [
+        "Export closure ticket PDFs and photo originals to cloud + offline backup",
+        "Confirm the forwarding email on every utility closure ticket",
+        "Note which adult account owns each SP / PUB login before SIM changes"
+      ],
+      "href": "/journeys/leaving"
+    }
+  ]
+}

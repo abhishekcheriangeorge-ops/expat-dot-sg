@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 27)
+
+Branch: `cursor/e-journeys-tools-tick27-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #273** (`cursor/e-journeys-tools-tick26-fa4f`) — did not wait for #273 or earlier E drafts to merge. Avoided open E stack exclusives through **#273** (E26): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Leaver threads — landlord disputes over estimated SP reads after keys returned; meter cupboard photos as the only defence.
+- School leaver threads — IB / IGCSE deposits and sitting fees still open after flight tickets; late-cancel windows misunderstood.
+
+**Official / orientation**
+
+- SP Group / PUB final meter appointment practice (account-specific)
+- School exam / IB cashier refund schedules (handbook-specific)
+
+### Gaps vs open E stack through #273
+
+Open tips through **#273** cover mail/HDB through EV charger / CCA kit. Remaining high-intent gaps **off those path sets**: **utility meter photo handoff** (deeper than account-closure utility-exit), **school exam / IB deposit sketch**. No calendar JSON. Distinct from `/journeys/utility-exit-handover` — this tick owns dated meter-photo evidence and dispute float. Distinct from `/tools/school-deposit-clawback` and `/tools/school-cca-kit-bond` — this tick owns exam / IB sitting deposits, not tuition clawback or CCA kit bonds.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/utility-meter-photo-handoff.json` + `/journeys/utility-meter-photo-handoff`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/school-exam-ib-deposit.ts`
+- `src/components/tools/SchoolExamIbDepositCalculator.tsx`
+- `/tools/school-exam-ib-deposit` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #273.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Do dated phone photos hold in a landlord meter dispute?
+2. What if SP’s final appointment lands after key handover?
+3. Are IB deposits refundable after the published cancel window?
+4. Do sitting fees stack on top of a forfeited deposit?
+5. Which adult login still owns the SP app after SIM change?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 26)
 
 Branch: `cursor/e-journeys-tools-tick26-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (Loop D29 tip). **Did not wait for merges or CI on prior tips including #263.** Avoided open E stack exclusives through **#263** (E25): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → this tip**.
