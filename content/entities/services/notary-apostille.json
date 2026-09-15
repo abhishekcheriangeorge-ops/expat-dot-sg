@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "notary-apostille",
   "name": "Notary & apostille (category guide)",
-  "summary": "SAL-listed notaries, e-Apostille, and embassy translation paths for LTVP packs, US forms, and overseas affidavits \u2014 fee-capped, not character-billed overseas quotes.",
-  "body": "Singapore Academy of Law appoints Notaries Public and issues authentication / e-Apostille for notarised documents \u2014 SAL does not notarise for you. Start at the SAL directory, confirm whether the receiving authority wants notarisation only, apostille, or embassy legalisation, then book a notary near you. Notarial fees are regulated; page-based overseas translation-plus-apostille quotes of thousands of dollars for LTVP packs are a common Reddit failure mode \u2014 ask your embassy in Singapore for accepted translators first. Commissioners for Oaths handle statutory declarations for many local uses; notaries handle documents destined abroad. Pair immigration counsel when the pack is a common-law LTVP affidavit, not when you only need a signature witnessed. Apostille and notarisation authenticate documents for foreign courts; they do not draft a Singapore will or CPF nomination \u2014 use will-writing counsel for estate instruments, then legalisation only when a foreign registry demands it.",
+  "summary": "SAL-listed notaries, e-Apostille, and embassy translation paths for LTVP packs, US forms, and overseas affidavits — fee-capped, not character-billed overseas quotes.",
+  "body": "Singapore Academy of Law appoints Notaries Public and issues authentication / e-Apostille for notarised documents — SAL does not notarise for you. Start at the SAL directory, confirm whether the receiving authority wants notarisation only, apostille, or embassy legalisation, then book a notary near you. Notarial fees are regulated; page-based overseas translation-plus-apostille quotes of thousands of dollars for LTVP packs are a common Reddit failure mode — ask your embassy in Singapore for accepted translators first. Commissioners for Oaths handle statutory declarations for many local uses; notaries handle documents destined abroad. Pair immigration counsel when the pack is a common-law LTVP affidavit, not when you only need a signature witnessed. Apostille and notarisation authenticate documents for foreign courts; they do not draft a Singapore will or CPF nomination — use will-writing counsel for estate instruments, then legalisation only when a foreign registry demands it. Family ops note: school transcript notarisation for transfers loves to land on helper rest days — keep a coverage owner before you queue at the notary.",
   "category": "legal",
   "areasServed": [
     "Islandwide"
@@ -17,11 +17,11 @@
   ],
   "officialLinks": [
     {
-      "label": "SAL \u2014 Notaries Public directory",
+      "label": "SAL — Notaries Public directory",
       "url": "https://legalisation.sal.sg/Directory"
     },
     {
-      "label": "SAL \u2014 Legalisation / e-Apostille FAQ",
+      "label": "SAL — Legalisation / e-Apostille FAQ",
       "url": "https://legalisation.sal.sg/Faq"
     }
   ],
@@ -29,7 +29,9 @@
     "document-apostille-notary-singapore",
     "ltvp-singapore",
     "passports-and-documents-overseas",
-    "wills-probate-cpf-nomination-singapore"
+    "wills-probate-cpf-nomination-singapore",
+    "dual-career-helper-rest-day-sunday-coverage-singapore",
+    "international-school-report-card-progress-meeting-dual-career-singapore"
   ],
   "featured": false,
   "sponsored": false

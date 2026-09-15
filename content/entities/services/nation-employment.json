@@ -3,7 +3,7 @@
   "slug": "nation-employment",
   "name": "Nation Employment",
   "summary": "MDW / helper agency — interview process, SIP booking, insurance floors, and MOM compliance support vs DIY renewals.",
-  "body": "Helper agencies should be transparent on fees, replacement policies, and training. You remain the employer under MOM rules — understand levy concession traps for foreign kids, Settling-In Programme within seven days for first-time helpers, enhanced medical insurance (≥S$60k inpatient; Stage 2 age bands from Jul 2025), personal accident cover, and six-monthly medicals before the helper arrives. Work-permit renewals can be filed yourself on MOM eServices; pay an agency when you need candidate sourcing and replacement guarantees, not for the online renew alone. Compare total cost against Comfort Employment, the FDW category guide, and DIY transfer routes using the MDW hiring guide — and shop MI yourself when agency premiums spike after age 50. For ~28-day postpartum help, use the confinement-nanny category guide instead of forcing an MDW placement onto a pui yuet window.",
+  "body": "Helper agencies should be transparent on fees, replacement policies, and training. You remain the employer under MOM rules — understand levy concession traps for foreign kids, Settling-In Programme within seven days for first-time helpers, enhanced medical insurance (≥S$60k inpatient; Stage 2 age bands from Jul 2025), personal accident cover, and six-monthly medicals before the helper arrives. Work-permit renewals can be filed yourself on MOM eServices; pay an agency when you need candidate sourcing and replacement guarantees, not for the online renew alone. Compare total cost against Comfort Employment, the FDW category guide, and DIY transfer routes using the MDW hiring guide — and shop MI yourself when agency premiums spike after age 50. For ~28-day postpartum help, use the confinement-nanny category guide instead of forcing an MDW placement onto a pui yuet window. Family ops note: rest-day planning and relief coverage conversations belong in the agency onboarding pack — dual-career households should ask before the first Sunday surprise.",
   "category": "fdw",
   "areasServed": [
     "Islandwide"
@@ -38,6 +38,7 @@
   ],
   "relatedGuides": [
     "hiring-domestic-helper-mdw",
-    "confinement-nanny-postpartum-singapore"
+    "confinement-nanny-postpartum-singapore",
+    "dual-career-helper-rest-day-sunday-coverage-singapore"
   ]
 }

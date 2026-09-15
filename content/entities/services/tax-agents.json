@@ -3,7 +3,7 @@
   "slug": "tax-agents",
   "name": "Tax agents & filing (category guide)",
   "summary": "Category entry for IR21 clearance disputes, ESOP/RSU filing without a local IR8A, dual-residency / COR needs, foreign-income myths, and NOA/GIRO clock stress — hire when myTax Portal alone is not enough.",
-  "body": "Most salary-only EP years do not need a paid tax agent — file via myTax Portal, set GIRO before the NOA due date, and keep IR8A / AIS figures. Engage a Singapore tax professional when IR21 withhold looks wrong against your package (housing, equity, leave encashment), when a US/UK/Australia filer needs Certificate of Residence or DTA help, when overseas remote income or rental sits outside a clean IR8A, or when ESOP/RSU gains land without a local entity able to report them. Employer tax clearance (Form IR21) is an employer duty — agents help you challenge income classification and residual bills, not skip withhold. Ask whether the firm regularly clears foreign work-pass leavers and equity awards; compare fixed engagement fees against a one-hour IRAS myTax Mail first. This is a category guide, not a ranked firm list — verify any adviser against IRAS tax-agent materials and your own engagement letter.",
+  "body": "Most salary-only EP years do not need a paid tax agent — file via myTax Portal, set GIRO before the NOA due date, and keep IR8A / AIS figures. Engage a Singapore tax professional when IR21 withhold looks wrong against your package (housing, equity, leave encashment), when a US/UK/Australia filer needs Certificate of Residence or DTA help, when overseas remote income or rental sits outside a clean IR8A, or when ESOP/RSU gains land without a local entity able to report them. Employer tax clearance (Form IR21) is an employer duty — agents help you challenge income classification and residual bills, not skip withhold. Ask whether the firm regularly clears foreign work-pass leavers and equity awards; compare fixed engagement fees against a one-hour IRAS myTax Mail first. This is a category guide, not a ranked firm list — verify any adviser against IRAS tax-agent materials and your own engagement letter. Family ops note: IRAS appointment season often collides with report-card publish weeks — book tax slots away from progress-meeting booking windows.",
   "category": "tax",
   "areasServed": [
     "Islandwide"
@@ -37,7 +37,8 @@
     "iras-tax-residency-filing",
     "tax-clearance-when-leaving",
     "rsu-esop-tax-singapore",
-    "foreign-income-and-tax"
+    "foreign-income-and-tax",
+    "international-school-report-card-progress-meeting-dual-career-singapore"
   ],
   "featured": false,
   "sponsored": false
