@@ -724,6 +724,11 @@ export const pillars: Pillar[] = [
         blurb: "Formal request + 2-month reply → grievance → TAFEP.",
       },
       {
+        label: "LPA Form 1 vs Form 2 fees",
+        href: "/guides/lpa-form1-form2-fees-pr-foreigners-singapore",
+        blurb: "From May 2026 — PR S$30 / foreigner S$160 + Certificate Issuer.",
+      },
+      {
         label: "After getting PR",
         href: "/guides/after-getting-pr-checklist",
         blurb: "What transfers and what you leave behind.",

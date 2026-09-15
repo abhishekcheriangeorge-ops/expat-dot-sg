@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 35)
+
+Branch: `loop/story-aeo-tick35` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#198 H20–H34). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — do foreigners qualify for LPA / Form 1 vs Form 2 fee folklore.
+- r/askSingapore — HR froze my last three months of pay / RSU at clearance.
+- r/askSingapore — company cut my package — does spouse DP die.
+
+**Official**
+
+- [OPG — What is an LPA](https://www.msf.gov.sg/what-we-do/opg/lasting-power-of-attorney/what-is-a-lasting-power-of-attorney) + [LPA fees PDF](https://www.msf.gov.sg/docs/default-source/opg/lpa_fees_table.pdf) + [2026 fee regulations](https://sso.agc.gov.sg/SL-Supp/S272-2026/Published/20260430?DocDate=20260430).
+- [IRAS — Tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + [share plans](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees-with-employee-share-plans).
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) + [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool).
+
+### Gaps vs open H + ticks 1–34
+
+Open: #117–#198 H20–H34. Remaining free Next FAQ-free companions included **LPA Form 1/2 PR·foreigner fees**, **IR21 final pay / RSU withholding**, **EP salary cut → DP/LTVP cascade**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/lpa-form1-form2-fees-pr-foreigners-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ir21-final-pay-rsu-withholding-leaving.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-salary-cut-dp-ltvp-cascade-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (LPA Form fees + IR21/RSU freeze + EP salary-cut cascade topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#198 guide bodies.
+
+### Questions mined (sample)
+
+1. Can a foreigner or PR make a Singapore LPA?
+2. What is the difference between LPA Form 1 and Form 2?
+3. What are OPG LPA application fees from 1 May 2026 for PR and foreigners?
+4. Are Certificate Issuer fees included in the OPG application fee?
+5. Does an LPA replace a will, CPF nomination, or AMD?
+6. Why did HR freeze my final salary when I resigned?
+7. When must the employer file IR21?
+8. Do unvested RSUs get taxed at IR21 clearance?
+9. Can I book a flight assuming same-week IR21 release?
+10. Is MOM pass cancel the same calendar as IR21 withholding?
+11. Does an EP salary cut affect my spouse’s Dependant’s Pass?
+12. Who must notify MOM of an EP salary reduction, and when?
+13. What should HR run before I accept a pay cut?
+14. Is a salary raise notified the same way as a cut?
+15. Is a related-company move just a salary notify?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 23)
 
 Branch: `cursor/loop-d-next-polish-tick23-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169) / [#177](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/177) / [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183).
