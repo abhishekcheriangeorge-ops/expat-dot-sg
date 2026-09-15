@@ -15,6 +15,7 @@ export { LeaseNoticeCalculator } from "./LeaseNoticeCalculator";
 export { PetQuarantineFloatCalculator } from "./PetQuarantineFloatCalculator";
 export { SchoolDepositClawbackCalculator } from "./SchoolDepositClawbackCalculator";
 export { SchoolDeviceBondCalculator } from "./SchoolDeviceBondCalculator";
+export { SchoolLeaversFeeCalculator } from "./SchoolLeaversFeeCalculator";
 export { SchoolWithdrawalCalculator } from "./SchoolWithdrawalCalculator";
 export { SetupCashCalculator } from "./SetupCashCalculator";
 export { SimOtpKeepCalculator } from "./SimOtpKeepCalculator";
