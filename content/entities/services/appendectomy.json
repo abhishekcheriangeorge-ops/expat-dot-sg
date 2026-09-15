@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "appendectomy",
+  "name": "Appendectomy",
+  "summary": "How expats handle suspected appendicitis and appendectomy pathways in Singapore — A&E timing, laparoscopic norms, and what to tell insurers and employers after an unplanned admission.",
+  "body": "Appendicitis is a classic middle-of-the-night A&E story for newcomers who still Googled “food poisoning.” Migrating right-lower pain, fever, and rebound tenderness need urgent evaluation — not a next-week GP slot.\n\n## Pathway\n- A&E triage, bloods, imaging (US/CT as indicated)\n- Surgical review for laparoscopic appendectomy in most uncomplicated cases\n- Antibiotics and observation only in selected protocols\n- Histology follow-up and wound care after discharge\n- Unplanned leave letters for HR/schools\n\nTourists and short-visit parents use the same emergency doors; payment deposits differ by pass/insurance.\n\n## Aftercare\nWatch fever, wound redness, and diarrhoea after antibiotics. Ask about return-to-exercise and when swimming pools are allowed in this climate. Keep discharge summaries for insurance claims.\n\n## How to choose\nIn emergencies you rarely “shop” surgeons — focus on hospital capability and your coverage. For interval appendectomy after drained abscess, seek clear timing plans before overseas leave.\n\n## Practical tip\nSave your insurer’s emergency hotline in your phone before you need it. Photograph the discharge summary — paper fades in humid bags.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Suspected appendicitis — urgent A&E, not wait-and-see",
+    "Post-op wound / activity clearance questions",
+    "Unplanned admission insurance and MC paperwork",
+    "Interval appendectomy timing before travel"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Civil Defence Force — 995",
+      "url": "https://www.scdf.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "emergencies-995-999-embassies"
+  ],
+  "featured": false,
+  "sponsored": false
+}

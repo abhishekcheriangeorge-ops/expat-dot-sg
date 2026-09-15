@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 28 — 2026-09-15
+
+Branch: `cursor/services-directory-tick28-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204→#207→#212→#219→#224→#236); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — chronic sinus / FESS recovery and flying questions.
+- Expat emergency threads — appendicitis A&E deposit and insurance panic.
+- Parent activity forums — archery taster kit rental vs buy.
+- Landed-home forums — pool algae after storms and contractor SLAs.
+- Reno/furniture threads — reupholstery vs new sofa in humid flats.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [SCDF](https://www.scdf.gov.sg/).
+- [SportSG](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [NEA](https://www.nea.gov.sg/) + [PUB](https://www.pub.gov.sg/) + [CASE](https://www.case.org.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#236 cover prior depth and every on-main service file. Free surface for tick 28: **sinus surgery**, **appendectomy**, **archery lessons**, **pool maintenance**, **sofa reupholstery**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/sinus-surgery.json`
+- `content/entities/services/appendectomy.json`
+- `content/entities/services/archery-lessons.json`
+- `content/entities/services/swimming-pool-maintenance.json`
+- `content/entities/services/sofa-reupholstery.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#236 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. FESS after how many failed medical seasons?
+2. Appendicitis — which hospital takes my insurer at 2am?
+3. Archery rental length before buying a recurve?
+4. Pool contract — chemicals included or extra?
+5. Reupholster the condo sofa or replace after foam collapse?
+
+---
+
 ## Loop B — Family + Belong (tick 20) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick20-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/clubs entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #149 (#80/#91/#100/#108/#115/#129/#134/#142/#149). Shared log + `site.ts` only. Skipped primary-CCA-vs-academy (#115/#91 adjacency) and learning-support waitlist depth (#149 adjacency).

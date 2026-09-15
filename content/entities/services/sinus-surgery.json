@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "sinus-surgery",
+  "name": "Sinus surgery",
+  "summary": "How expats evaluate functional endoscopic sinus surgery (FESS) and related procedures in Singapore — after meds and allergy care fail, and what recovery feels like in humid haze seasons.",
+  "body": "Chronic sinusitis that survives sprays, saline, and allergy management may land in ENT surgical counselling. Functional endoscopic sinus surgery opens blocked pathways; balloon and polyp pathways get discussed case-by-case.\n\n## Before the OR\n- Confirm CT correlation with symptoms (not scan-only surgery)\n- Optimise allergy/asthma control\n- Review prior sprays, antibiotics, and oral steroid courses\n- Discuss smell loss expectations honestly\n- Map work travel — flying soon after surgery needs clearance\n\nAcute complications (orbital/severe headache, vision change) are emergencies, not elective clinic delays.\n\n## Recovery in Singapore\nHumidity and haze can irritate healing mucosa; follow saline irrigation schedules. Nose-blowing bans are real — ask about return-to-gym and scuba timing. Insurance pre-auth often needs chronic-sinus documentation.\n\n## How to choose\nPrefer ENTs who show your CT, explain which sinuses are targeted, and outline revision risk. Be wary of cash packages sold the same day as a first visit without imaging review.\n\n## Practical tip\nBuy the exact rinse bottles recommended before surgery day. Set calendar reminders for irrigations — consistency beats fancy gadgets.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Chronic sinusitis after meds/allergy care still fails",
+    "CT and symptom correlation before FESS counselling",
+    "Flying / dive clearance after sinus surgery",
+    "Insurance pre-auth for elective sinus procedures"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "haze-climate-preparedness"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "archery-lessons",
+  "name": "Archery lessons",
+  "summary": "How expats start archery in Singapore — range inductions, recurve basics, youth programmes, and gear rental before buying a bow.",
+  "body": "Archery ranges and clubs offer indoor/outdoor lanes with mandatory safety briefs. Beginners usually rent recurve kits; compounds come later. Youth programmes emphasise range etiquette as much as grouping arrows.\n\n## Formats\n- Walk-in taster lanes with coach\n- Term courses for adults\n- Kids’ holiday clinics\n- Club membership pathways toward competition\n- Corporate team sessions (noise and waivers apply)\n\nBare feet and loose clothing near lines get called out — follow dress codes.\n\n## How to choose\nPrefer coaches who teach anchor consistency and safety before score obsession. Ask about draw-weight progression for teens. Confirm whether arrows/targets are included. Peak weekends book out — weeknights may be calmer.\n\n## Practical tip\nBring water and sunscreen for outdoor ranges. Do not buy a heavy bow after one fun session — rent through the first course.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Beginner archery taster or term course",
+    "Kids’ holiday archery clinic search",
+    "Rent vs buy bow after first sessions",
+    "Club pathway toward recreational competition"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

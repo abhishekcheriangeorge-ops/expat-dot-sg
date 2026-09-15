@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "swimming-pool-maintenance",
+  "name": "Swimming pool maintenance",
+  "summary": "How landed-home and some strata owners arrange swimming pool maintenance in Singapore — chemical balancing, pump servicing, and haze/algae realities after storms.",
+  "body": "Private pool upkeep is chemistry plus mechanicals: chlorine/pH, filters, pumps, and tile cleaning. Weekly contractor visits are common for landed homes; condo pools are usually MCST-managed — this guide targets owners who actually pay a pool vendor.\n\n## Scope to define\n- Water testing and dosing schedules\n- Filter backwash and pump health\n- Tile brushing and skimmer baskets\n- Leak suspicion escalation\n- Holiday cover / robot cleaner options\n\nAfter heavy rain or haze, green water appears fast — response SLAs matter.\n\n## Contracts\nClarify visit frequency, chemical inclusions, and emergency call-out fees. Ask who buys acid/chlorine and how empty-house access works. Get written notes when equipment replacement is recommended — pumps are expensive surprises.\n\n## How to choose\nPrefer vendors who log readings, not only “looks blue.” Check references for similar pool sizes. Avoid anonymous Telegram-only dosing without safety sheets for pets/kids.\n\n## Practical tip\nKeep a spare test kit to spot-check between visits. Lock chemical stores away from helpers’ kids and pets.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nea.gov.sg/",
+  "whenToEngage": [
+    "Landed-home weekly pool chemistry/contract setup",
+    "Algae bloom after rain needs rapid response",
+    "Pump/filter replacement quote verification",
+    "Holiday cover while household is overseas"
+  ],
+  "officialLinks": [
+    {
+      "label": "NEA",
+      "url": "https://www.nea.gov.sg/"
+    },
+    {
+      "label": "PUB",
+      "url": "https://www.pub.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "mould-humidity-rental-tenants",
+    "haze-climate-preparedness"
+  ],
+  "featured": false,
+  "sponsored": false
+}
