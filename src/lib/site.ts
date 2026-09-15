@@ -313,6 +313,11 @@ export const pillars: Pillar[] = [
         blurb: "International, local, and hybrid options compared.",
       },
       {
+        label: "IB vs A-Level pathways",
+        href: "/guides/secondary-ib-alevel-pathways-singapore",
+        blurb: "Exam thesis for mobile teens — not brochure tours.",
+      },
+      {
         label: "Preschool & childcare",
         href: "/guides/preschool-childcare-singapore",
         blurb: "Infant care through kindergarten — fees and timing.",
@@ -323,9 +328,9 @@ export const pillars: Pillar[] = [
         blurb: "When to apply, what “full” usually means.",
       },
       {
-        label: "Healthcare for families",
-        href: "/guides/healthcare-gp-hospital",
-        blurb: "GP, hospitals, maternity, and mental health.",
+        label: "Kids allergy & EpiPen",
+        href: "/guides/kids-allergy-epipen-singapore",
+        blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
         label: "Kids activities & calendar",
@@ -335,7 +340,7 @@ export const pillars: Pillar[] = [
       {
         label: "Special needs",
         href: "/guides/special-needs-support",
-        blurb: "Assessment, support, and school placement paths.",
+        blurb: "EIPIC wall, private ST/OT cash, school placement paths.",
       },
     ],
     related: [
@@ -410,6 +415,16 @@ export const pillars: Pillar[] = [
         label: "Membership clubs",
         href: "/guides/membership-clubs-comparison",
         blurb: "American, Tanglin, British, Hollandse, Swiss, and peers.",
+      },
+      {
+        label: "Indoor hobbies",
+        href: "/guides/indoor-hobby-communities-singapore",
+        blurb: "Board games, Toastmasters, language exchanges.",
+      },
+      {
+        label: "Music & arts communities",
+        href: "/guides/music-arts-communities-singapore",
+        blurb: "Choirs, volunteer orchestras, jams, and concert rails.",
       },
       {
         label: "Associations & chambers",
