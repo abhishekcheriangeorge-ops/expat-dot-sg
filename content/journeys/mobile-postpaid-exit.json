@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "mobile-postpaid-exit",
+  "title": "Mobile postpaid / telco contract exit",
+  "summary": "Leaving Singapore with a postpaid mobile line still in contract — inventory handsets and add-ons, serve written cancel notice, and float early-termination plus final-bill cash before SIM and Singpass factors change.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-lines",
+      "title": "Inventory lines, handsets, and add-ons",
+      "body": "Postpaid plans often bundle handset instalments, roaming packs, family share-lines, and insurance. Before you change SIM or Singpass factors, export the contract summary and note remaining months, device balance, and which numbers still receive OTP. A “keep SIM for OTP” plan is a different path from full cancel — decide which numbers must stay live through fly week.",
+      "bullets": [
+        "List every postpaid number, handset instalment, and share-line still billed",
+        "Export contract months remaining and device balance while the app still opens",
+        "Decide cancel-vs-keep for OTP numbers before packing week"
+      ],
+      "href": "/tools/sim-otp-keep"
+    },
+    {
+      "id": "written-cancel",
+      "title": "Serve written cancel inside the notice window",
+      "body": "Telcos rarely treat a WhatsApp “stop next month” as notice. Submit cancel through the official channel, keep the ticket ID, and ask for the projected ETF and final-bill date in writing. Sketch cash on /tools/mobile-contract-etf-float so packing week does not raid the movers pot.",
+      "bullets": [
+        "File cancel through the official app or store desk and keep the ticket ID",
+        "Ask for written ETF and final-bill timing before you fly",
+        "Sketch ETF / final-bill cash on /tools/mobile-contract-etf-float"
+      ],
+      "href": "/tools/mobile-contract-etf-float"
+    },
+    {
+      "id": "handset-balance",
+      "title": "Clear or transfer handset balances",
+      "body": "Device instalments can outlive the service plan. Confirm whether paying off the handset early reduces ETF, and whether a transfer to another account is allowed. Photograph IMEI stickers before any store visit so the wrong device is not billed as unreturned.",
+      "bullets": [
+        "Confirm remaining device balance separately from plan ETF",
+        "Ask whether early device payoff changes the ETF quote",
+        "Photograph IMEI labels before store handovers"
+      ],
+      "href": "/tools/mobile-contract-etf-float"
+    },
+    {
+      "id": "vs-fibre",
+      "title": "Mobile cancel vs fibre broadband ETF",
+      "body": "Home fibre and mobile postpaid are different contracts. Do not apply a fibre ETF sketch to a mobile line, and do not assume one cancel ticket covers both. Sequence fibre and mobile exits on the same calendar only when the same adult can sit both desks.",
+      "bullets": [
+        "Treat mobile ETF separately from /tools/fibre-broadband-etf",
+        "Do not assume one cancel ticket covers home fibre and mobile",
+        "Keep one adult free for telco callbacks during notice week"
+      ],
+      "href": "/tools/fibre-broadband-etf"
+    },
+    {
+      "id": "otp-singpass",
+      "title": "OTP, Singpass, and number port hygiene",
+      "body": "Banks, Singpass, and clinic portals often still SMS the Singapore number. If you must keep a line for OTP, use the keep-SIM path explicitly. If you cancel, migrate critical OTPs first — then change Singpass factors — so you are not locked out mid-archive week.",
+      "bullets": [
+        "Migrate critical OTP numbers before full cancel when possible",
+        "Cross-check /tools/sim-otp-keep if a number must stay live",
+        "Sequence Singpass factor changes after telco export is done"
+      ],
+      "href": "/journeys/singpass-myinfo-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with bank and leaving playbooks",
+      "body": "Final telco bills, bank statement archives, and leaving checklists often share one fortnight. Sequence portal downloads while the number still works, then cancel, then physical leaving tasks — so OTP-gated archives are not trapped behind a dead SIM.",
+      "bullets": [
+        "Put telco cancel, OTP migration, and bank archive on one calendar",
+        "Pair with /journeys/bank-exit-closure when SGD rails are also closing",
+        "Hold ETF float separate from movers and pharmacy cash pots"
+      ],
+      "href": "/journeys/bank-exit-closure"
+    }
+  ]
+}

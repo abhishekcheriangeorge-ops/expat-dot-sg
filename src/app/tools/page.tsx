@@ -113,6 +113,12 @@ const tools = [
     summary:
       "Sketch remaining-term enrichment cash for ride-out, notice shortfall, and early exit — not studio advice.",
   },
+  {
+    href: "/tools/mobile-contract-etf-float",
+    title: "Mobile contract ETF float",
+    summary:
+      "Sketch postpaid ETF cash for ride-out, early terminate, and port-out — including device balances — not telco advice.",
+  },
 ] as const;
 
 export default function ToolsIndexPage() {

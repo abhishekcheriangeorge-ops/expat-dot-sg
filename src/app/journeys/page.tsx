@@ -11,6 +11,7 @@ import {
   getPharmacyChronicScriptExitPlaybook,
   getNlbLibraryExitPlaybook,
   getEnrichmentClassExitPlaybook,
+  getMobilePostpaidExitPlaybook,
   getCondoVisitorParkingClearPlaybook,
   getUtilityMeterPhotoHandoffPlaybook,
   getCondoVisitorQrExitPlaybook,
@@ -28,7 +29,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, NLB library exit, enrichment class exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, NLB library exit, enrichment class exit, mobile postpaid exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -48,6 +49,7 @@ export default async function JourneysIndexPage() {
     pharmacyChronicScript,
     nlbLibraryExit,
     enrichmentClassExit,
+    mobilePostpaidExit,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -63,6 +65,7 @@ export default async function JourneysIndexPage() {
     getPharmacyChronicScriptExitPlaybook(),
     getNlbLibraryExitPlaybook(),
     getEnrichmentClassExitPlaybook(),
+    getMobilePostpaidExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -149,6 +152,12 @@ export default async function JourneysIndexPage() {
                   enrichmentClassExit?.title ??
                   "Enrichment class / private lesson exit",
                 path: "/journeys/enrichment-class-exit",
+              },
+              {
+                name:
+                  mobilePostpaidExit?.title ??
+                  "Mobile postpaid / telco contract exit",
+                path: "/journeys/mobile-postpaid-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -534,6 +543,34 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open enrichment class exit playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Mobile / telco
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {mobilePostpaidExit?.title ??
+              "Mobile postpaid / telco contract exit"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {mobilePostpaidExit?.summary ??
+              "Postpaid cancel notice, handset balances, and ETF float before SIM and Singpass factors change."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/mobile-contract-etf-float"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/mobile-contract-etf-float
+            </Link>{" "}
+            if ETF cash competes with packing week.
+          </p>
+          <Link
+            href="/journeys/mobile-postpaid-exit"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open mobile postpaid exit playbook
           </Link>
         </FadeIn>
 

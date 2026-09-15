@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 34)
+
+Branch: `cursor/e-journeys-tools-tick34-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #338** (`cursor/e-journeys-tools-tick33-fa4f`) — did not wait for #338 or earlier E drafts to merge. Avoided open E stack exclusives through **#338** (E33): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**), pharmacy-chronic-script / pharmacy-last-refill-float (**#315**), nlb-library / library-lost-item-float (**#330**), enrichment-class / enrichment-term-notice-float (**#338**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → #315 → #330 → #338 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Leaving / telco threads — postpaid ETF surprises after verbal “cancel next month”; handset instalments still billing after plan stop; OTP numbers dying mid-bank archive.
+- Port-out threads — new carrier port ticket does not waive old device clawback; final bill posts after flight.
+
+**Official / orientation**
+
+- Telco postpaid ETF / device balance schedules (plan-specific)
+- IMDA / consumer notice windows as published by each telco (operator-specific)
+
+### Gaps vs open E stack through #338
+
+Open tips through **#338** cover mail/HDB through enrichment class / term-notice float. Remaining high-intent gaps **off those path sets**: **mobile postpaid / telco contract exit**, **mobile contract ETF float sketch**. No calendar JSON. Distinct from fibre-broadband-etf — this tick owns mobile postpaid ETF and device balances, not home fibre. Distinct from sim-otp-keep — this tick owns full cancel / ETF cash, not the keep-SIM OTP path. Distinct from bank-exit-closure — telco final-bill float vs bank account closure.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/mobile-postpaid-exit.json` + `/journeys/mobile-postpaid-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/mobile-contract-etf-float.ts`
+- `src/components/tools/MobileContractEtfFloatCalculator.tsx`
+- `/tools/mobile-contract-etf-float` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #338.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does paying the handset early reduce the ETF quote?
+2. Will a WhatsApp cancel count as handbook notice?
+3. Does port-out restart or freeze the ETF clock?
+4. Can family share-lines keep billing after the primary cancels?
+5. Will Singpass SMS fail the same day the number ports?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 33)
 
 Branch: `cursor/e-journeys-tools-tick33-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #330** (`cursor/e-journeys-tools-tick32-fa4f`) — did not wait for #330 or earlier E drafts to merge. Avoided open E stack exclusives through **#330** (E32): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**), pharmacy-chronic-script / pharmacy-last-refill-float (**#315**), nlb-library / library-lost-item-float (**#330**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → #315 → #330 → this tip**. Soft hubs / content-loop-log: **prepend**.

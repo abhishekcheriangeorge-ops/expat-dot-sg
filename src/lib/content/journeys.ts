@@ -202,3 +202,7 @@ export async function getNlbLibraryExitPlaybook(): Promise<LeavingPlaybook | nul
 export async function getEnrichmentClassExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("enrichment-class-exit.json");
 }
+
+export async function getMobilePostpaidExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("mobile-postpaid-exit.json");
+}
