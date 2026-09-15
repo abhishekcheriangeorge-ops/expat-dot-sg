@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "potong-pasir-fringe",
+  "name": "Potong Pasir Fringe",
+  "summary": "Edges of Potong Pasir toward Woodsville / McNair — NEL-adjacent mid-town living with quieter residential texture than Kallang Bend nightlife spill.",
+  "body": "Potong Pasir Fringe is the shortlist when NEL adjacency and older estate texture matter more than CBD skyline views. The pocket sits on the Potong Pasir / Woodsville / McNair edges; housing mixes HDB blocks and selective mid-age condo stock. Expats land here for car-light hops to Novena / Bugis and lower weekend theatre than Lavender. Watch-outs: estate credential stacks that still want owner letters for fob replacement, evening bus bunching, and comparing ActiveSG fencing programmes across neighbouring centres. Compare with Kallang Bend for stadium-adjacent energy, Lavender North for EWL mid-town, and Bendemeer West when quieter NEL edges win.",
+  "region": "central",
+  "vibe": [
+    "nel-adjacent",
+    "quieter-residential",
+    "practical",
+    "mid-town",
+    "heartland-edge"
+  ],
+  "bestFor": [
+    "car-light workers toward Novena / Bugis",
+    "households who want quieter nights than Lavender",
+    "renters comparing Potong Pasir vs Kallang Bend",
+    "people who will book ActiveSG fencing programmes instead of condo hall myths"
+  ],
+  "watchOuts": [
+    "Owner-letter delays for access-card replacement",
+    "Evening bus bunching on fringe roads",
+    "Older blocks — verify fibre and chute norms",
+    "Serviced vs TA confusion on some edges"
+  ],
+  "housingMix": "HDB blocks and mid-age condos with selective walk-up edges.",
+  "commuteNotes": "North East Line gravity via Potong Pasir; bus links toward Woodsville / McNair. Walk a weekday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3600,
+    "familyFrom": 3200,
+    "familyTo": 6200
+  },
+  "mrt": [
+    "Potong Pasir",
+    "Woodleigh",
+    "Boon Keng"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

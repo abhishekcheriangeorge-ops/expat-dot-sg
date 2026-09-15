@@ -294,14 +294,14 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
       },
       {
-        label: "Fire hose & hydrant clearance",
-        href: "/guides/condo-fire-hose-landing-hydrant-clearance-tenants",
-        blurb: "Landing reels, corridor storage fines, and MA enforcement.",
+        label: "Access card & fob replacement",
+        href: "/guides/condo-access-card-fob-replacement-tenants",
+        blurb: "Lost resident cards, MA deposits, and owner-letter gates.",
       },
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Jalan Besar Fringe, Farrer Park South, Bendemeer West, and more.",
+        blurb: "Potong Pasir Fringe, Kallang Bend, Lavender North, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -458,6 +458,16 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
+        label: "Gastro / vomiting exclusion",
+        href: "/guides/dual-career-kids-gastroenteritis-vomiting-diarrhoea-school-exclusion-singapore",
+        blurb: "Written return clocks, hydration owners, swim holds.",
+      },
+      {
+        label: "Residential camp / trip ops",
+        href: "/guides/international-school-residential-camp-overnight-trip-ops-dual-career-singapore",
+        blurb: "Consent deadlines, med packets, emergency contacts.",
+      },
+      {
         label: "Pink-eye exclusion ops",
         href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
         blurb: "Written return rules, swim holds, GP vs eye clinic.",
@@ -535,9 +545,9 @@ export const pillars: Pillar[] = [
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
       },
       {
-        label: "ActiveSG bowling",
-        href: "/guides/activesg-bowling-booking-singapore",
-        blurb: "Standard Rate lanes — not court, skate, or camp hire.",
+        label: "ActiveSG fencing",
+        href: "/guides/activesg-fencing-booking-singapore",
+        blurb: "Standard Rate piste / programmes — not bowling or court hire.",
       },
       {
         label: "Apps that matter",
@@ -626,6 +636,11 @@ export const pillars: Pillar[] = [
         label: "Music-studio waiting belonging",
         href: "/guides/music-lesson-studio-waiting-parent-belonging-singapore",
         blurb: "Repeat lesson-sofa hellos without exam politics.",
+      },
+      {
+        label: "Dance-studio waiting belonging",
+        href: "/guides/dance-studio-waiting-parent-belonging-singapore",
+        blurb: "Repeat ballet-bench hellos without exam politics.",
       },
       {
         label: "LGBTQ+ resources",
