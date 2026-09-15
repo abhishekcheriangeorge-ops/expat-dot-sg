@@ -6,6 +6,41 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 48)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick48-49cb` → tip PR off [#340](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/340) / tick 47 (`37f6d28`). **Did not** wait for #340 or earlier A drafts to merge; **did not** edit open A17–A34 paths on main. Prefer merge order **#143 → … → #337 → #340 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — zoo/wildlife guides; e-sports analyst internships; community radio crew on STVP.
+- r/askSingapore — outbound CDP transfers; eStatement vs dividend mail; EP access to warrants/DLCs.
+- r/askSingapore — quarterly USD salary cadence; tax gross-ups on offshore pay; corporate cards vs salary rails.
+
+**Official**
+
+- [MOM — Training Employment Pass](https://www.mom.gov.sg/passes-and-permits/training-employment-pass) / [Work Holiday Pass](https://www.mom.gov.sg/passes-and-permits/work-holiday-programme)
+- [SGX CDP](https://www.sgx.com/securities/retail-investor/cdp-overview)
+- [IRAS — employment income](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/employment-income) / [MOM EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)
+
+### Gaps vs prior Loop A ticks
+
+Ticks 35–47 built unpaid-internship, brokerage/CDP, and USD/offshore payroll guides to 42 FAQs. Tick 48 adds another +3 FAQs each on the #340 tip without re-entering the open A17–A34 stack.
+
+### Shipped this loop
+
+- `content/guides/move/unpaid-internship-volunteer-work-pass-singapore.mdx` (+3)
+- `content/guides/money/brokerage-cdp-account-foreigners-singapore.mdx` (+3)
+- `content/guides/money/usd-offshore-payroll-employment-pass.mdx` (+3)
+- Log prepended
+
+### Explicitly not done
+
+- No ads/monetization expansion / no Grok / no force-push to main.
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 47)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick47-49cb` → tip PR off [#337](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/337) / tick 46 (`f743533`). **Did not** wait for #337 or earlier A drafts to merge; **did not** edit open A17–A34 paths on main. Prefer merge order **#143 → … → #331 → #337 → this**.
