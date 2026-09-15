@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 37 — 2026-09-15
+
+Branch: `cursor/services-directory-tick37-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#300); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F36 draft [#300](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/300).
+
+### Sources mined
+
+**Reddit / forums**
+
+- Health threads — gastroscopy/colonoscopy prep and sedation recovery.
+- Housing threads — rental-friendly interior design vs landlord rules.
+- Study threads — IELTS Academic vs GT and evening classes.
+- Pet threads — dog daycare temperament tests and van pickup.
+- Relationship threads — couples therapy during relocation stress.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/) + [BCA](https://www.bca.gov.sg/).
+- [British Council Singapore](https://www.britishcouncil.sg/) + [IELTS](https://www.ielts.org/).
+- [NParks AVS](https://www.nparks.gov.sg/avs).
+- [Singapore Psychological Society](https://singaporepsychologicalsociety.org/).
+
+### Gaps vs open F stack
+
+Open #70→#300 cover prior depth and every on-main service file. Free surface for tick 37: **gastro scopes**, **expat interior design**, **IELTS prep**, **dog daycare**, **couples counselling**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/gastroenterology-scopes.json`
+- `content/entities/services/interior-design-expat.json`
+- `content/entities/services/ielts-prep.json`
+- `content/entities/services/dog-daycare.json`
+- `content/entities/services/couples-counselling.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#300 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Same-day gastroscopy + colonoscopy worth the longer prep?
+2. Designer fee vs contractor-only for rental lighting fixes?
+3. How many marked IELTS essays before test week?
+4. What if daycare assessment fails group play?
+5. EAP couples sessions vs private psychologist?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 30)
 
 Branch: `cursor/e-journeys-tools-tick30-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #296** (`cursor/e-journeys-tools-tick29-fa4f`) — did not wait for #296 or earlier E drafts to merge. Avoided open E stack exclusives through **#296** (E29): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → this tip**. Soft hubs / content-loop-log: **prepend**.

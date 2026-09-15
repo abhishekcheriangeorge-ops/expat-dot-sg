@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "ielts-prep",
+  "name": "IELTS preparation",
+  "summary": "How expats and partners prep for IELTS in Singapore — academic vs general training, band targets for visas/schools, and intensive vs evening course formats.",
+  "body": "IELTS prep centres and tutors help candidates hit band scores for universities, professional registration, or some visa pathways. Academic and General Training differ — pick the right module before buying a package.\n\n## Formats\n- Intensive weekday courses\n- Evening / weekend classes for working adults\n- 1:1 speaking and writing coaching\n- Mock tests under timed conditions\n- Online hybrid for trailing partners still abroad\n\nConfirm which test date seats are still open before paying.\n\n## How to choose\nPrefer programmes that diagnose section weaknesses with a diagnostic mock. Ask how many marked writing scripts are included. Avoid vague “guaranteed band” marketing.\n\n## Practical tip\nBook the official test date first, then reverse-plan tutoring. Prep without a seat often drifts.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.britishcouncil.sg/",
+  "whenToEngage": [
+    "Need Academic vs General Training pathway",
+    "Band target for school / registration / visa",
+    "Intensive vs evening course format choice",
+    "Writing / speaking 1:1 coaching needed"
+  ],
+  "officialLinks": [
+    {
+      "label": "British Council Singapore",
+      "url": "https://www.britishcouncil.sg/"
+    },
+    {
+      "label": "IELTS",
+      "url": "https://www.ielts.org/"
+    }
+  ],
+  "relatedGuides": [
+    "bilingual-primary-homework-expat-kids-singapore",
+    "kids-activities-holiday-camps",
+    "leaving-singapore-playbook"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "interior-design-expat",
+  "name": "Interior design (expat rentals)",
+  "summary": "How expats hire interior designers in Singapore for rentals and owned homes — landlord constraints, ID vs contractor scope, and humid-climate material choices.",
+  "body": "Interior designers help with layouts, lighting, and finishes when a flat feels unlivable after arrival. Renters need landlord-safe, reversible choices; owners can plan longer renovations with BCA/HDB rules in mind.\n\n## Scope to define\n- Styling / FF&E only vs full renovation drawings\n- Landlord approval pack for rentals\n- Built-ins vs freestanding humid-climate furniture\n- Lighting plans for dark HDB / condo rooms\n- Project management vs design-only fees\n\nClarify who buys goods and who owns defects liability.\n\n## How to choose\nPrefer designers who show rental case studies and written landlord-friendly specs. Ask about site measurement fees and revision rounds. Confirm contractor tendering is included or separate.\n\n## Practical tip\nPhotograph every wall and power point before the first consult. Designers quote faster with constraints than with mood boards alone.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Rental flat needs landlord-safe redesign",
+    "ID vs contractor scope unclear",
+    "Humid-climate materials / mould-risk finishes",
+    "Lighting and storage plan for dark rooms"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Building and Construction Authority",
+      "url": "https://www.bca.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "mould-humidity-rental-tenants"
+  ],
+  "featured": false,
+  "sponsored": false
+}
