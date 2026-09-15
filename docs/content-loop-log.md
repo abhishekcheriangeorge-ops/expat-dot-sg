@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 37) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick37-8971` → tip PR off [#287](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/287) (tick 36). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #287. Shared log + `site.ts` only (prepend on conflict). Did not wait for #287 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — heat/humidity itch flares; empty moisturiser tubes; swim bans.
+- r/askSingapore — PTA WhatsApp at 22:40; unlimited “quick” shifts; bake-sale wallet creep.
+- r/askSingapore — coding-academy sofas as the real weekday parent meetup.
+
+**Official**
+
+- [HealthHub eczema](https://www.healthhub.sg/a-z/diseases-and-conditions/eczema) + [MOH](https://www.moh.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools) + [NVPC](https://www.nvpc.org.sg/)
+- [IMDA](https://www.imda.gov.sg/) + [SkillsFuture](https://www.skillsfuture.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–36 (open tip #287) covered asthma flares, open-house tours, dojo waiting, impetigo, book week, gymnastics waiting. Remaining heat without contested paths: **eczema-flare coverage**, **IS PTA / volunteer ops**, **coding-academy waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-eczema-flare-coverage-singapore.mdx`
+- `content/guides/family/international-school-pta-volunteer-ops-dual-career-singapore.mdx`
+- `content/guides/belong/coding-academy-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open #270–#287 paths)
+
+- sick-child coverage, kids allergy/EpiPen, kids swimming/water safety, finding paediatrician, photo-day ops, NLB parent belonging, faith-preschool belonging, condo-block parent networks
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- Australian International School, Canadian International School, Tanglin Trust School, Prudential Singapore, telecom-setup-help, aircon-servicing
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #270–#287 guide/entity paths.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns daytime cream timing?
+2. Where are the home and school kits?
+3. What is the hard PTA shift cap this term?
+4. Which nights are blackout?
+5. Same coding sofa next week?
+6. Is swim/PE paused in writing?
+7. Hard wallet cap for class gifts?
+8. Helper rest day vs bake-sale Sunday?
+
+---
+
 ## Loop B — Family + Belong (tick 36) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick36-8971` → tip PR off [#277](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/277) (tick 35). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #277. Shared log + `site.ts` only (prepend on conflict). Did not wait for #277 merge/CI. No force-push to `main`.

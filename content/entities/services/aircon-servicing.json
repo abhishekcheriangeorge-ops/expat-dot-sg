@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "aircon-servicing",
   "name": "Aircon servicing (category guide)",
-  "summary": "Tenant quarterly service vs chemical-wash / gas-top-up upsells — read the TA, keep receipts, and treat ‘low gas’ as a leak until proven otherwise.",
-  "body": "Singapore rental TAs commonly require the tenant to pay general aircon servicing every three months — confirm the clause before move-in and budget an annual package rather than ad-hoc WhatsApp vendors. General service should dismantle/clean blowers and trays and clear drains; foam spray from a ladder is not a chemical wash. Chemical wash is an occasional deep clean, not a quarterly ritual — acid-style washes can accelerate wear if overdone. Refrigerant top-ups are not routine: aircon systems are closed loops, so ‘low gas’ usually means a leak — ask for pressure readings and a second opinion before paying hundreds for gas alone. Lease-end clauses that force chemical wash + gas top-up regardless of condition are negotiation items at LOI, not automatic landlord rights. Keep dated invoices to defend deposit deductions. Pair with the aircon/pest renewals guide for mould adjacency, the pest-control category guide for bed bugs / German cockroaches (different vendors and NEA VCO rules), and end-of-lease cleaning when reinstatement bundles aircon + deep clean. This is a category guide for hiring honest contractors, not a ranked vendor list. Family ops note: haze / PSI weeks expose weak indoor air fast — book chemical washes before the season, not during an early-dismissal morning. Family ops note: swim-kit drying and humid bedrooms collide during ear-infection weeks — keep one working aircon/dehumidifier plan before night pain stacks.",
+  "summary": "Tenant quarterly service vs chemical-wash / gas-top-up upsells \u2014 read the TA, keep receipts, and treat \u2018low gas\u2019 as a leak until proven otherwise.",
+  "body": "Singapore rental TAs commonly require the tenant to pay general aircon servicing every three months \u2014 confirm the clause before move-in and budget an annual package rather than ad-hoc WhatsApp vendors. General service should dismantle/clean blowers and trays and clear drains; foam spray from a ladder is not a chemical wash. Chemical wash is an occasional deep clean, not a quarterly ritual \u2014 acid-style washes can accelerate wear if overdone. Refrigerant top-ups are not routine: aircon systems are closed loops, so \u2018low gas\u2019 usually means a leak \u2014 ask for pressure readings and a second opinion before paying hundreds for gas alone. Lease-end clauses that force chemical wash + gas top-up regardless of condition are negotiation items at LOI, not automatic landlord rights. Keep dated invoices to defend deposit deductions. Pair with the aircon/pest renewals guide for mould adjacency, the pest-control category guide for bed bugs / German cockroaches (different vendors and NEA VCO rules), and end-of-lease cleaning when reinstatement bundles aircon + deep clean. This is a category guide for hiring honest contractors, not a ranked vendor list. Family ops note: haze / PSI weeks expose weak indoor air fast \u2014 book chemical washes before the season, not during an early-dismissal morning. Family ops note: swim-kit drying and humid bedrooms collide during ear-infection weeks \u2014 keep one working aircon/dehumidifier plan before night pain stacks. Family ops: heat and humidity worsen eczema flares \u2014 service timing still needs a named coverage owner if a child is home mid-flare.",
   "category": "other",
   "areasServed": [
     "Islandwide"
@@ -16,11 +16,11 @@
   ],
   "officialLinks": [
     {
-      "label": "CASE — Consumer advice",
+      "label": "CASE \u2014 Consumer advice",
       "url": "https://www.case.org.sg/"
     },
     {
-      "label": "CEA — Renting guidance",
+      "label": "CEA \u2014 Renting guidance",
       "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
     }
   ],
@@ -32,7 +32,8 @@
     "dengue-cluster-living-renters",
     "dual-career-haze-psi-school-closure-coverage-singapore",
     "haze-climate-preparedness",
-    "dual-career-kids-ear-infection-ent-coverage-singapore"
+    "dual-career-kids-ear-infection-ent-coverage-singapore",
+    "dual-career-kids-eczema-flare-coverage-singapore"
   ],
   "featured": false,
   "sponsored": false
