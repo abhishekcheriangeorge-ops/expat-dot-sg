@@ -453,14 +453,14 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "Learning support vs tutoring",
-        href: "/guides/international-school-learning-support-vs-tutoring-singapore",
-        blurb: "School supports vs cash tutors — goal-dated.",
+        label: "Sick-child coverage matrix",
+        href: "/guides/dual-career-sick-child-coverage-singapore",
+        blurb: "Fever-day owners for dual EP households.",
       },
       {
-        label: "Home-leave jet-lag ops",
-        href: "/guides/home-leave-jetlag-dual-career-family-singapore",
-        blurb: "Return-week coverage for dual EP households.",
+        label: "Kids passport & term travel",
+        href: "/guides/kids-passport-renewal-school-term-travel-singapore",
+        blurb: "Renewals, embassy slots, school blackouts.",
       },
       {
         label: "Kids activities & calendar",
@@ -597,9 +597,9 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "NLB parent belonging",
-        href: "/guides/nlb-library-parent-belonging-singapore",
-        blurb: "Libraries and storytime as soft adult rails.",
+        label: "Faith–preschool belonging",
+        href: "/guides/faith-preschool-parent-belonging-singapore",
+        blurb: "Faith communities and preschool-gate adult rails.",
       },
 
       {
