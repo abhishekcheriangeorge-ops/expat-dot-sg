@@ -6,6 +6,76 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 2)
+
+Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — citizenship eligibility / timing / agencies / dual nationality ([eligible for citizenship](https://www.reddit.com/r/askSingapore/comments/1j8kll1/am_i_eligible_for_singapore_citizenship/); [apply after 1 year PR](https://www.reddit.com/r/askSingapore/comments/1aids0j/applying_for_sg_citizenship_after_1_year_of_pr/); [chances + processing length](https://www.reddit.com/r/askSingapore/comments/191d218/the_chances_of_getting_sg_citizenship_and_how/); [immigration company](https://www.reddit.com/r/askSingapore/comments/1qsa0tg/applying_for_citizenship_with_an_immigration/); [renounce SC consequences](https://www.reddit.com/r/askSingapore/comments/1qdfyl9/what_are_the_consequences_of_renouncing_singapore/)).
+- r/askSingapore — graduate LTVP / post-study / after EP loss ([NUS grads LTVP](https://www.reddit.com/r/askSingapore/comments/1jh3lc1/nus_grads_ltvp_need_clarification_on_poststudy/); [local diploma + LOC myth](https://www.reddit.com/r/askSingapore/comments/1h1psrq/foreigner_with_local_diploma_looking_for_a_job/); [LTVP for job listings](https://www.reddit.com/r/askSingapore/comments/1muskjm/should_i_apply_for_an_ltvp_to_get_access_to_more/); [LTVP after losing job](https://www.reddit.com/r/askSingapore/comments/1q66ra7/getting_an_ltvp_after_losing_job/); [retrenched → LTVP](https://www.reddit.com/r/askSingapore/comments/186nx8g/and_so_it_happened_i_got_retrenched_today/)).
+- r/askSingapore — REP / visa-free myth / overseas renewal ([REP vs visa-free](https://www.reddit.com/r/askSingapore/comments/1b748r8/rep_renewal_for_pr_does_not_matter_now_because_an/); [reapply PR after years overseas](https://www.reddit.com/r/askSingapore/comments/1sm019a/can_i_reapply_for_pr_in_singapore_after_leaving/); [REP overseas student](https://www.reddit.com/r/askSingapore/comments/198ssst/pr_rep_renewal_for_overseas_student/)).
+- r/askSingapore — PR AIP formalities / FIN→NRIC / Singpass ([after AIP](https://www.reddit.com/r/askSingapore/comments/1lclx0v/what_happens_after_pr_approved_in_principle/); [wife next steps](https://www.reddit.com/r/askSingapore/comments/1j7t4a5/next_steps_for_my_wifes_singapore_pr_status/); [formalities delay](https://www.reddit.com/r/askSingapore/comments/1k4x482/completion_of_sg_pr_formalities_is_taking_a_while/); [FIN vs NRIC](https://www.reddit.com/r/askSingapore/comments/1ha53xs/does_my_fin_number_change_when_getting_a_pr/)).
+
+**Official**
+
+- [ICA — Becoming a Singapore Citizen](https://www.ica.gov.sg/reside/citizenship) + [Apply](https://www.ica.gov.sg/reside/citizenship/apply) (2-year PR floors, fees, 12-month processing, SCJ ages 16–60, NS obligation block).
+- [ICA — Graduate IHL LTVP seeking employment](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore) (S$45 / S$60, ~6 weeks).
+- [MOM — Work passes for ICA LTVP holders](https://www.mom.gov.sg/passes-and-permits/work-passes-for-holders-of-long-term-visit-passes-issued-by-ica) + [LOC for ICA LTVP/LTVP+](https://www.mom.gov.sg/passes-and-permits/loc-for-ica-issued-ltvp-holders).
+- [ICA — Apply / renew REP](https://www.ica.gov.sg/reside/PR/apply-REP) + [Entry Permit & REP conditions](https://www.ica.gov.sg/PR/see-more/entry-permit-and-re-entry-permit-conditions-for-singapore-permanent-residents).
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass).
+
+### Gaps vs prior ticks (Next-owned)
+
+Prior Loop D tick shipped PR rejection, EP renewal age-bands, NS Exit Permit, renunciation, leaving polish. Remaining high-intent **Next** gaps matched forum heat: **citizenship application process** (eligibility floors / 12-month clock / SCJ / agencies / dual nationality — NS guide was process-thin), **graduate LTVP** (fees, no-work, LOC category myth, EP-cancel timing), **REP visa-free loophole myth**, **PR AIP formalities + FIN→NRIC Singpass**. About + editorial needed clearer Next-pillar research language.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/next/singapore-citizenship-application.mdx`
+- `content/guides/next/graduate-ltvp-job-hunt.mdx`
+
+**Upgraded guides**
+
+- `content/guides/next/between-jobs-stvp-singapore.mdx` (graduate LTVP depth + cross-link)
+- `content/guides/next/re-entry-permit-pr-overseas.mdx` (visa-free ≠ keep PR)
+- `content/guides/next/after-getting-pr-checklist.mdx` (AIP formalities timeline)
+- `content/guides/next/citizenship-ns-implications.mdx` (citizenship-application cross-link)
+- `content/guides/next/pr-application-strategy.mdx` (citizenship-application cross-link)
+
+**Editorial polish**
+
+- `src/app/about/page.tsx`
+- `src/app/editorial-policy/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Family / Belong / Home / Life guide trees owned by Loops A–C (side-income / moonlighting stays Move).
+
+### Questions mined (sample)
+
+1. Can I apply for Singapore citizenship after only one year as a PR if the e-Service lets me click through?
+2. How long is citizenship processing really taking, and does longer pending mean higher odds?
+3. Are immigration agencies worth it for citizenship “profile building”?
+4. What happens to dual nationality when I take up Singapore citizenship?
+5. Can foreign NUS/poly grads get an LTVP to job-hunt, and can they work on it?
+6. Does graduate LTVP come with LOC so I can do F&B while searching?
+7. After EP cancel, can I apply for graduate LTVP while still on notice / STVP?
+8. If my passport is visa-free for Singapore, do I still need to renew REP?
+9. If I lose PR after years overseas, can I get it back easily after NS?
+10. What happens after PR “approved in principle” before the blue IC?
+11. Does my FIN become my NRIC, and must I re-register Singpass?
+12. How long do ICA formalities / IC collection usually take?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 2) — 2026-09-15
 
 Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. Did **not** touch Move / Money / Home / Life / Next files owned by Loops A / C / D. No ads / no Grok.
