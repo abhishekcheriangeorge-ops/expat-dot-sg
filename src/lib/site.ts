@@ -481,12 +481,22 @@ export const pillars: Pillar[] = [
       {
         label: "EP renewals",
         href: "/guides/ep-renewal-strategy",
-        blurb: "Timing, COMPASS again, and employer choreography.",
+        blurb: "Timing, COMPASS, age bands — plus NOA document asks.",
       },
       {
         label: "PR strategy",
         href: "/guides/pr-application-strategy",
         blurb: "Eligibility signals, timelines, and realistic odds.",
+      },
+      {
+        label: "Spouse & parent PR",
+        href: "/guides/pr-for-spouse-singapore",
+        blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
+      },
+      {
+        label: "EP renewal docs",
+        href: "/guides/ep-renewal-noa-documents",
+        blurb: "When MOM asks for NOA — reconcile salary with IRAS.",
       },
       {
         label: "Citizenship & NS",

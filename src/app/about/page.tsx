@@ -73,7 +73,8 @@ export default function AboutPage() {
               agency FAQs), then maps gaps to primary sources — not recycled
               listicles. High-stakes Next topics (REP clocks, citizenship ORAL,
               adult SC renunciation, NRIC loss / re-registration / name change,
-              child PR sponsorship, REP passport transfers, pass
+              child and spouse PR sponsorship, aged-parent PR vs LTVP,
+              REP passport transfers, EP renewal NOA asks, pass
               cancellations) are checked against live ICA / MOM / MHA text
               before we ship.
             </li>
