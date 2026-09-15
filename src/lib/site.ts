@@ -649,6 +649,21 @@ export const pillars: Pillar[] = [
         blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
+        label: "ROE under 21",
+        href: "/guides/right-of-entry-roe-under-21-singapore",
+        blurb: "Free ROE so dual-passport SC kids clear SG on foreign passport.",
+      },
+      {
+        label: "Citizenship confirmation letter",
+        href: "/guides/confirmation-singapore-citizenship-status",
+        blurb: "ICA’s S$20 digital status letter — no stamp/QR; not ROE.",
+      },
+      {
+        label: "Renounce Singapore citizenship",
+        href: "/guides/renouncing-singapore-citizenship",
+        blurb: "Adult 21+ SC exit — other nationality + NS gates; not PR form.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "New employer files fresh pass — resign only after IPA.",

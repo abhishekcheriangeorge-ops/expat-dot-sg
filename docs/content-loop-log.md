@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 27)
+
+Branch: `loop/story-aeo-tick27` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22, #128 H23, #132 H24, #135 H25, #140 H26). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — dual-passport kids at Changi; pink IC vs foreign passport clearance folklore.
+- r/askSingapore — foreign school/mission wants “proof I’m Singaporean”; unsigned PDF rejection panic.
+- r/askSingapore / r/NationalServiceSG — conflating miss-ORAL, PR renunciation, and adult SC renunciation.
+
+**Official**
+
+- [ICA — Right of Entry (ROE)](https://www.ica.gov.sg/reside/citizenship/roe).
+- [ICA — Confirmation of Singapore Citizenship Status](https://www.ica.gov.sg/reside/citizenship/confirmation).
+- [ICA — Renunciation of Singapore Citizenship](https://www.ica.gov.sg/enter-depart/for-singapore-citizens/renunciation) + [ask.gov.sg renounce-before-other-citizenship](https://ask.gov.sg/ica/questions/clxwhkixr006kdsotsvorx1u1).
+
+### Gaps vs open H + ticks 1–26
+
+Open: #117–#140 H20–H26 stack. Remaining high-intent Next FAQ-free gaps: **ROE under 21**, **citizenship confirmation letter**, **renouncing Singapore citizenship**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/right-of-entry-roe-under-21-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/confirmation-singapore-citizenship-status.mdx` (direct lead + FAQPage)
+- `content/guides/next/renouncing-singapore-citizenship.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (ROE + confirmation + SC renunciation topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124/#128/#132/#135/#140 guide bodies.
+
+### Questions mined (sample)
+
+1. What is Right of Entry (ROE) for under-21 Singapore citizens?
+2. Who files the ROE application?
+3. What if the child’s foreign-passport name does not match ICA records?
+4. Does ROE transfer automatically when the foreign passport is renewed?
+5. Is ROE the same as ORAL or the citizenship confirmation letter?
+6. What is ICA’s Confirmation of Singapore Citizenship Status letter?
+7. Who can apply for the confirmation letter?
+8. Does the confirmation letter replace Right of Entry (ROE)?
+9. Can under-16 children request the letter themselves?
+10. Does the letter fix a missed ORAL clock?
+11. Who can renounce Singapore citizenship?
+12. Is adult SC renunciation the same as missing ORAL or renouncing PR?
+13. Can male citizens with outstanding NS obligations renounce freely?
+14. What documents must be returned for SC renunciation?
+15. Can Singapore citizenship be reinstated after renunciation?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 16)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick16-49cb` → PR to `main` (fresh worktree off `origin/main` @ `83b4cc4` post-A11/#92; A12–A15 (#97/#105/#111/#121) had also landed on `main` by rebase time; this tip rebases onto `origin/main` @ `83b4cc4` post-#121. Did not re-edit those now-merged guide paths beyond the freed job-change/remittance/health FAQ depth.)
