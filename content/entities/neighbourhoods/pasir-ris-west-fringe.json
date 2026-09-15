@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "pasir-ris-west-fringe",
+  "name": "Pasir Ris West Fringe",
+  "summary": "West edge of Pasir Ris toward Tampines / Loyang \u2014 quieter east-coast fringe living with park connectors and ActiveSG catchment.",
+  "body": "Pasir Ris West Fringe is the shortlist when quieter east-coast fringe living and park-connector texture matter more than CBD skyline premiums. The pocket sits on the Pasir Ris West / Tampines / Loyang edges; housing mixes mid-age HDB, executive condos, and selective private stock. Expats land here for car-light hops to Pasir Ris / Tampines and ActiveSG gateball / petanque catchment without Orchard rents. Watch-outs: smoke-stop / staircase pressurisation fan test notices on mid-rises, weekend park-connector crowds, and confusing Pasir Ris vs Pasir Ris West Fringe shortlists. Compare with Loyang Edge for quieter industrial-fringe calm, Tampines North Edge for denser new-town texture, and Pasir Ris proper when beach-park gravity wins.",
+  "region": "east",
+  "vibe": [
+    "east-coast-fringe",
+    "park-connector",
+    "quieter-residential",
+    "practical",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "car-light workers who want quieter Pasir Ris-side texture",
+    "households comparing Pasir Ris West Fringe vs Loyang Edge",
+    "renters who will book ActiveSG gateball or petanque weekly",
+    "people okay with mid-age HDB and EC stock"
+  ],
+  "watchOuts": [
+    "Smoke-stop / staircase pressurisation fan test notices on mid-rises",
+    "Weekend park-connector crowds",
+    "Peak bus crowding toward Pasir Ris / Tampines hubs",
+    "Pasir Ris vs Pasir Ris West Fringe listing confusion"
+  ],
+  "housingMix": "Mid-age HDB, executive condos, and selective private stock with park-connector edges.",
+  "commuteNotes": "EWL gravity via Pasir Ris / Tampines / Tampines East depending on block; walk a Saturday morning path before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3700,
+    "familyFrom": 3100,
+    "familyTo": 6400
+  },
+  "mrt": [
+    "Pasir Ris",
+    "Tampines East",
+    "Tampines"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
