@@ -644,14 +644,29 @@ export const pillars: Pillar[] = [
         blurb: "What permanent status implies for families.",
       },
       {
+        label: "ROE transfer — new foreign passport",
+        href: "/guides/roe-transfer-new-foreign-passport-singapore",
+        blurb: "FormSG transfer per book; ROE does not auto-migrate.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
       },
       {
+        label: "Retrenchment benefit — TADM / TAFEP",
+        href: "/guides/retrenchment-benefit-tadm-tafep-ep-singapore",
+        blurb: "Contractual unpaid → TADM; advisory-norm gaps → TAFEP path.",
+      },
+      {
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "Tax clearance, deposits, shipping, school exits.",
+      },
+      {
+        label: "CPF close after renouncing PR",
+        href: "/guides/cpf-account-closure-after-renouncing-pr-singapore",
+        blurb: "Status change first; ~12-week close to a SG bank account.",
       },
       {
         label: "After getting PR",

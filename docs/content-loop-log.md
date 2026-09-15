@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 43)
+
+Branch: `loop/story-aeo-tick43` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#250 H20–H42). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — contractual retrenchment benefit unpaid / TADM vs TAFEP folklore.
+- r/askSingapore — new US passport, old ROE still works at Changi.
+- r/askSingapore — REP expired so CPF should pay out / renounce just for the balance.
+
+**Official**
+
+- [MOM — Responsible retrenchment](https://www.mom.gov.sg/employment-practices/retrenchment/responsible-retrenchment) + unpaid-benefit FAQ + TADM disputes page + [TAFEP](https://www.tal.sg/tafep).
+- [ICA — Right of Entry (ROE)](https://www.ica.gov.sg/reside/citizenship/roe) + FormSG ROE request.
+- [CPF Board — Closing your account when you leave Singapore](https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore) + online closure for non-SC/non-PR.
+
+### Gaps vs open H + ticks 1–42
+
+Open: #117–#250 H20–H42. Remaining free Next FAQ-free companions included **retrenchment benefit TADM/TAFEP**, **ROE transfer on new foreign passport**, **CPF account closure after renouncing PR**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/retrenchment-benefit-tadm-tafep-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/roe-transfer-new-foreign-passport-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/cpf-account-closure-after-renouncing-pr-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (retrenchment TADM/TAFEP + ROE transfer + CPF close-after-renounce topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#250 guide bodies.
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Contractual retrenchment benefit unpaid — TADM or TAFEP?
+2. No contractual benefit — can TADM force the advisory payout?
+3. Does TADM/TAFEP pause EP cancellation?
+4. Should I sign a release before seeing the package in writing?
+5. Unpaid salary/AL after retrenchment — which forum?
+6. New foreign passport — does old ROE still work?
+7. How do I request or transfer ROE?
+8. Does one ROE cover every foreign passport?
+9. Is ROE transfer the same as ORAL at 21?
+10. Is the citizenship confirmation letter the same as ROE?
+11. Can I close CPF while still a PR overseas?
+12. Does REP expiry cash out CPF?
+13. What is the CPF closure sequence after renouncing PR?
+14. Will CPF transfer straight into Aussie super / 401(k)?
+15. Should I renounce PR just to unlock CPF cash?
+
+---
+
 ## Loop B — Family + Belong (tick 28) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick28-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #210. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
