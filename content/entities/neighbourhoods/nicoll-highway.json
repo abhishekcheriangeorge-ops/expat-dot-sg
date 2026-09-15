@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "nicoll-highway",
+  "name": "Nicoll Highway",
+  "summary": "CCL city-fringe stop by the Kallang Basin — condo-led living with park connector access, stadium adjacency, and sharper premiums than deeper heartland east.",
+  "body": "Nicoll Highway suits renters who want Circle Line proximity to the city fringe and basin park connectors without committing to River Valley prices. Housing skews condo with limited HDB; weekend sports and event spillover from the Kallang belt show up in traffic. Expats shortlist it for CCL desk hops and outdoor volume; accept thinner hawker density than Old Airport Road and higher condo MCST scrutiny on visitor parking. Compare with Mountbatten for more food-belt texture, Aljunied for NEL heartland value, and Stadium/Kallang catchments when you want to live even closer to ActiveSG infrastructure.",
+  "region": "east",
+  "vibe": [
+    "ccl",
+    "city-fringe",
+    "condo-led",
+    "park-connector",
+    "stadium-adjacent"
+  ],
+  "bestFor": [
+    "CCL city-fringe office hoppers",
+    "condo-first households with ActiveSG nearby",
+    "runners / cyclists using basin connectors",
+    "renters trading hawker density for park access"
+  ],
+  "watchOuts": [
+    "Condo rent premiums vs heartland east",
+    "Event traffic toward the sports hub",
+    "Thinner everyday hawker density than Mountbatten / Dakota",
+    "MCST visitor and renovation rules — read PDFs"
+  ],
+  "housingMix": "Condo-led with limited HDB; park and sports infrastructure nearby.",
+  "commuteNotes": "Circle Line at Nicoll Highway; model peak and event-evening last miles.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2600,
+    "oneBedTo": 4200,
+    "familyFrom": 3500,
+    "familyTo": 5800
+  },
+  "mrt": [
+    "Nicoll Highway"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
