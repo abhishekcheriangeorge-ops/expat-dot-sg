@@ -6,6 +6,30 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO hubs / crosslinks (tick 24) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick24-a144` → draft PR to `main`. SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. Built off fresh `origin/main`; **did not** edit open G-stack `src/` / `public/` paths through #267 (log prepend only).
+
+### Gaps vs prior G ticks
+
+Ticks 4–23 (open #74→#267) claimed chrome, directory pages, tools UI, motion, feeds/privacy/DNT, entity/calendar/journey JSON-LD, middleware, and most discovery txt files. Remaining free surface: **collection/hub JSON-LD**, **SEO slug helpers**, **TopicLinks / CiteRail**, **tools/directory/map discovery txt**.
+
+### Shipped this loop
+
+- `src/lib/seo-collections.ts` — CollectionPage / ItemList hub helpers
+- `src/lib/seo-slug.ts` + `slugify.ts` re-exports — anchor/path helpers
+- `TopicLinks.tsx` / `CiteRail.tsx` + directory barrel re-exports
+- `public/tools.txt` / `public/directory.txt` / `public/map.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → (this PR)
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 51 — 2026-09-15
 
 Branch: `cursor/home-life-tick51-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #274/#282/#295/#301/#309/#313/#321 stay open for the merge controller — **did not** touch those PR paths. Topics: condo cat-ladder / roof-access permit notices, ActiveSG lawn bowls, Upper East Coast Fringe / Lagoon View West / Mandarin Gardens East. Tip confirmed as **#321** (Tick 50); opened next tip in parallel without waiting on merge.
