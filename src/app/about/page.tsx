@@ -74,6 +74,7 @@ export default function AboutPage() {
               listicles. High-stakes Next topics (REP clocks, citizenship ORAL,
               adult SC renunciation, NRIC loss / re-registration / name change,
               child and spouse PR sponsorship, aged-parent PR vs LTVP,
+              spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
               REP passport transfers, EP renewal NOA asks, pass
               cancellations) are checked against live ICA / MOM / MHA text
               before we ship.

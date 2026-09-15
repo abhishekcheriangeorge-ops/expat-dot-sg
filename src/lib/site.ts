@@ -544,6 +544,21 @@ export const pillars: Pillar[] = [
         blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
       },
       {
+        label: "Spouse LTVP + PMLA",
+        href: "/guides/spouse-ltvp-pmla-singapore",
+        blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
+      },
+      {
+        label: "PLOC / LOC work rights",
+        href: "/guides/ploc-loc-ica-ltvp-singapore",
+        blurb: "ICA spouse/child LTVP work — PLOC vs employer LOC.",
+      },
+      {
+        label: "Student PR",
+        href: "/guides/pr-for-student-singapore",
+        blurb: "National exam / IP eligibility row — not private-exam folklore.",
+      },
+      {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
         blurb: "When MOM asks for NOA — reconcile salary with IRAS.",

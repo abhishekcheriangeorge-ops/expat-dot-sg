@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 7)
+
+Branch: `loop/next-polish-tick7` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (Move keeps arrival LTVP / DP survey; divorce stays Family-owned; Next deepens spouse LTVP / PLOC / student PR only).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — spouse LTVP / PMLA / processing ([LTVP when spouse is PR](https://www.reddit.com/r/askSingapore/comments/1clukc0/topic_applying_for_ltvp_when_your_spouse_is_a/); [LTVP best practices + PLOC](https://www.reddit.com/r/askSingapore/comments/1r1awpl/questions_on_best_practicerequirements_for_ltvp/); [LTVP processing 2025](https://www.reddit.com/r/askSingapore/comments/1j01dhw/ltvp_application_process_time_2025/); [2026 processing heat](https://www.reddit.com/r/askSingapore/comments/1sfnn0r/this_years_ltvp_processing_time/)).
+- r/askSingapore — PLOC / LOC work rights on ICA LTVP (same LTVP threads + MOM PLOC FAQs peers cite).
+- r/askSingapore — student PR / national-exam folklore ([O Levels private candidate](https://www.reddit.com/r/askSingapore/comments/1ipvk6q/can_an_international_student_get_approved_for_pr/); [uni student PR](https://www.reddit.com/r/askSingapore/comments/ztk7q4/singapore_pr_for_university_students/); [GCE exam myth](https://www.reddit.com/r/askSingapore/comments/1g8r2pu/singapore_now_eases_pr_path_for_international/); [SIM GE rejection](https://www.reddit.com/r/askSingapore/comments/zd2j6k/help_foreign_uni_student_applying_for_pr_first/)).
+
+**Official**
+
+- [ICA — Becoming a Long-Term Visit Pass Holder](https://www.ica.gov.sg/reside/LTVP) (SC vs PR spouse rows; fees; renew)
+- [ICA — Spouse of a Singapore Citizen (LTVP)](https://www.ica.gov.sg/reside/LTVP/apply/spouse-of-a-singapore-citizen-(sc))
+- [ICA — Spouse of a Singapore PR (LTVP)](https://www.ica.gov.sg/reside/LTVP/apply/spouse-of-a-singapore-permanent-resident-(pr))
+- [ICA — Pre-Marriage LTVP Assessment (PMLA)](https://www.ica.gov.sg/reside/pre-marriage-long-term-visit-pass-assessment) (SC-only; LLE 1 year; 7-day draft; WP marriage approval)
+- [MOM — PLOC eligibility / key facts / taking up employment / restricted occupations](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility)
+- [MOM — Work passes for ICA-issued LTVP holders](https://www.mom.gov.sg/passes-and-permits/work-passes-for-holders-of-long-term-visit-passes-issued-by-ica)
+- [ICA — Becoming a Permanent Resident](https://www.ica.gov.sg/reside/PR) (student exam/IP row; NS liability for student PR)
+
+### Gaps vs prior ticks
+
+Tick 6 shipped spouse-sponsored PR, aged-parent PR vs LTVP, EP renewal NOA. Remaining high-intent **Next** gaps matched this mine: **spouse LTVP + PMLA** (SC-only PMLA; PR sponsors have no PMLA; LLE ≠ LTVP), **PLOC vs employer LOC** for ICA spouse/child LTVP (not graduate LTVP; not self-employed; restricted media/religion jobs), **student PR** (exam/IP row; live ICA table has no printed multi-year residency floor — crush private-exam folklore; male NS disruption). About + editorial research language updated.
+
+### Shipped
+
+**New:** `spouse-ltvp-pmla-singapore.mdx`, `ploc-loc-ica-ltvp-singapore.mdx`, `pr-for-student-singapore.mdx`
+
+**Upgraded:** `pr-for-spouse-singapore.mdx`, `pr-application-strategy.mdx`, `graduate-ltvp-job-hunt.mdx`, `after-getting-pr-checklist.mdx`, `renewing-life-admin-annually.mdx`; `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits (Move LTVP / DP surveys left alone beyond Next cross-links).
+
+### Questions mined
+
+1. Is PMLA available when my sponsor is a PR rather than a citizen?
+2. Does a positive PMLA Letter of Eligibility equal LTVP approval?
+3. How long is the LLE valid, and what is the 7-day PMLA draft rule?
+4. Why is SC spouse LTVP up to 6 months without PMLA but ~6 weeks with it?
+5. What fees does ICA publish for spouse LTVP submission and issuance?
+6. Do existing/former Work Permit holders need MOM marriage approval before marrying an SC/PR?
+7. Does LTVP alone let my foreign spouse work in Singapore?
+8. What is the difference between PLOC and an employer LOC?
+9. Can PLOC holders be self-employed or take media/religion jobs?
+10. When must an employer notify MOM if a PLOC holder starts or leaves work?
+11. Can a graduate-seeking-employment LTVP use PLOC?
+12. Does passing private O Levels make student PR likely — and what does ICA’s live student row actually list?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 23 — 2026-09-15
 
 Branch: `loop/home-life-t23` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
