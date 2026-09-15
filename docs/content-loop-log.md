@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 41)
+
+Branch: `loop/story-aeo-tick41` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#240 H20–H40). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — STVP will unfreeze my final salary / same-week IR21 + long STVP flight folklore.
+- r/askSingapore — foreign uni wants stamped citizenship certificate / ICA unsigned PDF rejected.
+- r/askSingapore — decide stay vs exit after CNY after school deposits already paid.
+
+**Official**
+
+- [IRAS — Tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + share-plan clearance page.
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + extend-stay FAQ.
+- [ICA — Confirmation of Singapore Citizenship Status](https://www.ica.gov.sg/reside/citizenship/confirmation) + FormSG go.gov.sg/confirmationofsc.
+
+### Gaps vs open H + ticks 1–40
+
+Open: #117–#240 H20–H40. Remaining free Next FAQ-free companions included **IR21 / pass cancel / STVP sequencing**, **citizenship confirmation letter for foreign authorities**, **annual stay vs exit review calendar**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ir21-pass-cancel-stvp-sequencing-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/confirmation-citizenship-letter-foreign-authority-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/annual-stay-exit-review-calendar-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (IR21/cancel/STVP sequence + citizenship confirmation letter + annual stay/exit review topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#240 guide bodies.
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does STVP after EP cancel unfreeze IR21-withheld final pay?
+2. When should the employer file IR21 relative to EP cancel?
+3. Can I work on STVP while waiting for IRAS clearance?
+4. Should I book a non-changeable flight assuming same-week clearance and a long STVP?
+5. Is IR21 the same clock as MOM pass cancel?
+6. Will ICA issue a stamped citizenship certificate for a foreign university?
+7. How do I apply for confirmation of Singapore citizenship status?
+8. What if a foreign school rejects the unsigned digital PDF?
+9. Can a parent apply for a child under 16?
+10. Is the confirmation letter the same as ROE for under-21 travel?
+11. When should we run an annual stay-vs-exit review?
+12. What lock-ins turn a soft maybe into a forced stay year?
+13. Should we wait until after CNY to decide stay vs exit?
+14. If we choose exit, when do we start the leaving playbook?
+15. Is the annual stay/exit review the same as renewing life-admin documents?
+
+---
+
 ## Loop B — Family + Belong (tick 23) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick23-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #166. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

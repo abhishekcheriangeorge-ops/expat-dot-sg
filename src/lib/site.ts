@@ -629,6 +629,11 @@ export const pillars: Pillar[] = [
         blurb: "After IPA — portal day +3, SEV / CSS, e-Journey, registration.",
       },
       {
+        label: "Citizenship confirmation letter",
+        href: "/guides/confirmation-citizenship-letter-foreign-authority-singapore",
+        blurb: "S$20 digital letter — no stamp/QR; ask foreign desks first.",
+      },
+      {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
         blurb: "When MOM asks for NOA — reconcile salary with IRAS.",
@@ -647,6 +652,16 @@ export const pillars: Pillar[] = [
         label: "Between jobs / STVP",
         href: "/guides/between-jobs-stvp-singapore",
         blurb: "EP cancel → up to 90 days stay, DP cascade, no work.",
+      },
+      {
+        label: "IR21 / cancel / STVP sequence",
+        href: "/guides/ir21-pass-cancel-stvp-sequencing-singapore",
+        blurb: "Tax freeze and immigration stay are parallel clocks — not one.",
+      },
+      {
+        label: "Annual stay / exit review",
+        href: "/guides/annual-stay-exit-review-calendar-singapore",
+        blurb: "Before school deposits and EP renewal lock the year.",
       },
       {
         label: "Lost work pass card",
