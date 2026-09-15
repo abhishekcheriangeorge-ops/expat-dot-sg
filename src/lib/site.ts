@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "EP renewal NOA packaging",
-        href: "/guides/ep-renewal-noa-packaging-depth-singapore",
-        blurb: "NOA vs IR8A vs fixed monthly — reconcile before HR replies.",
+        label: "EP renewal age-band salary",
+        href: "/guides/ep-renewal-age-band-salary-packaging-singapore",
+        blurb: "Fixed monthly vs rising age floors — raise before HR files.",
       },
       {
-        label: "ONE Pass spouse LOC",
-        href: "/guides/one-pass-spouse-loc-depth-singapore",
-        blurb: "DP-first sequencing, one LOC at a time — not EP DP folklore.",
+        label: "S Pass levy / quota renewal",
+        href: "/guides/s-pass-levy-quota-renewal-edges-singapore",
+        blurb: "DRC + levy edges — “no EP quota” is usually S Pass maths.",
       },
       {
-        label: "EntrePass renewal ladder",
-        href: "/guides/entrepass-renewal-evaluation-ladder-singapore",
-        blurb: "TBS / local-hire rungs by cycle — plan the EP exit early.",
+        label: "DP LOC vs own pass",
+        href: "/guides/dep-pass-loc-vs-own-pass-chooser-singapore",
+        blurb: "Post-2021 LOC ≠ open labour market — choose EP/S Pass when needed.",
       },
       {
         label: "Between jobs / STVP",
