@@ -118,6 +118,25 @@ export function articleJsonLd(input: {
   };
 }
 
+/** FAQPage schema for answer engines / featured-snippet extraction */
+export function faqJsonLd(
+  faqs: Array<{ question: string; answer: string }>,
+): Record<string, unknown> | null {
+  if (!faqs.length) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
 export function localBusinessJsonLd(input: {
   name: string;
   description: string;
