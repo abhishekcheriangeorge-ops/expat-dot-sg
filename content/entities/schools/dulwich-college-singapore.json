@@ -2,8 +2,8 @@
   "type": "school",
   "slug": "dulwich-college-singapore",
   "name": "Dulwich College (Singapore)",
-  "summary": "British independent school model in Bukit Batok with IGCSEs and IB Diploma.",
-  "body": "Dulwich Singapore brings a UK independent-school culture to the west, with strong performing arts and academic pathways through IGCSE and IB. Families often pair it with west-side housing. Tour early — facilities and pastoral model are a big part of the sell.",
+  "summary": "British independent school model in Bukit Batok with IGCSEs and IB Diploma — verify Mandarin as immersion vs optional language by year group.",
+  "body": "Dulwich Singapore brings a UK independent-school culture to the west, with strong performing arts and academic pathways through IGCSE and IB. Forum school-choice threads often name Dulwich when families want British structure plus some Mandarin exposure — but optional language slots are not bilingual immersion. Ask admissions for weekly Mandarin hours by year and whether intensity continues past junior school. Bukit Batok geography pairs with west-side housing; peak CBD reverse-commute is a separate adult problem from the child bus. Tour early and price the full fee stack including bus.",
   "curriculum": [
     "British",
     "IGCSE",
@@ -14,10 +14,11 @@
   "neighbourhood": "clementi-west-coast",
   "campus": "Bukit Batok",
   "languages": [
-    "English"
+    "English",
+    "Mandarin"
   ],
   "feesBand": "Premium international",
-  "waitlistNotes": "Year-group dependent; early registration recommended.",
+  "waitlistNotes": "Year-group dependent; early registration recommended. Confirm Mandarin pathway intensity by year in writing.",
   "website": "https://singapore.dulwich.org",
   "featured": false,
   "sponsored": false
