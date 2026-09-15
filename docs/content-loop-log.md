@@ -6,6 +6,85 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 37)
+
+Branch: `cursor/loop-d-next-polish-tick37-d996` → draft PR to `main`, off tip [#303](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/303) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EntrePass→EP founder exit, S Pass→EP upgrade packaging, and COMPASS C2 degree verification edges.
+
+**Shipped**
+- New: `entrepass-to-ep-founder-exit-singapore`, `s-pass-to-ep-upgrade-packaging-singapore`, `compass-c2-degree-verification-edges-singapore`
+- Parents (light): EntrePass, S Pass→EP upgrade, COMPASS framework
+- Rails: `src/lib/site.ts` Next topics, about, editorial; this log prepend
+
+**Merge note:** tip [#303](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/303) → this tip when controller merges.
+
+---
+
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 36)
+
+Branch: `cursor/loop-d-next-polish-tick36-d996` → draft PR to `main`, off tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for Tech.Pass→ONE salary composite, LTVP/PLOC→EP conversion edges, and EP notify-MOM address/passport edges.
+
+**Shipped**
+- New: `tech-pass-to-one-pass-salary-composite-singapore`, `ltvp-ploc-to-ep-conversion-edges-singapore`, `ep-notify-mom-address-passport-edges-singapore`
+- Parents (light): Tech.Pass, LTVP/PLOC→EP conversion, EP notify MOM address/passport
+- Rails: `src/lib/site.ts` Next topics, about, editorial; this log prepend
+
+**Merge note:** tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) → this tip when controller merges.
+
+---
+
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 35)
+
+Branch: `cursor/loop-d-next-polish-tick35-d996` → draft PR to `main`, off tip [#289](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/289) (merged into main). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for ONE Pass outstanding-achievements evidence, EP job-change IR21 withhold, and PEP exit timing.
+
+**Merge order note (controller):** `#289 → this tip` (prior open D tips merged).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “ONE Pass outstanding track is just awards on LinkedIn.”
+- r/askSingapore — “Changing jobs in Singapore means no IR21.”
+- r/askSingapore — “PEP renews quietly if income stays high.”
+
+**Official**
+
+- [MOM — ONE Pass eligibility](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/eligibility)
+- [IRAS — Tax clearance](https://www.iras.gov.sg/taxes/individual-income-tax/employees/tax-clearance-for-foreign-employees) · [MOM — Change jobs](https://www.mom.gov.sg/passes-and-permits/employment-pass/change-jobs)
+- [MOM — PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass) · [Cancel PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/cancel-a-pass)
+
+### Gaps vs prior tip
+
+#289 covered age-band salary, S Pass levy/quota, DP LOC chooser. Remaining Next gaps: **ONE Pass achievements evidence**, **EP job-change IR21 withhold**, **PEP exit timing**.
+
+### Shipped
+
+**New:** `one-pass-outstanding-achievements-evidence-singapore.mdx`, `ep-job-change-ir21-withhold-edges-singapore.mdx`, `pep-exit-to-ep-or-pr-timing-singapore.mdx`
+
+**Upgraded:** ONE Pass, changing jobs on EP, PEP, chooser, between-jobs STVP, IR21 sequencing (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No force-push to main.
+- Tip #289 already on main; did not wait on other loops.
+- content-loop-log: prepend only.
+
+### Questions mined
+
+1. Do LinkedIn awards clear the ONE Pass outstanding track?
+2. Is outstanding-achievements a substitute for S$30k fixed monthly?
+3. Can Tech.Pass company letters double as ONE Pass achievements proof?
+4. Does a same-city EP hop skip IR21?
+5. Can the new employer unlock old final pay faster?
+6. When should the old EP be cancelled relative to new IPA?
+7. Does PEP renew like an Employment Pass?
+8. How early should PEP holders stage an employer EP?
+9. Do keep-rule dips force an earlier PEP exit?
+10. Is a last-month ONE Pass flip a safe PEP exit?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 31)
 
 Branch: `cursor/e-journeys-tools-tick31-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #304** (`cursor/e-journeys-tools-tick30-fa4f`) — did not wait for #304 or earlier E drafts to merge. Avoided open E stack exclusives through **#304** (E30): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → this tip**. Soft hubs / content-loop-log: **prepend**.
