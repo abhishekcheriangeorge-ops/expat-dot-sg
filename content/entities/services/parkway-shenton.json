@@ -10,5 +10,21 @@
   ],
   "website": "https://www.parkwayshenton.com",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Want GP linked to Parkway hospital pathway",
+    "Need LOG workflow before elective admission",
+    "HSA-imported controlled meds need local refill plan"
+  ],
+  "officialLinks": [
+    {
+      "label": "HSA — Bringing personal medication into Singapore",
+      "url": "https://www.hsa.gov.sg/consumer-safety/bringing-personal-medication-into-singapore"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ]
 }

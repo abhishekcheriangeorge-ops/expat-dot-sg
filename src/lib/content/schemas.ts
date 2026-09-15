@@ -163,10 +163,17 @@ export const ServiceCategorySchema = z.enum([
   "fdw",
   "tutors",
   "insurance",
+  "tax",
   "legal",
   "other",
 ]);
 export type ServiceCategory = z.infer<typeof ServiceCategorySchema>;
+
+export const ServiceOfficialLinkSchema = z.object({
+  label: z.string().min(1),
+  url: z.string().url(),
+});
+export type ServiceOfficialLink = z.infer<typeof ServiceOfficialLinkSchema>;
 
 export const ServiceListingSchema = z.object({
   type: z.literal("service"),
@@ -178,6 +185,12 @@ export const ServiceListingSchema = z.object({
   areasServed: z.array(z.string()).default([]),
   website: z.string().url().optional(),
   phone: z.string().optional(),
+  /** Practical engage-when cues — honest, not salesy */
+  whenToEngage: z.array(z.string()).default([]),
+  /** Official / regulator / primary-source links (IRAS, MOM, SAL, AVS, etc.) */
+  officialLinks: z.array(ServiceOfficialLinkSchema).default([]),
+  /** Related guide slugs on expat.sg */
+  relatedGuides: z.array(z.string()).default([]),
   /** Phase 5 monetization — featured / paid placement flag */
   featured: z.boolean().default(false),
   sponsored: z.boolean().default(false),
@@ -229,6 +242,7 @@ export const SERVICE_CATEGORY_LABELS: Record<ServiceCategory, string> = {
   fdw: "Helper agencies",
   tutors: "Tutors & enrichment",
   insurance: "Insurance",
+  tax: "Tax agents & filing",
   legal: "Legal & immigration",
   other: "Other services",
 };

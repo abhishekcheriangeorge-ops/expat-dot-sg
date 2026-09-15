@@ -9,5 +9,28 @@
     "Islandwide"
   ],
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Tenancy deposit / SCT leverage unclear",
+    "Divorce, custody, Hague / ICAA travel risk",
+    "PPO / family violence safety sequencing",
+    "TADM salary, retrenchment, or training-bond fights"
+  ],
+  "officialLinks": [
+    {
+      "label": "Judiciary — Small Claims Tribunals",
+      "url": "https://www.judiciary.gov.sg/civil/about-small-claims-tribunals"
+    },
+    {
+      "label": "TADM — Employment disputes",
+      "url": "https://www.tal.sg/tadm"
+    }
+  ],
+  "relatedGuides": [
+    "renting-process-loi-ta-deposits",
+    "security-deposit-diplomatic-clause",
+    "rental-inventory-fair-wear-tear",
+    "divorce-custody-foreigners-singapore",
+    "workplace-harassment-tafep-ep"
+  ]
 }

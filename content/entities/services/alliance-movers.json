@@ -9,5 +9,24 @@
     "Islandwide"
   ],
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Condo-to-condo move with MCST deposits",
+    "Need written inventory + insurance clarity",
+    "Lift padding / trolley surcharge unknowns"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Customs — moving to Singapore",
+      "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/"
+    },
+    {
+      "label": "Singapore Customs — GST relief qualification",
+      "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/"
+    }
+  ],
+  "relatedGuides": [
+    "moving-within-singapore",
+    "shipping-household-singapore"
+  ]
 }
