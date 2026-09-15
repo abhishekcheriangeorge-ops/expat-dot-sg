@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "travel-insurance-claims",
+  "name": "Travel insurance claims help",
+  "summary": "How expats push travel insurance claims from Singapore — medical abroad, trip delay, and baggage — including documentation habits and when a broker/TPA actually helps.",
+  "body": "Travel claims fail on missing receipts, late notice, and policy exclusions more than on “insurers being mean.” Help can mean a broker, assistance hotline, or a claims advocate — not a magic override of written terms.\n\n## Frequent claim types\n- Overseas outpatient/hospital bills\n- Trip delay/cancellation with airline letters\n- Baggage delay or loss with PIR tags\n- COVID/quarantine era residual clauses (read current wording)\n- Adventure sports exclusions after island trips\n\nCall assistance lines before large cash hospital pays when the policy requires it.\n\n## How to choose\nPrefer insurers/brokers with 24/7 assistance numbers that answer. Keep boarding passes and medical reports in cloud folders. If using a claims service, confirm fees vs settlement upside. Corporate travel covers may supersede personal policies — check both.\n\n## Practical tip\nPhotograph damaged bags and medical invoices before leaving the counter. Submit within policy deadlines even if still travelling — late notice is a classic denial reason.\n",
+  "category": "insurance",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Overseas medical or trip-delay claim paperwork stuck",
+    "Need assistance hotline before paying hospital cash",
+    "Baggage PIR / airline letter documentation gaps",
+    "Broker vs self-file for a complex multi-leg claim"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Monetary Authority of Singapore",
+      "url": "https://www.mas.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "health-insurance-expat",
+    "emergencies-995-999-embassies",
+    "travel-before-work-pass-card"
+  ],
+  "featured": false,
+  "sponsored": false
+}

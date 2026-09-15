@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 30 — 2026-09-15
+
+Branch: `cursor/services-directory-tick30-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204→#207→#212→#219→#224→#236→#241→#245); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Dental threads — wisdom tooth day-5 pain and flight timing.
+- Condo living — wine cooking in kitchen cupboards / cabinet sizing.
+- Travel claim threads — delay letters and missing receipts.
+- New-parent forums — night nanny vs confinement scope.
+- Heat/glare threads — window film vs blackout curtains for west sun.
+
+**Official**
+
+- [SDC](https://www.healthprofessionals.gov.sg/sdc) + [MOH](https://www.moh.gov.sg/).
+- [CASE](https://www.case.org.sg/) + [Singapore Customs](https://www.customs.gov.sg/) + [MAS](https://www.mas.gov.sg/).
+- [MOM](https://www.mom.gov.sg/) + [HealthHub](https://www.healthhub.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#245 cover prior depth and every on-main service file. Free surface for tick 30: **wisdom teeth**, **wine storage**, **travel insurance claims**, **night nanny**, **window film**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/wisdom-teeth-extraction.json`
+- `content/entities/services/wine-storage.json`
+- `content/entities/services/travel-insurance-claims.json`
+- `content/entities/services/night-nanny.json`
+- `content/entities/services/window-film-tinting.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#245 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Extract all four wisdom teeth at once or stage them?
+2. Wine fridge size for a 1-bedroom circuit load?
+3. Travel claim — call assistance before paying ER cash?
+4. Night nanny trial before a month package?
+5. Condo allows mirror window film on the facade?
+
+---
+
 ## Loop B — Family + Belong (tick 26) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick26-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #190. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

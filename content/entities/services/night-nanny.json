@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "night-nanny",
+  "name": "Night nanny care",
+  "summary": "How new parents in Singapore hire night nannies for newborn sleep stretches — scope vs confinement nannies, safety expectations, and short-contract norms.",
+  "body": "Night nannies focus on overnight feeds, settling, and letting parents sleep in blocks. They differ from full confinement nannies who cover days and cooking. Agencies and independents both operate; verify identity and references.\n\n## Scope to define\n- Overnight hours and wake windows\n- Feeding plan (breast milk bottles, formula rules)\n- Sleep training philosophy alignment — or explicit “no training” briefs\n- Backup cover when the nanny is ill\n- Transport home after dawn shifts\n\nClarify whether light laundry of bottles is included.\n\n## How to choose\nInterview on safe sleep practices and emergency contacts. Prefer written short contracts with notice clauses. Be cautious of cash-only arrangements without emergency contacts. Pair with paediatric guidance rather than outsourcing medical judgement to overnight carers.\n\n## Practical tip\nDo a paid trial night before a multi-week booking. Leave a one-page care sheet on the counter — hungry babies are not the time to hunt WhatsApp threads.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.mom.gov.sg/",
+  "whenToEngage": [
+    "Newborn nights need temporary overnight support",
+    "Comparing night nanny vs full confinement package",
+    "Safe sleep / feeding brief for overnight carer",
+    "Short-contract trial before multi-week booking"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Manpower",
+      "url": "https://www.mom.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "part-time-babysitter-nanny-singapore",
+    "confinement-nanny-postpartum-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

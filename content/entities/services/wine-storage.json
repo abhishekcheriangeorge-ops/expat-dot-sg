@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "wine-storage",
+  "name": "Wine storage",
+  "summary": "How expats store wine in Singapore without cooking bottles in condo heat — home cabinets vs bonded/offsite storage, humidity control, and moving collections in or out.",
+  "body": "Singapore ambient heat destroys wine fast if bottles sit in kitchen cupboards. Options range from freestanding wine cabinets to professional offsite storage with inventory apps.\n\n## Options\n- Compressor wine fridges sized for condo circuits\n- Dual-zone cabinets for reds/whites\n- Offsite storage facilities with insurance add-ons\n- Merchant storage when buying en primeur or cases\n- Moving/relocation packing for collections\n\nCheck electrical load and condensation before buying large cabinets for older condos.\n\n## How to choose\nPrefer storage with logged temperature/humidity and clear access hours. Ask about vibration, light, and flood risk. For rentals, confirm landlord rules on heavy cabinets and drip trays. Offsite contracts should state exit fees and notice periods.\n\n## Practical tip\nDo not store bottles long-term in regular kitchen fridges. If relocating, photograph labels and case counts before movers arrive — claims need inventory, not memory.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Condo heat is cooking a small collection",
+    "Choosing wine fridge vs offsite storage",
+    "Relocating bottles into/out of Singapore",
+    "Storage contract access hours and insurance unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Singapore Customs",
+      "url": "https://www.customs.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "mould-humidity-rental-tenants"
+  ],
+  "featured": false,
+  "sponsored": false
+}

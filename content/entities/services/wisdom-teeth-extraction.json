@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "wisdom-teeth-extraction",
+  "name": "Wisdom teeth extraction",
+  "summary": "How expats arrange wisdom tooth assessment and extraction in Singapore — OPG timing, sedation options, and recovery around flights and spicy food culture.",
+  "body": "Impacted wisdom teeth show up on dental check X-rays or after pericoronitis flares. Oral surgeons and some dentists remove them under local anaesthesia, sedation, or GA depending on complexity.\n\n## Decision points\n- Symptoms vs prophylactic removal of asymptomatic impacted teeth\n- OPG / CBCT when roots near nerves\n- Single-side vs all-four sequencing\n- Sedation vs local-only for anxiety\n- Antibiotic and steroid protocols after surgery\n\nMedical tourism timing is risky if dry socket hits mid-flight home.\n\n## Recovery here\nSoft diets clash with chilli and hard hawker crusts — plan porridge days. Swelling peaks around day 2–3 in humid heat. Ask about return-to-gym and diving. Insurance dental riders often carve out wisdom teeth — read schedules carefully.\n\n## How to choose\nPrefer clinicians who show the radiograph and nerve-risk discussion, not only a package price. Get written post-op contacts for night bleeding. Confirm whether review stitches are included.\n\n## Practical tip\nBook extraction when you can sleep elevated and skip meetings for 48 hours. Stock soft foods before the appointment — Grab decisions hurt when your mouth cannot open.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/sdc",
+  "whenToEngage": [
+    "Impacted / painful wisdom teeth need extraction plan",
+    "Sedation vs local anaesthesia choice",
+    "Dental rider cover for wisdom teeth unclear",
+    "Recovery timing before flights or big events"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Dental Council",
+      "url": "https://www.healthprofessionals.gov.sg/sdc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "dental-care-foreigners-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
