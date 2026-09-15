@@ -6,6 +6,33 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 13)
+
+Branch: `cursor/loop-g-seo-tick13-a144` → PR to `main`. Loop-E tick 14 MCST/COE shell + home/twitter leftovers after #74→#168 claimed prior surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- `/journeys/condo-mcst-exit` and `/tools/car-coe-exit` (Loop E 14 on main) had crumbs only.
+- Homepage below-fold pillars had no exit/handover discoverability without editing claimed HomeHubs / SiteFooter.
+- No dedicated `twitter-image` route (opengraph-image claimed by #145).
+
+### Shipped this loop
+
+- Condo MCST exit: HowTo + CollectionPage + CrossLinks
+- Car / COE exit: WebApplication + CollectionPage + CrossLinks
+- `HomePillars` below-fold Exit & handover strip (no `site.ts`)
+- `twitter-image.tsx` brand card with Tools · Schools · Journeys eyebrow
+- New `seo-exit.ts` + `CrossLinks` (avoids claimed seo libs; no `seo/index.ts` edit)
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 / #145 / #152 / #160 / #168 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 12)
 
 Branch: `cursor/loop-d-next-polish-tick12-d996` → PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) / [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89).
