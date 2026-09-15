@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   EP_LAST_REVIEWED,
@@ -24,6 +26,10 @@ export function EpThresholdCalculator() {
   const clears = gap >= 0;
 
   return (
+    <ToolSketchShell
+      name="EP threshold sketch"
+      description="Sketch MOM Employment Pass qualifying salary bands by age and sector."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">EP threshold inputs</legend>
@@ -154,5 +160,6 @@ export function EpThresholdCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

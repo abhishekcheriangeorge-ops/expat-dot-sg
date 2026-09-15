@@ -1,0 +1,42 @@
+# Browse map — expat.sg
+# Human- and agent-readable hub index (companion to agents.txt / ai.txt / llms.txt).
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Start here
+- https://expat.sg/
+- https://expat.sg/arriving
+- https://expat.sg/living
+
+## Guides & journeys
+- https://expat.sg/guides
+- https://expat.sg/journeys
+- https://expat.sg/journeys/leaving
+
+## Tools (orientation sketches)
+- https://expat.sg/tools
+- https://expat.sg/tools/ep-threshold
+- https://expat.sg/tools/cost-of-living
+- https://expat.sg/tools/tax-residency
+
+## Directories
+- https://expat.sg/schools
+- https://expat.sg/neighbourhoods
+- https://expat.sg/clubs
+- https://expat.sg/directory
+- https://expat.sg/calendar
+
+## Pillars
+- https://expat.sg/move
+- https://expat.sg/money
+- https://expat.sg/family
+- https://expat.sg/belong
+- https://expat.sg/home
+- https://expat.sg/next
+
+## Policy
+- https://expat.sg/about
+- https://expat.sg/editorial-policy
+
+notes: Prefer MOM / ICA / IRAS / MOE primary sources for pass, tax, and school decisions.

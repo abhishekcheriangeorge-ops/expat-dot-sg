@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   CLUB_DEPOSIT_LAST_REVIEWED,
@@ -43,6 +45,10 @@ export function ClubDepositExitCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Club deposit exit sketch"
+      description="Sketch club resignation deposit refund hope vs notice dues and prepaid burn."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Club deposit exit inputs</legend>
@@ -211,5 +217,6 @@ export function ClubDepositExitCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

@@ -5,6 +5,7 @@ export const fontDisplay = Fraunces({
   subsets: ["latin"],
   variable: "--font-fraunces",
   display: "swap",
+  adjustFontFallback: true,
   axes: ["SOFT", "WONK", "opsz"],
 });
 
@@ -13,4 +14,5 @@ export const fontSans = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
   display: "swap",
+  adjustFontFallback: true,
 });

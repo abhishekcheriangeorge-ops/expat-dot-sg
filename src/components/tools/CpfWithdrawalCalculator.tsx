@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   CPF_WINDOW_PRESETS,
@@ -27,6 +29,10 @@ export function CpfWithdrawalCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="CPF withdrawal sketch"
+      description="Sketch CPF withdrawal timing and cash at risk when leaving Singapore."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">CPF withdrawal timing inputs</legend>
@@ -171,5 +177,6 @@ export function CpfWithdrawalCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

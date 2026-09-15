@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   IR21_WINDOW_PRESETS,
@@ -27,6 +29,10 @@ export function Ir21WithholdCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="IR21 withhold sketch"
+      description="Sketch IR21 tax clearance withhold cash when ending Singapore employment."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">IR21 withhold inputs</legend>
@@ -156,5 +162,6 @@ export function Ir21WithholdCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

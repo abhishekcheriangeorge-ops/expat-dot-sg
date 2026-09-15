@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   SCHOOL_WITHDRAWAL_LAST_REVIEWED,
@@ -29,6 +31,10 @@ export function SchoolWithdrawalCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="School withdrawal sketch"
+      description="Sketch term notice and fee risk when withdrawing from an international school."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">School withdrawal notice inputs</legend>
@@ -142,5 +148,6 @@ export function SchoolWithdrawalCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

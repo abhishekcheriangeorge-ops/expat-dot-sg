@@ -6,6 +6,32 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 20)
+
+Branch: `cursor/loop-g-seo-tick20-a144` → PR to `main`. Tool calculator WebApplication microdata + browse map after #74→#237 claimed route/hub/chrome surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Free calculator components had no WebApplication microdata (tool *pages* claimed through #228).
+- No `browse.txt` human/agent hub map (`agents.txt` / `ai.txt` / `llms.txt` owned upstream).
+- Fonts lacked `adjustFontFallback` for CLS-adjacent crawl UX.
+
+### Shipped this loop
+
+- `ToolSketchShell` wrapping all 21 free calculator components
+- `TrailLinks` component; `seo-tools.ts` helpers
+- `public/browse.txt`
+- `fonts.ts` `adjustFontFallback: true`
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 → #237 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy; no sponsored pages.
+
+---
+
 ## Loop B — Family + Belong (tick 21) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick21-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #155. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   CAR_COE_EXIT_LAST_REVIEWED,
@@ -46,6 +48,10 @@ export function CarCoeExitCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Car / COE exit sketch"
+      description="Sketch COE rebate and disposal cash when leaving Singapore with a car."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Car / COE exit inputs</legend>
@@ -232,5 +238,6 @@ export function CarCoeExitCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

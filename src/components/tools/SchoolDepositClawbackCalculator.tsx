@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   SCHOOL_DEPOSIT_LAST_REVIEWED,
@@ -37,6 +39,10 @@ export function SchoolDepositClawbackCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="School deposit clawback sketch"
+      description="Sketch international school deposit clawback risk on early withdrawal."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">School deposit clawback inputs</legend>
@@ -225,5 +231,6 @@ export function SchoolDepositClawbackCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

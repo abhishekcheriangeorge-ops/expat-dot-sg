@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   IRAS_LEASE_DUTY_URL,
@@ -41,6 +43,10 @@ export function SetupCashCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Setup cash sketch"
+      description="Sketch first-month setup cash for arriving expat households."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">First-month cash inputs</legend>
@@ -238,5 +244,6 @@ export function SetupCashCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

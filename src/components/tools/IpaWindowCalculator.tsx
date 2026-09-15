@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   IPA_ENTER_ISSUE_MONTHS,
@@ -24,6 +26,10 @@ export function IpaWindowCalculator() {
   const ok = result.entryInsideWindow && result.issueInsideWindow;
 
   return (
+    <ToolSketchShell
+      name="IPA window sketch"
+      description="Sketch In-Principle Approval validity windows before entry or pass issuance."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">IPA window inputs</legend>
@@ -151,5 +157,6 @@ export function IpaWindowCalculator() {
         </div>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   DRIVING_INSURANCE_LAST_REVIEWED,
@@ -36,6 +38,10 @@ export function DrivingInsuranceGapCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Driving insurance gap sketch"
+      description="Sketch extend-cover vs daily float vs Grab-only costs after school bus cancel."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Driving insurance gap inputs</legend>
@@ -198,5 +204,6 @@ export function DrivingInsuranceGapCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

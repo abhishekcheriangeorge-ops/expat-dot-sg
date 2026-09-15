@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   estimateMonthlyCol,
@@ -43,6 +45,10 @@ export function ColCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Cost of living sketch"
+      description="Sketch a household cost-of-living band for Singapore expat budgeting."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Cost of living inputs</legend>
@@ -158,5 +164,6 @@ export function ColCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

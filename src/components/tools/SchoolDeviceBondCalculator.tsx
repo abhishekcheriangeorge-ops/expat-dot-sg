@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   SCHOOL_DEVICE_BOND_LAST_REVIEWED,
@@ -36,6 +38,10 @@ export function SchoolDeviceBondCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="School device bond sketch"
+      description="Sketch iPad / 1:1 device bond return vs damage holds and forfeiture."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">School device bond inputs</legend>
@@ -200,5 +206,6 @@ export function SchoolDeviceBondCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

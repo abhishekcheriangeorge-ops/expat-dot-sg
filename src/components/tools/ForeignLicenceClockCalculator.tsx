@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   FOREIGN_LICENCE_LAST_REVIEWED,
@@ -28,6 +30,10 @@ export function ForeignLicenceClockCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Foreign licence clock sketch"
+      description="Sketch common foreign-driving-licence conversion windows against arrival dates."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Foreign licence clock inputs</legend>
@@ -174,5 +180,6 @@ export function ForeignLicenceClockCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

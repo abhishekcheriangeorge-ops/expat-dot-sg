@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   FDW_LEVY_BANDS,
@@ -27,6 +29,10 @@ export function FdwLevyCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="FDW levy sketch"
+      description="Sketch foreign domestic worker levy cash for helper planning."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">FDW levy inputs</legend>
@@ -147,5 +153,6 @@ export function FdwLevyCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

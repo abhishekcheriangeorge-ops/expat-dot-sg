@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   DEFAULT_LOCK_IN_MONTHS,
@@ -28,6 +30,10 @@ export function LeaseNoticeCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Lease notice sketch"
+      description="Sketch diplomatic-clause and notice timing before movers week."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Diplomatic clause notice inputs</legend>
@@ -184,5 +190,6 @@ export function LeaseNoticeCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

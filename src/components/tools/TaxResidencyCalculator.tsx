@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   IRAS_REEMPLOYMENT_URL,
@@ -27,6 +29,10 @@ export function TaxResidencyCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Tax residency sketch"
+      description="Sketch Singapore tax residency orientation for arriving and leaving years."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Tax residency day inputs</legend>
@@ -166,5 +172,6 @@ export function TaxResidencyCalculator() {
         </div>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

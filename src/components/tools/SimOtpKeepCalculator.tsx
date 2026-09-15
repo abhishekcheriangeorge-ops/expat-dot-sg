@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   SIM_OTP_LAST_REVIEWED,
@@ -44,6 +46,10 @@ export function SimOtpKeepCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="SIM OTP keep sketch"
+      description="Sketch prepaid/postpaid keep-or-cancel timing for OTP and banking SMS."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">SIM / OTP keep inputs</legend>
@@ -203,5 +209,6 @@ export function SimOtpKeepCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

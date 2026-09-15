@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   STORAGE_BANDS,
@@ -27,6 +29,10 @@ export function StorageMonthsCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="Storage months sketch"
+      description="Sketch storage months and cash while housing or school timing slips."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">Storage months inputs</legend>
@@ -165,5 +171,6 @@ export function StorageMonthsCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }

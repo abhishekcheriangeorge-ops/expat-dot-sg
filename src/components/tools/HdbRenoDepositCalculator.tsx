@@ -1,5 +1,7 @@
 "use client";
 
+import { ToolSketchShell } from "./ToolSketchShell";
+
 import { useMemo, useState } from "react";
 import {
   HDB_RENO_DEPOSIT_LAST_REVIEWED,
@@ -34,6 +36,10 @@ export function HdbRenoDepositCalculator() {
   );
 
   return (
+    <ToolSketchShell
+      name="HDB reno deposit sketch"
+      description="Sketch HDB renovation deposit refund timing after reinstatement inspection."
+    >
     <div className="grid gap-10 lg:grid-cols-[1fr_20rem]">
       <fieldset className="space-y-8">
         <legend className="sr-only">HDB renovation deposit inputs</legend>
@@ -177,5 +183,6 @@ export function HdbRenoDepositCalculator() {
         </p>
       </aside>
     </div>
+    </ToolSketchShell>
   );
 }
