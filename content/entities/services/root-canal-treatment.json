@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "root-canal-treatment",
+  "name": "Root canal treatment",
+  "summary": "How expats arrange root canal treatment in Singapore — endodontist vs general dentist, pain triage, insurance dental riders, and travel timing after treatment.",
+  "body": "Root canal therapy saves an infected tooth when decay or trauma reaches the pulp. General dentists handle straightforward canals; endodontists take complex or retreatment cases with microscopes and CBCT.\n\n## Decision points\n- Emergency pain relief vs definitive canal therapy\n- General dentist vs endodontist referral\n- Crown timing after the canal is filled\n- Dental rider / corporate panel limits\n- Flying after treatment if swelling risk remains\n\nSame-day emergency slots fill fast around long weekends.\n\n## How to choose\nPrefer clinicians who show the radiograph and explain canal anatomy before quoting. Ask whether the fee includes the final crown or only the canal. Confirm after-hours contacts if pain flares overnight.\n\n## Practical tip\nSave the tooth number and radiograph image on your phone. Switching clinics mid-treatment without records wastes appointments.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/sdc",
+  "whenToEngage": [
+    "Toothache or abscess needs canal assessment",
+    "Referral to endodontist vs general dentist unclear",
+    "Dental rider cover for root canal unclear",
+    "Travel timing after canal treatment"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Dental Council",
+      "url": "https://www.healthprofessionals.gov.sg/sdc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "dental-care-foreigners-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

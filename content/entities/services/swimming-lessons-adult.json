@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "swimming-lessons-adult",
+  "name": "Adult swimming lessons",
+  "summary": "How adult expats learn or relearn swimming in Singapore — private vs group lessons, ActiveSG lane realities, fear-of-water pathways, and humid-heat practice planning.",
+  "body": "Adult swim schools and ActiveSG coaches run beginner-to-stroke programmes. Many expats arrive as weak or non-swimmers despite living near pools. Private lessons accelerate anxious beginners; groups suit fitness stroke correction.\n\n## Formats\n- Private 1:1 confidence and breath work\n- Small adult beginner groups\n- Stroke correction for former childhood swimmers\n- Open-water / triathlon add-ons later\n- Ladies-only or quiet-lane options where offered\n\nLane crowding and thunderstorm closures reshape booking strategy.\n\n## How to choose\nPrefer coaches who teach breath and float confidence before distance goals. Ask whether pool entry is included. Confirm teacher-to-student ratios for adult groups. Bring goggles that fit — rental pairs often leak.\n\n## Practical tip\nBook morning slots before work heat peaks. Consistency beats marathon weekend catch-ups when anxiety is the blocker.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Adult beginner or fearful swimmer starting lessons",
+    "Stroke correction after long break from swimming",
+    "Private vs group format choice",
+    "ActiveSG lane / coach booking unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-swimming-water-safety-singapore",
+    "activesg-swim-parent-belonging-singapore",
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
