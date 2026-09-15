@@ -53,10 +53,12 @@ export default function EditorialPolicyPage() {
             We mine public forums and Reddit for recurring pain points, then
             verify claims against official pages before shipping — especially on
             high-stakes Next-pillar topics (passes, PR including child and spouse
-            sponsorship and aged-parent PR vs LTVP, EP renewal NOA / document asks,
-            Re-Entry Permit rules and passport transfers, citizenship application
-            and ORAL, adult SC renunciation, NRIC loss / address / re-registration /
-            name change, NS, exits). When agencies publish dated
+            sponsorship and aged-parent PR vs LTVP, spouse LTVP / PMLA and
+            PLOC / LOC work rights, student PR national-exam row, EP renewal
+            NOA / document asks, Re-Entry Permit rules and passport transfers,
+            citizenship application and ORAL, adult SC renunciation, NRIC loss /
+            address / re-registration / name change, NS, exits). When agencies
+            publish dated
             revisions (for example MHA / ICA REP process changes), we prefer the
             live notice and FAQ over older forum “reinstatement” folklore. Peer
             anecdotes illustrate uncertainty; they never replace agency text. We
