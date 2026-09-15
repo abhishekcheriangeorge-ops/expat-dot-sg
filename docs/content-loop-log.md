@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 30)
+
+Branch: `loop/story-aeo-tick30` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22, #128 H23, #132 H24, #135 H25, #140 H26, #148 H27, #153 H28, #157 H29). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — hospital bills / bank freeze without LPA; treating wills as capacity planning.
+- r/askSingapore — foreign probate unlocks DBS folklore; CPF instructions only inside a will.
+- r/askSingapore — foreigner dies here / reporting death of foreign spouse; mixing registration, NEA, and probate clocks.
+
+**Official**
+
+- [OPG — What is an LPA](https://www.msf.gov.sg/what-we-do/opg/lasting-power-of-attorney/what-is-a-lasting-power-of-attorney) + [LPA fees table PDF](https://www.msf.gov.sg/docs/default-source/opg/lpa_fees_table.pdf) + [MOH AMD](https://www.moh.gov.sg/seeking-healthcare/advance-medical-directive/).
+- [Judiciary — Apply for probate](https://www.judiciary.gov.sg/family/apply-for-probate) + [CPF nomination](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination).
+- [NEA — When death occurs](https://www.nea.gov.sg/our-services/after-death/post-death-matters/when-death-occurs) + [ICA overseas death report](https://www.ica.gov.sg/documents/death/death_overseas).
+
+### Gaps vs open H + ticks 1–29
+
+Open: #117–#157 H20–H29 stack. Remaining high-intent Next FAQ-free gaps: **LPA & AMD for PR/foreigners**, **wills/probate/CPF nomination**, **death & repatriation**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/lasting-power-attorney-amd-foreigners.mdx` (direct lead + FAQPage)
+- `content/guides/next/wills-probate-cpf-nomination-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/death-repatriation-foreigners-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (LPA/AMD + wills/CPF + death/repatriation topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124/#128/#132/#135/#140/#148/#153/#157 guide bodies.
+
+### Questions mined (sample)
+
+1. Is a will the same as a Lasting Power of Attorney in Singapore?
+2. Can foreigners and PRs make an LPA in Singapore?
+3. When does an LPA take effect?
+4. What is the difference between LPA Form 1 and Form 2?
+5. Is an Advance Medical Directive the same as an LPA?
+6. Will a foreign probate grant unlock Singapore bank accounts?
+7. Does CPF follow my will?
+8. How do I make a CPF nomination?
+9. Do EP or S Pass holders need a CPF nomination?
+10. What should a Singapore-aware will package include for expats?
+11. Do next of kin still register a death at a physical counter in Singapore?
+12. What permit is needed before burial or cremation in Singapore?
+13. What if a Singapore PR or long-term pass holder dies overseas?
+14. Does Dependant’s Pass status continue automatically when the main EP holder dies?
+15. Is death registration the same as unlocking bank accounts?
+
+---
 ## Loop E — Journeys / tools — 2026-09-15 (tick 13)
 
 Branch: `cursor/e-journeys-tools-tick13-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` after **#72 MERGED** (family-joining + IPA window on main). Avoided open E stack **#90 → #101 → #110 → #116 → #122 → #131 → #139** exclusive paths. Merge controller order: **#90 → #101 → #110 → #116 → #122 → #131 → #139 → this tick**.
