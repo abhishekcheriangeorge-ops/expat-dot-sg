@@ -6,6 +6,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 46)
+
+Branch: `loop/story-aeo-tick46` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#265 H20–H45). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — renewal blamed on salary when firm COMPASS drifted after hiring spree.
+- r/askSingapore — “just get PEP” collapsing PEP / ONE / Tech.Pass; spouse LOC folklore.
+- r/askSingapore — levy invoices after family flight; helper cancel forgotten beside IR21.
+
+**Official**
+
+- [MOM — EP eligibility / COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · [Renew an EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass) · [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool).
+- [MOM — PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass) · [ONE Pass](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass) · [EDB Tech.Pass](https://www.edb.gov.sg/en/incentives-and-programmes/incentives-and-facilitation-programmes/tech-pass.html).
+- [MOM — Cancel MDW Work Permit](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/cancel-a-work-permit) · levy + security bond pages.
+
+### Gaps vs open H + ticks 1–45
+
+Open: #117–#265 H20–H45. Remaining free Next FAQ-free companions included **COMPASS firm scores on EP renewal**, **PEP / ONE / Tech.Pass chooser**, **FDW cancel when leaving**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ep-renewal-compass-firm-scores-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/pep-one-tech-pass-chooser-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/fdw-cancellation-when-leaving-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (COMPASS firm scores + PEP/ONE/Tech.Pass chooser + MDW cancel-on-exit topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#265 guide bodies.
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Do EP renewals still need 40 COMPASS points?
+2. Can firm COMPASS scores drop even if my salary clears?
+3. Is C1 salary percentile the same as Stage 1 qualifying salary?
+4. What should I ask HR in writing before renewal filing?
+5. If firm scores are soft, should I upload extra IR8A docs?
+6. Should I leave a renewable EP for PEP for flexibility?
+7. Which personalised pass fits a spouse who needs employer work rights?
+8. How do PEP and ONE Pass differ on renewability?
+9. Is Tech.Pass still open, and what replaces it?
+10. Can founders use PEP as an entrepreneur pass?
+11. Does MDW levy stop when my EP cancel date is set?
+12. Transfer vs repatriation — what comes first?
+13. When to cancel the MDW Work Permit relative to final salary?
+14. Does the security bond release the day she flies?
+15. Is helper cancel the same calendar as IR21?
+
+---
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 53 — 2026-09-15
 
 Branch: `cursor/home-life-tick53-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` after tip **#339** (Tick 52) merged; no other open Loop C drafts in the way. Topics: condo smoke-stop / staircase pressurisation fan test notices, ActiveSG gateball / petanque, Pasir Ris West Fringe / Loyang Edge / Tampines North Edge. Tip after Tick 52 confirmed as **#339**; opened next tip off that tip (now on `main`) without ads / Grok / force-push to main. Shared log conflict resolved by prepend.
