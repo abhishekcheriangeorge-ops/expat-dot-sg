@@ -6,6 +6,76 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 29 — 2026-09-15
+
+Branch: `cursor/home-life-tick29-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71 (C25), #88 (C26), #96 (C27), and #104 (C28) stay open for the merge controller — **did not** touch those PR paths (HDB neighbour reno / lightning / Hougang–Bukit Batok–Marine Parade; void-deck / power outages / Jurong West–CCK–Sembawang; condo unit reno / secondhand smoke / Bukit Panjang–Boon Lay–Geylang; PUB pipe works / ActiveSG pools / Kallang–Bendemeer–Potong Pasir). Topics: SP Group utilities bill disputes, ActiveSG stadiums / indoor courts, MacPherson / Tai Seng / Paya Lebar.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — SP bill spikes after estimated reads, landlord WhatsApp “utilities $280” recharges, OEM promo cliffs.
+- r/askSingapore — ActiveSG Standard Rate for foreigners booking stadium tracks and badminton halls; MyActiveSG+ Singpass friction; condo court ghost bookings.
+- r/askSingapore — central-east shortlists for MacPherson / Tai Seng / Paya Lebar vs Dakota premiums and Geylang-edge variance.
+
+**Official**
+
+- [SP Group residential utilities](https://www.spgroup.com.sg/our-services/utilities/quick-guide-to-your-utilities-residential) + [open account](https://openaccount.spgroup.com.sg/#/open-account/).
+- [OEM making the switch](https://www.openelectricitymarket.sg/residential/making-the-switch) + [price comparison](https://compare.openelectricitymarket.sg/#/home) + [EMA OEM FAQ](https://www.ema.gov.sg/resources/faqs/electricity/open-electricity-market/what-is-the-open-electricity-market).
+- [PUB leak tips PDF](https://www.pub.gov.sg/-/media/Images/Feature/Content-Pages/Resources/Publications/Pdfs/Tips_on_Finding_Leaks.pdf).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [facilities](https://www.activesgcircle.gov.sg/facilities).
+
+### Gaps vs open #71 / #88 / #96 / #104
+
+Open PRs own reno/lightning/void-deck/power/condo-unit-reno/secondhand-smoke/PUB-water/ActiveSG-pools and their town sets. Remaining high-intent Home+Life gaps without collision: **SP bill disputes / estimated reads / OEM shock** (≠ power outages, ≠ PUB pipe works), **ActiveSG stadiums and indoor courts** (≠ pools, ≠ gym multipass FAQ), plus neighbourhood depth for **MacPherson**, **Tai Seng**, and **Paya Lebar**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/sp-utilities-bill-disputes-renters.mdx`
+- `content/guides/life/activesg-stadium-indoor-courts-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/mould-humidity-rental-tenants.mdx`
+- `content/guides/home/aircon-pest-renewals.mdx`
+- `content/guides/life/cycling-active-mobility-singapore.mdx`
+- `src/lib/site.ts` (SP bill disputes + ActiveSG stadium/courts topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/macpherson.json`
+- `content/entities/neighbourhoods/tai-seng.json`
+- `content/entities/neighbourhoods/paya-lebar.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 file paths.
+- Did not re-litigate Tick 19–28 topics beyond cross-links on safe files.
+
+### Questions mined (sample)
+
+1. Why did my SP bill double after a quiet quarter?
+2. Who should hold the SP account — landlord or tenant?
+3. Can I withhold rent over a disputed utilities line?
+4. What is an estimated meter reading?
+5. Does OEM protect foreigners from bill shock?
+6. Can foreigners book ActiveSG stadium tracks at Standard Rate?
+7. Is track entry the same product as ActiveSG gym?
+8. Why are evening badminton halls always full?
+9. MacPherson vs Tai Seng — HDB fringe or industrial-edge CCL?
+10. Is Paya Lebar worth the interchange premium vs MacPherson?
+
+---
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 35)
 
 Branch: `cursor/loop-d-next-polish-tick35-d996` → draft PR to `main`, off tip [#289](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/289) (merged into main). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for ONE Pass outstanding-achievements evidence, EP job-change IR21 withhold, and PEP exit timing.

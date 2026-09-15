@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "macpherson",
+  "name": "MacPherson",
+  "summary": "Central-east HDB and light-industrial fringe with CCL/DTL access — practical rents beside Paya Lebar offices without paying Dakota condo premiums.",
+  "body": "MacPherson is the shortlist when someone wants Circle / Downtown Line adjacency and heartland errands without East Coast or River Valley pricing. Mature HDB blocks, walk-up pockets, and newer inserts sit beside workshops and business parks toward the Paya Lebar / Tai Seng belt. Expats land here for commute math into Paya Lebar Quarter and the CBD via CCL/DTL hops, plus ActiveSG / community sport options in the wider Kallang–Geylang catchment. Walk the block at rush hour: feeder buses, industrial traffic, and estate variance matter more than brochure copy. Compare with Tai Seng when you want to live closer to the industrial-MRT edge, Paya Lebar when mall and office gravity dominate, and Potong Pasir when you want a quieter NELine-adjacent feel further in.",
+  "region": "east",
+  "vibe": [
+    "central-east",
+    "hdb-fringe",
+    "ccl-dtl",
+    "practical",
+    "industrial-edge"
+  ],
+  "bestFor": [
+    "Paya Lebar / CBD hoppers on CCL or DTL",
+    "heartland rents without far-east commute length",
+    "car-light households near ActiveSG catchments",
+    "renters okay with industrial-edge texture"
+  ],
+  "watchOuts": [
+    "Block-level variance beside workshops and yards",
+    "Peak feeder and industrial traffic noise",
+    "Older-stack maintenance and pipe-work seasons",
+    "Thinner expat lobby defaults than River Valley"
+  ],
+  "housingMix": "Mature HDB and walk-ups with selective condo / executive inserts toward Paya Lebar.",
+  "commuteNotes": "Circle and Downtown Line access via MacPherson; model a rainy Tuesday door-to-desk into PLQ or Raffles Place.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3200,
+    "familyFrom": 2700,
+    "familyTo": 4200
+  },
+  "mrt": [
+    "MacPherson"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
