@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 2)
+
+Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — citizenship eligibility / timing / agencies / dual nationality ([eligible for citizenship](https://www.reddit.com/r/askSingapore/comments/1j8kll1/am_i_eligible_for_singapore_citizenship/); [apply after 1 year PR](https://www.reddit.com/r/askSingapore/comments/1aids0j/applying_for_sg_citizenship_after_1_year_of_pr/); [chances + processing length](https://www.reddit.com/r/askSingapore/comments/191d218/the_chances_of_getting_sg_citizenship_and_how/); [immigration company](https://www.reddit.com/r/askSingapore/comments/1qsa0tg/applying_for_citizenship_with_an_immigration/); [renounce SC consequences](https://www.reddit.com/r/askSingapore/comments/1qdfyl9/what_are_the_consequences_of_renouncing_singapore/)).
+- r/askSingapore — graduate LTVP / post-study / after EP loss ([NUS grads LTVP](https://www.reddit.com/r/askSingapore/comments/1jh3lc1/nus_grads_ltvp_need_clarification_on_poststudy/); [local diploma + LOC myth](https://www.reddit.com/r/askSingapore/comments/1h1psrq/foreigner_with_local_diploma_looking_for_a_job/); [LTVP for job listings](https://www.reddit.com/r/askSingapore/comments/1muskjm/should_i_apply_for_an_ltvp_to_get_access_to_more/); [LTVP after losing job](https://www.reddit.com/r/askSingapore/comments/1q66ra7/getting_an_ltvp_after_losing_job/); [retrenched → LTVP](https://www.reddit.com/r/askSingapore/comments/186nx8g/and_so_it_happened_i_got_retrenched_today/)).
+- r/askSingapore — REP / visa-free myth / overseas renewal ([REP vs visa-free](https://www.reddit.com/r/askSingapore/comments/1b748r8/rep_renewal_for_pr_does_not_matter_now_because_an/); [reapply PR after years overseas](https://www.reddit.com/r/askSingapore/comments/1sm019a/can_i_reapply_for_pr_in_singapore_after_leaving/); [REP overseas student](https://www.reddit.com/r/askSingapore/comments/198ssst/pr_rep_renewal_for_overseas_student/)).
+- r/askSingapore — PR AIP formalities / FIN→NRIC / Singpass ([after AIP](https://www.reddit.com/r/askSingapore/comments/1lclx0v/what_happens_after_pr_approved_in_principle/); [wife next steps](https://www.reddit.com/r/askSingapore/comments/1j7t4a5/next_steps_for_my_wifes_singapore_pr_status/); [formalities delay](https://www.reddit.com/r/askSingapore/comments/1k4x482/completion_of_sg_pr_formalities_is_taking_a_while/); [FIN vs NRIC](https://www.reddit.com/r/askSingapore/comments/1ha53xs/does_my_fin_number_change_when_getting_a_pr/)).
+
+**Official**
+
+- [ICA — Becoming a Singapore Citizen](https://www.ica.gov.sg/reside/citizenship) + [Apply](https://www.ica.gov.sg/reside/citizenship/apply) (2-year PR floors, fees, 12-month processing, SCJ ages 16–60, NS obligation block).
+- [ICA — Graduate IHL LTVP seeking employment](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore) (S$45 / S$60, ~6 weeks).
+- [MOM — Work passes for ICA LTVP holders](https://www.mom.gov.sg/passes-and-permits/work-passes-for-holders-of-long-term-visit-passes-issued-by-ica) + [LOC for ICA LTVP/LTVP+](https://www.mom.gov.sg/passes-and-permits/loc-for-ica-issued-ltvp-holders).
+- [ICA — Apply / renew REP](https://www.ica.gov.sg/reside/PR/apply-REP) + [Entry Permit & REP conditions](https://www.ica.gov.sg/PR/see-more/entry-permit-and-re-entry-permit-conditions-for-singapore-permanent-residents).
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass).
+
+### Gaps vs prior ticks (Next-owned)
+
+Prior Loop D tick shipped PR rejection, EP renewal age-bands, NS Exit Permit, renunciation, leaving polish. Remaining high-intent **Next** gaps matched forum heat: **citizenship application process** (eligibility floors / 12-month clock / SCJ / agencies / dual nationality — NS guide was process-thin), **graduate LTVP** (fees, no-work, LOC category myth, EP-cancel timing), **REP visa-free loophole myth**, **PR AIP formalities + FIN→NRIC Singpass**. About + editorial needed clearer Next-pillar research language.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/next/singapore-citizenship-application.mdx`
+- `content/guides/next/graduate-ltvp-job-hunt.mdx`
+
+**Upgraded guides**
+
+- `content/guides/next/between-jobs-stvp-singapore.mdx` (graduate LTVP depth + cross-link)
+- `content/guides/next/re-entry-permit-pr-overseas.mdx` (visa-free ≠ keep PR)
+- `content/guides/next/after-getting-pr-checklist.mdx` (AIP formalities timeline)
+- `content/guides/next/citizenship-ns-implications.mdx` (citizenship-application cross-link)
+- `content/guides/next/pr-application-strategy.mdx` (citizenship-application cross-link)
+
+**Editorial polish**
+
+- `src/app/about/page.tsx`
+- `src/app/editorial-policy/page.tsx`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Family / Belong / Home / Life guide trees owned by Loops A–C (side-income / moonlighting stays Move).
+
+### Questions mined (sample)
+
+1. Can I apply for Singapore citizenship after only one year as a PR if the e-Service lets me click through?
+2. How long is citizenship processing really taking, and does longer pending mean higher odds?
+3. Are immigration agencies worth it for citizenship “profile building”?
+4. What happens to dual nationality when I take up Singapore citizenship?
+5. Can foreign NUS/poly grads get an LTVP to job-hunt, and can they work on it?
+6. Does graduate LTVP come with LOC so I can do F&B while searching?
+7. After EP cancel, can I apply for graduate LTVP while still on notice / STVP?
+8. If my passport is visa-free for Singapore, do I still need to renew REP?
+9. If I lose PR after years overseas, can I get it back easily after NS?
+10. What happens after PR “approved in principle” before the blue IC?
+11. Does my FIN become my NRIC, and must I re-register Singpass?
+12. How long do ICA formalities / IC collection usually take?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15
 
 Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
@@ -197,6 +265,77 @@ Prior ticks already covered EP appeal/IPA, COMPASS/FCF overview, remittance basi
 - No ads/monetization expansion.
 - No Grok / third-party clone copy.
 - Did not edit Family / Belong / Home / Life / Next heavily (IR21 deep guide remains under Next; Money guides link out).
+
+---
+
+## Loop C — Home + Life (parallel) — Tick 20 — 2026-09-15
+
+Branch: `loop/home-life` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — fibre TP / NetLink Unreleased Fibre / second TP ([ports in use](https://www.reddit.com/r/askSingapore/comments/1gih02b/fibre_tp_in_used_what_to_do/); [old property no FTP](https://www.reddit.com/r/askSingapore/comments/1mteyos/installation_of_fiber_tp_at_old_properties/); [BTO fibre point](https://www.reddit.com/r/askSingapore/comments/1j5qpdg/need_help_with_bto_wifi_installation_issues_fiber/); [new condo NetLink backend](https://www.reddit.com/r/askSingapore/comments/1t9ssb4/anyone_having_issues_with_netlink_trust/); [install cancellations](https://www.reddit.com/r/askSingapore/comments/1cgkwm1/is_fibre_broad_installation_down_nationwide/)).
+- r/askSingapore — rental mould / paint-over / aircon mould / dehumidifier ([condo leak damp mould](https://www.reddit.com/r/askSingapore/comments/18ysztr/condo_leak_damp_mould_responsibility_rights/); [mold in aircon](https://www.reddit.com/r/askSingapore/comments/1coj9oi/mold_in_aircon_tenant_or_landlord_responsible/); [apartment mold owner vs tenant](https://www.reddit.com/r/askSingapore/comments/11iytkz/apartment_mold_owner_or_tenant/); [paint-over after leak](https://www.reddit.com/r/askSingapore/comments/14naq3b/mould_situation_at_a_rental/); [move-in ceiling mould](https://www.reddit.com/r/askSingapore/comments/1fuce70/mould_in_apartment_what_to_do/)).
+- r/askSingapore — secondhand smoke + CDRT ([nightly cigarette drift](https://www.reddit.com/r/askSingapore/comments/1on5w7n/need_advice_neighbors_cigarette_smoke_fills_my/); [HDB service-yard smoke](https://www.reddit.com/r/askSingapore/comments/1knwfxa/hdb_neighbour_secondhand_smoke/); [balcony smoke + pets](https://www.reddit.com/r/askSingapore/comments/1n4mqb6/any_way_to_deal_with_neighbours_smoking_out_their/); [filed CDRT](https://www.reddit.com/r/askSingapore/comments/1ggwxzh/anyone_filed_a_case_with_community_disputes/); [recourse upstairs smokers](https://www.reddit.com/r/askSingapore/comments/1h9iuew/do_i_have_any_recourse_against_my_neighbor/)).
+- r/askSingapore — bulky waste / laundry poles / OneService ([HDB bulky](https://www.reddit.com/r/askSingapore/comments/1g8k344/bulky_item_disposal/); [condo bulky](https://www.reddit.com/r/askSingapore/comments/xxudnu/disposal_of_bulky_items_condo/); [chute dumping](https://www.reddit.com/r/askSingapore/comments/14844rl/who_to_talk_to_about_hdb_neighbours_leaving_trash/); [dripping laundry](https://www.reddit.com/r/askSingapore/comments/zx331d/hdb_problems_and_inconsiderate_neighbours/); [litter on laundry](https://www.reddit.com/r/askSingapore/comments/j4vbtw/neighbours_above_littering_on_my_laundry_how_do/)).
+- r/askSingapore — neighbourhood shortlists east/west ([non-expat areas](https://www.reddit.com/r/askSingapore/comments/195ji13/nonexpat_areas_for_expat/); [east vs west rent](https://www.reddit.com/r/askSingapore/comments/xxx5wb/renting_in_east_vs_west/); [best towns](https://www.reddit.com/r/askSingapore/comments/1qq0fly/what_are_the_best_towns_to_live_in_singapore_and/); [where to stay](https://www.reddit.com/r/askSingapore/comments/1jo5une/which_area_in_sg_is_best_to_live_in/); [any neighbourhood](https://www.reddit.com/r/askSingapore/comments/13sa2zi/if_you_could_stay_in_any_neighbourhood_in_sg_you/)).
+
+**Official**
+
+- [NetLink Trust — Residential connections](https://www.netlinktrust.com/faq/residential-connections/) + [appointment FAQ](https://www.netlinktrust.com/faq/appointment-related/) + [Fibre TP installation tariff (1 Apr 2024)](https://www.netlinktrust.com/images/pdf/2024/Installation%20of%20Fibre%20Termination%20Point%20in%20Residential%20Premise%20Effective%201%20Apr%202024.pdf).
+- [Judiciary — CDRT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-neighbour-dispute-claim) + [how to file / serve](https://www.judiciary.gov.sg/civil/how-to-file-serve-neighbour-dispute-claim) + [MCCY CDMF](https://www.mccy.gov.sg/sectors/community/community-disputes-management-framework/).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [SCT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-small-claim).
+- [OneService](https://www.oneservice.gov.sg/) + [NEA e-waste](https://www.nea.gov.sg/our-services/waste-management/3r-programmes-and-resources/e-waste-management/where-to-recycle-e-waste).
+
+### Gaps vs Tick 19 (Home + Life slice)
+
+Tick 19 shipped HDB ceiling leaks, pets daily life, PUB water appeals, grocery delivery depth, visitor parking. Remaining high-intent Home+Life gaps matched forum heat: **fibre TP / Unreleased Fibre for renters**, **mould remediation vs paint-over**, **CDRT + secondhand smoke** (condo-noise was CMC/STB-only), **bulky waste + HDB laundry/OneService**, plus neighbourhood entity depth for Katong/Joo Chiat, Tampines, Clementi/West Coast, Bukit Timah.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/fibre-tp-netlink-renters.mdx`
+- `content/guides/home/mould-humidity-rental-tenants.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/utilities-telecom-setup.mdx` (pre-LOI TP check + NetLink)
+- `content/guides/home/condo-noise-mcst-neighbours.mdx` (secondhand smoke + CDRT)
+- `content/guides/home/aircon-pest-renewals.mdx` / `furnishing-rental-flat.mdx` (mould cross-links)
+- `content/guides/home/heartland-living-for-expats.mdx` (laundry poles / OneService)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (east/west shortlist + fibre note)
+- `content/guides/life/shopping-essentials-singapore.mdx` (bulky waste playbook)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/katong-joo-chiat.json`
+- `content/entities/neighbourhoods/tampines.json`
+- `content/entities/neighbourhoods/clementi-west-coast.json`
+- `content/entities/neighbourhoods/bukit-timah.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+
+### Questions mined (sample)
+
+1. Both fibre TP ports say “in use” — can I switch ISP to get online this week?
+2. How long after the previous tenant cancels until the NetLink port actually frees?
+3. Do I need landlord permission (and how destructive is it) to install a new FTP in an old walk-up?
+4. Who pays when the landlord only paints over black mould after a pipe leak?
+5. Is aircon mould after three months a tenant chemical-wash bill or a landlord handover failure?
+6. Can I ask for rent reduction for 24/7 dehumidifier electricity when the damp is landlord-side?
+7. Is neighbour cigarette smoke from a balcony illegal, and will NEA help?
+8. When do I file CDRT vs keep complaining to MCST / OneService?
+9. How do HDB tenants dispose of bulky furniture vs condo residents?
+10. Upstairs dripping laundry keeps soaking my clothes — Town Council or confront?
+11. Katong vs Tampines vs Clementi vs Bukit Timah — which fits a mid-package family?
+12. Should I run a fibre TP availability check before paying the rental deposit?
 
 ---
 

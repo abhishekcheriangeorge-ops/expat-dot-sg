@@ -2,25 +2,28 @@
   "type": "neighbourhood",
   "slug": "clementi-west-coast",
   "name": "Clementi & West Coast",
-  "summary": "University-west practicality, park connectors, and better family value than core central — with East-West Line access and school-run trade-offs toward Bukit Timah/Dover.",
-  "body": "Clementi and West Coast attract households trading Orchard prestige for space and rent relief while staying west of town near NUS, Science Park, and park connectors. Reddit threads on Japanese community clustering often name West Coast / Clementi alongside the Japanese Association and Japanese School — useful as a social overlay, not a reason to ignore commute maths. Hawker centres, malls, and MRT coverage make daily life straightforward once you accept longer trips into the civic centre. International-school runs may still mean driving toward Bukit Timah, Dover, or one-north depending on campus. Humidity + older condo aircon stacks mean budgeting for quarterly servicing — a practical living-mode neighbourhood after the first-month chaos settles. Compare against Bukit Timah if school adjacency matters more than rent.",
+  "summary": "University-west practicality, park connectors, and better family value than core central — Reddit’s frequent “west is best” pick for amenities without Orchard rents.",
+  "body": "Clementi and West Coast attract households trading Orchard prestige for space and rent relief while staying west of town near NUS, Science Park, one-north adjacency, and park connectors. r/askSingapore “best town” and non-expat-area threads often name Clementi for mature amenities, East-West Line access, hawker density, and a one-stop hop toward Jurong East malls — with West Coast Park as the weekend exhale. Japanese community clustering (Japanese Association / Japanese School adjacency) shows up in relocation chats as a social overlay, not a reason to ignore commute maths. Hawker centres, malls, and MRT coverage make daily life straightforward once you accept longer trips into the civic centre. International-school runs may still mean driving toward Bukit Timah, Dover, or one-north depending on campus. Humidity + older condo aircon stacks mean budgeting for quarterly servicing and a dehumidifier strategy; fibre TP checks still matter on older walk-ups. Compare against Bukit Timah if school-gate adjacency matters more than rent, and against Tampines if you want east airport logistics instead of west university / science-park gravity.",
   "region": "west",
   "vibe": [
     "practical",
     "value",
     "parks",
     "family",
-    "Japanese community adjacency"
+    "Japanese community adjacency",
+    "university-west"
   ],
   "bestFor": [
     "families stretching packages",
     "longer-term living",
-    "drivers"
+    "drivers",
+    "west / science-park office corridors"
   ],
   "watchOuts": [
-    "Longer Orchard trips",
-    "Less expat-dense social scene",
-    "School commute planning"
+    "Longer Orchard / civic-centre trips",
+    "Less expat-dense social scene than Holland V",
+    "School commute planning toward Bukit Timah campuses",
+    "Peak AYE / Clementi traffic if you drive"
   ],
   "housingMix": "Condos, HDB (eligible), some landed toward West Coast.",
   "commuteNotes": "East-West Line (Clementi); Circle Line connections via Buona Vista; buses along West Coast Highway.",
