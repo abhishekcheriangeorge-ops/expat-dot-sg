@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 49)
+
+Branch: `loop/story-aeo-tick49` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 48 (`loop/story-aeo-tick48` @ `79e83dd` / [#308](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/308)). Avoided open merge-controller H file sets (#117–#308 H20–H48). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — post-IPA SCJ portal fails day one; SEV/CSS slot panic.
+- r/askSingapore — emptying SRS the week EP cancels as “free remittance.”
+- r/askSingapore — “students can work 16 hours” without school/eligibility checks.
+
+**Official**
+
+- [ICA — Apply for Singapore Citizenship](https://www.ica.gov.sg/reside/citizenship/apply) · Citizenship Roadmap PDF · Singapore Journey help.
+- [IRAS — SRS](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/supplementary-retirement-scheme-(srs)) · Tax on SRS withdrawals.
+- [MOM — Work pass exemption for foreign students](https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students) · ICA Student’s Pass · TEP / Work Holiday Pass.
+
+### Gaps vs open H + ticks 1–48
+
+Open: #117–#308 H20–H48. Remaining free Next FAQ-free companions included **SCJ SEV/CSS booking after IPA**, **SRS exit withholding for non-residents**, **Student’s Pass work hours / vacation exemption**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/scj-sev-css-booking-after-ipa-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/srs-exit-withholding-nonresident-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/student-pass-work-hours-vacation-exemption-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (SCJ SEV/CSS + SRS exit withholding + STP work hours topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#308 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. When can I log into the Singapore Journey portal after citizenship IPA?
+2. What are SEV and CSS, and when should I book?
+3. How long is e-Journey after I start?
+4. Does SCJ waive renunciation or NS liability?
+5. What if portal login fails after three working days?
+6. Is emptying SRS on EP cancel a simple remittance?
+7. What is the SRS early-withdrawal penalty?
+8. When is only 50% of an SRS withdrawal taxable?
+9. What withholding rate do foreigners usually see?
+10. Is SRS withdrawal the same as IR21?
+11. Can every STP holder work 16 hours/week?
+12. Do exchange students get the work exemption?
+13. Are vacation work rules the same as term caps?
+14. Does graduation keep STP work rights?
+15. Is an internship automatically covered by STP exemption?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 48)
 
 Branch: `loop/story-aeo-tick48` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 47 (`loop/story-aeo-tick47` @ `fc7072e` / [#286](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/286)). Avoided open merge-controller H file sets (#117–#286 H20–H47). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286** before this lands. No ads / monetization; no Grok copy; no force-push main.
