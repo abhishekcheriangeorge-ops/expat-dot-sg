@@ -214,6 +214,7 @@ export const pillars: Pillar[] = [
     ],
     related: [
       { href: "/arriving", label: "Arriving hub" },
+      { href: "/journeys/arriving", label: "Arrival checklists" },
       { href: "/money", label: "Money" },
       { href: "/home", label: "Home" },
       { href: "/guides", label: "All guides" },
@@ -276,6 +277,7 @@ export const pillars: Pillar[] = [
     ],
     related: [
       { href: "/neighbourhoods", label: "Neighbourhoods" },
+      { href: "/tools/lease-duty", label: "Lease duty tool" },
       { href: "/arriving", label: "Arriving" },
       { href: "/living", label: "Living" },
       { href: "/guides", label: "All guides" },
@@ -491,6 +493,7 @@ export const pillars: Pillar[] = [
       },
     ],
     related: [
+      { href: "/directory", label: "Service directory" },
       { href: "/belong", label: "Belong" },
       { href: "/living", label: "Living" },
       { href: "/calendar", label: "Calendar" },
@@ -555,6 +558,7 @@ export const pillars: Pillar[] = [
     related: [
       { href: "/clubs", label: "Clubs directory" },
       { href: "/life", label: "Life" },
+      { href: "/directory", label: "Service directory" },
       { href: "/living", label: "Living" },
       { href: "/guides", label: "All guides" },
     ],

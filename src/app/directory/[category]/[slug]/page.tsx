@@ -8,14 +8,19 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
-import { JsonLd } from "@/components/seo";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   SERVICE_CATEGORY_LABELS,
   ServiceCategorySchema,
   getEntityBySlug,
   getServices,
+  resolveGuidesBySlug,
 } from "@/lib/content";
-import { buildPageMetadata, localBusinessJsonLd } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  localBusinessJsonLd,
+} from "@/lib/seo";
 
 type Props = {
   params: Promise<{ category: string; slug: string }>;
@@ -47,8 +52,17 @@ export default async function ServiceDetailPage({ params }: Props) {
   if (entity.category !== categoryParsed.data) notFound();
   const s = entity;
 
+  const relatedGuides = await resolveGuidesBySlug(s.relatedGuides);
+  const categoryLabel = SERVICE_CATEGORY_LABELS[s.category];
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Directory", path: "/directory" },
+    { name: categoryLabel, path: `/directory/${s.category}` },
+    { name: s.name, path: `/directory/${s.category}/${slug}` },
+  ];
+
   const facts = [
-    { label: "Category", value: SERVICE_CATEGORY_LABELS[s.category] },
+    { label: "Category", value: categoryLabel },
     ...(s.areasServed.length
       ? [{ label: "Areas", value: s.areasServed.join(", ") }]
       : []),
@@ -58,15 +72,21 @@ export default async function ServiceDetailPage({ params }: Props) {
   return (
     <article>
       <JsonLd
-        data={localBusinessJsonLd({
-          name: s.name,
-          description: s.summary,
-          path: `/directory/${s.category}/${slug}`,
-          url: s.website,
-          telephone: s.phone,
-          areaServed: s.areasServed.join(", ") || "Singapore",
-        })}
+        data={[
+          breadcrumbJsonLd(crumbs),
+          localBusinessJsonLd({
+            name: s.name,
+            description: s.summary,
+            path: `/directory/${s.category}/${slug}`,
+            url: s.website,
+            telephone: s.phone,
+            areaServed: s.areasServed.join(", ") || "Singapore",
+          }),
+        ]}
       />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
+        <Breadcrumbs items={crumbs} />
+      </div>
       <DetailHero
         eyebrow="Service directory"
         title={s.name}
@@ -89,19 +109,19 @@ export default async function ServiceDetailPage({ params }: Props) {
         <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-8 px-5 py-14 sm:px-8">
           <ChipList label="Areas served" items={s.areasServed} />
           <ChipList label="Engage when" items={s.whenToEngage} />
-          {s.relatedGuides.length > 0 ? (
+          {relatedGuides.length > 0 ? (
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.12em] text-ink-faint">
                 Related guides
               </p>
               <ul className="mt-3 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
-                {s.relatedGuides.map((guideSlug) => (
-                  <li key={guideSlug}>
+                {relatedGuides.map((guide) => (
+                  <li key={guide.slug}>
                     <Link
-                      href={`/guides/${guideSlug}`}
+                      href={`/guides/${guide.slug}`}
                       className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
                     >
-                      {guideSlug.replace(/-/g, " ")} →
+                      {guide.title} →
                     </Link>
                   </li>
                 ))}
@@ -126,19 +146,27 @@ export default async function ServiceDetailPage({ params }: Props) {
         </div>
       </section>
 
-      <nav className="flex flex-wrap gap-6 border-t border-fog-soft px-5 py-8 sm:px-8">
-        <Link
-          href={`/directory/${s.category}`}
-          className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
-        >
-          ← {SERVICE_CATEGORY_LABELS[s.category]}
-        </Link>
-        <Link
-          href="/directory"
-          className="text-sm font-medium text-ink-muted no-underline hover:text-ink"
-        >
-          All services
-        </Link>
+      <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
+        <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <Link
+            href={`/directory/${s.category}`}
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            ← {categoryLabel}
+          </Link>
+          <Link
+            href="/directory"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            All services
+          </Link>
+          <Link
+            href="/life"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Life pillar →
+          </Link>
+        </p>
       </nav>
     </article>
   );

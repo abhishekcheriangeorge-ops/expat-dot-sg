@@ -48,6 +48,16 @@ export default async function SchoolDetailPage({ params }: Props) {
   if (!entity || entity.type !== "school") notFound();
   const s = entity;
 
+  const neighbourhood = s.neighbourhood
+    ? await getEntityBySlug("neighbourhoods", s.neighbourhood)
+    : null;
+  const neighbourhoodName =
+    neighbourhood && neighbourhood.type === "neighbourhood"
+      ? neighbourhood.name
+      : s.neighbourhood
+        ? s.neighbourhood.replace(/-/g, " ")
+        : null;
+
   const facts = [
     { label: "Sector", value: SECTOR_LABELS[s.sector] },
     { label: "Curriculum", value: s.curriculum.join(", ") },
@@ -122,7 +132,7 @@ export default async function SchoolDetailPage({ params }: Props) {
               <ExternalLink href={s.website} label="Official website" />
             </div>
           ) : null}
-          {s.neighbourhood ? (
+          {s.neighbourhood && neighbourhoodName ? (
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.12em] text-ink-faint">
                 Housing often paired nearby
@@ -131,7 +141,7 @@ export default async function SchoolDetailPage({ params }: Props) {
                 href={`/neighbourhoods/${s.neighbourhood}`}
                 className="mt-3 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
               >
-                View {s.neighbourhood.replace(/-/g, " ")} →
+                View {neighbourhoodName} →
               </Link>
             </div>
           ) : null}
@@ -151,6 +161,18 @@ export default async function SchoolDetailPage({ params }: Props) {
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
             Family pillar →
+          </Link>
+          <Link
+            href="/neighbourhoods"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Neighbourhoods →
+          </Link>
+          <Link
+            href="/calendar"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Kids calendar →
           </Link>
         </p>
       </nav>

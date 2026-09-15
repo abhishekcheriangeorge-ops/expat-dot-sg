@@ -1,18 +1,45 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { getAllSponsoredPosts } from "@/lib/content/sponsored";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Sponsored",
   description:
     "Clearly labeled sponsored posts on expat.sg — paid inventory, never unmarked as editorial.",
-};
+  path: "/sponsored",
+});
 
 export default async function SponsoredIndexPage() {
   const posts = await getAllSponsoredPosts();
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Sponsored", path: "/sponsored" },
+  ];
 
   return (
     <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8 sm:py-20">
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: "Sponsored posts",
+            description:
+              "Clearly labeled sponsored posts — paid inventory, never unmarked as editorial.",
+            path: "/sponsored",
+            items: posts.map((post) => ({
+              name: post.title,
+              path: `/sponsored/${post.slug}`,
+            })),
+          }),
+        ]}
+      />
+      <Breadcrumbs items={crumbs} className="mb-8 text-sm text-ink-faint" />
       <p className="text-xs font-semibold uppercase tracking-[0.16em] text-sponsored">
         #sponsored
       </p>
@@ -47,6 +74,10 @@ export default async function SponsoredIndexPage() {
         Want a placement?{" "}
         <Link href="/advertise" className="font-medium text-canopy underline">
           Advertise on expat.sg
+        </Link>
+        {" · "}
+        <Link href="/editorial-policy" className="font-medium text-canopy underline">
+          Editorial policy
         </Link>
       </p>
     </div>

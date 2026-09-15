@@ -4,12 +4,14 @@ import { AdvertiseInquiryForm } from "@/components/advertise";
 import { getAllFeaturedListings } from "@/lib/content/featured";
 import { getAllSponsoredPosts } from "@/lib/content/sponsored";
 import { getStorageBackend } from "@/lib/db";
+import { buildPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Advertise",
   description:
     "Media kit and inquiry for featured listings, sponsored posts, newsletter, and category sponsorships on expat.sg.",
-};
+  path: "/advertise",
+});
 
 const PRODUCTS = [
   {
