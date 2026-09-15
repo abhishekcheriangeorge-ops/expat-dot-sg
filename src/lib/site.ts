@@ -251,6 +251,11 @@ export const pillars: Pillar[] = [
         href: "/guides/first-housing-serviced-apartment",
         blurb: "Serviced apartments and short lets while you hunt properly.",
       },
+      {
+        label: "Unpaid internships & volunteering",
+        href: "/guides/unpaid-internship-volunteer-work-pass-singapore",
+        blurb: "Unpaid ≠ legal — TEP, WHP, Misc. Work Pass, DP traps.",
+      },
     ],
     related: [
       { href: "/arriving", label: "Arriving hub" },
@@ -419,6 +424,16 @@ export const pillars: Pillar[] = [
         label: "Year-one financial plan",
         href: "/guides/financial-planning-year-one",
         blurb: "3–6 month buffer; defer ABSD condo and COE FOMO.",
+      },
+      {
+        label: "Brokerage & CDP accounts",
+        href: "/guides/brokerage-cdp-account-foreigners-singapore",
+        blurb: "FIN/Singpass KYC, US-person friction, SRS vs cash.",
+      },
+      {
+        label: "USD / offshore EP payroll",
+        href: "/guides/usd-offshore-payroll-employment-pass",
+        blurb: "Source beats wire destination; MOM fixed-salary traps.",
       },
     ],
     related: [
