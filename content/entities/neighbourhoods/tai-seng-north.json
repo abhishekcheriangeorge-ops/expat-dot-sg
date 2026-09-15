@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "tai-seng-north",
+  "name": "Tai Seng North",
+  "summary": "North of Tai Seng toward Bartley / Defu edges — CCL-adjacent industrial-residential mix with practical rents and ActiveSG catchment.",
+  "body": "Tai Seng North is the shortlist when CCL adjacency and practical rents matter more than polished estate landscaping. The pocket sits north of Tai Seng toward Bartley / Defu edges; housing mixes mid-age condos, HDB, and selective newer stock beside light industrial. Expats land here for car-light hops to Paya Lebar / Bugis and ActiveSG catchment without CBD premiums. Watch-outs: weekday truck noise, guest-suite MA forms that still want owner letters, and confusing Tai Seng vs Tai Seng North shortlists. Compare with Mattar Fringe for denser DTL mid-town, Ubi West for quieter DTL living, and Bartley when circle-line park connectors win.",
+  "region": "northeast",
+  "vibe": [
+    "ccl-adjacent",
+    "industrial-edge",
+    "practical",
+    "value",
+    "mixed"
+  ],
+  "bestFor": [
+    "car-light workers toward Paya Lebar / Bugis",
+    "renters okay with industrial-edge texture",
+    "households comparing Tai Seng North vs Mattar Fringe",
+    "people who will treat ActiveSG netball as the weekly court SKU"
+  ],
+  "watchOuts": [
+    "Weekday truck and loading noise",
+    "Owner-letter delays for guest-suite booking",
+    "Peak CCL crowding",
+    "Tai Seng vs Tai Seng North listing confusion"
+  ],
+  "housingMix": "Mid-age condos, HDB, and selective newer stock beside light industrial.",
+  "commuteNotes": "Circle Line gravity via Tai Seng; bus links toward Bartley / Defu. Walk a weekday morning before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3300,
+    "familyFrom": 2900,
+    "familyTo": 5600
+  },
+  "mrt": [
+    "Tai Seng",
+    "Bartley",
+    "MacPherson"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

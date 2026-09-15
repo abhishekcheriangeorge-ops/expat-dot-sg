@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 47 — 2026-09-15
+
+Branch: `cursor/home-life-tick47-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282/#295 stay open for the merge controller — **did not** touch those PR paths. Topics: condo guest-suite / temporary stay, ActiveSG netball, Mattar Fringe / Tai Seng North / Ubi West. Tip confirmed as **#295** (Tick 46); opened next tip in parallel without waiting on merge.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → #266 → #274 → #282 → #295 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — overnight guest caps, estate guest-suite deposits, short-stay listing myths in condos.
+- r/askSingapore — ActiveSG netball Standard Rate for foreigners, weekend court release races, bib kit rules.
+- r/askSingapore — DTL/CCL shortlists for Mattar Fringe vs Tai Seng North vs Ubi West noise / industrial-edge trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [URA — short-term accommodation](https://www.ura.gov.sg/Corporate/Guidelines/Development-Control/Non-Residential/Hotel/Short-Term-Accommodation).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs open #71 → #295
+
+Open PRs own reno-noise through loading/refuse bay / pickleball and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo guest-suite / temporary stay** (≠ visitor parking; ≠ access-card/fob replacement), **ActiveSG netball** (≠ pickleball; ≠ fencing; ≠ badminton; ≠ tennis; ≠ bowling; ≠ skating; ≠ climbing; ≠ archery; ≠ camps), plus neighbourhood depth for **Mattar Fringe**, **Tai Seng North**, and **Ubi West**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-guest-suite-temporary-stay-tenants.mdx`
+- `content/guides/life/activesg-netball-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #295.
+- `src/lib/site.ts` (guest-suite/temporary stay + ActiveSG netball topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/mattar-fringe.json`
+- `content/entities/neighbourhoods/tai-seng-north.json`
+- `content/entities/neighbourhoods/ubi-west.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 / #266 / #274 / #282 / #295 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is guest-suite booking the same as visitor parking?
+2. Do overnight guests need MA registration?
+3. Can I list my unit on short-stay platforms?
+4. Who books the estate guest room — landlord or tenant?
+5. Can foreigners book ActiveSG netball at Standard Rate?
+6. Is netball the same as pickleball or badminton hire?
+7. Do I need my own bibs and ball?
+8. Mattar Fringe vs Tai Seng North — denser DTL or industrial-edge CCL?
+9. Is Ubi West quieter than Geylang strips at night?
+10. When is a condo multipurpose court still enough?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 46 — 2026-09-15
 
 Branch: `cursor/home-life-tick46-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274/#282 stay open for the merge controller — **did not** touch those PR paths. Topics: condo loading-bay / refuse-bay booking, ActiveSG pickleball, Woodleigh Fringe / Boon Keng North / Geylang Bahru West. Tip confirmed as **#282** (Tick 45); opened next tip in parallel without waiting on merge.
