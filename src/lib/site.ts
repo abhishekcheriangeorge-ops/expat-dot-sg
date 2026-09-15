@@ -235,6 +235,16 @@ export const pillars: Pillar[] = [
         blurb: "Quiet enjoyment, notice, and viewing pressure.",
       },
       {
+        label: "HDB HIP for tenants",
+        href: "/guides/hdb-hip-tenants",
+        blurb: "Dust, portable toilets, and rent talks during upgrading.",
+      },
+      {
+        label: "Deposit return after handover",
+        href: "/guides/deposit-return-handover-disputes",
+        blurb: "Post-keys ambush deductions and SCT from overseas.",
+      },
+      {
         label: "Condo vs HDB",
         href: "/guides/condo-vs-hdb-expat",
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
@@ -242,7 +252,7 @@ export const pillars: Pillar[] = [
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Bukit Timah, Holland V, East Coast, Toa Payoh, AMK, Bedok, and more.",
+        blurb: "Serangoon, Pasir Ris, Yishun, Toa Payoh, AMK, Bedok, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -444,7 +454,7 @@ export const pillars: Pillar[] = [
       {
         label: "Sports, arts & culture",
         href: "/guides/sports-fitness-singapore",
-        blurb: "Clubs, galleries, theatre, and weekend rituals.",
+        blurb: "ActiveSG Standard Rate, Singpass booking, clubs, and heat strategy.",
       },
       {
         label: "Apps that matter",

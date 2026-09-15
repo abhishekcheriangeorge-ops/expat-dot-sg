@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "yishun",
+  "name": "Yishun",
+  "summary": "North NSL town with Northpoint / hub errands and value HDB stock — self-contained amenities with longer CBD rides and a loud internet reputation that overstates daily life.",
+  "body": "Yishun is the value north shortlist when AMK rents firm up and you still want North-South Line access plus a full town centre. Yishun and Khatib MRT, Northpoint City, and dense kopitiam / supermarket coverage make car-light living workable; nature edges (Lower Seletar, park connectors) are the weekend counterweight to the meme reputation. Housing is overwhelmingly HDB with newer and older stock mixed by precinct — whole-flat rents often undercut central-north mature towns for the same bedroom count. Commute honesty check: NSL to CBD is longer than Toa Payoh / Bishan; west-side offices punish you without a car. Watch-outs: estate-level variance (hub-adjacent vs quiet interior), occasional construction / upgrading, and bedroom-rental continuous-occupation rules. Compare with Woodlands for north interchange + JB adjacency, Ang Mo Kio for shorter NSL hops with denser hawkers, or Sengkang if you prefer NEL / newer northeast flats.",
+  "region": "north",
+  "vibe": [
+    "value",
+    "nsl",
+    "self-contained",
+    "mature-and-new-mix",
+    "north"
+  ],
+  "bestFor": [
+    "budget-conscious HDB hunters",
+    "NSL workers okay with longer rides",
+    "households wanting north town-centre gravity",
+    "expats testing heartland value"
+  ],
+  "watchOuts": [
+    "Longer CBD commute than central-north towns",
+    "Hub vs interior noise and crowd gaps",
+    "Internet reputation ≠ block-level reality — walk it",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "HDB dominant (older and newer precincts), limited condo pockets.",
+  "commuteNotes": "North-South Line at Yishun / Khatib; verify feeder buses if your block is far from the hub.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1800,
+    "oneBedTo": 2800,
+    "familyFrom": 2300,
+    "familyTo": 3800
+  },
+  "mrt": [
+    "Yishun",
+    "Khatib"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

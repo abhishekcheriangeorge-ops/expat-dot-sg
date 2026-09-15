@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "serangoon",
+  "name": "Serangoon",
+  "summary": "NEL/CCL interchange town anchored by NEX — dense mall and bus gravity with mature HDB and condo pockets around Serangoon Central.",
+  "body": "Serangoon is the Reddit shortlist when someone wants two MRT lines and a full mall without paying Orchard or River Valley rents. Serangoon MRT’s North-East + Circle interchange plus the NEX / bus hub cluster make errands and cross-island hops unusually easy; food density spans kopitiams, mall F&B, and nearby older estate centres. Housing mixes mature HDB around the central, condo belts toward Lorong Chuan / Bartley edges, and private stock that prices the interchange premium. Peak crowds at NEX and the station are the daily tax — many locals time groceries off evening rush. Watch-outs: hub noise and weekend mall crush, slopey bike climbs around the central for some blocks, and construction on growth plots toward Lorong Chuan. Compare with Ang Mo Kio for quieter mature NSL texture, Hougang for slightly calmer NEL living, or Bishan if park + NSL/CCL prestige matters more than NEX.",
+  "region": "northeast",
+  "vibe": [
+    "interchange",
+    "mall-hub",
+    "nel",
+    "ccl",
+    "crowded-central"
+  ],
+  "bestFor": [
+    "NEL/CCL office hoppers",
+    "mall-first households",
+    "car-light couples who accept crowds",
+    "expats wanting northeast gravity without Punggol length"
+  ],
+  "watchOuts": [
+    "NEX / station peak crowds",
+    "Interchange rent premium vs quieter Hougang blocks",
+    "Construction on nearby growth plots",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB around the central, condo pockets toward Lorong Chuan / Bartley, some executive flats.",
+  "commuteNotes": "North-East and Circle Line at Serangoon; test Tuesday 08:15 door-to-desk and the walk from your block to NEX in rain.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3500,
+    "familyFrom": 2900,
+    "familyTo": 4800
+  },
+  "mrt": [
+    "Serangoon",
+    "Lorong Chuan"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

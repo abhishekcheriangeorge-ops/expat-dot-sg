@@ -6,6 +6,89 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 24 — 2026-09-15
+
+Branch: `cursor/home-life-tick24-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — HDB HIP dust / portable toilets / mid-tenancy landlord upgrades ([HIP experience](https://www.reddit.com/r/askSingapore/comments/1ohzaqn/how_was_your_home_improvement_programme_hip/); [block HIP daily life](https://www.reddit.com/r/askSingapore/comments/1i5469w/for_those_whose_block_went_through_hip_how_did_it/); [landlord HIP mid-tenancy](https://www.reddit.com/r/askSingapore/comments/17ue1mj/anybody_renting_in_a_hdb_and_halfway_through/); [room renters during HIP](https://www.reddit.com/r/askSingapore/comments/1srkqkh/room_renters_during_hip_do_you_move_out_or_just/)).
+- r/askSingapore — post-handover deposit ambushes / SCT after leaving ([handover vs 14-day invent](https://www.reddit.com/r/askSingapore/comments/1ejg8wu/tenancy_handover_process/); [signed clean then cut](https://www.reddit.com/r/askSingapore/comments/13jqzd5/landlord_not_refunding_my_full_deposit/); [overseas SCT / CJTS](https://www.reddit.com/r/askSingapore/comments/1is1n6f/singapore_landlord_small_claims_court_advice/); [SCT continuous tenancy](https://www.reddit.com/r/askSingapore/comments/1rdzwbb/small_claims_tribunal_free_legal_advice/)).
+- r/askSingapore — ActiveSG Standard Rate / multipass / Singpass friction ([multipass foreigners](https://www.reddit.com/r/askSingapore/comments/1f325y0/activsg_gym_multipass_scheme_not_available_for/); [foreigner gym](https://www.reddit.com/r/askSingapore/comments/1k5cyl5/foreigner_looking_for_a_gym_to_work_out/); [tourist ActiveSG](https://www.reddit.com/r/askSingapore/comments/1mr0lvx/being_a_tourist_can_i_go_to_activesg_gyms/)).
+- r/askSingapore — neighbourhood shortlists for Serangoon / Pasir Ris / Yishun ([Serangoon vs Hougang](https://www.reddit.com/r/askSingapore/comments/1irofhy/considering_moving_to_serangoon_central_or/); [best HDB neighbourhoods](https://www.reddit.com/r/askSingapore/comments/1fubtw7/best_hdb_neighbourhood_in_singapore/); [Pasir Ris vibe](https://www.reddit.com/r/askSingapore/comments/1cpjx80/what_do_you_think_of_pasir_ris/); [best towns](https://www.reddit.com/r/askSingapore/comments/1qq0fly/what_are_the_best_towns_to_live_in_singapore_and/)).
+
+**Official**
+
+- [HDB — Home Improvement Programme (HIP)](https://www.hdb.gov.sg/residential/living-in-an-hdb-flat/sers-and-upgrading-programmes/upgrading-programmes/types/home-improvement-programme-hip) + [gov.sg HIP explainer](https://www.gov.sg/explainers/5-things-you-should-know-if-your-home-is-undergoing-hip/) + [CPF Board HIP overview](https://www.cpf.gov.sg/member/infohub/educational-resources/home-improvement-programme-what-to-know).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [renting guidance](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/).
+- [Judiciary — SCT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-small-claim) + [small claims guide PDF](https://www.judiciary.gov.sg/docs/default-source/civil-docs/sct_guide_to_small_claims.pdf).
+- [ActiveSG — Individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [Membership / MyActiveGYM](https://www.activesgcircle.gov.sg/membership) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus).
+
+### Gaps vs Tick 23 (Home + Life slice)
+
+Tick 23 shipped lease renewal / rent caps myths, landlord entry / quiet enjoyment, dengue cluster + chute fogging, Toa Payoh / AMK / Bedok entities. Remaining high-intent Home+Life gaps matched forum heat: **HDB HIP mid-tenancy survival (≠ adjacent BTO NEA rail)**, **post-handover deposit ambushes + overseas SCT**, **ActiveSG Standard Rate / multipass FAQ depth**, plus neighbourhood entity depth for **Serangoon**, **Pasir Ris**, and **Yishun**. Early-exit / renewal / entry / flood / dengue left alone beyond cross-links.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/hdb-hip-tenants.mdx`
+- `content/guides/home/deposit-return-handover-disputes.mdx`
+
+**Upgraded guides (depth + citations + cross-links + FAQPage where useful)**
+
+- `content/guides/life/sports-fitness-singapore.mdx` (ActiveSG multipass / Standard Rate FAQPage)
+- `content/guides/home/rental-inventory-fair-wear-tear.mdx` (handover deep-link + FAQs)
+- `content/guides/home/construction-site-noise-renters.mdx` (HIP vs NEA split)
+- `content/guides/home/heartland-living-for-expats.mdx` (HIP + Serangoon/Pasir Ris/Yishun)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (entity shortlist + HIP)
+- `content/guides/home/security-deposit-diplomatic-clause.mdx` (deposit-return deep-link)
+- `content/guides/home/renting-process-loi-ta-deposits.mdx` (HIP + deposit-return related)
+- `content/guides/home/hdb-ceiling-leak-tenants.mdx` (HIP adjacency)
+- `src/lib/site.ts` (Home HIP / deposit-return topics; Life sports blurb; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/serangoon.json`
+- `content/entities/neighbourhoods/pasir-ris.json`
+- `content/entities/neighbourhoods/yishun.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not re-litigate Tick 19–23 fibre/mould/CDRT/HDB-sale/construction/early-exit/flood/renewal/entry/dengue topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. Do I pay for HIP as a tenant, or does the landlord?
+2. How many days will workers be inside my flat during HIP?
+3. Can I refuse optional toilet upgrading so I do not need a hotel?
+4. Should my landlord abate rent or pay for temporary housing during HIP?
+5. Am I liable for contractor damage to my furniture during HIP?
+6. Can the landlord invent new defects after we signed a clean handover?
+7. Does the TA’s 14-day deposit refund window allow a second secret inspection?
+8. I already left Singapore — can I still file SCT for my deposit?
+9. Is SCT worth it when enforcement costs more than the withheld sum?
+10. Can foreigners use ActiveSG, and what is the Standard Rate?
+11. Why don’t I see ActiveSG multipass options as an EP holder?
+12. Serangoon vs Pasir Ris vs Yishun — which fits NEL/CCL, quiet east park, or north value?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 7)
 
 Branch: `loop/story-aeo-tick7` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 6’s scams / lost-card / ICA STVP-extension FAQPages. Did **not** expand ads/monetization or rewrite Loop C Home/Life dengue–lease bodies or A/B/D/E/F/G trees.
