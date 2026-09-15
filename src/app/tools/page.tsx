@@ -83,6 +83,12 @@ const tools = [
     summary:
       "Sketch FDW final-month levy for keep-through-month, mid-month cancel, and transfer-out — not MOM filing advice.",
   },
+  {
+    href: "/tools/bank-statement-archive",
+    title: "Bank statement archive",
+    summary:
+      "Sketch months of statements still to pull before account close — self-serve PDF vs reprint fees — not bank advice.",
+  },
 ] as const;
 
 export default function ToolsIndexPage() {

@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 29)
+
+Branch: `cursor/e-journeys-tools-tick29-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #290** (`cursor/e-journeys-tools-tick28-fa4f`) — did not wait for #290 or earlier E drafts to merge. Avoided open E stack exclusives through **#290** (E28): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Condo leaver threads — missing lift fobs billed after flight; helper spare cards left in drawers; carpark tags treated as lost without a return receipt.
+- Money exit threads — e-statement portals locked after account close; branch reprint fees for 24-month packs; Singpass 2FA lost mid-download.
+
+**Official / orientation**
+
+- Estate MCST / managing-agent access-card deposit schedules (estate-specific)
+- Bank e-statement retention / reprint desks (bank-specific)
+
+### Gaps vs open E stack through #290
+
+Open tips through **#290** cover mail/HDB through visitor parking / helper levy. Remaining high-intent gaps **off those path sets**: **condo access-card / fob deposit clear**, **bank statement archive sketch**. No calendar JSON. Distinct from workplace-access-exit and condo-visitor-qr — this tick owns resident physical tokens and deposits. Distinct from bank-exit-closure — this tick owns statement archive cash/time before close, not the full account-closure playbook. Distinct from cpf-withdrawal — archive tooling only.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/condo-access-card-deposit.json` + `/journeys/condo-access-card-deposit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/bank-statement-archive.ts`
+- `src/components/tools/BankStatementArchiveCalculator.tsx`
+- `/tools/bank-statement-archive` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #290.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does key return count as fob return without a stamped list?
+2. Are helper spare cards on a separate deposit line?
+3. How many months do banks keep self-serve PDFs after close?
+4. Do reprint fees apply per statement or per request pack?
+5. Will Singpass SIM change lock the portal mid-archive?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 28)
 
 Branch: `cursor/e-journeys-tools-tick28-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #281** (`cursor/e-journeys-tools-tick27-fa4f`) — did not wait for #281 or earlier E drafts to merge. Avoided open E stack exclusives through **#281** (E27): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → this tip**. Soft hubs / content-loop-log: **prepend**.

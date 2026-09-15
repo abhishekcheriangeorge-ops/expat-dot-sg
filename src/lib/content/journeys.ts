@@ -182,3 +182,7 @@ export async function getGymMembershipFreezeExitPlaybook(): Promise<LeavingPlayb
 export async function getSchoolLockerClearPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("school-locker-clear.json");
 }
+
+export async function getCondoAccessCardDepositPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("condo-access-card-deposit.json");
+}
