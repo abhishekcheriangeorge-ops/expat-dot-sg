@@ -10,6 +10,7 @@ import {
   getCpfNominationExitPlaybook,
   getPharmacyChronicScriptExitPlaybook,
   getNlbLibraryExitPlaybook,
+  getEnrichmentClassExitPlaybook,
   getCondoVisitorParkingClearPlaybook,
   getUtilityMeterPhotoHandoffPlaybook,
   getCondoVisitorQrExitPlaybook,
@@ -27,7 +28,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, NLB library exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, NLB library exit, enrichment class exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -46,6 +47,7 @@ export default async function JourneysIndexPage() {
     cpfNominationExit,
     pharmacyChronicScript,
     nlbLibraryExit,
+    enrichmentClassExit,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -60,6 +62,7 @@ export default async function JourneysIndexPage() {
     getCpfNominationExitPlaybook(),
     getPharmacyChronicScriptExitPlaybook(),
     getNlbLibraryExitPlaybook(),
+    getEnrichmentClassExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -140,6 +143,12 @@ export default async function JourneysIndexPage() {
                 name:
                   nlbLibraryExit?.title ?? "NLB / library membership exit",
                 path: "/journeys/nlb-library-exit",
+              },
+              {
+                name:
+                  enrichmentClassExit?.title ??
+                  "Enrichment class / private lesson exit",
+                path: "/journeys/enrichment-class-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -497,6 +506,34 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open NLB library exit playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Enrichment / private lessons
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {enrichmentClassExit?.title ??
+              "Enrichment class / private lesson exit"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {enrichmentClassExit?.summary ??
+              "Private music, swim, and ballet notice windows, gear returns, and remaining-term float before packing week."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/enrichment-term-notice-float"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/enrichment-term-notice-float
+            </Link>{" "}
+            if studio notice cash competes with packing week.
+          </p>
+          <Link
+            href="/journeys/enrichment-class-exit"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open enrichment class exit playbook
           </Link>
         </FadeIn>
 

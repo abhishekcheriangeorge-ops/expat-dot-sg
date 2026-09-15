@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "enrichment-class-exit",
+  "title": "Enrichment class / private lesson exit",
+  "summary": "Leaving Singapore with music, swim, ballet, or other private enrichment still mid-term \u2014 give notice, return borrowed gear, and float remaining term fees before packing week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-classes",
+      "title": "Inventory every enrichment seat still live",
+      "body": "Private music, swim, ballet, coding, and sports coaching often renew on different calendars from school CCA. List every teacher, studio, and sibling seat still billed. Screenshot WhatsApp threads that hold verbal notice rules \u2014 studios rarely treat chat folklore as a written cancel.",
+      "bullets": [
+        "List every active enrichment seat, including sibling add-ons",
+        "Screenshot studio notice rules and the latest fee schedule",
+        "Note borrowed instruments, costumes, or kit still at home"
+      ],
+      "href": "/tools/enrichment-term-notice-float"
+    },
+    {
+      "id": "written-notice",
+      "title": "Serve written notice inside the handbook window",
+      "body": "Many studios bill a full remaining term if notice arrives late. Email the studio address on the contract, keep the sent copy, and ask for a dated acknowledgement. Do not rely on a teacher saying \u201cok stop next week\u201d in a parent chat.",
+      "bullets": [
+        "Send written notice to the studio email on file, not only the teacher chat",
+        "Ask for a dated acknowledgement of the last paid class",
+        "Sketch remaining-term cash on /tools/enrichment-term-notice-float"
+      ],
+      "href": "/tools/enrichment-term-notice-float"
+    },
+    {
+      "id": "gear-return",
+      "title": "Return borrowed instruments, costumes, and kit",
+      "body": "Loan instruments and costume deposits often clear on a separate ledger from term fees. Photograph serial numbers before return and keep a signed receipt. Missing gear can wipe a deposit faster than an unpaid lesson week.",
+      "bullets": [
+        "Return loaned instruments and costumes with a signed receipt",
+        "Photograph serial stickers before handover",
+        "Keep kit-deposit cash separate from term-fee float"
+      ],
+      "href": "/journeys/school-locker-clear"
+    },
+    {
+      "id": "vs-tuition-centre",
+      "title": "Private enrichment vs tuition-centre bonds",
+      "body": "Centre-based tuition bonds and private one-to-one lessons are different contracts. Do not apply a tuition-centre bond calculator to a home piano teacher without checking the actual notice clause. Cross-link only when a child also sits in a bonded centre seat.",
+      "bullets": [
+        "Treat private studio notice separately from centre bond clawbacks",
+        "Use /tools/tuition-centre-bond only for centre contracts",
+        "Do not merge studio chat rules with centre handbook PDFs"
+      ],
+      "href": "/tools/tuition-centre-bond"
+    },
+    {
+      "id": "payment-rails",
+      "title": "Stop GIRO / card rails after the last billed class",
+      "body": "Auto-debits often fire one more cycle after you think you cancelled. Confirm the last charge date in writing, then revoke GIRO or card mandates. Keep the SGD rail live until the final debit posts or the studio confirms a zero balance.",
+      "bullets": [
+        "Confirm the last billed class date in writing before revoking GIRO",
+        "Revoke card mandates only after the final debit window closes",
+        "Hold a small float until the studio shows a zero balance"
+      ],
+      "href": "/journeys/bank-exit-closure"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with school and leaving playbooks",
+      "body": "Enrichment exits collide with school locker clear and packing week. Sequence written notices first, then gear returns, then fee float \u2014 so a late studio invoice does not raid the movers pot.",
+      "bullets": [
+        "Put studio notice, gear return, and fee float on one calendar",
+        "Pair with /journeys/school-locker-clear when bags still hide costumes",
+        "Keep one adult free for studio callbacks during notice week"
+      ],
+      "href": "/journeys/school-locker-clear"
+    }
+  ]
+}

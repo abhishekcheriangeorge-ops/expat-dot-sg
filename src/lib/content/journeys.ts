@@ -198,3 +198,7 @@ export async function getPharmacyChronicScriptExitPlaybook(): Promise<LeavingPla
 export async function getNlbLibraryExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("nlb-library-exit.json");
 }
+
+export async function getEnrichmentClassExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("enrichment-class-exit.json");
+}

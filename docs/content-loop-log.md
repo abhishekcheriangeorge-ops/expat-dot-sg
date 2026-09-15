@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 33)
+
+Branch: `cursor/e-journeys-tools-tick33-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #330** (`cursor/e-journeys-tools-tick32-fa4f`) — did not wait for #330 or earlier E drafts to merge. Avoided open E stack exclusives through **#330** (E32): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**), pharmacy-chronic-script / pharmacy-last-refill-float (**#315**), nlb-library / library-lost-item-float (**#330**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → #315 → #330 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Leaving / kids threads — private piano and swim studios billing a full remaining term after verbal “last class Friday”; costume deposits lost without a signed return slip.
+- Enrichment notice threads — sibling seats still auto-debited after the primary seat stops; GIRO firing one more cycle after parents thought they cancelled.
+
+**Official / orientation**
+
+- Studio / teacher handbook notice windows (studio-specific)
+- Private lesson loan-instrument / costume deposit schedules (studio-specific)
+
+### Gaps vs open E stack through #330
+
+Open tips through **#330** cover mail/HDB through NLB library / lost-item float. Remaining high-intent gaps **off those path sets**: **enrichment class / private lesson exit**, **enrichment term-notice float sketch**. No calendar JSON. Distinct from tuition-centre-bond — this tick owns private studio / one-to-one notice and remaining-term float, not centre bond clawbacks. Distinct from school-locker-clear — costumes and loaned instruments at home/studio, not school locker contents. Distinct from childcare-infant-care-exit — enrichment seats, not childcare centre exit.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/enrichment-class-exit.json` + `/journeys/enrichment-class-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/enrichment-term-notice-float.ts`
+- `src/components/tools/EnrichmentTermNoticeFloatCalculator.tsx`
+- `/tools/enrichment-term-notice-float` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #330.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does a WhatsApp “ok stop next week” count as handbook notice?
+2. Do sibling seats keep billing after the primary seat exits?
+3. Will GIRO fire once more after written cancel?
+4. Are costume deposits on a separate ledger from term fees?
+5. Can early-exit admin stack on top of remaining-lesson charges?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 32)
 
 Branch: `cursor/e-journeys-tools-tick32-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #315** (`cursor/e-journeys-tools-tick31-fa4f`) — did not wait for #315 or earlier E drafts to merge. Avoided open E stack exclusives through **#315** (E31): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**), pharmacy-chronic-script / pharmacy-last-refill-float (**#315**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → #315 → this tip**. Soft hubs / content-loop-log: **prepend**.

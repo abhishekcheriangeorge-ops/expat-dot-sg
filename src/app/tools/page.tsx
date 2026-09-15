@@ -107,6 +107,12 @@ const tools = [
     summary:
       "Sketch overdue and lost-item cash for return-clear, overdue pay-down, and lost replacement — not NLB advice.",
   },
+  {
+    href: "/tools/enrichment-term-notice-float",
+    title: "Enrichment term-notice float",
+    summary:
+      "Sketch remaining-term enrichment cash for ride-out, notice shortfall, and early exit — not studio advice.",
+  },
 ] as const;
 
 export default function ToolsIndexPage() {
