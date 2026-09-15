@@ -83,6 +83,8 @@ export default function AboutPage() {
               adult SC renunciation, NRIC loss / re-registration / name change,
               child and spouse PR sponsorship, aged-parent PR vs LTVP,
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
+              NRIC re-registration at 30 / 55, eCOA address changes,
+              Singapore Citizenship Journey after IPA,
               REP passport transfers, EP renewal NOA asks, pass
               cancellations) are checked against live ICA / MOM / MHA text
               before we ship.

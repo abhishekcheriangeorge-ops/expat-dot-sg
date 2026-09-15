@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 8)
+
+Branch: `loop/next-polish-tick8` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — NRIC re-registration at 30 / overseas collection ([re-register at 30 overseas](https://www.reddit.com/r/askSingapore/comments/ozzprx/reregistering_ic_at_30_yo_and_collecting_it_i/); [IC photo at 30](https://www.reddit.com/r/askSingapore/comments/194qbyc/ic_photo_for_those_who_turned_30/); [cracked NRIC wait-till-30 folklore](https://www.reddit.com/r/askSingapore/comments/nmt7u4/nric_nearly_broken_into_half/)).
+- r/askSingapore — eCOA / address update legality ([keep old address after BTO](https://www.reddit.com/r/askSingapore/comments/1mrv8ck/can_you_not_update_your_address_on_nric_when/)).
+- r/askSingapore — Singapore Citizenship Journey after IPA ([SCJ CSS / SEV slot crunch](https://www.reddit.com/r/askSingapore/comments/1luj9er/sg_citizenship_journey_question/)).
+
+**Official**
+
+- [ICA — Re-Register Identity Card for 30/55-year-olds](https://www.ica.gov.sg/documents/ic/re-registration) (notice → 1-year subsidised window; S$10 SC / S$50 PR; overseas return within 1 year; collection in Singapore)
+- [ICA — Photo Guidelines](https://www.ica.gov.sg/photo-guidelines)
+- [ICA — Change of Residential Address on Identity Card](https://www.ica.gov.sg/documents/ic/update_residential_address) (28-day clock; group filing; PIN mailer; free; overseas + ELD LCA)
+- [ICA — Becoming a Singapore Citizen](https://www.ica.gov.sg/reside/citizenship/apply) (mandatory SCJ ages 16–60)
+- [ICA — Your Singapore Citizenship Roadmap (PDF)](https://www.ica.gov.sg/docs/default-source/ica/files/esc-roadmap.pdf) (portal day +3; SEV/CSS; e-Journey; ~2-month stage orientation; ceremony 3–6 months after registration)
+
+### Gaps vs prior ticks
+
+Tick 7 shipped spouse LTVP/PMLA, PLOC/LOC, student PR. Remaining high-intent **Next** life-admin / citizenship-process gaps matched this mine: **NRIC re-registration at 30/55** (10-year carve-out; overseas return clock; Singapore-only collection), **eCOA address change** (28-day legal clock; PIN mailer; sticker vs mid-IC reprint; ELD LCA for overseas SC), **Singapore Citizenship Journey after IPA** (portal day +3; SEV/CSS crunch; e-Journey 7+7 hygiene; renunciation; ICA Building registration; ceremony). About + editorial research language updated.
+
+### Shipped
+
+**New:** `nric-reregistration-30-55-singapore.mdx`, `ecoa-nric-address-change-singapore.mdx`, `singapore-citizenship-journey-scj.mdx`
+
+**Upgraded:** `lost-replace-nric-pr-singapore.mdx`, `change-name-nric-singapore.mdx`, `renewing-life-admin-annually.mdx`, `after-getting-pr-checklist.mdx`, `singapore-citizenship-application.mdx`; `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits.
+
+### Questions mined
+
+1. Do I still re-register at 30 if I replaced my IC within the last 10 years?
+2. What fees does ICA publish for 30/55 re-registration (SC vs PR)?
+3. Can I collect a re-registered NRIC at an overseas mission?
+4. If I live overseas during the window, how long do I have after returning?
+5. Must I update NRIC address within 28 days when I move — including overseas?
+6. Is skipping an address update illegal / fineable?
+7. How does the eCOA PIN mailer and address sticker process work?
+8. What is an ELD Local Contact Address if my IC shows an overseas home?
+9. After citizenship IPA, when can I log into the SC Journey Portal?
+10. What are SEV and CSS, and what if slots are full?
+11. What e-Journey clocks does ICA’s roadmap publish (7+7 days)?
+12. When am I actually a citizen — registration or the welcome ceremony?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 8)
 
 Branch: `loop/story-aeo-tick8` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 6 on main (scams / lost card / ICA STVP) while tick 7 (MOM STVP / housing / bank hubs) remains open. Did **not** expand ads/monetization; avoided tick-7 file collisions (day-7/30, arriving/leaving pages, between-jobs / bank / housing bodies) and Loop C dengue/lease rewrites.
