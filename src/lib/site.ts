@@ -294,14 +294,14 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
       },
       {
-        label: "MCST by-laws & AGMs",
-        href: "/guides/condo-mcst-bylaws-agm-tenants",
-        blurb: "House rules, pets, AGM voting — what tenants can actually do.",
+        label: "Visitor parking & access cards",
+        href: "/guides/condo-visitor-parking-access-cards-tenants",
+        blurb: "IU quotas, lost fobs, and MA tickets for condo tenants.",
       },
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Eunos, Guillemard, Dakota, Bukit Timah, and more.",
+        blurb: "Mountbatten, Nicoll Highway, Aljunied, Bukit Timah, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -515,9 +515,9 @@ export const pillars: Pillar[] = [
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
       },
       {
-        label: "ActiveSG football & futsal",
-        href: "/guides/activesg-football-futsal-booking-singapore",
-        blurb: "Standard Rate pitch and cage bookings for foreigners.",
+        label: "ActiveSG tennis courts",
+        href: "/guides/activesg-tennis-court-booking-singapore",
+        blurb: "Standard Rate bookings, peak release, lights surcharges.",
       },
       {
         label: "Apps that matter",

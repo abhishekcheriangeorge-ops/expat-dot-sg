@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "mountbatten",
+  "name": "Mountbatten",
+  "summary": "East-central CCL stop near Old Airport Road / stadium edges — food density, sports adjacency, and condo/HDB mix with shorter CBD hops than far-east towns.",
+  "body": "Mountbatten is the shortlist when Circle Line access and Old Airport Road food matter, with stadium / indoor sports gravity nearby toward Kallang. Housing mixes condos, walk-ups, and older estate edges; event evenings and weekend food crowds are the tax. Expats land here for CCL hops and lifestyle density rather than quiet cul-de-sac living. Compare with Nicoll Highway for a slightly more Kallang Basin / city-fringe feel, Aljunied for NEL heartland texture, and Dakota when you want to be tighter to Old Airport Road itself.",
+  "region": "east",
+  "vibe": [
+    "ccl",
+    "food-density",
+    "sports-adjacent",
+    "east-central",
+    "mixed-stock"
+  ],
+  "bestFor": [
+    "CCL workers wanting food and sport nearby",
+    "households okay with event-evening energy",
+    "condo renters who will vet MCST visitor rules",
+    "car-light couples testing east-central before RV prices"
+  ],
+  "watchOuts": [
+    "Event and weekend crowd spikes",
+    "Visitor parking / access-card variance by MCST",
+    "Block-level noise near major roads",
+    "Fewer quiet-heartland defaults than Aljunied"
+  ],
+  "housingMix": "Condo inserts with older estate and walk-up edges.",
+  "commuteNotes": "Circle Line at Mountbatten; test an event evening door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3700,
+    "familyFrom": 3100,
+    "familyTo": 5100
+  },
+  "mrt": [
+    "Mountbatten"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 32 — 2026-09-15
+
+Branch: `cursor/home-life-tick32-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144 stay open for the merge controller — **did not** touch those PR paths. Topics: condo visitor parking / access cards, ActiveSG tennis court booking, Mountbatten / Nicoll Highway / Aljunied.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — visitor IU registration failures, lost access card fees, Grab drivers clamped in condo lots.
+- r/askSingapore — ActiveSG tennis Standard Rate for foreigners, peak release races, condo court ghost bookings.
+- r/askSingapore — east-central shortlists for Mountbatten / Nicoll Highway / Aljunied vs PLQ and Kallang event spillover.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [facilities](https://www.activesgcircle.gov.sg/facilities).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #144
+
+Open PRs own reno/lightning/void-deck/power/condo-reno/smoke/PUB-water/pools/SP-bill/stadium/OEM/HDB-corridor-smoking/MCST-bylaws/football-futsal and their town sets. Remaining gaps without collision: **condo visitor parking / access cards** (≠ by-law/AGM overview body), **ActiveSG tennis booking** (≠ pools/stadium/futsal), plus neighbourhood depth for **Mountbatten**, **Nicoll Highway**, and **Aljunied**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-visitor-parking-access-cards-tenants.mdx`
+- `content/guides/life/activesg-tennis-court-booking-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/moving-within-singapore.mdx`
+- `content/guides/home/short-term-vs-long-term-rental.mdx`
+- `content/guides/life/car-ownership-vs-sharing-singapore.mdx`
+- `src/lib/site.ts` (visitor parking + ActiveSG tennis topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/mountbatten.json`
+- `content/entities/neighbourhoods/nicoll-highway.json`
+- `content/entities/neighbourhoods/aljunied.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 file paths.
+
+### Questions mined (sample)
+
+1. Who pays for a lost condo access card?
+2. Can guests park free in visitor lots?
+3. Is season parking included with the lease?
+4. Can foreigners book ActiveSG tennis at Standard Rate?
+5. Why do evening courts vanish at release?
+6. Mountbatten vs Nicoll Highway — food belt or park-connector condo?
+7. Is Aljunied quieter value than PLQ?
+8. Do Grab drivers get clamped waiting in visitor bays?
+9. When is a condo tennis court still better than ActiveSG?
+10. What pre-LOI parking questions save Saturday fights?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 31 — 2026-09-15
 
 Branch: `cursor/home-life-tick31-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137 stay open for the merge controller — **did not** touch those PR paths. Topics: condo MCST by-laws / AGMs for tenants, ActiveSG football & futsal booking, Eunos / Guillemard / Dakota.

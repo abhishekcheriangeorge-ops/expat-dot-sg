@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "aljunied",
+  "name": "Aljunied",
+  "summary": "NEL heartland stop between Paya Lebar and Kallang — mature HDB density, practical rents, and shorter CBD hops than Hougang without PLQ condo premiums.",
+  "body": "Aljunied is the northeast/east shortlist when someone wants North-East Line access and heartland errands without paying Paya Lebar Quarter rents. Mature HDB blocks dominate; condo inserts appear toward Geylang and Paya Lebar edges. Expats land here for NEL CBD hops and value; walk evening corridor life and check estate variance before LOI. Compare with Mountbatten when CCL + food/stadium lifestyle matters more, Nicoll Highway for condo/park-connector living, and Eunos for a calmer EWL heartland alternative.",
+  "region": "northeast",
+  "vibe": [
+    "nel",
+    "heartland",
+    "mature-hdb",
+    "value",
+    "practical"
+  ],
+  "bestFor": [
+    "NEL CBD hoppers wanting heartland rents",
+    "car-light households okay with estate variance",
+    "renters skipping PLQ condo premiums",
+    "expats testing east-central before outer towns"
+  ],
+  "watchOuts": [
+    "Block-level variance beside busier edges",
+    "Peak NEL crowding toward town",
+    "Geylang-edge texture if you stretch too far",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB dominant with selective condo inserts toward PLQ / Geylang edges.",
+  "commuteNotes": "North-East Line at Aljunied; time Tuesday 08:15 door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3100,
+    "familyFrom": 2600,
+    "familyTo": 4200
+  },
+  "mrt": [
+    "Aljunied"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
