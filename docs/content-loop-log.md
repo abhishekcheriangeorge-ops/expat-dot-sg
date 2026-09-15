@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 33) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick33-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #254. Shared log + `site.ts` only. Did not wait for #254 merge/CI. No force-push to `main`. Rebased after #242 and later main landings; open stack treated as #254.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — sticky-eye mornings; swim bans; school return folklore.
+- r/askSingapore — concert call times vs client decks; costume blackouts; programme PayNow guilt.
+- r/askSingapore — music-studio sofas as the real weekday parent meetup.
+
+**Official**
+
+- [HealthHub conjunctivitis](https://www.healthhub.sg/a-z/diseases-and-conditions/conjunctivitis) + [MOH](https://www.moh.gov.sg/) + [SNEC](https://www.snec.com.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools) + [NAC](https://www.nac.gov.sg/)
+- [Esplanade](https://www.esplanade.com/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–32 (open through #254) covered LS waitlists, tuition lobbies, transfers, ear infection, winter fair, swim waiting. Remaining heat without contested paths: **conjunctivitis / pink-eye exclusion**, **IS concert / recital ops**, **music-lesson studio waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-concert-recital-ops-dual-career-singapore.mdx`
+- `content/guides/belong/music-lesson-studio-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- HFMD outbreak coverage, kids swimming/water safety, dental care for foreigners, music & arts communities, youth performing arts communities
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- Tanglin Trust, Australian International School, Canadian International School, optical-eye-care, dental-care, Raffles Medical
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #254 guide/entity paths (avoided open-stack paths through #254).
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns overnight pink-eye wipe-downs?
+2. Is the return rule written?
+3. What is the concert call time and gate?
+4. Which adult owns the hall seat?
+5. Same studio sofa next week?
+6. Is swim paused in writing?
+7. Hard wallet cap for programmes/flowers?
+8. Helper rest day vs recital Sunday?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 32) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick32-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #242. Shared log + `site.ts` only. Did not wait for #242 merge/CI. No force-push to `main`. Rebased after #210/#216 landed on main.
