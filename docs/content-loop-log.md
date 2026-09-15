@@ -6,6 +6,31 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 12)
+
+Branch: `cursor/loop-g-seo-tick12-a144` → PR to `main`. Loop-E ticks 9–13 exit/handover shell after #74→#160 claimed earlier hubs/tools/guides/chrome. Did **not** touch open G-stack paths (no ModeHub, PillarPage, HomeHubs, SiteHeader/Footer, site.ts, seo.ts, seo-shell.ts, seo-howto.ts, RelatedHubs). No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Five Loop-E exit journeys on main (bank-exit-closure, utility-exit-handover, pets-reexport, singpass-myinfo-exit, newborn-special-pass) had crumbs only.
+- Five paired tools (storage-months, ir21-withhold, cpf-withdrawal, school-deposit-clawback, sim-otp-keep) lacked WebApplication schema + Related hubs.
+- Needed helpers without editing claimed `#160` `seo-howto.ts` / `RelatedHubs`.
+
+### Shipped this loop
+
+- Five journey pages: HowTo + CollectionPage + ExploreLinks
+- Five tool pages: WebApplication + CollectionPage + ExploreLinks
+- New `seo-playbooks.ts` + `ExploreLinks` (avoids #145/#152/#160 claimed libs; does not edit `seo/index.ts`)
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 / #145 / #152 / #160 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 13)
 
 Branch: `cursor/e-journeys-tools-tick13-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` after **#72 MERGED** (family-joining + IPA window on main). Avoided open E stack **#90 → #101 → #110 → #116 → #122 → #131 → #139** exclusive paths. Merge controller order: **#90 → #101 → #110 → #116 → #122 → #131 → #139 → this tick**.

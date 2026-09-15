@@ -1,16 +1,34 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { ExploreLinks } from "@/components/seo/ExploreLinks";
 import { getUtilityExitHandoverPlaybook } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { howToJsonLd } from "@/lib/seo-playbooks";
+
+const title = 'Utilities & telecom exit handover';
+const description =
+  'Playbook for tearing down SP, fibre, mobile, and condo utilities when leaving a flat or Singapore — notice windows, deposits, GIRO, and final-bill float.';
+const path = '/journeys/utility-exit-handover';
+
+const RELATED = [
+  { href: "/journeys/leaving", label: "Leaving playbook" },
+  { href: "/journeys/bank-exit-closure", label: "Bank exit closure" },
+  { href: "/tools/ir21-withhold", label: "IR21 withhold sketch" },
+  { href: "/tools/lease-notice", label: "Lease notice sketch" },
+  { href: "/home", label: "Home pillar" },
+  { href: "/tools", label: "All tools" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Utilities & telecom exit handover",
-  description:
-    "Playbook for tearing down SP, fibre, mobile, and condo utilities when leaving a flat or Singapore — notice windows, deposits, GIRO, and final-bill float.",
-  path: "/journeys/utility-exit-handover",
+  title,
+  description,
+  path,
 });
 
 export default async function UtilityExitHandoverJourneyPage() {
@@ -20,48 +38,50 @@ export default async function UtilityExitHandoverJourneyPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Journeys", path: "/journeys" },
-    { name: "Utility exit handover", path: "/journeys/utility-exit-handover" },
+    { name: 'Utility exit handover', path },
   ];
+
+  const howTo = howToJsonLd({
+    name: playbook.title,
+    description: playbook.summary,
+    path,
+    steps: playbook.sections.map((section) => ({
+      name: section.title,
+      text: section.body,
+    })),
+  });
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: title,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+          ...(howTo ? [howTo] : []),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
       </div>
       <JourneyHero
-        eyebrow="Home · Exit utilities"
+        eyebrow='Home · Exit utilities'
         title={playbook.title}
-        summary="Kill SP, fibre, and GIRO on purpose. Match notice windows to key handover — then keep enough SGD for finals and ETFs."
+        summary='Kill SP, fibre, and GIRO on purpose. Match notice windows to key handover — then keep enough SGD for finals and ETFs.'
         lastReviewed={playbook.lastReviewed}
       />
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
-        <p className="text-sm text-ink-faint">
-          Related:{" "}
-          <Link
-            href="/journeys/leaving"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            Leaving playbook
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/tools/ir21-withhold"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            IR21 withhold sketch
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/tools/lease-notice"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            Lease notice sketch
-          </Link>
-        </p>
+        <ExploreLinks links={RELATED} />
       </div>
     </>
   );
