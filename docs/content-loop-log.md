@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 40)
+
+Branch: `loop/story-aeo-tick40` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#231 H20–H39). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — do I file PMLA again to renew spouse LTVP / LLE expired folklore.
+- r/askSingapore — turning 30 in London; can the High Commission print my new IC.
+- r/askSingapore — PLOC expires next month while LTVP card is already thin.
+
+**Official**
+
+- [ICA — PMLA](https://www.ica.gov.sg/reside/pre-marriage-long-term-visit-pass-assessment) + [Becoming an LTVP holder](https://www.ica.gov.sg/reside/LTVP) renewal block.
+- [ICA — Re-Register Identity Card for 30/55-year-olds](https://www.ica.gov.sg/documents/ic/re-registration) + [Collect Identity Card](https://www.ica.gov.sg/documents/ic/collect).
+- [MOM — PLOC eligibility](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) + [LOC renew/cancel/replace](https://www.mom.gov.sg/passes-and-permits/loc-for-ica-issued-ltvp-holders/renew-cancel-or-replace).
+
+### Gaps vs open H + ticks 1–39
+
+Open: #117–#231 H20–H39. Remaining free Next FAQ-free companions included **spouse LTVP renewal / LLE window**, **NRIC re-registration overseas return**, **PLOC renewal LTVP-first sequencing**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/spouse-ltvp-renewal-pmla-lle-window-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/nric-reregistration-overseas-return-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ploc-renewal-ltvp-sequencing-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (spouse LTVP renewal/LLE + NRIC overseas return + PLOC LTVP-first topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#231 guide bodies.
+
+### Questions mined (sample)
+
+1. Do I need to file PMLA again to renew my spouse LTVP?
+2. How long is a PMLA Letter of Eligibility valid?
+3. How early should I renew a spouse LTVP?
+4. Does leftover time on my spouse LTVP roll into the renewed pass?
+5. Can a PR sponsor use PMLA for spouse LTVP renewal?
+6. Can a Singapore mission overseas print my new NRIC at age 30 or 55?
+7. I live abroad during my NRIC re-registration window — when must I re-register?
+8. Can I apply early for age-30 or age-55 NRIC re-registration while overseas?
+9. How soon after approval must I collect the new NRIC?
+10. Does NRIC re-registration replace keeping my Re-Entry Permit valid?
+11. Should I renew PLOC before or after renewing my ICA LTVP?
+12. How do I get PLOC again after renewing LTVP if I skipped the tick box?
+13. Who renews an employer LOC for an ICA LTVP holder?
+14. Does PLOC die when my LTVP expires?
+15. Do I need to cancel PLOC when I stop working?
+
+---
+
 ## Loop B — Family + Belong (tick 21) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick21-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #155. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

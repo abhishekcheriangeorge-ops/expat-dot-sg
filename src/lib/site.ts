@@ -645,9 +645,19 @@ export const pillars: Pillar[] = [
         blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
       },
       {
+        label: "Spouse LTVP renewal / LLE window",
+        href: "/guides/spouse-ltvp-renewal-pmla-lle-window-singapore",
+        blurb: "≥3 months early; LLE 1-year use-it; PMLA ≠ renewal form.",
+      },
+      {
         label: "PLOC / LOC work rights",
         href: "/guides/ploc-loc-ica-ltvp-singapore",
         blurb: "ICA spouse/child LTVP work — PLOC vs employer LOC.",
+      },
+      {
+        label: "PLOC renewal — LTVP first",
+        href: "/guides/ploc-renewal-ltvp-sequencing-singapore",
+        blurb: "Renew ICA LTVP first; PLOC dies with the pass.",
       },
       {
         label: "Student PR",
@@ -698,6 +708,11 @@ export const pillars: Pillar[] = [
         label: "Transfer REP to new passport",
         href: "/guides/transfer-rep-new-passport",
         blurb: "New passport ≠ auto REP — ICA transfer before you fly.",
+      },
+      {
+        label: "NRIC re-reg overseas return",
+        href: "/guides/nric-reregistration-overseas-return-singapore",
+        blurb: "One year after return; collect in Singapore — not at missions.",
       },
       {
         label: "After getting PR",
