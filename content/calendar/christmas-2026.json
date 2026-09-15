@@ -1,0 +1,12 @@
+{
+  "type": "event",
+  "slug": "christmas-2026",
+  "title": "Christmas Day public holiday",
+  "summary": "Fri 25 Dec 2026 is Christmas Day. Many international schools are already on year-end break; offices often thin out the week before — useful marker for leaving playbooks and visitor hosting.",
+  "date": "2026-12-25",
+  "recurring": true,
+  "venue": "Island-wide",
+  "audience": ["everyone", "families"],
+  "href": "https://www.mom.gov.sg/employment-practices/public-holidays",
+  "featured": false
+}

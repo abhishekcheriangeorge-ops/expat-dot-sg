@@ -9,7 +9,7 @@ import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildPageMetadata({
   title: "Events & kids calendar",
   description:
-    "Singapore expat calendar — MOE holidays, Good Friday / Labour Day / Vesak, AEIS/S-AEIS and P1 windows, IRAS tax season, international-school apps, festivals, and community anchors.",
+    "Singapore expat calendar — MOE holidays and Teachers’/Youth/Children’s Day, Hari Raya Haji, Christmas, New Year 2027 / EP uplift, AEIS/S-AEIS and P1 windows, IRAS tax season, international-school apps, festivals, and community anchors.",
   path: "/calendar",
 });
 
@@ -31,7 +31,7 @@ export default async function CalendarPage() {
       <JourneyHero
         eyebrow="Calendar"
         title="School holidays, application windows, and the weeks families plan around."
-        summary="MOE term breaks, Good Friday / Labour Day / Vesak, AEIS/S-AEIS and P1 registration seasons, IRAS e-Filing deadlines, international-school admissions, plus festivals and community anchors."
+        summary="MOE term breaks and Teachers’/Youth/Children’s Day, Hari Raya Haji, Christmas, New Year 2027 / EP uplift, AEIS/S-AEIS and P1 seasons, IRAS e-Filing, international-school admissions, plus festivals and community anchors."
       />
       <CalendarBoard events={events} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">

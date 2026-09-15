@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 5)
+
+Branch: `loop/e-journeys-tools-tick5` → PR to `main` (fresh worktree off `origin/main` after tick 3 [#53](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/53) merged; while [#66](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/66) tick 4 remained open). Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok. **Avoided #66 paths** (`pre-arrival`, `lease-notice`, Good Friday / Labour Day / Vesak, day-7 / day-30, leaving-singapore).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Dependant Pass + government-school fee myths ([DP + gov education](https://www.reddit.com/r/askSingapore/comments/1jfc9e5/dependent_pass_and_government_education/)).
+- Arrival / Singpass / bank sequencing heat when dependants land after the main EP (forum folklore that the sponsor’s card “covers” family KYC — it does not).
+
+**Official / primary**
+
+- [MOM — Apply for a Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass/apply-for-a-pass) (apply with main pass or later; do not bring family before approval; visit-pass extension limits).
+- [MOM — Apply for an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass) (IPA: ~6 months to enter and get pass issued; notification letter ~1 month).
+- [MOM — Extend IPA validity](https://www.mom.gov.sg/faq/work-pass-general/how-do-i-extend-the-validity-of-an-in-principle-approval-ipa) (≥2 weeks before expiry).
+- [ICA — Student’s Pass exemptions for valid DP holders](https://www.ica.gov.sg/reside/STP/apply).
+- [MOE — non-citizen school fees 2024–2026](https://www.moe.gov.sg/news/press-releases/20231018-revised-school-fees-for-non-citizens-in-government-and-government-aided-schools-for-2024-to-2026).
+- [MOM public holidays 2026](https://www.mom.gov.sg/employment-practices/public-holidays) — Hari Raya Haji 27 May 2026; Christmas 25 Dec 2026; New Year 1 Jan 2027.
+
+### Gaps vs Loop E ticks 1–4
+
+Ticks 1–3 on main: arriving boards, leaving IR21/STVP, AEIS/tax calendar, setup-cash / lease-duty / EP tables, between-jobs, tax-residency, EP uplift + Youth/Teachers’/Children’s Day. Tick 4 (#66 open): pre-arrival, lease-notice, Good Friday / Labour Day / Vesak. Remaining high-intent gaps: **family joining later**, **IPA enter-and-issue window sketch**, **Hari Raya Haji / Christmas / NY2027 markers**. Skipped pillar MDX and all #66-unique files.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/family-joining.json` + `/journeys/family-joining`
+- Journeys index wiring
+- `day-90.json` — family-joining awareness item (did **not** touch day-7 / day-30)
+
+**Tools**
+
+- `src/lib/tools/ipa-window.ts`
+- `src/components/tools/IpaWindowCalculator.tsx`
+- `/tools/ipa-window` + tools index + sitemap
+
+**Calendar**
+
+- `hari-raya-haji-2026.json`, `christmas-2026.json`, `new-year-2027.json`
+- Calendar hub copy (additive)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did **not** edit pillar guide MDX trees.
+- Did **not** touch #66 files (`pre-arrival`, `lease-notice`, GF/Labour/Vesak, day-7/30, leaving-singapore).
+
+### Questions mined (sample)
+
+1. Can I apply for my spouse’s Dependant Pass after I already hold an EP?
+2. Should my family fly before the DP IPA is approved?
+3. How long does a typical EP IPA give me to enter and get issued?
+4. What happens if we miss the IPA window — can HR extend it?
+5. Does my EP card let my spouse open a bank account on day one?
+6. Do DP kids need a Student’s Pass for full-time school?
+7. Are government-school fees subsidised because I pay Singapore tax?
+8. When is Hari Raya Haji in 2026 relative to June school holidays?
+9. How should we stack Christmas leave with year-end IS breaks?
+10. Why does New Year’s Day 2027 matter for EP offers?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 15)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick15-49cb` → PR to `main` (fresh worktree off `origin/main` @ `1f3e1ca` post-H17/#102; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#111](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/111) A8–A14 stay open — **did not** edit those paths).
