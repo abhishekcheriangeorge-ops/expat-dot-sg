@@ -634,6 +634,21 @@ export const pillars: Pillar[] = [
         blurb: "Ask for up to 90 days stay — not work rights — after EP cancel.",
       },
       {
+        label: "STVP vs Special Pass myths",
+        href: "/guides/stvp-after-ep-cancel-special-pass-myths-singapore",
+        blurb: "EP cancel → STVP; Work Permit Special Pass is a different rail.",
+      },
+      {
+        label: "ORAL foreign renunciation proof",
+        href: "/guides/oral-foreign-renunciation-proof-before-22-singapore",
+        blurb: "Home-country certificate + mission pack before the 22nd birthday.",
+      },
+      {
+        label: "Aged-parent LTVP renewal",
+        href: "/guides/aged-parent-ltvp-renewal-sponsor-change-singapore",
+        blurb: "Renew ≥3 months early; notify ICA if the sponsor withdraws.",
+      },
+      {
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",

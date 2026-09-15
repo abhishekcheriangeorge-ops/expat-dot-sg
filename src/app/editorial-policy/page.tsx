@@ -65,11 +65,12 @@ export default function EditorialPolicyPage() {
             PLOC / LOC work rights, student PR national-exam row, EP job-loss
             → spouse LTVP bridges, Right of Entry for under-21 dual-passport
             SCs, citizenship confirmation letters, EP renewal NOA / document
-            asks, Re-Entry Permit rules and passport transfers, PR
-            name-change passport-first, lost NRIC overseas return, graduate
-            LTVP IHL list / renewal edges, citizenship application and ORAL,
-            adult SC renunciation, NRIC loss / address / re-registration /
-            name change, NS, exits). When agencies publish dated
+            asks, Re-Entry Permit rules and passport transfers, ORAL foreign
+            renunciation proof before 22, aged-parent LTVP renewal / sponsor
+            change, STVP vs Special Pass myths after EP cancel, citizenship
+            application and ORAL, adult SC renunciation, NRIC loss /
+            address / re-registration / name change, NS, exits). When agencies
+            publish dated
             revisions (for example MHA / ICA REP process changes), we prefer the
             live notice and FAQ over older forum “reinstatement” folklore. Peer
             anecdotes illustrate uncertainty; they never replace agency text. We
