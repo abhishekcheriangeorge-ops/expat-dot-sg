@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "pet-relocation",
   "name": "Pet relocation agents (category guide)",
-  "summary": "AVS-recognised pet agents for import/export clearance — licences, CAPQ, rabies serology clocks, and the April 2026 CAPQ agent rule.",
-  "body": "Pet relocation is a compliance project, not a courier add-on. AVS requires a pet licence (PALS), an import licence before arrival, vaccination and rabies-serology records where applicable, and CAPQ clearance — from 1 April 2026, personal-pet import clearance at CAPQ must run through an AVS-recognised pet agent. Pick from the published AVS-recognised list, not a Facebook recommendation alone; the list is not an endorsement ranking. Confirm who books CAPQ, who holds original vet certificates, crate IATA compliance, and whether quarantine applies for your origin category. Export for a home leave still needs the destination country’s rules on the way out and full Singapore import rules on return. Budget agent fees separately from airline pet charges and Customs GST permits. Pair with the importing-pets guide before you buy non-refundable flights.",
+  "summary": "AVS-recognised pet agents for import/export clearance \u2014 licences, CAPQ, rabies serology clocks, and the April 2026 CAPQ agent rule.",
+  "body": "Pet relocation is a compliance project, not a courier add-on. AVS requires a pet licence (PALS), an import licence before arrival, vaccination and rabies-serology records where applicable, and CAPQ clearance \u2014 from 1 April 2026, personal-pet import clearance at CAPQ must run through an AVS-recognised pet agent. Pick from the published AVS-recognised list, not a Facebook recommendation alone; the list is not an endorsement ranking. Confirm who books CAPQ, who holds original vet certificates, crate IATA compliance, and whether quarantine applies for your origin category. Export for a home leave still needs the destination country\u2019s rules on the way out and full Singapore import rules on return. Budget agent fees separately from airline pet charges and Customs GST permits. Pair with the importing-pets guide before you buy non-refundable flights. Once CAPQ clears, switch from the relocation agent to a neighbourhood AVS-aligned veterinary clinic for boosters, licences, and emergencies \u2014 agent import packages rarely include ongoing GP-vet care.",
   "category": "movers",
   "areasServed": [
     "Islandwide",
@@ -13,19 +13,20 @@
     "Importing a dog or cat into Singapore",
     "Need an AVS-recognised agent for CAPQ clearance",
     "Rabies titre / Schedule timing is on the critical path",
-    "Exporting a pet and returning under full import rules"
+    "Exporting a pet and returning under full import rules",
+    "Import done \u2014 need local vet for vaccines and emergencies"
   ],
   "officialLinks": [
     {
-      "label": "AVS — Importing dogs and cats",
+      "label": "AVS \u2014 Importing dogs and cats",
       "url": "https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/"
     },
     {
-      "label": "AVS — Pet import/export general information (recognised agents)",
+      "label": "AVS \u2014 Pet import/export general information (recognised agents)",
       "url": "https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/general-information/"
     },
     {
-      "label": "AVS — Changi Animal & Plant Quarantine (CAPQ)",
+      "label": "AVS \u2014 Changi Animal & Plant Quarantine (CAPQ)",
       "url": "https://avs.nparks.gov.sg/about-us/our-centres/changi-animal-plant-quarantine-station/"
     }
   ],

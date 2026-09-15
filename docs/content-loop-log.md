@@ -6,6 +6,76 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 4 — 2026-09-15
+
+Branch: `cursor/services-directory-tick4-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–3 topics (tax / dental / notary-as-primary / storage / pets-relocation-as-primary / mental health / licence / aircon / private-health-as-primary / FDW DIY / pest / furniture / end-of-lease cleaning / confinement nanny / car sharing).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — private physio rates / package hard-sell / insurer caps ([physio recommendations](https://www.reddit.com/r/askSingapore/comments/1l6owj5/physiotherapist_recommendations/); [sciatica no package](https://www.reddit.com/r/askSingapore/comments/1sjx7er/physiotherapist_for_sciatica_no_hardshell_package/); [knee rehab](https://www.reddit.com/r/askSingapore/comments/1t6cbso/recommendations_for_good_physiotherapists_for/); [how people pay](https://www.reddit.com/r/askSingapore/comments/1nljhdz/how_are_people_paying_for_physiotherapy/)).
+- r/askSingapore — optometrist vs ophthalmologist triage ([eye health vs specs](https://www.reddit.com/r/askSingapore/comments/1sadsbc/do_optometrists_check_your_eye_health_or_just_fix/)).
+- r/askSingapore — EP bank KYC without lease / hotel address ([DBS proof of residence](https://www.reddit.com/r/askSingapore/comments/19amqw7/opening_bank_account_with_dbs_as_expat/); [no proof of residence](https://www.reddit.com/r/askSingapore/comments/yyhalq/opening_a_bank_account_without_proof_of_residence/); [hotel stay EP](https://www.reddit.com/r/askSingapore/comments/1soom3o/anyone_on_ep_have_luck_opening_a_bank_account/)).
+- r/askSingapore — wills vs CPF nomination adjacency ([write will donate](https://www.reddit.com/r/askSingapore/comments/1e0lqb5/how_to_write_will_to_donate_organs_and_money/)).
+- Pet daily-care heat after import (AVS licence / clinic continuity) adjacent to existing relocation threads.
+
+**Official**
+
+- [AHPC — Allied health registers](https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/) + [AHPC home](https://www.ahpc.gov.sg/).
+- [Optometrists & Opticians Board](https://www.oob.gov.sg/) + [SNEC](https://www.snec.com.sg/).
+- [NParks / AVS](https://www.nparks.gov.sg/avs) + pet licensing / import pages.
+- [DBS — Account opening documents](https://www.dbs.com.sg/personal/support/bank-account-opening-documents-required) + [MAS banking regulation](https://www.mas.gov.sg/regulation/banking) + [Singpass](https://www.singpass.gov.sg/main/).
+- [Judiciary — Probate](https://www.judiciary.gov.sg/family/apply-for-probate) + [CPF nomination](https://www.cpf.gov.sg/member/account-services/providing-for-your-loved-ones/making-a-cpf-nomination) + [MinLaw find a lawyer](https://www.mlaw.gov.sg/legal-industry/find-a-lawyer/) + [SAL legalisation](https://legalisation.sal.sg/).
+- [MOM — WICA](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation).
+
+### Gaps vs ticks 1–3
+
+Ticks 1–3 covered tax/dental/notary/storage/pet-relocation, mental health/licence/aircon/private health/FDW DIY, and pest/furniture/cleaning/confinement-nanny/car-share. Remaining high-intent **directory** gaps matched this mine: **AHPC physio vs package hard-sell**, **optometrist vs ophthalmologist**, **post-import vet continuity**, **EP hotel KYC / employer address letters**, and **will-writing vs CPF nomination** (separate from family-law counsel upgrades in flight on tick 3).
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/physiotherapy-rehab.json`
+- `content/entities/services/optical-eye-care.json`
+- `content/entities/services/veterinary-clinics.json`
+- `content/entities/services/bank-account-opening.json`
+- `content/entities/services/will-writing-probate.json`
+
+**Upgraded existing** (avoided tick-3 touch set)
+
+- Clinics: `parkway-shenton.json`, `raffles-medical.json`, `smg.json`
+- Insurance brands + category: `aia-singapore.json`, `prudential-singapore.json`, `private-health-insurance.json`
+- Pets / docs / telecom: `pet-relocation.json`, `notary-apostille.json`, `telecom-setup-help.json`
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion (`featured`/`sponsored` remain false on new entities).
+- No Grok / third-party clone copy.
+- Did not re-litigate ticks 1–3 primary topics beyond cross-links.
+- Did not edit neighbourhoods, schools, clubs, or pillar guide MDX trees.
+- Did not modify tick-3 in-flight files (pest/furniture/cleaning/nanny/car-share + FDW/agent/family-law touch set) to keep merge conflict surface small.
+
+### Questions mined (sample)
+
+1. How much does private physiotherapy cost, and will my group plan pay?
+2. Are multi-session physio packages a hard-sell I should refuse?
+3. Do I need AHPC registration to trust a clinic WhatsApp physio?
+4. Can a mall optometrist diagnose eye disease, or do I need ophthalmology?
+5. What does a corporate optical benefit actually cover?
+6. After pet import, which vet do I use for boosters and emergencies?
+7. Can I open a DBS/OCBC account while still in a hotel on EP?
+8. Will an employer letter fix proof-of-address KYC rejects?
+9. Does a Singapore will move my CPF, or do I need a CPF nomination?
+10. Will a UK probate unfreeze my Singapore bank accounts?
+
+---
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 7)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick7-49cb` → PR to `main` (fresh worktree off `origin/main` while [#56](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/56) A6 is still open — **did not** edit A6 ONE/EntrePass/DP/side-income/CPF/bank/salary paths).

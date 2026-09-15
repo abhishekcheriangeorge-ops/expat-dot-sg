@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "optical-eye-care",
+  "name": "Optical & eye care (category guide)",
+  "summary": "Optometrist vs ophthalmologist triage for foreigners \u2014 mall refraction vs disease workups, OOB registration checks, and when polyclinic referral beats Specsavers-speed.",
+  "body": "Mall optometrists are for refraction, contact-lens fittings, and routine spectacle updates \u2014 not for sudden vision loss, eye pain, flashes/floaters, or suspected disease. Optometrists and opticians must be registered with the Optometrists & Opticians Board (OOB); ask for the name on the register if a chain desk is vague. Disease workups belong with an ophthalmologist, usually via polyclinic or private GP referral (Singapore National Eye Centre and hospital eye departments are the public anchors). Foreigners pay unsubsidised rates on public pathways; private eye clinics bill cash/card unless your group plan lists outpatient ophthalmology. Corporate \u2018optical benefits\u2019 often mean a spectacle subsidy, not medical eye care \u2014 do not assume a retail voucher covers a retina consult. Bring prior prescriptions and any myopia-control history for kids; progressive and office lenses need real binocular testing, not a two-minute auto-refract. This is a category guide, not a ranked optical-chain list \u2014 verify OOB registration and insurer optical vs medical lines yourself.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need spectacles / contacts \u2014 OOB-registered optometrist",
+    "Sudden vision change / pain / flashes \u2014 ophthalmology path",
+    "Corporate optical voucher vs real medical eye cover unclear",
+    "Comparing private eye clinic cash rates vs polyclinic referral"
+  ],
+  "officialLinks": [
+    {
+      "label": "Optometrists & Opticians Board",
+      "url": "https://www.oob.gov.sg/"
+    },
+    {
+      "label": "Singapore National Eye Centre",
+      "url": "https://www.snec.com.sg/"
+    },
+    {
+      "label": "MOH \u2014 Finding healthcare services",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "dental-care-foreigners-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
