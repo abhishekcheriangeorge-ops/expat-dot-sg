@@ -83,15 +83,17 @@ export default function AboutPage() {
               adult SC renunciation, NRIC loss / re-registration / name change,
               child and spouse PR sponsorship, aged-parent PR vs LTVP,
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
-              EP job-loss → spouse LTVP bridges, Right of Entry for under-21
-              dual-passport SCs, citizenship confirmation letters,
-              REP passport transfers, NRIC re-registration overseas
-              return, confirmation letter for foreign authorities,
-              FWA → TAFEP escalation for EP / S Pass, IPA-before-resign
-              calendar for EP / S Pass pivots, annual leave encashment vs
-              notice offset, unpaid retrenchment benefit TADM vs TAFEP,
-              EP renewal NOA asks, pass cancellations) are checked against
-              live ICA / MOM / MHA text before we ship.
+              NRIC re-registration at 30 / 55, eCOA address changes,
+              Singapore Citizenship Journey after IPA,
+              WICA light-duty / claim clocks, EP training-bond resign
+              after IPA, SAL e-Apostille for notarised and ACRA docs,
+              PLOC / LOC renewal sequencing, EP cancel → spouse LTVP
+              same-week checklist, annual stay/exit review calendar,
+              PEP vs ONE Pass vs Tech.Pass chooser, EntrePass vs resident
+              director, IR21 vs pass-cancel vs STVP sequencing,
+              REP passport transfers, EP renewal NOA asks, pass
+              cancellations) are checked against live ICA / MOM / MHA text
+              before we ship.
             </li>
             <li>
               Directories for neighbourhoods, schools, clubs, and services —
