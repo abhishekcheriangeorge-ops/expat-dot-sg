@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 16)
+
+Branch: `cursor/e-journeys-tools-tick16-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#147/#156 on tip). **Did not wait for merges.** Avoided open E stack exclusive **#164** (mover-lift / foreign-licence). Prefer merge order note: **#164 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IRAS / bank letters after lease end; SingPost redirection folklore; friend-as-mailbox burnout.
+- r/askSingapore / HDB threads — renovation deposit refund lag; defect re-inspection holding cash after movers leave.
+
+**Official / orientation**
+
+- [SingPost](https://www.singpost.com/) redirection / mail products framing
+- HDB / town-council renovation deposit norms (permit-specific)
+
+### Gaps vs open E stack through #164
+
+Open **#164** covers mover lift booking + foreign licence clock. Remaining high-intent gaps **off that path set**: **mail forward / PO box exit**, **HDB reno deposit return sketch**. No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/mail-forward-exit.json` + `/journeys/mail-forward-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/hdb-reno-deposit.ts`
+- `src/components/tools/HdbRenoDepositCalculator.tsx`
+- `/tools/hdb-reno-deposit` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #164 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. When should SingPost redirection start relative to key return?
+2. Do registered letters follow ordinary redirection?
+3. Is a friend’s address safer than a virtual mailbox?
+4. Which senders still post paper after e-statements?
+5. How long should redirection run after landing abroad?
+6. How many days does an HDB reno deposit usually take to return?
+7. What if inspection finds minor defects?
+8. Should the refund cheque go to the redirected address?
+9. Can major non-compliance forfeit the whole deposit?
+10. How do I float cash while the cheque is in transit?
+
+---
+
+---
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 23)
 
 Branch: `cursor/loop-d-next-polish-tick23-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169) / [#177](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/177) / [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183).

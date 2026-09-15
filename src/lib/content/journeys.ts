@@ -130,3 +130,7 @@ export async function getNewbornSpecialPassPlaybook(): Promise<LeavingPlaybook |
 export async function getCondoMcstExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("condo-mcst-exit.json");
 }
+
+export async function getMailForwardExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("mail-forward-exit.json");
+}

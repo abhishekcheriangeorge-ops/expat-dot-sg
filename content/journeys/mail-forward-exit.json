@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "mail-forward-exit",
+  "title": "Mail forward / PO box exit",
+  "summary": "Leaving Singapore without losing IRAS, bank, school, and condo letters — SingPost redirection, virtual mailbox options, and what not to assume about “email everything.”",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-senders",
+      "title": "Inventory who still posts paper",
+      "body": "Leavers discover too late that IRAS, CPF Board, banks, insurers, schools, and MCST still mail originals. List every entity that has your Singapore residential address before you cancel the lease. Updating Singpass contact email does not rewrite every legacy mailing list.",
+      "bullets": [
+        "Export a one-page list: banks, IRAS/CPF, insurers, school, condo MCST, telco, clubs",
+        "Screenshot last paper statements with the printed address line",
+        "Mark which senders can switch to e-statements this week"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "singpost-redirect",
+      "title": "SingPost redirection vs hope",
+      "body": "A temporary mail redirection (when offered for your product) buys time; it is not a forever address. Confirm start date, duration, local vs overseas destination rules, and what happens to parcels. Do not assume registered mail and courier labels follow the same path as ordinary letters.",
+      "bullets": [
+        "Start redirection before keys are returned — not the week after you fly",
+        "Keep proof of the redirection application and end date",
+        "Test with a self-addressed letter before cancel day when possible"
+      ],
+      "href": "https://www.singpost.com/"
+    },
+    {
+      "id": "virtual-mailbox",
+      "title": "Virtual mailbox / friend address trade-offs",
+      "body": "Some households use a Singapore virtual mailbox or a trusted friend’s unit for the last months of IRAS and bank post. Friends burn out; virtual services have KYC and scanning fees. Pick one durable path and update every sender — splitting mail across three “temporary” addresses loses originals.",
+      "bullets": [
+        "Prefer one forwarding destination for the whole household",
+        "Budget scanning / storage fees separately from flight cash",
+        "Revoke friend-address privileges in writing when the window ends"
+      ],
+      "href": "/journeys/singpass-myinfo-exit"
+    },
+    {
+      "id": "gov-and-bank",
+      "title": "Gov and bank originals",
+      "body": "NOA, tax clearance letters, and some bank closure confirmations still arrive on paper for some profiles. Pair mail strategy with Singpass / Myinfo exit so OTP SMS stays alive while you chase missing envelopes. CPF and IRAS portals reduce — but do not always eliminate — physical mail.",
+      "bullets": [
+        "Download digital copies the day they appear online",
+        "Keep one +65 OTP path until closure letters stop arriving",
+        "Do not shred Singapore originals until the destination country is done with them"
+      ],
+      "href": "/tools/sim-otp-keep"
+    },
+    {
+      "id": "reno-overlap",
+      "title": "HDB / reno deposit letters",
+      "body": "HDB renovation permit deposits and town-council notices can land after you have already left. Sketch expected refund timing so a missing cheque does not coincide with a dead mailbox. If works were done, treat the deposit return address as a first-class exit task.",
+      "bullets": [
+        "Update the deposit refund address before reinstatement inspection",
+        "Sketch cash timing on /tools/hdb-reno-deposit",
+        "Keep the permit reference number in the leave folder"
+      ],
+      "href": "/tools/hdb-reno-deposit"
+    },
+    {
+      "id": "close-the-loop",
+      "title": "Close the loop after landing abroad",
+      "body": "Two weeks after arrival, audit which senders still used the old address. Chase stragglers while redirection still runs. After redirection ends, undeliverable mail is gone — not “waiting for you at the void deck.”",
+      "bullets": [
+        "Calendar a post-landing mail audit",
+        "Cancel redirection only after the critical letters arrive",
+        "Update clubs, alumni, and magazine subscriptions last — they linger longest"
+      ],
+      "href": "/journeys/leaving"
+    }
+  ]
+}
