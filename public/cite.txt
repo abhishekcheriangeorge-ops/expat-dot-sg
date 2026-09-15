@@ -1,0 +1,19 @@
+# Citation discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## How to cite
+- Prefer guide canonical URLs from https://expat.sg/sitemap.xml
+- Publisher: expat.sg
+- Language: en-SG
+
+## Notes
+- CreativeWork / citation ItemList helpers live in seo-cite.ts (app shell).
+- Pair with press.txt for media attribution.
+
+## Related
+- https://expat.sg/press.txt
+- https://expat.sg/editorial.txt
+- https://expat.sg/brand.txt
+- https://expat.sg/sitemap.xml

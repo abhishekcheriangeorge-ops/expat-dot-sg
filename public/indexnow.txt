@@ -1,0 +1,18 @@
+# IndexNow / crawl notify map — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Canonical discovery
+- https://expat.sg/sitemap.xml
+- https://expat.sg/map.txt
+- https://expat.sg/status.txt
+
+## Notes
+- No IndexNow API key published in-repo yet — this file documents intent.
+- Prefer sitemap lastmod after merge controller lands stacked tips.
+
+## Related
+- https://expat.sg/feeds.txt
+- https://expat.sg/changelog.txt
+- https://expat.sg/browse.txt

@@ -1,0 +1,19 @@
+# Media assets discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Assets
+- Open Graph default: https://expat.sg/opengraph-image
+- Favicon: https://expat.sg/favicon.ico
+- Hero / mode imagery: under /images (see ATTRIBUTION.md)
+
+## Notes
+- For embeds, prefer linking to guide/hub pages over hotlinking assets.
+- ImageObject helpers: seo-image.ts (earlier tip).
+
+## Related
+- https://expat.sg/brand.txt
+- https://expat.sg/press.txt
+- https://expat.sg/cite.txt
+- https://expat.sg/sitemap.xml
