@@ -6,6 +6,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 15) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick15-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/schools entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), and #108 (grandparents/bilingual homework/youth volunteering).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — dual-career June/December holiday coverage panic; camp waitlists; helper home leave collisions.
+- r/askSingapore — IS CCA trials, sideline parent friendships, competitive vs recreational tracks.
+- r/askSingapore — teen holiday internships / job shadowing / “is unpaid legal?” threads.
+
+**Official**
+
+- [MOE school calendar](https://www.moe.gov.sg/calendar) + [MOM leave](https://www.mom.gov.sg/employment-practices/leave).
+- [MOE CCA context](https://www.moe.gov.sg/education-in-sg/our-programmes/ccas).
+- [MOM employment of children and young persons](https://www.mom.gov.sg/employment-practices/employment-of-children-and-young-persons).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–14 (incl. open #80/#91/#100/#108) covered schools/SEN through youth volunteering. Remaining heat: **dual-career school-holiday coverage ops**, **IS CCA belonging**, **teen internship/work-experience belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/school-holiday-coverage-dual-career-singapore.mdx`
+- `content/guides/belong/international-school-cca-belonging-singapore.mdx`
+- `content/guides/belong/teen-internships-work-experience-singapore.mdx`
+
+**Upgraded guides** (low-conflict vs open B stack)
+
+- secondary IB/A-Level, membership clubs, indoor hobbies, hash, chambers, special needs, American vs Tanglin
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/clubs/british-club.json`
+- `content/entities/clubs/singapore-cricket-club.json`
+- `content/entities/schools/dulwich-college-singapore.json`
+- `content/entities/schools/acs-international.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite open #80 / #91 / #100 / #108 bodies; avoided contested files in that stack where possible.
+
+### Questions mined (sample)
+
+1. When should dual EP households book June camps?
+2. How do we cover half-day camps without a helper?
+3. Is one recreational CCA enough for belonging in year one?
+4. Do competitive CCA pathways destroy weekend family time?
+5. Are unpaid teen internships legal for DP holders?
+6. Can chambers help with holiday shadow weeks?
+7. Should internships replace a holiday camp week?
+8. How do parents make friends on CCA sidelines without being pushy?
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 14) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick14-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), and #100 (primary transition/IS boarding/youth performing arts).
