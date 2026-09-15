@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 9)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick9-49cb` → PR to `main` (fresh worktree off `origin/main` @ A7/#61 merged; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8 is still open — **did not** edit A8 job-change / Student’s Pass / LTVP / notify / remittance / health LOG / CPF withdrawal paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP salary floors vs COMPASS / “no EP quota” HR scripts ([EP tightening](https://www.reddit.com/r/askSingapore/comments/1porrdk/is_singapores_ep_quota_tightening_backfiring/); [S Pass on DP](https://www.reddit.com/r/askSingapore/comments/1sxxf18/is_it_very_hard_to_get_an_s_pass_job_while_on_a/); [DP career trap](https://www.reddit.com/r/askSingapore/comments/1ranfcm/spouse_got_a_dream_job_offer_in_singapore_but_the/)).
+- r/askSingapore — tax residency timing / July-start folklore and first NOA / GIRO cashflow (peer threads paired with [IRAS residency tests](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency)).
+- r/askSingapore — COR vs EP card for brokers; ACRA “buy company get EP” packages; appeal vs refile after COMPASS miss.
+
+**Official**
+
+- [MOM — Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass) + [eligibility / COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)
+- [MOM — Appeal against a rejected EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/appeal-against-a-rejected-application)
+- [IRAS — Working out my tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency)
+- [IRAS — Apply for Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence)
+- [ACRA — Requirements & eligibility (foreigners)](https://www.acra.gov.sg/register/business/requirements-eligibility/)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–7 on main + open A8 (#68) cover FCF/S Pass/offer/WHP/TG/year-one FAQPages plus (in #68) job-change IR21 / Student’s Pass / LTVP / notify / remittance / LOG / CPF exit. Remaining high-intent hubs still thin on FAQPage: **EP hub salary/COMPASS/IPA FAQPage**, **IRAS tax residency myths FAQPage**, **7/30/90 relocation sequencing FAQPage**, plus deepen **COMPASS** (2025 floor vs C1; no-quota), **COR** (≠ SG tax cut; first-months), **appeal vs refile**, **ACRA ≠ EP**. Left A8 paths and Next EP-renewal NOA / between-jobs STVP alone.
+
+### Shipped this loop
+
+**Upgraded guides (FAQPage + depth)**
+
+- `content/guides/move/employment-pass-singapore.mdx` (new FAQPage)
+- `content/guides/money/iras-tax-residency-filing.mdx` (new FAQPage)
+- `content/guides/move/relocation-checklist-7-30-90.mdx` (new FAQPage)
+- `content/guides/move/compass-framework-explained.mdx` (+2 FAQs)
+- `content/guides/money/certificate-of-residence-dta.mdx` (+2 FAQs)
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx` (+1 FAQ)
+- `content/guides/move/incorporate-company-foreigner-singapore.mdx` (+1 FAQ)
+- `src/lib/site.ts` (COMPASS / incorporate / relocation guide + COR topics; EP & tax blurbs)
+- `content/entities/services/intact-immigration.json` (COMPASS floor-vs-C1 + ACRA≠EP engage paths)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A8 paths (changing-jobs / student-pass / ltvp / ep-notify / remittances / health-insurance / cpf-withdrawal).
+- Did not re-own Loop H STVP/housing/banking AEO or Loop D EP-renewal NOA.
+- Did not edit Family / Belong / Home / Life heavily.
+
+### Questions mined (sample)
+
+1. What is the EP qualifying salary in 2025–2026?
+2. Is clearing the salary floor enough for IPA?
+3. Does EP have a foreign-worker quota?
+4. Can I start work on IPA before card issuance?
+5. Is tax residency the same as holding an EP?
+6. Should I delay start until after 1 July to avoid tax?
+7. Does a ≥1-year pass make me a tax resident automatically?
+8. What must happen in week one vs days 30–90?
+9. Is C1 the same as the EP qualifying floor?
+10. Does COR reduce my Singapore tax bill?
+11. Should I appeal or refile after a COMPASS rejection?
+12. Does incorporating a Pte Ltd give me an EP?
+
+---
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 8)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick8-49cb` → PR to `main` (fresh worktree off `origin/main` after A6/#56 merged; while [#61](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/61) A7 is still open — **did not** edit A7 FCF/S Pass/job-offer/WHP/TG/year-one paths).
