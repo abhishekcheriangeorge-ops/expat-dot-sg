@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.nccs.com.sg/",
-  "whenToEngage": "After a suspicious imaging or biopsy result, when you need staging or treatment planning, when continuing overseas cancer therapy in Singapore, or when reviewing insurance coverage before starting chemo or radiotherapy.",
+  "whenToEngage": [
+    "Suspicious imaging or biopsy needs staging / treatment plan",
+    "Continuing overseas cancer therapy in Singapore",
+    "Insurance pre-auth for chemo / immunotherapy unclear",
+    "Second opinion before starting radiotherapy or surgery"
+  ],
   "officialLinks": [
     {
       "label": "National Cancer Centre Singapore",

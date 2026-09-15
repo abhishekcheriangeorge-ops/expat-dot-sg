@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.moh.gov.sg/",
-  "whenToEngage": "When you need reconstruction after cancer or trauma, scar or wound problems your GP cannot manage, or you are evaluating elective aesthetic surgery and want specialist-credentialled care with clear facility standards.",
+  "whenToEngage": [
+    "Reconstruction after cancer or trauma",
+    "Scar / wound problems beyond GP care",
+    "Evaluating elective aesthetic surgery credentials",
+    "Need facility / anaesthesia standards clarity before deposit"
+  ],
   "officialLinks": [
     {
       "label": "Ministry of Health",

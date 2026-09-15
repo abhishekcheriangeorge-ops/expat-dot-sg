@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.ica.gov.sg/",
-  "whenToEngage": "When a government agency, school, employer, insurer, or court requires English versions of foreign-language documents, or when you need a professional interpreter for medical, legal, or official meetings.",
+  "whenToEngage": [
+    "ICA / school / employer needs certified English translation",
+    "Medical or legal interpreting for consent meetings",
+    "Unsure what stamp / affidavit format the receiver accepts",
+    "Rare language pair with tight filing deadline"
+  ],
   "officialLinks": [
     {
       "label": "ICA",

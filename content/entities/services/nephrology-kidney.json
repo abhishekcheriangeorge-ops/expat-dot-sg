@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.moh.gov.sg/",
-  "whenToEngage": "When creatinine or eGFR trends worry your GP, you have known CKD or transplant history, recurrent stones need metabolic workup, or you must plan dialysis or pregnancy with reduced kidney function.",
+  "whenToEngage": [
+    "Rising creatinine / eGFR trends after GP labs",
+    "Known CKD or transplant history needs Singapore follow-up",
+    "Recurrent stones need metabolic (not procedure-only) workup",
+    "Dialysis or pregnancy planning with reduced kidney function"
+  ],
   "officialLinks": [
     {
       "label": "Ministry of Health",

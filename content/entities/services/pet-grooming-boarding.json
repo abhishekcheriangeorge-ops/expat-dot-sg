@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.nparks.gov.sg/avs",
-  "whenToEngage": "When your imported pet needs routine grooming in the tropics, weekday daycare, or licensed boarding while you travel — especially before peak holiday periods.",
+  "whenToEngage": [
+    "Routine tropical-climate grooming for imported pet",
+    "Weekday daycare while owners work long hours",
+    "Licensed boarding before peak holiday travel",
+    "Anxious pet needs gradual daycare trial before long board"
+  ],
   "officialLinks": [
     {
       "label": "NParks Animal & Veterinary Service",
