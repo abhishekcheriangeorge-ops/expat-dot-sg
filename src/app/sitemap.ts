@@ -30,6 +30,7 @@ const STATIC_PATHS: Array<{
   { path: "/journeys/leaving", changeFrequency: "monthly", priority: 0.75 },
   { path: "/calendar", changeFrequency: "weekly", priority: 0.7 },
   { path: "/tools", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/tools/setup-cash", changeFrequency: "monthly", priority: 0.65 },
   { path: "/tools/cost-of-living", changeFrequency: "monthly", priority: 0.65 },
   { path: "/tools/ep-threshold", changeFrequency: "monthly", priority: 0.65 },
   { path: "/sponsored", changeFrequency: "weekly", priority: 0.55 },
