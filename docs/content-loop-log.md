@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 52)
+
+Branch: `loop/story-aeo-tick52` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 51 (`loop/story-aeo-tick51` @ `c14f57b` / [#325](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/325)). Avoided open merge-controller H file sets (#117–#325 H20–H51). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308 → #312 → #319 → #325** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “DP will renew for uni year 1 after 21.”
+- r/askSingapore — first-year DP LOC easy; renewal refused with no local hire/CPF.
+- r/askSingapore — EP medical labs pending; STVP expires tomorrow.
+
+**Official**
+
+- [MOM — Dependant’s Pass eligibility](https://www.mom.gov.sg/passes-and-permits/dependants-pass/eligibility) · DP overview · ICA Student’s Pass · EP eligibility.
+- [MOM — LOC for DP business owners](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/eligibility) · renew/cancel/replace · Local Qualifying Salary.
+- [MOM — Apply for / get EP issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass) · [ICA — Extend short-term stay](https://www.ica.gov.sg/enter-transit-depart/extend-short-term-stay).
+
+### Gaps vs open H + ticks 1–51
+
+Open: #117–#325 H20–H51. Remaining free Next FAQ-free companions included **DP child aging out at 21**, **DP LOC renewal local-hire/CPF pack**, **EP medical lab / STVP extension bridge** (plus AEIS placement still free after this tip).
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/dp-child-aging-out-21-pass-options-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/dp-loc-renewal-local-hire-cpf-pack-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-medical-lab-stvp-extension-bridge-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (DP age-21 options + DP LOC renewal CPF pack + EP medical/STVP bridge topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#325 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does child DP auto-renew after age 21?
+2. Is Student’s Pass automatic after DP ends?
+3. Is LTVP the default dump lane after aging out?
+4. When should families start the next-status plan?
+5. Can a child job-hunt on an expired DP?
+6. Can a first-year DP LOC renew without local hire?
+7. What local-hire/CPF evidence does LOC renewal need?
+8. What if there is no local hire before LOC expiry?
+9. Does ACRA shareholding waive the local-hire bar?
+10. What happens to LOC if the DP dies?
+11. What if EP medical labs miss my STVP end date?
+12. Does a slow clinic excuse overstay?
+13. What should HR upload for an STVP extension?
+14. Should I travel while labs and STVP bridge are open?
+15. Can I use a Work Permit medical PDF for EP IPA medical?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 51)
 
 Branch: `loop/story-aeo-tick51` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 50 (`loop/story-aeo-tick50` @ `5674233` / [#319](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/319)). Avoided open merge-controller H file sets (#117–#319 H20–H50). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308 → #312 → #319** before this lands. No ads / monetization; no Grok copy; no force-push main.
