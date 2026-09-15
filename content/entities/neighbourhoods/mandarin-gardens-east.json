@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "mandarin-gardens-east",
+  "name": "Mandarin Gardens East",
+  "summary": "East of Mandarin Gardens toward Siglap / Upper East Coast — quieter estate-edge living with practical east-side hops and ActiveSG catchment.",
+  "body": "Mandarin Gardens East is the shortlist when quieter estate-edge living and practical east-side hops matter more than promenade crowds. The pocket sits east of Mandarin Gardens toward Siglap / Upper East Coast edges; housing mixes mid-age condo and selective landed-edge stock. Expats land here for car-light hops to Bedok / Eunos and ActiveSG catchment without Orchard premiums. Watch-outs: cat-ladder / roof-access permit notices, limited evening bus frequency on some edges, and confusing Mandarin Gardens vs Mandarin Gardens East shortlists. Compare with Upper East Coast Fringe for beach-road adjacency, Lagoon View West for denser condo texture, and Opera Estate West when quieter landed edges win.",
+  "region": "east",
+  "vibe": [
+    "quieter-estate-edge",
+    "east-side",
+    "practical",
+    "condo-landed-mix",
+    "active-catchment"
+  ],
+  "bestFor": [
+    "households who want quieter nights than promenade strips",
+    "renters comparing Mandarin Gardens East vs Upper East Coast Fringe",
+    "people who will book ActiveSG lawn bowls weekly",
+    "car-light workers toward Bedok / Eunos"
+  ],
+  "watchOuts": [
+    "Cat-ladder / roof-access permit notices",
+    "Limited evening bus frequency on some edges",
+    "Visitor parking scarcity",
+    "Mandarin Gardens vs Mandarin Gardens East listing confusion"
+  ],
+  "housingMix": "Mid-age condo and selective landed-edge stock.",
+  "commuteNotes": "Bus / EWL gravity via Bedok / Kembangan depending on block. Walk a weekday evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 4000,
+    "familyFrom": 3600,
+    "familyTo": 7600
+  },
+  "mrt": [
+    "Bedok",
+    "Kembangan",
+    "Eunos"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
