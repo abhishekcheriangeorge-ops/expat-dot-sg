@@ -1,0 +1,20 @@
+# Help discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Start here
+- https://expat.sg/guides
+- https://expat.sg/tools
+- https://expat.sg/journeys
+- https://expat.sg/faq.txt
+- https://expat.sg/contact.txt
+
+## Notes
+- Help ItemList helpers live in seo-support.ts (app shell).
+- Editorial product — not a ticket desk.
+
+## Related
+- https://expat.sg/support.txt
+- https://expat.sg/status.txt
+- https://expat.sg/sitemap.xml
