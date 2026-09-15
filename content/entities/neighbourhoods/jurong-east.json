@@ -1,0 +1,17 @@
+{
+  "type": "neighbourhood",
+  "slug": "jurong-east",
+  "name": "Jurong East",
+  "summary": "West-region hub with mall density, hospital cluster, and EWL/NSL interchange access — strong heartland value if your office is west or you accept the CBD hop.",
+  "body": "Jurong East is the classic west heartland shortlist: IMM / JEM / Westgate errands in one node, hawker density, and an MRT interchange that makes west-office lives sane. Family HDB whole-flat rents usually beat Bukit Timah condo math; the social trade-off is fewer accidental expat lobby networks and more ActiveSG / mall-default weekends. Check HDB whole-flat vs bedroom approval carefully — west estates see plenty of room-rental listings that fail continuous-occupation or partition tests. Lakeside and Chinese Garden adjacency help weekend resets; industrial edges and occasional construction around growth plots still deserve an 8am weekday walk before you sign. Grocery mix is FairPrice-heavy with mall specialty shops; RedMart fills imported gaps. Good fit for west-office couples and families who already decided against Orchard-adjacent premiums.",
+  "region": "west",
+  "vibe": ["mall-hub", "interchange", "heartland", "family", "practical"],
+  "bestFor": ["west-office households", "families", "mall-errand optimisers", "HDB whole-flat hunters"],
+  "watchOuts": ["CBD peak-hour hops still hurt", "Unauthorised bedroom / partition listings", "Mall crowds on weekends", "Adjacent works around growth plots"],
+  "housingMix": "HDB towns, older and newer condo pockets near the hub.",
+  "commuteNotes": "East-West and North-South interchange at Jurong East; test Tuesday 08:15 door-to-desk.",
+  "rentBand": {"currency": "SGD", "oneBedFrom": 2100, "oneBedTo": 3100, "familyFrom": 2700, "familyTo": 4000},
+  "mrt": ["Jurong East"],
+  "schoolsNearby": [],
+  "featured": false
+}
