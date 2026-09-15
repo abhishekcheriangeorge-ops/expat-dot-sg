@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 15)
+
+Branch: `cursor/e-journeys-tools-tick15-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (through #139 on tip). **Did not wait for merges.** Avoided open E stack exclusives **#147** (newborn/sim-otp) and **#156** (condo/car-coe) plus earlier stack path sets. Prefer merge order note: **#147 → #156 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo/HDB service-lift booking fights; movers arriving without a bay slot; weekend blackout rules.
+- r/askSingapore — foreign licence 12-month conversion clock; BTT timing vs movers/leave week.
+
+**Official / orientation**
+
+- Estate managing-agent move-out / lift booking norms (estate-specific)
+- [SPF / Traffic Police — Singapore driving licence](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence) framing for conversion
+
+### Gaps vs open E stack through #156
+
+Open **#147/#156** cover newborn Special Pass, SIM/OTP keep, condo MCST exit, car/COE exit. Remaining high-intent gaps **off those path sets**: **mover lift / loading-bay booking**, **foreign licence conversion clock**. No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/mover-lift-booking.json` + `/journeys/mover-lift-booking`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/foreign-licence-clock.ts`
+- `src/components/tools/ForeignLicenceClockCalculator.tsx`
+- `/tools/foreign-licence-clock` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #147 / #156 exclusive paths (or earlier open-stack exclusives).
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Should I book the service lift before paying the movers deposit?
+2. Who pays the lift deposit — tenant or mover?
+3. Do HDB and condo share the same weekend blackout rules?
+4. Can I return access cards before the truck leaves?
+5. What if rain cancels the open-air loading bay?
+6. When does the foreign-licence conversion clock start?
+7. Is 12 months from arrival or from first drive?
+8. Will my need-to-drive date survive the sketched deadline?
+9. Should I convert before movers week?
+10. What if the deadline already passed?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 12)
 
 Branch: `cursor/loop-d-next-polish-tick12-d996` → PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) / [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89).

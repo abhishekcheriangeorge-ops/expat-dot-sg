@@ -4,6 +4,7 @@ export { ColCalculator } from "./ColCalculator";
 export { CpfWithdrawalCalculator } from "./CpfWithdrawalCalculator";
 export { EpThresholdCalculator } from "./EpThresholdCalculator";
 export { FdwLevyCalculator } from "./FdwLevyCalculator";
+export { ForeignLicenceClockCalculator } from "./ForeignLicenceClockCalculator";
 export { IpaWindowCalculator } from "./IpaWindowCalculator";
 export { Ir21WithholdCalculator } from "./Ir21WithholdCalculator";
 export { LeaseDutyCalculator } from "./LeaseDutyCalculator";

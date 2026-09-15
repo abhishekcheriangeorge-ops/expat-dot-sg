@@ -4,11 +4,11 @@ import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
-  getBetweenJobsPlaybook,
   getChecklists,
-  getCondoMcstExitPlaybook,
   getLeavingPlaybook,
-  getLocDpWorkRightsPlaybook,
+  getMoverLiftBookingPlaybook,
+  getPreArrivalPlaybook,
+  getSingpassMyinfoExitPlaybook,
 } from "@/lib/content";
 import {
   breadcrumbJsonLd,
@@ -19,18 +19,18 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Arriving 7/30/90 checklists, between-jobs, DP/LOC, condo MCST exit, and Leaving Singapore — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook, betweenJobs, locDp, condoExit] =
+  const [checklists, playbook, preArrival, singpassExit, moverLift] =
     await Promise.all([
       getChecklists(),
       getLeavingPlaybook(),
-      getBetweenJobsPlaybook(),
-      getLocDpWorkRightsPlaybook(),
-      getCondoMcstExitPlaybook(),
+      getPreArrivalPlaybook(),
+      getSingpassMyinfoExitPlaybook(),
+      getMoverLiftBookingPlaybook(),
     ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -50,9 +50,13 @@ export default async function JourneysIndexPage() {
           collectionPageJsonLd({
             name: "Journeys",
             description:
-              "Arriving checklists, between-jobs and DP/LOC playbooks, and Leaving Singapore.",
+              "Pre-arrival playbook, arriving checklists, and Leaving Singapore.",
             path: "/journeys",
             items: [
+              {
+                name: preArrival?.title ?? "Pre-arrival",
+                path: "/journeys/pre-arrival",
+              },
               ...arriving
                 .filter(Boolean)
                 .map((c) => ({
@@ -60,16 +64,12 @@ export default async function JourneysIndexPage() {
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
               {
-                name: betweenJobs?.title ?? "Between jobs (EP gap)",
-                path: "/journeys/between-jobs",
+                name: singpassExit?.title ?? "Singpass / Myinfo exit",
+                path: "/journeys/singpass-myinfo-exit",
               },
               {
-                name: locDp?.title ?? "DP work rights & Letter of Consent",
-                path: "/journeys/loc-dp-work-rights",
-              },
-              {
-                name: condoExit?.title ?? "Condo MCST / access exit",
-                path: "/journeys/condo-mcst-exit",
+                name: moverLift?.title ?? "Mover lift / loading-bay booking",
+                path: "/journeys/mover-lift-booking",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -86,11 +86,30 @@ export default async function JourneysIndexPage() {
       </div>
       <JourneyHero
         eyebrow="Journeys"
-        title="Checklists for arriving — playbooks for the hard transitions."
-        summary="Interior utilities for the weeks that matter. Not a dashboard; calm sequences you can tick through."
+        title="Before you land, after you land — and when you leave."
+        summary="Interior utilities for the weeks that matter. Not a dashboard; a calm sequence you can tick through."
       />
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
+        <FadeIn className="mb-16">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Before wheels-down
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {preArrival?.title ?? "Pre-arrival"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {preArrival?.summary ??
+              "IPA pack, Arrival Card window, cash bridge, and family joining later."}
+          </p>
+          <Link
+            href="/journeys/pre-arrival"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open pre-arrival playbook
+          </Link>
+        </FadeIn>
+
         <FadeIn>
           <h2 className="font-display text-2xl text-ink sm:text-3xl">
             Arriving · first 90 days
@@ -140,66 +159,55 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Next
+            Digital exit
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {betweenJobs?.title ?? "Between jobs (EP gap)"}
+            {singpassExit?.title ?? "Singpass / Myinfo exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {betweenJobs?.summary ??
-              "STVP buffer, Dependant Pass risk, and new IPA timing when you change jobs without leaving."}
-          </p>
-          <Link
-            href="/journeys/between-jobs"
-            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
-          >
-            Open between-jobs playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Family
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {locDp?.title ?? "DP work rights & Letter of Consent"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {locDp?.summary ??
-              "Dependant’s Pass is not a work pass — employee vs business-owner LOC, cascade risk, and when EP is cleaner."}
-          </p>
-          <Link
-            href="/journeys/loc-dp-work-rights"
-            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
-          >
-            Open DP / LOC playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Home exit
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {condoExit?.title ?? "Condo MCST / access exit"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {condoExit?.summary ??
-              "Access cards, car-park IU, renovation deposits, and MCST handover sequencing."}{" "}
+            {singpassExit?.summary ??
+              "Login grace vs status, Myinfo cut-off, and OTP hygiene."}{" "}
             Pair with{" "}
             <Link
-              href="/tools/car-coe-exit"
+              href="/tools/school-deposit-clawback"
               className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
             >
-              /tools/car-coe-exit
+              /tools/school-deposit-clawback
             </Link>{" "}
-            if a vehicle is leaving too.
+            when mid-year school cash is still open.
           </p>
           <Link
-            href="/journeys/condo-mcst-exit"
+            href="/journeys/singpass-myinfo-exit"
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open condo MCST exit playbook
+            Open Singpass exit playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Movers day
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {moverLift?.title ?? "Mover lift / loading-bay booking"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {moverLift?.summary ??
+              "Service lift, loading bay, and pad rules before the truck arrives."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/foreign-licence-clock"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/foreign-licence-clock
+            </Link>{" "}
+            if you still need to drive through load-out.
+          </p>
+          <Link
+            href="/journeys/mover-lift-booking"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open mover lift playbook
           </Link>
         </FadeIn>
 
@@ -220,11 +228,18 @@ export default async function JourneysIndexPage() {
             >
               Next pillar
             </Link>
-            .
+            . Sketch diplomatic-clause dates on{" "}
+            <Link
+              href="/tools/lease-notice"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/lease-notice
+            </Link>{" "}
+            before you serve notice.
           </p>
           <Link
             href="/journeys/leaving"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
           >
             Open leaving playbook
           </Link>
@@ -237,8 +252,7 @@ export default async function JourneysIndexPage() {
               href="/tools"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Light COL, lease-duty, tax-residency, EP threshold, and school
-              withdrawal tools
+              Light COL, lease, and EP threshold tools
             </Link>{" "}
             live one level down — never on the homepage.
           </p>
