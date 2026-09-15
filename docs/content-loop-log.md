@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 9)
+
+Branch: `loop/story-aeo-tick9` → PR to `main`. Owns **answer-engine shape** after tick 6 on main while ticks 7–8 stay open. Did **not** expand ads/monetization; avoided open tick-7 files (bank / housing / between-jobs / day-7/30 / arriving/leaving) and tick-8 files (haze / motor claims / DP / day-90).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “landlord won’t FWTES,” five-day address panic, passport renewed but gate rejects FIN.
+- r/askSingapore — Lemon Law vs COE car dealer scripts; CASE vs Small Claims for undelivered furniture.
+- r/askSingapore — lost blue IC vs lost EP card agency mix-ups; overseas replacement folklore.
+
+**Official**
+
+- [MOM — Notify MOM of EP changes](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) + [FWTES](https://www.mom.gov.sg/eservices/services/tes).
+- [CASE — CPFTA & Lemon Law](https://www.case.org.sg/cpfta-lemon-law/) + [Small Claims eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-small-claim).
+- [ICA — Loss of Identity Card](https://www.ica.gov.sg/documents/ic/loss).
+
+### Gaps vs ticks 1–8
+
+Ticks 1–6 shipped landing/fail AEO through scams / lost work-pass card / ICA STVP. Open tick 7 covers MOM cancel STVP + housing/bank hubs; open tick 8 covers haze / motor claims / DP. Remaining high-intent **admin / consumer / PR-card** gaps without FAQPage: **EP address/passport notify + FWTES**, **CASE/Lemon Law for foreigners**, **lost blue NRIC (ICA ≠ MOM)**.
+
+### Shipped this loop
+
+**Upgraded (AEO only)**
+
+- `content/guides/move/ep-notify-mom-address-passport.mdx` (direct lead + FAQPage)
+- `content/guides/life/case-lemon-law-consumers-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/lost-replace-nric-pr-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Move notify topic; Life Lemon Law topic; Next lost-NRIC topic)
+
+### Explicitly not done
+
+- No ads / monetization (skipped remittances `sponsorSlot`).
+- No Grok / competitor clone copy.
+- Did not edit open tick-7/8 file sets (journeys day-7/30/90, arriving/leaving pages, haze/DP/bank/housing/between-jobs bodies).
+- Did not rewrite Loop A EP eligibility trees beyond notify FAQPage shape.
+
+### Questions mined (sample)
+
+1. How many days do I have to update my EP address with MOM?
+2. Can I register a hotel or Airbnb as my EP residential address?
+3. What if my landlord will not complete FWTES?
+4. Do I need to update MOM after renewing my passport?
+5. Is MOM address update the same as ICA NRIC address update?
+6. Does Lemon Law cover foreigners on EP?
+7. Should I go to CASE or Small Claims first?
+8. Do I get an instant refund under Lemon Law?
+9. Are COE cars excluded from Lemon Law?
+10. Is losing a blue NRIC the same as losing an EP card?
+11. How soon must I report a lost NRIC to ICA?
+12. Can I replace a lost NRIC while overseas?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 3b)
 
 Branch: `cursor/loop-g-seo-tick3-a144` → PR to `main`. Follow-up to tick 3 (#57). Shell/metadata/hubs/crosslink depth only — **no** A–F/H body rewrites, **no** ads inventory / Grok.
