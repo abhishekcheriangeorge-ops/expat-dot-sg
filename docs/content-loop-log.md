@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 25)
+
+Branch: `cursor/loop-d-next-polish-tick25-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money parents for side-income, FCF, COMPASS, CPF withdrawal, leaving costs. Avoided open Loop D file set from [#201](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/201).
+
+**Merge order note (controller):** `#201 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — EP influencer / wedding / Grab “not a real job” folklore.
+- r/askSingapore — verbal offer during MCF 14-day window; resign-before-ad-ends.
+- r/askSingapore — CPF to Aussie super; REP expiry as cash-out; closure timing after renounce.
+
+**Official**
+
+- [MOM — multiple jobs FAQ](https://www.mom.gov.sg/faq/work-pass-general/can-a-work-pass-holder-work-in-multiple-jobs) · [DP overseas employer FAQ](https://www.mom.gov.sg/faq/dependants-pass/do-i-need-a-work-pass-if-i-am-self-employed-or-working-for-an-overseas-based-employer)
+- [MOM — Fair Consideration](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) · [MCF match FAQ](https://www.mom.gov.sg/faq/fair-consideration-framework/must-the-job-in-the-ep-or-s-pass-application-match-the-job-advertised-on-the-mycareersfuture)
+- [CPF — closing account](https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore) · [Online closure non-SC/non-PR](https://www.cpf.gov.sg/member/tools-and-services/forms-e-applications/apply-online-to-close-cpf-accounts-for-non-singapore-citizens-and-non-permanent-residents)
+
+### Gaps vs open stack
+
+Open #201 covers PEP/ONE/Tech chooser, EntrePass vs resident director, IR21 vs cancel vs STVP. Remaining high-intent gaps: **EP side-hustle / creator traps**, **FCF 14-day MCF clock**, **CPF closure after renouncing PR/SC**.
+
+### Shipped
+
+**New:** `ep-side-hustle-content-creator-traps-singapore.mdx`, `fcf-mycareersfuture-14-day-clock-ep-singapore.mdx`, `cpf-account-closure-after-renouncing-pr-singapore.mdx`
+
+**Upgraded:** side-income, FCF, COMPASS explained, COMPASS firm-scores, CPF withdrawal, leaving-costs (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #201 guide bodies (PEP/ONE/Tech chooser, EntrePass vs director, IR21 sequencing) and no re-edit of #201 parents (PEP, ONE, Tech, EntrePass, incorporate, tax-clearance, IR21-final-pay).
+- Did not wait for #201 merge.
+
+### Questions mined
+
+1. Is a paid IG brand deal “work” on EP?
+2. Does one wedding photography job break the pass?
+3. Can DP overseas-remote lore copy onto EP?
+4. Can HR offer during the 14-day MCF window?
+5. Must IPA salary match the MCF ad band?
+6. What screenshots prove FCF compliance before I resign?
+7. Does REP expiry cash out CPF?
+8. How long after renouncing PR does CPF closure take?
+9. Is there a CPF→Aussie super pipe?
+10. Should I renounce just for a small CPF balance?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 19)
 
 Branch: `cursor/e-journeys-tools-tick19-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#183 / Loop D22 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#196** (E18): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**). Prefer merge order note: **#173 → #186 → #196 → this tip**.
