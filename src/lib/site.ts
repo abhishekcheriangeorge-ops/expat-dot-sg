@@ -596,7 +596,7 @@ export const pillars: Pillar[] = [
       {
         label: "PLOC / LOC work rights",
         href: "/guides/ploc-loc-ica-ltvp-singapore",
-        blurb: "ICA spouse/child LTVP work — PLOC vs employer LOC.",
+        blurb: "PLOC ≠ freelance — eligible ICA LTVP spouses/kids only.",
       },
       {
         label: "Student PR",
@@ -614,9 +614,19 @@ export const pillars: Pillar[] = [
         blurb: "What permanent status implies for families.",
       },
       {
+        label: "NS Exit Permit (PR families)",
+        href: "/guides/ns-exit-permit-pr-families",
+        blurb: "Pre-enlistee bonds and NSman overseas clocks — CMPB/OneNS.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
+      },
+      {
+        label: "Flexible work requests",
+        href: "/guides/flexible-work-arrangement-request",
+        blurb: "TG-FWAR: consider + written reply — not a WFH entitlement.",
       },
       {
         label: "Leaving Singapore",

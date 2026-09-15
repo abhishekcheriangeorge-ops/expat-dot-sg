@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 23)
+
+Branch: `loop/story-aeo-tick23` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22). Prefer merge order **#117 → #120 → #124** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PR son boarding school vs Exit Permit; “defer university then enlist” folklore; NSman 12-month overseas trips.
+- r/askSingapore — LTVP spouse “can I freelance on PLOC?”; mixing DP work rules with ICA LTVP; graduate-LTVP myths.
+- r/askSingapore — “MOM forces WFH from Dec 2024”; EP Bali remote; rejection without written reply.
+
+**Official**
+
+- [CMPB — Exit Permit and bond](https://www.cmpb.gov.sg/before-ns/pre-enlistment-process/exit-permit-and-bond/) + ask.gov.sg NSman Exit Permit answers + [ICA PR / NS liability](https://www.ica.gov.sg/reside/PR).
+- [MOM — PLOC eligibility / key facts / restricted occupations](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) + [LOC for ICA LTVP](https://www.mom.gov.sg/passes-and-permits/loc-for-ica-issued-ltvp-holders).
+- [MOM — TG-FWAR](https://www.mom.gov.sg/employment-practices/good-work-practices/flexible-work-arrangements) + TAFEP FWA page.
+
+### Gaps vs open H + ticks 1–22
+
+Open: #117 (leaving costs / spouse PR / retrenchment), #120 (leave/notice / citizenship / bonds), #124 (TADM / spouse LTVP / WICA). Remaining high-intent Next FAQ-free gaps: **NS Exit Permit for PR families**, **PLOC/LOC for ICA LTVP**, **TG-FWAR flexible work requests**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ns-exit-permit-pr-families.mdx` (direct lead + FAQPage)
+- `content/guides/next/ploc-loc-ica-ltvp-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/flexible-work-arrangement-request.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (PLOC blurb + NS Exit Permit + FWA topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124 guide bodies.
+
+### Questions mined (sample)
+
+1. Do PR sons need an Exit Permit to study overseas before enlistment?
+2. Is university deferment automatic for NS-liable PR boys?
+3. Do NSmen need an Exit Permit for overseas work or study?
+4. Who decides Exit Permit and bond conditions?
+5. Can we ignore Exit Permit rules if we plan to renounce PR later?
+6. Can every ICA LTVP holder work on a PLOC?
+7. What is the difference between PLOC and an employer LOC?
+8. Can I freelance or be self-employed on a PLOC?
+9. Does Dependant’s Pass work permission use the same PLOC rules?
+10. When should we renew LTVP vs PLOC?
+11. Does TG-FWAR mean employers must approve WFH for EP holders?
+12. Do Employment Pass and S Pass employees get TG-FWAR rights?
+13. What counts as a formal flexible work arrangement request?
+14. Can an employer reject an FWA request without reasons?
+15. Is Bali-WFH on an EP protected by TG-FWAR?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 9)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick9-49cb` → PR to `main` (fresh worktree off `origin/main` @ A7/#61 merged; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8 is still open — **did not** edit A8 job-change / Student’s Pass / LTVP / notify / remittance / health LOG / CPF withdrawal paths).
