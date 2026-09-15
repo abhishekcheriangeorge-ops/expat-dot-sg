@@ -39,7 +39,7 @@ Branch: `cursor/loop-d-next-polish-tick35-d996` → draft PR to `main`, off tip 
 ### Explicitly not done
 
 - No ads / Grok. No force-push to main.
-- Did not wait for further merges beyond tip #289 already on main.
+- Tip #289 already on main; did not wait on other loops.
 - content-loop-log: prepend only.
 
 ### Questions mined
