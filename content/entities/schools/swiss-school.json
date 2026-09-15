@@ -3,12 +3,12 @@
   "slug": "swiss-school",
   "name": "Swiss School Singapore",
   "summary": "Swiss curriculum education with multilingual pathways for Swiss and European families.",
-  "body": "Swiss School Singapore supports Swiss educational continuity with multilingual exposure. It is a niche but critical option for Swiss postings and families seeking Swiss pedagogy. Capacity is limited relative to mega-campuses — contact admissions as soon as relocation is firm. Smaller communities can intensify parent belonging at the gate — still separate pastoral welcome from fever-day coverage contracts at home.",
+  "body": "Swiss School Singapore supports Swiss educational continuity with multilingual exposure. It is a niche but critical option for Swiss postings and families seeking Swiss pedagogy. Capacity is limited relative to mega-campuses \u2014 contact admissions as soon as relocation is firm. Smaller communities can intensify parent belonging at the gate \u2014 still separate pastoral welcome from fever-day coverage contracts at home. Dual-career note: information nights are hard calendar blocks \u2014 split the question script and rewrite pickup before bus cutoffs.",
   "curriculum": [
     "Swiss"
   ],
   "sector": "international",
-  "ages": "Kindergarten–Secondary",
+  "ages": "Kindergarten\u2013Secondary",
   "neighbourhood": "bukit-timah",
   "campus": "Bukit Timah area",
   "languages": [
@@ -17,8 +17,11 @@
     "English"
   ],
   "feesBand": "Premium niche",
-  "waitlistNotes": "Small cohorts — early contact essential.",
+  "waitlistNotes": "Small cohorts \u2014 early contact essential.",
   "website": "https://www.swiss-school.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-curriculum-evening-ops-dual-career-singapore"
+  ]
 }
