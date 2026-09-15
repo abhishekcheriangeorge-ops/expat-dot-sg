@@ -623,6 +623,21 @@ export const pillars: Pillar[] = [
         blurb: "What permanent status implies for families.",
       },
       {
+        label: "Re-Entry Permit (overseas PR)",
+        href: "/guides/re-entry-permit-pr-overseas",
+        blurb: "Valid REP keeps PR while abroad — 180-day / PRSEP rules from Dec 2025.",
+      },
+      {
+        label: "PRSEP / 180-day REP",
+        href: "/guides/prsep-180-day-rep-faq-singapore",
+        blurb: "180-day clock + PRSEP is not a multi-year REP substitute.",
+      },
+      {
+        label: "NSman Exit Permit edges",
+        href: "/guides/ns-exit-permit-nsman-edge-cases-singapore",
+        blurb: "NSman Exit Permit for 12+ months overseas; notify for 6-12.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",

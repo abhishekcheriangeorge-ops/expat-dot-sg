@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 31)
+
+Branch: `loop/story-aeo-tick31` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Next FAQ-free guides outside open H stack reappeared (Loop D companions on main). Avoided open merge-controller H file sets (#117–#161 H20–H30). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — visa-free entry folklore after expired REP; “I’m back so the 180-day clock stopped.”
+- r/askSingapore — PRSEP treated as multi-year REP; reinstatement after missed window.
+- r/askSingapore — NSman Exit Permit vs quarterly home visits; Exit Permit confused with ICA REP.
+
+**Official**
+
+- [ICA — Apply / renew REP](https://www.ica.gov.sg/reside/PR/apply-REP) + [Entry Permit & REP conditions](https://www.ica.gov.sg/PR/see-more/entry-permit-and-re-entry-permit-conditions-for-singapore-permanent-residents).
+- [ICA FAQ PDF — REP revisions from 1 Dec 2025](https://www.ica.gov.sg/docs/default-source/ica/files/faqs_revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025.pdf) + [MHA newsroom](https://www.mha.gov.sg/media-room/newsroom/revisions-to-permanent-resident-re-entry-permit-application-process-from-1-december-2025/).
+- [ask.gov.sg — NSman Exit Permit](https://ask.gov.sg/mindef/questions/cmhvc94jb0049koswqmmlpgoh) + [MINDEF threshold reply (31 Mar 2023)](https://www.mindef.gov.sg/news-and-events/latest-releases/31mar23_fr/).
+
+### Gaps vs open H + ticks 1–30
+
+Open: #117–#161 H20–H30. FAQ-free Next companions still on main outside that stack: **REP overseas**, **PRSEP / 180-day FAQ**, **NSman Exit Permit edge cases** (left `renouncing-pr-ns-liability-traps-singapore` for a later tick).
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/re-entry-permit-pr-overseas.mdx` (direct lead + FAQPage)
+- `content/guides/next/prsep-180-day-rep-faq-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ns-exit-permit-nsman-edge-cases-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (REP / PRSEP / NSman Exit Permit hub blurbs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#161 guide bodies.
+- Did not touch `renouncing-pr-ns-liability-traps-singapore` this tick.
+
+### Questions mined (sample)
+
+1. What happens if a Singapore PR leaves or stays overseas without a valid Re-Entry Permit?
+2. When should I renew my Re-Entry Permit?
+3. Does an expired REP cancel PR while I am still inside Singapore?
+4. What is a PRSEP and how is it different from a normal REP?
+5. Can I reinstate PR after losing it for missing the 180-day REP window?
+6. When does the 180-day REP application clock start?
+7. If I return to Singapore within 180 days, do I still need to apply for an REP?
+8. What is a Permanent Resident’s Single-Entry Pass (PRSEP)?
+9. If I entered on PRSEP, can I skip filing a new REP?
+10. Is there an appeal to reinstate PR after a refused or missed 180-day REP application?
+11. Do Operationally Ready NSmen need an Exit Permit for every overseas trip?
+12. If I fly back to Singapore every few months, can I avoid the 12-month Exit Permit?
+13. Does an Exit Permit auto-cancel if I stay in Singapore too long?
+14. Is an Exit Permit the same as an ICA Re-Entry Permit?
+15. Can freelancers overseas renew an NSman Exit Permit easily?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 12)
 
 Branch: `cursor/loop-d-next-polish-tick12-d996` → PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) / [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89).
