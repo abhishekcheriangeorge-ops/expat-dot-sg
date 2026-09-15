@@ -6,6 +6,57 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 33)
+
+Branch: `cursor/loop-d-next-polish-tick33-d996` → draft PR to `main`, stacked on tip [#268](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/268). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EP renewal NOA packaging, ONE Pass spouse LOC, and EntrePass renewal ladder. Avoided open Loop D file set from [#268](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/268).
+
+**Merge order note (controller):** `#268 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “MOM asked for NOA — just upload any IR8A?”
+- r/askSingapore — “ONE Pass means my spouse can work immediately.”
+- r/askSingapore — “EntrePass renewed once, later cycles are automatic.”
+
+**Official**
+
+- [MOM — Renew an EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass) · [Notify MOM of changes](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) · [IRAS NOA](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/notices-and-forms/notice-of-assessment)
+- [MOM — ONE Pass families](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/passes-for-families) · [Spouse LOC](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/passes-for-families/dependants-pass-for-overseas-networks-expertise-pass/working-in-singapore)
+- [MOM — Renew EntrePass](https://www.mom.gov.sg/passes-and-permits/entrepass/renew-a-pass) · [EntrePass eligibility](https://www.mom.gov.sg/passes-and-permits/entrepass/eligibility)
+
+### Gaps vs open stack
+
+Open #268 covers COMPASS C1 packaging, PEP keep-rule evidence, Tech.Pass 2027 handoff (+ those parents). Remaining off-stack gaps: **EP renewal NOA packaging depth**, **ONE Pass spouse LOC depth**, **EntrePass renewal evaluation ladder**.
+
+### Shipped
+
+**New:** `ep-renewal-noa-packaging-depth-singapore.mdx`, `one-pass-spouse-loc-depth-singapore.mdx`, `entrepass-renewal-evaluation-ladder-singapore.mdx`
+
+**Upgraded:** EP renewal NOA docs, PLOC/LOC, EntrePass, trailing partner, EP salary/occupation changes (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #268 guide bodies (COMPASS / PEP / Tech.Pass / ONE Pass / chooser / EP renewal strategy + tick32 companions).
+- Did not wait for CI or merge on #268.
+- content-loop-log: prepend only.
+
+### Questions mined
+
+1. Is any tax PDF enough when MOM asks for an NOA?
+2. Do bonus-heavy years help Stage-1 / COMPASS on renewal?
+3. Who uploads the NOA reply — me or HR?
+4. Can a ONE Pass spouse work the day the principal pass issues?
+5. Can a spouse hold employment LOC and business LOC together?
+6. Is common-law partner LOC identical to married-spouse DP LOC?
+7. Can ordinary EP DP households copy ONE Pass spouse LOC advice?
+8. Are EntrePass renewals automatic after year one?
+9. Do contractors count toward EntrePass local-hire bars?
+10. When should founders stage an EP exit off EntrePass?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 32)
 
 Branch: `cursor/loop-d-next-polish-tick32-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for COMPASS C1 packaging, PEP keep-rule evidence, and Tech.Pass 2027 sunset handoff. Avoided open Loop D file sets through [#262](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/262).
