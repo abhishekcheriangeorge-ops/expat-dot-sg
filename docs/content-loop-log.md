@@ -6,6 +6,85 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 9) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick8-8971` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs/services entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned; HSA personal-med import body stays Move-owned — this tick only cross-links it for ADHD continuity).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — kids ADHD medication continuity ([recently moved ADHD meds](https://www.reddit.com/r/askSingapore/comments/182euk3/recently_moved_to_singapore_how_do_we_get/), [private vs public ADHD meds](https://www.reddit.com/r/askSingapore/comments/1ney5b8/adhd_medication_in_singapore_private_or_public/), [expat kids assessment](https://www.reddit.com/r/askSingapore/comments/1hg0srx/what_is_the_general_process_for_seeking_advice_on/), [HSA form timing](https://www.reddit.com/r/askSingapore/comments/1q326zx/i_didnt_know_i_was_supposed_to_get_approval_to/)).
+- r/askSingapore — Mandarin enrichment for non-Mandarin homes ([Berries](https://www.reddit.com/r/askSingapore/comments/1i12wnc/is_berries_worth_it_asking_parents_of_singapore/), [LingoAce](https://www.reddit.com/r/askSingapore/comments/1ls4t8u/lingoace_chinese_lessons_are_they_good/), [home Chinese tutor](https://www.reddit.com/r/askSingapore/comments/1n9uvgo/where_to_find_fun_and_engaging_home_chinese_tutor/), [Mandarin-focus school shortlist](https://www.reddit.com/r/askSingapore/comments/1j6qcys/question_can_someone_help_me_with_choosing_a/)).
+- r/askSingapore — Belong book / hiking rails ([book clubs](https://www.reddit.com/r/askSingapore/comments/1gymqok/book_clubs_in_singapore/), [hobby groups / trekking + reading](https://www.reddit.com/r/askSingapore/comments/1tpvlq4/are_there_any_hobby_groups_in_singapore_to_join/), [interest groups](https://www.reddit.com/r/askSingapore/comments/1liawk2/where_to_find_interest_groups_in_sg/), [Rail Corridor hiking company](https://www.reddit.com/r/askSingapore/comments/zu4kv3/how_can_i_find_like_minded_people_who_wanted_to/)).
+
+**Official**
+
+- [HSA — Travelling with personal medications](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-medications/) + [check requirements](https://www.hsa.gov.sg/personal-medication/check-requirements).
+- [IMH Child Guidance Clinic](https://www.imh.com.sg/Clinical-Services/Outpatient-Clinics/Pages/Child-Guidance-Clinic.aspx) + [appointments / referrals](https://www.imh.com.sg/Patients-and-Visitors/Pages/Appointments-and-Referrals.aspx) + [KKH Child Development](https://www.kkh.com.sg/our-specialties/child-development) + [MOH ADHD note](https://www.moh.gov.sg/newsroom/attention-deficit/).
+- [MOE — Mother Tongue Languages](https://www.moe.gov.sg/primary/curriculum/mother-tongue-languages) + [Studying in Singapore](https://www.moe.gov.sg/international-students/studying-in-singapore) + [NLB](https://www.nlb.gov.sg/).
+- [NLB Book Clubs](https://readingnation.nlb.gov.sg/initiatives/book-clubs/) + [NParks guided tours](https://www.nparks.gov.sg/visit/activities/nature-walks-tours/guided-tours).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–7 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-career, newborn/leave/vaccines, IVF/maternity/divorce/PPO, Reclub/parkrun, school-bus/Mandarin-thin/preschool/chambers/faith, confinement-nanny WP/levy, indoor hobby belonging, AEIS 2026, allergy/EpiPen, IB vs A-Level, music/arts belonging. Remaining Family/Belong heat: **kids ADHD stimulant continuity** (HSA + local psychiatry; Adderall gaps), **dedicated Mandarin enrichment product map** beyond the thin kids-activities / IS asides, **book-club + hiking belonging** for non-sport / non-music personalities.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/kids-adhd-medication-singapore.mdx`
+- `content/guides/family/mandarin-enrichment-expat-kids-singapore.mdx`
+- `content/guides/belong/book-hiking-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/special-needs-support.mdx` (ADHD continuity cross-link)
+- `content/guides/family/finding-pediatrician-singapore.mdx`
+- `content/guides/family/mental-health-resources.mdx`
+- `content/guides/family/kids-allergy-epipen-singapore.mdx`
+- `content/guides/family/kids-activities-holiday-camps.mdx` (Mandarin section → dedicated guide)
+- `content/guides/family/international-schools-landscape.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/indoor-hobby-communities-singapore.mdx`
+- `content/guides/belong/hobby-sports-communities-singapore.mdx`
+- `content/guides/belong/music-arts-communities-singapore.mdx`
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth (schools / clubs / services)**
+
+- `content/entities/schools/canadian-international-school.json`
+- `content/entities/clubs/british-association.json`
+- `content/entities/services/mental-health-counselling.json`
+- `content/entities/services/the-tutors.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite Move HSA personal-med body (cross-link only); no MDW / ActiveSG facilities / Tuition Grant bond rewrites.
+
+### Questions mined (sample)
+
+1. Will a polyclinic refill my child’s overseas Concerta prescription?
+2. Do I need HSA approval to land with methylphenidate for my kid?
+3. Is Adderall available in Singapore, or do we switch molecules?
+4. Private child psychiatrist vs IMH Child Guidance Clinic — which for EP/DP cash?
+5. Will my preschool accept a US 504 plan without a local psychiatrist letter?
+6. Is Berries worth it if nobody speaks Mandarin at home?
+7. Should we buy LingoAce packages or trial a home tutor first?
+8. Is CIS bilingual track enough, or do we still need outside enrichment?
+9. Does IS optional Mandarin equal MOE Chinese for AEIS later?
+10. Where do readers find friends if board games and pickleball are not the rail?
+11. Are NLB book clubs actually open to foreigners with a library card?
+12. Is Facebook “Singapore Hikers” safer than solo MacRitchie for soft landing?
+13. Do NParks guided walks create weak ties, or just tourist groups?
+14. Can trailing partners host an NLB-style book club as a belonging cheat code?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 8) — 2026-09-15
 
 Branch: `loop/family-belong-tick8` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; HSS cleaning adjacency cited only; ActiveSG stays Life-owned).
