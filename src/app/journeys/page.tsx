@@ -7,6 +7,7 @@ import {
   getChecklists,
   getCondoEvChargerClearPlaybook,
   getCondoAccessCardDepositPlaybook,
+  getCpfNominationExitPlaybook,
   getCondoVisitorParkingClearPlaybook,
   getUtilityMeterPhotoHandoffPlaybook,
   getCondoVisitorQrExitPlaybook,
@@ -24,7 +25,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -40,6 +41,7 @@ export default async function JourneysIndexPage() {
     utilityMeterPhoto,
     condoVisitorParking,
     condoAccessCard,
+    cpfNominationExit,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -51,6 +53,7 @@ export default async function JourneysIndexPage() {
     getUtilityMeterPhotoHandoffPlaybook(),
     getCondoVisitorParkingClearPlaybook(),
     getCondoAccessCardDepositPlaybook(),
+    getCpfNominationExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -114,6 +117,12 @@ export default async function JourneysIndexPage() {
                 name:
                   condoAccessCard?.title ?? "Condo access-card / fob deposit",
                 path: "/journeys/condo-access-card-deposit",
+              },
+              {
+                name:
+                  cpfNominationExit?.title ??
+                  "CPF nomination / estate-planning exit",
+                path: "/journeys/cpf-nomination-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -388,6 +397,34 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open access-card deposit playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            CPF nominations
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {cpfNominationExit?.title ??
+              "CPF nomination / estate-planning exit"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {cpfNominationExit?.summary ??
+              "Confirm nominations, archive statements for executors, and sequence board updates before Singpass changes."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/school-bus-last-week-float"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/school-bus-last-week-float
+            </Link>{" "}
+            if kids still ride through the same notice week.
+          </p>
+          <Link
+            href="/journeys/cpf-nomination-exit"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open CPF nomination exit playbook
           </Link>
         </FadeIn>
 
