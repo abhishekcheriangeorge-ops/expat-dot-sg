@@ -6,6 +6,67 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 3)
+
+Branch: `loop/story-aeo-tick3` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 2’s EPSC / SimplyGo / serviced-apartment FAQs. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change, Home/HDB, SEO shell, services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Changi Grab vs taxi / payment ([airport transportation](https://www.reddit.com/r/askSingapore/comments/1gukbru/airport_transportation/); [coming next week advice](https://www.reddit.com/r/askSingapore/comments/1d8ma13/coming_to_singapore_next_week_need_advice/)).
+- r/askSingapore — cash “limit” myths and suitcase financing (adjacency in remittance / first-month float threads).
+- r/askSingapore — PayNow FIN vs recycled prepaid / wrong-number traps (adjacency with bank-open and remittance threads).
+
+**Official**
+
+- [LTA — Taxi fares & payment methods](https://www.lta.gov.sg/content/ltagov/en/getting_around/point_to_point_transport_and_cross_border_services/taxi_fares_payment_methods.html) (Changi location surcharge S$6 / S$8; peak / late-night %).
+- [Grab — Changi Airport transfers](https://www.grab.com/global/airport-rides/changi-airport/) (upfront fare framing).
+- [ICA — Taking cash in and out of Singapore (CBNI)](https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/CBNI) (S$20k threshold; 72-hour e-727; post-13 May 2024 electronic receipt).
+- [ABS — PayNow](https://www.abs.org.sg/e-payments/pay-now) + [PayNow fact sheet](https://abs.org.sg/docs/library/paynow_factsheet.pdf) (FIN / mobile / VPA proxies).
+
+### Gaps vs ticks 1–2
+
+Tick 1 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage. Tick 2 shipped IPA/Notification Letter/EPSC, SimplyGo foreign-card fee, serviced-apartment legality. Remaining high-intent **landing-day** gaps: **Grab vs taxi from Changi** (no dedicated guide; MRT guide only answered “when Grab wins” for daily rides), **CBNI S$20k myth without FAQPage/direct lead**, **PayNow FIN vs mobile without FAQPage** (dependency map pointed here but answer-engine shape was thin).
+
+### Shipped this loop
+
+**New**
+
+- `content/guides/life/changi-airport-grab-taxi.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/money/cbni-cash-declaration-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/money/paynow-setup-foreigners-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/life/mrt-bus-transport-literacy.mdx` (Changi cross-link)
+- `content/journeys/checklists/day-7.json` (airport-transfer item)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Arriving start-here + Move/Life/Money topic hrefs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Should I take Grab or a taxi from Changi Airport?
+2. What is the Changi Airport taxi surcharge right now?
+3. Do I need Singapore dollars cash for the taxi queue?
+4. Can I take the MRT from Changi with luggage?
+5. Where do I pick up Grab at my terminal?
+6. Is there a cash limit when entering Singapore?
+7. When must I submit the CBNI / NP 727 declaration?
+8. Do bank wires or Wise need a CBNI form?
+9. Do I still hand a paper form at the Red Channel?
+10. Can foreigners use PayNow without a local bank account?
+11. Should I register PayNow to FIN or mobile?
+12. Why did money sent to my new +65 number go to someone else?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 2)
 
 Branch: `loop/story-aeo-tick2` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 1’s SIM/SGAC/FAQPage foundation. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (FWTES / EP job-change / HDB / SEO shell / services directory left alone).
