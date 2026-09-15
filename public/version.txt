@@ -1,0 +1,19 @@
+# Version / tip freshness — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Pointers
+- Sitemap lastmod after merge controller lands tips
+- https://expat.sg/status.txt
+- https://expat.sg/changelog.txt
+- https://expat.sg/indexnow.txt
+
+## Notes
+- SoftwareApplication version helper: seo-version.ts
+- Tip stack is editorial SEO shell — not a semver product release train.
+
+## Related
+- https://expat.sg/build.txt
+- https://expat.sg/map.txt
+- https://expat.sg/feeds.txt

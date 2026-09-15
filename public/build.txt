@@ -1,0 +1,19 @@
+# Build / operator checklist — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Check
+- https://expat.sg/sitemap.xml
+- https://expat.sg/robots.txt (App Router)
+- https://expat.sg/status.txt
+- https://expat.sg/version.txt
+
+## Notes
+- Companion to version.txt for crawl/ops health.
+- No CI badge endpoint published here.
+
+## Related
+- https://expat.sg/changelog.txt
+- https://expat.sg/indexnow.txt
+- https://expat.sg/contact.txt
