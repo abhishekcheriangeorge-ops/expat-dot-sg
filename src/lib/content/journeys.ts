@@ -131,6 +131,10 @@ export async function getCondoMcstExitPlaybook(): Promise<LeavingPlaybook | null
   return getPlaybookByFilename("condo-mcst-exit.json");
 }
 
+export async function getHelperHandoffExitPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("helper-handoff-exit.json");
+}
+
 export async function getMailForwardExitPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("mail-forward-exit.json");
 }
