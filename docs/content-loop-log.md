@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 16)
+
+Branch: `cursor/loop-d-next-polish-tick16-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees (companion links out to hiring-MDW). Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Singapore banks freeze until a local grant / resealed foreign grant appears.
+- r/askSingapore — new passport, stale EP file fails automated gates / airline desks.
+- r/askSingapore — family flies out; MDW levy invoices keep arriving; bond / cancel forgotten.
+
+**Official**
+
+- [Judiciary — Apply for probate](https://www.judiciary.gov.sg/family/apply-for-probate) · [Family Justice Courts probate practice directions](https://epd2024-familyjusticecourts.judiciary.gov.sg/part-24-non-contentious-probate-proceedings)
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) · [EP eService](https://www.mom.gov.sg/eservices/services/employment-pass-eservice)
+- [MOM — Work Permit for MDW](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker) · [Cancel a Work Permit](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/cancel-a-work-permit)
+
+### Gaps vs open stack
+
+Open #83→#130 cover NS Exit / PRSEP / renounce-PR NS; EP-death DP / SC cooling-off / LPA; WICA / training-bond / e-Apostille; CPF witnesses / REP ETD / COMPASS firm; IR21 RSU / lost-pass overseas / salary-cut DP; ship-out deposits / PR appeal evidence / EP FWTES. Remaining high-intent **Next** gaps: **foreign probate resealing**, **EP passport update before travel**, **FDW cancellation on exit**.
+
+### Shipped
+
+**New:** `foreign-probate-resealing-singapore-banks.mdx`, `ep-passport-update-before-travel-singapore.mdx`, `fdw-cancellation-when-leaving-singapore.mdx`
+
+**Upgraded:** `leaving-singapore-playbook.mdx`, `passports-and-documents-overseas.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #83 / #89 / #99 / #114 / #123 / #130 guide bodies (including wills / shipping / ecoa parents).
+- Did not edit Home hiring-MDW body (companion links out).
+
+### Questions mined
+
+1. Will a UK / Malaysian probate grant unlock my Singapore bank accounts?
+2. What is resealing vs a fresh Singapore grant of probate?
+3. What should next of kin gather before seeing a Singapore solicitor?
+4. I renewed my foreign passport — do I need to tell MOM before flying?
+5. Is EP passport update the same as ICA Transfer of REP?
+6. Does SGWorkPass update automatically when my passport changes?
+7. When must I cancel my helper’s Work Permit if we are leaving Singapore?
+8. Does levy stop the day she flies, or only after MOM cancel?
+9. Transfer to a new employer vs repatriation — which cancel path?
+10. How does helper cancel sit beside my IR21 cash freeze?
+11. Does CPF follow a foreign will?
+12. Can I keep travelling on the old passport number linked to my EP?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 15)
 
 Branch: `cursor/loop-d-next-polish-tick15-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123).

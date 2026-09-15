@@ -619,6 +619,21 @@ export const pillars: Pillar[] = [
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
       },
       {
+        label: "FDW cancel on exit",
+        href: "/guides/fdw-cancellation-when-leaving-singapore",
+        blurb: "MDW Work Permit cancel, levy stop, bond — beside your IR21.",
+      },
+      {
+        label: "Foreign probate resealing",
+        href: "/guides/foreign-probate-resealing-singapore-banks",
+        blurb: "Singapore banks freeze until grant / reseal — not a foreign PDF.",
+      },
+      {
+        label: "EP passport update before travel",
+        href: "/guides/ep-passport-update-before-travel-singapore",
+        blurb: "Renew book → MOM EP eService particulars → then fly.",
+      },
+      {
         label: "PR rejected — appeal / reapply",
         href: "/guides/pr-rejection-reapply",
         blurb: "Official appeal e-Service only; reapply when profile changed.",
