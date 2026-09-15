@@ -639,9 +639,39 @@ export const pillars: Pillar[] = [
         blurb: "National exam / IP eligibility row — not private-exam folklore.",
       },
       {
+        label: "NRIC at 30 / 55",
+        href: "/guides/nric-reregistration-30-55-singapore",
+        blurb: "Compulsory re-registration windows, fees, overseas return clock.",
+      },
+      {
+        label: "eCOA address change",
+        href: "/guides/ecoa-nric-address-change-singapore",
+        blurb: "28-day report clock, PIN mailer, stickers, overseas + LCA.",
+      },
+      {
+        label: "Citizenship Journey",
+        href: "/guides/singapore-citizenship-journey-scj",
+        blurb: "After IPA — portal day +3, SEV / CSS, e-Journey, registration.",
+      },
+      {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
         blurb: "NOA vs IR8A — reconcile EP salary with IRAS before HR replies.",
+      },
+      {
+        label: "PRSEP / 180-day REP",
+        href: "/guides/prsep-180-day-rep-faq-singapore",
+        blurb: "Dec 2025 FAQ — clock start, PRSEP, mid-window return, no reinstatement.",
+      },
+      {
+        label: "NSman Exit Permit edges",
+        href: "/guides/ns-exit-permit-nsman-edge-cases-singapore",
+        blurb: "12-month threshold, notify band, auto-cancel folklore, freelance docs.",
+      },
+      {
+        label: "Renouncing PR · NS traps",
+        href: "/guides/renouncing-pr-ns-liability-traps-singapore",
+        blurb: "Pre-enlistment vs NSF vs ORD, family collateral, REP lapse vs filing.",
       },
       {
         label: "Citizenship & NS",
