@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "furniture-rental",
+  "name": "Furniture rental (category guide)",
+  "summary": "Rent vs buy for bare/semi-furnished condos — short EP tours, humidity-aware pieces, and exit disposal so orphan sofas do not eat the security deposit.",
+  "body": "Singapore ‘unfurnished’ often means washer + fridge + blinds, not beds — decode the inventory annex before you budget CapEx. Furniture rental (monthly packages, sofa/bed/desk bundles) wins on 6–18 month EP tours and diplomatic exits when buying and dumping would cost more than rent. Buy (IKEA / Carousell / mid-tier) wins on 2+ year stays if you accept humidity (dehumidifier ROI) and a planned exit sale or paid disposal. Never assume the landlord will buy your pieces at the end — forum threads treat that as a bonus, not a right. Check who owns damage liability under the rental contract, delivery/lift booking fees, and whether packages include mattresses that survive tropical mould. Pair rental quotes against self-storage for between-lease holds and local movers for lift deposits. This is a category guide to the rent-vs-buy decision, not a ranked furniture-brand list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Bare / semi-furnished unit and stay under ~18 months",
+    "Need beds night-one without full CapEx",
+    "Diplomatic clause / early exit makes buy-and-dump painful",
+    "Comparing rental packages vs Carousell + disposal fees"
+  ],
+  "officialLinks": [
+    {
+      "label": "CEA — Renting guidance",
+      "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+    },
+    {
+      "label": "CEA — Agreements and checklists",
+      "url": "https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/"
+    },
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "rental-inventory-fair-wear-tear",
+    "moving-within-singapore",
+    "security-deposit-diplomatic-clause",
+    "case-lemon-law-consumers-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

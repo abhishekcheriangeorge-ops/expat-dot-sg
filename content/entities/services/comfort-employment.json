@@ -3,7 +3,7 @@
   "slug": "comfort-employment",
   "name": "Comfort Employment",
   "summary": "Domestic helper agency option for families navigating first-time MDW employment, SIP booking, and insurance floors — compare against DIY renewals.",
-  "body": "Compare at least two FDW agencies on total cost, not headline placement fees. Budget for Settling-In Programme within seven days for first-time helpers (she cannot start work before SIP), enhanced medical insurance at MOM’s ≥S$60k inpatient floor (Stage 2 age-banded premiums from Jul 2025), personal accident cover, security bond timing for non-Malaysian helpers, and a buffer month for mismatch. Renewals and many transfers can be done yourself on MOM FDW eServices with Singpass — use an agency when you want placement interviews and replacement cover, not for the renewal click alone. Transfers skip SIP but often cost more in salary. Ask who pays SIP fees, who books the six-monthly medical, whether dental is excluded, and whether MI quotes jump after the helper turns 50. Pair with the FDW category guide and MDW hiring guide — most EP+DP households miss the S$60 levy concession.",
+  "body": "Compare at least two FDW agencies on total cost, not headline placement fees. Budget for Settling-In Programme within seven days for first-time helpers (she cannot start work before SIP), enhanced medical insurance at MOM’s ≥S$60k inpatient floor (Stage 2 age-banded premiums from Jul 2025), personal accident cover, security bond timing for non-Malaysian helpers, and a buffer month for mismatch. Renewals and many transfers can be done yourself on MOM FDW eServices with Singpass — use an agency when you want placement interviews and replacement cover, not for the renewal click alone. Transfers skip SIP but often cost more in salary. Ask who pays SIP fees, who books the six-monthly medical, whether dental is excluded, and whether MI quotes jump after the helper turns 50. Short postpartum pui yuet care is a separate MOM confinement-nanny Work Permit (Malaysian-only) — do not buy an MDW placement solely for a 28-day confinement window without reading that rail. Pair with the FDW and confinement-nanny category guides plus the MDW hiring guide — most EP+DP households miss the S$60 levy concession.",
   "category": "fdw",
   "areasServed": [
     "Islandwide"
@@ -14,7 +14,8 @@
     "First-time MDW hire needing SIP within 7 days",
     "Comparing agency all-in cost vs DIY renew / transfer",
     "Insurance quote must meet ≥S$60k inpatient floor",
-    "Helper over 50 — shop MI beyond agency default"
+    "Helper over 50 — shop MI beyond agency default",
+    "Comparing MDW hire vs confinement-nanny package"
   ],
   "officialLinks": [
     {
@@ -28,9 +29,14 @@
     {
       "label": "MOM — MDW insurance requirements",
       "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements"
+    },
+    {
+      "label": "MOM — Work Permit for confinement nanny (key facts)",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-confinement-nanny/key-facts"
     }
   ],
   "relatedGuides": [
-    "hiring-domestic-helper-mdw"
+    "hiring-domestic-helper-mdw",
+    "confinement-nanny-postpartum-singapore"
   ]
 }
