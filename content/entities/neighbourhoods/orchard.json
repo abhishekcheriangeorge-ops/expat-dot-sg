@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "orchard",
+  "name": "Orchard",
+  "summary": "NSL retail spine — mall density, tourist footfall, and condo/serviced edges with shorter CBD hops than far-east towns.",
+  "body": "Orchard is the shortlist when North-South Line retail gravity and door-to-mall living matter more than quiet heartland texture. Housing is mostly condo and serviced-apartment stock rather than HDB grids; weekend tourist crowds and late retail energy are the tax. Expats land here for car-light CBD/Orchard hops and lifestyle density, not cul-de-sac calm. Compare with Somerset for a slightly tighter theatre/mall pocket, Dhoby Ghaut for multi-line interchange optionality, and River Valley when you want nightlife adjacency without the full tourist crush.",
+  "region": "central",
+  "vibe": [
+    "nsl",
+    "retail-spine",
+    "tourist-footfall",
+    "dense-condo",
+    "city-core"
+  ],
+  "bestFor": [
+    "car-light workers who want mall and CBD proximity",
+    "households okay with weekend tourist crowds",
+    "renters comparing serviced vs proper TA nearby",
+    "people who will book ActiveSG studios instead of trusting condo MPH rooms"
+  ],
+  "watchOuts": [
+    "Weekend tourist and mall peak crowds",
+    "Serviced-apartment vs real TA confusion",
+    "Noise on major retail corridors",
+    "Parcel locker / mailroom variance by estate"
+  ],
+  "housingMix": "Dense condo and serviced-apartment stock with limited quiet HDB texture.",
+  "commuteNotes": "North-South Line at Orchard; test a Saturday afternoon Orchard Road walk before you romanticise the spine.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3500,
+    "oneBedTo": 6000,
+    "familyFrom": 5500,
+    "familyTo": 10000
+  },
+  "mrt": [
+    "Orchard",
+    "Somerset"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

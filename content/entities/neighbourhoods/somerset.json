@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "somerset",
+  "name": "Somerset",
+  "summary": "NSL stop between Orchard and Dhoby Ghaut — theatre/mall adjacency, dense condo stock, and city-core hops with tourist spillover as the tax.",
+  "body": "Somerset is the shortlist when North-South Line access and a position between Orchard retail and Dhoby Ghaut interchange matter. Housing is mostly condo and serviced-apartment edges; weekend tourist and mall spillover are real. Expats land here for car-light city-core living and shorter hops to CBD desks, not quiet estate texture. Compare with Orchard for deeper mall spine energy, Dhoby Ghaut for multi-line optionality, and River Valley when you want nightlife without the full tourist crush.",
+  "region": "central",
+  "vibe": [
+    "nsl",
+    "theatre-adjacent",
+    "mall-edge",
+    "city-core",
+    "dense-condo"
+  ],
+  "bestFor": [
+    "car-light workers who want Orchard and CBD in short hops",
+    "households okay with tourist spillover",
+    "renters comparing serviced vs proper TA",
+    "people who will use ActiveSG / community studios for classes"
+  ],
+  "watchOuts": [
+    "Tourist and mall crowd spikes",
+    "Serviced vs TA confusion",
+    "Corridor noise on major roads",
+    "MCST parcel locker culture varies by tower"
+  ],
+  "housingMix": "Condo and serviced-apartment stock with limited quiet HDB texture.",
+  "commuteNotes": "North-South Line at Somerset; test a Friday 18:30 station exit and a Sunday afternoon mall walk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3200,
+    "oneBedTo": 5500,
+    "familyFrom": 5000,
+    "familyTo": 9000
+  },
+  "mrt": [
+    "Somerset",
+    "Orchard",
+    "Dhoby Ghaut"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

@@ -202,6 +202,11 @@ export const pillars: Pillar[] = [
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
       },
       {
+        label: "FCF 14-day MCF clock",
+        href: "/guides/fcf-mycareersfuture-14-day-clock-ep-singapore",
+        blurb: "Screenshot ad ID before you resign on a verbal.",
+      },
+      {
         label: "Changing jobs on EP",
         href: "/guides/changing-jobs-employment-pass",
         blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
@@ -294,14 +299,14 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
       },
       {
-        label: "EV chargers & bicycle bays",
-        href: "/guides/condo-ev-charger-bicycle-bay-tenants",
-        blurb: "MCST waitlists, charging fees, and bike/PMD tags.",
+        label: "Parcel lockers & mailroom",
+        href: "/guides/condo-parcel-locker-mailroom-tenants",
+        blurb: "MCST locker PINs, oversized holds, and lost-parcel fights.",
       },
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Redhill, Telok Blangah, HarbourFront, Bukit Timah, and more.",
+        blurb: "Orchard, Somerset, Dhoby Ghaut, Bukit Timah, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -384,6 +389,11 @@ export const pillars: Pillar[] = [
         label: "CPF withdrawal when leaving",
         href: "/guides/cpf-withdrawal-leaving-singapore",
         blurb: "EP had no CPF; PR cash-out only after status ends.",
+      },
+      {
+        label: "CPF closure after renouncing",
+        href: "/guides/cpf-account-closure-after-renouncing-pr-singapore",
+        blurb: "~12 weeks after non-SC/non-PR — bank first.",
       },
       {
         label: "Cost of living",
@@ -515,9 +525,9 @@ export const pillars: Pillar[] = [
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
       },
       {
-        label: "ActiveSG gym Standard Rate",
-        href: "/guides/activesg-gym-standard-rate-singapore",
-        blurb: "Foreigner day-entry, Singpass friction, peak strategy.",
+        label: "ActiveSG studio & dance classes",
+        href: "/guides/activesg-studio-dance-class-booking-singapore",
+        blurb: "Standard Rate class slots, peak release, attire norms.",
       },
       {
         label: "Apps that matter",
@@ -692,6 +702,11 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
+      },
+      {
+        label: "EP side-hustle / creator traps",
+        href: "/guides/ep-side-hustle-content-creator-traps-singapore",
+        blurb: "Paid local brand deals still count as Singapore work.",
       },
       {
         label: "PR rejected — appeal / reapply",
