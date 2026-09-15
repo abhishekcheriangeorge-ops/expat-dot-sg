@@ -1,16 +1,33 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
-import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { Breadcrumbs, JsonLd, RelatedHubs } from "@/components/seo";
 import { getGraduatePassBridgePlaybook } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { howToJsonLd } from "@/lib/seo-howto";
+
+const title = "Student / graduate pass bridge";
+const description =
+  "Playbook for Student’s Pass or training permissions ending — EP / Training EP / exit timing so the post-graduation gap stays lawful.";
+const path = "/journeys/graduate-pass-bridge";
+
+const RELATED = [
+  { href: "/tools/ep-threshold", label: "EP salary floors" },
+  { href: "/tools/agent-commission", label: "Agent commission sketch" },
+  { href: "/journeys/between-jobs", label: "Between-jobs playbook" },
+  { href: "/journeys/loc-dp-work-rights", label: "DP / LOC work rights" },
+  { href: "/next", label: "Next pillar" },
+  { href: "/tools", label: "All tools" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Student / graduate pass bridge",
-  description:
-    "Playbook for Student’s Pass or training permissions ending — EP / Training EP / exit timing so the post-graduation gap stays lawful.",
-  path: "/journeys/graduate-pass-bridge",
+  title,
+  description,
+  path,
 });
 
 export default async function GraduatePassBridgeJourneyPage() {
@@ -20,12 +37,36 @@ export default async function GraduatePassBridgeJourneyPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Journeys", path: "/journeys" },
-    { name: "Graduate pass bridge", path: "/journeys/graduate-pass-bridge" },
+    { name: "Graduate pass bridge", path },
   ];
+
+  const howTo = howToJsonLd({
+    name: playbook.title,
+    description: playbook.summary,
+    path,
+    steps: playbook.sections.map((section) => ({
+      name: section.title,
+      text: section.body,
+    })),
+  });
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: title,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+          ...(howTo ? [howTo] : []),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -39,29 +80,7 @@ export default async function GraduatePassBridgeJourneyPage() {
       />
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
-        <p className="text-sm text-ink-faint">
-          Related:{" "}
-          <Link
-            href="/tools/ep-threshold"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            EP salary floors
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/tools/agent-commission"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            Agent commission sketch
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/journeys/between-jobs"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            Between-jobs playbook
-          </Link>
-        </p>
+        <RelatedHubs hubs={RELATED} />
       </div>
     </>
   );

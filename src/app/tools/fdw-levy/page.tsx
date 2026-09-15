@@ -1,27 +1,58 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
-import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { Breadcrumbs, JsonLd, RelatedHubs } from "@/components/seo";
 import { FdwLevyCalculator } from "@/components/tools";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/seo-howto";
+
+const title = "FDW levy sketch";
+const description =
+  "Sketch Singapore Foreign Domestic Worker monthly levy across concessionary, full, and subsequent-helper bands — orientation before you budget or transfer employers.";
+const path = "/tools/fdw-levy";
+
+const RELATED = [
+  { href: "/tools", label: "All tools" },
+  { href: "/journeys/hospital-cash-deposit", label: "Hospital cash deposit" },
+  { href: "/tools/setup-cash", label: "First-month cash" },
+  { href: "/home", label: "Home pillar" },
+  { href: "/family", label: "Family pillar" },
+  { href: "/living", label: "Living hub" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "FDW levy sketch",
-  description:
-    "Sketch Singapore Foreign Domestic Worker monthly levy across concessionary, full, and subsequent-helper bands — orientation before you budget or transfer employers.",
-  path: "/tools/fdw-levy",
+  title,
+  description,
+  path,
 });
 
 export default function FdwLevyToolPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Tools", path: "/tools" },
-    { name: "FDW levy", path: "/tools/fdw-levy" },
+    { name: "FDW levy", path },
   ];
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          webApplicationJsonLd({ name: title, description, path }),
+          collectionPageJsonLd({
+            name: `${title} — related`,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -34,32 +65,9 @@ export default function FdwLevyToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <FdwLevyCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
-          <Link
-            href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            ← All tools
-          </Link>
-          <Link
-            href="/journeys/hospital-cash-deposit"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Hospital cash deposit →
-          </Link>
-          <Link
-            href="/tools/setup-cash"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            First-month cash →
-          </Link>
-          <Link
-            href="/home"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Home pillar →
-          </Link>
-        </p>
+        <div className="mt-12">
+          <RelatedHubs hubs={RELATED} />
+        </div>
       </div>
     </>
   );

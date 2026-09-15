@@ -1,16 +1,33 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
-import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { Breadcrumbs, JsonLd, RelatedHubs } from "@/components/seo";
 import { getHospitalCashDepositPlaybook } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { howToJsonLd } from "@/lib/seo-howto";
+
+const title = "Hospital cash deposit (first admission)";
+const description =
+  "Playbook for first Singapore hospital admissions on EP — deposit quotes, Integrated Shield / employer LOG gaps, payment rails, and deposit clawback after discharge.";
+const path = "/journeys/hospital-cash-deposit";
+
+const RELATED = [
+  { href: "/tools/setup-cash", label: "First-month cash" },
+  { href: "/tools/fdw-levy", label: "FDW levy sketch" },
+  { href: "/journeys/family-joining", label: "Family joining later" },
+  { href: "/life", label: "Life pillar" },
+  { href: "/living", label: "Living hub" },
+  { href: "/tools", label: "All tools" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Hospital cash deposit (first admission)",
-  description:
-    "Playbook for first Singapore hospital admissions on EP — deposit quotes, Integrated Shield / employer LOG gaps, payment rails, and deposit clawback after discharge.",
-  path: "/journeys/hospital-cash-deposit",
+  title,
+  description,
+  path,
 });
 
 export default async function HospitalCashDepositJourneyPage() {
@@ -20,12 +37,36 @@ export default async function HospitalCashDepositJourneyPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Journeys", path: "/journeys" },
-    { name: "Hospital cash deposit", path: "/journeys/hospital-cash-deposit" },
+    { name: "Hospital cash deposit", path },
   ];
+
+  const howTo = howToJsonLd({
+    name: playbook.title,
+    description: playbook.summary,
+    path,
+    steps: playbook.sections.map((section) => ({
+      name: section.title,
+      text: section.body,
+    })),
+  });
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: title,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+          ...(howTo ? [howTo] : []),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -39,29 +80,7 @@ export default async function HospitalCashDepositJourneyPage() {
       />
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
-        <p className="text-sm text-ink-faint">
-          Related:{" "}
-          <Link
-            href="/tools/setup-cash"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            First-month cash
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/tools/fdw-levy"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            FDW levy sketch
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/life"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            Life pillar
-          </Link>
-        </p>
+        <RelatedHubs hubs={RELATED} />
       </div>
     </>
   );
