@@ -2,23 +2,27 @@
   "type": "school",
   "slug": "xcl-world-academy",
   "name": "XCL World Academy",
-  "summary": "IB campus in Yio Chu Kang — peer-recommended when families want modern facilities north-east of the CBD without legacy-brand wait folklore.",
-  "body": "XCL World Academy offers IB education with contemporary campus facilities in the Yio Chu Kang / north-east corridor. Reddit school comparisons sometimes float XCL beside SAS and Stamford when parents want IB without assuming a decade-old waitlist story. Transport and bus routes should be part of the decision; ask about cohort sizes by grade and secondary pathways before signing housing nearby. Ask the parent community how party culture runs (in-school vs weekend venues) before defaulting to the most expensive soft-play package.",
+  "summary": "IB campus in Yio Chu Kang \u2014 peer-recommended when families want modern facilities north-east of the CBD without legacy-brand wait folklore.",
+  "body": "XCL World Academy offers IB education with contemporary campus facilities in the Yio Chu Kang / north-east corridor. Reddit school comparisons sometimes float XCL beside SAS and Stamford when parents want IB without assuming a decade-old waitlist story. Transport and bus routes should be part of the decision; ask about cohort sizes by grade and secondary pathways before signing housing nearby. Ask the parent community how party culture runs (in-school vs weekend venues) before defaulting to the most expensive soft-play package. Dual-career note: curriculum evenings need booked slots and a named sibling-coverage adult before client week.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "Nursery–Grade 12",
+  "ages": "Nursery\u2013Grade 12",
   "neighbourhood": "upper-thomson",
   "campus": "Yio Chu Kang",
   "languages": [
     "English"
   ],
   "feesBand": "Upper-mid",
-  "waitlistNotes": "Newer relative to legacy schools — ask about cohort sizes and mid-year seats by grade.",
+  "waitlistNotes": "Newer relative to legacy schools \u2014 ask about cohort sizes and mid-year seats by grade.",
   "website": "https://xwa.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-curriculum-evening-ops-dual-career-singapore",
+    "drama-studio-waiting-parent-belonging-singapore"
+  ]
 }
