@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "orange-tee",
   "name": "OrangeTee & Tie",
-  "summary": "Property agency network active across condo and landed rentals and sales — negotiate tenant-side fees in writing and confirm stamp-duty reimbursement timing.",
-  "body": "Agents are not interchangeable — interview for neighbourhood fluency, landlord relationships, and LOI discipline. OrangeTee is one of several large brands; chemistry with your individual agent matters more than logo. If you engage them as your tenant agent, document commission and renewal terms in a CEA prescribed agreement before the first viewing, and clarify that stamp-duty collection is reimbursement after stamping, not a pre-stamp cash grab. Listings that say ‘agent fees apply’ while the salesperson also represents the landlord are a dual-commission / dual-representation risk — confirm engagement in writing and use CEA’s complaint path if needed. Ask for prior cleaning receipts if the TA mandates professional / curtain cleaning, and who pays pest treatment discovered in the first 30 days. If you are comparing rent vs buy, ask for a written cash-flow sketch that includes ABSD (or FTA remission) rather than a mortgage-only spreadsheet. Landed listings for foreigners often have approval caveats — confirm eligibility before emotional deposits.",
+  "summary": "Property agency network active across condo and landed rentals and sales \u2014 negotiate tenant-side fees in writing and confirm stamp-duty reimbursement timing.",
+  "body": "Agents are not interchangeable \u2014 interview for neighbourhood fluency, landlord relationships, and LOI discipline. OrangeTee is one of several large brands; chemistry with your individual agent matters more than logo. If you engage them as your tenant agent, document commission and renewal terms in a CEA prescribed agreement before the first viewing, and clarify that stamp-duty collection is reimbursement after stamping, not a pre-stamp cash grab. Listings that say \u2018agent fees apply\u2019 while the salesperson also represents the landlord are a dual-commission / dual-representation risk \u2014 confirm engagement in writing and use CEA\u2019s complaint path if needed. Ask for prior cleaning receipts if the TA mandates professional / curtain cleaning, and who pays pest treatment discovered in the first 30 days. If you are comparing rent vs buy, ask for a written cash-flow sketch that includes ABSD (or FTA remission) rather than a mortgage-only spreadsheet. Landed listings for foreigners often have approval caveats \u2014 confirm eligibility before emotional deposits. Ask for travel-time honesty to specific campuses at peak hour, not \u201cnear Orchard schools\u201d marketing \u2014 placement consultants and agents are different vendors with different failure modes.",
   "category": "agents",
   "areasServed": [
     "Islandwide"
@@ -16,19 +16,20 @@
     "Need CEA prescribed agreement before viewings",
     "Purchase / ABSD maths must be stated on OTP",
     "Listing claims tenant fee while agent also represents landlord",
-    "Need cleaning / pest / defect-free clauses clarified at LOI"
+    "Need cleaning / pest / defect-free clauses clarified at LOI",
+    "Need peak-hour commute check to named campuses"
   ],
   "officialLinks": [
     {
-      "label": "CEA — Public register of agents",
+      "label": "CEA \u2014 Public register of agents",
       "url": "https://www.cea.gov.sg/public-register/"
     },
     {
-      "label": "CEA — Engaging an agent (renting)",
+      "label": "CEA \u2014 Engaging an agent (renting)",
       "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
     },
     {
-      "label": "IRAS — Stamp duty for renting",
+      "label": "IRAS \u2014 Stamp duty for renting",
       "url": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property"
     }
   ],
@@ -36,6 +37,8 @@
     "renting-process-loi-ta-deposits",
     "buying-property-foreigner-absd",
     "rental-inventory-fair-wear-tear",
-    "aircon-pest-renewals"
+    "aircon-pest-renewals",
+    "international-schools-landscape",
+    "aeis-saeis-international-students"
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "regular-home-cleaning",
+  "name": "Regular home cleaning (category guide)",
+  "summary": "Recurring condo/HDB cleaners vs end-of-lease deep cleans \u2014 helper rest-day cover, part-time cleaner contracts, and why deposit make-good invoices are a different vendor problem.",
+  "body": "Weekly or fortnightly part-time cleaners are a labour-market product, not the same as end-of-lease professional/curtain packages written into many TAs. Agree scope in writing (hours, supplies, windows, fridge, ironing), access/security rules with the condo, and whether CPF/levy obligations apply if you cross into formal domestic-work arrangements \u2014 casual WhatsApp cleaners are a grey zone many expats underestimate. A live-in helper\u2019s rest day is the classic gap that part-time cleaners fill; do not assume the helper\u2019s job description includes spring-clean intensity. Keep receipts separate from lease-exit make-good quotes so landlords cannot conflate routine dust with reinstatement. Pair with the end-of-lease cleaning category guide when handover clauses appear, and with helper-agency guidance when you are choosing helper vs cleaner economics. This is a category guide, not a ranked maid-agency or cleaner app ranking.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need recurring cleaner for helper rest-day / dual-income gap",
+    "Scope hours and supplies before paying a WhatsApp cleaner",
+    "Separating routine cleaning invoices from lease-exit make-good",
+    "Comparing part-time cleaner vs hiring/keeping an MDW"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOM \u2014 Work Permit for FDW (when help becomes domestic work)",
+      "url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker"
+    },
+    {
+      "label": "CEA \u2014 Renting guidance (handover / inventory context)",
+      "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+    },
+    {
+      "label": "CASE \u2014 Consumer advice",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hiring-domestic-helper-mdw",
+    "rental-inventory-fair-wear-tear",
+    "renting-process-loi-ta-deposits",
+    "security-deposit-diplomatic-clause",
+    "aircon-pest-renewals"
+  ],
+  "featured": false,
+  "sponsored": false
+}

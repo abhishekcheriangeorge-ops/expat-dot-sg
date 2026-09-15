@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "tax-agents",
   "name": "Tax agents & filing (category guide)",
-  "summary": "Category entry for IR21 clearance disputes, ESOP/RSU filing without a local IR8A, dual-residency / COR needs, foreign-income myths, and NOA/GIRO clock stress — hire when myTax Portal alone is not enough.",
-  "body": "Most salary-only EP years do not need a paid tax agent — file via myTax Portal, set GIRO before the NOA due date, and keep IR8A / AIS figures. Engage a Singapore tax professional when IR21 withhold looks wrong against your package (housing, equity, leave encashment), when a US/UK/Australia filer needs Certificate of Residence or DTA help, when overseas remote income or rental sits outside a clean IR8A, or when ESOP/RSU gains land without a local entity able to report them. Employer tax clearance (Form IR21) is an employer duty — agents help you challenge income classification and residual bills, not skip withhold. Ask whether the firm regularly clears foreign work-pass leavers and equity awards; compare fixed engagement fees against a one-hour IRAS myTax Mail first. This is a category guide, not a ranked firm list — verify any adviser against IRAS tax-agent materials and your own engagement letter.",
+  "summary": "Category entry for IR21 clearance disputes, ESOP/RSU filing without a local IR8A, dual-residency / COR needs, foreign-income myths, and NOA/GIRO clock stress \u2014 hire when myTax Portal alone is not enough.",
+  "body": "Most salary-only EP years do not need a paid tax agent \u2014 file via myTax Portal, set GIRO before the NOA due date, and keep IR8A / AIS figures. Engage a Singapore tax professional when IR21 withhold looks wrong against your package (housing, equity, leave encashment), when a US/UK/Australia filer needs Certificate of Residence or DTA help, when overseas remote income or rental sits outside a clean IR8A, or when ESOP/RSU gains land without a local entity able to report them. Employer tax clearance (Form IR21) is an employer duty \u2014 agents help you challenge income classification and residual bills, not skip withhold. Ask whether the firm regularly clears foreign work-pass leavers and equity awards; compare fixed engagement fees against a one-hour IRAS myTax Mail first. This is a category guide, not a ranked firm list \u2014 verify any adviser against IRAS tax-agent materials and your own engagement letter. Hosting an LTVP parent can create dual-residency and dependant-relief questions that myTax alone will not answer \u2014 ask whether the firm has cleared foreign-parent living costs and departure clearances before you invent a DIY schedule.",
   "category": "tax",
   "areasServed": [
     "Islandwide"
@@ -13,23 +13,24 @@
     "ESOP or RSU gains with no local IR8A path",
     "Need Certificate of Residence / DTA claim help",
     "Foreign-source income or multi-year exit cleanup",
-    "NOA / GIRO clocks collide with a job hop or leave"
+    "NOA / GIRO clocks collide with a job hop or leave",
+    "LTVP parent living costs / dual-residency tax questions"
   ],
   "officialLinks": [
     {
-      "label": "IRAS — Tax agents",
+      "label": "IRAS \u2014 Tax agents",
       "url": "https://www.iras.gov.sg/quick-links/tax-agents"
     },
     {
-      "label": "IRAS — Tax clearance for employees (IR21)",
+      "label": "IRAS \u2014 Tax clearance for employees (IR21)",
       "url": "https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees"
     },
     {
-      "label": "IRAS — Tax residency rules",
+      "label": "IRAS \u2014 Tax residency rules",
       "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency"
     },
     {
-      "label": "IRAS — Certificate of Residence",
+      "label": "IRAS \u2014 Certificate of Residence",
       "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence"
     }
   ],
@@ -37,7 +38,8 @@
     "iras-tax-residency-filing",
     "tax-clearance-when-leaving",
     "rsu-esop-tax-singapore",
-    "foreign-income-and-tax"
+    "foreign-income-and-tax",
+    "aged-parents-pr-ltvp-singapore"
   ],
   "featured": false,
   "sponsored": false

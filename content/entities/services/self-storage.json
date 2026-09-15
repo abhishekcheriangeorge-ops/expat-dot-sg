@@ -2,26 +2,27 @@
   "type": "service",
   "slug": "self-storage",
   "name": "Self-storage (category guide)",
-  "summary": "Between-lease and renovation buffer storage — compare climate control, access hours, and mover handoff separately from ocean-freight crates.",
-  "body": "Self-storage fills the gap when keys do not line up, reno runs long, or you leave Singapore temporarily without shipping everything. Tour the unit before you commit — humidity, ground-floor trolley access, and after-hours entry matter more than brochure sq ft. Ask whether the facility partners with movers for door-to-door load-in, who owns insurance while goods sit, and how billing works if you overstay a month. Condo-to-condo movers may offer short storage add-ons; pure self-storage brands (often named on forums) are usually cheaper for multi-month holds. Photograph inventory as it goes in; disputes later are won on item lists, not WhatsApp memory. If the alternative is buying furniture you will dump at exit, compare a short furniture-rental package against storage + later disposal fees. Pair with local movers for the lift-deposit chapter and with outbound shipping only when furniture still earns its freight.",
+  "summary": "Between-lease and renovation buffer storage \u2014 compare climate control, access hours, and mover handoff separately from ocean-freight crates.",
+  "body": "Self-storage fills the gap when keys do not line up, reno runs long, or you leave Singapore temporarily without shipping everything. Tour the unit before you commit \u2014 humidity, ground-floor trolley access, and after-hours entry matter more than brochure sq ft. Ask whether the facility partners with movers for door-to-door load-in, who owns insurance while goods sit, and how billing works if you overstay a month. Condo-to-condo movers may offer short storage add-ons; pure self-storage brands (often named on forums) are usually cheaper for multi-month holds. Photograph inventory as it goes in; disputes later are won on item lists, not WhatsApp memory. If the alternative is buying furniture you will dump at exit, compare a short furniture-rental package against storage + later disposal fees. Pair with local movers for the lift-deposit chapter and with outbound shipping only when furniture still earns its freight. Estate and bereavement clear-outs often need a short storage buffer while probate and repatriation decisions land \u2014 photograph seals and keep access limited to named next-of-kin.",
   "category": "movers",
   "areasServed": [
     "Islandwide"
   ],
   "whenToEngage": [
-    "Lease gap or reno needs a 1–6 month hold",
+    "Lease gap or reno needs a 1\u20136 month hold",
     "Leaving temporarily without full outbound freight",
     "Mover quote includes expensive crate storage you can unbundle",
     "Need climate-aware storage for wood / electronics",
-    "Comparing storage + disposal vs furniture rental for a short stay"
+    "Comparing storage + disposal vs furniture rental for a short stay",
+    "Bereavement / estate clear-out needs short storage buffer"
   ],
   "officialLinks": [
     {
-      "label": "Singapore Customs — moving to Singapore",
+      "label": "Singapore Customs \u2014 moving to Singapore",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/"
     },
     {
-      "label": "Singapore Customs — GST relief qualification",
+      "label": "Singapore Customs \u2014 GST relief qualification",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/"
     }
   ],
@@ -29,7 +30,9 @@
     "moving-within-singapore",
     "shipping-household-singapore",
     "shipping-out-household",
-    "furnishing-rental-flat"
+    "furnishing-rental-flat",
+    "death-repatriation-foreigners-singapore",
+    "wills-probate-cpf-nomination-singapore"
   ],
   "featured": false,
   "sponsored": false

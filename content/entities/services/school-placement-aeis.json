@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "school-placement-aeis",
+  "name": "School placement & AEIS prep (category guide)",
+  "summary": "International-school waitlists vs AEIS/MOE assignment honesty \u2014 what placement consultants can (and cannot) guarantee for EP/DP kids, and when prep tuition beats a paid \u2018guaranteed seat\u2019 pitch.",
+  "body": "International schools run their own admissions calendars, waitlists, and sibling priorities \u2014 a consultant can organise tours and paperwork, not invent capacity. AEIS / S-AEIS for mainstream MOE schools is an exam-plus-assignment path: passing does not let you pick a brand-name neighbourhood school, and foreign-student fees remain unsubsidised even when parents pay Singapore tax. Prep centres and tutors sell exam technique; treat \u2018guaranteed AEIS pass / guaranteed school\u2019 marketing as a red flag. Compare total cost of international fees vs AEIS prep + foreigner MOE fees + commute before you hire anyone. Local-school interest still needs ICA Student\u2019s Pass or eligible Dependant\u2019s Pass sequencing \u2014 admissions agents do not override ICA. Pair this directory entry with the international-schools landscape, school-waitlist realism, AEIS, and local-schools-for-expats guides. This is a category guide, not a ranked agency league table.",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need help sequencing international-school applications / waitlists",
+    "Considering AEIS \u2014 want prep tuition without \u2018guaranteed seat\u2019 myths",
+    "Comparing international fees vs foreigner MOE fee maths",
+    "Agent pitch claims they can pick your MOE school after AEIS"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOE \u2014 International students admission / AEIS",
+      "url": "https://www.moe.gov.sg/international-students/admission"
+    },
+    {
+      "label": "MOE \u2014 AEIS overview",
+      "url": "https://www.moe.gov.sg/international-students/aeis"
+    },
+    {
+      "label": "ICA \u2014 Student\u2019s Pass",
+      "url": "https://www.ica.gov.sg/reside/STP"
+    }
+  ],
+  "relatedGuides": [
+    "international-schools-landscape",
+    "school-waitlist-realism",
+    "aeis-saeis-international-students",
+    "local-schools-for-expats",
+    "university-counselling-international-schools-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

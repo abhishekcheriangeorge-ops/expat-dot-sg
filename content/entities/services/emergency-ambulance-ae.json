@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "emergency-ambulance-ae",
+  "name": "Emergency ambulance & A&E (category guide)",
+  "summary": "SCDF 995 vs 1777 private ambulance \u2014 free emergency conveyance, non-emergency fees, and why A&E deposits for uninsured foreigners are a hospital billing problem, not an ambulance upsell.",
+  "body": "Call 995 only for true medical emergencies \u2014 SCDF conveys emergency cases to the nearest appropriate MOH hospital without an ambulance fee; since 2019 non-emergency 995 rides are declined or charged if insisted upon. For non-emergencies use a GP/clinic, ride-hail, or the 1777 / private ambulance directory (paid). Arriving by 995 does not skip A&E triage. Uninsured or thinly insured foreigners often face large A&E deposits at private hospitals \u2014 ask your insurer for Letter of Guarantee workflows before elective risk, and keep embassy/employer emergency contacts for cash guarantees. Pair ambulance literacy with the emergencies guide (995/999/embassies) and GP/hospital pathway guide. This is a category guide to emergency transport choices, not a ranked private-ambulance company list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Unsure whether to call 995 vs private / 1777 ambulance",
+    "Need non-emergency paid conveyance options",
+    "Private hospital A&E deposit / LOG process unclear for EP family",
+    "Want written clarity that 995 emergency rides are not billed by SCDF"
+  ],
+  "officialLinks": [
+    {
+      "label": "SCDF \u2014 Emergency Medical Services",
+      "url": "https://www.scdf.gov.sg/home/about-scdf/emergency-medical-services"
+    },
+    {
+      "label": "SCDF \u2014 When to call 995",
+      "url": "https://www.scdf.gov.sg/"
+    },
+    {
+      "label": "MOH \u2014 Find a hospital / facility",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "emergencies-995-999-embassies",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "haze-climate-preparedness"
+  ],
+  "featured": false,
+  "sponsored": false
+}
