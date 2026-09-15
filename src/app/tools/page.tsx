@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, cost-of-living estimate, and Employment Pass salary threshold illustration.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, cost-of-living estimate, Employment Pass salary threshold, and tax-residency day sketch.",
   path: "/tools",
 });
 
@@ -41,6 +41,12 @@ const tools = [
     summary:
       "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
   },
+  {
+    href: "/tools/tax-residency",
+    title: "Tax residency day sketch",
+    summary:
+      "Sketch calendar-year presence against IRAS’s common 183-day test — orientation, not a ruling.",
+  },
 ] as const;
 
 export default function ToolsIndexPage() {
@@ -57,7 +63,7 @@ export default function ToolsIndexPage() {
           collectionPageJsonLd({
             name: "Tools",
             description:
-              "First-month cash, lease duty, COL, and Employment Pass threshold utilities for Singapore expats.",
+              "First-month cash, lease duty, COL, Employment Pass threshold, and tax-residency utilities for Singapore expats.",
             path: "/tools",
             items: tools.map((tool) => ({
               name: tool.title,

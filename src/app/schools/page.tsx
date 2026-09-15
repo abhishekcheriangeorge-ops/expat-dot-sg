@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { DirectoryHero, SchoolDirectory } from "@/components/directory";
 import { JsonLd } from "@/components/seo";
 import { getSchools } from "@/lib/content";
@@ -50,6 +51,38 @@ export default async function SchoolsPage() {
         crumbs={crumbs}
       />
       <SchoolDirectory schools={schools} />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
+        <p className="text-sm text-ink-faint">
+          Related:{" "}
+          <Link
+            href="/family"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Family pillar
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/aeis-saeis-international-students"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            AEIS / S-AEIS
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/local-schools-for-expats"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Local schools for expats
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/calendar"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            School calendar
+          </Link>
+        </p>
+      </div>
     </>
   );
 }

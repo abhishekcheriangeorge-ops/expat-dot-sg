@@ -341,6 +341,8 @@ export const pillars: Pillar[] = [
     ],
     related: [
       { href: "/tools", label: "COL & EP tools" },
+      { href: "/tools/tax-residency", label: "Tax residency sketch" },
+      { href: "/journeys/between-jobs", label: "Between jobs" },
       { href: "/move", label: "Move" },
       { href: "/next", label: "Next" },
       { href: "/guides", label: "All guides" },
@@ -359,6 +361,16 @@ export const pillars: Pillar[] = [
         label: "School landscape",
         href: "/guides/international-schools-landscape",
         blurb: "International, local, and hybrid options compared.",
+      },
+      {
+        label: "Local schools for expats",
+        href: "/guides/local-schools-for-expats",
+        blurb: "MOE vacancies, citizenship gates, and fee reality.",
+      },
+      {
+        label: "AEIS & S-AEIS",
+        href: "/guides/aeis-saeis-international-students",
+        blurb: "Entry exams into the local system — windows and prep.",
       },
       {
         label: "IB vs A-Level pathways",
@@ -606,6 +618,7 @@ export const pillars: Pillar[] = [
     ],
     related: [
       { href: "/journeys/leaving", label: "Leaving playbook" },
+      { href: "/journeys/between-jobs", label: "Between jobs" },
       { href: "/money", label: "Money" },
       { href: "/move", label: "Move" },
       { href: "/guides", label: "All guides" },

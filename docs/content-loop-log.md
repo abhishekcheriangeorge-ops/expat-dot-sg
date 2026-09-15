@@ -6,6 +6,33 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 5)
+
+Branch: `cursor/loop-g-seo-tick5-a144` → PR to `main`. Post-#65 directory/tools/Family–AEIS shell fill. Did **not** touch #74 paths (sitemap lastmod, calendar/journey CollectionPage, advertise crumbs, fs-mtime). No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Service detail pages only used entity `relatedGuides` — ignored reverse `relatedEntities` cites (neighbourhood/school/club already had reverse rails).
+- Service footer always pointed at Life regardless of category.
+- `/tools` index dropped tax-residency from grid + CollectionPage ItemList (page + sitemap still live).
+- Family pillar topic map missed AEIS / local-schools; `/schools` index had no Related strip.
+- Directory category hubs had CollectionPage but no pillar/guide/tool deep-links.
+- Tax-residency tool footer missed IRAS guide; Money/Next related rails thin on tax + between-jobs.
+
+### Shipped this loop
+
+- Service reverse `getGuidesLinkingToEntity` merge + category-aware pillar footers
+- `SERVICE_CATEGORY_RELATED` strips on `/directory/[category]`
+- Restore `/tools/tax-residency` on tools index + CollectionPage; IRAS guide footer on tool page
+- Family topics (AEIS + local schools); Money/Next related polish; `/schools` Related strip
+
+### Explicitly not done / notes for other loops
+
+- Left #74 (tick 4) alone — sitemap mtimes / journey+calendar CollectionPage / advertise breadcrumbs.
+- No mass MDX `relatedGuides` / body rewrites; no sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 3b)
 
 Branch: `cursor/loop-g-seo-tick3-a144` → PR to `main`. Follow-up to tick 3 (#57). Shell/metadata/hubs/crosslink depth only — **no** A–F/H body rewrites, **no** ads inventory / Grok.

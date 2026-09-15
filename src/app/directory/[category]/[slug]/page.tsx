@@ -13,9 +13,11 @@ import {
   SERVICE_CATEGORY_LABELS,
   ServiceCategorySchema,
   getEntityBySlug,
+  getGuidesLinkingToEntity,
   getServices,
   resolveGuidesBySlug,
 } from "@/lib/content";
+import { SERVICE_CATEGORY_PILLAR } from "@/lib/directory-category-related";
 import {
   breadcrumbJsonLd,
   buildPageMetadata,
@@ -52,8 +54,14 @@ export default async function ServiceDetailPage({ params }: Props) {
   if (entity.category !== categoryParsed.data) notFound();
   const s = entity;
 
-  const relatedGuides = await resolveGuidesBySlug(s.relatedGuides);
+  const fromEntity = await resolveGuidesBySlug(s.relatedGuides);
+  const fromReverse = await getGuidesLinkingToEntity(slug);
+  const relatedBySlug = new Map(
+    [...fromEntity, ...fromReverse].map((guide) => [guide.slug, guide]),
+  );
+  const relatedGuides = [...relatedBySlug.values()].slice(0, 8);
   const categoryLabel = SERVICE_CATEGORY_LABELS[s.category];
+  const pillar = SERVICE_CATEGORY_PILLAR[s.category];
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Directory", path: "/directory" },
@@ -161,10 +169,10 @@ export default async function ServiceDetailPage({ params }: Props) {
             All services
           </Link>
           <Link
-            href="/life"
+            href={pillar.href}
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
-            Life pillar →
+            {pillar.label} →
           </Link>
         </p>
       </nav>

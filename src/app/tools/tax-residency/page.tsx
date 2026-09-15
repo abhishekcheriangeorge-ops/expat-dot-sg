@@ -42,6 +42,12 @@ export default function TaxResidencyToolPage() {
             ← All tools
           </Link>
           <Link
+            href="/guides/iras-tax-residency-filing"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            IRAS tax residency guide →
+          </Link>
+          <Link
             href="/journeys/between-jobs"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >

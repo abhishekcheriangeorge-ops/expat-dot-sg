@@ -9,6 +9,7 @@ import {
   getServices,
   type ServiceCategory,
 } from "@/lib/content";
+import { SERVICE_CATEGORY_RELATED } from "@/lib/directory-category-related";
 import {
   breadcrumbJsonLd,
   buildPageMetadata,
@@ -86,6 +87,22 @@ export default async function DirectoryCategoryPage({ params }: Props) {
         crumbs={crumbs}
       />
       <ServiceDirectory services={services} lockedCategory={category} />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
+        <p className="text-sm text-ink-faint">
+          Related:{" "}
+          {SERVICE_CATEGORY_RELATED[category].map((link, i) => (
+            <span key={link.href}>
+              {i > 0 ? " · " : null}
+              <Link
+                href={link.href}
+                className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              >
+                {link.label}
+              </Link>
+            </span>
+          ))}
+        </p>
+      </div>
     </>
   );
 }
