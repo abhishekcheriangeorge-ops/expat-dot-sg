@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "dog-training-obedience",
+  "name": "Dog training and obedience",
+  "summary": "How expats find dog trainers in Singapore for condo living, leash manners, and reactivity — including AVS-aware expectations and why board-and-train marketing needs careful vetting.",
+  "body": "Singapore condo corridors, lifts, and void-deck rules make loose leash skills and quiet alone-time training essential. Trainers offer puppy schools, private obedience, reactivity programmes, and sometimes board-and-train — quality varies widely.\n\n## Match the problem\n- Puppy socialisation and toilet routines in small flats\n- Leash pulling on crowded park connectors\n- Lift/corridor reactivity to other dogs\n- Separation distress when both adults work long hours\n- Basic cues before pet boarding stays\n\nGroup classes are efficient for manners; serious reactivity often needs private behaviour work.\n\n## Methods and ethics\nPrefer force-free / evidence-based trainers who can explain plans without guaranteed “fixed in seven days” claims. Ask about equipment (prong/shock tools are a walk-away for many families) and whether they coordinate with vets for pain-related behaviour. Board-and-train should allow visits and written protocols — not a black box.\n\n## How to choose\nWatch a class before paying packages. Confirm vaccination requirements, class size, and rain make-ups. For imported dogs still settling post-AVS, allow decompression before intense group settings.\n\n## Practical tip\nTrain in the environment that fails — condo lobby sessions beat only quiet field work. Film your dog’s triggers for the trainer instead of only describing them.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nparks.gov.sg/avs",
+  "whenToEngage": [
+    "Puppy manners for condo lifts and corridors",
+    "Leash reactivity on park connectors",
+    "Comparing group class vs private behaviour training",
+    "Board-and-train package needs method/ethics vetting"
+  ],
+  "officialLinks": [
+    {
+      "label": "NParks Animal & Veterinary Service",
+      "url": "https://www.nparks.gov.sg/avs"
+    }
+  ],
+  "relatedGuides": [
+    "importing-pets-singapore",
+    "pets-daily-life-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

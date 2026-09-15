@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "glaucoma-clinics",
+  "name": "Glaucoma clinics",
+  "summary": "How expats find glaucoma care in Singapore for high eye pressure, visual-field loss, and family-history screening — including drop adherence in humid climates and when cataract pathways intersect.",
+  "body": "Glaucoma quietly steals peripheral vision. Expats often discover raised intraocular pressure on an optical screen or during a parent’s visit to an ophthalmologist. Glaucoma clinics manage diagnosis, drop regimens, laser, and surgery when needed — distinct from routine glasses updates.\n\n## What care involves\n- Optic nerve imaging and visual-field testing\n- Pressure checks and target-pressure planning\n- Daily eye drops (tolerability and adherence matter)\n- Selective laser trabeculoplasty and other procedures in selected cases\n- Surgical options when fields progress despite medical therapy\n\nOptical shops can flag risk; they do not replace ophthalmology for confirmed or suspected glaucoma.\n\n## Expat practicalities\nShift work and travel across time zones disrupt drop schedules — ask for written timing plans. Generic vs branded drops affect cost; insurance outpatient drug riders vary. Ageing parents on short visits need enough days for fields and follow-up before flying.\n\n## How to choose\nPrefer ophthalmologists with glaucoma focus who explain field trends in plain language and do not sell unnecessary premium cataract packages as a glaucoma cure. Bring prior imaging disks and a medication list. If you also have cataracts, ask how combined decisions are sequenced.\n\n## Practical tip\nSet phone alarms for drops and keep a travel mini-bottle kit. Missing evening doses for a week before a review falsely suggests “treatment failure.”\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Raised eye pressure or optic-nerve risk on a screen",
+    "Family history of glaucoma needs formal assessment",
+    "Drop adherence / side-effect plan for travel weeks",
+    "Progressive field loss — laser or surgery discussion"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "aged-parents-pr-ltvp-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

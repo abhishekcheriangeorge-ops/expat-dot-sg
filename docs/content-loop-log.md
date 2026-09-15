@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 22 — 2026-09-15
+
+Branch: `cursor/services-directory-tick22-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — eye pressure / glaucoma drop adherence and parent visit timing.
+- Pet forums — condo leash manners and reactivity trainer recommendations.
+- Rental forums — mattress/sofa cleaning vs mould-in-walls debates.
+- Trailing-spouse forums — career coach vs recruiter “guaranteed job” scepticism.
+- Music-parent forums — tropical piano tuning frequency before ABRSM.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc).
+- [NParks AVS](https://www.nparks.gov.sg/avs) + [CASE](https://www.case.org.sg/) + [NEA](https://www.nea.gov.sg/).
+- [MOM](https://www.mom.gov.sg/) + [MyCareersFuture](https://www.mycareersfuture.gov.sg/) + [NAC](https://www.nac.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#197 cover prior depth and every on-main service file. Free surface for tick 22: **glaucoma**, **dog training**, **mattress/sofa cleaning**, **career coaching**, **piano tuning**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/glaucoma-clinics.json`
+- `content/entities/services/dog-training-obedience.json`
+- `content/entities/services/mattress-sofa-cleaning.json`
+- `content/entities/services/vocational-career-coaching.json`
+- `content/entities/services/piano-tuning-repair.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#197 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Optical high pressure — glaucoma clinic or wait-and-see?
+2. Group puppy class or private reactivity trainer?
+3. Sofa clean enough when walls are mouldy?
+4. Career coach or recruiter for trailing-partner re-entry?
+5. How often to tune a piano in Singapore humidity?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 23)
 
 Branch: `cursor/loop-d-next-polish-tick23-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169) / [#177](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/177) / [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183).

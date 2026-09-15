@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "piano-tuning-repair",
+  "name": "Piano tuning and repair",
+  "summary": "How expats find piano tuners and technicians in Singapore for humidity-related pitch drift, condo move damage, and regulation — including how often to tune in tropical conditions.",
+  "body": "Pianos hate Singapore’s humidity swings between air-con and open windows. New arrivals unpack a shipped upright only to hear sour octaves within weeks. Tuners and technicians handle pitch, regulation, voicing, and minor repairs; full rebuilds are a different budget.\n\n## Typical needs\n- Post-move tuning after relocation or internal condo shifts\n- Seasonal pitch correction (often more frequent than temperate climates)\n- Sticky keys, pedal issues, and buzz diagnosis\n- Digital/hybrid instrument setup — confirm the tech’s scope\n- Pre-exam tuning for ABRSM/Trinity candidates\n\n## Condo logistics\nMeasure lift pads and stair turns before booking a move; many “tuning” calls are actually damage from poor handling. Ask neighbours about quiet hours before evening tunings.\n\n## How to choose\nPrefer technicians who explain pitch targets (A440 vs other) and whether your piano can hold tension after a big pitch raise (may need two visits). Get written quotes for parts. Cheap one-pass tunings on a neglected piano often leave it unstable.\n\n## Practical tip\nHold stable room humidity where practical and avoid parking pianos against exterior walls that sweat. Book tuning 1–2 weeks before exams, not the morning of.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nac.gov.sg/",
+  "whenToEngage": [
+    "Post-move or humidity-related piano pitch drift",
+    "Sticky keys / pedal issues need a technician",
+    "Pre-exam tuning timeline for graded music exams",
+    "Pitch-raise may need two visits — quote clarity"
+  ],
+  "officialLinks": [
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "kids-activities-holiday-camps"
+  ],
+  "featured": false,
+  "sponsored": false
+}

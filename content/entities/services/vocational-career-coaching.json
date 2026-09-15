@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "vocational-career-coaching",
+  "name": "Vocational and career coaching",
+  "summary": "How trailing partners and pivoting expats evaluate career coaches in Singapore — CV localisation, interview drills, and sector mapping — without confusing coaching with licensed counselling or guaranteed job placement.",
+  "body": "Career coaches help with story, targeting, and interview performance when you are changing countries, industries, or returning to work after a trailing-spouse pause. They are not recruiters with hidden job inventories and not therapists for burnout — though good coaches will refer when mental health needs lead.\n\n## Useful engagements\n- Translating an overseas CV into Singapore-readable formats\n- Interview practice for local behavioural styles\n- Sector mapping when your visa status constrains roles\n- LinkedIn and narrative work after a career break\n- Negotiation prep once an offer appears\n\nBeware “guaranteed EP job” packages — no ethical coach controls MOM outcomes.\n\n## How to choose\nPrefer coaches who disclose sector experience, sample session structure, and boundaries with recruitment fees. Trial one session before multi-month retainers. Ask how they handle visa-status honesty on applications. For regulated professions (teaching, clinical, legal), coaching cannot replace accreditation advice.\n\n## How it pairs with other help\nCombine with official job-search networks, professional associations, and — when anxiety or identity loss dominates — mental health resources. Dual-career households should align coaching goals with pass timelines.\n\n## Practical tip\nBring two target role descriptions and a redacted CV to session one. Vague “help me find purpose” retainers without job targets burn cash quickly in an expensive city.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.mom.gov.sg/",
+  "whenToEngage": [
+    "Trailing partner re-entry needs CV/interview coaching",
+    "Career pivot across countries needs narrative work",
+    "Quoted guaranteed-job package needs scepticism check",
+    "Offer negotiation prep after local interviews"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Manpower",
+      "url": "https://www.mom.gov.sg/"
+    },
+    {
+      "label": "MyCareersFuture",
+      "url": "https://www.mycareersfuture.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "trailing-partner-career-singapore",
+    "dual-career-spouse-singapore",
+    "career-pivots-singapore",
+    "decoding-job-offer-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
