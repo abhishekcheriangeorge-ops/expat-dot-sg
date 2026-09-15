@@ -6,68 +6,6 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
-<<<<<<< HEAD
-## Loop H — Storytelling + AEO — 2026-09-15 (tick 6)
-
-Branch: `loop/story-aeo-tick6` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 5’s pets / wrong PayNow / vaping FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory, Family/Belong left alone).
-
-### Sources mined
-
-**Reddit / forums (shaped questions)**
-
-- r/askSingapore — WhatsApp “bank fraud” / fake police / OTP phishing against new EP holders; mule “side job” ads asking for EP photos.
-- r/askSingapore — lost wallet / JB weekend / airline check-in without plastic FIN card; wrong-agency blue NRIC vs MOM card.
-- r/askSingapore — JB visa-run folklore while waiting for IPA / Student’s Pass; overstay anxiety on 30-day stamps.
-
-**Official**
-
-- [ScamShield](https://www.scamshield.gov.sg/) + helpline **1799** + [gov.sg SMS sender](https://sms.gov.sg/) + [GovTech Singpass hygiene](https://www.tech.gov.sg/technews/five-ways-to-keep-your-singpass-safe/).
-- [MOM — Replace an Employment Pass card](https://www.mom.gov.sg/passes-and-permits/employment-pass/replace-a-pass-card) + [SGWorkPass](https://www.mom.gov.sg/eservices/sgworkpass) (digital pass does **not** waive 1-week replacement).
-- [ICA — Seeking Extension of Visit Pass](https://www.ica.gov.sg/enter-transit-depart/extend-stay) (online only; ≤14 days remaining; ~5 working days; sponsor rules).
-
-### Gaps vs ticks 1–5
-
-Ticks 1–5 shipped SIM→Singpass→bank, SGAC, healthcare/emergency, IPA/EPSC, SimplyGo, serviced apartment, Changi Grab/taxi, CBNI + PayNow setup/recovery, HSA meds, licence conversion, household GST, pets, vaping. Remaining high-intent **week-one security / card-loss / visit-clock** gaps: **Singpass phishing without FAQPage/direct lead**, **lost work-pass card without FAQPage** (SGWorkPass myth under-weighted), **ICA STVP extension without FAQPage** (≤14-day window + JB myth; distinct from MOM post-cancel STVP).
-
-### Shipped this tick
-
-**Upgraded (AEO / journey polish)**
-
-- `content/guides/life/scams-singpass-phishing-expats.mdx` (direct lead + FAQPage)
-- `content/guides/next/lost-replace-work-pass-card.mdx` (direct lead + FAQPage)
-- `content/guides/move/short-term-visit-pass-extension.mdx` (direct lead + FAQPage; ICA ≤14-day / online clocks)
-
-### Explicitly not done
-
-- No ads / monetization expansion.
-- No Grok / competitor clone copy.
-- Did not wholesale rewrite Loop A–G guides (Family/Belong, Home/HDB, EP eligibility / Multiplier, SEO shell, services directory left alone).
-
-### Questions mined (sample)
-
-1. Will the police or my bank ask me to transfer money to a “safe” account?
-2. What should new EP holders install in week one against scams?
-3. I already shared OTP or clicked a Singpass link — what now?
-4. Is a job ad asking for EP front/back photos plus a selfie safe?
-5. Does ScamShield replace calling the bank after a phishing hit?
-6. I lost my EP card — what do I do first?
-7. Does SGWorkPass mean I can skip replacing the physical card?
-8. How much does MOM charge to replace a lost EP card?
-9. Can I fly or re-enter without the plastic FIN card?
-10. Is a lost blue PR NRIC replaced the same way as an EP card?
-11. Can I extend my STVP while waiting for an EP or Student’s Pass?
-12. When should I apply for an ICA STVP extension?
-13. Can I walk into ICA to extend my visit pass?
-14. Will a JB weekend “refresh” my visit pass safely?
-15. Can I work while on an extended visit pass waiting for IPA?
-
-### Answer-engine shapes
-
-- **FAQPage** JSON-LD via `faqs[]` on all three guides (5 Qs each).
-- Direct-answer leads (~40–60 words) before narrative.
-- Decision tables (scam non-negotiables / week-one hardening; MOM fee table; ICA extension clocks).
-- Numbered recovery / replacement / extension checklists with official citations.
-=======
 ## Loop C — Home + Life (parallel) — Tick 23 — 2026-09-15
 
 Branch: `loop/home-life-t23` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
@@ -144,7 +82,69 @@ Tick 22 shipped early lease exit, bed-bug / habitability pest escalation, PUB fl
 12. Toa Payoh vs Ang Mo Kio vs Bedok — which fits NSL CBD vs EWL east office?
 
 ---
->>>>>>> 74ff919 (Loop C Tick 23: lease renewal, landlord entry, dengue/chute, Toa Payoh/AMK/Bedok)
+
+---
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 6)
+
+Branch: `loop/story-aeo-tick6` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 5’s pets / wrong PayNow / vaping FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory, Family/Belong left alone).
+
+### Sources mined
+
+**Reddit / forums (shaped questions)**
+
+- r/askSingapore — WhatsApp “bank fraud” / fake police / OTP phishing against new EP holders; mule “side job” ads asking for EP photos.
+- r/askSingapore — lost wallet / JB weekend / airline check-in without plastic FIN card; wrong-agency blue NRIC vs MOM card.
+- r/askSingapore — JB visa-run folklore while waiting for IPA / Student’s Pass; overstay anxiety on 30-day stamps.
+
+**Official**
+
+- [ScamShield](https://www.scamshield.gov.sg/) + helpline **1799** + [gov.sg SMS sender](https://sms.gov.sg/) + [GovTech Singpass hygiene](https://www.tech.gov.sg/technews/five-ways-to-keep-your-singpass-safe/).
+- [MOM — Replace an Employment Pass card](https://www.mom.gov.sg/passes-and-permits/employment-pass/replace-a-pass-card) + [SGWorkPass](https://www.mom.gov.sg/eservices/sgworkpass) (digital pass does **not** waive 1-week replacement).
+- [ICA — Seeking Extension of Visit Pass](https://www.ica.gov.sg/enter-transit-depart/extend-stay) (online only; ≤14 days remaining; ~5 working days; sponsor rules).
+
+### Gaps vs ticks 1–5
+
+Ticks 1–5 shipped SIM→Singpass→bank, SGAC, healthcare/emergency, IPA/EPSC, SimplyGo, serviced apartment, Changi Grab/taxi, CBNI + PayNow setup/recovery, HSA meds, licence conversion, household GST, pets, vaping. Remaining high-intent **week-one security / card-loss / visit-clock** gaps: **Singpass phishing without FAQPage/direct lead**, **lost work-pass card without FAQPage** (SGWorkPass myth under-weighted), **ICA STVP extension without FAQPage** (≤14-day window + JB myth; distinct from MOM post-cancel STVP).
+
+### Shipped this tick
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/life/scams-singpass-phishing-expats.mdx` (direct lead + FAQPage)
+- `content/guides/next/lost-replace-work-pass-card.mdx` (direct lead + FAQPage)
+- `content/guides/move/short-term-visit-pass-extension.mdx` (direct lead + FAQPage; ICA ≤14-day / online clocks)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not wholesale rewrite Loop A–G guides (Family/Belong, Home/HDB, EP eligibility / Multiplier, SEO shell, services directory left alone).
+
+### Questions mined (sample)
+
+1. Will the police or my bank ask me to transfer money to a “safe” account?
+2. What should new EP holders install in week one against scams?
+3. I already shared OTP or clicked a Singpass link — what now?
+4. Is a job ad asking for EP front/back photos plus a selfie safe?
+5. Does ScamShield replace calling the bank after a phishing hit?
+6. I lost my EP card — what do I do first?
+7. Does SGWorkPass mean I can skip replacing the physical card?
+8. How much does MOM charge to replace a lost EP card?
+9. Can I fly or re-enter without the plastic FIN card?
+10. Is a lost blue PR NRIC replaced the same way as an EP card?
+11. Can I extend my STVP while waiting for an EP or Student’s Pass?
+12. When should I apply for an ICA STVP extension?
+13. Can I walk into ICA to extend my visit pass?
+14. Will a JB weekend “refresh” my visit pass safely?
+15. Can I work while on an extended visit pass waiting for IPA?
+
+### Answer-engine shapes
+
+- **FAQPage** JSON-LD via `faqs[]` on all three guides (5 Qs each).
+- Direct-answer leads (~40–60 words) before narrative.
+- Decision tables (scam non-negotiables / week-one hardening; MOM fee table; ICA extension clocks).
+- Numbered recovery / replacement / extension checklists with official citations.
 
 ---
 
