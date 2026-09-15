@@ -33,14 +33,14 @@
       "title": "Message HR / relocation — issuance and biometrics",
       "detail": "Confirm pass issuance timing, any medical still pending, and the Employment Pass Services Centre (EPSC) biometrics appointment. After issuance you typically get a Notification Letter that lets you work while the card is printed — verify the live MOM window with HR.",
       "pillar": "move",
-      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass"
+      "href": "/guides/work-pass-issuance-epsc-notification"
     },
     {
       "id": "cash-transit",
       "title": "Load SimplyGo / contactless transit + bridge cash",
-      "detail": "Link a contactless card or get an EZ-Link. Keep a foreign-card or remittance bridge until the local salary account opens — full banking belongs on the 30-day list.",
+      "detail": "Foreign contactless works day one (SimplyGo S$0.60/day admin fee). Or buy an EZ-Link. Keep a foreign-card or remittance bridge until the local salary account opens — full banking belongs on the 30-day list.",
       "pillar": "money",
-      "href": "/guides/opening-bank-account-expat"
+      "href": "/guides/mrt-bus-transport-literacy"
     },
     {
       "id": "gp-locate",

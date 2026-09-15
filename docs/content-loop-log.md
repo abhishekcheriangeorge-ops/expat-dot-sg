@@ -6,6 +6,66 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 2)
+
+Branch: `loop/story-aeo-tick2` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 1’s SIM/SGAC/FAQPage foundation. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (FWTES / EP job-change / HDB / SEO shell / services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IPA vs Notification Letter / when can I work / Singpass before plastic card ([start work with IPA only](https://www.reddit.com/r/askSingapore/comments/16i7zxi/start_work_with_ipa_only/); [EP but no IPA yet](https://www.reddit.com/r/askSingapore/comments/16kc2jf/i_have_the_ep_but_no_ipa_yet/); [Singpass after Notification Letter](https://www.reddit.com/r/askSingapore/comments/wfwo76/expat_arrived_from_australia_last_evening_can_i/); [EP related IPA delay](https://www.reddit.com/r/askSingapore/comments/1f1jnjh/ep_related/)).
+
+**Official**
+
+- [MOM — Apply for an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass/) (IPA → issue → Notification Letter 1 month → EPSC within 2 weeks → card ~5 working days; SGWorkPass).
+- [MOM — Key facts on Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/key-facts).
+- [SimplyGo — Contactless bank cards FAQ](https://simplygo.com.sg/faqs/cards-and-charms/simplygo/contactless-bank-cards/) (S$0.60/day foreign-card admin fee).
+- [URA — Short-term accommodation](https://www.ura.gov.sg/guidelines/property-and-business-owners/property/short-term-accommodation/).
+
+### Gaps vs tick 1
+
+Tick 1 shipped SIM→Singpass→bank, SG Arrival Card, healthcare/emergency FAQs, FAQPage schema. Remaining high-intent **arriving** gaps: **can I work on IPA alone / Notification Letter / EPSC bag list / card delivery** (only buried in appeal guide + day-7 MOM deep-link), **SimplyGo foreign-card fee** (MRT guide had no FAQ/lead), **serviced apartment legality + address for banks/MOM** (housing bridge lacked FAQPage).
+
+### Shipped this loop
+
+**New**
+
+- `content/guides/move/work-pass-issuance-epsc-notification.mdx`
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/life/mrt-bus-transport-literacy.mdx` (direct lead + FAQPage)
+- `content/guides/move/first-housing-serviced-apartment.mdx` (direct lead + FAQPage)
+- `content/guides/move/first-week-sim-singpass-bank.mdx` (cross-links)
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx` (cross-link only)
+- `content/journeys/checklists/day-7.json` (EPSC + SimplyGo hrefs)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Arriving start-here + Move/Life topic hrefs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Can I start work with only an IPA letter?
+2. What is the MOM Notification Letter, and how long is it valid?
+3. Do I need the physical EP card before I can work?
+4. How soon must I attend EPSC for fingerprints and photo?
+5. When does the physical work pass card arrive, and what if delivery fails?
+6. Can I ride MRT/buses on a foreign credit card, and what is the SimplyGo admin fee?
+7. Do I need an EZ-Link as a new expat?
+8. Why was I charged the maximum MRT fare?
+9. Should I book a serviced apartment for my first weeks?
+10. Is a condo Airbnb short-let legal under three months?
+11. Can a serviced-apartment address work for bank opening and MOM issuance?
+12. When should I update my MOM residential address after the bridge stay?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15
 
 Branch: `loop/story-aeo` → PR to `main`. Owns **journey completeness**, **answer-engine shape** (FAQ leads, FAQPage JSON-LD, decision tables), Arriving/Living hub framing, and surgical FAQ upgrades. Did **not** expand ads/monetization or wholesale-rewrite guides owned by Loops A–G this hour.
