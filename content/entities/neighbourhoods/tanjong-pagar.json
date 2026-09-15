@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "tanjong-pagar",
+  "name": "Tanjong Pagar",
+  "summary": "EWL CBD-south stop — office gravity, shophouse food edges, and dense condo stock with weekday peak crowds as the daily tax.",
+  "body": "Tanjong Pagar is the shortlist when East-West Line CBD-south access and a mix of office towers plus shophouse food matter. Housing is mostly condo and serviced-apartment stock rather than quiet HDB heartland; weekday lunch and evening office crowds are the tax. Expats land here for door-to-desk speed and car-light living, not cul-de-sac calm. Compare with Outram for multi-line interchange optionality, Chinatown for deeper heritage tourist energy, and Marina Bay / CBD when you are already paying core premiums and want the skyline walk.",
+  "region": "central",
+  "vibe": [
+    "ewl",
+    "cbd-south",
+    "office-gravity",
+    "shophouse-food",
+    "dense-condo"
+  ],
+  "bestFor": [
+    "CBD-south office hoppers who want door-to-desk speed",
+    "car-light households okay with weekday peak crowds",
+    "renters comparing serviced vs proper TA nearby",
+    "people who will book ActiveSG tables instead of trusting condo games rooms"
+  ],
+  "watchOuts": [
+    "Weekday office peak crowds",
+    "Serviced-apartment vs real TA confusion",
+    "Noise on major office corridors",
+    "Facility brochure vs MA booking reality in dense towers"
+  ],
+  "housingMix": "Dense condo and serviced-apartment stock with shophouse food edges.",
+  "commuteNotes": "East-West Line at Tanjong Pagar; test a Tuesday 08:15 door-to-desk and a Friday 18:30 station exit.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3200,
+    "oneBedTo": 5200,
+    "familyFrom": 4500,
+    "familyTo": 8000
+  },
+  "mrt": [
+    "Tanjong Pagar"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

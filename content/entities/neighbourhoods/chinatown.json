@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "chinatown",
+  "name": "Chinatown",
+  "summary": "NEL/DTL heritage and food belt — shophouse edges, dense condo inserts, and tourist footfall with shorter CBD hops than far-east towns.",
+  "body": "Chinatown is the shortlist when North-East / Downtown Line access and heritage food density matter more than polished Orchard living. Housing mixes shophouse walk-ups, boutique condos, and towers toward Outram / Maxwell; weekend tourist crowds and festival evenings are the tax. Expats land here for car-light CBD hops, late kitchens, and rents that still undercut River Valley. Compare with Outram for a slightly more hospital / interchange feel, Tanjong Pagar for CBD-south office gravity, and Tiong Bahru when you want café heritage with a calmer residential grid.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "dtl",
+    "heritage",
+    "food-density",
+    "tourist-footfall"
+  ],
+  "bestFor": [
+    "car-light CBD workers who want food and heritage nearby",
+    "households okay with weekend tourist energy",
+    "condo renters who will vet MA facility booking rules",
+    "people who will book ActiveSG indoor halls instead of trusting condo games rooms"
+  ],
+  "watchOuts": [
+    "Weekend and festival crowd spikes",
+    "Noise on major tourist corridors",
+    "Older MCST BBQ / function-room variance",
+    "Not a quiet heartland default"
+  ],
+  "housingMix": "Shophouse walk-ups, boutique condos, and towers toward Outram / Maxwell.",
+  "commuteNotes": "North-East and Downtown Line at Chinatown; test a Saturday afternoon street-level walk before you romanticise the heritage belt.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2800,
+    "oneBedTo": 4500,
+    "familyFrom": 3800,
+    "familyTo": 6500
+  },
+  "mrt": [
+    "Chinatown",
+    "Outram Park",
+    "Maxwell"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
