@@ -6,6 +6,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 14) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick14-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), and #100 (primary transition/IS boarding/youth performing arts).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — grandparents visiting to help with baby / long stay / pass limits.
+- r/askSingapore — Mother Tongue homework meltdowns / tutor sprawl in MOE vs IS primary.
+- r/askSingapore — teens volunteering / family charity shifts / CC foreigner limits.
+
+**Official**
+
+- [ICA Social Visit](https://www.ica.gov.sg/enter-depart/social_visit) + [ICA LTVP](https://www.ica.gov.sg/reside/LTVP) + [MOM Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass).
+- [MOE Mother Tongue](https://www.moe.gov.sg/primary/curriculum/mother-tongue-languages) + [primary curriculum](https://www.moe.gov.sg/primary/curriculum) + [fees](https://www.moe.gov.sg/financial-matters/fees).
+- [giving.sg](https://www.giving.sg/) + [volunteer.gov.sg](https://www.volunteer.gov.sg/) + [NVPC](https://www.nvpc.org.sg/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–13 (incl. open #80/#91/#100) covered schools/SEN/camps through braces/teen MH/playgroups, myopia/swim/cooking, parental burnout/UCAS/youth sports academies, primary transition/IS boarding/youth performing arts. Remaining heat: **grandparent long-stay caregiving**, **bilingual primary homework ops**, **youth volunteering belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/grandparents-long-stay-caregiving-singapore.mdx`
+- `content/guides/family/bilingual-primary-homework-expat-kids-singapore.mdx`
+- `content/guides/belong/youth-volunteering-communities-singapore.mdx`
+
+**Upgraded guides** (low-conflict vs open B stack)
+
+- part-time babysitter, Mandarin enrichment, local schools, volunteering networks, nationality groups, newborn pass, dual-career spouse, preschool
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/services/raffles-medical.json`
+- `content/entities/clubs/hollandse-club.json`
+- `content/entities/clubs/awa.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite open #80 / #91 / #100 bodies; minimized edits to contested files in that stack.
+
+### Questions mined (sample)
+
+1. Can grandparents stay six months on a Social Visit Pass to provide childcare?
+2. Is LTVP automatic for EP parents who “need help with the baby”?
+3. How do we replace grandparent cover when they fly home?
+4. Should non-Chinese parents drill characters after overtime?
+5. One enrichment brand or a private tutor for MTL homework?
+6. Are People’s Association CC youth roles open to DP teens?
+7. Which giving.sg shifts accept under-16s with a parent?
+8. Can youth volunteering replace another paid academy for belonging?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 13) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick13-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped braces / teen MH / playgroups (#76, now on main), myopia / swim / cooking (#80 open), and parental burnout / UCAS / youth sports academies (#91 open).
