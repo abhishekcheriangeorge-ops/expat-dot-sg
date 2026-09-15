@@ -649,6 +649,21 @@ export const pillars: Pillar[] = [
         blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
+        label: "Change name on NRIC",
+        href: "/guides/change-name-nric-singapore",
+        blurb: "Deed poll → ICA S$60; PRs update foreign passport first.",
+      },
+      {
+        label: "NRIC re-register 30/55",
+        href: "/guides/nric-reregistration-30-55-singapore",
+        blurb: "Compulsory age windows — 10-year replacement carve-out.",
+      },
+      {
+        label: "Apostille & notary",
+        href: "/guides/document-apostille-notary-singapore",
+        blurb: "SAL Apostille for SG docs; foreign originals elsewhere.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "New employer files fresh pass — resign only after IPA.",
