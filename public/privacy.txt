@@ -1,0 +1,22 @@
+# Privacy & tracking preferences — expat.sg
+# Machine-readable map for crawlers and privacy agents.
+# Companion to /.well-known/gpc.json and /.well-known/dnt-policy.txt.
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Signals
+- Global Privacy Control: https://expat.sg/.well-known/gpc.json
+- Do Not Track policy: https://expat.sg/.well-known/dnt-policy.txt
+- Security contact: https://expat.sg/.well-known/security.txt
+
+## Stance
+- Editorial guides and directories are the product; no ad network scripts on core hubs.
+- Analytics, if any, should respect GPC / DNT where implemented at the edge.
+- Contact for privacy questions: via the security.txt contact channel.
+
+## Related discovery
+- https://expat.sg/feeds.txt
+- https://expat.sg/browse.txt
+- https://expat.sg/humans.txt
+- https://expat.sg/sitemap.xml

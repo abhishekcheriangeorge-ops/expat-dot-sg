@@ -6,6 +6,28 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO hubs / crosslinks (tick 22) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick22-a144` → draft PR to `main`. SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. Built off fresh `origin/main`; **did not** edit open G-stack `src/` / `public/` paths through #252 (log prepend only).
+
+### Gaps vs prior G ticks
+
+Ticks 4–21 (open #74→#252) claimed chrome, directory, tools, motion, feeds/GPC, and most hub pages. Remaining free surface: **entity JSON-LD helpers**, **privacy/DNT crawl signals**, **middleware crawl hygiene**, **SkipTrail / AnchorNav** (distinct from JumpLinks).
+
+### Shipped this loop
+
+- `src/lib/seo-entities.ts` + `entities.ts` re-exports — Place / EducationalOrganization / Organization / LocalBusiness + collection ItemList
+- `src/lib/seo-privacy.ts` / `src/lib/seo-nav.ts` — privacy discovery + anchor helpers
+- `SkipTrail.tsx` / `AnchorNav.tsx` + `globals.css` skip-trail styles; layout barrel re-exports
+- `src/middleware.ts` — trailing-slash 308, API `X-Robots-Tag`, privacy `Link` headers
+- `public/privacy.txt`, `public/dnt-policy.txt`, `public/.well-known/dnt-policy.txt`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → (this PR)
+
+---
+
 ## Loop B — Family + Belong (tick 29) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick29-8971` → PR to `main`. Owns **Family** + **Belong** plus light services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #216. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

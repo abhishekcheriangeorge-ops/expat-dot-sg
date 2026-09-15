@@ -1,0 +1,5 @@
+# Alias — same policy as /.well-known/dnt-policy.txt
+# Prefer the .well-known path for automated discovery.
+
+See: https://expat.sg/.well-known/dnt-policy.txt
+See: https://expat.sg/privacy.txt

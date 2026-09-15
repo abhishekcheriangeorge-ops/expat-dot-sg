@@ -93,6 +93,29 @@ export async function getServices(): Promise<ServiceListing[]> {
   return (await getEntities("services")) as ServiceListing[];
 }
 
+export {
+  entityJsonLd,
+  entitiesItemListJsonLd,
+  neighbourhoodJsonLd,
+  schoolJsonLd,
+  clubJsonLd,
+  serviceListingJsonLd,
+} from "@/lib/seo-entities";
+
+/** Path helper for entity detail URLs — shared with JSON-LD builders. */
+export function getEntityPath(entity: Entity): string {
+  switch (entity.type) {
+    case "neighbourhood":
+      return `/neighbourhoods/${entity.slug}`;
+    case "school":
+      return `/schools/${entity.slug}`;
+    case "club":
+      return `/clubs/${entity.slug}`;
+    case "service":
+      return `/directory/${entity.category}/${entity.slug}`;
+  }
+}
+
 export type ResolvedRelatedEntity = {
   slug: string;
   name: string;
@@ -109,16 +132,7 @@ const COLLECTION_KIND_LABEL: Record<EntityCollection, string> = {
 };
 
 function entityHref(entity: Entity): string {
-  switch (entity.type) {
-    case "neighbourhood":
-      return `/neighbourhoods/${entity.slug}`;
-    case "school":
-      return `/schools/${entity.slug}`;
-    case "club":
-      return `/clubs/${entity.slug}`;
-    case "service":
-      return `/directory/${entity.category}/${entity.slug}`;
-  }
+  return getEntityPath(entity);
 }
 
 /** Resolve relatedEntities frontmatter slugs across all entity collections. */

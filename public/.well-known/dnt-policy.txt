@@ -1,0 +1,17 @@
+# Do Not Track Policy for expat.sg
+# https://expat.sg/.well-known/dnt-policy.txt
+#
+# This site honors Global Privacy Control (GPC) and Do Not Track (DNT)
+# preferences for first-party analytics where such tooling is present.
+# Core editorial pages do not load third-party ad networks.
+#
+# Version: 1.0
+# Effective: 2026-09-15
+# Habit: https://expat.sg/privacy.txt
+# GPC: https://expat.sg/.well-known/gpc.json
+
+DNT: 1
+GPC: 1
+Tracking: limited-first-party-only
+Ads: none-on-core-hubs
+Contact: see /.well-known/security.txt
