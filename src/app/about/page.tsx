@@ -33,8 +33,8 @@ export default function AboutPage() {
             We cover the full lifecycle across pillars — Move, Money, Home,
             Family, Belong, Life, and Next — from visas and first housing through
             neighbourhood decisions, schools and healthcare, clubs and
-            communities, renewals, PR strategy, and leaving well. Content is
-            dual-labeled for{" "}
+            communities, renewals, PR and citizenship strategy, and leaving well.
+            Content is dual-labeled for{" "}
             <Link href="/arriving" className="text-canopy underline">
               Arriving
             </Link>{" "}
