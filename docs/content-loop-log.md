@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 28)
+
+Branch: `cursor/e-journeys-tools-tick28-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #281** (`cursor/e-journeys-tools-tick27-fa4f`) — did not wait for #281 or earlier E drafts to merge. Avoided open E stack exclusives through **#281** (E27): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Condo leaver threads — visitor overnight bay still billed after keys returned; loading-bay QR left live for movers who already finished.
+- Helper / FDW threads — final-month levy vs mid-month cancel folklore; transfer-day who-pays-levy confusion.
+
+**Official / orientation**
+
+- Estate MCST / managing-agent visitor parking and loading-bay rules (estate-specific)
+- MOM FDW levy concession / cancellation timing (employer-specific)
+
+### Gaps vs open E stack through #281
+
+Open tips through **#281** cover mail/HDB through utility meter photos / exam deposits. Remaining high-intent gaps **off those path sets**: **condo visitor parking / loading-bay clear**, **helper levy final-month sketch**. No calendar JSON. Distinct from parking-iu-erp — this tick owns visitor / guest bay and loading slots, not personal IU/ERP. Distinct from helper-handoff-exit — this tick owns final-month levy cash sketch, not the full handoff playbook.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/condo-visitor-parking-clear.json` + `/journeys/condo-visitor-parking-clear`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/helper-levy-final-month.ts`
+- `src/components/tools/HelperLevyFinalMonthCalculator.tsx`
+- `/tools/helper-levy-final-month` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #281.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does returning unit keys cancel a reserved visitor overnight bay?
+2. Is a loading-bay QR separate from lobby guest QR?
+3. Who pays levy on an FDW transfer day?
+4. Does mid-month cancel actually pro-rate the levy?
+5. Are lost visitor tags billed against the renovation deposit?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 27)
 
 Branch: `cursor/e-journeys-tools-tick27-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #273** (`cursor/e-journeys-tools-tick26-fa4f`) — did not wait for #273 or earlier E drafts to merge. Avoided open E stack exclusives through **#273** (E26): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → this tip**. Soft hubs / content-loop-log: **prepend**.
