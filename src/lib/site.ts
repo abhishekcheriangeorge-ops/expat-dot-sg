@@ -197,11 +197,11 @@ export const pillars: Pillar[] = [
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
       },
       {
-<<<<<<< HEAD
         label: "Fair Consideration & MyCareersFuture",
         href: "/guides/fair-consideration-framework-ep",
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
-=======
+      },
+      {
         label: "Changing jobs on EP",
         href: "/guides/changing-jobs-employment-pass",
         blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
@@ -220,7 +220,6 @@ export const pillars: Pillar[] = [
         label: "ONE Pass",
         href: "/guides/one-pass-singapore",
         blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
->>>>>>> 394c595 (Loop A tick 16: job-change/remittance/health FAQ depth; restore hub topics.)
       },
       {
         label: "S Pass vs EP",
@@ -362,21 +361,17 @@ export const pillars: Pillar[] = [
         blurb: "IRAS rules, YA calendars, and clearance when you leave.",
       },
       {
-<<<<<<< HEAD
         label: "Relocation allowance tax",
         href: "/guides/relocation-allowance-tax-singapore",
         blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
       },
       {
-        label: "Insurance landscape",
-=======
         label: "Remittances & FX",
         href: "/guides/remittances-singapore",
         blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
       },
       {
         label: "Health insurance & LOG",
->>>>>>> 394c595 (Loop A tick 16: job-change/remittance/health FAQ depth; restore hub topics.)
         href: "/guides/health-insurance-expat",
         blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
       },
