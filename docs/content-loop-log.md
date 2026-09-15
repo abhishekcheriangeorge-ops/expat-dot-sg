@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 34 — 2026-09-15
+
+Branch: `cursor/home-life-tick34-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167 stay open for the merge controller — **did not** touch those PR paths. Topics: condo move-in/move-out lift booking, ActiveSG badminton court booking, Little India / Rochor / Jalan Besar.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — MCST move-in lift slots selling out, padding deposits vs security deposits, movers rejected at the boom without COI.
+- r/askSingapore — ActiveSG badminton Standard Rate for foreigners, peak release races, non-marking shoes, condo halls that stay locked.
+- r/askSingapore — central shortlists for Little India / Rochor / Jalan Besar vs Bugis tourist crush and Lavender older-stock edges.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf) + [common issues in private estates](https://www1.bca.gov.sg/guidelines-and-requirements/common-issues-or-disputes-encountered-by-residents-in-private-estates/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [facilities](https://www.activesgcircle.gov.sg/facilities).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #167
+
+Open PRs own reno-noise/lightning/void-deck/power/condo-adjacent-reno/smoke/PUB-water/pools/SP-bill/stadium/OEM/HDB-corridor-smoking/MCST-bylaws/football-futsal/visitor-parking/tennis/reno-deposit-lift/squash and their town sets (incl. Lavender/Bugis/Farrer Park). Remaining gaps without collision: **condo move-in/move-out lift booking** (≠ renovation works deposits), **ActiveSG badminton booking** (≠ pools/stadium/futsal/tennis/squash), plus neighbourhood depth for **Little India**, **Rochor**, and **Jalan Besar**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-move-in-move-out-lift-booking-tenants.mdx`
+- `content/guides/life/activesg-badminton-court-booking-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/early-lease-termination-tenants.mdx`
+- `content/guides/home/security-deposit-diplomatic-clause.mdx`
+- `content/guides/home/tenant-agent-commission-cea.mdx`
+- `content/guides/life/dating-social-singapore.mdx`
+- `content/guides/life/hawker-food-guide.mdx`
+- `content/guides/life/shopping-essentials-singapore.mdx`
+- `src/lib/site.ts` (move-in lift + ActiveSG badminton topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/little-india.json`
+- `content/entities/neighbourhoods/rochor.json`
+- `content/entities/neighbourhoods/jalan-besar.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 file paths.
+
+### Questions mined (sample)
+
+1. Is move-in lift booking the same as a renovation lift booking?
+2. Who pays the padding deposit — landlord or tenant?
+3. How early should I book the service lift?
+4. What if the MA rejects my mover at the boom?
+5. Can foreigners book ActiveSG badminton at Standard Rate?
+6. Is badminton the same product as tennis or squash?
+7. Do I need non-marking shoes?
+8. Little India vs Rochor — food belt or interchange edge?
+9. Is Jalan Besar quieter than Bugis for late kitchens?
+10. What pre-move MA questions save boom-gate fights?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 33 — 2026-09-15
 
 Branch: `cursor/home-life-tick33-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150 stay open for the merge controller — **did not** touch those PR paths. Topics: condo renovation deposit / lift booking, ActiveSG squash court booking, Lavender / Bugis / Farrer Park.

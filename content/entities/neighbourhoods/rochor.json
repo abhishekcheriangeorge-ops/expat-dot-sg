@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "rochor",
+  "name": "Rochor",
+  "summary": "DTL interchange edge of the Little India / Bugis belt — mall adjacency, mixed condo stock, and city-fringe hops with tourist spillover as the daily tax.",
+  "body": "Rochor is the shortlist when Downtown Line interchange access and a position between Little India food and Bugis retail matter. Housing is mostly condo and serviced-apartment edges rather than quiet HDB heartland; weekend tourist and mall crowds are real. Expats land here for car-light CBD hops and lifestyle density, not cul-de-sac calm. Compare with Little India for deeper cultural-belt texture, Jalan Besar for late-kitchen energy with slightly less interchange crush, and Bugis when you want the full retail hub and accept heavier footfall.",
+  "region": "central",
+  "vibe": [
+    "dtl",
+    "interchange",
+    "city-fringe",
+    "mall-adjacent",
+    "tourist-spillover"
+  ],
+  "bestFor": [
+    "DTL workers who want Little India and Bugis in walking range",
+    "households okay with weekend tourist energy",
+    "renters comparing serviced vs proper TA nearby",
+    "condo tenants who will vet MA move-in lift rules before keys"
+  ],
+  "watchOuts": [
+    "Interchange and mall peak crowds",
+    "Serviced-apartment vs real TA confusion",
+    "Noise on major retail corridors",
+    "Facility brochure vs MA booking reality in older condos"
+  ],
+  "housingMix": "Condo and serviced-apartment stock with limited quiet HDB texture.",
+  "commuteNotes": "Downtown Line at Rochor; test Saturday afternoon station exits before you romanticise the interchange.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2600,
+    "oneBedTo": 4200,
+    "familyFrom": 3500,
+    "familyTo": 6000
+  },
+  "mrt": [
+    "Rochor",
+    "Little India",
+    "Bugis"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
