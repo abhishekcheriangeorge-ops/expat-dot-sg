@@ -1,0 +1,17 @@
+# Careers discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/about
+- https://expat.sg/careers.txt
+- https://expat.sg/jobs.txt
+- https://expat.sg/contact.txt
+
+## Notes
+- Careers discovery shell only; JobPosting JSON-LD deferred until listings exist.
+
+## Related
+- https://expat.sg/press.txt
+- https://expat.sg/sitemap.xml

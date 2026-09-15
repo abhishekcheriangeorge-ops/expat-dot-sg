@@ -1,0 +1,17 @@
+# Account discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/profile.txt
+- https://expat.sg/billing.txt
+- https://expat.sg/contact.txt
+- https://expat.sg/help.txt
+
+## Notes
+- Account discovery only; no auth UI or monetization in this shell tick.
+
+## Related
+- https://expat.sg/legal.txt
+- https://expat.sg/sitemap.xml

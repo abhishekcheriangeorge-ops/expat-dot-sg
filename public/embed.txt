@@ -1,0 +1,19 @@
+# Embed discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/embed.txt
+- https://expat.sg/developers.txt
+- https://expat.sg/api.txt
+- https://expat.sg/about
+
+## Notes
+- Embed WebPage / ItemList helpers live in seo-embed.ts.
+- Editorial widgets only; no ad embeds.
+
+## Related
+- https://expat.sg/brand.txt
+- https://expat.sg/media.txt
+- https://expat.sg/sitemap.xml

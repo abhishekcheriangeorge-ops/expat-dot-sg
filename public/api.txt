@@ -1,0 +1,17 @@
+# API discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/developers.txt
+- https://expat.sg/embed.txt
+- https://expat.sg/search.txt
+- https://expat.sg/sitemap.xml
+
+## Notes
+- API discovery shell; pairs with developers TechArticle helpers.
+
+## Related
+- https://expat.sg/status.txt
+- https://expat.sg/feedback.txt

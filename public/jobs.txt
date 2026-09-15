@@ -1,0 +1,16 @@
+# Jobs discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/careers.txt
+- https://expat.sg/about
+- https://expat.sg/contact.txt
+
+## Notes
+- Jobs discovery pointers; no sponsored listings in this tick.
+
+## Related
+- https://expat.sg/feedback.txt
+- https://expat.sg/sitemap.xml

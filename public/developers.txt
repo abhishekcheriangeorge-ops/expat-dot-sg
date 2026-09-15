@@ -1,0 +1,19 @@
+# Developers discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/developers.txt
+- https://expat.sg/api.txt
+- https://expat.sg/embed.txt
+- https://expat.sg/indexnow.txt
+
+## Notes
+- TechArticle / ItemList helpers live in seo-developers.ts.
+- Machine-readable discovery; no third-party clone docs.
+
+## Related
+- https://expat.sg/changelog.txt
+- https://expat.sg/version.txt
+- https://expat.sg/sitemap.xml

@@ -1,0 +1,17 @@
+# Feedback discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/contact.txt
+- https://expat.sg/help.txt
+- https://expat.sg/support.txt
+- https://expat.sg/feedback.txt
+
+## Notes
+- Feedback hub discovery; no NPS monetization or ads.
+
+## Related
+- https://expat.sg/status.txt
+- https://expat.sg/sitemap.xml
