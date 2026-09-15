@@ -6,6 +6,19 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 37)
+
+Branch: `cursor/loop-d-next-polish-tick37-d996` → draft PR to `main`, off tip [#303](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/303) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EntrePass→EP founder exit, S Pass→EP upgrade packaging, and COMPASS C2 degree verification edges.
+
+**Shipped**
+- New: `entrepass-to-ep-founder-exit-singapore`, `s-pass-to-ep-upgrade-packaging-singapore`, `compass-c2-degree-verification-edges-singapore`
+- Parents (light): EntrePass, S Pass→EP upgrade, COMPASS framework
+- Rails: `src/lib/site.ts` Next topics, about, editorial; this log prepend
+
+**Merge note:** tip [#303](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/303) → this tip when controller merges.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 36)
 
 Branch: `cursor/loop-d-next-polish-tick36-d996` → draft PR to `main`, off tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for Tech.Pass→ONE salary composite, LTVP/PLOC→EP conversion edges, and EP notify-MOM address/passport edges.

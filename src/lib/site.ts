@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "Tech.Pass → ONE composite",
-        href: "/guides/tech-pass-to-one-pass-salary-composite-singapore",
-        blurb: "S$22.5k cash ≠ S$30k composite — stage before 2027.",
+        label: "EntrePass → EP founder exit",
+        href: "/guides/entrepass-to-ep-founder-exit-singapore",
+        blurb: "Founder pass ≠ self-hire EP — stage before TBS dies.",
       },
       {
-        label: "PLOC→EP conversion edges",
-        href: "/guides/ltvp-ploc-to-ep-conversion-edges-singapore",
-        blurb: "Sponsor shocks mid-IPA — PLOC tenure is not a stealth EP.",
+        label: "S Pass→EP upgrade packaging",
+        href: "/guides/s-pass-to-ep-upgrade-packaging-singapore",
+        blurb: "Raise letter ≠ EP file — fixed monthly + FCF + COMPASS.",
       },
       {
-        label: "Notify MOM address edges",
-        href: "/guides/ep-notify-mom-address-passport-edges-singapore",
-        blurb: "Travel + FWTES + passport renewal vs five-day clocks.",
+        label: "COMPASS C2 degree edges",
+        href: "/guides/compass-c2-degree-verification-edges-singapore",
+        blurb: "Awarding body on the cert — not campus brand folklore.",
       },
       {
         label: "Between jobs / STVP",
