@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, and CPF withdrawal timing.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, and school deposit clawback.",
   path: "/tools",
 });
 
@@ -48,10 +48,10 @@ const tools = [
       "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
   },
   {
-    href: "/tools/cpf-withdrawal",
-    title: "CPF withdrawal timing",
+    href: "/tools/school-deposit-clawback",
+    title: "School deposit clawback",
     summary:
-      "Count backwards from departure across common CPF processing windows — sketch only, not Board advice.",
+      "Sketch mid-year deposit forfeiture and remaining tuition cash at risk — not handbook advice.",
   },
 ] as const;
 

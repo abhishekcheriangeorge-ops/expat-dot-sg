@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 12)
+
+Branch: `cursor/e-journeys-tools-tick12-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116 → #122 → #131** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → #122 → #131 → this tick**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — Singpass still logs in after EP cancel; Myinfo dies for bank KYC; OTP SMS stranded on a dead Singapore number.
+- r/askSingapore — mid-year international school deposit forfeiture vs notice; remaining tuition billed after resignation.
+
+**Official**
+
+- [Singpass](https://www.singpass.gov.sg/)
+- [ScamShield](https://www.scamshield.gov.sg/)
+- Parent-handbook / enrolment norms (orientation only — school contracts control clawbacks)
+
+### Gaps vs Loop E ticks 1–11 (open stack)
+
+Open **#72/#90/#101/#110/#116/#122/#131** cover family-joining, DP/LOC, graduate bridge, hospital cash, FDW levy, bank-exit, storage, utility exit, IR21 withhold, pets re-export, CPF timing, plus school-withdrawal **notice** timing in #90. Remaining high-intent gaps **off those path sets**: **Singpass/Myinfo exit playbook**, **mid-year school deposit clawback cash sketch** (money at risk — distinct from #90 notice weeks). No calendar JSON.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/singpass-myinfo-exit.json` + `/journeys/singpass-myinfo-exit`
+- Journeys index + sitemap (hub soft-conflict expected after open stack)
+
+**Tools**
+
+- `src/lib/tools/school-deposit-clawback.ts`
+- `src/components/tools/SchoolDepositClawbackCalculator.tsx`
+- `/tools/school-deposit-clawback` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #72 / #90 / #101 / #110 / #116 / #122 / #131 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does Singpass login after EP cancel mean I can still stay?
+2. When does Myinfo stop answering for bank KYC?
+3. Should I keep a Singapore SIM for OTPs after I fly?
+4. How do I hand off Corppass / school portal admin roles?
+5. What phishing themes hit leavers during cancel week?
+6. How much of the school deposit is at risk mid-term?
+7. Does meeting notice protect the deposit automatically?
+8. Will the school still bill remaining tuition after I resign?
+9. How do I sketch cash at risk before serving lease notice?
+10. Can I pay the bursar after Myinfo dies?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 11)
 
 Branch: `cursor/e-journeys-tools-tick11-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Avoided open E stack **#72 → #90 → #101 → #110 → #116 → #122** exclusive paths. Merge controller order: **#72 → #90 → #101 → #110 → #116 → #122 → this tick**.
