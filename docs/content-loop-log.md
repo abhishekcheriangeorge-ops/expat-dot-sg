@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 28)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick28-49cb` → PR to `main` (fresh worktree off `origin/main` @ `ade3e3c`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)/[#154](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/154)/[#158](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/158)/[#163](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/163)/[#170](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/170)/[#175](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/175)/[#180](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/180)/[#187](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/187)/[#194](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/194)/[#200](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/200)/[#208](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/208) A17–A27 stay open — **did not** edit those paths). Prefer merge order **#143 → #154 → #158 → #163 → #170 → #175 → #180 → #187 → #194 → #200 → #208 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — STVP submit≠stay; DP as sponsor myths; ICA refusal while IPA pending.
+- r/askSingapore / r/singaporefi — CTC vs MOM floor; school/flight perks; negotiate base not bonus.
+- r/askSingapore — multi-currency cash sum; declare≠tax; outbound CBNI separate.
+
+**Official**
+
+- [ICA — Short-Term Visit Pass extension](https://www.ica.gov.sg/) e-service framing
+- [MOM — EP fixed monthly salary](https://www.mom.gov.sg/passes-and-permits/employment-pass) definition
+- [ICA / SPF — CBNI / NP 727](https://www.ica.gov.sg/) cash declaration rules
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A17–A27 claim Student’s Pass through licence/PayNow/CPF-foreigners. Tick 28 deepens **STVP extension**, **salary package decoding**, and **CBNI cash declaration** without colliding those paths (left job-offer decoding and remittance bodies untouched).
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/short-term-visit-pass-extension.mdx` (+3)
+- `content/guides/money/salary-package-decoding.mdx` (+3)
+- `content/guides/money/cbni-cash-declaration-singapore.mdx` (+3)
+- `src/lib/site.ts` (STVP-extension hub topic; salary/CBNI blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A17–A27 guide paths or `intact-immigration`.
+- Left #143/#154/#158/#163/#170/#175/#180/#187/#194/#200/#208 for the merge controller.
+
+### Questions mined (sample)
+
+1. Does submitting an STVP extension pause overstay?
+2. Can a DP spouse sponsor my STVP extension?
+3. What if ICA refuses while EP IPA is pending?
+4. Is CTC the MOM salary number?
+5. Do school/flight benefits count in EP fixed salary?
+6. Negotiate base or bonus to clear the floor?
+7. Do I sum all currencies for CBNI?
+8. Does declaring mean tax or seizure?
+9. Need a new CBNI filing outbound?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 24)
 
 Branch: `cursor/loop-d-next-polish-tick24-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Family / Belong / Home body trees beyond Move parent cross-links for PEP / ONE / Tech / EntrePass / incorporate. Avoided open Loop D file sets from [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183) / [#193](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/193).

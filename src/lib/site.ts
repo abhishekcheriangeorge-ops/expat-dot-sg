@@ -187,6 +187,11 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
+        label: "STVP extension while waiting",
+        href: "/guides/short-term-visit-pass-extension",
+        blurb: "Submit≠approved; DP isn’t always sponsor; refusal means exit.",
+      },
+      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
@@ -315,7 +320,7 @@ export const pillars: Pillar[] = [
       {
         label: "Cash declaration (CBNI)",
         href: "/guides/cbni-cash-declaration-singapore",
-        blurb: "S$20k+ physical cash — NP727 before you fly.",
+        blurb: "Sum all currencies, declare≠tax, outbound needs a new filing.",
       },
       {
         label: "Tax residency & filing",
@@ -350,7 +355,7 @@ export const pillars: Pillar[] = [
       {
         label: "Salary package decoding",
         href: "/guides/salary-package-decoding",
-        blurb: "Housing, flights, school fees — what the letter really means.",
+        blurb: "CTC≠MOM floor; sign-on/school perks; fix base not bonus.",
       },
     ],
     related: [
