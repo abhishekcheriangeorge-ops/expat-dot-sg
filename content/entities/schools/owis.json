@@ -3,22 +3,27 @@
   "slug": "owis",
   "name": "One World International School",
   "summary": "IB programmes with campuses serving west and other corridors at relatively accessible fees.",
-  "body": "OWIS positions as a more accessible IB option versus legacy mega-campuses. Campus locations have expanded over time — match the site to your commute. Useful comparison school when packages are mid-range. Confirm how external ed-psych reports are reviewed and whether tutoring on campus is facilitated or parent-managed.",
+  "body": "OWIS positions as a more accessible IB option versus legacy mega-campuses. Campus locations have expanded over time \u2014 match the site to your commute. Useful comparison school when packages are mid-range. Confirm how external ed-psych reports are reviewed and whether tutoring on campus is facilitated or parent-managed. Accessible IB fees still collide with weekday sport fixtures and academy waits \u2014 dual-career households should calendar bus calls before stacking a second tennis night.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "Nursery–Grade 12",
+  "ages": "Nursery\u2013Grade 12",
   "neighbourhood": "clementi-west-coast",
-  "campus": "Nanyang / multiple — verify",
+  "campus": "Nanyang / multiple \u2014 verify",
   "languages": [
     "English"
   ],
   "feesBand": "Mid",
-  "waitlistNotes": "Generally more mid-year flexibility — still confirm by grade.",
+  "waitlistNotes": "Generally more mid-year flexibility \u2014 still confirm by grade.",
   "website": "https://www.owis.org",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-sports-fixture-weekday-ops-dual-career-singapore",
+    "tennis-academy-waiting-parent-belonging-singapore",
+    "primary-cca-vs-external-academy-dual-career-singapore"
+  ]
 }
