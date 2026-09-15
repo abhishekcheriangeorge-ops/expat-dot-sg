@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 17)
+
+Branch: `loop/story-aeo-tick17` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#69/#73). Avoided open merge-controller H file sets (#82 H12, #84 H13, #87 H14, #93 H15, #98 H16). Prefer merge order **#82 → #84 → #87 → #93 → #98** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “only 30 days after layoff?” STVP folklore; DP cascade panic; JB reset myths.
+- r/askSingapore — IR21 final-pay freeze; leave-on-notice; 30 vs 90-day STVP asks when exiting.
+- r/askSingapore — PR pending forever; rejection with no reasons; when to appeal vs reapply.
+
+**Official**
+
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [change jobs on EP FAQ](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep).
+- [IRAS — Tax clearance (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees).
+- [ICA — Appeal SC/PR/LTVP](https://www.ica.gov.sg/reside/reside-appeals) + [Becoming a PR](https://www.ica.gov.sg/reside/PR).
+
+### Gaps vs open H + ticks 1–16
+
+Open: #82 (hawker / annual admin / weekend getaways), #84 (dating / climate wear / nightlife), #87 (shopping / arts / cycling), #93 (pets / EP / job changes), #98 (after-PR / EP renewal / PR strategy). Remaining high-intent Next FAQ-free gaps: **between-jobs STVP**, **leaving playbook**, **PR rejection / reapply**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/between-jobs-stvp-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/leaving-singapore-playbook.mdx` (direct lead + FAQPage)
+- `content/guides/next/pr-rejection-reapply.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Next between-jobs + PR-rejection topics; leaving blurb)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #82/#84/#87/#93/#98 guide bodies.
+
+### Questions mined (sample)
+
+1. How long can I stay after my Employment Pass is cancelled?
+2. Can I keep working on an STVP after EP cancellation?
+3. What happens to Dependant Passes when my EP is cancelled?
+4. Is it safe to leave Singapore and return on STVP?
+5. Is between-jobs STVP the same as a tourist visit-pass extension?
+6. What should I sequence first when leaving Singapore on an EP?
+7. Why does IR21 freeze my final salary?
+8. How long an STVP should I ask for when exiting?
+9. Should I burn annual leave during notice?
+10. Do PRs follow the same exit playbook as EP holders?
+11. Why was my Singapore PR application rejected?
+12. Can I appeal a PR rejection?
+13. When should I reapply after a PR rejection?
+14. Is a long pending PR wait a good sign?
+15. How do I report a job change while PR is pending?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 16)
 
 Branch: `loop/story-aeo-tick16` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#69 H10, #73 H11, #82 H12, #84 H13, #87 H14, #93 H15). Prefer merge order **#69 → #73 → #82 → #84 → #87 → #93** before this lands. No ads / monetization; no Grok copy.
