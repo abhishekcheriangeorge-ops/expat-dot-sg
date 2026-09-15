@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 28)
+
+Branch: `cursor/loop-d-next-polish-tick28-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Family / Next parents for AEIS, STVP, and apostille. Avoided open Loop D file sets from [#215](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/215) / [#222](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/222).
+
+**Merge order note (controller):** `#215 → #222 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — common-law LTVP on shared lease folklore.
+- r/askSingapore — AEIS pass then cancel international hold; S-AEIS as backup myth.
+- r/askSingapore — STVP JB hop + uninsured week after group medical ends.
+
+**Official**
+
+- [MOM — LTVP documents](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/documents-required) · [LTVP eligibility](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass/eligibility)
+- [MOE — AEIS](https://www.moe.gov.sg/international-students/aeis) · [S-AEIS](https://www.moe.gov.sg/international-students/s-aeis)
+- [MOM — Cancel EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) · [MOH healthcare](https://www.moh.gov.sg/home/our-healthcare-system)
+
+### Gaps vs open stack
+
+Open #215→#222 cover DP re-sponsor / STP work hours / SRS exit; LTVP→EP / mid-year school knock-ons / insurance exit bridge. Remaining gaps: **common-law LTVP evidence pack**, **AEIS vs international hold**, **STVP travel/medical gaps**.
+
+### Shipped
+
+**New:** `ltvp-common-law-spouse-evidence-pack-singapore.mdx`, `aeis-placement-vs-international-hold-singapore.mdx`, `stvp-travel-medical-cover-gap-singapore.mdx`
+
+**Upgraded:** AEIS, local schools, between-jobs STVP, document apostille (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #215 / #222 guide bodies; no re-edit of their parents (changing-jobs, Student’s Pass, SRS, PLOC/LTVP, international schools, health-insurance-expat).
+- Did not wait for merges.
+
+### Questions mined
+
+1. Is a shared flat enough for common-law LTVP?
+2. Which of MOM’s three proofs should we use?
+3. Must the affidavit be notarised overseas?
+4. Does AEIS pass guarantee a nearby primary?
+5. When should I cancel the international-school hold?
+6. Is S-AEIS a safe backup?
+7. Does STVP include medical cover?
+8. Can I fly to JB and return on STVP?
+9. When does group medical end vs STVP end?
+10. Should I buy travel insurance for the STVP window?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 27)
 
 Branch: `cursor/loop-d-next-polish-tick27-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Family / Money parents for LTVP/PLOC, schools, and health insurance. Avoided open Loop D file set from [#215](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/215).

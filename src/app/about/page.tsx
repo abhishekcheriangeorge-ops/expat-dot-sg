@@ -92,9 +92,7 @@ export default function AboutPage() {
               notice offset, unpaid retrenchment benefit TADM vs TAFEP,
               EP side-hustle / content-creator traps, FCF MyCareersFuture
               14-day clock, CPF account closure after renouncing PR / SC,
-              LTVP + PLOC → EP conversion, mid-year school-transfer pass knock-ons,
-              health-insurance exit / between-jobs bridge,
-              EP renewal NOA asks, pass cancellations) are checked against
+              common-law spouse LTVP evidence pack, AEIS vs international-school hold, STVP travel / medical cover gaps, EP renewal NOA asks, pass cancellations) are checked against
               live ICA / MOM / MHA text before we ship.
             </li>
             <li>

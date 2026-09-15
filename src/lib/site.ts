@@ -192,11 +192,6 @@ export const pillars: Pillar[] = [
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
       },
       {
-        label: "PEP / ONE / Tech.Pass chooser",
-        href: "/guides/pep-one-tech-pass-chooser-singapore",
-        blurb: "Salary band, renewability, spouse LOC, 2027 handoff.",
-      },
-      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -338,11 +333,6 @@ export const pillars: Pillar[] = [
         blurb: "Exit withholding, 5% early penalty, foreigner lump-sum rules.",
       },
       {
-        label: "SRS exit withholding",
-        href: "/guides/srs-exit-withholding-nonresident-singapore",
-        blurb: "24%/15% paths, 5% early penalty, IR21 cash collision.",
-      },
-      {
         label: "RSU / ESOP tax",
         href: "/guides/rsu-esop-tax-singapore",
         blurb: "Vest vs exercise, no-local-entity filing, deemed exercise.",
@@ -400,6 +390,11 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
+        label: "Grandparents long-stay care",
+        href: "/guides/grandparents-long-stay-caregiving-singapore",
+        blurb: "Social Visit vs LTVP, caregiving ops, dual-career bridge.",
+      },
+      {
         label: "Kids ADHD medication",
         href: "/guides/kids-adhd-medication-singapore",
         blurb: "HSA bridge, local psychiatrist Rx, Adderall gaps.",
@@ -408,6 +403,11 @@ export const pillars: Pillar[] = [
         label: "Mandarin enrichment",
         href: "/guides/mandarin-enrichment-expat-kids-singapore",
         blurb: "Berries vs online vs IS bilingual tracks — goal first.",
+      },
+      {
+        label: "Bilingual primary homework",
+        href: "/guides/bilingual-primary-homework-expat-kids-singapore",
+        blurb: "MTL vs English nights without enrichment sprawl.",
       },
       {
         label: "Kids activities & calendar",
@@ -452,9 +452,19 @@ export const pillars: Pillar[] = [
         blurb: "Order like a local — centres, etiquette, favourites.",
       },
       {
-        label: "Shopping & nightlife",
+        label: "Shopping essentials",
         href: "/guides/shopping-essentials-singapore",
-        blurb: "Where expats actually go after the first month.",
+        blurb: "Grocers, house brands, e-waste, and bulky disposal.",
+      },
+      {
+        label: "Arts & culture",
+        href: "/guides/arts-culture-singapore",
+        blurb: "NLB membership for foreigners, museums, Esplanade habits.",
+      },
+      {
+        label: "Cycling & active mobility",
+        href: "/guides/cycling-active-mobility-singapore",
+        blurb: "Helmet rules, PAB registration, and path etiquette.",
       },
       {
         label: "CASE & Lemon Law",
@@ -549,7 +559,12 @@ export const pillars: Pillar[] = [
         href: "/guides/religious-communities-singapore",
         blurb: "Churches, temples, mosques, and interfaith spaces.",
       },
-      {
+            {
+        label: "Youth volunteering",
+        href: "/guides/youth-volunteering-communities-singapore",
+        blurb: "Teen/family service rails beyond paid academies.",
+      },
+{
         label: "Nationality groups",
         href: "/guides/nationality-groups-singapore",
         blurb: "Find your passport crowd without living inside it.",
@@ -603,11 +618,6 @@ export const pillars: Pillar[] = [
         blurb: "ICA spouse/child LTVP work — PLOC vs employer LOC.",
       },
       {
-        label: "PLOC / LOC renewal sequencing",
-        href: "/guides/ploc-renewal-ltvp-sequencing-singapore",
-        blurb: "Renew ICA LTVP first; PLOC dies with the pass.",
-      },
-      {
         label: "Student PR",
         href: "/guides/pr-for-student-singapore",
         blurb: "National exam / IP eligibility row — not private-exam folklore.",
@@ -644,39 +654,25 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "LTVP + PLOC → EP",
-        href: "/guides/ltvp-ploc-to-ep-conversion-singapore",
-        blurb: "PLOC is work consent — EP is a new principal file.",
+        label: "Common-law LTVP evidence",
+        href: "/guides/ltvp-common-law-spouse-evidence-pack-singapore",
+        blurb: "Certificate, home notarised affidavit, or embassy letter.",
       },
       {
-        label: "Mid-year school transfer knock-ons",
-        href: "/guides/mid-year-school-transfer-pass-knockons-singapore",
-        blurb: "Fees, bus bonds, pass validity — school ≠ immigration.",
-      },
-      {
-        label: "DP re-sponsor on EP job change",
-        href: "/guides/dp-resubmission-when-principal-changes-ep-singapore",
-        blurb: "New principal IPA → family re-file before old cancel.",
-      },
-      {
-        label: "Student’s Pass work hours",
-        href: "/guides/student-pass-work-hours-vacation-exemption-singapore",
-        blurb: "Term caps, vacation window, exchange-student bars.",
+        label: "AEIS vs international hold",
+        href: "/guides/aeis-placement-vs-international-hold-singapore",
+        blurb: "Pass ≠ brand placement — keep a private hold until offer.",
       },
       {
         label: "Between jobs / STVP",
         href: "/guides/between-jobs-stvp-singapore",
         blurb: "EP cancel → up to 90 days stay, DP cascade, no work.",
       },
+
       {
-        label: "EP cancel → spouse LTVP week",
-        href: "/guides/ep-cancel-spouse-ltvp-same-week-checklist-singapore",
-        blurb: "Same-week STVP + ICA spouse LTVP + PLOC checklist.",
-      },
-      {
-        label: "Annual stay / exit review",
-        href: "/guides/annual-stay-exit-review-calendar-singapore",
-        blurb: "Before school deposits and EP renewal lock the year.",
+        label: "STVP travel / medical gaps",
+        href: "/guides/stvp-travel-medical-cover-gap-singapore",
+        blurb: "Stay-only pass ≠ group medical or safe re-entry.",
       },
       {
         label: "Lost work pass card",
@@ -687,37 +683,6 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "Tax clearance, deposits, shipping, school exits.",
-      },
-
-      {
-        label: "Insurance exit / job-hop bridge",
-        href: "/guides/health-insurance-exit-between-jobs-bridge-singapore",
-        blurb: "Group cover dies with employment — bridge before cancel.",
-      },
-      {
-        label: "EntrePass vs resident director",
-        href: "/guides/entrepass-resident-director-vs-pass-singapore",
-        blurb: "ACRA incorporation ≠ MOM founder pass.",
-      },
-      {
-        label: "IR21 / cancel / STVP sequence",
-        href: "/guides/ir21-pass-cancel-stvp-sequencing-singapore",
-        blurb: "Tax freeze and immigration stay are separate clocks.",
-      },
-      {
-        label: "WICA light duty / clocks",
-        href: "/guides/wica-light-duty-claim-clocks-ep",
-        blurb: "Notify vs file, light-duty shortfall, 1-year medical / civil fork.",
-      },
-      {
-        label: "Training bond after IPA",
-        href: "/guides/training-bond-resign-after-ipa-ep",
-        blurb: "Resign sequence, notice vs clawback, deduction vs invoice.",
-      },
-      {
-        label: "SAL e-Apostille",
-        href: "/guides/sal-e-apostille-notarised-docs-singapore",
-        blurb: "Notarised e-Apostille vs ACRA direct (~S$10.70) chooser.",
       },
       {
         label: "Lost blue NRIC (PR / SC)",
