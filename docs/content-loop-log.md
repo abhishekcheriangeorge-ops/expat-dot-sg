@@ -6,6 +6,57 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 22)
+
+Branch: `cursor/loop-d-next-polish-tick22-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162) / [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169) / [#177](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/177). (#83 / #89 / #99 / #114 already on main.)
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — first-gen PR exemption folklore before CMPB letters.
+- r/askSingapore — file TADM after flying home; left-employment clock surprise.
+- r/askSingapore — “if I report harassment they cancel my EP.”
+
+**Official**
+
+- [CMPB — Overseas pre-enlistees](https://www.cmpb.gov.sg/before-ns/overseas-pre-enlistees/) · [Exit Permit and bond](https://www.cmpb.gov.sg/before-ns/pre-enlistment-process/exit-permit-and-bond/) · [ICA — Renunciation of PR](https://www.ica.gov.sg/enter-transit-depart/more-information/for-permanent-residents/renunciation-of-permanent-residence)
+- [MOM — TADM](https://www.mom.gov.sg/employment-practices/managing-employment-disputes) · [TADM file claim](https://www.tal.sg/tadm/eservices/employees-file-employment-claim) · [ECT](https://www.judiciary.gov.sg/civil/file-employment-claim)
+- [TAFEP — Seek help](https://www.tal.sg/tafep/employment-practices/workplace-harassment/seek-help-on-workplace-harassment) · [Tripartite Advisory PDF](https://www.mom.gov.sg/-/media/mom/documents/employment-practices/guidelines/tripartite-advisory-on-managing-workplace-harassment.pdf)
+
+### Gaps vs open stack
+
+Open #123→#177 cover IR21/lost-pass through PLOC renewal / stay-exit calendar. Remaining high-intent **Next** gaps: **NS liability before PR/citizenship checklist**, **TADM salary claim filing clocks**, **harassment pass-fear plan**.
+
+### Shipped
+
+**New:** `ns-liability-before-pr-citizenship-checklist-singapore.mdx`, `tadm-salary-claim-ep-filing-clocks-singapore.mdx`, `workplace-harassment-pass-fear-plan-ep-singapore.mdx`
+
+**Upgraded:** `citizenship-ns-implications.mdx`, `salary-dispute-tadm-mom.mdx`, `workplace-harassment-tafep-ep.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #123 / #130 / #138 / #146 / #151 / #162 / #169 / #177 guide bodies.
+
+### Questions mined
+
+1. What should I ask CMPB before accepting PR with sons?
+2. When does Exit Permit / bond kick in for overseas sons?
+3. Does dual citizenship remove NS?
+4. Can ICA withhold PR renunciation for unresolved NS?
+5. When must I file TADM if still employed vs after I leave?
+6. What are TADM claim caps?
+7. Does TADM extend my EP?
+8. Mediation failed — what is a claim referral certificate?
+9. Does reporting harassment auto-cancel my EP?
+10. How do I sequence IPA if I need to leave a toxic job?
+11. Wrongful dismissal after a harassment report — which rail?
+12. Is “pay short notice” a finding that harassment is fine?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 21)
 
 Branch: `cursor/loop-d-next-polish-tick21-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162) / [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169). (#99 merged to main before this tick.)
