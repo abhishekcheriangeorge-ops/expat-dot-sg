@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 35 — 2026-09-15
+
+Branch: `cursor/home-life-tick35-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181 stay open for the merge controller — **did not** touch those PR paths. Topics: condo BBQ / function-room booking, ActiveSG table tennis booking, Chinatown / Outram / Tanjong Pagar.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — MCST BBQ pit waitlists, function-room cleaning deposits, guest caps, visitor parking fights after parties.
+- r/askSingapore — ActiveSG table tennis Standard Rate for foreigners, peak release races, loaner bats, condo games rooms that stay locked.
+- r/askSingapore — central shortlists for Chinatown / Outram / Tanjong Pagar vs Tiong Bahru calm and Marina Bay premiums.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf) + [common issues in private estates](https://www1.bca.gov.sg/guidelines-and-requirements/common-issues-or-disputes-encountered-by-residents-in-private-estates/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [facilities](https://www.activesgcircle.gov.sg/facilities).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #181
+
+Open PRs own reno-noise/lightning/void-deck/power/condo-adjacent-reno/smoke/PUB-water/pools/SP-bill/stadium/OEM/HDB-corridor-smoking/MCST-bylaws/football-futsal/visitor-parking/tennis/reno-deposit/squash/move-in-lift/badminton and their town sets. Remaining gaps without collision: **condo BBQ / function-room booking** (≠ move-in lift; ≠ reno deposits), **ActiveSG table tennis** (≠ badminton/squash/tennis/pools/stadium/futsal), plus neighbourhood depth for **Chinatown**, **Outram**, and **Tanjong Pagar**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-bbq-function-room-booking-tenants.mdx`
+- `content/guides/life/activesg-table-tennis-booking-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/hdb-hip-tenants.mdx`
+- `content/guides/home/hdb-bedroom-rental-rules-tenants.mdx`
+- `content/guides/home/hdb-landlord-selling-tenants.mdx`
+- `content/guides/life/nightlife-social-scene.mdx`
+- `content/guides/life/arts-culture-singapore.mdx`
+- `content/guides/life/what-to-wear-singapore-climate.mdx`
+- `src/lib/site.ts` (BBQ/function-room + ActiveSG table tennis topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/chinatown.json`
+- `content/entities/neighbourhoods/outram.json`
+- `content/entities/neighbourhoods/tanjong-pagar.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 file paths.
+
+### Questions mined (sample)
+
+1. Can tenants book the condo BBQ pit, or only owners?
+2. Who pays the function-room deposit?
+3. What gets deducted from a BBQ deposit?
+4. Can guests use visitor parking for a BBQ?
+5. Can foreigners book ActiveSG table tennis at Standard Rate?
+6. Is table tennis the same product as badminton or squash?
+7. Do centres provide bats and balls?
+8. Chinatown vs Outram — heritage food or interchange edge?
+9. Is Tanjong Pagar worth it for CBD-south door-to-desk?
+10. What pre-booking MA questions save Saturday fights?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 34 — 2026-09-15
 
 Branch: `cursor/home-life-tick34-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167 stay open for the merge controller — **did not** touch those PR paths. Topics: condo move-in/move-out lift booking, ActiveSG badminton court booking, Little India / Rochor / Jalan Besar.

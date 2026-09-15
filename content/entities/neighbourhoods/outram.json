@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "outram",
+  "name": "Outram",
+  "summary": "EWL/NEL/TEL interchange edge of the Chinatown–hospital belt — mixed condo stock, medical adjacency, and city-fringe hops with corridor noise as the tax.",
+  "body": "Outram is the shortlist when East-West / North-East / Thomson-East Coast interchange access and a position between Chinatown food and hospital / CBD edges matter. Housing is mostly condo and older estate edges rather than quiet HDB heartland; medical traffic and weekend Chinatown spillover are real. Expats land here for multi-line optionality and car-light living, not cul-de-sac calm. Compare with Chinatown for deeper heritage food texture, Tanjong Pagar for CBD-south office gravity, and Tiong Bahru when you want a calmer residential grid one hop away.",
+  "region": "central",
+  "vibe": [
+    "interchange",
+    "ewl",
+    "nel",
+    "tel",
+    "medical-adjacent"
+  ],
+  "bestFor": [
+    "multi-line workers who want Chinatown and CBD in walking range",
+    "households okay with hospital and corridor traffic",
+    "condo tenants who will book MA facility slots before hosting",
+    "car-light couples testing central before River Valley premiums"
+  ],
+  "watchOuts": [
+    "Interchange and medical peak crowds",
+    "Corridor and major-road noise",
+    "Facility brochure vs MA booking reality",
+    "Fewer quiet-heartland defaults than upstream EWL towns"
+  ],
+  "housingMix": "Condo inserts with older estate edges toward Chinatown and Cantonment.",
+  "commuteNotes": "East-West, North-East, and Thomson-East Coast at Outram Park; test a weekday 08:00 station exit and a Friday evening Chinatown spillover walk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2700,
+    "oneBedTo": 4400,
+    "familyFrom": 3600,
+    "familyTo": 6200
+  },
+  "mrt": [
+    "Outram Park"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
