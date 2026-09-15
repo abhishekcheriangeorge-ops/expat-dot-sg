@@ -1,0 +1,18 @@
+# Editorial discovery — expat.sg
+
+site: https://expat.sg
+updated: 2026-09-15
+
+## Paths
+- https://expat.sg/about
+- https://expat.sg/editorial-policy
+
+## Notes
+- Publisher stance, review cadence, and sourcing norms.
+- AboutPage / editorial WebPage helpers live in seo-editorial.ts.
+
+## Related
+- https://expat.sg/contact.txt
+- https://expat.sg/press.txt
+- https://expat.sg/changelog.txt
+- https://expat.sg/sitemap.xml
