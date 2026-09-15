@@ -147,6 +147,11 @@ export const pillars: Pillar[] = [
         blurb: "When you may work, biometrics, SGWorkPass, card delivery.",
       },
       {
+        label: "EP medical for issuance",
+        href: "/guides/ep-medical-examination-issuance",
+        blurb: "IPA-required exams, WP-form myths, STVP while labs process.",
+      },
+      {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
@@ -227,6 +232,16 @@ export const pillars: Pillar[] = [
         label: "Banking & PayNow",
         href: "/guides/paynow-setup-foreigners-singapore",
         blurb: "FIN vs mobile proxies after the salary account opens.",
+      },
+      {
+        label: "High-interest salary accounts",
+        href: "/guides/high-interest-salary-accounts-foreigners",
+        blurb: "Multiplier / OCBC 360 / UOB One salary-credit codes.",
+      },
+      {
+        label: "Credit cards for foreigners",
+        href: "/guides/credit-cards-foreigners-singapore",
+        blurb: "S$45k floors, GX history, secured FD fallbacks.",
       },
       {
         label: "Cash declaration (CBNI)",
