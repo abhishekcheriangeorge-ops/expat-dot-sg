@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 17)
+
+Branch: `cursor/loop-d-next-polish-tick17-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PR deed poll uploaded with old passport bio-page; ICA rejects particulars.
+- r/askSingapore — lost blue IC overseas; embassy cannot issue temporary NRIC.
+- r/askSingapore — private-uni “graduate LTVP” folklore vs ICA IHL list; renewal leftover-validity myths.
+
+**Official**
+
+- [ICA — Replace IC (Change of Particulars/Damaged)](https://www.ica.gov.sg/documents/ic/update_particulars) · [Transfer of REP](https://www.ica.gov.sg/reside/PR/transfer-REP)
+- [ICA — Loss of Identity Card](https://www.ica.gov.sg/documents/ic/loss) · [Ask ICA — replace lost IC](https://ask.gov.sg/ica/questions/clvvpo7u6002lkx4gnn685tl9) · [MFA Beijing — lost NRIC](https://beijing.mfa.gov.sg/consular-services/replacement-of-a-lost-nric/)
+- [ICA — Graduate IHL seeking employment](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore) · [IHL list](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore/list_ihl) · [Becoming an LTVP holder](https://www.ica.gov.sg/reside/LTVP)
+
+### Gaps vs open stack
+
+Open #83→#138 cover NS Exit / PRSEP / renounce-PR NS; EP-death DP / SC cooling-off / LPA; WICA / training-bond / e-Apostille; CPF witnesses / REP ETD / COMPASS firm; IR21 RSU / lost-pass overseas / salary-cut DP; ship-out deposits / PR appeal evidence / EP FWTES; foreign probate / EP passport update / FDW cancel. Remaining high-intent **Next** gaps: **PR name-change passport-first**, **lost NRIC overseas return**, **graduate LTVP IHL / renewal edges**.
+
+### Shipped
+
+**New:** `pr-name-change-passport-first-singapore.mdx`, `lost-nric-overseas-return-singapore.mdx`, `graduate-ltvp-ihl-renewal-edges-singapore.mdx`
+
+**Upgraded:** `change-name-nric-singapore.mdx`, `lost-replace-nric-pr-singapore.mdx`, `graduate-ltvp-job-hunt.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #83 / #89 / #99 / #114 / #123 / #130 / #138 guide bodies (including transfer-REP / ecoa / passports / leaving parents).
+- Did not edit wills / shipping / probate companions from prior open ticks.
+
+### Questions mined
+
+1. I am a PR — must my foreign passport show the new name before ICA updates my blue IC?
+2. After the new passport issues, do I still need Transfer of REP?
+3. Can I travel mid name-change with mismatched IC and passport?
+4. I lost my NRIC overseas — will the Singapore mission replace it?
+5. Can I finish ICA Loss of IC entirely from abroad?
+6. Does Singpass Digital IC waive physical replacement when I am overseas?
+7. Is my private university on ICA’s graduate LTVP IHL list?
+8. How long does graduate LTVP processing take vs my STVP runway?
+9. Does unused LTVP validity carry forward on renewal?
+10. Is graduate LTVP the same as spouse LTVP + LOC?
+11. Do Tuition Grant bond years count while I am on graduate LTVP?
+12. Can I work part-time on graduate-seeking-employment LTVP?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 16)
 
 Branch: `cursor/loop-d-next-polish-tick16-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees (companion links out to hiring-MDW). Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130).
