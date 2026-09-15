@@ -453,6 +453,16 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
+        label: "Haze PSI school coverage",
+        href: "/guides/dual-career-haze-psi-school-closure-coverage-singapore",
+        blurb: "Early dismissal, indoor air, dual-career coverage.",
+      },
+      {
+        label: "Book fair / fundraising ops",
+        href: "/guides/international-school-book-fair-fundraising-ops-dual-career-singapore",
+        blurb: "Wallet caps, volunteer shifts, sibling FOMO.",
+      },
+      {
         label: "Kids activities & calendar",
         href: "/guides/kids-activities-holiday-camps",
         blurb: "Holiday camps, enrichment, and the school-year rhythm.",
@@ -585,6 +595,11 @@ export const pillars: Pillar[] = [
         label: "Nationality groups",
         href: "/guides/nationality-groups-singapore",
         blurb: "Find your passport crowd without living inside it.",
+      },
+      {
+        label: "ActiveSG swim-parent belonging",
+        href: "/guides/activesg-swim-parent-belonging-singapore",
+        blurb: "Pool-deck hellos during learn-to-swim slots.",
       },
       {
         label: "LGBTQ+ resources",
