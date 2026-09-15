@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "lavender-north",
+  "name": "Lavender North",
+  "summary": "North of Lavender MRT toward Kallang Road / Race Course edges — EWL mid-town convenience with denser texture and credential-heavy condo stock.",
+  "body": "Lavender North is the shortlist when EWL mid-town hops and food density matter more than quiet landed weekends. The pocket sits north of Lavender toward Kallang Road / Race Course edges; housing mixes mid-age condos and walk-ups with selective HDB. Expats land here for City Hall / Bugis adjacency without paying full CBD premiums. Watch-outs: access-card replacement owner-letter delays, late food noise, and confusing Lavender South vs North shortlists. Compare with Potong Pasir Fringe for quieter NEL living, Kallang Bend for stadium recreation, and Jalan Besar Fringe when nightlife adjacency is intentional.",
+  "region": "central",
+  "vibe": [
+    "ewl-midtown",
+    "food-dense",
+    "practical",
+    "condo-heavy",
+    "central"
+  ],
+  "bestFor": [
+    "car-light CBD / Bugis workers",
+    "renters who want EWL over NEL as the primary line",
+    "households comparing Lavender North vs Kallang Bend",
+    "people who will treat ActiveSG fencing as the weekly sport SKU"
+  ],
+  "watchOuts": [
+    "Late food and arterial road noise",
+    "Owner-authorisation delays for fob replacement",
+    "Peak EWL crowding",
+    "Lavender South vs North listing confusion"
+  ],
+  "housingMix": "Mid-age condos and walk-ups with selective HDB edges.",
+  "commuteNotes": "East-West Line gravity via Lavender; bus links toward Kallang Road / Race Course. Walk a Friday night before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2500,
+    "oneBedTo": 4200,
+    "familyFrom": 3600,
+    "familyTo": 7400
+  },
+  "mrt": [
+    "Lavender",
+    "Kallang",
+    "Farrer Park"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

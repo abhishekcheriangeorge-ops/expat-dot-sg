@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 45 — 2026-09-15
+
+Branch: `cursor/home-life-tick45-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266/#274 stay open for the merge controller — **did not** touch those PR paths. Topics: condo access-card / fob replacement, ActiveSG fencing, Potong Pasir Fringe / Kallang Bend / Lavender North. Tip confirmed as **#274** (Tick 44); opened next tip in parallel without waiting on merge.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → #266 → #274 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — lost condo fobs, MA owner-letter gates, lift-tag vs barrier serial confusion.
+- r/askSingapore — ActiveSG fencing Standard Rate for foreigners, weekend piste / programme release races, kit rules.
+- r/askSingapore — mid-town shortlists for Potong Pasir Fringe vs Kallang Bend vs Lavender North noise / event trade-offs.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+- [PDPC — PDPA overview](https://www.pdpc.gov.sg/Overview-of-PDPA/The-Legislation/Personal-Data-Protection-Act).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+
+### Gaps vs open #71 → #274
+
+Open PRs own reno-noise through hydrant clearance / bowling and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo access-card / fob replacement** (≠ visitor parking cards; ≠ visitor QR), **ActiveSG fencing** (≠ bowling; ≠ skating; ≠ climbing; ≠ archery; ≠ camps; ≠ court hire), plus neighbourhood depth for **Potong Pasir Fringe**, **Kallang Bend**, and **Lavender North**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-access-card-fob-replacement-tenants.mdx`
+- `content/guides/life/activesg-fencing-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #274.
+- `src/lib/site.ts` (access-card/fob + ActiveSG fencing topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/potong-pasir-fringe.json`
+- `content/entities/neighbourhoods/kallang-bend.json`
+- `content/entities/neighbourhoods/lavender-north.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 / #266 / #274 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Is resident fob replacement the same as visitor parking cards?
+2. Who pays the MA replacement fee — landlord or tenant?
+3. Can the MA deactivate a lost fob the same day?
+4. Do barrier, lift, and wing doors share one serial?
+5. Can foreigners book ActiveSG fencing at Standard Rate?
+6. Is fencing the same as bowling or court hire?
+7. Do I need my own mask and weapon?
+8. Potong Pasir Fringe vs Kallang Bend — quiet NEL or event-day tax?
+9. Is Lavender North too arterial-noisy on weeknights?
+10. When is a condo multipurpose hall still enough?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 44 — 2026-09-15
 
 Branch: `cursor/home-life-tick44-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266 stay open for the merge controller — **did not** touch those PR paths. Topics: condo fire-hose / landing-hydrant clearance, ActiveSG bowling, Jalan Besar Fringe / Farrer Park South / Bendemeer West.

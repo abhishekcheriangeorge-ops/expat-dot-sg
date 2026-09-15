@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "kallang-bend",
+  "name": "Kallang Bend",
+  "summary": "Bend of the Kallang River toward Stadium / Geylang Bahru — event-day energy, mixed housing, and ActiveSG-adjacent recreation as the lifestyle hook.",
+  "body": "Kallang Bend is the shortlist when stadium-adjacent recreation and river-edge walks matter more than quiet landed texture. The pocket sits on the Kallang / Stadium / Geylang Bahru bend; housing mixes newer condos, older walk-ups, and selective HDB edges. Expats land here for ActiveSG catchment and EWL/DTL optionality without Orchard premiums. Watch-outs: event-day crowd spikes, boom-gate queues when visitor QR fails, and fencing / bowling programme release races. Compare with Potong Pasir Fringe for quieter NEL living, Lavender North for mid-town EWL, and Kallang Wave when sports-hub gravity dominates.",
+  "region": "central",
+  "vibe": [
+    "stadium-adjacent",
+    "river-edge",
+    "event-day",
+    "recreation",
+    "ewl-dtl"
+  ],
+  "bestFor": [
+    "households who will use ActiveSG fencing / lanes weekly",
+    "renters okay with event-day spikes",
+    "car-light workers toward Bugis / City Hall",
+    "people comparing Kallang Bend vs Potong Pasir Fringe"
+  ],
+  "watchOuts": [
+    "Event-day traffic and crowd spikes",
+    "Visitor QR / boom-gate queues",
+    "Weekend ActiveSG release competition",
+    "Noise from riverside and stadium calendars"
+  ],
+  "housingMix": "Newer condos, mid-age walk-ups, and selective HDB edges.",
+  "commuteNotes": "East-West / Downtown Line gravity via Kallang / Stadium / Geylang Bahru depending on block. Test an event evening before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 4000,
+    "familyFrom": 3500,
+    "familyTo": 7000
+  },
+  "mrt": [
+    "Kallang",
+    "Stadium",
+    "Geylang Bahru"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
