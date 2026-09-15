@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "climbing-gym-coaching",
+  "name": "Climbing gym coaching",
+  "summary": "How expats start climbing coaching in Singapore gyms — belay certifications, kids’ programmes, and technique coaching beyond punch-pass bouldering.",
+  "body": "Indoor bouldering and rope gyms are dense here; coaching turns random sends into safer progression. Offerings include intro belay courses, youth squads, technique clinics, and private movement sessions.\n\n## Pathways\n- First-timer orientation and waiver norms\n- Belay certification for rope walls\n- Kids’ classes with ratio and height rules\n- Technique/coaching blocks for intermediates\n- Competition team tracks (optional)\n\nBring closed-toe shoes; many rentals smell like science experiments — buying quickly is common in humidity.\n\n## Safety culture\nGyms enforce downclimb/fall etiquette and volume limits when crowded. Outdoor outdoor-lead transitions need separate mentoring — indoor grades do not equal crag readiness. Finger injuries from overtraining are the classic expat desk-to-project mistake.\n\n## How to choose\nPrefer coaches who programme rest and antagonist work, not only “project harder.” Ask about coach certifications and kid safeguarding. Trial day passes before annual memberships. Check peak-hour density if you work late.\n\n## Practical tip\nTape and skin care matter in AC dryness after sweaty sets. Book coaching early evening; Friday night open sessions are social, not instructional.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "First belay course or kids’ climbing class",
+    "Technique coaching beyond casual bouldering",
+    "Membership vs coaching block decision",
+    "Finger/overuse concerns need progression advice"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore",
+    "kids-activities-holiday-camps"
+  ],
+  "featured": false,
+  "sponsored": false
+}

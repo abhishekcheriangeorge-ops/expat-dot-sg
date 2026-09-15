@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "gallbladder-surgery",
+  "name": "Gallbladder surgery (cholecystectomy)",
+  "summary": "How expats navigate gallbladder disease and laparoscopic cholecystectomy in Singapore — biliary colic vs infection, elective timing around travel, and diet expectations after surgery.",
+  "body": "Gallstones often announce themselves as night pain after rich meals. Workup usually starts with ultrasound and bloods; surgery (typically laparoscopic cholecystectomy) is the durable fix for symptomatic stones. Not every stone on a scan needs immediate removal — timing depends on symptoms and complications.\n\n## When surgery moves sooner\n- Recurrent biliary colic disrupting work/sleep\n- Cholecystitis, cholangitis, or pancreatitis pathways\n- Failed medical observation with escalating attacks\n- Travel plans that make emergency care risky mid-flare\n\nEmergency presentations go through A&E; elective lists sit with general surgery/hepatobiliary teams.\n\n## Recovery and diet\nMost people go home quickly after uncomplicated laparoscopy, but fat-tolerance varies for weeks. Ask about drain use, wound care in humidity, and when you can fly. Insurance pre-auth for elective cases needs precise diagnosis codes.\n\n## How to choose\nPrefer surgeons who explain open-conversion risk, bile-duct injury counselling, and stone-in-CBD strategies (MRCP/ERCP sequencing). Bring prior overseas ultrasounds. Be sceptical of “cleanse” packages sold instead of surgical assessment for true colic.\n\n## Practical tip\nKeep a symptom diary (timing vs meals). If pain radiates with fever/jaundice, do not wait for an elective clinic slot.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Recurrent right-upper pain after fatty meals",
+    "Elective cholecystectomy timing vs travel",
+    "Insurance pre-auth for gallbladder surgery unclear",
+    "Post-op diet / flying clearance questions"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

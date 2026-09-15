@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "gait-analysis-running",
+  "name": "Running gait analysis",
+  "summary": "How expats use running gait analysis in Singapore for injury rehab and shoe decisions — lab vs store assessments, and why video form checks are not a substitute for medical diagnosis.",
+  "body": "Gait analysis films how you strike and load when running. Sports clinics, physio labs, and some specialty run shops offer versions ranging from clinical 3D setups to treadmill video retail consults. Useful for recurring shin, knee, or Achilles issues — not a magic shoe oracle.\n\n## What you get\n- Treadmill or overground video with cadence/strike notes\n- Strength and mobility screens in clinical settings\n- Shoe category guidance (with humidity/terrain caveats)\n- Return-to-run progressions after physio clearance\n- Occasional pressure-mat or wearable add-ons\n\nIf pain is acute or neurological, see a clinician first — do not film through a stress fracture.\n\n## Retail vs clinical\nShop assessments help narrow shoe families; they may upsell inventory. Clinical gait work ties to diagnosis and rehab programming. Ask who interprets results and whether exercises are included.\n\n## How to choose\nPrefer providers who ask injury history, watch barefoot and shod mechanics, and avoid guaranteeing injury-proof shoes. Bring your current trainers (worn flat). For marathon build-ups in heat, discuss pacing and surface changes, not only foot pronation labels.\n\n## Practical tip\nSchedule analysis when you are not extremely fatigued from a long run day — exhausted form misleads the camera. Retest after a strength block if advice hinged on weak hips.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Recurring running injuries need form/load review",
+    "Choosing shoes after clinical vs shop gait advice",
+    "Return-to-run plan after physio clearance",
+    "Retail upsell vs clinical gait interpretation unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "AHPC",
+      "url": "https://www.healthprofessionals.gov.sg/ahpc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "sports-fitness-singapore",
+    "hobby-sports-communities-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

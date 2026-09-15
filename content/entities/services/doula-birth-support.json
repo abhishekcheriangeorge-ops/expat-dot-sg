@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "doula-birth-support",
+  "name": "Doula and birth support",
+  "summary": "How expats hire doulas in Singapore for continuous labour support and postnatal transitions — clarifying doula vs midwife/OB roles, hospital policies, and contract scope.",
+  "body": "Doulas provide non-medical continuous support through pregnancy, labour, and early postpartum. They do not replace obstetricians, midwives, or lactation clinicians. Hospitals vary on doula access in labour wards — confirm policy early.\n\n## What doulas typically offer\n- Prenatal preference conversations and packing practicalities\n- Continuous presence in labour (comfort measures, advocacy prompts)\n- Partner support so the birthing person is not “managing” alone\n- Postnatal check-ins on feeding logistics and recovery pacing\n- Referrals when medical red flags appear\n\nVirtual doula support exists for partners who cannot attend every appointment.\n\n## Contracts and boundaries\nScope hours, backup doula arrangements, and on-call windows should be written. Fees are usually cash packages. If a caesarean or induction changes the plan, ask how support adapts. Doulas should not coach against medical advice in emergencies.\n\n## How to choose\nInterview for hospital familiarity, language fit, and philosophy alignment (not Instagram aesthetics alone). Ask how many clients are due in your window. Pair with maternity and lactation resources rather than treating a doula as a full clinical team.\n\n## Practical tip\nAdd your doula’s name to the hospital birth plan and share contact details with the on-call OB team if allowed. Pack snacks for the doula too — long labours are a team sport.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Wanting continuous labour support alongside OB care",
+    "Hospital doula policy and backup coverage unclear",
+    "Postnatal transition support beyond medical visits",
+    "Comparing doula scope vs midwife/lactation roles"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "parenting-communities-playgroups-singapore",
+    "confinement-nanny-postpartum-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

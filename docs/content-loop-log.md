@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 26 — 2026-09-15
+
+Branch: `cursor/services-directory-tick26-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178→#184→#188→#197→#204→#207→#212→#219); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — gallstone attack timing / surgery vs waiting through travel.
+- Running forums — gait lab vs store shoe-fitting scepticism.
+- Parenting/birth forums — doula hospital access and scope confusion.
+- Practical living — alteration tailor rush fees before weddings.
+- Climbing forums — belay certs, kids ratios, finger-injury overtraining.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [HealthHub](https://www.healthhub.sg/).
+- [AHPC](https://www.healthprofessionals.gov.sg/ahpc) + [SportSG](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [CASE](https://www.case.org.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#219 cover prior depth and every on-main service file. Free surface for tick 26: **gallbladder surgery**, **running gait analysis**, **doula support**, **sewing alterations**, **climbing coaching**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/gallbladder-surgery.json`
+- `content/entities/services/gait-analysis-running.json`
+- `content/entities/services/doula-birth-support.json`
+- `content/entities/services/sewing-alterations.json`
+- `content/entities/services/climbing-gym-coaching.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#219 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Elective cholecystectomy before a long-haul secondment?
+2. Clinical gait lab or run-shop video for knee pain?
+3. Will my birthing hospital allow a doula in theatre recovery?
+4. Same-day hem before a client dinner — realistic?
+5. Belay course then membership, or open boulder first?
+
+---
+
 ## Loop B — Family + Belong (tick 12) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick12-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped braces / teen MH / playgroups (#76 tick 10) and myopia / swim / cooking (#80 tick 11).
