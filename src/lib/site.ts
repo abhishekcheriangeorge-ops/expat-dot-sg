@@ -224,6 +224,16 @@ export const pillars: Pillar[] = [
         blurb: "Break leases without a diplomatic clause — deposit vs remaining rent.",
       },
       {
+        label: "Lease renewal & rent hikes",
+        href: "/guides/lease-renewal-rent-increase",
+        blurb: "No statutory cap — negotiate with URA/HDB comps.",
+      },
+      {
+        label: "Landlord entry rights",
+        href: "/guides/landlord-entry-quiet-enjoyment",
+        blurb: "Quiet enjoyment, notice, and viewing pressure.",
+      },
+      {
         label: "Condo vs HDB",
         href: "/guides/condo-vs-hdb-expat",
         blurb: "Eligibility, lifestyle trade-offs, and what foreigners miss.",
@@ -231,7 +241,7 @@ export const pillars: Pillar[] = [
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Bukit Timah, Holland V, East Coast, Bishan, Sengkang, and more.",
+        blurb: "Bukit Timah, Holland V, East Coast, Toa Payoh, AMK, Bedok, and more.",
       },
       {
         label: "Utilities & telecom",
@@ -433,6 +443,11 @@ export const pillars: Pillar[] = [
         label: "Climate, haze & floods",
         href: "/guides/flash-floods-singapore-renters",
         blurb: "PUB flash-flood checks, haze season, and emergency rails.",
+      },
+      {
+        label: "Dengue clusters & fogging",
+        href: "/guides/dengue-cluster-living-renters",
+        blurb: "NEA clusters, OneService breeding reports, HDB chute ops.",
       },
       {
         label: "Emergencies & embassies",
