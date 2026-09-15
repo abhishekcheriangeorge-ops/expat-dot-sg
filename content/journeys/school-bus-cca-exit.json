@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "school-bus-cca-exit",
+  "title": "School bus / CCA exit",
+  "summary": "Leaving mid-term with bus routes, CCA kits, and coach deposits still live — notice cut-offs, kit return, and how bus cancel collides with school withdrawal and movers week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "bus-notice",
+      "title": "Bus operator notice is not the school’s notice",
+      "body": "International-school bus contracts are often with a separate operator. Cancelling school enrolment does not auto-stop the bus invoice. Read the bus agreement for written-notice weeks, term-end cut-offs, and whether a mid-month cancel still bills the full month.",
+      "bullets": [
+        "Email the operator the cancel date in writing — keep the acknowledgement",
+        "Align bus last-ride day with the child’s last attendance day",
+        "Do not assume the school office forwards cancel notices to the bus vendor"
+      ],
+      "href": "/tools/school-withdrawal"
+    },
+    {
+      "id": "cca-kits",
+      "title": "CCA kits, instruments, and coach deposits",
+      "body": "Uniforms, instruments, sports kits, and external coach deposits linger after the child stops attending. Some CCAs bill a term in advance; others keep a refundable kit bond. Inventory every CCA the week you decide to leave — not the morning of movers.",
+      "bullets": [
+        "List each CCA with contact, kit items, and deposit amount",
+        "Book instrument / kit return before the bus cancel removes the after-school ride",
+        "Ask whether pro-rata refunds exist after the published cut-off"
+      ],
+      "href": "/tools/school-deposit-clawback"
+    },
+    {
+      "id": "same-week-stack",
+      "title": "Same-week stack with withdrawal and movers",
+      "body": "School withdrawal notice, bus cancel, CCA returns, and mover lift booking often land in the same fortnight. Sequence so the child still has a ride on the last CCA return day, and so kit returns are not scheduled after the service lift is already booked for packing.",
+      "bullets": [
+        "Put bus last-ride, CCA return, and lift booking on one family calendar",
+        "Keep one adult free for school-office errands on cancel week",
+        "Pair with /journeys/mover-lift-booking when the truck date is fixed"
+      ],
+      "href": "/journeys/mover-lift-booking"
+    },
+    {
+      "id": "sibling-routes",
+      "title": "Sibling routes and shared seats",
+      "body": "Families with two children on one bus seat discount sometimes lose the discount when only one leaves. Confirm pricing for the remaining rider before you cancel “both” out of habit. CCA siblings sharing kits need an explicit handoff list.",
+      "bullets": [
+        "Ask the operator for the remaining-child fare after a sibling exits",
+        "Re-issue emergency contacts on the surviving bus booking",
+        "Do not leave a departing child’s meds / epi-pen in the shared kit bag"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "insurance-gap",
+      "title": "Driving the CCA run yourself",
+      "body": "When the bus ends early, parents often drive the last weeks of CCA. That is a bad week to discover motor insurance or foreign-licence windows already failed. Sketch insurance gap cash if you will self-drive after bus cancel.",
+      "bullets": [
+        "Confirm the car is still insured for weekday school runs",
+        "Sketch gap cash on /tools/driving-insurance-gap",
+        "Check /tools/foreign-licence-clock if you still drive on a foreign licence"
+      ],
+      "href": "/tools/driving-insurance-gap"
+    },
+    {
+      "id": "cash-float",
+      "title": "Cash float: bus + CCA + school deposits",
+      "body": "Bus month bills, CCA kit forfeits, and school enrolment deposits can hit in the same IR21 withhold window. Keep a separate SGD float so a late bus invoice does not raid the movers or flight money.",
+      "bullets": [
+        "Total open bus + CCA invoices before you resign",
+        "Sketch school deposit risk on /tools/school-deposit-clawback",
+        "Pay operators while Singapore PayNow / cards still work"
+      ],
+      "href": "/tools/school-deposit-clawback"
+    }
+  ]
+}

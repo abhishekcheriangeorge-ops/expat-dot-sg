@@ -39,7 +39,7 @@ const STATIC_PATHS: Array<{
     priority: 0.75,
   },
   {
-    path: "/journeys/helper-handoff-exit",
+    path: "/journeys/school-bus-cca-exit",
     changeFrequency: "monthly",
     priority: 0.75,
   },
@@ -62,7 +62,7 @@ const STATIC_PATHS: Array<{
     priority: 0.65,
   },
   {
-    path: "/tools/club-deposit-exit",
+    path: "/tools/driving-insurance-gap",
     changeFrequency: "monthly",
     priority: 0.65,
   },

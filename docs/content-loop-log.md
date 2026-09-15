@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 18)
+
+Branch: `cursor/e-journeys-tools-tick18-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#151 / Loop D18 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#186** (E17): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**). Prefer merge order note: **#173 → #186 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore / school parent threads — bus operator still billing after school withdrawal; CCA kit / instrument deposits orphaned on movers week.
+- r/askSingapore — self-driving CCA runs after bus cancel; insurance / Grab float folklore for the gap weeks.
+
+**Official / orientation**
+
+- School / bus operator contracts (vendor-specific notice weeks)
+- Insurer short-term / named-driver add-on schedules (policy-specific)
+
+### Gaps vs open E stack through #186
+
+Open **#173** covers mail forward + HDB reno. Open **#186** covers helper handoff + club deposit. Remaining high-intent gaps **off those path sets**: **school bus / CCA exit notice**, **driving insurance gap sketch** for self-drive weeks. No calendar JSON. Did not re-edit #164 exclusives (already on main) or #173 / #186 exclusives.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/school-bus-cca-exit.json` + `/journeys/school-bus-cca-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/driving-insurance-gap.ts`
+- `src/components/tools/DrivingInsuranceGapCalculator.tsx`
+- `/tools/driving-insurance-gap` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch #173 or #186 exclusive paths.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does school withdrawal stop the bus invoice?
+2. How many written-notice weeks does the bus operator need?
+3. When should CCA kits and instruments be returned?
+4. Do sibling seat discounts survive one child leaving?
+5. Should bus last-ride align with the last CCA return day?
+6. What cash float covers bus + CCA + school deposits together?
+7. After bus cancel, is extending motor cover cheaper than Grab?
+8. Is a daily self-drive float the same as insurance?
+9. How do named-driver add-ons change the gap sketch?
+10. Should insurance gap planning wait until after mover lift booking?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 17)
 
 Branch: `cursor/e-journeys-tools-tick17-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#164 on tip). **Did not wait for merges.** Avoided open E stack exclusive **#173** (mail-forward / hdb-reno). Prefer merge order note: **#173 → this tick**.
