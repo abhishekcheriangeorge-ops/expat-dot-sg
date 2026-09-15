@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 15)
+
+Branch: `loop/story-aeo-tick15` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#78 tip). Avoided open merge-controller H file sets (#69 H10, #73 H11, #82 H12, #84 H13, #87 H14). Prefer merge order **#69 → #73 → #82 → #84 → #87** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — HDB cat framework vs landlord veto; condo MCST bans despite PALS; GrabPet scarcity.
+- r/askSingapore / r/singapore — EP salary floor vs COMPASS myths; age-band thresholds; IPA vs issued pass.
+- r/askSingapore — resign-before-IPA horror stories; IR21 while staying; FIN continuity across EP issuances.
+
+**Official**
+
+- [HDB — Keeping pets](https://www.hdb.gov.sg/community/caring-for-your-neighbours/being-a-good-neighbour/tips-on-neighbourliness/keeping-pets) + [AVS ownership limits / PALS](https://avs.nparks.gov.sg/pets/licensing-a-pet/information-on-dog-and-cat-licences/limits-of-ownership/).
+- [MOM — Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass) + [eligibility / COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility).
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) + [IRAS tax clearance](https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/tax-clearance-for-non-singapore-citizen-employees).
+
+### Gaps vs open H + ticks 1–14
+
+Open: #69 (Student Pass / LTVP / REP), #73 (apps / COE vs Grab / REP transfer), #82 (hawker / annual admin / weekend getaways), #84 (dating / climate wear / nightlife), #87 (shopping / arts / cycling). Remaining high-intent FAQ-free gaps: **pets daily life (last Life FAQ-free)**, **EP eligibility/COMPASS AEO**, **changing jobs on EP**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/life/pets-daily-life-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/move/employment-pass-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/move/changing-jobs-employment-pass.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Life pets topic; Move EP blurb + changing-jobs topic)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #69/#73/#82/#84/#87 guide bodies.
+
+### Questions mined (sample)
+
+1. Can I keep a cat in an HDB flat as an expat tenant?
+2. Does a PALS pet licence mean my condo must allow the animal?
+3. How many pets can a household keep?
+4. Can I take my dog on the MRT or bus?
+5. What licence steps matter after import?
+6. What salary do I need for an Employment Pass?
+7. Does COMPASS replace the salary floor?
+8. Who applies for the EP — me or my employer?
+9. What happens after IPA approval?
+10. Can I keep working if I leave my EP employer?
+11. Can I transfer my Employment Pass to a new company?
+12. When should I resign from my current EP job?
+13. Do I need tax clearance (IR21) if I stay in Singapore?
+14. Does my FIN change when I change EP employers?
+15. What if the new IPA fails after I already resigned?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 14)
 
 Branch: `loop/story-aeo-tick14` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#77). Avoided open merge-controller file sets (#69 H10, #73 H11, #82 H12, #84 H13). Prefer merge order **#69 → #73 → #82 → #84** before this lands. No ads / monetization; no Grok copy.

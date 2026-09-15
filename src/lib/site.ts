@@ -179,7 +179,12 @@ export const pillars: Pillar[] = [
       {
         label: "Employment Pass & COMPASS",
         href: "/guides/employment-pass-singapore",
-        blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
+        blurb: "Salary floors, COMPASS points, IPA — employer files.",
+      },
+      {
+        label: "Changing jobs on an EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "New employer files fresh EP — resign only after IPA.",
       },
       {
         label: "EP rejection, appeal & IPA reassessment",
@@ -490,6 +495,11 @@ export const pillars: Pillar[] = [
         label: "Dengue clusters & fogging",
         href: "/guides/dengue-cluster-living-renters",
         blurb: "NEA clusters, OneService breeding reports, HDB chute ops.",
+      },
+      {
+        label: "Pets in daily life",
+        href: "/guides/pets-daily-life-singapore",
+        blurb: "HDB/condo rules, PALS licences, GrabPet — after import.",
       },
       {
         label: "Emergencies & embassies",
