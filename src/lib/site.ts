@@ -187,6 +187,21 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
+        label: "Changing jobs on EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "Garden leave vs IPA; release fights; DP/school bridge.",
+      },
+      {
+        label: "Trailing partner careers",
+        href: "/guides/trailing-partner-career-singapore",
+        blurb: "DP≠Student’s Pass; LOC dies with principal; unpaid≠lawful.",
+      },
+      {
+        label: "EP salary & occupation notifies",
+        href: "/guides/ep-salary-occupation-changes",
+        blurb: "SAT after cuts; employer files notifies; SOL≠auto points.",
+      },
+      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
