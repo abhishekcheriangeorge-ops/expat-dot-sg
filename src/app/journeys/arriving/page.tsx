@@ -157,12 +157,36 @@ export default async function ArrivingJourneysPage() {
           })}
         </Stagger>
 
-        <FadeIn className="mt-16">
+        <FadeIn className="mt-16 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <Link
+            href="/journeys/pre-arrival"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Pre-arrival playbook →
+          </Link>
+          <Link
+            href="/journeys/between-jobs"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Between-jobs playbook →
+          </Link>
+          <Link
+            href="/tools/setup-cash"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            First-month cash →
+          </Link>
+          <Link
+            href="/living"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Living hub →
+          </Link>
           <Link
             href="/journeys/leaving"
-            className="text-sm font-medium text-ink-muted no-underline hover:text-ink"
+            className="font-medium text-ink-muted no-underline hover:text-ink"
           >
-            Already planning an exit? Leaving playbook →
+            Leaving playbook →
           </Link>
         </FadeIn>
       </div>

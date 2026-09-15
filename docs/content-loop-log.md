@@ -6,6 +6,34 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 7)
+
+Branch: `cursor/loop-g-seo-tick7-a144` → PR to `main`. ModeHub Related (without `site.ts`) + leftover tool/entity reciprocal fill. Did **not** touch #74 / #94 / #106 paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- `/arriving` and `/living` ModeHub had CollectionPage + mode switch only — no directory/journey Related (Living startHere still blocked on `site.ts` / #94).
+- `/clubs/[slug]` Belong strip missed membership-clubs / ANZA–AWA / living.
+- `/neighbourhoods/[slug]` reverse-guide branch dropped heartland + lease-duty vs the empty fallback.
+- `/tools/lease-duty` lacked reciprocal lease-notice + security-deposit guide.
+- `/tools/cost-of-living` missed sibling Money tools (setup-cash / EP threshold / tax-residency).
+- `/journeys/arriving` footer only pointed at leaving — no pre-arrival / between-jobs / living / setup-cash.
+
+### Shipped this loop
+
+- Mode-conditional Related strip + CollectionPage items in `ModeHub.tsx`
+- Clubs detail Belong strip expansion; neighbourhoods detail Related parity
+- Lease-duty ↔ lease-notice / deposit guide; COL ↔ Money tool cluster
+- Arriving journeys footer reciprocity
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 alone (including `site.ts` Living startHere data).
+- No mass MDX `relatedGuides` / body rewrites; no sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 15)
 
 Branch: `loop/story-aeo-tick15` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#78 tip). Avoided open merge-controller H file sets (#69 H10, #73 H11, #82 H12, #84 H13, #87 H14). Prefer merge order **#69 → #73 → #82 → #84 → #87** before this lands. No ads / monetization; no Grok copy.

@@ -196,10 +196,28 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
                 Choosing a neighbourhood →
               </Link>
               <Link
+                href="/guides/heartland-living-for-expats"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                Heartland living →
+              </Link>
+              <Link
+                href="/tools/lease-duty"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                Lease duty tool →
+              </Link>
+              <Link
                 href="/tools/setup-cash"
                 className="font-medium text-canopy no-underline hover:text-canopy-mist"
               >
                 First-month cash tool →
+              </Link>
+              <Link
+                href="/living"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                Living hub →
               </Link>
             </p>
           </div>

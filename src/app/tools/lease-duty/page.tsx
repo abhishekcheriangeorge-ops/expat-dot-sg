@@ -54,6 +54,18 @@ export default function LeaseDutyToolPage() {
             Lease renewal →
           </Link>
           <Link
+            href="/tools/lease-notice"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Diplomatic clause notice →
+          </Link>
+          <Link
+            href="/guides/security-deposit-diplomatic-clause"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Deposit & diplomatic clause →
+          </Link>
+          <Link
             href="/tools/setup-cash"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >

@@ -158,6 +158,24 @@ export default async function ClubDetailPage({ params }: Props) {
               Finding your people →
             </Link>
             <Link
+              href="/guides/membership-clubs-comparison"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Membership clubs →
+            </Link>
+            <Link
+              href="/guides/anza-awa-associations"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              ANZA / AWA →
+            </Link>
+            <Link
+              href="/living"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Living hub →
+            </Link>
+            <Link
               href="/belong"
               className="font-medium text-canopy no-underline hover:text-canopy-mist"
             >

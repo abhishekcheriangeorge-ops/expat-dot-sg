@@ -54,6 +54,24 @@ export default function CostOfLivingToolPage() {
             Salary package →
           </Link>
           <Link
+            href="/tools/setup-cash"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Setup cash →
+          </Link>
+          <Link
+            href="/tools/ep-threshold"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            EP threshold →
+          </Link>
+          <Link
+            href="/tools/tax-residency"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Tax residency →
+          </Link>
+          <Link
             href="/neighbourhoods"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >

@@ -18,6 +18,24 @@ export function ModeHub({ mode }: ModeHubProps) {
 
   const relatedPillars = pillarsForMode(mode);
   const other = modes.find((m) => m.slug !== mode)!;
+
+  const relatedDirectories =
+    mode === "living"
+      ? [
+          { href: "/neighbourhoods", label: "Neighbourhoods directory" },
+          { href: "/schools", label: "Schools directory" },
+          { href: "/clubs", label: "Clubs & communities" },
+          { href: "/calendar", label: "School & tax calendar" },
+          { href: "/tools", label: "Tools" },
+          { href: "/journeys/between-jobs", label: "Between-jobs playbook" },
+        ]
+      : [
+          { href: "/journeys/arriving", label: "Arriving checklists" },
+          { href: "/journeys/pre-arrival", label: "Pre-arrival playbook" },
+          { href: "/tools/setup-cash", label: "First-month cash sketch" },
+          { href: "/guides", label: "Guides" },
+          { href: "/move", label: "Move pillar" },
+        ];
   const crumbs = [
     { name: "Home", path: "/" },
     { name: data.label, path: data.href },
@@ -40,6 +58,10 @@ export function ModeHub({ mode }: ModeHubProps) {
               ...relatedPillars.map((pillar) => ({
                 name: pillar.label,
                 path: pillar.href,
+              })),
+              ...relatedDirectories.map((link) => ({
+                name: link.label,
+                path: link.href,
               })),
             ],
           }),
@@ -144,6 +166,27 @@ export function ModeHub({ mode }: ModeHubProps) {
               </StaggerItem>
             ))}
           </Stagger>
+        </div>
+      </section>
+
+      <section className="border-t border-fog-soft bg-paper">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
+          <FadeIn>
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-tungsten">
+              Related
+            </p>
+            <p className="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+              {relatedDirectories.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </p>
+          </FadeIn>
         </div>
       </section>
 
