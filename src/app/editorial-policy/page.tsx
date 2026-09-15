@@ -64,9 +64,9 @@ export default function EditorialPolicyPage() {
             sponsorship and aged-parent PR vs LTVP, spouse LTVP / PMLA and
             PLOC / LOC work rights, student PR national-exam row, NRIC
             re-registration at 30 / 55, eCOA address changes, Singapore
-            Citizenship Journey after IPA, EP death → Dependant’s Pass
-            cascade, SC renunciation cooling-off / originals, LPA Form 1 vs
-            Form 2 fees for PR and foreigners, EP renewal NOA / document asks,
+            Citizenship Journey after IPA, WICA light-duty / claim clocks,
+            EP training-bond resign after IPA, SAL e-Apostille for
+            notarised and ACRA docs, EP renewal NOA / document asks,
             Re-Entry Permit rules and passport transfers, citizenship
             application and ORAL, adult SC renunciation, NRIC loss / address /
             re-registration / name change, NS, exits). When agencies
