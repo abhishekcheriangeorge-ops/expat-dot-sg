@@ -3,21 +3,24 @@
   "slug": "nps-international",
   "name": "NPS International School",
   "summary": "Indian curriculum international school with a strong academics reputation.",
-  "body": "NPS International is frequently compared within the Indian-curriculum international segment for academic rigour. Confirm current campus, board offerings, and co-curricular breadth during tours — fit varies by child profile. Ask on tour how sports day / carnival volunteer shifts are scheduled for dual-career households, and how outbreak or HFMD letters are communicated to working parents.",
+  "body": "NPS International is frequently compared within the Indian-curriculum international segment for academic rigour. Confirm current campus, board offerings, and co-curricular breadth during tours \u2014 fit varies by child profile. Ask on tour how sports day / carnival volunteer shifts are scheduled for dual-career households, and how outbreak or HFMD letters are communicated to working parents. Smaller campus calendars still run exclusion letters hard \u2014 fifth-disease weeks need the same written return clock discipline as larger international schools.",
   "curriculum": [
     "CBSE",
     "Cambridge"
   ],
   "sector": "international",
-  "ages": "Nursery–Grade 12",
+  "ages": "Nursery\u2013Grade 12",
   "neighbourhood": "east-coast",
   "campus": "Chai Chee / verify",
   "languages": [
     "English"
   ],
   "feesBand": "Mid to upper-mid",
-  "waitlistNotes": "Academic-entry expectations — ask about assessments.",
+  "waitlistNotes": "Academic-entry expectations \u2014 ask about assessments.",
   "website": "https://www.npsinternational.com.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "dual-career-kids-fifth-disease-slapped-cheek-school-exclusion-singapore"
+  ]
 }
