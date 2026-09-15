@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "car-seat-installation",
+  "name": "Car seat installation",
+  "summary": "How expat parents get car seats installed correctly in Singapore — ISOFIX vs belt-fit checks, Grab/private hire realities, and installer vs self-fit trade-offs.",
+  "body": "Correct car seat installation prevents the most common misuse errors: loose base, wrong recline, and twisted belts. Singapore cars mix ISOFIX and belt-only anchors; private-hire vehicles may refuse certain rear-facing setups.\n\n## Typical jobs\n- ISOFIX base fit checks on family cars\n- Belt-threaded infant seats without ISOFIX\n- Second-car / helper-driver seat transfers\n- Expiry and crash-replacement advice\n- Travel seat strategies for grandparents visiting\n\nAlways follow the seat manual for that exact model.\n\n## How to choose\nPrefer installers who demonstrate the 1-inch wiggle test and show tether routing. Ask whether they install in HDB / condo carparks. Confirm they will not sell you a seat that does not fit your vehicle’s anchors.\n\n## Practical tip\nPhotograph the installed seat’s labels and path of the seatbelt. Re-checks after a long Grab week catch creeping looseness early.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.lta.gov.sg/",
+  "whenToEngage": [
+    "New infant / toddler seat needs fit check",
+    "ISOFIX vs belt-fit unclear for your car",
+    "Helper / second-car seat transfer",
+    "Travel seat plan for visiting grandparents"
+  ],
+  "officialLinks": [
+    {
+      "label": "Land Transport Authority",
+      "url": "https://www.lta.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "car-ownership-vs-sharing-singapore",
+    "parenting-communities-playgroups-singapore",
+    "maternity-care-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

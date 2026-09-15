@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "pet-sitting",
+  "name": "Pet sitting",
+  "summary": "How expats arrange pet sitting in Singapore — in-home vs boarding alternatives, AVS licensing cues, condo pet rules, and holiday coverage planning.",
+  "body": "Pet sitting covers drop-in visits, in-home overnight stays, and some daycare hybrids when owners travel. Condo by-laws and neighbour noise tolerance shape what is realistic. Boarding remains a backup when sitters are scarce over peak holidays.\n\n## Formats\n- Drop-in feeding and litter / walk visits\n- In-home overnight sitting\n- Dog walking add-ons on workdays\n- Medication administration protocols\n- Backup sitter lists for illness days\n\nMeet-and-greets before the trip are non-negotiable.\n\n## How to choose\nPrefer sitters who share ID, emergency vet contacts, and written visit logs. Ask about AVS-related licensing where boarding is involved. Confirm keys / access-card handling and photo updates cadence.\n\n## Practical tip\nLeave a one-page care sheet on the counter: feeding amounts, walks, meds, and the nearest 24-hour clinic. WhatsApp threads fail at 2 a.m.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nparks.gov.sg/avs",
+  "whenToEngage": [
+    "Holiday pet care without boarding",
+    "In-home overnight vs drop-in sitting choice",
+    "Condo pet rules / neighbour noise concerns",
+    "Medication / special-care sitting protocol"
+  ],
+  "officialLinks": [
+    {
+      "label": "NParks Animal & Veterinary Service",
+      "url": "https://www.nparks.gov.sg/avs"
+    },
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "pets-daily-life-singapore",
+    "importing-pets-singapore",
+    "furnishing-rental-flat",
+    "leaving-singapore-playbook"
+  ],
+  "featured": false,
+  "sponsored": false
+}

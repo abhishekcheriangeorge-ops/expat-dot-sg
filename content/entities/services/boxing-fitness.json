@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "boxing-fitness",
+  "name": "Boxing fitness",
+  "summary": "How expats start boxing fitness in Singapore — pad-work gyms, beginner fundamentals, sparring opt-in norms, and heat-aware training schedules.",
+  "body": "Boxing fitness gyms emphasise pads, footwork, and conditioning more than competition sparring. Beginners should learn stance and hand-wrapping before chasing heavy-bag power in humid heat.\n\n## Formats\n- Beginner fundamentals classes\n- Pad-work small groups\n- Personal coaching packages\n- Optional technical sparring (consent-first)\n- Women-only or quiet-hour sessions where offered\n\nAsk about glove hire vs buying your own 12–16 oz pair.\n\n## How to choose\nPrefer coaches who correct guard and hip rotation before combo speed. Confirm sparring is opt-in and headgear rules are clear. Check cancellation windows — peak classes fill and no-show fees apply.\n\n## Practical tip\nTrain early morning or late evening. Midday pad rounds in outdoor-adjacent gyms cook beginners faster than the workout itself.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Beginner boxing fitness class search",
+    "Pad-work vs sparring pathway unclear",
+    "Personal coaching vs group format choice",
+    "Heat-aware training schedule needed"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore",
+    "kids-activities-holiday-camps"
+  ],
+  "featured": false,
+  "sponsored": false
+}
