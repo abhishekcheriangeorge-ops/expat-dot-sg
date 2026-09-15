@@ -1,16 +1,34 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { LinkRail } from "@/components/seo/LinkRail";
 import { getSchoolBusCcaExitPlaybook } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { howToJsonLd } from "@/lib/seo-handoff";
+
+const title = "School bus / CCA exit";
+const description =
+  "Leaving mid-term with school bus routes and CCA kits still live — operator notice, kit deposits, and self-drive insurance gaps for expat families.";
+const path = "/journeys/school-bus-cca-exit";
+
+const RELATED = [
+  { href: "/tools/school-withdrawal", label: "School withdrawal sketch" },
+  { href: "/tools/driving-insurance-gap", label: "Driving insurance gap" },
+  { href: "/journeys/mover-lift-booking", label: "Mover lift booking" },
+  { href: "/journeys/helper-handoff-exit", label: "Helper handoff exit" },
+  { href: "/journeys", label: "All journeys" },
+  { href: "/family", label: "Family pillar" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "School bus / CCA exit",
-  description:
-    "Leaving mid-term with school bus routes and CCA kits still live — operator notice, kit deposits, and self-drive insurance gaps for expat families.",
-  path: "/journeys/school-bus-cca-exit",
+  title,
+  description,
+  path,
 });
 
 export default async function SchoolBusCcaExitJourneyPage() {
@@ -20,12 +38,36 @@ export default async function SchoolBusCcaExitJourneyPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Journeys", path: "/journeys" },
-    { name: "School bus / CCA exit", path: "/journeys/school-bus-cca-exit" },
+    { name: "School bus / CCA exit", path },
   ];
+
+  const howTo = howToJsonLd({
+    name: playbook.title,
+    description: playbook.summary,
+    path,
+    steps: playbook.sections.map((section) => ({
+      name: section.title,
+      text: section.body,
+    })),
+  });
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: `${title} — related`,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+          ...(howTo ? [howTo] : []),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -39,29 +81,7 @@ export default async function SchoolBusCcaExitJourneyPage() {
       />
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
-        <p className="text-sm text-ink-faint">
-          Related:{" "}
-          <Link
-            href="/tools/school-withdrawal"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            School withdrawal sketch
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/tools/driving-insurance-gap"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            Driving insurance gap
-          </Link>{" "}
-          ·{" "}
-          <Link
-            href="/journeys/mover-lift-booking"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-          >
-            Mover lift booking
-          </Link>
-        </p>
+        <LinkRail links={RELATED} />
       </div>
     </>
   );

@@ -6,6 +6,33 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 17)
+
+Branch: `cursor/loop-g-seo-tick17-a144` → PR to `main`. Residual Loop-E handoff shell fill + crawl recovery after #74→#206 claimed route/tool/hub/chrome surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Free Loop-E exit journeys (mail / helper / school-bus) had breadcrumbs only — no HowTo or related CollectionPage.
+- Free deposit / insurance tools (HDB reno / club / driving gap) lacked WebApplication + related ItemList.
+- No root `global-error.tsx` recovery plane (`error.tsx` owned by #206).
+- No `apple-icon.tsx` / `humans.txt` crawl signals; robots did not advertise humans.txt.
+
+### Shipped this loop
+
+- HowTo + CollectionPage + `LinkRail` on mail-forward / helper-handoff / school-bus-cca journeys
+- WebApplication + CollectionPage + `LinkRail` on hdb-reno-deposit / club-deposit-exit / driving-insurance-gap tools
+- `src/lib/seo-handoff.ts`; `src/components/seo/LinkRail.tsx` (not HubStrip)
+- `global-error.tsx`; `apple-icon.tsx`; `public/humans.txt`; robots allow `/humans.txt`
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 / #94 / #106 / #119 / #127 / #145 / #152 / #160 / #168 / #176 / #185 / #195 / #206 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy; no `not-found` / `error` / guide ItemList / HubStrip edits.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 24)
 
 Branch: `cursor/loop-d-next-polish-tick24-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Family / Belong / Home body trees beyond Move parent cross-links for PEP / ONE / Tech / EntrePass / incorporate. Avoided open Loop D file sets from [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183) / [#193](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/193).

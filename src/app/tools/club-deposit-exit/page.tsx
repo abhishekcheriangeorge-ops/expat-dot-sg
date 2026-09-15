@@ -1,27 +1,58 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { LinkRail } from "@/components/seo/LinkRail";
 import { ClubDepositExitCalculator } from "@/components/tools";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/seo-handoff";
+
+const title = "Club deposit exit sketch";
+const description =
+  "Sketch Singapore club resignation cash — deposit refund hope, notice-month dues, admin fees, and prepaid burn.";
+const path = "/tools/club-deposit-exit";
+
+const RELATED = [
+  { href: "/tools", label: "All tools" },
+  { href: "/journeys/helper-handoff-exit", label: "Helper handoff exit" },
+  { href: "/journeys/leaving", label: "Leaving playbook" },
+  { href: "/tools/hdb-reno-deposit", label: "HDB reno deposit" },
+  { href: "/belong", label: "Belong pillar" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Club deposit exit sketch",
-  description:
-    "Sketch Singapore club resignation cash — deposit refund hope, notice-month dues, admin fees, and prepaid burn.",
-  path: "/tools/club-deposit-exit",
+  title,
+  description,
+  path,
 });
 
 export default function ClubDepositExitToolPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Tools", path: "/tools" },
-    { name: "Club deposit exit", path: "/tools/club-deposit-exit" },
+    { name: "Club deposit exit", path },
   ];
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          webApplicationJsonLd({ name: title, description, path }),
+          collectionPageJsonLd({
+            name: `${title} — related`,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -34,32 +65,7 @@ export default function ClubDepositExitToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <ClubDepositExitCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
-          <Link
-            href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            ← All tools
-          </Link>
-          <Link
-            href="/journeys/helper-handoff-exit"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Helper handoff exit →
-          </Link>
-          <Link
-            href="/journeys/leaving"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Leaving playbook →
-          </Link>
-          <Link
-            href="/belong"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Belong pillar →
-          </Link>
-        </p>
+        <LinkRail links={RELATED} />
       </div>
     </>
   );

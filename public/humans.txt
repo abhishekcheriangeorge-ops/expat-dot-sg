@@ -1,0 +1,10 @@
+/* TEAM */
+Site: expat.sg
+Location: Singapore
+
+/* SITE */
+Standards: HTML5, CSS3, Schema.org
+Software: Next.js
+Last update: 2026-09-15
+Doctype: HTML5
+Components: Guides, Journeys, Tools, Directory
