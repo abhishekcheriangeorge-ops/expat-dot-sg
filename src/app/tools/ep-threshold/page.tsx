@@ -54,6 +54,12 @@ export default function EpThresholdToolPage() {
             COMPASS framework →
           </Link>
           <Link
+            href="/journeys/between-jobs"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Between-jobs playbook →
+          </Link>
+          <Link
             href="/move"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >

@@ -4,7 +4,11 @@ import { notFound } from "next/navigation";
 import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { getPreArrivalPlaybook } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Pre-arrival playbook",
@@ -25,7 +29,20 @@ export default async function PreArrivalJourneyPage() {
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: playbook.title,
+            description: playbook.summary,
+            path: "/journeys/pre-arrival",
+            items: playbook.sections.map((section) => ({
+              name: section.title,
+              path: `/journeys/pre-arrival#${section.id}`,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -42,10 +59,38 @@ export default async function PreArrivalJourneyPage() {
         <p className="text-sm text-ink-faint">
           Landed already?{" "}
           <Link
+            href="/journeys/arriving"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Arriving journeys
+          </Link>{" "}
+          ·{" "}
+          <Link
             href="/journeys/arriving/day-7"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
             First 7 days checklist
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/sg-arrival-card-expats"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            SG Arrival Card
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/shipping-household-singapore"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Shipping in
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/importing-pets-singapore"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Importing pets
           </Link>{" "}
           ·{" "}
           <Link

@@ -102,6 +102,34 @@ export default async function DirectoryPage() {
             >
               Family
             </Link>
+            ,{" "}
+            <Link
+              href="/life"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Life
+            </Link>
+            ,{" "}
+            <Link
+              href="/money"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Money
+            </Link>
+            ,{" "}
+            <Link
+              href="/belong"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Belong
+            </Link>
+            ,{" "}
+            <Link
+              href="/tools"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              Tools
+            </Link>
             , or{" "}
             <Link
               href="/guides"

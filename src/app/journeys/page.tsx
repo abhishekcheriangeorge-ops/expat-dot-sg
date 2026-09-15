@@ -4,6 +4,7 @@ import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
+  getBetweenJobsPlaybook,
   getChecklists,
   getLeavingPlaybook,
   getPreArrivalPlaybook,
@@ -17,15 +18,16 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, between-jobs EP gap, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
 export default async function JourneysIndexPage() {
-  const [checklists, playbook, preArrival] = await Promise.all([
+  const [checklists, playbook, preArrival, betweenJobs] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
     getPreArrivalPlaybook(),
+    getBetweenJobsPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -45,7 +47,7 @@ export default async function JourneysIndexPage() {
           collectionPageJsonLd({
             name: "Journeys",
             description:
-              "Pre-arrival playbook, arriving checklists, and Leaving Singapore.",
+              "Pre-arrival playbook, arriving checklists, between-jobs, and Leaving Singapore.",
             path: "/journeys",
             items: [
               {
@@ -58,6 +60,10 @@ export default async function JourneysIndexPage() {
                   name: c!.title,
                   path: `/journeys/arriving/${c!.phase}`,
                 })),
+              {
+                name: betweenJobs?.title ?? "Between jobs",
+                path: "/journeys/between-jobs",
+              },
               {
                 name: playbook?.title ?? "Leaving Singapore",
                 path: "/journeys/leaving",
@@ -175,6 +181,33 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
           >
             Open leaving playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Next · stay and rehire
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {betweenJobs?.title ?? "Between jobs"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {betweenJobs?.summary ??
+              "EP gap without leaving — STVP buffer, IR21 vs stay-and-rehire, and the next IPA."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/tax-residency"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              tax-residency days
+            </Link>{" "}
+            if the gap straddles a calendar year.
+          </p>
+          <Link
+            href="/journeys/between-jobs"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open between-jobs playbook
           </Link>
         </FadeIn>
 

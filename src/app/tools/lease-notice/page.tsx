@@ -48,6 +48,18 @@ export default function LeaseNoticeToolPage() {
             Lease stamp duty →
           </Link>
           <Link
+            href="/guides/security-deposit-diplomatic-clause"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Diplomatic clause guide →
+          </Link>
+          <Link
+            href="/guides/early-lease-termination-tenants"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Early lease termination →
+          </Link>
+          <Link
             href="/journeys/leaving"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
@@ -58,6 +70,12 @@ export default function LeaseNoticeToolPage() {
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
             Home pillar →
+          </Link>
+          <Link
+            href="/next"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Next pillar →
           </Link>
         </p>
       </div>

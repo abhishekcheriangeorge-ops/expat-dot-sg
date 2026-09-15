@@ -6,6 +6,33 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 6)
+
+Branch: `cursor/loop-g-seo-tick6-a144` → PR to `main`. Entity-index Related parity + journeys hub orphan fill. Did **not** touch #74 paths (sitemap lastmod, calendar/journey CollectionPage on leaving/between-jobs/arriving phases, advertise crumbs, fs-mtime) or #94 paths (directory category/detail, schools index, tools index, tax-residency tool, `site.ts`). No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- `/neighbourhoods` and `/clubs` indexes had crumbs + CollectionPage but no Related strip (schools gets one in #94).
+- `/journeys` UI + CollectionPage omitted `/journeys/between-jobs` (live playbook, same orphan class as tax-residency on `/tools`).
+- `/journeys/pre-arrival` had breadcrumbs only — no CollectionPage (#74 covered sibling playbooks).
+- `/tools/lease-notice` missed diplomatic-clause / early-lease guide footers.
+- Directory index Related listed Move/Home/Family only; setup-cash / EP-threshold footers missed pre-arrival and between-jobs.
+
+### Shipped this loop
+
+- Related strips on `/neighbourhoods` and `/clubs`
+- Between-jobs card + CollectionPage item on `/journeys`
+- CollectionPage JSON-LD + thicker Related on `/journeys/pre-arrival`
+- Lease-notice → diplomatic-clause / early-lease / Next; setup-cash → pre-arrival; EP threshold → between-jobs
+- Directory index Related adds Life / Money / Belong / Tools
+
+### Explicitly not done / notes for other loops
+
+- Left #74 and #94 alone (including `site.ts` Living startHere and tools-index lease-notice listing).
+- No mass MDX `relatedGuides` / body rewrites; no sponsorSlot / featured inventory; no Grok clone copy.
+
+---
+
 ## Loop B — Family + Belong (tick 10) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick9-8971` → PR to `main` (branch name kept; tick number is **10** after #51 landed on main as tick 9). Owns **Family** + **Belong** guides plus schools/clubs/services entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Skipped ADHD / Mandarin / hiking bodies already shipped via #51 (tick 9 on main) and babysitter / uni counselling / book clubs via #52 (tick 8).

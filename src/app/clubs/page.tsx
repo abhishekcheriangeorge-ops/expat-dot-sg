@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ClubDirectory, DirectoryHero } from "@/components/directory";
 import { JsonLd } from "@/components/seo";
 import { getClubs } from "@/lib/content";
@@ -48,6 +49,45 @@ export default async function ClubsPage() {
         crumbs={crumbs}
       />
       <ClubDirectory clubs={clubs} />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
+        <p className="text-sm text-ink-faint">
+          Related:{" "}
+          <Link
+            href="/belong"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Belong pillar
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/find-my-people-singapore"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Find my people
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/membership-clubs-comparison"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Membership clubs
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/anza-awa-associations"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            ANZA / AWA
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/living"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Living hub
+          </Link>
+        </p>
+      </div>
     </>
   );
 }

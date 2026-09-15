@@ -48,6 +48,12 @@ export default function SetupCashToolPage() {
             Renting process →
           </Link>
           <Link
+            href="/journeys/pre-arrival"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Pre-arrival playbook →
+          </Link>
+          <Link
             href="/guides/first-housing-serviced-apartment"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >

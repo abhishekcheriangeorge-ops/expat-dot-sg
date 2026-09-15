@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import {
   DirectoryHero,
   NeighbourhoodDirectory,
@@ -51,6 +52,45 @@ export default async function NeighbourhoodsPage() {
         crumbs={crumbs}
       />
       <NeighbourhoodDirectory neighbourhoods={neighbourhoods} />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
+        <p className="text-sm text-ink-faint">
+          Related:{" "}
+          <Link
+            href="/home"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Home pillar
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/choosing-neighbourhood-expat"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Choosing a neighbourhood
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/heartland-living-for-expats"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Heartland living
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/schools"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Schools directory
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/living"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Living hub
+          </Link>
+        </p>
+      </div>
     </>
   );
 }
