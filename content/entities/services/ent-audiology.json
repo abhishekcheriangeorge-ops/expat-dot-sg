@@ -1,0 +1,38 @@
+{
+  "type": "service",
+  "slug": "ent-audiology",
+  "name": "ENT & audiology (category guide)",
+  "summary": "Private ENT vs polyclinic referral — tinnitus / sinus / hearing-aid fitting honesty, audiologist vs ENT roles, and insurer specialist rules.",
+  "body": "Ear, nose and throat complaints (sinus, sleep apnoea screens, tinnitus, sudden hearing loss) are a frequent expat specialist hop. Public path is GP/polyclinic → hospital ENT; foreigners pay full fees and wait. Private ENT buys speed and MRI coordination; verify SMC Otolaryngology registration before you book. Audiologists handle hearing tests and hearing-aid fitting — that is allied-health territory, not a substitute for urgent ENT when hearing drops suddenly (same-day / A&E rules apply). Hearing-aid retail hard-sells are a forum theme: ask for unaided audiogram copies, trial periods, and written aftercare fees. Group plans often need a GP referral before specialist reimbursement and may exclude hearing aids entirely — read the schedule. This guide is not IVF, derm, or screening packages; keep those in their own directory entries. Category guide, not a ranked ENT list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Tinnitus / sinus / hearing loss needs ENT vs audiology triage",
+    "Private ENT quote vs public foreigner wait unclear",
+    "Hearing-aid trial / aftercare fees look aggressive",
+    "Insurer requires referral before specialist claim"
+  ],
+  "officialLinks": [
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    },
+    {
+      "label": "AHPC — Allied health registers",
+      "url": "https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/"
+    },
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

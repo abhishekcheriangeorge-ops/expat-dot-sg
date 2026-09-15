@@ -1,0 +1,33 @@
+{
+  "type": "service",
+  "slug": "gym-personal-training",
+  "name": "Gyms & personal training (category guide)",
+  "summary": "Chain signup vs PT package hard-sell — complimentary session scripts, cooling-off realities, and verifying cold calls that know your name.",
+  "body": "Large gym chains often bundle a complimentary PT session after signup; outbound calls that know your name are common — verify the outlet and staff ID before sharing payment details, especially on personal numbers without WhatsApp business profiles. Multi-month PT packages are the classic hard-sell: ask for per-session cash rates, freeze/transfer rules, and what happens if your trainer leaves. Consumer threads warn about mandarin-only outreach and pressure to upgrade on day one — CASE and cooling-off rules may help for some doorstep/telemarketing sales, but gym floor signups are often treated as ordinary contracts, so read before you thumbprint. Boutique studios and hotel gyms price differently; compare access hours against your condo gym before locking 12 months. Pair with the sports/fitness guide for community sport alternatives. This is a category guide for shopping honestly, not a ranked gym list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Chain complimentary PT call needs verification",
+    "Quoted multi-month PT package before a trial",
+    "Comparing condo gym vs commercial membership",
+    "Need CASE / contract exit clarity on a gym deal"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE — Consumer advice",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "CASE — CPFTA & Lemon Law overview",
+      "url": "https://www.case.org.sg/cpfta-lemon-law/"
+    }
+  ],
+  "relatedGuides": [
+    "sports-fitness-singapore",
+    "hobby-sports-communities-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

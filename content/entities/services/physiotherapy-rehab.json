@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "physiotherapy-rehab",
   "name": "Physiotherapy & rehab (category guide)",
-  "summary": "AHPC-registered physios for desk-neck, sports, and post-op rehab \u2014 private cash rates, group-plan outpatient caps, and when public referral beats a package hard-sell.",
-  "body": "Verify the clinician on the Allied Health Professions Council (AHPC) register before you book \u2014 unregistered \u2018rehab coaches\u2019 are a Reddit trap. Private sessions commonly land around S$150\u2013250 for 45\u201360 minutes; many corporate outpatient riders only reimburse a handful of visits or carve physio out entirely \u2014 read the schedule, not the broker pitch. Public pathways (polyclinic \u2192 hospital physio) are slower but far cheaper for foreigners paying full fees; use them when the injury is stable and cash-burn is the constraint. Skip hard-sell multi-session packages until you have a diagnosis and a written plan; sciatica and knee threads repeatedly warn about massage/ultrasound theatre without progressive loading. Ask whether the clinic bills under physiotherapy, sports medicine, or chiropractic \u2014 insurer codes differ. For workplace injuries, pair treatment with WICA documentation from day one. This is a category guide, not a ranked clinic list \u2014 confirm AHPC registration and your insurer\u2019s outpatient physio rules yourself.",
+  "summary": "AHPC-registered physios for desk-neck, sports, and post-op rehab — private cash rates, group-plan outpatient caps, and when public referral beats a package hard-sell.",
+  "body": "Verify the clinician on the Allied Health Professions Council (AHPC) register before you book — unregistered ‘rehab coaches’ are a Reddit trap. Private sessions commonly land around S$150–250 for 45–60 minutes; many corporate outpatient riders only reimburse a handful of visits or carve physio out entirely — read the schedule, not the broker pitch. Public pathways (polyclinic → hospital physio) are slower but far cheaper for foreigners paying full fees; use them when the injury is stable and cash-burn is the constraint. Skip hard-sell multi-session packages until you have a diagnosis and a written plan; sciatica and knee threads repeatedly warn about massage/ultrasound theatre without progressive loading. Ask whether the clinic bills under physiotherapy, sports medicine, or chiropractic — insurer codes differ. For workplace injuries, pair treatment with WICA documentation from day one. This is a category guide, not a ranked clinic list — confirm AHPC registration and your insurer’s outpatient physio rules yourself. Imaging ordered from a physio pathway still needs a radiologist report and insurer pre-auth rules — see the diagnostic imaging category guide before paying cash for an MRI that a panel GP could have ordered.",
   "category": "clinics",
   "areasServed": [
     "Islandwide"
@@ -12,19 +12,20 @@
     "Desk / sports / post-op pain needs AHPC-registered physio",
     "Group outpatient rider caps or excludes physiotherapy",
     "Comparing private cash rates vs polyclinic referral waits",
-    "Clinic pushes multi-session package before a clear plan"
+    "Clinic pushes multi-session package before a clear plan",
+    "Need MRI/ultrasound clarity before cash physio imaging"
   ],
   "officialLinks": [
     {
-      "label": "AHPC \u2014 Registers of Allied Health Professionals",
+      "label": "AHPC — Registers of Allied Health Professionals",
       "url": "https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/"
     },
     {
-      "label": "AHPC \u2014 Physiotherapy profession overview",
+      "label": "AHPC — Physiotherapy profession overview",
       "url": "https://www.ahpc.gov.sg/"
     },
     {
-      "label": "MOM \u2014 Work Injury Compensation (WICA)",
+      "label": "MOM — Work Injury Compensation (WICA)",
       "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation"
     }
   ],

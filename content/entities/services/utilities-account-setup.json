@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "utilities-account-setup",
+  "name": "Utilities account setup (category guide)",
+  "summary": "SP Group power-water open/transfer for foreigners — Singpass, deposits, meter photos, and why the landlord keeping the account is not always wrong.",
+  "body": "Many condo TAs leave utilities in the landlord’s name and recharge you; HDB and some landlords push tenants to open an SP Group account. Foreigners can open accounts online with Singpass once FIN/MyInfo is live — IPA-only attempts stall. Expect a security deposit (forum quotes around a few hundred SGD) and a calendar appointment for some premises; newer developments may auto-transfer. Photograph meter readings at key collection regardless of whose name is on the bill. Town gas / bottled gas and fibre are separate vendors from SP electricity-water — do not assume one call opens everything. Pair with the telco category guide for SIM→Singpass sequencing and the utilities-telecom guide for the week-one stack. This is a category guide, not a reseller ranking.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Need SP account on FIN / Singpass after move-in",
+    "Landlord agent unsure about foreigner open-account path",
+    "Deposit / appointment booking for SP unclear",
+    "Meter photos needed whether or not you take the account"
+  ],
+  "officialLinks": [
+    {
+      "label": "SP Group — Open account",
+      "url": "https://www.spgroup.com.sg/our-services/utilities"
+    },
+    {
+      "label": "Singpass",
+      "url": "https://www.singpass.gov.sg/main/"
+    },
+    {
+      "label": "EMA — Electricity consumer info",
+      "url": "https://www.ema.gov.sg/consumer-information/electricity"
+    }
+  ],
+  "relatedGuides": [
+    "utilities-telecom-setup",
+    "fibre-tp-netlink-renters",
+    "renting-process-loi-ta-deposits",
+    "first-week-sim-singpass-bank"
+  ],
+  "featured": false,
+  "sponsored": false
+}

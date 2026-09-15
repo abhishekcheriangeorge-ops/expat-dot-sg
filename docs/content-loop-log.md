@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 8 — 2026-09-15
+
+Branch: `cursor/services-directory-tick8-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Skipped ticks 1–7 primary topics and avoided open **#70 / #75 / #86** touch sets. Fresh worktree off `origin/main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — private ENT / MRI wait pressure ([ENT private specialist](https://www.reddit.com/r/askSingapore/comments/kzvtvw/ent_private_specialist/)).
+- r/askSingapore — hearing-aid clinic / audiology shopping ([hearing aids clinic](https://www.reddit.com/r/askSingapore/comments/1tv9kit/hearing_aids_clinic_recommendations/)).
+- r/askSingapore — gym chain complimentary PT cold-call scripts ([PT calling after signup](https://www.reddit.com/r/askSingapore/comments/1kxcruh/signed_up_for_one_of_the_gym_chains_in_sg/)).
+- r/askSingapore — SP utilities account for foreigners / Singpass + deposit ([SP utility account](https://www.reddit.com/r/askSingapore/comments/1rdhgez/sp_utility_account_for_foreigners/)).
+- ICA / MOM photo-spec reject heat adjacent to first-week and passport-document threads; imaging pre-auth heat adjacent to insurer outpatient riders.
+
+**Official**
+
+- [MOH — Find a facility](https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/) + [SMC register](https://www.smc.gov.sg/pages/registers.aspx) + [AHPC registers](https://www.ahpc.gov.sg/for-professionals/registers-of-allied-health-professionals/).
+- [SP Group — Utilities](https://www.spgroup.com.sg/our-services/utilities) + [Singpass](https://www.singpass.gov.sg/main/) + [EMA electricity consumer info](https://www.ema.gov.sg/consumer-information/electricity).
+- [ICA — Photograph requirements](https://www.ica.gov.sg/photospecs) + [MOM EP documents](https://www.mom.gov.sg/passes-and-permits/employment-pass/documents-required).
+- [CASE](https://www.case.org.sg/) consumer advice for gym/PT contracts.
+
+### Gaps vs ticks 1–7 / open PRs
+
+Ticks 1–4 on main plus open #70/#75/#86 cover tax/dental/notary/storage/pets, mental health/licence/aircon/insurance/FDW DIY, pest/furniture/cleaning-exit/nanny/car-share, physio/optical/vet/bank/wills, pedia/IVF/SLT-OT/preschool/TCM, eldercare/AEIS/ambulance/funeral/recurring-clean, and screening/derm/O&G/handyman/laundry. Remaining high-intent **directory** gaps: **diagnostic imaging**, **ENT/audiology**, **gym/PT hard-sell honesty**, **SP utilities account setup**, and **visa photo / biometrics prep**.
+
+### Shipped this tick
+
+**New service entities**
+
+- `content/entities/services/diagnostic-imaging-radiology.json`
+- `content/entities/services/ent-audiology.json`
+- `content/entities/services/gym-personal-training.json`
+- `content/entities/services/utilities-account-setup.json`
+- `content/entities/services/visa-photo-biometrics.json`
+
+**Upgraded existing** (avoided #70/#75/#86 paths)
+
+- Clinics: `physiotherapy-rehab.json`, `optical-eye-care.json`, `veterinary-clinics.json`
+- Home / move stack: `telecom-setup-help.json`, `bank-account-opening.json`, `notary-apostille.json`
+- Mobility: `driving-schools-licence.json`, `car-sharing-rental.json`
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70, #75, or #86 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Will my outpatient rider pre-auth a private MRI?
+2. Is a whole-body MRI package a substitute for specialist imaging?
+3. Do I need ENT or an audiologist for tinnitus?
+4. Are hearing aids excluded from my group plan?
+5. Is the complimentary PT call after gym signup legitimate?
+6. Can I exit a multi-month PT package if the trainer leaves?
+7. Can foreigners open an SP utilities account on Singpass?
+8. Should the landlord keep the utility account instead?
+9. Why does ICA reject my phone passport photo?
+10. Does a studio photo replace biometrics at pass issuance?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 9)
 
 Branch: `loop/story-aeo-tick9` → PR to `main`. Owns **answer-engine shape** after tick 6 on main while ticks 7–8 stay open. Did **not** expand ads/monetization; avoided open tick-7 files (bank / housing / between-jobs / day-7/30 / arriving/leaving) and tick-8 files (haze / motor claims / DP / day-90).

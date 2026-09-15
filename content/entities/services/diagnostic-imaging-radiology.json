@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "diagnostic-imaging-radiology",
+  "name": "Diagnostic imaging & radiology (category guide)",
+  "summary": "MRI / CT / X-ray / ultrasound cash vs referral — foreigner fee honesty, insurer pre-auth traps, and why a wellness scan is not a specialist work-up.",
+  "body": "Expats hit imaging in two modes: GP- or specialist-ordered diagnostics for a complaint, and cash ‘full body’ MRI/CT packages marketed as peace of mind. Foreigners pay unsubsidised rates in public hospitals; private centres sell speed and evening slots, not MOH co-funding. Most group outpatient riders reimburse imaging only with a panel referral and often need pre-authorisation above a dollar threshold — arriving cash-pay then claiming later is a common reject. Wellness MRI buffet packages rarely replace a targeted specialist order (ENT tinnitus MRI vs executive whole-body theatre). Ask who reports the study (radiologist name), how incidental findings are handed off, and whether contrast / sedation is quoted separately. Pair with the health-screening category guide when you are shopping packages, and with physio / ENT paths when imaging is part of a work-up. This is a category guide, not a ranked imaging-centre list.",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "Specialist ordered MRI/CT and cash vs panel path unclear",
+    "Insurer needs pre-auth before private imaging",
+    "Comparing executive MRI package vs GP-ordered labs",
+    "Public hospital foreigner imaging wait vs private quote"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Find a facility or service",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/"
+    },
+    {
+      "label": "SMC — Healthcare professionals register",
+      "url": "https://www.smc.gov.sg/pages/registers.aspx"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "ep-medical-examination-issuance",
+    "wica-work-injury-compensation-ep"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,39 @@
+{
+  "type": "service",
+  "slug": "visa-photo-biometrics",
+  "name": "Visa photos & biometrics prep (category guide)",
+  "summary": "ICA / MOM / embassy photo specs vs mall booth luck — digital upload failures, FIN card photo reuse myths, and what ‘biometrics’ actually means at issuance.",
+  "body": "Pass and ICA photo rejects are a quiet first-month tax: wrong pixel size, glasses glare, white-background fails, or a phone crop that looked fine on WhatsApp. Use a shop that still prints and exports the exact ICA/MOM/embassy spec you need — keep the digital file, not only the print. Your EP/DP card photo is not a universal reusable asset for every embassy visa or PR upload. ‘Biometrics’ at MOM/ICA issuance usually means fingerprints and a live capture at the appointment — a studio photo does not skip that step. Notary/apostille shops sometimes offer photos as an add-on; that does not make them document lawyers. Pair with first-week and passport/document guides. Category guide, not a ranked photo-booth list.",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "whenToEngage": [
+    "ICA / MOM / embassy upload rejected for photo specs",
+    "Need digital + print file before pass issuance",
+    "Unsure whether studio photo replaces biometrics appointment",
+    "PR / visa form photo rules differ from EP card photo"
+  ],
+  "officialLinks": [
+    {
+      "label": "ICA — Photograph requirements",
+      "url": "https://www.ica.gov.sg/photospecs"
+    },
+    {
+      "label": "MOM — Employment Pass documents",
+      "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/documents-required"
+    },
+    {
+      "label": "Singpass",
+      "url": "https://www.singpass.gov.sg/main/"
+    }
+  ],
+  "relatedGuides": [
+    "first-week-sim-singpass-bank",
+    "passports-and-documents-overseas",
+    "employment-pass-singapore",
+    "document-apostille-notary-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}
