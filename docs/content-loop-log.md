@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 23)
+
+Branch: `cursor/loop-d-next-polish-tick23-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169) / [#177](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/177) / [#183](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/183).
+
+**Merge order note (controller):** `#169 → #177 → #183 → this tip` after earlier D tips already on `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — HR “annual leave eats notice” / encashment vs offset confusion on EP resign.
+- r/askSingapore — resigned on verbal offer before IPA; garden leave vs new start collision.
+- r/askSingapore — retrenchment package unpaid / “sign the release today” / TADM vs TAFEP folklore.
+
+**Official**
+
+- [MOM — Annual leave](https://www.mom.gov.sg/employment-practices/leave/annual-leave/eligibility-and-entitlement) · [Termination with notice](https://www.mom.gov.sg/employment-practices/termination-of-employment/termination-with-notice)
+- [MOM — Change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) · [Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework)
+- [MOM — Responsible retrenchment](https://www.mom.gov.sg/employment-practices/retrenchment/responsible-retrenchment) · [Unpaid benefit FAQ](https://www.mom.gov.sg/faq/retrenchment/what-should-i-do-if-i-did-not-receive-retrenchment-benefit-from-my-company) · [TADM](https://www.mom.gov.sg/employment-practices/managing-employment-disputes) · [TAFEP](https://www.tal.sg/tafep)
+
+### Gaps vs open stack
+
+Open #169→#183 cover ROE passport transfer / spouse LTVP+PMLA LLE / SCJ booking; PLOC renewal / EP-cancel spouse checklist / stay-exit calendar; NS-before-PR / TADM salary clocks / harassment pass-fear. Remaining high-intent **Next** gaps: **AL encashment vs notice offset**, **IPA-before-resign calendar depth**, **retrenchment benefit TADM vs TAFEP fork**.
+
+### Shipped
+
+**New:** `annual-leave-encashment-notice-offset-ep-singapore.mdx`, `ipa-before-resign-calendar-ep-singapore.mdx`, `retrenchment-benefit-tadm-tafep-ep-singapore.mdx`
+
+**Upgraded:** `employment-act-leave-notice-ep.mdx`, `career-pivots-singapore.mdx`, `retrenchment-ep-benefits.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #169 / #177 / #183 guide bodies.
+- Did not wait for prior drafts to merge or for CI on prior tips.
+
+### Questions mined
+
+1. Does unused annual leave automatically shorten my notice?
+2. Can HR force me to offset notice with leave?
+3. Does MC during notice extend my last day?
+4. When exactly should I resign after a new EP IPA?
+5. What if notice is longer than IPA validity?
+6. Do family DPs survive if the new IPA fails mid-notice?
+7. Unpaid contractual retrenchment benefit — TADM or TAFEP?
+8. No contract clause — is the TAMEM norm enforceable at TADM?
+9. Should I sign a release before the package hits my account?
+10. Does filing TADM extend my EP or STVP?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 22)
 
 Branch: `cursor/loop-d-next-polish-tick22-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162) / [#169](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/169) / [#177](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/177). (#83 / #89 / #99 / #114 already on main.)
