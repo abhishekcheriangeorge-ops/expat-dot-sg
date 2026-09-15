@@ -581,7 +581,7 @@ export const pillars: Pillar[] = [
       {
         label: "Spouse LTVP + PMLA",
         href: "/guides/spouse-ltvp-pmla-singapore",
-        blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
+        blurb: "PMLA is SC-only; LTVP ≠ PR; PR sponsors skip PMLA.",
       },
       {
         label: "PLOC / LOC work rights",
@@ -607,6 +607,16 @@ export const pillars: Pillar[] = [
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "New employer files fresh pass — resign only after IPA.",
+      },
+      {
+        label: "Salary disputes (TADM)",
+        href: "/guides/salary-dispute-tadm-mom",
+        blurb: "Unpaid pay and levy kickbacks — start at TADM, not WhatsApp.",
+      },
+      {
+        label: "WICA work injury (EP)",
+        href: "/guides/wica-work-injury-compensation-ep",
+        blurb: "EP holders are covered — insurance gaps do not erase claims.",
       },
       {
         label: "Stay vs exit horizon",

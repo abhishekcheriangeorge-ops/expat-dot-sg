@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 22)
+
+Branch: `loop/story-aeo-tick22` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#112). Avoided open merge-controller H file sets (#117 H20, #120 H21). Prefer merge order **#117 → #120** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — unpaid final salary; declared S Pass salary vs cash received; “pay back the levy” collections.
+- r/askSingapore — PMLA vs LTVP confusion after ROM; PR-sponsor clocks; LTVP mistaken for PR.
+- r/askSingapore — “EP means no WICA”; employer refused insurance so “no claim”; medical leave wage fights.
+
+**Official**
+
+- [MOM — Managing employment disputes (TADM)](https://www.mom.gov.sg/employment-practices/managing-employment-disputes) + [levy must not be passed to workers](https://www.mom.gov.sg/faq/levy/can-employers-pass-on-the-foreign-worker-levy-costs--to-their-foreign-workers) + [EFMA overview](https://www.mom.gov.sg/legislation/employment-of-foreign-manpower-act).
+- [ICA — LTVP](https://www.ica.gov.sg/reside/LTVP) + [PMLA](https://www.ica.gov.sg/reside/pre-marriage-long-term-visit-pass-assessment) + SC/PR spouse LTVP apply pages.
+- [MOM — EP holders under WICA](https://www.mom.gov.sg/faq/employment-pass/are-ep-holders-covered-under-wica) + [who is covered](https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation/who-is-covered) + [higher caps from 1 Nov 2025](https://www.mom.gov.sg/newsroom/press-releases/2024/0802-higher-compensation-limits-under-the-work-injury-compensation-act).
+
+### Gaps vs open H + ticks 1–21
+
+Open: #117 (leaving costs / spouse PR / retrenchment), #120 (leave/notice / citizenship / bonds). Remaining high-intent Next FAQ-free gaps: **TADM salary disputes**, **spouse LTVP + PMLA**, **WICA for EP holders**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/salary-dispute-tadm-mom.mdx` (direct lead + FAQPage)
+- `content/guides/next/spouse-ltvp-pmla-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/wica-work-injury-compensation-ep.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Spouse LTVP blurb + TADM + WICA topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120 guide bodies.
+
+### Questions mined (sample)
+
+1. Where should I start if my Singapore employer withholds salary?
+2. Can my employer make me repay foreign-worker levy from my salary?
+3. What if my S Pass declared salary is higher than what I actually receive?
+4. How long do I have to file a salary claim?
+5. Is unpaid final pay after resignation a TADM matter?
+6. Is PMLA available if my sponsor is a Singapore PR?
+7. Does a spouse LTVP mean we already have PR?
+8. How long does spouse LTVP take for an SC sponsor?
+9. How long does spouse LTVP take for a PR sponsor?
+10. Can I work automatically on a spouse LTVP?
+11. Are Employment Pass holders covered under WICA?
+12. Does my employer owe WICA compensation only if they bought insurance?
+13. What should I do first after a workplace injury on an EP?
+14. Can I claim medical leave wages under WICA?
+15. When should I escalate a WICA dispute to MOM?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 19)
 
 Branch: `loop/story-aeo-tick19` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#98). Avoided open merge-controller H file sets (#102 H17, #107 H18). Prefer merge order **#102 → #107** before this lands. No ads / monetization; no Grok copy.
