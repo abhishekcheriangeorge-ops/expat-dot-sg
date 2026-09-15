@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "dog-daycare",
+  "name": "Dog daycare",
+  "summary": "How expats evaluate dog daycare in Singapore — temperament assessments, group vs spa-style days, transport add-ons, and condo pickup constraints.",
+  "body": "Dog daycare gives social exercise when owners work long office days. Reputable centres run temperament assessments before group play; not every dog is a fit. Transport vans and condo lobby rules often decide convenience.\n\n## Decision points\n- Assessment / trial day requirements\n- Group play vs quieter enrichment days\n- Vaccination and sterilisation policies\n- Pickup / drop-off windows and van routes\n- Peak holiday booking freezes\n\nAsk what happens if your dog cannot join group play after assessment.\n\n## How to choose\nPrefer centres that explain supervision ratios and incident reporting. Tour the play areas if allowed. Confirm overtime fees when meetings overrun pickup.\n\n## Practical tip\nDo a mid-week trial before a travel week. First-day fatigue and diarrhoea are common — better at home than mid-trip.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nparks.gov.sg/avs",
+  "whenToEngage": [
+    "Need weekday dog socialisation / exercise",
+    "Temperament assessment before group play",
+    "Condo pickup / van route logistics",
+    "Holiday daycare capacity planning"
+  ],
+  "officialLinks": [
+    {
+      "label": "NParks Animal & Veterinary Service",
+      "url": "https://www.nparks.gov.sg/avs"
+    },
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "pets-daily-life-singapore",
+    "importing-pets-singapore",
+    "furnishing-rental-flat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

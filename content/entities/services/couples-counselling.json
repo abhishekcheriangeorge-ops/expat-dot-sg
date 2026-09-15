@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "couples-counselling",
+  "name": "Couples counselling",
+  "summary": "How expats find couples counselling in Singapore — registered psychologists vs counsellors, relocation stress themes, and privacy expectations for dual-career households.",
+  "body": "Couples counselling helps partners navigate relocation stress, parenting load, and dual-career conflict. Providers may be clinical psychologists, counsellors, or therapists — credentials and modality matter more than clinic polish.\n\n## Decision points\n- Psychologist vs counsellor pathway\n- In-person vs secure telehealth for travel weeks\n- Individual vs conjoint session mix\n- Language / cultural matching needs\n- Employer EAP vs private cash rates\n\nClarify confidentiality limits for EAP-referred work.\n\n## How to choose\nPrefer practitioners who explain their approach (e.g. EFT, Gottman-informed) and cancellation policies upfront. Ask about crisis pathways. Avoid anyone promising court outcomes in custody disputes.\n\n## Practical tip\nAgree on one shared goal sentence before session one. Unscoped “fix us” hours burn cash fast.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Relocation / dual-career conflict needs support",
+    "Psychologist vs counsellor pathway unclear",
+    "Telehealth counselling during travel weeks",
+    "EAP vs private couples therapy choice"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Singapore Psychological Society",
+      "url": "https://singaporepsychologicalsociety.org/"
+    }
+  ],
+  "relatedGuides": [
+    "parenting-communities-playgroups-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "leaving-singapore-playbook"
+  ],
+  "featured": false,
+  "sponsored": false
+}

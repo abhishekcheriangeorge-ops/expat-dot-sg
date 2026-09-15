@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "gastroenterology-scopes",
+  "name": "Gastroenterology scopes",
+  "summary": "How expats arrange gastroscopy and colonoscopy in Singapore — referral paths, bowel-prep timing, sedation choices, and insurance pre-auth realities.",
+  "body": "Gastroenterologists perform diagnostic and screening scopes when symptoms, age, or family history justify them. Bowel prep quality decides colonoscopy usefulness; sedation and recovery windows shape work calendars.\n\n## Decision points\n- GP referral vs direct private booking\n- Gastroscopy, colonoscopy, or both in one session\n- Sedation vs deeper anaesthesia options\n- Bowel-prep timing around flights and meetings\n- Panel hospital vs private centre pre-auth\n\nBring prior endoscopy reports if you have them.\n\n## How to choose\nPrefer centres that explain prep clearly and give a reachable nurse line overnight. Ask who calls with histology results and typical turnaround. Confirm what is included in package quotes (histology, polyps, recovery bay).\n\n## Practical tip\nBlock the afternoon after colonoscopy even if you “feel fine.” Sedation plus prep fatigue makes heroic inbox clearing a bad idea.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Symptoms or screening need gastroscopy / colonoscopy",
+    "Bowel-prep timing around work or travel",
+    "Sedation pathway and recovery window unclear",
+    "Insurance pre-auth for scopes unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
