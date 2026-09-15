@@ -39,9 +39,21 @@ export default function EditorialPolicyPage() {
           <h2 className="font-display text-2xl text-ink">Citations & review</h2>
           <p className="mt-3">
             Cornerstone guides cite primary sources where rules matter — typically
-            MOM, ICA, IRAS, or equivalent agency pages. Every editorial guide
-            shows a <strong className="font-semibold text-ink">last reviewed</strong>{" "}
-            date. Rules change; treat guides as orientation, not legal advice.
+            MOM, ICA, IRAS, CMPB/MINDEF, or equivalent agency pages. Every
+            editorial guide shows a{" "}
+            <strong className="font-semibold text-ink">last reviewed</strong> date.
+            Rules change; treat guides as orientation, not legal, tax, or
+            immigration advice for your individual case.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="font-display text-2xl text-ink">Research inputs</h2>
+          <p className="mt-3">
+            We mine public forums and Reddit for recurring pain points, then
+            verify claims against official pages before shipping. Peer anecdotes
+            illustrate uncertainty; they never replace agency text. We do not
+            copy third-party expat roundups or AI-generated clone sites.
           </p>
         </section>
 

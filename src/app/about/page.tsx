@@ -30,9 +30,11 @@ export default function AboutPage() {
         <section>
           <h2 className="font-display text-2xl text-ink">What we are</h2>
           <p className="mt-3">
-            We cover the full lifecycle: visas and first housing, neighbourhood
-            decisions, schools and healthcare, clubs and communities, renewals,
-            PR strategy, and leaving well. Content is dual-labeled for{" "}
+            We cover the full lifecycle across pillars — Move, Money, Home,
+            Family, Belong, Life, and Next — from visas and first housing through
+            neighbourhood decisions, schools and healthcare, clubs and
+            communities, renewals, PR strategy, and leaving well. Content is
+            dual-labeled for{" "}
             <Link href="/arriving" className="text-canopy underline">
               Arriving
             </Link>{" "}
@@ -47,10 +49,12 @@ export default function AboutPage() {
         <section>
           <h2 className="font-display text-2xl text-ink">What we are not</h2>
           <p className="mt-3">
-            We are not a property inventory, an events social graph, or an open
-            unmoderated forum. We cite official sources (MOM, ICA, IRAS, and
-            peers) and show last-reviewed dates on editorial guides. Sponsored
-            content is always labeled.
+            We are not a property inventory, an events social graph, an open
+            unmoderated forum, or a clone of third-party “expat Singapore”
+            roundups. We cite official sources (MOM, ICA, IRAS, CMPB, and peers)
+            and show last-reviewed dates on editorial guides. Sponsored content
+            is always labeled. Guides are orientation — not legal, tax, or
+            immigration advice for your file.
           </p>
         </section>
 
@@ -63,6 +67,11 @@ export default function AboutPage() {
                 editorial policy
               </Link>
               .
+            </li>
+            <li>
+              Research that starts from real reader questions (forums, Reddit,
+              agency FAQs), then maps gaps to primary sources — not recycled
+              listicles.
             </li>
             <li>
               Directories for neighbourhoods, schools, clubs, and services —
