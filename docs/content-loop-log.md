@@ -6,6 +6,19 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 36)
+
+Branch: `cursor/loop-d-next-polish-tick36-d996` → draft PR to `main`, off tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for Tech.Pass→ONE salary composite, LTVP/PLOC→EP conversion edges, and EP notify-MOM address/passport edges.
+
+**Shipped**
+- New: `tech-pass-to-one-pass-salary-composite-singapore`, `ltvp-ploc-to-ep-conversion-edges-singapore`, `ep-notify-mom-address-passport-edges-singapore`
+- Parents (light): Tech.Pass, LTVP/PLOC→EP conversion, EP notify MOM address/passport
+- Rails: `src/lib/site.ts` Next topics, about, editorial; this log prepend
+
+**Merge note:** tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) → this tip when controller merges.
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 35)
 
 Branch: `cursor/loop-d-next-polish-tick35-d996` → draft PR to `main`, off tip [#289](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/289) (merged into main). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for ONE Pass outstanding-achievements evidence, EP job-change IR21 withhold, and PEP exit timing.

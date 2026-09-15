@@ -654,19 +654,19 @@ export const pillars: Pillar[] = [
       },
 
       {
-        label: "ONE Pass achievements evidence",
-        href: "/guides/one-pass-outstanding-achievements-evidence-singapore",
-        blurb: "Outstanding track ≠ LinkedIn awards — dated third-party proof.",
+        label: "Tech.Pass → ONE composite",
+        href: "/guides/tech-pass-to-one-pass-salary-composite-singapore",
+        blurb: "S$22.5k cash ≠ S$30k composite — stage before 2027.",
       },
       {
-        label: "EP job-change IR21 withhold",
-        href: "/guides/ep-job-change-ir21-withhold-edges-singapore",
-        blurb: "Same-city hop still triggers clearance cash-flow clocks.",
+        label: "PLOC→EP conversion edges",
+        href: "/guides/ltvp-ploc-to-ep-conversion-edges-singapore",
+        blurb: "Sponsor shocks mid-IPA — PLOC tenure is not a stealth EP.",
       },
       {
-        label: "PEP exit timing",
-        href: "/guides/pep-exit-to-ep-or-pr-timing-singapore",
-        blurb: "PEP is a runway — stage EP/PR before the card dies.",
+        label: "Notify MOM address edges",
+        href: "/guides/ep-notify-mom-address-passport-edges-singapore",
+        blurb: "Travel + FWTES + passport renewal vs five-day clocks.",
       },
       {
         label: "Between jobs / STVP",
