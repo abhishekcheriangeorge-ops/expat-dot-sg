@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, cost-of-living estimate, Employment Pass salary threshold, and school withdrawal notice sketch.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice, agent commission, cost of living, and Employment Pass salary threshold illustration.",
   path: "/tools",
 });
 
@@ -30,6 +30,12 @@ const tools = [
       "IRAS tenancy lease duty only — 0.4% of total rent (≤4 years), 4× AAR for longer leases, AAR exemption.",
   },
   {
+    href: "/tools/lease-notice",
+    title: "Diplomatic clause notice",
+    summary:
+      "Sketch lock-in + written notice dates on a typical 12/24-month TA before you resign or book flights.",
+  },
+  {
     href: "/tools/cost-of-living",
     title: "Cost of living sketch",
     summary:
@@ -42,10 +48,10 @@ const tools = [
       "Age-progressive Employment Pass floors from MOM tables, including the 1 Jan 2027 uplift.",
   },
   {
-    href: "/tools/school-withdrawal",
-    title: "School withdrawal notice",
+    href: "/tools/agent-commission",
+    title: "Agent commission sketch",
     summary:
-      "Count contractual notice weeks backwards from the last attendance day — mid-term fee cue only.",
+      "Tenant- or landlord-side rental agent fee as months of rent, with optional 9% GST.",
   },
 ] as const;
 
@@ -63,7 +69,7 @@ export default function ToolsIndexPage() {
           collectionPageJsonLd({
             name: "Tools",
             description:
-              "First-month cash, lease duty, COL, EP threshold, and school withdrawal utilities for Singapore expats.",
+              "First-month cash, lease duty, diplomatic-clause notice, agent commission, COL, and Employment Pass threshold utilities for Singapore expats.",
             path: "/tools",
             items: tools.map((tool) => ({
               name: tool.title,
@@ -101,22 +107,10 @@ export default function ToolsIndexPage() {
 
         <FadeIn className="mt-16 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <Link
-            href="/journeys/arriving"
+            href="/journeys"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
-            Arriving journeys →
-          </Link>
-          <Link
-            href="/guides"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Guides →
-          </Link>
-          <Link
-            href="/home"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Home (lease cash) →
+            ← Back to journeys
           </Link>
           <Link
             href="/money"

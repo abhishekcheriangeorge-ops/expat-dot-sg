@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "graduate-pass-bridge",
+  "title": "Student / graduate pass bridge",
+  "summary": "Student’s Pass or training attachment ending — map EP / Training Employment Pass / exit timing so the gap after graduation stays lawful, and do not treat a job offer alone as immigration status.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "know-end-date",
+      "title": "Know the hard end date on your current pass",
+      "body": "A Student’s Pass, Training Employment Pass, or similar training permission has a printed end date. Graduation ceremonies and “I’m still finishing thesis admin” do not extend it. Calendar the expiry at least three months out and treat every week after that as a status problem, not an HR problem.",
+      "bullets": [
+        "Screenshot ICA / MOM eService end dates and the cancellation email trail",
+        "Do not assume your school auto-extends while you job-hunt",
+        "If you hold a Dependant’s Pass while studying, that is a different product — do not mix playbooks"
+      ],
+      "href": "https://www.ica.gov.sg/reside/studentpass"
+    },
+    {
+      "id": "path-fork",
+      "title": "Fork: EP, Training EP, leave, or other pass",
+      "body": "Lawful next steps are usually (1) a primary work pass from a Singapore employer (EP / S Pass), (2) a Training Employment Pass where the role and employer still qualify, (3) leaving Singapore before expiry, or (4) another ICA/MOM product that actually fits your family or LTVP situation. A signed offer letter is not a pass.",
+      "bullets": [
+        "EP / S Pass: employer applies; you cannot start work until issuance",
+        "Training Employment Pass: check live MOM eligibility — it is not a generic “grad hunt” visa",
+        "No offer in time → plan exit or a lawful visit/other pass; do not overstay to “keep interviewing”"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/training-employment-pass"
+    },
+    {
+      "id": "salary-compass",
+      "title": "Salary floors and COMPASS before you accept",
+      "body": "Offers that clear your personal expectations can still fail MOM’s qualifying salary and COMPASS tests. Sketch the live EP floor for your age against the offer, and ask the employer who owns the application timeline relative to your Student’s Pass end date.",
+      "bullets": [
+        "Use /tools/ep-threshold against the offer and the 1 Jan 2027 uplift if relevant",
+        "Ask HR for the planned IPA → issuance dates in writing",
+        "Reject “start Monday, IPA later” folklore — work without a pass is illegal"
+      ],
+      "href": "/tools/ep-threshold"
+    },
+    {
+      "id": "cancel-sequence",
+      "title": "Cancellation and the short gap",
+      "body": "Schools / training hosts usually cancel or notify when you complete or withdraw. Confirm whether any short visit permission appears at cancellation — do not invent STVP folklore from EP resignation threads. If you will leave Singapore, book exit before the pass dies; if you will convert, sequence IPA issuance inside the lawful window.",
+      "bullets": [
+        "Ask the school/host what cancellation notice ICA/MOM will see and when",
+        "Keep passport, IPA email, and appointment slots ready in the same week",
+        "Between-jobs EP playbook is for cancelled Employment Passes — different product"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+    },
+    {
+      "id": "housing-cash",
+      "title": "Housing and cash while status is thin",
+      "body": "Hall check-out, roommate LOIs, and agent commissions often collide with pass end dates. Sketch first-month cash and agent fees before you sign a condo LOI on a Student’s Pass that expires mid-lease.",
+      "bullets": [
+        "Do not sign a 24-month TA you cannot lawfully finish",
+        "First-month cash sketch: /tools/setup-cash",
+        "Agent commission sketch: /tools/agent-commission"
+      ],
+      "href": "/tools/agent-commission"
+    },
+    {
+      "id": "family-adjacent",
+      "title": "Family / LOC adjacency — do not mix paths",
+      "body": "If a spouse’s EP will sponsor you after graduation, that is a family-joining / Dependant Pass sequence — not a Student’s Pass extension. LOC work-rights questions belong on the DP/LOC playbook once you hold a Dependant’s Pass. Keep the products separate.",
+      "bullets": [
+        "Spouse sponsorship ≠ automatic continuation of Student’s Pass",
+        "Open family-joining only when that playbook is the live path for your household",
+        "DP work rights: /journeys/loc-dp-work-rights when that route is on main"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligible-family-members"
+    }
+  ]
+}
