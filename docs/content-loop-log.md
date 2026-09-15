@@ -6,6 +6,71 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 33 — 2026-09-15
+
+Branch: `cursor/home-life-tick33-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150 stay open for the merge controller — **did not** touch those PR paths. Topics: condo renovation deposit / lift booking, ActiveSG squash court booking, Lavender / Bugis / Farrer Park.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — MCST renovation deposits, who pays when the landlord renovates, padded-lift slots selling out, contractor stop-work at the boom.
+- r/askSingapore — ActiveSG squash Standard Rate for foreigners, peak release races, eyewear norms, condo glass courts that stay locked.
+- r/askSingapore — central shortlists for Lavender / Bugis / Farrer Park vs Kallang event spillover and Bugis tourist crush.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf) + [common issues in private estates](https://www1.bca.gov.sg/guidelines-and-requirements/common-issues-or-disputes-encountered-by-residents-in-private-estates/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [facilities](https://www.activesgcircle.gov.sg/facilities).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #150
+
+Open PRs own reno/lightning/void-deck/power/condo-adjacent-reno/smoke/PUB-water/pools/SP-bill/stadium/OEM/HDB-corridor-smoking/MCST-bylaws/football-futsal/visitor-parking/tennis and their town sets. Remaining gaps without collision: **condo renovation deposit / lift booking ops** (≠ adjacent-unit noise; ≠ by-law/AGM overview body), **ActiveSG squash booking** (≠ pools/stadium/futsal/tennis), plus neighbourhood depth for **Lavender**, **Bugis**, and **Farrer Park**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-renovation-deposit-lift-booking-tenants.mdx`
+- `content/guides/life/activesg-squash-court-booking-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/furnishing-rental-flat.mdx`
+- `content/guides/home/rental-inventory-fair-wear-tear.mdx`
+- `content/guides/home/lease-renewal-rent-increase.mdx`
+- `content/guides/life/weekend-getaways-from-singapore.mdx`
+- `src/lib/site.ts` (reno deposit + ActiveSG squash topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/lavender.json`
+- `content/entities/neighbourhoods/bugis.json`
+- `content/entities/neighbourhoods/farrer-park.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 file paths.
+
+### Questions mined (sample)
+
+1. Who pays the MCST renovation deposit — landlord or tenant?
+2. Is lift booking the same as a renovation permit?
+3. Can the landlord renovate while I still occupy?
+4. When does the renovation deposit come back?
+5. Can foreigners book ActiveSG squash at Standard Rate?
+6. Is squash the same product as tennis or futsal?
+7. Do I need protective eyewear?
+8. Lavender vs Bugis — food fringe or retail hub?
+9. Is Farrer Park quieter than Bugis for NEL living?
+10. What pre-works MA questions save boom-gate fights?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 32 — 2026-09-15
 
 Branch: `cursor/home-life-tick32-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144 stay open for the merge controller — **did not** touch those PR paths. Topics: condo visitor parking / access cards, ActiveSG tennis court booking, Mountbatten / Nicoll Highway / Aljunied.

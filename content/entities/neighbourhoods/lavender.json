@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "lavender",
+  "name": "Lavender",
+  "summary": "EWL/DTL edge of Kallang–Jalan Besar — older condo and walk-up stock, food density toward Jalan Besar, and shorter CBD hops than far-east towns.",
+  "body": "Lavender is the shortlist when East-West / Downtown Line access and Jalan Besar food matter more than polished mall living. Housing mixes older condos, walk-ups, and estate edges toward Kallang; nightlife and late-kitchen energy spill from the Jalan Besar / Bendemeer fringe. Expats land here for CBD-adjacent rents and MRT optionality rather than quiet cul-de-sac defaults. Compare with Bugis for denser retail/tourism gravity, Farrer Park for a slightly more residential north-of-Rochor feel, and Kallang when stadium event spillover is the trade you are actually buying.",
+  "region": "central",
+  "vibe": [
+    "ewl",
+    "dtl",
+    "jalan-besar-food",
+    "older-condo",
+    "city-fringe"
+  ],
+  "bestFor": [
+    "CBD-adjacent workers who want older-stock rents",
+    "households okay with late-kitchen energy",
+    "condo renters who will vet MA reno / lift rules",
+    "car-light couples testing city-fringe before RV prices"
+  ],
+  "watchOuts": [
+    "Block-level noise near major roads",
+    "Older MCST renovation / lift-booking variance",
+    "Weekend food and nightlife spillover",
+    "Fewer quiet-heartland defaults than upstream NEL towns"
+  ],
+  "housingMix": "Older condo and walk-up stock with estate edges toward Kallang.",
+  "commuteNotes": "East-West and Downtown Line at Lavender; test a Friday 19:30 door-to-desk and the walk toward Jalan Besar in rain.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3900,
+    "familyFrom": 3200,
+    "familyTo": 5400
+  },
+  "mrt": [
+    "Lavender"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

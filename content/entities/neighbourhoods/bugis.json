@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "bugis",
+  "name": "Bugis",
+  "summary": "DTL/EWL central retail hub — malls, arts adjacency, and condo/serviced edges with tourist footfall as the daily tax.",
+  "body": "Bugis is the shortlist when Downtown + East-West interchange access and mall / arts density matter, with Victoria Street and Beach Road edges in walking range. Housing is mostly condo and serviced-apartment stock rather than quiet HDB heartland; weekend tourist crowds and late retail energy are the tax. Expats land here for car-light CBD hops and lifestyle density, not cul-de-sac calm. Compare with Lavender for slightly calmer city-fringe older stock, Farrer Park for a more residential north-of-Rochor texture, and Marina Bay / CBD when you are already paying core premiums and want the skyline walk.",
+  "region": "central",
+  "vibe": [
+    "dtl",
+    "ewl",
+    "retail-hub",
+    "arts-adjacent",
+    "tourist-footfall"
+  ],
+  "bestFor": [
+    "car-light workers who want two MRT lines and mall gravity",
+    "households okay with tourist weekend crowds",
+    "renters comparing serviced vs proper TA nearby",
+    "people who will book ActiveSG indoor courts instead of trusting condo facilities"
+  ],
+  "watchOuts": [
+    "Tourist and mall peak crowds",
+    "Serviced-apartment vs real TA confusion",
+    "Noise on major retail corridors",
+    "Facility brochure vs MA booking reality in older condos"
+  ],
+  "housingMix": "Condo and serviced-apartment stock with limited quiet HDB texture.",
+  "commuteNotes": "Downtown and East-West at Bugis; test Saturday afternoon station exits before you romanticise the interchange.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2800,
+    "oneBedTo": 4500,
+    "familyFrom": 3800,
+    "familyTo": 6500
+  },
+  "mrt": [
+    "Bugis"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

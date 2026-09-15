@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "farrer-park",
+  "name": "Farrer Park",
+  "summary": "NEL stop north of Rochor — mixed condo and older estate texture, food belts toward Little India / Jalan Besar, and city-fringe hops without Bugis mall crush.",
+  "body": "Farrer Park is the shortlist when North-East Line access and a slightly more residential city-fringe feel matter, with Little India / Jalan Besar food in walking range. Housing mixes condos, older blocks, and estate edges; weekend cultural and food crowds are real but usually less mall-tourist than Bugis. Expats land here for NEL CBD hops and neighbourhood density rather than polished Orchard living. Compare with Lavender for EWL/DTL optionality, Bugis for retail interchange gravity, and Novena when you want medical / office belt polish further up the line.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "city-fringe",
+    "food-belts",
+    "mixed-stock",
+    "residential-edge"
+  ],
+  "bestFor": [
+    "NEL workers wanting city-fringe without Bugis crush",
+    "households who cook less and walk to food belts",
+    "condo renters who will vet renovation / lift booking rules",
+    "car-light couples testing central before River Valley premiums"
+  ],
+  "watchOuts": [
+    "Weekend cultural and food crowd spikes",
+    "Block-level variance in MCST ops",
+    "Humidity and older-stock maintenance fights",
+    "Not a quiet heartland default"
+  ],
+  "housingMix": "Condo inserts with older estate and walk-up edges.",
+  "commuteNotes": "North-East Line at Farrer Park; test a Sunday market-hour walk and a Tuesday 08:15 door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2500,
+    "oneBedTo": 4000,
+    "familyFrom": 3300,
+    "familyTo": 5600
+  },
+  "mrt": [
+    "Farrer Park"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
