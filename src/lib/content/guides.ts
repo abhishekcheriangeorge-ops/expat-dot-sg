@@ -193,6 +193,16 @@ export async function getRelatedGuides(
   return picked;
 }
 
+/** Guides whose relatedEntities frontmatter includes the given entity slug. */
+export async function getGuidesLinkingToEntity(
+  entitySlug: string,
+  limit = 6,
+): Promise<GuideMeta[]> {
+  const all = await getAllGuides();
+  const hits = all.filter((g) => g.relatedEntities.includes(entitySlug));
+  return hits.slice(0, limit);
+}
+
 export const PILLAR_LABELS: Record<Pillar, string> = {
   move: "Move",
   home: "Home",

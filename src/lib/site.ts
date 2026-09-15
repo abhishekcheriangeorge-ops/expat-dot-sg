@@ -187,31 +187,6 @@ export const pillars: Pillar[] = [
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
       },
       {
-        label: "Fair Consideration & MyCareersFuture",
-        href: "/guides/fair-consideration-framework-ep",
-        blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
-      },
-      {
-        label: "S Pass vs EP",
-        href: "/guides/ep-vs-s-pass-comparison",
-        blurb: "No EP quota myth, levy/DRC, Sep 2025 S Pass floors.",
-      },
-      {
-        label: "Decode the job offer",
-        href: "/guides/decoding-job-offer-singapore",
-        blurb: "Fixed salary vs AWS/bonus; which number MOM sees.",
-      },
-      {
-        label: "Work Holiday & Training EP",
-        href: "/guides/work-holiday-training-employment-pass",
-        blurb: "WHP vs TEP — never intern on a tourist visit pass.",
-      },
-      {
-        label: "MOE Tuition Grant bond",
-        href: "/guides/moe-tuition-grant-bond",
-        blurb: "3-year bond, LOE ≠ EP, liquidated damages reality.",
-      },
-      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -224,6 +199,8 @@ export const pillars: Pillar[] = [
     ],
     related: [
       { href: "/arriving", label: "Arriving hub" },
+      { href: "/journeys/arriving", label: "Arrival checklists" },
+      { href: "/tools/ep-threshold", label: "EP salary tool" },
       { href: "/money", label: "Money" },
       { href: "/home", label: "Home" },
       { href: "/guides", label: "All guides" },
@@ -286,6 +263,7 @@ export const pillars: Pillar[] = [
     ],
     related: [
       { href: "/neighbourhoods", label: "Neighbourhoods" },
+      { href: "/tools/lease-duty", label: "Lease duty tool" },
       { href: "/arriving", label: "Arriving" },
       { href: "/living", label: "Living" },
       { href: "/guides", label: "All guides" },
@@ -360,11 +338,6 @@ export const pillars: Pillar[] = [
         href: "/guides/salary-package-decoding",
         blurb: "Housing, flights, school fees — what the letter really means.",
       },
-      {
-        label: "Year-one financial plan",
-        href: "/guides/financial-planning-year-one",
-        blurb: "3–6 month buffer; defer ABSD condo and COE FOMO.",
-      },
     ],
     related: [
       { href: "/tools", label: "COL & EP tools" },
@@ -406,6 +379,16 @@ export const pillars: Pillar[] = [
         label: "Kids allergy & EpiPen",
         href: "/guides/kids-allergy-epipen-singapore",
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
+      },
+      {
+        label: "Kids ADHD medication",
+        href: "/guides/kids-adhd-medication-singapore",
+        blurb: "HSA bridge, local psychiatrist Rx, Adderall gaps.",
+      },
+      {
+        label: "Mandarin enrichment",
+        href: "/guides/mandarin-enrichment-expat-kids-singapore",
+        blurb: "Berries vs online vs IS bilingual tracks — goal first.",
       },
       {
         label: "Kids activities & calendar",
@@ -486,6 +469,7 @@ export const pillars: Pillar[] = [
       },
     ],
     related: [
+      { href: "/directory", label: "Service directory" },
       { href: "/belong", label: "Belong" },
       { href: "/living", label: "Living" },
       { href: "/calendar", label: "Calendar" },
@@ -517,6 +501,11 @@ export const pillars: Pillar[] = [
         blurb: "Choirs, volunteer orchestras, jams, and concert rails.",
       },
       {
+        label: "Book clubs & hiking",
+        href: "/guides/book-hiking-communities-singapore",
+        blurb: "NLB/Meetup reading groups and NParks trail rails.",
+      },
+      {
         label: "Associations & chambers",
         href: "/guides/anza-awa-associations",
         blurb: "ANZA, AWA, business chambers, and professional groups.",
@@ -545,6 +534,7 @@ export const pillars: Pillar[] = [
     related: [
       { href: "/clubs", label: "Clubs directory" },
       { href: "/life", label: "Life" },
+      { href: "/directory", label: "Service directory" },
       { href: "/living", label: "Living" },
       { href: "/guides", label: "All guides" },
     ],

@@ -42,10 +42,22 @@ export default function SetupCashToolPage() {
             ← All tools
           </Link>
           <Link
-            href="/money"
+            href="/guides/renting-process-loi-ta-deposits"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
-            Money pillar →
+            Renting process →
+          </Link>
+          <Link
+            href="/guides/first-housing-serviced-apartment"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            First housing bridge →
+          </Link>
+          <Link
+            href="/tools/lease-duty"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Lease duty →
           </Link>
           <Link
             href="/home"

@@ -12,6 +12,7 @@ import {
   NEIGHBOURHOOD_REGION_LABELS,
   getNeighbourhoods,
   getEntityBySlug,
+  getGuidesLinkingToEntity,
   getSchools,
   type Neighbourhood,
 } from "@/lib/content";
@@ -65,6 +66,7 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
   const schools = n.schoolsNearby.length
     ? (await getSchools()).filter((s) => n.schoolsNearby.includes(s.slug))
     : [];
+  const relatedGuides = await getGuidesLinkingToEntity(slug);
 
   const rent = formatRent(n);
   const facts = [
@@ -167,6 +169,67 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
           </div>
         </section>
       ) : null}
+
+      {relatedGuides.length > 0 ? (
+        <section className="border-t border-fog-soft">
+          <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
+            <h2 className="font-display text-2xl text-canopy-deep">
+              Guides that reference this area
+            </h2>
+            <ul className="mt-5 flex flex-col gap-3">
+              {relatedGuides.map((guide) => (
+                <li key={guide.slug}>
+                  <Link
+                    href={`/guides/${guide.slug}`}
+                    className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                  >
+                    {guide.title} →
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+              <Link
+                href="/guides/choosing-neighbourhood-expat"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                Choosing a neighbourhood →
+              </Link>
+              <Link
+                href="/tools/setup-cash"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                First-month cash tool →
+              </Link>
+            </p>
+          </div>
+        </section>
+      ) : (
+        <section className="border-t border-fog-soft">
+          <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
+            <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+              <Link
+                href="/guides/choosing-neighbourhood-expat"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                Choosing a neighbourhood →
+              </Link>
+              <Link
+                href="/guides/heartland-living-for-expats"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                Heartland living →
+              </Link>
+              <Link
+                href="/tools/lease-duty"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                Lease duty tool →
+              </Link>
+            </p>
+          </div>
+        </section>
+      )}
 
       <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
         <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">

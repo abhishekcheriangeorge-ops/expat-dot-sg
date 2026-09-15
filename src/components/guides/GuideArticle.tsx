@@ -1,12 +1,14 @@
 import type { ReactNode } from "react";
 import type { GuideMeta } from "@/lib/content/guides";
 import { PILLAR_LABELS } from "@/lib/content/guides";
+import type { ResolvedRelatedEntity } from "@/lib/content/entities";
 import type { SponsorPlacement } from "@/lib/content/schemas";
 import type { TocItem } from "@/lib/content/toc";
 import { Breadcrumbs } from "@/components/seo";
 import { GuideCitations } from "./GuideCitations";
 import { GuideMetaBar } from "./GuideMetaBar";
 import { GuideRelated } from "./GuideRelated";
+import { GuideRelatedEntities } from "./GuideRelatedEntities";
 import { GuideSponsorSlotBanner } from "./GuideSponsorSlot";
 import { GuideToc } from "./GuideToc";
 
@@ -14,6 +16,7 @@ type GuideArticleProps = {
   meta: GuideMeta;
   toc: TocItem[];
   related: GuideMeta[];
+  relatedEntities?: ResolvedRelatedEntity[];
   children: ReactNode;
   /** Optional filled inventory for the guide's sponsor slot category */
   placement?: SponsorPlacement | null;
@@ -23,6 +26,7 @@ export function GuideArticle({
   meta,
   toc,
   related,
+  relatedEntities = [],
   children,
   placement = null,
 }: GuideArticleProps) {
@@ -57,6 +61,7 @@ export function GuideArticle({
 
           <div className="mt-14 max-w-[var(--max-prose)] space-y-14">
             <GuideCitations citations={meta.citations} />
+            <GuideRelatedEntities entities={relatedEntities} />
             <GuideRelated guides={related} />
           </div>
         </div>

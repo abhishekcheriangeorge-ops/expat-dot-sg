@@ -13,6 +13,7 @@ import {
   CLUB_CATEGORY_LABELS,
   getClubs,
   getEntityBySlug,
+  getGuidesLinkingToEntity,
 } from "@/lib/content";
 import {
   breadcrumbJsonLd,
@@ -55,6 +56,7 @@ export default async function ClubDetailPage({ params }: Props) {
       : c.neighbourhood
         ? c.neighbourhood.replace(/-/g, " ")
         : null;
+  const relatedGuides = await getGuidesLinkingToEntity(slug);
 
   const facts = [
     { label: "Category", value: CLUB_CATEGORY_LABELS[c.category] },
@@ -122,6 +124,46 @@ export default async function ClubDetailPage({ params }: Props) {
               Nearby neighbourhood: {neighbourhoodName} →
             </Link>
           ) : null}
+        </div>
+      </section>
+
+      <section className="border-t border-fog-soft">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
+          {relatedGuides.length > 0 ? (
+            <>
+              <h2 className="font-display text-2xl text-canopy-deep">
+                Guides that reference this community
+              </h2>
+              <ul className="mt-5 flex flex-col gap-3">
+                {relatedGuides.map((guide) => (
+                  <li key={guide.slug}>
+                    <Link
+                      href={`/guides/${guide.slug}`}
+                      className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                    >
+                      {guide.title} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+          <p
+            className={`flex flex-wrap gap-x-5 gap-y-2 text-sm ${relatedGuides.length ? "mt-6" : ""}`}
+          >
+            <Link
+              href="/guides/find-my-people-singapore"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Finding your people →
+            </Link>
+            <Link
+              href="/belong"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Belong pillar →
+            </Link>
+          </p>
         </div>
       </section>
 

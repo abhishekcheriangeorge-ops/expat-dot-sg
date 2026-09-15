@@ -9,7 +9,7 @@ import {
   ProseSection,
 } from "@/components/directory";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { getEntityBySlug, getSchools } from "@/lib/content";
+import { getEntityBySlug, getGuidesLinkingToEntity, getSchools } from "@/lib/content";
 import {
   breadcrumbJsonLd,
   buildPageMetadata,
@@ -57,6 +57,7 @@ export default async function SchoolDetailPage({ params }: Props) {
       : s.neighbourhood
         ? s.neighbourhood.replace(/-/g, " ")
         : null;
+  const relatedGuides = await getGuidesLinkingToEntity(slug);
 
   const facts = [
     { label: "Sector", value: SECTOR_LABELS[s.sector] },
@@ -148,6 +149,52 @@ export default async function SchoolDetailPage({ params }: Props) {
         </div>
       </section>
 
+      <section className="border-t border-fog-soft">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
+          {relatedGuides.length > 0 ? (
+            <>
+              <h2 className="font-display text-2xl text-canopy-deep">
+                Guides that reference this school
+              </h2>
+              <ul className="mt-5 flex flex-col gap-3">
+                {relatedGuides.map((guide) => (
+                  <li key={guide.slug}>
+                    <Link
+                      href={`/guides/${guide.slug}`}
+                      className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                    >
+                      {guide.title} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+          <p
+            className={`flex flex-wrap gap-x-5 gap-y-2 text-sm ${relatedGuides.length ? "mt-6" : ""}`}
+          >
+            <Link
+              href="/guides/international-schools-landscape"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Schools landscape →
+            </Link>
+            <Link
+              href="/guides/aeis-saeis-international-students"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              AEIS / S-AEIS →
+            </Link>
+            <Link
+              href="/calendar"
+              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            >
+              Kids calendar →
+            </Link>
+          </p>
+        </div>
+      </section>
+
       <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
         <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
           <Link
@@ -167,12 +214,6 @@ export default async function SchoolDetailPage({ params }: Props) {
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
             Neighbourhoods →
-          </Link>
-          <Link
-            href="/calendar"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Kids calendar →
           </Link>
         </p>
       </nav>

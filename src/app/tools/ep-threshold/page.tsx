@@ -48,6 +48,12 @@ export default function EpThresholdToolPage() {
             EP guide →
           </Link>
           <Link
+            href="/guides/compass-framework-explained"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            COMPASS framework →
+          </Link>
+          <Link
             href="/move"
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
