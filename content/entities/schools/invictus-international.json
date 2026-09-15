@@ -3,21 +3,24 @@
   "slug": "invictus-international",
   "name": "Invictus International School",
   "summary": "Multi-campus Cambridge pathway often shortlisted as a mid-fee bridge while AEIS outcomes or premium waitlists resolve.",
-  "body": "Invictus operates multiple Singapore campuses with Cambridge-oriented programmes and a value positioning versus legacy SAS / TTS / UWC-tier fees. Reddit primary-admission and budget threads frequently name Invictus when families need a nearer-term seat than premium waitlists allow, or a bridge year while AEIS / S-AEIS runs. Tour the specific campus your child would attend — culture, facilities, and secondary continuity vary by site. Ask about current fee bands, sibling discounts, and whether your pass type is accepted. Treat it as a campus decision, not a network brand assumption: a Centrium experience is not automatically an East Coast experience. Keep AEIS backup maths honest — mid-fee international is still a material household cost versus MOE international-student fees. Ask admissions/parent ops how retakes work after fever absences so dual-career households do not miss the only makeup slot.",
+  "body": "Invictus operates multiple Singapore campuses with Cambridge-oriented programmes and a value positioning versus legacy SAS / TTS / UWC-tier fees. Reddit primary-admission and budget threads frequently name Invictus when families need a nearer-term seat than premium waitlists allow, or a bridge year while AEIS / S-AEIS runs. Tour the specific campus your child would attend \u2014 culture, facilities, and secondary continuity vary by site. Ask about current fee bands, sibling discounts, and whether your pass type is accepted. Treat it as a campus decision, not a network brand assumption: a Centrium experience is not automatically an East Coast experience. Keep AEIS backup maths honest \u2014 mid-fee international is still a material household cost versus MOE international-student fees. Ask admissions/parent ops how retakes work after fever absences so dual-career households do not miss the only makeup slot. Multi-campus families should treat coffee mornings as campus-specific ops, not a transferable WhatsApp invite \u2014 name the attending adult before the portal closes.",
   "curriculum": [
     "Cambridge",
     "British"
   ],
   "sector": "international",
-  "ages": "Nursery–Secondary",
+  "ages": "Nursery\u2013Secondary",
   "neighbourhood": "east-coast",
   "campus": "Multiple (verify live sites)",
   "languages": [
     "English"
   ],
   "feesBand": "Mid",
-  "waitlistNotes": "Campus-level availability changes term to term — ask which campus has seats for your child’s year group.",
+  "waitlistNotes": "Campus-level availability changes term to term \u2014 ask which campus has seats for your child\u2019s year group.",
   "website": "https://www.invictus.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-parent-coffee-morning-ops-dual-career-singapore"
+  ]
 }
