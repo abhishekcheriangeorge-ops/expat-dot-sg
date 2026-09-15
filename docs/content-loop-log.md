@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 11)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick11-49cb` → PR to `main` (fresh worktree off `origin/main` @ `9253076`; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8, [#81](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/81) A9, and [#85](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/85) A10 stay open — **did not** edit those paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — week-one Singpass/bank circular blockers; hotel-address KYC fails; digital-bank-as-salary myths.
+- r/askSingapore — STVP extension loops while waiting for EP; JB “refresh” folklore vs ICA e-service; confusing post-cancel STVP with pre-IPA extensions.
+- r/askSingapore — Multiplier/360 bonus interest without payroll codes; credit-card shotgun apps; SRS without CPF; RSU “tax again on sale”; COL posts that omit school fees; CBNI prepaid-card confusion; ONE Pass as COMPASS escape hatch.
+
+**Official**
+
+- [Singpass — Register](https://www.singpass.gov.sg/) + bank KYC norms
+- [ICA — Extend short-term visit pass](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/short-term-visit-pass)
+- [MOM — Overseas Networks & Expertise Pass](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass)
+- [IRAS — SRS](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/supplementary-retirement-scheme-(srs)) + equity/employment income pages
+- [ICA — CBNI / NP 727](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/cbni)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–7 on main + open A8–A10 cover FCF/S Pass/offer/WHP/TG/year-one, job-change/Student’s Pass/LTVP/notify/remittance/LOG/CPF, EP hub/tax/relocation/COMPASS/COR/appeal/ACRA, and salary-occupation/DP-LOC/shipping/Tech.Pass/EntrePass/side-income/foreign-dividends. Remaining high-intent Move/Money depth **outside** those file sets: **week-one Singpass/bank sequencing**, **STVP extension ≠ post-cancel STVP**, **ONE Pass COMPASS myths**, **payroll-code salary-interest**, **secured cards vs shotgun apps**, **SRS without CPF**, **RSU vest vs sale**, **COL school+rent stacking**, **CBNI instrument scope**.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/first-week-sim-singpass-bank.mdx` (+2)
+- `content/guides/move/short-term-visit-pass-extension.mdx` (+2)
+- `content/guides/move/one-pass-singapore.mdx` (+1)
+- `content/guides/money/high-interest-salary-accounts-foreigners.mdx` (+1)
+- `content/guides/money/credit-cards-foreigners-singapore.mdx` (+1)
+- `content/guides/money/srs-investing-as-foreigner.mdx` (+1)
+- `content/guides/money/rsu-esop-tax-singapore.mdx` (+1)
+- `content/guides/money/cost-of-living-by-household.mdx` (+1)
+- `content/guides/money/cbni-cash-declaration-singapore.mdx` (+1)
+- `src/lib/site.ts` (ONE Pass + STVP extension topics; week-one / salary-account / cards / COL / SRS / RSU / CBNI blurbs)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A8/A9/A10 guide paths or `intact-immigration`.
+- Did not re-own Loop H STVP/housing AEO bodies or Loop D PLOC/ICA trees beyond Move STVP extension FAQ depth.
+
+### Questions mined (sample)
+
+1. Can I finish Singpass on day one with IPA and a hotel address?
+2. Should I open a digital bank if DBS rejects me in week one?
+3. How many STVP extensions can I get while waiting for EP?
+4. Is an STVP extension the same as post-EP-cancel visit cover?
+5. Does ONE Pass skip COMPASS?
+6. Does PayNow count as salary credit for Multiplier/360?
+7. Will a secured FD card rebuild credit faster than waiting?
+8. Can I open SRS without CPF contributions?
+9. Do I pay Singapore tax again when I sell shares years after vest?
+10. Should school fees sit in the same COL model as rent?
+11. Do prepaid cards count toward the S$20k CBNI threshold?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 10)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick10-49cb` → PR to `main` (fresh worktree off `origin/main` @ `9253076` post-H9/#77; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8 and [#81](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/81) A9 stay open — **did not** edit A8/A9 paths).
