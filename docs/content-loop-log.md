@@ -6,6 +6,81 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 2) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. Did **not** touch Move / Money / Home / Life / Next files owned by Loops A / C / D. No ads / no Grok.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — DP / government school + P1 IS assignment realism ([DP and government education](https://www.reddit.com/r/askSingapore/comments/1jfc9e5/dependent_pass_and_government_education/); [local primary for foreign kids](https://www.reddit.com/r/askSingapore/comments/1houq07/local_primary_schools_for_foreign_kids/); [primary admission fees](https://www.reddit.com/r/askSingapore/comments/1azh44d/primary_school_admission/); [AEIS vs Bangkok IS](https://www.reddit.com/r/askSingapore/comments/1i1ssai/academic_for_our_kids_with_global_range/); [Cambridge English gate](https://www.reddit.com/r/askSingapore/comments/12822wo/language_requirement_for_entering_the_public/)).
+- r/askSingapore — SEN / neurodivergent relocation ([moving with special needs](https://www.reddit.com/r/askSingapore/comments/1svtc96/moving_to_singapore_with_a_child_with_special/); [neurodivergent kid support](https://www.reddit.com/r/askSingapore/comments/1uadhgj/support_for_neurodivergent_kid_in_singapore/); [Europe vs SG SEN](https://www.reddit.com/r/askSingapore/comments/1fmpv9e/is_europe_countries_school_system_cater_to/); [MOE waiver → FSS](https://www.reddit.com/r/askSingapore/comments/1u4ilik/can_i_move_my_kid_to_an_international_school_in/)).
+- r/askSingapore — holiday camps / kids sports ([outdoor holiday camps](https://www.reddit.com/r/askSingapore/comments/1m1wlfb/are_there_any_good_outdoor_holiday_camps_for_kids/); [NTUC Outdoor School vs Wildlings](https://www.reddit.com/r/askSingapore/comments/1n0kw0b/anyone_has_sent_their_kids_to_ntuc_outdoor_school/); [June holiday plans](https://www.reddit.com/r/askSingapore/comments/1swv0eq/parents_what_is_your_plan_for_june_school_holidays/); [team sports outside school](https://www.reddit.com/r/askSingapore/comments/1re4fxt/team_sports_for_kids_pri_sch_outside_of_school/); [relocate + activities](https://www.reddit.com/r/askSingapore/comments/1tq770u/consider_relocating_to_singapore_please_help/)).
+- r/askSingapore — volunteering + belonging ([can foreigners volunteer?](https://www.reddit.com/r/askSingapore/comments/1jonb00/can_foreigners_do_volunteering/); [looking for volunteer opportunities](https://www.reddit.com/r/askSingapore/comments/1i34c4r/looking_for_volunteer_opportunities/); [DP spouse volunteering](https://www.reddit.com/r/askSingapore/comments/1934dul/volunteer_opportunities_for_foreigners_in/); [Buddhist volunteering](https://www.reddit.com/r/askSingapore/comments/1m2y8ue/volunteering_as_a_buddhist_devotee/); [make friends as a foreigner](https://www.reddit.com/r/askSingapore/comments/1gymfj0/how_do_you_make_friends_as_a_foreigner/); [introvert foreigners](https://www.reddit.com/r/askSingapore/comments/1u1tmdb/introvert_foreigners_of_singapore_how_do_you_make/); [where are the Americans?](https://www.reddit.com/r/askSingapore/comments/18bpqu8/where_are_the_americans/)).
+
+**Official**
+
+- [MOE — P1 registration for international students](https://www.moe.gov.sg/primary/p1-registration/international-students) (2026 interest window 19–25 May; outcome by end October).
+- [MOE — Admissions process for international students](https://www.moe.gov.sg/international-students/admission) + [AEIS eligibility](https://www.moe.gov.sg/international-students/aeis/eligibility-criteria) + [school fees](https://www.moe.gov.sg/financial-matters/fees) (IS GST-inclusive; CDA cannot pay mainstream GIRO fees).
+- [ECDA — EIPIC](https://www.ecda.gov.sg/parents/other-services/early-intervention-services/early-intervention-programme-for-infants-and-children-%28eipic%29) (SC/PR only).
+- [giving.sg](https://www.giving.sg/) + [volunteer.gov.sg](https://www.volunteer.gov.sg/) + [NTUC First Campus Outdoor School camps](https://www.ntucfirstcampus.com/outdoorschool/holiday-camps/).
+
+### Gaps vs prior Loop B tick
+
+Prior Loop B covered waitlists, preschool/POP, dual-career spouse, LGBTQ partner-pass, American/Tanglin clubs. Remaining Family/Belong heat: **P1 IS 2026 calendar + assignment commute**, **CEQ native-speaker myth**, **Pathlight/local SPED foreigner wall**, **Dover Court/SAS SEN wait realism**, **outdoor camp + ActiveSG foreigner full-fee**, **CC volunteering SC/PR-only vs giving.sg**, nationality/hash/chamber soft-landing depth. Skipped ads; no Move/Money/Home/Life/Next ownership edits.
+
+### Shipped this loop
+
+**Upgraded guides**
+
+- `content/guides/family/local-schools-for-expats.mdx`
+- `content/guides/family/aeis-saeis-international-students.mdx`
+- `content/guides/family/special-needs-support.mdx`
+- `content/guides/family/kids-activities-holiday-camps.mdx`
+- `content/guides/belong/volunteering-networks-singapore.mdx`
+- `content/guides/belong/religious-communities-singapore.mdx`
+- `content/guides/belong/nationality-groups-singapore.mdx`
+- `content/guides/belong/chambers-of-commerce-singapore.mdx`
+- `content/guides/belong/hash-house-harriers.mdx`
+
+**Entity depth (schools / clubs)**
+
+- `content/entities/schools/dover-court.json`
+- `content/entities/schools/singapore-american-school.json`
+- `content/entities/schools/lycee-francais.json`
+- `content/entities/schools/invictus-international.json`
+- `content/entities/schools/japanese-school.json`
+- `content/entities/clubs/swiss-club.json`
+- `content/entities/clubs/british-association.json`
+- `content/entities/clubs/german-association.json`
+- `content/entities/clubs/seletar-hash.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next guide trees.
+
+### Questions mined (sample)
+
+1. Can Dependant Pass kids enrol in MOE government schools, and do EP parents get citizen fees?
+2. How does the 2026 P1 international-student interest window work, and when is the outcome?
+3. If MOE assigns a far primary, do families usually move or carpool?
+4. Does a native English-speaking child still need Cambridge English (CEQ) before AEIS?
+5. Does passing AEIS let us choose a popular brand school?
+6. Can foreigners access EIPIC or Pathlight?
+7. How long are Dover Court / SAS learning-support waitlists, and what reports do admissions need?
+8. What do local SPED foreigner places (APSN/MINDS) actually cost per month?
+9. Where are good outdoor holiday camps that are not indoor coding?
+10. Do ActiveSG kids programmes charge foreigners the full (unsubsidised) fee?
+11. Are People’s Association CC volunteer roles open to foreigners?
+12. Where should a DP spouse look if the CC says no — giving.sg, Willing Hearts, HOME/TWC2?
+13. Can religious communities take foreigner volunteers (e.g. Buddhist temples)?
+14. Is hashing a realistic low-fee alternative to country clubs for making friends?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15
 
 Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.

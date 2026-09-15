@@ -2,16 +2,18 @@
   "type": "club",
   "slug": "swiss-club",
   "name": "Swiss Club Singapore",
-  "summary": "Swiss community club with dining, events, and hillside facilities.",
-  "body": "Swiss Club anchors Swiss and European social life with events and F&B. Membership interest often tracks Swiss corporate postings. Visit for culture fit — it is community-first as much as facilities-first.",
+  "summary": "Swiss–European hillside club with dining, events, and holiday camps often open beyond full members — a Bukit Timah soft-landing alternative to Orchard mega-clubs.",
+  "body": "Swiss Club anchors Swiss and broader European social life with F&B, events, sport facilities, and family programming on a Bukit Timah hillside footprint. Forum parents hunting outdoor or club-run holiday camps frequently name Swiss Club alongside American Club calendars — some seasons offer limited public or guest-access camp seats, so verify the live brochure rather than assuming members-only. Membership interest often tracks Swiss and European corporate postings; categories may favour Swiss links. Tour for culture fit: it is community-first as much as facilities-first, and the commute maths only work if your housing and school already sit west/central. Compare cost-per-use against Hollandse Club, American Club, and ActiveSG before paying entrance fees.",
   "category": "membership",
   "focus": [
     "Swiss community",
     "European",
     "dining",
-    "events"
+    "events",
+    "holiday camps",
+    "families"
   ],
-  "membershipNotes": "Categories may favour Swiss links — ask membership office.",
+  "membershipNotes": "Categories may favour Swiss links — ask membership office about entrance fees, monthly dues, guest rules, and school-break camp calendars (member priority vs limited public seats).",
   "website": "https://www.swissclub.org.sg",
   "neighbourhood": "bukit-timah",
   "featured": false,

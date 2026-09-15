@@ -2,16 +2,18 @@
   "type": "club",
   "slug": "seletar-hash",
   "name": "Seletar Hash House Harriers",
-  "summary": "North-east hash kennel — moving trails, guest-friendly run fees, and the classic after-trail circle for newcomers.",
-  "body": "Seletar Hash is an active kennel for people who want the hash ritual closer to the north-east. Like other Singapore kennels, start locations move weekly — check the kennel’s social channels before you Grab across the island. Guest-friendly culture with cash run fees; walkers are often welcome. Try Seletar and Lion City (or another kennel) before declaring a home pack — humour, pace, and circle norms differ. Heat strategy still applies: hydrate and wear trail-capable shoes.",
+  "summary": "North-east social hash kennel — guest-friendly trails and circle culture without country-club fees.",
+  "body": "Seletar Hash is one of Singapore’s regular Hash House Harriers kennels, with a north-east trail footprint that suits households living away from the Bukit Timah club belt. Like other hashes, the format is show-up running or walking plus an after-trail circle — fitness optional, cash run fees typical, humour not for everyone. Reddit newcomer threads that recommend hashing as a low-fee weekly ritual apply here: try Seletar and Lion City before declaring a home pack. Check the kennel’s Facebook or site for the week’s start point (hashes move), bring trail shoes and water, and stay for the circle once so names stick.",
   "category": "hash",
   "focus": [
     "running",
     "social",
-    "north-east",
-    "newcomers"
+    "outdoors",
+    "newcomers",
+    "north-east"
   ],
-  "membershipNotes": "Guest-friendly; bring cash for run fees. Confirm live details with the kennel.",
+  "membershipNotes": "Pay-per-run culture; bring cash. Confirm live run fees and start locations with the kennel.",
+  "website": "https://www.facebook.com/seletarhash",
   "featured": false,
   "sponsored": false
 }
