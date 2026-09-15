@@ -6,6 +6,57 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 31)
+
+Branch: `cursor/loop-d-next-polish-tick31-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for EP rejection, Fair Consideration, and career pivots. Avoided open Loop D file sets through [#256](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/256).
+
+**Merge order note (controller):** `#215 → #222 → #230 → #246 → #256 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “HR will appeal, I already resigned.”
+- r/askSingapore — “salary is S$23k so FCF does not matter.”
+- r/askSingapore — missed EPSC, Notification Letter expires Friday.
+
+**Official**
+
+- [MOM — EP appeal](https://www.mom.gov.sg/passes-and-permits/employment-pass/appeal-against-a-rejected-application) · [Fair Consideration](https://www.mom.gov.sg/employment-practices/fair-consideration-framework) · [S$22,500 ad exemption](https://www.mom.gov.sg/faq/fair-consideration-framework/why-are-jobs-with-fixed-monthly-salary-of-22500-and-above-exempted-from-advertising)
+- [MOM — Get a pass issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/get-a-pass-issued) · [After the pass is issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/after-the-pass-is-issued)
+
+### Gaps vs open stack
+
+Open #215→#256 cover DP re-sponsor through EP secondary LOC / JB hop / medical-STVP bridge. Remaining off-stack gaps: **EP rejection candidate playbook**, **FCF exemption edges**, **EPSC missed-slot / letter extension**.
+
+### Shipped
+
+**New:** `ep-rejection-appeal-candidate-playbook-singapore.mdx`, `fcf-advertising-exemption-edges-ep-singapore.mdx`, `epsc-missed-slot-notification-letter-extension-singapore.mdx`
+
+**Upgraded:** EP rejection / IPA, Fair Consideration, career pivots (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #215 / #222 / #230 / #246 / #256 guide bodies (including employment-pass, work-pass issuance, EP medical, travel-before-card, STVP extension, incorporate).
+- Did not wait for CI or merges on prior tips.
+
+### Questions mined
+
+1. Can I email MOM to appeal my own EP rejection?
+2. Is SAT score enough to win an appeal?
+3. Should I resign while the appeal is pending?
+4. When is a refile better than an appeal?
+5. Does S$22.5k fixed pay skip all FCF duties?
+6. Does “under 10 staff” always skip MyCareersFuture?
+7. Can HR offer during the 14-day ad window if “exempt vibes”?
+8. What if my EPSC slot is after the Notification Letter ends?
+9. Who requests the letter extension — me or HR?
+10. Can I JB while waiting for a new EPSC slot?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 30)
 
 Branch: `cursor/loop-d-next-polish-tick30-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move parents for Employment Pass, incorporation, travel-before-card, work-pass issuance, EP medical, and STVP extension. Avoided open Loop D file sets through [#246](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/246).
