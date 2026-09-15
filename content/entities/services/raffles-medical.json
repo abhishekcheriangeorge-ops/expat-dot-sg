@@ -10,5 +10,25 @@
   ],
   "website": "https://www.rafflesmedicalgroup.com",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Need islandwide English-first GP relationship",
+    "Panel paediatric acute visits on corporate plan",
+    "Workplace-injury documentation for WICA path"
+  ],
+  "officialLinks": [
+    {
+      "label": "MOH — Schemes and subsidies",
+      "url": "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/"
+    },
+    {
+      "label": "MOM — Work Injury Compensation",
+      "url": "https://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "dental-care-foreigners-singapore"
+  ]
 }

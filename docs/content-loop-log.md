@@ -6,6 +6,130 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 4)
+
+Branch: `loop/story-aeo-tick4` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 3’s Changi Grab/taxi + CBNI/PayNow FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory left alone).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — ADHD / benzo / sleep-tablet HSA panic (adjacency in medication + mental-health threads; last-week packing fails).
+- r/askSingapore — foreign licence 12-month clock / BTT / JB conversion myth (adjacency in car vs Grab lifestyle threads).
+- r/askSingapore — sea-freight GST bills when DOF missing (mover / DHL / personal-effects threads).
+
+**Official**
+
+- [HSA — Travelling with personal medications](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-medications/) (3-month non-controlled; controlled prior approval; **≥2 weeks** apply window; transit-without-clearance note).
+- [SPF Traffic Police — Singapore Driving Licence](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence) + [convert appointment](https://www.police.gov.sg/E-Services/Book-Appointment-to-Convert-Foreign-Driving-Licence).
+- [Singapore Customs — GST relief for used effects](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/) + [unaccompanied items / DOF](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/sending-unaccompanied-items/).
+
+### Gaps vs ticks 1–3
+
+Ticks 1–3 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage, IPA/EPSC, SimplyGo fee, serviced-apartment legality, Changi Grab/taxi, CBNI + PayNow FAQPages. Remaining high-intent **pre-land / settle** gaps: **HSA medication without FAQPage/direct lead** (body existed; 2-week clock under-weighted), **foreign licence 12-month / JB myth without FAQPage**, **household GST relief / DOF without FAQPage** (journey completeness for families shipping crates).
+
+### Shipped this loop
+
+**Upgraded (AEO / journey polish)**
+
+- `content/guides/move/bringing-medication-singapore-hsa.mdx` (direct lead + FAQPage; HSA ≥2-week apply)
+- `content/guides/move/converting-foreign-driving-licence.mdx` (direct lead + FAQPage)
+- `content/guides/move/shipping-household-singapore.mdx` (direct lead + FAQPage)
+- `content/journeys/checklists/day-7.json` (HSA meds item)
+- `src/app/journeys/arriving/page.tsx`
+- `src/lib/site.ts` (Move topic hrefs for meds / shipping / licence)
+
+### Explicitly not done
+
+- No ads / monetization expansion (existing movers sponsorSlot left as-is).
+- No Grok / competitor clone copy.
+- Did not rewrite Loop A EP eligibility / job-change / Multiplier bodies or Loop C home/HDB trees.
+
+### Questions mined (sample)
+
+1. Can I bring my prescription medication into Singapore?
+2. Do ADHD stimulants or sleeping tablets need HSA approval?
+3. How early should I apply for HSA personal-medication approval?
+4. Do I declare approved meds at Changi Customs?
+5. What if I only transit Singapore without clearing immigration?
+6. How long can I drive on a foreign licence as an EP holder?
+7. What do I need to convert a foreign driving licence?
+8. Can I get a Malaysia licence this weekend and convert it?
+9. Do I need to convert if I only take Grab and MRT?
+10. Do I pay GST on used household goods shipped to Singapore?
+11. What is the Declaration of Facts (DOF) for household shipping?
+12. Are brand-new sealed items eligible for GST relief?
+
+---
+
+
+## Loop F — Services directory depth — 2026-09-15
+
+Branch: `loop/services-directory` → PR to `main`. Owns **services directory** entities + service detail UI fields only. Did **not** touch neighbourhoods (Loop C), schools/clubs (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — tax agents / IR21 / ESOP filing ([tax accountant worth it](https://www.reddit.com/r/askSingapore/comments/l965lj/tax_accountant_singapore_worth_it/); [expat income tax](https://www.reddit.com/r/askSingapore/comments/15iwnrp/income_tax_question_for_expats_in_singapore/); [ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [IR21 withhold explain](https://www.reddit.com/r/askSingapore/comments/119uwo8/hr_tax_qn_how_do_you_explain_to_your_employee/); [left after EP cancel + overdue tax](https://www.reddit.com/r/askSingapore/comments/1r8ztij/left_singapore_after_ep_cancellation_may_2024_and/)).
+- r/askSingapore — dental foreigner fees / polyclinic path ([wisdom tooth EP MediSave myth](https://www.reddit.com/r/askSingapore/comments/1on4gnd/wisdom_tooth_extraction_as_a_foreigner/); [dentist via polyclinic](https://www.reddit.com/r/askSingapore/comments/1tvfr6l/is_seeing_a_dentist_via_polyclinic_possible/); [public dental route](https://www.reddit.com/r/askSingapore/comments/rga3uj/how_to_receive_dental_treatment_via_the_public/)).
+- r/askSingapore — notary / apostille / LTVP translation quotes ([US form notarize](https://www.reddit.com/r/askSingapore/comments/1qgzuba/need_to_get_a_usa_institutions_form_notarized/); [LTVP translation cost](https://www.reddit.com/r/askSingapore/comments/1rff1fu/translation_of_documents_for_ltvp/)).
+- r/askSingapore — movers + self-storage / condo lift deposits ([mover with storage](https://www.reddit.com/r/askSingapore/comments/1rvaxn6/mover_with_storage_recommendations/); [condo move deposit](https://www.reddit.com/r/askSingapore/comments/1uf6vp6/deposit_for_moving_into_condo/); [lift padding fee](https://www.reddit.com/r/askSingapore/comments/18lse0i/condo_manager_charging_for_lift_padding/); [padding responsibility](https://www.reddit.com/r/askSingapore/comments/1l3vp58/condo_lift_padding_whose_responsible_to_install/)).
+- r/askSingapore — immigration counsel adjacency (PR rejection / agency myths — reinforce category-guide honesty, not ranked firms) ([PR rejection advice](https://www.reddit.com/r/askSingapore/comments/1d4mbr2/rejected_pr_application_seeking_advice/); [agencies caution](https://www.reddit.com/r/askSingapore/comments/1sx0502/considering_applying_for_singapore_pr_after_only/)).
+
+**Official**
+
+- [IRAS — Tax agents](https://www.iras.gov.sg/quick-links/tax-agents) + [tax clearance for employees (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees) + [tax residency](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/working-out-my-tax-residency) + [Certificate of Residence](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-residency-and-tax-rates/apply-for-certificate-of-residence).
+- [MOH — Guide to dental treatment costs](https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/).
+- [SAL — Notaries Public directory](https://legalisation.sal.sg/Directory) + [legalisation FAQ](https://legalisation.sal.sg/Faq).
+- [AVS — Importing dogs and cats](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/import/dogs-and-cats/) + [recognised pet agents / CAPQ](https://avs.nparks.gov.sg/pets/importing-exporting-a-pet/general-information/).
+- [Singapore Customs — moving to Singapore / GST relief](https://www.customs.gov.sg/personal-shipment/moving-to-singapore/).
+- [CEA — Public register](https://www.cea.gov.sg/public-register/) + [MOM FDW / SIP](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker).
+
+### Gaps vs prior directory state
+
+Directory had movers, clinics, agents, FDW, tutors, insurance, legal stubs, and telecom “other” — but **no tax category**, thin practical fields (no engage-when / official links / related guides on detail UI), and missing high-intent category guides for **dental**, **notary/apostille**, **self-storage**, and **pet relocation** (AVS agent rule). Existing brand listings were summary-only.
+
+### Shipped this loop
+
+**Schema + UI**
+
+- `src/lib/content/schemas.ts` — `tax` category; `whenToEngage`, `officialLinks`, `relatedGuides` on services
+- `src/app/directory/[category]/[slug]/page.tsx` — render engage-when chips, related guides, official source links
+
+**New service entities**
+
+- `content/entities/services/tax-agents.json`
+- `content/entities/services/dental-care.json`
+- `content/entities/services/notary-apostille.json`
+- `content/entities/services/self-storage.json`
+- `content/entities/services/pet-relocation.json`
+
+**Upgraded all 18 existing service entities** with whenToEngage + officialLinks + relatedGuides (immigration, family law, movers, clinics, agents, FDW, telecom, tutors, insurance).
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion (existing sponsored flags left as-is).
+- No Grok / third-party clone copy.
+- Did not edit neighbourhoods, schools, clubs, or pillar guide MDX trees.
+
+### Questions mined (sample)
+
+1. Do I need a tax accountant for a simple Singapore salary year?
+2. Who files IR21 — me or my employer — and why is final pay withheld?
+3. How do I declare ESOP/RSU gains when there is no local IR8A entity?
+4. As an EP holder, can I use MediSave for wisdom-tooth surgery?
+5. Is polyclinic dental usable for foreigners, and what do referrals cost?
+6. Where do I find a Singapore notary / apostille for a US form?
+7. Why are overseas LTVP translation+apostille quotes thousands of dollars?
+8. Which movers also offer self-storage for a reno / lease gap?
+9. Who pays the condo lift-padding fee and damage deposit?
+10. Do I need an AVS-recognised pet agent for CAPQ clearance (esp. from Apr 2026)?
+11. Should I hire an immigration agency for a first PR application?
+12. When is immigration counsel worth it vs employer-led EP filing?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 21 — 2026-09-15
 
 Branch: `loop/home-life-t21e` (rebase of #17 onto latest main) → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.

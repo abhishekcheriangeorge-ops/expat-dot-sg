@@ -29,6 +29,13 @@
       "href": "/guides/first-week-sim-singpass-bank"
     },
     {
+      "id": "hsa-meds",
+      "title": "Confirm HSA medication approvals are printed or on phone",
+      "detail": "Controlled ADHD / sleep / anxiety meds need prior HSA approval (apply ≥2 weeks out). Keep approval email + prescription + original packs ready if ICA asks. Non-controlled personal meds: up to 3 months in labelled containers.",
+      "pillar": "move",
+      "href": "/guides/bringing-medication-singapore-hsa"
+    },
+    {
       "id": "housing-keys",
       "title": "Confirm temporary housing keys and Wi-Fi",
       "detail": "Serviced apartment, hotel, or host address — note gate access codes, visitor policy, and a postal address HR can use for pass-card delivery.",

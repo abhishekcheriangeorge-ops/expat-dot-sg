@@ -10,5 +10,28 @@
   ],
   "website": "https://www.huttonsgroup.com",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "whenToEngage": [
+    "Renting with tenant-side representation",
+    "Need CEA prescribed agreement before viewings",
+    "Purchase / ABSD maths must be stated on OTP"
+  ],
+  "officialLinks": [
+    {
+      "label": "CEA — Public register of agents",
+      "url": "https://www.cea.gov.sg/public-register/"
+    },
+    {
+      "label": "CEA — Engaging an agent (renting)",
+      "url": "https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/"
+    },
+    {
+      "label": "IRAS — Stamp duty for renting",
+      "url": "https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property"
+    }
+  ],
+  "relatedGuides": [
+    "renting-process-loi-ta-deposits",
+    "buying-property-foreigner-absd"
+  ]
 }

@@ -88,6 +88,40 @@ export default async function ServiceDetailPage({ params }: Props) {
       <section className="border-t border-fog-soft bg-paper-elevated/60">
         <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-8 px-5 py-14 sm:px-8">
           <ChipList label="Areas served" items={s.areasServed} />
+          <ChipList label="Engage when" items={s.whenToEngage} />
+          {s.relatedGuides.length > 0 ? (
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-ink-faint">
+                Related guides
+              </p>
+              <ul className="mt-3 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+                {s.relatedGuides.map((guideSlug) => (
+                  <li key={guideSlug}>
+                    <Link
+                      href={`/guides/${guideSlug}`}
+                      className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                    >
+                      {guideSlug.replace(/-/g, " ")} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+          {s.officialLinks.length > 0 ? (
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-ink-faint">
+                Official / source links
+              </p>
+              <ul className="mt-3 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                {s.officialLinks.map((link) => (
+                  <li key={link.url}>
+                    <ExternalLink href={link.url} label={link.label} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
           {s.website ? <ExternalLink href={s.website} /> : null}
         </div>
       </section>
