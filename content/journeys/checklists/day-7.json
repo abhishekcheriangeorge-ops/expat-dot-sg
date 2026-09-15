@@ -10,9 +10,16 @@
     {
       "id": "arrival-card",
       "title": "Submit SG Arrival Card before landing",
-      "detail": "ICA requires the free SG Arrival Card (with electronic health declaration) within three days before arrival, including the day you land — via the e-Service or MyICA app. Keep your IPA or pass letter ready at immigration.",
+      "detail": "ICA requires the free SG Arrival Card (with electronic health declaration) within three days before arrival, including the day you land — via the e-Service or MyICA app. Keep your IPA or pass letter ready at immigration. If you are still overseas, finish the pre-arrival playbook first.",
       "pillar": "move",
       "href": "/guides/sg-arrival-card-expats"
+    },
+    {
+      "id": "pre-arrival-handoff",
+      "title": "Confirm pre-arrival pack is done (IPA, meds, cash bridge)",
+      "detail": "HSA approvals, shipping triage, and the foreign-card cash bridge should already be closed before Changi. Use /journeys/pre-arrival if anything is still open.",
+      "pillar": "move",
+      "href": "/journeys/pre-arrival"
     },
     {
       "id": "airport-transfer",

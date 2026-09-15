@@ -1,23 +1,26 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { JourneyHero } from "@/components/journeys";
-import { CalendarBoard } from "@/components/calendar";
+import { notFound } from "next/navigation";
+import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { getCalendarEvents } from "@/lib/content";
+import { getPreArrivalPlaybook } from "@/lib/content";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "Events & kids calendar",
+  title: "Pre-arrival playbook",
   description:
-    "Singapore expat calendar — MOE holidays, Good Friday / Labour Day / Vesak, AEIS/S-AEIS and P1 windows, IRAS tax season, international-school apps, festivals, and community anchors.",
-  path: "/calendar",
+    "Pre-arrival playbook for Singapore expats — IPA pack, SG Arrival Card window, cash bridge, shipping triage, and family joining later.",
+  path: "/journeys/pre-arrival",
 });
 
-export default async function CalendarPage() {
-  const events = await getCalendarEvents();
+export default async function PreArrivalJourneyPage() {
+  const playbook = await getPreArrivalPlaybook();
+  if (!playbook) notFound();
+
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Calendar", path: "/calendar" },
+    { name: "Journeys", path: "/journeys" },
+    { name: "Pre-arrival", path: "/journeys/pre-arrival" },
   ];
 
   return (
@@ -29,33 +32,34 @@ export default async function CalendarPage() {
         </div>
       </div>
       <JourneyHero
-        eyebrow="Calendar"
-        title="School holidays, application windows, and the weeks families plan around."
-        summary="MOE term breaks, Good Friday / Labour Day / Vesak, AEIS/S-AEIS and P1 registration seasons, IRAS e-Filing deadlines, international-school admissions, plus festivals and community anchors."
+        eyebrow="Move · Pre-arrival"
+        title={playbook.title}
+        summary="Finish the month before the flight. Day-7 starts after immigration."
+        lastReviewed={playbook.lastReviewed}
       />
-      <CalendarBoard events={events} />
+      <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
         <p className="text-sm text-ink-faint">
-          Related:{" "}
+          Landed already?{" "}
           <Link
-            href="/family"
+            href="/journeys/arriving/day-7"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
-            Family pillar
+            First 7 days checklist
           </Link>{" "}
           ·{" "}
           <Link
-            href="/guides/kids-activities-holiday-camps"
+            href="/tools/setup-cash"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
-            Kids activities guide
+            First-month cash sketch
           </Link>{" "}
           ·{" "}
           <Link
-            href="/schools"
+            href="/move"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
-            Schools directory
+            Move pillar
           </Link>
         </p>
       </div>

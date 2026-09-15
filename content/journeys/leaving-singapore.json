@@ -59,13 +59,14 @@
     {
       "id": "housing",
       "title": "Lease exit and deposit recovery",
-      "body": "Inventory check-out, utility final readings, and aircon servicing clauses decide how much of your deposit returns. Photograph everything on move-out day. Deposit refunds often land after you have left — keep a local account open briefly. If you signed a fresh TA mid-exit planning (rare), lease duty is still payable — sketch it before you assume zero cash out.",
+      "body": "Inventory check-out, utility final readings, and aircon servicing clauses decide how much of your deposit returns. Photograph everything on move-out day. Deposit refunds often land after you have left — keep a local account open briefly. If you signed a fresh TA mid-exit planning (rare), lease duty is still payable — sketch it before you assume zero cash out. For diplomatic-clause exits, sketch lock-in + notice on /tools/lease-notice before you serve.",
       "bullets": [
         "Serve notice per tenancy agreement (diplomatic clause if applicable)",
+        "Sketch lock-in / notice dates before resigning into an early exit",
         "Schedule landlord / agent check-out with daylight photos",
         "Close SP Group and broadband accounts; keep final bills"
       ],
-      "href": "/tools/lease-duty"
+      "href": "/tools/lease-notice"
     },
     {
       "id": "shipping-pets",

@@ -52,9 +52,17 @@
     {
       "id": "housing-search",
       "title": "Start the longer-term housing search",
-      "detail": "Decide condo vs HDB eligibility, budget, and agent engagement. Sketch first-month cash (deposit + advance rent + stamp duty + agent) before you LOI — use the lease-duty tool if you only need the IRAS line item.",
+      "detail": "Decide condo vs HDB eligibility, budget, and agent engagement. Sketch first-month cash (deposit + advance rent + stamp duty + agent) before you LOI — use the lease-duty tool if you only need the IRAS line item. If the TA has a diplomatic clause, sketch lock-in + notice dates on /tools/lease-notice before you assume an early exit is free.",
       "pillar": "home",
       "href": "/tools/setup-cash"
+    },
+    {
+      "id": "lease-notice-sketch",
+      "title": "If the TA has a diplomatic clause — sketch lock-in dates",
+      "detail": "Common 24-month TAs allow written notice after a 12-month lock-in with ~2 months’ notice — only if your clause says so. Run the dates before you rely on early exit when resigning later.",
+      "pillar": "home",
+      "optional": true,
+      "href": "/tools/lease-notice"
     },
     {
       "id": "telco-contract",

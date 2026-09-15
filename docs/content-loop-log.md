@@ -6,6 +6,82 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 4)
+
+Branch: `loop/e-journeys-tools-tick4` → PR to `main` (fresh worktree off `origin/main` while [#53](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/53) tick 3 was still open). Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok. Avoided tick-3 paths (`between-jobs`, `tax-residency`) so the merge controller can land #53 first.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — bank/Singpass sequencing on arrival ([bank without address proof](https://www.reddit.com/r/askSingapore/comments/17jok89/open_a_bank_account_without_proof_of_residence/); [Singpass after landing](https://www.reddit.com/r/askSingapore/comments/wfwo76/expat_arrived_from_australia_last_evening_can_i/)).
+- r/askSingapore — LTVP/DP join-later FIN timing ([LTVP Singpass stage](https://www.reddit.com/r/askSingapore/comments/1u1443r/for_those_who_gotten_your_ltvp_which_stage_did/)).
+- Forum heat on diplomatic-clause “12+2” folklore when resigning mid-lease.
+
+**Official / primary**
+
+- [ICA — SG Arrival Card](https://www.ica.gov.sg/enter-depart/entry_requirements/sg-arrival-card)
+- [IRAS — Renting a property](https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property) (duty ≠ early-exit contract terms)
+- [MOE calendar 2026](https://www.moe.gov.sg/calendar) — Good Friday 3 Apr; Labour Day 1 May; Vesak PH Mon 1 Jun
+- Diplomatic clauses are contractual market norms (often 12-month lock-in + 2-month notice on 24-month TAs), not a statute
+
+### Gaps vs Loop E ticks 1–2 (and open tick 3)
+
+Ticks 1–2: arriving 7/30/90, leaving IR21/STVP, AEIS/tax calendar, setup-cash / lease-duty / EP tables. Tick 3 (#53 open): between-jobs + tax-residency + EP uplift/Youth/Teachers’/Children’s Day. Remaining main gaps: **pre-arrival playbook**, **diplomatic-clause notice sketch**, **Good Friday / Labour Day / Vesak care markers**. Skipped pillar MDX.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/pre-arrival.json` + `/journeys/pre-arrival`
+- Journeys index + arriving phase nav cross-links
+- `day-7.json` — pre-arrival handoff
+- `day-30.json` — diplomatic-clause sketch cue
+- `leaving-singapore.json` — lease-notice cross-link on housing section
+
+**Tools**
+
+- `src/lib/tools/lease-notice.ts`
+- `src/components/tools/LeaseNoticeCalculator.tsx`
+- `/tools/lease-notice` + tools index + sitemap
+
+**Calendar**
+
+- `good-friday-2026.json`, `labour-day-2026.json`, `vesak-day-2026.json`
+- Calendar hub copy
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did **not** edit pillar guide MDX trees.
+- Did **not** ship between-jobs / tax-residency (tick 3 / #53).
+
+### Questions mined (sample)
+
+1. When can I submit the SG Arrival Card relative to my flight date?
+2. What belongs in the pre-arrival pack vs what waits for day 7?
+3. How do I bridge cash before Singpass and a local bank exist?
+4. If my spouse joins three months later, which checklists do they reuse?
+5. Does a 24-month condo TA always include a diplomatic clause?
+6. When is the earliest I can serve notice on a typical 12+2 clause?
+7. If I resign in month 10, can I exit at month 12?
+8. Does early termination refund IRAS lease stamp duty?
+9. Which 2026 public holidays sit inside school term and need backup care?
+10. How does Vesak’s Sunday/Monday pair stack with June school holidays?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 9)
 
 Branch: `loop/story-aeo-tick9` → PR to `main`. Owns **answer-engine shape** after tick 6 on main while ticks 7–8 stay open. Did **not** expand ads/monetization; avoided open tick-7 files (bank / housing / between-jobs / day-7/30 / arriving/leaving) and tick-8 files (haze / motor claims / DP / day-90).

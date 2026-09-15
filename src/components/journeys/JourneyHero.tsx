@@ -89,10 +89,10 @@ export function ArrivingPhaseNav({ active }: PhaseNavProps) {
           );
         })}
         <Link
-          href="/journeys/between-jobs"
+          href="/journeys/pre-arrival"
           className="ml-auto text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
         >
-          Between jobs →
+          Pre-arrival →
         </Link>
         <Link
           href="/journeys/leaving"
