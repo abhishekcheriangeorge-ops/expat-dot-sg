@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "phone-laptop-repair",
+  "name": "Phone and laptop repair",
+  "summary": "How expats find trustworthy phone and laptop repair in Singapore for cracked screens, liquid damage, and warranty-era devices — authorised service vs independent shops, data safety, and claim paperwork.",
+  "body": "Devices fail on humid commutes and Grab rides alike. Singapore offers brand authorised service centres, carrier shops, and dense independent repair malls. Choosing wrong can void warranty or cost a wiped drive.\n\n## Authorised vs independent\n- **Authorised** — preserves warranty, genuine parts, slower peak queues; bring proof of purchase\n- **Independent** — faster screen jobs and out-of-warranty laptops; quality varies; ask about parts grade and water-resistance expectations after open repairs\n- **Insurance / corporate MDM** — employer laptops may require approved vendors only\n\nFor phones still under manufacturer warranty, unauthorised battery/screen work can void coverage. Liquid damage is often excluded regardless.\n\n## Data first\nBack up before any repair. Decline “we’ll reset” casually if you need contents. For trade-in or recycle, factory reset and remove eSIM/Fintech tokens. Keep serial numbers photographed.\n\n## How to choose\nPrefer shops that itemise diagnostics fees, give written quotes, and explain refurbished vs new parts. Mall clusters allow comparison — still verify recent reviews for your exact model. Avoid street stalls that refuse to open devices in view for “privacy” without paperwork.\n\n## Practical tip\nIf you just landed, check whether your home-country warranty has regional service. Parallel-import devices sometimes face authorised-centre refusal — know your channel before promising a same-day fix to your employer.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Cracked screen or liquid damage on phone/laptop",
+    "Deciding authorised warranty service vs indie shop",
+    "Employer device needs approved repair vendor",
+    "Quoted repair without parts grade or data backup plan"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "IMDA",
+      "url": "https://www.imda.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "first-week-sim-singpass-bank",
+    "furnishing-rental-flat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

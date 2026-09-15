@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 17 — 2026-09-15
+
+Branch: `cursor/services-directory-tick17-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165); this tick ships five net-new category guides only. `whenToEngage` as `string[]` per Zod.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — fatty liver on executive screen / “which specialist” threads.
+- r/askSingapore — running injuries / physio vs ortho vs sports clinic confusion.
+- Caregiver forums — home hospice vs hospital palliative timing for EP households.
+- Parenting forums — ballet RAD packages vs recreational dance make-ups for travel weeks.
+- r/askSingapore — phone screen repair mall vs authorised centre warranty fear.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [SportSG](https://www.sportsingapore.gov.sg/).
+- [Singapore Hospice Council](https://www.singaporehospice.org.sg/).
+- [NAC](https://www.nac.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/) + [CASE](https://www.case.org.sg/) + [IMDA](https://www.imda.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#165 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 17: **hepatology**, **sports medicine**, **palliative/hospice**, **kids dance tuition**, **phone/laptop repair**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/hepatology-liver-clinics.json`
+- `content/entities/services/sports-medicine-clinics.json`
+- `content/entities/services/palliative-hospice-care.json`
+- `content/entities/services/dance-tuition-kids.json`
+- `content/entities/services/phone-laptop-repair.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#165 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Fatty liver on screen — GI or hepatology?
+2. Runner injury — sports medicine before ortho MRI?
+3. When to call home hospice on an EP household?
+4. RAD exam studio vs flexible recreational dance?
+5. Authorised phone repair or mall indie for out-of-warranty screen?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 11)
 
 Branch: `cursor/loop-d-next-polish-tick11-d996` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9) and [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) (tick 10) file sets.

@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "hepatology-liver-clinics",
+  "name": "Hepatology and liver clinics",
+  "summary": "How expats find hepatologists in Singapore for fatty liver, viral hepatitis, abnormal LFTs, and cirrhosis follow-up — clarifying when GI alone is enough and when a liver specialist matters.",
+  "body": "Liver issues often surface on a routine executive screen: raised ALT/AST, fatty liver on ultrasound, or hepatitis B/C status discovered after years abroad. Hepatology sits within or beside gastroenterology — many GI physicians manage straightforward NAFLD, while complex fibrosis, viral hepatitis therapy, and transplant evaluation lean hepatology.\n\n## Common entry points\n- Persistently abnormal liver enzymes after GP repeats and lifestyle review\n- Ultrasound steatosis with metabolic syndrome (diabetes, lipids, waist)\n- Known hepatitis B/C needing monitoring or antiviral decisions\n- Alcohol-related liver disease frank conversations\n- Pre-employment or visa panels flagging liver markers\n\n## Public vs private\nPublic hospital GI/hepatology clinics handle high-complexity viral hepatitis and cirrhosis pathways. Private hepatologists and GI centres offer faster FibroScan / elastography access and easier evening slots — useful before a home-country trip or when employer screens demand quick specialist letters. Confirm whether your Shield rider covers FibroScan as outpatient diagnostics.\n\n## Medication and supplements\nMany “liver detox” supplements are unproven and occasionally harmful. Bring a full list including TCM and bodybuilding agents. Antivirals and immunosuppressants for autoimmune hepatitis need reliable refill logistics on your pass type — see the medication import guide for controlled or cold-chain drugs when travelling.\n\n## How to choose\nPrefer clinicians who stage fibrosis (not only quote ultrasound fat), explain when biopsy is truly needed, and coordinate with endocrinology for metabolic drivers. For viral hepatitis, ask about guideline-based monitoring intervals and family screening advice. Transplant talk belongs in centres with clear referral relationships — not wellness clinics selling detox drips.\n\n## Practical tip\nCarry three sets of LFTs over time plus any viral serology. A single mildly raised ALT after a hard workout is not a hepatology emergency; trends and platelets/bilirubin context matter more than one scary PDF from a health screen.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Persistent abnormal LFTs after GP lifestyle review",
+    "Fatty liver / metabolic syndrome needs fibrosis staging",
+    "Hepatitis B/C monitoring or antiviral decisions",
+    "Quoted liver detox package instead of specialist workup"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

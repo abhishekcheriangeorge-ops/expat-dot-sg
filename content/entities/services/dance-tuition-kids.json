@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "dance-tuition-kids",
+  "name": "Dance tuition for kids",
+  "summary": "How expat parents evaluate ballet, contemporary, hip-hop, and cultural dance schools in Singapore — trial classes, exam tracks (RAD/IDTA), and how dance CCAs interact with international-school schedules.",
+  "body": "Dance is one of the densest kids’ enrichment markets after swimming and Mandarin. Studios range from shopping-mall hip-hop chains to serious ballet schools with graded exams. Match the studio to your child’s goal before prepaying a year.\n\n## Goal matching\n- **Recreation / confidence** — fun combos, flexible make-ups for home leave\n- **Graded ballet** — RAD/other syllabus, exam fees, progressive levels\n- **Performance / company tracks** — higher hours, competition or showcase commitments\n- **Cultural dance** — community groups tied to language/heritage identity\n\nInternational-school calendars (travel weeks, IB deadlines) clash with rigid exam studios — ask about make-up policies before signing.\n\n## Practical checks\nVisit changing rooms and observation policies; confirm teacher-to-student ratios and first-aid norms. Floors, mirrors, and ventilation matter in humid weather. Costume fees for concerts can surprise — get the annual extras list in writing.\n\n## How to choose\nPrefer schools that let you trial before package payment and that separate marketing “elite” labels from actual syllabus progression. For boys or late starters, ask about inclusive class placement rather than age-only stigma. Older teens aiming for GCSE/IB dance need syllabus-aware teachers, not only commercial choreography.\n\n## Practical tip\nSchedule dance on days that do not stack after heavy academic tuition. Overuse injuries show up fast in growth spurts — pair serious hours with sensible rest and, if needed, sports medicine rather than “dance through pain” culture.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nac.gov.sg/",
+  "whenToEngage": [
+    "Trial ballet/hip-hop class before annual package",
+    "RAD or graded exam track vs recreational dance",
+    "Make-up policy for international-school travel weeks",
+    "Concert costume and exam fee extras unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "National Arts Council",
+      "url": "https://www.nac.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "international-schools-landscape",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

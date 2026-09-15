@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "palliative-hospice-care",
+  "name": "Palliative and hospice care",
+  "summary": "How expat families navigate palliative medicine and hospice services in Singapore for serious illness symptom control, home hospice, and end-of-life planning — including pass, housing, and cross-border family logistics.",
+  "body": "Palliative care is specialist symptom control and support for serious illness — not only “last days.” It can run alongside oncology, cardiology, or neurology treatment. Hospice services add home, day, or inpatient end-of-life settings when goals shift.\n\n## What to expect\n- Pain, breathlessness, nausea, and delirium management\n- Goals-of-care and Advance Care Planning conversations\n- Home hospice nursing visits and caregiver coaching\n- Respite and inpatient hospice when home care collapses\n- Psychosocial and bereavement support\n\nOncology and hospital palliative teams often introduce services; community hospices (e.g. well-known voluntary welfare organisations) extend care at home. Ask for early referral rather than crisis-only contact.\n\n## Expat-specific friction\nEmployment Pass households may have limited local family caregivers. Helper training, condo access for hospice nurses, and landlord sensitivity matter. Overseas relatives flying in need clear medical summaries and visitation norms. Funeral/repatriation planning can run in parallel — see that service guide when remains logistics become relevant.\n\n## Costs and coverage\nSubsidy frameworks differ for citizens/PRs vs foreigners. Private insurance may cover limited palliative inpatient days — read cancer and chronic-illness riders carefully. Voluntary hospices explain fees upfront; do not assume “hospice = free” for EP holders.\n\n## How to choose\nPrefer teams that coordinate with your oncologist/hospitalist, offer 24/7 phone advice, and document preferred place of death realistically. Language-matched social workers help when the patient is not English-dominant. Avoid anyone pushing unproven cures at the palliative transition.\n\n## Practical tip\nKeep a one-page med list, allergy list, and decision-maker contacts on the fridge for night visits. Nominate a local logistics lead even if financial decisions sit with overseas siblings.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.singaporehospice.org.sg/",
+  "whenToEngage": [
+    "Serious illness needs better symptom control alongside treatment",
+    "Exploring home hospice vs hospital-only pathways",
+    "Advance care planning for an ageing parent in Singapore",
+    "Caregiver capacity at home is failing after hours"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Hospice Council",
+      "url": "https://www.singaporehospice.org.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "aged-parents-pr-ltvp-singapore",
+    "emergencies-995-999-embassies"
+  ],
+  "featured": false,
+  "sponsored": false
+}

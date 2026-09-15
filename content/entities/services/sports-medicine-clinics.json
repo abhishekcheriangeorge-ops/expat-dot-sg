@@ -1,0 +1,34 @@
+{
+  "type": "service",
+  "slug": "sports-medicine-clinics",
+  "name": "Sports medicine clinics",
+  "summary": "How expats use sports medicine physicians in Singapore for running injuries, gym overload, return-to-play decisions, and exercise clearance — distinct from ortho surgery-first pathways and gym PT sales.",
+  "body": "Sports medicine bridges orthopaedics, physiotherapy, and exercise physiology. Expats hitting East Coast Park, Hyrox, or condo gyms often bounce between “rest” advice and MRI upsells. A sports physician helps diagnose load-related injuries, guide graded return, and decide when surgery referral is actually warranted.\n\n## What they manage\n- Runner’s knee, Achilles, plantar fascia, shin pain\n- Shoulder/knee overload from CrossFit-style training\n- Concussion and return-to-sport protocols (schools/clubs)\n- Exercise prescription with asthma, cardiac history, or obesity\n- Injection therapies when evidence-aligned (not package-first)\n\nPhysiotherapy remains the day-to-day rehab engine; sports medicine sets diagnosis, imaging thresholds, and clearance. Orthopaedic surgery is for structural problems that will not settle with load management.\n\n## Public vs private\nPublic sports medicine / ortho sports clinics exist in major hospitals and selected polyclinic-linked pathways. Private sports clinics cluster near athletic populations and may include on-site physio and gait labs. Ask whether imaging is done in-house and how conflicts of interest are handled when retail rehab is attached.\n\n## How to choose\nLook for physicians comfortable saying “reduce volume 30%” before selling prolotherapy packages. Ask about shared decision-making with your coach/physio and timelines for return to race day. For kids in international-school sport, confirm concussion policies that match school requirements.\n\n## Practical tip\nBring training logs (weekly mileage, recent spikes) and footwear age. Sudden jump in load explains more Singapore running injuries than “bad pavement” mythology. If chest pain or syncope occurs with exercise, that is cardiology/A&E first — not a sports clinic walk-in.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Training injury not settling with rest and basic physio",
+    "Return-to-play or race clearance after overload injury",
+    "Unsure whether ortho surgery referral is premature",
+    "School sport concussion protocol needs physician letter"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
