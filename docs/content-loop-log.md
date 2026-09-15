@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 17)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick17-49cb` → PR to `main` (fresh worktree originally off `origin/main` @ `d28a6da` post-E5/#72; rebased onto `origin/main` @ `7f53b9e` after [#133](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/133) A16 merged — **did not** re-edit A16 job-change/remittance/health guide bodies). A8–A15 are on main.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — Student’s Pass vs DP for school; part-time work myths; graduation ≠ EP.
+- r/askSingapore — parent LTVP S$12k floor; common-law partner DP folklore; LTVP as PR queue.
+- r/askSingapore / r/singaporefi — Aussie super CPF pipe myths; REP expiry cash-out; housing CPF when renouncing.
+
+**Official**
+
+- [ICA — Student’s Pass](https://www.ica.gov.sg/reside/STP) + [MOM — Work pass exemption for foreign students](https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students)
+- [MOM — LTVP](https://www.mom.gov.sg/passes-and-permits/long-term-visit-pass) + [ICA — LTVP](https://www.ica.gov.sg/reside/LTVP)
+- [CPF Board — Closing account when leaving](https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A16 (#133) claims job-change / remittance / health-insurance. Tick 17 deepens the next freed Move/Money FAQPages from the A8 wave: **Student’s Pass**, **LTVP**, **CPF withdrawal on leaving**. Left #133 bodies and Next/H leaving rails alone.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/student-pass-singapore.mdx` (+3)
+- `content/guides/move/ltvp-singapore.mdx` (+3)
+- `content/guides/money/cpf-withdrawal-leaving-singapore.mdx` (+3)
+- `src/lib/site.ts` (Student’s Pass / LTVP / CPF-withdrawal hub blurbs or restores)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A16 (#133) guide paths or `intact-immigration`.
+- Did not re-own Loop H STVP/leaving AEO or Loop D tax-clearance / lost-pass-card trees.
+- Left #133 for the merge controller.
+
+### Questions mined (sample)
+
+1. What happens to Student’s Pass if I defer or change schools?
+2. Can parents stay long-term on my Student’s Pass?
+3. Do short executive courses need a Student’s Pass?
+4. Is LTVP the common-law partner version of DP?
+5. What if the sponsor’s salary falls below the LTVP floor at renewal?
+6. Does LTVP time help PR later?
+7. What happens to CPF used for housing if I renounce to cash out?
+8. Do nominations/wills matter before CPF closure?
+9. How do I fix CPF wrongly paid on an EP?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 16)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick16-49cb` → PR to `main` (fresh worktree off `origin/main` @ `83b4cc4` post-A11/#92; A12–A15 (#97/#105/#111/#121) had also landed on `main` by rebase time; this tip rebases onto `origin/main` @ `83b4cc4` post-#121. Did not re-edit those now-merged guide paths beyond the freed job-change/remittance/health FAQ depth.)
@@ -56,8 +109,6 @@ Open A12–A15 still claim issuance/housing/comparison/net-new card-travel paths
 7. Are DP family members automatic on my group plan?
 8. What outpatient/dental gaps are typical on EP group plans?
 9. What medical cover exists on STVP between jobs?
-
----
 
 ---
 
