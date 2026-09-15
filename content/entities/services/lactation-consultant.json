@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "lactation-consultant",
+  "name": "Lactation consultant support",
+  "summary": "How new parents in Singapore find lactation consultants — IBCLC vs hospital nurses, tongue-tie referrals, pump flange fitting, and home-visit norms after discharge.",
+  "body": "Lactation consultants help with latch, supply, pump routines, and return-to-work feeding plans. Hospital postpartum nurses cover basics; complex pain, mastitis risk, or exclusive pumping often needs a dedicated IBCLC session.\n\n## Common reasons to book\n- Painful latch or nipple trauma after birth\n- Low supply worries vs normal cluster feeding\n- Flange sizing and pump hire setups\n- Tongue-tie assessment pathways\n- Mixed feeding plans before EP/DP work resumes\n\nClarify whether the visit is clinical advice only or includes weighing and feeding observation.\n\n## How to choose\nPrefer credentialed IBCLC (or equivalent) over generic “breastfeeding coach” titles. Ask about home-visit radius and after-hours WhatsApp boundaries. Coordinate with your paediatrician rather than stacking conflicting advice. Insurance rarely covers private lactation — budget cash rates.\n\n## Practical tip\nBook before discharge if hospital feeds are already stressful. Have a recent wet/dirty diaper log ready — it shortens the history-taking and gets you to hands-on help faster.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Painful latch or supply concerns after birth",
+    "Pump flange fitting / exclusive pumping plan",
+    "Tongue-tie referral pathway unclear",
+    "Return-to-work feeding plan needs structure"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "confinement-nanny-postpartum-singapore",
+    "newborn-pass-birth-registration-singapore",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

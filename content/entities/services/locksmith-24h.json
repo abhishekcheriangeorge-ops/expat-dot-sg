@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "locksmith-24h",
+  "name": "Emergency locksmith",
+  "summary": "How expats handle lockouts and lock changes in Singapore — 24-hour callouts, condo access rules, landlord consent, and avoiding overpriced middle-of-night scams.",
+  "body": "Emergency locksmiths open jammed doors, replace cylinders after break-ins, and cut restricted keys when mall booths cannot help. Condos add MCST/guard protocols that a street locksmith may not bypass alone.\n\n## Typical jobs\n- Night lockouts with keys inside / broken in cylinder\n- Non-destructive entry vs drill-and-replace decisions\n- Cylinder upgrades after lost keys or helper turnover\n- Mailbox and padlock emergencies\n- Safe opening referrals (specialist)\n\nAlways confirm tenancy and landlord rules before changing a main door lock permanently.\n\n## How to choose\nAsk for a capped call-out quote before they travel. Prefer firms that state non-destructive attempt first. Verify company name against the van and receipt. Guards may need owner authorisation — keep managing-agent numbers handy.\n\n## Practical tip\nStore a trusted neighbour or agent spare before you need one. Photograph lock brand/model now so a midnight call describes the cylinder accurately.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.case.org.sg/",
+  "whenToEngage": [
+    "Locked out overnight or after hours",
+    "Need cylinder change after lost keys / turnover",
+    "Condo guard / MCST access rules unclear",
+    "Comparing non-destructive entry vs drill quotes"
+  ],
+  "officialLinks": [
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    },
+    {
+      "label": "Singapore Police Force",
+      "url": "https://www.police.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits",
+    "security-deposit-diplomatic-clause"
+  ],
+  "featured": false,
+  "sponsored": false
+}

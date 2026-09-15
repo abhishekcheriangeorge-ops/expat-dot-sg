@@ -6,6 +6,61 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 31 — 2026-09-15
+
+Branch: `cursor/services-directory-tick31-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#251); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Orthopaedic threads — knee/hip replacement timing vs work travel.
+- New-parent forums — lactation consultant vs hospital nurse handoff.
+- Condo living — midnight lockouts and landlord cylinder rules.
+- Hobby sports — driving-range coaching before scarce tee times.
+- Legal/docs — LPA Form 1 vs Form 2 for PR/foreigners.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc).
+- [HealthHub](https://www.healthhub.sg/).
+- [CASE](https://www.case.org.sg/) + [SPF](https://www.police.gov.sg/).
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [OPG / MSF — LPA](https://www.msf.gov.sg/what-we-do/opg) + [MinLaw find a lawyer](https://www.mlaw.gov.sg/legal-industry/find-a-lawyer/).
+
+### Gaps vs open F stack
+
+Open #70→#251 cover prior depth and every on-main service file. Free surface for tick 31: **knee/hip replacement**, **lactation consultant**, **emergency locksmith**, **golf coaching**, **lasting power of attorney**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/knee-hip-replacement.json`
+- `content/entities/services/lactation-consultant.json`
+- `content/entities/services/locksmith-24h.json`
+- `content/entities/services/golf-coaching.json`
+- `content/entities/services/lasting-power-of-attorney.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#251 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Public vs private knee replacement wait vs panel rules?
+2. IBCLC home visit before or after hospital discharge?
+3. Non-destructive lockout entry vs drill — who authorises condo?
+4. Rent clubs through first month of golf lessons?
+5. LPA Form 1 enough for foreign donees living overseas?
+
+---
+
 ## Loop B — Family + Belong (tick 29) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick29-8971` → PR to `main`. Owns **Family** + **Belong** plus light services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #216. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

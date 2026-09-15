@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "knee-hip-replacement",
+  "name": "Knee and hip replacement",
+  "summary": "How expats plan knee or hip replacement in Singapore — specialist referral paths, implant discussions, inpatient stay norms, and recovery timing around work passes and flights.",
+  "body": "Joint replacement usually follows failed conservative care (physio, injections, activity modification). Orthopaedic surgeons in public and private settings discuss implant type, approach, and expected hospital nights. Expats often weigh waiting lists against insurance panel rules.\n\n## Decision points\n- Conservative care exhausted vs early surgical opinion\n- Public vs private pathway and panel hospital rules\n- Partial vs total replacement when imaging allows\n- Anaesthesia and blood-management plans\n- Rehab location — home physio vs step-down facility\n\nGet written implant brand notes; future revisions need that history.\n\n## Recovery here\nHumid weather and high-rise living change stairs and shower planning. Driving and flights have surgeon-specific clearance windows. Domestic helpers can help with meals but should not replace prescribed physio. Insurance pre-authorisation often needs updated MRI/X-ray reports.\n\n## How to choose\nPrefer surgeons who explain revision risk and infection protocols, not only theatre package prices. Ask who covers weekend ward questions. Confirm interpreter needs before admission.\n\n## Practical tip\nArrange a raised toilet seat and anti-slip bathroom setup before surgery day — Grab shopping after discharge is miserable on crutches.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Knee or hip pain persists after physio and injections",
+    "Comparing public vs private joint-replacement pathways",
+    "Insurance pre-auth for implants and rehab unclear",
+    "Flight or work-pass timing around surgery recovery"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "dual-career-post-hospitalisation-recovery-week-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

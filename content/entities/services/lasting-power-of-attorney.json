@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "lasting-power-of-attorney",
+  "name": "Lasting power of attorney (LPA)",
+  "summary": "How foreigners and PRs approach Singapore lasting power of attorney — Form 1 vs Form 2, certificate issuer roles, AMD adjacency, and when home-country POAs still fail local banks.",
+  "body": "A Singapore LPA lets you appoint donee(s) for personal welfare and/or property if you lose mental capacity. It is separate from a will and from CPF nomination. Foreign POAs often do not satisfy local banks or hospitals the way a registered Singapore LPA does.\n\n## Decision points\n- Form 1 (standard) vs Form 2 (custom drafting)\n- Who can act as certificate issuer\n- Property vs personal-welfare powers split\n- Replacement donees and joint/several appointment\n- Parallel advance medical directive (AMD) planning\n\nPR and foreigner fee and eligibility details change — read OPG guidance before booking.\n\n## How to choose\nUse counsel familiar with cross-border assets when donees live overseas. Confirm witnessing and registration steps end-to-end; unsigned packs help nobody in an emergency. Pair LPA work with will refresh so executors and donees are not confused roles.\n\n## Practical tip\nStore the registration acknowledgement where your donee can find it, and tell them which bank branches hold your accounts. A perfect LPA still fails if nobody knows it exists.\n",
+  "category": "legal",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.msf.gov.sg/what-we-do/opg",
+  "whenToEngage": [
+    "Need Singapore LPA while capacity is clear",
+    "Form 1 vs Form 2 pathway unclear",
+    "Foreign POA may not work with local banks/hospitals",
+    "Aligning LPA donees with will executors / AMD"
+  ],
+  "officialLinks": [
+    {
+      "label": "Office of the Public Guardian (LPA)",
+      "url": "https://www.msf.gov.sg/what-we-do/opg"
+    },
+    {
+      "label": "Ministry of Law — Find a lawyer",
+      "url": "https://www.mlaw.gov.sg/legal-industry/find-a-lawyer/"
+    }
+  ],
+  "relatedGuides": [
+    "lasting-power-attorney-amd-foreigners",
+    "lpa-form1-form2-fees-pr-foreigners-singapore",
+    "wills-probate-cpf-nomination-singapore",
+    "document-apostille-notary-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

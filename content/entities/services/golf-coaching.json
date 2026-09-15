@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "golf-coaching",
+  "name": "Golf coaching",
+  "summary": "How expats start or restart golf in Singapore — driving-range lessons, club membership pathways, junior clinics, and humid-heat practice planning before course play.",
+  "body": "Singapore golf runs through public courses, private clubs, and dense driving-range coaching. Beginners usually build swing basics on mats before paying for scarce tee times. Trailing partners and teens often want short-game clinics rather than full memberships first.\n\n## Formats\n- Range packages with pro feedback\n- On-course playing lessons\n- Junior holiday clinics\n- Club fitting after consistent contact\n- Corporate / networking group sessions\n\nHeat and afternoon storms reshape booking strategy — early slots fill first.\n\n## How to choose\nPrefer coaches who film swings and assign measurable drills, not only ball-count packages. Ask whether green fees are included in playing lessons. Confirm guest policies before assuming a friend can walk you onto a private club. Rent clubs through the first month.\n\n## Practical tip\nBring electrolyte drinks and a towel; range bays bake at midday. Book a short game session before buying a full fourteen-club set you will not yet use.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Beginner range lessons before course play",
+    "Junior golf clinic or holiday programme search",
+    "Club fitting timing after swing stabilises",
+    "Guest / membership pathway questions for private clubs"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore",
+    "membership-clubs-comparison"
+  ],
+  "featured": false,
+  "sponsored": false
+}
