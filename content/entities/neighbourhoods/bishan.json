@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "bishan",
+  "name": "Bishan",
+  "summary": "Central-north hub with NSL/CCL interchange access, Bishan-Ang Mo Kio Park, and family-density housing — quieter than Orchard, pricier than outer heartlands.",
+  "body": "Bishan sits in the ‘central enough’ band Reddit shortlists when people want Mall / park / school gravity without paying River Valley premiums. Bishan MRT’s North-South + Circle interchange makes cross-island hops saner than pure heartland one-line towns; Junction 8 covers errands even when foodies complain the hawker scene is thinner than Toa Payoh or Ang Mo Kio. Housing mixes mature HDB (including maisonette folklore), older and newer condos near the park and Marymount edge, and school-driven family demand that keeps rents firmer than headline ‘heartland’ averages. Park connectors and Bishan-Ang Mo Kio Park are the weekend engine for runners and pram loops. Watch-outs: peak traffic around the hub, construction or enhancement works near growth plots, and HDB eligibility / whole-flat vs bedroom rules if you are hunting value stock. Compare honestly with Queenstown if you need west-of-CBD gravity, or Sengkang/Punggol if you want newer flats and accept longer NEL rides.",
+  "region": "central",
+  "vibe": [
+    "interchange",
+    "park",
+    "family",
+    "mature-estate",
+    "central-north"
+  ],
+  "bestFor": [
+    "families",
+    "NSL/CCL commuters",
+    "park runners",
+    "mid-central shortlists"
+  ],
+  "watchOuts": [
+    "Hub traffic and weekend mall crowds",
+    "Thinner hawker density than some older estates",
+    "HDB eligibility for foreigner whole-flat / bedroom rentals",
+    "School-driven rent firmness"
+  ],
+  "housingMix": "Mature HDB, condo pockets near park / Marymount, some landed edges.",
+  "commuteNotes": "North-South and Circle Line at Bishan; test Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3600,
+    "familyFrom": 3200,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Bishan",
+    "Marymount"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
