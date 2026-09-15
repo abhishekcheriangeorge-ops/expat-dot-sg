@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 23)
+
+Branch: `cursor/e-journeys-tools-tick23-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#155 / Loop B20 tip). **Did not wait for merges or CI on prior tips including #233.** Avoided open E stack exclusives through **#233** (E22): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Leaver threads — IU still auto-topping after car sale; condo season labels billed past move-out; unpaid ERP following FIN overseas.
+- Parent threads — tuition / enrichment bonds and unused package credits colliding with movers week.
+
+**Official / orientation**
+
+- LTA IU / ERP account paths (vehicle-linked)
+- Condo / HDB season parking cancel desks (estate-specific)
+- Tuition centre parent contracts (centre-specific)
+
+### Gaps vs open E stack through #233
+
+Open tips through **#233** cover mail/HDB, helper/club, bus/insurance, visitor QR/device, locker/pet, gym/leavers, childcare/fibre ETF. Remaining high-intent gaps **off those path sets**: **parking IU / ERP exit**, **tuition centre bond sketch**. No calendar JSON. Distinct from `/tools/car-coe-exit` (COE/PARF cash) — this tick owns parking artefacts. Distinct from school-deposit-clawback / school-leavers-fee — this tick owns enrichment-centre bonds.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/parking-iu-erp-exit.json` + `/journeys/parking-iu-erp-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/tuition-centre-bond.ts`
+- `src/components/tools/TuitionCentreBondCalculator.tsx`
+- `/tools/tuition-centre-bond` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #233.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does selling the car auto-close the IU?
+2. When should season parking labels be returned?
+3. Can unpaid ERP follow a FIN after exit?
+4. Should IU deregister wait until after COE cash clears?
+5. Do condo parking deposits refund mid-month?
+6. Will unused tuition packages offset notice months?
+7. Are enrichment bonds separate from school deposits?
+8. What materials holds survive a full bond refund?
+9. Should parking deposits and tuition bonds share one float?
+10. When must ERP auto-top-up stop relative to bank closure?
+
+---
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 22)
 
 Branch: `cursor/e-journeys-tools-tick22-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (post-#129 / Loop B16 tip). **Did not wait for merges or CI on prior tips.** Avoided open E stack exclusives through **#225** (E21): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → this tip**.

@@ -44,7 +44,7 @@ const STATIC_PATHS: Array<{
     priority: 0.75,
   },
   {
-    path: "/journeys/childcare-infant-care-exit",
+    path: "/journeys/parking-iu-erp-exit",
     changeFrequency: "monthly",
     priority: 0.75,
   },
@@ -72,7 +72,7 @@ const STATIC_PATHS: Array<{
     priority: 0.65,
   },
   {
-    path: "/tools/fibre-broadband-etf",
+    path: "/tools/tuition-centre-bond",
     changeFrequency: "monthly",
     priority: 0.65,
   },

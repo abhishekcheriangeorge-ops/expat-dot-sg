@@ -22,3 +22,4 @@ export { SetupCashCalculator } from "./SetupCashCalculator";
 export { SimOtpKeepCalculator } from "./SimOtpKeepCalculator";
 export { StorageMonthsCalculator } from "./StorageMonthsCalculator";
 export { TaxResidencyCalculator } from "./TaxResidencyCalculator";
+export { TuitionCentreBondCalculator } from "./TuitionCentreBondCalculator";
