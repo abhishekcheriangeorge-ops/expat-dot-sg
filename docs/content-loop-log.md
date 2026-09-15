@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 19) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick19-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/services entity depth. No ads / no Grok. Did **not** edit any path in open B stack #80/#91/#100/#108/#115/#129/#134/#142. Light Home cross-link only on neighbourhood choice. Explicitly skipped primary-CCA-vs-academy and sports-sideline belonging (#115/#91 adjacency).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — tutor stacking after a bad report; learning-support waitlists; “is Kumon SEN?”
+- r/askSingapore — home-leave return Mondays; helper rest-day cliffs; jet-lag school meltdowns.
+- r/askSingapore — NLB storytime as soft landing; library membership for foreigners.
+
+**Official**
+
+- [MOE — Special educational needs](https://www.moe.gov.sg/special-educational-needs) + [international schools](https://www.moe.gov.sg/international-schools)
+- [ICA](https://www.ica.gov.sg/) arrival orientation
+- [NLB](https://www.nlb.gov.sg/) + live membership pages
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–18 (incl. open #80–#142) covered schools/SEN intros through condo belonging. Remaining heat without touching contested paths: **learning-support vs tutoring cash**, **home-leave jet-lag dual-career ops**, **NLB parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/international-school-learning-support-vs-tutoring-singapore.mdx`
+- `content/guides/family/home-leave-jetlag-dual-career-family-singapore.mdx`
+- `content/guides/belong/nlb-library-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (only paths outside open B stack)
+
+- IVF fertility, divorce/custody, choosing neighbourhood (Home)
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/schools/overseas-family-school.json`
+- `content/entities/schools/iss-international.json`
+- `content/entities/schools/owis.json`
+- `content/entities/services/kumon-centres.json`
+- `content/entities/services/the-tutors.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Zero edits to open #80–#142 file paths.
+
+### Questions mined (sample)
+
+1. How many learning-support hours are inside fees?
+2. Will the school act on an external ed-psych report?
+3. What is the tutor stop date?
+4. Who owns the first Monday after home leave?
+5. Does helper rest day land on return morning?
+6. When do we start sliding bedtimes before the flight home?
+7. Is NLB membership open on our pass type?
+8. Can storytime replace a playgroup rail?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 18) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick18-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next body trees. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), #115 (school-holiday coverage/IS CCA/teen internships), #129 (exam-week/IS PTA/teen driving), and #134 (sibling fees/newborn–preschool handoff/workplace belonging). Also skipped primary-CCA-vs-academy to stay clear of #115/#91 adjacency.

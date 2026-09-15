@@ -453,14 +453,14 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "IS bus & pickup ops",
-        href: "/guides/international-school-bus-pickup-dual-career-singapore",
-        blurb: "Bus contracts, bridges, Grab overflow for two EPs.",
+        label: "Learning support vs tutoring",
+        href: "/guides/international-school-learning-support-vs-tutoring-singapore",
+        blurb: "School supports vs cash tutors — goal-dated.",
       },
       {
-        label: "Teen phone household rules",
-        href: "/guides/teen-phone-social-media-household-singapore",
-        blurb: "Device contracts, chat hours, exam blackouts.",
+        label: "Home-leave jet-lag ops",
+        href: "/guides/home-leave-jetlag-dual-career-family-singapore",
+        blurb: "Return-week coverage for dual EP households.",
       },
       {
         label: "Kids activities & calendar",
@@ -597,9 +597,9 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "Condo parent networks",
-        href: "/guides/condo-block-parent-networks-belonging-singapore",
-        blurb: "Building chats and playground belonging rails.",
+        label: "NLB parent belonging",
+        href: "/guides/nlb-library-parent-belonging-singapore",
+        blurb: "Libraries and storytime as soft adult rails.",
       },
 
       {
