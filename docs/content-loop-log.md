@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 26)
+
+Branch: `cursor/loop-d-next-polish-tick26-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Money parents for job-change, Student’s Pass, and SRS. Avoided open Loop D file set from [#209](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/209).
+
+**Merge order note (controller):** `#209 → this tip` (#201 already on `main`).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — DP/school panic when principal job-hops; “FIN stays so DP is fine.”
+- r/askSingapore — Student’s Pass 16-hour folklore; exchange students working; graduation ≠ EP.
+- r/askSingapore — Emptying SRS on exit; 24% vs 15% withholding; early 5% + IR21 freeze collision.
+
+**Official**
+
+- [MOM — change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) · [Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass) · [Cancel / extend stay](https://www.mom.gov.sg/faq/work-pass-general/how-can-i-extend-my-pass-holders-stay-in-singapore)
+- [MOM — Work pass exemption for foreign students](https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students) · [ICA Student’s Pass](https://www.ica.gov.sg/reside/STP/)
+- [IRAS — SRS](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/tax-reliefs-rebates-and-deductions/tax-reliefs/supplementary-retirement-scheme-(srs)) · [Tax on SRS withdrawals](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/tax-on-srs-withdrawals)
+
+### Gaps vs open stack
+
+Open #209 covers EP side-hustle/creator traps, FCF 14-day MCF clock, CPF closure after renouncing. Remaining high-intent gaps: **DP re-sponsor on principal EP change**, **Student’s Pass work-hour / vacation exemption**, **SRS exit withholding for non-residents**.
+
+### Shipped
+
+**New:** `dp-resubmission-when-principal-changes-ep-singapore.mdx`, `student-pass-work-hours-vacation-exemption-singapore.mdx`, `srs-exit-withholding-nonresident-singapore.mdx`
+
+**Upgraded:** changing-jobs EP, Student’s Pass, SRS-as-foreigner (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #209 guide bodies (side-hustle traps, FCF 14-day clock, CPF closure) and no re-edit of #209 parents (side-income, FCF, COMPASS, CPF withdrawal, leaving-costs).
+- Did not wait for #209 CI or merge.
+
+### Questions mined
+
+1. Does my family’s DP auto-move when I change EP employers?
+2. When should the new employer re-file DP relative to old cancel?
+3. What STVP length should I ask for dependants on cancel?
+4. Can Student’s Pass holders work 16 hours for any employer?
+5. Do exchange students get the work exemption?
+6. Does graduation convert STP into an EP?
+7. Is SRS withholding the final tax when I leave?
+8. When does the 5% early-withdrawal penalty apply?
+9. Can I use the 15% concessionary withholding path?
+10. Should I empty SRS the same week IR21 freezes salary?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 31) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick31-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #234. Shared log + `site.ts` only. With #149/#155/#159 merged, shipped **learning-support waitlist depth**. Did not wait for #234 CI/merge.
