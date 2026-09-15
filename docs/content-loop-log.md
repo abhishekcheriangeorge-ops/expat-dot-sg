@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 37 — 2026-09-15
+
+Branch: `cursor/home-life-tick37-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202 stay open for the merge controller — **did not** touch those PR paths. Topics: condo parcel locker / mailroom deposits, ActiveSG studio / dance class booking, Orchard / Somerset / Dhoby Ghaut.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo parcel locker PIN failures, oversized mailroom holds, lost Lazada cartons, guard refusal after hours.
+- r/askSingapore — ActiveSG dance / studio Standard Rate for foreigners, peak evening class release races, condo MPH rooms used as storage.
+- r/askSingapore — central shortlists for Orchard / Somerset / Dhoby Ghaut vs River Valley nightlife and Marina Bay premiums.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf) + [common issues in private estates](https://www1.bca.gov.sg/guidelines-and-requirements/common-issues-or-disputes-encountered-by-residents-in-private-estates/).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #202
+
+Open PRs own reno-noise/lightning/void-deck/power/condo-adjacent-reno/smoke/PUB-water/pools/SP-bill/stadium/OEM/HDB-corridor-smoking/MCST-bylaws/football/visitor-parking/tennis/reno-deposit/squash/move-in-lift/badminton/BBQ-function/table-tennis/EV-bike/gym and their town sets. Remaining gaps without collision: **condo parcel locker / mailroom ops** (≠ visitor access; ≠ EV/bike bays), **ActiveSG studio / dance classes** (≠ gym entry; ≠ court SKUs), plus neighbourhood depth for **Orchard**, **Somerset**, and **Dhoby Ghaut**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-parcel-locker-mailroom-tenants.mdx`
+- `content/guides/life/activesg-studio-dance-class-booking-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/renting-process-loi-ta-deposits.mdx`
+- `content/guides/life/changi-airport-grab-taxi.mdx`
+- `content/guides/life/scams-singpass-phishing-expats.mdx`
+- `src/lib/site.ts` (parcel locker + ActiveSG studio topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/orchard.json`
+- `content/entities/neighbourhoods/somerset.json`
+- `content/entities/neighbourhoods/dhoby-ghaut.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 file paths.
+
+### Questions mined (sample)
+
+1. Who pays if a parcel vanishes from the condo mailroom?
+2. Do parcel lockers require a deposit?
+3. Will guards accept COD or oversized boxes?
+4. Can foreigners book ActiveSG dance / studio classes at Standard Rate?
+5. Is a studio class the same product as gym entry?
+6. What shoes / attire do centres expect?
+7. Orchard vs Somerset — mall spine or theatre pocket?
+8. Is Dhoby Ghaut worth the interchange crush?
+9. What pre-LOI mailroom questions save weekend fights?
+10. When is a condo studio still better than ActiveSG?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 36 — 2026-09-15
 
 Branch: `cursor/home-life-tick36-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192 stay open for the merge controller — **did not** touch those PR paths. Topics: condo EV charger / bicycle-bay booking, ActiveSG gym Standard Rate, Redhill / Telok Blangah / HarbourFront.

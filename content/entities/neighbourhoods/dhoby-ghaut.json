@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "dhoby-ghaut",
+  "name": "Dhoby Ghaut",
+  "summary": "NSL/NEL/CCL interchange — multi-line optionality, park and mall adjacency, and dense condo edges with peak interchange crowds as the tax.",
+  "body": "Dhoby Ghaut is the shortlist when North-South / North-East / Circle Line interchange access and a position between Fort Canning, Plaza Singapura, and Orchard matter. Housing is mostly condo and serviced edges rather than quiet HDB heartland; peak interchange crowds and weekend mall energy are the tax. Expats land here for car-light multi-line hops and city-core living, not cul-de-sac calm. Compare with Somerset for a tighter theatre/mall pocket, Orchard for deeper retail spine energy, and Little India / Rochor when you want cultural-belt food with slightly less mall crush.",
+  "region": "central",
+  "vibe": [
+    "interchange",
+    "nsl",
+    "nel",
+    "ccl",
+    "city-core"
+  ],
+  "bestFor": [
+    "multi-line workers who want Orchard, CBD, and northeast options",
+    "households okay with interchange peak crowds",
+    "renters who will vet MA parcel locker rules before keys",
+    "people booking ActiveSG studios across town without a car"
+  ],
+  "watchOuts": [
+    "Interchange peak crowding",
+    "Tourist and mall spillover",
+    "Serviced vs TA confusion",
+    "Facility brochure vs MA booking reality"
+  ],
+  "housingMix": "Dense condo and serviced-apartment edges with limited quiet HDB texture.",
+  "commuteNotes": "North-South, North-East, and Circle Line at Dhoby Ghaut; test a Tuesday 08:15 station exit before you romanticise the interchange.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 3000,
+    "oneBedTo": 5200,
+    "familyFrom": 4800,
+    "familyTo": 8500
+  },
+  "mrt": [
+    "Dhoby Ghaut"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
