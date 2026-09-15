@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 40) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick40-8971` → tip PR off [#314](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/314) (tick 39). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #314. Shared log + `site.ts` only (prepend on conflict). Did not wait for #314 merge/CI. No force-push to `main`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — sandpaper rash folklore; “cleared after dose one” myths.
+- r/askSingapore — weekday coffee-morning portals closing mid-client pack.
+- r/askSingapore — football-academy shade benches as the quiet weekday parent meetup.
+
+**Official**
+
+- [NHS scarlet fever](https://www.nhs.uk/conditions/scarlet-fever/) + [MOH](https://www.moh.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [Sport Singapore](https://www.sportsingapore.gov.sg/) + [NEA](https://www.nea.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–39 (open tip #314) covered ringworm, sports fixtures, tennis waiting, strep, curriculum evening, drama waiting. Remaining heat without contested paths: **scarlet-fever exclusion**, **parent coffee-morning ops**, **football-academy waiting belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-kids-scarlet-fever-school-exclusion-singapore.mdx`
+- `content/guides/family/international-school-parent-coffee-morning-ops-dual-career-singapore.mdx`
+- `content/guides/belong/football-academy-waiting-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open paths through #314)
+
+- newborn–preschool handoff, part-time babysitter/nanny, cooking-class communities, parenting communities/playgroups, volunteering networks
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- GIIS, Invictus International, Hillside World Academy, pest-control, self-storage, veterinary-clinics
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open paths through #314.
+- No force-push to `main`.
+
+### Questions mined (sample)
+
+1. Who owns daytime fever / rash checks?
+2. What exact line does the school letter use for return?
+3. When does the coffee-morning portal slot close?
+4. Who owns the question script halves?
+5. Same football shade bench next week?
+6. Is choir / PE paused in writing?
+7. Who covers mid-morning / siblings?
+8. Who sends the follow-up email?
+
+---
+
 ## Loop B — Family + Belong (tick 39) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick39-8971` → tip PR off [#302](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/302) (tick 38). Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #302. Shared log + `site.ts` only (prepend on conflict). Did not wait for #302 merge/CI. No force-push to `main`.
