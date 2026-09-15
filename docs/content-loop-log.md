@@ -6,6 +6,70 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 27) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick27-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #199. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PH school closed while both EPs still on Slack; helper rest-day stack.
+- r/askSingapore — orientation week uniform fittings vs board meetings; bus trial skips.
+- r/askSingapore — same hawker breakfast table after drop-off as the real parent hello.
+
+**Official**
+
+- [MOM public holidays](https://www.mom.gov.sg/employment-practices/public-holidays)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [NEA](https://www.nea.gov.sg/) + [HDB](https://www.hdb.gov.sg/) + [PA](https://www.pa.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–26 (open through #199) covered schools through chickenpox/lost-property/mall soft-play. Remaining heat without contested paths: **PH school-closed coverage**, **IS orientation week ops**, **hawker breakfast parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-public-holiday-school-closed-coverage-singapore.mdx`
+- `content/guides/family/international-school-orientation-week-dual-career-singapore.mdx`
+- `content/guides/belong/hawker-breakfast-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- HDB bedroom rental rules, HDB landlord selling, renting process LOI/TA, Changi Grab/taxi, car ownership vs sharing, sports/fitness
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- bank-account-opening, telecom-setup-help, pet-relocation, ACS Independent, Raffles Institution
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#199 guide/entity paths.
+
+### Questions mined (sample)
+
+1. Who owns daytime coverage on the next PH?
+2. Does helper rest day stack on that PH?
+3. Are orientation blocks on both work calendars?
+4. Was the bus route dry-run done?
+5. Same hawker breakfast window thrice this week?
+6. Portal login tested before day one?
+7. Uniforms labelled before fittings?
+8. Did we cap enrichment FOMO for the long weekend?
+
+---
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 26) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick26-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #190. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).

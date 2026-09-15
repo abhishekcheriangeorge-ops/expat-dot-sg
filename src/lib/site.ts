@@ -192,6 +192,11 @@ export const pillars: Pillar[] = [
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
       },
       {
+        label: "PEP / ONE / Tech.Pass chooser",
+        href: "/guides/pep-one-tech-pass-chooser-singapore",
+        blurb: "Salary band, renewability, spouse LOC, 2027 handoff.",
+      },
+      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -390,14 +395,14 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
-        label: "Chickenpox exclusion ops",
-        href: "/guides/dual-career-chickenpox-varicella-school-exclusion-singapore",
-        blurb: "Crusting clocks, sibling cascade, GP letters.",
+        label: "PH school-closed coverage",
+        href: "/guides/dual-career-public-holiday-school-closed-coverage-singapore",
+        blurb: "Named adults, helper rest days, FOMO caps.",
       },
       {
-        label: "Lost property / portal ops",
-        href: "/guides/international-school-lost-property-admin-portal-dual-career-singapore",
-        blurb: "Labels, sweeps, permission-slip SLA.",
+        label: "Orientation week ops",
+        href: "/guides/international-school-orientation-week-dual-career-singapore",
+        blurb: "Uniforms, bus trials, portal setup.",
       },
       {
         label: "Kids ADHD medication",
@@ -555,9 +560,9 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
-        label: "Mall indoor-playground belonging",
-        href: "/guides/mall-indoor-playground-parent-belonging-singapore",
-        blurb: "Repeat soft-play benches for adult hellos.",
+        label: "Hawker breakfast belonging",
+        href: "/guides/hawker-breakfast-parent-belonging-singapore",
+        blurb: "Post-drop kopi loops at the same centre.",
       },
       {
         label: "LGBTQ+ resources",
@@ -608,6 +613,11 @@ export const pillars: Pillar[] = [
         blurb: "ICA spouse/child LTVP work — PLOC vs employer LOC.",
       },
       {
+        label: "PLOC / LOC renewal sequencing",
+        href: "/guides/ploc-renewal-ltvp-sequencing-singapore",
+        blurb: "Renew ICA LTVP first; PLOC dies with the pass.",
+      },
+      {
         label: "Student PR",
         href: "/guides/pr-for-student-singapore",
         blurb: "National exam / IP eligibility row — not private-exam folklore.",
@@ -638,11 +648,6 @@ export const pillars: Pillar[] = [
         blurb: "What permanent status implies for families.",
       },
       {
-        label: "NS before PR / citizenship",
-        href: "/guides/ns-liability-before-pr-citizenship-checklist-singapore",
-        blurb: "CMPB checklist before IPA celebrations with sons.",
-      },
-      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
@@ -653,14 +658,14 @@ export const pillars: Pillar[] = [
         blurb: "EP cancel → up to 90 days stay, DP cascade, no work.",
       },
       {
-        label: "TADM salary claim clocks",
-        href: "/guides/tadm-salary-claim-ep-filing-clocks-singapore",
-        blurb: "Still-employed vs left — file before the clock dies.",
+        label: "EP cancel → spouse LTVP week",
+        href: "/guides/ep-cancel-spouse-ltvp-same-week-checklist-singapore",
+        blurb: "Same-week STVP + ICA spouse LTVP + PLOC checklist.",
       },
       {
-        label: "Harassment pass-fear plan",
-        href: "/guides/workplace-harassment-pass-fear-plan-ep-singapore",
-        blurb: "Report without treating pass cancel as automatic.",
+        label: "Annual stay / exit review",
+        href: "/guides/annual-stay-exit-review-calendar-singapore",
+        blurb: "Before school deposits and EP renewal lock the year.",
       },
       {
         label: "Lost work pass card",
@@ -671,6 +676,16 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "Tax clearance, deposits, shipping, school exits.",
+      },
+      {
+        label: "EntrePass vs resident director",
+        href: "/guides/entrepass-resident-director-vs-pass-singapore",
+        blurb: "ACRA incorporation ≠ MOM founder pass.",
+      },
+      {
+        label: "IR21 / cancel / STVP sequence",
+        href: "/guides/ir21-pass-cancel-stvp-sequencing-singapore",
+        blurb: "Tax freeze and immigration stay are separate clocks.",
       },
       {
         label: "WICA light duty / clocks",
@@ -691,21 +706,6 @@ export const pillars: Pillar[] = [
         label: "Lost blue NRIC (PR / SC)",
         href: "/guides/lost-replace-nric-pr-singapore",
         blurb: "ICA 14-day report clock — not MOM work-pass replacement.",
-      },
-      {
-        label: "REP after lost passport / ETD",
-        href: "/guides/rep-transfer-lost-passport-etd-singapore",
-        blurb: "Mission replacement first, then ICA transfer — ETD traps.",
-      },
-      {
-        label: "CPF nomination witnesses",
-        href: "/guides/cpf-nomination-singpass-witnesses-singapore",
-        blurb: "Two Singpass witnesses, 7-day confirm, amend after marriage.",
-      },
-      {
-        label: "COMPASS firm scores on renewal",
-        href: "/guides/ep-renewal-compass-firm-scores-singapore",
-        blurb: "Firm diversity / local-PMET drift — SAT questions for HR.",
       },
       {
         label: "After getting PR",
