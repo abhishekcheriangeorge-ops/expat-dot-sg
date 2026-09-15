@@ -34,11 +34,37 @@ export default async function LeavingJourneyPage() {
       <JourneyHero
         eyebrow="Next · Leaving"
         title={playbook.title}
-        summary="Work backwards from the flight. Tax clearance and shipping set the tempo."
+        summary="Work backwards from the flight. IR21 tax clearance, MOM STVP buffer on pass cancel, deposits, and shipping set the tempo."
         lastReviewed={playbook.lastReviewed}
       />
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
+        <p className="mb-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+          <Link
+            href="/guides/between-jobs-stvp-singapore"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            EP cancel → STVP (up to 90 days) →
+          </Link>
+          <Link
+            href="/guides/short-term-visit-pass-extension"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            ICA visit-pass extension →
+          </Link>
+          <Link
+            href="/guides/tax-clearance-when-leaving"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            IR21 tax clearance →
+          </Link>
+          <Link
+            href="/guides/lost-replace-work-pass-card"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Lost pass card →
+          </Link>
+        </p>
         <p className="text-sm text-ink-faint">
           Changing jobs without leaving?{" "}
           <Link

@@ -10,9 +10,9 @@
     {
       "id": "pass-card",
       "title": "Collect / confirm your EP or Dependant Pass card",
-      "detail": "Photograph both sides once it arrives. Set up the SGWorkPass app with your digital work pass. Update your mobile number with MOM if HR used a temporary SIM earlier.",
+      "detail": "Photograph both sides once it arrives (password vault, not a group chat). Set up the SGWorkPass app with your digital work pass. Update your mobile number with MOM if HR used a temporary SIM earlier. Lost/stolen plastic → HR files MOM replacement within 1 week.",
       "pillar": "move",
-      "href": "/guides/work-pass-issuance-epsc-notification"
+      "href": "/guides/lost-replace-work-pass-card"
     },
     {
       "id": "singpass",

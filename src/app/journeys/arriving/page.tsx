@@ -54,7 +54,7 @@ export default async function ArrivingJourneysPage() {
       <JourneyHero
         eyebrow="Arriving"
         title="The first 90 days, in three lists."
-        summary="Land soft, get operational, then build routines. Tick items in your browser — progress stays local. Start with the week-one dependency map, SG Arrival Card, Changi transfer, HSA meds, pet import clocks, and issuance → EPSC so you do not invent circular blockers."
+        summary="Land soft, get operational, then build routines. Tick items in your browser — progress stays local. Start with the week-one dependency map, SG Arrival Card, Changi transfer, HSA meds, ScamShield, pet import clocks, and issuance → EPSC so you do not invent circular blockers."
       />
       <ArrivingPhaseNav />
 
@@ -113,6 +113,18 @@ export default async function ArrivingJourneysPage() {
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
             Vaping pass risk →
+          </Link>
+          <Link
+            href="/guides/scams-singpass-phishing-expats"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            ScamShield / Singpass phishing →
+          </Link>
+          <Link
+            href="/guides/first-housing-serviced-apartment"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Serviced apartment bridge →
           </Link>
           <Link
             href="/guides/relocation-checklist-7-30-90"

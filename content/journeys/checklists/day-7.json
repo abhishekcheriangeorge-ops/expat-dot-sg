@@ -59,9 +59,16 @@
     {
       "id": "sgworkpass",
       "title": "Install SGWorkPass after EPSC / issuance",
-      "detail": "Once Singpass is registered at EPSC (or after document verification), open SGWorkPass and confirm your digital work pass shows. Photograph the FIN — banks and telcos ask for it before the plastic card arrives.",
+      "detail": "Once Singpass is registered at EPSC (or after document verification), open SGWorkPass and confirm your digital work pass shows. Photograph the FIN — banks and telcos ask for it before the plastic card arrives. If the plastic is lost later, HR must file MOM replacement within one week — digital pass does not waive that.",
       "pillar": "move",
       "href": "/guides/work-pass-issuance-epsc-notification"
+    },
+    {
+      "id": "scamshield",
+      "title": "Install ScamShield and save helpline 1799",
+      "detail": "New FIN / Singpass holders are prime phishing targets. Install ScamShield, grant call/SMS filters, and memorise: banks and government never ask you on WhatsApp to transfer money or share OTPs. Overseas helpline: +65 6869 1799.",
+      "pillar": "life",
+      "href": "/guides/scams-singpass-phishing-expats"
     },
     {
       "id": "cash-transit",

@@ -34,14 +34,15 @@
     {
       "id": "pass-cancel",
       "title": "Cancel passes and plan the STVP buffer",
-      "body": "Employment Pass / S Pass cancellation is usually employer-led. MOM: if the pass holder is still in Singapore, the employer should request a Short-Term Visit Pass on cancellation (or within a day after EP expiry) — STVP can grant valid stay for up to 90 days. Dependant statuses tied to the main pass cancel with it. Forum reports often note STVP is not multiple-entry — leaving Singapore usually ends that visit pass.",
+      "body": "Employment Pass / S Pass cancellation is usually employer-led. MOM: if the pass holder is still in Singapore, the employer should request a Short-Term Visit Pass on cancellation (or within a day after EP expiry) — STVP can grant valid stay for up to 90 days. Dependant statuses tied to the main pass cancel with it. You cannot work on STVP. Forum reports often note STVP is not multiple-entry — leaving Singapore usually ends that visit pass. Depth: /guides/between-jobs-stvp-singapore. ICA tourist visit-pass extension is a different rail.",
       "bullets": [
         "Confirm who submits the cancellation (HR vs you) and the cancellation date vs last working day",
-        "Ask HR to request STVP at cancellation if you need days after the pass dies",
+        "Ask HR in writing to request the longest STVP available (up to 90 days) — silence often gets a short default",
+        "Inventory spouse/child DP or LTVP the same week — they usually cancel with the main EP",
         "Do not assume you can re-enter on the same STVP after a trip abroad",
         "Update Singpass contact details and bank KYC once your FIN / pass status changes"
       ],
-      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass"
+      "href": "/guides/between-jobs-stvp-singapore"
     },
     {
       "id": "money-admin",
