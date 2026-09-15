@@ -6,6 +6,62 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 14 — 2026-09-15
+
+Branch: `cursor/services-directory-tick14-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack touch sets (#70→#75→#86→#95→#103→#109→#113→#118→#125); this tick ships five net-new category guides only.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — kidney / creatinine / dialysis pathway heat adjacent to chronic-disease threads.
+- r/askSingapore — cancer second-opinion / chemo cost / Shield rider threads.
+- r/askSingapore — plastic vs aesthetic clinic credential questions; scar/reconstruction after trauma or cancer.
+- r/askSingapore — certified translation for ICA / school docs ([translation](https://www.reddit.com/r/askSingapore/comments/)).
+- r/sgexpat / pet threads — grooming and CNY boarding book-out heat beside AVS import guides.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [NCCS](https://www.nccs.com.sg/) + [NKF](https://www.nkfs.org/).
+- [SMC](https://www.healthprofessionals.gov.sg/smc) + [ICA](https://www.ica.gov.sg/).
+- [NParks AVS](https://www.nparks.gov.sg/avs).
+
+### Gaps vs open F stack
+
+Open #70→#125 already cover prior directory depth and touch every existing on-main service file. Free surface for tick 14: **nephrology/kidney**, **oncology/cancer**, **plastic/reconstructive**, **translation/interpreting**, **pet grooming/boarding**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/nephrology-kidney.json`
+- `content/entities/services/oncology-cancer.json`
+- `content/entities/services/plastic-reconstructive.json`
+- `content/entities/services/translation-interpreting.json`
+- `content/entities/services/pet-grooming-boarding.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70 / #75 / #86 / #95 / #103 / #109 / #113 / #118 / #125 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Rising creatinine — GP repeat labs or nephrology?
+2. Does Shield cover chronic dialysis for EP holders?
+3. Can I continue overseas chemo protocols in Singapore?
+4. Reconstructive vs aesthetic — what does insurance touch?
+5. Do ICA filings need stamped certified translations?
+6. Medical interpreter vs bilingual family member for consent?
+7. How early to book CNY pet boarding?
+8. Dog daycare vaccine requirements in Singapore?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 14)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick14-49cb` → PR to `main` (fresh worktree off `origin/main` @ `183789b` post-H15/#93; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#105](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/105) A8–A13 stay open — **did not** edit those paths).
