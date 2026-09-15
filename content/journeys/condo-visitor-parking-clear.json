@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "condo-visitor-parking-clear",
+  "title": "Condo visitor parking / loading-bay clear",
+  "summary": "Leaving a condo with visitor parking QR, temporary loading-bay bookings, and guest IU labels still live — cancel bay slots, return visitor tags, and clear overnight guest parking before MCST handover and movers week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-bays",
+      "title": "Inventory visitor bays, loading slots, and guest tags",
+      "body": "Visitor parking QR, overnight guest IU stickers, and temporary loading-bay bookings often sit outside the unit access revoke list. Managing agents may keep billing a reserved visitor bay or treat an unreturned guest tag as lost after keys go back. Walk the visitor carpark and loading dock the week you decide to leave — photograph bay numbers, booking screenshots, and any physical guest tags.",
+      "bullets": [
+        "Export active visitor-parking and loading-bay bookings from the condo app",
+        "Photograph guest IU / temporary labels tied to your unit",
+        "Ask management for published overnight visitor and loading-bay cancel rules"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "cancel-before-keys",
+      "title": "Cancel bay bookings before key handover",
+      "body": "Returning unit keys does not always cancel a visitor bay reservation or loading-bay window. Kill recurring overnight guest parking and future loading slots while the resident app still works. Leave at most one movers-day loading booking that matches the lift booking window.",
+      "bullets": [
+        "Cancel recurring overnight visitor parking first",
+        "Keep one loading-bay slot only for the booked movers window",
+        "Pair lobby guest QR revoke with /journeys/condo-visitor-qr-exit"
+      ],
+      "href": "/journeys/condo-visitor-qr-exit"
+    },
+    {
+      "id": "guest-tags",
+      "title": "Return guest tags and temporary IU labels",
+      "body": "Some estates issue plastic visitor tags or temporary IU labels for overnight guests. Those are separate from your personal IU / ERP path. Hand tags back with a dated acknowledgement so the next tenant is not chased for “unknown” overnight cars on CCTV.",
+      "bullets": [
+        "Return physical visitor tags with a management receipt",
+        "Confirm whether lost-tag fees are separate from the renovation deposit",
+        "Do not confuse guest tags with personal IU return on parking-iu-erp paths"
+      ],
+      "href": "/journeys/mover-lift-booking"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with movers and helper levy cash",
+      "body": "Visitor bay clear, loading-bay booking, and helper final-levy settlement often land in one fortnight. Sequence so bay cancels happen while the condo app login still works, then movers loading slot, then helper levy float — so packing week does not raid the final-month levy sketch.",
+      "bullets": [
+        "Put bay cancel, loading slot, and helper levy on one family calendar",
+        "Sketch final-month helper levy on /tools/helper-levy-final-month",
+        "Keep one adult free for management-office hours on clear week"
+      ],
+      "href": "/tools/helper-levy-final-month"
+    },
+    {
+      "id": "billing-float",
+      "title": "Visitor parking bills and deposit float",
+      "body": "Condo apps can post a last overnight visitor charge after you fly. Export statements, cancel auto-top-ups for visitor parking wallets, and keep a small SGD float until those lines clear. Do not close the refund rail before guest-parking credits post.",
+      "bullets": [
+        "Cancel visitor-parking auto-top-up and export the last 90 days",
+        "Ask MCST published overstay / lost-tag fees in writing",
+        "Hold SGD float until visitor-parking credits and tag deposits settle"
+      ],
+      "href": "/journeys/leaving"
+    },
+    {
+      "id": "loading-vs-iu",
+      "title": "Loading bay vs personal IU / ERP",
+      "body": "A loading-bay booking is not personal IU return and is not ERP account closure. Keep those paths separate so movers week does not mix guest bay fees with your own IU deposit timeline. If you still drive a car out of Singapore, treat personal IU / ERP as its own checklist.",
+      "bullets": [
+        "Do not treat loading-bay cancel as IU return",
+        "Keep personal IU / ERP notes off this visitor-bay playbook",
+        "Confirm estate apps list visitor parking separately from resident lots"
+      ],
+      "href": "/journeys/condo-ev-charger-clear"
+    }
+  ]
+}

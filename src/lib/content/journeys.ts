@@ -155,6 +155,10 @@ export async function getUtilityMeterPhotoHandoffPlaybook(): Promise<LeavingPlay
   return getPlaybookByFilename("utility-meter-photo-handoff.json");
 }
 
+export async function getCondoVisitorParkingClearPlaybook(): Promise<LeavingPlaybook | null> {
+  return getPlaybookByFilename("condo-visitor-parking-clear.json");
+}
+
 export async function getCondoBikeStorageClearPlaybook(): Promise<LeavingPlaybook | null> {
   return getPlaybookByFilename("condo-bike-storage-clear.json");
 }
