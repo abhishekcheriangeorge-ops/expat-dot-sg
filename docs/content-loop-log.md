@@ -6,6 +6,68 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 28) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick28-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #210. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — helper Sunday rest day vs dual WFH folklore; enrichment stack fails.
+- r/askSingapore — report-card portal drops at 22:40; progress-meeting booking scrambles.
+- r/askSingapore — same supermarket aisle after dinner as the real neighbour hello.
+
+**Official**
+
+- [MOM FDW rest days](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/employers-guide/rest-days)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [SFA](https://www.sfa.gov.sg/) + [HDB](https://www.hdb.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–27 (open through #210) covered schools through PH/orientation/hawker breakfast. Remaining heat without contested paths: **helper rest-day / Sunday coverage**, **IS report-card / progress-meeting ops**, **supermarket evening parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-helper-rest-day-sunday-coverage-singapore.mdx`
+- `content/guides/family/international-school-report-card-progress-meeting-dual-career-singapore.mdx`
+- `content/guides/belong/supermarket-evening-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- buying property/ABSD, HDB for PR/mixed status, tenant agent commission, CASE/Lemon Law, Singpass phishing scams, nightlife
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- end-of-lease-cleaning, tax-agents, notary-apostille, nation-employment, Hwa Chong Institution
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#210 guide/entity paths.
+
+### Questions mined (sample)
+
+1. Who owns Sunday coverage this week?
+2. Is enrichment capped to one slot?
+3. When does the report card publish?
+4. Who books the progress meeting?
+5. Same supermarket window thrice this week?
+6. Did we debrief grades together once?
+7. Is agency relief actually bookable?
+8. Are portal SMS links opening from the bookmark?
+
+---
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 27) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick27-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #199. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
