@@ -593,11 +593,6 @@ export const pillars: Pillar[] = [
         blurb: "ICA spouse/child LTVP work — PLOC vs employer LOC.",
       },
       {
-        label: "PLOC / LOC renewal sequencing",
-        href: "/guides/ploc-renewal-ltvp-sequencing-singapore",
-        blurb: "Renew ICA LTVP first; PLOC dies with the pass.",
-      },
-      {
         label: "Student PR",
         href: "/guides/pr-for-student-singapore",
         blurb: "National exam / IP eligibility row — not private-exam folklore.",
@@ -628,6 +623,11 @@ export const pillars: Pillar[] = [
         blurb: "What permanent status implies for families.",
       },
       {
+        label: "NS before PR / citizenship",
+        href: "/guides/ns-liability-before-pr-citizenship-checklist-singapore",
+        blurb: "CMPB checklist before IPA celebrations with sons.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
@@ -638,14 +638,14 @@ export const pillars: Pillar[] = [
         blurb: "EP cancel → up to 90 days stay, DP cascade, no work.",
       },
       {
-        label: "EP cancel → spouse LTVP week",
-        href: "/guides/ep-cancel-spouse-ltvp-same-week-checklist-singapore",
-        blurb: "Same-week STVP + ICA spouse LTVP + PLOC checklist.",
+        label: "TADM salary claim clocks",
+        href: "/guides/tadm-salary-claim-ep-filing-clocks-singapore",
+        blurb: "Still-employed vs left — file before the clock dies.",
       },
       {
-        label: "Annual stay / exit review",
-        href: "/guides/annual-stay-exit-review-calendar-singapore",
-        blurb: "Before school deposits and EP renewal lock the year.",
+        label: "Harassment pass-fear plan",
+        href: "/guides/workplace-harassment-pass-fear-plan-ep-singapore",
+        blurb: "Report without treating pass cancel as automatic.",
       },
       {
         label: "Lost work pass card",
@@ -676,6 +676,21 @@ export const pillars: Pillar[] = [
         label: "Lost blue NRIC (PR / SC)",
         href: "/guides/lost-replace-nric-pr-singapore",
         blurb: "ICA 14-day report clock — not MOM work-pass replacement.",
+      },
+      {
+        label: "REP after lost passport / ETD",
+        href: "/guides/rep-transfer-lost-passport-etd-singapore",
+        blurb: "Mission replacement first, then ICA transfer — ETD traps.",
+      },
+      {
+        label: "CPF nomination witnesses",
+        href: "/guides/cpf-nomination-singpass-witnesses-singapore",
+        blurb: "Two Singpass witnesses, 7-day confirm, amend after marriage.",
+      },
+      {
+        label: "COMPASS firm scores on renewal",
+        href: "/guides/ep-renewal-compass-firm-scores-singapore",
+        blurb: "Firm diversity / local-PMET drift — SAT questions for HR.",
       },
       {
         label: "After getting PR",
