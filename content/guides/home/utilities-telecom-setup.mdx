@@ -27,7 +27,10 @@ citations:
     url: "https://www.spgroup.com.sg/our-services/utilities/quick-guide-to-your-utilities-residential"
   - label: "IMDA — Telecoms"
     url: "https://www.imda.gov.sg/"
+  - label: "NetLink Trust — Residential connections FAQ"
+    url: "https://www.netlinktrust.com/faq/residential-connections/"
 relatedGuides:
+  - first-week-sim-singpass-bank
   - renting-process-loi-ta-deposits
   - opening-bank-account-expat
   - relocation-checklist-7-30-90
@@ -35,11 +38,17 @@ relatedGuides:
   - first-housing-serviced-apartment
   - hdb-ceiling-leak-tenants
   - aircon-pest-renewals
+  - fibre-tp-netlink-renters
+  - mould-humidity-rental-tenants
+  - sg-arrival-card-expats
+faqs:
+  - question: "Can I get a Singapore postpaid SIM with only an IPA letter?"
+    answer: "Often no. Prepaid or tourist SIMs usually work on passport; longer postpaid contracts commonly wait for a physical pass, FIN, stable address, or Singpass. Keep topping up prepaid so OTPs still reach you."
 relatedEntities:
   - telecom-setup-help
 draft: false
 ---
-Assume nothing transfers automatically when you collect keys. Power/water, fibre, and a **Singapore mobile number** each unlock a different admin stack — banks, Singpass SMS fallback, school portals, and MOM address updates all assume you have connectivity and a local line.
+Assume nothing transfers automatically when you collect keys. Power/water, fibre, and a **Singapore mobile number** each unlock a different admin stack — banks, Singpass SMS fallback, school portals, and MOM address updates all assume you have connectivity and a local line. Pair this page with the [first-week SIM → Singpass → bank map](/guides/first-week-sim-singpass-bank) so you do not invent circular blockers.
 
 Forum heat (r/askSingapore) clusters on one trap: **IPA or passport gets you online briefly; a stable postpaid line often waits for FIN / pass formalities / Singpass**. Plan the bridge explicitly.
 
@@ -103,17 +112,31 @@ Fix with a **licensed plumber** (PUB list), keep receipts and photos, then use S
 [PUB tips on finding leaks (PDF)](https://www.pub.gov.sg/-/media/Images/Feature/Content-Pages/Resources/Publications/Pdfs/Tips_on_Finding_Leaks.pdf) and [leak detection / water-saving items](https://www.pub.gov.sg/Public/WaterLoop/Water-Conservation/Water-Saving-Items). Supply issues: PUB-one **1800-225-5782**.
 </OfficialSource>
 
-## Fibre and Wi-Fi
+## Fibre and Wi-Fi (check the TP before the LOI)
 
-Condo fibre termination points vary. Book activation early; installers need access windows and often an adult on site. Check whether the unit already has a terminated line or only a riser stub. Month-to-month mobile hotspot is a fine bridge — not a 24-month family plan.
+Condo and HDB fibre Termination Points (TP/FTP) vary. Book activation early; installers need access windows and often an adult on site. The failure mode that burns move-in week is **both TP ports still linked to the previous occupant** (“Unreleased Fibre”) — hopping ISPs does not invent a free port. Run the retailer’s address/TP check **before** you pay the holding deposit; photograph the wall box on viewing day.
+
+| Symptom | First move |
+| --- | --- |
+| Portal: both ports in use | Ask agent for outgoing termination date; plan ~1 month release + hotspot bridge |
+| No TP in older walk-up | Landlord permission + NetLink chargeable install via ISP |
+| New condo: ONT red / “backend not ready” | Pressure **MCST / developer**, not a second retailer signup |
+| Want service before release | Transfer existing plan or pay for a second TP |
+
+Deep dive (tariffs, IMDA process, renter playbook): [fibre TP / NetLink for renters](/guides/fibre-tp-netlink-renters). Month-to-month mobile hotspot is a fine bridge — not a 24-month family plan.
+
+<OfficialSource>
+[NetLink Trust — residential connections](https://www.netlinktrust.com/faq/residential-connections/) (Unreleased Fibre must be raised through your ISP).
+</OfficialSource>
 
 ## Practical sequence
 
 1. Landing data (travel eSIM or airport prepaid) so Grab and maps work  
-2. Keys + meter photos + utilities ownership clarity in writing  
-3. Stable Singapore number you will give HR, banks, and schools  
-4. Singpass / MyInfo once your pass status allows  
-5. Fibre appointment  
-6. Port prepaid → postpaid only after docs clear  
+2. **Pre-LOI fibre TP availability check** on the exact unit  
+3. Keys + meter photos + utilities ownership clarity in writing  
+4. Stable Singapore number you will give HR, banks, and schools  
+5. Singpass / MyInfo once your pass status allows  
+6. Fibre appointment (or second-TP / transfer path)  
+7. Port prepaid → postpaid only after docs clear  
 
 Next: [opening a bank account](/guides/opening-bank-account-expat) (address + Singpass friction) and [renting process](/guides/renting-process-loi-ta-deposits).
