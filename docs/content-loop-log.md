@@ -6,6 +6,32 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO hubs / crosslinks (tick 24) — 2026-09-15
+
+Branch: `cursor/loop-g-seo-tick24-a144` → draft PR to `main`. SEO shell only — no ads / no Grok / no A–F guide body rewrites / no force-push to `main`. Built off fresh `origin/main`; **did not** edit open G-stack `src/` / `public/` paths through #267 (log prepend only).
+
+### Gaps vs prior G ticks
+
+Ticks 4–23 (open #74→#267) claimed chrome, directory pages, tools UI, motion, feeds/privacy/DNT, entity/calendar/journey JSON-LD, middleware, and most discovery txt files. Remaining free surface: **collection/hub JSON-LD**, **SEO slug helpers**, **TopicLinks / CiteRail**, **tools/directory/map discovery txt**.
+
+### Shipped this loop
+
+- `src/lib/seo-collections.ts` — CollectionPage / ItemList hub helpers
+- `src/lib/seo-slug.ts` + `slugify.ts` re-exports — anchor/path helpers
+- `TopicLinks.tsx` / `CiteRail.tsx` + directory barrel re-exports
+- `public/tools.txt` / `public/directory.txt` / `public/map.txt`
+- Prepend `docs/content-loop-log.md`
+
+### Preferred merge order (note only)
+
+#74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → #228 → #237 → #244 → #252 → #261 → #267 → (this PR)
+
+---
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 48)
 
 Branch: `loop/story-aeo-tick48` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 47 (`loop/story-aeo-tick47` @ `fc7072e` / [#286](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/286)). Avoided open merge-controller H file sets (#117–#286 H20–H47). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286** before this lands. No ads / monetization; no Grok copy; no force-push main.
