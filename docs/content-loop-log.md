@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 8)
+
+Branch: `loop/story-aeo-tick8` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 6 on main (scams / lost card / ICA STVP) while tick 7 (MOM STVP / housing / bank hubs) remains open. Did **not** expand ads/monetization; avoided tick-7 file collisions (day-7/30, arriving/leaving pages, between-jobs / bank / housing bodies) and Loop C dengue/lease rewrites.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — foreign AQI apps vs PSI panic; “do kids still do CCA in haze?”; heat-exhaustion adjacency.
+- r/askSingapore — “police report for a scratch?” / GetGo assessor scripts / Malaysian-plate rear-end recovery folklore.
+- r/askSingapore — “DP = can work?” LOC renewal local-hire traps; DP dies when EP cancelled; newborn DP timing.
+
+**Official**
+
+- [haze.gov.sg](https://www.haze.gov.sg/) + [MOH haze health advisory](https://www.moh.gov.sg/others/haze/) + [NEA haze](https://www.nea.gov.sg/our-services/pollution-control/air-pollution/haze).
+- [SPF — Reporting traffic accidents](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Reporting-Traffic-Accidents-and-Offences) + [GIA Motor Claims Framework](https://gia.org.sg/motor-insurance.html).
+- [MOM — Employment Pass / family](https://www.mom.gov.sg/passes-and-permits/employment-pass) + [DP business LOC](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/eligibility) + [Budget 2021 DP work factsheet](https://www.mom.gov.sg/-/media/mom/documents/budget2021/factsheet-work-arrangements-dp-holders.pdf).
+
+### Gaps vs ticks 1–7
+
+Ticks 1–6 shipped landing/fail AEO (SIM→bank, SGAC, HSA, licence, shipping, pets, PayNow fail, vaping, scams, lost card, ICA STVP). Tick 7 (open) covers MOM cancel STVP + housing/bank FAQ debt. Remaining high-intent **living / family-pass** gaps without FAQPage: **haze/PSI literacy**, **traffic accident vs insurer clocks**, **Dependant’s Pass work/LOC/cascade myths**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/life/haze-climate-preparedness.mdx` (direct lead + FAQPage)
+- `content/guides/life/traffic-accident-motor-claims-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/move/dependant-pass-singapore.mdx` (direct lead + FAQPage)
+- `content/journeys/checklists/day-90.json` (haze/heat kit item)
+- `src/lib/site.ts` (Life haze + motor-claims topics; Move DP topic)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit tick-7 open files (between-jobs / housing / bank / day-7/30 / arriving/leaving pages).
+- Did not rewrite Loop C dengue/lease bodies or Loop A EP eligibility trees beyond DP FAQPage shape.
+
+### Questions mined (sample)
+
+1. Should I trust my phone’s AQI app during Singapore haze?
+2. What is the difference between 1-hour PM2.5 and 24-hour PSI?
+3. When should healthy adults cut outdoor exercise in haze?
+4. Do I need N95 masks indoors during haze?
+5. Is heat stress only a haze-season problem?
+6. Do I need a police report for a minor parking scrape?
+7. When is an SPF traffic accident report mandatory?
+8. Can we settle in cash on WhatsApp and skip insurance?
+9. A Malaysian-plate car hit me — what should I expect?
+10. Does a Dependant’s Pass let my spouse work?
+11. Can a DP LOC renew without hiring a local employee?
+12. What happens to family DPs when the main EP is cancelled?
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 24 — 2026-09-15
 
 Branch: `cursor/home-life-tick24-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.

@@ -64,6 +64,13 @@
       "href": "/clubs"
     },
     {
+      "id": "haze-heat-kit",
+      "title": "Bookmark haze.gov.sg and stage a heat / haze kit",
+      "detail": "Save haze.gov.sg / myENV (not only foreign AQI apps). Keep correctly sized N95-style masks and know when MOH Unhealthy PSI bands mean cutting outdoor sport. Heat stress is year-round — hydration for kids’ CCAs matters even without visible haze.",
+      "pillar": "life",
+      "href": "/guides/haze-climate-preparedness"
+    },
+    {
       "id": "pass-renewal-note",
       "title": "Calendar your pass expiry minus 6 months",
       "detail": "EP renewals and COMPASS evidence take lead time. Put a reminder now while the issue date is fresh — and note MOM’s qualifying-salary tables shift again from 1 Jan 2027 for new applications.",
@@ -73,7 +80,7 @@
     {
       "id": "leaving-awareness",
       "title": "Skim the leaving playbook once",
-      "detail": "Even if you are staying — IR21 tax clearance (employer files ≥1 month ahead; STVP up to 90 days on cancel), deposit timelines, and shipping lead times are easier when you know they exist.",
+      "detail": "Even if you are staying — IR21 tax clearance (employer files ≥1 month ahead; STVP up to 90 days on cancel), deposit timelines, and shipping lead times are easier when you know they exist. Family DPs usually fall with the main EP — know the STVP bridge.",
       "pillar": "next",
       "optional": true,
       "href": "/journeys/leaving"
