@@ -604,9 +604,24 @@ export const pillars: Pillar[] = [
         blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
+        label: "Citizenship application",
+        href: "/guides/singapore-citizenship-application",
+        blurb: "2-year PR floor, ~12-month ICA clock, dual-nationality renunciation.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "New employer files fresh pass — resign only after IPA.",
+      },
+      {
+        label: "Employment Act leave & notice",
+        href: "/guides/employment-act-leave-notice-ep",
+        blurb: "EP still gets statutory leave floors — MC does not extend notice.",
+      },
+      {
+        label: "Training bonds & clawbacks",
+        href: "/guides/training-bonds-clawbacks-ep",
+        blurb: "Penalty vs genuine loss — final-pay deductions have limits.",
       },
       {
         label: "Stay vs exit horizon",

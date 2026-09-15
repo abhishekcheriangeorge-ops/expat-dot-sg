@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 21)
+
+Branch: `loop/story-aeo-tick21` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#112). Avoided open merge-controller H file set (#117 H20). Prefer merge **#117** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “EP holders have no leave rights” folklore; MC during notice myths; resignation refusal screenshots.
+- r/askSingapore — citizenship after one year of PR; agency guarantee ads; dual-passport renunciation panic.
+- r/askSingapore — training-bond “repay 24 months salary” clauses; sign-on clawbacks from final pay.
+
+**Official**
+
+- [MOM — Annual leave](https://www.mom.gov.sg/employment-practices/leave/annual-leave/eligibility-and-entitlement) + [sick leave](https://www.mom.gov.sg/employment-practices/leave/sick-leave/eligibility-and-entitlement) + [termination with notice](https://www.mom.gov.sg/employment-practices/termination-of-employment/termination-with-notice) + [who is covered](https://www.mom.gov.sg/employment-practices/employment-act/who-is-covered).
+- [ICA — Becoming a Singapore Citizen](https://www.ica.gov.sg/reside/citizenship) + [apply](https://www.ica.gov.sg/reside/citizenship/apply).
+- [MOM — Salary deductions](https://www.mom.gov.sg/employment-practices/salary/salary-deductions) + [change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep).
+
+### Gaps vs open H + ticks 1–20
+
+Open: #117 (leaving costs / spouse PR / retrenchment). Remaining high-intent Next FAQ-free gaps: **Employment Act leave/notice for EP**, **citizenship application process**, **training bonds / clawbacks**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/employment-act-leave-notice-ep.mdx` (direct lead + FAQPage)
+- `content/guides/next/singapore-citizenship-application.mdx` (direct lead + FAQPage)
+- `content/guides/next/training-bonds-clawbacks-ep.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Next citizenship-application + Employment Act leave + training-bonds topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117 guide bodies.
+
+### Questions mined (sample)
+
+1. Do Employment Pass holders get Employment Act annual leave?
+2. When do statutory annual leave and paid sick leave start?
+3. Can medical leave during notice extend my last day?
+4. Do EP holders get Part IV overtime and rest-day pay?
+5. Can my employer refuse my resignation on an EP?
+6. How long must I hold PR before applying for Singapore citizenship?
+7. How long does ICA take to process citizenship applications?
+8. Do agencies guarantee Singapore citizenship approval?
+9. Can I keep dual citizenship after becoming a Singapore citizen?
+10. Is the Singapore Citizenship Journey the same as approval?
+11. Are EP training bonds and sign-on clawbacks automatically enforceable?
+12. Can HR deduct a full training-bond balance from my last salary?
+13. Should I resign before my new IPA if a bond is chasing me?
+14. Is a “repay remaining 24 months” salary clause normal?
+15. Does pass sponsorship create a special foreigner penalty regime?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 19)
 
 Branch: `loop/story-aeo-tick19` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#98). Avoided open merge-controller H file sets (#102 H17, #107 H18). Prefer merge order **#102 → #107** before this lands. No ads / monetization; no Grok copy.
