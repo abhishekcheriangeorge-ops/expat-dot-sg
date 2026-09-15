@@ -182,6 +182,16 @@ export const pillars: Pillar[] = [
         blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
       },
       {
+        label: "Travel before the pass card",
+        href: "/guides/travel-before-work-pass-card",
+        blurb: "IPA ≠ travel doc; finish issuance before JB hops.",
+      },
+      {
+        label: "EP probation & resignation notice",
+        href: "/guides/ep-probation-resignation-notice",
+        blurb: "Contract notice ≠ MOM cancel date; DP falls with principal.",
+      },
+      {
         label: "PEP & Tech.Pass flexibility",
         href: "/guides/personalised-employment-pass-pep",
         blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
@@ -190,6 +200,26 @@ export const pillars: Pillar[] = [
         label: "Fair Consideration & MyCareersFuture",
         href: "/guides/fair-consideration-framework-ep",
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
+      },
+      {
+        label: "Changing jobs on EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
+      },
+      {
+        label: "Student’s Pass work limits",
+        href: "/guides/student-pass-singapore",
+        blurb: "Vacation work exemption ≠ open labour market; LOE ≠ EP.",
+      },
+      {
+        label: "LTVP for partners & parents",
+        href: "/guides/ltvp-singapore",
+        blurb: "Not a DP; parent salary lane; work rights depend on product.",
+      },
+      {
+        label: "ONE Pass",
+        href: "/guides/one-pass-singapore",
+        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
       },
       {
         label: "S Pass vs EP",
@@ -212,9 +242,9 @@ export const pillars: Pillar[] = [
         blurb: "3-year bond, LOE ≠ EP, liquidated damages reality.",
       },
       {
-        label: "Relocation checklists",
-        href: "/journeys/arriving",
-        blurb: "7, 30, and 90-day sequences that keep the move sane.",
+        label: "Relocation checklist (7/30/90)",
+        href: "/guides/relocation-checklist-7-30-90",
+        blurb: "Pass, Singpass, housing, schools — week one through day 90.",
       },
       {
         label: "First housing bridge",
@@ -266,17 +296,12 @@ export const pillars: Pillar[] = [
       {
         label: "Neighbourhood guides",
         href: "/neighbourhoods",
-        blurb: "Kallang, Bendemeer, Potong Pasir, Woodlands, and more.",
+        blurb: "Bukit Timah, Holland V, East Coast, Toa Payoh, AMK, Bedok, and more.",
       },
       {
         label: "Utilities & telecom",
         href: "/guides/utilities-telecom-setup",
         blurb: "SP Group, fibre, mobile plans that actually work.",
-      },
-      {
-        label: "PUB water & pipe works",
-        href: "/guides/pub-water-disruption-pipe-works-renters",
-        blurb: "Planned shut-offs, yellow water after works, landlord vs PUB.",
       },
       {
         label: "Domestic helpers (MDW)",
@@ -336,9 +361,24 @@ export const pillars: Pillar[] = [
         blurb: "IRAS rules, YA calendars, and clearance when you leave.",
       },
       {
-        label: "Insurance landscape",
+        label: "Relocation allowance tax",
+        href: "/guides/relocation-allowance-tax-singapore",
+        blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
+      },
+      {
+        label: "Remittances & FX",
+        href: "/guides/remittances-singapore",
+        blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
+      },
+      {
+        label: "Health insurance & LOG",
         href: "/guides/health-insurance-expat",
-        blurb: "Health, life, and what employers usually cover.",
+        blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
+      },
+      {
+        label: "CPF withdrawal when leaving",
+        href: "/guides/cpf-withdrawal-leaving-singapore",
+        blurb: "EP had no CPF; PR cash-out only after status ends.",
       },
       {
         label: "Cost of living",
@@ -413,6 +453,46 @@ export const pillars: Pillar[] = [
         blurb: "Local Rx, preschool plans, cash-pay foreigner reality.",
       },
       {
+        label: "Gastro / vomiting exclusion",
+        href: "/guides/dual-career-kids-gastroenteritis-vomiting-diarrhoea-school-exclusion-singapore",
+        blurb: "Written return clocks, hydration owners, swim holds.",
+      },
+      {
+        label: "Residential camp / trip ops",
+        href: "/guides/international-school-residential-camp-overnight-trip-ops-dual-career-singapore",
+        blurb: "Consent deadlines, med packets, emergency contacts.",
+      },
+      {
+        label: "Impetigo exclusion ops",
+        href: "/guides/dual-career-kids-impetigo-school-exclusion-singapore",
+        blurb: "Written return rules, towel resets, swim/mat holds.",
+      },
+      {
+        label: "Book week / author-visit ops",
+        href: "/guides/international-school-book-week-author-visit-ops-dual-career-singapore",
+        blurb: "Costume blackouts, parade calls, wallet caps.",
+      },
+      {
+        label: "Pink-eye exclusion ops",
+        href: "/guides/dual-career-kids-conjunctivitis-pink-eye-school-exclusion-singapore",
+        blurb: "Written return rules, swim holds, GP vs eye clinic.",
+      },
+      {
+        label: "Concert / recital ops",
+        href: "/guides/international-school-concert-recital-ops-dual-career-singapore",
+        blurb: "Call times, costume blackouts, hall-adult owners.",
+      },
+      {
+        label: "IS bus & pickup ops",
+        href: "/guides/international-school-bus-pickup-dual-career-singapore",
+        blurb: "Bus contracts, bridges, Grab overflow for two EPs.",
+      },
+      {
+        label: "Teen phone household rules",
+        href: "/guides/teen-phone-social-media-household-singapore",
+        blurb: "Device contracts, chat hours, exam blackouts.",
+      },
+      {
         label: "Kids activities & calendar",
         href: "/guides/kids-activities-holiday-camps",
         blurb: "Holiday camps, enrichment, and the school-year rhythm.",
@@ -468,11 +548,6 @@ export const pillars: Pillar[] = [
         label: "Sports, arts & culture",
         href: "/guides/sports-fitness-singapore",
         blurb: "Clubs, galleries, theatre, and weekend rituals.",
-      },
-      {
-        label: "ActiveSG swimming pools",
-        href: "/guides/activesg-swimming-pools-singapore",
-        blurb: "Standard Rate laps, MyActiveSG+ booking, lane etiquette.",
       },
       {
         label: "Apps that matter",
@@ -552,6 +627,27 @@ export const pillars: Pillar[] = [
         blurb: "Find your passport crowd without living inside it.",
       },
       {
+        label: "Condo parent networks",
+        href: "/guides/condo-block-parent-networks-belonging-singapore",
+        blurb: "Building chats and playground belonging rails.",
+      },
+
+      {
+        label: "Music-studio waiting belonging",
+        href: "/guides/music-lesson-studio-waiting-parent-belonging-singapore",
+        blurb: "Repeat lesson-sofa hellos without exam politics.",
+      },
+      {
+        label: "Dance-studio waiting belonging",
+        href: "/guides/dance-studio-waiting-parent-belonging-singapore",
+        blurb: "Repeat ballet-bench hellos without exam politics.",
+      },
+      {
+        label: "Gymnastics-studio waiting belonging",
+        href: "/guides/gymnastics-studio-waiting-parent-belonging-singapore",
+        blurb: "Repeat viewing-glass hellos without squad politics.",
+      },
+      {
         label: "LGBTQ+ resources",
         href: "/guides/lgbtq-resources-singapore",
         blurb: "Community, nightlife, and practical support.",
@@ -606,17 +702,37 @@ export const pillars: Pillar[] = [
       {
         label: "EP renewal docs",
         href: "/guides/ep-renewal-noa-documents",
-        blurb: "When MOM asks for NOA — reconcile salary with IRAS.",
+        blurb: "NOA vs IR8A — reconcile EP salary with IRAS before HR replies.",
       },
       {
         label: "Citizenship & NS",
         href: "/guides/citizenship-ns-implications",
-        blurb: "What permanent status implies for families.",
+        blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
-        blurb: "Switching employers, industries, or going independent.",
+        blurb: "New employer files fresh pass — resign only after IPA.",
+      },
+      {
+        label: "S Pass → EP upgrade",
+        href: "/guides/s-pass-to-ep-upgrade-in-singapore",
+        blurb: "Raise ≠ conversion — FCF + COMPASS on a fresh EP file.",
+      },
+      {
+        label: "DP child aging out at 21",
+        href: "/guides/dp-child-aging-out-21-pass-options-singapore",
+        blurb: "Under-21 cliff — Student’s Pass / own EP before the birthday.",
+      },
+      {
+        label: "DP LOC renewal pack",
+        href: "/guides/dp-loc-renewal-local-hire-cpf-pack-singapore",
+        blurb: "Local Qualifying Salary hire + three CPF months before renew.",
+      },
+      {
+        label: "Stay vs exit horizon",
+        href: "/guides/long-term-stay-vs-exit",
+        blurb: "Annual stay/leave review before school deposits and renewal.",
       },
       {
         label: "Between jobs — STVP",
@@ -632,6 +748,11 @@ export const pillars: Pillar[] = [
         label: "PR rejected — appeal / reapply",
         href: "/guides/pr-rejection-reapply",
         blurb: "Official appeal e-Service only; reapply when profile changed.",
+      },
+      {
+        label: "IR21 tax clearance",
+        href: "/guides/tax-clearance-when-leaving",
+        blurb: "Employer IR21 + withheld final pay — budget runway.",
       },
       {
         label: "Transfer REP to new passport",
