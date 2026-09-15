@@ -6,6 +6,73 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 12)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick12-49cb` → PR to `main` (fresh worktree off `origin/main` @ `b1eea53` post-D9/#79; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8, [#81](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/81) A9, [#85](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/85) A10, and [#92](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/92) A11 stay open — **did not** edit those paths).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — SG Arrival Card tourist-vs-IPA mix-ups; “I have an EP card so I skip SGAC.”
+- r/askSingapore — company PEPS vs MOM issuance medical; starting work while labs pending; colleague carrying ADHD meds.
+- r/askSingapore — foreign-licence 12-month clock folklore; PEP unemployment runway; SGWorkPass-as-start-date; IPA-only joint bank accounts; PayNow mobile recycle; cash “CPF equivalent”; sign-on bonus as EP floor.
+
+**Official**
+
+- [ICA — SG Arrival Card](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card)
+- [MOM — Apply / issue an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass/)
+- [HSA — Bringing personal medication](https://www.hsa.gov.sg/health-products/bringing-personal-medication-into-singapore)
+- [SPF / Traffic Police — Convert a foreign driving licence](https://www.police.gov.sg/Advisories/Traffic/Traffic-Matters)
+- [MOM — Personalised Employment Pass](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass)
+- [CPF Board — For foreigners](https://www.cpf.gov.sg/member) + [IRAS — Employment income / benefits](https://www.iras.gov.sg/taxes/individual-income-tax)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A8–A11 plus ticks 1–7 on main already own job-change/Student’s Pass/LTVP/notify/remittance/LOG/CPF-exit, EP hub/tax/relocation/COMPASS/COR/appeal/ACRA, salary-occupation/DP/shipping/Tech.Pass/EntrePass/side-income/foreign-dividends, and week-one/STVP/ONE Pass/COL/cards/salary-interest/SRS/RSU/CBNI. Remaining high-intent Move/Money depth **outside** those files: **SGAC issued-pass + wrong-path**, **MOM medical ≠ company physical**, **HSA third-party carriage**, **licence clock does not reset**, **PEP unemployed runway**, **SGWorkPass ≠ start date**, **joint account after EP card**, **PayNow FIN-first**, **cash CPF-equivalent**, **sign-on ≠ EP floor**.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/sg-arrival-card-expats.mdx` (+2)
+- `content/guides/move/ep-medical-examination-issuance.mdx` (+2)
+- `content/guides/move/bringing-medication-singapore-hsa.mdx` (+1)
+- `content/guides/move/converting-foreign-driving-licence.mdx` (+1)
+- `content/guides/move/personalised-employment-pass-pep.mdx` (+1)
+- `content/guides/move/work-pass-issuance-epsc-notification.mdx` (+1)
+- `content/guides/money/opening-bank-account-expat.mdx` (+1)
+- `content/guides/money/paynow-setup-foreigners-singapore.mdx` (+1)
+- `content/guides/money/cpf-and-foreigners.mdx` (+1)
+- `content/guides/money/salary-package-decoding.mdx` (+1)
+- `src/lib/site.ts` (arriving + Move/Money blurbs for those hubs; no A8–A11 topic labels)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit open A8/A9/A10/A11 guide paths or `intact-immigration`.
+- Did not re-own Loop H STVP/housing AEO or Loop D PLOC/ICA trees.
+
+### Questions mined (sample)
+
+1. Do issued EP holders still file SG Arrival Card?
+2. What if I submitted SGAC on the tourist path with an IPA?
+3. Does a company physical replace the MOM EP medical?
+4. Can I start work while the issuance medical is pending?
+5. Can a colleague carry my controlled medication?
+6. Does converting later reset the 12-month foreign-licence clock?
+7. How long can I stay unemployed on PEP?
+8. Is SGWorkPass enough to start before the card arrives?
+9. Can I open a joint account with my DP spouse before the EP card?
+10. Should PayNow go to FIN as soon as the salary account opens?
+11. Is cash “CPF equivalent” the same as CPF?
+12. Do sign-on bonuses count toward the EP qualifying salary?
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 11)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick11-49cb` → PR to `main` (fresh worktree off `origin/main` @ `9253076`; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68) A8, [#81](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/81) A9, and [#85](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/85) A10 stay open — **did not** edit those paths).
