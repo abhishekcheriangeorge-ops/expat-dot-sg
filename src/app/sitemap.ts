@@ -1,16 +1,20 @@
 import type { MetadataRoute } from "next";
 import {
+  contentDirLatestMtime,
+  contentFileMtime,
   getAllGuides,
   getAllSponsoredPosts,
+  getBetweenJobsPlaybook,
   getChecklists,
   getClubs,
+  getLeavingPlaybook,
   getNeighbourhoods,
   getSchools,
   getServices,
 } from "@/lib/content";
+import { ServiceCategorySchema } from "@/lib/content/schemas";
 import { absoluteUrl } from "@/lib/seo";
 import { pillars } from "@/lib/site";
-import { ServiceCategorySchema } from "@/lib/content/schemas";
 
 const STATIC_PATHS: Array<{
   path: string;
@@ -29,7 +33,7 @@ const STATIC_PATHS: Array<{
   { path: "/journeys/arriving", changeFrequency: "monthly", priority: 0.75 },
   { path: "/journeys/leaving", changeFrequency: "monthly", priority: 0.75 },
   { path: "/journeys/between-jobs", changeFrequency: "monthly", priority: 0.75 },
-  { path: "/calendar", changeFrequency: "weekly", priority: 0.7 },
+  { path: "/calendar", changeFrequency: "weekly", priority: 0.75 },
   { path: "/tools", changeFrequency: "monthly", priority: 0.7 },
   { path: "/tools/setup-cash", changeFrequency: "monthly", priority: 0.65 },
   { path: "/tools/lease-duty", changeFrequency: "monthly", priority: 0.65 },
@@ -53,6 +57,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     services,
     sponsored,
     checklists,
+    leaving,
+    betweenJobs,
+    calendarMtime,
+    neighbourhoodIndexMtime,
+    schoolIndexMtime,
+    clubIndexMtime,
+    serviceIndexMtime,
   ] = await Promise.all([
     getAllGuides(),
     getNeighbourhoods(),
@@ -61,14 +72,78 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     getServices(),
     getAllSponsoredPosts(),
     getChecklists(),
+    getLeavingPlaybook(),
+    getBetweenJobsPlaybook(),
+    contentDirLatestMtime("content", "calendar"),
+    contentDirLatestMtime("content", "entities", "neighbourhoods"),
+    contentDirLatestMtime("content", "entities", "schools"),
+    contentDirLatestMtime("content", "entities", "clubs"),
+    contentDirLatestMtime("content", "entities", "services"),
   ]);
 
   const serviceCategories = ServiceCategorySchema.options;
 
-  const entries: MetadataRoute.Sitemap = [
+  const [
+    neighbourhoodMtimes,
+    schoolMtimes,
+    clubMtimes,
+    serviceMtimes,
+    checklistMtimes,
+  ] = await Promise.all([
+    Promise.all(
+      neighbourhoods.map((n) =>
+        contentFileMtime(
+          "content",
+          "entities",
+          "neighbourhoods",
+          `${n.slug}.json`,
+        ),
+      ),
+    ),
+    Promise.all(
+      schools.map((s) =>
+        contentFileMtime("content", "entities", "schools", `${s.slug}.json`),
+      ),
+    ),
+    Promise.all(
+      clubs.map((c) =>
+        contentFileMtime("content", "entities", "clubs", `${c.slug}.json`),
+      ),
+    ),
+    Promise.all(
+      services.map((s) =>
+        contentFileMtime("content", "entities", "services", `${s.slug}.json`),
+      ),
+    ),
+    Promise.all(
+      checklists.map((c) =>
+        contentFileMtime(
+          "content",
+          "journeys",
+          "checklists",
+          `${c.phase}.json`,
+        ),
+      ),
+    ),
+  ]);
+
+  const staticLastMod = new Map<string, Date>([
+    ["/calendar", calendarMtime],
+    ["/neighbourhoods", neighbourhoodIndexMtime],
+    ["/schools", schoolIndexMtime],
+    ["/clubs", clubIndexMtime],
+    ["/directory", serviceIndexMtime],
+    ["/journeys/leaving", leaving ? new Date(leaving.lastReviewed) : now],
+    [
+      "/journeys/between-jobs",
+      betweenJobs ? new Date(betweenJobs.lastReviewed) : now,
+    ],
+  ]);
+
+  return [
     ...STATIC_PATHS.map((item) => ({
       url: absoluteUrl(item.path),
-      lastModified: now,
+      lastModified: staticLastMod.get(item.path) ?? now,
       changeFrequency: item.changeFrequency,
       priority: item.priority,
     })),
@@ -84,33 +159,33 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly" as const,
       priority: 0.75,
     })),
-    ...neighbourhoods.map((n) => ({
+    ...neighbourhoods.map((n, i) => ({
       url: absoluteUrl(`/neighbourhoods/${n.slug}`),
-      lastModified: now,
+      lastModified: neighbourhoodMtimes[i] ?? now,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
-    ...schools.map((s) => ({
+    ...schools.map((s, i) => ({
       url: absoluteUrl(`/schools/${s.slug}`),
-      lastModified: now,
+      lastModified: schoolMtimes[i] ?? now,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
-    ...clubs.map((c) => ({
+    ...clubs.map((c, i) => ({
       url: absoluteUrl(`/clubs/${c.slug}`),
-      lastModified: now,
+      lastModified: clubMtimes[i] ?? now,
       changeFrequency: "monthly" as const,
       priority: 0.65,
     })),
     ...serviceCategories.map((category) => ({
       url: absoluteUrl(`/directory/${category}`),
-      lastModified: now,
+      lastModified: serviceIndexMtime,
       changeFrequency: "weekly" as const,
       priority: 0.65,
     })),
-    ...services.map((s) => ({
+    ...services.map((s, i) => ({
       url: absoluteUrl(`/directory/${s.category}/${s.slug}`),
-      lastModified: now,
+      lastModified: serviceMtimes[i] ?? now,
       changeFrequency: "monthly" as const,
       priority: 0.6,
     })),
@@ -120,13 +195,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly" as const,
       priority: 0.4,
     })),
-    ...checklists.map((c) => ({
+    ...checklists.map((c, i) => ({
       url: absoluteUrl(`/journeys/arriving/${c.phase}`),
-      lastModified: now,
+      lastModified: checklistMtimes[i] ?? new Date(c.lastReviewed),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
   ];
-
-  return entries;
 }

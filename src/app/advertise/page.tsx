@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { AdvertiseInquiryForm } from "@/components/advertise";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { getAllFeaturedListings } from "@/lib/content/featured";
 import { getAllSponsoredPosts } from "@/lib/content/sponsored";
 import { getStorageBackend } from "@/lib/db";
-import { buildPageMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Advertise",
@@ -38,15 +39,21 @@ export default async function AdvertisePage() {
     getAllSponsoredPosts(),
   ]);
   const storage = getStorageBackend();
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Advertise", path: "/advertise" },
+  ];
 
   return (
     <div>
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <header className="relative overflow-hidden border-b border-fog-soft">
         <div
           aria-hidden
           className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_10%_0%,color-mix(in_srgb,var(--canopy-mist)_20%,transparent),transparent_50%),radial-gradient(ellipse_at_90%_30%,color-mix(in_srgb,var(--tungsten)_12%,transparent),transparent_40%)]"
         />
         <div className="relative mx-auto max-w-[var(--max-page)] px-5 py-16 sm:px-8 sm:py-24">
+          <Breadcrumbs items={crumbs} className="mb-8 text-sm text-ink-faint" />
           <p className="text-xs font-semibold uppercase tracking-[0.16em] text-canopy-mist">
             Media kit
           </p>

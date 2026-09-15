@@ -4,7 +4,7 @@ import { JourneyHero } from "@/components/journeys";
 import { CalendarBoard } from "@/components/calendar";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { getCalendarEvents } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, buildPageMetadata, collectionPageJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Events & kids calendar",
@@ -22,7 +22,21 @@ export default async function CalendarPage() {
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: "Events & kids calendar",
+            description:
+              "MOE holidays, AEIS/S-AEIS and P1 windows, IRAS tax season, international-school apps, festivals, and community anchors.",
+            path: "/calendar",
+            items: events.slice(0, 40).map((event) => ({
+              name: event.title,
+              path: `/calendar#${event.slug}`,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -56,6 +70,20 @@ export default async function CalendarPage() {
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
             Schools directory
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/guides/aeis-saeis-international-students"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            AEIS / S-AEIS
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/tools/tax-residency"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Tax residency sketch
           </Link>
         </p>
       </div>

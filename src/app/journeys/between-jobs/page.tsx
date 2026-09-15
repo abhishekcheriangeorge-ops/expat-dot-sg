@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { JourneyHero, LeavingPlaybookView } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { getBetweenJobsPlaybook } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, buildPageMetadata, collectionPageJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Between jobs (EP gap)",
@@ -25,7 +25,20 @@ export default async function BetweenJobsJourneyPage() {
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: playbook.title,
+            description: playbook.summary,
+            path: "/journeys/between-jobs",
+            items: playbook.sections.map((section) => ({
+              name: section.title,
+              path: `/journeys/between-jobs#${section.id}`,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -53,6 +66,13 @@ export default async function BetweenJobsJourneyPage() {
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
           >
             Tax residency sketch
+          </Link>{" "}
+          ·{" "}
+          <Link
+            href="/tools/ep-threshold"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            EP salary tool
           </Link>{" "}
           ·{" "}
           <Link

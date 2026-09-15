@@ -6,6 +6,31 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 4)
+
+Branch: `cursor/loop-g-seo-tick4-a144` → PR to `main`. Owns shell/metadata/sitemap/hub JSON-LD only. Did **not** rewrite A–F/H guide bodies; skipped ads inventory / Grok; left tick-3b `relatedEntities` reverse-link work on #65 alone.
+
+### Gaps closed
+
+- Sitemap `lastModified` for entities/checklists/calendar still stamped `now` on every build — switched to content-file mtimes (plus playbook `lastReviewed` for leaving / between-jobs).
+- Calendar, leaving, between-jobs, and arriving-phase checklists had breadcrumbs but no CollectionPage/ItemList JSON-LD.
+- Calendar / leaving / between-jobs reciprocal shell links were thin vs Family / AEIS / tax / EP tools.
+- Advertise page still lacked breadcrumb trail (metadata-only; no inventory expansion).
+
+### Shipped this loop
+
+- `src/lib/content/fs-mtime.ts` + sitemap lastmod fidelity for entities, services, checklists, calendar dir, playbook dates
+- CollectionPage JSON-LD on `/calendar`, `/journeys/leaving`, `/journeys/between-jobs`, `/journeys/arriving/[phase]`
+- Light reciprocal shell links on those hubs; advertise breadcrumbs only
+
+### Explicitly not done / notes for other loops
+
+- No mass `relatedGuides` / `relatedEntities` MDX edits (tick 3b / #65 owns relatedEntities UI).
+- No new sponsorSlots / featured inventory / advertise product expansion.
+- No A–F/H guide body rewrites; no Grok / third-party clone copy.
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 8)
 
 Branch: `loop/story-aeo-tick8` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 6 on main (scams / lost card / ICA STVP) while tick 7 (MOM STVP / housing / bank hubs) remains open. Did **not** expand ads/monetization; avoided tick-7 file collisions (day-7/30, arriving/leaving pages, between-jobs / bank / housing bodies) and Loop C dengue/lease rewrites.

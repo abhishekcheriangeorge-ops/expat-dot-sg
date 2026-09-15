@@ -10,7 +10,7 @@ import {
   getChecklistByPhase,
   type ChecklistPhase,
 } from "@/lib/content";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, buildPageMetadata, collectionPageJsonLd } from "@/lib/seo";
 
 const ARRIVING_PHASES = ["day-7", "day-30", "day-90"] as const;
 
@@ -60,7 +60,20 @@ export default async function ArrivingPhasePage({
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: checklist.title,
+            description: checklist.summary,
+            path: `/journeys/arriving/${phase}`,
+            items: checklist.items.slice(0, 30).map((item, index) => ({
+              name: item.title,
+              path: `/journeys/arriving/${phase}#item-${index + 1}`,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
