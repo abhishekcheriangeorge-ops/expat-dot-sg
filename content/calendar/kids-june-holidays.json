@@ -1,12 +1,13 @@
 {
   "type": "event",
   "slug": "kids-school-holiday-jun",
-  "title": "June school holidays — camps & staycations",
-  "summary": "International and local schools break mid-year. Book camps early; museums and wildlife parks run holiday programmes.",
+  "title": "June school holidays (MOE)",
+  "summary": "Official MOE Term 2 break for kindergartens, primary and secondary: 30 May–28 Jun 2026. Book camps early; international-school calendars often differ — check yours.",
   "date": "2026-05-30",
-  "endDate": "2026-06-29",
+  "endDate": "2026-06-28",
   "recurring": true,
   "venue": "Island-wide",
   "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/calendar",
   "featured": true
 }

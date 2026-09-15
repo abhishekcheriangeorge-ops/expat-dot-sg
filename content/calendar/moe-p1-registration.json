@@ -1,0 +1,13 @@
+{
+  "type": "event",
+  "slug": "moe-p1-registration",
+  "title": "MOE Primary 1 registration (SC/PR phases)",
+  "summary": "2026 exercise for 2027 P1 admission: Phase 1 from 30 Jun through 2C Supplementary mid-August; international students use a separate Phase 3 path after a May indication-of-interest. PR intake caps apply in later phases — read MOE before you assume a place.",
+  "date": "2026-06-30",
+  "endDate": "2026-08-18",
+  "recurring": true,
+  "venue": "Online · MOE P1 portal",
+  "audience": ["kids", "families"],
+  "href": "https://www.moe.gov.sg/primary/p1-registration",
+  "featured": true
+}
