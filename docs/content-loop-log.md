@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 44 — 2026-09-15
+
+Branch: `cursor/home-life-tick44-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255/#266 stay open for the merge controller — **did not** touch those PR paths. Topics: condo fire-hose / landing-hydrant clearance, ActiveSG bowling, Jalan Besar Fringe / Farrer Park South / Bendemeer West.
+
+**Merge order note (controller):** `#71 → #88 → #96 → #104 → #126 → #137 → #144 → #150 → #167 → #181 → #192 → #202 → #213 → #226 → #232 → #238 → #249 → #255 → #266 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — shoe racks blocking hose reels, MA corridor obstruction fines, pram/parcel staging on landings.
+- r/askSingapore — ActiveSG bowling Standard Rate for foreigners, weekend lane release races, shoe-hire queues.
+- r/askSingapore — mid-town shortlists for Jalan Besar Fringe vs Farrer Park South vs Bendemeer West noise trade-offs.
+
+**Official**
+
+- [SCDF fire safety](https://www.scdf.gov.sg/home/fire-safety) + [Fire Safety Act overview](https://www.scdf.gov.sg/home/fire-safety/fire-safety-act).
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [programmes](https://www.activesgcircle.gov.sg/programmes).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #266
+
+Open PRs own reno-noise through water-tank/booster / skating and their town sets. Every tip Home/Life guide path is already claimed — **no tip guide upgrades this tick**. Remaining gaps without collision: **condo fire-hose / landing-hydrant clearance** (≠ fire-alarm drills; ≠ waste staging), **ActiveSG bowling** (≠ skating; ≠ climbing; ≠ archery; ≠ camps; ≠ court hire), plus neighbourhood depth for **Jalan Besar Fringe**, **Farrer Park South**, and **Bendemeer West**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-fire-hose-landing-hydrant-clearance-tenants.mdx`
+- `content/guides/life/activesg-bowling-booking-singapore.mdx`
+
+**Upgraded guides**
+
+- None — all tip `content/guides/home/*` and `content/guides/life/*` paths are in the open C union through #266.
+- `src/lib/site.ts` (hydrant clearance + ActiveSG bowling topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/jalan-besar-fringe.json`
+- `content/entities/neighbourhoods/farrer-park-south.json`
+- `content/entities/neighbourhoods/bendemeer-west.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 / #202 / #213 / #226 / #232 / #238 / #249 / #255 / #266 exclusive file paths.
+- Did not force-push `main`.
+
+### Questions mined (sample)
+
+1. Can shoe racks sit in front of landing hydrants?
+2. Is hydrant clearance the same as a fire drill?
+3. Who pays MA obstruction fines — landlord or tenant?
+4. Can delivery boxes block the hose cabinet overnight?
+5. Can foreigners book ActiveSG bowling at Standard Rate?
+6. Is bowling the same as skating or court hire?
+7. Do I need my own bowling shoes?
+8. Jalan Besar Fringe vs Bendemeer West — nightlife tax or quieter NEL?
+9. Is Farrer Park South too retail-crowded on weekends?
+10. When is a condo games room still enough?
+
+---
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 43 — 2026-09-15
 
 Branch: `cursor/home-life-tick43-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192/#202/#213/#226/#232/#238/#249/#255 stay open for the merge controller — **did not** touch those PR paths. Topics: condo water-tank / booster-pump outages, ActiveSG skating, Lavender South / Kallang Wave / Rochor Fringe.

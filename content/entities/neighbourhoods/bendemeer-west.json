@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "bendemeer-west",
+  "name": "Bendemeer West",
+  "summary": "West of Bendemeer MRT toward Boon Keng — quieter NEL mid-town edges with HDB/condo mix and less nightlife tax than Jalan Besar.",
+  "body": "Bendemeer West is the shortlist when North-East Line adjacency and calmer mid-town nights matter more than food-spine intensity. The pocket sits west of Bendemeer station toward Boon Keng gravity; housing mixes mature HDB with selective condo stock. Expats land here for car-light CBD hops without Jalan Besar weekend crush. Watch-outs: peak NEL loads, older-block hydrant clearance notices, and last-mile variance. Compare with Bendemeer East for Kallang Bahru-facing edges, Jalan Besar Fringe for denser food energy, and Farrer Park South when retail density wins.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "mid-town",
+    "quieter-nights",
+    "hdb-condo-mix",
+    "practical"
+  ],
+  "bestFor": [
+    "NEL CBD commuters seeking quieter nights",
+    "value-seeking mid-town households",
+    "renters comparing Bendemeer vs Boon Keng edges",
+    "people who will book ActiveSG bowling instead of condo games-room myths"
+  ],
+  "watchOuts": [
+    "Peak NEL crowding",
+    "Older landings — hydrant/hose clearance",
+    "Fewer late-night amenity options than Jalan Besar",
+    "Walk to station varies by block"
+  ],
+  "housingMix": "Mature HDB dominant with selective condo pockets west of the station.",
+  "commuteNotes": "North-East Line at Bendemeer; Boon Keng adjacency depending on block. Time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3400,
+    "familyFrom": 2700,
+    "familyTo": 4800
+  },
+  "mrt": [
+    "Bendemeer",
+    "Boon Keng",
+    "Kallang"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "jalan-besar-fringe",
+  "name": "Jalan Besar Fringe",
+  "summary": "Edges of Jalan Besar toward Lavender / Bendemeer — denser central living with EWL/DTL optionality and late food energy as the lifestyle tax.",
+  "body": "Jalan Besar Fringe is the shortlist when central food density and dual-line adjacency matter more than quiet landed texture. The pocket sits on the Jalan Besar / Lavender / Bendemeer edges; housing mixes mid-age walk-ups and selective condo stock. Expats land here for car-light CBD hops and late options without Orchard premiums. Watch-outs: weekend noise, older-landing hydrant clearance fights, and peak interchange crowding. Compare with Farrer Park South for stadium-adjacent living, Bendemeer West for quieter NEL edges, and Lavender South when EWL mid-town wins.",
+  "region": "central",
+  "vibe": [
+    "dense-central",
+    "food",
+    "nightlife-adjacent",
+    "ewl-dtl",
+    "practical"
+  ],
+  "bestFor": [
+    "car-light CBD workers",
+    "food-first households okay with denser texture",
+    "renters comparing Jalan Besar vs Lavender edges",
+    "people who will book ActiveSG bowling instead of condo games-room myths"
+  ],
+  "watchOuts": [
+    "Weekend and late-night noise",
+    "Older landings — keep hose reels clear",
+    "Peak interchange crowding",
+    "Serviced vs TA confusion on some blocks"
+  ],
+  "housingMix": "Walk-ups and mid-age condos with selective HDB edges.",
+  "commuteNotes": "East-West / Downtown Line gravity via Lavender / Bendemeer / Jalan Besar depending on block. Walk a Saturday night before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2500,
+    "oneBedTo": 4100,
+    "familyFrom": 3600,
+    "familyTo": 7200
+  },
+  "mrt": [
+    "Jalan Besar",
+    "Lavender",
+    "Bendemeer"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
