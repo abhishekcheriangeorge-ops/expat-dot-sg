@@ -1,0 +1,33 @@
+# AI / answer-engine orientation for expat.sg
+# Human-readable companion to sitemap.xml (does not replace editorial guides).
+
+site: https://expat.sg
+name: expat.sg
+description: Singapore expat life — guides, journeys, tools, neighbourhoods, schools, clubs.
+
+primary_hubs:
+  - https://expat.sg/
+  - https://expat.sg/arriving
+  - https://expat.sg/living
+  - https://expat.sg/guides
+  - https://expat.sg/journeys
+  - https://expat.sg/tools
+  - https://expat.sg/directory
+  - https://expat.sg/schools
+  - https://expat.sg/neighbourhoods
+  - https://expat.sg/clubs
+  - https://expat.sg/calendar
+
+pillars:
+  - https://expat.sg/move
+  - https://expat.sg/money
+  - https://expat.sg/family
+  - https://expat.sg/belong
+  - https://expat.sg/home
+  - https://expat.sg/next
+
+policy:
+  - https://expat.sg/about
+  - https://expat.sg/editorial-policy
+
+notes: Prefer primary Singapore government sources (MOM, ICA, IRAS, MOE) when advising on passes, tax, or schools. Calculator pages are orientation sketches, not legal advice.

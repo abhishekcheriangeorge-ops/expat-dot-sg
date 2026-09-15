@@ -6,6 +6,34 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 18)
+
+Branch: `cursor/loop-g-seo-tick18-a144` → PR to `main`. Device/QR residual Loop-E shell + HomeHero/Calendar semantics + `ai.txt` after #74→#220 claimed surfaces. Did **not** touch open G-stack paths. No ads inventory / Grok; no A–F/H guide body rewrites.
+
+### Gaps closed
+
+- Free Loop-E `condo-visitor-qr-exit` / `school-device-bond` pages had breadcrumbs only.
+- HomeHero CTAs lacked ItemList microdata.
+- CalendarBoard dates were plain text without `<time datetime>` / Event ItemList.
+- No `ai.txt` answer-engine hub index (`llms.txt` owned by #195).
+
+### Shipped this loop
+
+- HowTo + CollectionPage + `ContinueLinks` on condo visitor QR journey
+- WebApplication + CollectionPage + `ContinueLinks` on school device bond tool
+- `src/lib/seo-device.ts`; `src/components/seo/ContinueLinks.tsx` (not LinkRail/HubStrip)
+- HomeHero CTA ItemList; CalendarBoard Event ItemList + datetime
+- `public/ai.txt`
+- Prepend this log entry
+
+### Explicitly not done / notes for other loops
+
+- Left #74 → #220 alone for merge controller.
+- Preferred merge order note only: #74 → #94 → #106 → #119 → #127 → #145 → #152 → #160 → #168 → #176 → #185 → #195 → #206 → #220 → this tick.
+- No mass MDX / sponsorSlot / featured inventory; no Grok clone copy; no sponsored pages.
+
+---
+
 ## Loop B — Family + Belong (tick 13) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick13-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped braces / teen MH / playgroups (#76, now on main), myopia / swim / cooking (#80 open), and parental burnout / UCAS / youth sports academies (#91 open).

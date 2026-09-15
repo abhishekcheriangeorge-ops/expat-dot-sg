@@ -1,27 +1,58 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { ContinueLinks } from "@/components/seo/ContinueLinks";
 import { SchoolDeviceBondCalculator } from "@/components/tools";
-import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
+import { webApplicationJsonLd } from "@/lib/seo-device";
+
+const title = "School device bond sketch";
+const description =
+  "Sketch iPad / 1:1 device bond return vs damage holds, overdue fees, and lost-device forfeiture before you leave Singapore.";
+const path = "/tools/school-device-bond";
+
+const RELATED = [
+  { href: "/tools", label: "All tools" },
+  { href: "/journeys/condo-visitor-qr-exit", label: "Condo visitor QR revoke" },
+  { href: "/tools/school-deposit-clawback", label: "School deposit clawback" },
+  { href: "/journeys/school-bus-cca-exit", label: "School bus / CCA exit" },
+  { href: "/family", label: "Family pillar" },
+] as const;
 
 export const metadata: Metadata = buildPageMetadata({
-  title: "School device bond sketch",
-  description:
-    "Sketch iPad / 1:1 device bond return vs damage holds, overdue fees, and lost-device forfeiture before you leave Singapore.",
-  path: "/tools/school-device-bond",
+  title,
+  description,
+  path,
 });
 
 export default function SchoolDeviceBondToolPage() {
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Tools", path: "/tools" },
-    { name: "School device bond", path: "/tools/school-device-bond" },
+    { name: "School device bond", path },
   ];
 
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          webApplicationJsonLd({ name: title, description, path }),
+          collectionPageJsonLd({
+            name: `${title} — related`,
+            description,
+            path,
+            items: RELATED.map((item) => ({
+              name: item.label,
+              path: item.href,
+            })),
+          }),
+        ]}
+      />
       <div className="border-b border-fog-soft">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
@@ -34,32 +65,7 @@ export default function SchoolDeviceBondToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <SchoolDeviceBondCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
-          <Link
-            href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            ← All tools
-          </Link>
-          <Link
-            href="/journeys/condo-visitor-qr-exit"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Condo visitor QR revoke →
-          </Link>
-          <Link
-            href="/tools/school-deposit-clawback"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            School deposit clawback →
-          </Link>
-          <Link
-            href="/family"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
-          >
-            Family pillar →
-          </Link>
-        </p>
+        <ContinueLinks links={RELATED} />
       </div>
     </>
   );

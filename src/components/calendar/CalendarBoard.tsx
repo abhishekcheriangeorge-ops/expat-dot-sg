@@ -71,49 +71,80 @@ export function CalendarBoard({ events }: CalendarBoardProps) {
         })}
       </div>
 
-      <ul className="mt-10 flex flex-col">
-        {visible.map((event) => (
+      <ul
+        className="mt-10 flex flex-col"
+        itemScope
+        itemType="https://schema.org/ItemList"
+      >
+        <meta itemProp="name" content="Singapore expat calendar" />
+        <meta itemProp="numberOfItems" content={String(visible.length)} />
+        {visible.map((event, index) => (
           <li
             key={event.slug}
-            className="grid gap-2 border-b border-fog-soft py-6 sm:grid-cols-[10rem_1fr] sm:gap-8"
+            className="border-b border-fog-soft py-6"
+            itemProp="itemListElement"
+            itemScope
+            itemType="https://schema.org/ListItem"
           >
-            <div>
-              <p className="text-sm font-medium text-canopy">
-                {formatDateRange(event)}
-              </p>
-              {event.recurring ? (
-                <p className="mt-1 text-xs uppercase tracking-wide text-ink-faint">
-                  Annual / recurring
+            <meta itemProp="position" content={String(index + 1)} />
+            <div
+              itemScope
+              itemType="https://schema.org/Event"
+              itemProp="item"
+              className="grid gap-2 sm:grid-cols-[10rem_1fr] sm:gap-8"
+            >
+              <div>
+                <p className="text-sm font-medium text-canopy">
+                  <time dateTime={event.date} itemProp="startDate">
+                    {formatDateRange(event)}
+                  </time>
+                  {event.endDate ? (
+                    <meta itemProp="endDate" content={event.endDate} />
+                  ) : null}
                 </p>
-              ) : null}
-            </div>
-            <div>
-              <h2 className="font-display text-xl text-ink sm:text-2xl">
-                {event.title}
-                {event.featured ? (
-                  <span className="ml-2 align-middle text-xs font-sans font-semibold uppercase tracking-wide text-tungsten">
-                    Featured
-                  </span>
+                {event.recurring ? (
+                  <p className="mt-1 text-xs uppercase tracking-wide text-ink-faint">
+                    Annual / recurring
+                  </p>
                 ) : null}
-              </h2>
-              <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-muted">
-                {event.summary}
-              </p>
-              <p className="mt-3 text-xs text-ink-faint">
-                {[event.venue, event.audience.join(" · ")]
-                  .filter(Boolean)
-                  .join(" · ")}
-              </p>
-              {event.href ? (
-                <a
-                  href={event.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-3 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+              </div>
+              <div>
+                <h2
+                  itemProp="name"
+                  className="font-display text-xl text-ink sm:text-2xl"
                 >
-                  Event site →
-                </a>
-              ) : null}
+                  {event.title}
+                  {event.featured ? (
+                    <span className="ml-2 align-middle text-xs font-sans font-semibold uppercase tracking-wide text-tungsten">
+                      Featured
+                    </span>
+                  ) : null}
+                </h2>
+                <p
+                  itemProp="description"
+                  className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-muted"
+                >
+                  {event.summary}
+                </p>
+                <p className="mt-3 text-xs text-ink-faint">
+                  {event.venue ? (
+                    <span itemProp="location">{event.venue}</span>
+                  ) : null}
+                  {event.venue && event.audience.length ? " · " : null}
+                  {event.audience.join(" · ")}
+                </p>
+                {event.href ? (
+                  <a
+                    href={event.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    itemProp="url"
+                    className="mt-3 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                  >
+                    Event site →
+                  </a>
+                ) : null}
+              </div>
             </div>
           </li>
         ))}

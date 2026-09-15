@@ -49,20 +49,45 @@ export function HomeHero() {
         </FadeIn>
 
         <FadeIn delay={0.28} y={12}>
-          <div className="mt-10 flex flex-wrap gap-3 sm:gap-4">
-            <Link
-              href="/arriving"
-              className="inline-flex items-center bg-tungsten px-7 py-3.5 text-sm font-semibold text-ink no-underline transition-colors hover:bg-tungsten-soft"
-            >
-              Arriving
-            </Link>
-            <Link
-              href="/living"
-              className="inline-flex items-center border border-paper/35 bg-paper/5 px-7 py-3.5 text-sm font-semibold text-paper no-underline backdrop-blur-sm transition-colors hover:border-paper/60 hover:bg-paper/10"
-            >
-              Living
-            </Link>
-          </div>
+          <nav
+            aria-label="Primary journeys"
+            className="mt-10"
+            itemScope
+            itemType="https://schema.org/ItemList"
+          >
+            <meta itemProp="name" content="Primary journeys" />
+            <meta itemProp="numberOfItems" content="2" />
+            <ul className="flex flex-wrap gap-3 sm:gap-4">
+              <li
+                itemProp="itemListElement"
+                itemScope
+                itemType="https://schema.org/ListItem"
+              >
+                <meta itemProp="position" content="1" />
+                <Link
+                  href="/arriving"
+                  itemProp="url"
+                  className="inline-flex items-center bg-tungsten px-7 py-3.5 text-sm font-semibold text-ink no-underline transition-colors hover:bg-tungsten-soft"
+                >
+                  <span itemProp="name">Arriving</span>
+                </Link>
+              </li>
+              <li
+                itemProp="itemListElement"
+                itemScope
+                itemType="https://schema.org/ListItem"
+              >
+                <meta itemProp="position" content="2" />
+                <Link
+                  href="/living"
+                  itemProp="url"
+                  className="inline-flex items-center border border-paper/35 bg-paper/5 px-7 py-3.5 text-sm font-semibold text-paper no-underline backdrop-blur-sm transition-colors hover:border-paper/60 hover:bg-paper/10"
+                >
+                  <span itemProp="name">Living</span>
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </FadeIn>
       </div>
     </section>
