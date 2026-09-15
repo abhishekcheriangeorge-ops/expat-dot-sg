@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, school CCA kit bond, school exam / IB deposit, and school bus last-week float.",
+    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, and school CCA kit bond.",
   path: "/tools",
 });
 
@@ -70,30 +70,6 @@ const tools = [
     title: "School CCA kit bond",
     summary:
       "Sketch CCA kit / instrument / sports gear bond return vs damage holds and overdue fees — not handbook advice.",
-  },
-  {
-    href: "/tools/school-exam-ib-deposit",
-    title: "School exam / IB deposit",
-    summary:
-      "Sketch exam / IB / checkpoint deposit return vs partial holds and late-cancel forfeiture — not handbook advice.",
-  },
-  {
-    href: "/tools/helper-levy-final-month",
-    title: "Helper levy final month",
-    summary:
-      "Sketch FDW final-month levy for keep-through-month, mid-month cancel, and transfer-out — not MOM filing advice.",
-  },
-  {
-    href: "/tools/bank-statement-archive",
-    title: "Bank statement archive",
-    summary:
-      "Sketch months of statements still to pull before account close — self-serve PDF vs reprint fees — not bank advice.",
-  },
-  {
-    href: "/tools/school-bus-last-week-float",
-    title: "School bus last-week float",
-    summary:
-      "Sketch last-week bus cash for ride-through, early cancel with notice shortfall, and no-show forfeit — not operator advice.",
   },
 ] as const;
 

@@ -6,10 +6,6 @@ import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
   getCondoEvChargerClearPlaybook,
-  getCondoAccessCardDepositPlaybook,
-  getCpfNominationExitPlaybook,
-  getCondoVisitorParkingClearPlaybook,
-  getUtilityMeterPhotoHandoffPlaybook,
   getCondoVisitorQrExitPlaybook,
   getLeavingPlaybook,
   getMoverLiftBookingPlaybook,
@@ -25,7 +21,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -38,10 +34,6 @@ export default async function JourneysIndexPage() {
     moverLift,
     condoVisitorQr,
     condoEvCharger,
-    utilityMeterPhoto,
-    condoVisitorParking,
-    condoAccessCard,
-    cpfNominationExit,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -50,10 +42,6 @@ export default async function JourneysIndexPage() {
     getMoverLiftBookingPlaybook(),
     getCondoVisitorQrExitPlaybook(),
     getCondoEvChargerClearPlaybook(),
-    getUtilityMeterPhotoHandoffPlaybook(),
-    getCondoVisitorParkingClearPlaybook(),
-    getCondoAccessCardDepositPlaybook(),
-    getCpfNominationExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -101,28 +89,6 @@ export default async function JourneysIndexPage() {
               {
                 name: condoEvCharger?.title ?? "Condo EV charger / lot clear",
                 path: "/journeys/condo-ev-charger-clear",
-              },
-              {
-                name:
-                  utilityMeterPhoto?.title ?? "Utility meter photo handoff",
-                path: "/journeys/utility-meter-photo-handoff",
-              },
-              {
-                name:
-                  condoVisitorParking?.title ??
-                  "Condo visitor parking / loading-bay clear",
-                path: "/journeys/condo-visitor-parking-clear",
-              },
-              {
-                name:
-                  condoAccessCard?.title ?? "Condo access-card / fob deposit",
-                path: "/journeys/condo-access-card-deposit",
-              },
-              {
-                name:
-                  cpfNominationExit?.title ??
-                  "CPF nomination / estate-planning exit",
-                path: "/journeys/cpf-nomination-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -315,116 +281,6 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open EV charger clear playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Utility meter exit
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {utilityMeterPhoto?.title ?? "Utility meter photo handoff"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {utilityMeterPhoto?.summary ??
-              "Dated meter photos and final-read alignment before landlord checkout."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/school-exam-ib-deposit"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/school-exam-ib-deposit
-            </Link>{" "}
-            if exam / IB deposits settle the same fortnight.
-          </p>
-          <Link
-            href="/journeys/utility-meter-photo-handoff"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
-          >
-            Open meter photo handoff playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Condo visitor parking
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {condoVisitorParking?.title ??
-              "Condo visitor parking / loading-bay clear"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {condoVisitorParking?.summary ??
-              "Visitor bay QR, loading slots, and guest tags before MCST handover."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/helper-levy-final-month"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/helper-levy-final-month
-            </Link>{" "}
-            if helper final-levy cash settles the same fortnight.
-          </p>
-          <Link
-            href="/journeys/condo-visitor-parking-clear"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
-          >
-            Open visitor parking clear playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Condo access tokens
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {condoAccessCard?.title ?? "Condo access-card / fob deposit"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {condoAccessCard?.summary ??
-              "Resident cards, lift fobs, and carpark tags on deposit before MCST handover."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/bank-statement-archive"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/bank-statement-archive
-            </Link>{" "}
-            if statement downloads compete with management-office week.
-          </p>
-          <Link
-            href="/journeys/condo-access-card-deposit"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
-          >
-            Open access-card deposit playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            CPF nominations
-          </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {cpfNominationExit?.title ??
-              "CPF nomination / estate-planning exit"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {cpfNominationExit?.summary ??
-              "Confirm nominations, archive statements for executors, and sequence board updates before Singpass changes."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/school-bus-last-week-float"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/school-bus-last-week-float
-            </Link>{" "}
-            if kids still ride through the same notice week.
-          </p>
-          <Link
-            href="/journeys/cpf-nomination-exit"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
-          >
-            Open CPF nomination exit playbook
           </Link>
         </FadeIn>
 
