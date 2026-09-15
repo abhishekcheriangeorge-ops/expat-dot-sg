@@ -4,6 +4,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Tick 17 — 2026-09-15
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP rejection / appeal chances / employer-only process ([job offer rejected due to EP](https://www.reddit.com/r/askSingapore/comments/1jehp27/job_offer_rejected_due_to_ep_issues_what_are_my/); [EP rejected due to employers issue](https://www.reddit.com/r/askSingapore/comments/1idope2/ep_rejected_due_to_employers_issue/); [WP rejected non-rectifiable](https://www.reddit.com/r/askSingapore/comments/1c2clnc/got_offer_letter_last_week_work_permit_is/); [MOM medical exam privacy](https://www.reddit.com/r/askSingapore/comments/1rw9ev6/mom_work_authorization_medical_exam/)).
+- r/askSingapore — CASE / Lemon Law / SCT for defective goods & promo failures ([valid lemon law case](https://www.reddit.com/r/askSingapore/comments/1axy4sv/is_this_a_valid_lemon_law_case/); [COE car lemon law myth](https://www.reddit.com/r/askSingapore/comments/1chdeky/bought_a_used_coe_car_dealer_claiming_lemon_law/); [furniture non-delivery](https://www.reddit.com/r/askSingapore/comments/u0yvmv/what_can_i_do_as_a_consumer_if_furniture_shop/); [StarHub CASE vs SCT](https://www.reddit.com/r/askSingapore/comments/1odx7cq/need_advice_taking_big_companies_to_case_or_sct/)).
+- r/askSingapore — fair wear & tear / inventory / deposit checkout ([fair wear rented HDB](https://www.reddit.com/r/askSingapore/comments/1qe8j6k/what_is_considered_fair_wear_tear_on_a_rented_hdb/); [move-out after 5 years](https://www.reddit.com/r/askSingapore/comments/1qkg6bq/advice_needed_moving_out_after_5_years_agents/); [TA inventory tips](https://www.reddit.com/r/askSingapore/comments/zmcmh7/what_to_look_for_in_a_tenancy_agreement_when/); [deposit from overseas](https://www.reddit.com/r/askSingapore/comments/1n36t6r/landlord_refusing_to_return_deposit_what_can_i_do/)).
+- r/askSingapore — incorporate / nominee director / EP as resident director / DP LOC renewals ([which visa to start company on EP](https://www.reddit.com/r/askSingapore/comments/1762o0u/which_visa_will_allow_me_to_start_a_company_in/); [incorporating in Singapore](https://www.reddit.com/r/askSingapore/comments/1e77aq4/incorporating_in_singapore/); [self-sponsor EP timeline](https://www.reddit.com/r/askSingapore/comments/1bhqar4/creating_a_company_to_selfsponsor_ep_timeline/); [DP LOC → own Pte Ltd EP](https://www.reddit.com/r/askSingapore/comments/1qq3zsf/advice_on_starting_business_in_singapore/); [PR asked to be nominee director](https://www.reddit.com/r/askSingapore/comments/159tuzx/foreign_employer_asking_me_to_become_company/)).
+- r/askSingapore — MDW insurance / SIP / medical bill shock (adjacency on MDW upgrade) ([helper medical issues](https://www.reddit.com/r/askSingapore/comments/18slzmu/what_should_i_do_if_newly_joined_domestic_helper_has/); [maid dental](https://www.reddit.com/r/askSingapore/comments/11x7jut/maid_dental_treatment/); [how much for helper](https://www.reddit.com/r/askSingapore/comments/17kh6qm/how_much_for_a_domestic_helper/); [abusive employer / SIP booklet](https://www.reddit.com/r/askSingapore/comments/193d0pr/abusive_employer/)).
+
+**Official**
+
+- [MOM — Appeal rejected EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/appeal-against-a-rejected-application) + [Apply / IPA / issue the pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass/) + [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool) + [Secondary directorship LOC](https://www.mom.gov.sg/passes-and-permits/employment-pass/taking-up-secondary-directorship).
+- [CASE — CPFTA & Lemon Law](https://www.case.org.sg/cpfta-lemon-law/) + [Submit a complaint](https://www.case.org.sg/submit-a-complaint/) + [MTI Lemon Law advisory](https://www.mti.gov.sg/resources/laws-and-regulations/general-advisory-on-amendments-to-the-consumer-protection-fair-trading-act-and-hire-purchase-act/) + [CCCS seeking compensation](https://www.ccs.gov.sg/get-in-touch/for-consumers/seeking-compensation/).
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [Judiciary SCT eligibility](https://www.judiciary.gov.sg/civil/cases-eligible-small-claim).
+- [ACRA — Foreigner requirements](https://www.acra.gov.sg/register/business/requirements-eligibility/) + [Directors & officers](https://www.acra.gov.sg/register/business/registering-different-business-structures/local-company/appointing-company-directors-other-key-officers/) + [Register local company](https://www.acra.gov.sg/register/business/registering-different-business-structures/local-company/).
+- [MOM — MDW insurance](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/insurance-requirements) + [Settling-in Programme](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/eligibility-and-requirements/settling-in-programme-sip).
+
+### Gaps vs Tick 1–16
+
+Tick 1–16 covered packages, DP LOC, waitlists, heartland, leaving/IR21, PR/MediShield/CareShield/DPS, MDW (thin on **enhanced MI ≥S$60k + SIP 7-day clock**), diplomatic clause/SCT (thin on **inventory / fair-wear make-good**), insurance/maternity/Baby Bonus, preschool, banks/CPF/credit cards/RSU, licence conversion, clubs, SIM/Singpass/scams, pets, IRAS/foreign income/COR, short-stay/FWTES, MOE P1/AEIS, LTVP, EP/COMPASS/FCF (thin on **rejection appeal + IPA medical issuance**), healthcare/HSA/dental/vaccination, remittance/PayNow recovery, S Pass, Customs GST, Student’s Pass/Tuition Grant, career pivots/TADM/leave/harassment/FWA/retrenchment, SimplyGo, aircon/mould, SRS, haze, ABSD/HDB, STVP, PEP/ONE/Tech.Pass, EntrePass (thin on **ACRA/CSP/resident director vs pass**), COE/car, JB, dengue, year-one finance, furnishing, condo noise, mental health, SEN, paediatrician, stay-vs-exit, ActiveSG, groceries, hawker, dating, volunteering, camps, passport embassy, NLB/museums, shipping out, wardrobe, nightlife/vaping, nationality/religious/chambers/hash, SP/OEM, moonlighting, overseas remote, apostille, lost EP card, stamp duty, ROM/divorce/PPO, newborn/LOG, REP, probate/death/LPA, cycling, IVF, visit-pass, paternity/SPL, WHP/TEP. Remaining high-intent gaps matched forum heat: **EP appeal/IPA**, **CASE/Lemon Law**, **fair wear inventory**, **foreigner incorporation**, MDW insurance/SIP.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx`
+- `content/guides/life/case-lemon-law-consumers-singapore.mdx`
+- `content/guides/home/rental-inventory-fair-wear-tear.mdx`
+- `content/guides/move/incorporate-company-foreigner-singapore.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/move/employment-pass-singapore.mdx`
+- `content/guides/move/entrepass-singapore.mdx`
+- `content/guides/move/side-income-freelance-work-pass.mdx`
+- `content/guides/home/security-deposit-diplomatic-clause.mdx`
+- `content/guides/home/furnishing-rental-flat.mdx`
+- `content/guides/home/hiring-domestic-helper-mdw.mdx` (enhanced MI + SIP)
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json`
+- `content/entities/services/comfort-employment.json`
+- `content/entities/services/era-realty.json`
+- `content/entities/services/family-law-expat.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not re-litigate Tick 1–16 topics beyond the EP-appeal/IPA, CASE/lemon-law, inventory/fair-wear, incorporation, and MDW insurance/SIP adjacency gaps above.
+
+---
+
 ## Tick 16 — 2026-09-15
 
 ### Sources mined
