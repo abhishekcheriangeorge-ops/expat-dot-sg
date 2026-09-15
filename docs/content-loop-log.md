@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 18)
+
+Branch: `loop/story-aeo-tick18` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#69/#73/#82/#84). Avoided open merge-controller H file sets (#87 H14, #93 H15, #98 H16, #102 H17). Prefer merge order **#87 → #93 → #98 → #102** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “first-gen PR NS exemption” folklore; citizenship vs dual-passport chats; ex-PR EP horror stories.
+- r/askSingapore / r/singaporefi — week-one Singpass failures on IPA alone; 30-day housing drift; day-90 still “temporary.”
+- r/askSingapore — IR21 final-pay freeze; one-month IRAS notice; resigning into a thin balance.
+
+**Official**
+
+- [ICA — Singapore Citizenship](https://www.ica.gov.sg/reside/citizenship) + [CMPB](https://www.cmpb.gov.sg/) + [ICA — Becoming a PR](https://www.ica.gov.sg/reside/PR).
+- [Singpass](https://www.singpass.gov.sg/) + [MOM work passes](https://www.mom.gov.sg/passes-and-permits) + [ICA](https://www.ica.gov.sg/).
+- [IRAS — Tax clearance (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees).
+
+### Gaps vs open H + ticks 1–17
+
+Open: #87 (shopping / arts / cycling), #93 (pets / EP / job changes), #98 (after-PR / EP renewal / PR strategy), #102 (STVP / leaving / PR rejection). Remaining high-intent FAQ-free gaps: **citizenship + NS modelling**, **7/30/90 relocation sequencing**, **IR21 tax clearance**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/citizenship-ns-implications.mdx` (direct lead + FAQPage)
+- `content/guides/move/relocation-checklist-7-30-90.mdx` (direct lead + FAQPage)
+- `content/guides/next/tax-clearance-when-leaving.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Move relocation topic href/blurb; Next citizenship blurb + IR21 topic)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #87/#93/#98/#102 guide bodies.
+
+### Questions mined (sample)
+
+1. Does Singapore PR automatically mean my son must serve National Service?
+2. Should we accept PR if we are unsure about NS for our sons?
+3. Is Singapore citizenship dual-friendly?
+4. Can an ex-PR who renounced to avoid NS get an Employment Pass later?
+5. Where do I verify NS rules for my family?
+6. What should I finish in the first 7 days after landing?
+7. What belongs in the first 30 days of a Singapore move?
+8. What should be stable by day 90?
+9. Do I need Singpass in week one?
+10. Is this checklist a substitute for employer onboarding?
+11. What is IR21 tax clearance when leaving Singapore?
+12. How much notice must my employer give IRAS before I leave?
+13. Why is my final salary frozen when I resign?
+14. Do Singapore citizens need IR21 tax clearance?
+15. What should I do before my last day for tax clearance?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 17)
 
 Branch: `loop/story-aeo-tick17` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#69/#73). Avoided open merge-controller H file sets (#82 H12, #84 H13, #87 H14, #93 H15, #98 H16). Prefer merge order **#82 → #84 → #87 → #93 → #98** before this lands. No ads / monetization; no Grok copy.
