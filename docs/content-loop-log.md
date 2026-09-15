@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 15)
+
+Branch: `cursor/loop-d-next-polish-tick15-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — movers at the door, service lift not booked, MCST deposit forgotten during IR21 freeze.
+- r/askSingapore — PR refused; “email ICA” folklore vs appeal e-Service; identical refile six weeks later.
+- r/askSingapore — condo landlord will not clear FWTES; hotel/Airbnb as EP address; 5-day MOM clock panic.
+
+**Official**
+
+- [Singapore Customs — Personal shipment](https://www.customs.gov.sg/personal-shipment/) · [IRAS — Tax clearance (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees)
+- [ICA — Appeal for SC / PR / LTVP](https://www.ica.gov.sg/reside/reside-appeals) · [ask.gov.sg — appeal after PR rejection](https://ask.gov.sg/ica/questions/clxwhkiyp00hudsotw6rtl2oh)
+- [MOM — Notify MOM of EP updates](https://www.mom.gov.sg/passes-and-permits/employment-pass/notify-mom-of-changes) · [FWTES](https://www.mom.gov.sg/eservices/services/tes) · [OFWAS](https://www.mom.gov.sg/eservices/services/ofwas)
+
+### Gaps vs open stack
+
+Open #83→#89→#99→#114→#123 own NS Exit / PRSEP / renounce-PR NS; EP-death DP / SC cooling-off / LPA fees; WICA / training-bond / SAL e-Apostille; CPF witnesses / REP ETD / COMPASS firm scores; IR21 RSU freeze / lost-pass overseas / EP salary-cut DP cascade. Remaining high-intent **Next** gaps: **ship-out condo lift & deposits**, **PR appeal evidence vs reapply**, **EP address / FWTES 5-day clock**.
+
+### Shipped
+
+**New:** `shipping-out-condo-lift-deposit-singapore.mdx`, `pr-rejection-appeal-evidence-reapply-singapore.mdx`, `ep-address-fwtes-five-day-clock-singapore.mdx`
+
+**Upgraded:** `shipping-out-household.mdx`, `pr-rejection-reapply.mdx`, `ecoa-nric-address-change-singapore.mdx` (cross-links only); `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No #83 / #89 / #99 / #114 / #123 guide bodies.
+- Did not edit Move notify parent body (companion links out to it).
+
+### Questions mined
+
+1. How many days ahead must I book the condo service lift for movers?
+2. Do MCSTs take a refundable deposit for outbound moves?
+3. How do I sequence pack-out day against IR21 salary freeze?
+4. Can I appeal a PR rejection by emailing ICA?
+5. Who files the PR appeal — sponsor or applicant?
+6. What evidence belongs on appeal vs a fresh reapply?
+7. Should I open a second PR file while appealing?
+8. How many days do I have to update my EP residential address with MOM?
+9. What is FWTES and why does my condo block the address update?
+10. Can I register a hotel or Airbnb as my EP address?
+11. Is MOM address update the same as ICA eCOA for NRIC?
+12. Does the 5-day clock pause while the landlord fixes FWTES?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 14)
 
 Branch: `cursor/loop-d-next-polish-tick14-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (beyond linking to existing Move salary-notify parent). Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114).

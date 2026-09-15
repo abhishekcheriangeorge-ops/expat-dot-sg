@@ -649,6 +649,21 @@ export const pillars: Pillar[] = [
         blurb: "New passport ≠ auto REP — ICA transfer before you fly.",
       },
       {
+        label: "Ship-out lift & deposits",
+        href: "/guides/shipping-out-condo-lift-deposit-singapore",
+        blurb: "MCST lift booking, move-out deposits, pack-out vs IR21 freeze.",
+      },
+      {
+        label: "PR appeal vs reapply evidence",
+        href: "/guides/pr-rejection-appeal-evidence-reapply-singapore",
+        blurb: "Appeal e-Service only — what belongs on appeal vs fresh file.",
+      },
+      {
+        label: "EP address / FWTES 5-day",
+        href: "/guides/ep-address-fwtes-five-day-clock-singapore",
+        blurb: "MOM 5-day address clock — landlord FWTES blockers ≠ eCOA.",
+      },
+      {
         label: "After getting PR",
         href: "/guides/after-getting-pr-checklist",
         blurb: "What transfers and what you leave behind.",

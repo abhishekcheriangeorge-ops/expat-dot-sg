@@ -64,9 +64,9 @@ export default function EditorialPolicyPage() {
             sponsorship and aged-parent PR vs LTVP, spouse LTVP / PMLA and
             PLOC / LOC work rights, student PR national-exam row, EP job-loss
             → spouse LTVP bridges, Right of Entry for under-21 dual-passport
-            SCs, citizenship confirmation letters, IR21 final-pay / RSU
-            withholding, lost work-pass overseas / re-entry letters, EP
-            salary-cut DP/LTVP cascades, EP renewal NOA / document
+            SCs, citizenship confirmation letters, ship-out condo lift /
+            deposits, PR appeal evidence vs reapply, EP address / FWTES
+            5-day clocks, EP renewal NOA / document
             asks, Re-Entry Permit rules and passport transfers, citizenship
             application and ORAL, adult SC renunciation, NRIC loss /
             address / re-registration / name change, NS, exits). When agencies
