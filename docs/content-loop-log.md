@@ -6,6 +6,69 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 16) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick16-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next body trees beyond a cross-link on driving-licence conversion. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), #108 (grandparents/bilingual homework/youth volunteering), and #115 (school-holiday coverage/IS CCA/teen internships).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — dual-career mock/final week chaos; quiet-house rules; sibling coverage.
+- r/askSingapore — IS PTA / class-rep WhatsApp politics; volunteer belonging vs unpaid labour.
+- r/askSingapore — teen provisional licence / conversion myths / Grab-vs-drive household fights.
+
+**Official**
+
+- [MOE national exams](https://www.moe.gov.sg/secondary/national-examinations) + [SEAB](https://www.seab.gov.sg/) + [IB assessment](https://www.ibo.org/programmes/diploma-programme/assessment-and-exams/).
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub).
+- [LTA learning to drive](https://www.lta.gov.sg/content/ltagov/en/getting_around/driving_in_singapore/learning_to_drive_and_getting_a_licence.html) + [foreign licence conversion](https://www.lta.gov.sg/content/ltagov/en/getting_around/driving_in_singapore/foreign_driving_licence_conversion.html) + [probationary licence](https://www.lta.gov.sg/content/ltagov/en/getting_around/driving_in_singapore/probationary_driving_licence.html).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–15 (incl. open #80/#91/#100/#108/#115) covered schools/SEN through teen internships. Remaining heat: **exam-week dual-career coverage**, **IS parent-association/class-rep belonging**, **teen driving independence ops**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/exam-week-coverage-dual-career-singapore.mdx`
+- `content/guides/belong/international-school-parent-association-belonging-singapore.mdx`
+- `content/guides/family/teen-driving-independence-singapore.mdx`
+
+**Upgraded guides** (low-conflict vs open B stack)
+
+- parenting communities, religious communities, book/hiking, healthcare GP, paternity leave, dental, LGBTQ resources, converting foreign driving licence
+- `src/lib/site.ts` (Family + Belong topic rails)
+
+**Entity depth**
+
+- `content/entities/clubs/swiss-club.json`
+- `content/entities/clubs/japanese-association.json`
+- `content/entities/clubs/german-association.json`
+- `content/entities/services/parkway-shenton.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not rewrite open #80 / #91 / #100 / #108 / #115 bodies; avoided contested files in that stack where possible.
+
+### Questions mined (sample)
+
+1. Who is on-call during HL maths week if both EPs travel?
+2. Should we pause CCA in mock season?
+3. Is class-rep the fastest parent belonging rail?
+4. How much PTA volunteer time is sustainable for two full-time jobs?
+5. Does a US teen licence convert, or start fresh?
+6. When should night-driving privileges start on a P-plate?
+7. Can exam weeks and driving lessons coexist?
+8. What household rules prevent first-month disasters?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 15) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick15-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light clubs/schools entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped open-stack topics in #80 (myopia/swim/cooking), #91 (parental burnout/UCAS/youth sports academies), #100 (primary transition/IS boarding/youth performing arts), and #108 (grandparents/bilingual homework/youth volunteering).

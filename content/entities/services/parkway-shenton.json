@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "parkway-shenton",
   "name": "Parkway Shenton",
-  "summary": "GP clinic network linked to Parkway hospitals \u2014 practical for insured families who want a clear private pathway and meds continuity after HSA import.",
-  "body": "Parkway Shenton clinics pair naturally with Mount Elizabeth / Gleneagles / Parkway East pathways for many corporate plans. Verify your insurer\u2019s panel list rather than assuming every Parkway site bills identically. Use a clinic near home for ordinary illness and know which private hospital A&E your plan prefers after hours. Before elective procedures at Parkway hospitals, confirm Letter of Guarantee limits and ward-class pro-ration with your insurer so you are not surprised by a five-figure deposit desk. New arrivals who landed with HSA-approved controlled meds should book early for local refill plans \u2014 Singapore brand names and formulary availability often differ from home. Maternity packages and newborn admin are separate projects from GP registration \u2014 see the maternity and newborn-pass guides. For mental health, assume outpatient psychiatry/psychology/counselling is carved out of group medical until HR confirms otherwise \u2014 see the mental-health counselling category guide for private vs IMH foreigner-fee maths. Good fit when you want private-speed primary care without assembling a random clinic from Google Maps on day three. Private clinic networks often host or refer physiotherapy and optical partners \u2014 verify AHPC/OOB registration and whether your outpatient rider reimburses allied health separately from GP consults before bundling rehab into a package.",
+  "summary": "GP clinic network linked to Parkway hospitals — practical for insured families who want a clear private pathway and meds continuity after HSA import.",
+  "body": "Parkway Shenton clinics pair naturally with Mount Elizabeth / Gleneagles / Parkway East pathways for many corporate plans. Verify your insurer’s panel list rather than assuming every Parkway site bills identically. Use a clinic near home for ordinary illness and know which private hospital A&E your plan prefers after hours. Before elective procedures at Parkway hospitals, confirm Letter of Guarantee limits and ward-class pro-ration with your insurer so you are not surprised by a five-figure deposit desk. New arrivals who landed with HSA-approved controlled meds should book early for local refill plans — Singapore brand names and formulary availability often differ from home. Maternity packages and newborn admin are separate projects from GP registration — see the maternity and newborn-pass guides. For mental health, assume outpatient psychiatry/psychology/counselling is carved out of group medical until HR confirms otherwise — see the mental-health counselling category guide for private vs IMH foreigner-fee maths. Good fit when you want private-speed primary care without assembling a random clinic from Google Maps on day three. Private clinic networks often host or refer physiotherapy and optical partners — verify AHPC/OOB registration and whether your outpatient rider reimburses allied health separately from GP consults before bundling rehab into a package. Stress presentations during mock/final seasons and new-driver households are common GP touchpoints — keep clinic continuity before crisis week.",
   "category": "clinics",
   "areasServed": [
     "Islandwide"
@@ -21,15 +21,16 @@
   ],
   "officialLinks": [
     {
-      "label": "HSA \u2014 Bringing personal medication into Singapore",
+      "label": "HSA — Bringing personal medication into Singapore",
       "url": "https://www.hsa.gov.sg/consumer-safety/bringing-personal-medication-into-singapore"
     },
     {
-      "label": "MOH \u2014 Mental health services",
+      "label": "MOH — Mental health services",
       "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
     }
   ],
   "relatedGuides": [
+    "exam-week-coverage-dual-career-singapore",
     "healthcare-gp-hospital",
     "health-insurance-expat",
     "bringing-medication-singapore-hsa",
