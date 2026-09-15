@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "oncology-cancer",
+  "name": "Oncology and cancer care",
+  "summary": "How expats navigate cancer diagnosis, staging, medical oncology, radiation, and survivorship follow-up across Singapore public cancer centres and private oncology practices — including insurance and second-opinion logistics.",
+  "body": "A cancer workup in Singapore usually starts with a GP or organ specialist (breast, GI, lung, gynae, urology, ENT) who orders imaging and biopsy, then refers to medical oncology, surgical oncology, or radiation oncology. Expats may also arrive mid-treatment from overseas and need continuity within weeks.\n\n## Care pathways\n- **Diagnosis & staging** — biopsy, CT/PET/MRI, molecular markers where relevant\n- **Multidisciplinary tumour boards** — common in major centres for complex cases\n- **Treatment modalities** — surgery, chemotherapy, immunotherapy, targeted therapy, radiotherapy, palliative care\n- **Survivorship** — surveillance scans, late-effect monitoring, return-to-work planning\n\nPublic centres (National Cancer Centre Singapore, NUH Cancer Centre, TTSH and partners) deliver high-volume evidence-based care with subsidy pathways for eligible residents. Permanent residents and citizens access different fee structures than Employment Pass holders — confirm your status at registration. Private oncology at Parkway, Mount Elizabeth, Gleneagles, Farrer Park, and independent centres offers faster starts and often English-first care coordination, at higher out-of-pocket cost.\n\n## Insurance reality\nCancer is where policy wording matters most. Check whether your Integrated Shield + rider or international plan covers:\n- Outpatient chemo/immunotherapy (often the largest recurring cost)\n- PET staging and molecular tests\n- Proton or advanced radiotherapy if recommended\n- Second opinions and overseas evacuation if you prefer treatment at home\n\nPre-authorisation is routine. Do not start a private regimen assuming retrospective approval. Keep pathology reports and staging letters for claims.\n\n## Second opinions and continuity\nSingapore oncologists are accustomed to overseas second opinions. Bring disks or cloud links for imaging, full pathology (not just summaries), and prior chemo roadmaps. If you will continue treatment abroad, ask for a transfer summary with drug names, cumulative doses, and next due cycles.\n\n## How to choose\nMatch the disease site to centre volume when possible (breast, colorectal, lung, haemato-oncology). Ask who coordinates nurse navigation, fertility preservation before gonadotoxic therapy, and palliative support. For paediatric or AYA cancers, confirm age-appropriate teams rather than adult-only clinics.\n\n## Practical tip\nNominate one family member as the logistics lead for appointments and claims. Treatment calendars are dense; a shared spreadsheet of cycle dates, blood-test windows, and insurer case numbers reduces missed authorisations.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nccs.com.sg/",
+  "whenToEngage": "After a suspicious imaging or biopsy result, when you need staging or treatment planning, when continuing overseas cancer therapy in Singapore, or when reviewing insurance coverage before starting chemo or radiotherapy.",
+  "officialLinks": [
+    {
+      "label": "National Cancer Centre Singapore",
+      "url": "https://www.nccs.com.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

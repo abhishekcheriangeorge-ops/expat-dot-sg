@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "translation-interpreting",
+  "name": "Translation and interpreting services",
+  "summary": "How expats commission certified translation and interpreting in Singapore for ICA submissions, school applications, employment contracts, medical records, and court or notary use — without mixing up casual bilingual help and sworn-style certification.",
+  "body": "Singapore runs primarily in English, but expats still need formal translation when documents arrive in another language — marriage certificates, police clearances, academic transcripts, medical reports, and powers of attorney.\n\n## Common use cases\n- **ICA / MOM / MFA-adjacent filings** — foreign civil documents may need English translations with translator particulars\n- **School and university applications** — transcripts and recommendation letters\n- **Employment and tenancy** — when HQ contracts are not in English\n- **Medical** — overseas records for specialists; discharge summaries for insurers\n- **Court, notary, and apostille packages** — translations that sit beside notarised copies\n\nAgencies and freelance certified translators differ in turnaround and whether they provide a stamp, affidavit, or letterhead declaration. Ask the receiving institution what format they accept before you pay for courtroom-grade work you do not need — or under-specify and get rejected.\n\n## Interpreting vs translation\nTranslation is written. Interpreting is spoken (consecutive or simultaneous) for medical consults, school meetings, police interviews, or business negotiations. Medical interpreting should use professionals familiar with clinical vocabulary — family bilingual help is not a substitute when consent or diagnosis is at stake.\n\n## How to choose\nPrefer translators who list language pairs clearly, show sample certification language, and can meet ICA-style identity blocks (name, contact, statement of competence, signature, date). For rare languages, expect longer lead times. Legal and medical texts should go to specialists in those domains, not generalists quoting by the page alone.\n\n## Practical tip\nSend scanned colour copies early and confirm whether names must match passport romanisation exactly. Keep editable source files when you may need minor corrections after a case officer rejects a spelling. Bundle translation with notarisation or apostille only when the destination country requires that stack — see the document guide.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.ica.gov.sg/",
+  "whenToEngage": "When a government agency, school, employer, insurer, or court requires English versions of foreign-language documents, or when you need a professional interpreter for medical, legal, or official meetings.",
+  "officialLinks": [
+    {
+      "label": "ICA",
+      "url": "https://www.ica.gov.sg/"
+    },
+    {
+      "label": "Ministry of Foreign Affairs — consular",
+      "url": "https://www.mfa.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "document-apostille-notary-singapore",
+    "passports-and-documents-overseas",
+    "emergencies-995-999-embassies"
+  ],
+  "featured": false,
+  "sponsored": false
+}

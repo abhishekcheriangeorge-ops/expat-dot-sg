@@ -1,0 +1,29 @@
+{
+  "type": "service",
+  "slug": "plastic-reconstructive",
+  "name": "Plastic and reconstructive surgery",
+  "summary": "How expats find board-certified plastic and reconstructive surgeons in Singapore for post-trauma repair, cancer reconstruction, scar revision, and elective aesthetic procedures — with clear medical vs cosmetic framing.",
+  "body": "Plastic surgery in Singapore spans reconstructive work (medically indicated) and aesthetic procedures (elective). Expats should separate the two for insurance, consent, and surgeon selection.\n\n## Reconstructive indications\n- Breast reconstruction after mastectomy\n- Skin cancer excision with local or free-flap repair\n- Hand trauma, tendon, and nerve repair (often shared with orthopaedic hand teams)\n- Burn scar contracture release\n- Congenital differences and complex wound coverage\n- Post-weight-loss body contouring when medically documented\n\nThese pathways often start from oncology, orthopaedics, dermatology, or A&E. Public hospital plastic surgery departments handle major reconstruction; private consultants may offer earlier elective reconstructive slots.\n\n## Aesthetic / elective\nRhinoplasty, blepharoplasty, facelift, liposuction, and similar procedures are widely available in private practice. Marketing can be loud — prioritise SMC-registered specialists in plastic surgery, facility accreditation, and realistic photography over social-media volume. Anaesthesia should be delivered in appropriately licensed day-surgery or hospital settings.\n\n## Insurance and consent\nReconstructive procedures tied to cancer, trauma, or functional impairment may attract partial coverage; pure aesthetic work almost never does. Get written itemised quotes (surgeon, anaesthetist, facility, implants/meshes, follow-up). Ask about revision policies before paying deposits.\n\n## How to choose\nVerify specialist registration, hospital admitting rights for larger cases, and complication pathways. For reconstruction after cancer, prefer surgeons who sit in tumour-board pathways with your oncologist. For aesthetic work, insist on in-person consults, cooling-off time, and clear discussion of risks in your language.\n\n## Practical tip\nAvoid combining medical tourism haste with major elective surgery in the first weeks after landing — swelling follow-up, suture removal, and early complications are harder if you immediately travel again. Build at least local follow-up into the plan.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": "When you need reconstruction after cancer or trauma, scar or wound problems your GP cannot manage, or you are evaluating elective aesthetic surgery and want specialist-credentialled care with clear facility standards.",
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,25 @@
+{
+  "type": "service",
+  "slug": "pet-grooming-boarding",
+  "name": "Pet grooming and boarding",
+  "summary": "How expats find dog and cat grooming, daycare, and boarding in Singapore for humid-climate coats, condo living, and travel absences — including licensing expectations and handover habits that keep pets safe.",
+  "body": "Once your pet is through AVS import and settled at home, routine care shifts to grooming, daycare, and boarding. Singapore's heat and humidity make coat, skin, and nail care more frequent than in temperate climates, and condo living increases demand for daycare when owners work long hours.\n\n## Grooming\nSalons and mobile groomers handle baths, haircuts, deshedding, nail trims, and sanitary clips. Ask about cage-free vs kennel dryers, vaccine requirements, and how they handle anxiety or senior pets. First visits often include a temperament assessment. Cats need groomers experienced with feline handling — do not assume a dog salon is interchangeable.\n\n## Daycare and boarding\nDaycare suits dogs that need weekday stimulation. Boarding covers flights and hospital stays. Visit the facility: check ventilation, cleaning routines, separation of reactive animals, and emergency vet protocols. Ask whether medication can be administered and how updates are sent (photos, apps, calls).\n\nLicensed boarding and some animal premises fall under AVS rules — prefer operators who can explain their licensing and maximum occupancy rather than informal Facebook-only hosts for multi-day stays.\n\n## Pricing and peak periods\nSchool holidays, Christmas, and Chinese New Year book out weeks ahead. Reserve boarding when you book flights. Grooming prices vary by breed coat and behaviour; get written quotes for double coats and de-matting.\n\n## How to choose\nLook for clear vaccine policies (usually DHPP/FVRCP and rabies as applicable, plus kennel cough for dogs in group care), insured premises, and staff who ask about diet and medication instead of only Instagram aesthetics. Trial half-days before a long board.\n\n## Practical tip\nLeave a written sheet with feeding amounts, emergency contacts, vet clinic preference, and your flight itinerary. Microchip numbers and AVS licence details should be on file. For anxious pets, a familiar towel and gradual daycare ramp-up beat a sudden ten-day board.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nparks.gov.sg/avs",
+  "whenToEngage": "When your imported pet needs routine grooming in the tropics, weekday daycare, or licensed boarding while you travel — especially before peak holiday periods.",
+  "officialLinks": [
+    {
+      "label": "NParks Animal & Veterinary Service",
+      "url": "https://www.nparks.gov.sg/avs"
+    }
+  ],
+  "relatedGuides": [
+    "importing-pets-singapore",
+    "pets-daily-life-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -1,0 +1,30 @@
+{
+  "type": "service",
+  "slug": "nephrology-kidney",
+  "name": "Nephrology and kidney care",
+  "summary": "How expats find kidney specialists for hypertension-related kidney disease, chronic kidney disease monitoring, dialysis planning, and transplant follow-up under Singapore hospital and private clinic pathways.",
+  "body": "Kidney care sits at the intersection of primary care, cardiology, and endocrine control of blood pressure and diabetes. Expats often arrive after a home-country diagnosis of chronic kidney disease (CKD), proteinuria, or recurrent kidney stones — or after a GP flags rising creatinine on a routine panel.\n\n## What nephrologists manage\n- CKD staging and slowing progression (blood pressure, glucose, ACE/ARB or newer agents as appropriate)\n- Glomerular disease workup when urine protein or blood is unexplained\n- Dialysis modality counselling (haemodialysis vs peritoneal) when eGFR declines\n- Transplant evaluation and post-transplant immunosuppression follow-up for patients already grafted overseas\n- Recurrent stones with metabolic workup beyond one-off urology lithotripsy\n\nUrology remains the first stop for acute obstruction, stones needing intervention, and surgical kidney issues — nephrology owns medical kidney disease and long-term filtration decline.\n\n## Public vs private\nPublic hospital nephrology (NUH, SGH, TTSH, CGH, KTPH and partners) runs multidisciplinary CKD clinics and dialysis units. Waiting times vary; bring prior labs, imaging, and medication lists. Private nephrologists at specialist centres and Gleneagles / Mount Elizabeth / Farrer Park / Parkway East clusters offer faster first visits and easier evening slots — useful when you need a second opinion before a home-country trip or before starting a pregnancy with known CKD.\n\nDialysis is a major cost and logistics decision. Confirm whether your Integrated Shield or international policy covers chronic dialysis and vascular access surgery before choosing a unit. Tourist or short-visit dialysis slots exist but must be booked early and are rarely identical to home-country machines or schedules.\n\n## Medication and monitoring\nMany CKD drugs are tightly dose-adjusted for eGFR. Keep a printed med list and latest labs when you travel. HSA rules still apply for controlled substances — see the medication import guide. Ask whether your nephrologist will share results with your overseas physician for continuous care.\n\n## How to choose\nPrefer board-certified nephrologists with clear CKD clinic pathways, dietitian access, and transparent dialysis affiliate relationships. Ask how they coordinate with cardiology and endocrinology when diabetes or heart failure coexists. For stone-heavy histories, confirm metabolic clinic follow-up rather than procedure-only care.\n\n## Practical tip\nBring three months of labs (creatinine, eGFR, urine ACR, electrolytes) and blood-pressure logs to the first visit. If you are on transplant meds, carry the protocol letter — Singapore pharmacists may need specialist confirmation before dispensing certain immunosuppressants.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": "When creatinine or eGFR trends worry your GP, you have known CKD or transplant history, recurrent stones need metabolic workup, or you must plan dialysis or pregnancy with reduced kidney function.",
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "National Kidney Foundation Singapore",
+      "url": "https://www.nkfs.org/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}
