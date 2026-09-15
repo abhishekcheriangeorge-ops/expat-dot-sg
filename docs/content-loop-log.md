@@ -6,6 +6,45 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 35)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick35-49cb` → PR to `main` (fresh worktree off `origin/main` @ `28add19`; while [#143](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/143)–[#257](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/257) A17–A34 stay open — **did not** wait for merges/CI and **did not** edit those paths). Prefer merge order **#143 → … → #248 → #257 → this**.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore / r/singapore — unpaid “internships” on tourist/STVP; DP unpaid experience seats; charity-office volunteering myths.
+- r/SingaporeRaw / r/askSingapore — CDP + broker KYC after EP issuance; US-person broker refusals; SRS-vs-cash confusion.
+- r/askSingapore — USD home-country payroll while on EP; SoF freezes; equalisation ≠ IRAS waiver folklore.
+
+**Official**
+
+- [MOM — Training Employment Pass](https://www.mom.gov.sg/passes-and-permits/training-employment-pass) / [Work Holiday Pass](https://www.mom.gov.sg/passes-and-permits/work-holiday-programme) / [Misc. Work Pass](https://www.mom.gov.sg/passes-and-permits/miscellaneous-work-pass)
+- [SGX CDP](https://www.sgx.com/securities/retail-investor/cdp-overview) / [MAS investor alert](https://www.mas.gov.sg/investor-alert)
+- [IRAS — employment income](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/employment-income) / [MOM EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility)
+
+### Gaps vs prior Loop A ticks
+
+Open A17–A34 claim every existing Move/Money MDX on `main`. Tick 35 **adds three new guides** (FAQ-complete) instead of re-editing open-stack paths: unpaid internship/volunteer pass rules, brokerage/CDP for foreigners, USD/offshore EP payroll.
+
+### Shipped this loop
+
+- `content/guides/move/unpaid-internship-volunteer-work-pass-singapore.mdx` (new, 6 FAQs)
+- `content/guides/money/brokerage-cdp-account-foreigners-singapore.mdx` (new, 6 FAQs)
+- `content/guides/money/usd-offshore-payroll-employment-pass.mdx` (new, 6 FAQs)
+- Move + Money hub topics added; log prepended
+
+### Explicitly not done
+
+- No ads/monetization expansion / no Grok / no force-push to main.
+
+---
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 48)
 
 Branch: `loop/story-aeo-tick48` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 47 (`loop/story-aeo-tick47` @ `fc7072e` / [#286](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/286)). Avoided open merge-controller H file sets (#117–#286 H20–H47). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286** before this lands. No ads / monetization; no Grok copy; no force-push main.
