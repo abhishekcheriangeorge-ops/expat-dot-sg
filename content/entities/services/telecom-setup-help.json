@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "telecom-setup-help",
   "name": "Telco & utilities setup (category guide)",
-  "summary": "Singtel / StarHub / M1 / Circles-style onboarding plus SP Group power-water — the week-one stack that unblocks Singpass SMS, banks, and MOM, then ScamShield hardening.",
-  "body": "New arrivals hit the same sequence: travel or prepaid SIM on passport → stable Singapore number → Singpass → postpaid/eSIM once FIN and MyInfo clear. IPA alone often fails for long-term contracts; keep topping up prepaid and port later. Photograph meters on key collection, confirm whether the landlord keeps utility accounts, and book fibre with an access window. Basement carparks and older walk-ups vary by network — ask neighbours, not just the mall kiosk. Once the Singapore number is live, install ScamShield and treat bank/police WhatsApp threads as hostile until verified in official apps — FIN holders are frequent phishing targets. Pair this entity with the utilities-telecom and scams-Singpass guides for the full chicken-and-egg playbook. A working Singapore number is also KYC fuel for bank onboarding — keep the prepaid/postpaid paperwork that proves the number is yours when salary-account applications ask for local contact evidence. Family ops note: dual-career PH coverage and orientation SMS alerts both need working local SIMs on both phones — do not leave one parent on roaming WhatsApp only.",
+  "summary": "Singtel / StarHub / M1 / Circles-style onboarding plus SP Group power-water \u2014 the week-one stack that unblocks Singpass SMS, banks, and MOM, then ScamShield hardening.",
+  "body": "New arrivals hit the same sequence: travel or prepaid SIM on passport \u2192 stable Singapore number \u2192 Singpass \u2192 postpaid/eSIM once FIN and MyInfo clear. IPA alone often fails for long-term contracts; keep topping up prepaid and port later. Photograph meters on key collection, confirm whether the landlord keeps utility accounts, and book fibre with an access window. Basement carparks and older walk-ups vary by network \u2014 ask neighbours, not just the mall kiosk. Once the Singapore number is live, install ScamShield and treat bank/police WhatsApp threads as hostile until verified in official apps \u2014 FIN holders are frequent phishing targets. Pair this entity with the utilities-telecom and scams-Singpass guides for the full chicken-and-egg playbook. A working Singapore number is also KYC fuel for bank onboarding \u2014 keep the prepaid/postpaid paperwork that proves the number is yours when salary-account applications ask for local contact evidence. Family ops note: dual-career PH coverage and orientation SMS alerts both need working local SIMs on both phones \u2014 do not leave one parent on roaming WhatsApp only. Family ops: coding-academy waiting rooms are a weekly belonging rail \u2014 put the class window on the shared calendar, not on ad-hoc data top-ups alone.",
   "category": "other",
   "areasServed": [
     "Islandwide"
@@ -11,8 +11,8 @@
   "featured": false,
   "sponsored": false,
   "whenToEngage": [
-    "Week-one SIM → Singpass → postpaid chicken-and-egg",
-    "Landlord keeps utilities — need meter photos",
+    "Week-one SIM \u2192 Singpass \u2192 postpaid chicken-and-egg",
+    "Landlord keeps utilities \u2014 need meter photos",
     "Need ScamShield hardening after number is live",
     "Need local number paperwork for bank KYC"
   ],
@@ -26,7 +26,7 @@
       "url": "https://www.scamshield.org.sg/"
     },
     {
-      "label": "SP Group — Utilities",
+      "label": "SP Group \u2014 Utilities",
       "url": "https://www.spgroup.com.sg/our-services/utilities"
     }
   ],
@@ -35,6 +35,7 @@
     "scams-singpass-phishing-expats",
     "opening-bank-account-expat",
     "dual-career-public-holiday-school-closed-coverage-singapore",
-    "international-school-orientation-week-dual-career-singapore"
+    "international-school-orientation-week-dual-career-singapore",
+    "coding-academy-waiting-parent-belonging-singapore"
   ]
 }
