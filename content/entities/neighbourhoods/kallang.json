@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "kallang",
+  "name": "Kallang",
+  "summary": "Central-east sports and stadium belt with Kallang Wave / indoor complex gravity, older HDB pockets, and shorter CBD hops than Tampines — block-level variance is everything.",
+  "body": "Kallang sits on the central-east seam where stadiums, the indoor sports hub, and older HDB estates meet newer condo inserts toward the Kallang River. Expats shortlist it for ActiveSG / sports access and shorter CBD rides than far-east towns — not for Holland V café density. Housing mixes mature HDB, walk-ups, and newer condos; rents sit under River Valley for similar bedroom counts if you accept estate variance. Walk weeknights: event traffic, riverside humidity, and occasional pipe / road works chatter show up in forum threads. Compare with Bendemeer for quieter residential stacks beside the same broad catchment, Potong Pasir for quieter NELine-adjacent living, and Geylang when food density matters more than sports infrastructure.",
+  "region": "east",
+  "vibe": [
+    "sports-hub",
+    "central-east",
+    "mixed-stock",
+    "event-adjacent",
+    "value-vs-rv"
+  ],
+  "bestFor": [
+    "renters who want ActiveSG / stadium access",
+    "central-east CBD hops without Orchard rents",
+    "households okay vetting older HDB vs new condo pockets",
+    "car-light lives near Kallang MRT catchments"
+  ],
+  "watchOuts": [
+    "Event-day traffic and crowd spikes",
+    "Block-level variance — walk twice before LOI",
+    "Older mains / pipe-work seasons in mature pockets",
+    "Fewer default expat lobby networks than River Valley"
+  ],
+  "housingMix": "Mature HDB and walk-ups with newer condo inserts toward the river / stadium belt.",
+  "commuteNotes": "Circle / Downtown / East-West adjacency depending on exact block (Kallang, Stadium, Mountbatten, Dakota catchments). Test an event-evening door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3400,
+    "familyFrom": 2800,
+    "familyTo": 4500
+  },
+  "mrt": [
+    "Kallang",
+    "Stadium"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
