@@ -590,12 +590,12 @@ export const pillars: Pillar[] = [
       {
         label: "EP renewals",
         href: "/guides/ep-renewal-strategy",
-        blurb: "Timing, COMPASS, age bands — plus NOA document asks.",
+        blurb: "Age-band floors, SAT, COMPASS — last year is not a lock.",
       },
       {
         label: "PR strategy",
         href: "/guides/pr-application-strategy",
-        blurb: "Eligibility signals, timelines, and realistic odds.",
+        blurb: "Discretionary ICA factors — no public points calculator.",
       },
       {
         label: "Spouse & parent PR",
@@ -670,7 +670,7 @@ export const pillars: Pillar[] = [
       {
         label: "After getting PR",
         href: "/guides/after-getting-pr-checklist",
-        blurb: "What transfers and what you leave behind.",
+        blurb: "HR/CPF, Singpass NRIC swap, MediShield, and first REP.",
       },
     ],
     related: [

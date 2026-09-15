@@ -6,6 +6,65 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 16)
+
+Branch: `loop/story-aeo-tick16` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#69 H10, #73 H11, #82 H12, #84 H13, #87 H14, #93 H15). Prefer merge order **#69 → #73 → #82 → #84 → #87 → #93** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “I just got PR — what now?” FIN→NRIC Singpass bounce; CPF take-home shock; first REP stamps.
+- r/askSingapore — EP renewal age-band salary panic; SAT vs last year’s approval; S Pass downgrade forks.
+- r/singapore / LinkedIn folklore — fake PR points calculators; “wait 2 years then apply”; agency guarantees.
+
+**Official**
+
+- [ICA — Becoming a Permanent Resident](https://www.ica.gov.sg/reside/PR) + [CPF contributions](https://www.cpf.gov.sg/employer/employer-obligations/how-much-cpf-contributions-to-pay) + [MOH MediShield Life](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life/).
+- [MOM — Renew an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/renew-a-pass) + [eligibility / COMPASS](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) + [SAT](https://www.mom.gov.sg/eservices/services/employment-s-pass-self-assessment-tool).
+- [CMPB — National Service](https://www.cmpb.gov.sg/).
+
+### Gaps vs open H + ticks 1–15
+
+Open: #69 (Student Pass / LTVP / REP), #73 (apps / COE vs Grab / REP transfer), #82 (hawker / annual admin / weekend getaways), #84 (dating / climate wear / nightlife), #87 (shopping / arts / cycling), #93 (pets / EP / job changes). Remaining high-intent Next FAQ-free gaps: **after-PR day-one admin**, **EP renewal strategy**, **PR application discretion**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/after-getting-pr-checklist.mdx` (direct lead + FAQPage)
+- `content/guides/next/ep-renewal-strategy.mdx` (direct lead + FAQPage)
+- `content/guides/next/pr-application-strategy.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Next EP-renewal / PR-strategy / after-PR blurbs)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #69/#73/#82/#84/#87/#93 guide bodies.
+
+### Questions mined (sample)
+
+1. Am I a PR as soon as ICA emails in-principle approval?
+2. What should I do in the first week after the blue NRIC?
+3. Does take-home pay drop after PR?
+4. Do I still need private health insurance after PR?
+5. Can I leave Singapore immediately after getting PR?
+6. When should HR start my Employment Pass renewal?
+7. Does last year’s EP approval guarantee this year’s renewal?
+8. Do bonuses count toward the EP renewal salary floor?
+9. Do renewals still need COMPASS points?
+10. What if my renewal looks weak?
+11. Is there a points calculator that guarantees Singapore PR?
+12. How long does a PR application take?
+13. Do I need a minimum salary to apply for PR on an EP?
+14. Should I apply every six months until I get PR?
+15. What should families model before celebrating PR approval?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 15)
 
 Branch: `loop/story-aeo-tick15` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#78 tip). Avoided open merge-controller H file sets (#69 H10, #73 H11, #82 H12, #84 H13, #87 H14). Prefer merge order **#69 → #73 → #82 → #84 → #87** before this lands. No ads / monetization; no Grok copy.
