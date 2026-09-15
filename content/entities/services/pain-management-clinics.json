@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.moh.gov.sg/",
-  "whenToEngage": "When back, nerve, joint, or post-surgical pain persists after GP and organ-specialist workup, when you need interventional options, or when cancer/palliative pain needs specialist titration.",
+  "whenToEngage": [
+    "Chronic back or nerve pain after ortho/neuro clearance",
+    "Considering injections or interventional pain options",
+    "Cancer or post-surgical pain needs specialist titration",
+    "Insurer coverage for outpatient pain procedures unclear"
+  ],
   "officialLinks": [
     {
       "label": "Ministry of Health",

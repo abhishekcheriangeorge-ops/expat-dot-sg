@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://onemotoring.lta.gov.sg/",
-  "whenToEngage": "Before buying a used car, when you need reliable servicing outside dealer warranty, after an accident when choosing repair pathways, or when an EV/hybrid needs specialist diagnostics.",
+  "whenToEngage": [
+    "Independent PPI before buying a used COE car",
+    "Out-of-warranty servicing — dealer vs indie workshop",
+    "Post-accident repair pathway and insurer panel choices",
+    "EV/hybrid diagnostics need high-voltage competent shop"
+  ],
   "officialLinks": [
     {
       "label": "OneMotoring (LTA)",

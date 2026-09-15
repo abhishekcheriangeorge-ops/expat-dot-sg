@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.moe.gov.sg/",
-  "whenToEngage": "When you want structured coding/robotics enrichment, a trial holiday camp, or STEM portfolio support that matches your child's school pathway — not as a substitute for core maths remediation.",
+  "whenToEngage": [
+    "Choosing coding/robotics enrichment vs core maths tutoring",
+    "Trial holiday STEM camp before annual contract",
+    "IB/IG/AP computer-science pathway portfolio support",
+    "Large prepaid academy package sold without a trial class"
+  ],
   "officialLinks": [
     {
       "label": "Ministry of Education",

@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.moh.gov.sg/",
-  "whenToEngage": "When fever or infection is prolonged, travel-related, recurrent, antibiotic-resistant, HIV-related, or too complex for GP-only management — especially after tropical exposure or hospital discharge.",
+  "whenToEngage": [
+    "Prolonged or post-travel fever beyond GP workup",
+    "Recurrent or antibiotic-resistant infections",
+    "HIV / PrEP complexity or opportunistic infection concerns",
+    "Tropical exposure (dengue complications, soil/flood) needs ID input"
+  ],
   "officialLinks": [
     {
       "label": "Ministry of Health",

@@ -9,7 +9,12 @@
     "Islandwide"
   ],
   "website": "https://www.moh.gov.sg/",
-  "whenToEngage": "When varicose veins cause symptoms or skin changes, after a DVT/PE workup needs venous follow-up, when leg ulcers or claudication appear, or before buying cosmetic vein packages.",
+  "whenToEngage": [
+    "Symptomatic varicose veins or skin changes on the legs",
+    "Post-DVT venous follow-up after travel clot scare",
+    "Leg ulcers or claudication need vascular assessment",
+    "Quoted cosmetic vein package before duplex ultrasound"
+  ],
   "officialLinks": [
     {
       "label": "Ministry of Health",
