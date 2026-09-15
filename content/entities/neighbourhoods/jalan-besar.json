@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "jalan-besar",
+  "name": "Jalan Besar",
+  "summary": "DTL-adjacent food and creative belt between Lavender and Farrer Park — late kitchens, older walk-ups, and condo inserts with nightlife spillover as the tax.",
+  "body": "Jalan Besar is the shortlist when late-kitchen energy and city-fringe rents matter more than mall living. Housing mixes older shophouse walk-ups, boutique condos, and estate edges toward Lavender / Bendemeer; weekend nightlife and food crowds are the tax. Expats land here for CBD-adjacent hops, independent F&B, and a slightly calmer feel than Bugis retail crush. Compare with Little India for deeper cultural-belt density, Rochor for DTL interchange convenience, and Lavender when you want EWL optionality with similar older-stock texture.",
+  "region": "central",
+  "vibe": [
+    "food-belt",
+    "late-kitchens",
+    "creative-fringe",
+    "older-stock",
+    "nightlife-spillover"
+  ],
+  "bestFor": [
+    "car-light couples who want food density without Orchard rents",
+    "households okay with late-kitchen and weekend energy",
+    "condo renters who will book MA lift slots for moves",
+    "people testing city-fringe before River Valley premiums"
+  ],
+  "watchOuts": [
+    "Weekend nightlife and food crowd spikes",
+    "Block-level variance in MCST move-in ops",
+    "Humidity and older-stock maintenance fights",
+    "Not a quiet heartland default"
+  ],
+  "housingMix": "Older walk-ups and shophouse edges with boutique condo inserts.",
+  "commuteNotes": "Walk or short bus/MRT hop via Lavender (EWL/DTL), Farrer Park (NEL), or Bendemeer; test a Friday 20:30 street-level walk before you assume quiet nights.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2300,
+    "oneBedTo": 3800,
+    "familyFrom": 3100,
+    "familyTo": 5200
+  },
+  "mrt": [
+    "Lavender",
+    "Farrer Park",
+    "Bendemeer"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "little-india",
+  "name": "Little India",
+  "summary": "NEL/DTL cultural belt north of Rochor — spice markets, late kitchens, and mixed condo/walk-up stock with festival and weekend crowd taxes.",
+  "body": "Little India is the shortlist when North-East / Downtown Line access and Serangoon Road food density matter more than polished Orchard living. Housing mixes older walk-ups, boutique condos, and estate edges toward Rochor / Farrer Park; Deepavali and weekend market crowds are the tax. Expats land here for car-light CBD hops, vegetarian / Indian-Muslim food gravity, and rents below River Valley. Compare with Rochor for a slightly tighter DTL interchange feel, Jalan Besar for late-kitchen energy without the deepest tourist crush, and Farrer Park when you want a calmer residential edge one stop away.",
+  "region": "central",
+  "vibe": [
+    "nel",
+    "dtl",
+    "cultural-belt",
+    "food-density",
+    "weekend-crowds"
+  ],
+  "bestFor": [
+    "car-light workers who want NEL/DTL optionality",
+    "households who cook less and walk to food belts",
+    "renters okay with festival and weekend footfall",
+    "people who will book ActiveSG indoor courts instead of trusting condo halls"
+  ],
+  "watchOuts": [
+    "Deepavali and weekend market crush",
+    "Block-level noise on major roads",
+    "Older MCST move-in / lift-booking variance",
+    "Not a quiet heartland default"
+  ],
+  "housingMix": "Older walk-ups, boutique condos, and estate edges toward Rochor / Farrer Park.",
+  "commuteNotes": "North-East and Downtown Line access via Little India / Rochor / Farrer Park cluster; test a Sunday market-hour walk and a Tuesday 08:15 door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2400,
+    "oneBedTo": 3900,
+    "familyFrom": 3200,
+    "familyTo": 5400
+  },
+  "mrt": [
+    "Little India",
+    "Rochor",
+    "Farrer Park"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
