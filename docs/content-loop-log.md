@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 29)
+
+Branch: `cursor/loop-d-next-polish-tick29-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move parents for Dependant’s Pass, trailing-partner careers, S Pass, and EP vs S Pass. Avoided open Loop D file sets through [#230](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/230).
+
+**Merge order note (controller):** `#215 → #222 → #230 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — DP kid “just renew past 21” / Student Pass folklore.
+- r/askSingapore — raise then “HR will convert S Pass to EP.”
+- r/askSingapore — LOC year-2 refusal after solo consultancy with no local hire.
+
+**Official**
+
+- [MOM — Dependant’s Pass eligibility](https://www.mom.gov.sg/passes-and-permits/dependants-pass/eligibility) · [LOC for DP business owners](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/eligibility) · [Renew / cancel / replace LOC](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/renew-cancel-or-replace)
+- [MOM — EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · [S Pass eligibility](https://www.mom.gov.sg/passes-and-permits/s-pass/eligibility) · [Fair Consideration Framework](https://www.mom.gov.sg/employment-practices/fair-consideration-framework)
+- [ICA — Student’s Pass](https://www.ica.gov.sg/reside/student)
+
+### Gaps vs open stack
+
+Open #215→#222→#230 cover DP re-sponsor / STP work hours / SRS exit; LTVP→EP / mid-year school knock-ons / insurance exit bridge; common-law LTVP pack / AEIS vs hold / STVP medical gap. Remaining high-intent gaps off that path set: **DP child aging out at 21**, **S Pass → EP in-country upgrade**, **DP LOC renewal CPF pack**.
+
+### Shipped
+
+**New:** `dp-child-aging-out-21-pass-options-singapore.mdx`, `s-pass-to-ep-upgrade-in-singapore.mdx`, `dp-loc-renewal-local-hire-cpf-pack-singapore.mdx`
+
+**Upgraded:** Dependant’s Pass, trailing-partner careers, S Pass, EP vs S Pass (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #215 / #222 / #230 guide bodies; no re-edit of those parents (changing-jobs EP, Student’s Pass, SRS; PLOC/LTVP, international schools, health-insurance-expat; AEIS, local schools, between-jobs STVP, document apostille).
+- Did not wait for CI or merges on prior tips.
+
+### Questions mined
+
+1. Can we renew DP for a 21st birthday semester?
+2. Is Student’s Pass automatic when DP ends?
+3. Does a raise auto-convert S Pass to EP?
+4. What if EP is refused while I am still on S Pass?
+5. Does “no EP quota” block conversion forever?
+6. Can I renew LOC without hiring a local?
+7. How many CPF months do I need before LOC renewal?
+8. Should I keep invoicing while LOC is pending?
+9. Does ACRA shareholding alone clear renewal?
+10. When should we start the aging-out runway?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 28)
 
 Branch: `cursor/loop-d-next-polish-tick28-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Family / Next parents for AEIS, STVP, and apostille. Avoided open Loop D file sets from [#215](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/215) / [#222](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/222).
