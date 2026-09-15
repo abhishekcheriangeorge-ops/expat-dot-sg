@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import { Breadcrumbs } from "@/components/seo";
+import type { BreadcrumbItem } from "@/lib/seo";
 
 type FeaturedBadgeProps = {
   /** When true, render the Phase 5 monetization badge */
@@ -40,6 +42,7 @@ type DirectoryHeroProps = {
   title: string;
   description: string;
   meta?: ReactNode;
+  crumbs?: BreadcrumbItem[];
 };
 
 export function DirectoryHero({
@@ -47,6 +50,7 @@ export function DirectoryHero({
   title,
   description,
   meta,
+  crumbs,
 }: DirectoryHeroProps) {
   return (
     <header className="relative overflow-hidden border-b border-fog-soft">
@@ -55,6 +59,7 @@ export function DirectoryHero({
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_0%_0%,color-mix(in_srgb,var(--canopy-mist)_22%,transparent),transparent_50%),radial-gradient(ellipse_at_100%_20%,color-mix(in_srgb,var(--tungsten)_10%,transparent),transparent_40%)]"
       />
       <div className="relative mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8 sm:py-20">
+        {crumbs?.length ? <Breadcrumbs items={crumbs} className="mb-6" /> : null}
         <p className="text-xs font-semibold uppercase tracking-[0.16em] text-canopy-mist">
           {eyebrow}
         </p>

@@ -6,6 +6,37 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 2)
+
+Branch: `loop/seo-crosslinks-tick2c` → PR to `main`. Owns shell/metadata/hubs/light cross-links only. Did **not** rewrite A–F/H guide bodies; skipped ads / Grok; left Loop G tick 1 pillar topic + guide relatedGuides work alone.
+
+### Gaps closed
+
+- Root layout forced `canonical: "/"` onto every child route that lacked its own `alternates` — removed so page-owned canonicals win.
+- Directory / journeys / tools / calendar hubs still used title+description only (no OG/Twitter/canonical via `buildPageMetadata`).
+- Mode hubs and directory indexes lacked breadcrumbs + CollectionPage JSON-LD.
+- Neighbourhood / school / club detail pages lacked BreadcrumbList trails and pillar back-links (orphan risk).
+- Thin reciprocal shell links: Money↔tools, Next↔leaving playbook, journeys↔Arriving/Move/Next, tools↔guides.
+
+### Shipped this loop
+
+- `src/app/layout.tsx` — drop inherited homepage canonical
+- Hub indexes — `buildPageMetadata` + breadcrumbs + CollectionPage where useful (neighbourhoods, schools, clubs, directory + categories, journeys + arriving + leaving + phases, tools + COL/EP/setup-cash/lease-duty, calendar)
+- `ModeHub` — breadcrumbs + CollectionPage JSON-LD
+- `DirectoryHero` — optional `crumbs`
+- Detail pages — breadcrumbs + pillar reciprocal links
+- `PillarPage` — featured “browse all” deep-links to `/guides#pillar-*`
+- `site.ts` — Money related → tools; Next related → leaving playbook
+- Homepage — `buildPageMetadata` spread for OG url/canonical while keeping absolute title
+
+### Explicitly not done / notes for other loops
+
+- No mass `relatedGuides` frontmatter reciprocity edits.
+- Skipped advertise / sponsored surfaces (ads).
+- No A–F/H guide body rewrites.
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 5)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick5` (rebased onto latest main after Loop H pets FAQPage).

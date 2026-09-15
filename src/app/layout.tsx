@@ -46,9 +46,8 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  alternates: {
-    canonical: "/",
-  },
+  // Canonicals are page-owned via buildPageMetadata / page exports.
+  // A root "/" canonical would incorrectly inherit onto child routes.
 };
 
 export const viewport: Viewport = {

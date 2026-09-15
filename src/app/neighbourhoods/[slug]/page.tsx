@@ -7,14 +7,14 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
-import { JsonLd } from "@/components/seo";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   NEIGHBOURHOOD_REGION_LABELS,
   getNeighbourhoods,
   getEntityBySlug,
   type Neighbourhood,
 } from "@/lib/content";
-import { buildPageMetadata } from "@/lib/seo";
+import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -74,18 +74,34 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
   return (
     <article>
       <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "Place",
-          name: n.name,
-          description: n.summary,
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: n.name,
-            addressCountry: "SG",
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Neighbourhoods", path: "/neighbourhoods" },
+            { name: n.name, path: `/neighbourhoods/${slug}` },
+          ]),
+          {
+            "@context": "https://schema.org",
+            "@type": "Place",
+            name: n.name,
+            description: n.summary,
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: n.name,
+              addressCountry: "SG",
+            },
           },
-        }}
+        ]}
       />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
+        <Breadcrumbs
+          items={[
+            { name: "Home", path: "/" },
+            { name: "Neighbourhoods", path: "/neighbourhoods" },
+            { name: n.name, path: `/neighbourhoods/${slug}` },
+          ]}
+        />
+      </div>
       <DetailHero
         eyebrow="Neighbourhood"
         title={n.name}
@@ -143,12 +159,20 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
       ) : null}
 
       <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
-        <Link
-          href="/neighbourhoods"
-          className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
-        >
-          ← All neighbourhoods
-        </Link>
+        <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <Link
+            href="/neighbourhoods"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            ← All neighbourhoods
+          </Link>
+          <Link
+            href="/home"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Home pillar →
+          </Link>
+        </p>
       </nav>
     </article>
   );

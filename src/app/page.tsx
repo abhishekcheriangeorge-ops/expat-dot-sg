@@ -5,28 +5,20 @@ import { JsonLd } from "@/components/seo";
 import {
   SITE_DESCRIPTION,
   SITE_TAGLINE,
+  buildPageMetadata,
   organizationJsonLd,
   websiteJsonLd,
 } from "@/lib/seo";
 
 export const metadata: Metadata = {
+  ...buildPageMetadata({
+    title: `expat.sg — ${SITE_TAGLINE}`,
+    description: SITE_DESCRIPTION,
+    path: "/",
+  }),
   title: {
     absolute: `expat.sg — ${SITE_TAGLINE}`,
   },
-  description: SITE_DESCRIPTION,
-  openGraph: {
-    title: `expat.sg — ${SITE_TAGLINE}`,
-    description: SITE_DESCRIPTION,
-    type: "website",
-    images: ["/opengraph-image"],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `expat.sg — ${SITE_TAGLINE}`,
-    description: SITE_DESCRIPTION,
-    images: ["/opengraph-image"],
-  },
-  alternates: { canonical: "/" },
 };
 
 export default function HomePage() {

@@ -2,20 +2,55 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { ArrivingPhaseNav, JourneyHero } from "@/components/journeys";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { getChecklists } from "@/lib/content";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  collectionPageJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildPageMetadata({
   title: "Arriving checklists",
   description:
     "Singapore expat arriving checklists for the first 7, 30, and 90 days — pass, bank, housing, school, belonging.",
-};
+  path: "/journeys/arriving",
+});
 
 export default async function ArrivingJourneysPage() {
   const checklists = await getChecklists();
   const phases = ["day-7", "day-30", "day-90"] as const;
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Journeys", path: "/journeys" },
+    { name: "Arriving", path: "/journeys/arriving" },
+  ];
 
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          collectionPageJsonLd({
+            name: "Arriving checklists",
+            description:
+              "7 / 30 / 90 day checklists for landing in Singapore.",
+            path: "/journeys/arriving",
+            items: phases
+              .map((phase) => checklists.find((x) => x.phase === phase))
+              .filter(Boolean)
+              .map((c) => ({
+                name: c!.title,
+                path: `/journeys/arriving/${c!.phase}`,
+              })),
+          }),
+        ]}
+      />
+      <div className="border-b border-fog-soft">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
+          <Breadcrumbs items={crumbs} />
+        </div>
+      </div>
       <JourneyHero
         eyebrow="Arriving"
         title="The first 90 days, in three lists."
@@ -25,6 +60,12 @@ export default async function ArrivingJourneysPage() {
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
         <FadeIn className="mb-12 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+          <Link
+            href="/arriving"
+            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Arriving mode hub →
+          </Link>
           <Link
             href="/guides/first-week-sim-singpass-bank"
             className="font-medium text-canopy no-underline underline-offset-4 hover:underline"

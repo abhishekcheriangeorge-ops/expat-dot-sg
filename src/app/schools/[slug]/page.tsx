@@ -8,9 +8,13 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
-import { JsonLd } from "@/components/seo";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { getEntityBySlug, getSchools } from "@/lib/content";
-import { buildPageMetadata, localBusinessJsonLd } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  localBusinessJsonLd,
+} from "@/lib/seo";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -55,16 +59,32 @@ export default async function SchoolDetailPage({ params }: Props) {
   return (
     <article>
       <JsonLd
-        data={{
-          ...localBusinessJsonLd({
-            name: s.name,
-            description: s.summary,
-            path: `/schools/${slug}`,
-            url: s.website,
-          }),
-          "@type": "EducationalOrganization",
-        }}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Schools", path: "/schools" },
+            { name: s.name, path: `/schools/${slug}` },
+          ]),
+          {
+            ...localBusinessJsonLd({
+              name: s.name,
+              description: s.summary,
+              path: `/schools/${slug}`,
+              url: s.website,
+            }),
+            "@type": "EducationalOrganization",
+          },
+        ]}
       />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
+        <Breadcrumbs
+          items={[
+            { name: "Home", path: "/" },
+            { name: "Schools", path: "/schools" },
+            { name: s.name, path: `/schools/${slug}` },
+          ]}
+        />
+      </div>
       <DetailHero
         eyebrow="School"
         title={s.name}
@@ -119,12 +139,20 @@ export default async function SchoolDetailPage({ params }: Props) {
       </section>
 
       <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
-        <Link
-          href="/schools"
-          className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
-        >
-          ← All schools
-        </Link>
+        <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <Link
+            href="/schools"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            ← All schools
+          </Link>
+          <Link
+            href="/family"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Family pillar →
+          </Link>
+        </p>
       </nav>
     </article>
   );

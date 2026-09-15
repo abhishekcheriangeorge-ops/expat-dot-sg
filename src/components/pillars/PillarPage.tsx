@@ -152,7 +152,7 @@ export async function PillarPage({ slug }: PillarPageProps) {
               {guides.length > featured.length ? (
                 <p className="mt-6">
                   <Link
-                    href="/guides"
+                    href={`/guides#pillar-${slug}`}
                     className="text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline"
                   >
                     Browse all {guides.length} {pillar.label} guides →

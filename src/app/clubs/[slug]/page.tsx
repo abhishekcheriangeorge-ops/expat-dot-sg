@@ -8,13 +8,17 @@ import {
   FeaturedBadge,
   ProseSection,
 } from "@/components/directory";
-import { JsonLd } from "@/components/seo";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   CLUB_CATEGORY_LABELS,
   getClubs,
   getEntityBySlug,
 } from "@/lib/content";
-import { buildPageMetadata, localBusinessJsonLd } from "@/lib/seo";
+import {
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  localBusinessJsonLd,
+} from "@/lib/seo";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -55,13 +59,29 @@ export default async function ClubDetailPage({ params }: Props) {
   return (
     <article>
       <JsonLd
-        data={localBusinessJsonLd({
-          name: c.name,
-          description: c.summary,
-          path: `/clubs/${slug}`,
-          url: c.website,
-        })}
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Clubs", path: "/clubs" },
+            { name: c.name, path: `/clubs/${slug}` },
+          ]),
+          localBusinessJsonLd({
+            name: c.name,
+            description: c.summary,
+            path: `/clubs/${slug}`,
+            url: c.website,
+          }),
+        ]}
       />
+      <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
+        <Breadcrumbs
+          items={[
+            { name: "Home", path: "/" },
+            { name: "Clubs", path: "/clubs" },
+            { name: c.name, path: `/clubs/${slug}` },
+          ]}
+        />
+      </div>
       <DetailHero
         eyebrow="Clubs & communities"
         title={c.name}
@@ -96,12 +116,20 @@ export default async function ClubDetailPage({ params }: Props) {
       </section>
 
       <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
-        <Link
-          href="/clubs"
-          className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
-        >
-          ← All clubs & communities
-        </Link>
+        <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <Link
+            href="/clubs"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            ← All clubs & communities
+          </Link>
+          <Link
+            href="/belong"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Belong pillar →
+          </Link>
+        </p>
       </nav>
     </article>
   );
