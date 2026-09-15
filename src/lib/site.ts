@@ -209,12 +209,12 @@ export const pillars: Pillar[] = [
       {
         label: "Student’s Pass work limits",
         href: "/guides/student-pass-singapore",
-        blurb: "Vacation work exemption ≠ open labour market; LOE ≠ EP.",
+        blurb: "Term-time caps; no auto EP after grad; deferral/school-change traps.",
       },
       {
         label: "LTVP for partners & parents",
         href: "/guides/ltvp-singapore",
-        blurb: "Not a DP; parent salary lane; work rights depend on product.",
+        blurb: "Not a DP; S$12k parent floor; common-law ≠ soft DP.",
       },
       {
         label: "ONE Pass",
@@ -378,7 +378,7 @@ export const pillars: Pillar[] = [
       {
         label: "CPF withdrawal when leaving",
         href: "/guides/cpf-withdrawal-leaving-singapore",
-        blurb: "EP had no CPF; PR cash-out only after status ends.",
+        blurb: "Close only after SC/PR ends; housing CPF & mistaken EP credits.",
       },
       {
         label: "Cost of living",
