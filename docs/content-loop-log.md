@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 2)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money`.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — EP cancel → STVP 30 vs 90 / single-entry / notice travel ([EP resignation STVP](https://www.reddit.com/r/askSingapore/comments/1ttedbd/ep_question_on_resignation_stvp/); [EP cancellation → STVP approval](https://www.reddit.com/r/askSingapore/comments/1jk7dy7/ep_cancellation_stvp_approval/); [working after EP expired](https://www.reddit.com/r/askSingapore/comments/1hdcxx0/working_after_ep_expired/); [STVP after unemployment](https://www.reddit.com/r/askSingapore/comments/1dmqy7z/short_term_visit_pass_expat/); [LTVP after losing job](https://www.reddit.com/r/askSingapore/comments/1q66ra7/getting_an_ltvp_after_losing_job/)).
+- r/askSingapore — DP cascade / LOC renewal local-hire / DP career trap ([EP spouse dies → DP](https://www.reddit.com/r/askSingapore/comments/1lp737m/if_ep_holding_spouse_dies_is_dp_immediately/); [spouse work on DP](https://www.reddit.com/r/askSingapore/comments/1obgpqo/can_spouse_work_while_on_a_dependent_pass/); [DP career trap](https://www.reddit.com/r/askSingapore/comments/1ranfcm/spouse_got_a_dream_job_offer_in_singapore_but_the/); [LOC renewal / start business](https://www.reddit.com/r/askSingapore/comments/1qq3zsf/advice_on_starting_business_in_singapore/); [content creation on work pass](https://www.reddit.com/r/askSingapore/comments/1p4cjd6/if_an_work_pass_holder_made_income_from_content/)).
+- r/askSingapore — PayNow FIN vs mobile / recycled prepaid / Wise QR ([foreigner peer-to-peer PayNow](https://www.reddit.com/r/askSingapore/comments/1n84kwi/how_can_foreigners_use_peertopeer_paynow/); [someone using my number for PayNow](https://www.reddit.com/r/askSingapore/comments/111707y/someone_using_my_number_for_paynow/); [using PayNow as a foreigner](https://www.reddit.com/r/askSingapore/comments/1uetszj/using_paynow_as_a_foreigner_accepting_payments/); [PayNow/PayLah newbie](https://www.reddit.com/r/askSingapore/comments/zmcsg8/help_im_completely_foreign_to_paynowpaylah/)).
+- r/askSingapore — CPF withdrawal / Aussie super myth / PR leave ([CPF → Aussie super](https://www.reddit.com/r/askSingapore/comments/1jfnm56/transferring_singapore_cpf_to_australian/); [what to do with my CPF](https://www.reddit.com/r/askSingapore/comments/ji9hgb/what_to_do_with_my_cpf/); [giving up PR](https://www.reddit.com/r/askSingapore/comments/1k4yszc/giving_up_singapore_permanent_residency_and/); [becoming PR for CPF](https://www.reddit.com/r/askSingapore/comments/1fv0wa3/becoming_pr_and_cpf/); [large bank deposit SoF](https://www.reddit.com/r/askSingapore/comments/1i6cbc8/you_suddenly_deposit_1_mil_into_your_bank_account/)).
+
+**Official**
+
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [LOC eligibility](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/eligibility) + [LOC renew/cancel](https://www.mom.gov.sg/passes-and-permits/loc-for-dependants-pass-business-owners/renew-cancel-or-replace).
+- [ABS — PayNow](https://www.abs.org.sg/e-payments/pay-now) + [PayNow fact sheet](https://abs.org.sg/docs/library/paynow_factsheet.pdf).
+- [CPF Board — Closing account when leaving](https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore) + [online closure form](https://www.cpf.gov.sg/member/tools-and-services/forms-e-applications/apply-online-to-close-cpf-accounts-for-non-singapore-citizens-and-non-permanent-residents).
+
+### Gaps vs prior Loop A / ticks (Move + Money scope)
+
+Prior Loop A tick shipped EP floors / COMPASS clocks, EP vs S Pass, CBNI, no-FIN banking, remittance MPI/SoF, IR21 job-hop cashflow, group medical portability. Side-income / DP LOC overview and CPF myths already existed but were thin on **LOC renewal local-hire failure**, **EP-cancel DP cascade**, **PayNow FIN vs recycled mobile**, and **CPF account-closure ~12 weeks / no super pipe**. Between-jobs STVP deep guide remains Next-owned — Move guides now deep-link rather than fork.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/money/paynow-setup-foreigners-singapore.mdx`
+- `content/guides/money/cpf-withdrawal-leaving-singapore.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/move/dependant-pass-singapore.mdx` (LOC renewal LQS + EP-cancel DP cascade)
+- `content/guides/move/employment-pass-singapore.mdx` (cancel → ask 90-day STVP)
+- `content/guides/move/side-income-freelance-work-pass.mdx` (LOC renewal pointer)
+- `content/guides/move/trailing-partner-career-singapore.mdx` (LOC renewal failure forks)
+- `content/guides/money/cpf-and-foreigners.mdx`
+- `content/guides/money/opening-bank-account-expat.mdx`
+- `content/guides/money/remittances-singapore.mdx`
+- `content/guides/money/wrong-paynow-epayment-recovery.mdx`
+
+**Entity depth**
+
+- `content/entities/services/intact-immigration.json` (DP cascade / LOC renewal / STVP ask)
+
+### Explicitly not done
+
+- No ads/monetization expansion (did not touch remittance `sponsorSlot` enablement beyond existing).
+- No Grok / third-party clone copy.
+- Did not edit Family / Belong / Home / Life / Next heavily (between-jobs STVP, renouncing PR, tax-clearance remain Next-owned; Money/Move link out).
+
+### Questions mined (sample)
+
+1. Will HR auto-issue a 90-day STVP when my EP is cancelled, or do I have to ask?
+2. If my EP is cancelled, does my spouse’s DP drop immediately, and can the household stay on STVP?
+3. Can I take vacation / leave Singapore on notice and re-enter on the post-cancel STVP?
+4. My DP LOC renewal failed because I cannot hire a local — can I keep serving Singapore clients?
+5. Can a foreigner use peer-to-peer PayNow without a Singapore bank account?
+6. Why did my Wise/PayNow to my new prepaid number credit someone else’s bank?
+7. Should I link PayNow to FIN or mobile as an EP holder?
+8. Can I transfer CPF straight into Australian super when I leave?
+9. If I keep PR overseas, can I still withdraw CPF without renouncing?
+10. How long does CPF account closure take after I am no longer SC/PR?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15
 
 Branch: `loop/next-polish` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
