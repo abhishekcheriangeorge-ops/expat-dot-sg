@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 37)
+
+Branch: `loop/story-aeo-tick37` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#214 H20–H36). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PR rejected, can I email ICA / should I reapply in six weeks.
+- r/askSingapore — unpaid salary, I’ll file TADM after I fly home.
+- r/askSingapore — if I report harassment they will cancel my EP.
+
+**Official**
+
+- [ICA — Appeal for Citizenship / PR / LTVP](https://www.ica.gov.sg/reside/reside-appeals) + ask.gov.sg PR appeal FAQs.
+- [MOM — Managing employment disputes (TADM)](https://www.mom.gov.sg/employment-practices/managing-employment-disputes) + [TADM file a claim](https://www.tal.sg/tadm/eservices/employees-file-employment-claim).
+- [TAFEP — Seek help on workplace harassment](https://www.tal.sg/tafep/employment-practices/workplace-harassment/seek-help-on-workplace-harassment) + Tripartite Advisory PDF.
+
+### Gaps vs open H + ticks 1–36
+
+Open: #117–#214 H20–H36. Remaining free Next FAQ-free companions included **PR rejection appeal vs reapply evidence**, **TADM salary claim filing clocks**, **workplace harassment pass-fear plan**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/pr-rejection-appeal-evidence-reapply-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/tadm-salary-claim-ep-filing-clocks-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/workplace-harassment-pass-fear-plan-ep-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (PR appeal vs reapply + TADM clocks + harassment pass-fear topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#214 guide bodies.
+
+### Questions mined (sample)
+
+1. Can I appeal a Singapore PR rejection by email or at the counter?
+2. Who files the PR appeal on ICA’s e-Service?
+3. Should I appeal or submit a fresh PR application after refusal?
+4. Can I open a second PR application while one is pending or under appeal?
+5. Does ICA publish why my PR was rejected?
+6. How long do I have to file a TADM salary claim while still employed on an EP?
+7. What is the TADM clock after I leave employment?
+8. Does filing TADM extend my Employment Pass?
+9. What happens if TADM mediation does not settle?
+10. Should I wait until I leave Singapore to file unpaid-salary TADM?
+11. If I report workplace harassment on an EP, will MOM automatically cancel my pass?
+12. What should I do first if harassment puts me in immediate danger at work?
+13. When should I contact TAFEP instead of only HR?
+14. Can I resign immediately without notice because of harassment?
+15. What if I am dismissed after a good-faith harassment report?
+
+---
+
 ## Loop B — Family + Belong (tick 11) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick11-8971` → PR to `main`. Owns **Family** + **Belong** guides plus light schools/clubs/services entity depth. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next. Explicitly skipped ADHD / Mandarin / hiking (#51 tick 9) and braces / teen MH / playgroups (tick 10 restore PR from `cursor/loop-b-family-belong-tick9-8971`, formerly #62).

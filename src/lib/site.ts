@@ -599,6 +599,11 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility signals, timelines, and realistic odds.",
       },
       {
+        label: "PR rejection — appeal vs reapply",
+        href: "/guides/pr-rejection-appeal-evidence-reapply-singapore",
+        blurb: "Appeal e-Service only; refile when circumstances truly changed.",
+      },
+      {
         label: "Spouse & parent PR",
         href: "/guides/pr-for-spouse-singapore",
         blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
@@ -632,6 +637,16 @@ export const pillars: Pillar[] = [
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "Switching employers, industries, or going independent.",
+      },
+      {
+        label: "TADM salary claim clocks",
+        href: "/guides/tadm-salary-claim-ep-filing-clocks-singapore",
+        blurb: "Still-employed vs left-employment clocks; TADM ≠ EP extension.",
+      },
+      {
+        label: "Harassment + pass-fear plan",
+        href: "/guides/workplace-harassment-pass-fear-plan-ep-singapore",
+        blurb: "Report without assuming cancel — IPA / notice / TADM on purpose.",
       },
       {
         label: "Leaving Singapore",
