@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 11)
+
+Branch: `loop/story-aeo-tick11` → PR to `main`. Owns **answer-engine shape** after tick 8 on main while ticks 9–10 stay open. Did **not** expand ads/monetization; avoided open tick-9 files (EP notify / Lemon Law / lost NRIC) and tick-10 files (Student Pass / LTVP / REP).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “which apps day one,” PayNow to recycled prepaid numbers, ScamShield vs bank freezes.
+- r/askSingapore — Grab bill vs COE sticker shock; GetGo for JB weekends; foreign-licence conversion clock.
+- r/askSingapore — new passport then Changi PR clearance fail; REP transfer vs renewal mix-ups.
+
+**Official**
+
+- [Singpass](https://www.singpass.gov.sg/) + [ScamShield](https://www.scamshield.gov.sg/) + [ABS PayNow](https://www.abs.org.sg/e-payments/pay-now) + [NEA haze](https://www.nea.gov.sg/our-services/pollution-control/air-pollution/haze).
+- [LTA OneMotoring — COE](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/certificate-of-entitlement--coe-.html) + [vehicle tax structure](https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/tax-structure.html) + [SPF driving licence](https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence).
+- [ICA — Transfer of Re-Entry Permit / Update Travel Document](https://www.ica.gov.sg/reside/PR/transfer-REP).
+
+### Gaps vs ticks 1–10
+
+Ticks 1–8 on main cover landing/fail AEO through haze / motor claims / DP. Open tick 9 covers EP notify / Lemon Law / lost NRIC; open tick 10 covers Student Pass / LTVP / REP. Remaining high-intent **week-one ops / mobility / PR travel-doc** gaps without FAQPage: **apps stack**, **COE vs Grab/GetGo**, **REP transfer on new passport**.
+
+### Shipped this loop
+
+**Upgraded (AEO only)**
+
+- `content/guides/life/apps-that-matter-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/life/car-ownership-vs-sharing-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/transfer-rep-new-passport.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Life apps blurb + car topic; Next REP-transfer topic)
+
+### Explicitly not done
+
+- No ads / monetization (skipped health-insurance `sponsorSlot`).
+- No Grok / competitor clone copy.
+- Did not edit open tick-9/10 file sets.
+- Did not rewrite Loop A side-income or Loop D citizenship trees.
+
+### Questions mined (sample)
+
+1. What is the first app I should set up after landing?
+2. Should PayNow link to FIN or my new mobile number?
+3. Do I need Grab and every bank app in week one?
+4. Which haze app should I trust?
+5. Is ScamShield optional for EP holders?
+6. Is a car cheaper than S$1,000/month of Grab?
+7. What is a COE and how long does it last?
+8. Can I keep driving on a foreign licence?
+9. When does GetGo beat owning?
+10. Does REP transfer automatically when I renew my passport?
+11. Is transferring REP the same as renewing REP?
+12. What if I fly back on a new passport without transferring REP?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 10)
 
 Branch: `loop/story-aeo-tick10` → PR to `main`. Owns **answer-engine shape** after tick 7 on main while ticks 8–9 stay open. Did **not** expand ads/monetization; avoided open tick-8 files (haze / motor claims / DP / day-90) and tick-9 files (EP notify / Lemon Law / lost NRIC).
