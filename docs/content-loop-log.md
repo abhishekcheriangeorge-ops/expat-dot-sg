@@ -6,6 +6,82 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 5)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `loop/move-money-tick5` (rebased onto latest main after Loop H pets FAQPage).
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — PEP one-shot / overseas apply timing ([Pros and cons of PEP](https://www.reddit.com/r/askSingapore/comments/1hff5n2/pros_and_cons_of_personalized_employment_pass/); [Job Hunt and PEP overseas](https://www.reddit.com/r/askSingapore/comments/1dxd5ox/job_hunt_and_pep_when_to_apply_from_overseas/); [PEP + tech.pass](https://www.reddit.com/r/askSingapore/comments/n5ew8q/requirements_for_job_hunting_in_singapore_and/)).
+- r/askSingapore — IPA reassessment / postpone arrival ([What does EP reassessment mean?](https://www.reddit.com/r/askSingapore/comments/1izbe21/what_does_employment_pass_reassessment_mean/); [EP appeal chances](https://www.reddit.com/r/askSingapore/comments/1jehp27/job_offer_rejected_due_to_ep_issues_what_are_my/)).
+- r/askSingapore — COMPASS campus / SAT myths ([COMPASS university campus](https://www.reddit.com/r/askSingapore/comments/1q00yh8/question_about_employment_pass_compass_framework/)).
+- r/askSingapore — SRS exit withholding / early top-up trap ([SRS Investment](https://www.reddit.com/r/askSingapore/comments/13ogmnh/srs_investment/); [job-loss SRS](https://www.reddit.com/r/askSingapore/comments/187h2wf/in_light_of_losing_my_job_24_hours_ago_i_have_a/); [moving timing + SRS](https://www.reddit.com/r/askSingapore/comments/19b12g0/moving_to_sg_timing_for_income_tax_foreigner/)).
+- r/askSingapore — RSU/ESOP no-local-entity filing ([ESOP no local entity](https://www.reddit.com/r/askSingapore/comments/1it3g96/esop_tax_filing_but_my_company_does_not_have_a/); [RSU tax](https://www.reddit.com/r/askSingapore/comments/oh9u7v/do_i_have_to_pay_income_tax_on_rsus_as_part_of_my/)).
+- r/askSingapore — foreign income remittance myths + COL/helper stack ([income tax overseas](https://www.reddit.com/r/askSingapore/comments/16eeijh/income_tax_for_2024/); [family of 4](https://www.reddit.com/r/askSingapore/comments/1l8sdak/moving_to_sg_as_a_young_family_of_4/); [helper costs](https://www.reddit.com/r/askSingapore/comments/1llhf9w/opinions_on_getting_a_helper_in_singapore/)).
+- r/askSingapore — ACRA/nominee / self-sponsor EP myths ([which visa start company](https://www.reddit.com/r/askSingapore/comments/1762o0u/which_visa_will_allow_me_to_start_a_company_in/); [launching business](https://www.reddit.com/r/askSingapore/comments/1ejq9y5/expats_launching_a_business_in_singapore/)).
+- Pets transit-loophole FAQ only (Loop H tick 5 already shipped core pet FAQPage).
+
+**Official**
+
+- [MOM — PEP eligibility](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/eligibility)
+- [EDB — Tech.Pass](https://www.edb.gov.sg/en/incentives-and-programmes/incentives-and-facilitation-programmes/tech-pass.html)
+- [IRAS — Tax on SRS withdrawals](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/special-tax-schemes/tax-on-srs-withdrawals)
+- [IRAS — Income received from overseas](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/income-received-from-overseas) + [ESOP/ESOW e-Tax Guide](https://www.iras.gov.sg/docs/default-source/e-tax/etaxguides_iit_esop_2026-01-30.pdf)
+- [ACRA — Requirements for foreigners](https://www.acra.gov.sg/register/business/requirements-eligibility/)
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Ticks 1–4 shipped EP floors/COMPASS overview, EP vs S Pass, CBNI, remittance, IR21/medical portability, EP-cancel STVP / DP LOC / PayNow / CPF, FWTES, job-change IPA, HISA (Multiplier/OCBC/UOB), ≥1-year tax residency, EP medical, salary/occupation notify, CC GX, COR, LOG. Remaining high-intent gaps matched this mine: **PEP one-shot + overseas apply**, **Tech.Pass vs PEP FAQ**, **IPA reassessment**, **COMPASS SAT≠guarantee / campus FAQ**, **SRS foreigner withholding**, **RSU no-local-entity FAQ**, **foreign-income remittance myths**, **COL helper all-in**, **ACRA/self-sponsor myths**, plus **pets transit-loophole** additive to Loop H’s FAQPage. EP renewal NOA / between-jobs STVP remain Next-owned.
+
+### Shipped this loop
+
+**Upgraded guides (FAQPage + depth)**
+
+- `content/guides/move/personalised-employment-pass-pep.mdx`
+- `content/guides/move/tech-pass-singapore.mdx`
+- `content/guides/move/ep-rejection-appeal-ipa-issuance.mdx` (IPA reassessment)
+- `content/guides/move/compass-framework-explained.mdx`
+- `content/guides/move/importing-pets-singapore.mdx` (transit-loophole FAQ additive only)
+- `content/guides/move/incorporate-company-foreigner-singapore.mdx`
+- `content/guides/money/srs-investing-as-foreigner.mdx` (24%/15% withholding table)
+- `content/guides/money/rsu-esop-tax-singapore.mdx`
+- `content/guides/money/foreign-income-and-tax.mdx`
+- `content/guides/money/cost-of-living-by-household.mdx` (helper all-in)
+- `src/lib/site.ts` (PEP/IPA + SRS/RSU/foreign-income topic hrefs)
+- `content/entities/services/intact-immigration.json` (IPA reassessment)
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone copy.
+- Did not re-own Loop H’s pets/wrong-PayNow AEO bodies beyond the transit-loophole FAQ.
+- Did not edit Family / Belong / Home / Life / Next heavily.
+
+### Questions mined (sample)
+
+1. Should I switch from EP to PEP when renewal looks easy?
+2. Can I apply for PEP from overseas before I have a Singapore job?
+3. What happens when my PEP expires after three years?
+4. Is Tech.Pass the same as PEP?
+5. What does IPA reassessment / postpone arrival mean?
+6. Does a green SAT screenshot guarantee EP approval?
+7. Does my university’s overseas campus count for 20 COMPASS points?
+8. Should an EP holder contribute to SRS in year one if they might leave?
+9. If I lose my job in December, can I still top up SRS safely?
+10. My US parent has no Singapore entity — how do I report RSU/ESOP gains?
+11. Is foreign income remitted into DBS taxable?
+12. Is S$12k/month enough for a family of four paying international school?
+13. Can I incorporate then hire myself on an EP?
+14. Can I avoid pet quarantine by flying via a low-risk country?
+
+---
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 6)
 
 Branch: `loop/next-polish-tick6` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (EP salary notify stays Move-owned; divorce custody stays Family-owned; Next cross-links only).

@@ -177,6 +177,16 @@ export const pillars: Pillar[] = [
         blurb: "Eligibility, thresholds, and how COMPASS actually scores.",
       },
       {
+        label: "EP rejection, appeal & IPA reassessment",
+        href: "/guides/ep-rejection-appeal-ipa-issuance",
+        blurb: "Employer-only appeals; postpone-arrival reassessment playbook.",
+      },
+      {
+        label: "PEP & Tech.Pass flexibility",
+        href: "/guides/personalised-employment-pass-pep",
+        blurb: "One-shot PEP vs Tech.Pass company-scale tests and 2027 sunset.",
+      },
+      {
         label: "Relocation checklists",
         href: "/journeys/arriving",
         blurb: "7, 30, and 90-day sequences that keep the move sane.",
@@ -293,12 +303,22 @@ export const pillars: Pillar[] = [
       {
         label: "Cost of living",
         href: "/guides/cost-of-living-by-household",
-        blurb: "Realistic budgets for singles, couples, and families.",
+        blurb: "Family budgets, helper all-in, school+rent stacking.",
       },
       {
         label: "SRS & investing",
         href: "/guides/srs-investing-as-foreigner",
-        blurb: "What foreigners can and cannot do with local wrappers.",
+        blurb: "Exit withholding, 5% early penalty, foreigner lump-sum rules.",
+      },
+      {
+        label: "RSU / ESOP tax",
+        href: "/guides/rsu-esop-tax-singapore",
+        blurb: "Vest vs exercise, no-local-entity filing, deemed exercise.",
+      },
+      {
+        label: "Foreign income myths",
+        href: "/guides/foreign-income-and-tax",
+        blurb: "Remittance ≠ source; DP remote work still SG-sourced.",
       },
       {
         label: "Salary package decoding",
