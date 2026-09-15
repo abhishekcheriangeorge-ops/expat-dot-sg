@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 11)
+
+Branch: `cursor/loop-d-next-polish-tick11-d996` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9) and [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) (tick 10) file sets.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — EP holder death → Dependant’s Pass / kids’ school stay folklore; STVP vs Special Pass confusion.
+- r/askSingapore / r/NationalServiceSG — SC renunciation cooling-off / “can I get my S$35 back” / originals-not-received threads (eligibility gates already covered on parent guide).
+- r/askSingapore — LPA Form 1 vs Form 2; “can foreigners / PRs make an LPA” fee folklore after May 2026 cuts.
+
+**Official**
+
+- [MOM — Cancel a Dependant’s Pass](https://www.mom.gov.sg/passes-and-permits/dependants-pass/cancel-a-pass) (DP cancels with main pass; STVP up to 90 days)
+- [ICA — Special Pass / e-Special Pass](https://www.ica.gov.sg/public-education/special-pass) (purpose-limited; not a widow entitlement)
+- [ICA — Renunciation of Singapore Citizenship](https://www.ica.gov.sg/enter-depart/for-singapore-citizens/renunciation) + [user guide PDF](https://www.ica.gov.sg/docs/default-source/ica/forms/user-guide-sc-renunciation.pdf) (cooling-off ≤3 months; originals; S$35; no refund)
+- [OPG — What is an LPA](https://www.msf.gov.sg/what-we-do/opg/lasting-power-of-attorney/what-is-a-lasting-power-of-attorney) + [fees PDF](https://www.msf.gov.sg/docs/default-source/opg/lpa_fees_table.pdf) + [2026 fee regulations](https://sso.agc.gov.sg/SL-Supp/S272-2026/Published/20260430?DocDate=20260430)
+
+### Gaps vs prior ticks
+
+Tick 9 (#79) covers EP→spouse LTVP bridge / ROE / citizenship letter. Tick 10 (#83) covers PRSEP / NSman Exit edges / renouncing-PR NS traps. Remaining high-intent **Next** life-admin gaps matched this mine: **EP death → DP cascade + STVP**, **SC renunciation cooling-off / originals companion**, **LPA Form 1 vs Form 2 + May 2026 PR/foreigner fees**.
+
+### Shipped
+
+**New:** `ep-death-dependant-pass-cascade-singapore.mdx`, `sc-renunciation-cooling-off-documents-singapore.mdx`, `lpa-form1-form2-fees-pr-foreigners-singapore.mdx`
+
+**Upgraded:** `death-repatriation-foreigners-singapore.mdx`, `renouncing-singapore-citizenship.mdx`, `lasting-power-attorney-amd-foreigners.mdx`; `src/lib/site.ts` Next topics; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits. Did not edit #79 or #83 primary paths.
+
+### Questions mined
+
+1. When an EP holder dies, do the family’s Dependant’s Passes keep running to the card date?
+2. Can survivors get an STVP, and for how long?
+3. Is an ICA Special Pass automatic for widows / widowers?
+4. What is ICA’s optional cooling-off on SC renunciation, and can it be extended?
+5. Which originals must reach ICA before renunciation processing starts?
+6. Is the S$35 renunciation fee refundable if I withdraw?
+7. Can a foreigner or PR make a Singapore LPA?
+8. Form 1 or Form 2 — which do most EP/PR households need?
+9. What OPG application fees apply to PRs and foreigners from 1 May 2026?
+10. Does an LPA replace a will or CPF nomination?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 10)
 
 Branch: `cursor/loop-d-next-polish-tick10-d996` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees. No ads / Grok. Avoided open restore [#79](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/79) (tick 9 / former #67) file set and tick 8 (#60, merged) primary MDX bodies beyond site-rail restore.

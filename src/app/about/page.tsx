@@ -85,10 +85,11 @@ export default function AboutPage() {
               spouse LTVP / PMLA, PLOC / LOC work rights, student PR,
               NRIC re-registration at 30 / 55, eCOA address changes,
               Singapore Citizenship Journey after IPA,
-              PRSEP / 180-day REP clocks, NSman Exit Permit edge cases,
-              renouncing-PR NS liability traps,
-              REP passport transfers, EP renewal NOA asks, pass
-              cancellations) are checked against live ICA / MOM / MHA text
+              EP death → Dependant’s Pass cascade, SC renunciation
+              cooling-off / originals, LPA Form 1 vs Form 2 fees for
+              PR and foreigners, REP passport transfers, EP renewal
+              NOA asks, pass cancellations) are checked against live
+              ICA / MOM / MHA text
               before we ship.
             </li>
             <li>

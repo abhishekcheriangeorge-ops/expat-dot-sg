@@ -64,12 +64,12 @@ export default function EditorialPolicyPage() {
             sponsorship and aged-parent PR vs LTVP, spouse LTVP / PMLA and
             PLOC / LOC work rights, student PR national-exam row, NRIC
             re-registration at 30 / 55, eCOA address changes, Singapore
-            Citizenship Journey after IPA, PRSEP / 180-day REP clocks, NSman
-            Exit Permit edge cases, renouncing-PR NS liability traps, EP
-            renewal NOA / document asks, Re-Entry Permit rules and passport
-            transfers, citizenship application and ORAL, adult SC renunciation,
-            NRIC loss / address / re-registration / name change, NS, exits).
-            When agencies
+            Citizenship Journey after IPA, EP death → Dependant’s Pass
+            cascade, SC renunciation cooling-off / originals, LPA Form 1 vs
+            Form 2 fees for PR and foreigners, EP renewal NOA / document asks,
+            Re-Entry Permit rules and passport transfers, citizenship
+            application and ORAL, adult SC renunciation, NRIC loss / address /
+            re-registration / name change, NS, exits). When agencies
             publish dated
             revisions (for example MHA / ICA REP process changes), we prefer the
             live notice and FAQ over older forum “reinstatement” folklore. Peer

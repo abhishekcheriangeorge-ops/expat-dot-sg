@@ -714,6 +714,21 @@ export const pillars: Pillar[] = [
         blurb: "New passport ≠ auto REP — ICA transfer before you fly.",
       },
       {
+        label: "EP death → DP cascade",
+        href: "/guides/ep-death-dependant-pass-cascade-singapore",
+        blurb: "Main pass dies — DP cancel, STVP up to 90 days, Special Pass myths.",
+      },
+      {
+        label: "SC renunciation admin",
+        href: "/guides/sc-renunciation-cooling-off-documents-singapore",
+        blurb: "Cooling-off, originals return, S$35 fee — after eligibility gates.",
+      },
+      {
+        label: "LPA Form 1 vs 2 fees",
+        href: "/guides/lpa-form1-form2-fees-pr-foreigners-singapore",
+        blurb: "May 2026 OPG fees — S$30 PR / S$160 foreigner; Form chooser.",
+      },
+      {
         label: "After getting PR",
         href: "/guides/after-getting-pr-checklist",
         blurb: "What transfers and what you leave behind.",
