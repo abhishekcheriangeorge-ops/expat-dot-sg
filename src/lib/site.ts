@@ -654,6 +654,11 @@ export const pillars: Pillar[] = [
         blurb: "Model NS liability before PR/citizenship — CMPB over chat lore.",
       },
       {
+        label: "SC renunciation cooling-off",
+        href: "/guides/sc-renunciation-cooling-off-documents-singapore",
+        blurb: "Optional 3-month hold, originals return, S$35 usually non-refundable.",
+      },
+      {
         label: "Career pivots",
         href: "/guides/career-pivots-singapore",
         blurb: "New employer files fresh pass — resign only after IPA.",
@@ -669,9 +674,19 @@ export const pillars: Pillar[] = [
         blurb: "Ask for up to 90 days stay — not work rights — after EP cancel.",
       },
       {
+        label: "STVP vs Special Pass myths",
+        href: "/guides/stvp-after-ep-cancel-special-pass-myths-singapore",
+        blurb: "EP cancel → STVP up to 90 days — not a Work Permit Special Pass.",
+      },
+      {
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
+      },
+      {
+        label: "Lost work pass overseas",
+        href: "/guides/lost-work-pass-overseas-reentry-letter",
+        blurb: "HR same day + SGWorkPass + MOM re-entry letter; replace within 1 week.",
       },
       {
         label: "PR rejected — appeal / reapply",

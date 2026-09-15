@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 33)
+
+Branch: `loop/story-aeo-tick33` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#182 H20–H32). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — paid S$35 SC renunciation then changed mind; originals “not received.”
+- r/askSingapore — calling every post-EP temporary stay a “Special Pass.”
+- r/askSingapore — lost EP card in Bangkok / can I fly home on SGWorkPass alone.
+
+**Official**
+
+- [ICA — Renunciation of Singapore Citizenship](https://www.ica.gov.sg/enter-depart/for-singapore-citizens/renunciation) + [SC renunciation user guide PDF](https://www.ica.gov.sg/docs/default-source/ica/forms/user-guide-sc-renunciation.pdf).
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + [Cancel a Work Permit](https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker/cancel-a-work-permit).
+- [MOM — Replace an Employment Pass card](https://www.mom.gov.sg/passes-and-permits/employment-pass/replace-a-pass-card) + [SGWorkPass](https://www.mom.gov.sg/eservices/sgworkpass).
+
+### Gaps vs open H + ticks 1–32
+
+Open: #117–#182 H20–H32. Remaining free Next FAQ-free companions included **SC renunciation cooling-off/docs**, **STVP vs Special Pass myths**, **lost work pass overseas / re-entry letter**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/sc-renunciation-cooling-off-documents-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/stvp-after-ep-cancel-special-pass-myths-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/lost-work-pass-overseas-reentry-letter.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (SC cooling-off + STVP myths blurb + lost work-pass overseas topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#182 guide bodies.
+
+### Questions mined (sample)
+
+1. What is the cooling-off period on ICA’s Singapore citizenship renunciation form?
+2. Can I get the S$35 SC renunciation fee back if I withdraw?
+3. Do I only need to upload PDFs, or must originals reach ICA?
+4. Does the online SC renunciation form save mid-way?
+5. Is SC renunciation cooling-off the same as renouncing PR?
+6. After an Employment Pass is cancelled, do I get a Special Pass or an STVP?
+7. Can I keep working on an STVP after EP cancel?
+8. Who requests the STVP after EP cancel?
+9. Do Dependant’s Passes survive when the main EP is cancelled?
+10. Can ICA casually extend an MOM-issued STVP at the counter?
+11. I lost my Employment Pass card overseas — can I still fly back to Singapore?
+12. Does SGWorkPass replace the need to replace a lost work pass card?
+13. Who files the replacement when the card is lost abroad?
+14. What if I also renewed my passport while the card was lost overseas?
+15. Is a lost blue NRIC overseas the same MOM re-entry letter path?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 20)
 
 Branch: `cursor/loop-d-next-polish-tick20-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home body trees. Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114) / [#123](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/123) / [#130](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/130) / [#138](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/138) / [#146](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/146) / [#151](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/151) / [#162](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/162).
