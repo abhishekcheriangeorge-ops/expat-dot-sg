@@ -3,21 +3,24 @@
   "slug": "sota",
   "name": "School of the Arts (SOTA)",
   "summary": "Specialised arts secondary school combining creative practice with academic pathways.",
-  "body": "SOTA is Singapore’s leading pre-tertiary arts school. Entry is talent-based and highly selective. Expat families with artistically driven teens should understand audition timelines years ahead — this is not a casual transfer option. Ask how performance / showcase fundraisers and book-fair style events communicate volunteer shifts to dual-career parents, and how haze or unhealthy PSI days alter outdoor call times.",
+  "body": "SOTA is Singapore\u2019s leading pre-tertiary arts school. Entry is talent-based and highly selective. Expat families with artistically driven teens should understand audition timelines years ahead \u2014 this is not a casual transfer option. Ask how performance / showcase fundraisers and book-fair style events communicate volunteer shifts to dual-career parents, and how haze or unhealthy PSI days alter outdoor call times. Arts campuses still run exclusion and night-illness weeks hard \u2014 keep written return clocks for respiratory bugs beside showcase calendars.",
   "curriculum": [
     "Specialised arts",
     "IB DP"
   ],
   "sector": "local",
-  "ages": "Secondary–JC equivalent",
+  "ages": "Secondary\u2013JC equivalent",
   "neighbourhood": "marina-bay-cbd",
   "campus": "Dhoby Ghaut",
   "languages": [
     "English"
   ],
   "feesBand": "Specialised independent / MOE framework",
-  "waitlistNotes": "Audition-driven — follow SOTA admissions calendar strictly.",
+  "waitlistNotes": "Audition-driven \u2014 follow SOTA admissions calendar strictly.",
   "website": "https://www.sota.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "dual-career-kids-croup-bronchiolitis-night-coverage-singapore"
+  ]
 }

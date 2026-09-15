@@ -2,13 +2,13 @@
   "type": "school",
   "slug": "hwa-chong-international",
   "name": "Hwa Chong International School",
-  "summary": "IB pathway with a mixed local/foreign cohort — often shortlisted for academically inclined families comparing SJII and ACS(I).",
-  "body": "HCIS runs an IB programme with a reputation for stronger academic intensity than some peer “local international” campuses. Forum feedback often describes a roughly half-local / half-foreign mix skewed toward Asian nationalities, English as the working language in class, and university exits weighted toward UK and local universities more than US unless students chase SAT strength. Boarding exists for some foreign students — confirm current capacity. Tour counselling early: ask for recent destination lists by country and counsellor caseloads before treating Oxbridge logos as the product. Compare pastoral fit against SJII and ACS(I) open houses; geography and peer culture matter as much as IB branding. Verify fees, boarding, and language support on the school site. Confirm parent-portal lead times for book fairs / house fundraisers and the haze-day outdoor activity policy — dual-career families need calendar-ready notices, not noon WhatsApp surprises.",
+  "summary": "IB pathway with a mixed local/foreign cohort \u2014 often shortlisted for academically inclined families comparing SJII and ACS(I).",
+  "body": "HCIS runs an IB programme with a reputation for stronger academic intensity than some peer \u201clocal international\u201d campuses. Forum feedback often describes a roughly half-local / half-foreign mix skewed toward Asian nationalities, English as the working language in class, and university exits weighted toward UK and local universities more than US unless students chase SAT strength. Boarding exists for some foreign students \u2014 confirm current capacity. Tour counselling early: ask for recent destination lists by country and counsellor caseloads before treating Oxbridge logos as the product. Compare pastoral fit against SJII and ACS(I) open houses; geography and peer culture matter as much as IB branding. Verify fees, boarding, and language support on the school site. Confirm parent-portal lead times for book fairs / house fundraisers and the haze-day outdoor activity policy \u2014 dual-career families need calendar-ready notices, not noon WhatsApp surprises. Sports-awards nights and night respiratory coverage weeks both need named dual-career owners \u2014 ask how evening hall events are scheduled against bus cutoffs.",
   "curriculum": [
     "IB"
   ],
   "sector": "international",
-  "ages": "Secondary–IB DP",
+  "ages": "Secondary\u2013IB DP",
   "neighbourhood": "bukit-timah",
   "campus": "Bukit Timah",
   "languages": [
@@ -16,8 +16,12 @@
     "Chinese environment adjacency"
   ],
   "feesBand": "Mid to upper-mid international",
-  "waitlistNotes": "Year-group and boarding capacity vary — ask for dated openings and counselling intro timing.",
+  "waitlistNotes": "Year-group and boarding capacity vary \u2014 ask for dated openings and counselling intro timing.",
   "website": "https://www.hcis.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-school-sports-awards-night-ops-dual-career-singapore",
+    "dual-career-kids-croup-bronchiolitis-night-coverage-singapore"
+  ]
 }

@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "alliance-movers",
   "name": "Alliance Movers",
-  "summary": "Local and regional moving support for apartment and condo shifts — lift bookings, padding duties, and inventory discipline without full-container corporate freight.",
-  "body": "For intra-island condo moves, local movers can be more proportionate than full international freight agents. Ask who pays the MCST damage deposit (often S$500–1,000), who installs lift padding, and whether trolley distance from loading bay to lift triggers a surcharge — Reddit condo threads treat these as standard variables, not surprises. Insist on a written inventory, insurance clarity, and weekday lift slots coordinated with both buildings’ managing agents. If any unaccompanied overseas boxes are in the mix, confirm Singapore Customs GST-relief steps separately; domestic movers may not handle Declaration of Facts. Photograph meter readings and existing damage on both ends so aircon brackets and flooring disputes do not become deposit fights. When the unit is bare, ask whether the crew can stage furniture-rental delivery or haul orphan pieces to self-storage / disposal — exit dumping fees surprise many EP leavers. Family ops note: move-week cartons and head-lice laundry should not share the same dual-career evening — sequence packing away from outbreak treatment nights.",
+  "summary": "Local and regional moving support for apartment and condo shifts \u2014 lift bookings, padding duties, and inventory discipline without full-container corporate freight.",
+  "body": "For intra-island condo moves, local movers can be more proportionate than full international freight agents. Ask who pays the MCST damage deposit (often S$500\u20131,000), who installs lift padding, and whether trolley distance from loading bay to lift triggers a surcharge \u2014 Reddit condo threads treat these as standard variables, not surprises. Insist on a written inventory, insurance clarity, and weekday lift slots coordinated with both buildings\u2019 managing agents. If any unaccompanied overseas boxes are in the mix, confirm Singapore Customs GST-relief steps separately; domestic movers may not handle Declaration of Facts. Photograph meter readings and existing damage on both ends so aircon brackets and flooring disputes do not become deposit fights. When the unit is bare, ask whether the crew can stage furniture-rental delivery or haul orphan pieces to self-storage / disposal \u2014 exit dumping fees surprise many EP leavers. Family ops note: move-week cartons and head-lice laundry should not share the same dual-career evening \u2014 sequence packing away from outbreak treatment nights. Move weeks stack badly with awards nights and STEM academy seasons \u2014 calendar hall call times before you lock a packing day.",
   "category": "movers",
   "areasServed": [
     "Islandwide"
@@ -18,11 +18,11 @@
   ],
   "officialLinks": [
     {
-      "label": "Singapore Customs — moving to Singapore",
+      "label": "Singapore Customs \u2014 moving to Singapore",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/"
     },
     {
-      "label": "Singapore Customs — GST relief qualification",
+      "label": "Singapore Customs \u2014 GST relief qualification",
       "url": "https://www.customs.gov.sg/personal-shipment/moving-to-singapore/do-i-qualify-for-gst-relief/"
     }
   ],
@@ -30,6 +30,8 @@
     "moving-within-singapore",
     "shipping-household-singapore",
     "furnishing-rental-flat",
-    "dual-career-head-lice-school-outbreak-singapore"
+    "dual-career-head-lice-school-outbreak-singapore",
+    "international-school-sports-awards-night-ops-dual-career-singapore",
+    "robotics-academy-waiting-parent-belonging-singapore"
   ]
 }
