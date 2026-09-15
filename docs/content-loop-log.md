@@ -6,6 +6,74 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 36 — 2026-09-15
+
+Branch: `cursor/home-life-tick36-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181/#192 stay open for the merge controller — **did not** touch those PR paths. Topics: condo EV charger / bicycle-bay booking, ActiveSG gym Standard Rate, Redhill / Telok Blangah / HarbourFront.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — condo EV charger waitlists, “EV-ready” brochure vs no bay, bicycle/PMD rack tagging and clamps.
+- r/askSingapore — ActiveSG gym Standard Rate for foreigners, MyActiveGYM membership myths, condo gym ghost machines.
+- r/askSingapore — south-west shortlists for Redhill / Telok Blangah / HarbourFront vs Queenstown and Sentosa premiums.
+
+**Official**
+
+- [BCA strata living](https://www1.bca.gov.sg/regulatory-info/building-control/strata-titled-properties) + [strata living guide PDF](https://www1.bca.gov.sg/-/media/project/bca/website/files/regulatory-info/building-control/strata/guide-on-living-in-a-strata-titled-property.pdf).
+- [LTA — electric vehicles](https://www.lta.gov.sg/content/ltagov/en/getting_around/driving_in_singapore/electric_vehicles.html).
+- [ActiveSG individual rates](https://www.activesgcircle.gov.sg/facilities/individual-rates) + [MyActiveSG+](https://www.activesgcircle.gov.sg/myactivesg-plus) + [membership](https://www.activesgcircle.gov.sg/membership).
+- [CEA tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/).
+
+### Gaps vs open #71 → #192
+
+Open PRs own reno-noise/lightning/void-deck/power/condo-adjacent-reno/smoke/PUB-water/pools/SP-bill/stadium/OEM/HDB-corridor-smoking/MCST-bylaws/football/visitor-parking/tennis/reno-deposit/squash/move-in-lift/badminton/BBQ-function/table-tennis and their town sets. Remaining gaps without collision: **condo EV charger / bicycle-bay ops** (≠ visitor parking; ≠ BBQ facilities), **ActiveSG gym Standard Rate** (≠ court/pool facility SKUs), plus neighbourhood depth for **Redhill**, **Telok Blangah**, and **HarbourFront**.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/condo-ev-charger-bicycle-bay-tenants.mdx`
+- `content/guides/life/activesg-gym-standard-rate-singapore.mdx`
+
+**Upgraded guides** (paths not in open C stack)
+
+- `content/guides/home/hdb-for-pr-and-mixed-status.mdx`
+- `content/guides/home/hiring-domestic-helper-mdw.mdx`
+- `content/guides/home/buying-property-foreigner-absd.mdx`
+- `content/guides/life/mrt-bus-transport-literacy.mdx`
+- `content/guides/life/case-lemon-law-consumers-singapore.mdx`
+- `content/guides/life/traffic-accident-motor-claims-singapore.mdx`
+- `src/lib/site.ts` (EV/bike bay + ActiveSG gym topics; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/redhill.json`
+- `content/entities/neighbourhoods/telok-blangah.json`
+- `content/entities/neighbourhoods/harbourfront.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion.
+- No Grok / third-party clone content.
+- Did not edit Move/Money/Family/Belong/Next guides.
+- Did not touch #71 / #88 / #96 / #104 / #126 / #137 / #144 / #150 / #167 / #181 / #192 file paths.
+
+### Questions mined (sample)
+
+1. Does a condo lease include an EV charger bay?
+2. Who pays for condo EV charging — landlord or tenant?
+3. Can tenants claim a bicycle or PMD bay?
+4. Can foreigners use ActiveSG gyms at Standard Rate?
+5. Is gym entry the same product as badminton or pool booking?
+6. Do EP holders get unlimited MyActiveGYM packs?
+7. Redhill vs Telok Blangah — hawker estate or ridge living?
+8. Is HarbourFront worth the weekend mall crush?
+9. What pre-LOI EV questions save Saturday fights?
+10. When is a condo gym still better than ActiveSG?
+
+---
+
 ## Loop C — Home + Life (parallel) — Tick 35 — 2026-09-15
 
 Branch: `cursor/home-life-tick35-2739` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only. Fresh worktree off `origin/main` while #71/#88/#96/#104/#126/#137/#144/#150/#167/#181 stay open for the merge controller — **did not** touch those PR paths. Topics: condo BBQ / function-room booking, ActiveSG table tennis booking, Chinatown / Outram / Tanjong Pagar.
