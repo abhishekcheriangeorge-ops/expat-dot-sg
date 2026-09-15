@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "toa-payoh",
+  "name": "Toa Payoh",
+  "summary": "Mature central-north HDB town with NSL access, dense hawkers, and town-centre errands — classic heartland texture without outer-northeast commute length.",
+  "body": "Toa Payoh is the Reddit shortlist when someone wants ‘real Singapore’ food density plus a manageable CBD hop on the North-South Line. The town centre / HDB Hub belt concentrates wet market, mall, and clinic gravity; lounges and kopitiams around the interchange keep errands walkable even without a car. Housing is mostly mature HDB with selective condo pockets — expect firmer whole-flat rents than Woodlands or Yishun for similar bedroom counts because centrality is the product. Interchange adjacency (Toa Payoh, Braddell, and nearby Caldecott / Bishan gravity depending on block) makes cross-island days saner than pure one-line towns. Watch-outs: older block maintenance and chute-fogging ops for kitchen hoppers, school- and hospital-adjacent traffic, and HDB eligibility / whole-flat vs bedroom approval checks for foreigners. Compare with Ang Mo Kio for similar mature-estate texture further up the NSL, or Bishan if park + Circle Line interchange matters more than hawker density.",
+  "region": "central",
+  "vibe": [
+    "mature-estate",
+    "hawker",
+    "town-centre",
+    "nsl",
+    "practical"
+  ],
+  "bestFor": [
+    "hawker-first households",
+    "NSL CBD commuters",
+    "expats testing heartland living",
+    "car-light couples"
+  ],
+  "watchOuts": [
+    "Older-block maintenance and refuse-chute fogging",
+    "Firms rents vs outer heartlands",
+    "Peak hub congestion",
+    "HDB whole-flat vs bedroom approval checks"
+  ],
+  "housingMix": "Mature HDB dominant, selective condo / executive pockets.",
+  "commuteNotes": "North-South Line at Toa Payoh / Braddell; time Tuesday 08:15 door-to-desk before you LOI.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3400,
+    "familyFrom": 2800,
+    "familyTo": 4500
+  },
+  "mrt": [
+    "Toa Payoh",
+    "Braddell"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

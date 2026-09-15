@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "bedok",
+  "name": "Bedok",
+  "summary": "East-side mature town with EWL access, Bedok Mall / town-centre gravity, and cheaper adjacency to East Coast lifestyle belts.",
+  "body": "Bedok is the practical east shortlist when Katong / Joo Chiat rents feel silly but you still want East-West Line access and weekend sea-breeze hops. Bedok MRT plus the town centre / Bedok Mall cluster covers groceries, clinics, and hawker runs; buses and park connectors reach East Coast Park without forcing an East Coast Road premium every month. Housing mixes mature HDB, older condos, and pockets that price as ‘almost Katong.’ Airport-side convenience is a quiet plus for frequent travellers versus west-only living. Watch-outs: some blocks sit far from the MRT despite the ‘Bedok’ label — walk the rain route — plus flash-flood / low-approach checks on the way to the park, and HDB whole-flat vs bedroom rules. Compare with Tampines for newer self-contained east value, Katong–Joo Chiat for walkable F&B character, or Queenstown if CBD-adjacent west matters more than the east coast.",
+  "region": "east",
+  "vibe": [
+    "mature-estate",
+    "east",
+    "town-centre",
+    "ewl",
+    "practical"
+  ],
+  "bestFor": [
+    "east-office / Changi-adjacent workers",
+    "families wanting east value vs Katong",
+    "car-light households on EWL",
+    "weekend East Coast Park users"
+  ],
+  "watchOuts": [
+    "Long walks from some blocks to MRT",
+    "Low-approach / park-edge storm days",
+    "Older-block maintenance variance",
+    "HDB eligibility for foreigner rentals"
+  ],
+  "housingMix": "Mature HDB, older condo belts, some executive flats.",
+  "commuteNotes": "East-West Line at Bedok; test door-to-desk and the actual walk from your block in rain.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2100,
+    "oneBedTo": 3300,
+    "familyFrom": 2700,
+    "familyTo": 4300
+  },
+  "mrt": [
+    "Bedok"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

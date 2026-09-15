@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "ang-mo-kio",
+  "name": "Ang Mo Kio",
+  "summary": "Large mature north-central town with NSL hub access, AMK Hub errands, and park connectors — value-leaning heartland with real food density.",
+  "body": "Ang Mo Kio shows up whenever renters ask for space and hawkers without paying Queenstown or River Valley premiums. Ang Mo Kio MRT anchors a full town centre (AMK Hub, markets, clinics); park connectors and nearby Bishan-Ang Mo Kio Park give weekend running and pram loops that pure mall towns lack. Housing is overwhelmingly mature HDB with scattered condos — whole-flat stock is the expat value lever if HDB approval and nationality rules clear. Commute reality: NSL to CBD is straightforward; cross-island offices still punish you at peak. Industrial and hub edges can feel busier and pricier than quiet interior avenues — walk the exact block at 8am. Watch-outs: estate upgrading / construction on specific plots, dengue-season cluster notices in dense mature towns, and bedroom-rental continuous-occupation traps. Compare with Toa Payoh for tighter central-north hops, Bishan for interchange + park prestige, or Sengkang if you prefer newer flats and accept NEL length.",
+  "region": "north",
+  "vibe": [
+    "mature-estate",
+    "hawker",
+    "town-hub",
+    "park-connector",
+    "value"
+  ],
+  "bestFor": [
+    "families wanting HDB space",
+    "NSL commuters",
+    "hawker-centric households",
+    "runners using park connectors"
+  ],
+  "watchOuts": [
+    "Block-level construction / upgrading",
+    "Hub vs interior rent and noise gaps",
+    "Dengue-season cluster density in mature estates",
+    "HDB eligibility for foreigner rentals"
+  ],
+  "housingMix": "Mature HDB majority, some condo and executive pockets.",
+  "commuteNotes": "North-South Line at Ang Mo Kio; verify bus/feeders if your block is a long walk from the hub.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2000,
+    "oneBedTo": 3200,
+    "familyFrom": 2600,
+    "familyTo": 4200
+  },
+  "mrt": [
+    "Ang Mo Kio"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

@@ -6,6 +6,85 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop C — Home + Life (parallel) — Tick 23 — 2026-09-15
+
+Branch: `loop/home-life-t23` → PR to `main`. Owns **Home** + **Life** guides and neighbourhood entities only.
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — lease renewal / rent-increase ambushes and negotiation ([S$2.3k→S$3.2k](https://www.reddit.com/r/askSingapore/comments/16ababb/singapore_lease_renewal_from_s2300_top_s3200_is/); [same-day +S$300](https://www.reddit.com/r/askSingapore/comments/1021pl0/the_state_agent_of_my_flat_told_me_my_rent_was/); [negotiate extension](https://www.reddit.com/r/askSingapore/comments/1q3demy/how_to_negotiate_rent_extension/); [early renewal notice](https://www.reddit.com/r/askSingapore/comments/16zf8uc/rental_renewal/)).
+- r/askSingapore — landlord entry / quiet enjoyment / keys ([quiet enjoyment implied?](https://www.reddit.com/r/askSingapore/comments/1gxpm7w/is_the_quiet_enjoyment_clause_a_common_law_rights/); [landlord trespass](https://www.reddit.com/r/askSingapore/comments/18vvh4f/can_a_landlord_trespass/); [enter while away](https://www.reddit.com/r/askSingapore/comments/13805zc/is_it_against_the_law_for_landlord_to_enter_your/); permission norms adjacency).
+- r/askSingapore — dengue reporting + HDB refuse-chute fogging ([report stagnant water](https://www.reddit.com/r/askSingapore/comments/1i4rzk5/something_about_reporting_to_nea_for_dengue/); [fog from chute](https://www.reddit.com/r/askSingapore/comments/18fvvf9/fumigation_fog_coming_out_from_rubbish_chute/); [tape chute gaps](https://www.reddit.com/r/askSingapore/comments/1rsjkr5/can_i_contact_hdb_to_do_a_test_to_see_if_my/)).
+- r/askSingapore — neighbourhood shortlists for Toa Payoh / Ang Mo Kio / Bedok belts (HDB vs condo budget threads; east vs central-north heartland asks).
+
+**Official**
+
+- [CEA — Tenancy templates](https://www.cea.gov.sg/real-estate-professionals/agreements-and-checklists/) + [renting guidance](https://www.cea.gov.sg/consumers/engaging-a-property-agent/renting-or-renting-out/).
+- [URA — Private residential rental contracts](https://eservice.ura.gov.sg/property-market-information/pmiResidentialRentalSearch).
+- [HDB — Rental statistics](https://www.hdb.gov.sg/business/estate-agents-and-salespersons/renting-a-flat/rental-statistics).
+- [IRAS — Stamp duty when renting](https://www.iras.gov.sg/taxes/stamp-duty/for-property/renting-a-property).
+- [NEA — Dengue clusters](https://www.nea.gov.sg/dengue-zika/dengue/dengue-clusters) + [home inspection](https://www.nea.gov.sg/dengue-zika/inspecting-your-homes-and-premises-for-mosquito-habitats).
+- [OneService — App FAQs](https://www.oneservice.gov.sg/osapp-faq/).
+
+### Gaps vs Tick 22 (Home + Life slice)
+
+Tick 22 shipped early lease exit, bed-bug / habitability pest escalation, PUB flash-flood checks, Bishan / Sengkang / Queenstown entities. Remaining high-intent Home+Life gaps matched forum heat: **lease renewal without rent-control caps + URA/HDB comps**, **landlord entry / quiet enjoyment / key control**, **dengue cluster living + HDB chute fogging ops** (emergencies already covered door inspections), plus neighbourhood entity depth for **Toa Payoh**, **Ang Mo Kio**, and **Bedok**. Stamp duty already covered under renting-process — left alone beyond renewal re-stamp pointers.
+
+### Shipped this tick
+
+**New guides**
+
+- `content/guides/home/lease-renewal-rent-increase.mdx`
+- `content/guides/home/landlord-entry-quiet-enjoyment.mdx`
+- `content/guides/life/dengue-cluster-living-renters.mdx`
+
+**Upgraded guides (depth + citations + cross-links + lastReviewed 2026-09-15)**
+
+- `content/guides/home/aircon-pest-renewals.mdx` (chute fogging deep-link + renewal pointer)
+- `content/guides/home/renting-process-loi-ta-deposits.mdx` (entry + renewal asks)
+- `content/guides/home/security-deposit-diplomatic-clause.mdx` (renewal / entry related)
+- `content/guides/home/early-lease-termination-tenants.mdx` (renewal adjacency)
+- `content/guides/home/choosing-neighbourhood-expat.mdx` (Toa Payoh / AMK / Bedok)
+- `content/guides/home/heartland-living-for-expats.mdx` (entity shortlist + dengue/chute)
+- `content/guides/life/emergencies-995-999-embassies.mdx` (cluster living deep-link)
+- `content/guides/life/haze-climate-preparedness.mdx` (dengue climate stack)
+- `content/guides/life/apps-that-matter-singapore.mdx` (OneService row)
+- `src/lib/site.ts` (Home renewal/entry topics; Life dengue topic; neighbourhood blurb)
+
+**Neighbourhood entity depth**
+
+- `content/entities/neighbourhoods/toa-payoh.json`
+- `content/entities/neighbourhoods/ang-mo-kio.json`
+- `content/entities/neighbourhoods/bedok.json`
+
+### Explicitly not done
+
+- No ads/monetization expansion (existing sponsorSlots left as-is).
+- No copying of third-party “expat-sg” / Grok clones.
+- Did not edit Move/Money/Family/Belong/Next guides owned by other loops.
+- Did not re-litigate Tick 19–22 fibre/mould/CDRT/HDB-sale/construction/early-exit/flood topics beyond cross-links.
+
+### Questions mined (sample)
+
+1. Is there a legal percentage cap on rent increases at lease renewal in Singapore?
+2. Can my landlord raise rent mid-lease, or only when the fixed term ends?
+3. When should I start renewal talks relative to the notice clause in my TA?
+4. Are PropertyGuru asking prices a valid comps set for negotiation?
+5. Do I need to re-stamp IRAS lease duty when we renew at a higher rent?
+6. Can the landlord enter with spare keys while I am at work?
+7. Is “quiet enjoyment” about neighbour noise, or exclusive possession?
+8. Must I allow buyer / re-let viewings in the last two months?
+9. What do red vs yellow NEA dengue clusters mean for my estate?
+10. Should I tape my HDB rubbish chute before Town Council fogging?
+11. Where do I report stagnant water without starting a neighbour war?
+12. Toa Payoh vs Ang Mo Kio vs Bedok — which fits NSL CBD vs EWL east office?
+
+---
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 6)
 
 Branch: `loop/story-aeo-tick6` → PR to `main`. Owns **journey completeness** and **answer-engine shape** after tick 5’s pets / wrong PayNow / vaping FAQPages. Did **not** expand ads/monetization or collide with open Loop A–G body rewrites (EP eligibility / job-change / Multiplier, Home/HDB, SEO shell, services directory, Family/Belong left alone).
