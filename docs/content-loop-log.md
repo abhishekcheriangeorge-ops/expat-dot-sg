@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 48)
+
+Branch: `loop/story-aeo-tick48` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 47 (`loop/story-aeo-tick47` @ `fc7072e` / [#286](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/286)). Avoided open merge-controller H file sets (#117–#286 H20–H47). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “FIN stays the same so DP auto-follows” on EP job change.
+- r/askSingapore — “just convert LTVP/PLOC to EP” as a stealth upgrade.
+- r/askSingapore — “HR will convert me to EP after the raise” with no FCF/COMPASS file.
+
+**Official**
+
+- [MOM — Change jobs on EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) · Dependant’s Pass · Cancel a pass · Extend stay FAQ.
+- [MOM — PLOC eligibility](https://www.mom.gov.sg/passes-and-permits/pre-approved-letter-of-consent/eligibility) · Work passes for ICA LTVP · EP eligibility · FCF.
+- [MOM — EP eligibility](https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility) · S Pass eligibility · EP key facts · FCF.
+
+### Gaps vs open H + ticks 1–47
+
+Open: #117–#286 H20–H47. Remaining free Next FAQ-free companions included **DP re-sponsor when principal changes EP**, **LTVP+PLOC → EP conversion**, **S Pass → EP upgrade in Singapore**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/dp-resubmission-when-principal-changes-ep-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/ltvp-ploc-to-ep-conversion-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/s-pass-to-ep-upgrade-in-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (DP re-sponsor + LTVP/PLOC→EP + S Pass→EP topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#286 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does DP auto-move when I change EP employers?
+2. When should family re-sponsor start vs new EP IPA?
+3. Does the same FIN keep the DP card valid?
+4. What should I ask old and new HR in writing?
+5. What if old DP cancels before new family cards issue?
+6. Does PLOC convert LTVP into an EP?
+7. When should I leave PLOC for my own EP?
+8. Does working on PLOC exempt FCF/COMPASS for EP?
+9. Should I cancel LTVP on EP IPA day?
+10. Is graduate LTVP job-hunt stay the same as PLOC work rights?
+11. Does a raise auto-convert S Pass to EP?
+12. Can I stay on S Pass while EP files?
+13. Is EP blocked by foreign-worker quota?
+14. What if MOM refuses EP while I am still on S Pass?
+15. Do family DPs upgrade automatically with S Pass → EP?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 47)
 
 Branch: `loop/story-aeo-tick47` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 46 (`loop/story-aeo-tick46` @ `9430fe6` / [#275](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/275)). Avoided open merge-controller H file sets (#117–#275 H20–H46). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275** before this lands. No ads / monetization; no Grok copy; no force-push main.
