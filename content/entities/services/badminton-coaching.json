@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "badminton-coaching",
+  "name": "Badminton coaching",
+  "summary": "How expats book badminton coaching in Singapore — hall peak-hour realities, junior group classes, private drills, and gear rental before buying a racket.",
+  "body": "Badminton is one of the easiest racket sports to start here — ActiveSG halls, condo courts, and commercial academies all run beginner pathways. Peak evenings book out; morning slots suit shift parents and trailing partners.\n\n## Formats\n- Adult beginner group classes\n- Private technique drills\n- Junior academy pathways\n- Holiday clinics\n- Casual sparring with coach feed\n\nCourt shoes with non-marking soles are usually mandatory.\n\n## How to choose\nPrefer coaches who correct footwork before smash volume. Ask whether shuttlecocks and court fees are included. Confirm age bands for mixed junior groups. Rent a racket through the first month — cheap frames break and teach bad habits.\n\n## Practical tip\nBook halls as soon as the weekly window opens. Keep a spare grip and water bottle in the car; void-deck humidity destroys unprotected grips.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Adult beginner badminton class search",
+    "Junior academy or holiday clinic booking",
+    "Private footwork drills after self-play plateau",
+    "Rent vs buy racket for first month"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "hobby-sports-communities-singapore",
+    "sports-fitness-singapore",
+    "kids-activities-holiday-camps",
+    "youth-sports-academies-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

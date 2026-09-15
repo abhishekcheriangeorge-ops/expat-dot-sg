@@ -1,0 +1,40 @@
+{
+  "type": "service",
+  "slug": "advance-medical-directive",
+  "name": "Advance medical directive (AMD)",
+  "summary": "How foreigners and PRs approach Singapore advance medical directives — what an AMD covers, how it differs from LPA, witnessing rules, and when to refresh after major health changes.",
+  "body": "An AMD records your refusal of extraordinary life-sustaining treatment in terminal illness under Singapore’s framework. It is not a full living will for every preference, and it is separate from lasting power of attorney (LPA) donee powers.\n\n## Decision points\n- AMD vs LPA vs will — distinct instruments\n- Eligibility and witnessing requirements\n- How hospitals locate and honour registered directives\n- Cross-border wishes when family is overseas\n- Refresh triggers after new diagnoses or moves\n\nPair AMD conversations with LPA planning while capacity is clear.\n\n## How to choose\nUse counsel or clinics familiar with OPG/AMD processes for foreigners and PRs. Do not assume a home-country living will substitutes locally. Tell your donee and next-of-kin where documents live.\n\n## Practical tip\nStore a copy with your LPA pack and tell your GP/clinic. An AMD nobody can find helps no one at 2 a.m.\n",
+  "category": "legal",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Want Singapore AMD while capacity is clear",
+    "Clarifying AMD vs LPA vs will roles",
+    "Foreign living will may not apply locally",
+    "Refreshing directive after major health or move"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Office of the Public Guardian",
+      "url": "https://www.msf.gov.sg/what-we-do/opg"
+    },
+    {
+      "label": "Ministry of Law — Find a lawyer",
+      "url": "https://www.mlaw.gov.sg/legal-industry/find-a-lawyer/"
+    }
+  ],
+  "relatedGuides": [
+    "lasting-power-attorney-amd-foreigners",
+    "lpa-form1-form2-fees-pr-foreigners-singapore",
+    "wills-probate-cpf-nomination-singapore",
+    "leaving-singapore-playbook"
+  ],
+  "featured": false,
+  "sponsored": false
+}

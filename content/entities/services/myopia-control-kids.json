@@ -1,0 +1,36 @@
+{
+  "type": "service",
+  "slug": "myopia-control-kids",
+  "name": "Kids myopia control",
+  "summary": "How expat families manage childhood myopia in Singapore — ortho-K, atropine, myopia-control lenses, review cadence, and school-year timing around prescription changes.",
+  "body": "Singapore’s high myopia rates push many parents beyond single-vision glasses. Optometrists and ophthalmologists offer atropine drops, orthokeratology overnight lenses, and specialised myopia-control spectacles or soft lenses. Choice depends on age, prescription progression, and overnight-lens readiness.\n\n## Decision points\n- Progressive myopia vs stable mild prescription\n- Atropine concentration and side-effect monitoring\n- Ortho-K hygiene discipline for overnight wear\n- Daytime myopia-control glasses vs contacts\n- Review interval during growth spurts / exam seasons\n\nOutdoor time still matters — clinics often pair optical plans with lifestyle advice.\n\n## How to choose\nPrefer clinicians who show axial-length or progression charts, not only a new glasses quote. Ask who handles after-hours ortho-K irritation. Confirm international-school calendar buffers before changing modalities mid-term.\n\n## Practical tip\nPhotograph the current prescription and next review date in your phone wallet. Lost glasses week before exams is a common scramble.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Child’s myopia progressing faster than expected",
+    "Comparing atropine vs ortho-K vs control lenses",
+    "Need review cadence around school exams",
+    "Overnight lens hygiene plan for first-time wearers"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Optometrists & Opticians Board",
+      "url": "https://www.oob.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-myopia-control-singapore",
+    "kids-braces-orthodontics-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}

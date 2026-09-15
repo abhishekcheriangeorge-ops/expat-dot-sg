@@ -1,0 +1,37 @@
+{
+  "type": "service",
+  "slug": "sleep-consultant-infant",
+  "name": "Infant sleep consultant",
+  "summary": "How new parents in Singapore hire infant sleep consultants — method fit, night-weaning boundaries, condo noise realities, and when to see a paediatrician first.",
+  "body": "Sleep consultants coach settling routines, naps, and overnight stretches. They are not night nannies and not doctors. Good ones screen for medical red flags and refer back to paediatric care when needed.\n\n## Scope to define\n- Age and feeding status (breast / formula / mixed)\n- Gentle settling vs extinction-style methods — family values first\n- Daytime nap architecture in humid afternoons\n- Helper / night-nanny handoff instructions\n- Follow-up WhatsApp window after the package ends\n\nCondo neighbour noise and helper schedules often matter as much as the “method.”\n\n## How to choose\nAsk for written plans and clear exclusions (reflux, snoring, poor weight gain). Prefer consultants who collaborate with your paediatrician. Be wary of guaranteed-in-three-nights marketing. Cash packages should still include a refund/pause clause if illness interrupts.\n\n## Practical tip\nTrack two nights of wake times before the first call. Vague “bad sleeper” histories waste the expensive hour.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthhub.sg/",
+  "whenToEngage": [
+    "Infant nights fragmented after newborn phase",
+    "Need method-aligned plan for helpers / night nanny",
+    "Unsure whether issue is medical vs behavioural",
+    "Package follow-up support after illness interruption"
+  ],
+  "officialLinks": [
+    {
+      "label": "HealthHub",
+      "url": "https://www.healthhub.sg/"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "maternity-care-singapore",
+    "confinement-nanny-postpartum-singapore",
+    "newborn-pass-birth-registration-singapore",
+    "parenting-communities-playgroups-singapore",
+    "part-time-babysitter-nanny-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

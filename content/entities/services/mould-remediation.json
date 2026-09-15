@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "mould-remediation",
+  "name": "Mould remediation",
+  "summary": "How tenants and owners handle mould in Singapore homes — humidity diagnosis, landlord vs tenant responsibility, HEPA cleaning vs paint-over, and when to call remediation pros.",
+  "body": "Tropical humidity plus AC short-cycling breeds mould on walls, silicone, and wardrobes. Quick bleach wipe-downs often fail if moisture sources remain. Remediation firms combine containment, removal, drying, and source fixes.\n\n## Typical jobs\n- Bedroom wall / ceiling patches after monsoon leaks\n- Wardrobe and shoe-cabinet blooms\n- Bathroom silicone and grout regrowth\n- Post-leak drying and HEPA cleaning\n- Moisture-meter reports for landlord disputes\n\nTenancy agreements and photos matter before you pay for major works.\n\n## How to choose\nPrefer firms that measure moisture and explain containment, not only “anti-mould paint.” Ask about waste disposal and whether occupants should leave during works. Get written scope separating cleaning from waterproofing repairs.\n\n## Practical tip\nLog humidity readings and photograph growth weekly before negotiating with landlord or agent — timestamps beat memory in deposit fights.\n",
+  "category": "other",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.nea.gov.sg/",
+  "whenToEngage": [
+    "Recurring mould after DIY cleaning",
+    "Need moisture report for landlord / deposit dispute",
+    "Post-leak drying and HEPA clean required",
+    "Unsure paint-over vs full remediation scope"
+  ],
+  "officialLinks": [
+    {
+      "label": "NEA",
+      "url": "https://www.nea.gov.sg/"
+    },
+    {
+      "label": "CASE",
+      "url": "https://www.case.org.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "mould-humidity-rental-tenants",
+    "furnishing-rental-flat",
+    "renting-process-loi-ta-deposits"
+  ],
+  "featured": false,
+  "sponsored": false
+}
