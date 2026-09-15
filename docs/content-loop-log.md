@@ -6,6 +6,58 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 30)
+
+Branch: `cursor/loop-d-next-polish-tick30-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move parents for Employment Pass, incorporation, travel-before-card, work-pass issuance, EP medical, and STVP extension. Avoided open Loop D file sets through [#246](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/246).
+
+**Merge order note (controller):** `#215 → #222 → #230 → #246 → this tip`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “just add myself as director of the side Pte Ltd” on EP.
+- r/askSingapore — JB lunch on IPA before Notification Letter / EPSC.
+- r/askSingapore — labs still out, STVP ends tomorrow, HR silent.
+
+**Official**
+
+- [MOM — Secondary directorship](https://www.mom.gov.sg/passes-and-permits/employment-pass/taking-up-secondary-directorship) · [Get a pass issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/get-a-pass-issued) · [After the pass is issued](https://www.mom.gov.sg/passes-and-permits/employment-pass/after-the-pass-is-issued)
+- [MOM — Apply for EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/apply-for-a-pass) · [ICA — Extend short-term stay](https://www.ica.gov.sg/enter-transit-depart/extend-short-term-stay)
+- [ACRA — Appointing directors](https://www.acra.gov.sg/register/business/registering-different-business-structures/local-company/appointing-company-directors-other-key-officers/)
+
+### Gaps vs open stack
+
+Open #215→#222→#230→#246 cover DP re-sponsor / STP hours / SRS exit; LTVP→EP / mid-year school / insurance bridge; common-law LTVP / AEIS vs hold / STVP medical; DP age-out / S Pass→EP / LOC CPF pack. Remaining off-stack gaps: **EP secondary directorship LOC**, **JB hop mid-issuance**, **EP medical labs vs STVP extension**.
+
+### Shipped
+
+**New:** `ep-secondary-directorship-loc-singapore.mdx`, `jb-hop-mid-ep-issuance-reentry-trap-singapore.mdx`, `ep-medical-lab-stvp-extension-bridge-singapore.mdx`
+
+**Upgraded:** Employment Pass, incorporate, travel-before-card, work-pass issuance, EP medical, STVP extension (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No open #215 / #222 / #230 / #246 guide bodies; no re-edit of those parents.
+- Did not wait for CI or merges on prior tips.
+
+### Questions mined
+
+1. Does shareholding alone let me sit on a side-company board on EP?
+2. Is Slack “HR OK” enough for secondary directorship?
+3. Can I JB on IPA before the Notification Letter?
+4. Is the Notification Letter a free re-entry document?
+5. What if EPSC is next week and I want lunch in JB this weekend?
+6. Which medical PDF is the EP form?
+7. How early can HR file STVP extension for lab delays?
+8. What must the doctor’s memo say?
+9. Does a lab delay excuse overstay?
+10. Should I travel while the STVP extension is pending?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 29)
 
 Branch: `cursor/loop-d-next-polish-tick29-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Cross-linked Move parents for Dependant’s Pass, trailing-partner careers, S Pass, and EP vs S Pass. Avoided open Loop D file sets through [#230](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/230).
