@@ -1,0 +1,75 @@
+{
+  "type": "playbook",
+  "slug": "condo-access-card-deposit",
+  "title": "Condo access-card / fob deposit clear",
+  "summary": "Leaving a condo with resident access cards, lift fobs, and carpark tags still on deposit — inventory tokens, return them with dated receipts, and float lost-card fees before MCST handover and movers week.",
+  "lastReviewed": "2026-09-15",
+  "sections": [
+    {
+      "id": "inventory-tokens",
+      "title": "Inventory every card, fob, and carpark tag",
+      "body": "Resident access cards, lift fobs, bicycle-gate tags, and carpark IU holders often sit on a separate deposit from the renovation bond. Managing agents may treat a missing fob as lost even when the unit keys are back. Walk every adult and helper token the week you decide to leave — photograph serial stickers and the deposit schedule from the house rules.",
+      "bullets": [
+        "List every physical token issued to the unit, including helper spares",
+        "Photograph serial labels and any estate-stamped deposit schedule",
+        "Ask management which tokens share one deposit vs per-card fees"
+      ],
+      "href": "/journeys/condo-mcst-exit"
+    },
+    {
+      "id": "return-receipt",
+      "title": "Return tokens with a dated receipt",
+      "body": "Dropping cards in a mailbox without acknowledgement is how lost-card fees appear after you fly. Book a management-office slot, hand every token across the counter, and keep a signed or stamped return list. Deactivate app-based door access the same morning so returned cards cannot be cloned against a still-live login.",
+      "bullets": [
+        "Return all cards/fobs in one appointment with a written receipt",
+        "Revoke resident-app door access the same day as physical return",
+        "Pair visitor QR revoke with /journeys/condo-visitor-qr-exit"
+      ],
+      "href": "/journeys/condo-visitor-qr-exit"
+    },
+    {
+      "id": "lost-fee-float",
+      "title": "Lost-card fees vs deposit float",
+      "body": "Published lost-card fees can exceed the original token deposit. Keep a small SGD float until management confirms which tokens cleared and which were billed as lost. Do not raid the bank-statement archive week float for sudden fob invoices — keep those cash pots separate.",
+      "bullets": [
+        "Ask for the published lost-card / replacement fee table in writing",
+        "Hold SGD float until the access-card deposit line settles",
+        "Sketch bank-statement archive time on /tools/bank-statement-archive"
+      ],
+      "href": "/tools/bank-statement-archive"
+    },
+    {
+      "id": "helper-kids",
+      "title": "Helper and kids' spare tokens",
+      "body": "FDW and school-age spares are easy to miss in a suitcase. Confirm with the helper handoff timeline so a spare lift fob is not left in a locker or returned late. Kids' bicycle-gate tags often live on school bags — clear those the same week as school locker clear if that path applies.",
+      "bullets": [
+        "Collect helper spares before any mid-month cancel or transfer",
+        "Check kids' bags for bicycle-gate or pool tags",
+        "Align with /journeys/helper-handoff-exit when that playbook is in play"
+      ],
+      "href": "/journeys/helper-handoff-exit"
+    },
+    {
+      "id": "same-week",
+      "title": "Same-week stack with parking and movers",
+      "body": "Access-card return, visitor parking cancel, and mover lift booking often land in one fortnight. Sequence so physical tokens return while the management office is open, then visitor-bay cancels, then movers — so packing day does not leave a fob deposit open.",
+      "bullets": [
+        "Put card return, visitor-bay cancel, and lift booking on one calendar",
+        "Pair visitor parking clear with /journeys/condo-visitor-parking-clear",
+        "Keep one adult free for management-office hours on return day"
+      ],
+      "href": "/journeys/condo-visitor-parking-clear"
+    },
+    {
+      "id": "archive",
+      "title": "Archive receipts for overseas follow-up",
+      "body": "Deposit refunds and lost-card invoices can post after you leave Singapore. Keep return receipts, fee schedules, and any estate email threads in a folder your overseas inbox can still open. Forwarding addresses only help if that inbox still works after SIM change.",
+      "bullets": [
+        "Export return receipts and fee PDFs to cloud + offline backup",
+        "Confirm the forwarding email on the MCST / agent ticket",
+        "Note which adult holds the estate-app login before Singpass changes"
+      ],
+      "href": "/journeys/leaving"
+    }
+  ]
+}

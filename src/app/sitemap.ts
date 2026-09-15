@@ -58,6 +58,11 @@ const STATIC_PATHS: Array<{
     changeFrequency: "monthly",
     priority: 0.75,
   },
+  {
+    path: "/journeys/condo-access-card-deposit",
+    changeFrequency: "monthly",
+    priority: 0.75,
+  },
   { path: "/journeys/leaving", changeFrequency: "monthly", priority: 0.75 },
   { path: "/calendar", changeFrequency: "weekly", priority: 0.7 },
   { path: "/tools", changeFrequency: "monthly", priority: 0.7 },
@@ -93,6 +98,11 @@ const STATIC_PATHS: Array<{
   },
   {
     path: "/tools/helper-levy-final-month",
+    changeFrequency: "monthly",
+    priority: 0.65,
+  },
+  {
+    path: "/tools/bank-statement-archive",
     changeFrequency: "monthly",
     priority: 0.65,
   },
