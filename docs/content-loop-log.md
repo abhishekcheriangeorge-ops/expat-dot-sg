@@ -6,6 +6,37 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop G — SEO, internal linking, hub polish — 2026-09-15 (tick 3)
+
+Branch: `cursor/loop-g-seo-tick3-a144` → PR to `main`. Owns shell/metadata/hubs/crosslink depth only. Did **not** rewrite A–F/H guide bodies; skipped ads inventory / Grok; left tick-1 pillar topics and tick-2 hub OG work alone beyond shell reciprocity.
+
+### Gaps closed
+
+- ~560 one-way `relatedGuides` frontmatter edges still only surfaced same-pillar reverses — shell fill now also prefers **cross-pillar** reverse links (no mass MDX reciprocity edits).
+- Service detail pages lacked BreadcrumbList / crumbs and printed raw related-guide slugs.
+- `/sponsored` and `/advertise` still used title+description metadata (no canonical/OG via `buildPageMetadata`).
+- About / editorial trust pages lacked breadcrumbs and soft reciprocal explore links.
+- Entity detail crosslinks used slug title-case instead of real school/neighbourhood names; thin pillar back-links on neighbourhoods/schools/clubs.
+
+### Shipped this loop
+
+- `src/lib/content/guides.ts` — `resolveGuidesBySlug`; `getRelatedGuides` cross-pillar reciprocal fill
+- Service detail — breadcrumbs + BreadcrumbList JSON-LD + titled related guides + Life pillar link
+- `/sponsored` — `buildPageMetadata` + crumbs + CollectionPage; `/advertise` — canonical/OG only (no inventory expansion)
+- `/about` + `/editorial-policy` — breadcrumbs + trust reciprocal links
+- Neighbourhood / school / club details — resolve entity display names; deepen hub/pillar reciprocal nav
+- `site.ts` — Move↔arrival checklists; Home↔lease-duty tool; Life↔directory; Belong↔directory
+
+### Explicitly not done / notes for other loops
+
+- No mass frontmatter `relatedGuides` rewrites (shell fill handles ranking).
+- No new sponsorSlots / featured inventory / advertise product expansion.
+- No A–F/H guide body rewrites; no Grok / third-party clone copy.
+
+---
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 6)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick6-49cb` → PR to `main` (worktree off fresh `origin/main` after A5/#46; rebased onto C23/#48 + H6).

@@ -12,6 +12,7 @@ import {
   NEIGHBOURHOOD_REGION_LABELS,
   getNeighbourhoods,
   getEntityBySlug,
+  getSchools,
   type Neighbourhood,
 } from "@/lib/content";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
@@ -60,6 +61,10 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
   const entity = await getEntityBySlug("neighbourhoods", slug);
   if (!entity || entity.type !== "neighbourhood") notFound();
   const n = entity;
+
+  const schools = n.schoolsNearby.length
+    ? (await getSchools()).filter((s) => n.schoolsNearby.includes(s.slug))
+    : [];
 
   const rent = formatRent(n);
   const facts = [
@@ -133,27 +138,32 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
         </ProseSection>
       ) : null}
 
-      {n.schoolsNearby.length > 0 ? (
+      {schools.length > 0 ? (
         <section className="border-t border-fog-soft">
           <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
             <h2 className="font-display text-2xl text-canopy-deep">
               Schools often shortlisted nearby
             </h2>
             <ul className="mt-5 flex flex-wrap gap-3">
-              {n.schoolsNearby.map((schoolSlug) => (
-                <li key={schoolSlug}>
+              {schools.map((school) => (
+                <li key={school.slug}>
                   <Link
-                    href={`/schools/${schoolSlug}`}
+                    href={`/schools/${school.slug}`}
                     className="border border-fog-soft bg-paper px-4 py-2 text-sm text-ink-muted no-underline transition-colors hover:border-canopy-mist hover:text-ink"
                   >
-                    {schoolSlug
-                      .split("-")
-                      .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-                      .join(" ")}
+                    {school.name}
                   </Link>
                 </li>
               ))}
             </ul>
+            <p className="mt-6 text-sm">
+              <Link
+                href="/schools"
+                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              >
+                All schools →
+              </Link>
+            </p>
           </div>
         </section>
       ) : null}
@@ -171,6 +181,12 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
             Home pillar →
+          </Link>
+          <Link
+            href="/family"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Family pillar →
           </Link>
         </p>
       </nav>

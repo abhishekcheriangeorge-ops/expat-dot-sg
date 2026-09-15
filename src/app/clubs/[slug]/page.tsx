@@ -46,10 +46,20 @@ export default async function ClubDetailPage({ params }: Props) {
   if (!entity || entity.type !== "club") notFound();
   const c = entity;
 
+  const neighbourhood = c.neighbourhood
+    ? await getEntityBySlug("neighbourhoods", c.neighbourhood)
+    : null;
+  const neighbourhoodName =
+    neighbourhood && neighbourhood.type === "neighbourhood"
+      ? neighbourhood.name
+      : c.neighbourhood
+        ? c.neighbourhood.replace(/-/g, " ")
+        : null;
+
   const facts = [
     { label: "Category", value: CLUB_CATEGORY_LABELS[c.category] },
-    ...(c.neighbourhood
-      ? [{ label: "Area", value: c.neighbourhood.replace(/-/g, " ") }]
+    ...(neighbourhoodName
+      ? [{ label: "Area", value: neighbourhoodName }]
       : []),
     ...(c.membershipNotes
       ? [{ label: "Membership", value: c.membershipNotes }]
@@ -104,12 +114,12 @@ export default async function ClubDetailPage({ params }: Props) {
         <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-8 px-5 py-14 sm:px-8">
           <ChipList label="Focus" items={c.focus} />
           {c.website ? <ExternalLink href={c.website} /> : null}
-          {c.neighbourhood ? (
+          {c.neighbourhood && neighbourhoodName ? (
             <Link
               href={`/neighbourhoods/${c.neighbourhood}`}
               className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
             >
-              Nearby neighbourhood: {c.neighbourhood.replace(/-/g, " ")} →
+              Nearby neighbourhood: {neighbourhoodName} →
             </Link>
           ) : null}
         </div>
@@ -128,6 +138,12 @@ export default async function ClubDetailPage({ params }: Props) {
             className="font-medium text-canopy no-underline hover:text-canopy-mist"
           >
             Belong pillar →
+          </Link>
+          <Link
+            href="/life"
+            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+          >
+            Life pillar →
           </Link>
         </p>
       </nav>

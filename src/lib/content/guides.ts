@@ -122,7 +122,29 @@ export async function getGuideSlugs(options?: {
   return guides.map((g) => g.slug);
 }
 
-/** Related guides: explicit frontmatter first, then same-pillar fill */
+/** Resolve guide metas by slug (skips unknown / draft-missing entries). */
+export async function resolveGuidesBySlug(
+  slugs: string[],
+): Promise<GuideMeta[]> {
+  if (!slugs.length) return [];
+  const all = await getAllGuides();
+  const bySlug = new Map(all.map((g) => [g.slug, g]));
+  const out: GuideMeta[] = [];
+  const seen = new Set<string>();
+  for (const slug of slugs) {
+    const hit = bySlug.get(slug);
+    if (!hit || seen.has(hit.slug)) continue;
+    out.push(hit);
+    seen.add(hit.slug);
+  }
+  return out;
+}
+
+/**
+ * Related guides: explicit frontmatter first, then reciprocal fill
+ * (same pillar, then cross-pillar), then same-pillar chronological fill.
+ * Shell reciprocity closes one-way frontmatter edges without mass MDX edits.
+ */
 export async function getRelatedGuides(
   guide: GuideMeta,
   limit = 4,
@@ -141,10 +163,19 @@ export async function getRelatedGuides(
     if (picked.length >= limit) return picked;
   }
 
-  // Prefer guides that list this slug back (reciprocal internal links)
+  // Prefer same-pillar guides that list this slug back
   for (const candidate of all) {
     if (seen.has(candidate.slug)) continue;
     if (candidate.pillar !== guide.pillar) continue;
+    if (!candidate.relatedGuides.includes(guide.slug)) continue;
+    picked.push(candidate);
+    seen.add(candidate.slug);
+    if (picked.length >= limit) return picked;
+  }
+
+  // Then cross-pillar reverse links (tick-3 depth without MDX reciprocity edits)
+  for (const candidate of all) {
+    if (seen.has(candidate.slug)) continue;
     if (!candidate.relatedGuides.includes(guide.slug)) continue;
     picked.push(candidate);
     seen.add(candidate.slug);

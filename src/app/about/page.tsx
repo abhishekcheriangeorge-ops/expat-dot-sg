@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { buildPageMetadata } from "@/lib/seo";
+import { Breadcrumbs, JsonLd } from "@/components/seo";
+import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "About",
@@ -10,8 +11,15 @@ export const metadata: Metadata = buildPageMetadata({
 });
 
 export default function AboutPage() {
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+  ];
+
   return (
     <article className="mx-auto w-full max-w-[var(--max-page)] px-5 py-16 sm:px-8 sm:py-24">
+      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <Breadcrumbs items={crumbs} className="mb-8 text-sm text-ink-faint" />
       <header className="max-w-2xl">
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
           Trust
@@ -87,6 +95,24 @@ export default function AboutPage() {
               Journeys and light tools as support, never the whole product.
             </li>
           </ul>
+        </section>
+
+        <section>
+          <h2 className="font-display text-2xl text-ink">Start exploring</h2>
+          <p className="mt-3 flex flex-wrap gap-x-4 gap-y-2">
+            <Link href="/guides" className="text-canopy underline">
+              Guides
+            </Link>
+            <Link href="/journeys" className="text-canopy underline">
+              Journeys
+            </Link>
+            <Link href="/directory" className="text-canopy underline">
+              Directory
+            </Link>
+            <Link href="/editorial-policy" className="text-canopy underline">
+              Editorial policy
+            </Link>
+          </p>
         </section>
 
         <section>
