@@ -2,44 +2,50 @@
   "type": "playbook",
   "slug": "leaving-singapore",
   "title": "Leaving Singapore",
-  "summary": "A practical exit sequence — tax clearance, housing deposits, shipping, and pass cancellation — so the last month is orderly rather than chaotic.",
-  "lastReviewed": "2026-03-01",
+  "summary": "A practical exit sequence — IR21 tax clearance, housing deposits, shipping, pass cancellation with STVP buffer, and CPF closure — so the last two months are orderly rather than chaotic.",
+  "lastReviewed": "2026-09-15",
   "sections": [
     {
       "id": "timeline",
-      "title": "Work backwards from your flight",
-      "body": "Most exits need 6–10 weeks of lead time. Start with IRAS tax clearance and shipping slots; everything else fits around those two constraints.",
+      "title": "Work backwards from your flight (6–10 weeks)",
+      "body": "Most exits need six to ten weeks of lead time. IRAS expects employers to file Form IR21 at least one month before you cease employment, go on an overseas posting, or leave Singapore for more than three months — and to withhold monies from the day they know you are leaving. Shipping slots and lease notice often set the outer bound.",
       "bullets": [
-        "Confirm last working day and any garden leave with HR",
-        "Book international movers early for peak June/July and December windows",
-        "Align lease break / diplomatic clause notice with your departure date"
-      ]
+        "T−10 to T−8 weeks: tell HR your last day; ask when IR21 will be filed; book movers for peak June/July and December windows",
+        "T−8 to T−6 weeks: serve lease / diplomatic-clause notice; request school transcripts; start pet-export paperwork if needed",
+        "T−4 weeks: IR21 should already be with IRAS (e-file typically ~7 working days; paper up to ~21 days); keep living costs covered while salary is withheld",
+        "T−2 to T−1 weeks: pass cancellation / STVP buffer, utilities finals, soft goodbyes",
+        "After departure: keep one SGD account briefly for deposit refunds and tax directives if needed"
+      ],
+      "href": "https://www.iras.gov.sg/taxes/individual-income-tax/employees/scenario-based-faqs-for-working-in-singapore-and-abroad/tax-clearance-for-non-singapore-citizen-employees"
     },
     {
       "id": "tax-clearance",
       "title": "IRAS tax clearance (Form IR21)",
-      "body": "Employers generally must file Form IR21 and withhold monies until IRAS issues tax clearance for a leaving employee. Do not assume your final salary is free to spend until clearance is done.",
+      "body": "Tax clearance applies to non-Singapore citizen employees (including PEP) who cease employment, go on overseas posting, or leave Singapore for more than three months. Your employer files IR21 and withholds all monies due. After processing, IRAS issues a Directive to Pay Tax or a Notification to Release Monies (post typically 5–7 working days; electronic copy on myTax Portal sooner).",
       "bullets": [
         "Ask HR when IR21 will be filed and what documents they need from you",
-        "Keep payslips, stock awards, and director fees documentation handy",
-        "Expect processing time — clearance is not same-day"
+        "Keep payslips, stock awards, director fees, and departure date documentation handy",
+        "If notice is shorter than one month, HR still files ASAP and explains the reason on the form — do not assume you can spend the final paycheck",
+        "Clear any tax due before expecting withheld salary to be released"
       ],
-      "href": "https://www.iras.gov.sg"
+      "href": "https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/processing-time-for-tax-clearance"
     },
     {
       "id": "pass-cancel",
-      "title": "Cancel passes and dependants",
-      "body": "Employment Pass / S Pass cancellation is usually employer-led. Dependant and LTVP statuses are tied to the main pass — sequence cancellations carefully if family members leave on different dates.",
+      "title": "Cancel passes and plan the STVP buffer",
+      "body": "Employment Pass / S Pass cancellation is usually employer-led. MOM: if the pass holder is still in Singapore, the employer should request a Short-Term Visit Pass on cancellation (or within a day after EP expiry) — STVP can grant valid stay for up to 90 days. Dependant statuses tied to the main pass cancel with it. Forum reports often note STVP is not multiple-entry — leaving Singapore usually ends that visit pass.",
       "bullets": [
-        "Confirm who submits the cancellation (HR vs you)",
-        "Check short-term visit privileges after cancellation if you need a buffer week",
-        "Update Singpass and bank KYC after your FIN status changes"
-      ]
+        "Confirm who submits the cancellation (HR vs you) and the cancellation date vs last working day",
+        "Ask HR to request STVP at cancellation if you need days after the pass dies",
+        "Do not assume you can re-enter on the same STVP after a trip abroad",
+        "Update Singpass contact details and bank KYC once your FIN / pass status changes"
+      ],
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass"
     },
     {
       "id": "housing",
       "title": "Lease exit and deposit recovery",
-      "body": "Inventory check-out, utility final readings, and aircon servicing clauses decide how much of your deposit returns. Photograph everything on move-out day.",
+      "body": "Inventory check-out, utility final readings, and aircon servicing clauses decide how much of your deposit returns. Photograph everything on move-out day. Deposit refunds often land after you have left — keep a local account open briefly.",
       "bullets": [
         "Serve notice per tenancy agreement (diplomatic clause if applicable)",
         "Schedule landlord / agent check-out with daylight photos",
@@ -52,24 +58,25 @@
       "body": "Sea freight is cheaper but slow; air freight suits essentials. Pet export needs NParks / AVS paperwork and airline pet policies — start weeks ahead.",
       "bullets": [
         "Get two mover quotes with door-to-door vs port-to-port clarity",
-        "Separate “first week abroad” suitcase from deep storage",
+        "Separate \"first week abroad\" suitcase from deep storage",
         "For pets: microchip, rabies titres, and crate training timelines"
       ]
     },
     {
       "id": "money-admin",
-      "title": "Banks, insurance, and subscriptions",
-      "body": "Close or dormant local accounts deliberately. Keep one account briefly if deposits or tax refunds are still inbound — then close it.",
+      "title": "Banks, insurance, CPF, and subscriptions",
+      "body": "Close or dormant local accounts deliberately. EP holders often have no CPF; if you ever held PR/SC and are closing CPF after renunciation, CPF Board cites about twelve weeks average processing and strongly prefers applications before you leave Singapore (overseas certification adds friction).",
       "bullets": [
         "Update address on insurance and investment platforms",
         "Cancel telco, gym, club, and streaming local billing",
-        "Export CPF statements if you ever contributed; EP holders often have none"
-      ]
+        "Export statements; if closing CPF, apply online before departure when eligible"
+      ],
+      "href": "https://www.cpf.gov.sg/member/account-services/cpf-asset-management/on-leaving-singapore"
     },
     {
       "id": "schools",
       "title": "Schools and records (families)",
-      "body": "Request transcripts and recommendation letters before the last week of term. International schools often need written withdrawal notice.",
+      "body": "Request transcripts and recommendation letters before the last week of term. International schools often need written withdrawal notice and have fee refund policies tied to notice length.",
       "bullets": [
         "Confirm notice periods and fee refund policies",
         "Collect vaccination and learning-support records",
@@ -83,7 +90,7 @@
       "bullets": [
         "Share a forwarding email with close contacts",
         "Leave apartment Wi-Fi and spare keys labelled for the agent",
-        "Keep this playbook’s last-reviewed date in mind — rules change"
+        "Keep this playbook’s last-reviewed date in mind — IRAS and MOM rules change"
       ]
     }
   ]
