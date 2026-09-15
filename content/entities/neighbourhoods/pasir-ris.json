@@ -1,0 +1,41 @@
+{
+  "type": "neighbourhood",
+  "slug": "pasir-ris",
+  "name": "Pasir Ris",
+  "summary": "Quiet east-coast-adjacent HDB town with EWL access, Pasir Ris Park, and Downtown East — family-leaning and calmer than Tampines or Bedok hubs.",
+  "body": "Pasir Ris is the chill east shortlist when Tampines feels too packed and Bedok still too hub-loud. Pasir Ris MRT on the East-West Line, White Sands / town-centre errands, and Pasir Ris Park / Downtown East weekends define the lifestyle; airport-side hops are a quiet plus for frequent travellers. Housing is mostly HDB with selective condo and executive stock — rents usually undercut Katong and many Tampines projects for similar bedroom counts because you trade some night-life density for space and park access. Commute west or to CBD is the honest cost: EWL length is real even when car rides feel shorter than reputation. Watch-outs: some blocks sit a long walk from the MRT despite the town label, weekend park crowds, and flash-flood / low-approach checks near park edges on storm days. Compare with Tampines for denser self-contained east living, Bedok for closer EWL + town-centre gravity, or Punggol if you want newer northeast flats instead of east-park vibes.",
+  "region": "east",
+  "vibe": [
+    "quiet",
+    "park",
+    "family",
+    "ewl",
+    "east"
+  ],
+  "bestFor": [
+    "families wanting park weekends",
+    "Changi-adjacent travellers",
+    "renters escaping Tampines density",
+    "car-optional households okay with longer CBD rides"
+  ],
+  "watchOuts": [
+    "Longer EWL CBD commute vs central towns",
+    "Block-to-MRT walk variance",
+    "Park-edge storm / flood checks",
+    "HDB eligibility for foreigner rentals"
+  ],
+  "housingMix": "HDB majority, selective condo and executive pockets, park-adjacent stacks.",
+  "commuteNotes": "East-West Line at Pasir Ris; time door-to-desk and the actual feeder/walk from your block.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1900,
+    "oneBedTo": 3000,
+    "familyFrom": 2500,
+    "familyTo": 4000
+  },
+  "mrt": [
+    "Pasir Ris"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
