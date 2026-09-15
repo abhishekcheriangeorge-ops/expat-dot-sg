@@ -6,6 +6,56 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 31)
+
+Branch: `cursor/e-journeys-tools-tick31-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #304** (`cursor/e-journeys-tools-tick30-fa4f`) — did not wait for #304 or earlier E drafts to merge. Avoided open E stack exclusives through **#304** (E30): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**), cpf-nomination / school-bus-last-week-float (**#304**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → #304 → this tip**. Soft hubs / content-loop-log: **prepend**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Leaving / health threads — chronic scripts run out days after landing; polyclinic slots full in packing week; private top-up cash surprise.
+- Pharmacy / travel threads — destination GP wants sealed summary letters; controlled meds need original packaging; portal PDFs trapped after Singpass SIM change.
+
+**Official / orientation**
+
+- Clinic / polyclinic refill and travel-fill policies (provider-specific)
+- HSA personal import / carry rules (medicine-specific)
+
+### Gaps vs open E stack through #304
+
+Open tips through **#304** cover mail/HDB through CPF nomination / school-bus last-week float. Remaining high-intent gaps **off those path sets**: **pharmacy / chronic-script exit**, **pharmacy last-refill float sketch**. No calendar JSON. Distinct from clinic-deposit-exit — this tick owns refill / transfer-letter sequencing and last-refill cash, not clinic deposit return. Distinct from hospital-cash-deposit — outpatient chronic scripts vs inpatient deposit. Distinct from insurance-portability — medication logistics, not policy portability.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/pharmacy-chronic-script-exit.json` + `/journeys/pharmacy-chronic-script-exit`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/pharmacy-last-refill-float.ts`
+- `src/components/tools/PharmacyLastRefillFloatCalculator.tsx`
+- `/tools/pharmacy-last-refill-float` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #304.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Will polyclinics issue a travel fill without a specialist letter?
+2. How many days of cover do private GPs typically write for leavers?
+3. Can destination pharmacies accept a portal PDF without a sealed letter?
+4. Do controlled meds need separate customs declarations per destination?
+5. Will clinic SMS renewals fail after Singapore SIM cancellation?
+
+---
+
 ## Loop E — Journeys / tools — 2026-09-15 (tick 30)
 
 Branch: `cursor/e-journeys-tools-tick30-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. **Opened off tip #296** (`cursor/e-journeys-tools-tick29-fa4f`) — did not wait for #296 or earlier E drafts to merge. Avoided open E stack exclusives through **#296** (E29): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**), condo-ev-charger / school-cca-kit (**#273**), utility-meter-photo / school-exam-ib (**#281**), condo-visitor-parking / helper-levy-final (**#290**), condo-access-card / bank-statement-archive (**#296**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → #273 → #281 → #290 → #296 → this tip**. Soft hubs / content-loop-log: **prepend**.

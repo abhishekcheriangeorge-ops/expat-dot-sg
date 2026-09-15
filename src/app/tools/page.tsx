@@ -95,6 +95,12 @@ const tools = [
     summary:
       "Sketch last-week bus cash for ride-through, early cancel with notice shortfall, and no-show forfeit — not operator advice.",
   },
+  {
+    href: "/tools/pharmacy-last-refill-float",
+    title: "Pharmacy last-refill float",
+    summary:
+      "Sketch last-refill cash for polyclinic refill, private top-up, and travel fills — not clinical or HSA advice.",
+  },
 ] as const;
 
 export default function ToolsIndexPage() {

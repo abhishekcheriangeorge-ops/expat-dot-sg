@@ -8,6 +8,7 @@ import {
   getCondoEvChargerClearPlaybook,
   getCondoAccessCardDepositPlaybook,
   getCpfNominationExitPlaybook,
+  getPharmacyChronicScriptExitPlaybook,
   getCondoVisitorParkingClearPlaybook,
   getUtilityMeterPhotoHandoffPlaybook,
   getCondoVisitorQrExitPlaybook,
@@ -25,7 +26,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -42,6 +43,7 @@ export default async function JourneysIndexPage() {
     condoVisitorParking,
     condoAccessCard,
     cpfNominationExit,
+    pharmacyChronicScript,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -54,6 +56,7 @@ export default async function JourneysIndexPage() {
     getCondoVisitorParkingClearPlaybook(),
     getCondoAccessCardDepositPlaybook(),
     getCpfNominationExitPlaybook(),
+    getPharmacyChronicScriptExitPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -123,6 +126,12 @@ export default async function JourneysIndexPage() {
                   cpfNominationExit?.title ??
                   "CPF nomination / estate-planning exit",
                 path: "/journeys/cpf-nomination-exit",
+              },
+              {
+                name:
+                  pharmacyChronicScript?.title ??
+                  "Pharmacy / chronic-script exit",
+                path: "/journeys/pharmacy-chronic-script-exit",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -425,6 +434,34 @@ export default async function JourneysIndexPage() {
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
             Open CPF nomination exit playbook
+          </Link>
+        </FadeIn>
+
+        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+            Pharmacy / chronic scripts
+          </p>
+          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+            {pharmacyChronicScript?.title ??
+              "Pharmacy / chronic-script exit"}
+          </h2>
+          <p className="mt-3 max-w-xl text-ink-muted">
+            {pharmacyChronicScript?.summary ??
+              "Last refills, transfer letters, and private-script float before clinic portals change."}{" "}
+            Pair with{" "}
+            <Link
+              href="/tools/pharmacy-last-refill-float"
+              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            >
+              /tools/pharmacy-last-refill-float
+            </Link>{" "}
+            if refill cash competes with packing week.
+          </p>
+          <Link
+            href="/journeys/pharmacy-chronic-script-exit"
+            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+          >
+            Open pharmacy chronic-script playbook
           </Link>
         </FadeIn>
 
