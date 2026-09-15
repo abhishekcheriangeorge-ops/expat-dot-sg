@@ -20,10 +20,15 @@
     {
       "label": "MOH — Guide to dental treatment costs",
       "url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/guide-to-dental-treatment-costs/"
+    },
+    {
+      "label": "MOH — Mental health services",
+      "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
     }
   ],
   "relatedGuides": [
     "healthcare-gp-hospital",
-    "dental-care-foreigners-singapore"
+    "dental-care-foreigners-singapore",
+    "mental-health-resources"
   ]
 }
