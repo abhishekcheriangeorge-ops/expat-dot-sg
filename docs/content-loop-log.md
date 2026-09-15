@@ -6,6 +6,66 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 24) — 2026-09-15
+
+Branch: `cursor/loop-b-family-belong-tick24-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #172. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — HFMD exclusion letters vs dual WFH folklore; sibling class closures.
+- r/askSingapore — sports-day house-colour kit misses; volunteer shift vs client calls.
+- r/askSingapore — wet-market Saturday loops as the real parent hello rail.
+
+**Official**
+
+- [MOH HFMD](https://www.moh.gov.sg/diseases-updates/hand-foot-and-mouth-disease) + [HealthHub HFMD](https://www.healthhub.sg/a-z/diseases-and-conditions/hand-foot-and-mouth-disease)
+- [MOE Parent Hub](https://www.moe.gov.sg/parent-hub) + [international schools](https://www.moe.gov.sg/international-schools)
+- [NEA](https://www.nea.gov.sg/) + [HDB](https://www.hdb.gov.sg/) + [PA](https://www.pa.gov.sg/) + [ECDA](https://www.ecda.gov.sg/)
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–23 (open through #172) covered schools through recovery/photo/void-deck. Remaining heat without contested paths: **HFMD / school-outbreak coverage**, **IS sports-day / carnival ops**, **wet-market morning parent belonging**.
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/family/dual-career-hfmd-school-outbreak-coverage-singapore.mdx`
+- `content/guides/family/international-school-sports-day-carnival-ops-dual-career-singapore.mdx`
+- `content/guides/belong/wet-market-morning-parent-belonging-singapore.mdx`
+
+**Upgraded guides** (outside open B stack)
+
+- aircon/pest renewals, fibre/TP for renters, lease renewal rent increase, flash floods, pets daily life
+- `src/lib/site.ts` Family + Belong rails
+
+**Entity depth**
+
+- dental-care, physiotherapy-rehab, fdw-agencies, NPS International, Hillside World Academy
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / clone copy.
+- No edits to open #80–#172 guide/entity paths.
+
+### Questions mined (sample)
+
+1. What is the written exclusion end-date?
+2. Does a well sibling still have a closed class?
+3. Who owns daytime coverage tomorrow?
+4. Are house colours packed at T−2?
+5. Which adult owns the volunteer shift?
+6. What is the rain / heat plan?
+7. Which wet-market stalls are the repeat rail?
+8. Did we shift helper rest day off outbreak mornings?
+
+---
+
+---
+
 ## Loop B — Family + Belong (tick 23) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick23-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #166. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
