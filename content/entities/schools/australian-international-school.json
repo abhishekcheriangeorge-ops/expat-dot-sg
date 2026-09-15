@@ -3,7 +3,7 @@
   "slug": "australian-international-school",
   "name": "Australian International School",
   "summary": "Dual Australian / IB pathways on Lorong Chuan \u2014 a common ANZA-orbit campus for Aussie continuity and broader internationals.",
-  "body": "AIS combines Australian curriculum familiarity with IB Diploma options, serving a large Australian and wider international community on Lorong Chuan (north-east central, with access from Thomson and east corridors). Sport and outdoor culture are campus signatures. Families relocating from Australia often shortlist AIS alongside ANZA soft-landing calendars; treat waitlists and fee bands as live admissions questions, not brochure assumptions. Tour with commute maths from your actual housing shortlist \u2014 Lorong Chuan is not interchangeable with Woodlands SAS geography. Ask about learning-support capacity in writing if SEN is part of the household plan. Multi-child EP households should request a written sibling-fee worked example (tuition vs levy/bus) before underwriting a second enrolment \u2014 brochure \u201cfamily friendly\u201d language is not an invoice. Dual-career parents: treat concert/recital call times as hard blocks, not optional evening drop-ins.",
+  "body": "AIS combines Australian curriculum familiarity with IB Diploma options, serving a large Australian and wider international community on Lorong Chuan (north-east central, with access from Thomson and east corridors). Sport and outdoor culture are campus signatures. Families relocating from Australia often shortlist AIS alongside ANZA soft-landing calendars; treat waitlists and fee bands as live admissions questions, not brochure assumptions. Tour with commute maths from your actual housing shortlist \u2014 Lorong Chuan is not interchangeable with Woodlands SAS geography. Ask about learning-support capacity in writing if SEN is part of the household plan. Multi-child EP households should request a written sibling-fee worked example (tuition vs levy/bus) before underwriting a second enrolment \u2014 brochure \u201cfamily friendly\u201d language is not an invoice. Dual-career parents: treat concert/recital call times as hard blocks, not optional evening drop-ins. Dual-career note: PTA and class-volunteer shifts need a written term cap and blackout nights before client week.",
   "curriculum": [
     "Australian",
     "IB PYP",
@@ -24,6 +24,8 @@
   "sponsored": false,
   "relatedGuides": [
     "international-school-concert-recital-ops-dual-career-singapore",
-    "music-lesson-studio-waiting-parent-belonging-singapore"
+    "music-lesson-studio-waiting-parent-belonging-singapore",
+    "international-school-pta-volunteer-ops-dual-career-singapore",
+    "coding-academy-waiting-parent-belonging-singapore"
   ]
 }
