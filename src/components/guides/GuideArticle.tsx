@@ -1,7 +1,9 @@
 import type { ReactNode } from "react";
 import type { GuideMeta } from "@/lib/content/guides";
+import { PILLAR_LABELS } from "@/lib/content/guides";
 import type { SponsorPlacement } from "@/lib/content/schemas";
 import type { TocItem } from "@/lib/content/toc";
+import { Breadcrumbs } from "@/components/seo";
 import { GuideCitations } from "./GuideCitations";
 import { GuideMetaBar } from "./GuideMetaBar";
 import { GuideRelated } from "./GuideRelated";
@@ -24,9 +26,17 @@ export function GuideArticle({
   children,
   placement = null,
 }: GuideArticleProps) {
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Guides", path: "/guides" },
+    { name: PILLAR_LABELS[meta.pillar], path: `/${meta.pillar}` },
+    { name: meta.title, path: `/guides/${meta.slug}` },
+  ];
+
   return (
     <article className="mx-auto w-full max-w-[var(--max-page)] px-5 py-12 sm:px-8 sm:py-16">
       <header className="max-w-3xl">
+        <Breadcrumbs items={crumbs} className="mb-6 text-sm text-ink-faint" />
         <GuideMetaBar meta={meta} />
         <h1 className="font-display mt-5 text-4xl leading-[1.1] text-ink sm:text-5xl">
           {meta.title}

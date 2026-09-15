@@ -6,9 +6,15 @@ import {
   getAllGuides,
   getGuideBySlug,
   getRelatedGuides,
+  PILLAR_LABELS,
 } from "@/lib/content/guides";
 import { getActivePlacementByCategory } from "@/lib/content/sponsored";
-import { articleJsonLd, buildPageMetadata, faqJsonLd } from "@/lib/seo";
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  buildPageMetadata,
+  faqJsonLd,
+} from "@/lib/seo";
 
 type GuidePageProps = {
   params: Promise<{ slug: string }>;
@@ -46,17 +52,29 @@ export default async function GuidePage({ params }: GuidePageProps) {
     : null;
 
   const faqData = faqJsonLd(guide.meta.faqs ?? []);
+  const crumbs = [
+    { name: "Home", path: "/" },
+    { name: "Guides", path: "/guides" },
+    {
+      name: PILLAR_LABELS[guide.meta.pillar],
+      path: `/${guide.meta.pillar}`,
+    },
+    { name: guide.meta.title, path: `/guides/${slug}` },
+  ];
 
   return (
     <>
       <JsonLd
-        data={articleJsonLd({
-          headline: guide.meta.title,
-          description: guide.meta.description,
-          path: `/guides/${slug}`,
-          dateModified: guide.meta.lastReviewed,
-          image: guide.meta.ogImage,
-        })}
+        data={[
+          articleJsonLd({
+            headline: guide.meta.title,
+            description: guide.meta.description,
+            path: `/guides/${slug}`,
+            dateModified: guide.meta.lastReviewed,
+            image: guide.meta.ogImage,
+          }),
+          breadcrumbJsonLd(crumbs),
+        ]}
       />
       {faqData ? <JsonLd data={faqData} /> : null}
       <GuideArticle
