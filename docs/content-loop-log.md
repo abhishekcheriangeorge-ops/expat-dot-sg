@@ -6,6 +6,164 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop B — Family + Belong (tick 5) — 2026-09-15
+
+Branch: `loop/family-belong-tick5` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; neighbourhood/housing deep guides stay Home-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — school commute / housing lock-in ([SAS vs OFS vs Stamford](https://www.reddit.com/r/askSingapore/comments/1s7j0lb/moving_to_singapore_with_2_young_kids_help_with/); [Stamford American](https://www.reddit.com/r/askSingapore/comments/1l310j3/is_stamford_american_international_school_a_good/); [Aussie family school bus](https://www.reddit.com/r/askSingapore/comments/1ah4ofa/where_is_an_awesome_place_to_live_in_sg_for_a/); [relocate school realism](https://www.reddit.com/r/askSingapore/comments/1tq770u/consider_relocating_to_singapore_please_help/)).
+- r/askSingapore — Mandarin enrichment for IS / non-Mandarin homes ([Berries](https://www.reddit.com/r/askSingapore/comments/1i12wnc/is_berries_worth_it_asking_parents_of_singapore/); [LingoAce](https://www.reddit.com/r/askSingapore/comments/1ls4t8u/lingoace_chinese_lessons_are_they_good/); [home Chinese tutor](https://www.reddit.com/r/askSingapore/comments/1n9uvgo/where_to_find_fun_and_engaging_home_chinese_tutor/); [Mandarin school shortlist](https://www.reddit.com/r/askSingapore/comments/1j6qcys/question_can_someone_help_me_with_choosing_a/)).
+- r/askSingapore — preschool / infant care vs helper ([expat preschool fees](https://www.reddit.com/r/askSingapore/comments/1911bks/expats_please_recommend_a_preschool/); [infant care vs helper](https://www.reddit.com/r/askSingapore/comments/1krpxo7/infant_care_or_domestic_helper/); [travel childcare](https://www.reddit.com/r/askSingapore/comments/1jobcri/childcare_options_while_traveling_for_work/); [preschool student visa myth](https://www.reddit.com/r/askSingapore/comments/1auflqg/preschool_student_visa/)).
+- r/askSingapore — cash-pay paediatric after-hours ([cash-pay paediatrician](https://www.reddit.com/r/askSingapore/comments/1e73vx8/pediatrician_recommendation_for_nonlocal_pay_via/); [recommend paediatrician](https://www.reddit.com/r/askSingapore/comments/1g54za3/anyone_can_recommend_a_pediatrician_in_sgp/); [foreigner medical diagnosis](https://www.reddit.com/r/askSingapore/comments/v0bgxx/where_can_foreigners_go_to_for_medical_diagnosis/)).
+- r/askSingapore — Belong chambers / faith / nationality ([young professional friends](https://www.reddit.com/r/askSingapore/comments/1r69mda/how_to_make_friends_as_a_young_professional/); [young expat groups](https://www.reddit.com/r/askSingapore/comments/1edbojo/groupsevents_to_meet_young_expats/); [engineering networking](https://www.reddit.com/r/askSingapore/comments/1gbmb1l/networking_for_engineers_in_sg/); [SG Catholics church](https://www.reddit.com/r/askSingapore/comments/1i5hlrx/sg_catholics_which_church_to_attend/); [joining church](https://www.reddit.com/r/askSingapore/comments/1ejw01r/joining_church_in_sg/); [where are the Americans?](https://www.reddit.com/r/askSingapore/comments/18bpqu8/where_are_the_americans/)).
+
+**Official**
+
+- [ECDA — Preschool subsidies](https://www.ecda.gov.sg/parents/preschool-subsidies) (SC-child framing for infant/childcare + KiFAS).
+- [AmCham Singapore](https://www.amcham.com.sg/) + [BritCham](https://www.britcham.org.sg/) + [EuroCham](https://eurocham.org.sg/) + [AustCham](https://www.austcham.org.sg/).
+- [Roman Catholic Archdiocese](https://www.catholic.sg/) + [MUIS](https://www.muis.gov.sg/) + [American Association of Singapore](https://www.aasingapore.com/).
+- [CIS](https://www.cis.edu.sg/) + [Dulwich Singapore](https://singapore.dulwich.org/) + [GESS](https://www.gess.sg/) (campus / language pathway verification).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–4 covered waitlists/SEN/camps/clubs/LGBTQ/dual-career, newborn/Baby Bonus/leave/marriage/vaccines/mental-health, IVF/maternity/divorce/hobby-sports. Remaining Family/Belong heat: **school-bus commute tax + Woodlands≠Woodleigh**, **Mandarin enrichment vs IS bilingual tracks**, **infant care vs helper for unsubsidised foreigners**, **cash-pay paediatric after-hours triage**, **chambers ROI for young professionals**, **faith soft landing without networking-only etiquette**, **AAS family-heavy American soft landing**. Also restores Loop B tick 4 log entry accidentally overwritten by a later Loop D prepend.
+
+### Shipped this loop
+
+**Upgraded guides**
+
+- `content/guides/family/international-schools-landscape.mdx` (bus/commute table; Mandarin/bilingual tracks; CIS/Dulwich/GESS/Stamford geography)
+- `content/guides/family/kids-activities-holiday-camps.mdx` (Mandarin enrichment decision frame)
+- `content/guides/family/preschool-childcare-singapore.mdx` (infant care vs helper foreigner stack)
+- `content/guides/family/finding-pediatrician-singapore.mdx` (after-hours / cash-pay triage)
+- `content/guides/belong/chambers-of-commerce-singapore.mdx` (young-pro / steep association ROI)
+- `content/guides/belong/religious-communities-singapore.mdx` (Catholic/OYP soft landing; faith-first etiquette)
+- `content/guides/belong/nationality-groups-singapore.mdx` (AAS family-heavy American pattern)
+- `content/guides/belong/find-my-people-singapore.mdx` (chambers/faith/nationality cross-links)
+
+**Entity depth (schools / clubs / services)**
+
+- `content/entities/schools/canadian-international-school.json`
+- `content/entities/schools/dulwich-college-singapore.json`
+- `content/entities/schools/gess.json`
+- `content/entities/schools/stamford-american.json`
+- `content/entities/schools/overseas-family-school.json`
+- `content/entities/clubs/american-association-singapore.json` (new)
+- `content/entities/clubs/amcham.json`
+- `content/entities/clubs/britcham.json`
+- `content/entities/clubs/eurocham.json`
+- `content/entities/services/the-tutors.json`
+
+**Log hygiene**
+
+- Restored `Loop B — Family + Belong (tick 4)` section below (was overwritten when Loop D prepended).
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (MDW / neighbourhood deep guides left owned elsewhere).
+
+### Questions mined (sample)
+
+1. Should we live near SAS Woodlands, OFS Pasir Ris, or Stamford Woodleigh — and how long is the school bus?
+2. Is Woodleigh the same as Woodlands when shortlisting Stamford American?
+3. Do CIS bilingual tracks actually deliver Mandarin immersion hours past junior school?
+4. Is Dulwich Mandarin optional language or a bilingual pathway?
+5. Are Berries / LingoAce packages worth it for international-school kids from non-Mandarin homes?
+6. As a foreigner, should we choose infant care, a helper, or both when ECDA subsidies do not apply?
+7. Can a preschool Student’s Pass replace a Dependant’s Pass for a toddler?
+8. Where should cash-pay foreigners take a febrile toddler after hours — poly, panel, Thomson 24h, or KKH ED?
+9. Are AmCham/BritCham worth it for mid-20s friendship, or only for BD committees?
+10. Are steep industry associations (AAIS/SSIA) just expensive chambers?
+11. Which Catholic parish should a CBD transplant try first, and is OYP for newcomers?
+12. Is it appropriate to join a church only to make friends?
+13. Where are the Americans if not at expat bars — AAS, American Club, or SAS geography?
+14. Can smaller-passport families find nationality groups without a megaclub?
+
+---
+
+## Loop B — Family + Belong (tick 4) — 2026-09-15
+
+Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW stays Home-owned; ActiveSG facilities depth stays Life-owned).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IVF / fertility financing ([IVF options and cost](https://www.reddit.com/r/askSingapore/comments/1rzjjfj/couples_who_gone_through_ivf_in_singapore_what/); [public IVF options](https://www.reddit.com/r/askSingapore/comments/1p02anc/public_ivf_options_in_singapore/); [KKH fertility](https://www.reddit.com/r/askSingapore/comments/1rqlga7/fertility_treatments_kkh_advice_needed/); [trying after 38](https://www.reddit.com/r/askSingapore/comments/1ewu432/women_who_have_are_trying_for_kids_after_38_in/); [conceive support](https://www.reddit.com/r/askSingapore/comments/1raofat/for_those_who_have_been_trying_to_conceive/)).
+- r/askSingapore — maternity insurance / DP spouse gaps ([maternity cover for DP wife](https://www.reddit.com/r/askSingapore/comments/1g76uwq/can_anyone_share_their_experience_with_insurance/); [foreign spouse pregnant](https://www.reddit.com/r/askSingapore/comments/x14pk6/foreign_spouse_pregnant_whats_your_experience_as/); [parental leave corporates](https://www.reddit.com/r/askSingapore/comments/196mitu/parental_leave_in_corporates/)).
+- r/askSingapore — divorce / LTVP / PPO ([divorce foreign spouse custody](https://www.reddit.com/r/askSingapore/comments/x6dksp/anybody_divorced_a_foreign_spouse_and_share_kids/); [LTVP baby threat](https://www.reddit.com/r/askSingapore/comments/1k7hpf3/ltvp_wife_threatens_to_take_baby_away/); [remarry without dissolve](https://www.reddit.com/r/askSingapore/comments/1sz2ouu/can_a_foreigner_who_got_married_in_singapore_get/); [PPO summons](https://www.reddit.com/r/askSingapore/comments/17qfrak/summoned_to_attend_family_court_hearing/); [DV + divorce](https://www.reddit.com/r/askSingapore/comments/1ja4ei3/anyone_that_can_share_their_experience_with/)).
+- r/askSingapore — Belong via hobby sport ([Reclub pickleball](https://www.reddit.com/r/askSingapore/comments/1u4qy8o/pickleball_games_training_community/); [pickleball venues](https://www.reddit.com/r/askSingapore/comments/1l6xsnv/pickleball_venues_in_singapore/); [running clubs](https://www.reddit.com/r/askSingapore/comments/1tcmff8/do_you_have_any_running_club_recommendations/); [Meetup relocate](https://www.reddit.com/r/askSingapore/comments/1n4xf99/recently_relocated_to_singapore_are_there_any/); [expat friends](https://www.reddit.com/r/askSingapore/comments/1qr196s/expat_friends_group_in_singapore/)).
+- r/askSingapore — school shortlist adjacency ([SAS vs OFS housing](https://www.reddit.com/r/askSingapore/comments/1s7j0lb/moving_to_singapore_with_2_young_kids_help_with/); [relocate school realism](https://www.reddit.com/r/askSingapore/comments/1tq770u/consider_relocating_to_singapore_please_help/)).
+
+**Official**
+
+- [MOH — Marriage and Parenthood schemes](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/marriage-and-parenthood-schemes/) (ART co-funding tiers incl. SC–foreigner 35%; MediSave maternity; PGT tables).
+- [MOH — Elective egg-freezing](https://www.moh.gov.sg/newsroom/updates-on-prices-and-procedures-for-elective-egg-freezing-in-singapore/) + [SC + foreign spouse IVF reply](https://www.moh.gov.sg/newsroom/support-available-for-singaporeans-and-foreign-spouses-seeking-ivf-treatment/).
+- [Judiciary — Apply for PPO](https://www.judiciary.gov.sg/family/apply-personal-protection-order) + respond-to-PPO path; [Divorce requirements](https://www.judiciary.gov.sg/family/understand-requirements-getting-divorce).
+- [Reclub](https://reclub.co/) + [West Coast Park parkrun](https://www.parkrun.sg/westcoast/).
+
+### Gaps vs prior Loop B ticks
+
+Ticks 1–3 covered schools/waitlists/SEN/camps/clubs/volunteering/LGBTQ/dual-career, newborn DP/Baby Bonus/leave/marriage/vaccines/mental-health soft landing. Remaining Family/Belong heat: **exact MOH ART tiers + elective egg freezing + PGT cash**, **DP spouse maternity insurance + foreigner private billing**, **LTVP expire ≠ divorce + PPO/EO depth**, **kids orthodontics cash**, **Reclub/parkrun belonging playbook** (Life keeps ActiveSG facilities; Home keeps MDW).
+
+### Shipped this loop
+
+**New guides**
+
+- `content/guides/belong/hobby-sports-communities-singapore.mdx`
+
+**Upgraded guides**
+
+- `content/guides/family/ivf-fertility-foreigners-singapore.mdx`
+- `content/guides/family/maternity-care-singapore.mdx`
+- `content/guides/family/divorce-custody-foreigners-singapore.mdx`
+- `content/guides/family/family-violence-ppo-foreigners.mdx`
+- `content/guides/family/dental-care-foreigners-singapore.mdx`
+- `content/guides/belong/find-my-people-singapore.mdx`
+- `content/guides/belong/hash-house-harriers.mdx`
+- `content/guides/family/international-schools-landscape.mdx`
+
+**Entity depth (schools / clubs / services)**
+
+- `content/entities/schools/overseas-family-school.json` (Pasir Ris campus correction)
+- `content/entities/schools/nexus-international.json`
+- `content/entities/schools/xcl-world-academy.json`
+- `content/entities/clubs/singapore-cricket-club.json`
+- `content/entities/services/family-law-expat.json`
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / third-party clone copy.
+- Did not edit Move / Money / Home / Life / Next trees (no MDW fork; no ActiveSG facilities rewrite).
+
+### Questions mined (sample)
+
+1. Do EP–EP couples get any MOH IVF co-funding at KKH/NUH?
+2. What is the published co-funding % for an SC + foreigner couple on a fresh ART cycle?
+3. Can I start co-funded IVF after 40 if I never tried AR before 40?
+4. Does elective egg freezing qualify for MediSave or ART co-funding?
+5. Why is PGT still a huge cash bill even on the public path?
+6. My company covers me on EP — will it cover my DP wife’s maternity and delivery?
+7. If I get a polyclinic referral to KKH as a foreigner, do I get subsidised maternity rates?
+8. Can EP holders use the MediSave Maternity Package?
+9. If we separate, can I just not renew my spouse’s LTVP — and does that end the marriage?
+10. Does leaving Singapore and letting the LTVP expire dissolve a Women’s Charter marriage?
+11. What is an Expedited Order vs a PPO, and can unmarried partners use PPO?
+12. I was summoned as a PPO respondent — do I have to attend?
+13. Are kids’ braces covered by typical expat group dental riders?
+14. How do beginners actually find pickleball games — Reclub drills or ActiveSG courts?
+15. Is parkrun a realistic first social ritual before joining a paid run club?
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 3)
 
 Branch: `loop/next-polish-tick3` → PR to `main`. Owns **Next** guides (PR, renewals, leaving, citizenship/NS, post-AIP) plus light About / Editorial policy polish. Did **not** touch Move / Money / Family / Belong / Home / Life files owned by Loops A–C.
