@@ -583,6 +583,11 @@ export const pillars: Pillar[] = [
         blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
       },
       {
+        label: "Aged-parent LTVP renewal",
+        href: "/guides/aged-parent-ltvp-renewal-sponsor-change-singapore",
+        blurb: "≥3 months early, no leftover carry, sponsor-change notify ICA.",
+      },
+      {
         label: "Spouse LTVP + PMLA",
         href: "/guides/spouse-ltvp-pmla-singapore",
         blurb: "SC-only PMLA, PR-sponsor clocks, and LTVP ≠ PR.",
@@ -626,6 +631,11 @@ export const pillars: Pillar[] = [
         label: "Citizenship & NS",
         href: "/guides/citizenship-ns-implications",
         blurb: "What permanent status implies for families.",
+      },
+      {
+        label: "ORAL foreign renunciation proof",
+        href: "/guides/oral-foreign-renunciation-proof-before-22-singapore",
+        blurb: "Home-country certificate lead time before ICA/mission ORAL.",
       },
       {
         label: "Career pivots",
@@ -676,6 +686,11 @@ export const pillars: Pillar[] = [
         label: "Lost blue NRIC (PR / SC)",
         href: "/guides/lost-replace-nric-pr-singapore",
         blurb: "ICA 14-day report clock — not MOM work-pass replacement.",
+      },
+      {
+        label: "REP transfer after lost passport / ETD",
+        href: "/guides/rep-transfer-lost-passport-etd-singapore",
+        blurb: "Mission ETD first, then ICA transfer — before Changi PR clearance.",
       },
       {
         label: "After getting PR",
