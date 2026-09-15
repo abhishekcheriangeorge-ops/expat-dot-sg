@@ -6,6 +6,7 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+
 ## Loop B — Family + Belong (tick 6) — 2026-09-15
 
 Branch: `loop/family-belong` → PR to `main`. Owns **Family** + **Belong** guides plus schools/clubs entity depth only. No ads / no Grok. Did **not** touch Move / Money / Home / Life / Next (MDW deep hiring stays Home-owned).
@@ -62,6 +63,57 @@ Ticks 1–5 covered waitlists/SEN/camps/clubs/LGBTQ/dual-career, newborn/Baby Bo
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 5)
+
+Branch: `loop/next-polish-tick5c` → PR to `main`. Owns **Next** guides plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life trees (CPF withdrawal stays Money-owned; Next cross-links only).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — PR for newborn / child ([newborn PR odds](https://www.reddit.com/r/askSingapore/comments/1j048c8/im_a_pr_how_likely_will_my_newborn_get_a_pr_if_i/); [Malaysian newborn papers](https://www.reddit.com/r/askSingapore/comments/1b0icqt/questions_regarding_malaysian_newborn_baby/); [Singpass kid link](https://www.reddit.com/r/askSingapore/comments/1krqpqp/kid_isnt_in_my_singpass_how_to_fix_is_it_even/)).
+- r/askSingapore — deed poll / NRIC name change ([changing name process](https://www.reddit.com/r/askSingapore/comments/1hocjy4/changing_name_in_singapore_process/); [changing name in NRIC](https://www.reddit.com/r/askSingapore/comments/14hmukz/changing_name_in_nric/); [update institutions](https://www.reddit.com/r/askSingapore/comments/11478ey/question_on_changing_name/); [planning legal name change](https://www.reddit.com/r/askSingapore/comments/1lb94s6/planning_to_change_my_legal_name/)).
+- ICA transfer-REP adjacency — new passport without updating REP (travel clearance folklore).
+
+**Official**
+
+- [ICA — Becoming a Permanent Resident](https://www.ica.gov.sg/reside/PR)
+- [ICA — Replace Identity Card (Change of Particulars/Damaged)](https://www.ica.gov.sg/documents/ic/update_particulars)
+- [ICA — Alteration of Child's Name on Birth Certificate](https://www.ica.gov.sg/documents/birth/alter-child-name)
+- [ICA — Transfer of Re-Entry Permit / Update Travel Document](https://www.ica.gov.sg/reside/PR/transfer-REP)
+- [ICA — Apply / renew REP](https://www.ica.gov.sg/reside/PR/apply-REP)
+
+### Gaps vs prior ticks
+
+Tick 4 covered lost NRIC + SC renunciation. Remaining Next heat: **child PR sponsorship**, **NRIC name change / deed poll**, **REP transfer to new foreign passport**. CPF cash-out remains Money guide.
+
+### Shipped
+
+**New:** `pr-for-child-newborn-singapore.mdx`, `change-name-nric-singapore.mdx`, `transfer-rep-new-passport.mdx`
+
+**Upgraded:** leaving playbook, renouncing PR, tax clearance (Money CPF cross-links); after-PR checklist; life-admin; lost NRIC; REP related link; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No Move/Money/Family/Belong/Home/Life body edits.
+
+### Questions mined
+
+1. Does my newborn automatically get PR because I hold a blue IC?
+2. Does birth in Singapore create PR for a foreign baby?
+3. If I sponsor PR for my son, is he liable for NS?
+4. What fees does ICA publish for child PR?
+5. Do I need a deed poll before ICA changes my NRIC name?
+6. As a PR, must I update my foreign passport before the IC name change?
+7. Is S$60 particulars the same as lost-IC S$100/S$300?
+8. Can parents alter a birth-certificate name after age one?
+9. I renewed my foreign passport — renew REP or transfer it?
+10. Is REP transfer free, and how long does ICA take?
+11. Can I re-enter as PR if REP shows the old passport number?
+12. Does a parent’s REP transfer cover a child’s new passport?
+
+
+---
 
 ## Loop A — Move + Money — 2026-09-15 (tick 4)
 
@@ -189,7 +241,6 @@ Ticks 1–3 shipped SIM→Singpass→bank, SGAC, healthcare/emergency FAQPage, I
 12. Are brand-new sealed items eligible for GST relief?
 
 ---
-
 
 
 ## Loop B — Family + Belong (tick 5) — 2026-09-15

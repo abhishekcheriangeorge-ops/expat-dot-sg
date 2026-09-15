@@ -52,9 +52,10 @@ export default function EditorialPolicyPage() {
           <p className="mt-3">
             We mine public forums and Reddit for recurring pain points, then
             verify claims against official pages before shipping — especially on
-            high-stakes Next-pillar topics (passes, PR, Re-Entry Permit rules,
-            citizenship application and ORAL, adult SC renunciation, NRIC loss /
-            address / re-registration, NS, exits). When agencies publish dated
+            high-stakes Next-pillar topics (passes, PR including child sponsorship,
+            Re-Entry Permit rules and passport transfers, citizenship application
+            and ORAL, adult SC renunciation, NRIC loss / address / re-registration /
+            name change, NS, exits). When agencies publish dated
             revisions (for example MHA / ICA REP process changes), we prefer the
             live notice and FAQ over older forum “reinstatement” folklore. Peer
             anecdotes illustrate uncertainty; they never replace agency text. We
