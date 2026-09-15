@@ -6,6 +6,61 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop A — Move + Money — 2026-09-15 (tick 16)
+
+Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick16-49cb` → PR to `main` (fresh worktree off `origin/main` @ `83b4cc4` post-A11/#92; A12–A15 (#97/#105/#111/#121) had also landed on `main` by rebase time; this tip rebases onto `origin/main` @ `83b4cc4` post-#121. Did not re-edit those now-merged guide paths beyond the freed job-change/remittance/health FAQ depth.)
+
+### Sources mined
+
+**Reddit**
+
+- r/askSingapore — resign-after-IPA still loses RSU/AWS; old HR stalling EP cancel; “medical already done” myths on job change.
+- r/askSingapore — PayNow-to-overseas-landlord folklore; Wise-as-salary-account; payroll vs large inward SoF freezes.
+- r/askSingapore — DP family not on group plan; outpatient caps surprise; uninsured STVP gap between jobs.
+
+**Official**
+
+- [MOM — Change jobs while on an EP](https://www.mom.gov.sg/faq/employment-pass/what-if-i-want-to-change-jobs-while-i-am-on-an-ep) + [Cancel a work pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass)
+- [MAS — Payments / remittance oversight](https://www.mas.gov.sg/) + licensed remittance / MPI framing
+- [MOH — Healthcare system](https://www.moh.gov.sg/home/our-healthcare-system) + employer LOG practice
+
+### Gaps vs prior Loop A ticks (Move + Money scope)
+
+Open A12–A15 still claim issuance/housing/comparison/net-new card-travel paths. After A8–A11 merged, **job-change / remittance / health-insurance** (and missing hub topics for student pass, LTVP, CPF withdrawal) were free for FAQ depth without colliding the open stack. Left #97/#105/#111/#121 guide bodies untouched.
+
+### Shipped this loop
+
+**Deepened guides (FAQPage appends)**
+
+- `content/guides/move/changing-jobs-employment-pass.mdx` (+3)
+- `content/guides/money/remittances-singapore.mdx` (+3)
+- `content/guides/money/health-insurance-expat.mdx` (+3)
+- `src/lib/site.ts` (restored changing-jobs / student-pass / LTVP / remittances / CPF-withdrawal hub topics; health LOG blurb)
+
+### Explicitly not done
+
+- No ads/monetization expansion (did not edit remittance/insurance sponsor slots).
+- No Grok / third-party clone copy.
+- Did not edit open A12–A15 guide paths or `intact-immigration`.
+- Did not re-own Loop H STVP/leaving AEO or Loop D tax-clearance / lost-pass-card trees.
+- Left older open A PRs for the merge controller.
+
+### Questions mined (sample)
+
+1. What happens to leave, bonuses, and stock after a new IPA?
+2. Can old HR refuse to cancel the EP after the new one issues?
+3. Do I need a new medical/biometrics when changing EP employers?
+4. Can I PayNow an overseas landlord or family directly?
+5. Does local payroll count as an inward remittance for SoF?
+6. Is Wise / an MPI wallet a salary-account substitute?
+7. Are DP family members automatic on my group plan?
+8. What outpatient/dental gaps are typical on EP group plans?
+9. What medical cover exists on STVP between jobs?
+
+---
+
+---
+
 ## Loop E — Journeys, checklists, calendar, tools — 2026-09-15 (tick 5)
 
 Branch: `loop/e-journeys-tools-tick5` → PR to `main` (fresh worktree off `origin/main` after tick 3 [#53](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/53) merged; while [#66](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/66) tick 4 remained open). Owns **journeys / checklists / calendar / calculators** only. Did **not** edit pillar guide MDX trees. No ads / Grok. **Avoided #66 paths** (`pre-arrival`, `lease-notice`, Good Friday / Labour Day / Vesak, day-7 / day-30, leaving-singapore).

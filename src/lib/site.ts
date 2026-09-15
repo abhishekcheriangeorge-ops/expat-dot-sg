@@ -202,6 +202,26 @@ export const pillars: Pillar[] = [
         blurb: "14-day ads, S$22.5k exemption, why MCF ≠ locals-only forever.",
       },
       {
+        label: "Changing jobs on EP",
+        href: "/guides/changing-jobs-employment-pass",
+        blurb: "New IPA before resign; IR21 withhold even if you stay; DP re-sponsor.",
+      },
+      {
+        label: "Student’s Pass work limits",
+        href: "/guides/student-pass-singapore",
+        blurb: "Vacation work exemption ≠ open labour market; LOE ≠ EP.",
+      },
+      {
+        label: "LTVP for partners & parents",
+        href: "/guides/ltvp-singapore",
+        blurb: "Not a DP; parent salary lane; work rights depend on product.",
+      },
+      {
+        label: "ONE Pass",
+        href: "/guides/one-pass-singapore",
+        blurb: "Not a COMPASS cheat code; spouse LOC rules; S$30k floor myths.",
+      },
+      {
         label: "S Pass vs EP",
         href: "/guides/ep-vs-s-pass-comparison",
         blurb: "No EP quota myth, levy/DRC, Sep 2025 S Pass floors.",
@@ -346,9 +366,19 @@ export const pillars: Pillar[] = [
         blurb: "Lump sums often taxable; equalisation ≠ IRAS waiver.",
       },
       {
-        label: "Insurance landscape",
+        label: "Remittances & FX",
+        href: "/guides/remittances-singapore",
+        blurb: "PayNow ≠ cross-border; all-in FX; inward SoF freezes.",
+      },
+      {
+        label: "Health insurance & LOG",
         href: "/guides/health-insurance-expat",
-        blurb: "Health, life, and what employers usually cover.",
+        blurb: "No MediShield on EP; hospital LOG; maternity and job-hop gaps.",
+      },
+      {
+        label: "CPF withdrawal when leaving",
+        href: "/guides/cpf-withdrawal-leaving-singapore",
+        blurb: "EP had no CPF; PR cash-out only after status ends.",
       },
       {
         label: "Cost of living",
