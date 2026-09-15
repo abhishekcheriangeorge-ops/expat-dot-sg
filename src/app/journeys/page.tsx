@@ -5,7 +5,7 @@ import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
   getChecklists,
-  getCondoBikeStorageClearPlaybook,
+  getCondoEvChargerClearPlaybook,
   getCondoVisitorQrExitPlaybook,
   getLeavingPlaybook,
   getMoverLiftBookingPlaybook,
@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo bike / storage clear, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
   path: "/journeys",
 });
 
@@ -33,7 +33,7 @@ export default async function JourneysIndexPage() {
     singpassExit,
     moverLift,
     condoVisitorQr,
-    condoBikeStorage,
+    condoEvCharger,
   ] = await Promise.all([
     getChecklists(),
     getLeavingPlaybook(),
@@ -41,7 +41,7 @@ export default async function JourneysIndexPage() {
     getSingpassMyinfoExitPlaybook(),
     getMoverLiftBookingPlaybook(),
     getCondoVisitorQrExitPlaybook(),
-    getCondoBikeStorageClearPlaybook(),
+    getCondoEvChargerClearPlaybook(),
   ]);
 
   const arriving = ["day-7", "day-30", "day-90"]
@@ -87,9 +87,8 @@ export default async function JourneysIndexPage() {
                 path: "/journeys/condo-visitor-qr-exit",
               },
               {
-                name:
-                  condoBikeStorage?.title ?? "Condo bike bay / storage cage clear",
-                path: "/journeys/condo-bike-storage-clear",
+                name: condoEvCharger?.title ?? "Condo EV charger / lot clear",
+                path: "/journeys/condo-ev-charger-clear",
               },
               {
                 name: playbook?.title ?? "Leaving Singapore",
@@ -260,28 +259,28 @@ export default async function JourneysIndexPage() {
 
         <FadeIn className="mt-16 border-t border-fog-soft pt-12">
           <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
-            Condo storage exit
+            Condo EV exit
           </p>
           <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
-            {condoBikeStorage?.title ?? "Condo bike bay / storage cage clear"}
+            {condoEvCharger?.title ?? "Condo EV charger / lot clear"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
-            {condoBikeStorage?.summary ??
-              "Bicycle bays, locker cages, and bulk-store rooms before keys go back."}{" "}
+            {condoEvCharger?.summary ??
+              "Reserved EV bays, wallbox deposits, and visitor-charging PINs before MCST handover."}{" "}
             Pair with{" "}
             <Link
-              href="/tools/insurance-portability-float"
+              href="/tools/school-cca-kit-bond"
               className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
             >
-              /tools/insurance-portability-float
+              /tools/school-cca-kit-bond
             </Link>{" "}
-            if gap-week cover cash competes with cage clear week.
+            if CCA kit bonds settle the same fortnight.
           </p>
           <Link
-            href="/journeys/condo-bike-storage-clear"
+            href="/journeys/condo-ev-charger-clear"
             className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
           >
-            Open bike / storage clear playbook
+            Open EV charger clear playbook
           </Link>
         </FadeIn>
 
