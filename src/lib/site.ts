@@ -653,6 +653,11 @@ export const pillars: Pillar[] = [
         blurb: "EP cancel → up to 90 days stay, DP cascade, no work.",
       },
       {
+        label: "EP cancel → spouse LTVP week",
+        href: "/guides/ep-cancel-spouse-ltvp-same-week-checklist-singapore",
+        blurb: "Same-week STVP + ICA spouse LTVP + PLOC checklist.",
+      },
+      {
         label: "TADM salary claim clocks",
         href: "/guides/tadm-salary-claim-ep-filing-clocks-singapore",
         blurb: "Still-employed vs left — file before the clock dies.",
@@ -671,6 +676,11 @@ export const pillars: Pillar[] = [
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "Tax clearance, deposits, shipping, school exits.",
+      },
+      {
+        label: "Condo lift / shipping deposit",
+        href: "/guides/shipping-out-condo-lift-deposit-singapore",
+        blurb: "Book lift early; float MCST deposit before IR21 freeze.",
       },
       {
         label: "WICA light duty / clocks",

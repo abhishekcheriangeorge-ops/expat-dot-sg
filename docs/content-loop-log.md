@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 42)
+
+Branch: `loop/story-aeo-tick42` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117–#247 H20–H41). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — layoff week burns days before HR STVP / ICA spouse LTVP emails.
+- r/askSingapore — movers at the door, service lift not booked, IR21 froze final pay.
+- r/askSingapore — do I still queue at Adelphi for Apostille / PDF rejected abroad.
+
+**Official**
+
+- [MOM — Cancel an Employment Pass](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass) + ICA spouse-of-SC/PR LTVP pages.
+- [Singapore Customs — Personal shipment](https://www.customs.gov.sg/personal-shipment/) + [IRAS IR21](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees).
+- [SAL Legalisation FAQ](https://legalisation.sal.sg/Faq) + Legalisation / Authentication info.
+
+### Gaps vs open H + ticks 1–41
+
+Open: #117–#247 H20–H41. Remaining free Next FAQ-free companions included **EP cancel → spouse LTVP same-week checklist**, **condo lift / shipping deposit**, **SAL e-Apostille notarised docs**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/ep-cancel-spouse-ltvp-same-week-checklist-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/shipping-out-condo-lift-deposit-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/sal-e-apostille-notarised-docs-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (EP-cancel spouse LTVP week + condo lift deposit + SAL e-Apostille topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#247 guide bodies.
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. My EP is being cancelled and my spouse is SC/PR — what should we do the same week?
+2. Does STVP after EP cancel let me keep working while spouse LTVP is pending?
+3. Should we wait until STVP day one to file spouse LTVP?
+4. Will filing PMLA after a layoff speed up spouse LTVP?
+5. Is graduate LTVP the same bridge as spouse LTVP after EP cancel?
+6. How early should I book the condo service lift for an outbound move?
+7. Why do condo move-out deposits collide with IR21?
+8. Is the MCST lift deposit the same as my landlord security deposit?
+9. What should stay out of the shipping crate on pack-out day?
+10. Do HDB blocks skip lift booking when leaving Singapore?
+11. Do I still need to queue at Adelphi for every Singapore Apostille?
+12. What is the difference between SAL notarised e-Apostille and ACRA direct e-Apostille?
+13. Can SAL apostille my foreign marriage certificate for ICA?
+14. What if the overseas school demands a physical Apostille?
+15. Is an Apostille enough for a non-Hague destination?
+
+---
+
 ## Loop B — Family + Belong (tick 26) — 2026-09-15
 
 Branch: `cursor/loop-b-family-belong-tick26-8971` → PR to `main`. Owns **Family** + **Belong** plus light schools/services entity depth. No ads / no Grok. Did **not** edit open B stack guide/entity paths through #190. Shared log + `site.ts` only. Skipped CCA/academy/sports-sideline (#115/#91) and learning-support waitlist depth (#149).
