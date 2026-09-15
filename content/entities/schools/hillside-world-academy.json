@@ -3,13 +3,13 @@
   "slug": "hillside-world-academy",
   "name": "Hillside World Academy",
   "summary": "IB World School with Mandarin bilingual emphasis in Serangoon Gardens.",
-  "body": "Hillside focuses on bilingual IB education with Mandarin strength — a fit for families prioritising Chinese language alongside international curriculum. Smaller than mega-campuses; visit to assess community fit. Confirm sports-day rain plans, house-colour expectations, and parent-portal notice lead times — dual-career families need calendar-ready comms, not morning WhatsApp surprises.",
+  "body": "Hillside focuses on bilingual IB education with Mandarin strength \u2014 a fit for families prioritising Chinese language alongside international curriculum. Smaller than mega-campuses; visit to assess community fit. Confirm sports-day rain plans, house-colour expectations, and parent-portal notice lead times \u2014 dual-career families need calendar-ready comms, not morning WhatsApp surprises. Smaller campuses still run exclusion letters hard \u2014 scarlet-fever weeks need the same written return clock discipline as larger international schools.",
   "curriculum": [
     "IB",
     "Bilingual Mandarin"
   ],
   "sector": "international",
-  "ages": "Preschool–Grade 12",
+  "ages": "Preschool\u2013Grade 12",
   "neighbourhood": "upper-thomson",
   "campus": "Serangoon Gardens",
   "languages": [
@@ -20,5 +20,8 @@
   "waitlistNotes": "Bilingual readiness may be assessed.",
   "website": "https://www.hwa.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "dual-career-kids-scarlet-fever-school-exclusion-singapore"
+  ]
 }
