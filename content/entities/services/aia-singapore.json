@@ -3,7 +3,7 @@
   "slug": "aia-singapore",
   "name": "AIA Singapore",
   "summary": "Major insurer for life, health, and wealth products used by residents and expats — including Integrated Shield Plans after PR.",
-  "body": "Corporate cover rarely equals complete family cover. Map inpatient, outpatient, maternity, and dental gaps explicitly while on EP. After PR, MediShield Life is automatic; an Integrated Shield Plan (ISP) is optional private top-up — compare MOH’s official ISP table, premiums payable from MediSave within limits, and riders that often need cash. AIA is one of several large brands — compare exclusions and waiting periods, not ads. Treat group schedules as employment-tied: confirm cover end dates with HR when resigning or changing jobs, and do not assume maternity or NICU sits inside a basic inpatient cap.",
+  "body": "Corporate cover rarely equals complete family cover. Map inpatient, outpatient, maternity, and dental gaps explicitly while on EP — foreigners generally cannot fund ISP premiums from MediSave until PR. After PR, MediShield Life is automatic; an Integrated Shield Plan (ISP) is optional private top-up — compare MOH’s official ISP table, premiums payable from MediSave within limits, and riders that often need cash. Maternity riders (e.g. Mum2Baby-style products) usually need long waiting periods and still exclude routine delivery and antenatal visits; newborn hospitalisation often opens around day 14 with full declarations. AIA is one of several large brands — compare exclusions and waiting periods, not ads. Treat group schedules as employment-tied: confirm cover end dates with HR when resigning or changing jobs, and do not assume maternity or NICU sits inside a basic inpatient cap.",
   "category": "insurance",
   "areasServed": [
     "Islandwide"
@@ -14,7 +14,8 @@
   "whenToEngage": [
     "Mapping EP-year gaps vs post-PR Integrated Shield",
     "Comparing ISP riders on MOH table, not ads",
-    "Job hop ends group cover on last employment day"
+    "Job hop ends group cover on last employment day",
+    "Maternity / newborn rider waiting periods before trying"
   ],
   "officialLinks": [
     {
@@ -28,6 +29,7 @@
   ],
   "relatedGuides": [
     "health-insurance-expat",
+    "maternity-care-singapore",
     "after-getting-pr-checklist"
   ]
 }
