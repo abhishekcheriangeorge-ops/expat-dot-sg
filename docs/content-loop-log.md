@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 25)
+
+Branch: `loop/story-aeo-tick25` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main`. Avoided open merge-controller H file sets (#117 H20, #120 H21, #124 H22, #128 H23, #132 H24). Prefer merge order **#117 → #120 → #124 → #128 → #132** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — graduate LTVP treated as work rights; poly “LOC” folklore on graduate passes; EP cancel → graduate LTVP timing.
+- r/askSingapore — citizenship IPA email = “done”; full SEV calendars; ceremony vs registration confusion.
+- r/askSingapore — PR kids filing aged-parent PR; invented parent-age cutoffs; in-laws on parent LTVP row.
+
+**Official**
+
+- [ICA — Graduate from an IHL seeking employment (LTVP)](https://www.ica.gov.sg/reside/LTVP/apply/graduate-from-an-institute-of-higher-learning-seeking-employment-in-singapore) + [MOM work passes for ICA LTVP](https://www.mom.gov.sg/passes-and-permits/work-passes-for-holders-of-long-term-visit-passes-issued-by-ica).
+- [ICA — Becoming a Singapore Citizen / apply](https://www.ica.gov.sg/reside/citizenship/apply) + [Your Singapore Citizenship Roadmap (PDF)](https://www.ica.gov.sg/docs/default-source/ica/files/esc-roadmap.pdf).
+- [ICA — Becoming a Permanent Resident](https://www.ica.gov.sg/reside/PR) + [ICA — Becoming an LTVP holder](https://www.ica.gov.sg/reside/LTVP).
+
+### Gaps vs open H + ticks 1–24
+
+Open: #117 (leaving costs / spouse PR / retrenchment), #120 (leave/notice / citizenship / bonds), #124 (TADM / spouse LTVP / WICA), #128 (NS Exit Permit / PLOC / FWA), #132 (TAFEP / ORAL / EP→spouse LTVP). Remaining high-intent Next FAQ-free gaps: **graduate LTVP job hunt**, **Singapore Citizenship Journey after IPA**, **aged parents PR vs LTVP**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/graduate-ltvp-job-hunt.mdx` (direct lead + FAQPage)
+- `content/guides/next/singapore-citizenship-journey-scj.mdx` (direct lead + FAQPage)
+- `content/guides/next/aged-parents-pr-ltvp-singapore.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (graduate LTVP + SCJ + aged-parents topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117/#120/#124/#128/#132 guide bodies.
+
+### Questions mined (sample)
+
+1. Does graduate LTVP let me work while I job-hunt in Singapore?
+2. Is graduate LTVP the same as spouse LTVP with a PLOC or LOC?
+3. When should I apply for graduate LTVP after my Student’s Pass ends?
+4. Can I apply for graduate LTVP after my EP is cancelled?
+5. Do Tuition Grant bond years count while I am on graduate LTVP?
+6. Am I a Singapore citizen when the citizenship IPA email arrives?
+7. When can I log into the SC Journey Portal after IPA?
+8. What if Singapore Experiential Visit slots look full?
+9. Does finishing SCJ sessions waive foreign-citizenship renunciation?
+10. Is the welcome ceremony what makes me a citizen?
+11. Can a PR child apply for aged-parent PR for Mum or Dad?
+12. Who can sponsor parent LTVP?
+13. What exact parent age does ICA require for aged-parent PR?
+14. Is aged-parent PR automatic if we meet the eligibility row?
+15. Does parent LTVP or aged-parent PR give subsidised citizen healthcare?
+
+---
+
 ## Loop A — Move + Money — 2026-09-15 (tick 15)
 
 Parallel content loop owning **Move** + **Money** guides and related comparisons only. Branch: `cursor/loop-a-move-money-tick15-49cb` → PR to `main` (fresh worktree off `origin/main` @ `1f3e1ca` post-H17/#102; while [#68](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/68)–[#111](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/111) A8–A14 stay open — **did not** edit those paths).
