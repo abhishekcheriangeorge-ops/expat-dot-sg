@@ -6,6 +6,60 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop E — Journeys / tools — 2026-09-15 (tick 26)
+
+Branch: `cursor/e-journeys-tools-tick26-fa4f` → draft PR to `main`. Owns **journeys + tools only**. No ads / Grok / pillar guide MDX. Fresh off `origin/main` (Loop D29 tip). **Did not wait for merges or CI on prior tips including #263.** Avoided open E stack exclusives through **#263** (E25): mail-forward / hdb-reno (**#173**), helper-handoff / club-deposit (**#186**), school-bus-cca / driving-insurance-gap (**#196**), condo-visitor-qr / school-device-bond (**#203**), school-locker-clear / pet-quarantine-float (**#217**), gym-membership-freeze / school-leavers-fee (**#225**), childcare-infant-care / fibre-broadband-etf (**#233**), parking-iu-erp / tuition-centre-bond (**#243**), workplace-access / clinic-deposit (**#253**), condo-bike-storage / insurance-portability (**#263**). Prefer merge order note: **#173 → #186 → #196 → #203 → #217 → #225 → #233 → #243 → #253 → #263 → this tip**.
+
+### Sources mined
+
+**Reddit / forums**
+
+- Condo leaver threads — reserved EV bays still billed after keys returned; RFID tags treated as lost; visitor-charging PINs left live.
+- School leaver threads — CCA instruments / sports kits held past flight week; damage holds netted against kit bonds.
+
+**Official / orientation**
+
+- Estate MCST / managing-agent EV bay and RFID return rules (estate-specific)
+- School CCA / band store kit bond schedules (handbook-specific)
+
+### Gaps vs open E stack through #263
+
+Open tips through **#263** cover mail/HDB, helper/club, bus/insurance, visitor QR/device, locker/pet, gym/leavers, childcare/fibre, parking IU/tuition, workplace/clinic, bike storage/insurance portability. Remaining high-intent gaps **off those path sets**: **condo EV charger / lot clear**, **school CCA kit bond sketch**. No calendar JSON. Distinct from `/journeys/condo-visitor-qr-exit` and parking-iu-erp — this tick owns EV bay / wallbox / RFID clear. Distinct from `/tools/school-device-bond` — this tick owns CCA / instrument kit bonds, not 1:1 devices.
+
+### Shipped this tick
+
+**Journeys**
+
+- `content/journeys/condo-ev-charger-clear.json` + `/journeys/condo-ev-charger-clear`
+- Journeys index + sitemap (hub soft-conflict expected)
+
+**Tools**
+
+- `src/lib/tools/school-cca-kit-bond.ts`
+- `src/components/tools/SchoolCcaKitBondCalculator.tsx`
+- `/tools/school-cca-kit-bond` + tools index + sitemap
+
+### Explicitly not done
+
+- No ads / monetization / Grok clone copy.
+- No pillar guide MDX.
+- Did **not** touch exclusives through #263.
+- Left older E PRs open for merge controller.
+
+### Questions mined (sample)
+
+1. Does returning unit keys auto-release a reserved EV bay?
+2. Is the wallbox estate property or landlord fit-out?
+3. Are visitor-charging PINs separate from lobby guest QR?
+4. Do CCA kit bonds settle on a different desk than device bonds?
+5. What overdue fee applies after the published instrument return date?
+
+---
+
+---
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 36)
 
 Branch: `cursor/loop-d-next-polish-tick36-d996` → draft PR to `main`, off tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for Tech.Pass→ONE salary composite, LTVP/PLOC→EP conversion edges, and EP notify-MOM address/passport edges.
