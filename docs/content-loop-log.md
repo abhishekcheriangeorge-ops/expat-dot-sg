@@ -6,6 +6,64 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 53)
+
+Branch: `loop/story-aeo-tick53` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 52 (`loop/story-aeo-tick52` @ `adbc16b` / [#334](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/334)). Avoided open merge-controller H file sets (#117–#334 H20–H52). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308 → #312 → #319 → #325 → #334** before this lands. No ads / monetization; no Grok copy; no force-push main.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “We passed AEIS — why isn’t it ACS?”
+- r/singapore — Tech.Pass holders waiting for “one more extension” into 2027.
+- r/askSingapore — PEP keep-rule dip; “I’ll renew PEP quietly.”
+
+**Official**
+
+- [MOE — AEIS](https://www.moe.gov.sg/international-students/aeis) · [S-AEIS](https://www.moe.gov.sg/international-students/s-aeis) · [SEAB AEIS](https://www.seab.gov.sg/aeis/about-aeis/).
+- [EDB — Tech.Pass](https://www.edb.gov.sg/en/how-we-help/incentives-and-programmes/techpass.html) · [ONE Pass](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass) · [PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass).
+- [MOM — PEP eligibility](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/eligibility) · cancel a PEP · Employment Pass.
+
+### Gaps vs open H + ticks 1–52
+
+Open: #117–#334 H20–H52. Tip had one remaining FAQ-free Next companion (**AEIS placement vs international hold**). Pulled two FAQ-free Next companions already on `main` but not yet on the H stack tip (**Tech.Pass 2027 sunset handoff**, **PEP exit to EP/PR timing**) and added FAQPages so H53 keeps shipping three AEO upgrades without colliding open H bodies.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/aeis-placement-vs-international-hold-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/tech-pass-2027-sunset-handoff-singapore.mdx` (brought from main + FAQPage)
+- `content/guides/next/pep-exit-to-ep-or-pr-timing-singapore.mdx` (brought from main + FAQPage)
+- `src/lib/site.ts` (AEIS hold + Tech.Pass 2027 handoff + PEP exit timing topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #117–#334 guide bodies (other than this tip’s three FAQ targets).
+- No force-push to main.
+
+### Questions mined (sample)
+
+1. Does passing AEIS guarantee the school brand we want?
+2. Should we cancel an international hold once AEIS is booked?
+3. Is S-AEIS a safe backup if we drop the private hold?
+4. Is P1 IS the same lane as AEIS?
+5. What if we pass AEIS but dislike the assigned school?
+6. Will Tech.Pass just be extended past 2027?
+7. Can I flip to PEP in a weekend before Tech.Pass ends?
+8. Is ONE Pass automatic for Tech.Pass holders?
+9. Is sponsored EP a demotion I should ignore?
+10. When should Tech.Pass holders start the handoff?
+11. Can I renew PEP quietly like an EP?
+12. When should I start an employer EP or PR push on PEP?
+13. Do keep-rule income dips near expiry matter?
+14. Do unemployment months on PEP not count?
+15. Can I flip to ONE Pass in the last month of PEP?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 52)
 
 Branch: `loop/story-aeo-tick52` → PR to `main`. Owns **story/AEO FAQPages** only. Branched off tip of tick 51 (`loop/story-aeo-tick51` @ `c14f57b` / [#325](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/325)). Avoided open merge-controller H file sets (#117–#325 H20–H51). Prefer merge order **#117 → #120 → #124 → #128 → #132 → #135 → #140 → #148 → #153 → #157 → #161 → #174 → #182 → #189 → #198 → #205 → #214 → #221 → #229 → #231 → #240 → #247 → #250 → #258 → #259 → #265 → #275 → #286 → #308 → #312 → #319 → #325** before this lands. No ads / monetization; no Grok copy; no force-push main.
