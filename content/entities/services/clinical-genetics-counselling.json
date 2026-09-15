@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "clinical-genetics-counselling",
+  "name": "Clinical genetics and genetic counselling",
+  "summary": "How expats access clinical genetics and genetic counselling in Singapore for hereditary cancer, carrier screening, rare disease workups, and prenatal questions — including consent, insurance, and cross-border report pitfalls.",
+  "body": "Genetic testing ads outrun genetic counselling. Clinical genetics services interpret whether a test should be ordered, what variants mean for relatives, and how results change screening — not just whether a spit-kit returns a colourful risk score.\n\n## Common expat triggers\n- Strong family cancer history (breast, ovarian, colorectal, prostate clusters)\n- Carrier screening before or during pregnancy for known founder variants\n- Child developmental or rare-disease odysseys after overseas inconclusive tests\n- Pharmacogenetic curiosity — often oversold relative to clinical utility\n- Reinterpreting DTC or foreign lab PDFs in a Singapore care context\n\n## Counselling before kits\nPre-test counselling covers incidental findings, insurance implications, and who else in the family may need cascade testing. Post-test counselling translates VUS (variants of uncertain significance) into action or watchful waiting — a VUS is not a diagnosis.\n\n## Access\nPublic hospital genetics services are referral-gated and high-value for complex cases. Private genetic counsellors and specialist clinics offer faster appointments; verify credentials and laboratory accreditation. Prenatal genetics often coordinates with O&G and fetal medicine.\n\n## How to choose\nPrefer board-trained genetics professionals who will decline low-utility panels. Ask which lab, which gene list, and how reanalysis works in two years. Bring pedigree notes spanning countries and prior reports in English.\n\n## Practical tip\nDo not upload raw DTC files into random “interpretation” websites before a clinical consult — misread variants drive unnecessary surgery anxiety. If relocating mid-workup, request a transfer summary with variant nomenclature (HGVS) intact.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "Family cancer history needs hereditary risk counselling",
+    "Carrier or prenatal genetics questions before ordering kits",
+    "Reinterpreting overseas or DTC genetic reports",
+    "Child rare-disease workup after inconclusive tests"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "KKH Genetics",
+      "url": "https://www.kkh.com.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "maternity-care-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

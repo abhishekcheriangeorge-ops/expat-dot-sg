@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "tennis-coaching",
+  "name": "Tennis coaching",
+  "summary": "How expats find tennis coaches and clinics in Singapore — condo courts vs clubs, junior pathways, humid-climate scheduling, and trial norms before multi-month packages.",
+  "body": "Tennis here runs on condo courts, public ActiveSG centres, and private clubs. Coaches range from recreational hitters to junior-performance programmes. Humidity and evening thunderstorms shape scheduling as much as price.\n\n## Formats\n- Private hourly lessons (adult technique or cardio tennis)\n- Semi-private / group clinics\n- Junior group pathways with match play\n- Cardio tennis and beginner adult intakes after landing\n\nClub membership may be required for certain courts; condo rules can limit guest coaches — check MCST norms before booking.\n\n## Choosing a coach\nWatch a session: feedback quality, safety spacing, and whether they film or only feed balls. Ask about rain make-ups, court booking responsibility, and ball costs. For juniors, clarify competition pressure vs fun clinics. UTR/tournament talk should match the child’s age and school load.\n\n## How to choose\nTrial before packages. Prefer coaches who adapt to heat (hydration breaks, shorter mid-day blocks) and who will say when physio/sports medicine is needed for elbow or shoulder niggles. Racket stringing and grip advice in humid weather matters more than logo apparel.\n\n## Practical tip\nBook covered or early-morning slots in monsoon months. Bring electrolytes; “just water” fades fast on outdoor hard courts after 10am.\n",
+  "category": "tutors",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.sportsingapore.gov.sg/",
+  "whenToEngage": [
+    "Trial adult or junior tennis lesson before package",
+    "Condo coach rules / guest coach MCST limits unclear",
+    "Junior pathway vs recreational clinic decision",
+    "Rain make-up and court-booking responsibilities unclear"
+  ],
+  "officialLinks": [
+    {
+      "label": "Sport Singapore",
+      "url": "https://www.sportsingapore.gov.sg/"
+    },
+    {
+      "label": "ActiveSG",
+      "url": "https://www.activesgcircle.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "kids-activities-holiday-camps",
+    "international-schools-landscape",
+    "parenting-communities-playgroups-singapore"
+  ],
+  "featured": false,
+  "sponsored": false
+}

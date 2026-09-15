@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "bariatric-weight-surgery",
+  "name": "Bariatric and weight-loss surgery",
+  "summary": "How expats evaluate bariatric surgery pathways in Singapore — sleeve, bypass, and medical weight programmes — including BMI criteria, insurance friction, and why “medical tourism packages” need aftercare plans.",
+  "body": "Bariatric surgery is a metabolic intervention, not a cosmetic shortcut. Singapore centres offer sleeve gastrectomy, gastric bypass variants, and supervised medical weight programmes. Expats often arrive after failed diets abroad or with diabetes/sleep-apnoea drivers that change the risk–benefit maths.\n\n## Pathway basics\n- Multidisciplinary workup (dietitian, psychology, endocrinology, surgery)\n- BMI and comorbidity criteria that differ by centre and insurer\n- Endoscopic or temporary devices in selected cases — not interchangeable with surgery\n- Lifelong vitamin monitoring and diet texture progression after operations\n\nMarketing that skips the psych and dietitian steps is a red flag.\n\n## Insurance and cost\nElective bariatric cover is inconsistent across international plans and Integrated Shield riders. Pre-authorisation is essential; many policies exclude “weight loss” even when diabetes improves. Get written medical necessity letters. Cash packages must include complication pathways and revision policy language.\n\n## Aftercare reality\nYou need reliable follow-up in Singapore or a receiving team at home. Flying out a week after surgery without local review is how leaks and dehydration become emergencies. Discuss pregnancy timing, medication absorption changes, and alcohol sensitivity early.\n\n## How to choose\nPrefer hospital-embedded bariatric programmes with published volumes and ICU backup over clinic-only “package” sellers. Ask who covers night calls in the first fortnight. Compare nutritional protocols, not only staple-line brand names.\n\n## Practical tip\nBring a full list of supplements and prior weight-loss drugs (including compounded injectables). Concealing use delays safe perioperative planning and anaesthesia risk assessment.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.moh.gov.sg/",
+  "whenToEngage": [
+    "BMI/comorbidity criteria for sleeve or bypass under review",
+    "Insurer pre-auth for bariatric surgery unclear",
+    "Medical weight programme vs surgical pathway decision",
+    "Need local aftercare before medical-tourism package"
+  ],
+  "officialLinks": [
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    },
+    {
+      "label": "Singapore Medical Council",
+      "url": "https://www.healthprofessionals.gov.sg/smc"
+    }
+  ],
+  "relatedGuides": [
+    "healthcare-gp-hospital",
+    "health-insurance-expat",
+    "bringing-medication-singapore-hsa"
+  ],
+  "featured": false,
+  "sponsored": false
+}

@@ -6,6 +6,59 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop F — Services directory depth — Tick 19 — 2026-09-15
+
+Branch: `cursor/services-directory-tick19-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→#75→#86→#95→#103→#109→#113→#118→#125→#136→#141→#165→#171→#178); five net-new only. `whenToEngage` as `string[]`.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — bariatric / weight-loss surgery cost and aftercare threads.
+- r/askSingapore — genetic testing / family cancer history counselling questions.
+- r/askSingapore — snoring mouthguard vs sleep clinic / CPAP debates.
+- Parenting & sports forums — tennis coach packages vs condo court limits.
+- Rental forums — blackout curtains, drilling consent, west-sun glare.
+
+**Official**
+
+- [MOH](https://www.moh.gov.sg/) + [SMC](https://www.healthprofessionals.gov.sg/smc) + [SDC](https://www.healthprofessionals.gov.sg/sdc).
+- [KKH](https://www.kkh.com.sg/) + [SportSG](https://www.sportsingapore.gov.sg/) + [ActiveSG](https://www.activesgcircle.gov.sg/).
+- [CASE](https://www.case.org.sg/) + [HDB renting](https://www.hdb.gov.sg/).
+
+### Gaps vs open F stack
+
+Open #70→#178 cover prior depth and every on-main service file. Free surface for tick 19: **bariatric surgery**, **clinical genetics**, **sleep dentistry/snoring**, **tennis coaching**, **curtains/blinds**.
+
+### Shipped this tick
+
+**New service entities only**
+
+- `content/entities/services/bariatric-weight-surgery.json`
+- `content/entities/services/clinical-genetics-counselling.json`
+- `content/entities/services/sleep-dentistry-snoring.json`
+- `content/entities/services/tennis-coaching.json`
+- `content/entities/services/curtain-blinds-installation.json`
+
+**Upgrades:** none.
+
+### Explicitly not done
+
+- No ads / featured / monetization expansion.
+- No Grok / clone copy.
+- Did not edit #70–#178 touch files.
+- Did not edit neighbourhoods, schools, clubs, or pillar MDX.
+
+### Questions mined (sample)
+
+1. Does Shield cover sleeve gastrectomy with diabetes?
+2. DTC genetics kit or clinical counselling first?
+3. Anti-snore guard without a sleep study — safe?
+4. Condo guest-coach rules for tennis lessons?
+5. Can tenants drill for curtain tracks under a typical TA?
+
+---
+
 ## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 14)
 
 Branch: `cursor/loop-d-next-polish-tick14-d996` → draft PR to `main`. Owns **Next** companions plus light About / Editorial polish. Did **not** touch Move / Money / Family / Belong / Home / Life body trees (beyond linking to existing Move salary-notify parent). Avoided open Loop D file sets from [#83](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/83) / [#89](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/89) / [#99](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/99) / [#114](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/114).

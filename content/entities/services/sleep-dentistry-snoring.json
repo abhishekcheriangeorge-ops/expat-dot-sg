@@ -1,0 +1,35 @@
+{
+  "type": "service",
+  "slug": "sleep-dentistry-snoring",
+  "name": "Sleep dentistry and snoring appliances",
+  "summary": "How expats use dental sleep medicine in Singapore for snoring and mild OSA oral appliances — alongside sleep-clinic CPAP pathways, and when a dentist should not be the first stop.",
+  "body": "Oral appliance therapy (mandibular advancement devices) can help primary snoring and selected mild-to-moderate obstructive sleep apnoea cases. It sits beside sleep medicine, ENT, and CPAP — not instead of diagnosis.\n\n## Right sequence\n- Screen for sleepiness, witnessed apnoeas, hypertension, and morning headaches\n- Formal sleep testing when OSA is suspected — do not skip straight to a boil-and-bite mall guard\n- Sleep physician or trained dentist collaboration for appliance titration\n- Dental assessment of TMJ, periodontal health, and bite before long-term wear\n\nCustom appliances differ sharply from sports mouthguards sold as “anti-snore.”\n\n## CPAP vs appliance\nCPAP remains first-line for many moderate–severe OSA diagnoses. Appliances suit CPAP-intolerant patients or travel-heavy expats when clinically appropriate. Combining untreated severe OSA with only a dental device is unsafe.\n\n## How to choose\nLook for dentists with sleep-medicine training who require sleep-study documentation and coordinate with respiratory/sleep clinics. Ask about follow-up bite checks, replacement timelines, and what happens if the device worsens jaw pain. Insurance dental riders rarely cover medical OSA devices — check medical benefits language.\n\n## Practical tip\nIf your partner reports apnoeas or you fall asleep in Grab rides, book sleep assessment first. Bringing a prior home-sleep-test PDF speeds the dental consult when an appliance is already appropriate.\n",
+  "category": "clinics",
+  "areasServed": [
+    "Islandwide"
+  ],
+  "website": "https://www.healthprofessionals.gov.sg/sdc",
+  "whenToEngage": [
+    "Snoring / mild OSA — oral appliance vs CPAP decision",
+    "CPAP-intolerant and exploring custom dental devices",
+    "Mall anti-snore guard marketed without sleep study",
+    "Jaw/TMJ concerns before long-term mandibular advancement"
+  ],
+  "officialLinks": [
+    {
+      "label": "Singapore Dental Council",
+      "url": "https://www.healthprofessionals.gov.sg/sdc"
+    },
+    {
+      "label": "Ministry of Health",
+      "url": "https://www.moh.gov.sg/"
+    }
+  ],
+  "relatedGuides": [
+    "dental-care-foreigners-singapore",
+    "healthcare-gp-hospital",
+    "health-insurance-expat"
+  ],
+  "featured": false,
+  "sponsored": false
+}
