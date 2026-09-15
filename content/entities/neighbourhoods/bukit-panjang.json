@@ -1,0 +1,42 @@
+{
+  "type": "neighbourhood",
+  "slug": "bukit-panjang",
+  "name": "Bukit Panjang",
+  "summary": "Northwest family town on the Downtown Line / Bukit Panjang LRT mesh — HDB value, park edges, and a quieter suburban rhythm if you accept longer CBD hops.",
+  "body": "Bukit Panjang sits on the Downtown Line with Bukit Panjang LRT feeders, giving northwest families a self-contained town centre without Jurong East mall crush. Housing is overwhelmingly HDB with suburban condo pockets; whole-flat rents usually undercut central-north mature estates for the same bedroom count. Parks and park connectors are the lifestyle pitch — not nightlife. Commute honesty: DTL to CBD is a long sit; west-office or northwest industrial lives fit better. Watch LRT transfer friction with strollers, estate-level variance between DTL-adjacent blocks and deeper LRT stops, and occasional unit-renovation seasons when owners refresh stock. Compare with Choa Chu Kang when NSL gravity matters more, Jurong West for EWL west value, and Bukit Timah when school corridors dominate over heartland rents.",
+  "region": "west",
+  "vibe": [
+    "family",
+    "suburban",
+    "dtl",
+    "value",
+    "park-edge"
+  ],
+  "bestFor": [
+    "northwest family HDB hunters",
+    "DTL commuters okay with longer CBD rides",
+    "households who prefer town-centre errands over Orchard",
+    "budget-conscious whole-flat renters"
+  ],
+  "watchOuts": [
+    "Long CBD peak-hour rides on DTL",
+    "LRT transfer friction with kids / groceries",
+    "Fewer default expat social networks",
+    "Unit renovation seasons in older stacks"
+  ],
+  "housingMix": "HDB towns with BPLRT / DTL connectivity; suburban condo pockets.",
+  "commuteNotes": "Downtown Line at Bukit Panjang / Cashew / Hillview adjacency depending on block; Bukit Panjang LRT feeder mesh. Test Tuesday 08:10 door-to-desk before you sign.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 1800,
+    "oneBedTo": 2700,
+    "familyFrom": 2300,
+    "familyTo": 3500
+  },
+  "mrt": [
+    "Bukit Panjang",
+    "Cashew"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}

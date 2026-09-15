@@ -1,0 +1,43 @@
+{
+  "type": "neighbourhood",
+  "slug": "geylang",
+  "name": "Geylang",
+  "summary": "Central-east shophouse and HDB belt with fierce food density, Paya Lebar / Dakota adjacency, and a reputation that rewards block-level due diligence.",
+  "body": "Geylang is the central-east shortlist for renters who want walkable food, shorter CBD hops than Tampines, and character shophouse / walk-up stock — with eyes open on estate variance. Paya Lebar Quarter / Dakota / Aljunied adjacency changes the feel block by block; some pockets are quiet family HDB, others run late with F&B and nightlife spillover. Housing spans HDB, older walk-ups, and newer condos toward Paya Lebar. Due diligence is non-negotiable: visit on a weeknight and a weekend night before you LOI, check flood-prone approaches on heavy-rain evenings, and ask bluntly about upstairs reno and neighbour smoke drift. Compare with Katong / Joo Chiat for lifestyle-east premiums, Bedok for quieter EWL value, and Kallang / Bendemeer when you want even more central-east interchange gravity.",
+  "region": "east",
+  "vibe": [
+    "food-dense",
+    "central-east",
+    "mixed",
+    "character",
+    "variable"
+  ],
+  "bestFor": [
+    "food-led renters okay with estate variance",
+    "central-east CBD hops without Orchard rents",
+    "households who vet blocks at night before LOI",
+    "walk-up / character-stock hunters"
+  ],
+  "watchOuts": [
+    "Block-level nightlife / F&B spillover variance",
+    "Older walk-up reno and secondhand smoke density",
+    "Internet reputation ≠ your specific stack — walk it twice",
+    "Flash-flood approaches on some low roads"
+  ],
+  "housingMix": "HDB, older walk-ups, and newer condos toward Paya Lebar / Dakota.",
+  "commuteNotes": "East-West / Downtown adjacency via Aljunied, Paya Lebar, Dakota, Mountbatten depending on block. Test a rainy weeknight door-to-desk.",
+  "rentBand": {
+    "currency": "SGD",
+    "oneBedFrom": 2200,
+    "oneBedTo": 3500,
+    "familyFrom": 2800,
+    "familyTo": 4500
+  },
+  "mrt": [
+    "Aljunied",
+    "Paya Lebar",
+    "Dakota"
+  ],
+  "schoolsNearby": [],
+  "featured": false
+}
