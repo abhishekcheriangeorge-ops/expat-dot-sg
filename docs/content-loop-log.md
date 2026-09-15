@@ -6,6 +6,72 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 36)
+
+Branch: `cursor/loop-d-next-polish-tick36-d996` → draft PR to `main`, off tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) (open ready; merge when green stack allows). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for Tech.Pass→ONE salary composite, LTVP/PLOC→EP conversion edges, and EP notify-MOM address/passport edges.
+
+**Shipped**
+- New: `tech-pass-to-one-pass-salary-composite-singapore`, `ltvp-ploc-to-ep-conversion-edges-singapore`, `ep-notify-mom-address-passport-edges-singapore`
+- Parents (light): Tech.Pass, LTVP/PLOC→EP conversion, EP notify MOM address/passport
+- Rails: `src/lib/site.ts` Next topics, about, editorial; this log prepend
+
+**Merge note:** tip [#297](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/297) → this tip when controller merges.
+
+---
+
+## Loop D — Next pillar + editorial polish — 2026-09-15 (tick 35)
+
+Branch: `cursor/loop-d-next-polish-tick35-d996` → draft PR to `main`, off tip [#289](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/289) (merged into main). Owns **Next** companions plus light About / Editorial polish. Cross-linked Move / Next parents for ONE Pass outstanding-achievements evidence, EP job-change IR21 withhold, and PEP exit timing.
+
+**Merge order note (controller):** `#289 → this tip` (prior open D tips merged).
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — “ONE Pass outstanding track is just awards on LinkedIn.”
+- r/askSingapore — “Changing jobs in Singapore means no IR21.”
+- r/askSingapore — “PEP renews quietly if income stays high.”
+
+**Official**
+
+- [MOM — ONE Pass eligibility](https://www.mom.gov.sg/passes-and-permits/overseas-networks-expertise-pass/eligibility)
+- [IRAS — Tax clearance](https://www.iras.gov.sg/taxes/individual-income-tax/employees/tax-clearance-for-foreign-employees) · [MOM — Change jobs](https://www.mom.gov.sg/passes-and-permits/employment-pass/change-jobs)
+- [MOM — PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass) · [Cancel PEP](https://www.mom.gov.sg/passes-and-permits/personalised-employment-pass/cancel-a-pass)
+
+### Gaps vs prior tip
+
+#289 covered age-band salary, S Pass levy/quota, DP LOC chooser. Remaining Next gaps: **ONE Pass achievements evidence**, **EP job-change IR21 withhold**, **PEP exit timing**.
+
+### Shipped
+
+**New:** `one-pass-outstanding-achievements-evidence-singapore.mdx`, `ep-job-change-ir21-withhold-edges-singapore.mdx`, `pep-exit-to-ep-or-pr-timing-singapore.mdx`
+
+**Upgraded:** ONE Pass, changing jobs on EP, PEP, chooser, between-jobs STVP, IR21 sequencing (cross-links only); `src/lib/site.ts`; about + editorial.
+
+### Explicitly not done
+
+- No ads / Grok. No force-push to main.
+- Tip #289 already on main; did not wait on other loops.
+- content-loop-log: prepend only.
+
+### Questions mined
+
+1. Do LinkedIn awards clear the ONE Pass outstanding track?
+2. Is outstanding-achievements a substitute for S$30k fixed monthly?
+3. Can Tech.Pass company letters double as ONE Pass achievements proof?
+4. Does a same-city EP hop skip IR21?
+5. Can the new employer unlock old final pay faster?
+6. When should the old EP be cancelled relative to new IPA?
+7. Does PEP renew like an Employment Pass?
+8. How early should PEP holders stage an employer EP?
+9. Do keep-rule dips force an earlier PEP exit?
+10. Is a last-month ONE Pass flip a safe PEP exit?
+
+---
+
+---
+
 ## Loop F — Services directory depth — Tick 36 — 2026-09-15
 
 Branch: `cursor/services-directory-tick36-710d` → PR to `main`. Owns **services directory** entities only. Did **not** touch neighbourhoods (Loop C), schools/clubs entities (Loop B), or pillar guides (A–D). No ads / featured / monetization expansion. No Grok copy. Fresh worktree off `origin/main`. **No upgrades** — every on-main service JSON remains inside open F stack (#70→…→#293); five net-new only. `whenToEngage` as `string[]`. Tip confirmed: F35 draft [#293](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg/pull/293).
