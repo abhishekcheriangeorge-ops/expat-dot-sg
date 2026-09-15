@@ -6,6 +6,63 @@ Short running log of research → gap analysis → shipped editorial. No monetiz
 
 ---
 
+## Loop H — Storytelling + AEO — 2026-09-15 (tick 20)
+
+Branch: `loop/story-aeo-tick20` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#107). Avoided open merge-controller H file set (#112 H19). Prefer merge **#112** before this lands. No ads / monetization; no Grok copy.
+
+### Sources mined
+
+**Reddit / forums**
+
+- r/askSingapore — IR21 final-pay freeze shock; break-lease + movers in the same cash month; under-budgeted exit buffers.
+- r/askSingapore — “married an SC, still no PR”; LTVP-as-mandatory folklore; sponsorship ≠ approval.
+- r/askSingapore — retrenched on EP with no package; TAMEM norms vs contract silence; STVP length asks on cancel.
+
+**Official**
+
+- [IRAS — Tax clearance (IR21)](https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)/tax-clearance-for-employees).
+- [ICA — Becoming a PR](https://www.ica.gov.sg/reside/PR) + [LTVP](https://www.ica.gov.sg/reside/LTVP) + [appeals](https://www.ica.gov.sg/reside/reside-appeals).
+- [MOM — Responsible retrenchment](https://www.mom.gov.sg/employment-practices/retrenchment/responsible-retrenchment) + [cancel an EP](https://www.mom.gov.sg/passes-and-permits/employment-pass/cancel-a-pass).
+
+### Gaps vs open H + ticks 1–19
+
+Open: #112 (NOA / stay-exit / career pivots). Remaining high-intent Next FAQ-free gaps: **leaving cash map**, **spouse-sponsored PR**, **EP retrenchment benefits + STVP ask**.
+
+### Shipped this loop
+
+**Upgraded (AEO / light journey polish)**
+
+- `content/guides/next/leaving-singapore-costs.mdx` (direct lead + FAQPage)
+- `content/guides/next/pr-for-spouse-singapore.mdx` (direct lead + FAQPage)
+- `content/guides/next/retrenchment-ep-benefits.mdx` (direct lead + FAQPage)
+- `src/lib/site.ts` (Next spouse blurb + leaving-costs + retrenchment topics)
+
+### Explicitly not done
+
+- No ads / monetization expansion.
+- No Grok / competitor clone copy.
+- Did not edit #112 guide bodies.
+
+### Questions mined (sample)
+
+1. Why is my final salary frozen when I leave Singapore?
+2. How much cash buffer should I budget for an exit?
+3. Is shipping or selling furniture cheaper when leaving?
+4. Do break-lease penalties stack with security deposit deductions?
+5. Should I book one-way flights before IR21 clears?
+6. Does marrying a Singapore citizen or PR automatically grant PR?
+7. Is an LTVP required before applying for spouse PR?
+8. Who submits a spouse-sponsored PR application?
+9. What happens if spouse PR is refused?
+10. Can a PR sponsor aged parents the same way as a spouse?
+11. Is retrenchment benefit mandatory for Employment Pass holders?
+12. What is the Tripartite norm for retrenchment benefit quantum?
+13. What should I ask HR for on the immigration side after EP retrenchment?
+14. Can I keep working while job-hunting after retrenchment on an EP?
+15. Where do I escalate if the company refuses any retrenchment benefit?
+
+---
+
 ## Loop H — Storytelling + AEO — 2026-09-15 (tick 18)
 
 Branch: `loop/story-aeo-tick18` → PR to `main`. Owns **story/AEO FAQPages** only. Fresh off `origin/main` (post-#69/#73/#82/#84). Avoided open merge-controller H file sets (#87 H14, #93 H15, #98 H16, #102 H17). Prefer merge order **#87 → #93 → #98 → #102** before this lands. No ads / monetization; no Grok copy.

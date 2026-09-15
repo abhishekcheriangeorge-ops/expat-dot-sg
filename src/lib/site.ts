@@ -576,7 +576,7 @@ export const pillars: Pillar[] = [
       {
         label: "Spouse & parent PR",
         href: "/guides/pr-for-spouse-singapore",
-        blurb: "Family sponsorship rows — spouse PR and aged-parent LTVP forks.",
+        blurb: "SC/PR can sponsor a spouse application — marriage ≠ auto-PR.",
       },
       {
         label: "Spouse LTVP + PMLA",
@@ -614,9 +614,19 @@ export const pillars: Pillar[] = [
         blurb: "Ask for up to 90 days stay — not work rights — after EP cancel.",
       },
       {
+        label: "Retrenchment on EP",
+        href: "/guides/retrenchment-ep-benefits",
+        blurb: "Benefit is usually negotiated — ask for longest STVP on cancel.",
+      },
+      {
         label: "Leaving Singapore",
         href: "/guides/leaving-singapore-playbook",
         blurb: "IR21 withholding, STVP length, lease, schools, shipping.",
+      },
+      {
+        label: "Leaving costs (cash map)",
+        href: "/guides/leaving-singapore-costs",
+        blurb: "IR21 freeze, deposits, shipping — budget the cash gap.",
       },
       {
         label: "PR rejected — appeal / reapply",
