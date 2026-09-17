@@ -53,6 +53,10 @@ const CITE_FIRST = [
   "healthcare-gp-hospital",
   "paynow-setup-foreigners-singapore",
   "sports-fitness-singapore",
+  "find-my-people-singapore",
+  "unpaid-internship-volunteer-work-pass-singapore",
+  "brokerage-cdp-account-foreigners-singapore",
+  "usd-offshore-payroll-employment-pass",
 ];
 
 export async function GET() {

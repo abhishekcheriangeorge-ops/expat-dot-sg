@@ -16,11 +16,19 @@ export async function PillarPage({ slug }: PillarPageProps) {
   const pillar = getPillar(slug);
   const modeLinks = modes.filter((m) => pillar.modes.includes(m.slug));
   const guides = await getAllGuides({ pillar: slug });
-  const featured = guides.slice(0, 8);
+  const topicSlugs = pillar.topics
+    .map((topic) => topic.href.replace(/^\/guides\//, ""))
+    .filter((href) => !href.startsWith("/"));
+  const bySlug = new Map(guides.map((guide) => [guide.slug, guide]));
+  const featured = [
+    ...topicSlugs
+      .map((topicSlug) => bySlug.get(topicSlug))
+      .filter((guide): guide is NonNullable<typeof guide> => Boolean(guide)),
+    ...guides.filter((guide) => !topicSlugs.includes(guide.slug)),
+  ].slice(0, 8);
 
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Guides", path: "/guides" },
     { name: pillar.label, path: pillar.href },
   ];
 

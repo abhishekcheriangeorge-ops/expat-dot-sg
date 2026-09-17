@@ -160,16 +160,24 @@ export function ModeHub({ mode }: ModeHubProps) {
             </p>
             <p className="mt-3 max-w-md font-display text-2xl font-medium sm:text-3xl">
               {mode === "arriving"
-                ? `Already past the first ninety days? Switch to ${other.label}.`
-                : `Still in issuance chaos? Switch to ${other.label}.`}
+                ? "Already past the first ninety days? Living. Posting ending? Leaving."
+                : "Still in issuance chaos? Arriving. Posting ending? Leaving."}
             </p>
           </div>
-          <Link
-            href={other.href}
-            className="inline-flex items-center justify-center bg-tungsten-soft px-7 py-3.5 text-[13px] font-bold uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-paper"
-          >
-            Go to {other.label}
-          </Link>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href={other.href}
+              className="inline-flex min-h-[44px] items-center justify-center bg-tungsten-soft px-7 py-3.5 text-[13px] font-bold uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-paper"
+            >
+              Go to {other.label}
+            </Link>
+            <Link
+              href="/journeys/leaving"
+              className="inline-flex min-h-[44px] items-center justify-center border border-paper/30 px-7 py-3.5 text-[13px] font-bold uppercase tracking-[0.06em] text-paper no-underline hover:border-paper/60"
+            >
+              Leaving
+            </Link>
+          </div>
         </FadeIn>
       </section>
     </div>

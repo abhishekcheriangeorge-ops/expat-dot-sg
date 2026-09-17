@@ -52,6 +52,11 @@ export const modes = [
       "Start with the dependency map (SIM → Singpass → bank), file the SG Arrival Card, clear Changi → city, then push HR through issuance → Notification Letter → EPSC. Tick the 7/30/90 boards; open a pillar only when a specific blocker appears.",
     startHere: [
       {
+        href: "/guides/employment-pass-singapore",
+        label: "Employment Pass",
+        blurb: "Salary floors, COMPASS, IPA vs a finished pass.",
+      },
+      {
         href: "/guides/first-week-sim-singpass-bank",
         label: "Week-one dependency map",
         blurb: "The real order for SIM, Singpass, bank, and PayNow.",
@@ -106,9 +111,14 @@ export const modes = [
         blurb: "Curriculum, fees, and bus as a second rent.",
       },
       {
-        href: "/belong",
+        href: "/guides/find-my-people-singapore",
         label: "Find your people",
-        blurb: "Clubs, hashes, faith, and nationality groups.",
+        blurb: "30-day belonging plan — clubs, hashes, repeated contact.",
+      },
+      {
+        href: "/journeys/leaving",
+        label: "Leaving playbook",
+        blurb: "IR21, deposits, shipping — when this posting ends.",
       },
     ] as const satisfies readonly ModeStartLink[],
     image: "/images/living-singapore.jpg",
