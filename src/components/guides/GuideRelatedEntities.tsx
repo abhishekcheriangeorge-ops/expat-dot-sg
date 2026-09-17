@@ -12,7 +12,7 @@ export function GuideRelatedEntities({ entities }: GuideRelatedEntitiesProps) {
   return (
     <section
       aria-labelledby="guide-related-entities-heading"
-      className="border-t border-fog-soft pt-10"
+      className="border-t border-ink/15 pt-10"
     >
       <h2
         id="guide-related-entities-heading"

@@ -72,15 +72,25 @@ async function insertLeadNeon(inquiry: LeadInquiry): Promise<StoredLead> {
 }
 
 async function insertLeadFile(inquiry: LeadInquiry): Promise<StoredLead> {
-  await fs.mkdir(FILE_DIR, { recursive: true });
-  const lead: StoredLead = {
-    ...inquiry,
-    id: randomUUID(),
-    createdAt: new Date().toISOString(),
-    backend: "file",
-  };
-  await fs.appendFile(FILE_PATH, `${JSON.stringify(lead)}\n`, "utf8");
-  return lead;
+  try {
+    await fs.mkdir(FILE_DIR, { recursive: true });
+    const lead: StoredLead = {
+      ...inquiry,
+      id: randomUUID(),
+      createdAt: new Date().toISOString(),
+      backend: "file",
+    };
+    await fs.appendFile(FILE_PATH, `${JSON.stringify(lead)}\n`, "utf8");
+    return lead;
+  } catch (err) {
+    const code = (err as NodeJS.ErrnoException).code;
+    if (code === "EROFS" || code === "EACCES") {
+      throw new Error(
+        "Lead storage is not writable. Set DATABASE_URL for production.",
+      );
+    }
+    throw err;
+  }
 }
 
 /** Persist an advertise / sponsorship inquiry. Neon if configured, else JSONL. */

@@ -42,7 +42,12 @@ function clampMonths(n: number): number {
 }
 
 export function estimateCarCoeExit(inputs: CarCoeExitInputs): CarCoeExitResult {
-  const mode = inputs.mode;
+  const mode =
+    inputs.mode === "sell-local" ||
+    inputs.mode === "export-scrap" ||
+    inputs.mode === "transfer-keep"
+      ? inputs.mode
+      : "sell-local";
   const saleProceedsSgd = money(inputs.saleProceedsSgd);
   const rebateSketchSgd = money(inputs.rebateSketchSgd);
   const loanBalanceSgd = money(inputs.loanBalanceSgd);
@@ -64,7 +69,10 @@ export function estimateCarCoeExit(inputs: CarCoeExitInputs): CarCoeExitResult {
       "Many private sales transfer rebate value into the negotiated price. Do not double-count PARF/COE rebate and a “rebate-included” offer.";
   } else if (mode === "export-scrap") {
     cashIn = money(rebateSketchSgd + saleProceedsSgd);
-    cashOut = money(cashOut + Math.max(500, Math.round(exitFeesSgd * 0.25)));
+    // Buffer only when the user typed real fees — never a phantom $500 on $0.
+    cashOut = money(
+      cashOut + (exitFeesSgd > 0 ? Math.max(500, Math.round(exitFeesSgd * 0.25)) : 0),
+    );
     headline =
       "Export / scrap sketch — rebate-heavy; add logistics buffer on top of typed fees";
     note =

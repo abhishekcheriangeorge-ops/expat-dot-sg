@@ -21,10 +21,10 @@ export default function EditorialPolicyPage() {
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs items={crumbs} className="mb-8 text-sm text-ink-faint" />
       <header className="max-w-2xl">
-        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-tungsten">
           Trust
         </p>
-        <h1 className="font-display mt-4 text-4xl leading-tight text-ink sm:text-5xl">
+        <h1 className="font-display mt-4 text-4xl font-medium leading-[1.08] tracking-[-0.025em] text-ink sm:text-5xl">
           Editorial policy
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-ink-muted">
@@ -34,7 +34,7 @@ export default function EditorialPolicyPage() {
 
       <div className="mt-14 max-w-[var(--max-prose)] space-y-10 text-base leading-relaxed text-ink-muted">
         <section>
-          <h2 className="font-display text-2xl text-ink">Independence</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Independence</h2>
           <p className="mt-3">
             Editorial guides are written to help readers make clearer decisions
             about Singapore expat life. Commercial partnerships do not control
@@ -44,7 +44,7 @@ export default function EditorialPolicyPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">Citations & review</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Citations & review</h2>
           <p className="mt-3">
             Cornerstone guides cite primary sources where rules matter — typically
             MOM, ICA, IRAS, CMPB/MINDEF, or equivalent agency pages. Every
@@ -56,7 +56,7 @@ export default function EditorialPolicyPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">Research inputs</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Research inputs</h2>
           <p className="mt-3">
             We mine public forums and Reddit for recurring pain points, then
             verify claims against official pages before shipping — especially on
@@ -89,7 +89,7 @@ export default function EditorialPolicyPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">Sponsored content</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Sponsored content</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5">
             <li>
               Sponsored posts live under{" "}
@@ -110,7 +110,7 @@ export default function EditorialPolicyPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">Corrections</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Corrections</h2>
           <p className="mt-3">
             If something is wrong or outdated, tell us via the{" "}
             <Link href="/advertise" className="text-canopy underline">
@@ -122,7 +122,7 @@ export default function EditorialPolicyPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">Voice</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Voice</h2>
           <p className="mt-3">
             Plain English, locally precise, respectful of Singaporeans — not a
             tourist brochure and not Facebook panic. We write for people who live

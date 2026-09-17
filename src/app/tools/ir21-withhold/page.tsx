@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { Ir21WithholdCalculator } from "@/components/tools";
+import { Ir21WithholdCalculator, ToolAbout } from "@/components/tools";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -22,7 +22,7 @@ export default function Ir21WithholdToolPage() {
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
-      <div className="border-b border-fog-soft">
+      <div className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
@@ -34,28 +34,42 @@ export default function Ir21WithholdToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <Ir21WithholdCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
+        <ToolAbout
+          how={[
+      "Adds the clearance window to your last employment day for a sketched release date.",
+      "Counts days from today to that release date.",
+      "Windows run 14 to 60 days from optimistic to extended cases.",
+    ]}
+          actions={[
+      "Build rent and utility float beyond one payroll cycle on long windows.",
+      "Ask HR whether the tax directive is issued or stuck if the date passes.",
+    ]}
+          sourceLabel="IRAS and your employer"
+          reviewed="2026-09-15"
+        />
+
+        <p className="mt-10 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
           <Link
             href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             ← All tools
           </Link>
           <Link
             href="/journeys/utility-exit-handover"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Utility exit playbook →
           </Link>
           <Link
             href="/journeys/leaving"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Leaving playbook →
           </Link>
           <Link
             href="/money"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Money pillar →
           </Link>

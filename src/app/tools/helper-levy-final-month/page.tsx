@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { HelperLevyFinalMonthCalculator } from "@/components/tools";
+import { HelperLevyFinalMonthCalculator, ToolAbout } from "@/components/tools";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -22,7 +22,7 @@ export default function HelperLevyFinalMonthToolPage() {
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
-      <div className="border-b border-fog-soft">
+      <div className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
@@ -34,28 +34,43 @@ export default function HelperLevyFinalMonthToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <HelperLevyFinalMonthCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
+        <ToolAbout
+          how={[
+      "Charges the full monthly levy when the helper stays through month-end.",
+      "Pro-rates the levy by days employed over days in month on cancel or transfer.",
+      "Adds admin fees and any waiver clawback on top.",
+    ]}
+          actions={[
+      "Confirm concession status before treating the month as already paid.",
+      "Cancelling in the last days rarely saves a full cycle. Re-price against staying.",
+    ]}
+          sourceLabel="MOM"
+      sourceHref="https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/foreign-domestic-worker-levy/paying-levy"
+          reviewed="2026-09-15"
+        />
+
+        <p className="mt-10 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
           <Link
             href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             ← All tools
           </Link>
           <Link
             href="/journeys/condo-visitor-parking-clear"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Condo visitor parking clear →
           </Link>
           <Link
             href="/journeys/helper-handoff-exit"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Helper handoff exit →
           </Link>
           <Link
             href="/family"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Family pillar →
           </Link>

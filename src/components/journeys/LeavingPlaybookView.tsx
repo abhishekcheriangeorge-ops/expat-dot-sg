@@ -15,14 +15,22 @@ export function LeavingPlaybookView({ playbook }: LeavingPlaybookViewProps) {
         </p>
       </FadeIn>
 
-      <Stagger className="mt-12 flex flex-col gap-12">
+      <Stagger className="mt-12 flex flex-col border-b border-ink">
         {playbook.sections.map((section, index) => (
-          <StaggerItem key={section.id} className="grid gap-4 sm:grid-cols-[4rem_1fr]">
-            <p className="font-display text-3xl text-tungsten/80">
+          <StaggerItem
+            key={section.id}
+            className="grid gap-4 border-t border-ink/15 py-8 first:border-t-0 sm:grid-cols-[4rem_1fr]"
+          >
+            <p
+              aria-hidden="true"
+              className="font-display text-3xl font-medium text-tungsten"
+            >
               {String(index + 1).padStart(2, "0")}
             </p>
             <div>
-              <h2 className="font-display text-2xl text-ink">{section.title}</h2>
+              <h2 className="font-display text-2xl font-medium tracking-tight text-ink">
+                {section.title}
+              </h2>
               <p className="mt-3 max-w-2xl leading-relaxed text-ink-muted">
                 {section.body}
               </p>
@@ -36,12 +44,12 @@ export function LeavingPlaybookView({ playbook }: LeavingPlaybookViewProps) {
               {section.href ? (
                 <Link
                   href={section.href}
-                  className="mt-4 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                  className="mt-4 inline-block rounded-sm py-1.5 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
                   {...(section.href.startsWith("http")
                     ? { target: "_blank", rel: "noopener noreferrer" }
                     : {})}
                 >
-                  Official reference →
+                  Official reference <span aria-hidden="true">→</span>
                 </Link>
               ) : null}
             </div>
@@ -49,33 +57,33 @@ export function LeavingPlaybookView({ playbook }: LeavingPlaybookViewProps) {
         ))}
       </Stagger>
 
-      <FadeIn className="mt-16 border-t border-fog-soft pt-10">
+      <FadeIn className="mt-16 border-t border-ink pt-10">
         <p className="text-sm text-ink-faint">
           This playbook is editorial guidance, not legal or tax advice. Confirm
           current IRAS and MOM requirements before you act.
         </p>
-        <div className="mt-6 flex flex-wrap gap-4">
+        <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
           <Link
             href="/journeys/arriving"
-            className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
-            ← Arriving checklists
+            <span aria-hidden="true">←</span> Arriving checklists
           </Link>
           <Link
             href="/journeys/between-jobs"
-            className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Between-jobs playbook
           </Link>
           <Link
             href="/journeys/leaving"
-            className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Leaving playbook
           </Link>
           <Link
             href="/tools"
-            className="text-sm font-medium text-ink-muted no-underline hover:text-ink"
+            className="rounded-sm py-1.5 text-sm font-medium text-ink-muted no-underline hover:text-ink focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Supporting tools
           </Link>

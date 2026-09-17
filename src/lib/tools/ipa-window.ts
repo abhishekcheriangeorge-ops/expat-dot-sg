@@ -32,6 +32,7 @@ export type IpaWindowResult = {
 };
 
 function parseYmd(ymd: string): Date | null {
+  if (typeof ymd !== "string") return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
   if (!m) return null;
   const y = Number(m[1]);
@@ -72,6 +73,13 @@ function wholeDaysBetween(from: Date, to: Date): number {
   return Math.floor((to.getTime() - from.getTime()) / 86_400_000);
 }
 
+function todayUtc(): Date {
+  const now = new Date();
+  return new Date(
+    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
+  );
+}
+
 export function estimateIpaWindow(inputs: IpaWindowInputs): IpaWindowResult {
   const ipa = parseYmd(inputs.ipaDate);
   const entry = parseYmd(inputs.entryDate);
@@ -98,13 +106,15 @@ export function estimateIpaWindow(inputs: IpaWindowInputs): IpaWindowResult {
     entry.getTime() >= ipa.getTime() && entry.getTime() <= deadline.getTime();
   const issueInsideWindow =
     issue.getTime() >= ipa.getTime() && issue.getTime() <= deadline.getTime();
-  const daysUntilDeadline = wholeDaysBetween(entry, deadline);
+  // Days left from today; the entry→deadline span stays in the note below.
+  const daysUntilDeadline = wholeDaysBetween(todayUtc(), deadline);
+  const entryToDeadline = wholeDaysBetween(entry, deadline);
 
   let note: string;
   if (!entryInsideWindow || !issueInsideWindow) {
     note = `Entry and/or issuance sit outside the common ${IPA_ENTER_ISSUE_MONTHS}-month IPA window ending ${formatYmd(deadline)}. Ask the employer about an IPA extension (≥${IPA_EXTENSION_LEAD_WEEKS} weeks before expiry) or re-application — do not assume the letter still works.`;
-  } else if (daysUntilDeadline < 21) {
-    note = `You are inside the window, but only about ${Math.max(0, daysUntilDeadline)} day(s) remain after entry until ${formatYmd(deadline)}. Sequence medicals, issuance payment, and card registration immediately; notification letters after issuance are typically valid ~${IPA_NOTIFICATION_LETTER_DAYS} days.`;
+  } else if (entryToDeadline < 21) {
+    note = `You are inside the window, but only about ${Math.max(0, entryToDeadline)} day(s) remain after entry until ${formatYmd(deadline)}. Sequence medicals, issuance payment, and card registration immediately; notification letters after issuance are typically valid ~${IPA_NOTIFICATION_LETTER_DAYS} days.`;
   } else {
     note = `On a common EP IPA sketch, enter and issue by ${formatYmd(deadline)}. After issuance, the notification letter usually lets work and travel continue for about ${IPA_NOTIFICATION_LETTER_DAYS} days while the card prints. Extension requests: aim before ${formatYmd(extensionLeadDate)}.`;
   }

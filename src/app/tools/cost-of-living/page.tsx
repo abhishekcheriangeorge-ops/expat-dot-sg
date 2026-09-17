@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { ColCalculator } from "@/components/tools";
+import { ColCalculator, ToolAbout } from "@/components/tools";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -22,7 +22,7 @@ export default function CostOfLivingToolPage() {
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
-      <div className="border-b border-fog-soft">
+      <div className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
@@ -34,34 +34,48 @@ export default function CostOfLivingToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <ColCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
+        <ToolAbout
+          how={[
+      "Picks rent from a grid of three housing bands by four household sizes.",
+      "Adds food, transport, and utilities midpoints, plus school and helper only when ticked.",
+      "Schooling uses S$2,800 a month for one child and S$5,200 for two.",
+    ]}
+          actions={[
+      "Use the total to sanity-check salary offers, not to set a budget.",
+      "Read the cost-of-living guide for household-by-household breakdowns.",
+    ]}
+          sourceLabel="editorial estimates"
+          reviewed="2026-09-15"
+        />
+
+        <p className="mt-10 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
           <Link
             href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             ← All tools
           </Link>
           <Link
             href="/guides/cost-of-living-by-household"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             COL guide →
           </Link>
           <Link
             href="/guides/salary-package-decoding"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Salary package →
           </Link>
           <Link
             href="/neighbourhoods"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Neighbourhoods →
           </Link>
           <Link
             href="/money"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Money pillar →
           </Link>

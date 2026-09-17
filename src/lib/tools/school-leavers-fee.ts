@@ -36,6 +36,12 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for deltas — negative means the path beats the alt */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
 function clampChildren(n: number): number {
   if (!Number.isFinite(n) || n < 1) return 1;
   return Math.min(6, Math.floor(n));
@@ -49,7 +55,6 @@ function clampFraction(n: number): number {
 export function estimateSchoolLeaversFee(
   inputs: SchoolLeaversInputs,
 ): SchoolLeaversResult {
-  const mode = inputs.mode;
   const coreFeeSgd = money(inputs.coreFeeSgd);
   const yearbookSgd = money(inputs.yearbookSgd);
   const optionalSgd = money(inputs.optionalSgd);
@@ -79,24 +84,33 @@ export function estimateSchoolLeaversFee(
 
   // Recommend the cheapest path that still includes yearbook when kids > 0 —
   // families usually want the book; core-only is the floor comparison.
+  // `recommended` is the editorial default; `cheapest` is the true floor used
+  // for the delta so the numbers never claim a pricier path is cheaper.
+  const rawMode = inputs.mode;
+  const validMode: LeaversFeeMode =
+    rawMode === "core-only" ||
+    rawMode === "core-plus-yearbook" ||
+    rawMode === "full-optional"
+      ? rawMode
+      : "core-plus-yearbook";
   let recommended: LeaversFeeMode = "core-plus-yearbook";
+  let cheapest: LeaversFeeMode = "core-plus-yearbook";
   let best = costs["core-plus-yearbook"];
   if (costs["core-only"] < best) {
-    // still surface core-only as cheaper alt, but prefer yearbook path as default rec
-    recommended = "core-plus-yearbook";
-    best = costs["core-plus-yearbook"];
+    cheapest = "core-only";
+    best = costs["core-only"];
   }
   if (
-    mode === "full-optional" &&
+    validMode === "full-optional" &&
     costs["full-optional"] <= costs["core-plus-yearbook"] + 80
   ) {
     recommended = "full-optional";
     best = costs["full-optional"];
   }
 
-  const pathCostSgd = costs[mode];
-  const altCostSgd = costs[recommended];
-  const savingsVsAltSgd = money(pathCostSgd - altCostSgd);
+  const pathCostSgd = costs[validMode];
+  const altCostSgd = costs[cheapest];
+  const savingsVsAltSgd = signed(pathCostSgd - altCostSgd);
 
   const labels: Record<LeaversFeeMode, string> = {
     "core-only": "Core leavers fee only",
@@ -104,24 +118,24 @@ export function estimateSchoolLeaversFee(
     "full-optional": "Core + yearbook + optional packs",
   };
 
-  let headline = `${labels[mode]} · sketch ${pathCostSgd} SGD for ${departingChildren} child${departingChildren > 1 ? "ren" : ""}`;
+  let headline = `${labels[validMode]} · sketch ${pathCostSgd} SGD for ${departingChildren} child${departingChildren > 1 ? "ren" : ""}`;
   let note = SCHOOL_LEAVERS_NOTE;
-  if (mode !== recommended) {
+  if (validMode !== recommended) {
     headline += ` · common sketch: ${labels[recommended]}`;
   }
-  if (mode === "core-only") {
+  if (validMode === "core-only") {
     note =
       "Core-only skips the yearbook. Confirm whether the school still bills a chronicle fee automatically on mid-year exit.";
   } else if (departingChildren > 1 && siblingDiscountFraction === 0) {
     note =
       "Sibling discounts are school-specific. Ask the parent portal before you assume full price × children.";
-  } else if (mode === "full-optional" && optionalSgd > coreFeeSgd) {
+  } else if (validMode === "full-optional" && optionalSgd > coreFeeSgd) {
     note =
       "Optional photo / dinner packs can exceed the core fee — drop add-ons first if cash is tight beside gym ETFs.";
   }
 
   return {
-    mode,
+    mode: validMode,
     departingChildren,
     pathCostSgd,
     altCostSgd,

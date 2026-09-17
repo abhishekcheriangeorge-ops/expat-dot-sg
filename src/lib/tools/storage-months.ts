@@ -39,10 +39,12 @@ export function estimateStorageMonths(
 ): StorageMonthsResult {
   const band =
     STORAGE_BANDS.find((b) => b.id === inputs.bandId) ?? STORAGE_BANDS[1];
-  const months = Math.max(0, Math.floor(Number(inputs.months) || 0));
+  const num = (n: number | undefined): number =>
+    typeof n === "number" && Number.isFinite(n) && n > 0 ? n : 0;
+  const months = Math.floor(num(inputs.months));
   const monthly = band.monthly;
-  const addOn = Math.max(0, Number(inputs.addOnMonthly) || 0);
-  const access = Math.max(0, Number(inputs.accessFee) || 0);
+  const addOn = num(inputs.addOnMonthly);
+  const access = num(inputs.accessFee);
   const recurringTotal =
     Math.round((monthly + addOn) * months * 100) / 100;
   const total = Math.round((recurringTotal + access) * 100) / 100;

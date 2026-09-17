@@ -41,9 +41,8 @@ export async function POST(request: Request) {
 }
 
 export async function GET() {
-  return NextResponse.json({
-    ok: true,
-    storage: getStorageBackend(),
-    message: "POST advertise inquiries to this endpoint.",
-  });
+  return NextResponse.json(
+    { error: "Method not allowed" },
+    { status: 405 },
+  );
 }

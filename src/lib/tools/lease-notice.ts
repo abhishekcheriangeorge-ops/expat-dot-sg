@@ -33,6 +33,7 @@ export type LeaseNoticeResult = {
 };
 
 function parseYmd(ymd: string): Date | null {
+  if (typeof ymd !== "string") return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
   if (!m) return null;
   const y = Number(m[1]);
@@ -74,14 +75,20 @@ function monthsBetween(start: Date, end: Date): number {
   return Math.max(0, total);
 }
 
+/** Whole months, NaN-safe: falls back when the input is not finite */
+function wholeMonths(n: number, fallback: number): number {
+  if (!Number.isFinite(n)) return fallback;
+  return Math.max(0, Math.floor(n));
+}
+
 export function estimateLeaseNotice(
   inputs: LeaseNoticeInputs,
 ): LeaseNoticeResult {
   const start = parseYmd(inputs.leaseStart);
   const target = parseYmd(inputs.targetEnd);
-  const leaseMonths = Math.max(1, Math.floor(inputs.leaseMonths));
-  const lockInMonths = Math.max(0, Math.floor(inputs.lockInMonths));
-  const noticeMonths = Math.max(0, Math.floor(inputs.noticeMonths));
+  const leaseMonths = Math.max(1, wholeMonths(inputs.leaseMonths, 12));
+  const lockInMonths = wholeMonths(inputs.lockInMonths, 12);
+  const noticeMonths = wholeMonths(inputs.noticeMonths, 2);
 
   if (!start || !target) {
     return {

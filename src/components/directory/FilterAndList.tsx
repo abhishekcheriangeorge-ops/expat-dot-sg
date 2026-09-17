@@ -33,20 +33,21 @@ export function FilterBar({
   resultCount,
 }: FilterBarProps) {
   return (
-    <div className="sticky top-0 z-30 border-b border-fog-soft bg-paper/95 backdrop-blur-md">
-      <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-4 px-5 py-4 sm:px-8">
+    <div className="border-b border-ink/15 bg-paper">
+      <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-4 px-5 py-5 sm:px-8">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <label className="relative block w-full max-w-md">
-            <span className="sr-only">Search</span>
+            <span className="sr-only">Search listings</span>
             <input
               type="search"
               value={search}
               onChange={(e) => onSearchChange(e.target.value)}
               placeholder={searchPlaceholder}
-              className="w-full border border-fog-soft bg-paper-elevated px-4 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-canopy-mist focus:outline-none"
+              aria-label={searchPlaceholder}
+              className="w-full rounded-sm border border-ink/20 bg-paper-elevated px-4 py-3 text-sm text-ink placeholder:text-ink-faint focus:border-tungsten focus:outline-2 focus:outline-tungsten"
             />
           </label>
-          <p className="text-sm text-ink-faint">
+          <p className="text-sm text-ink-faint" role="status">
             <span className="font-medium text-ink-muted">{resultCount}</span>{" "}
             {resultCount === 1 ? "result" : "results"}
           </p>
@@ -101,8 +102,8 @@ function FilterChip({
       aria-pressed={active}
       className={
         active
-          ? "border border-canopy bg-canopy px-3 py-1.5 text-xs font-medium text-paper transition-colors"
-          : "border border-fog-soft bg-transparent px-3 py-1.5 text-xs font-medium text-ink-muted transition-colors hover:border-canopy-mist hover:text-ink"
+          ? "rounded-sm border border-ink bg-ink px-4 py-2.5 text-[13px] font-semibold text-paper transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+          : "rounded-sm border border-ink/20 bg-transparent px-4 py-2.5 text-[13px] font-medium text-ink-muted transition-colors hover:border-ink/50 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
       }
     >
       {label}
@@ -148,7 +149,7 @@ export function ListingGrid({
           >
             <div className="flex flex-wrap items-start justify-between gap-2">
               {item.eyebrow ? (
-                <p className="text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-canopy-mist">
+                <p className="text-[0.65rem] font-bold uppercase tracking-[0.18em] text-tungsten">
                   {item.eyebrow}
                 </p>
               ) : (
@@ -159,7 +160,7 @@ export function ListingGrid({
                 sponsored={item.sponsored}
               />
             </div>
-            <h2 className="font-display text-2xl leading-snug text-ink transition-colors group-hover:text-canopy-deep">
+            <h2 className="font-display text-2xl font-medium leading-snug text-ink transition-colors group-hover:text-canopy">
               {item.name}
             </h2>
             <p className="flex-1 text-sm leading-relaxed text-ink-muted">
@@ -168,7 +169,9 @@ export function ListingGrid({
             {item.meta && item.meta.length > 0 ? (
               <p className="text-xs text-ink-faint">{item.meta.join(" · ")}</p>
             ) : null}
-            <span className="text-sm font-medium text-canopy">View →</span>
+            <span className="text-[13px] font-bold uppercase tracking-[0.1em] text-ink transition-colors group-hover:text-tungsten">
+              View <span aria-hidden="true">→</span>
+            </span>
           </Link>
         </li>
       ))}
@@ -185,7 +188,7 @@ export function ProseSection({ title, children }: ProseSectionProps) {
   return (
     <section className="mx-auto max-w-[var(--max-prose)] px-5 py-12 sm:px-8">
       {title ? (
-        <h2 className="font-display text-2xl text-canopy-deep">{title}</h2>
+        <h2 className="font-display text-2xl font-medium tracking-tight text-ink">{title}</h2>
       ) : null}
       <div
         className={`text-base leading-relaxed text-ink-muted ${title ? "mt-4" : ""} space-y-4`}
@@ -212,7 +215,7 @@ export function ChipList({ label, items }: ChipListProps) {
         {items.map((item) => (
           <li
             key={item}
-            className="border border-fog-soft bg-paper-elevated px-3 py-1 text-sm text-ink-muted"
+            className="rounded-sm border border-ink/15 bg-paper-elevated px-3 py-1.5 text-sm text-ink-muted"
           >
             {item}
           </li>
@@ -233,9 +236,10 @@ export function ExternalLink({ href, label = "Visit website" }: ExternalLinkProp
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center border border-canopy px-5 py-2.5 text-sm font-semibold text-canopy no-underline transition-colors hover:bg-canopy hover:text-paper"
+      className="inline-flex min-h-[44px] items-center rounded-sm border border-ink px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:bg-ink hover:text-paper focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
     >
-      {label} ↗
+      {label} <span aria-hidden="true">↗</span>
+      <span className="sr-only"> (opens in a new tab)</span>
     </a>
   );
 }

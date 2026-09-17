@@ -125,7 +125,7 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
         </ProseSection>
       ) : null}
 
-      <section className="border-t border-fog-soft bg-paper-elevated/60">
+      <section className="border-t border-ink/15 bg-paper-elevated/60">
         <div className="mx-auto grid max-w-[var(--max-page)] gap-10 px-5 py-14 sm:grid-cols-2 sm:px-8">
           <ChipList label="Vibe" items={n.vibe} />
           <ChipList label="Best for" items={n.bestFor} />
@@ -141,9 +141,9 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
       ) : null}
 
       {schools.length > 0 ? (
-        <section className="border-t border-fog-soft">
+        <section className="border-t border-ink/15">
           <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
-            <h2 className="font-display text-2xl text-canopy-deep">
+            <h2 className="font-display text-2xl font-medium tracking-tight text-ink">
               Schools often shortlisted nearby
             </h2>
             <ul className="mt-5 flex flex-wrap gap-3">
@@ -161,7 +161,7 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
             <p className="mt-6 text-sm">
               <Link
                 href="/schools"
-                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
               >
                 All schools →
               </Link>
@@ -171,9 +171,9 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
       ) : null}
 
       {relatedGuides.length > 0 ? (
-        <section className="border-t border-fog-soft">
+        <section className="border-t border-ink/15">
           <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
-            <h2 className="font-display text-2xl text-canopy-deep">
+            <h2 className="font-display text-2xl font-medium tracking-tight text-ink">
               Guides that reference this area
             </h2>
             <ul className="mt-5 flex flex-col gap-3">
@@ -181,7 +181,7 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
                 <li key={guide.slug}>
                   <Link
                     href={`/guides/${guide.slug}`}
-                    className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                    className="text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline"
                   >
                     {guide.title} →
                   </Link>
@@ -191,13 +191,13 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
             <p className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
               <Link
                 href="/guides/choosing-neighbourhood-expat"
-                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
               >
                 Choosing a neighbourhood →
               </Link>
               <Link
                 href="/tools/setup-cash"
-                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
               >
                 First-month cash tool →
               </Link>
@@ -205,24 +205,24 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
           </div>
         </section>
       ) : (
-        <section className="border-t border-fog-soft">
+        <section className="border-t border-ink/15">
           <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
             <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
               <Link
                 href="/guides/choosing-neighbourhood-expat"
-                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
               >
                 Choosing a neighbourhood →
               </Link>
               <Link
                 href="/guides/heartland-living-for-expats"
-                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
               >
                 Heartland living →
               </Link>
               <Link
                 href="/tools/lease-duty"
-                className="font-medium text-canopy no-underline hover:text-canopy-mist"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
               >
                 Lease duty tool →
               </Link>
@@ -231,23 +231,23 @@ export default async function NeighbourhoodDetailPage({ params }: Props) {
         </section>
       )}
 
-      <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
+      <nav className="border-t border-ink/15 px-5 py-8 sm:px-8">
         <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
           <Link
             href="/neighbourhoods"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             ← All neighbourhoods
           </Link>
           <Link
             href="/home"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Home pillar →
           </Link>
           <Link
             href="/family"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Family pillar →
           </Link>

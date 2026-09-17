@@ -36,10 +36,22 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for savings — a negative means the path beats the alt */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
 function clampDays(n: number): number {
-  if (!Number.isFinite(n) || n < 1) return 1;
+  if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(180, Math.floor(n));
 }
+
+const VALID_MODES: InsuranceGapMode[] = [
+  "extend-local",
+  "daily-float",
+  "drop-and-grab",
+];
 
 export function estimateDrivingInsuranceGap(
   inputs: DrivingInsuranceInputs,
@@ -65,15 +77,12 @@ export function estimateDrivingInsuranceGap(
     }
   });
 
-  if (gapDays <= 14 && costs["drop-and-grab"] <= costs["extend-local"] + 50) {
-    recommended = "drop-and-grab";
-    best = costs["drop-and-grab"];
-  }
-
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "extend-local";
   const pathCostSgd = costs[mode];
   const altCostSgd = costs[recommended];
-  const savingsVsAltSgd = money(pathCostSgd - altCostSgd);
+  const savingsVsAltSgd = signed(pathCostSgd - altCostSgd);
 
   const labels: Record<InsuranceGapMode, string> = {
     "extend-local": "Extend local motor cover for the gap",

@@ -36,6 +36,7 @@ export type Ir21WithholdResult = {
 };
 
 function parseYmd(ymd: string): Date | null {
+  if (typeof ymd !== "string") return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
   if (!m) return null;
   const y = Number(m[1]);
@@ -81,8 +82,10 @@ export function estimateIr21Withhold(
     IR21_WINDOW_PRESETS.find((p) => p.id === inputs.windowId) ??
     IR21_WINDOW_PRESETS[1];
   const clearDays =
-    inputs.customDays != null && inputs.customDays > 0
-      ? Math.floor(inputs.customDays)
+    inputs.customDays != null &&
+    Number.isFinite(inputs.customDays) &&
+    inputs.customDays > 0
+      ? Math.min(365, Math.floor(inputs.customDays))
       : preset.days;
   const cessation = parseYmd(inputs.cessationDate);
   const monthlyNet = Math.max(0, Number(inputs.monthlyNet) || 0);
@@ -118,7 +121,9 @@ export function estimateIr21Withhold(
     cessationDate: formatYmd(cessation),
     windowId: preset.id,
     windowLabel:
-      inputs.customDays != null && inputs.customDays > 0
+      inputs.customDays != null &&
+      Number.isFinite(inputs.customDays) &&
+      inputs.customDays > 0
         ? `Custom · ${clearDays} days`
         : preset.label,
     clearDays,

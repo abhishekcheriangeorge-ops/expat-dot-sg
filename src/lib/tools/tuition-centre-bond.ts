@@ -37,6 +37,18 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets — a negative float is the point of the sketch */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
+const VALID_MODES: TuitionBondMode[] = [
+  "full-refund",
+  "notice-partial",
+  "forfeit-package",
+];
+
 function clampMonths(n: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(12, Math.floor(n));
@@ -45,7 +57,9 @@ function clampMonths(n: number): number {
 export function estimateTuitionCentreBond(
   inputs: TuitionCentreBondInputs,
 ): TuitionCentreBondResult {
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "full-refund";
   const bondSgd = money(inputs.bondSgd);
   const unusedPackageSgd = money(inputs.unusedPackageSgd);
   const noticeFeeSgd = money(inputs.noticeFeeSgd);
@@ -61,16 +75,16 @@ export function estimateTuitionCentreBond(
     cashInSgd = money(bondSgd + unusedPackageSgd);
     cashOutSgd = money(noticeFeeSgd + materialsHoldSgd);
   } else if (mode === "notice-partial") {
+    // Notice dues are netted against unused credits — not charged again.
     cashInSgd = money(bondSgd + Math.max(0, unusedPackageSgd - noticeDues));
-    cashOutSgd = money(noticeFeeSgd + materialsHoldSgd + noticeDues);
+    cashOutSgd = money(noticeFeeSgd + materialsHoldSgd);
   } else {
+    // Forfeit: bond + package kept (no cash in); notice dues may still bill.
     cashInSgd = 0;
-    cashOutSgd = money(
-      bondSgd + unusedPackageSgd + noticeFeeSgd + materialsHoldSgd,
-    );
+    cashOutSgd = money(noticeFeeSgd + materialsHoldSgd + noticeDues);
   }
 
-  const netSketchSgd = money(cashInSgd - cashOutSgd);
+  const netSketchSgd = signed(cashInSgd - cashOutSgd);
 
   const labels: Record<TuitionBondMode, string> = {
     "full-refund": "Full bond + unused package hope",
@@ -78,7 +92,7 @@ export function estimateTuitionCentreBond(
     "forfeit-package": "Bond + package forfeit sketch",
   };
 
-  let headline = `${labels[mode]} · net sketch ${netSketchSgd} SGD`;
+  const headline = `${labels[mode]} · net sketch ${netSketchSgd} SGD`;
   let note = TUITION_BOND_NOTE;
   if (mode === "full-refund" && noticeMonths > 0) {
     note =

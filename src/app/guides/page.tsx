@@ -68,13 +68,13 @@ export default async function GuidesIndexPage() {
       <main className="mx-auto w-full max-w-[var(--max-page)] px-5 py-12 sm:px-8 sm:py-16">
         <header className="max-w-2xl">
           <Breadcrumbs items={crumbs} />
-          <p className="mt-6 text-xs font-semibold tracking-[0.16em] text-ink-faint uppercase">
+          <p className="mt-6 text-xs font-bold uppercase tracking-[0.2em] text-tungsten">
             Cornerstone corpus
           </p>
-          <h1 className="font-display mt-3 text-4xl text-ink sm:text-5xl">
+          <h1 className="font-display mt-4 text-5xl font-medium tracking-[-0.025em] text-ink sm:text-6xl">
             Guides
           </h1>
-          <p className="mt-4 text-lg leading-relaxed text-ink-muted">
+          <p className="mt-5 text-lg leading-relaxed text-ink-muted">
             Plain-English, locally precise guides across the seven pillars of
             Singapore expat life. Admin topics cite MOM, ICA, IRAS, and other
             official sources — and show when we last reviewed them.
@@ -82,12 +82,12 @@ export default async function GuidesIndexPage() {
           <p className="mt-3 text-sm text-ink-faint">
             {guides.length} published guides
           </p>
-          <ul className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm font-semibold">
+          <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm font-bold">
             {PILLAR_ORDER.map((pillar) => (
               <li key={pillar}>
                 <Link
                   href={`/${pillar}`}
-                  className="text-canopy no-underline underline-offset-4 hover:underline"
+                  className="rounded-sm py-1.5 text-ink no-underline underline-offset-4 hover:text-tungsten hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
                 >
                   {PILLAR_LABELS[pillar]}
                 </Link>
@@ -103,14 +103,14 @@ export default async function GuidesIndexPage() {
 
             return (
               <section key={pillar} aria-labelledby={`pillar-${pillar}`}>
-                <div className="flex items-baseline justify-between gap-4 border-b border-fog-soft pb-3">
+                <div className="flex items-baseline justify-between gap-4 border-b border-ink pb-3">
                   <h2
                     id={`pillar-${pillar}`}
-                    className="font-display text-3xl text-ink"
+                    className="font-display scroll-mt-28 text-3xl font-medium tracking-tight text-ink"
                   >
                     <Link
                       href={`/${pillar}`}
-                      className="text-ink no-underline transition-colors hover:text-canopy"
+                      className="rounded-sm no-underline transition-colors hover:text-canopy focus-visible:outline-2 focus-visible:outline-tungsten"
                     >
                       {PILLAR_LABELS[pillar]}
                     </Link>
@@ -119,28 +119,28 @@ export default async function GuidesIndexPage() {
                     {items.length} guides ·{" "}
                     <Link
                       href={`/${pillar}`}
-                      className="text-canopy no-underline underline-offset-4 hover:underline"
+                      className="rounded-sm py-1 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
                     >
                       Pillar hub
                     </Link>
                   </span>
                 </div>
-                <ul className="mt-6 divide-y divide-fog-soft/80">
+                <ul className="divide-y divide-ink/15">
                   {items.map((guide) => (
                     <li key={guide.slug} className="py-5">
                       <Link
                         href={`/guides/${guide.slug}`}
-                        className="group grid gap-2 no-underline sm:grid-cols-[1fr_auto] sm:items-start"
+                        className="group grid gap-2 rounded-sm no-underline focus-visible:outline-2 focus-visible:outline-tungsten sm:grid-cols-[1fr_auto] sm:items-start"
                       >
                         <div>
-                          <p className="font-display text-xl text-ink transition-colors group-hover:text-canopy">
+                          <p className="font-display text-xl font-medium text-ink transition-colors group-hover:text-canopy sm:text-2xl">
                             {guide.title}
                           </p>
                           <p className="mt-1 max-w-2xl text-sm leading-relaxed text-ink-muted">
                             {guide.description}
                           </p>
                         </div>
-                        <div className="flex flex-wrap gap-3 text-xs text-ink-faint sm:justify-end">
+                        <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs font-semibold uppercase tracking-[0.08em] text-ink-faint sm:max-w-48 sm:justify-end sm:text-right">
                           <span>{JOURNEY_LABELS[guide.journey]}</span>
                           <span>{guide.readingTimeMinutes} min</span>
                           <time dateTime={guide.lastReviewed}>

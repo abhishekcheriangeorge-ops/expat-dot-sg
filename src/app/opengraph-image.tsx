@@ -16,8 +16,8 @@ export default function OpenGraphImage() {
           justifyContent: "flex-end",
           padding: "64px 72px",
           background:
-            "linear-gradient(135deg, #0f2a1f 0%, #1a3d2e 42%, #1e2830 78%, #0c1210 100%)",
-          color: "#f2eee6",
+            "linear-gradient(135deg, #0e1a14 0%, #1a3d2e 45%, #0e1a14 100%)",
+          color: "#faf8f2",
           fontFamily: "Georgia, 'Times New Roman', serif",
         }}
       >
@@ -25,8 +25,8 @@ export default function OpenGraphImage() {
           style={{
             position: "absolute",
             inset: 0,
-            background:
-              "radial-gradient(ellipse at 75% 20%, rgba(201,146,58,0.28), transparent 45%)",
+              background:
+                "radial-gradient(ellipse at 75% 20%, rgba(200,162,74,0.30), transparent 45%)",
           }}
         />
         <div
@@ -45,11 +45,11 @@ export default function OpenGraphImage() {
               fontSize: 34,
               lineHeight: 1.25,
               maxWidth: 860,
-              color: "#e4dfd6",
+              color: "#e7e1d3",
               fontFamily: "system-ui, sans-serif",
             }}
           >
-            Singapore expat life, from the offer letter to year three.
+            Singapore, decided — not debated.
           </div>
           <div
             style={{
@@ -57,7 +57,7 @@ export default function OpenGraphImage() {
               fontSize: 20,
               letterSpacing: "0.12em",
               textTransform: "uppercase",
-              color: "#e0b56a",
+              color: "#c8a24a",
               fontFamily: "system-ui, sans-serif",
             }}
           >

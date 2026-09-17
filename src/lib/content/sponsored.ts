@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import { compileMDX } from "next-mdx-remote/rsc";
 import type { ReactElement } from "react";
 import { guideMdxComponents } from "@/components/guides/mdx-components";
+import { mdxCompileOptions } from "./mdx";
 import {
   SponsorPlacementSchema,
   SponsoredPostFrontmatterSchema,
@@ -90,7 +91,7 @@ export async function getSponsoredPostBySlug(
     const { content } = await compileMDX({
       source: body,
       components: guideMdxComponents,
-      options: { parseFrontmatter: false },
+      options: mdxCompileOptions,
     });
 
     return { meta, toc, content };

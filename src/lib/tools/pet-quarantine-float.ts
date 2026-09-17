@@ -36,6 +36,12 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets and deltas — negatives carry meaning */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
 function clampDays(n: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(180, Math.floor(n));
@@ -72,17 +78,25 @@ export function estimatePetQuarantineFloat(
     }
   });
 
-  if (quarantineDays >= 14 && mode !== "direct-export") {
+  if (
+    quarantineDays >= 14 &&
+    mode === "delay-hold" &&
+    costs["quarantine-arrival"] <= costs["delay-hold"]
+  ) {
     // Prefer pricing quarantine-arrival honestly when days are material
-    if (costs["quarantine-arrival"] <= costs["delay-hold"]) {
-      recommended = "quarantine-arrival";
-      best = costs["quarantine-arrival"];
-    }
+    recommended = "quarantine-arrival";
+    best = costs["quarantine-arrival"];
   }
 
-  const pathCostSgd = costs[mode];
+  const validMode =
+    mode === "direct-export" ||
+    mode === "quarantine-arrival" ||
+    mode === "delay-hold"
+      ? mode
+      : "direct-export";
+  const pathCostSgd = costs[validMode];
   const altCostSgd = costs[recommended];
-  const savingsVsAltSgd = money(pathCostSgd - altCostSgd);
+  const savingsVsAltSgd = signed(pathCostSgd - altCostSgd);
 
   const labels: Record<PetFloatMode, string> = {
     "direct-export": "Direct export · no arrival quarantine sketched",
@@ -90,15 +104,15 @@ export function estimatePetQuarantineFloat(
     "delay-hold": "Delay / retest hold with doubled buffer",
   };
 
-  let headline = `${labels[mode]} · sketch ${pathCostSgd} SGD`;
+  let headline = `${labels[validMode]} · sketch ${pathCostSgd} SGD`;
   let note = PET_QUARANTINE_NOTE;
-  if (mode !== recommended) {
+  if (validMode !== recommended) {
     headline += ` · cheaper sketch: ${labels[recommended]}`;
   }
-  if (mode === "direct-export" && quarantineDays > 0) {
+  if (validMode === "direct-export" && quarantineDays > 0) {
     note =
       "You entered quarantine days but chose direct-export — confirm the destination actually waives quarantine before you under-float.";
-  } else if (mode === "delay-hold") {
+  } else if (validMode === "delay-hold") {
     note =
       "Delay holds often mean a second titre or missed airline slot. Keep the doubled buffer until the export cert is in hand.";
   } else if (quarantineDays >= 30) {
@@ -107,7 +121,7 @@ export function estimatePetQuarantineFloat(
   }
 
   return {
-    mode,
+    mode: validMode,
     quarantineDays,
     pathCostSgd,
     altCostSgd,

@@ -36,6 +36,11 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
 function clampMonths(n: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(36, Math.floor(n));
@@ -44,7 +49,6 @@ function clampMonths(n: number): number {
 export function estimateFibreBroadbandEtf(
   inputs: FibreBroadbandInputs,
 ): FibreBroadbandResult {
-  const mode = inputs.mode;
   const monthsRemaining = clampMonths(inputs.monthsRemaining);
   const monthlyFeeSgd = money(inputs.monthlyFeeSgd);
   const etfSgd = money(inputs.etfSgd);
@@ -70,15 +74,16 @@ export function estimateFibreBroadbandEtf(
     }
   });
 
-  // Short remnants often favour ETF; long remnants favour serve or transfer
-  if (monthsRemaining <= 2 && costs["pay-etf"] <= costs["serve-notice"] + 40) {
-    recommended = "pay-etf";
-    best = costs["pay-etf"];
-  }
-
-  const pathCostSgd = costs[mode];
+  // Recommend the true minimum — the notes below cover remnant-specific nuance.
+  const validMode =
+    inputs.mode === "serve-notice" ||
+    inputs.mode === "pay-etf" ||
+    inputs.mode === "transfer-takeover"
+      ? inputs.mode
+      : "serve-notice";
+  const pathCostSgd = costs[validMode];
   const altCostSgd = costs[recommended];
-  const savingsVsAltSgd = money(pathCostSgd - altCostSgd);
+  const savingsVsAltSgd = signed(pathCostSgd - altCostSgd);
 
   const labels: Record<FibreEtfMode, string> = {
     "serve-notice": "Serve remaining months",
@@ -86,24 +91,24 @@ export function estimateFibreBroadbandEtf(
     "transfer-takeover": "Transfer / takeover fee path",
   };
 
-  let headline = `${labels[mode]} · sketch ${pathCostSgd} SGD`;
+  let headline = `${labels[validMode]} · sketch ${pathCostSgd} SGD`;
   let note = FIBRE_ETF_NOTE;
-  if (mode !== recommended) {
+  if (validMode !== recommended) {
     headline += ` · cheaper sketch: ${labels[recommended]}`;
   }
-  if (mode === "serve-notice" && monthsRemaining === 0) {
+  if (validMode === "serve-notice" && monthsRemaining === 0) {
     note =
       "Zero months remaining — confirm the ISP’s final bill and ONT return before you cancel the bank GIRO.";
-  } else if (mode === "transfer-takeover" && transferFeeSgd === 0) {
+  } else if (validMode === "transfer-takeover" && transferFeeSgd === 0) {
     note =
       "Transfer paths still need a willing incoming party and ISP approval. A $0 admin fee hope is not a confirmed takeover.";
-  } else if (mode === "pay-etf" && rebateClawbackSgd > etfSgd) {
+  } else if (validMode === "pay-etf" && rebateClawbackSgd > etfSgd) {
     note =
       "Rebate clawbacks can exceed the published ETF line — ask for a full early-exit quote in writing.";
   }
 
   return {
-    mode,
+    mode: validMode,
     monthsRemaining,
     pathCostSgd,
     altCostSgd,

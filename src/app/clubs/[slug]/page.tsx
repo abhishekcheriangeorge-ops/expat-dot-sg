@@ -112,14 +112,14 @@ export default async function ClubDetailPage({ params }: Props) {
         </ProseSection>
       ) : null}
 
-      <section className="border-t border-fog-soft bg-paper-elevated/60">
+      <section className="border-t border-ink/15 bg-paper-elevated/60">
         <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-8 px-5 py-14 sm:px-8">
           <ChipList label="Focus" items={c.focus} />
           {c.website ? <ExternalLink href={c.website} /> : null}
           {c.neighbourhood && neighbourhoodName ? (
             <Link
               href={`/neighbourhoods/${c.neighbourhood}`}
-              className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+              className="text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Nearby neighbourhood: {neighbourhoodName} →
             </Link>
@@ -127,11 +127,11 @@ export default async function ClubDetailPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="border-t border-fog-soft">
+      <section className="border-t border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
           {relatedGuides.length > 0 ? (
             <>
-              <h2 className="font-display text-2xl text-canopy-deep">
+              <h2 className="font-display text-2xl font-medium tracking-tight text-ink">
                 Guides that reference this community
               </h2>
               <ul className="mt-5 flex flex-col gap-3">
@@ -139,7 +139,7 @@ export default async function ClubDetailPage({ params }: Props) {
                   <li key={guide.slug}>
                     <Link
                       href={`/guides/${guide.slug}`}
-                      className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                      className="text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline"
                     >
                       {guide.title} →
                     </Link>
@@ -153,13 +153,13 @@ export default async function ClubDetailPage({ params }: Props) {
           >
             <Link
               href="/guides/find-my-people-singapore"
-              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Finding your people →
             </Link>
             <Link
               href="/belong"
-              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Belong pillar →
             </Link>
@@ -167,23 +167,23 @@ export default async function ClubDetailPage({ params }: Props) {
         </div>
       </section>
 
-      <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
+      <nav className="border-t border-ink/15 px-5 py-8 sm:px-8">
         <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
           <Link
             href="/clubs"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             ← All clubs & communities
           </Link>
           <Link
             href="/belong"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Belong pillar →
           </Link>
           <Link
             href="/life"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Life pillar →
           </Link>

@@ -1,0 +1,523 @@
+import { describe, it } from "node:test";
+import assert from "node:assert/strict";
+
+import { estimateLeaseDuty } from "../src/lib/tools/lease-duty.ts";
+import {
+  estimateEpMinimum,
+} from "../src/lib/tools/ep-threshold.ts";
+import { estimateMonthlyCol } from "../src/lib/tools/col.ts";
+import { estimateTaxResidencyDays } from "../src/lib/tools/tax-residency.ts";
+import { estimateSchoolCcaKitBond } from "../src/lib/tools/school-cca-kit-bond.ts";
+import { estimateSchoolDeviceBond } from "../src/lib/tools/school-device-bond.ts";
+import { estimateSchoolExamIbDeposit } from "../src/lib/tools/school-exam-ib-deposit.ts";
+import { estimateTuitionCentreBond } from "../src/lib/tools/tuition-centre-bond.ts";
+import { estimateClinicDepositExit } from "../src/lib/tools/clinic-deposit-exit.ts";
+import { estimateHelperLevyFinalMonth } from "../src/lib/tools/helper-levy-final-month.ts";
+import { estimateBankStatementArchive } from "../src/lib/tools/bank-statement-archive.ts";
+import { estimateSetupCash } from "../src/lib/tools/setup-cash.ts";
+import { estimateCpfWithdrawal } from "../src/lib/tools/cpf-withdrawal.ts";
+import { estimateIr21Withhold } from "../src/lib/tools/ir21-withhold.ts";
+import { estimateLeaseNotice } from "../src/lib/tools/lease-notice.ts";
+import { estimateForeignLicenceClock } from "../src/lib/tools/foreign-licence-clock.ts";
+import { estimateIpaWindow } from "../src/lib/tools/ipa-window.ts";
+import { estimateSchoolWithdrawalNotice } from "../src/lib/tools/school-withdrawal.ts";
+import { estimateHdbRenoDeposit } from "../src/lib/tools/hdb-reno-deposit.ts";
+import { estimateCarCoeExit } from "../src/lib/tools/car-coe-exit.ts";
+import { estimateClubDepositExit } from "../src/lib/tools/club-deposit-exit.ts";
+import { estimateDrivingInsuranceGap } from "../src/lib/tools/driving-insurance-gap.ts";
+import { estimateFibreBroadbandEtf } from "../src/lib/tools/fibre-broadband-etf.ts";
+import { estimateInsurancePortability } from "../src/lib/tools/insurance-portability-float.ts";
+import { estimatePetQuarantineFloat } from "../src/lib/tools/pet-quarantine-float.ts";
+import { estimatePharmacyLastRefillFloat } from "../src/lib/tools/pharmacy-last-refill-float.ts";
+import { estimateSchoolBusLastWeekFloat } from "../src/lib/tools/school-bus-last-week-float.ts";
+import { estimateSchoolLeaversFee } from "../src/lib/tools/school-leavers-fee.ts";
+import { estimateSchoolDepositClawback } from "../src/lib/tools/school-deposit-clawback.ts";
+import { estimateSimOtpKeep } from "../src/lib/tools/sim-otp-keep.ts";
+import { estimateStorageMonths } from "../src/lib/tools/storage-months.ts";
+import { estimateAgentCommission } from "../src/lib/tools/agent-commission.ts";
+
+describe("lease-duty (IRAS rules)", () => {
+  it("charges 0.4% of total rent for a 24-month lease", () => {
+    const r = estimateLeaseDuty({ monthlyRent: 6800, leaseMonths: 24, otherMonthly: 0 });
+    assert.equal(r.totalConsideration, 163200);
+    assert.equal(r.duty, 652);
+    assert.equal(r.exempt, false);
+  });
+  it("uses 4x AAR for leases over 4 years", () => {
+    const r = estimateLeaseDuty({ monthlyRent: 5000, leaseMonths: 60, otherMonthly: 0 });
+    assert.equal(r.dutyBase, 240000);
+    assert.equal(r.duty, 960);
+    assert.equal(r.longLease, true);
+  });
+  it("exempts AAR at or under S$1,000", () => {
+    const r = estimateLeaseDuty({ monthlyRent: 80, leaseMonths: 12, otherMonthly: 0 });
+    assert.equal(r.duty, 0);
+    assert.equal(r.exempt, true);
+  });
+  it("sanitizes negative inputs", () => {
+    const r = estimateLeaseDuty({ monthlyRent: -500, leaseMonths: -3, otherMonthly: -1 });
+    assert.equal(r.duty, 0);
+  });
+});
+
+describe("ep-threshold (MOM tables)", () => {
+  it("returns the published floors", () => {
+    assert.equal(estimateEpMinimum(23, "general", "current").minimum, 5600);
+    assert.equal(estimateEpMinimum(45, "general", "current").minimum, 10700);
+    assert.equal(estimateEpMinimum(23, "financial", "current").minimum, 6200);
+    assert.equal(estimateEpMinimum(23, "general", "from-2027").minimum, 6000);
+  });
+  it("clamps out-of-range ages", () => {
+    assert.equal(estimateEpMinimum(17, "general", "current").minimum, 5600);
+    assert.equal(estimateEpMinimum(99, "general", "current").minimum, 10700);
+  });
+});
+
+describe("col", () => {
+  it("sums the couple expat-typical band", () => {
+    const r = estimateMonthlyCol({
+      household: "couple",
+      housing: "expat-typical",
+      internationalSchool: false,
+      domesticHelp: false,
+    });
+    assert.equal(r.total, 4500 + 1200 + 280 + 220);
+    assert.equal(r.schooling, 0);
+  });
+  it("adds schooling and helper for families", () => {
+    const r = estimateMonthlyCol({
+      household: "family-two-children",
+      housing: "modest",
+      internationalSchool: true,
+      domesticHelp: true,
+    });
+    assert.equal(r.schooling, 5200);
+    assert.equal(r.domesticHelp, 1200);
+  });
+});
+
+describe("tax-residency day counts", () => {
+  it("counts a full year as clearing 183 days", () => {
+    const r = estimateTaxResidencyDays({
+      calendarYear: 2025,
+      presenceStart: "2025-01-01",
+      presenceEnd: "2025-12-31",
+      creditedAwayDays: 0,
+    });
+    assert.equal(r.daysCounted, 365);
+    assert.equal(r.clears183, true);
+    assert.equal(r.yearOfAssessment, 2026);
+  });
+  it("rejects invalid dates without crashing", () => {
+    const r = estimateTaxResidencyDays({
+      calendarYear: 2025,
+      presenceStart: "not-a-date",
+      presenceEnd: "2025-12-31",
+      creditedAwayDays: 0,
+    });
+    assert.equal(r.daysCounted, 0);
+    assert.equal(r.clears183, false);
+  });
+  it("clamps windows to the calendar year", () => {
+    const r = estimateTaxResidencyDays({
+      calendarYear: 2025,
+      presenceStart: "2024-06-01",
+      presenceEnd: "2026-06-01",
+      creditedAwayDays: 0,
+    });
+    assert.equal(r.daysCounted, 365);
+  });
+});
+
+describe("school bond double-count fixes", () => {
+  it("cca damage-hold deducts damage once", () => {
+    const r = estimateSchoolCcaKitBond({
+      mode: "damage-hold",
+      bondSgd: 500,
+      overdueDays: 0,
+      overduePerDaySgd: 0,
+      damageSgd: 100,
+      adminFeeSgd: 0,
+    });
+    assert.equal(r.cashInSgd, 400);
+    assert.equal(r.cashOutSgd, 0);
+    assert.equal(r.netSketchSgd, 400);
+  });
+  it("cca lost-forfeit keeps bond out of cash-out", () => {
+    const r = estimateSchoolCcaKitBond({
+      mode: "lost-forfeit",
+      bondSgd: 500,
+      overdueDays: 0,
+      overduePerDaySgd: 0,
+      damageSgd: 200,
+      adminFeeSgd: 50,
+    });
+    assert.equal(r.cashInSgd, 0);
+    assert.equal(r.cashOutSgd, 250);
+    assert.equal(r.netSketchSgd, -250);
+  });
+  it("device damage-hold deducts damage once", () => {
+    const r = estimateSchoolDeviceBond({
+      mode: "damage-hold",
+      bondSgd: 500,
+      overdueDays: 0,
+      overduePerDaySgd: 0,
+      damageSgd: 100,
+      adminFeeSgd: 0,
+    });
+    assert.equal(r.cashInSgd, 400);
+    assert.equal(r.cashOutSgd, 0);
+  });
+  it("rejects invalid modes", () => {
+    const r = estimateSchoolDeviceBond({
+      // @ts-expect-error tampered input
+      mode: "bogus",
+      bondSgd: 500,
+      overdueDays: 0,
+      overduePerDaySgd: 0,
+      damageSgd: 0,
+      adminFeeSgd: 0,
+    });
+    assert.equal(r.mode, "full-return");
+  });
+});
+
+describe("exam-ib and tuition nets", () => {
+  it("exam partial-hold invoices penalties above the deposit", () => {
+    const r = estimateSchoolExamIbDeposit({
+      mode: "partial-hold",
+      depositSgd: 1000,
+      sittingFeeSgd: 0,
+      adminFeeSgd: 100,
+      lateCancelSgd: 1200,
+      weeksToRefundClose: 4,
+    });
+    assert.equal(r.cashInSgd, 0);
+    assert.equal(r.cashOutSgd, 300);
+  });
+  it("exam partial-hold deducts the hold from cash-in only", () => {
+    const r = estimateSchoolExamIbDeposit({
+      mode: "partial-hold",
+      depositSgd: 1000,
+      sittingFeeSgd: 0,
+      adminFeeSgd: 100,
+      lateCancelSgd: 200,
+      weeksToRefundClose: 4,
+    });
+    assert.equal(r.cashInSgd, 700);
+    assert.equal(r.cashOutSgd, 0);
+    assert.equal(r.netSketchSgd, 700);
+  });
+  it("exam full-forfeit excludes the deposit from cash-out", () => {
+    const r = estimateSchoolExamIbDeposit({
+      mode: "full-forfeit",
+      depositSgd: 1000,
+      sittingFeeSgd: 200,
+      adminFeeSgd: 50,
+      lateCancelSgd: 100,
+      weeksToRefundClose: 0,
+    });
+    assert.equal(r.cashOutSgd, 350);
+  });
+  it("tuition notice-partial nets dues against unused credits once", () => {
+    const r = estimateTuitionCentreBond({
+      mode: "notice-partial",
+      bondSgd: 1000,
+      unusedPackageSgd: 2000,
+      noticeFeeSgd: 0,
+      materialsHoldSgd: 0,
+      noticeMonths: 2,
+      monthlyPackageSgd: 500,
+    });
+    assert.equal(r.cashInSgd, 2000);
+    assert.equal(r.cashOutSgd, 0);
+  });
+});
+
+describe("signed nets and validation", () => {
+  it("clinic forfeit excludes deposit and reports a negative net", () => {
+    const r = estimateClinicDepositExit({
+      mode: "forfeit-hold",
+      depositSgd: 500,
+      unusedPackageSgd: 200,
+      noShowFeeSgd: 50,
+      recordsFeeSgd: 0,
+      openBalanceSgd: 0,
+    });
+    assert.equal(r.cashOutSgd, 50);
+    assert.equal(r.netSketchSgd, -50);
+  });
+  it("helper-levy net is a signed cash-out", () => {
+    const r = estimateHelperLevyFinalMonth({
+      mode: "keep-through-month",
+      monthlyLevySgd: 60,
+      daysEmployed: 30,
+      daysInMonth: 30,
+      adminFeeSgd: 0,
+      waiverClawbackSgd: 0,
+    });
+    assert.equal(r.cashOutSgd, 60);
+    assert.equal(r.netSketchSgd, -60);
+  });
+  it("bank rush with no gap charges nothing", () => {
+    const r = estimateBankStatementArchive({
+      mode: "rush-courier",
+      monthsNeeded: 5,
+      monthsOnHand: 5,
+      reprintFeeSgd: 10,
+      rushFeeSgd: 25,
+      weeksToClose: 4,
+    });
+    assert.equal(r.monthsGap, 0);
+    assert.equal(r.cashOutSgd, 0);
+  });
+  it("setup-cash sanitizes NaN and whitelists lease years", () => {
+    const bad = estimateSetupCash({
+      monthlyRent: NaN,
+      leaseYears: 5,
+      depositMonths: NaN,
+      agentMonths: NaN,
+      tempHousingWeeks: NaN,
+      tempHousingWeekly: NaN,
+      miscBuffer: NaN,
+    });
+    assert.equal(bad.total, 0);
+    const r = estimateSetupCash({
+      monthlyRent: 5000,
+      leaseYears: 5,
+      depositMonths: 2,
+      agentMonths: 1,
+      tempHousingWeeks: 0,
+      tempHousingWeekly: 0,
+      miscBuffer: 0,
+    });
+    assert.equal(r.total, 5000 + 10000 + 5000 + Math.floor(5000 * 24 * 0.004));
+  });
+  it("cpf falls back to preset on infinite custom windows", () => {
+    const r = estimateCpfWithdrawal({
+      departureDate: "2026-12-01",
+      windowId: "typical",
+      customDays: Infinity,
+    });
+    assert.equal(r.processDays, 30);
+    assert.match(r.applyBy ?? "", /^\d{4}-\d{2}-\d{2}$/);
+  });
+  it("ir21 falls back to preset on infinite custom windows", () => {
+    const r = estimateIr21Withhold({
+      cessationDate: "2026-12-01",
+      windowId: "typical",
+      customDays: Infinity,
+    });
+    assert.equal(r.clearDays, 30);
+    assert.match(r.estimatedRelease ?? "", /^\d{4}-\d{2}-\d{2}$/);
+  });
+  it("lease-notice falls back on NaN months", () => {
+    const r = estimateLeaseNotice({
+      leaseStart: "2025-01-15",
+      leaseMonths: NaN,
+      lockInMonths: NaN,
+      noticeMonths: NaN,
+      targetEnd: "2026-03-15",
+    });
+    assert.match(r.leaseEnd ?? "", /^\d{4}-\d{2}-\d{2}$/);
+  });
+  it("school-bus rounds once at the end", () => {
+    const r = estimateSchoolBusLastWeekFloat({
+      mode: "ride-through",
+      weeklyFeeSgd: 99,
+      rideDaysLeft: 3,
+      noticeDaysShort: 0,
+      cancelFeeSgd: 0,
+      siblingFeeSgd: 0,
+    });
+    assert.equal(r.rideCostSgd, 59);
+  });
+  it("school-bus caps ride days at a week", () => {
+    const r = estimateSchoolBusLastWeekFloat({
+      mode: "ride-through",
+      weeklyFeeSgd: 100,
+      rideDaysLeft: 30,
+      noticeDaysShort: 0,
+      cancelFeeSgd: 0,
+      siblingFeeSgd: 0,
+    });
+    assert.equal(r.rideDaysLeft, 7);
+  });
+  it("school-withdrawal rejects NaN weeks", () => {
+    const r = estimateSchoolWithdrawalNotice({
+      noticeWeeks: NaN,
+      lastAttendance: "2026-11-01",
+    });
+    assert.equal(r.lastAttendance, null);
+  });
+  it("hdb-reno treats explicit 0 defect as zero, missing as 25%", () => {
+    const zero = estimateHdbRenoDeposit({
+      depositSgd: 500,
+      holdDays: 30,
+      defectCostSgd: 0,
+      inspectionDate: "2026-10-01",
+      outcome: "minor-defects",
+    });
+    assert.equal(zero.atRiskSgd, 0);
+    const missing = estimateHdbRenoDeposit({
+      depositSgd: 500,
+      holdDays: 30,
+      // @ts-expect-error missing input
+      defectCostSgd: undefined,
+      inspectionDate: "2026-10-01",
+      outcome: "minor-defects",
+    });
+    assert.equal(missing.atRiskSgd, 125);
+  });
+  it("car-coe export adds no phantom buffer on zero fees", () => {
+    const r = estimateCarCoeExit({
+      mode: "export-scrap",
+      saleProceedsSgd: 0,
+      rebateSketchSgd: 20000,
+      loanBalanceSgd: 0,
+      exitFeesSgd: 0,
+      prepaidMonths: 0,
+      prepaidMonthlySgd: 0,
+    });
+    assert.equal(r.cashOutSgd, 0);
+  });
+  it("driving-insurance allows a zero-day gap and recommends the min", () => {
+    const r = estimateDrivingInsuranceGap({
+      mode: "daily-float",
+      gapDays: 0,
+      dailyFloatSgd: 60,
+      extendCostSgd: 120,
+      grabBudgetSgd: 200,
+      addonSgd: 0,
+    });
+    assert.equal(r.gapDays, 0);
+    assert.equal(r.altCostSgd, 0);
+  });
+  it("sim rejects invalid strategies", () => {
+    const r = estimateSimOtpKeep({
+      monthsNeeded: 6,
+      prepaidMonthlySgd: 15,
+      postpaidMonthlySgd: 30,
+      portOneTimeSgd: 40,
+      replaceOneTimeSgd: 20,
+      // @ts-expect-error tampered input
+      strategy: "bogus",
+    });
+    assert.equal(r.strategy, "keep-prepaid");
+  });
+  it("storage and commission neutralize Infinity", () => {
+    const s = estimateStorageMonths({
+      bandId: "locker",
+      months: Infinity,
+      addOnMonthly: 0,
+      accessFee: 0,
+    });
+    assert.equal(s.total, 0);
+    const a = estimateAgentCommission({
+      monthlyRent: Infinity,
+      feeMonths: 1,
+      side: "tenant",
+      includeGst: false,
+    });
+    assert.equal(a.total, 0);
+  });
+  it("clawback falls back to notice-protected on bad mode", () => {
+    const r = estimateSchoolDepositClawback({
+      // @ts-expect-error tampered input
+      mode: "bogus",
+      depositSgd: 1000,
+      remainingTuitionSgd: 5000,
+      forfeitFraction: 0.5,
+      termRemainingFraction: 0.5,
+    });
+    assert.equal(r.mode, "notice-protected");
+  });
+  it("pharmacy travel-fill with no gap bills only the family add-on", () => {
+    const r = estimatePharmacyLastRefillFloat({
+      mode: "travel-fill",
+      daysCoverNeeded: 10,
+      daysOnHand: 10,
+      refillFeeSgd: 50,
+      privatePremiumSgd: 40,
+      familyAddOnSgd: 30,
+    });
+    assert.equal(r.cashOutSgd, 30);
+  });
+  it("foreign-licence handles missing start without crashing", () => {
+    const r = estimateForeignLicenceClock({
+      // @ts-expect-error missing input
+      startDate: undefined,
+      windowId: "arrive-12",
+    });
+    assert.equal(r.startDate, null);
+  });
+  it("fibre recommends the true minimum", () => {
+    const r = estimateFibreBroadbandEtf({
+      mode: "serve-notice",
+      monthsRemaining: 1,
+      monthlyFeeSgd: 50,
+      etfSgd: 100,
+      transferFeeSgd: 20,
+      rebateClawbackSgd: 0,
+    });
+    assert.equal(r.recommended, "transfer-takeover");
+    assert.equal(r.altCostSgd, 20);
+  });
+  it("leavers uses the true floor for the delta", () => {
+    const r = estimateSchoolLeaversFee({
+      mode: "core-only",
+      coreFeeSgd: 500,
+      yearbookSgd: 200,
+      optionalSgd: 0,
+      departingChildren: 1,
+      siblingDiscountFraction: 0,
+    });
+    assert.equal(r.altCostSgd, 500);
+    assert.equal(r.savingsVsAltSgd, 0);
+  });
+  it("pet keeps direct-export recommended when quarantine is waived", () => {
+    const r = estimatePetQuarantineFloat({
+      mode: "direct-export",
+      vetDocsSgd: 500,
+      travelSgd: 2000,
+      quarantineDays: 20,
+      quarantineDailySgd: 100,
+      bufferSgd: 300,
+    });
+    assert.equal(r.recommended, "direct-export");
+  });
+  it("ipa measures days-until-deadline from today", () => {
+    const r = estimateIpaWindow({
+      ipaDate: "2026-01-01",
+      entryDate: "2026-02-01",
+      issueDate: "2026-02-02",
+    });
+    assert.equal(r.deadline, "2026-07-01");
+    assert.equal(typeof r.daysUntilDeadline, "number");
+  });
+  it("insurance recommends the true minimum", () => {
+    const r = estimateInsurancePortability({
+      mode: "extend-sg",
+      gapDays: 70,
+      extendCostSgd: 300,
+      bridgeCostSgd: 200,
+      cancelFeeSgd: 50,
+      destinationStartSgd: 100,
+    });
+    assert.equal(r.recommended, "cancel-and-start");
+    assert.equal(r.altCostSgd, 150);
+  });
+  it("club validates modes and drops forfeited deposits from spend", () => {
+    const r = estimateClubDepositExit({
+      // @ts-expect-error tampered input
+      mode: "bogus",
+      depositSgd: 1000,
+      monthlyDuesSgd: 200,
+      noticeMonths: 2,
+      adminFeeSgd: 50,
+      prepaidMonthsBurn: 0,
+    });
+    assert.equal(r.mode, "full-refund");
+    assert.equal(r.cashInSgd, 1000);
+  });
+});

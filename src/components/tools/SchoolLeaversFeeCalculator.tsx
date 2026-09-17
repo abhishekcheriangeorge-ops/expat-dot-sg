@@ -59,8 +59,8 @@ export function SchoolLeaversFeeCalculator() {
                 onClick={() => setMode(m.id)}
                 className={
                   mode === m.id
-                    ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper"
-                    : "border border-ink/15 px-4 py-2 text-sm font-medium text-ink hover:border-ink/35"
+                    ? "bg-ink px-4 py-2.5 text-sm font-semibold text-paper rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+                    : "border border-ink/20 px-4 py-2.5 text-sm font-medium text-ink rounded-sm hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 }
               >
                 {m.label}
@@ -174,7 +174,7 @@ export function SchoolLeaversFeeCalculator() {
         </div>
       </fieldset>
 
-      <aside className="border border-fog-soft bg-paper-elevated p-6">
+      <aside className="rounded-sm border border-ink/15 bg-paper-elevated p-6">
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
           Sketch
         </p>

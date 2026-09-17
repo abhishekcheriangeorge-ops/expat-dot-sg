@@ -43,7 +43,12 @@ function clampMonths(n: number): number {
 export function estimateClubDepositExit(
   inputs: ClubDepositInputs,
 ): ClubDepositResult {
-  const mode = inputs.mode;
+  const mode =
+    inputs.mode === "full-refund" ||
+    inputs.mode === "partial-refund" ||
+    inputs.mode === "forfeit-dues"
+      ? inputs.mode
+      : "full-refund";
   const depositSgd = money(inputs.depositSgd);
   const monthlyDuesSgd = money(inputs.monthlyDuesSgd);
   const noticeMonths = clampMonths(inputs.noticeMonths);
@@ -54,7 +59,7 @@ export function estimateClubDepositExit(
   const prepaidBurn = money(monthlyDuesSgd * prepaidMonthsBurn);
 
   let cashIn = 0;
-  let cashOut = money(adminFeeSgd + duesThroughNotice + prepaidBurn);
+  const cashOut = money(adminFeeSgd + duesThroughNotice + prepaidBurn);
   let headline = "";
   let note = CLUB_DEPOSIT_NOTE;
 
@@ -69,8 +74,8 @@ export function estimateClubDepositExit(
     note =
       "Many clubs keep a slice of entrance fees. Confirm the resignation schedule in the constitution before you rely on a 50% hope.";
   } else {
+    // Forfeit: deposit kept (no cash in); notice dues + admin still bill.
     cashIn = 0;
-    cashOut = money(cashOut + depositSgd);
     headline =
       "Forfeit sketch — treat deposit as lost and still clear notice dues";
     note =

@@ -32,7 +32,7 @@ export function Breadcrumbs({ items, className }: BreadcrumbsProps) {
               ) : (
                 <Link
                   href={item.path}
-                  className="text-ink-faint no-underline underline-offset-4 hover:text-canopy hover:underline"
+                  className="rounded-sm py-1 text-ink-muted no-underline underline-offset-4 hover:text-ink hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
                 >
                   {item.name}
                 </Link>

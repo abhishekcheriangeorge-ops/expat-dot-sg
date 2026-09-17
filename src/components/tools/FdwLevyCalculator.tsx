@@ -43,8 +43,8 @@ export function FdwLevyCalculator() {
                 onClick={() => setBandId(b.id)}
                 className={
                   bandId === b.id
-                    ? "bg-canopy px-4 py-3 text-left text-sm font-semibold text-paper"
-                    : "border border-ink/15 px-4 py-3 text-left text-sm font-medium text-ink hover:border-ink/35"
+                    ? "bg-ink px-4 py-3 text-left text-sm font-semibold text-paper rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+                    : "border border-ink/20 px-4 py-3 text-left text-sm font-medium text-ink rounded-sm hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 }
               >
                 {b.label}
@@ -82,7 +82,7 @@ export function FdwLevyCalculator() {
                 className={
                   months === m
                     ? "border border-canopy bg-canopy px-3 py-1.5 text-xs font-medium text-paper"
-                    : "border border-ink/15 px-3 py-1.5 text-xs font-medium text-ink-muted hover:border-ink/30"
+                    : "border border-ink/20 px-4 py-2.5 text-[13px] font-medium text-ink-muted rounded-sm hover:border-ink/50 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 }
               >
                 {m} mo
@@ -114,7 +114,7 @@ export function FdwLevyCalculator() {
         </div>
       </fieldset>
 
-      <aside className="border border-fog-soft bg-paper-elevated p-6">
+      <aside className="rounded-sm border border-ink/15 bg-paper-elevated p-6">
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
           Sketch · total levy
         </p>

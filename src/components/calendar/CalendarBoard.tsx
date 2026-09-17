@@ -47,8 +47,8 @@ export function CalendarBoard({ events }: CalendarBoardProps) {
     <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
       <div
         className="flex flex-wrap gap-2"
-        role="tablist"
-        aria-label="Calendar audience"
+        role="group"
+        aria-label="Filter events by audience"
       >
         {filters.map((f) => {
           const active = filter === f.id;
@@ -56,13 +56,12 @@ export function CalendarBoard({ events }: CalendarBoardProps) {
             <button
               key={f.id}
               type="button"
-              role="tab"
-              aria-selected={active}
+              aria-pressed={active}
               onClick={() => setFilter(f.id)}
               className={
                 active
-                  ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper"
-                  : "border border-ink/15 px-4 py-2 text-sm font-medium text-ink transition-colors hover:border-ink/35"
+                  ? "rounded-sm bg-ink px-4 py-2.5 text-sm font-semibold text-paper focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+                  : "rounded-sm border border-ink/15 px-4 py-2.5 text-sm font-medium text-ink transition-colors hover:border-ink/40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
               }
             >
               {f.label}
@@ -71,14 +70,14 @@ export function CalendarBoard({ events }: CalendarBoardProps) {
         })}
       </div>
 
-      <ul className="mt-10 flex flex-col">
+      <ul className="mt-10 flex flex-col border-t border-ink">
         {visible.map((event) => (
           <li
             key={event.slug}
-            className="grid gap-2 border-b border-fog-soft py-6 sm:grid-cols-[10rem_1fr] sm:gap-8"
+            className="grid gap-2 border-b border-ink/15 py-6 sm:grid-cols-[10rem_1fr] sm:gap-8"
           >
             <div>
-              <p className="text-sm font-medium text-canopy">
+              <p className="text-[13px] font-bold uppercase tracking-[0.12em] text-tungsten">
                 {formatDateRange(event)}
               </p>
               {event.recurring ? (
@@ -88,10 +87,10 @@ export function CalendarBoard({ events }: CalendarBoardProps) {
               ) : null}
             </div>
             <div>
-              <h2 className="font-display text-xl text-ink sm:text-2xl">
+              <h2 className="font-display text-xl font-medium tracking-tight text-ink sm:text-2xl">
                 {event.title}
                 {event.featured ? (
-                  <span className="ml-2 align-middle text-xs font-sans font-semibold uppercase tracking-wide text-tungsten">
+                  <span className="ml-2 align-middle font-sans text-xs font-bold uppercase tracking-wide text-tungsten">
                     Featured
                   </span>
                 ) : null}
@@ -100,18 +99,23 @@ export function CalendarBoard({ events }: CalendarBoardProps) {
                 {event.summary}
               </p>
               <p className="mt-3 text-xs text-ink-faint">
-                {[event.venue, event.audience.join(" · ")]
-                  .filter(Boolean)
-                  .join(" · ")}
+                <span>{event.venue}</span>
+                {event.audience.length > 0 ? (
+                  <>
+                    <span aria-hidden="true"> · </span>
+                    <span>{event.audience.join(", ")}</span>
+                  </>
+                ) : null}
               </p>
               {event.href ? (
                 <a
                   href={event.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                  className="mt-3 inline-block rounded-sm py-1.5 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
                 >
-                  Event site →
+                  Event site <span aria-hidden="true">→</span>
+                  <span className="sr-only"> (opens in a new tab)</span>
                 </a>
               ) : null}
             </div>

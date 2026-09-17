@@ -120,7 +120,7 @@ Confirm exact values in **Project → Settings → Domains** after adding the do
 
 ## Design system note
 
-Humidity Editorial tokens live in CSS variables — canopy green, night ink, warm paper, tungsten amber, fog grey. Typography: **Fraunces** (display serif) + **Manrope** (refined grotesque). Do not introduce Inter / Roboto / system UI stacks.
+Straits Standard tokens live in CSS variables — jungle ink, ivory paper, brass accents, fog grey. Typography: **Newsreader** (display serif) + **Inter** (grotesque). Do not introduce Roboto / system UI stacks for display.
 
 ## Trust & SEO (Phase 6)
 

@@ -43,16 +43,24 @@ export function EpThresholdCalculator() {
               max={55}
               value={age}
               onChange={(e) => setAge(Number(e.target.value))}
-              className="w-full accent-[var(--canopy)]"
+              aria-describedby="ep-age-value"
+              className="h-11 w-full accent-canopy"
             />
-            <span className="w-10 text-right font-medium tabular-nums text-ink">
+            <span
+              id="ep-age-value"
+              role="status"
+              className="w-10 text-right font-medium tabular-nums text-ink"
+            >
               {age}
             </span>
           </div>
         </div>
 
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+        <div role="group" aria-label="MOM table">
+          <p
+            aria-hidden="true"
+            className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint"
+          >
             MOM table
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -65,11 +73,12 @@ export function EpThresholdCalculator() {
               <button
                 key={id}
                 type="button"
+                aria-pressed={regime === id}
                 onClick={() => setRegime(id)}
                 className={
                   regime === id
-                    ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper"
-                    : "border border-ink/15 px-4 py-2 text-sm font-medium text-ink hover:border-ink/35"
+                    ? "bg-ink px-4 py-2.5 text-sm font-semibold text-paper rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+                    : "border border-ink/20 px-4 py-2.5 text-sm font-medium text-ink rounded-sm hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 }
               >
                 {label}
@@ -78,8 +87,11 @@ export function EpThresholdCalculator() {
           </div>
         </div>
 
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+        <div role="group" aria-label="Sector">
+          <p
+            aria-hidden="true"
+            className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint"
+          >
             Sector
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -92,11 +104,12 @@ export function EpThresholdCalculator() {
               <button
                 key={id}
                 type="button"
+                aria-pressed={sector === id}
                 onClick={() => setSector(id)}
                 className={
                   sector === id
-                    ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper"
-                    : "border border-ink/15 px-4 py-2 text-sm font-medium text-ink hover:border-ink/35"
+                    ? "bg-ink px-4 py-2.5 text-sm font-semibold text-paper rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+                    : "border border-ink/20 px-4 py-2.5 text-sm font-medium text-ink rounded-sm hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 }
               >
                 {label}
@@ -119,36 +132,42 @@ export function EpThresholdCalculator() {
             step={100}
             value={offered}
             onChange={(e) => setOffered(Number(e.target.value) || 0)}
-            className="mt-3 w-full max-w-xs border border-ink/15 bg-paper-elevated px-4 py-3 text-ink outline-none focus:border-canopy"
+            className="mt-3 w-full max-w-xs rounded-sm border border-ink/20 bg-paper-elevated px-4 py-3 text-ink focus:border-tungsten focus:outline-2 focus:outline-tungsten"
           />
         </div>
       </fieldset>
 
-      <aside className="border border-fog-soft bg-paper-elevated p-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+      <aside
+        className="h-fit rounded-sm border border-ink/15 bg-canopy-deep p-6 text-paper"
+        aria-live="polite"
+      >
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten-soft">
           Illustrated minimum
         </p>
-        <p className="mt-3 font-display text-4xl text-canopy-deep">
+        <p className="mt-3 font-display text-4xl font-medium tabular-nums">
           {formatSgdWhole(result.minimum)}
         </p>
-        <p className="mt-3 text-sm text-ink-muted">{result.note}</p>
+        <p className="mt-3 text-sm leading-relaxed text-[#cfc8b4]">
+          {result.note}
+        </p>
         <p
-          className={`mt-6 text-sm font-medium ${clears ? "text-canopy" : "text-sponsored"}`}
+          className={`mt-6 border-t border-tungsten-soft/20 pt-4 text-sm font-semibold ${clears ? "text-paper" : "text-tungsten-soft"}`}
         >
           {clears
             ? `Offer clears this illustration by ${formatSgdWhole(gap)}.`
             : `Offer is ${formatSgdWhole(Math.abs(gap))} below this illustration.`}
         </p>
-        <p className="mt-6 text-xs leading-relaxed text-ink-faint">
+        <p className="mt-6 text-xs leading-relaxed text-[#8f8875]">
           Last reviewed {EP_LAST_REVIEWED}. COMPASS points, nationality
           diversity, and role benchmarks also matter —{" "}
           <a
             href={EP_MOM_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-canopy underline-offset-2 hover:underline"
+            className="rounded-sm text-tungsten-soft underline underline-offset-2 hover:text-paper focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             check MOM
+            <span className="sr-only"> (opens in a new tab)</span>
           </a>
           .
         </p>

@@ -62,7 +62,7 @@ export default async function DirectoryPage() {
         crumbs={crumbs}
       />
 
-      <section className="border-b border-fog-soft">
+      <section className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 py-10 sm:px-8">
           <h2 className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
             Browse by category
@@ -84,28 +84,28 @@ export default async function DirectoryPage() {
             Need the decision first? Start in{" "}
             <Link
               href="/move"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Move
             </Link>
             ,{" "}
             <Link
               href="/home"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Home
             </Link>
             ,{" "}
             <Link
               href="/family"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Family
             </Link>
             , or{" "}
             <Link
               href="/guides"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Guides
             </Link>

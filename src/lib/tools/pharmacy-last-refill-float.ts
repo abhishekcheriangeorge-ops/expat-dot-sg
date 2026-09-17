@@ -38,6 +38,12 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets and deltas — negatives carry meaning */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
 function clampDays(n: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(180, Math.floor(n));
@@ -46,7 +52,12 @@ function clampDays(n: number): number {
 export function estimatePharmacyLastRefillFloat(
   inputs: PharmacyLastRefillFloatInputs,
 ): PharmacyLastRefillFloatResult {
-  const mode = inputs.mode;
+  const mode =
+    inputs.mode === "polyclinic-refill" ||
+    inputs.mode === "private-topup" ||
+    inputs.mode === "travel-fill"
+      ? inputs.mode
+      : "polyclinic-refill";
   const daysCoverNeeded = clampDays(inputs.daysCoverNeeded);
   const daysOnHand = clampDays(inputs.daysOnHand);
   const refillFeeSgd = money(inputs.refillFeeSgd);
@@ -66,11 +77,13 @@ export function estimatePharmacyLastRefillFloat(
         familyAddOnSgd,
     );
   } else {
-    // travel-fill — often one extended script fee plus premium
-    cashOutSgd = money(refillFeeSgd + privatePremiumSgd + familyAddOnSgd);
+    // travel-fill — one extended script fee plus premium, only when needed
+    cashOutSgd = money(
+      (daysGap > 0 ? refillFeeSgd + privatePremiumSgd : 0) + familyAddOnSgd,
+    );
   }
 
-  const netSketchSgd = money(0 - cashOutSgd);
+  const netSketchSgd = signed(0 - cashOutSgd);
 
   const labels: Record<PharmacyLastRefillMode, string> = {
     "polyclinic-refill": "Polyclinic / subsidised refill",

@@ -56,7 +56,12 @@ export function estimateSchoolDepositClawback(
   const remainingTuitionSgd = money(inputs.remainingTuitionSgd);
   const forfeitFraction = clamp01(inputs.forfeitFraction);
   const termRemainingFraction = clamp01(inputs.termRemainingFraction);
-  const mode = inputs.mode;
+  const mode =
+    inputs.mode === "full-forfeit" ||
+    inputs.mode === "pro-rata-term" ||
+    inputs.mode === "notice-protected"
+      ? inputs.mode
+      : "notice-protected";
 
   let depositAtRisk = 0;
   let tuitionAtRisk = 0;

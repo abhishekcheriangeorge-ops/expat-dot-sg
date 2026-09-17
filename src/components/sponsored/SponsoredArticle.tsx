@@ -34,10 +34,10 @@ export function SponsoredArticle({
       </div>
 
       <header className="mt-10 max-w-3xl">
-        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-sponsored">
           Sponsored by {meta.partnerName}
         </p>
-        <h1 className="font-display mt-3 text-4xl leading-[1.1] text-ink sm:text-5xl">
+        <h1 className="font-display mt-4 text-4xl font-medium leading-[1.08] tracking-[-0.025em] text-ink sm:text-5xl">
           {meta.title}
         </h1>
         <p className="mt-5 max-w-[40rem] text-lg leading-relaxed text-ink-muted">
@@ -50,13 +50,15 @@ export function SponsoredArticle({
 
       <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_14rem] lg:gap-16">
         <div className="min-w-0">
-          <div className="max-w-[var(--max-prose)] prose-sponsored">{children}</div>
+          <div className="max-w-[var(--max-page)] prose-sponsored [&>:not([data-table-wrap])]:max-w-[var(--max-prose)]">
+            {children}
+          </div>
 
           {meta.ctaHref && meta.ctaLabel ? (
             <p className="mt-12">
               <a
                 href={meta.ctaHref}
-                className="inline-flex items-center bg-sponsored px-5 py-3 text-sm font-semibold text-paper no-underline transition-opacity hover:opacity-90"
+                className="inline-flex min-h-[48px] items-center rounded-sm bg-sponsored px-7 py-3.5 text-sm font-bold uppercase tracking-[0.06em] text-paper no-underline transition-colors hover:bg-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 rel="noopener noreferrer"
                 target={meta.ctaHref.startsWith("http") ? "_blank" : undefined}
               >

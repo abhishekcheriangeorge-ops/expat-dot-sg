@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { LeaseNoticeCalculator } from "@/components/tools";
+import { LeaseNoticeCalculator, ToolAbout } from "@/components/tools";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -22,7 +22,7 @@ export default function LeaseNoticeToolPage() {
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
-      <div className="border-b border-fog-soft">
+      <div className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
@@ -34,28 +34,42 @@ export default function LeaseNoticeToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <LeaseNoticeCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
+        <ToolAbout
+          how={[
+      "Builds lease end, earliest serve date, and earliest exit from start date plus lock-in and notice months.",
+      "Tests whether serving notice still lands your target hand-back date.",
+      "Counts whole calendar months with day-of-month clamping.",
+    ]}
+          actions={[
+      "Read your tenancy agreement for trigger proof, usually a pass cancellation or relocation letter.",
+      "If lock-in does not clear, price remaining-rent risk in the early-exit guide.",
+    ]}
+          sourceLabel="your tenancy agreement"
+          reviewed="2026-09-15"
+        />
+
+        <p className="mt-10 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
           <Link
             href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             ← All tools
           </Link>
           <Link
             href="/tools/lease-duty"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Lease stamp duty →
           </Link>
           <Link
             href="/journeys/leaving"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Leaving playbook →
           </Link>
           <Link
             href="/home"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Home pillar →
           </Link>

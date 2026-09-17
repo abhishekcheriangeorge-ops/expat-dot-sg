@@ -40,31 +40,44 @@ export default async function SponsoredIndexPage() {
         ]}
       />
       <Breadcrumbs items={crumbs} className="mb-8 text-sm text-ink-faint" />
-      <p className="text-xs font-semibold uppercase tracking-[0.16em] text-sponsored">
+      <p className="text-xs font-bold uppercase tracking-[0.2em] text-sponsored">
         #sponsored
       </p>
-      <h1 className="mt-3 font-display text-4xl text-canopy-deep sm:text-5xl">
+      <h1 className="mt-4 font-display text-4xl font-medium tracking-[-0.025em] text-ink sm:text-5xl">
         Sponsored posts
       </h1>
-      <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink-muted">
+      <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
         Paid advertorials live here — separate template, explicit disclosure.
         Editorial guides never silently promote a partner.
       </p>
 
-      <ul className="mt-12 divide-y divide-fog-soft border-y border-fog-soft">
-        {posts.map((post) => (
+      <ul className="mt-12 divide-y divide-ink/15 border-y border-ink">
+        {posts.map((post, i) => (
           <li key={post.slug}>
             <Link
               href={`/sponsored/${post.slug}`}
-              className="block py-6 no-underline transition-colors hover:bg-paper-elevated/80"
+              className="group grid grid-cols-[2.5rem_1fr_auto] items-baseline gap-4 rounded-sm py-6 no-underline transition-colors focus-visible:outline-2 focus-visible:outline-tungsten"
             >
-              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-sponsored">
-                Sponsored · {post.partnerName}
-              </p>
-              <p className="mt-2 font-display text-2xl text-ink">{post.title}</p>
-              <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-muted">
-                {post.description}
-              </p>
+              <span
+                aria-hidden="true"
+                className="font-display text-[15px] text-sponsored"
+              >
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span>
+                <span className="block text-xs font-bold uppercase tracking-[0.18em] text-sponsored">
+                  Sponsored · {post.partnerName}
+                </span>
+                <span className="mt-2 block font-display text-2xl font-medium text-ink transition-colors group-hover:text-canopy">
+                  {post.title}
+                </span>
+                <span className="mt-2 block max-w-2xl text-sm leading-relaxed text-ink-muted">
+                  {post.description}
+                </span>
+              </span>
+              <span className="hidden text-xs font-bold uppercase tracking-[0.1em] text-ink-faint transition-colors group-hover:text-tungsten sm:inline">
+                Open <span aria-hidden="true">→</span>
+              </span>
             </Link>
           </li>
         ))}

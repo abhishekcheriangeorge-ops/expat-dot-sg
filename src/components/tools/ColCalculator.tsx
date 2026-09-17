@@ -47,8 +47,11 @@ export function ColCalculator() {
       <fieldset className="space-y-8">
         <legend className="sr-only">Cost of living inputs</legend>
 
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+        <div role="group" aria-label="Household">
+          <p
+            aria-hidden="true"
+            className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint"
+          >
             Household
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -56,11 +59,12 @@ export function ColCalculator() {
               <button
                 key={h.id}
                 type="button"
+                aria-pressed={household === h.id}
                 onClick={() => setHousehold(h.id)}
                 className={
                   household === h.id
-                    ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper"
-                    : "border border-ink/15 px-4 py-2 text-sm font-medium text-ink hover:border-ink/35"
+                    ? "bg-ink px-4 py-2.5 text-sm font-semibold text-paper rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+                    : "border border-ink/20 px-4 py-2.5 text-sm font-medium text-ink rounded-sm hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 }
               >
                 {h.label}
@@ -69,8 +73,11 @@ export function ColCalculator() {
           </div>
         </div>
 
-        <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+        <div role="group" aria-label="Housing band">
+          <p
+            aria-hidden="true"
+            className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint"
+          >
             Housing band
           </p>
           <div className="mt-3 flex flex-wrap gap-2">
@@ -78,11 +85,12 @@ export function ColCalculator() {
               <button
                 key={h.id}
                 type="button"
+                aria-pressed={housingStyle === h.id}
                 onClick={() => setHousingStyle(h.id)}
                 className={
                   housingStyle === h.id
-                    ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper"
-                    : "border border-ink/15 px-4 py-2 text-sm font-medium text-ink hover:border-ink/35"
+                    ? "bg-ink px-4 py-2.5 text-sm font-semibold text-paper rounded-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
+                    : "border border-ink/20 px-4 py-2.5 text-sm font-medium text-ink rounded-sm hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
                 }
               >
                 {h.label}
@@ -91,68 +99,79 @@ export function ColCalculator() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-2">
           {isFamily ? (
-            <label className="flex items-center gap-3 text-sm text-ink">
+            <label className="flex min-h-[44px] cursor-pointer items-center gap-3 text-sm text-ink">
               <input
                 type="checkbox"
                 checked={internationalSchool}
                 onChange={(e) => setInternationalSchool(e.target.checked)}
-                className="size-4 accent-[var(--canopy)]"
+                className="size-5 shrink-0 cursor-pointer accent-canopy"
               />
               International school fees (rough monthly)
             </label>
           ) : null}
-          <label className="flex items-center gap-3 text-sm text-ink">
+          <label className="flex min-h-[44px] cursor-pointer items-center gap-3 text-sm text-ink">
             <input
               type="checkbox"
               checked={domesticHelp}
               onChange={(e) => setDomesticHelp(e.target.checked)}
-              className="size-4 accent-[var(--canopy)]"
+              className="size-5 shrink-0 cursor-pointer accent-canopy"
             />
             Domestic helper (levy + salary ballpark)
           </label>
         </div>
       </fieldset>
 
-      <aside className="border border-fog-soft bg-paper-elevated p-6">
-        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
+      <aside
+        className="h-fit rounded-sm border border-ink/15 bg-canopy-deep p-6 text-paper"
+        aria-live="polite"
+      >
+        <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten-soft">
           Est. monthly
         </p>
-        <p className="mt-3 font-display text-4xl text-canopy-deep">
+        <p className="mt-3 font-display text-4xl font-medium tabular-nums">
           {formatSgd(breakdown.total)}
         </p>
-        <ul className="mt-6 space-y-2 text-sm text-ink-muted">
+        <ul className="mt-6 space-y-2 border-t border-tungsten-soft/20 pt-4 text-sm text-[#cfc8b4]">
           <li className="flex justify-between gap-4">
             <span>Rent</span>
-            <span>{formatSgd(breakdown.rent)}</span>
+            <span className="tabular-nums">{formatSgd(breakdown.rent)}</span>
           </li>
           <li className="flex justify-between gap-4">
             <span>Food</span>
-            <span>{formatSgd(breakdown.food)}</span>
+            <span className="tabular-nums">{formatSgd(breakdown.food)}</span>
           </li>
           <li className="flex justify-between gap-4">
             <span>Transport</span>
-            <span>{formatSgd(breakdown.transport)}</span>
+            <span className="tabular-nums">
+              {formatSgd(breakdown.transport)}
+            </span>
           </li>
           <li className="flex justify-between gap-4">
             <span>Utilities</span>
-            <span>{formatSgd(breakdown.utilities)}</span>
+            <span className="tabular-nums">
+              {formatSgd(breakdown.utilities)}
+            </span>
           </li>
           {breakdown.schooling > 0 ? (
             <li className="flex justify-between gap-4">
               <span>Schooling</span>
-              <span>{formatSgd(breakdown.schooling)}</span>
+              <span className="tabular-nums">
+                {formatSgd(breakdown.schooling)}
+              </span>
             </li>
           ) : null}
           {breakdown.domesticHelp > 0 ? (
             <li className="flex justify-between gap-4">
               <span>Helper</span>
-              <span>{formatSgd(breakdown.domesticHelp)}</span>
+              <span className="tabular-nums">
+                {formatSgd(breakdown.domesticHelp)}
+              </span>
             </li>
           ) : null}
         </ul>
-        <p className="mt-6 text-xs leading-relaxed text-ink-faint">
+        <p className="mt-6 text-xs leading-relaxed text-[#8f8875]">
           Illustrative midpoints only — neighbourhood, lease vintage, and school
           tier move these numbers a lot.
         </p>

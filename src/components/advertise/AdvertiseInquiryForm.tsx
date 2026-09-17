@@ -19,6 +19,9 @@ const BUDGET_OPTIONS = [
   "Prefer not to say",
 ];
 
+const inputClass =
+  "mt-1.5 min-h-[48px] w-full rounded-sm border border-ink/20 bg-paper-elevated px-4 py-3 text-ink placeholder:text-ink-faint focus:border-tungsten focus:outline-2 focus:outline-tungsten";
+
 type FormState = "idle" | "submitting" | "success" | "error";
 
 export function AdvertiseInquiryForm() {
@@ -42,6 +45,12 @@ export function AdvertiseInquiryForm() {
       budgetBand: String(data.get("budgetBand") ?? "").trim(),
       source: "advertise",
     };
+
+    if (!payload.interest) {
+      setError("Please choose what you are interested in.");
+      setState("error");
+      return;
+    }
 
     try {
       const res = await fetch("/api/leads", {
@@ -67,17 +76,17 @@ export function AdvertiseInquiryForm() {
     return (
       <div
         role="status"
-        className="border border-canopy-mist/40 bg-paper-elevated px-6 py-8"
+        className="rounded-sm border border-ink/15 bg-canopy-deep px-6 py-8 text-paper"
       >
-        <p className="font-display text-2xl text-canopy-deep">Inquiry received</p>
-        <p className="mt-3 text-sm leading-relaxed text-ink-muted">
+        <p className="font-display text-2xl font-medium">Inquiry received</p>
+        <p className="mt-3 text-sm leading-relaxed text-[#cfc8b4]">
           Thanks — we will reply with availability, rates, and disclosure rules.
-          Editorial integrity is non-negotiable; we will never unmarked your
+          Editorial integrity is non-negotiable; we will never present your
           placement as independent advice.
         </p>
         <button
           type="button"
-          className="mt-6 text-sm font-medium text-canopy underline"
+          className="mt-6 rounded-sm px-2 py-2.5 text-sm font-semibold text-tungsten-soft underline underline-offset-4 hover:text-paper focus-visible:outline-2 focus-visible:outline-tungsten"
           onClick={() => setState("idle")}
         >
           Send another inquiry
@@ -87,25 +96,29 @@ export function AdvertiseInquiryForm() {
   }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-5" noValidate>
+    <form onSubmit={onSubmit} className="space-y-5">
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="block text-sm">
-          <span className="font-medium text-ink">Name</span>
+          <span className="font-medium text-ink">
+            Name <span aria-hidden="true">*</span>
+          </span>
           <input
             name="name"
             required
             autoComplete="name"
-            className="mt-1.5 w-full border border-fog bg-paper-elevated px-3 py-2.5 text-ink outline-none focus:border-canopy-mist"
+            className={inputClass}
           />
         </label>
         <label className="block text-sm">
-          <span className="font-medium text-ink">Work email</span>
+          <span className="font-medium text-ink">
+            Work email <span aria-hidden="true">*</span>
+          </span>
           <input
             name="email"
             type="email"
             required
             autoComplete="email"
-            className="mt-1.5 w-full border border-fog bg-paper-elevated px-3 py-2.5 text-ink outline-none focus:border-canopy-mist"
+            className={inputClass}
           />
         </label>
       </div>
@@ -115,19 +128,19 @@ export function AdvertiseInquiryForm() {
         <input
           name="company"
           autoComplete="organization"
-          className="mt-1.5 w-full border border-fog bg-paper-elevated px-3 py-2.5 text-ink outline-none focus:border-canopy-mist"
+          className={inputClass}
         />
       </label>
 
       <div className="grid gap-5 sm:grid-cols-2">
         <label className="block text-sm">
-          <span className="font-medium text-ink">Interest</span>
-          <select
-            name="interest"
-            required
-            defaultValue="featured_listing"
-            className="mt-1.5 w-full border border-fog bg-paper-elevated px-3 py-2.5 text-ink outline-none focus:border-canopy-mist"
-          >
+          <span className="font-medium text-ink">
+            Interest <span aria-hidden="true">*</span>
+          </span>
+          <select name="interest" required defaultValue="" className={inputClass}>
+            <option value="" disabled>
+              Select…
+            </option>
             {INTEREST_OPTIONS.map((opt) => (
               <option key={opt.value} value={opt.value}>
                 {opt.label}
@@ -137,11 +150,7 @@ export function AdvertiseInquiryForm() {
         </label>
         <label className="block text-sm">
           <span className="font-medium text-ink">Budget band (optional)</span>
-          <select
-            name="budgetBand"
-            defaultValue=""
-            className="mt-1.5 w-full border border-fog bg-paper-elevated px-3 py-2.5 text-ink outline-none focus:border-canopy-mist"
-          >
+          <select name="budgetBand" defaultValue="" className={inputClass}>
             <option value="">Select…</option>
             {BUDGET_OPTIONS.map((band) => (
               <option key={band} value={band}>
@@ -153,19 +162,21 @@ export function AdvertiseInquiryForm() {
       </div>
 
       <label className="block text-sm">
-        <span className="font-medium text-ink">Message</span>
+        <span className="font-medium text-ink">
+          Message <span aria-hidden="true">*</span>
+        </span>
         <textarea
           name="message"
           required
           minLength={10}
           rows={5}
           placeholder="Audience, category, timing, and anything we should know."
-          className="mt-1.5 w-full border border-fog bg-paper-elevated px-3 py-2.5 text-ink outline-none focus:border-canopy-mist"
+          className={inputClass}
         />
       </label>
 
       {error ? (
-        <p role="alert" className="text-sm text-sponsored">
+        <p role="alert" className="text-sm font-medium text-sponsored">
           {error}
         </p>
       ) : null}
@@ -173,7 +184,8 @@ export function AdvertiseInquiryForm() {
       <button
         type="submit"
         disabled={state === "submitting"}
-        className="inline-flex items-center bg-canopy px-6 py-3 text-sm font-semibold text-paper transition-colors hover:bg-canopy-mist disabled:opacity-60"
+        aria-busy={state === "submitting"}
+        className="inline-flex min-h-[48px] items-center rounded-sm bg-ink px-8 py-3.5 text-[13px] font-bold uppercase tracking-[0.06em] text-paper transition-colors hover:bg-canopy disabled:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-tungsten"
       >
         {state === "submitting" ? "Sending…" : "Send inquiry"}
       </button>

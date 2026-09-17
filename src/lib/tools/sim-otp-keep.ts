@@ -36,6 +36,12 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for deltas — negative means the path beats the alt */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
 function clampMonths(n: number): number {
   if (!Number.isFinite(n) || n < 1) return 1;
   return Math.min(24, Math.floor(n));
@@ -69,16 +75,16 @@ export function estimateSimOtpKeep(inputs: SimOtpInputs): SimOtpResult {
     }
   });
 
-  // Prefer keeping a cheap prepaid line when OTP months are short and prepaid is low
-  if (monthsNeeded <= 3 && keepPrepaid <= dropReplace + 20) {
-    recommended = "keep-prepaid";
-    best = keepPrepaid;
-  }
-
-  const strategy = inputs.strategy;
+  const strategy: SimStrategy =
+    inputs.strategy === "keep-prepaid" ||
+    inputs.strategy === "keep-postpaid" ||
+    inputs.strategy === "port-out" ||
+    inputs.strategy === "drop-replace"
+      ? inputs.strategy
+      : "keep-prepaid";
   const keepCostSgd = costs[strategy];
   const alternativeCostSgd = costs[recommended];
-  const savingsVsAltSgd = money(keepCostSgd - alternativeCostSgd);
+  const savingsVsAltSgd = signed(keepCostSgd - alternativeCostSgd);
 
   const labels: Record<SimStrategy, string> = {
     "keep-prepaid": "Keep prepaid +65 for OTP months",

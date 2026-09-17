@@ -21,10 +21,10 @@ export default function AboutPage() {
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs items={crumbs} className="mb-8 text-sm text-ink-faint" />
       <header className="max-w-2xl">
-        <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-tungsten">
           Trust
         </p>
-        <h1 className="font-display mt-4 text-4xl leading-tight text-ink sm:text-5xl">
+        <h1 className="font-display mt-4 text-4xl font-medium leading-[1.08] tracking-[-0.025em] text-ink sm:text-5xl">
           About expat.sg
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-ink-muted">
@@ -36,7 +36,7 @@ export default function AboutPage() {
 
       <div className="mt-14 max-w-[var(--max-prose)] space-y-8 text-base leading-relaxed text-ink-muted">
         <section>
-          <h2 className="font-display text-2xl text-ink">What we are</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">What we are</h2>
           <p className="mt-3">
             We cover the full lifecycle across pillars — Move, Money, Home,
             Family, Belong, Life, and Next — from visas and first housing through
@@ -55,7 +55,7 @@ export default function AboutPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">What we are not</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">What we are not</h2>
           <p className="mt-3">
             We are not a property inventory, an events social graph, an open
             unmoderated forum, or a clone of third-party “expat Singapore”
@@ -67,7 +67,7 @@ export default function AboutPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">How we earn trust</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">How we earn trust</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5">
             <li>
               Editorial guides with citations and review dates — see our{" "}
@@ -100,13 +100,13 @@ export default function AboutPage() {
               with featured listings clearly marked.
             </li>
             <li>
-              Journeys and light tools as support, never the whole product.
+              Journeys and light tools back up the guides.
             </li>
           </ul>
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">Start exploring</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Start exploring</h2>
           <p className="mt-3 flex flex-wrap gap-x-4 gap-y-2">
             <Link href="/guides" className="text-canopy underline">
               Guides
@@ -124,7 +124,7 @@ export default function AboutPage() {
         </section>
 
         <section>
-          <h2 className="font-display text-2xl text-ink">Contact</h2>
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink">Contact</h2>
           <p className="mt-3">
             Partnerships and media inquiries:{" "}
             <Link href="/advertise" className="text-canopy underline">

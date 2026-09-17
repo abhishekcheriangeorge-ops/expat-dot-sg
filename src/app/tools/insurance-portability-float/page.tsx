@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { InsurancePortabilityFloatCalculator } from "@/components/tools";
+import { InsurancePortabilityFloatCalculator, ToolAbout } from "@/components/tools";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -25,7 +25,7 @@ export default function InsurancePortabilityFloatToolPage() {
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
-      <div className="border-b border-fog-soft">
+      <div className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
@@ -37,28 +37,42 @@ export default function InsurancePortabilityFloatToolPage() {
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <InsurancePortabilityFloatCalculator />
-        <p className="mt-12 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
+        <ToolAbout
+          how={[
+      "Prices extend-Singapore, gap-bridge, and cancel-and-start paths side by side.",
+      "Recommends the true minimum. The bridge gets no handicap.",
+      "Gap days cap at 180.",
+    ]}
+          actions={[
+      "Confirm territorial limits before treating an extension as destination cover.",
+      "Check waiting periods before cancelling Singapore cover for a short gap.",
+    ]}
+          sourceLabel="your insurer"
+          reviewed="2026-09-15"
+        />
+
+        <p className="mt-10 flex flex-wrap gap-x-5 gap-y-2 text-sm text-ink-faint">
           <Link
             href="/tools"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             ← All tools
           </Link>
           <Link
             href="/journeys/condo-bike-storage-clear"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Condo bike / storage clear →
           </Link>
           <Link
             href="/tools/driving-insurance-gap"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Driving insurance gap →
           </Link>
           <Link
             href="/money"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Money pillar →
           </Link>

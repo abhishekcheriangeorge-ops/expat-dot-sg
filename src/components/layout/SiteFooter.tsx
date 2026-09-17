@@ -3,14 +3,19 @@ import { modes, pillars, primaryNav } from "@/lib/site";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-auto border-t border-fog-soft bg-canopy-deep text-paper">
+    <footer className="mt-auto border-t border-tungsten-soft/30 bg-canopy-deep text-paper">
       <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-10 px-5 py-14 sm:px-8">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-sm">
-            <p className="font-display text-2xl tracking-tight">expat.sg</p>
-            <p className="mt-3 text-sm leading-relaxed text-[#d6d1c8]">
-              The operating system for Singapore expat life — from the offer
-              letter to year three.
+            <p className="font-display text-3xl font-semibold tracking-tight">
+              expat<span className="text-tungsten-soft">.sg</span>
+            </p>
+            <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-tungsten-soft">
+              The Straits standard · Nº 042
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-[#b9b09a]">
+              Singapore, decided — not debated. Passes, rents, schools, and
+              costs, verified weekly.
             </p>
             <nav aria-label="Modes" className="mt-5 flex gap-5 text-sm">
               {modes.map((mode) => (
@@ -34,7 +39,7 @@ export function SiteFooter() {
                 <li key={pillar.href}>
                   <Link
                     href={pillar.href}
-                    className="text-[#d6d1c8] no-underline transition-colors hover:text-paper"
+                    className="text-[#b9b09a] no-underline transition-colors hover:text-paper"
                   >
                     {pillar.label}
                   </Link>
@@ -44,7 +49,7 @@ export function SiteFooter() {
           </nav>
         </div>
 
-        <div className="flex flex-col gap-4 border-t border-canopy-mist/40 pt-6 text-xs text-[#d6d1c8] sm:flex-row sm:items-start sm:justify-between">
+        <div className="flex flex-col gap-4 border-t border-tungsten-soft/20 pt-6 text-xs text-[#b9b09a] sm:flex-row sm:items-start sm:justify-between">
           <p>© {new Date().getFullYear()} expat.sg</p>
           <nav
             aria-label="Site"

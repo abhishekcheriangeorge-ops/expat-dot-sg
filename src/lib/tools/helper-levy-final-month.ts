@@ -35,6 +35,18 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets — a negative float is the point of the sketch */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
+const VALID_MODES: HelperLevyMode[] = [
+  "keep-through-month",
+  "mid-month-cancel",
+  "transfer-out",
+];
+
 function clampDays(n: number, max: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(max, Math.floor(n));
@@ -43,7 +55,9 @@ function clampDays(n: number, max: number): number {
 export function estimateHelperLevyFinalMonth(
   inputs: HelperLevyFinalMonthInputs,
 ): HelperLevyFinalMonthResult {
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "keep-through-month";
   const monthlyLevySgd = money(inputs.monthlyLevySgd);
   const daysInMonth = Math.max(28, Math.min(31, Math.floor(inputs.daysInMonth || 30)));
   const daysEmployed = clampDays(inputs.daysEmployed, daysInMonth);
@@ -61,7 +75,7 @@ export function estimateHelperLevyFinalMonth(
   }
 
   const cashOutSgd = money(proRataLevySgd + adminFeeSgd + waiverClawbackSgd);
-  const netSketchSgd = money(0 - cashOutSgd);
+  const netSketchSgd = signed(0 - cashOutSgd);
 
   const labels: Record<HelperLevyMode, string> = {
     "keep-through-month": "Keep helper through month-end",

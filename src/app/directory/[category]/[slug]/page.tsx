@@ -105,7 +105,7 @@ export default async function ServiceDetailPage({ params }: Props) {
         </ProseSection>
       ) : null}
 
-      <section className="border-t border-fog-soft bg-paper-elevated/60">
+      <section className="border-t border-ink/15 bg-paper-elevated/60">
         <div className="mx-auto flex max-w-[var(--max-page)] flex-col gap-8 px-5 py-14 sm:px-8">
           <ChipList label="Areas served" items={s.areasServed} />
           <ChipList label="Engage when" items={s.whenToEngage} />
@@ -119,7 +119,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                   <li key={guide.slug}>
                     <Link
                       href={`/guides/${guide.slug}`}
-                      className="text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+                      className="text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline"
                     >
                       {guide.title} →
                     </Link>
@@ -146,23 +146,23 @@ export default async function ServiceDetailPage({ params }: Props) {
         </div>
       </section>
 
-      <nav className="border-t border-fog-soft px-5 py-8 sm:px-8">
+      <nav className="border-t border-ink/15 px-5 py-8 sm:px-8">
         <p className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
           <Link
             href={`/directory/${s.category}`}
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             ← {categoryLabel}
           </Link>
           <Link
             href="/directory"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             All services
           </Link>
           <Link
             href="/life"
-            className="font-medium text-canopy no-underline hover:text-canopy-mist"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Life pillar →
           </Link>

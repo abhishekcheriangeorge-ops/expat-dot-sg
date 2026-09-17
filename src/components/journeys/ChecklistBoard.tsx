@@ -1,37 +1,58 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import type { JourneyChecklist } from "@/lib/content";
 
 const storageKey = (slug: string) => `expat.sg:checklist:${slug}`;
+
+function subscribeToStorage(callback: () => void) {
+  window.addEventListener("storage", callback);
+  return () => window.removeEventListener("storage", callback);
+}
+
+function readStored(slug: string): string {
+  try {
+    return localStorage.getItem(storageKey(slug)) ?? "";
+  } catch {
+    return "";
+  }
+}
+
+function parseStored(raw: string): Record<string, boolean> {
+  if (!raw) return {};
+  try {
+    return JSON.parse(raw) as Record<string, boolean>;
+  } catch {
+    return {};
+  }
+}
 
 type ChecklistBoardProps = {
   checklist: JourneyChecklist;
 };
 
 export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
-  const [done, setDone] = useState<Record<string, boolean>>({});
-  const [hydrated, setHydrated] = useState(false);
+  // Hydration-safe persisted state: server renders unchecked, client
+  // re-renders with stored values without set-state-in-effect.
+  const storedRaw = useSyncExternalStore(
+    subscribeToStorage,
+    () => readStored(checklist.slug),
+    () => "",
+  );
+  const [overrides, setOverrides] = useState<Record<string, boolean>>({});
+
+  const done = useMemo(() => {
+    return { ...parseStored(storedRaw), ...overrides };
+  }, [storedRaw, overrides]);
 
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(storageKey(checklist.slug));
-      if (raw) setDone(JSON.parse(raw) as Record<string, boolean>);
-    } catch {
-      /* ignore */
-    }
-    setHydrated(true);
-  }, [checklist.slug]);
-
-  useEffect(() => {
-    if (!hydrated) return;
     try {
       localStorage.setItem(storageKey(checklist.slug), JSON.stringify(done));
     } catch {
       /* ignore */
     }
-  }, [done, checklist.slug, hydrated]);
+  }, [done, checklist.slug]);
 
   const required = useMemo(
     () => checklist.items.filter((i) => !i.optional),
@@ -44,11 +65,13 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
       : Math.round((completedRequired / required.length) * 100);
 
   function toggle(id: string) {
-    setDone((prev) => ({ ...prev, [id]: !prev[id] }));
+    setOverrides((prev) => ({ ...prev, [id]: !done[id] }));
   }
 
   function reset() {
-    setDone({});
+    setOverrides(
+      Object.fromEntries(checklist.items.map((item) => [item.id, false])),
+    );
   }
 
   return (
@@ -56,24 +79,26 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
       <div className="mb-10 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-sm text-ink-muted">
-            Progress saves in this browser only — a quiet checklist, not an
-            account.
+            Your ticks stay in this browser.
           </p>
-          <p className="mt-2 font-display text-2xl text-ink">
+          <p
+            className="mt-2 font-display text-2xl font-medium text-ink"
+            role="status"
+          >
             {completedRequired} of {required.length} essentials · {progress}%
           </p>
         </div>
         <button
           type="button"
           onClick={reset}
-          className="self-start text-sm font-medium text-ink-faint underline-offset-4 hover:text-ink hover:underline"
+          className="self-start rounded-sm px-2 py-2.5 text-sm font-medium text-ink-faint underline-offset-4 hover:text-ink hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
         >
           Reset checklist
         </button>
       </div>
 
       <div
-        className="mb-10 h-1.5 w-full overflow-hidden bg-fog-soft"
+        className="mb-10 h-1.5 w-full overflow-hidden rounded-full bg-ink/10"
         role="progressbar"
         aria-valuenow={progress}
         aria-valuemin={0}
@@ -81,63 +106,71 @@ export function ChecklistBoard({ checklist }: ChecklistBoardProps) {
         aria-label="Checklist progress"
       >
         <div
-          className="h-full bg-canopy transition-[width] duration-500 ease-out"
+          className="h-full rounded-full bg-canopy transition-[width] duration-500 ease-out"
           style={{ width: `${progress}%` }}
         />
       </div>
 
-      <ul className="flex flex-col gap-4">
+      <ul className="flex flex-col">
         {checklist.items.map((item) => {
           const checked = Boolean(done[item.id]);
+          const inputId = `checklist-${checklist.slug}-${item.id}`;
           return (
             <li
               key={item.id}
-              className="border-b border-fog-soft/90 pb-4 last:border-0"
+              className="border-b border-ink/15 py-5 last:border-0"
             >
-              <label className="flex cursor-pointer gap-4">
+              <div className="flex gap-4">
                 <input
+                  id={inputId}
                   type="checkbox"
                   checked={checked}
                   onChange={() => toggle(item.id)}
-                  className="mt-1 size-5 shrink-0 accent-[var(--canopy)]"
+                  className="mt-1 size-6 shrink-0 cursor-pointer accent-canopy"
                 />
-                <span className="min-w-0 flex-1">
-                  <span
-                    className={`block font-medium ${checked ? "text-ink-faint line-through" : "text-ink"}`}
+                <div className="min-w-0 flex-1">
+                  <label
+                    htmlFor={inputId}
+                    className="block cursor-pointer"
                   >
-                    {item.title}
+                    <span
+                      className={
+                        checked ? "text-ink-faint line-through" : "text-ink"
+                      }
+                    >
+                      {item.title}
+                    </span>
                     {item.optional ? (
                       <span className="ml-2 text-xs font-normal uppercase tracking-wide text-ink-faint">
                         optional
                       </span>
                     ) : null}
-                  </span>
-                  <span className="mt-1 block text-sm leading-relaxed text-ink-muted">
+                  </label>
+                  <p className="mt-1 text-sm leading-relaxed text-ink-muted">
                     {item.detail}
-                  </span>
+                  </p>
                   {item.href ? (
                     item.href.startsWith("http") ? (
                       <a
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="mt-2 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
-                        onClick={(e) => e.stopPropagation()}
+                        className="mt-2 inline-block rounded-sm py-1 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
                       >
-                        Source →
+                        Source <span aria-hidden="true">→</span>
+                        <span className="sr-only"> (opens in a new tab)</span>
                       </a>
                     ) : (
                       <Link
                         href={item.href}
-                        className="mt-2 inline-block text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
-                        onClick={(e) => e.stopPropagation()}
+                        className="mt-2 inline-block rounded-sm py-1 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
                       >
-                        Related →
+                        Related <span aria-hidden="true">→</span>
                       </Link>
                     )
                   ) : null}
-                </span>
-              </label>
+                </div>
+              </div>
             </li>
           );
         })}

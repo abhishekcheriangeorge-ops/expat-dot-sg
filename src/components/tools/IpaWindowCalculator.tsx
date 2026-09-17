@@ -84,7 +84,7 @@ export function IpaWindowCalculator() {
         </p>
       </fieldset>
 
-      <aside className="border border-fog-soft bg-paper-elevated p-6">
+      <aside className="rounded-sm border border-ink/15 bg-paper-elevated p-6">
         <p className="text-xs font-semibold uppercase tracking-[0.14em] text-ink-faint">
           Sketch
         </p>

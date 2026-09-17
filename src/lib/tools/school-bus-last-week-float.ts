@@ -38,22 +38,37 @@ function money(n: number): number {
   return Math.round(n);
 }
 
-function clampDays(n: number): number {
-  if (!Number.isFinite(n) || n < 0) return 0;
-  return Math.min(30, Math.floor(n));
+/** Signed rounding for nets — a negative float is the point of the sketch */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
 }
+
+function clampDays(n: number, max = 31): number {
+  if (!Number.isFinite(n) || n < 0) return 0;
+  return Math.min(max, Math.floor(n));
+}
+
+const VALID_MODES: SchoolBusLastWeekMode[] = [
+  "ride-through",
+  "early-cancel",
+  "no-show-forfeit",
+];
 
 export function estimateSchoolBusLastWeekFloat(
   inputs: SchoolBusLastWeekFloatInputs,
 ): SchoolBusLastWeekFloatResult {
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "ride-through";
   const weeklyFeeSgd = money(inputs.weeklyFeeSgd);
-  const rideDaysLeft = clampDays(inputs.rideDaysLeft);
+  const rideDaysLeft = clampDays(inputs.rideDaysLeft, 7);
   const noticeDaysShort = clampDays(inputs.noticeDaysShort);
   const cancelFeeSgd = money(inputs.cancelFeeSgd);
   const siblingFeeSgd = money(inputs.siblingFeeSgd);
 
-  const perDay = money(weeklyFeeSgd / 5);
+  // Round once at the end — rounding per-day first drifts the total.
+  const perDay = weeklyFeeSgd / 5;
   const rideCostSgd = money(perDay * rideDaysLeft);
   const noticeBite = money(perDay * noticeDaysShort);
 
@@ -66,7 +81,7 @@ export function estimateSchoolBusLastWeekFloat(
     cashOutSgd = money(weeklyFeeSgd + cancelFeeSgd + siblingFeeSgd);
   }
 
-  const netSketchSgd = money(0 - cashOutSgd);
+  const netSketchSgd = signed(0 - cashOutSgd);
 
   const labels: Record<SchoolBusLastWeekMode, string> = {
     "ride-through": "Ride through last week",

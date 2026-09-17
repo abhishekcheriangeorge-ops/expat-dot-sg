@@ -37,10 +37,24 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets — a negative float is the point of the sketch */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
+const VALID_MODES: ClinicDepositMode[] = [
+  "full-refund",
+  "package-offset",
+  "forfeit-hold",
+];
+
 export function estimateClinicDepositExit(
   inputs: ClinicDepositInputs,
 ): ClinicDepositResult {
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "full-refund";
   const depositSgd = money(inputs.depositSgd);
   const unusedPackageSgd = money(inputs.unusedPackageSgd);
   const noShowFeeSgd = money(inputs.noShowFeeSgd);
@@ -59,13 +73,12 @@ export function estimateClinicDepositExit(
       Math.max(0, noShowFeeSgd + recordsFeeSgd + openBalanceSgd - offset),
     );
   } else {
+    // Forfeit: deposit + package kept (no cash in); open fees still bill.
     cashInSgd = 0;
-    cashOutSgd = money(
-      depositSgd + unusedPackageSgd + noShowFeeSgd + recordsFeeSgd + openBalanceSgd,
-    );
+    cashOutSgd = money(noShowFeeSgd + recordsFeeSgd + openBalanceSgd);
   }
 
-  const netSketchSgd = money(cashInSgd - cashOutSgd);
+  const netSketchSgd = signed(cashInSgd - cashOutSgd);
 
   const labels: Record<ClinicDepositMode, string> = {
     "full-refund": "Full deposit + package hope",
@@ -73,7 +86,7 @@ export function estimateClinicDepositExit(
     "forfeit-hold": "Deposit / package forfeit hold",
   };
 
-  let headline = `${labels[mode]} · net sketch ${netSketchSgd} SGD`;
+  const headline = `${labels[mode]} · net sketch ${netSketchSgd} SGD`;
   let note = CLINIC_DEPOSIT_NOTE;
   if (mode === "full-refund" && openBalanceSgd > 0) {
     note =

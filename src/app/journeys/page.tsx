@@ -141,7 +141,7 @@ export default async function JourneysIndexPage() {
           }),
         ]}
       />
-      <div className="border-b border-fog-soft">
+      <div className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
@@ -154,10 +154,10 @@ export default async function JourneysIndexPage() {
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
         <FadeIn className="mb-16">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Before wheels-down
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {preArrival?.title ?? "Pre-arrival"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -166,14 +166,14 @@ export default async function JourneysIndexPage() {
           </p>
           <Link
             href="/journeys/pre-arrival"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open pre-arrival playbook
           </Link>
         </FadeIn>
 
         <FadeIn>
-          <h2 className="font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             Arriving · first 90 days
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -181,14 +181,14 @@ export default async function JourneysIndexPage() {
             still has a list. Pair with the{" "}
             <Link
               href="/arriving"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Arriving hub
             </Link>{" "}
             and{" "}
             <Link
               href="/move"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Move pillar
             </Link>
@@ -202,9 +202,9 @@ export default async function JourneysIndexPage() {
               <StaggerItem key={c.slug}>
                 <Link
                   href={`/journeys/arriving/${c.phase}`}
-                  className="group block border-b border-fog-soft pb-6 no-underline"
+                  className="group block border-b border-ink/15 pb-6 no-underline"
                 >
-                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+                  <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
                     {c.phase.replace("day-", "")} days
                   </p>
                   <h3 className="mt-2 font-display text-xl text-ink group-hover:text-canopy">
@@ -219,11 +219,11 @@ export default async function JourneysIndexPage() {
           )}
         </Stagger>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Digital exit
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {singpassExit?.title ?? "Singpass / Myinfo exit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -232,25 +232,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/school-deposit-clawback"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/school-deposit-clawback
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >school deposit tool</Link>{" "}
             when mid-year school cash is still open.
           </p>
           <Link
             href="/journeys/singpass-myinfo-exit"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open Singpass exit playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Movers day
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {moverLift?.title ?? "Mover lift / loading-bay booking"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -259,25 +257,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/foreign-licence-clock"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/foreign-licence-clock
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >foreign licence clock</Link>{" "}
             if you still need to drive through load-out.
           </p>
           <Link
             href="/journeys/mover-lift-booking"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open mover lift playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Condo digital access
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {condoVisitorQr?.title ?? "Condo visitor QR revoke"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -286,25 +282,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/school-device-bond"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/school-device-bond
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >school device bond tool</Link>{" "}
             if kids still hold school iPads through checkout week.
           </p>
           <Link
             href="/journeys/condo-visitor-qr-exit"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open visitor QR revoke playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Condo EV exit
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {condoEvCharger?.title ?? "Condo EV charger / lot clear"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -313,25 +307,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/school-cca-kit-bond"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/school-cca-kit-bond
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >school CCA kit bond tool</Link>{" "}
             if CCA kit bonds settle the same fortnight.
           </p>
           <Link
             href="/journeys/condo-ev-charger-clear"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open EV charger clear playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Utility meter exit
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {utilityMeterPhoto?.title ?? "Utility meter photo handoff"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -340,25 +332,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/school-exam-ib-deposit"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/school-exam-ib-deposit
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >school exam deposit tool</Link>{" "}
             if exam / IB deposits settle the same fortnight.
           </p>
           <Link
             href="/journeys/utility-meter-photo-handoff"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open meter photo handoff playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Condo visitor parking
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {condoVisitorParking?.title ??
               "Condo visitor parking / loading-bay clear"}
           </h2>
@@ -368,25 +358,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/helper-levy-final-month"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/helper-levy-final-month
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >helper levy tool</Link>{" "}
             if helper final-levy cash settles the same fortnight.
           </p>
           <Link
             href="/journeys/condo-visitor-parking-clear"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open visitor parking clear playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Condo access tokens
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {condoAccessCard?.title ?? "Condo access-card / fob deposit"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -395,25 +383,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/bank-statement-archive"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/bank-statement-archive
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >bank statement tool</Link>{" "}
             if statement downloads compete with management-office week.
           </p>
           <Link
             href="/journeys/condo-access-card-deposit"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open access-card deposit playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             CPF nominations
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {cpfNominationExit?.title ??
               "CPF nomination / estate-planning exit"}
           </h2>
@@ -423,25 +409,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/school-bus-last-week-float"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/school-bus-last-week-float
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >school bus float tool</Link>{" "}
             if kids still ride through the same notice week.
           </p>
           <Link
             href="/journeys/cpf-nomination-exit"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open CPF nomination exit playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Pharmacy / chronic scripts
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {pharmacyChronicScript?.title ??
               "Pharmacy / chronic-script exit"}
           </h2>
@@ -451,25 +435,23 @@ export default async function JourneysIndexPage() {
             Pair with{" "}
             <Link
               href="/tools/pharmacy-last-refill-float"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/pharmacy-last-refill-float
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >pharmacy refill tool</Link>{" "}
             if refill cash competes with packing week.
           </p>
           <Link
             href="/journeys/pharmacy-chronic-script-exit"
-            className="mt-6 inline-flex border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline hover:border-ink/40"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open pharmacy chronic-script playbook
           </Link>
         </FadeIn>
 
-        <FadeIn className="mt-16 border-t border-fog-soft pt-12">
-          <p className="text-xs font-semibold uppercase tracking-[0.14em] text-tungsten">
+        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
             Next
           </p>
-          <h2 className="mt-3 font-display text-2xl text-ink sm:text-3xl">
+          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
             {playbook?.title ?? "Leaving Singapore"}
           </h2>
           <p className="mt-3 max-w-xl text-ink-muted">
@@ -478,22 +460,20 @@ export default async function JourneysIndexPage() {
             Deep narrative lives in the{" "}
             <Link
               href="/next"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Next pillar
             </Link>
             . Sketch diplomatic-clause dates on{" "}
             <Link
               href="/tools/lease-notice"
-              className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              /tools/lease-notice
-            </Link>{" "}
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+            >lease notice tool</Link>{" "}
             before you serve notice.
           </p>
           <Link
             href="/journeys/leaving"
-            className="mt-6 inline-flex bg-canopy px-5 py-3 text-sm font-semibold text-paper no-underline hover:bg-canopy-mist"
+            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm bg-ink px-5 py-3 text-sm font-semibold text-paper no-underline transition-colors hover:bg-canopy focus-visible:outline-2 focus-visible:outline-tungsten"
           >
             Open leaving playbook
           </Link>
@@ -504,7 +484,7 @@ export default async function JourneysIndexPage() {
             Prefer numbers?{" "}
             <Link
               href="/tools"
-              className="font-medium text-canopy no-underline hover:text-canopy-mist"
+              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
             >
               Light COL, lease, and EP threshold tools
             </Link>{" "}

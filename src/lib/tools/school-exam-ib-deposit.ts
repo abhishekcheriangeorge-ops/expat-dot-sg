@@ -35,6 +35,18 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets — a negative float is the point of the sketch */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
+const VALID_MODES: ExamIbDepositMode[] = [
+  "full-refund",
+  "partial-hold",
+  "full-forfeit",
+];
+
 function clampWeeks(n: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(52, Math.floor(n));
@@ -43,7 +55,9 @@ function clampWeeks(n: number): number {
 export function estimateSchoolExamIbDeposit(
   inputs: SchoolExamIbDepositInputs,
 ): SchoolExamIbDepositResult {
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "full-refund";
   const depositSgd = money(inputs.depositSgd);
   const sittingFeeSgd = money(inputs.sittingFeeSgd);
   const adminFeeSgd = money(inputs.adminFeeSgd);
@@ -59,13 +73,18 @@ export function estimateSchoolExamIbDeposit(
   } else if (mode === "partial-hold") {
     const hold = money(Math.min(depositSgd, lateCancelSgd + adminFeeSgd));
     cashInSgd = money(Math.max(0, depositSgd - hold));
-    cashOutSgd = money(sittingFeeSgd + hold);
+    // Hold comes out of the deposit (cashIn). Only sitting fees and
+    // penalties above the deposit are extra cash out.
+    cashOutSgd = money(
+      sittingFeeSgd + Math.max(0, lateCancelSgd + adminFeeSgd - depositSgd),
+    );
   } else {
+    // Forfeit: deposit kept (no cash in); sitting + admin + penalties billed.
     cashInSgd = 0;
-    cashOutSgd = money(depositSgd + sittingFeeSgd + adminFeeSgd + lateCancelSgd);
+    cashOutSgd = money(sittingFeeSgd + adminFeeSgd + lateCancelSgd);
   }
 
-  const netSketchSgd = money(cashInSgd - cashOutSgd);
+  const netSketchSgd = signed(cashInSgd - cashOutSgd);
 
   const labels: Record<ExamIbDepositMode, string> = {
     "full-refund": "On-time cancel · deposit hope",

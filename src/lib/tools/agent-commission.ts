@@ -34,8 +34,10 @@ export type AgentCommissionResult = {
 export function estimateAgentCommission(
   inputs: AgentCommissionInputs,
 ): AgentCommissionResult {
-  const rent = Math.max(0, Number(inputs.monthlyRent) || 0);
-  const months = Math.max(0, Number(inputs.feeMonths) || 0);
+  const num = (n: number): number =>
+    Number.isFinite(n) && n > 0 ? n : 0;
+  const rent = num(inputs.monthlyRent);
+  const months = num(inputs.feeMonths);
   const baseFee = Math.round(rent * months * 100) / 100;
   const gst = inputs.includeGst
     ? Math.round(baseFee * GST_RATE * 100) / 100

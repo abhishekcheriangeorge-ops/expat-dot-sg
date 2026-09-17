@@ -36,6 +36,7 @@ export type CpfWithdrawalResult = {
 };
 
 function parseYmd(ymd: string): Date | null {
+  if (typeof ymd !== "string") return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
   if (!m) return null;
   const y = Number(m[1]);
@@ -81,8 +82,10 @@ export function estimateCpfWithdrawal(
     CPF_WINDOW_PRESETS.find((p) => p.id === inputs.windowId) ??
     CPF_WINDOW_PRESETS[1];
   const processDays =
-    inputs.customDays != null && inputs.customDays > 0
-      ? Math.floor(inputs.customDays)
+    inputs.customDays != null &&
+    Number.isFinite(inputs.customDays) &&
+    inputs.customDays > 0
+      ? Math.min(365, Math.floor(inputs.customDays))
       : preset.days;
   const departure = parseYmd(inputs.departureDate);
   const balanceSketch = Math.max(0, Number(inputs.balanceSketch) || 0);
@@ -116,7 +119,9 @@ export function estimateCpfWithdrawal(
     departureDate: formatYmd(departure),
     windowId: preset.id,
     windowLabel:
-      inputs.customDays != null && inputs.customDays > 0
+      inputs.customDays != null &&
+      Number.isFinite(inputs.customDays) &&
+      inputs.customDays > 0
         ? `Custom · ${processDays} days`
         : preset.label,
     processDays,

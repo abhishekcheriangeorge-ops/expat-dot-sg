@@ -28,18 +28,19 @@ export const IRAS_LEASE_DUTY_URL =
 export const SETUP_CASH_LAST_REVIEWED = "2026-09-15";
 
 export function estimateSetupCash(inputs: SetupCashInputs): SetupCashBreakdown {
-  const rent = Math.max(0, inputs.monthlyRent);
-  const months = inputs.leaseYears * 12;
+  const num = (n: number): number =>
+    Number.isFinite(n) && n > 0 ? n : 0;
+  const rent = num(inputs.monthlyRent);
+  const leaseYears = inputs.leaseYears === 1 ? 1 : 2;
+  const months = leaseYears * 12;
   const totalRent = rent * months;
 
   const advanceRent = rent;
-  const deposit = rent * Math.max(0, inputs.depositMonths);
-  const agentFee = rent * Math.max(0, inputs.agentMonths);
+  const deposit = rent * num(inputs.depositMonths);
+  const agentFee = rent * num(inputs.agentMonths);
   const stampDuty = Math.floor(totalRent * LEASE_DUTY_RATE);
-  const tempHousing =
-    Math.max(0, inputs.tempHousingWeeks) *
-    Math.max(0, inputs.tempHousingWeekly);
-  const misc = Math.max(0, inputs.miscBuffer);
+  const tempHousing = num(inputs.tempHousingWeeks) * num(inputs.tempHousingWeekly);
+  const misc = num(inputs.miscBuffer);
 
   const parts = {
     advanceRent,

@@ -46,7 +46,7 @@ export default async function ArrivingJourneysPage() {
           }),
         ]}
       />
-      <div className="border-b border-fog-soft">
+      <div className="border-b border-ink/15">
         <div className="mx-auto max-w-[var(--max-page)] px-5 pt-10 sm:px-8">
           <Breadcrumbs items={crumbs} />
         </div>
@@ -62,73 +62,73 @@ export default async function ArrivingJourneysPage() {
         <FadeIn className="mb-12 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <Link
             href="/arriving"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Arriving mode hub →
           </Link>
           <Link
             href="/guides/first-week-sim-singpass-bank"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Week-one dependency map →
           </Link>
           <Link
             href="/guides/sg-arrival-card-expats"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             SG Arrival Card →
           </Link>
           <Link
             href="/guides/bringing-medication-singapore-hsa"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             HSA medication →
           </Link>
           <Link
             href="/guides/importing-pets-singapore"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Pet import (AVS) →
           </Link>
           <Link
             href="/guides/work-pass-issuance-epsc-notification"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Issuance → EPSC → card →
           </Link>
           <Link
             href="/guides/changi-airport-grab-taxi"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Changi → city transfer →
           </Link>
           <Link
             href="/guides/shipping-household-singapore"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Shipping GST relief →
           </Link>
           <Link
             href="/guides/vaping-tobacco-laws-foreigners"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Vaping pass risk →
           </Link>
           <Link
             href="/guides/scams-singpass-phishing-expats"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             ScamShield / Singpass phishing →
           </Link>
           <Link
             href="/guides/first-housing-serviced-apartment"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Serviced apartment bridge →
           </Link>
           <Link
             href="/guides/relocation-checklist-7-30-90"
-            className="font-medium text-canopy no-underline underline-offset-4 hover:underline"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
             Narrative checklist →
           </Link>

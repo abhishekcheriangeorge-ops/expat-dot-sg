@@ -36,6 +36,7 @@ export type ForeignLicenceResult = {
 };
 
 function parseYmd(ymd: string): Date | null {
+  if (typeof ymd !== "string") return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
   if (!m) return null;
   const y = Number(m[1]);
@@ -89,13 +90,17 @@ export function estimateForeignLicenceClock(
     LICENCE_WINDOW_PRESETS.find((p) => p.id === inputs.windowId) ??
     LICENCE_WINDOW_PRESETS[0];
   const months =
-    inputs.customMonths != null && inputs.customMonths > 0
+    inputs.customMonths != null &&
+    Number.isFinite(inputs.customMonths) &&
+    inputs.customMonths > 0
       ? Math.min(36, Math.floor(inputs.customMonths))
       : preset.months;
   const start = parseYmd(inputs.startDate);
-  const needUntil = inputs.needToDriveUntil?.trim()
-    ? parseYmd(inputs.needToDriveUntil)
-    : null;
+  const needUntil =
+    typeof inputs.needToDriveUntil === "string" &&
+    inputs.needToDriveUntil.trim()
+      ? parseYmd(inputs.needToDriveUntil)
+      : null;
 
   if (!start || months <= 0) {
     return {
@@ -118,7 +123,9 @@ export function estimateForeignLicenceClock(
     needUntil != null ? needUntil.getTime() <= deadline.getTime() : null;
 
   const windowLabel =
-    inputs.customMonths != null && inputs.customMonths > 0
+    inputs.customMonths != null &&
+    Number.isFinite(inputs.customMonths) &&
+    inputs.customMonths > 0
       ? `Custom · ${months} months`
       : preset.label;
 

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { AdvertiseInquiryForm } from "@/components/advertise";
 import { getAllFeaturedListings } from "@/lib/content/featured";
 import { getAllSponsoredPosts } from "@/lib/content/sponsored";
-import { getStorageBackend } from "@/lib/db";
 import { buildPageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildPageMetadata({
@@ -37,20 +36,15 @@ export default async function AdvertisePage() {
     getAllFeaturedListings(),
     getAllSponsoredPosts(),
   ]);
-  const storage = getStorageBackend();
 
   return (
     <div>
-      <header className="relative overflow-hidden border-b border-fog-soft">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_10%_0%,color-mix(in_srgb,var(--canopy-mist)_20%,transparent),transparent_50%),radial-gradient(ellipse_at_90%_30%,color-mix(in_srgb,var(--tungsten)_12%,transparent),transparent_40%)]"
-        />
-        <div className="relative mx-auto max-w-[var(--max-page)] px-5 py-16 sm:px-8 sm:py-24">
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-canopy-mist">
+      <header className="border-b border-ink bg-paper">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8 sm:py-16">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-tungsten">
             Media kit
           </p>
-          <h1 className="mt-3 max-w-3xl font-display text-4xl leading-tight text-canopy-deep sm:text-5xl">
+          <h1 className="mt-4 max-w-3xl font-display text-4xl font-medium leading-[1.08] tracking-[-0.025em] text-ink sm:text-5xl">
             Advertise on expat.sg
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -62,16 +56,27 @@ export default async function AdvertisePage() {
         </div>
       </header>
 
-      <section className="border-b border-fog-soft">
-        <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
-          <h2 className="font-display text-3xl text-ink">Products</h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
+      <section className="border-b border-ink">
+        <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
+          <h2 className="font-display text-3xl font-medium tracking-tight text-ink">
+            Products
+          </h2>
+          <p className="mt-3 max-w-xl leading-relaxed text-ink-muted">
             One job per placement. Transparent disclosure is part of the product.
           </p>
-          <ul className="mt-10 grid gap-8 sm:grid-cols-2">
-            {PRODUCTS.map((product) => (
-              <li key={product.title}>
-                <h3 className="font-display text-xl text-canopy-deep">
+          <ul className="mt-10 grid gap-x-8 border-b border-ink sm:grid-cols-2">
+            {PRODUCTS.map((product, i) => (
+              <li
+                key={product.title}
+                className="border-t border-ink/15 py-6 sm:[&:nth-child(-n+2)]:border-t-0"
+              >
+                <p
+                  aria-hidden="true"
+                  className="text-[11.5px] font-bold uppercase tracking-[0.18em] text-tungsten"
+                >
+                  {String(i + 1).padStart(2, "0")}
+                </p>
+                <h3 className="mt-2 font-display text-xl font-medium text-ink">
                   {product.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-ink-muted">
@@ -83,10 +88,12 @@ export default async function AdvertisePage() {
         </div>
       </section>
 
-      <section className="border-b border-fog-soft bg-paper-elevated/50">
-        <div className="mx-auto grid max-w-[var(--max-page)] gap-12 px-5 py-14 sm:px-8 lg:grid-cols-2">
+      <section className="border-b border-ink/15 bg-paper-elevated/50">
+        <div className="mx-auto grid max-w-[var(--max-page)] gap-12 px-5 py-12 sm:px-8 lg:grid-cols-2">
           <div>
-            <h2 className="font-display text-3xl text-ink">Audience &amp; rules</h2>
+            <h2 className="font-display text-3xl font-medium tracking-tight text-ink">
+              Audience &amp; rules
+            </h2>
             <ul className="mt-6 space-y-3 text-sm leading-relaxed text-ink-muted">
               <li>Dual journey traffic: Arriving (offer → day 90) and Living.</li>
               <li>
@@ -109,23 +116,22 @@ export default async function AdvertisePage() {
                   {featured.length} featured listings
                 </strong>
                 ,{" "}
-                <Link href="/sponsored" className="text-canopy underline">
+                <Link
+                  href="/sponsored"
+                  className="rounded-sm py-1 font-medium text-canopy underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-tungsten"
+                >
                   {sponsoredPosts.length} sponsored posts
                 </Link>
                 .
-              </p>
-              <p className="mt-2">
-                Lead storage backend:{" "}
-                <code className="text-ink-muted">
-                  {storage === "neon" ? "Neon Postgres" : "file (.data/leads.jsonl)"}
-                </code>
               </p>
             </div>
           </div>
 
           <div>
-            <h2 className="font-display text-3xl text-ink">Inquiry</h2>
-            <p className="mt-3 text-sm text-ink-muted">
+            <h2 className="font-display text-3xl font-medium tracking-tight text-ink">
+              Inquiry
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-muted">
               Tell us category, timing, and budget band. We reply with
               availability — not a fake scarcity countdown.
             </p>

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FadeIn } from "@/components/motion";
 
 type JourneyHeroProps = {
   eyebrow: string;
@@ -15,33 +14,21 @@ export function JourneyHero({
   lastReviewed,
 }: JourneyHeroProps) {
   return (
-    <header className="relative overflow-hidden border-b border-fog-soft">
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_10%_0%,color-mix(in_srgb,var(--canopy-mist)_22%,transparent),transparent_50%),radial-gradient(ellipse_at_95%_30%,color-mix(in_srgb,var(--tungsten)_10%,transparent),transparent_40%)]"
-      />
-      <div className="relative mx-auto max-w-[var(--max-page)] px-5 py-16 sm:px-8 sm:py-20">
-        <FadeIn>
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-canopy-mist">
-            {eyebrow}
-          </p>
-        </FadeIn>
-        <FadeIn delay={0.08}>
-          <h1 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-ink sm:text-5xl">
-            {title}
-          </h1>
-        </FadeIn>
-        <FadeIn delay={0.14}>
-          <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-muted">
-            {summary}
-          </p>
-        </FadeIn>
+    <header className="border-b border-ink bg-paper">
+      <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8 sm:py-16">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-tungsten">
+          {eyebrow}
+        </p>
+        <h1 className="mt-4 max-w-2xl font-display text-4xl font-medium leading-[1.08] tracking-[-0.025em] text-ink sm:text-5xl">
+          {title}
+        </h1>
+        <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-muted">
+          {summary}
+        </p>
         {lastReviewed ? (
-          <FadeIn delay={0.2}>
-            <p className="mt-6 text-sm text-ink-faint">
-              Last reviewed {lastReviewed}
-            </p>
-          </FadeIn>
+          <p className="mt-6 text-sm text-ink-faint">
+            Last reviewed {lastReviewed}
+          </p>
         ) : null}
       </div>
     </header>
@@ -62,12 +49,13 @@ export function ArrivingPhaseNav({ active }: PhaseNavProps) {
   return (
     <nav
       aria-label="Arriving checklist phases"
-      className="flex flex-wrap gap-2 border-b border-fog-soft bg-paper-elevated/60 px-5 py-4 sm:px-8"
+      className="border-b border-ink/15 bg-paper-elevated/60 px-5 py-3 sm:px-8"
     >
       <div className="mx-auto flex w-full max-w-[var(--max-page)] flex-wrap items-center gap-2">
         <Link
           href="/journeys/arriving"
-          className="mr-2 text-sm font-medium text-ink-muted no-underline hover:text-ink"
+          aria-current={active ? undefined : "page"}
+          className="mr-2 rounded-sm px-3 py-2.5 text-sm font-medium text-ink-muted no-underline hover:text-ink focus-visible:outline-2 focus-visible:outline-tungsten"
         >
           Arriving overview
         </Link>
@@ -80,8 +68,8 @@ export function ArrivingPhaseNav({ active }: PhaseNavProps) {
               aria-current={isActive ? "page" : undefined}
               className={
                 isActive
-                  ? "bg-canopy px-4 py-2 text-sm font-semibold text-paper no-underline"
-                  : "border border-ink/15 bg-transparent px-4 py-2 text-sm font-medium text-ink no-underline transition-colors hover:border-ink/35"
+                  ? "rounded-sm bg-ink px-4 py-2.5 text-sm font-semibold text-paper no-underline"
+                  : "rounded-sm border border-ink/15 bg-transparent px-4 py-2.5 text-sm font-medium text-ink no-underline transition-colors hover:border-ink/40 focus-visible:outline-2 focus-visible:outline-tungsten"
               }
             >
               {p.label}
@@ -90,15 +78,15 @@ export function ArrivingPhaseNav({ active }: PhaseNavProps) {
         })}
         <Link
           href="/journeys/pre-arrival"
-          className="ml-auto text-sm font-medium text-canopy no-underline hover:text-canopy-mist"
+          className="ml-auto rounded-sm px-2 py-2.5 text-sm font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
         >
-          Pre-arrival →
+          Pre-arrival <span aria-hidden="true">→</span>
         </Link>
         <Link
           href="/journeys/leaving"
-          className="text-sm font-medium text-ink-muted no-underline hover:text-ink"
+          className="rounded-sm px-2 py-2.5 text-sm font-medium text-ink-muted no-underline hover:text-ink focus-visible:outline-2 focus-visible:outline-tungsten"
         >
-          Leaving →
+          Leaving <span aria-hidden="true">→</span>
         </Link>
       </div>
     </nav>

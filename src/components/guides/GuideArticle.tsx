@@ -41,18 +41,25 @@ export function GuideArticle({
     <article className="mx-auto w-full max-w-[var(--max-page)] px-5 py-12 sm:px-8 sm:py-16">
       <header className="max-w-3xl">
         <Breadcrumbs items={crumbs} className="mb-6 text-sm text-ink-faint" />
-        <GuideMetaBar meta={meta} />
-        <h1 className="font-display mt-5 text-4xl leading-[1.1] text-ink sm:text-5xl">
+        <p className="text-xs font-bold uppercase tracking-[0.2em] text-tungsten">
+          {PILLAR_LABELS[meta.pillar]}
+        </p>
+        <h1 className="font-display mt-4 text-4xl font-medium leading-[1.08] tracking-[-0.025em] text-ink sm:text-5xl">
           {meta.title}
         </h1>
         <p className="mt-5 max-w-[40rem] text-lg leading-relaxed text-ink-muted">
           {meta.description}
         </p>
+        <div className="mt-6">
+          <GuideMetaBar meta={meta} />
+        </div>
       </header>
 
       <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_14rem] lg:gap-16 xl:grid-cols-[minmax(0,1fr)_16rem]">
         <div className="min-w-0">
-          <div className="max-w-[var(--max-prose)]">{children}</div>
+          <div className="max-w-[var(--max-page)] [&>:not([data-table-wrap])]:max-w-[var(--max-prose)]">
+            {children}
+          </div>
 
           <GuideSponsorSlotBanner
             slot={meta.sponsorSlot}

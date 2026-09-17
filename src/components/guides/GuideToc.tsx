@@ -42,22 +42,23 @@ export function GuideToc({ items }: GuideTocProps) {
 
   return (
     <nav aria-label="On this page" className="text-sm">
-      <p className="mb-3 text-xs font-semibold tracking-[0.14em] text-ink-faint uppercase">
+      <p className="mb-3 text-xs font-bold tracking-[0.18em] text-tungsten uppercase">
         On this page
       </p>
-      <ol className="space-y-2 border-l border-fog-soft">
+      <ol className="space-y-1 border-l border-ink/15">
         {items.map((item) => {
           const active = activeId === item.id;
           return (
             <li key={item.id}>
               <a
                 href={`#${item.id}`}
+                aria-current={active ? "true" : undefined}
                 className={[
-                  "block border-l-2 py-0.5 no-underline transition-colors",
+                  "block border-l-2 py-1.5 no-underline transition-colors",
                   item.depth === 3 ? "pl-5" : "pl-3",
                   active
-                    ? "-ml-px border-tungsten text-ink"
-                    : "border-transparent text-ink-faint hover:text-ink-muted",
+                    ? "-ml-px border-tungsten font-semibold text-ink"
+                    : "border-transparent text-ink-muted hover:text-ink",
                 ].join(" ")}
               >
                 {item.title}

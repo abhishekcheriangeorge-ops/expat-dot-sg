@@ -1,16 +1,16 @@
-import { Fraunces, Manrope } from "next/font/google";
+import { Inter, Newsreader } from "next/font/google";
 
-/** Expressive display serif — Humidity Editorial headlines & brand */
-export const fontDisplay = Fraunces({
+/** Confident editorial serif — Straits Standard headlines & brand */
+export const fontDisplay = Newsreader({
   subsets: ["latin"],
-  variable: "--font-fraunces",
+  variable: "--font-newsreader",
   display: "swap",
-  axes: ["SOFT", "WONK", "opsz"],
+  axes: ["opsz"],
 });
 
-/** Refined grotesque — UI, body, navigation */
-export const fontSans = Manrope({
+/** Clean grotesque — UI, body, navigation */
+export const fontSans = Inter({
   subsets: ["latin"],
-  variable: "--font-manrope",
+  variable: "--font-inter",
   display: "swap",
 });

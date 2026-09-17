@@ -1,37 +1,37 @@
 @import "tailwindcss";
 
-/* ── Humidity Editorial design tokens ─────────────────────────────── */
+/* ── Straits Standard design tokens (Monocle-sharp + Straits brass) ── */
 :root {
   /* Surfaces */
-  --paper: #f2eee6;
-  --paper-elevated: #faf7f1;
-  --fog: #c9c4bb;
-  --fog-soft: #e4dfd6;
+  --paper: #faf8f2;
+  --paper-elevated: #fffdf8;
+  --fog: #d8d2c4;
+  --fog-soft: #e7e1d3;
 
   /* Ink — tuned for ≥4.5:1 on paper / paper-elevated */
-  --ink: #0c1210;
-  --ink-muted: #2f3834;
-  --ink-faint: #4f5853;
+  --ink: #0e1a14;
+  --ink-muted: #3d443f;
+  --ink-faint: #6b726c;
 
   /* Brand atmosphere */
   --canopy: #1a3d2e;
-  --canopy-deep: #0f2a1f;
+  --canopy-deep: #0e1a14;
   --canopy-mist: #2d5a45;
-  --tungsten: #c9923a;
-  --tungsten-soft: #e8c27a;
+  --tungsten: #8a6d2b;
+  --tungsten-soft: #c8a24a;
   --rain: #4a6b7c;
-  --dusk: #1e2830;
+  --dusk: #0e1a14;
 
   /* Semantic */
   --sponsored: #8b4513;
   --focus-ring: var(--tungsten);
   /* Footer secondary text on canopy-deep */
-  --fog-on-deep: #d6d1c8;
+  --fog-on-deep: #b9b09a;
 
   /* Typography (set by next/font on <html>) */
-  --font-display: var(--font-fraunces), "Iowan Old Style", "Palatino Linotype",
-    Palatino, serif;
-  --font-sans: var(--font-manrope), "Avenir Next", "Segoe UI", sans-serif;
+  --font-display: var(--font-newsreader), "Iowan Old Style",
+    "Palatino Linotype", Palatino, serif;
+  --font-sans: var(--font-inter), "Avenir Next", "Segoe UI", sans-serif;
 
   /* Rhythm */
   --space-section: clamp(4rem, 8vw, 7rem);

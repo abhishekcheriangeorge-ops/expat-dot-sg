@@ -44,10 +44,18 @@ function clampWeeks(n: number): number {
   return Math.min(52, Math.floor(n));
 }
 
+const VALID_MODES: BankArchiveMode[] = [
+  "self-serve-pdf",
+  "branch-reprint",
+  "rush-courier",
+];
+
 export function estimateBankStatementArchive(
   inputs: BankStatementArchiveInputs,
 ): BankStatementArchiveResult {
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "self-serve-pdf";
   const monthsNeeded = clampMonths(inputs.monthsNeeded);
   const monthsOnHand = clampMonths(inputs.monthsOnHand);
   const reprintFeeSgd = money(inputs.reprintFeeSgd);
@@ -61,7 +69,8 @@ export function estimateBankStatementArchive(
     cashOutSgd = 0;
   } else if (mode === "branch-reprint") {
     cashOutSgd = money(monthsGap * reprintFeeSgd);
-  } else {
+  } else if (monthsGap > 0) {
+    // No gap, no rush: a courier for statements you hold is wasted cash.
     cashOutSgd = money(monthsGap * reprintFeeSgd + rushFeeSgd);
   }
 

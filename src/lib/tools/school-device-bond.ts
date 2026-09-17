@@ -35,6 +35,18 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets — a negative float is the point of the sketch */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
+const VALID_MODES: DeviceBondMode[] = [
+  "full-return",
+  "damage-hold",
+  "lost-forfeit",
+];
+
 function clampDays(n: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(120, Math.floor(n));
@@ -43,7 +55,9 @@ function clampDays(n: number): number {
 export function estimateSchoolDeviceBond(
   inputs: SchoolDeviceBondInputs,
 ): SchoolDeviceBondResult {
-  const mode = inputs.mode;
+  const mode = VALID_MODES.includes(inputs.mode)
+    ? inputs.mode
+    : "full-return";
   const bondSgd = money(inputs.bondSgd);
   const overdueDays = clampDays(inputs.overdueDays);
   const overduePerDaySgd = money(inputs.overduePerDaySgd);
@@ -59,14 +73,16 @@ export function estimateSchoolDeviceBond(
     cashInSgd = bondSgd;
     cashOutSgd = money(adminFeeSgd + overdueTotal);
   } else if (mode === "damage-hold") {
+    // Damage is deducted from the returned bond — not charged again on top.
     cashInSgd = money(Math.max(0, bondSgd - damageSgd));
-    cashOutSgd = money(adminFeeSgd + overdueTotal + Math.min(damageSgd, bondSgd));
+    cashOutSgd = money(adminFeeSgd + overdueTotal);
   } else {
+    // Forfeit: bond is kept (no cash in) and replacement may be billed.
     cashInSgd = 0;
-    cashOutSgd = money(bondSgd + adminFeeSgd + overdueTotal + damageSgd);
+    cashOutSgd = money(adminFeeSgd + overdueTotal + damageSgd);
   }
 
-  const netSketchSgd = money(cashInSgd - cashOutSgd);
+  const netSketchSgd = signed(cashInSgd - cashOutSgd);
 
   const labels: Record<DeviceBondMode, string> = {
     "full-return": "On-time return · bond hope",

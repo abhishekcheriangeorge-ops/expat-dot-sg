@@ -1,4 +1,4 @@
-/** Shared navigation + IA for Humidity Editorial surfaces (Phase 1). */
+/** Shared navigation + IA for Straits Standard surfaces. */
 
 export type PillarSlug =
   | "move"

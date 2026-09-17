@@ -39,15 +39,20 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/** Signed rounding for nets and deltas — negatives carry meaning */
+function signed(n: number): number {
+  if (!Number.isFinite(n)) return 0;
+  return Math.round(n);
+}
+
 function clampDays(n: number): number {
-  if (!Number.isFinite(n) || n < 1) return 1;
+  if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(180, Math.floor(n));
 }
 
 export function estimateInsurancePortability(
   inputs: InsurancePortabilityInputs,
 ): InsurancePortabilityResult {
-  const mode = inputs.mode;
   const gapDays = clampDays(inputs.gapDays);
   const extendCostSgd = money(inputs.extendCostSgd);
   const bridgeCostSgd = money(inputs.bridgeCostSgd);
@@ -69,18 +74,24 @@ export function estimateInsurancePortability(
     }
   });
 
-  if (gapDays <= 21 && costs["gap-bridge"] <= costs["extend-sg"] + 80) {
-    recommended = "gap-bridge";
-    best = costs["gap-bridge"];
-  }
-  if (gapDays >= 60 && costs["cancel-and-start"] < costs["extend-sg"]) {
+  if (
+    gapDays >= 60 &&
+    costs["cancel-and-start"] < costs["extend-sg"] &&
+    costs["cancel-and-start"] <= best
+  ) {
     recommended = "cancel-and-start";
     best = costs["cancel-and-start"];
   }
 
-  const pathCostSgd = costs[mode];
+  const validMode =
+    inputs.mode === "extend-sg" ||
+    inputs.mode === "gap-bridge" ||
+    inputs.mode === "cancel-and-start"
+      ? inputs.mode
+      : "extend-sg";
+  const pathCostSgd = costs[validMode];
   const altCostSgd = costs[recommended];
-  const savingsVsAltSgd = money(pathCostSgd - altCostSgd);
+  const savingsVsAltSgd = signed(pathCostSgd - altCostSgd);
 
   const labels: Record<InsurancePortMode, string> = {
     "extend-sg": "Extend Singapore cover for the gap",
@@ -88,24 +99,24 @@ export function estimateInsurancePortability(
     "cancel-and-start": "Cancel SG · start destination cover",
   };
 
-  let headline = `${labels[mode]} · sketch ${pathCostSgd} SGD over ${gapDays} days`;
+  let headline = `${labels[validMode]} · sketch ${pathCostSgd} SGD over ${gapDays} days`;
   let note = INSURANCE_PORTABILITY_NOTE;
-  if (mode !== recommended) {
+  if (validMode !== recommended) {
     headline += ` · cheaper sketch: ${labels[recommended]}`;
   }
-  if (mode === "gap-bridge" && gapDays >= 45) {
+  if (validMode === "gap-bridge" && gapDays >= 45) {
     note =
       "Long bridge periods often cost more than a clean destination start — re-price if the gap stretches past six weeks.";
-  } else if (mode === "cancel-and-start" && gapDays <= 14) {
+  } else if (validMode === "cancel-and-start" && gapDays <= 14) {
     note =
       "Very short gaps can be cheaper on an extend or bridge path — confirm waiting periods before you cancel Singapore cover.";
-  } else if (mode === "extend-sg") {
+  } else if (validMode === "extend-sg") {
     note =
       "Extensions may not follow you overseas. Confirm territorial limits before you treat this as destination cover.";
   }
 
   return {
-    mode,
+    mode: validMode,
     gapDays,
     pathCostSgd,
     altCostSgd,

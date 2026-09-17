@@ -24,6 +24,7 @@ export type SchoolWithdrawalResult = {
 };
 
 function parseYmd(ymd: string): Date | null {
+  if (typeof ymd !== "string") return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
   if (!m) return null;
   const y = Number(m[1]);
@@ -66,13 +67,15 @@ function dayDiff(start: Date, end: Date): number {
 export function estimateSchoolWithdrawalNotice(
   inputs: SchoolWithdrawalInputs,
 ): SchoolWithdrawalResult {
-  const weeks = Math.floor(inputs.noticeWeeks);
+  const rawWeeks = Number(inputs.noticeWeeks);
+  const weeks = Number.isFinite(rawWeeks) ? Math.floor(rawWeeks) : NaN;
   const last = parseYmd(inputs.lastAttendance);
-  const termEnd = inputs.termEnd?.trim()
-    ? parseYmd(inputs.termEnd)
-    : null;
+  const termEnd =
+    typeof inputs.termEnd === "string" && inputs.termEnd.trim()
+      ? parseYmd(inputs.termEnd)
+      : null;
 
-  if (!last || weeks < 0 || weeks > 52) {
+  if (!last || !Number.isFinite(weeks) || weeks < 0 || weeks > 52) {
     return {
       lastAttendance: null,
       noticeDeadline: null,

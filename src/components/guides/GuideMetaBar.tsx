@@ -21,7 +21,7 @@ export function GuideMetaBar({ meta }: GuideMetaBarProps) {
     <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-ink-faint">
       <Link
         href={`/${meta.pillar}`}
-        className="rounded-sm bg-canopy/10 px-2 py-0.5 font-medium text-canopy no-underline hover:bg-canopy/15"
+        className="font-bold uppercase tracking-[0.14em] text-tungsten no-underline hover:underline"
       >
         {PILLAR_LABELS[meta.pillar]}
       </Link>

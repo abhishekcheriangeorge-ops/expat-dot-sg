@@ -31,6 +31,7 @@ export type HdbRenoDepositResult = {
 };
 
 function parseYmd(ymd: string): Date | null {
+  if (typeof ymd !== "string") return null;
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
   if (!m) return null;
   const y = Number(m[1]);
@@ -82,9 +83,19 @@ export function estimateHdbRenoDeposit(
     365,
     Math.max(0, Math.floor(Number(inputs.holdDays) || 0)),
   );
-  const defectCostSgd = money(inputs.defectCostSgd);
+  // Explicit 0 means no defect cost; missing input falls back to a 25% haircut.
+  const rawDefect: unknown = inputs.defectCostSgd;
+  const defectCostSgd =
+    typeof rawDefect !== "number" || Number.isNaN(rawDefect)
+      ? money(depositSgd * 0.25)
+      : money(rawDefect);
   const inspection = parseYmd(inputs.inspectionDate);
-  const outcome = inputs.outcome;
+  const outcome =
+    inputs.outcome === "clean-pass" ||
+    inputs.outcome === "minor-defects" ||
+    inputs.outcome === "major-forfeit"
+      ? inputs.outcome
+      : "minor-defects";
 
   let refundSketchSgd = depositSgd;
   let atRiskSgd = 0;
@@ -96,7 +107,7 @@ export function estimateHdbRenoDeposit(
     atRiskSgd = 0;
     headline = "Clean-pass sketch — full deposit return after hold window";
   } else if (outcome === "minor-defects") {
-    atRiskSgd = Math.min(depositSgd, money(defectCostSgd || depositSgd * 0.25));
+    atRiskSgd = Math.min(depositSgd, defectCostSgd);
     refundSketchSgd = money(depositSgd - atRiskSgd);
     headline =
       "Minor-defects sketch — partial deposit retained for make-good / admin";
