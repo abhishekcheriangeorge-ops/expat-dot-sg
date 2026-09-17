@@ -1,3 +1,6 @@
+import { JsonLd } from "@/components/seo";
+import { howToJsonLd } from "@/lib/seo";
+
 type ToolAboutProps = {
   /** Numbered methodology — what the sketch actually computes */
   how: string[];
@@ -22,11 +25,18 @@ export function ToolAbout({
   sourceHref,
   reviewed,
 }: ToolAboutProps) {
+  const howTo = howToJsonLd({
+    name: `How this sketch works — ${sourceLabel}`,
+    description: how[0],
+    steps: how,
+  });
+
   return (
     <section
       aria-labelledby="tool-about-heading"
       className="mt-14 border-t border-ink pt-10"
     >
+      {howTo ? <JsonLd data={howTo} /> : null}
       <h2
         id="tool-about-heading"
         className="font-display text-2xl font-medium tracking-tight text-ink"

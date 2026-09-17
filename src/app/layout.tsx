@@ -24,9 +24,14 @@ export const metadata: Metadata = {
   keywords: [
     "Singapore expat",
     "Employment Pass",
+    "S Pass",
+    "Dependant Pass",
     "international schools Singapore",
     "Singapore neighbourhoods",
     "expat living Singapore",
+    "IRAS tax clearance",
+    "leaving Singapore",
+    "CPF withdrawal foreigner",
   ],
   openGraph: {
     type: "website",
@@ -45,9 +50,20 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
-  // Canonicals are page-owned via buildPageMetadata / page exports.
-  // A root "/" canonical would incorrectly inherit onto child routes.
+  alternates: {
+    types: {
+      "application/rss+xml": "/rss.xml",
+      "text/plain": "/llms.txt",
+    },
+  },
 };
 
 export const viewport: Viewport = {
@@ -61,7 +77,7 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="en"
+      lang="en-SG"
       className={`${fontDisplay.variable} ${fontSans.variable} h-full`}
     >
       <body className="flex min-h-full flex-col antialiased">

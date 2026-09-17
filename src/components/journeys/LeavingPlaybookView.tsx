@@ -1,14 +1,26 @@
 import Link from "next/link";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
+import { JsonLd } from "@/components/seo";
 import type { LeavingPlaybook } from "@/lib/content";
+import { howToJsonLd } from "@/lib/seo";
 
 type LeavingPlaybookViewProps = {
   playbook: LeavingPlaybook;
 };
 
 export function LeavingPlaybookView({ playbook }: LeavingPlaybookViewProps) {
+  const howTo = howToJsonLd({
+    name: playbook.title,
+    description: playbook.summary,
+    steps: playbook.sections.map((section) => ({
+      name: section.title,
+      text: section.body,
+    })),
+  });
+
   return (
     <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
+      {howTo ? <JsonLd data={howTo} /> : null}
       <FadeIn>
         <p className="max-w-2xl text-base leading-relaxed text-ink-muted">
           {playbook.summary}

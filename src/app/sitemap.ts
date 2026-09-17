@@ -1,3 +1,5 @@
+import { readdir } from "node:fs/promises";
+import path from "node:path";
 import type { MetadataRoute } from "next";
 import {
   getAllGuides,
@@ -26,111 +28,30 @@ const STATIC_PATHS: Array<{
   { path: "/clubs", changeFrequency: "weekly", priority: 0.85 },
   { path: "/directory", changeFrequency: "weekly", priority: 0.85 },
   { path: "/journeys", changeFrequency: "monthly", priority: 0.8 },
-  { path: "/journeys/arriving", changeFrequency: "monthly", priority: 0.75 },
-  { path: "/journeys/pre-arrival", changeFrequency: "monthly", priority: 0.75 },
-  {
-    path: "/journeys/singpass-myinfo-exit",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/mover-lift-booking",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/condo-visitor-qr-exit",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/condo-ev-charger-clear",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/utility-meter-photo-handoff",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/condo-visitor-parking-clear",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/condo-access-card-deposit",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/cpf-nomination-exit",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  {
-    path: "/journeys/pharmacy-chronic-script-exit",
-    changeFrequency: "monthly",
-    priority: 0.75,
-  },
-  { path: "/journeys/leaving", changeFrequency: "monthly", priority: 0.75 },
   { path: "/calendar", changeFrequency: "weekly", priority: 0.7 },
   { path: "/tools", changeFrequency: "monthly", priority: 0.7 },
-  { path: "/tools/setup-cash", changeFrequency: "monthly", priority: 0.65 },
-  { path: "/tools/lease-duty", changeFrequency: "monthly", priority: 0.65 },
-  { path: "/tools/lease-notice", changeFrequency: "monthly", priority: 0.65 },
-  { path: "/tools/cost-of-living", changeFrequency: "monthly", priority: 0.65 },
-  { path: "/tools/ep-threshold", changeFrequency: "monthly", priority: 0.65 },
-  {
-    path: "/tools/school-deposit-clawback",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/foreign-licence-clock",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/school-device-bond",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/school-cca-kit-bond",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/school-exam-ib-deposit",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/helper-levy-final-month",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/bank-statement-archive",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/school-bus-last-week-float",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
-  {
-    path: "/tools/pharmacy-last-refill-float",
-    changeFrequency: "monthly",
-    priority: 0.65,
-  },
   { path: "/sponsored", changeFrequency: "weekly", priority: 0.55 },
   { path: "/advertise", changeFrequency: "monthly", priority: 0.6 },
   { path: "/about", changeFrequency: "yearly", priority: 0.5 },
   { path: "/editorial-policy", changeFrequency: "yearly", priority: 0.5 },
 ];
+
+async function listAppChildPaths(segment: string): Promise<string[]> {
+  const dir = path.join(process.cwd(), "src/app", segment);
+  try {
+    const entries = await readdir(dir, { withFileTypes: true });
+    return entries
+      .filter(
+        (entry) =>
+          entry.isDirectory() &&
+          !entry.name.startsWith("[") &&
+          !entry.name.startsWith("_"),
+      )
+      .map((entry) => `/${segment}/${entry.name}`);
+  } catch {
+    return [];
+  }
+}
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
@@ -143,6 +64,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     services,
     sponsored,
     checklists,
+    toolPaths,
+    journeyPaths,
   ] = await Promise.all([
     getAllGuides(),
     getNeighbourhoods(),
@@ -151,72 +74,103 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     getServices(),
     getAllSponsoredPosts(),
     getChecklists(),
+    listAppChildPaths("tools"),
+    listAppChildPaths("journeys"),
   ]);
 
   const serviceCategories = ServiceCategorySchema.options;
+  const seen = new Set<string>();
+  const entries: MetadataRoute.Sitemap = [];
 
-  const entries: MetadataRoute.Sitemap = [
-    ...STATIC_PATHS.map((item) => ({
-      url: absoluteUrl(item.path),
-      lastModified: now,
+  function add(
+    pathName: string,
+    options: {
+      lastModified?: Date;
+      changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
+      priority: number;
+    },
+  ) {
+    const url = absoluteUrl(pathName);
+    if (seen.has(url)) return;
+    seen.add(url);
+    entries.push({
+      url,
+      lastModified: options.lastModified ?? now,
+      changeFrequency: options.changeFrequency,
+      priority: options.priority,
+    });
+  }
+
+  for (const item of STATIC_PATHS) {
+    add(item.path, {
       changeFrequency: item.changeFrequency,
       priority: item.priority,
-    })),
-    ...pillars.map((pillar) => ({
-      url: absoluteUrl(pillar.href),
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    })),
-    ...guides.map((guide) => ({
-      url: absoluteUrl(`/guides/${guide.slug}`),
+    });
+  }
+
+  for (const pillar of pillars) {
+    add(pillar.href, { changeFrequency: "weekly", priority: 0.8 });
+  }
+
+  for (const href of toolPaths) {
+    add(href, { changeFrequency: "monthly", priority: 0.65 });
+  }
+
+  for (const href of journeyPaths) {
+    add(href, { changeFrequency: "monthly", priority: 0.75 });
+  }
+
+  for (const guide of guides) {
+    add(`/guides/${guide.slug}`, {
       lastModified: new Date(guide.lastReviewed),
-      changeFrequency: "monthly" as const,
+      changeFrequency: "monthly",
       priority: 0.75,
-    })),
-    ...neighbourhoods.map((n) => ({
-      url: absoluteUrl(`/neighbourhoods/${n.slug}`),
-      lastModified: now,
-      changeFrequency: "monthly" as const,
+    });
+  }
+
+  for (const n of neighbourhoods) {
+    add(`/neighbourhoods/${n.slug}`, {
+      changeFrequency: "monthly",
       priority: 0.7,
-    })),
-    ...schools.map((s) => ({
-      url: absoluteUrl(`/schools/${s.slug}`),
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    })),
-    ...clubs.map((c) => ({
-      url: absoluteUrl(`/clubs/${c.slug}`),
-      lastModified: now,
-      changeFrequency: "monthly" as const,
+    });
+  }
+
+  for (const s of schools) {
+    add(`/schools/${s.slug}`, { changeFrequency: "monthly", priority: 0.7 });
+  }
+
+  for (const c of clubs) {
+    add(`/clubs/${c.slug}`, { changeFrequency: "monthly", priority: 0.65 });
+  }
+
+  for (const category of serviceCategories) {
+    add(`/directory/${category}`, {
+      changeFrequency: "weekly",
       priority: 0.65,
-    })),
-    ...serviceCategories.map((category) => ({
-      url: absoluteUrl(`/directory/${category}`),
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 0.65,
-    })),
-    ...services.map((s) => ({
-      url: absoluteUrl(`/directory/${s.category}/${s.slug}`),
-      lastModified: now,
-      changeFrequency: "monthly" as const,
+    });
+  }
+
+  for (const s of services) {
+    add(`/directory/${s.category}/${s.slug}`, {
+      changeFrequency: "monthly",
       priority: 0.6,
-    })),
-    ...sponsored.map((post) => ({
-      url: absoluteUrl(`/sponsored/${post.slug}`),
+    });
+  }
+
+  for (const post of sponsored) {
+    add(`/sponsored/${post.slug}`, {
       lastModified: new Date(post.publishedAt),
-      changeFrequency: "monthly" as const,
+      changeFrequency: "monthly",
       priority: 0.4,
-    })),
-    ...checklists.map((c) => ({
-      url: absoluteUrl(`/journeys/arriving/${c.phase}`),
-      lastModified: now,
-      changeFrequency: "monthly" as const,
+    });
+  }
+
+  for (const c of checklists) {
+    add(`/journeys/arriving/${c.phase}`, {
+      changeFrequency: "monthly",
       priority: 0.7,
-    })),
-  ];
+    });
+  }
 
   return entries;
 }

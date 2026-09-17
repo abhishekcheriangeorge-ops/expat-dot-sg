@@ -6,6 +6,7 @@ import type { SponsorPlacement } from "@/lib/content/schemas";
 import type { TocItem } from "@/lib/content/toc";
 import { Breadcrumbs } from "@/components/seo";
 import { GuideCitations } from "./GuideCitations";
+import { GuideFaqs } from "./GuideFaqs";
 import { GuideMetaBar } from "./GuideMetaBar";
 import { GuideRelated } from "./GuideRelated";
 import { GuideRelatedEntities } from "./GuideRelatedEntities";
@@ -47,7 +48,10 @@ export function GuideArticle({
         <h1 className="font-display mt-4 text-4xl font-medium leading-[1.08] tracking-[-0.025em] text-ink sm:text-5xl">
           {meta.title}
         </h1>
-        <p className="mt-5 max-w-[40rem] text-lg leading-relaxed text-ink-muted">
+        <p
+          data-speakable
+          className="mt-5 max-w-[40rem] text-lg leading-relaxed text-ink-muted"
+        >
           {meta.description}
         </p>
         <div className="mt-6">
@@ -67,6 +71,7 @@ export function GuideArticle({
           />
 
           <div className="mt-14 max-w-[var(--max-prose)] space-y-14">
+            <GuideFaqs faqs={meta.faqs ?? []} />
             <GuideCitations citations={meta.citations} />
             <GuideRelatedEntities entities={relatedEntities} />
             <GuideRelated guides={related} />

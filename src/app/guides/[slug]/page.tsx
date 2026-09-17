@@ -39,6 +39,8 @@ export async function generateMetadata({
     path: `/guides/${slug}`,
     type: "article",
     images: guide.meta.ogImage ? [guide.meta.ogImage] : undefined,
+    publishedTime: guide.meta.lastReviewed,
+    modifiedTime: guide.meta.lastReviewed,
   });
 }
 
@@ -76,6 +78,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
             path: `/guides/${slug}`,
             dateModified: guide.meta.lastReviewed,
             image: guide.meta.ogImage,
+            citations: guide.meta.citations,
           }),
           breadcrumbJsonLd(crumbs),
         ]}

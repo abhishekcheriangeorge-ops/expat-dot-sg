@@ -21,6 +21,20 @@ export const metadata: Metadata = buildPageMetadata({
   path: "/guides",
 });
 
+type GuidesIndexProps = {
+  searchParams: Promise<{ q?: string }>;
+};
+
+function matchesQuery(guide: GuideMeta, query: string) {
+  if (!query) return true;
+  const hay = `${guide.title} ${guide.description} ${guide.slug}`.toLowerCase();
+  return query
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .every((term) => hay.includes(term));
+}
+
 const PILLAR_ORDER: Pillar[] = [
   "move",
   "home",
@@ -40,8 +54,11 @@ function groupByPillar(guides: GuideMeta[]): Map<Pillar, GuideMeta[]> {
   return map;
 }
 
-export default async function GuidesIndexPage() {
-  const guides = await getAllGuides();
+export default async function GuidesIndexPage({ searchParams }: GuidesIndexProps) {
+  const { q = "" } = await searchParams;
+  const query = q.trim();
+  const all = await getAllGuides();
+  const guides = all.filter((guide) => matchesQuery(guide, query));
   const grouped = groupByPillar(guides);
   const crumbs = [
     { name: "Home", path: "/" },
@@ -80,8 +97,22 @@ export default async function GuidesIndexPage() {
             official sources — and show when we last reviewed them.
           </p>
           <p className="mt-3 text-sm text-ink-faint">
-            {guides.length} published guides
+            {query
+              ? `${guides.length} of ${all.length} guides matching “${query}”`
+              : `${all.length} published guides`}
           </p>
+          <form action="/guides" method="get" className="mt-6 max-w-md" role="search">
+            <label className="block">
+              <span className="sr-only">Search guides</span>
+              <input
+                type="search"
+                name="q"
+                defaultValue={query}
+                placeholder="Search guides"
+                className="w-full rounded-sm border border-ink/20 bg-paper-elevated px-4 py-3 text-sm text-ink placeholder:text-ink-faint focus:border-tungsten focus:outline-2 focus:outline-tungsten"
+              />
+            </label>
+          </form>
           <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm font-bold">
             {PILLAR_ORDER.map((pillar) => (
               <li key={pillar}>
@@ -97,6 +128,19 @@ export default async function GuidesIndexPage() {
         </header>
 
         <div className="mt-14 space-y-16">
+          {query && guides.length === 0 ? (
+            <p className="max-w-prose text-ink-muted">
+              No guides match that query. Try a pass type, neighbourhood, or
+              agency name — or{" "}
+              <Link
+                href="/guides"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+              >
+                clear the search
+              </Link>
+              .
+            </p>
+          ) : null}
           {PILLAR_ORDER.map((pillar) => {
             const items = grouped.get(pillar) ?? [];
             if (items.length === 0) return null;

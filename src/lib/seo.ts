@@ -27,21 +27,30 @@ export function buildPageMetadata({
   path,
   type = "website",
   images,
+  publishedTime,
+  modifiedTime,
+  keywords,
 }: {
   title: string;
   description: string;
   path: string;
   type?: "website" | "article";
   images?: string[];
+  publishedTime?: string;
+  modifiedTime?: string;
+  keywords?: string[];
 }): Metadata {
   const url = absoluteUrl(path);
   const ogImages = (images?.length ? images : [DEFAULT_OG_PATH]).map((src) =>
     src.startsWith("http") ? src : absoluteUrl(src),
   );
+  const modified = modifiedTime ?? publishedTime;
 
   return {
     title,
     description,
+    keywords,
+    authors: [{ name: SITE_NAME, url: getSiteUrl() }],
     alternates: { canonical: url },
     openGraph: {
       title,
@@ -50,7 +59,14 @@ export function buildPageMetadata({
       siteName: SITE_NAME,
       type,
       locale: "en_SG",
-      images: ogImages.map((url) => ({ url })),
+      images: ogImages.map((imageUrl) => ({ url: imageUrl })),
+      ...(type === "article"
+        ? {
+            publishedTime: publishedTime ?? modified,
+            modifiedTime: modified,
+            authors: [SITE_NAME],
+          }
+        : {}),
     },
     twitter: {
       card: "summary_large_image",
@@ -62,13 +78,34 @@ export function buildPageMetadata({
 }
 
 export function organizationJsonLd() {
+  const logoUrl = absoluteUrl(DEFAULT_OG_PATH);
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE_NAME,
     url: getSiteUrl(),
     description: SITE_DESCRIPTION,
-    logo: absoluteUrl("/opengraph-image"),
+    inLanguage: "en-SG",
+    logo: {
+      "@type": "ImageObject",
+      url: logoUrl,
+    },
+    image: logoUrl,
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "SG",
+      addressLocality: "Singapore",
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Singapore",
+    },
+    knowsAbout: [
+      "Singapore Employment Pass",
+      "expat living in Singapore",
+      "international schools Singapore",
+      "IRAS tax clearance",
+    ],
   };
 }
 
@@ -79,9 +116,19 @@ export function websiteJsonLd() {
     name: SITE_NAME,
     url: getSiteUrl(),
     description: SITE_DESCRIPTION,
+    inLanguage: "en-SG",
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
+      url: getSiteUrl(),
+    },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${getSiteUrl()}/guides?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
     },
   };
 }
@@ -94,26 +141,52 @@ export function articleJsonLd(input: {
   datePublished?: string;
   authorName?: string;
   image?: string;
+  citations?: Array<{ label: string; url: string }>;
 }) {
+  const url = absoluteUrl(input.path);
   return {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: input.headline,
     description: input.description,
-    url: absoluteUrl(input.path),
+    url,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+    inLanguage: "en-SG",
+    isAccessibleForFree: true,
     dateModified: input.dateModified,
     datePublished: input.datePublished ?? input.dateModified,
     image: input.image
       ? absoluteUrl(input.image)
       : absoluteUrl(DEFAULT_OG_PATH),
+    about: {
+      "@type": "Place",
+      name: "Singapore",
+    },
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", "[data-speakable]"],
+    },
+    citation: input.citations?.map((citation) => ({
+      "@type": "CreativeWork",
+      name: citation.label,
+      url: citation.url,
+    })),
     author: {
       "@type": "Organization",
       name: input.authorName ?? SITE_NAME,
+      url: getSiteUrl(),
     },
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
       url: getSiteUrl(),
+      logo: {
+        "@type": "ImageObject",
+        url: absoluteUrl(DEFAULT_OG_PATH),
+      },
     },
   };
 }
@@ -126,6 +199,7 @@ export function faqJsonLd(
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    inLanguage: "en-SG",
     mainEntity: faqs.map((faq) => ({
       "@type": "Question",
       name: faq.question,
@@ -134,6 +208,34 @@ export function faqJsonLd(
         text: faq.answer,
       },
     })),
+  };
+}
+
+export function howToJsonLd(input: {
+  name: string;
+  description?: string;
+  path?: string;
+  steps: Array<string | { name: string; text: string }>;
+}): Record<string, unknown> | null {
+  if (!input.steps.length) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: input.name,
+    description: input.description,
+    url: input.path ? absoluteUrl(input.path) : undefined,
+    inLanguage: "en-SG",
+    isAccessibleForFree: true,
+    step: input.steps.map((step, index) => {
+      const name = typeof step === "string" ? step : step.name;
+      const text = typeof step === "string" ? step : step.text;
+      return {
+        "@type": "HowToStep",
+        position: index + 1,
+        name,
+        text,
+      };
+    }),
   };
 }
 
@@ -193,6 +295,7 @@ export function collectionPageJsonLd(input: {
     name: input.name,
     description: input.description,
     url: absoluteUrl(input.path),
+    inLanguage: "en-SG",
     isPartOf: {
       "@type": "WebSite",
       name: SITE_NAME,
