@@ -744,7 +744,7 @@ export const primaryNavDesktop = [
   { href: "/living", label: "Living" },
   { href: "/journeys/leaving", label: "Leaving" },
   { href: "/guides", label: "Guides" },
-  { href: "/neighbourhoods", label: "Areas" },
+  { href: "/neighbourhoods", label: "Neighbourhoods" },
   { href: "/schools", label: "Schools" },
   { href: "/tools", label: "Tools" },
 ] as const;

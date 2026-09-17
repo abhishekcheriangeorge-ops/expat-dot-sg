@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import { getAllGuides, PILLAR_LABELS } from "@/lib/content/guides";
+import { getAllGuides } from "@/lib/content/guides";
 import {
   breadcrumbJsonLd,
   collectionPageJsonLd,
@@ -25,7 +25,7 @@ export async function PillarPage({ slug }: PillarPageProps) {
       .map((topicSlug) => bySlug.get(topicSlug))
       .filter((guide): guide is NonNullable<typeof guide> => Boolean(guide)),
     ...guides.filter((guide) => !topicSlugs.includes(guide.slug)),
-  ].slice(0, 8);
+  ].slice(0, 12);
 
   const crumbs = [
     { name: "Home", path: "/" },
@@ -38,7 +38,7 @@ export async function PillarPage({ slug }: PillarPageProps) {
         data={[
           breadcrumbJsonLd(crumbs),
           collectionPageJsonLd({
-            name: `${pillar.label} — ${PILLAR_LABELS[slug]} guides`,
+            name: `${pillar.label} — ${pillar.tagline}`,
             description: pillar.summary,
             path: pillar.href,
             items: [

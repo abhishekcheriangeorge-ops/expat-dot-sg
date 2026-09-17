@@ -81,7 +81,7 @@ const loadParsedGuides = cache(async () => {
   return Promise.all(files.map(parseGuideFile));
 });
 
-/** All published guide frontmatter, newest review date first */
+/** All published guide frontmatter, alphabetical. Clones excluded by filename. */
 export async function getAllGuides(options?: {
   includeDrafts?: boolean;
   pillar?: Pillar;

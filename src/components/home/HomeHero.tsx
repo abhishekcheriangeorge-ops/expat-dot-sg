@@ -1,9 +1,21 @@
 import Link from "next/link";
 
 const LEDGER = [
-  { label: "EP qualifying salary", value: "S$5,600 · Sep 26" },
-  { label: "Tiong Bahru 2-bed", value: "S$6,800 · ▲ 2%" },
-  { label: "UWC Dover Y4–Y6", value: "Waitlist open" },
+  {
+    label: "EP salary floors",
+    value: "From S$5,600",
+    href: "/guides/employment-pass-singapore",
+  },
+  {
+    label: "Lease stamp duty",
+    value: "0.4% of rent",
+    href: "/guides/renting-process-loi-ta-deposits",
+  },
+  {
+    label: "STVP after EP cancel",
+    value: "Up to 90 days",
+    href: "/guides/between-jobs-stvp-singapore",
+  },
 ];
 
 export function HomeHero() {
@@ -61,10 +73,10 @@ export function HomeHero() {
             />
             <div>
               <p className="text-[11px] font-bold uppercase tracking-[0.24em] text-tungsten-soft">
-                This week&apos;s ledger
+                The ledger
               </p>
               <p className="mt-4 font-display text-3xl font-medium leading-[1.12]">
-                COMPASS, rents &amp; the Bukit Timah question.
+                Numbers that decide moves.
               </p>
               <ul className="mt-6">
                 {LEDGER.map((row) => (
@@ -72,9 +84,12 @@ export function HomeHero() {
                     key={row.label}
                     className="flex items-baseline justify-between gap-4 border-b border-tungsten-soft/20 py-3 text-sm"
                   >
-                    <span className="font-semibold text-paper/70">
+                    <Link
+                      href={row.href}
+                      className="font-semibold text-paper/70 no-underline hover:text-paper"
+                    >
                       {row.label}
-                    </span>
+                    </Link>
                     <span className="whitespace-nowrap font-display text-lg text-tungsten-soft">
                       {row.value}
                     </span>

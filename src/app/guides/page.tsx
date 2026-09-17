@@ -75,10 +75,16 @@ export default async function GuidesIndexPage({ searchParams }: GuidesIndexProps
             description:
               "Cornerstone guides for Singapore expat life across seven pillars.",
             path: "/guides",
-            items: PILLAR_ORDER.map((pillar) => ({
-              name: PILLAR_LABELS[pillar],
-              path: `/${pillar}`,
-            })),
+            items: [
+              ...PILLAR_ORDER.map((pillar) => ({
+                name: PILLAR_LABELS[pillar],
+                path: `/${pillar}`,
+              })),
+              ...all.slice(0, 40).map((guide) => ({
+                name: guide.title,
+                path: `/guides/${guide.slug}`,
+              })),
+            ],
           }),
         ]}
       />
@@ -94,15 +100,15 @@ export default async function GuidesIndexPage({ searchParams }: GuidesIndexProps
           <p className="mt-5 text-lg leading-relaxed text-ink-muted">
             Plain-English, locally precise guides across the seven pillars of
             Singapore expat life. Admin topics cite MOM, ICA, IRAS, and other
-            official sources — and show when we last reviewed them.
+            official sources.
           </p>
-          <p className="mt-3 text-sm text-ink-faint">
+          <p className="mt-3 text-sm text-ink-faint" role="status">
             {query
               ? `${guides.length} of ${all.length} guides matching “${query}”`
               : `${all.length} published guides`}
           </p>
-          <form action="/guides" method="get" className="mt-6 max-w-md" role="search">
-            <label className="block">
+          <form action="/guides" method="get" className="mt-6 flex max-w-md gap-2" role="search">
+            <label className="block flex-1">
               <span className="sr-only">Search guides</span>
               <input
                 type="search"
@@ -112,6 +118,12 @@ export default async function GuidesIndexPage({ searchParams }: GuidesIndexProps
                 className="w-full rounded-sm border border-ink/20 bg-paper-elevated px-4 py-3 text-sm text-ink placeholder:text-ink-faint focus:border-tungsten focus:outline-2 focus:outline-tungsten"
               />
             </label>
+            <button
+              type="submit"
+              className="shrink-0 rounded-sm border border-ink bg-ink px-5 text-[12px] font-bold uppercase tracking-[0.08em] text-paper hover:bg-canopy"
+            >
+              Search
+            </button>
           </form>
           <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-sm font-bold">
             {PILLAR_ORDER.map((pillar) => (

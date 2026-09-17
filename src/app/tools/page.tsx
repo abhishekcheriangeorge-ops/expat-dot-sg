@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Tools",
   description:
-    "Singapore expat utilities — first-month cash, lease stamp duty, diplomatic-clause notice dates, cost of living, Employment Pass salary threshold, school deposit clawback, foreign licence clock, school device bond, school CCA kit bond, school exam / IB deposit, and school bus last-week float.",
+    "Sketch the number before the decision — move-in cash, lease duty, EP salary floors, school deposits, and exit floats.",
   path: "/tools",
 });
 
@@ -216,26 +216,59 @@ const tools = [
   },
 ] as const;
 
-const LAND = new Set<string>([
-  "/tools/setup-cash",
-  "/tools/ipa-window",
-  "/tools/ep-threshold",
-  "/tools/cost-of-living",
-  "/tools/agent-commission",
-  "/tools/foreign-licence-clock",
-]);
-
-const LIVE = new Set<string>([
-  "/tools/lease-duty",
-  "/tools/lease-notice",
-  "/tools/tax-residency",
-  "/tools/fdw-levy",
-  "/tools/helper-levy-final-month",
-  "/tools/fibre-broadband-etf",
-  "/tools/school-device-bond",
-  "/tools/school-cca-kit-bond",
-  "/tools/school-exam-ib-deposit",
-]);
+const GROUPS: Array<{ id: string; label: string; hrefs: Set<string> }> = [
+  {
+    id: "cash-housing",
+    label: "Cash & housing",
+    hrefs: new Set([
+      "/tools/setup-cash",
+      "/tools/cost-of-living",
+      "/tools/lease-duty",
+      "/tools/lease-notice",
+      "/tools/agent-commission",
+      "/tools/storage-months",
+      "/tools/hdb-reno-deposit",
+    ]),
+  },
+  {
+    id: "work-money",
+    label: "Work & money",
+    hrefs: new Set([
+      "/tools/ep-threshold",
+      "/tools/ipa-window",
+      "/tools/tax-residency",
+      "/tools/ir21-withhold",
+      "/tools/cpf-withdrawal",
+      "/tools/fdw-levy",
+      "/tools/helper-levy-final-month",
+      "/tools/foreign-licence-clock",
+      "/tools/driving-insurance-gap",
+      "/tools/car-coe-exit",
+      "/tools/fibre-broadband-etf",
+      "/tools/sim-otp-keep",
+    ]),
+  },
+  {
+    id: "school-family",
+    label: "School & family",
+    hrefs: new Set([
+      "/tools/school-deposit-clawback",
+      "/tools/school-device-bond",
+      "/tools/school-cca-kit-bond",
+      "/tools/school-exam-ib-deposit",
+      "/tools/school-withdrawal",
+      "/tools/school-leavers-fee",
+      "/tools/school-bus-last-week-float",
+      "/tools/tuition-centre-bond",
+      "/tools/pet-quarantine-float",
+    ]),
+  },
+  {
+    id: "close-out",
+    label: "Close-out",
+    hrefs: new Set(),
+  },
+];
 
 export default function ToolsIndexPage() {
   const crumbs = [
@@ -267,24 +300,25 @@ export default function ToolsIndexPage() {
       </div>
       <JourneyHero
         eyebrow="Tools"
-        title="Land, live, leave — sketched."
+        title="The number before the decision."
         summary="Cash, duty, notice, and exit floats. Open the one a playbook pointed at."
       />
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
-        {(["land", "live", "leave"] as const).map((id) => {
+        {GROUPS.map((group) => {
           const grouped =
-            id === "land"
-              ? tools.filter((tool) => LAND.has(tool.href))
-              : id === "live"
-                ? tools.filter((tool) => LIVE.has(tool.href))
-                : tools.filter(
-                    (tool) => !LAND.has(tool.href) && !LIVE.has(tool.href),
-                  );
-          const label =
-            id === "land" ? "Land" : id === "live" ? "Live" : "Leave";
+            group.id === "close-out"
+              ? tools.filter(
+                  (tool) =>
+                    !GROUPS.some(
+                      (g) => g.id !== "close-out" && g.hrefs.has(tool.href),
+                    ),
+                )
+              : tools.filter((tool) => group.hrefs.has(tool.href));
+          const label = group.label;
+          if (grouped.length === 0) return null;
           return (
-            <section key={id} className="mb-14">
+            <section key={group.id} className="mb-14">
               <h2 className="border-b border-ink pb-3 font-display text-2xl font-medium text-ink">
                 {label}
               </h2>

@@ -13,6 +13,7 @@ import {
 import { absoluteUrl } from "@/lib/seo";
 import { pillars } from "@/lib/site";
 import { ServiceCategorySchema } from "@/lib/content/schemas";
+import { isCloneSlug } from "@/lib/content/clones";
 
 const STATIC_PATHS: Array<{
   path: string;
@@ -53,15 +54,14 @@ const CORNERSTONE_SLUGS = new Set([
   "tax-clearance-when-leaving",
   "healthcare-gp-hospital",
   "paynow-setup-foreigners-singapore",
+  "sports-fitness-singapore",
+  "find-my-people-singapore",
+  "dual-career-spouse-singapore",
+  "activesg-swimming-pools-singapore",
+  "unpaid-internship-volunteer-work-pass-singapore",
+  "brokerage-cdp-account-foreigners-singapore",
+  "usd-offshore-payroll-employment-pass",
 ]);
-
-function isThinGuideSlug(slug: string) {
-  return (
-    slug.startsWith("activesg-") ||
-    slug.includes("dual-career-") ||
-    slug.endsWith("-parent-belonging-singapore")
-  );
-}
 
 async function listAppChildPaths(segment: string): Promise<string[]> {
   const dir = path.join(process.cwd(), "src/app", segment);
@@ -148,11 +148,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   for (const guide of guides) {
+    // getAllGuides already excludes clones; isCloneSlug is a safety net.
     add(`/guides/${guide.slug}`, {
       changeFrequency: "monthly",
       priority: CORNERSTONE_SLUGS.has(guide.slug)
         ? 0.9
-        : isThinGuideSlug(guide.slug)
+        : isCloneSlug(guide.slug)
           ? 0.35
           : 0.7,
     });

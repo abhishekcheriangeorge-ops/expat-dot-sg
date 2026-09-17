@@ -10,6 +10,19 @@ type ModeHubProps = {
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII"] as const;
 
+const MODE_CROSS_LINKS = {
+  arriving: [
+    { href: "/journeys/arriving", label: "7 / 30 / 90 checklists" },
+    { href: "/tools/setup-cash", label: "Cash to land" },
+    { href: "/tools/cost-of-living", label: "Cost of living" },
+  ],
+  living: [
+    { href: "/journeys/leaving", label: "Leaving playbook" },
+    { href: "/tools/lease-notice", label: "Lease notice dates" },
+    { href: "/tools/school-deposit-clawback", label: "School deposit" },
+  ],
+} as const;
+
 export function ModeHub({ mode }: ModeHubProps) {
   const data = modes.find((m) => m.slug === mode);
   if (!data) throw new Error(`Unknown mode: ${mode}`);
@@ -177,6 +190,17 @@ export function ModeHub({ mode }: ModeHubProps) {
             >
               Leaving
             </Link>
+          </div>
+          <div className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
+            {MODE_CROSS_LINKS[mode].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-sm py-1 text-sm font-semibold text-tungsten-soft no-underline underline-offset-4 hover:text-paper hover:underline"
+              >
+                {link.label} <span aria-hidden="true">→</span>
+              </Link>
+            ))}
           </div>
         </FadeIn>
       </section>

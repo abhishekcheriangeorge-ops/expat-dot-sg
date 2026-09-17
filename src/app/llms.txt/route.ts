@@ -8,6 +8,7 @@ import {
   absoluteUrl,
 } from "@/lib/seo";
 import { pillars } from "@/lib/site";
+import { isCloneSlug } from "@/lib/content/clones";
 
 export const dynamic = "force-static";
 
@@ -29,14 +30,6 @@ function line(label: string, href: string, blurb?: string) {
   return `- [${label}](${absoluteUrl(href)})${suffix}`;
 }
 
-function isThinGuideSlug(slug: string) {
-  return (
-    slug.startsWith("activesg-") ||
-    slug.includes("dual-career-") ||
-    slug.endsWith("-parent-belonging-singapore")
-  );
-}
-
 const CITE_FIRST = [
   "employment-pass-singapore",
   "compass-framework-explained",
@@ -54,6 +47,8 @@ const CITE_FIRST = [
   "paynow-setup-foreigners-singapore",
   "sports-fitness-singapore",
   "find-my-people-singapore",
+  "dual-career-spouse-singapore",
+  "activesg-swimming-pools-singapore",
   "unpaid-internship-volunteer-work-pass-singapore",
   "brokerage-cdp-account-foreigners-singapore",
   "usd-offshore-payroll-employment-pass",
@@ -66,7 +61,7 @@ export async function GET() {
     (g): g is NonNullable<typeof g> => Boolean(g),
   );
   const rest = guides.filter(
-    (g) => !CITE_FIRST.includes(g.slug) && !isThinGuideSlug(g.slug),
+    (g) => !CITE_FIRST.includes(g.slug) && !isCloneSlug(g.slug),
   );
 
   const body = [
