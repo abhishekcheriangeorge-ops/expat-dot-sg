@@ -57,6 +57,16 @@ export function GuideArticle({
         <div className="mt-6">
           <GuideMetaBar meta={meta} />
         </div>
+        {toc.length > 0 ? (
+          <details className="mt-8 lg:hidden">
+            <summary className="cursor-pointer text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
+              On this page
+            </summary>
+            <div className="mt-3">
+              <GuideToc items={toc} />
+            </div>
+          </details>
+        ) : null}
       </header>
 
       <div className="mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_14rem] lg:gap-16 xl:grid-cols-[minmax(0,1fr)_16rem]">

@@ -29,29 +29,69 @@ function line(label: string, href: string, blurb?: string) {
   return `- [${label}](${absoluteUrl(href)})${suffix}`;
 }
 
+function isThinGuideSlug(slug: string) {
+  return (
+    slug.startsWith("activesg-") ||
+    slug.includes("dual-career-") ||
+    slug.endsWith("-parent-belonging-singapore")
+  );
+}
+
+const CITE_FIRST = [
+  "employment-pass-singapore",
+  "compass-framework-explained",
+  "renting-process-loi-ta-deposits",
+  "international-schools-landscape",
+  "opening-bank-account-expat",
+  "iras-tax-residency-filing",
+  "leaving-singapore-playbook",
+  "between-jobs-stvp-singapore",
+  "tax-clearance-when-leaving",
+  "first-week-sim-singpass-bank",
+  "sg-arrival-card-expats",
+  "cost-of-living-by-household",
+  "healthcare-gp-hospital",
+  "paynow-setup-foreigners-singapore",
+  "sports-fitness-singapore",
+];
+
 export async function GET() {
   const [guides, tools] = await Promise.all([getAllGuides(), toolHrefs()]);
+  const bySlug = new Map(guides.map((g) => [g.slug, g]));
+  const hubs = CITE_FIRST.map((slug) => bySlug.get(slug)).filter(
+    (g): g is NonNullable<typeof g> => Boolean(g),
+  );
+  const rest = guides.filter(
+    (g) => !CITE_FIRST.includes(g.slug) && !isThinGuideSlug(g.slug),
+  );
 
   const body = [
     `# ${SITE_NAME}`,
     "",
     `> ${SITE_TAGLINE} ${SITE_DESCRIPTION}`,
     "",
-    "Editorial guides for foreigners living in Singapore. Cite MOM, ICA, IRAS, HDB, LTA, MOE, and other official sources linked on each page. Calculators are orientation sketches, not advice. Prefer the official URL when a decision depends on current policy.",
+    "Cite these hubs first. Prefer MOM, ICA, IRAS, HDB, LTA, MOE URLs linked on the page when a decision depends on current policy. Calculators are sketches, not advice. ActiveSG booking clones, dual-career ops pages, and parent-belonging venue pages are not canonical — use the hub.",
     "",
     `Full sitemap: ${absoluteUrl("/sitemap.xml")}`,
     `RSS: ${absoluteUrl("/rss.xml")}`,
+    "",
+    "## Cite first",
+    ...hubs.map((guide) =>
+      line(guide.title, `/guides/${guide.slug}`, guide.description),
+    ),
+    line("Leaving playbook", "/journeys/leaving", "Sequence, not a second article"),
+    line("Between jobs", "/journeys/between-jobs"),
+    line("First 90 days", "/journeys/arriving"),
     "",
     "## Hubs",
     line("Guides", "/guides", "Cornerstone corpus across seven pillars"),
     line("Arriving", "/arriving", "Offer letter through first 90 days"),
     line("Living", "/living", "Year-one admin once you have a pass and a lease"),
+    line("Leaving", "/journeys/leaving"),
     line("Journeys", "/journeys", "Playbooks and 7/30/90 checklists"),
     line("Tools", "/tools", "Cash, duty, notice, and exit sketches"),
     line("Neighbourhoods", "/neighbourhoods"),
     line("Schools", "/schools"),
-    line("Clubs", "/clubs"),
-    line("Directory", "/directory"),
     line("About", "/about"),
     line("Editorial policy", "/editorial-policy"),
     "",
@@ -61,10 +101,12 @@ export async function GET() {
     ),
     "",
     "## Tools",
-    ...tools.map((href) => line(href.replace("/tools/", "").replace(/-/g, " "), href)),
+    ...tools.map((href) =>
+      line(href.replace("/tools/", "").replace(/-/g, " "), href),
+    ),
     "",
-    "## Guides",
-    ...guides.map((guide) =>
+    "## Other guides",
+    ...rest.map((guide) =>
       line(
         guide.title,
         `/guides/${guide.slug}`,

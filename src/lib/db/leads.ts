@@ -93,10 +93,13 @@ async function insertLeadFile(inquiry: LeadInquiry): Promise<StoredLead> {
   }
 }
 
-/** Persist an advertise / sponsorship inquiry. Neon if configured, else JSONL. */
+/** Persist an advertise / sponsorship inquiry. Neon if configured, else local JSONL. */
 export async function createLead(inquiry: LeadInquiry): Promise<StoredLead> {
   const backend = getStorageBackend();
+  const onVercel = Boolean(process.env.VERCEL);
+
   if (backend === "neon") {
+    if (onVercel) return insertLeadNeon(inquiry);
     try {
       return await insertLeadNeon(inquiry);
     } catch (err) {
@@ -106,6 +109,10 @@ export async function createLead(inquiry: LeadInquiry): Promise<StoredLead> {
       );
       return insertLeadFile(inquiry);
     }
+  }
+
+  if (onVercel) {
+    throw new Error("Lead storage requires DATABASE_URL on Vercel.");
   }
   return insertLeadFile(inquiry);
 }

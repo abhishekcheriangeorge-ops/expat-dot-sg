@@ -34,9 +34,16 @@ export default async function BetweenJobsJourneyPage() {
       <JourneyHero
         eyebrow="Next · Between jobs"
         title={playbook.title}
-        summary="Stay lawful through the gap. STVP first, then tax and the new IPA — not the other way around."
-        lastReviewed={playbook.lastReviewed}
+        summary="Stay lawful through the gap. This is the sequence — cite the STVP guide when you need the article."
       />
+      <p className="mx-auto max-w-[var(--max-page)] px-5 pt-6 text-sm sm:px-8">
+        <Link
+          href="/guides/between-jobs-stvp-singapore"
+          className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+        >
+          Between jobs / STVP guide →
+        </Link>
+      </p>
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
         <p className="text-sm text-ink-faint">

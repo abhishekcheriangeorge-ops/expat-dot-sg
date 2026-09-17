@@ -6,6 +6,7 @@ import { resolveRelatedEntities } from "@/lib/content/entities";
 import {
   getAllGuides,
   getGuideBySlug,
+  getGuideMetaBySlug,
   getRelatedGuides,
   PILLAR_LABELS,
 } from "@/lib/content/guides";
@@ -30,17 +31,15 @@ export async function generateMetadata({
   params,
 }: GuidePageProps): Promise<Metadata> {
   const { slug } = await params;
-  const guide = await getGuideBySlug(slug);
-  if (!guide) return { title: "Guide not found" };
+  const meta = await getGuideMetaBySlug(slug);
+  if (!meta) return { title: "Guide not found" };
 
   return buildPageMetadata({
-    title: guide.meta.title,
-    description: guide.meta.description,
+    title: meta.title,
+    description: meta.description,
     path: `/guides/${slug}`,
     type: "article",
-    images: guide.meta.ogImage ? [guide.meta.ogImage] : undefined,
-    publishedTime: guide.meta.lastReviewed,
-    modifiedTime: guide.meta.lastReviewed,
+    images: meta.ogImage ? [meta.ogImage] : undefined,
   });
 }
 
@@ -76,7 +75,6 @@ export default async function GuidePage({ params }: GuidePageProps) {
             headline: guide.meta.title,
             description: guide.meta.description,
             path: `/guides/${slug}`,
-            dateModified: guide.meta.lastReviewed,
             image: guide.meta.ogImage,
             citations: guide.meta.citations,
           }),

@@ -143,8 +143,7 @@ export async function PillarPage({ slug }: PillarPageProps) {
                   </h2>
                 </div>
                 <p className="mt-4 max-w-lg leading-relaxed text-ink-muted">
-                  {guides.length} published guides in this pillar — start with
-                  the most recently reviewed.
+                  {guides.length} published guides in this pillar.
                 </p>
               </FadeIn>
               <ul className="mt-8 divide-y divide-ink/15 border-b border-ink">
@@ -158,8 +157,7 @@ export async function PillarPage({ slug }: PillarPageProps) {
                         {guide.title}
                       </span>
                       <span className="shrink-0 text-xs font-semibold uppercase tracking-[0.08em] text-ink-faint">
-                        {guide.readingTimeMinutes} min · reviewed{" "}
-                        {guide.lastReviewed}
+                        {guide.readingTimeMinutes} min
                       </span>
                     </Link>
                   </li>

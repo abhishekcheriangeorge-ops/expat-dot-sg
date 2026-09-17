@@ -35,7 +35,7 @@ export async function POST(request: Request) {
     console.error("[api/leads]", err);
     return NextResponse.json(
       { error: "Could not store inquiry" },
-      { status: 500 },
+      { status: process.env.VERCEL ? 503 : 500 },
     );
   }
 }

@@ -145,7 +145,7 @@ export default async function ArrivingJourneysPage() {
                   className="group block no-underline"
                 >
                   <p className="text-xs font-semibold uppercase tracking-[0.14em] text-canopy-mist">
-                    {c.items.length} items · reviewed {c.lastReviewed}
+                    {c.items.length} items
                   </p>
                   <h2 className="mt-2 font-display text-3xl text-ink group-hover:text-canopy">
                     {c.title}

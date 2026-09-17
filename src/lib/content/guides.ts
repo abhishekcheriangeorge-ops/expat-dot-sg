@@ -2,9 +2,10 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 import { compileMDX } from "next-mdx-remote/rsc";
-import type { ReactElement } from "react";
+import { cache, type ReactElement } from "react";
 import { guideMdxComponents } from "@/components/guides/mdx-components";
 import { mdxCompileOptions } from "./mdx";
+import { isCloneSlug } from "./clones";
 import {
   GuideFrontmatterSchema,
   type GuideFrontmatter,
@@ -40,6 +41,8 @@ async function listGuideFiles(dir = GUIDES_DIR): Promise<string[]> {
       if (entry.isDirectory()) {
         files.push(...(await listGuideFiles(full)));
       } else if (entry.isFile() && /\.mdx?$/.test(entry.name)) {
+        const slug = entry.name.replace(/\.mdx?$/, "");
+        if (isCloneSlug(slug)) continue;
         files.push(full);
       }
     }
@@ -73,14 +76,18 @@ async function parseGuideFile(filePath: string): Promise<{
   };
 }
 
+const loadParsedGuides = cache(async () => {
+  const files = await listGuideFiles();
+  return Promise.all(files.map(parseGuideFile));
+});
+
 /** All published guide frontmatter, newest review date first */
 export async function getAllGuides(options?: {
   includeDrafts?: boolean;
   pillar?: Pillar;
   journey?: GuideFrontmatter["journey"];
 }): Promise<GuideMeta[]> {
-  const files = await listGuideFiles();
-  const guides = await Promise.all(files.map(parseGuideFile));
+  const guides = await loadParsedGuides();
 
   return guides
     .map((g) => g.meta)
@@ -90,30 +97,36 @@ export async function getAllGuides(options?: {
       if (!options?.journey) return true;
       return g.journey === options.journey || g.journey === "both";
     })
-    .sort((a, b) => b.lastReviewed.localeCompare(a.lastReviewed));
+    .sort((a, b) => a.title.localeCompare(b.title));
+}
+
+export async function getGuideMetaBySlug(
+  slug: string,
+  options?: { includeDrafts?: boolean },
+): Promise<GuideMeta | null> {
+  const guides = await loadParsedGuides();
+  const hit = guides.find((g) => g.meta.slug === slug);
+  if (!hit) return null;
+  if (hit.meta.draft && !options?.includeDrafts) return null;
+  return hit.meta;
 }
 
 export async function getGuideBySlug(
   slug: string,
   options?: { includeDrafts?: boolean },
 ): Promise<GuideDocument | null> {
-  const files = await listGuideFiles();
+  const guides = await loadParsedGuides();
+  const hit = guides.find((g) => g.meta.slug === slug);
+  if (!hit) return null;
+  if (hit.meta.draft && !options?.includeDrafts) return null;
 
-  for (const file of files) {
-    const { meta, body, toc } = await parseGuideFile(file);
-    if (meta.slug !== slug) continue;
-    if (meta.draft && !options?.includeDrafts) return null;
+  const { content } = await compileMDX({
+    source: hit.body,
+    components: guideMdxComponents,
+    options: mdxCompileOptions,
+  });
 
-    const { content } = await compileMDX({
-      source: body,
-      components: guideMdxComponents,
-      options: mdxCompileOptions,
-    });
-
-    return { meta, toc, content };
-  }
-
-  return null;
+  return { meta: hit.meta, toc: hit.toc, content };
 }
 
 export async function getGuideSlugs(options?: {

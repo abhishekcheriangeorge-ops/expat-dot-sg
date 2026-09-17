@@ -34,9 +34,16 @@ export default async function LeavingJourneyPage() {
       <JourneyHero
         eyebrow="Next · Leaving"
         title={playbook.title}
-        summary="Work backwards from the flight. IR21 tax clearance, MOM STVP buffer on pass cancel, deposits, and shipping set the tempo."
-        lastReviewed={playbook.lastReviewed}
+        summary="Work backwards from the flight. This is the sequence — cite the leaving guide when you need the article."
       />
+      <p className="mx-auto max-w-[var(--max-page)] px-5 pt-6 text-sm sm:px-8">
+        <Link
+          href="/guides/leaving-singapore-playbook"
+          className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+        >
+          Leaving Singapore guide →
+        </Link>
+      </p>
       <LeavingPlaybookView playbook={playbook} />
       <div className="mx-auto max-w-[var(--max-page)] px-5 pb-14 sm:px-8">
         <p className="mb-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">

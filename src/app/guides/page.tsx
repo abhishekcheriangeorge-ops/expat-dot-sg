@@ -187,9 +187,6 @@ export default async function GuidesIndexPage({ searchParams }: GuidesIndexProps
                         <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs font-semibold uppercase tracking-[0.08em] text-ink-faint sm:max-w-48 sm:justify-end sm:text-right">
                           <span>{JOURNEY_LABELS[guide.journey]}</span>
                           <span>{guide.readingTimeMinutes} min</span>
-                          <time dateTime={guide.lastReviewed}>
-                            Reviewed {guide.lastReviewed}
-                          </time>
                         </div>
                       </Link>
                     </li>

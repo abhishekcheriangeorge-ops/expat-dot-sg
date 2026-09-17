@@ -1,22 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
-import {
-  getChecklists,
-  getCondoEvChargerClearPlaybook,
-  getCondoAccessCardDepositPlaybook,
-  getCpfNominationExitPlaybook,
-  getPharmacyChronicScriptExitPlaybook,
-  getCondoVisitorParkingClearPlaybook,
-  getUtilityMeterPhotoHandoffPlaybook,
-  getCondoVisitorQrExitPlaybook,
-  getLeavingPlaybook,
-  getMoverLiftBookingPlaybook,
-  getPreArrivalPlaybook,
-  getSingpassMyinfoExitPlaybook,
-} from "@/lib/content";
+import { getChecklists } from "@/lib/content";
 import {
   breadcrumbJsonLd,
   buildPageMetadata,
@@ -26,43 +12,68 @@ import {
 export const metadata: Metadata = buildPageMetadata({
   title: "Journeys",
   description:
-    "Pre-arrival playbook, arriving 7/30/90 checklists, Singpass/Myinfo exit, mover lift booking, condo visitor QR revoke, condo EV charger clear, utility meter photo handoff, condo visitor parking clear, condo access-card deposit, CPF nomination exit, pharmacy chronic-script exit, and the Leaving Singapore playbook — practical sequences for expat life transitions.",
+    "Four doors: pre-arrival, first 90 days, between jobs, and leaving Singapore — plus the exit playbooks those sequences call.",
   path: "/journeys",
 });
 
+const DOORS = [
+  {
+    href: "/journeys/pre-arrival",
+    label: "Pre-arrival",
+    blurb: "IPA pack, Arrival Card, cash bridge, family joining later.",
+  },
+  {
+    href: "/journeys/arriving",
+    label: "First 90 days",
+    blurb: "7 / 30 / 90 checklists once you land.",
+  },
+  {
+    href: "/journeys/between-jobs",
+    label: "Between jobs",
+    blurb: "STVP buffer, IR21 vs stay-and-rehire, Dependant Pass risk.",
+  },
+  {
+    href: "/journeys/leaving",
+    label: "Leaving",
+    blurb: "IR21, deposits, shipping, pass cancel — work backwards from the flight.",
+  },
+] as const;
+
+const EXITS = [
+  { href: "/journeys/family-joining", title: "Family joining" },
+  { href: "/journeys/loc-dp-work-rights", title: "LOC / DP work rights" },
+  { href: "/journeys/newborn-special-pass", title: "Newborn Special Pass" },
+  { href: "/journeys/graduate-pass-bridge", title: "Graduate pass bridge" },
+  { href: "/journeys/singpass-myinfo-exit", title: "Singpass / Myinfo exit" },
+  { href: "/journeys/bank-exit-closure", title: "Bank exit closure" },
+  { href: "/journeys/mail-forward-exit", title: "Mail forward" },
+  { href: "/journeys/utility-exit-handover", title: "Utility handover" },
+  { href: "/journeys/utility-meter-photo-handoff", title: "Utility meter photo" },
+  { href: "/journeys/mover-lift-booking", title: "Mover lift booking" },
+  { href: "/journeys/condo-mcst-exit", title: "Condo MCST exit" },
+  { href: "/journeys/condo-visitor-qr-exit", title: "Visitor QR revoke" },
+  { href: "/journeys/condo-visitor-parking-clear", title: "Visitor parking" },
+  { href: "/journeys/condo-access-card-deposit", title: "Access-card deposit" },
+  { href: "/journeys/condo-ev-charger-clear", title: "EV charger clear" },
+  { href: "/journeys/condo-bike-storage-clear", title: "Bike storage clear" },
+  { href: "/journeys/parking-iu-erp-exit", title: "IU / ERP exit" },
+  { href: "/journeys/workplace-access-exit", title: "Workplace access" },
+  { href: "/journeys/helper-handoff-exit", title: "Helper handoff" },
+  { href: "/journeys/pets-reexport", title: "Pets re-export" },
+  { href: "/journeys/cpf-nomination-exit", title: "CPF nomination" },
+  { href: "/journeys/pharmacy-chronic-script-exit", title: "Pharmacy last refill" },
+  { href: "/journeys/hospital-cash-deposit", title: "Hospital cash deposit" },
+  { href: "/journeys/childcare-infant-care-exit", title: "Childcare exit" },
+  { href: "/journeys/school-bus-cca-exit", title: "School bus / CCA" },
+  { href: "/journeys/school-locker-clear", title: "School locker" },
+  { href: "/journeys/gym-membership-freeze-exit", title: "Gym freeze / exit" },
+] as const;
+
 export default async function JourneysIndexPage() {
-  const [
-    checklists,
-    playbook,
-    preArrival,
-    singpassExit,
-    moverLift,
-    condoVisitorQr,
-    condoEvCharger,
-    utilityMeterPhoto,
-    condoVisitorParking,
-    condoAccessCard,
-    cpfNominationExit,
-    pharmacyChronicScript,
-  ] = await Promise.all([
-    getChecklists(),
-    getLeavingPlaybook(),
-    getPreArrivalPlaybook(),
-    getSingpassMyinfoExitPlaybook(),
-    getMoverLiftBookingPlaybook(),
-    getCondoVisitorQrExitPlaybook(),
-    getCondoEvChargerClearPlaybook(),
-    getUtilityMeterPhotoHandoffPlaybook(),
-    getCondoVisitorParkingClearPlaybook(),
-    getCondoAccessCardDepositPlaybook(),
-    getCpfNominationExitPlaybook(),
-    getPharmacyChronicScriptExitPlaybook(),
-  ]);
-
-  const arriving = ["day-7", "day-30", "day-90"]
-    .map((phase) => checklists.find((c) => c.phase === phase))
-    .filter(Boolean);
-
+  const checklists = await getChecklists();
+  const arriving = ["day-7", "day-30", "day-90"].map((phase) =>
+    checklists.find((c) => c.phase === phase),
+  );
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Journeys", path: "/journeys" },
@@ -76,68 +87,12 @@ export default async function JourneysIndexPage() {
           collectionPageJsonLd({
             name: "Journeys",
             description:
-              "Pre-arrival playbook, arriving checklists, and Leaving Singapore.",
+              "Pre-arrival, first 90 days, between jobs, and leaving Singapore.",
             path: "/journeys",
-            items: [
-              {
-                name: preArrival?.title ?? "Pre-arrival",
-                path: "/journeys/pre-arrival",
-              },
-              ...arriving
-                .filter(Boolean)
-                .map((c) => ({
-                  name: c!.title,
-                  path: `/journeys/arriving/${c!.phase}`,
-                })),
-              {
-                name: singpassExit?.title ?? "Singpass / Myinfo exit",
-                path: "/journeys/singpass-myinfo-exit",
-              },
-              {
-                name: moverLift?.title ?? "Mover lift / loading-bay booking",
-                path: "/journeys/mover-lift-booking",
-              },
-              {
-                name: condoVisitorQr?.title ?? "Condo visitor QR revoke",
-                path: "/journeys/condo-visitor-qr-exit",
-              },
-              {
-                name: condoEvCharger?.title ?? "Condo EV charger / lot clear",
-                path: "/journeys/condo-ev-charger-clear",
-              },
-              {
-                name:
-                  utilityMeterPhoto?.title ?? "Utility meter photo handoff",
-                path: "/journeys/utility-meter-photo-handoff",
-              },
-              {
-                name:
-                  condoVisitorParking?.title ??
-                  "Condo visitor parking / loading-bay clear",
-                path: "/journeys/condo-visitor-parking-clear",
-              },
-              {
-                name:
-                  condoAccessCard?.title ?? "Condo access-card / fob deposit",
-                path: "/journeys/condo-access-card-deposit",
-              },
-              {
-                name:
-                  cpfNominationExit?.title ??
-                  "CPF nomination / estate-planning exit",
-                path: "/journeys/cpf-nomination-exit",
-              },
-              {
-                name:
-                  pharmacyChronicScript?.title ??
-                  "Pharmacy / chronic-script exit",
-                path: "/journeys/pharmacy-chronic-script-exit",
-              },
-              {
-                name: playbook?.title ?? "Leaving Singapore",
-                path: "/journeys/leaving",
-              },
-            ],
+            items: DOORS.map((door) => ({
+              name: door.label,
+              path: door.href,
+            })),
           }),
         ]}
       />
@@ -148,349 +103,93 @@ export default async function JourneysIndexPage() {
       </div>
       <JourneyHero
         eyebrow="Journeys"
-        title="Before you land, after you land — and when you leave."
-        summary="Interior utilities for the weeks that matter. Not a dashboard; a calm sequence you can tick through."
+        title="Four doors. The rest are details."
+        summary="Pre-arrival, first 90 days, between jobs, leaving. Micro-exits sit under those sequences — not ahead of them."
       />
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-14 sm:px-8">
-        <FadeIn className="mb-16">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Before wheels-down
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {preArrival?.title ?? "Pre-arrival"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {preArrival?.summary ??
-              "IPA pack, Arrival Card window, cash bridge, and family joining later."}
-          </p>
-          <Link
-            href="/journeys/pre-arrival"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open pre-arrival playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn>
-          <h2 className="font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            Arriving · first 90 days
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            Three horizons so the first week stays humane and the third month
-            still has a list. Pair with the{" "}
+        <div className="grid gap-8 border-b border-ink sm:grid-cols-2">
+          {DOORS.map((door, i) => (
             <Link
-              href="/arriving"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+              key={door.href}
+              href={door.href}
+              className="group block border-t border-ink/15 py-6 no-underline first:border-t-0 sm:[&:nth-child(-n+2)]:border-t-0"
             >
-              Arriving hub
-            </Link>{" "}
-            and{" "}
-            <Link
-              href="/move"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              Move pillar
+              <p className="text-[11.5px] font-bold uppercase tracking-[0.18em] text-tungsten">
+                {String(i + 1).padStart(2, "0")}
+              </p>
+              <h2 className="mt-2 font-display text-2xl font-medium text-ink group-hover:text-canopy">
+                {door.label}
+              </h2>
+              <p className="mt-2 max-w-md text-sm leading-relaxed text-ink-muted">
+                {door.blurb}
+              </p>
             </Link>
-            .
-          </p>
-        </FadeIn>
+          ))}
+        </div>
 
-        <Stagger className="mt-10 grid gap-6 sm:grid-cols-3">
+        <h2 className="mt-16 font-display text-2xl font-medium tracking-tight text-ink">
+          First 90 days
+        </h2>
+        <p className="mt-3 max-w-xl text-ink-muted">
+          Pair with the{" "}
+          <Link
+            href="/arriving"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+          >
+            Arriving hub
+          </Link>
+          .
+        </p>
+        <div className="mt-10 grid gap-6 sm:grid-cols-3">
           {arriving.map((c) =>
             c ? (
-              <StaggerItem key={c.slug}>
-                <Link
-                  href={`/journeys/arriving/${c.phase}`}
-                  className="group block border-b border-ink/15 pb-6 no-underline"
-                >
-                  <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-                    {c.phase.replace("day-", "")} days
-                  </p>
-                  <h3 className="mt-2 font-display text-xl text-ink group-hover:text-canopy">
-                    {c.title}
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                    {c.summary}
-                  </p>
-                </Link>
-              </StaggerItem>
+              <Link
+                key={c.slug}
+                href={`/journeys/arriving/${c.phase}`}
+                className="group block border-b border-ink/15 pb-6 no-underline"
+              >
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
+                  {c.phase.replace("day-", "")} days
+                </p>
+                <h3 className="mt-2 font-display text-xl text-ink group-hover:text-canopy">
+                  {c.title}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+                  {c.summary}
+                </p>
+              </Link>
             ) : null,
           )}
-        </Stagger>
+        </div>
 
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Digital exit
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {singpassExit?.title ?? "Singpass / Myinfo exit"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {singpassExit?.summary ??
-              "Login grace vs status, Myinfo cut-off, and OTP hygiene."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/school-deposit-clawback"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >school deposit tool</Link>{" "}
-            when mid-year school cash is still open.
-          </p>
+        <h2 className="mt-16 font-display text-2xl font-medium tracking-tight text-ink">
+          Exit details
+        </h2>
+        <p className="mt-3 max-w-xl text-ink-muted">
+          Called from the leaving playbook when that line item is yours.
+        </p>
+        <ul className="mt-8 columns-1 gap-x-12 sm:columns-2 lg:columns-3">
+          {EXITS.map((item) => (
+            <li key={item.href} className="mb-3 break-inside-avoid">
+              <Link
+                href={item.href}
+                className="text-sm font-medium text-canopy no-underline underline-offset-4 hover:underline"
+              >
+                {item.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+
+        <p className="mt-14 text-sm text-ink-faint">
           <Link
-            href="/journeys/singpass-myinfo-exit"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
+            href="/tools"
+            className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
           >
-            Open Singpass exit playbook
+            Supporting tools →
           </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Movers day
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {moverLift?.title ?? "Mover lift / loading-bay booking"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {moverLift?.summary ??
-              "Service lift, loading bay, and pad rules before the truck arrives."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/foreign-licence-clock"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >foreign licence clock</Link>{" "}
-            if you still need to drive through load-out.
-          </p>
-          <Link
-            href="/journeys/mover-lift-booking"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open mover lift playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Condo digital access
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {condoVisitorQr?.title ?? "Condo visitor QR revoke"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {condoVisitorQr?.summary ??
-              "Guest QR, helper codes, and delivery PINs before MCST card return."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/school-device-bond"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >school device bond tool</Link>{" "}
-            if kids still hold school iPads through checkout week.
-          </p>
-          <Link
-            href="/journeys/condo-visitor-qr-exit"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open visitor QR revoke playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Condo EV exit
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {condoEvCharger?.title ?? "Condo EV charger / lot clear"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {condoEvCharger?.summary ??
-              "Reserved EV bays, wallbox deposits, and visitor-charging PINs before MCST handover."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/school-cca-kit-bond"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >school CCA kit bond tool</Link>{" "}
-            if CCA kit bonds settle the same fortnight.
-          </p>
-          <Link
-            href="/journeys/condo-ev-charger-clear"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open EV charger clear playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Utility meter exit
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {utilityMeterPhoto?.title ?? "Utility meter photo handoff"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {utilityMeterPhoto?.summary ??
-              "Dated meter photos and final-read alignment before landlord checkout."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/school-exam-ib-deposit"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >school exam deposit tool</Link>{" "}
-            if exam / IB deposits settle the same fortnight.
-          </p>
-          <Link
-            href="/journeys/utility-meter-photo-handoff"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open meter photo handoff playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Condo visitor parking
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {condoVisitorParking?.title ??
-              "Condo visitor parking / loading-bay clear"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {condoVisitorParking?.summary ??
-              "Visitor bay QR, loading slots, and guest tags before MCST handover."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/helper-levy-final-month"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >helper levy tool</Link>{" "}
-            if helper final-levy cash settles the same fortnight.
-          </p>
-          <Link
-            href="/journeys/condo-visitor-parking-clear"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open visitor parking clear playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Condo access tokens
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {condoAccessCard?.title ?? "Condo access-card / fob deposit"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {condoAccessCard?.summary ??
-              "Resident cards, lift fobs, and carpark tags on deposit before MCST handover."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/bank-statement-archive"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >bank statement tool</Link>{" "}
-            if statement downloads compete with management-office week.
-          </p>
-          <Link
-            href="/journeys/condo-access-card-deposit"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open access-card deposit playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            CPF nominations
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {cpfNominationExit?.title ??
-              "CPF nomination / estate-planning exit"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {cpfNominationExit?.summary ??
-              "Confirm nominations, archive statements for executors, and sequence board updates before Singpass changes."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/school-bus-last-week-float"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >school bus float tool</Link>{" "}
-            if kids still ride through the same notice week.
-          </p>
-          <Link
-            href="/journeys/cpf-nomination-exit"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open CPF nomination exit playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Pharmacy / chronic scripts
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {pharmacyChronicScript?.title ??
-              "Pharmacy / chronic-script exit"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {pharmacyChronicScript?.summary ??
-              "Last refills, transfer letters, and private-script float before clinic portals change."}{" "}
-            Pair with{" "}
-            <Link
-              href="/tools/pharmacy-last-refill-float"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >pharmacy refill tool</Link>{" "}
-            if refill cash competes with packing week.
-          </p>
-          <Link
-            href="/journeys/pharmacy-chronic-script-exit"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm border border-ink/20 px-5 py-3 text-sm font-semibold text-ink no-underline transition-colors hover:border-ink/50 focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open pharmacy chronic-script playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-16 border-t border-ink/15 pt-12">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-tungsten">
-            Next
-          </p>
-          <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-ink sm:text-3xl">
-            {playbook?.title ?? "Leaving Singapore"}
-          </h2>
-          <p className="mt-3 max-w-xl text-ink-muted">
-            {playbook?.summary ??
-              "Tax clearance, deposits, shipping, and pass cancellation."}{" "}
-            Deep narrative lives in the{" "}
-            <Link
-              href="/next"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              Next pillar
-            </Link>
-            . Sketch diplomatic-clause dates on{" "}
-            <Link
-              href="/tools/lease-notice"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >lease notice tool</Link>{" "}
-            before you serve notice.
-          </p>
-          <Link
-            href="/journeys/leaving"
-            className="mt-6 inline-flex min-h-[44px] items-center rounded-sm bg-ink px-5 py-3 text-sm font-semibold text-paper no-underline transition-colors hover:bg-canopy focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Open leaving playbook
-          </Link>
-        </FadeIn>
-
-        <FadeIn className="mt-14">
-          <p className="text-sm text-ink-faint">
-            Prefer numbers?{" "}
-            <Link
-              href="/tools"
-              className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
-            >
-              Light COL, lease, and EP threshold tools
-            </Link>{" "}
-            live one level down — never on the homepage.
-          </p>
-        </FadeIn>
+        </p>
       </div>
     </>
   );

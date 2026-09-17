@@ -34,7 +34,34 @@ const STATIC_PATHS: Array<{
   { path: "/advertise", changeFrequency: "monthly", priority: 0.6 },
   { path: "/about", changeFrequency: "yearly", priority: 0.5 },
   { path: "/editorial-policy", changeFrequency: "yearly", priority: 0.5 },
+  { path: "/privacy", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
 ];
+
+const CORNERSTONE_SLUGS = new Set([
+  "employment-pass-singapore",
+  "renting-process-loi-ta-deposits",
+  "international-schools-landscape",
+  "leaving-singapore-playbook",
+  "opening-bank-account-expat",
+  "cost-of-living-by-household",
+  "iras-tax-residency-filing",
+  "compass-framework-explained",
+  "first-week-sim-singpass-bank",
+  "sg-arrival-card-expats",
+  "between-jobs-stvp-singapore",
+  "tax-clearance-when-leaving",
+  "healthcare-gp-hospital",
+  "paynow-setup-foreigners-singapore",
+]);
+
+function isThinGuideSlug(slug: string) {
+  return (
+    slug.startsWith("activesg-") ||
+    slug.includes("dual-career-") ||
+    slug.endsWith("-parent-belonging-singapore")
+  );
+}
 
 async function listAppChildPaths(segment: string): Promise<string[]> {
   const dir = path.join(process.cwd(), "src/app", segment);
@@ -122,9 +149,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   for (const guide of guides) {
     add(`/guides/${guide.slug}`, {
-      lastModified: new Date(guide.lastReviewed),
       changeFrequency: "monthly",
-      priority: 0.75,
+      priority: CORNERSTONE_SLUGS.has(guide.slug)
+        ? 0.9
+        : isThinGuideSlug(guide.slug)
+          ? 0.35
+          : 0.7,
     });
   }
 

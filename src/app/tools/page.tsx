@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import {
@@ -217,6 +216,27 @@ const tools = [
   },
 ] as const;
 
+const LAND = new Set<string>([
+  "/tools/setup-cash",
+  "/tools/ipa-window",
+  "/tools/ep-threshold",
+  "/tools/cost-of-living",
+  "/tools/agent-commission",
+  "/tools/foreign-licence-clock",
+]);
+
+const LIVE = new Set<string>([
+  "/tools/lease-duty",
+  "/tools/lease-notice",
+  "/tools/tax-residency",
+  "/tools/fdw-levy",
+  "/tools/helper-levy-final-month",
+  "/tools/fibre-broadband-etf",
+  "/tools/school-device-bond",
+  "/tools/school-cca-kit-bond",
+  "/tools/school-exam-ib-deposit",
+]);
+
 export default function ToolsIndexPage() {
   const crumbs = [
     { name: "Home", path: "/" },
@@ -247,61 +267,61 @@ export default function ToolsIndexPage() {
       </div>
       <JourneyHero
         eyebrow="Tools"
-        title="Calculators as support — never the homepage."
-        summary="Light utilities tucked under Journeys. Use them when a checklist or playbook points here."
+        title="Land, live, leave — sketched."
+        summary="Cash, duty, notice, and exit floats. Open the one a playbook pointed at."
       />
 
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
-        <Stagger className="grid gap-x-8 border-b border-ink sm:grid-cols-2 lg:grid-cols-3">
-          {tools.map((tool, i) => (
-            <StaggerItem
-              key={tool.href}
-              className="border-t border-ink/15 py-6 first:border-t-0 sm:[&:nth-child(-n+2)]:border-t-0 lg:[&:nth-child(-n+3)]:border-t-0"
-            >
-              <Link
-                href={tool.href}
-                className="group block rounded-sm no-underline focus-visible:outline-2 focus-visible:outline-tungsten"
-              >
-                <p
-                  aria-hidden="true"
-                  className="text-[11.5px] font-bold uppercase tracking-[0.18em] text-tungsten"
-                >
-                  {String(i + 1).padStart(2, "0")}
-                </p>
-                <h2 className="mt-2 font-display text-2xl font-medium text-ink transition-colors group-hover:text-canopy">
-                  {tool.title}
-                </h2>
-                <p className="mt-2 max-w-md text-sm leading-relaxed text-ink-muted">
-                  {tool.summary}
-                </p>
-                <p className="mt-3 text-xs font-bold uppercase tracking-[0.1em] text-ink-faint transition-colors group-hover:text-tungsten">
-                  Calculate <span aria-hidden="true">→</span>
-                </p>
-              </Link>
-            </StaggerItem>
-          ))}
-        </Stagger>
+        {(["land", "live", "leave"] as const).map((id) => {
+          const grouped =
+            id === "land"
+              ? tools.filter((tool) => LAND.has(tool.href))
+              : id === "live"
+                ? tools.filter((tool) => LIVE.has(tool.href))
+                : tools.filter(
+                    (tool) => !LAND.has(tool.href) && !LIVE.has(tool.href),
+                  );
+          const label =
+            id === "land" ? "Land" : id === "live" ? "Live" : "Leave";
+          return (
+            <section key={id} className="mb-14">
+              <h2 className="border-b border-ink pb-3 font-display text-2xl font-medium text-ink">
+                {label}
+              </h2>
+              <div className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
+                {grouped.map((tool) => (
+                  <Link
+                    key={tool.href}
+                    href={tool.href}
+                    className="group block border-t border-ink/15 py-6 no-underline focus-visible:outline-2 focus-visible:outline-tungsten"
+                  >
+                    <h3 className="font-display text-2xl font-medium text-ink transition-colors group-hover:text-canopy">
+                      {tool.title}
+                    </h3>
+                    <p className="mt-2 max-w-md text-sm leading-relaxed text-ink-muted">
+                      {tool.summary}
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })}
 
-        <FadeIn className="mt-12 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+        <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <Link
             href="/journeys"
             className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
-            <span aria-hidden="true">←</span> Back to journeys
+            <span aria-hidden="true">←</span> Journeys
           </Link>
           <Link
-            href="/money"
+            href="/journeys/leaving"
             className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
           >
-            Money pillar <span aria-hidden="true">→</span>
+            Leaving playbook <span aria-hidden="true">→</span>
           </Link>
-          <Link
-            href="/move"
-            className="rounded-sm py-1.5 font-semibold text-canopy no-underline underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-tungsten"
-          >
-            Move pillar <span aria-hidden="true">→</span>
-          </Link>
-        </FadeIn>
+        </div>
       </div>
     </>
   );

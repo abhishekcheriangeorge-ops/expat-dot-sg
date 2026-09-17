@@ -17,7 +17,7 @@ export function SiteFooter() {
               Singapore, decided — not debated. Passes, rents, schools, and
               costs, verified weekly.
             </p>
-            <nav aria-label="Modes" className="mt-5 flex gap-5 text-sm">
+            <nav aria-label="Modes" className="mt-5 flex flex-wrap gap-5 text-sm">
               {modes.map((mode) => (
                 <Link
                   key={mode.slug}
@@ -27,6 +27,12 @@ export function SiteFooter() {
                   {mode.label}
                 </Link>
               ))}
+              <Link
+                href="/journeys/leaving"
+                className="font-semibold text-tungsten-soft no-underline transition-colors hover:text-paper"
+              >
+                Leaving
+              </Link>
             </nav>
           </div>
 
@@ -73,11 +79,11 @@ export function SiteFooter() {
             >
               Editorial policy
             </Link>
-            <Link
-              href="/advertise"
-              className="opacity-70 no-underline hover:text-paper hover:opacity-100"
-            >
-              Advertise
+            <Link href="/privacy" className="no-underline hover:text-paper">
+              Privacy
+            </Link>
+            <Link href="/terms" className="no-underline hover:text-paper">
+              Terms
             </Link>
           </nav>
         </div>

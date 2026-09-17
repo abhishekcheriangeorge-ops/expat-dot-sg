@@ -5,7 +5,7 @@ export const fontDisplay = Newsreader({
   subsets: ["latin"],
   variable: "--font-newsreader",
   display: "swap",
-  axes: ["opsz"],
+  style: ["normal", "italic"],
 });
 
 /** Clean grotesque — UI, body, navigation */

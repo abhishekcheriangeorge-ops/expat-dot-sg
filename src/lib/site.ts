@@ -84,11 +84,11 @@ export const modes = [
     slug: "living" as const,
     href: "/living" as const,
     label: "Living",
-    tagline: "Thriving, renewing, belonging, leaving",
+    tagline: "Home, school, belonging, renewals",
     summary:
-      "Year two and beyond — neighbourhoods that fit, schools that work, communities that stick, and a clear exit when it is time.",
+      "Year two and beyond — neighbourhoods that fit, schools that work, and communities that stick. Leaving has its own door.",
     howToUse:
-      "Use Living when issuance drama is over. Pick one life category (home, school, belonging, renewals) — each pillar page is a topic map, not a feed. Keep ScamShield, pass-card replacement, and the leaving / STVP playbook bookmarked before you need them.",
+      "Use Living when issuance drama is over. Pick one life category (home, school, belonging, renewals) — each pillar page is a topic map, not a feed. Keep ScamShield and pass-card replacement bookmarked. Exit sequences live under Leaving.",
     startHere: [
       {
         href: "/guides/healthcare-gp-hospital",
@@ -101,14 +101,14 @@ export const modes = [
         blurb: "1799, gov.sg SMS, and what banks will never ask.",
       },
       {
-        href: "/guides/between-jobs-stvp-singapore",
-        label: "EP cancel → STVP",
-        blurb: "Up to 90 days stay, no work, family DP cascade.",
+        href: "/guides/international-schools-landscape",
+        label: "Schools landscape",
+        blurb: "Curriculum, fees, and bus as a second rent.",
       },
       {
-        href: "/journeys/leaving",
-        label: "Leaving playbook",
-        blurb: "IR21, deposits, and the exit sequence when plans change.",
+        href: "/belong",
+        label: "Find your people",
+        blurb: "Clubs, hashes, faith, and nationality groups.",
       },
     ] as const satisfies readonly ModeStartLink[],
     image: "/images/living-singapore.jpg",
@@ -717,6 +717,7 @@ export function pillarsForMode(mode: ModeSlug): Pillar[] {
 export const primaryNav = [
   { href: "/arriving", label: "Arriving" },
   { href: "/living", label: "Living" },
+  { href: "/journeys/leaving", label: "Leaving" },
   { href: "/guides", label: "Guides" },
   { href: "/neighbourhoods", label: "Neighbourhoods" },
   { href: "/schools", label: "Schools" },
@@ -731,10 +732,9 @@ export const primaryNav = [
 export const primaryNavDesktop = [
   { href: "/arriving", label: "Arriving" },
   { href: "/living", label: "Living" },
+  { href: "/journeys/leaving", label: "Leaving" },
   { href: "/guides", label: "Guides" },
   { href: "/neighbourhoods", label: "Areas" },
   { href: "/schools", label: "Schools" },
-  { href: "/clubs", label: "Clubs" },
-  { href: "/directory", label: "Directory" },
-  { href: "/journeys", label: "Journeys" },
+  { href: "/tools", label: "Tools" },
 ] as const;

@@ -21,10 +21,22 @@ export default function NotFound() {
           Home
         </Link>
         <Link
-          href="/guides"
+          href="/arriving"
           className="inline-flex min-h-[44px] items-center border border-ink px-6 py-3 text-[12.5px] font-bold uppercase tracking-[0.08em] text-ink no-underline hover:bg-paper-elevated"
         >
-          Guides
+          Arriving
+        </Link>
+        <Link
+          href="/living"
+          className="inline-flex min-h-[44px] items-center border border-ink px-6 py-3 text-[12.5px] font-bold uppercase tracking-[0.08em] text-ink no-underline hover:bg-paper-elevated"
+        >
+          Living
+        </Link>
+        <Link
+          href="/journeys/leaving"
+          className="inline-flex min-h-[44px] items-center border border-ink px-6 py-3 text-[12.5px] font-bold uppercase tracking-[0.08em] text-ink no-underline hover:bg-paper-elevated"
+        >
+          Leaving
         </Link>
       </div>
     </div>

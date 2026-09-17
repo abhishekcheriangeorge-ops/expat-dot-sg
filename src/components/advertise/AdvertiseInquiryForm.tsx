@@ -181,6 +181,14 @@ export function AdvertiseInquiryForm() {
         </p>
       ) : null}
 
+      <p className="text-sm text-ink-faint">
+        We store name, email, and your message to reply. See{" "}
+        <a href="/privacy" className="text-canopy underline underline-offset-4">
+          privacy
+        </a>
+        .
+      </p>
+
       <button
         type="submit"
         disabled={state === "submitting"}

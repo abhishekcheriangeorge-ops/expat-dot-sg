@@ -11,7 +11,6 @@ export function JourneyHero({
   eyebrow,
   title,
   summary,
-  lastReviewed,
 }: JourneyHeroProps) {
   return (
     <header className="border-b border-ink bg-paper">
@@ -25,11 +24,6 @@ export function JourneyHero({
         <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink-muted">
           {summary}
         </p>
-        {lastReviewed ? (
-          <p className="mt-6 text-sm text-ink-faint">
-            Last reviewed {lastReviewed}
-          </p>
-        ) : null}
       </div>
     </header>
   );

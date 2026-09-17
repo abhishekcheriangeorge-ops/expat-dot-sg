@@ -135,7 +135,7 @@ export default async function AdvertisePage() {
               Tell us category, timing, and budget band. We reply with
               availability — not a fake scarcity countdown.
             </p>
-            <div className="mt-8">
+            <div id="inquiry" className="mt-8 scroll-mt-28">
               <AdvertiseInquiryForm />
             </div>
           </div>

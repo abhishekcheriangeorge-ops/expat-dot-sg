@@ -6,17 +6,6 @@ const LEDGER = [
   { label: "UWC Dover Y4–Y6", value: "Waitlist open" },
 ];
 
-const STATS = [
-  { value: "120+", label: "Verified guides" },
-  { value: "40+", label: "Money tools" },
-  { value: "Weekly", label: "Repriced figures" },
-  { value: "< 1s", label: "Median load" },
-];
-
-/**
- * Straits Standard hero — server-rendered, no hero image, no JS motion.
- * Split masthead: confident headline left, this week's ledger right.
- */
 export function HomeHero() {
   return (
     <section className="bg-paper text-ink">
@@ -27,30 +16,41 @@ export function HomeHero() {
               The Straits standard · Monocle-sharp
             </p>
             <h1 className="mt-4 max-w-xl font-display text-5xl font-medium leading-[1.02] tracking-[-0.025em] sm:text-6xl">
-              Singapore, <em className="font-normal">decided</em> — not
+              Singapore, <em className="font-normal italic">decided</em> — not
               debated.
             </h1>
             <p className="mt-5 max-w-md text-base leading-relaxed text-ink-muted sm:text-lg">
-              One confident briefing for passes, rents, schools and costs.
-              Reported weekly, verified against primary sources. No threads,
-              no noise.
+              Passes, rents, schools, and the exit sequence — verified against
+              primary sources. Pick the job you have.
             </p>
-            <div className="mt-8 flex">
+            <div className="mt-8 flex flex-wrap">
               <Link
                 href="/arriving"
-                className="inline-flex items-center border border-ink bg-ink px-7 py-3.5 text-[12.5px] font-bold uppercase tracking-[0.08em] text-paper no-underline transition-colors hover:bg-canopy"
+                className="inline-flex min-h-[44px] items-center border border-ink bg-ink px-7 py-3.5 text-[12.5px] font-bold uppercase tracking-[0.08em] text-paper no-underline transition-colors hover:bg-canopy"
               >
-                Read the briefing
+                Landing / first 90 days
               </Link>
               <Link
-                href="/tools"
-                className="inline-flex items-center border border-ink border-l-0 px-7 py-3.5 text-[12.5px] font-bold uppercase tracking-[0.08em] text-ink no-underline transition-colors hover:bg-paper-elevated"
+                href="/journeys/leaving"
+                className="inline-flex min-h-[44px] items-center border border-ink border-l-0 px-7 py-3.5 text-[12.5px] font-bold uppercase tracking-[0.08em] text-ink no-underline transition-colors hover:bg-paper-elevated max-sm:border-l max-sm:border-t-0"
               >
-                Cost calculator
+                Leaving / between jobs
               </Link>
             </div>
             <p className="mt-6 text-[13px] text-ink-faint">
-              120+ verified guides · 40+ money tools · median load &lt; 1s
+              <Link
+                href="/tools/cost-of-living"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+              >
+                Cost of living sketch
+              </Link>
+              {" · "}
+              <Link
+                href="/tools/setup-cash"
+                className="font-semibold text-canopy no-underline underline-offset-4 hover:underline"
+              >
+                Cash to land
+              </Link>
             </p>
           </div>
 
@@ -72,8 +72,10 @@ export function HomeHero() {
                     key={row.label}
                     className="flex items-baseline justify-between gap-4 border-b border-tungsten-soft/20 py-3 text-sm"
                   >
-                    <span className="font-semibold">{row.label}</span>
-                    <span className="whitespace-nowrap text-[#8f8875]">
+                    <span className="font-semibold text-paper/70">
+                      {row.label}
+                    </span>
+                    <span className="whitespace-nowrap font-display text-lg text-tungsten-soft">
                       {row.value}
                     </span>
                   </li>
@@ -81,31 +83,13 @@ export function HomeHero() {
               </ul>
             </div>
             <Link
-              href="/guides"
-              className="mt-7 inline-flex items-center justify-center bg-tungsten-soft px-6 py-3.5 text-[13px] font-bold uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-paper"
+              href="/guides/employment-pass-singapore"
+              className="mt-7 inline-flex min-h-[44px] items-center justify-center bg-tungsten-soft px-6 py-3.5 text-[13px] font-bold uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-paper"
             >
-              Read in 12 min →
+              Employment Pass, in full →
             </Link>
           </div>
         </div>
-
-        <dl className="grid grid-cols-2 border-y border-ink lg:grid-cols-4">
-          {STATS.map((s, i) => (
-            <div
-              key={s.label}
-              className={`px-6 py-4 ${i > 0 ? "border-l border-ink/15" : ""} ${
-                i === 2 ? "max-lg:border-l-0 max-lg:border-t max-lg:border-ink/15" : ""
-              } ${i === 3 ? "max-lg:border-t max-lg:border-ink/15" : ""}`}
-            >
-              <dt className="order-2 mt-1 text-[11.5px] font-medium uppercase tracking-[0.12em] text-ink-faint">
-                {s.label}
-              </dt>
-              <dd className="order-1 font-display text-2xl font-semibold">
-                {s.value}
-              </dd>
-            </div>
-          ))}
-        </dl>
       </div>
     </section>
   );
