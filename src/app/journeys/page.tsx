@@ -113,10 +113,18 @@ export default async function JourneysIndexPage() {
             description:
               "Pre-arrival, first 90 days, between jobs, and leaving Singapore.",
             path: "/journeys",
-            items: DOORS.map((door) => ({
-              name: door.label,
-              path: door.href,
-            })),
+            items: [
+              ...DOORS.map((door) => ({
+                name: door.label,
+                path: door.href,
+              })),
+              ...EXIT_GROUPS.flatMap((group) =>
+                group.items.map((item) => ({
+                  name: item.title,
+                  path: item.href,
+                })),
+              ),
+            ],
           }),
         ]}
       />

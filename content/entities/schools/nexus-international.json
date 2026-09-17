@@ -2,27 +2,26 @@
   "type": "school",
   "slug": "nexus-international",
   "name": "Nexus International School (Singapore)",
-  "summary": "IB World School in Aljunied \u2014 frequent shortlist visit for families touring Stamford, SAS, and OFS on the same trip.",
-  "body": "Nexus Singapore delivers IB programmes with an emphasis on personalised learning from the Aljunied campus. Forum school-hunt threads often park Nexus beside Stamford (Lorong Chuan) and OFS (Pasir Ris) when comparing east/central-east housing. Confirm nursery-through-secondary continuity, fees, and term vacancies before you treat a campus tour as an offer. Dual-career families should confirm after-school care / late-bus options in writing \u2014 brochure \u201cflexible days\u201d language is not a pickup plan. Ask how outdoor fair haze plans and class-stall allergen labelling are communicated before volunteer sign-ups lock. Dual-career note: open-house weeks need sibling coverage plans, not dual muted Slack.",
+  "summary": "IB World School in Aljunied — frequent shortlist visit for families touring Stamford, SAS, and OFS on the same trip.",
+  "body": "Nexus Singapore delivers IB programmes with an emphasis on personalised learning from the Aljunied campus. Forum school-hunt threads often park Nexus beside Stamford (Lorong Chuan) and OFS (Pasir Ris) when comparing east/central-east housing. Confirm nursery-through-secondary continuity, fees, and term vacancies before you treat a campus tour as an offer. Dual-career families should confirm after-school care / late-bus options in writing — brochure “flexible days” language is not a pickup plan. Ask how outdoor fair haze plans and class-stall allergen labelling are communicated before volunteer sign-ups lock. Dual-career note: open-house weeks need sibling coverage plans, not dual muted Slack.",
   "curriculum": [
     "IB PYP",
     "IB MYP",
     "IB DP"
   ],
   "sector": "international",
-  "ages": "Nursery\u2013Year 13",
+  "ages": "Nursery–Year 13",
   "neighbourhood": "katong-joo-chiat",
   "campus": "Aljunied",
   "languages": [
     "English"
   ],
   "feesBand": "Upper-mid",
-  "waitlistNotes": "Rolling interest \u2014 confirm seat availability by term and year group.",
+  "waitlistNotes": "Rolling interest — confirm seat availability by term and year group.",
   "website": "https://www.nexus.edu.sg",
   "featured": false,
   "sponsored": false,
   "relatedGuides": [
-    "international-schools-landscape",
     "international-schools-landscape"
   ]
 }

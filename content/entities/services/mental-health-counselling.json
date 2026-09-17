@@ -2,8 +2,8 @@
   "type": "service",
   "slug": "mental-health-counselling",
   "name": "Mental health & counselling (category guide)",
-  "summary": "Private therapy vs IMH / polyclinic paths for foreigners \u2014 cash rates, insurance outpatient carve-outs, and when psychiatry beats talk-only counselling.",
-  "body": "Most EP/DP group medical plans carve out outpatient mental health \u2014 assume cash until HR confirms psychiatry, psychology, and counselling lines in writing. Private counselling/psychology commonly runs S$160\u2013300 per session; weekly care becomes a budget line, so trial-fit two clinicians rather than locking a package. Public IMH and hospital psychiatry accept foreigners, but citizen/PR subsidies generally do not apply \u2014 polyclinic referral helps sequencing, not foreigner pricing. Use GP/panel clinics for medication bridges and crisis routing; IMH appointments are by referral/appointment, and psychotherapy waits can be long. Match modality to need: counsellor for adjustment stress, clinical psychologist for structured therapy, psychiatrist when medication or risk assessment is on the table \u2014 including child ADHD stimulant continuity (methylphenidate / Concerta peers), where foreign Rx do not refill and Adderall-style products often need a planned switch. Nationality-aware or English-fluent clinicians matter for expat isolation topics \u2014 ask explicitly. Emergencies and active risk go to A&E / I-CARE / crisis lines first, not a directory search. This is a category guide, not a ranked clinic list \u2014 verify fees, credentials, and insurance panels yourself. Dual-career parental burnout and employer EAP session limits are a common EP/DP ask \u2014 see the parental burnout & EAP guide before assuming \u201cunlimited counselling.\u201d Family ops note: sideline politics and academy FOMO can spike parental stress \u2014 belonging rails should stay low-pressure, not another performance review. Family ops: first overnight camps can spike separation anxiety \u2014 name the emergency contact and keep the coverage plan boring.",
+  "summary": "Private therapy vs IMH / polyclinic paths for foreigners — cash rates, insurance outpatient carve-outs, and when psychiatry beats talk-only counselling.",
+  "body": "Most EP/DP group medical plans carve out outpatient mental health — assume cash until HR confirms psychiatry, psychology, and counselling lines in writing. Private counselling/psychology commonly runs S$160–300 per session; weekly care becomes a budget line, so trial-fit two clinicians rather than locking a package. Public IMH and hospital psychiatry accept foreigners, but citizen/PR subsidies generally do not apply — polyclinic referral helps sequencing, not foreigner pricing. Use GP/panel clinics for medication bridges and crisis routing; IMH appointments are by referral/appointment, and psychotherapy waits can be long. Match modality to need: counsellor for adjustment stress, clinical psychologist for structured therapy, psychiatrist when medication or risk assessment is on the table — including child ADHD stimulant continuity (methylphenidate / Concerta peers), where foreign Rx do not refill and Adderall-style products often need a planned switch. Nationality-aware or English-fluent clinicians matter for expat isolation topics — ask explicitly. Emergencies and active risk go to A&E / I-CARE / crisis lines first, not a directory search. This is a category guide, not a ranked clinic list — verify fees, credentials, and insurance panels yourself. Dual-career parental burnout and employer EAP session limits are a common EP/DP ask — see the parental burnout & EAP guide before assuming “unlimited counselling.” Family ops note: sideline politics and academy FOMO can spike parental stress — belonging rails should stay low-pressure, not another performance review. Family ops: first overnight camps can spike separation anxiety — name the emergency contact and keep the coverage plan boring.",
   "category": "clinics",
   "areasServed": [
     "Islandwide"
@@ -17,19 +17,19 @@
   ],
   "officialLinks": [
     {
-      "label": "MOH \u2014 Mental health services for the public",
+      "label": "MOH — Mental health services for the public",
       "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/for-the-public/"
     },
     {
-      "label": "IMH \u2014 Appointments & referrals",
+      "label": "IMH — Appointments & referrals",
       "url": "https://www.imh.com.sg/Patients-and-Visitors/Pages/Appointments-and-Referrals.aspx"
     },
     {
-      "label": "IMH \u2014 Child Guidance Clinic",
+      "label": "IMH — Child Guidance Clinic",
       "url": "https://www.imh.com.sg/Clinical-Services/Outpatient-Clinics/Pages/Child-Guidance-Clinic.aspx"
     },
     {
-      "label": "MOH \u2014 Mental health services (mindline 1771)",
+      "label": "MOH — Mental health services (mindline 1771)",
       "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/"
     },
     {
@@ -45,8 +45,7 @@
     "health-insurance-expat",
     "find-my-people-singapore",
     "dual-career-spouse-singapore",
-    "international-schools-landscape",
-    "healthcare-gp-hospital"
+    "international-schools-landscape"
   ],
   "featured": false,
   "sponsored": false

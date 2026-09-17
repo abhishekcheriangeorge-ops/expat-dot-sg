@@ -8,7 +8,7 @@ import {
   absoluteUrl,
 } from "@/lib/seo";
 import { pillars } from "@/lib/site";
-import { isCloneSlug } from "@/lib/content/clones";
+import { CORNERSTONE_SLUGS, isCloneSlug } from "@/lib/content/clones";
 
 export const dynamic = "force-static";
 
@@ -30,38 +30,14 @@ function line(label: string, href: string, blurb?: string) {
   return `- [${label}](${absoluteUrl(href)})${suffix}`;
 }
 
-const CITE_FIRST = [
-  "employment-pass-singapore",
-  "compass-framework-explained",
-  "renting-process-loi-ta-deposits",
-  "international-schools-landscape",
-  "opening-bank-account-expat",
-  "iras-tax-residency-filing",
-  "leaving-singapore-playbook",
-  "between-jobs-stvp-singapore",
-  "tax-clearance-when-leaving",
-  "first-week-sim-singpass-bank",
-  "sg-arrival-card-expats",
-  "cost-of-living-by-household",
-  "healthcare-gp-hospital",
-  "paynow-setup-foreigners-singapore",
-  "sports-fitness-singapore",
-  "find-my-people-singapore",
-  "dual-career-spouse-singapore",
-  "activesg-swimming-pools-singapore",
-  "unpaid-internship-volunteer-work-pass-singapore",
-  "brokerage-cdp-account-foreigners-singapore",
-  "usd-offshore-payroll-employment-pass",
-];
-
 export async function GET() {
   const [guides, tools] = await Promise.all([getAllGuides(), toolHrefs()]);
   const bySlug = new Map(guides.map((g) => [g.slug, g]));
-  const hubs = CITE_FIRST.map((slug) => bySlug.get(slug)).filter(
-    (g): g is NonNullable<typeof g> => Boolean(g),
-  );
+  const hubs = [...CORNERSTONE_SLUGS]
+    .map((slug) => bySlug.get(slug))
+    .filter((g): g is NonNullable<typeof g> => Boolean(g));
   const rest = guides.filter(
-    (g) => !CITE_FIRST.includes(g.slug) && !isCloneSlug(g.slug),
+    (g) => !CORNERSTONE_SLUGS.has(g.slug) && !isCloneSlug(g.slug),
   );
 
   const body = [

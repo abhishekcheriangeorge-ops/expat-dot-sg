@@ -19,5 +19,10 @@
   "waitlistNotes": "MOE posting / affiliation pathways.",
   "website": "https://www.mgs.moe.edu.sg",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "local-schools-for-expats",
+    "aeis-saeis-international-students",
+    "school-waitlist-realism"
+  ]
 }

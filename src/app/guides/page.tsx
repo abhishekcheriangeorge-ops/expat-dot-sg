@@ -13,6 +13,7 @@ import {
   buildPageMetadata,
   collectionPageJsonLd,
 } from "@/lib/seo";
+import { CORNERSTONE_SLUGS } from "@/lib/content/clones";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Guides",
@@ -80,10 +81,12 @@ export default async function GuidesIndexPage({ searchParams }: GuidesIndexProps
                 name: PILLAR_LABELS[pillar],
                 path: `/${pillar}`,
               })),
-              ...all.slice(0, 40).map((guide) => ({
-                name: guide.title,
-                path: `/guides/${guide.slug}`,
-              })),
+              ...all
+                .filter((guide) => CORNERSTONE_SLUGS.has(guide.slug))
+                .map((guide) => ({
+                  name: guide.title,
+                  path: `/guides/${guide.slug}`,
+                })),
             ],
           }),
         ]}

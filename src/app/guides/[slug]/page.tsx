@@ -40,6 +40,8 @@ export async function generateMetadata({
     path: `/guides/${slug}`,
     type: "article",
     images: meta.ogImage ? [meta.ogImage] : undefined,
+    publishedTime: meta.lastReviewed,
+    modifiedTime: meta.lastReviewed,
   });
 }
 
@@ -75,6 +77,7 @@ export default async function GuidePage({ params }: GuidePageProps) {
             headline: guide.meta.title,
             description: guide.meta.description,
             path: `/guides/${slug}`,
+            dateModified: guide.meta.lastReviewed,
             image: guide.meta.ogImage,
             citations: guide.meta.citations,
           }),

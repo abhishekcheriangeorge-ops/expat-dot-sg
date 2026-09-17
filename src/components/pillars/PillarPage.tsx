@@ -20,11 +20,12 @@ export async function PillarPage({ slug }: PillarPageProps) {
     .map((topic) => topic.href.replace(/^\/guides\//, ""))
     .filter((href) => !href.startsWith("/"));
   const bySlug = new Map(guides.map((guide) => [guide.slug, guide]));
+  const topicSet = new Set(topicSlugs);
   const featured = [
     ...topicSlugs
       .map((topicSlug) => bySlug.get(topicSlug))
       .filter((guide): guide is NonNullable<typeof guide> => Boolean(guide)),
-    ...guides.filter((guide) => !topicSlugs.includes(guide.slug)),
+    ...guides.filter((guide) => !topicSet.has(guide.slug)),
   ].slice(0, 12);
 
   const crumbs = [

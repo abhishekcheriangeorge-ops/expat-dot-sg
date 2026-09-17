@@ -14,7 +14,8 @@ function xmlEscape(value: string) {
 
 export async function GET() {
   const guides = await getAllGuides();
-  const items = guides
+  const items = [...guides]
+    .sort((a, b) => b.lastReviewed.localeCompare(a.lastReviewed))
     .slice(0, 80)
     .map((guide) => {
       const url = absoluteUrl(`/guides/${guide.slug}`);
@@ -22,6 +23,7 @@ export async function GET() {
       <title>${xmlEscape(guide.title)}</title>
       <link>${xmlEscape(url)}</link>
       <guid isPermaLink="true">${xmlEscape(url)}</guid>
+      <pubDate>${new Date(guide.lastReviewed).toUTCString()}</pubDate>
       <description>${xmlEscape(guide.description)}</description>
     </item>`;
     })

@@ -85,6 +85,33 @@ export const CLONE_REDIRECTS: Array<{
     destination: "/guides/dual-career-spouse-singapore",
   })),
   ...[
+    "condo-access-card-fob-replacement-tenants",
+    "condo-bbq-function-room-booking-tenants",
+    "condo-cat-ladder-roof-access-permit-notices-tenants",
+    "condo-cctv-ma-footage-requests-tenants",
+    "condo-ev-charger-bicycle-bay-tenants",
+    "condo-facade-gondola-access-notices-tenants",
+    "condo-fire-hose-landing-hydrant-clearance-tenants",
+    "condo-foc-pest-fogging-chute-treatment-tenants",
+    "condo-guest-suite-temporary-stay-tenants",
+    "condo-intercom-boom-gate-visitor-qr-tenants",
+    "condo-lightning-protection-earth-pit-inspection-notices-tenants",
+    "condo-loading-bay-refuse-bay-booking-tenants",
+    "condo-move-in-move-out-lift-booking-tenants",
+    "condo-parcel-locker-mailroom-tenants",
+    "condo-renovation-deposit-lift-booking-tenants",
+    "condo-smoke-stop-staircase-pressurisation-fan-test-notices-tenants",
+    "condo-sprinkler-drain-down-fire-shutter-test-notices-tenants",
+    "condo-standby-generator-ats-testing-notices-tenants",
+    "condo-unit-renovation-adjacent-tenants",
+    "condo-visitor-parking-access-cards-tenants",
+    "condo-waste-recycling-bulky-disposal-tenants",
+    "condo-water-tank-booster-pump-outages-tenants",
+  ].map((slug) => ({
+    source: `/guides/${slug}`,
+    destination: "/guides/condo-mcst-bylaws-agm-tenants",
+  })),
+  ...[
     "activesg-swim-parent-belonging-singapore",
     "community-centre-parent-belonging-singapore",
     "dance-studio-waiting-parent-belonging-singapore",
@@ -116,3 +143,28 @@ const CLONE_SLUGS = new Set(
 export function isCloneSlug(slug: string) {
   return CLONE_SLUGS.has(slug);
 }
+
+/** Canonical cite-first guides — shared by sitemap priority, llms.txt, and guides JSON-LD. */
+export const CORNERSTONE_SLUGS: ReadonlySet<string> = new Set([
+  "employment-pass-singapore",
+  "renting-process-loi-ta-deposits",
+  "international-schools-landscape",
+  "leaving-singapore-playbook",
+  "opening-bank-account-expat",
+  "cost-of-living-by-household",
+  "iras-tax-residency-filing",
+  "compass-framework-explained",
+  "first-week-sim-singpass-bank",
+  "sg-arrival-card-expats",
+  "between-jobs-stvp-singapore",
+  "tax-clearance-when-leaving",
+  "healthcare-gp-hospital",
+  "paynow-setup-foreigners-singapore",
+  "sports-fitness-singapore",
+  "find-my-people-singapore",
+  "dual-career-spouse-singapore",
+  "activesg-swimming-pools-singapore",
+  "unpaid-internship-volunteer-work-pass-singapore",
+  "brokerage-cdp-account-foreigners-singapore",
+  "usd-offshore-payroll-employment-pass",
+]);

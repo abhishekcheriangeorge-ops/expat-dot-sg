@@ -2,13 +2,18 @@ import Link from "next/link";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { breadcrumbJsonLd, collectionPageJsonLd } from "@/lib/seo";
-import { modes, pillarsForMode, type ModeSlug } from "@/lib/site";
+import { modes, pillars, pillarsForMode, type ModeSlug } from "@/lib/site";
 
 type ModeHubProps = {
   mode: ModeSlug;
 };
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII"] as const;
+
+function pillarNumeral(slug: string) {
+  const index = pillars.findIndex((pillar) => pillar.slug === slug);
+  return ROMAN[index] ?? String(index + 1);
+}
 
 const MODE_CROSS_LINKS = {
   arriving: [
@@ -132,7 +137,7 @@ export function ModeHub({ mode }: ModeHubProps) {
           </FadeIn>
 
           <Stagger className="mt-8 border-b border-ink">
-            {relatedPillars.map((pillar, i) => (
+            {relatedPillars.map((pillar) => (
               <StaggerItem
                 key={pillar.slug}
                 className="border-t border-ink/15 py-5 first:border-t-0"
@@ -145,7 +150,7 @@ export function ModeHub({ mode }: ModeHubProps) {
                     aria-hidden="true"
                     className="font-display text-[15px] text-tungsten"
                   >
-                    {ROMAN[i] ?? String(i + 1)}.
+                    {pillarNumeral(pillar.slug)}.
                   </span>
                   <span>
                     <span className="block font-display text-xl font-medium text-ink transition-colors group-hover:text-canopy">

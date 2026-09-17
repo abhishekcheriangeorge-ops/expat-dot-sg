@@ -21,5 +21,10 @@
   "waitlistNotes": "Campus-specific; popular grades can waitlist.",
   "website": "https://singapore.globalindianschool.org",
   "featured": false,
-  "sponsored": false
+  "sponsored": false,
+  "relatedGuides": [
+    "international-schools-landscape",
+    "school-waitlist-realism",
+    "aeis-saeis-international-students"
+  ]
 }

@@ -13,7 +13,7 @@ import {
 import { absoluteUrl } from "@/lib/seo";
 import { pillars } from "@/lib/site";
 import { ServiceCategorySchema } from "@/lib/content/schemas";
-import { isCloneSlug } from "@/lib/content/clones";
+import { CORNERSTONE_SLUGS, isCloneSlug } from "@/lib/content/clones";
 
 const STATIC_PATHS: Array<{
   path: string;
@@ -39,29 +39,7 @@ const STATIC_PATHS: Array<{
   { path: "/terms", changeFrequency: "yearly", priority: 0.3 },
 ];
 
-const CORNERSTONE_SLUGS = new Set([
-  "employment-pass-singapore",
-  "renting-process-loi-ta-deposits",
-  "international-schools-landscape",
-  "leaving-singapore-playbook",
-  "opening-bank-account-expat",
-  "cost-of-living-by-household",
-  "iras-tax-residency-filing",
-  "compass-framework-explained",
-  "first-week-sim-singpass-bank",
-  "sg-arrival-card-expats",
-  "between-jobs-stvp-singapore",
-  "tax-clearance-when-leaving",
-  "healthcare-gp-hospital",
-  "paynow-setup-foreigners-singapore",
-  "sports-fitness-singapore",
-  "find-my-people-singapore",
-  "dual-career-spouse-singapore",
-  "activesg-swimming-pools-singapore",
-  "unpaid-internship-volunteer-work-pass-singapore",
-  "brokerage-cdp-account-foreigners-singapore",
-  "usd-offshore-payroll-employment-pass",
-]);
+
 
 async function listAppChildPaths(segment: string): Promise<string[]> {
   const dir = path.join(process.cwd(), "src/app", segment);
@@ -149,7 +127,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   for (const guide of guides) {
     // getAllGuides already excludes clones; isCloneSlug is a safety net.
+    // lastModified comes from frontmatter so timestamps are stable across builds.
     add(`/guides/${guide.slug}`, {
+      lastModified: new Date(guide.lastReviewed),
       changeFrequency: "monthly",
       priority: CORNERSTONE_SLUGS.has(guide.slug)
         ? 0.9

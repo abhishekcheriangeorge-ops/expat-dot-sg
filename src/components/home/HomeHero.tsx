@@ -3,17 +3,17 @@ import Link from "next/link";
 const LEDGER = [
   {
     label: "EP salary floors",
-    value: "From S$5,600",
+    value: "S$5,600+; S$6,200 FS",
     href: "/guides/employment-pass-singapore",
   },
   {
     label: "Lease stamp duty",
-    value: "0.4% of rent",
+    value: "0.4% of total rent",
     href: "/guides/renting-process-loi-ta-deposits",
   },
   {
     label: "STVP after EP cancel",
-    value: "Up to 90 days",
+    value: "Up to 90 days — ask HR",
     href: "/guides/between-jobs-stvp-singapore",
   },
 ];

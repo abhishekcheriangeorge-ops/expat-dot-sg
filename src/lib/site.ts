@@ -116,9 +116,9 @@ export const modes = [
         blurb: "30-day belonging plan — clubs, hashes, repeated contact.",
       },
       {
-        href: "/journeys/leaving",
-        label: "Leaving playbook",
-        blurb: "IR21, deposits, shipping — when this posting ends.",
+        href: "/guides/ep-renewal-strategy",
+        label: "EP renewal strategy",
+        blurb: "Salary floors and COMPASS again — last approval is no guarantee.",
       },
     ] as const satisfies readonly ModeStartLink[],
     image: "/images/living-singapore.jpg",
@@ -446,11 +446,6 @@ export const pillars: Pillar[] = [
       "Transport, hawker literacy, shopping, nightlife, sports, arts, dating, essential apps, haze season, and what to do in an emergency.",
     modes: ["living"],
     topics: [
-      {
-        label: "Changi → city transfer",
-        href: "/guides/changi-airport-grab-taxi",
-        blurb: "First-ride Grab vs taxi surcharges vs MRT.",
-      },
       {
         label: "Transport fluency",
         href: "/guides/mrt-bus-transport-literacy",

@@ -242,10 +242,6 @@ const GROUPS: Array<{ id: string; label: string; hrefs: Set<string> }> = [
       "/tools/fdw-levy",
       "/tools/helper-levy-final-month",
       "/tools/foreign-licence-clock",
-      "/tools/driving-insurance-gap",
-      "/tools/car-coe-exit",
-      "/tools/fibre-broadband-etf",
-      "/tools/sim-otp-keep",
     ]),
   },
   {
@@ -260,12 +256,11 @@ const GROUPS: Array<{ id: string; label: string; hrefs: Set<string> }> = [
       "/tools/school-leavers-fee",
       "/tools/school-bus-last-week-float",
       "/tools/tuition-centre-bond",
-      "/tools/pet-quarantine-float",
     ]),
   },
   {
     id: "close-out",
-    label: "Close-out",
+    label: "Exit & close-out",
     hrefs: new Set(),
   },
 ];
