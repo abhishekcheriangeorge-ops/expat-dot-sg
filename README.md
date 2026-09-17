@@ -73,15 +73,19 @@ import { getAllFeaturedListings, getAllSponsoredPosts } from "@/lib/content";
 
 ## Deploy to Vercel
 
-**Live production:** [https://expat-sg.vercel.app](https://expat-sg.vercel.app)  
+Production is the git-connected project **expat-sg**. Pushes to `main` deploy automatically.
+
+**Live:** [https://expat-sg.vercel.app](https://expat-sg.vercel.app)  
 **Dashboard:** [abhishekcheriangeorge/expat-sg](https://vercel.com/abhishekcheriangeorge/expat-sg)  
 **GitHub:** [abhishekcheriangeorge-ops/expat-dot-sg](https://github.com/abhishekcheriangeorge-ops/expat-dot-sg)
 
 ### Redeploy (CLI)
 
+This repo is linked to **expat-sg**. Do not create a second Vercel project.
+
 ```bash
 npx vercel whoami                 # must print your username
-npx vercel link --yes             # already linked → expat-sg
+npx vercel link --yes --project expat-sg
 npx vercel --prod --yes
 ```
 
@@ -93,7 +97,7 @@ npx vercel login
 
 Then re-run `link` + `--prod`.
 
-Env vars: none required for launch (leads fall back to ephemeral storage without `DATABASE_URL`). After custom domain is live, set Production:
+The site builds without env vars. Advertise inquiries need `DATABASE_URL` in the **expat-sg** project (Vercel’s filesystem is read-only). After the custom domain is live, set Production:
 
 - `NEXT_PUBLIC_SITE_URL=https://expat.sg`
 - `DATABASE_URL` when Neon is provisioned (see [docs/neon-setup.md](docs/neon-setup.md))

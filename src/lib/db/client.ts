@@ -3,13 +3,13 @@ import { neon, type NeonQueryFunction } from "@neondatabase/serverless";
 /**
  * Neon Postgres client for mutable monetization data (leads, future inventory).
  *
- * Provisioning (preferred):
- *   vercel link
- *   vercel integration add neon --yes --no-claim
- *   vercel env pull --yes
+ * Provisioning (preferred), git-connected Vercel project **expat-sg**:
+ *   npx vercel link --yes --project expat-sg
+ *   npx vercel integration add neon --yes --no-claim
+ *   npx vercel env pull --yes
  *
- * If Marketplace / MCP auth is unavailable, leave DATABASE_URL unset —
- * lead capture falls back to `.data/leads.jsonl` (see `leads.ts`).
+ * Locally, unset DATABASE_URL falls back to `.data/leads.jsonl` (see `leads.ts`).
+ * Production needs DATABASE_URL.
  */
 export function getDatabaseUrl(): string | undefined {
   const url =

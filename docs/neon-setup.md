@@ -11,20 +11,18 @@ Guides, entities, and journeys stay on the filesystem.
 
 ## Provisioning status (this workspace)
 
-Neon MCP and Vercel MCP both required interactive auth that was blocked in the
-Phase 5 agent run (`needsAuth` / auth already handled). Vercel CLI was not
-installed on PATH. **Launch is not blocked** — the app falls back to
-`.data/leads.jsonl` when `DATABASE_URL` is unset.
+Locally, advertise inquiries fall back to `.data/leads.jsonl` when
+`DATABASE_URL` is unset. On Vercel (project **expat-sg**) that file store is
+not writable — set `DATABASE_URL` on that project before relying on
+`/advertise`.
 
 ## Recommended setup (Vercel Marketplace)
 
 ```bash
-npm i -g vercel   # or: npx vercel …
-vercel login
-cd /path/to/expat-sg
-vercel link
-vercel integration add neon --yes --no-claim
-vercel env pull --yes
+npx vercel login
+npx vercel link --yes --project expat-sg
+npx vercel integration add neon --yes --no-claim
+npx vercel env pull --yes
 ```
 
 That injects `DATABASE_URL` (and related Neon vars) into the Vercel project and
