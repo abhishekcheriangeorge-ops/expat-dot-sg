@@ -35,6 +35,18 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/**
+ * Per-unit rates (per day, per month, per statement) keep their cents.
+ *
+ * money() rounds to whole dollars, which is right for a total but wrong for a
+ * rate that is about to be multiplied: a $2.50/day fee became $3/day, and the
+ * error then scaled with the day count. Round the product, not the rate.
+ */
+function rate(n: number): number {
+  if (!Number.isFinite(n) || n < 0) return 0;
+  return Math.round(n * 100) / 100;
+}
+
 /** Signed rounding for nets — a negative float is the point of the sketch */
 function signed(n: number): number {
   if (!Number.isFinite(n)) return 0;
@@ -60,7 +72,7 @@ export function estimateSchoolDeviceBond(
     : "full-return";
   const bondSgd = money(inputs.bondSgd);
   const overdueDays = clampDays(inputs.overdueDays);
-  const overduePerDaySgd = money(inputs.overduePerDaySgd);
+  const overduePerDaySgd = rate(inputs.overduePerDaySgd);
   const damageSgd = money(inputs.damageSgd);
   const adminFeeSgd = money(inputs.adminFeeSgd);
 

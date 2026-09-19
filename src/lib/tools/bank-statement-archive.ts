@@ -34,6 +34,18 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/**
+ * Per-unit rates (per day, per month, per statement) keep their cents.
+ *
+ * money() rounds to whole dollars, which is right for a total but wrong for a
+ * rate that is about to be multiplied: a $2.50/day fee became $3/day, and the
+ * error then scaled with the day count. Round the product, not the rate.
+ */
+function rate(n: number): number {
+  if (!Number.isFinite(n) || n < 0) return 0;
+  return Math.round(n * 100) / 100;
+}
+
 function clampMonths(n: number): number {
   if (!Number.isFinite(n) || n < 0) return 0;
   return Math.min(84, Math.floor(n));
@@ -58,8 +70,8 @@ export function estimateBankStatementArchive(
     : "self-serve-pdf";
   const monthsNeeded = clampMonths(inputs.monthsNeeded);
   const monthsOnHand = clampMonths(inputs.monthsOnHand);
-  const reprintFeeSgd = money(inputs.reprintFeeSgd);
-  const rushFeeSgd = money(inputs.rushFeeSgd);
+  const reprintFeeSgd = rate(inputs.reprintFeeSgd);
+  const rushFeeSgd = rate(inputs.rushFeeSgd);
   const weeksToClose = clampWeeks(inputs.weeksToClose);
 
   const monthsGap = Math.max(0, monthsNeeded - monthsOnHand);

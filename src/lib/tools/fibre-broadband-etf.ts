@@ -36,6 +36,18 @@ function money(n: number): number {
   return Math.round(n);
 }
 
+/**
+ * Per-unit rates (per day, per month, per statement) keep their cents.
+ *
+ * money() rounds to whole dollars, which is right for a total but wrong for a
+ * rate that is about to be multiplied: a $2.50/day fee became $3/day, and the
+ * error then scaled with the day count. Round the product, not the rate.
+ */
+function rate(n: number): number {
+  if (!Number.isFinite(n) || n < 0) return 0;
+  return Math.round(n * 100) / 100;
+}
+
 function signed(n: number): number {
   if (!Number.isFinite(n)) return 0;
   return Math.round(n);
@@ -50,7 +62,7 @@ export function estimateFibreBroadbandEtf(
   inputs: FibreBroadbandInputs,
 ): FibreBroadbandResult {
   const monthsRemaining = clampMonths(inputs.monthsRemaining);
-  const monthlyFeeSgd = money(inputs.monthlyFeeSgd);
+  const monthlyFeeSgd = rate(inputs.monthlyFeeSgd);
   const etfSgd = money(inputs.etfSgd);
   const transferFeeSgd = money(inputs.transferFeeSgd);
   const rebateClawbackSgd = money(inputs.rebateClawbackSgd);

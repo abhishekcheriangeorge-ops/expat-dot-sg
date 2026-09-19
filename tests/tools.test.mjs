@@ -721,3 +721,44 @@ describe("audit regressions (phantom costs and clamped residuals)", () => {
     assert.equal(r.netSketchSgd, -600);
   });
 });
+
+describe("audit regressions (rate precision)", () => {
+  it("a per-day fee keeps its cents before it is multiplied", () => {
+    const r = estimateSchoolDeviceBond({
+      mode: "full-return",
+      bondSgd: 300,
+      damageSgd: 0,
+      adminFeeSgd: 0,
+      overdueDays: 10,
+      overduePerDaySgd: 2.5,
+    });
+    // Rounding the rate to $3 first billed 30 for 10 days at $2.50.
+    assert.equal(r.cashOutSgd, 25);
+  });
+
+  it("a monthly fee keeps its cents across a 36-month term", () => {
+    const r = estimateFibreBroadbandEtf({
+      mode: "serve-notice",
+      monthsRemaining: 36,
+      monthlyFeeSgd: 49.9,
+      etfSgd: 0,
+      transferFeeSgd: 0,
+      rebateClawbackSgd: 0,
+    });
+    // $49.90 rounded to $50 first overstated a 3-year term by about 4 dollars.
+    assert.equal(r.pathCostSgd, 1796);
+  });
+
+  it("a per-statement fee keeps its cents", () => {
+    const r = estimateBankStatementArchive({
+      mode: "branch-reprint",
+      monthsNeeded: 12,
+      monthsOnHand: 0,
+      reprintFeeSgd: 5.35,
+      rushFeeSgd: 0,
+      weeksToClose: 2,
+    });
+    // $5.35 rounded to $5 first understated 12 statements by 4 dollars.
+    assert.equal(r.cashOutSgd, 64);
+  });
+});
