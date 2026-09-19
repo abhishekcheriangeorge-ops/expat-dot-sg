@@ -61,7 +61,11 @@ export function estimateInsurancePortability(
 
   const costs: Record<InsurancePortMode, number> = {
     "extend-sg": money(extendCostSgd),
-    "gap-bridge": money(bridgeCostSgd + cancelFeeSgd * 0.25),
+    // The bridge quote is the bridge cost. It previously carried 25% of the
+    // early-cancel forfeit, which is a cost of the cancel-and-start path, not
+    // this one — that handicap produced a number matching neither the quote nor
+    // the true cash-out, and could recommend a path that is not the cheapest.
+    "gap-bridge": money(bridgeCostSgd),
     "cancel-and-start": money(cancelFeeSgd + destinationStartSgd),
   };
 

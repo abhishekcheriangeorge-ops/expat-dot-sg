@@ -37,7 +37,7 @@ export default function HelperLevyFinalMonthToolPage() {
         <ToolAbout
           how={[
       "Charges the full monthly levy when the helper stays through month-end.",
-      "Pro-rates the levy by days employed over days in month on cancel or transfer.",
+      "Charges an incomplete month at MOM's daily levy rate — (monthly levy x 12) / 365, rounded up to the cent — capped at the monthly rate.",
       "Adds admin fees and any waiver clawback on top.",
     ]}
           actions={[

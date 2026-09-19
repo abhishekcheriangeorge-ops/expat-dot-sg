@@ -27,6 +27,7 @@ import { estimateClubDepositExit } from "../src/lib/tools/club-deposit-exit.ts";
 import { estimateDrivingInsuranceGap } from "../src/lib/tools/driving-insurance-gap.ts";
 import { estimateFibreBroadbandEtf } from "../src/lib/tools/fibre-broadband-etf.ts";
 import { estimateInsurancePortability } from "../src/lib/tools/insurance-portability-float.ts";
+import { estimateFdwLevy, FDW_LEVY_BANDS } from "../src/lib/tools/fdw-levy.ts";
 import { estimatePetQuarantineFloat } from "../src/lib/tools/pet-quarantine-float.ts";
 import { estimatePharmacyLastRefillFloat } from "../src/lib/tools/pharmacy-last-refill-float.ts";
 import { estimateSchoolBusLastWeekFloat } from "../src/lib/tools/school-bus-last-week-float.ts";
@@ -519,5 +520,103 @@ describe("signed nets and validation", () => {
     });
     assert.equal(r.mode, "full-refund");
     assert.equal(r.cashInSgd, 1000);
+  });
+});
+
+// Regression tests for the three money bugs found in the 2026-09-19 tool audit.
+// Each asserts the corrected behaviour against the authority that defines it.
+describe("audit regressions (money-critical)", () => {
+  it("helper levy bills an incomplete month at MOM's daily rate, not days-in-month", () => {
+    // MOM publishes the daily rate as ceil(monthly x 12 / 365) to the cent:
+    // $300 -> $9.87, $450 -> $14.80, $60 -> $1.98.
+    const feb = estimateHelperLevyFinalMonth({
+      mode: "mid-month-cancel",
+      monthlyLevySgd: 450,
+      daysInMonth: 28,
+      daysEmployed: 20,
+      adminFeeSgd: 0,
+      waiverClawbackSgd: 0,
+    });
+    // 14.80 x 20 = 296.00. Days-in-month proration gave 321 and overcharged.
+    assert.equal(feb.proRataLevySgd, 296);
+
+    const long = estimateHelperLevyFinalMonth({
+      mode: "transfer-out",
+      monthlyLevySgd: 300,
+      daysInMonth: 31,
+      daysEmployed: 30,
+      adminFeeSgd: 0,
+      waiverClawbackSgd: 0,
+    });
+    // 9.87 x 30 = 296.10. Proration gave 290 and undercharged.
+    assert.equal(long.proRataLevySgd, 296);
+  });
+
+  it("helper levy never charges more than the monthly rate for a full month", () => {
+    // 9.87 x 31 = 306.97 would exceed the $300 month MOM actually bills.
+    const full = estimateHelperLevyFinalMonth({
+      mode: "mid-month-cancel",
+      monthlyLevySgd: 300,
+      daysInMonth: 31,
+      daysEmployed: 31,
+      adminFeeSgd: 0,
+      waiverClawbackSgd: 0,
+    });
+    assert.equal(full.proRataLevySgd, 300);
+  });
+
+  it("tuition notice dues beyond unused credit are billed, not forgiven", () => {
+    const r = estimateTuitionCentreBond({
+      mode: "notice-partial",
+      bondSgd: 300,
+      unusedPackageSgd: 0,
+      noticeFeeSgd: 50,
+      materialsHoldSgd: 40,
+      noticeMonths: 2,
+      monthlyPackageSgd: 400,
+    });
+    // bond 300 in, fees 90 + uncovered notice 800 out. Clamping the residual to
+    // zero reported +210, i.e. money coming back while the parent owed 590.
+    assert.equal(r.netSketchSgd, -590);
+    assert.ok(r.netSketchSgd < 0, "parent is out of pocket, not in credit");
+  });
+
+  it("tuition netting still does not double-charge when credit covers the dues", () => {
+    const r = estimateTuitionCentreBond({
+      mode: "notice-partial",
+      bondSgd: 300,
+      unusedPackageSgd: 1000,
+      noticeFeeSgd: 50,
+      materialsHoldSgd: 40,
+      noticeMonths: 1,
+      monthlyPackageSgd: 400,
+    });
+    // credit 1000 - dues 400 = 600 returned with the 300 bond, less 90 of fees.
+    assert.equal(r.cashInSgd, 900);
+    assert.equal(r.cashOutSgd, 90);
+  });
+
+  it("insurance gap-bridge is priced at the bridge quote, with no cancel-fee handicap", () => {
+    const r = estimateInsurancePortability({
+      mode: "gap-bridge",
+      gapDays: 30,
+      extendCostSgd: 450,
+      bridgeCostSgd: 220,
+      cancelFeeSgd: 1000,
+      destinationStartSgd: 350,
+    });
+    // Adding 25% of the 1000 forfeit made this 470 and recommended extend-sg,
+    // steering users off the genuinely cheapest path.
+    assert.equal(r.pathCostSgd, 220);
+    assert.equal(r.recommended, "gap-bridge");
+  });
+
+  it("fdw levy multiplies the selected band and rejects nonsense months", () => {
+    const band = FDW_LEVY_BANDS.find((b) => b.id === "full-first");
+    const r = estimateFdwLevy({ bandId: "full-first", months: 6 });
+    assert.equal(r.total, band.monthly * 6);
+    const bad = estimateFdwLevy({ bandId: "full-first", months: -3 });
+    assert.equal(bad.months, 0);
+    assert.equal(bad.total, 0);
   });
 });

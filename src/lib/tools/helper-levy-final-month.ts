@@ -64,14 +64,19 @@ export function estimateHelperLevyFinalMonth(
   const adminFeeSgd = money(inputs.adminFeeSgd);
   const waiverClawbackSgd = money(inputs.waiverClawbackSgd);
 
+  // MOM bills an incomplete calendar month at a published DAILY rate, not by
+  // days-in-month proration: (monthly levy x 12) / 365, rounded up to the cent.
+  // That reproduces MOM's own table exactly ($300 -> $9.87, $450 -> $14.80,
+  // $60 -> $1.98). A completed month is charged the monthly rate, so the daily
+  // accrual is capped there (31 x 9.87 would otherwise exceed the $300 month).
+  const dailyLevySgd = Math.ceil(((monthlyLevySgd * 12) / 365) * 100) / 100;
+
   let proRataLevySgd = 0;
   if (mode === "keep-through-month") {
     proRataLevySgd = monthlyLevySgd;
-  } else if (mode === "mid-month-cancel") {
-    proRataLevySgd = money((monthlyLevySgd * daysEmployed) / daysInMonth);
   } else {
-    // transfer-out: often still owes through transfer day + admin
-    proRataLevySgd = money((monthlyLevySgd * daysEmployed) / daysInMonth);
+    // mid-month-cancel and transfer-out both owe the levy through the last day.
+    proRataLevySgd = money(Math.min(monthlyLevySgd, dailyLevySgd * daysEmployed));
   }
 
   const cashOutSgd = money(proRataLevySgd + adminFeeSgd + waiverClawbackSgd);

@@ -75,9 +75,13 @@ export function estimateTuitionCentreBond(
     cashInSgd = money(bondSgd + unusedPackageSgd);
     cashOutSgd = money(noticeFeeSgd + materialsHoldSgd);
   } else if (mode === "notice-partial") {
-    // Notice dues are netted against unused credits — not charged again.
+    // Notice dues are netted against unused credits once, never charged twice.
+    // Anything the credits do not cover is still owed, so it has to land in
+    // cash-out: clamping it to zero silently forgave the residual and could
+    // report money coming back while the parent was out of pocket.
+    const noticeResidual = Math.max(0, noticeDues - unusedPackageSgd);
     cashInSgd = money(bondSgd + Math.max(0, unusedPackageSgd - noticeDues));
-    cashOutSgd = money(noticeFeeSgd + materialsHoldSgd);
+    cashOutSgd = money(noticeFeeSgd + materialsHoldSgd + noticeResidual);
   } else {
     // Forfeit: bond + package kept (no cash in); notice dues may still bill.
     cashInSgd = 0;

@@ -1,19 +1,30 @@
-# Citation discovery — expat.sg
+# How to cite expat.sg
 
 site: https://expat.sg
-updated: 2026-09-15
+publisher: expat.sg
+language: en-SG
 
-## How to cite
-- Prefer guide canonical URLs from https://expat.sg/sitemap.xml
-- Publisher: expat.sg
-- Language: en-SG
+## Citing a guide
+Cite the guide's own canonical URL, not this file and not the hub it sits under.
+Every published URL is listed in https://expat.sg/sitemap.xml
 
-## Notes
-- CreativeWork / citation ItemList helpers live in seo-cite.ts (app shell).
-- Pair with press.txt for media attribution.
+Each guide page carries:
+  - a "Last reviewed" date in its metadata
+  - the official sources it relies on, linked inline and listed on the page
 
-## Related
-- https://expat.sg/press.txt
-- https://expat.sg/editorial.txt
-- https://expat.sg/brand.txt
-- https://expat.sg/sitemap.xml
+Quote the official source (MOM, ICA, IRAS, HDB, CPF and so on) for the rule
+itself. Cite us for the explanation, the sequencing, or the worked example.
+
+## Machine-readable
+  sitemap   https://expat.sg/sitemap.xml
+  feed      https://expat.sg/rss.xml
+  llms.txt  https://expat.sg/llms.txt
+  robots    https://expat.sg/robots.txt
+
+## Editorial standards
+https://expat.sg/editorial-policy
+
+## A caveat worth passing on
+Singapore pass rules, levies and thresholds change, sometimes mid-year. If you
+are citing a number, check the "Last reviewed" date on the page and confirm it
+against the linked official source before you rely on it.
