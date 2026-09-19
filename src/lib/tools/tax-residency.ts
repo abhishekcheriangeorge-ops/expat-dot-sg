@@ -63,13 +63,19 @@ function inclusiveDays(start: Date, end: Date): number {
 export function estimateTaxResidencyDays(
   inputs: TaxResidencyInputs,
 ): TaxResidencyResult {
-  const year = Math.floor(inputs.calendarYear);
+  // Math.floor of a non-numeric year yields NaN, which then propagated into
+  // the returned yearOfAssessment and rendered as "YA NaN".
+  const rawYear = Math.floor(Number(inputs.calendarYear));
+  const yearValid = Number.isFinite(rawYear) && rawYear >= 2000 && rawYear <= 2100;
+  const year = yearValid ? rawYear : new Date().getUTCFullYear();
   const yearStart = new Date(Date.UTC(year, 0, 1));
   const yearEnd = new Date(Date.UTC(year, 11, 31));
   const start = parseYmd(inputs.presenceStart);
   const end = parseYmd(inputs.presenceEnd);
 
-  if (!start || !end || year < 2000 || year > 2100) {
+  // Number.isFinite first: a non-numeric year made both comparisons false, so
+  // the guard passed and the Invalid Date downstream rendered as "YA NaN".
+  if (!start || !end || !yearValid) {
     return {
       calendarYear: year,
       yearOfAssessment: year + 1,

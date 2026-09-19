@@ -108,7 +108,7 @@ export function IpaWindowCalculator() {
             </dd>
           </div>
           <div className="flex justify-between gap-3">
-            <dt className="text-ink-faint">Days left after entry</dt>
+            <dt className="text-ink-faint">Days left from today</dt>
             <dd className="font-medium tabular-nums text-ink">
               {result.daysUntilDeadline ?? "—"}
             </dd>

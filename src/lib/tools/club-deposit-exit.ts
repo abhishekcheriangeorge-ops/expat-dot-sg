@@ -76,8 +76,7 @@ export function estimateClubDepositExit(
   } else {
     // Forfeit: deposit kept (no cash in); notice dues + admin still bill.
     cashIn = 0;
-    headline =
-      "Forfeit sketch — treat deposit as lost and still clear notice dues";
+    headline = `Forfeit sketch — write off ${depositSgd} SGD deposit and still clear notice dues`;
     note =
       "Some resignations forfeit entrance deposits when notice is short or transfer rules are missed. Get the club’s written outcome.";
   }

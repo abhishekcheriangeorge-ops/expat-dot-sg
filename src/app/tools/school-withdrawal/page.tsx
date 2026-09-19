@@ -38,7 +38,7 @@ export default function SchoolWithdrawalToolPage() {
           how={[
       "Subtracts notice weeks from the last-attendance date for the written-notice deadline.",
       "Counts days from today to that deadline and flags mid-term exits.",
-      "Notice weeks clamp to 52.",
+      "Notice periods above 52 weeks are rejected rather than clamped — check the contract if yours is longer.",
     ]}
           actions={[
       "Confirm whether the school still bills through the fee period after notice.",

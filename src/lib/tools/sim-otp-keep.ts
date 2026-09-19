@@ -98,7 +98,9 @@ export function estimateSimOtpKeep(inputs: SimOtpInputs): SimOtpResult {
 
   let headline = `${labels[strategy]} · sketch ${money(keepCostSgd)} SGD over ${monthsNeeded} mo`;
   let note = SIM_OTP_NOTE;
-  if (strategy !== recommended) {
+  // Only advertise a cheaper path when one genuinely costs less. A tie used to
+  // read as though the reader was leaving money on the table.
+  if (strategy !== recommended && costs[recommended] < costs[strategy]) {
     headline += ` · cheaper sketch path: ${labels[recommended]}`;
   }
   if (strategy === "drop-replace") {

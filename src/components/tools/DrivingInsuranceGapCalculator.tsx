@@ -73,12 +73,12 @@ export function DrivingInsuranceGapCalculator() {
             <input
               id="ins-days"
               type="number"
-              min={1}
+              min={0}
               max={180}
               step={1}
               value={gapDays}
               onChange={(e) =>
-                setGapDays(Math.max(1, Number(e.target.value) || 1))
+                setGapDays(Math.min(180, Math.max(0, Number(e.target.value) || 0)))
               }
               className="mt-3 w-full max-w-[8rem] border border-ink/15 bg-paper-elevated px-4 py-3 text-ink outline-none focus:border-canopy"
             />
