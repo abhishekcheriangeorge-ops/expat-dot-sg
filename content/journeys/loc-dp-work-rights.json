@@ -2,30 +2,30 @@
   "type": "playbook",
   "slug": "loc-dp-work-rights",
   "title": "DP work rights & Letter of Consent",
-  "summary": "A Dependant’s Pass is not a work pass — map employee LOC vs business-owner LOC, main-pass cascade risk, and when an EP or S Pass is the cleaner path before anyone starts billing hours.",
+  "summary": "A Dependant’s Pass is not a work pass. Here is what actually applies now: your own EP or S Pass for a normal job, business-owner LOC for running a company, and the cascade risk when the main pass goes — sorted out before anyone starts billing hours.",
   "lastReviewed": "2026-09-15",
   "sections": [
     {
       "id": "dp-is-not-work",
       "title": "Dependant’s Pass ≠ permission to work",
-      "body": "A Dependant’s Pass (DP) lets the holder live in Singapore as a dependant of an eligible main pass holder. It does not, by itself, authorise employment or self-employment. Forum shorthand (“my spouse has DP so they can freelance”) is wrong. Work needs a separate MOM permission — usually a Letter of Consent (LOC) tied to a specific arrangement, or a primary work pass (EP / S Pass / Work Permit) instead.",
+      "body": "A Dependant’s Pass (DP) lets you live in Singapore as the dependant of an eligible main pass holder. That is all it does — it does not authorise employment or self-employment. The forum shorthand (“my spouse has a DP so they can freelance”) is simply wrong. Working means getting a separate MOM permission: for an ordinary job that is your own work pass (EP / S Pass / Work Permit), and the Letter of Consent now survives only for DP holders running a business and for ICA-issued LTVP holders.",
       "bullets": [
-        "Do not start paid work, contracting, or “helping in the family business” on DP alone",
+        "Do not start paid work, contracting, or “helping out in the family business” on a DP alone",
         "School enrolment and CPF myths do not create work rights",
-        "If the role looks like full-time employment, ask whether EP/S Pass is required rather than LOC"
+        "If the role looks like ordinary employment, the answer is an EP or S Pass — not an LOC"
       ],
-      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligible-family-members"
+      "href": "https://www.mom.gov.sg/passes-and-permits/employment-pass/passes-for-family"
     },
     {
       "id": "employee-loc",
-      "title": "Employee Letter of Consent path",
-      "body": "For many DP holders taking a job with a Singapore employer, the employer applies for a Letter of Consent. LOC is employer- and role-specific — it is not a portable “spouse work card.” Confirm the live MOM LOC product pages for the exact DP category, employer duties, and whether the role is eligible before signing an offer that assumes day-one start.",
+      "title": "Taking a normal job? You need your own work pass",
+      "body": "This is the one that catches people out. MOM no longer issues a Letter of Consent to Dependant’s Pass holders who simply want to take a job — that route is closed. If you are being hired into an ordinary salaried role, you need your own Employment Pass, S Pass, or Work Permit, and your DP gets cancelled before the new pass is issued. The “my employer will just sort out an LOC” advice still floating around expat forums is years out of date, so check MOM’s live page before you accept an offer that assumes a day-one start.",
       "bullets": [
-        "Employer (not the DP holder) usually drives the LOC application in EP Online / MOM eServices",
-        "Keep the offer letter, job scope, and salary aligned with what MOM will see",
-        "Do not treat LOC approval as automatic because a friend got one last year — products and eligibility change"
+        "Your employer applies for the EP or S Pass like any other foreign hire — COMPASS scoring and salary benchmarks apply to you too",
+        "You stop being a dependant: the DP is cancelled before the EP or S Pass is issued, so sequence it with your family’s other passes",
+        "LOC still exists, but only for DP holders running a business and for ICA-issued LTVP holders — not for ordinary employment"
       ],
-      "href": "https://www.mom.gov.sg/passes-and-permits/letter-of-consent"
+      "href": "https://www.mom.gov.sg/passes-and-permits/dependants-pass/working-in-singapore"
     },
     {
       "id": "business-loc",
