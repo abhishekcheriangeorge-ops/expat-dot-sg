@@ -37,63 +37,56 @@ faqs:
 relatedEntities: []
 draft: false
 ---
-**Short answer:** PayNow needs a **Singapore bank or participating MPI wallet** first. After pass issuance, register your **FIN** as the stable proxy (mobile is optional and fragile). Recycled prepaid numbers are how rent deposits vanish to strangers — **read the name** on the confirm screen every time.
+**Short answer:** PayNow only works once you hold a Singapore bank account or a participating MPI wallet. After your pass is issued, register your FIN as the proxy, because that is the one that survives a change of SIM. Mobile is optional and fragile. Recycled prepaid numbers are how rent deposits end up with strangers, so **read the recipient name on the confirm screen** every single time.
 
-r/askSingapore’s PayNow threads usually collapse into three different problems: **no local bank account**, a **prepaid mobile still linked to the previous owner**, and confusing **Wise / MPI QR** with a personal FIN proxy. This page is the setup playbook; wrong-number disasters live in [erroneous transfer recovery](/guides/wrong-paynow-epayment-recovery).
+The PayNow threads on r/askSingapore almost always turn out to be one of three problems: you don't have a local bank account yet, your prepaid mobile number is still linked to whoever had it before you, or you're treating a Wise QR as though it were a personal FIN proxy. This page is the setup playbook. If money has already gone to the wrong person, that's a different job, and it's covered in [erroneous transfer recovery](/guides/wrong-paynow-epayment-recovery).
 
 ## What PayNow actually is
 
-PayNow moves **SGD** between participating Singapore banks and major payment institutions (MPIs) over FAST using a **proxy** — typically:
+PayNow moves SGD between participating Singapore banks and the major payment institutions (MPIs) over FAST. The trick is that you don't send to an account number, you send to a proxy — a piece of identity the receiving bank has registered against an account.
 
 | Proxy | Who it suits |
 | --- | --- |
-| **NRIC / FIN** | Expats with an issued work/dependant pass — stable identity for rent, helper salary, school fees |
-| **Mobile number** | Everyday peer transfers — fragile when you swap prepaid SIMs |
-| **UEN** | Businesses / entities (PayNow Corporate) |
-| **VPA** | MPI e-wallet receive path that can sit **alongside** a bank PayNow registration |
+| NRIC / FIN | Expats with an issued work or dependant pass. This is the stable one: rent, helper salary, school fees |
+| Mobile number | Everyday transfers between friends. Fragile the moment you swap prepaid SIMs |
+| UEN | Businesses and other entities, under PayNow Corporate |
+| VPA | The receive path for an MPI e-wallet, which sits alongside a bank PayNow registration rather than replacing it |
 
-You register inside your **bank or MPI app** — having the bank’s contact number on file is **not** the same as linking a PayNow proxy.
+You register inside your bank or MPI app, and this is where people quietly go wrong: giving the bank your mobile number when you opened the account is not the same thing as linking a PayNow proxy. Nobody does it for you.
 
 <OfficialSource>
 Industry hub: [ABS PayNow](https://www.abs.org.sg/e-payments/pay-now). Proxy / VPA detail: [ABS PayNow fact sheet](https://abs.org.sg/docs/library/paynow_factsheet.pdf). Licensing context: [MAS](https://www.mas.gov.sg/).
 </OfficialSource>
 
-## Foreigner setup sequence that works
+## The order that actually works for a foreigner
 
-1. Open a **local bank salary account** after pass issuance — [opening a bank account](/guides/opening-bank-account-expat)  
-2. In the bank app, register **FIN** as a PayNow proxy (and optionally mobile)  
-3. On the confirm screen, verify the **registered name** matches you before you publish the proxy to landlords  
-4. Send yourself a S$1 test from a second account / partner if amounts will be large  
+1. Open a local bank salary account once your pass is issued, which we walk through in [opening a bank account](/guides/opening-bank-account-expat)
+2. In the bank app, register your FIN as a PayNow proxy, and your mobile too if you want it
+3. Check that the registered name on the confirm screen is genuinely yours before you hand the proxy to a landlord
+4. If large amounts are coming, have a partner or a second account send you S$1 first and watch it land
 
-Tourists **without** a Singapore bank or participating MPI wallet cannot invent peer-to-peer PayNow from a foreign number. Grab QR / NETS-style merchant rails are a different product — if the till uses a personal mobile PayNow, overseas wallets often fail.
+If you're only visiting, and you hold neither a Singapore bank account nor a participating MPI wallet, you can't conjure peer-to-peer PayNow out of a foreign number. There is no clever workaround; the rails start at a local account. Merchant QR is a different product altogether, and Grab or NETS-style tills behave differently again. When a small shop is taking payment through a personal mobile PayNow proxy, overseas wallets often just fail at the scan.
 
-Week-one order of operations: [SIM → Singpass → bank map](/guides/first-week-sim-singpass-bank).
+For where this sits in your first week, see [SIM, then Singpass, then bank](/guides/first-week-sim-singpass-bank).
 
 ## The recycled prepaid SIM trap
 
-Singapore prepaid numbers get recycled. Forum pattern: you open DBS, assume mobile PayNow “just works,” then Wise/home remittance to your **new** number credits the **previous** owner’s OCBC link.
+Singapore recycles prepaid numbers, and your bank has no way of knowing yours was somebody else's last year. The forum version goes like this: you open a DBS account, assume mobile PayNow just works, and then a Wise transfer or a payment from home lands on your new number and credits the previous owner's OCBC link. Nothing failed. Everything worked exactly as designed, for the wrong person.
 
-| Symptom | Fix |
+| Symptom | What to do |
 | --- | --- |
-| Transfer “succeeds” but your balance does not move | Check which bank owns the mobile proxy; call **your** bank to de-link / re-register |
-| Name on confirm screen is not yours | Stop — do not send the large amount |
-| You changed SIMs without telling the bank | Report the number change; re-register PayNow on the new mobile |
+| The transfer "succeeds" but your balance doesn't move | Work out which bank owns that mobile proxy, then call your own bank to de-link and re-register |
+| The name on the confirm screen isn't yours | Stop there, and don't send the large amount |
+| You changed SIMs without telling the bank | Report the number change and re-register PayNow on the new mobile |
 
-Prefer **FIN** for anything contractual (rent deposits, helper payroll, tuition). Keep mobile for friends who already know your digits.
+For anything contractual, meaning rent deposits, helper payroll and tuition, use the FIN. Keep the mobile proxy for friends who already know your digits and would tell you if the money went somewhere strange.
 
-## Wise / MPI PayNow QR is not your FIN
+## A Wise QR is not your FIN PayNow
 
-Specialist FX providers licensed as MPIs can often generate a **PayNow QR** into an SGD balance. Useful for freelancers and visitors who already hold that wallet — still:
+Specialist FX providers licensed as MPIs can usually generate a PayNow QR that pays into their SGD balance, which is genuinely useful if you're freelancing or visiting and already hold the wallet. It still isn't a bank registration. Reconciliation and reference fields matter more than they do on a personal FIN link, it is **not a payroll or GIRO substitute**, and getting money home stays a separate FX problem that we cover in [remittances](/guides/remittances-singapore).
 
-- Reconciliation / reference fields matter more than for a personal FIN link  
-- It is **not** a payroll substitute or GIRO account  
-- Cross-border home remittances remain a separate FX problem — [remittances](/guides/remittances-singapore)
+## Habits that save you the disaster thread
 
-## Habits that prevent Reddit disasters
+Read the recipient name on every confirm screen, including the small ones. It costs a second, and it's the only check that catches a recycled number before the money leaves. Use the FIN rather than the mobile for anything recurring or large. Send family support home on remittance rails rather than pushing it through PayNow. And if money does land on the wrong proxy, open an erroneous transaction case with your bank immediately rather than waiting a few days to see whether it comes back on its own; the [recovery guide](/guides/wrong-paynow-epayment-recovery) has the sequence.
 
-- Read the recipient **name** on every confirm screen  
-- Prefer FIN over mobile for recurring large pays  
-- Batch overseas family support on remittance rails, not PayNow  
-- If money goes to the wrong proxy, open an **erroneous transaction** case immediately — [recovery guide](/guides/wrong-paynow-epayment-recovery)
-
-PayNow is infrastructure once the FIN is linked. Treat mobile proxies as disposable labels, not identity.
+Once the FIN is linked, PayNow becomes invisible infrastructure and you stop thinking about it. Treat mobile proxies as disposable labels rather than identity, and it stays that way.
