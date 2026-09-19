@@ -145,7 +145,7 @@ export function Ir21WithholdCalculator() {
           Last reviewed {IR21_WITHHOLD_LAST_REVIEWED}. Orientation only — not tax
           advice. See{" "}
           <a
-            href="https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreigners-leaving-singapore"
+            href="https://www.iras.gov.sg/taxes/individual-income-tax/employers/tax-clearance-for-foreign-spr-employees-(ir21)"
             className="font-medium text-canopy no-underline hover:underline"
             target="_blank"
             rel="noreferrer"
