@@ -659,3 +659,65 @@ describe("todaySgt (deadline anchor)", () => {
     assert.equal(newStamp.toISOString().slice(0, 10), "2026-03-02");
   });
 });
+
+describe("audit regressions (phantom costs and clamped residuals)", () => {
+  it("port-out is priced at the port fee, not a slice of the replace fee", () => {
+    const r = estimateSimOtpKeep({
+      strategy: "port-out",
+      monthsNeeded: 3,
+      prepaidMonthlySgd: 15,
+      postpaidMonthlySgd: 40,
+      portOneTimeSgd: 30,
+      replaceOneTimeSgd: 200,
+    });
+    // Adding 25% of the unrelated 200 replace fee made this 80.
+    assert.equal(r.keepCostSgd, 30);
+  });
+
+  it("the rebate clawback sits on the ETF path, not the transfer path", () => {
+    const transfer = estimateFibreBroadbandEtf({
+      mode: "transfer-takeover",
+      monthsRemaining: 6,
+      monthlyFeeSgd: 50,
+      etfSgd: 200,
+      transferFeeSgd: 60,
+      rebateClawbackSgd: 120,
+    });
+    assert.equal(transfer.pathCostSgd, 60);
+
+    const etf = estimateFibreBroadbandEtf({
+      mode: "pay-etf",
+      monthsRemaining: 6,
+      monthlyFeeSgd: 50,
+      etfSgd: 200,
+      transferFeeSgd: 60,
+      rebateClawbackSgd: 120,
+    });
+    assert.equal(etf.pathCostSgd, 320);
+  });
+
+  it("device damage beyond the bond is still billed", () => {
+    const r = estimateSchoolDeviceBond({
+      mode: "damage-hold",
+      bondSgd: 300,
+      damageSgd: 900,
+      adminFeeSgd: 0,
+      overdueDays: 0,
+      overdueDailySgd: 0,
+    });
+    // Clamping the excess made net stop moving once damage passed the bond.
+    assert.equal(r.netSketchSgd, -600);
+  });
+
+  it("cca kit damage beyond the bond is still billed", () => {
+    const r = estimateSchoolCcaKitBond({
+      mode: "damage-hold",
+      bondSgd: 200,
+      damageSgd: 800,
+      adminFeeSgd: 0,
+      overdueDays: 0,
+      overdueDailySgd: 0,
+    });
+    assert.equal(r.netSketchSgd, -600);
+  });
+});

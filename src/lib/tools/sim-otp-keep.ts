@@ -56,7 +56,10 @@ export function estimateSimOtpKeep(inputs: SimOtpInputs): SimOtpResult {
 
   const keepPrepaid = money(prepaidMonthlySgd * monthsNeeded);
   const keepPostpaid = money(postpaidMonthlySgd * monthsNeeded);
-  const portPath = money(portOneTimeSgd + replaceOneTimeSgd * 0.25);
+  // Porting costs the port fee. It previously carried 25% of the unrelated
+  // "replace the number" one-time cost, which inflated the port path and
+  // flipped the recommendation at the shipped defaults.
+  const portPath = money(portOneTimeSgd);
   const dropReplace = money(replaceOneTimeSgd);
 
   const costs: Record<SimStrategy, number> = {

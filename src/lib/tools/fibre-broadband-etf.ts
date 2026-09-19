@@ -57,7 +57,10 @@ export function estimateFibreBroadbandEtf(
 
   const serveCost = money(monthlyFeeSgd * monthsRemaining);
   const etfCost = money(etfSgd + rebateClawbackSgd);
-  const transferCost = money(transferFeeSgd + rebateClawbackSgd);
+  // The clawback sits on the ETF path ("Pay ETF + rebate clawback"), which is
+  // also how the page describes the comparison. Adding it here too made the
+  // transfer path contradict its own label.
+  const transferCost = money(transferFeeSgd);
 
   const costs: Record<FibreEtfMode, number> = {
     "serve-notice": serveCost,

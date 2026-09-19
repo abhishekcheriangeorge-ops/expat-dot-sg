@@ -73,9 +73,12 @@ export function estimateSchoolDeviceBond(
     cashInSgd = bondSgd;
     cashOutSgd = money(adminFeeSgd + overdueTotal);
   } else if (mode === "damage-hold") {
-    // Damage is deducted from the returned bond — not charged again on top.
+    // Damage comes off the returned bond rather than being charged twice, but
+    // anything beyond the bond is still owed. Dropping that residual made the
+    // net stop responding to damage once it passed the bond value.
+    const damageResidual = Math.max(0, damageSgd - bondSgd);
     cashInSgd = money(Math.max(0, bondSgd - damageSgd));
-    cashOutSgd = money(adminFeeSgd + overdueTotal);
+    cashOutSgd = money(adminFeeSgd + overdueTotal + damageResidual);
   } else {
     // Forfeit: bond is kept (no cash in) and replacement may be billed.
     cashInSgd = 0;
