@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
-import { HomeHero } from "@/components/home/HomeHero";
-import { HomePillars } from "@/components/home/HomePillars";
+import {
+  HomeHero,
+  HomePillars,
+  HomeRent,
+  HomeSourcing,
+  HomeTools,
+} from "@/components/home";
+import { getHomeStats } from "@/lib/home/stats";
 import { JsonLd } from "@/components/seo";
 import {
   SITE_DESCRIPTION,
@@ -21,12 +27,17 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomePage() {
+export default async function HomePage() {
+  const stats = await getHomeStats();
+
   return (
     <>
       <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
-      <HomeHero />
-      <HomePillars />
+      <HomeHero stats={stats} />
+      <HomeRent stats={stats} />
+      <HomeTools stats={stats} />
+      <HomePillars stats={stats} />
+      <HomeSourcing stats={stats} />
     </>
   );
 }

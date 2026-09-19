@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { pillars } from "@/lib/site";
+import type { HomeStats } from "@/lib/home/stats";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII"] as const;
 
@@ -27,7 +27,7 @@ const EDITORS = [
   },
 ];
 
-export function HomePillars() {
+export function HomePillars({ stats }: { stats: HomeStats }) {
   return (
     <>
       <section className="bg-paper px-5 py-12 sm:px-8">
@@ -77,11 +77,11 @@ export function HomePillars() {
               Seven pillars, one map
             </h2>
             <span className="text-xs font-bold uppercase tracking-[0.14em] text-ink-faint">
-              Seven
+              {stats.guides} guides
             </span>
           </div>
 
-          {pillars.map((pillar, i) => (
+          {stats.pillarWeights.map((pillar, i) => (
             <Link
               key={pillar.slug}
               href={pillar.href}
@@ -95,7 +95,7 @@ export function HomePillars() {
                   {pillar.label} — {pillar.tagline}
                 </span>
                 <span className="mt-1 block max-w-2xl text-sm leading-relaxed text-ink-muted">
-                  {pillar.summary}
+                  {pillar.guides} guides
                 </span>
               </span>
               <span className="text-xs font-bold uppercase tracking-[0.1em] text-ink transition-colors group-hover:text-tungsten">
@@ -106,43 +106,6 @@ export function HomePillars() {
         </div>
       </section>
 
-      <section className="bg-paper px-5 py-10 sm:px-8">
-        <div className="mx-auto max-w-[var(--max-page)]">
-          <div className="grid items-center gap-8 rounded bg-canopy-deep p-10 text-paper sm:p-12 lg:grid-cols-[1.2fr_0.8fr]">
-            <div>
-              <h2 className="font-display text-3xl font-medium leading-tight sm:text-4xl">
-                Year three should feel{" "}
-                <em className="italic text-tungsten-soft">inevitable,</em> not
-                accidental.
-              </h2>
-              <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-[#b9b09a]">
-                Arriving, living, and leaving — every calculator and checklist
-                in one place.
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-3 lg:justify-end">
-              <Link
-                href="/arriving"
-                className="inline-flex min-h-[44px] items-center bg-tungsten-soft px-7 py-3.5 text-[13px] font-bold uppercase tracking-[0.06em] text-ink no-underline transition-colors hover:bg-paper"
-              >
-                Begin arriving →
-              </Link>
-              <Link
-                href="/living"
-                className="inline-flex min-h-[44px] items-center border border-paper/30 px-7 py-3.5 text-[13px] font-semibold uppercase tracking-[0.06em] text-paper no-underline transition-colors hover:border-paper/60"
-              >
-                Explore living
-              </Link>
-              <Link
-                href="/journeys/leaving"
-                className="inline-flex min-h-[44px] items-center border border-paper/30 px-7 py-3.5 text-[13px] font-semibold uppercase tracking-[0.06em] text-paper no-underline transition-colors hover:border-paper/60"
-              >
-                Leaving playbook
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

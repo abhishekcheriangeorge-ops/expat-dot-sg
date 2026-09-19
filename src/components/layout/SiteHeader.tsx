@@ -32,20 +32,6 @@ export function SiteHeader() {
 
   return (
     <header className="sticky inset-x-0 top-0 z-40">
-      <div className="bg-canopy-deep text-tungsten-soft">
-        <div className="mx-auto flex max-w-[var(--max-page)] items-center justify-between gap-4 px-5 py-2 text-xs font-semibold uppercase tracking-[0.12em] sm:px-8">
-          <Link
-            href="/guides/employment-pass-singapore"
-            className="text-tungsten-soft no-underline hover:text-paper"
-          >
-            Singapore · Weekly briefing · Nº 042
-          </Link>
-          <span className="hidden sm:inline">
-            EP S$5,600 · Tiong Bahru 2-bed S$6,800 · UWC waitlist open
-          </span>
-        </div>
-      </div>
-
       <div className="border-b-[3px] border-double border-ink/70 bg-paper/95 backdrop-blur-md">
         <div className="mx-auto flex h-16 max-w-[var(--max-page)] items-center justify-between gap-6 px-5 sm:px-8">
           <Link

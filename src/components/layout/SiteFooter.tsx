@@ -11,7 +11,7 @@ export function SiteFooter() {
               expat<span className="text-tungsten-soft">.sg</span>
             </p>
             <p className="mt-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-tungsten-soft">
-              The Straits standard · Nº 042
+              Singapore expat life, from the offer letter to year three
             </p>
             <p className="mt-3 text-sm leading-relaxed text-[#b9b09a]">
               Singapore, decided — not debated. Passes, rents, schools, and
