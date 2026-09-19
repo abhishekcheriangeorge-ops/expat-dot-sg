@@ -71,6 +71,105 @@
     }
   }
 
+  /* ── Reveal primitives (replaces framer-motion) ─────────────────────
+     Base state is VISIBLE so no-JS and older browsers always see content.
+     Only when scripting is available do we hide-then-reveal on scroll. */
+  @media (scripting: enabled) {
+    @media (prefers-reduced-motion: no-preference) {
+      [data-reveal]:not([data-revealed]) {
+        opacity: 0;
+        transform: translateY(var(--reveal-y, 16px));
+      }
+
+      [data-revealed] {
+        animation: reveal-rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+        animation-delay: var(--reveal-delay, 0ms);
+      }
+
+      [data-reveal-item] {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      [data-reveal-group][data-revealed] > [data-reveal-item] {
+        animation: reveal-rise 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
+        --reveal-y: 20px;
+      }
+
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(1) { animation-delay: 120ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(2) { animation-delay: 200ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(3) { animation-delay: 280ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(4) { animation-delay: 360ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(5) { animation-delay: 440ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(6) { animation-delay: 520ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(7) { animation-delay: 600ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(8) { animation-delay: 680ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(9) { animation-delay: 760ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(10) { animation-delay: 840ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(11) { animation-delay: 920ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(12) { animation-delay: 1000ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(13) { animation-delay: 1080ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(14) { animation-delay: 1160ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(15) { animation-delay: 1240ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(16) { animation-delay: 1320ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(17) { animation-delay: 1400ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(18) { animation-delay: 1480ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(19) { animation-delay: 1560ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(20) { animation-delay: 1640ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(21) { animation-delay: 1720ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(22) { animation-delay: 1800ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(23) { animation-delay: 1880ms; }
+        [data-reveal-group][data-revealed] > [data-reveal-item]:nth-child(24) { animation-delay: 1960ms; }
+    }
+  }
+
+  @keyframes reveal-rise {
+    from {
+      opacity: 0;
+      transform: translateY(var(--reveal-y, 16px));
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    [data-ken-burns] {
+      animation: ken-burns-drift 22s linear both;
+      will-change: transform;
+    }
+
+    [data-ken-burns-light] {
+      animation: ken-burns-light 14s ease-in-out infinite;
+    }
+  }
+
+  @keyframes ken-burns-drift {
+    from {
+      transform: scale(1.1) translateX(0%);
+    }
+    to {
+      transform: scale(1) translateX(-1.5%);
+    }
+  }
+
+  @keyframes ken-burns-light {
+    0%,
+    100% {
+      opacity: 0.35;
+    }
+    25% {
+      opacity: 0.55;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0.6;
+    }
+  }
+
   body {
     background: var(--paper);
     color: var(--ink);

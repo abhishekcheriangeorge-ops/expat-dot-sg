@@ -1,66 +1,32 @@
 "use client";
 
-import { motion, useReducedMotion, type HTMLMotionProps } from "framer-motion";
-import type { ReactNode } from "react";
-
-const easeOutExpo: [number, number, number, number] = [0.16, 1, 0.3, 1];
-
-const container = {
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren: 0.08,
-      delayChildren: 0.12,
-    },
-  },
-};
-
-const item = {
-  hidden: { opacity: 0, y: 20 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.65, ease: easeOutExpo },
-  },
-};
+import type { ComponentPropsWithoutRef, ReactNode } from "react";
+import { useReveal } from "./useReveal";
 
 type StaggerProps = {
   children: ReactNode;
   className?: string;
-} & Omit<HTMLMotionProps<"div">, "children">;
+} & Omit<ComponentPropsWithoutRef<"div">, "children">;
 
-/** Staggered pillar / list reveal */
+/**
+ * Staggered list reveal. The container flips to revealed on scroll; CSS
+ * `nth-child` gives each item its escalating delay, so no index has to be
+ * threaded through React.
+ */
 export function Stagger({ children, className, ...rest }: StaggerProps) {
-  const reduce = useReducedMotion();
-  if (reduce) {
-    return <div className={className}>{children}</div>;
-  }
+  const ref = useReveal<HTMLDivElement>("-8% 0px");
+
   return (
-    <motion.div
-      className={className}
-      variants={container}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: true, margin: "-8% 0px" }}
-      {...rest}
-    >
+    <div ref={ref} data-reveal-group="" className={className} {...rest}>
       {children}
-    </motion.div>
+    </div>
   );
 }
 
-export function StaggerItem({
-  children,
-  className,
-  ...rest
-}: StaggerProps) {
-  const reduce = useReducedMotion();
-  if (reduce) {
-    return <div className={className}>{children}</div>;
-  }
+export function StaggerItem({ children, className, ...rest }: StaggerProps) {
   return (
-    <motion.div className={className} variants={item} {...rest}>
+    <div data-reveal-item="" className={className} {...rest}>
       {children}
-    </motion.div>
+    </div>
   );
 }

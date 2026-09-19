@@ -1,16 +1,14 @@
 "use client";
 
-import { motion, useReducedMotion, type HTMLMotionProps } from "framer-motion";
-import type { ReactNode } from "react";
+import type { ComponentPropsWithoutRef, ReactNode } from "react";
+import { useReveal } from "./useReveal";
 
 type FadeInProps = {
   children: ReactNode;
   className?: string;
   delay?: number;
   y?: number;
-} & Omit<HTMLMotionProps<"div">, "children">;
-
-const easeOutExpo: [number, number, number, number] = [0.16, 1, 0.3, 1];
+} & Omit<ComponentPropsWithoutRef<"div">, "children">;
 
 /** Soft opacity + rise reveal — primary motion primitive */
 export function FadeIn({
@@ -18,22 +16,26 @@ export function FadeIn({
   className,
   delay = 0,
   y = 16,
+  style,
   ...rest
 }: FadeInProps) {
-  const reduce = useReducedMotion();
-  if (reduce) {
-    return <div className={className}>{children}</div>;
-  }
+  const ref = useReveal<HTMLDivElement>();
+
   return (
-    <motion.div
+    <div
+      ref={ref}
+      data-reveal=""
       className={className}
-      initial={{ opacity: 0, y }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-10% 0px" }}
-      transition={{ duration: 0.7, delay, ease: easeOutExpo }}
+      style={
+        {
+          ...style,
+          "--reveal-delay": `${delay * 1000}ms`,
+          "--reveal-y": `${y}px`,
+        } as React.CSSProperties
+      }
       {...rest}
     >
       {children}
-    </motion.div>
+    </div>
   );
 }
