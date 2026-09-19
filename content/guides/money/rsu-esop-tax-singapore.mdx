@@ -34,54 +34,52 @@ faqs:
 relatedEntities: []
 draft: false
 ---
-Tech and finance offers wave “equity” as if it were free money. On Singapore tax rules it is usually **employment income** — taxable at vesting or exercise — and leaving the country can trigger a **deemed exercise** bill before your last payslip clears.
+Tech and finance offers wave equity around as if it were free money bolted onto the salary. Under Singapore's rules it usually isn't a bonus at all — it's employment income, taxed when it vests or when you exercise. And leaving the country can pull a **deemed exercise** bill forward so it lands before your last payslip clears.
 
-## Tax points (plain English)
+## When the tax actually lands
 
 | Plan type | Usual Singapore tax point | Taxable amount (conceptually) |
 | --- | --- | --- |
-| RSU / share award (ESOW with vesting) | When shares **vest** (or when sale restriction lifts) | Open-market value at that date − price you paid (often S$0) |
-| Stock options (ESOP) | When you **exercise** | Market value at exercise − exercise price |
-| Later share-price rise after tax point | Generally **not** a Singapore capital-gains tax event | Banking / FX costs still matter |
+| RSU / share award (ESOW with vesting) | When shares vest, or when a sale restriction lifts | Open-market value at that date − price you paid (often S$0) |
+| Stock options (ESOP) | When you exercise | Market value at exercise − exercise price |
+| Later share-price rise after the tax point | Generally not a Singapore capital-gains tax event | Banking / FX costs still matter |
 
-Grants while you are exercising employment **in Singapore** stay Singapore-taxable even if the parent is US-listed and you are overseas on the vest/exercise date. Grants tied purely to overseas employment are a different analysis — get HR/tax advice before you assume zero Singapore tax.
+The thing to hold onto is that the tax point follows your employment, not your address on the day. If you were exercising your employment in Singapore when the grant was made, it stays Singapore-taxable even if the parent is US-listed and you're sitting overseas when it vests. Grants tied purely to overseas employment are a different analysis, and that's a question for HR or a tax adviser rather than something to assume your way out of.
 
 <OfficialSource>
 IRAS overview: [Gains from stock options / share plans](https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/employment-income/gains-from-the-exercise-of-stock-options). Detailed rules: [ESOP/ESOW e-Tax Guide (PDF)](https://www.iras.gov.sg/docs/default-source/e-tax/etaxguides_iit_esop_2026-01-30.pdf).
 </OfficialSource>
 
-## Employer reporting vs “my US broker forgot”
+## When your broker and your payroll never speak to each other
 
-Singapore employers should report ESOP/ESOW gains on **IR8A** with **Appendix 8B**. Reddit failure mode: US parent + outsourced local payroll that never receives vest files.
+Singapore employers are supposed to report ESOP and ESOW gains on IR8A, with Appendix 8B. What goes wrong is structural rather than malicious: a US parent runs the equity plan, local payroll is outsourced to a third party, and the vest files never make the journey between them. Payroll doesn't know the vest happened, so it doesn't report it, and you find out when you're staring at a return with a large number missing from it.
 
 | Situation | What to do |
 | --- | --- |
-| Local entity + payroll | Ask HR for Appendix 8B draft when large vests hit |
-| EOR / no local entity | You may still have Singapore employment income — call IRAS or a tax agent; do not omit gains because payroll “can’t file” |
-| Sell-to-cover withholding | Confirm whether Singapore tax was actually remitted vs only US broker tax |
+| Local entity + payroll | Ask HR for the Appendix 8B draft when a large vest hits |
+| EOR / no local entity | You may still have Singapore employment income. Call IRAS or a tax agent, and don't leave the gains off simply because payroll says it can't file them |
+| Sell-to-cover withholding | Check whether Singapore tax was actually remitted, or only US broker tax |
 
-## Exit trap — deemed exercise
+That last row is the one that lulls people. Seeing tax withheld at the broker feels like the matter has been settled, and it may only have settled the US side of it.
 
-For foreign employees (and some PR situations) leaving Singapore employment, IRAS applies a **deemed exercise** rule so unexercised / unvested gains can be taxed at **tax clearance** time rather than years later. That interacts with [IR21 withholding](/guides/tax-clearance-when-leaving).
+## The exit trap: deemed exercise
 
-Before you resign or take an overseas posting:
+For foreign employees leaving Singapore employment — and in some PR situations too — IRAS applies a deemed exercise rule. Unexercised options and unvested awards can be taxed at tax clearance rather than years later, which means the bill can arrive while you're packing, calculated on shares you don't hold yet and can't sell. It runs alongside [IR21 withholding](/guides/tax-clearance-when-leaving), so the two tend to land together.
 
-1. Ask HR whether the company uses IRAS **tracking** options (defers tax to actual vest/exercise under approved schemes).  
-2. Model cash needed if large unvested RSUs are deemed taxable at exit.  
-3. Do not schedule a huge vest for the week after you cancel your EP without reading the clearance calendar.
+Three things worth doing before you resign or accept an overseas posting:
 
-## Offer math — do not underwrite rent on RSUs
+1. Ask HR whether the company uses IRAS tracking options, which defer the tax to the actual vest or exercise under approved schemes.
+2. Model the cash you'd need if a large block of unvested RSUs is deemed taxable at exit.
+3. Don't schedule a huge vest for the week after you cancel your EP without reading the clearance calendar first.
 
-Fold equity into [salary package decoding](/guides/salary-package-decoding) as:
+## Don't underwrite the rent with RSUs
 
-1. Expected annual vest **in SGD** at a conservative share price  
-2. Minus Singapore tax at your expected marginal rate  
-3. Minus lock-ups / blackouts / single-stock risk  
+Equity belongs in your [salary package decoding](/guides/salary-package-decoding) math, but discount it three times before you believe it. Start with the expected annual vest in SGD at a conservative share price. Take off Singapore tax at your expected marginal rate. Then take off again for lock-ups, blackouts, and the fact that the whole lot is one company's stock.
 
-Use fixed salary for rent and school. Treat RSUs as savings-rate fuel, not mortgage-of-the-lease fuel.
+Whatever survives that is real money, and it still isn't rent money. Landlords and schools want a fixed number on a fixed date and won't be moved by the share price. Use your salary for those, and treat equity as savings-rate fuel instead.
 
 ## Related reading
 
-- Tax residency timing: [IRAS tax residency](/guides/iras-tax-residency-filing)  
-- Overseas income myths: [foreign income and tax](/guides/foreign-income-and-tax)  
+- Tax residency timing: [IRAS tax residency](/guides/iras-tax-residency-filing)
+- Overseas income myths: [foreign income and tax](/guides/foreign-income-and-tax)
 - Exit cashflow: [leaving costs](/guides/leaving-singapore-costs)
