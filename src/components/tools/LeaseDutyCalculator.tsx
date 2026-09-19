@@ -109,9 +109,10 @@ export function LeaseDutyCalculator() {
             className="mt-3 w-full max-w-xs border border-ink/15 bg-paper-elevated px-4 py-3 text-ink outline-none focus:border-canopy"
           />
           <p className="mt-2 max-w-md text-xs text-ink-faint">
-            IRAS averages contractual vs market rent and can include furniture,
-            service, or similar monthly payments in AAR. Leave at 0 if rent is
-            all-in.
+            AAR is the <em>higher</em> of your contractual rent and the
+            annualised market rent, not an average of the two. It also takes in
+            furniture, fittings, maintenance and service charges, but not GST.
+            Leave at 0 if your rent is all-in.
           </p>
         </div>
       </fieldset>

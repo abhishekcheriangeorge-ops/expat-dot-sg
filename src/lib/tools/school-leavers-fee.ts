@@ -66,12 +66,13 @@ export function estimateSchoolLeaversFee(
       ? 1
       : 1 - siblingDiscountFraction * ((departingChildren - 1) / departingChildren);
 
+  // Per-child figures stay unrounded: they are multiplied by the child count
+  // below, so rounding here would scale the error with the number of children.
   const perChild: Record<LeaversFeeMode, number> = {
     "core-only": coreFeeSgd,
-    "core-plus-yearbook": money(coreFeeSgd + yearbookSgd * discountMultiplier),
-    "full-optional": money(
+    "core-plus-yearbook": coreFeeSgd + yearbookSgd * discountMultiplier,
+    "full-optional":
       coreFeeSgd + (yearbookSgd + optionalSgd) * discountMultiplier,
-    ),
   };
 
   const costs: Record<LeaversFeeMode, number> = {

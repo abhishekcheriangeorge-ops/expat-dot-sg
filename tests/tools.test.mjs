@@ -28,11 +28,11 @@ import { estimateDrivingInsuranceGap } from "../src/lib/tools/driving-insurance-
 import { estimateFibreBroadbandEtf } from "../src/lib/tools/fibre-broadband-etf.ts";
 import { estimateInsurancePortability } from "../src/lib/tools/insurance-portability-float.ts";
 import { estimateFdwLevy, FDW_LEVY_BANDS } from "../src/lib/tools/fdw-levy.ts";
+import { estimateSchoolLeaversFee } from "../src/lib/tools/school-leavers-fee.ts";
 import { todaySgt } from "../src/lib/tools/_today.ts";
 import { estimatePetQuarantineFloat } from "../src/lib/tools/pet-quarantine-float.ts";
 import { estimatePharmacyLastRefillFloat } from "../src/lib/tools/pharmacy-last-refill-float.ts";
 import { estimateSchoolBusLastWeekFloat } from "../src/lib/tools/school-bus-last-week-float.ts";
-import { estimateSchoolLeaversFee } from "../src/lib/tools/school-leavers-fee.ts";
 import { estimateSchoolDepositClawback } from "../src/lib/tools/school-deposit-clawback.ts";
 import { estimateSimOtpKeep } from "../src/lib/tools/sim-otp-keep.ts";
 import { estimateStorageMonths } from "../src/lib/tools/storage-months.ts";
@@ -760,5 +760,29 @@ describe("audit regressions (rate precision)", () => {
     });
     // $5.35 rounded to $5 first understated 12 statements by 4 dollars.
     assert.equal(r.cashOutSgd, 64);
+  });
+});
+
+describe("audit regressions (input guards and IRAS accuracy)", () => {
+  it("a non-finite custom levy falls back to the band rate", () => {
+    for (const bad of [Infinity, NaN, -Infinity]) {
+      const r = estimateFdwLevy({ bandId: "full-first", months: 6, customMonthly: bad });
+      assert.ok(Number.isFinite(r.total), `total should be finite for ${bad}`);
+      assert.equal(r.monthly, 300);
+    }
+  });
+
+  it("leavers fee keeps the per-child figure unrounded before multiplying", () => {
+    // 5 children at a 0.4 sibling fraction puts the per-child cost at 137.40.
+    // Rounding that to 137 first gives 685; carrying the cents gives 687.
+    const r = estimateSchoolLeaversFee({
+      mode: "core-plus-yearbook",
+      coreFeeSgd: 100,
+      yearbookSgd: 55,
+      optionalSgd: 0,
+      departingChildren: 5,
+      siblingDiscountFraction: 0.4,
+    });
+    assert.equal(r.pathCostSgd, 687);
   });
 });

@@ -85,7 +85,11 @@ export function estimateCpfWithdrawal(
   const departure = parseYmd(inputs.departureDate);
   const balanceSketch = Math.max(0, Number(inputs.balanceSketch) || 0);
 
-  if (!departure || processDays <= 0) {
+  // processDays is floored elsewhere, so a fractional window like 0.5 used to
+  // pass this guard and then become 0, sending a perfectly valid departure
+  // date into the invalid-date branch.
+  const windowInvalid = !Number.isFinite(processDays) || processDays < 1;
+  if (!departure || windowInvalid) {
     return {
       departureDate: null,
       windowId: preset.id,
@@ -94,7 +98,12 @@ export function estimateCpfWithdrawal(
       applyBy: null,
       daysUntilApplyBy: null,
       balanceSketch,
-      note: "Enter a valid departure date and a positive processing window in days.",
+      // Name the input that is actually wrong. Telling someone their departure
+      // date is invalid when the real problem is a half-day processing window
+      // sends them looking in the wrong place.
+      note: !departure
+        ? "Enter a departure date in YYYY-MM-DD format."
+        : "Processing window must be at least 1 whole day.",
     };
   }
 

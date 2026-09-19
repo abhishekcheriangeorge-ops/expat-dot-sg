@@ -47,10 +47,12 @@ export function estimateFdwLevy(inputs: FdwLevyInputs): FdwLevyResult {
     FDW_LEVY_BANDS.find((b) => b.id === inputs.bandId) ?? FDW_LEVY_BANDS[1];
   const months = Math.max(0, Math.floor(Number(inputs.months) || 0));
   const custom = inputs.customMonthly;
-  const monthly =
-    custom != null && custom > 0
-      ? Math.round(Number(custom) * 100) / 100
-      : band.monthly;
+  const customValue = Number(custom);
+  const useCustom =
+    custom != null && Number.isFinite(customValue) && customValue > 0;
+  const monthly = useCustom
+    ? Math.round(customValue * 100) / 100
+    : band.monthly;
   const total = Math.round(monthly * months * 100) / 100;
 
   let note = FDW_LEVY_NOTE;
