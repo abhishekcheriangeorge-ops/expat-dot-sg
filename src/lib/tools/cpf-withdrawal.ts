@@ -1,4 +1,6 @@
 /** CPF withdrawal timing sketch for leavers — orientation, not CPF Board advice */
+import { todaySgt } from "./_today.ts";
+
 
 export const CPF_WITHDRAWAL_LAST_REVIEWED = "2026-09-15";
 export const CPF_WITHDRAWAL_NOTE =
@@ -64,13 +66,6 @@ function addDays(dt: Date, days: number): Date {
   return new Date(dt.getTime() + days * 86_400_000);
 }
 
-function todayUtc(): Date {
-  const now = new Date();
-  return new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
-  );
-}
-
 function dayDiff(start: Date, end: Date): number {
   return Math.round((end.getTime() - start.getTime()) / 86_400_000);
 }
@@ -104,7 +99,7 @@ export function estimateCpfWithdrawal(
   }
 
   const applyBy = addDays(departure, -processDays);
-  const daysUntil = dayDiff(todayUtc(), applyBy);
+  const daysUntil = dayDiff(todaySgt(), applyBy);
 
   let note = CPF_WITHDRAWAL_NOTE;
   if (daysUntil < 0) {

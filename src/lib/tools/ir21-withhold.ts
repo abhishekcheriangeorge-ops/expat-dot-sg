@@ -1,4 +1,6 @@
 /** IR21 employer tax-clearance withhold sketch — orientation, not IRAS advice */
+import { todaySgt } from "./_today.ts";
+
 
 export const IR21_WITHHOLD_LAST_REVIEWED = "2026-09-15";
 export const IR21_WITHHOLD_NOTE =
@@ -64,13 +66,6 @@ function addDays(dt: Date, days: number): Date {
   return new Date(dt.getTime() + days * 86_400_000);
 }
 
-function todayUtc(): Date {
-  const now = new Date();
-  return new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
-  );
-}
-
 function dayDiff(start: Date, end: Date): number {
   return Math.round((end.getTime() - start.getTime()) / 86_400_000);
 }
@@ -107,7 +102,7 @@ export function estimateIr21Withhold(
   }
 
   const release = addDays(cessation, clearDays);
-  const daysUntil = dayDiff(todayUtc(), release);
+  const daysUntil = dayDiff(todaySgt(), release);
   let note = IR21_WITHHOLD_NOTE;
   if (daysUntil < 0) {
     note =

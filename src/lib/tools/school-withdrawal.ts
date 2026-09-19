@@ -1,4 +1,6 @@
 /** International / private school withdrawal notice sketch — orientation, not legal advice */
+import { todaySgt } from "./_today.ts";
+
 
 export const SCHOOL_WITHDRAWAL_LAST_REVIEWED = "2026-09-15";
 export const SCHOOL_WITHDRAWAL_NOTE =
@@ -48,13 +50,6 @@ function formatYmd(dt: Date): string {
   return `${y}-${mo}-${d}`;
 }
 
-function todayUtc(): Date {
-  const now = new Date();
-  return new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
-  );
-}
-
 function addDays(dt: Date, days: number): Date {
   return new Date(dt.getTime() + days * 86_400_000);
 }
@@ -88,7 +83,7 @@ export function estimateSchoolWithdrawalNotice(
   }
 
   const deadline = addDays(last, -(weeks * 7));
-  const today = todayUtc();
+  const today = todaySgt();
   const daysUntil = dayDiff(today, deadline);
   const midTerm =
     termEnd != null ? dayDiff(last, termEnd) > 0 : null;

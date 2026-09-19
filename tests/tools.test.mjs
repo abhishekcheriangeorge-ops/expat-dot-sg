@@ -28,6 +28,7 @@ import { estimateDrivingInsuranceGap } from "../src/lib/tools/driving-insurance-
 import { estimateFibreBroadbandEtf } from "../src/lib/tools/fibre-broadband-etf.ts";
 import { estimateInsurancePortability } from "../src/lib/tools/insurance-portability-float.ts";
 import { estimateFdwLevy, FDW_LEVY_BANDS } from "../src/lib/tools/fdw-levy.ts";
+import { todaySgt } from "../src/lib/tools/_today.ts";
 import { estimatePetQuarantineFloat } from "../src/lib/tools/pet-quarantine-float.ts";
 import { estimatePharmacyLastRefillFloat } from "../src/lib/tools/pharmacy-last-refill-float.ts";
 import { estimateSchoolBusLastWeekFloat } from "../src/lib/tools/school-bus-last-week-float.ts";
@@ -618,5 +619,43 @@ describe("audit regressions (money-critical)", () => {
     const bad = estimateFdwLevy({ bandId: "full-first", months: -3 });
     assert.equal(bad.months, 0);
     assert.equal(bad.total, 0);
+  });
+});
+
+describe("todaySgt (deadline anchor)", () => {
+  it("matches Singapore's calendar date, not the UTC one", () => {
+    // Independent source of truth: ask Intl what the date is in Singapore.
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Singapore",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).format(new Date());
+    assert.equal(todaySgt().toISOString().slice(0, 10), parts);
+  });
+
+  it("is a pure midnight-UTC date stamp, so day arithmetic stays exact", () => {
+    const d = todaySgt();
+    assert.equal(d.getUTCHours(), 0);
+    assert.equal(d.getUTCMinutes(), 0);
+    assert.equal(d.getUTCSeconds(), 0);
+    assert.equal(d.getUTCMilliseconds(), 0);
+  });
+
+  it("would have differed from the old UTC-date behaviour before 08:00 SGT", () => {
+    // Reproduce both rules against a fixed instant: 2026-03-02T01:30 SGT,
+    // which is still 2026-03-01 in UTC. The old code returned 1 March and
+    // handed the user an extra day.
+    const instant = Date.UTC(2026, 2, 1, 17, 30); // 2026-03-02 01:30 +08
+    const oldRule = new Date(instant);
+    const oldStamp = new Date(
+      Date.UTC(oldRule.getUTCFullYear(), oldRule.getUTCMonth(), oldRule.getUTCDate()),
+    );
+    const sgt = new Date(instant + 8 * 3_600_000);
+    const newStamp = new Date(
+      Date.UTC(sgt.getUTCFullYear(), sgt.getUTCMonth(), sgt.getUTCDate()),
+    );
+    assert.equal(oldStamp.toISOString().slice(0, 10), "2026-03-01");
+    assert.equal(newStamp.toISOString().slice(0, 10), "2026-03-02");
   });
 });

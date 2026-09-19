@@ -1,4 +1,6 @@
 /** MOM IPA enter-and-issue window sketch — orientation, not advice */
+import { todaySgt } from "./_today.ts";
+
 
 export const IPA_ENTER_ISSUE_MONTHS = 6;
 export const IPA_NOTIFICATION_LETTER_DAYS = 30;
@@ -73,13 +75,6 @@ function wholeDaysBetween(from: Date, to: Date): number {
   return Math.floor((to.getTime() - from.getTime()) / 86_400_000);
 }
 
-function todayUtc(): Date {
-  const now = new Date();
-  return new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
-  );
-}
-
 export function estimateIpaWindow(inputs: IpaWindowInputs): IpaWindowResult {
   const ipa = parseYmd(inputs.ipaDate);
   const entry = parseYmd(inputs.entryDate);
@@ -107,7 +102,7 @@ export function estimateIpaWindow(inputs: IpaWindowInputs): IpaWindowResult {
   const issueInsideWindow =
     issue.getTime() >= ipa.getTime() && issue.getTime() <= deadline.getTime();
   // Days left from today; the entry→deadline span stays in the note below.
-  const daysUntilDeadline = wholeDaysBetween(todayUtc(), deadline);
+  const daysUntilDeadline = wholeDaysBetween(todaySgt(), deadline);
   const entryToDeadline = wholeDaysBetween(entry, deadline);
 
   let note: string;

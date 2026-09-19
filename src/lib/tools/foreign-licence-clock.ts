@@ -1,4 +1,6 @@
 /** Foreign driving licence conversion clock sketch — orientation, not SPF/TP advice */
+import { todaySgt } from "./_today.ts";
+
 
 export const FOREIGN_LICENCE_LAST_REVIEWED = "2026-09-15";
 export const FOREIGN_LICENCE_NOTE =
@@ -72,13 +74,6 @@ function addMonths(dt: Date, months: number): Date {
   return target;
 }
 
-function todayUtc(): Date {
-  const now = new Date();
-  return new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
-  );
-}
-
 function dayDiff(start: Date, end: Date): number {
   return Math.round((end.getTime() - start.getTime()) / 86_400_000);
 }
@@ -117,7 +112,7 @@ export function estimateForeignLicenceClock(
   }
 
   const deadline = addMonths(start, months);
-  const daysRemaining = dayDiff(todayUtc(), deadline);
+  const daysRemaining = dayDiff(todaySgt(), deadline);
   const deadlinePassed = daysRemaining < 0;
   const coversNeedUntil =
     needUntil != null ? needUntil.getTime() <= deadline.getTime() : null;

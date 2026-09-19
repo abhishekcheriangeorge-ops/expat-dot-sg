@@ -1,4 +1,6 @@
 /** HDB / renovation permit deposit return sketch — orientation, not HDB advice */
+import { todaySgt } from "./_today.ts";
+
 
 export const HDB_RENO_DEPOSIT_LAST_REVIEWED = "2026-09-15";
 export const HDB_RENO_DEPOSIT_NOTE =
@@ -57,13 +59,6 @@ function formatYmd(dt: Date): string {
 
 function addDays(dt: Date, days: number): Date {
   return new Date(dt.getTime() + days * 86_400_000);
-}
-
-function todayUtc(): Date {
-  const now = new Date();
-  return new Date(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()),
-  );
 }
 
 function dayDiff(start: Date, end: Date): number {
@@ -137,7 +132,7 @@ export function estimateHdbRenoDeposit(
   }
 
   const expected = addDays(inspection, holdDays);
-  const daysUntilRefund = dayDiff(todayUtc(), expected);
+  const daysUntilRefund = dayDiff(todaySgt(), expected);
 
   return {
     depositSgd,
