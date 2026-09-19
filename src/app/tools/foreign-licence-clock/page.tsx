@@ -4,11 +4,12 @@ import { JourneyHero } from "@/components/journeys";
 import { Breadcrumbs, JsonLd } from "@/components/seo";
 import { ForeignLicenceClockCalculator, ToolAbout } from "@/components/tools";
 import { breadcrumbJsonLd, buildPageMetadata } from "@/lib/seo";
+import { FOREIGN_LICENCE_SOURCE } from "@/lib/tools/foreign-licence-clock";
 
 export const metadata: Metadata = buildPageMetadata({
   title: "Foreign licence conversion clock",
   description:
-    "Sketch common Singapore foreign-driving-licence windows against arrival or pass-issue dates — orientation only, not SPF advice.",
+    "Count the Traffic Police window that actually applies to you: 12 months resident, 6 months if you drive for work, or 3 months as a new citizen or PR.",
   path: "/tools/foreign-licence-clock",
 });
 
@@ -30,7 +31,7 @@ export default function ForeignLicenceClockToolPage() {
       <JourneyHero
         eyebrow="Tools · Mobility"
         title="Foreign licence clock, sketched."
-        summary="Count common 6–12 month windows from arrival or pass issue before movers week or leave flights eat the calendar."
+        summary="Traffic Police run three different clocks — 12 months resident, 6 months if you drive for work, 3 months as a new citizen or PR. Count yours before movers week eats the calendar."
       />
       <div className="mx-auto max-w-[var(--max-page)] px-5 py-12 sm:px-8">
         <ForeignLicenceClockCalculator />
@@ -38,13 +39,15 @@ export default function ForeignLicenceClockToolPage() {
           how={[
       "Adds your window in months to the start date with day-of-month clamping.",
       "Counts days left from today, not from arrival.",
+      "Offers the three windows Traffic Police publish; pick the one matching your status, not your gut.",
       "Custom windows cap at 36 months.",
     ]}
           actions={[
       "Book the basic theory test early. Slots go before movers week fills the calendar.",
-      "Confirm the 12-month foreign-licence clock against Traffic Police guidance.",
+      "Check which clock is yours. Driving for work on a Work Permit or S Pass is 6 months from pass issue, not 12.",
     ]}
-          sourceLabel="Traffic Police"
+          sourceLabel="SPF Traffic Police — Singapore Driving Licence"
+          sourceHref={FOREIGN_LICENCE_SOURCE}
           reviewed="2026-09-15"
         />
 

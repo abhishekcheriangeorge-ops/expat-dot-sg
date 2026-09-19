@@ -4,12 +4,32 @@ import { todaySgt } from "./_today.ts";
 
 export const FOREIGN_LICENCE_LAST_REVIEWED = "2026-09-15";
 export const FOREIGN_LICENCE_NOTE =
-  "Singapore rules for driving on a foreign licence and converting to a local one depend on citizenship, pass type, and which foreign licence you hold. This sketch only counts calendar days from a stated start date across common folklore windows — confirm on SPF / Traffic Police pages before you drive.";
+  "Which window applies to you depends on your status, not on how long you have been here. Traffic Police publish three separate ones: 12 months of residence before a foreigner must convert, 6 months from work-pass issue if you drive for work, and 3 months from getting Singapore citizenship or PR. This sketch only counts calendar days from the start date you give it — confirm your own case with Traffic Police before you drive.";
 
+/** SPF Traffic Police page these windows are taken from. */
+export const FOREIGN_LICENCE_SOURCE =
+  "https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence";
+
+/**
+ * Windows as Traffic Police publish them, not as forums repeat them.
+ *
+ * Previously this offered "From pass issue · 12 months", which does not exist —
+ * the pass-issue rule is 6 months and applies to people who drive for work. It
+ * also called 6 months "folklore" when it is SPF's own figure, and omitted the
+ * 3-month window for new citizens and PRs entirely.
+ */
 export const LICENCE_WINDOW_PRESETS = [
-  { id: "arrive-12", label: "From arrival · 12 months", months: 12 },
-  { id: "pass-12", label: "From pass issue · 12 months", months: 12 },
-  { id: "short-6", label: "Short stay folklore · 6 months", months: 6 },
+  {
+    id: "arrive-12",
+    label: "Foreigner resident here · 12 months",
+    months: 12,
+  },
+  {
+    id: "work-6",
+    label: "Driving for work · 6 months from pass issue",
+    months: 6,
+  },
+  { id: "newsc-3", label: "New Singapore citizen or PR · 3 months", months: 3 },
   { id: "custom", label: "Custom months", months: 12 },
 ] as const;
 

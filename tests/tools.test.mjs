@@ -18,7 +18,7 @@ import { estimateSetupCash } from "../src/lib/tools/setup-cash.ts";
 import { estimateCpfWithdrawal } from "../src/lib/tools/cpf-withdrawal.ts";
 import { estimateIr21Withhold } from "../src/lib/tools/ir21-withhold.ts";
 import { estimateLeaseNotice } from "../src/lib/tools/lease-notice.ts";
-import { estimateForeignLicenceClock } from "../src/lib/tools/foreign-licence-clock.ts";
+import { LICENCE_WINDOW_PRESETS, estimateForeignLicenceClock } from "../src/lib/tools/foreign-licence-clock.ts";
 import { estimateIpaWindow } from "../src/lib/tools/ipa-window.ts";
 import { estimateSchoolWithdrawalNotice } from "../src/lib/tools/school-withdrawal.ts";
 import { estimateHdbRenoDeposit } from "../src/lib/tools/hdb-reno-deposit.ts";
@@ -784,5 +784,39 @@ describe("audit regressions (input guards and IRAS accuracy)", () => {
       siblingDiscountFraction: 0.4,
     });
     assert.equal(r.pathCostSgd, 687);
+  });
+});
+
+describe("foreign licence windows match Traffic Police", () => {
+  // Verified 2026-09-20 against
+  // https://www.police.gov.sg/Knowledge-Hub/Traffic/Traffic-Matters/Singapore-Driving-Licence
+  const byId = Object.fromEntries(LICENCE_WINDOW_PRESETS.map((p) => [p.id, p]));
+
+  it("offers 6 months from pass issue for driving for work, not 12", () => {
+    assert.equal(byId["work-6"].months, 6);
+    assert.equal(byId["pass-12"], undefined, "the invented 12-month pass window is gone");
+  });
+
+  it("offers the 3-month window for new citizens and PRs", () => {
+    assert.equal(byId["newsc-3"].months, 3);
+  });
+
+  it("keeps the 12-month residence window", () => {
+    assert.equal(byId["arrive-12"].months, 12);
+  });
+
+  it("no longer calls an official SPF figure folklore", () => {
+    for (const p of LICENCE_WINDOW_PRESETS) {
+      assert.ok(!/folklore/i.test(p.label), `${p.id} still says folklore`);
+    }
+  });
+
+  it("counts the 6-month work window to the right deadline", () => {
+    const r = estimateForeignLicenceClock({
+      startDate: "2026-01-15",
+      windowId: "work-6",
+    });
+    assert.equal(r.deadline, "2026-07-15");
+    assert.equal(r.months, 6);
   });
 });
